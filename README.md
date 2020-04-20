@@ -1,4 +1,4 @@
-# FoundryVTT 5th Edition Brazilian Portuguese
+# FoundryVTT Pathfinder 2e Brazilian Portuguese
 
 ## Português
 
