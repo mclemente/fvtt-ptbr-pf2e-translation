@@ -16,7 +16,7 @@ A tradução está disponível na lista de Módulos Complementares para instalar
 ### Instalação por Manifesto
 Na opção Add-On Modules clique em Install Module e coloque o seguinte link no campo Manifest URL
 
-`https://gitlab.com/danielrbs/pathfinder-2e-pt-br/-/blob/master/pf2e_pt-BR/module.json`
+`https://gitlab.com/danielrbs/pathfinder-2e-pt-br/-/raw/master/pf2e_pt-BR/module.json`
 
 ### Instalação Manual
 Se as opções acima não funcionarem, faça o download do arquivo [pathfinder-2e-pt-br-master-pf2e_pt-BR.zip](https://gitlab.com/danielrbs/pathfinder-2e-pt-br/-/archive/master/pathfinder-2e-pt-br-master.zip?path=pf2e_pt-BR) e extraia a pasta pf2e_pt-BR dentro da pasta Data/modules/
@@ -38,7 +38,7 @@ The translation is available in the Add-on Modules list to install with the name
 ### Manifest Installation
 In the Add-On Modules option click on Install Module and place the following link in the field Manifest URL
 
-`https://gitlab.com/danielrbs/pathfinder-2e-pt-br/-/blob/master/pf2e_pt-BR/module.json`
+`https://gitlab.com/danielrbs/pathfinder-2e-pt-br/-/raw/master/pf2e_pt-BR/module.json`
 
 ### Manual Installation
 If the above options do not work, download the [pathfinder-2e-pt-br-master-pf2e_pt-BR.zip](https://gitlab.com/danielrbs/pathfinder-2e-pt-br/-/archive/master/pathfinder-2e-pt-br-master.zip?path=pf2e_pt-BR) file and extract the pf2e_pt-BR folder into the Data/modules/ folder
