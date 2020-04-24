@@ -7,7 +7,7 @@ Esse módulo traduz somente aspectos relacionados ao sistema de [Pathfinder 2E](
 
 Se encontrar algum erro na tradução ou tiver uma sugestão de algum termo melhor para ser usado em alguma parte dela você pode abrir uma nova issue ou enviar uma mensagem para **DMerceless#1356** no Discord.
 
-> Atualizado para funcionar com a versão 0.5.5 do FoundryVTT e com a versão 0.556.0 do sistema Pathfinder Second Edition.
+> Atualizado para funcionar com a versão 0.5.5 do FoundryVTT e com a versão 0.557.0 do sistema Pathfinder Second Edition.
 
 
 ### Instalação
@@ -29,7 +29,7 @@ This module translates only aspects related to the [Pathfinder 2E system](https:
 
 If you find a mistake in the translation or have a suggestion of a better term to use somewhere in it you can open a new issue or send a message to **DMerceless#1356** at Discord.
 
-> Updated to work with version 0.5.5 of FoundryVTT and with version 0.556.0 of the Pathfinder Second Edition System.
+> Updated to work with version 0.5.5 of FoundryVTT and with version 0.557.0 of the Pathfinder Second Edition System.
 
 
 ### Installation
