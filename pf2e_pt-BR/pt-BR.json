@@ -62,6 +62,9 @@
   "PF2E.condition.helpful.name": "Prestativo",
   "PF2E.condition.helpful.summary": "Um NPC com esta condição quer lhe ajudar.",
   "PF2E.condition.helpful.rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja prestativa a um personagem deseja ativamente ajudar esse personagem. Ela aceitará Pedidos razoáveis desse personagem, desde que esses Pedidos não sejam cumpridos ao custo dos objetivos ou qualidade de vida da criatura prestativa. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo MJ.</p>",
+  "PF2E.condition.hidden.name": "Escondido",
+  "PF2E.condition.hidden.summary": "Uma criatura da qual você está escondido sabe sua localização mas não pode te ver.",
+  "PF2E.condition.hidden.rules": "<p>Enquanto estiver escondido para uma criatura, essa criatura sabe o espaço em que você está, mas é incapaz de dizer em qual. Você normalmente fica escondido ao utilizar Furtividade para se Esconder. Quando Buscar uma criatura utilizando somente sentidos imprecisos, ela continua escondida em vez de observada. Uma criatura para a qual você estiver escondido fica desprevenida para você e deve obter sucesso em um teste simples CD 11 quando mirá-lo com um ataque, magia ou outro efeito, ou falha em afetá-lo. Efeitos de área não são sujeitos a este teste simples.</p><p>Uma criatura pode ser capaz de usar a ação Buscar para tentar observá-lo, conforme descrito na página 471.</p>",
   "PF2E.condition.hostile.name": "Hostil",
   "PF2E.condition.hostile.summary": "Um NPC com esta condição quer lhe ferir ou prejudicar.",
   "PF2E.condition.hostile.rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja hostil a um personagem busca ativamente prejudicar esse personagem. Ela não necessariamente ataca, mas não aceitará Pedidos do personagem.</p>",
@@ -122,7 +125,7 @@
   "PF2E.condition.wounded.name": "Ferido",
   "PF2E.condition.wounded.summary": "Você foi trazido de volta da beira da morte, mas não está completamente recuperado.",
   "PF2E.condition.wounded.rules": "<p>Você foi seriamente ferido durante um combate. A qualquer momento em que perder a condição morrendo, você fica ferido 1 (se já não possuir a condição ferido). Se já possuir a condição ferido, o valor dela aumenta em 1. Se sofrer a condição morrendo enquanto estiver ferido, aumente o valor dela pelo seu valor de ferido.</p><p>A condição ferido se encerra somente se alguém restaurar Pontos de Vida seus usando Tratar Ferimentos ou se você for restaurado a seus Pontos de Vida totais e descansar por 10 minutos.</p>",
-  
+
   "PF2E.SETTINGS.statusEffectType.name": "Conjunto de Ícones de Status",
   "PF2E.SETTINGS.statusEffectType.hint": "Determina o conjunto de ícones utilizados para as condições e status. Agradecimentos a errational#2007 pela inspiração e Ediwir#7664 pelos ícones preto e brancos, feitos por Lorc@OpenGameArt.",
   "PF2E.SETTINGS.statusEffectType.default": "Ícones padrão",
@@ -131,7 +134,7 @@
 
   "PF2E.SETTINGS.statusEffectKeepFoundry.name": "Ícones de Status do Foundry",
   "PF2E.SETTINGS.statusEffectKeepFoundry.hint": "Determina se você quer mostrar os ícones do Foundry abaixo dos ícones de status do PF2. Isso irá recarregar o jogo.",
-  
+
   "PF2E.UI.shiftModifyDamageTitle": "Modificar o dano/cura rolado",
   "PF2E.UI.shiftModifyDamageLabel": "Modificador:",
   "PF2E.UI.errorTargetToken": "Você não selecionou um token alvo.",
@@ -140,9 +143,9 @@
   "PF2E.UI.applyDamage.damaged": "danificado em ",
   "PF2E.UI.applyDamage.healed": "curado em ",
   "PF2E.UI.applyDamage.by": "por",
-  
+
   "PF2E.ui.armorEquipped": "Alternar se os equipamentos estão ativos",
-  
+
   "PF2E.Dying.label": "Morrendo",
   "PF2E.Dying.title": "Seu nível atual de Morrendo",
   "PF2E.WoundsLabel": "Ferido",
@@ -227,7 +230,13 @@
   "PF2E.MaxHitPointsShortLabel": "PV Máximos",
   "PF2E.MaxHPTitle": "Seus pontos de vida máximos. Esse campo é calculado automaticamente.",
   "PF2E.MaxHPTitleNPC": "Pontos de vida máximos.",
-
+  "PF2E.StaminaPointsHeader": "Pontos de Stamina",
+  "PF2E.CurrentStaminaPointsShortLabel": "SP Atual",
+  "PF2E.CurrentStaminaTitle": "A quantidade de pontos de stamina que você tem.",
+  "PF2E.MaxStaminaPointsShortLabel": "SP Max",
+  "PF2E.MaxStaminaTitle": "Seu máximo de pontos de stamina",
+  "PF2E.ResolvePointsShortLabel": "Determinação",
+  "PF2E.ResolveTitle": "A quantidade de pontos de determinação que você tem",
   "PF2E.ShieldCurrentLabel": "PV do Escudo",
   "PF2E.ShieldMaxLabel": "Max",
   "PF2E.ShieldBTLabel": "Quebrado",
@@ -251,6 +260,7 @@
   "PF2E.PerceptionLabel": "Percepção",
   "PF2E.ClassDCHeader": "CD de Classe",
   "PF2E.ClassDCLabel": "CD de Classe",
+  "PF2E.ClassDCBase": "CD de Classe Base 10",
   "PF2E.InitiativeHeader": "Bonus de Iniciativa",
   "PF2E.SizeLabel": "Tamanho",
   "PF2E.ProficiencyRankLabel": "Prof",
@@ -283,6 +293,7 @@
   "PF2E.AbilityInt": "Inteligência",
   "PF2E.AbilityWis": "Sabedoria",
   "PF2E.AbilityCha": "Carisma",
+  "PF2E.KeyAbility": "Atributo Chave",
 
   "PF2E.CurrencyPP": "Platinum",
   "PF2E.CurrencyGP": "Gold",
@@ -370,6 +381,18 @@
   "PF2E.CharacterTraits": "Tracos do Personagem",
   "PF2E.Biography": "História",
 
+  "PF2E.NoStackGroup":  "Não acumula",   
+  "PF2E.StackGroupLabel":  "Acumula com",
+  "PF2E.StackGroupBolts":  "Virotes",
+  "PF2E.StackGroupArrows": "Flechas",
+  "PF2E.StackGroupSlingBullets":  "Balas de funda",
+  "PF2E.StackGroupBlowgunDarts": "Dardos de zarabatana",
+  "PF2E.StackGroupRations":  "Rações",
+  "PF2E.StackGroupCoins": "Moedas",  
+   
+  "PF2E.AddCoinsTitle": "Adicionar moedas",
+  "PF2E.AddCoinsCombineStacksLabel": "Combinar pilhas",
+    
   "PF2E.Rarity": "Raridade",
   "PF2E.Size": "Tamanho",
   "PF2E.Senses": "Sentidos",
@@ -391,6 +414,8 @@
   "PF2E.AddShortLabel": "Adicionar",
   "PF2E.DeleteShortLabel": "Del",
   "PF2E.NegligibleOption": "Desprezível",
+  "PF2E.EquippedBulkLabel": "Volume vestido",
+  "PF2E.EquippedSameBulkValue": "Mesmo que carregado",  
   "PF2E.FormulaPlaceholder": "Fórmula",
   "PF2E.ToolHeading": "Resumo da Ferramenta",
   "PF2E.ConsumableHeading": "Consumível",
@@ -415,7 +440,8 @@
   "PF2E.ArmorStrengthRequiredLabel": "Força requerida",
   "PF2E.ArmorGroupLabel": "Grupo",
   "PF2E.ArmorEquippedLabel": "Equipado",
-  "PF2E.ArmorClassValueTitle": "Valor de CA. Esse valor é calculado automaticamente.",
+  "PF2E.ArmorClassBase": "CA Base 10",
+  "PF2E.ArmorCheckPenalty": "Pen. de Armadura",
 
   "PF2E.ConsumableTypeLabel": "Tipo de Consumível",
   "PF2E.ConsumableConsumeLabel": "No Consumo",
@@ -438,7 +464,6 @@
   "PF2E.NPCWeaponDamageTypeLabel": "Tipo de Dano",
   "PF2E.NPCWeaponAddDamage": "Adicionar Parte de Dano",
   "PF2E.NPCWeaponAttackEffect": "Efeitos Adicionais do Ataque",
-
 
   "PF2E.SpellSummary": "Resumo da Magia",
   "PF2E.SpellLevelLabel": "Nível de Magia",
@@ -483,6 +508,10 @@
   "PF2E.SpellCantripLabel": "Truque",
   "PF2E.SpellFocusLabel": "Foco",
 
+  "PF2E.ValueLabel": "Valor",
+  "PF2E.DenominationLabel": "Denominação",
+  "PF2E.InventoryTreasureHeader": "Tesouro",
+    
   "PF2E.WeaponSummary": "Resumo da Arma",
   "PF2E.WeaponTypeLabel": "Proficiência de Arma",
   "PF2E.WeaponGroupLabel": "Grupo da Arma",
@@ -508,6 +537,8 @@
   "PF2E.BulkLabel": "Vol.",
   "PF2E.PriceLabel": "Preço",
   "PF2E.TraitsLabel": "Traços",
+    
+  "PF2E.TraitExtradimensional": "Extradimensional",  
 
   "PF2E.SettingsColorLabel": "Esquema de Cores",
   "PF2E.SettingsColorBlue": "Azul-cinza",
@@ -686,8 +717,8 @@
   "PF2E.TraitReload0": "Recarga 0",
   "PF2E.TraitReload1": "Recarga 1",
   "PF2E.TraitReload2": "Recarga 2", 
-  "PF2E.TraitSplash": "Respingo",
   "PF2E.TraitShove": "Empurrar",
+  "PF2E.TraitSplash": "Respingo",
   "PF2E.TraitSweep": "Amplitude",
   "PF2E.TraitTethered": "Amarrada",
   "PF2E.TraitThrown10": "Arremesso 3m",
@@ -719,6 +750,7 @@
   "PF2E.TraitFocus": "Foco",
   "PF2E.TraitRitual": "Ritual",
   "PF2E.TraitScroll": "Pergaminhos",
+  "PF2E.TraitWand": "Varinhas",
 
   "PF2E.TraitCantrip": "Truque",
 
@@ -789,6 +821,7 @@
   "PF2E.TraitOpen": "Abertura",
   "PF2E.TraitPress": "Pressão",
   "PF2E.TraitStance": "Postura",
+  "PF2e.TraitStamina": "Stamina",
   "PF2E.TraitAlchemical": "Alquímico",
   "PF2E.TraitInteract": "Interagir",
   "PF2E.TraitAura": "Aura",
@@ -827,8 +860,8 @@
   "PF2E.TraitEthereal": "etéreio",
   "PF2E.TraitEvil": "maligno",
   "PF2E.TraitFey": "fada",
-  "PF2E.TraitFire": "fogo",
   "PF2E.TraitFiend": "ínfero",
+  "PF2E.TraitFire": "fogo",
   "PF2E.TraitGenie": "gênio",
   "PF2E.TraitGhost": "fantasma",
   "PF2E.TraitGhoul": "carniçal",
@@ -879,6 +912,8 @@
   "PF2E.TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de Manufatura CD 10; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
   "PF2E.TraitDescriptionBackstabber": "Quando você atinge uma criatura desprevenida, esta arma causa 1 ponto de dano de precisão em adição ao seu dano normal. O dano de precisão aumenta para 2 pontos se ela for uma arma +3.",
   "PF2E.TraitDescriptionBackswing": "Você pode usar o impulso de um ataque errado com esta arma e aproveitá-lo em seu próximo ataque. Depois de errar com esta arma no seu turno, você recebe +1 de bônus de circunstância em seu próximo ataque realizado com esta arma antes do final de seu turno.",
+  "PF2E.TraitDescriptionBomb": "Uma bomba alquímica combina componentes alquímicos voláteis que explodem quando a bomba atinge uma criatura ou objeto. A maioria das bombas alquímicas causa dano, embora algumas produzam outros efeitos.",
+  "PF2E.TraitDescriptionConsumable": "Um item come este traço pode ser usado somente uma vez. Exceto se especificado o contrário, ele é destruído após a ativação. Itens consumíveis incluem itens alquímicos e consumíveis mágicos como pergaminhos e talismãs. Quando um personagem criar itens consumíveis, ele pode criá-los em lotes de quatro. ",
   "PF2E.TraitDescriptionDeadlyD6": "Em um acerto crítico, a arma adiciona um dado de dano de arma do tamanho listado. Role este dado depois de dobrar o dano da arma. Este dado extra aumenta para dois dados se a arma possuir uma runa impactante maior e para três dados se a arma possuir uma runa impactante superior. Por exemplo, uma rapieira com uma runa impactante maior causa 2d8 extras de dano perfurante em um acerto crítico. Uma habilidade que alterar o tamanho do dado de dano normal da arma não altera o tamanho do dado mortal dela.",
   "PF2E.TraitDescriptionDeadlyD8": "Em um acerto crítico, a arma adiciona um dado de dano de arma do tamanho listado. Role este dado depois de dobrar o dano da arma. Este dado extra aumenta para dois dados se a arma possuir uma runa impactante maior e para três dados se a arma possuir uma runa impactante superior. Por exemplo, uma rapieira com uma runa impactante maior causa 2d8 extras de dano perfurante em um acerto crítico. Uma habilidade que alterar o tamanho do dado de dano normal da arma não altera o tamanho do dado mortal dela.",
   "PF2E.TraitDescriptionDeadlyD10": "Em um acerto crítico, a arma adiciona um dado de dano de arma do tamanho listado. Role este dado depois de dobrar o dano da arma. Este dado extra aumenta para dois dados se a arma possuir uma runa impactante maior e para três dados se a arma possuir uma runa impactante superior. Por exemplo, uma rapieira com uma runa impactante maior causa 2d8 extras de dano perfurante em um acerto crítico. Uma habilidade que alterar o tamanho do dado de dano normal da arma não altera o tamanho do dado mortal dela.",
@@ -951,6 +986,7 @@
   "PF2E.TraitDescriptionPossession": "Efeitos com este traço permitem uma criatura projetar a mente e espírito dela em um alvo. Uma criatura imune a efeitos mentais não pode usar um efeito de possessão. Enquanto possuir um alvo, o corpo verdadeiro do possuidor fica inconsciente (e não pode ser despertado normalmente), a menos que o efeito de possessão permita a criatura entrar fisicamente no alvo. Sempre que o alvo sofrer dano, o possuidor sofre metade dessa quantidade de dano como dano mental. Um possuidor perde os benefícios de quaisquer das magias ou habilidades ativas que estiverem afetando o corpo físico dele, mas recebe os benefícios das magias e habilidades ativas do alvo que estejam afetando seu corpo. Um possuidor pode usar quaisquer das habilidades do alvo que sejam puramente físicas, mas não pode usar quaisquer de suas próprias habilidades exceto por magias e habilidades puramente mentais. O MJ decide se uma habilidade é puramente física ou puramente mental. Um possuidor utiliza o modificador de ataque, CA, salvamento de Fortitude, salvamento de Reflexos, Percepção e perícias físicas do alvo, enquanto utiliza seu próprio salvamento de Vontade, perícias mentais, ataque de magia e CD de magia; benefícios de itens investidos se aplicam quando relevantes (os itens investidos do possuidor se aplicam quando ele utilizar seus próprios valores, e os itens investidos do alvo se aplicam quando forem utilizados os valores do alvo). Um possuidor não recebe qualquer benefício por conjurar magias que normalmente afetam somente o conjurador, já que ele não está em seu próprio corpo. O possuidor deve usar suas próprias ações para fazer a criatura possuída agir. Se um possuidor alcançar 0 Pontos de Vida através de qualquer combinação de dano ao corpo verdadeiro dele e ao dano mental sofrido durante a possessão, ele é nocauteado normalmente e a possessão é encerrada imediatamente. Se o alvo alcançar 0 Pontos de Vida primeiro, o possuidor pode ficar inconsciente com o corpo e continuar a possessão ou encerrar o efeito como uma ação livre e retornar para seu próprio corpo. Se o alvo morrer, a possessão é encerrada imediatamente e o possuidor fica atordoado por 1 minuto.",
   "PF2E.TraitDescriptionPrecious": "Materiais valiosos com propriedades especiais possuem o traço precioso. Eles podem ser substituídos por materiais base quando você Manufaturar itens.",
   "PF2E.TraitDescriptionPrediction": "Efeitos com este traço terminam o que é provável de acontecer no futuro próximo. A maioria das predições são adivinhações.",
+  "PF2E.TraitDescriptionReload": "Embora todas as armas precisem de algum tempo para ficarem prontas, muitas armas à distância também precisam ser carregadas e recarregadas. Esta seção indica quantas ações de Interagir levam para recarregar essas armas. Isto pode ser 0 se sacar uma munição e disparar a arma forem parte da mesma ação. Se um item precisar de 2 ou mais ações para recarregar, o MJ determina se elas devem ser feitas juntas como uma atividade ou se você pode gastar algumas destas ações durante um turno e o resto durante seu próximo turno.",
   "PF2E.TraitDescriptionRevelation": "Efeitos com este traço veem coisas como elas realmente são.",
   "PF2E.TraitDescriptionScrying": "Um efeito de vidência lhe permite ver, ouvir ou de alguma forma obter informações sensoriais à distância utilizando um sensor ou aparato em vez de seus próprios olhos e orelhas.",
   "PF2E.TraitDescriptionShadow": "Esta magia envolve sombras ou a energia do Plano das Sombras.",
@@ -1250,7 +1286,6 @@
   "PF2E.ImmunityTypeHealing": "Cura",
   "PF2E.ImmunityTypeSwarmMind": "Mente Grupal",
 
-  
   "PF2E.WeaknessTypeAdamantine": "Adamante",
   "PF2E.WeaknessTypeColdIron": "Aço Frio",
   "PF2E.WeaknessTypeDarkwood": "Madeira Negra",
@@ -1262,7 +1297,7 @@
 
   "PF2E.ResistanceTypeAll": "Todo o Dano",
   "PF2E.ResistanceTypePhysical": "Físico",
-  
+
   "PF2E.AttackEffectGrab": "Agarrão",
   "PF2E.AttackEffectImprovedGrab": "Agarrão aprimorado",
   "PF2E.AttackEffectConstrict": "Constrição",
@@ -1283,7 +1318,7 @@
   "PF2E.LanguageCelestial": "Celestial",
   "PF2E.LanguageDraconic": "Dracônico",
   "PF2E.LanguageDruidic": "Druídico",
-  "PF2E.LanguageDwarvish": "Enânico",
+  "PF2E.LanguageDwarven": "Anão",
   "PF2E.LanguageElven": "Élfico",
   "PF2E.LanguageGnomish": "Gnômico",
   "PF2E.LanguageGoblin": "Goblin",
@@ -1296,10 +1331,10 @@
   "PF2E.LanguageInfernal": "Infernal",
   "PF2E.LanguageOrcish": "Órquico",
   "PF2E.LanguageNecril": "Necril",
+  "PF2E.LanguageStrix": "Strix",
   "PF2E.LanguageSylvan": "Silvestre",
   "PF2E.LanguageShadowtongue": "Língua-das-trevas",
   "PF2E.LanguageShoony": "Shoony",
-  "PF2E.LanguageStrix": "Strix",
   "PF2E.LanguageTerran": "Terrâneo",
   "PF2E.LanguageUndercommon": "Subterrâneo",
   "PF2E.LanguageHallit": "Hallit",
@@ -1351,6 +1386,7 @@
   "PF2E.BrowserSortyByLevelLabel": "Nìvel",
   "PF2E.BrowserFilterSkills": "Perícias",
   "PF2E.BrowserFilterTraits": "Traços",
+  "PF2E.BrowserFilterSource": "Fonte",
   "PF2E.BrowserFilterProficiencyRequirements": "Requerimentos de Proficiência",
   "PF2E.BrowserFilterSizes": "Tamanhos",
   "PF2E.BrowserFilterAlignments": "Alinhamentos",
