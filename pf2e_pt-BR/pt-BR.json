@@ -597,6 +597,7 @@
     "PreparationTypeSpontaneous": "Espontâneo",
     "PriceLabel": "Preço",
     "ProficiencyLabel": "Proficiência",
+    "ProficiencyLevelUntrainedImprovisation": "Improvisação Destreinada",
     "ProficiencyLevel0": "Destreinado",
     "ProficiencyLevel1": "Treinado",
     "ProficiencyLevel2": "Especialista",
@@ -639,7 +640,7 @@
         "name": "Ícones de Status do Foundry"
       },
       "statusEffectShowCombatMessage": {
-        "hint": "Mostrar os efeitos ativos em cada combatente atual no chat a cada turno.",
+        "hint": "Mostrar os efeitos ativos em cada combatente atual no chat a cada turno. Se o seu jogo tiver mais de um mestre, essa opção deve estar ativada para apenas um deles.",
         "name": "Mostrar Efeitos em Combate"
       },
       "statusEffectType": {
@@ -1740,7 +1741,8 @@
       }
     },
     "ui": {
-      "armorEquipped": "Alternar se o equipamento está vestido"
+      "armorEquipped": "Alternar se o equipamento está vestido",
+      "sell": "Vender"
     },
 	"loot": {
       "LootNamePlaceholder": "Tesouro",
