@@ -5,7 +5,7 @@
 Esse módulo adiciona o idioma Português (Brasil) como uma opção a ser selecionada nas configurações do FoundryVTT. Selecionar essa opção traduzirá a ficha de personagem do sistema PF2E e mais alguns aspectos menores. No momento, os compêndios não estão traduzidos.
 Esse módulo traduz somente aspectos relacionados ao sistema de [Pathfinder 2E](https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/). Esse módulo não traduz outras partes do software FoundryVTT, como a interface principal. Para isso, confira o módulo [Brazillian Portuguese Core](https://foundryvtt.com/packages/ptBR-core/).
 
-Para a tradução dos compêndios, é necessário que seja instalado o módulo [Babele](https://foundryvtt.com/packages/babele/).
+Para a tradução dos Compêndios, é necessário que seja instalado o módulo [Babele](https://foundryvtt.com/packages/babele/).
 
 Se encontrar algum erro na tradução ou tiver uma sugestão de algum termo melhor para ser usado em alguma parte dela você pode abrir uma nova issue ou enviar uma mensagem para **DMerceless#1356** no Discord.
 
@@ -14,6 +14,8 @@ Se encontrar algum erro na tradução ou tiver uma sugestão de algum termo melh
 
 ### Instalação
 A tradução está disponível na lista de Módulos Complementares para instalar com o nome de Translation: Brazilian Portuguese [Pathfinder 2e].
+
+Lembre-se de também instalar o módulo [Babele](https://foundryvtt.com/packages/babele/) para a tradução dos Compêndios.
 
 ### Instalação por Manifesto
 Na opção Add-On Modules clique em Install Module e coloque o seguinte link no campo Manifest URL
@@ -38,6 +40,8 @@ If you find a mistake in the translation or have a suggestion of a better term t
 
 ### Installation
 The translation is available in the Add-on Modules list to install with the name Translation: Brazilian Portuguese [Pathfinder 2e].
+
+Remember to also install the [Babele](https://foundryvtt.com/packages/babele/) module for Compendium pack translation.
 
 ### Manifest Installation
 In the Add-On Modules option click on Install Module and place the following link in the field Manifest URL
