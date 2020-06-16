@@ -750,7 +750,7 @@
     "SpellComponentsLabel": "Componentes",
 	"SpellPrimaryCheckLabel": "Teste Primário",
 	"SpellSecondaryChecksLabel": "Testes Secundários",
-	"SpellSecondaryCasters": "Conjuradores Secundários",
+	"SpellSecondaryCasters": "Conj. Secundários",
     "SpellConcentrationLabel": "Concentração",
     "SpellCostLabel": "Custo",
     "SpellDamageLabel": "Dano da Magia",
@@ -837,8 +837,10 @@
         "CriticalSuccess": "Como um sucesso, mas você causa o dobro de dano.",
         "Success": "Você dá dano de acordo com a arma ou ataque desarmado, incluindo quaisquer modificadores, bônus e penalidades que tiver para o dano."
       },
+      "Fist": {
+        "Label": "Punho"
+      },
       "Unarmed": {
-        "Label": "Ataque Desarmado",
         "Description": "Você ataca com um ataque desarmado, mirando uma criatura em seu alcance. Faça a rolagem de ataque para a arma ou ataque desarmado que estiver usando e compare o resultado à CA da criatura alvo para determinar o efeito.",
         "Success": "Você dá dano de acordo o ataque desarmado, incluindo quaisquer modificadores, bônus e penalidades que tiver para o dano."
       },
@@ -1425,8 +1427,13 @@
     "WeaponAbilityLabel": "Atributo da Arma",
     "WeaponBonusAttackLabel": "Ataque Bônus",
     "WeaponBonusDamageLabel": "Dano Bônus",
+    "WeaponBaseDamageLabel": "Dano Base da Arma",
+    "WeaponBaseDamageTitle": "Esta seção configura o dano base da arma. Dados adicionais da runa Impactante não deve ser adicionado aqui, mas sim configurados na seção Runas de Arma acima.",
+    "WeaponRunesLabel": "Runas de Arma",
+    "WeaponMaterialLabel": "Construção de Arma",
     "WeaponCustomDamageLabel": "Dano Adicional Customizado",
-    "WeaponDamageLabel": "Dano da Arma",
+    "WeaponCustomDamageTitle": "Esta seção adiciona qualquer dano personalizado que não seja coberto pelo sistema de Runa. Nota: Esta seção não está funcionando atualmente nas rolagens de dano do ‘Ataque’; os atributos dos Efeitos de Golpe e Efeito Crítico não são usados atualmente no sistema, são apenas informativos.",
+    "WeaponDamageLabel": "Dano Base",
     "WeaponDescriptionAxe": "Efeito de Especialização de Crítico: Escolha uma criatura adjacente ao alvo inicial e dentro do alcance. Se a CA dele for menor que o resultado da sua rolagem de ataque do acerto crítico, você causa dano a essa criatura igual ao resultado do dado de dano rolado da arma (incluindo dados extras por sua runa de potência, se houver). Esta quantia não é dobrada e nenhum bônus ou outros dados adicionais se aplicam a este dano.",
     "WeaponDescriptionBomb": "Efeito de Especialização de Crítico: Aumente o raio de respingo da bomba (se houver) para 3 metros.",
     "WeaponDescriptionBow": "Efeito de Especialização de Crítico: Se o alvo de um acerto crítico estiver adjacente a uma superfície, ele fica preso nessa superfície pelo projétil. O alvo fica imobilizado e deve gastar uma ação de Interagir para fazer um teste de Atletismo CD 10 para soltar o projétil; ele não pode sair de seu espaço até que obtenha sucesso. A criatura não fica presa se for incorpórea, líquida (como um elemental da água ou alguns limos) ou se de alguma forma puder escapar sem esforço.",
@@ -1748,7 +1755,11 @@
       "LootNamePlaceholder": "Tesouro",
       "EditLootLabel": "Editar Tesouro?",
       "IsShopLabel": "É Loja?",
-      "ShopLabel": "Loja"
+      "ShopLabel": "Loja",
+      "MoveLootPopupTitle": "Mover Tesouro",
+      "MoveLootMessage": "Quantos itens deseja mover?",
+      "MoveLoot": "Mover itens",
+      "Quantity": "Qtd."
 	}
   },
   "PF2e": {
