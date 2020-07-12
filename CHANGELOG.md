@@ -1,5 +1,10 @@
 # Atualizações:
 
+## Versão 1.9.1482.0
+
+* Adicionada a tradução de 80% dos talentos
+* Consertados alguns erros na tradução de certas magias
+
 ## Versão 1.5.4.2
 
 * Adicionada a tradução dos compêndios de Ações, Habilidades de Classe e Habilidades de Ancestralidade
