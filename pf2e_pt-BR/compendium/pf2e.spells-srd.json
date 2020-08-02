@@ -2967,4 +2967,404 @@
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você usa correntes mágicas, trepadeiras ou outras amarras para prender seu alvo a você. A criatura ainda pode tentar  @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar}, e ele ou outros podem quebrar as amarras, atacando-as (as amarras têm CA 15 e 10 Pontos de Vida). Você deve permanecer a 9 metros do alvo enquanto ele estiver amarrado; afastar-se a mais de 9 metros do alvo termina a magia. O alvo deve tentar um teste de Reflexo.<br><br> <strong>Sucesso Crítico</strong> O alvo não é afetado.<br><strong>Sucesso</strong> O alvo sofre uma penalidade de circunstância de 1,5 metros à sua Velocidade, desde que esteja a 9 metros de você.<br><strong>Falha</strong> O alvo sofre uma penalidade de circunstância de 3 metros à sua Velocidade e não pode se mover a mais de 9 metros de você até que ele Escape ou a magia termine.<br> <strong>Falha Crítica</strong> O alvo fica @Compendium[pf2e.conditionspf2e.eIcWbB5o3pP6OIMe]{imobilizado} até que ele Escape ou a magia termine.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> A CA das amarras aumenta em 3 e seus pontos de vida aumentam em 10.</p>"
 		},
 		{
-			"id":
+			"id": "Tidal Surge",
+			"name": "Surto da Maré",
+			"description": "<p>Você invoca uma tremenda onda para mover um alvo que esteja em um corpo d'água ou no chão. O alvo deve tentar um salvamento de Fortitude.</p>\r<p>\n<hr><b>Falha</b>  Você move o alvo 1,5 metros em qualquer direção no chão ou 3 metros em qualquer direção através de um corpo de água.</p>\r<p>\n<b>Falha Crítica</b>  Você move o alvo 3 metros em qualquer direção no chão ou 6 metros em qualquer direção através de um corpo de água.</p>"
+		},
+		{
+			"id": "Time Beacon",
+			"name": "Farol do Tempo",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você cria um farol a tempo, pretendendo retornar a ele se as coisas derem errado. Você pode conjurar <em>farol do tempo</em> apenas no seu turno. Mantenha um controle cuidadoso de tudo o que acontece neste turno depois de conjurar <em>farol do tempo</em>. No final do seu turno, você pode voltar no tempo logo após conjurar <em>farol do tempo</em>, removendo todos os efeitos do seu turno desde então. Maldições, armadilhas e outros efeitos nocivos que acontecem durante o seu turno podem impedir que você retorne ao farol se eles forem poderosos o suficiente. Se você sofreu algum efeito prejudicial durante o seu turno após a conjuração de <em>farol do tempo</em>, para retornar ao seu farol, <em>farol do tempo</em> tente uma verificação de neutralização contra cada um desses efeitos. Se falhar em alguma dessas verificações, você não poderá retornar.</span></p>"
+		},
+		{
+			"id": "Time Stop",
+			"name": "Parar O Tempo",
+			"description": "<p>Você para o tempo temporariamente para tudo além de si, permitindo-lhe usar várias ações em um período que parece ser apenas um instante para os outros. Imediatamente após conjurar parar o tempo, você pode usar até 9 ações em 3 conjuntos de até 3 ações cada. Após cada conjunto de ações, considera-se que se passou 1 rodada, somente para você, os efeitos que o estejam afetando e efeitos que você criar durante esse tempo parado. Todas as outras criaturas e objetos são invulneráveis a seus ataques, e você não pode mirá-las ou afetá-las com qualquer coisa. Após ter terminado suas ações, o tempo começa a fluir novamente para o resto do mundo. Se você criou um efeito com duração que se estende além da duração de parar o tempo — como uma muralha de fogo, por exemplo — ele imediatamente afeta os outros novamente, mas não possui quaisquer efeitos que acontecem no momento da conjuração da magia.</p>"
+		},
+		{
+			"id": "Tireless Worker",
+			"name": "Trabalhador Incansável",
+			"description": "<p>Você suprime sua escolha de uma das seguintes condições que afetam o alvo: @Compendium[pf2e.conditionspf2e.i3OJZU2nk64Df3xm]{desajeitado}, @Compendium[pf2e.conditionspf2e.D5mg6Tc7Jzrj6ro7]{sobrecarregado}, @Compendium[pf2e.conditionspf2e.MIRkyAjyBeXivMa7]{enfraquecido}, ou @Compendium[pf2e.conditionspf2e.HL2l2VRSaQHu9lUw]{fatigado}. Se você não remover o efeito que causou a condição, a condição retornará após o término da duração da magia.</p>"
+		},
+		{
+			"id": "Tongues",
+			"name": "Idiomas",
+			"description": "<p>O alvo pode compreender todas as palavras independentemente do idioma e falar os idiomas de outras criaturas. Para lidar com um grupo misto de criaturas, a cada vez que falar, o alvo escolhe uma criatura e fala em um idioma que ela compreenda (mesmo que ele não saiba sequer qual idioma a criatura compreende).</p>\n<hr>\n<p><strong>Elevada (7º)</strong> A duração é de 8 horas.</p>"
+		},
+		{
+			"id": "Touch of Corruption",
+			"name": "Toque da Corrupção",
+			"description": "<p>O anti-paladino infunde o alvo com energia negativa. Se o alvo estiver vivo, isso causa 3d6 de dano negativo  (salvamento básico de Fortitude); em um teste de resistência falhado, o alvo também recebe uma penalidade de status -2 na CA por 1 rodada.</p>\n<p>Se o alvo for uma criatura morta-viva disposta, o alvo recupera 18 Pontos de Vida e se for um dos aliados dos anti-paladino, também ganha um bônus de status +2 nas jogadas de dano por 1 rodada.</p>\n(Tradução não oficial - Gamemastery Guide)"
+		},
+		{
+			"id": "Touch of Idiocy",
+			"name": "Toque da Idiotice",
+			"description": "<p>Você embota a mente do alvo. O alvo deve tentar um salvamento de Vontade.</p>\r<p>\n<hr><b>Sucesso</b>  O alvo não é afetado.</p>\r<p>\n<b>Falha</b>  O alvo fica @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 2.</p>\r<p>\n<b>Falha Crítica</b>  O alvo fica @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 4.</p>"
+		},
+		{
+			"id": "Touch of Obedience",
+			"name": "Toque de Obediência",
+			"description": "<p>Seu toque imperioso erode a força de vontade do alvo, tornando-o mais fácil de controlar. O alvo tenta um salvamento de Vontade.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  O alvo fica @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 1 até o final de seu turno atual.</p>\r<p>\n<b>Falha</b>  O alvo fica @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 1 até o final de seu próximo turno.</p>\r<p>\n<b>Falha Crítica</b>  O alvo fica @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 minuto.</p>"
+		},
+		{
+			"id": "Touch of Undeath",
+			"name": "Toque da Não-Morte",
+			"description": "<p>Você ataca a força vital do alvo com não-morte, causando 1d6 de dano negativo. O alvo deve tentar um salvamento de Fortitude.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  O alvo sofre metade do dano.</p>\r<p>\n<b>Falha</b>  O alvo sofre o dano inteiro e efeitos positivos o curam somente metade do normal por 1 rodada.</p>\r<p>\n<b>Falha Crítica</b>  O alvo sofre o dobro do dano e efeitos positivos o curam somente metade do normal por 1 minuto.</p>\r<p>\n<hr><b>Elevada (+1)</b>  O dano aumenta em 1d6.</p>"
+		},
+		{
+			"id": "Touch of the Moon",
+			"name": "Toque da Lua",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você toca o alvo e um símbolo da lua aparece na testa dele, brilhando com uma tênue luz da lua. O alvo brilha com luz fraca em um raio de 6 metros. Ele também recebe um benefício baseado em uma fase da lua, começando com a lua nova e mudando para a próxima fase ao final de cada um dos turnos dele.</span></p>\n<ul>\n<li><strong>Lua Nova</strong> O alvo não recebe qualquer benefício.</li>\n<li><strong>Lua Crescente</strong> O alvo recebe +1 de bônus de estado em rolagens de ataque e +4 de bônus de estado em rolagens de dano.</li>\n<li><strong>Lua Cheia</strong> O alvo recebe +1 de bônus de estado em rolagens de ataque, CA e jogadas de salvamento e +4 de bônus de estado em rolagens de dano.</li>\n<li><strong>Lua Crescente</strong> O alvo recebe +1 de bônus de estado na CA e jogadas de salvamento. Após esta fase, retorne para a lua nova.</li>\n</ul>"
+		},
+		{
+			"id": "Traveler's Transit",
+			"name": "Trajeto do Viajante",
+			"description": "<p>Você acrescenta poder aos seus músculos, permitindo-lhe escalar paredes ou nadar com facilidade. Quando conjurar esta magia, você adquire uma Velocidade de escalada ou uma Velocidade de natação. A Velocidade é igual à sua Velocidade em terra.</p>\n<hr>\n<p><strong>Elevada (5º)</strong> Você pode escolher adquirir uma Velocidade de voo.</p>"
+		},
+		{
+			"id": "Tree Shape",
+			"name": "Aspecto de Árvore",
+			"description": "<p>Você se transforma em uma árvore Grande. Testes de Percepção não revelam sua verdadeira natureza, mas um teste bem-sucedido de Natureza ou Sobrevivência contra sua CD de magia revela que você parece ser uma árvore que é estranhamente nova na área. Enquanto estiver em forma de árvore, você pode observar tudo ao seu redor, mas não pode agir a não ser para encerrar a magia em seu turno ao usar uma ação única com o traço concentração. Como uma árvore, sua CA é 20 e somente bônus de circunstância, bônus de estado, penalidades de circunstância e penalidades de estado o afetam. Quaisquer sucessos e sucessos críticos que rolar em salvamentos de Reflexos são tratados como falhas.</p>"
+		},
+		{
+			"id": "Tree Stride",
+			"name": "Deslocamento Entre Árvores",
+			"description": "<p>Você entra em uma árvore que possua um tronco grande o suficiente para abrigá-lo e se teleporta instantaneamente para qualquer árvore da mesma espécie a até 7,5 quilômetros que também possua um tronco grande o suficiente. Após entrar na primeira árvore, você instantaneamente sabe as localizações aproximadas de outras árvores grandes o suficiente da mesma espécie na distância e pode sair da árvore original, se preferir. Você não pode carregar espaços extradimensionais com você; se tentar fazê-lo, a magia falha.</p>\n<hr>\n<p><strong>Elevada (6º)</strong> A árvore da qual você sai pode estar a até 75 quilômetros de distância.</p>\n<p><strong>Elevada (8º)</strong> A árvore da qual você sai pode estar a até 750 quilômetros de distância.</p>\n<p><strong>Elevada (9º)</strong> A árvore da qual você sai pode estar em qualquer lugar no mesmo planeta.</p>"
+		},
+		{
+			"id": "Trickster's Twin",
+			"name": "Gêmeo do Enganador",
+			"description": "<p>Você raramente se satisfaz estando em um só lugar. Escolha um local a até 30 metros do alvo que o alvo possa ver. Você cria uma ilusão sua nesse local que somente o alvo pode ver e que imita todas as suas ações. O alvo deve tentar um salvamento de Vontade.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  O alvo acredita que você está no local designado e não pode vê-lo em seu local real. O alvo automaticamente desacredita a ilusão quando você usar uma ação que não fizer sentido para a posição da ilusão ou se ele atacar, tocar, Buscar ou de alguma outra forma interagir com a ilusão. Se você usar uma ação hostil contra o alvo, a magia é encerrada.</p>\r<p>\n<b>Falha</b>  Como sucesso, mas o alvo deve obter sucesso em um salvamento de Vontade para desacreditar a ilusão quando um dos eventos listados ocorrer.</p>\r<p>\n<b>Falha Crítica</b>  Como sucesso, mas o alvo deve obter sucesso crítico em um salvamento de Vontade para desacreditar a ilusão quando um dos eventos listados ocorrer.</p>"
+		},
+		{
+			"id": "Triple Time",
+			"name": "Templo Triplo",
+			"description": "<p>Você dança em um ritmo animado, acelerando o movimento de seus aliados. Você e todos os aliados na área recebem +3 metros de bônus de estado em todas as Velocidades por 1 rodada.</p>"
+		},
+		{
+			"id": "True Seeing",
+			"name": "Visão Verdadeira",
+			"description": "<p>Você vê coisas a até 18 metros como elas realmente são. O MJ rola um teste secreto de neutralização contra qualquer ilusão ou transmutação na área, mas somente para determinar se você pode ver através dela (por exemplo, se o teste for bem-sucedido contra a magia metamorfose, você vê a verdadeira forma da criatura, mas a magia metamorfose não é encerrada).</p>"
+		},
+		{
+			"id": "True Strike",
+			"name": "Golpe Certo",
+			"description": "<p>Um vislumbre do futuro garante que seu próximo golpe seja certeiro. A próxima vez que você fizer uma rolagem de ataque antes do final de seu turno, role o ataque duas vezes e use o melhor resultado. O ataque ignora penalidades de circunstância na rolagem de ataque e qualquer teste simples requerido devido ao alvo estar @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} ou @Compendium[pf2e.conditionspf2e.iU0fEDdBp3rXpTMC]{escondido}.</p>"
+		},
+		{
+			"id": "True Target",
+			"name": "True Target",
+			"description": "<p>Você vislumbra os vários futuros possíveis para os próximos segundos, examinando todas as maneiras que seu alvo poderia usar para se proteger, e então transmite para aqueles ao seu redor uma visão de um futuro onde ele não conseguiu se proteger. Na primeira rolagem de ataque feita contra o alvo durante a duração de alvo certo, o atacante rola duas vezes e usa o melhor resultado. O atacante também ignora penalidades de circunstância na rolagem de ataque e qualquer teste simples requerido devido ao alvo estar @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} ou @Compendium[pf2e.conditionspf2e.iU0fEDdBp3rXpTMC]{escondido}.</p>"
+		},
+		{
+			"id": "Unblinking Flame Revelation",
+			"name": "Revelação da Chama que Não Cintila",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você ilumina seu adversário com uma chama reveladora. O MJ realiza um teste secreto de neutralização contra cada ilusão afetando a criatura. Em um sucesso, você suprimi a ilusão pela duração desta magia (em vez de encerrar o efeito).</span></p>"
+		},
+		{
+			"id": "Unbreaking Wave Advance",
+			"name": "Impulso da Onda que Não Quebra",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você libera uma onda poderosa de sua mão que empurra seus adversários para trás. Cada criatura na área deve tentar uma jogada de salvamento de Fortitude. Se uma criatura empurrada por <em>impulso da onda que não quebra</em> for empurrada contra uma barreira sólida ou contra outra criatura, ela para nesse ponto e sofre 3d6 de dano.<br><br><strong>Sucesso</strong> A criatura não é afetada.<br><strong>Falha</strong> A criatura é empurrada 3 metros.<br> <strong>Falha Crítica</strong> A criatura é empurrada 6 metros.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano por empurrar uma criatura contra uma barreira sólida ou contra outra criatura aumenta em 1d6.</p>"
+		},
+		{
+			"id": "Uncontrollable Dance",
+			"name": "Dança Incontrolável",
+			"description": "<p>O alvo é tomado por um impulso obsessivo de dançar. Pela duração da magia, o alvo fica @Compendium[pf2e.conditionspf2e.AJh5ex99aV6VTggg]{desprevenido} e não pode usar reações. Enquanto estiver sob efeito desta magia, a criatura não pode usar ações com o traço movimento exceto para dançar, usando a ação Andar para se mover até metade da Velocidade dele.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  A duração da magia é 3 rodadas e o alvo deve gastar pelo menos 1 ação dançando a cada turno.</p>\r<p>\n<b>Falha</b>  A duração da magia é 1 minuto e o alvo deve gastar pelo menos 2 ações dançando a cada turno.</p>\r<p>\n<b>Falha Crítica</b>  A duração da magia é 1 minuto e o alvo deve gastar todas as ações dele dançando a cada turno.</p>"
+		},
+		{
+			"id": "Undeath's Blessing",
+			"name": "Benção da Não-Morte",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você infunde uma criatura com o toque do túmulo. Pela duração, magias de ferir tratam a criatura como morta-viva e magias de curar tratam a criatura como viva. Além disso, magias de ferir recebem +2 de bônus de estado na quantidade de Pontos de Vida curados ao alvo.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Se o alvo quiser evitar a magia, ele pode tentar um salvamento de Vontade para reduzir os efeitos.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\"><strong>Sucesso Crítico</strong> O alvo não é afetado.<br><strong>Sucesso</strong> O alvo cura metade da cura proporcionada por <em>curar</em> e sofre metade do dano proporcionado por <em>ferir</em> por 1 rodada.<br><strong>Falha</strong> Efeitos conforme descrito no texto.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> O bônus de estado na quantidade de Pontos de Vida curados ao alvo aumenta em 2 pontos.</p>"
+		},
+		{
+			"id": "Undetectable Alignment",
+			"name": "Tendência Indetectável",
+			"description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>"
+		},
+		{
+			"id": "Unfathomable Song",
+			"name": "Canção Incomensurável",
+			"description": "<p>Notas efêmeras de uma canção estranha e sobrenatural preenchem o ar, sobrepujando a mente dos alvos. Cada alvo deve tentar um salvamento de Vontade quando você conjurar a magia e novamente a cada vez que você Sustentar a Magia. Uma criatura precisa tentar somente um salvamento contra a canção a cada rodada e você deve manter os mesmos alvos quando Sustentar a Magia.</p>\n<hr>\n<p><strong>Sucesso Crítico</strong> O alvo não é afetado, não pode ser afetado em rodadas subsequentes e fica temporariamente imune por 1 minuto.</p>\n<p><strong>Sucesso</strong> O alvo não é afetado nesta rodada, mas pode ser afetado em rodadas subsequentes.</p>\n<p><strong>Falha</strong> Role 1d4 na tabela abaixo.</p>\n<p><strong>Falha Crítica</strong> Role 1d4+1 na tabela abaixo.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 54px;\"><strong>Resultado</strong></td>\n<td style=\"width: 317px;\"><strong>Efeito</strong></td>\n</tr>\n<tr>\n<td style=\"width: 54px;\">1</td>\n<td style=\"width: 317px;\">O alvo fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 2</td>\n</tr>\n<tr>\n<td style=\"width: 54px;\">2</td>\n<td style=\"width: 317px;\">O alvo fica @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso} por 1 rodada.</td>\n</tr>\n<tr>\n<td style=\"width: 54px;\">3</td>\n<td style=\"width: 317px;\">O alvo fica @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 4 por 1 rodada.</td>\n</tr>\n<tr>\n<td style=\"width: 54px;\">4</td>\n<td style=\"width: 317px;\">O alvo fica @Compendium[pf2e.conditionspf2e.XgEqL1kFApUbl5Z2]{cego} por 1 rodada.</td>\n</tr>\n<tr>\n<td style=\"width: 54px;\">5</td>\n<td style=\"width: 317px;\">O alvo fica @Compendium[pf2e.conditionspf2e.dfCMdR4wnpbYNTix]{atordoado} por 1 rodada e @Compendium[pf2e.conditionspf2e.e1XGnhKNSQIm5IXg]{estupefato} 1 por uma duração ilimitada.</td>\n</tr>\n</tbody>\n</table>"
+		},
+		{
+			"id": "Unfettered Pack",
+			"name": "Matilha Desimpedida",
+			"description": "<p>Você liberta seus companheiros de viagem dos impedimentos ambientais. Os alvos não sofrem penalidades de circunstância na Velocidade por vegetação, detritos, ventos ou outras propriedades do ambiente, seja o ambiente mágico ou não, além de ignorarem o terreno difícil dessas propriedades ambientais.</p>\n<hr>\n<p><strong>Elevada (9º)</strong> Os alvos também ignoram terreno difícil maior de propriedades ambientais.</p>"
+		},
+		{
+			"id": "Unfolding Wind Rush",
+			"name": "Disparada do Vento que Não se Curva",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se desloca como um vento impetuoso. Movimente-se duas vezes: Ande duas vezes, Dê um Passo duas vezes ou Ande e Dê um Passo (em qualquer ordem). Você pode Andar ou Dar um Passo no ar durante este movimento, movendo-se para cima em um ângulo de no máximo 45º graus; se encerrar seu movimento no ar, você cai após realizar uma ação ou quando seu turno acabar, o que ocorrer primeiro. Uma muralha de vento aparece em todos os espaços que você sair durante este movimento, durando por 1 rodada.</span></p>\n<hr>\n<p><strong>Elevada (5º)</strong> A <em>muralha de vento</em> dura 3 rodadas.</p>"
+		},
+		{
+			"id": "Unimpeded Stride",
+			"name": "Unimpeded Stride",
+			"description": "<p>Nada pode segurá-lo no lugar. Você imediatamente escapa de todos os efeitos mágicos que o tiverem @Compendium[pf2e.conditionspf2e.eIcWbB5o3pP6OIMe]{imobilizado} ou @Compendium[pf2e.conditionspf2e.kWc1fhmv9LBiTuei]{agarrado} a menos que o efeito seja de um nível superior à sua magia deslocamento desimpedido. Depois, você Anda. Durante este movimento, você ignora terreno difícil e quaisquer penalidades de circunstância ou penalidades de estado em sua Velocidade.</p>"
+		},
+		{
+			"id": "Unity",
+			"name": "Unidade",
+			"description": "<p>Você forma uma defesa unificada. Cada aliado pode usar seu modificador de jogada de salvamento em vez do próprio modificador contra a magia acionadora. Cada aliado decide individualmente qual modificador usar.</p>"
+		},
+		{
+			"id": "Unrelenting Observation",
+			"name": "Observação Inexorável",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Esta magia concede uma visão perfeita baseada em vidência, permitindo que vários alvos voluntários rastreiem os movimentos exatos ou posição de uma criatura ou objeto. Escolha uma criatura ou objeto alvo na área para ser rastreado. Ele se torna o sensor para a magia. Até cinco criaturas voluntárias à sua escolha na área podem ver uma imagem fantasmagórica desta criatura ou objeto quando esse alvo não estiver à vista. Eles podem perceber a criatura ou objeto perfeitamente, permitindo-lhes ignorar a condição @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} ou @Compendium[pf2e.conditionspf2e.zJxUflt9np0q4yML]{invisível}, embora barreiras físicas ainda forneçam cobertura.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">As criaturas rastreadoras podem ver a criatura ou objeto rastreado através de todas as barreiras exceto chumbo ou água corrente, que bloqueiam sua visão. Distância não importa, embora a criatura ou objeto possa se mover tão longe que fique pequeno demais para se perceber. As criaturas rastreadoras não veem nada do ambiente ao redor do alvo, embora vejam os equipamentos que o alvo esteja vestindo ou segurando e possam notar se ela remover um objeto de sua pessoa.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Se o alvo a ser rastreado for voluntário, a duração é 1 hora. Se você tentar rastrear uma criatura involuntária, o alvo deve tentar um salvamento de Vontade.</span></p>\n<hr>\n<p><strong>Sucesso Crítico</strong> A criatura ou objeto não é afetado.</p>\n<p><strong>Sucesso</strong> Como descrito, e a duração é de 1 minuto.</p>\n<p><strong>Falha</strong> Como descrito, e a duração é de 1 hora.</p>"
+		},
+		{
+			"id": "Unseasonable Squall",
+			"name": "Ventania Fora de Estação",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você lança uma rajada de vento repentino que ondula para fora do centro da explosão. O vento extingue pequenos incêndios não mágicos, dispersa neblina e nevoa, espalha objetos de volume leve ou menor e empurra objetos não seguros de volume 1  ou menos a 1,5 metros de distância do ponto de origem da magia. Cada criatura Média ou menor na área quando você lança a magia ou que se move para a área da magia deve tentar um teste de resistência de Fortitude.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\"><strong>Sucesso</strong> A criatura não é afetada.<br><strong>Falha</strong> A criatura é @Compendium[pf2e.conditionspf2e.j91X7x0XSomq8d60]{prostrada}. Se a criatura estava <a href=\"https://2e.aonprd.com/Actions.aspx?ID=94\">voando</a>, em vez disso, ocorre uma falha crítica.<br> <strong>Falha Crítica</strong> A criatura é <a href=\"https://2e.aonprd.com/Rules.aspx?ID=451\">empurrada</a> 9 metros de distância do centro da explosão, é @Compendium[pf2e.conditionspf2e.j91X7x0XSomq8d60]{prostrada} e sofre 2d6 de dano por espancamento.</span></p>"
+		},
+		{
+			"id": "Unseen Servant",
+			"name": "Servo Invisível",
+			"description": "<p>Você convoca um servo invisível, que pode ser comandado como parte de Sustentar a Magia. Ele o serve até os Pontos de Vida dele serem reduzidos a 0, momento em que a magia é encerrada, ou até você parar de Sustentar a Magia. O servo invisível adquire o traço convocado.</p>\n<p><strong>Servo Invisível</strong> [Criatura] [-1] [Sem Alinhamento] [Médio]</p>\n<hr>\n<p><strong>CA</strong> 13, <strong>Fort</strong> +0, <strong>Ref</strong> +4, <strong>Von</strong> +0 <strong>HP</strong> 4;</p>\n<p><strong>Imunidades</strong> doenças, mental, ataques não-mágicos, paralisia, veneno, precisão, @Compendium[pf2e.conditionspf2e.fBnFDH2MTzgFijKf]{inconsciente};</p>\n<p><strong>Resistências</strong> todo dano 5 (exceto força ou toque fantasma)</p>\n<p><strong>Velocidade</strong> voo 9 metros</p>\n<p><strong>Corpo de Força</strong> O corpo físico de um servo invisível é feito de força. Ele não pode usar ações de ataque. Ele pode mover e usar ações de Interagir para fazer coisas como carregar objetos, abrir portas destravadas ou destrancadas, segurar cadeiras e limpar. Ele não pode atravessar objetos sólidos.</p>"
+		},
+		{
+			"id": "Untwisting Iron Buffer",
+			"name": "Blindagem do Ferro que Não se Retorce",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você envia correntes de ki protetor à superfície de seu corpo que lhe resguarda de ferimentos, pelo menos até seus inimigos as dissiparem. Você recebe 15 Pontos de Vida temporários, que duram por até 3 rodadas.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> Os Pontos de Vida temporários aumentam em 5.</p>"
+		},
+		{
+			"id": "Unusual Anatomy",
+			"name": "Anatomia Inusitada",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você transforma sua carne e órgãos em um amálgama bizarro de pele reluzente, escamas grossas, tufos de pelo e protuberâncias tumorosas. Isto possui três efeitos:</span></p>\n<ul>\n<li>Você adquire resistência 10 a dano de precisão e resistência 10 a dano extra de acertos críticos. Se a resistência for maior que o dano extra sofrido, ela reduz o dano extra para 0, mas não reduz o dano inteiro do ataque.</li>\n<li>Você adquire visão no escuro.</li>\n<li>Ácidos escorrem de sua pele. Qualquer criatura que o acertar com um ataque desarmado ou com um ataque usando uma arma corpo a corpo que não seja de alcance sofre 2d6 de dano de ácido.</li>\n</ul>\n<hr>\n<p><strong>Elevada (+2)</strong> A resistência aumenta em 5 pontos e o dano de ácido aumenta em 1d6.</p>"
+		},
+		{
+			"id": "Vampiric Exsanguination",
+			"name": "Exsanguinação Vampírica",
+			"description": "<p>Você drena o sangue e força vital de outras criaturas através de seus braços estendidos. Você causa 12d6 de dano negativo a criaturas vivas na área.\nVocê recebe Pontos de Vida temporários igual à metade do dano que uma única criatura sofrer desta magia; calcule estes Pontos de Vida temporários utilizando a criatura que sofreu a maior quantidade de dano. Você perde quaisquer Pontos de Vida temporários após 1 minuto.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
+		},
+		{
+			"id": "Vampiric Touch",
+			"name": "Toque Vampírico",
+			"description": "<p>Seu toque drena o sangue de um alvo para reforçar você mesmo. Você causa 6d6 de dano negativo ao alvo. Você recupera Pontos de Vida temporários iguais à metade do dano negativo que o alvo sofrer (após aplicar resistências e similares). Você perde quaisquer Pontos de Vida temporários após 1 minuto.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
+		},
+		{
+			"id": "Veil",
+			"name": "Véu",
+			"description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo.\nConjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p>\n<hr>\n<p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p>\n<p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>"
+		},
+		{
+			"id": "Veil of Confidence",
+			"name": "Véu de Confiança",
+			"description": "<p>Você se envolve em um véu de confiança. Você reduz o valor atual da sua condição @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} em 1, e sempre que ficaria @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} pela duração desta magia, reduza o valor em 1. \nSe você falhar criticamente em um salvamento contra medo, véu de confiança é encerrada imediatamente e você aumenta qualquer condição @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} recebida da falha crítica em 1 em vez de diminuí-la.</p>"
+		},
+		{
+			"id": "Ventriloquism",
+			"name": "Ventriloquismo",
+			"description": "<p>Sempre que falar ou fizer algum outro som vocal, você pode fazer com que essa vocalização pareça vir de outro lugar a até 18 metros, e você também pode alterar essa localização aparente enquanto vocaliza o som. Qualquer criatura que ouvir o som pode tentar desacreditar sua ilusão.</p>\n<hr>\n<p><strong>Elevada (+2)</strong> A duração da magia aumenta para 1 hora e você também pode mudar o tom, qualidade e outros aspectos de sua voz. Antes de uma criatura tentar desacreditar sua ilusão, ela deve ativamente fazer um teste de Percepção ou de alguma outra forma usar ações para interagir com o som.</p>"
+		},
+		{
+			"id": "Verdant Sprout",
+			"name": "Broto Verdejante",
+			"description": "<hr>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Você imbui uma única semente de planta comum e barata com energia primal e a lança sobre uma superfície, onde brota gradualmente em uma planta Média. Após 10 minutos, a planta é robusta o suficiente para fornecer cobertura padrão e seu espaço é um terreno difícil. A planta está carregada de nozes ou frutas nutritivas suficientes para alimentar uma criatura Média por um dia. A planta possui CA 10, dureza 5 e 20 pontos de vida.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> Você lança uma semente adicional, que cresce em uma planta adicional dentro do alcance.</p>"
+		},
+		{
+			"id": "Vibrant Pattern",
+			"name": "Padrão Vibrante",
+			"description": "<p>Você cria um padrão de luzes que pulsam com intensidade. Criaturas ficam @Compendium[pf2e.conditionspf2e.TkIyaNPgTZFBCCuh]{ofuscada} dentro deste padrão. Além disso, uma criatura deve tentar uma jogada de salvamento de Vontade se estiver dentro do padrão quando você conjurá-lo, se entrar no padrão, se encerrar o turno dela dentro do padrão ou se usar uma ação de Buscar ou Interagir dentro do padrão. Uma criatura atualmente @Compendium[pf2e.conditionspf2e.XgEqL1kFApUbl5Z2]{cega} pelo padrão não precisa tentar novas jogadas de salvamento.</p>\r<p>\n<hr><b>Sucesso</b>   A criatura não é afetada..</p>\r<p>\n<b>Falha</b>  A criatura fica @Compendium[pf2e.conditionspf2e.XgEqL1kFApUbl5Z2]{cega} pelo padrão. Se sair do padrão, ela pode tentar um novo salvamento para recuperar-se da condição @Compendium[pf2e.conditionspf2e.XgEqL1kFApUbl5Z2]{cega} ao final de cada um dos turnos dela, até uma duração máxima de 1 minuto.</p>\r<p>\n<b>Falha Crítica</b>  A criatura fica @Compendium[pf2e.conditionspf2e.XgEqL1kFApUbl5Z2]{cega} por 1 minuto.</p>"
+		},
+		{
+			"id": "Vibrant Thorns",
+			"name": "Espinhos Vibrantes",
+			"description": "<p>Seu corpo brota um revestimento de galhos espinhentos que crescem com magia vital e ferem aqueles que lhe golpearem. Criaturas adjacentes que o acertarem com um ataque corpo a corpo, assim como todas as criaturas que o acertarem com ataques desarmados, sofrem 1 de dano perfurante a cada vez que o fizerem. Sempre que você conjurar uma magia positiva, o dano de seus espinhos aumenta para 1d6 até o início de seu próximo turno.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1, ou em 1d6 após você conjurar uma magia positiva.</p>"
+		},
+		{
+			"id": "Vigilant Eye",
+			"name": "Olho Vigilante",
+			"description": "<p>Você cria um sensor ocular @Compendium[pf2e.conditionspf2e.zJxUflt9np0q4yML]{invisível}, como clarividência (página 327). Quando criado, este olho deve estar em sua linha de visão.\nQuando a duração da magia acabar, você pode gastar 1 Ponto de Foco como uma ação livre para prolongá-la por mais uma hora, embora a magia normalmente se encerre imediatamente durante suas próximas preparações diárias.</p>"
+		},
+		{
+			"id": "Visions of Danger",
+			"name": "Visions of Danger",
+			"description": "<p>Uma ilusão de criaturas horríveis preenche a área da magia. As criaturas se parecem com monstros Minúsculos enxameando o local com uma aparência específica à sua escolha, como moscas infernais ou lâminas serrilhadas animadas. A magia causa 8d8 de dano mental a cada criatura que estiver dentro da explosão quando ela for criada, que entrar na explosão ou que começar o turno dela dentro da explosão. Uma criatura que obtiver um sucesso crítico no salvamento de Vontade pode imediatamente tentar desacreditar a ilusão. Uma criatura que tentar Interagir com os monstros ou observar um deles com uma ação de Buscar pode tentar desacreditar a ilusão. Criaturas que desacreditarem a ilusão não sofrem dano posterior dela.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d8.</p>"
+		},
+		{
+			"id": "Vital Beacon",
+			"name": "Farol Vital",
+			"description": "<p>Vitalidade irradia a partir de você, permitindo aos outros suplicarem e receberem cura. Uma vez por rodada, você ou um aliado pode usar uma ação de Interagir para suplicar e colocar as mãos sobre você para recuperar Pontos de Vida. Cada vez que o farol curar alguém, ele perde força. Ele restaura 4d10 Pontos de Vida da primeira criatura, 4d8 Pontos de Vida da segunda, 4d6 Pontos de Vida da terceira e 4d4 Pontos de Vida da quarta — após isso, a magia acaba. Você pode ter somente um farol vital ativo ao mesmo tempo.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> O farol restaura um dado adicional a cada vez que ele curar, utilizando o mesmo tamanho de dado que os outros para a cura sendo realizada.</p>"
+		},
+		{
+			"id": "Volcanic Eruption",
+			"name": "Erupção Vulcânica",
+			"description": "<p>O chão se abre, expelindo alto no ar uma coluna de lava em um cilindro vertical, causando 14d6 de dano de fogo a criaturas na área. A lava resfria rapidamente e cobre criaturas na área. Uma criatura coberta pela rocha fica @Compendium[pf2e.conditionspf2e.i3OJZU2nk64Df3xm]{desajeitado} 1 e sofre –3 metros de penalidade de estado nas Velocidades dela. Todo o terreno normal é terreno difícil para uma criatura voadora, e essas criaturas imediatamente descem 6 metros no momento em que são cobertas, mas não sofrem dano desta queda. Uma criatura coberta de rocha pode tentar Escapar contra sua CD de magia para encerrar o efeito. Caso contrário, a criatura permanece coberta até sofrer um total de 50 de dano, quando se livra da rocha.\nAdicionalmente, criaturas na área e aquelas que estiverem a 1,5 metros da coluna de lava automaticamente sofrem 3d6 de dano de fogo pelo calor intenso, independentemente dos resultados de suas jogadas de salvamento.</p>\r<p>\n<hr><b>Sucesso Crítico</b> A criatura não é afetada.</p>\r<p>\n<b>Sucesso</b>  A criatura sofre metade do dano.</p>\r<p>\n<b>Falha</b>  A criatura sofre o dano inteiro e fica coberta.</p>\r<p>\n<b>Falha Crítica</b>  A criatura sofre o dobro do dano e fica coberta.</p>\r<p>\n<hr><b>Elevada (+1)</b>  O dano na área aumenta em 2d6 e o dano do calor intenso aumenta em 1d6.</p>"
+		},
+		{
+			"id": "Wail of the Banshee",
+			"name": "Lamento da Banshee",
+			"description": "<p>Seu grito arrepia as almas dos inimigos que o ouvirem. Cada\ninimigo vivo na área sofre 8d10 de dano negativo e deve tentar\num salvamento de Fortitude.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>   O alvo sofre o dano inteiro.</p>\r<p>\n<b>Falha</b>  O alvo sofre o dano inteiro e fica @Compendium[pf2e.conditionspf2e.4D2KBtexWXa6oUMR]{drenado} 1d4.</p>\r<p>\n<b>Falha Crítica</b>  O alvo sofre o dobro do dano e fica @Compendium[pf2e.conditionspf2e.4D2KBtexWXa6oUMR]{drenado} 4.</p>"
+		},
+		{
+			"id": "Waking Nightmare",
+			"name": "Pesadelo Acordado",
+			"description": "<p>Você preenche a mente da criatura com uma visão terrível dos pesadelos dela. O alvo deve tentar um salvamento de Vontade. Se o alvo estiver @Compendium[pf2e.conditionspf2e.fBnFDH2MTzgFijKf]{inconsciente} quando você Conjurar esta Magia nele, ele imediatamente desperta antes de tentar o salvamento; e se falhar neste salvamento, ele sofre a condição @Compendium[pf2e.conditionspf2e.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada em adição aos efeitos notados acima.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  O alvo fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 1.</p>\r<p>\n<b>Falha</b>  O alvo fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 2.</p>\r<p>\n<b>Falha Crítica</b>  O alvo fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 3.</p>"
+		},
+		{
+			"id": "Wall of Fire",
+			"name": "Muralha de Fogo",
+			"description": "<p>Você ergue uma muralha de chamas que queima criaturas que a atravessarem. Você cria uma muralha de chamas de 1,5 metros de espessura em uma linha reta de até 18 metros de comprimento e 3 metros de altura ou um anel de chamas de 1,5 metros de espessura e 3 metros de raio com a mesma altura. A muralha se ergue verticalmente em ambas as formas; se você quiser, a muralha pode ser mais curta ou mais baixa. Tudo que estiver de um lado da muralha fica @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} contra criaturas que estejam do lado oposto. Qualquer criatura que atravessar a muralha ou estiver ocupando a área da muralha no início do turno dela sofre 4d6 de dano de fogo.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano de fogo aumenta em 1d6.</p>"
+		},
+		{
+			"id": "Wall of Force",
+			"name": "Muralha de Força",
+			"description": "<p>Você forma uma muralha @Compendium[pf2e.conditionspf2e.zJxUflt9np0q4yML]{invisível} de pura força mágica de até 15 metros de comprimento e até 6 metros de altura. A muralha não possui espessura discernível. Você deve criar a muralha em um espaço aberto interrupto para que os lados dela não passem através de quaisquer criaturas ou objetos, ou então a magia é perdida. A muralha possui CA 10, Dureza 30, 60 Pontos de Vida e é imune a acertos críticos e dano de precisão. A muralha bloqueia e impede efeitos físicos de atravessá-la e, por ser feita de força, também bloqueia criaturas incorpóreas e etéreas. Efeitos de teleportação podem atravessar a barreira, assim como efeitos visuais (já que a muralha é invisível).\nMuralha de força é imune a efeitos de neutralização do nível dela ou inferior, mas é automaticamente destruída pela magia desintegrar de qualquer nível ou ao contato de um bastão de cancelamento ou uma esfera de aniquilação.</p>\n<hr>\n<p><strong>Elevada (+2)</strong> Os Pontos de Vida da muralha aumentam em 20.</p>"
+		},
+		{
+			"id": "Wall of Ice",
+			"name": "Muralha de Gelo",
+			"description": "<p>Você esculpe uma barreira de gelo que bloqueia a visão e, após estilhaçada, congela adversários. Você cria uma muralha de gelo de 30 centímetros de espessura em uma linha reta de até 18 metros de comprimento e 3 metros de altura (a muralha não precisa ser vertical, mas ambos os lados dela devem ser ancorados em uma superfície sólida) ou um hemisfério de 30 centímetros de espessura e 3 metros de raio. Se você quiser, a muralha pode ser menor em comprimento, altura e raio. </p>\n<p>Você deve criar a muralha em um espaço aberto interrupto para que os lados dela não passem através de quaisquer criaturas ou objetos, ou então a magia é perdida. Cada seção de 3 metros por 3 metros de lado da muralha possui CA 10, Dureza 10, 40 Pontos de Vida e é imune a acertos críticos, dano de frio e dano de precisão. Cada seção também possui fraqueza 15 a fogo; uma seção da muralha destruída por fogo é derretida e evapora em água e vapor. Uma seção destruída por outros meios deixa uma massa de gelo congelante que é terreno difícil e causa 2d6 de dano de frio a qualquer criatura que atravessá-la.</p>\n<hr>\n<p><strong>Elevada (+2)</strong> Os Pontos de Vida de cada seção da muralha aumentam em 10, e o dano de frio causado a criaturas atravessando uma seção destruída aumenta em 1d6.</p>"
+		},
+		{
+			"id": "Wall of Stone",
+			"name": "Muralha de Pedra",
+			"description": "<p>Você forma uma parede de pedra sólida. Você cria uma muralha de pedra de 30 centímetros de espessura, até 36 metros de comprimento e 6 metros de altura. Você pode moldar o caminho da muralha, posicionando cada 1,5 metros da muralha na borda entre quadrados. A muralha não precisa ser vertical, portanto, você pode usá-la para formar uma ponte ou um conjunto de escadas, por exemplo. Você deve criar a muralha em um espaço aberto interrupto para que os lados dela não passem através de quaisquer criaturas ou objetos, ou então a magia é perdida.\nCada seção de 1,5 metros por 1,5 metros de lado da muralha possui CA 10, Dureza 14, 50 Pontos de Vida e é imune a acertos críticos e dano de precisão. Uma seção destruída da muralha pode ser atravessada, mas os detritos criados dela são terreno difícil.</p>\n<hr>\n<p><strong>Elevada (+2)</strong> Os Pontos de Vida de cada seção da muralha aumentam em 15.</p>"
+		},
+		{
+			"id": "Wall of Thorns",
+			"name": "Muralha de Espinhos",
+			"description": "<p>Ao longo de um minuto, você faz uma muralha de galhos espinhentos crescer do chão. Você cria uma muralha de espinheiros em uma linha reta de até 18 metros de comprimento e 3 metros de altura. Você deve criar a muralha em um espaço aberto ininterrupto para que os lados dela não passem através de quaisquer criaturas ou objetos, ou então a magia é perdida. A muralha se ergue verticalmente. Se você quiser, a muralha pode ser menor em comprimento e altura. Tudo que estiver de um lado da muralha recebe cobertura contra criaturas que estejam do lado oposto, e os espaços da muralha são terreno difícil. Para cada ação de movimento que uma criatura usar para entrar em pelo menos um dos espaços da muralha, essa criatura sofre 3d4 de dano perfurante.</p>\n<p>Cada seção de 1,5 metros por 1,5 metros de lado da muralha possui CA 10, Dureza 10, 20 Pontos de Vida e é imune a acertos críticos e dano de precisão. Uma seção destruída pode ser atravessada livremente.</p>\n<hr>\n<p><strong>Elevada (+1)</strong> Os Pontos de Vida de cada seção da muralha aumentam em 5, e o dano perfurante aumenta em 1d4.</p>"
+		},
+		{
+			"id": "Wall of Wind",
+			"name": "Muralha de Vento",
+			"description": "<p>Você cria uma barreira de ventos fortes que impedem qualquer coisa de atravessá-la. A muralha de ventos rodopiantes possui 1,5 metros de espessura, 18 metros de comprimento e 9 metros de altura. A muralha se ergue verticalmente, mas você pode moldar o caminho dela. Embora a muralha de vento distorça o ar, ela não impede a visão. A muralha possui os efeitos a seguir.</p>\n<ul>\n<li>Projéteis de ataques à distância físicos — como balas de funda, flechas, virotes e outros objetos de tamanho similar — não podem atravessar a muralha. Ataques com armas à distância maiores, como azagaias, sofrem –2 de penalidade de circunstância em suas rolagens de ataque se passarem pela muralha. Armas à distância massivas e efeitos de magia que não criam objetos físicos atravessam a muralha sem nenhuma penalidade.</li>\n<li>A muralha é terreno difícil para criaturas que tentem atravessá-la pelo chão. Gases, incluindo criaturas em forma gasosa, não podem atravessar a muralha.</li>\n<li>Uma criatura que tentar voar através da muralha usando uma ação de movimento deve tentar um salvamento de Fortitude.</li>\n</ul>\n<hr>\n<p><strong>Sucesso Crítico</strong> A criatura pode se mover através da muralha normalmente neste turno.</p>\n<p><strong>Sucesso</strong> A criatura pode se mover através da muralha neste turno, mas a muralha é terreno difícil.</p>\n<p><strong>Falha</strong> A muralha impede o movimento da criatura voadora e qualquer movimento remanescente da ação atual é desperdiçado.</p>\n<p><strong>Falha Crítica</strong> Como falha, mas a criatura é empurrada 3 metros para longe da muralha.</p>"
+		},
+		{
+			"id": "Wanderer's Guide",
+			"name": "Orientação do Andarilho",
+			"description": "<p>Você recorre a forças externas para guiar sua rota. Quando Conjurar esta Magia, escolha um destino; você recebe uma rota inspirada que leva até esse destino, permitindo que você e aliados que viajarem em sua companhia por terra reduzam a penalidade de movimento por terreno difícil à metade pela duração da magia — desde que você não desvie da rota inspirada. Isto não exerce nenhum efeito no movimento durante encontros. Se você usar esta habilidade novamente antes da duração acabar, este efeito é encerrado e substituído pelo da nova rota.</p>"
+		},
+		{
+			"id": "Warp Mind",
+			"name": "Distorcer Mente",
+			"description": "<p>Você desordena as faculdades mentais e as informações sensoriais de uma criatura. O alvo deve tentar um salvamento de Vontade. Independentemente do resultado desse salvamento, o alvo fica temporariamente imune por 10 minutos. Os efeitos de distorcer mentes acontecem instantaneamente, portanto, dissipar magia e outros efeitos que neutralizam magias não podem neutralizá-los. Entretanto, alterar realidade, desejo, fenômeno primal, milagre ou restauração ainda podem neutralizar os efeitos.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  O alvo gasta a primeira ação do próximo turno dele com a condição @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso} .</p>\r<p>\n<b>Falha</b>  O alvo fica @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso} por 1 minuto.</p>\r<p>\n<b>Falha Crítica</b>  O alvo fica @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso} permanentemente. </p>"
+		},
+		{
+			"id": "Warped Terrain",
+			"name": "Terreno Distorcido",
+			"description": "<p>Você cria perigos ilusórios que cobrem todas as superfícies na área (tipicamente o chão). Qualquer criatura movendo-se pela ilusão trata os quadrados como terreno difícil. Uma criatura pode tentar desacreditar o efeito normalmente após usar uma ação de Buscar ou de alguma outra forma usar ações interagindo com a ilusão. Se obtiver sucesso em desacreditar, ela ignora o efeito pelo restante da duração. Para cada ação adicional que você usar conjurando a magia, o raio da explosão aumenta em 1,5 metros, até um máximo de 3 metros extras para 3 ações.</p>\n<hr>\n<p><strong>Elevada (4º)</strong> Você pode fazer a ilusão aparecer no ar em vez de uma superfície, fazendo-a funcionar como terreno difícil para criaturas voadoras.</p>"
+		},
+		{
+			"id": "Water Breathing",
+			"name": "Respirar na Água",
+			"description": "<p>Os alvos podem respirar na água.</p>\n<hr>\n<p><strong>Elevada (3º)</strong> A duração aumenta para 8 horas.</p>\n<p><strong>Elevada (4º)</strong> A duração aumenta para até a próxima vez que você fizer suas preparações diárias.</p>"
+		},
+		{
+			"id": "Water Walk",
+			"name": "Caminhar na Água",
+			"description": "<p>O alvo pode andar na superfície da água e outros líquidos sem afundar neles. Ele pode ficar submerso se quiser, mas nesse caso deve Nadar normalmente. Esta magia não concede a habilidade de respirar na água.</p>\n<hr>\n<p><strong>Elevada (4º)</strong> A distância da magia aumenta para 9 metros, a duração aumenta para 1 hora e você pode afetar até 10 criaturas.</p>"
+		},
+		{
+			"id": "Weapon Storm",
+			"name": "Tempestade de Armas",
+			"description": "<p>Você brande uma arma que estiver segurando, e a arma se multiplica magicamente em duplicatas que golpeiam todas as criaturas em um cone ou emanação. Esta torrente de golpes causa quatro dados de dano às criaturas na área. O dano causado é do mesmo tipo da arma e utiliza o mesmo tamanho de dado. Determine o tamanho de dado como se estivesse atacando com a arma; por exemplo, se estiver empunhando uma arma com o traço duas mãos em ambas mãos, você utiliza os dados de dano para duas mãos.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b> O alvo sofre metade do dano.</p>\r<p>\n<b>Falha</b>  O alvo sofre o dano inteiro.</p>\r<p>\n<b>Falha Crítica</b>  O alvo sofre o dobro do dano e é sujeito ao efeito de especialização de crítico da arma.</p>\r<p>\n<hr><b>Elevada (+1)</b>  Adicione outro dado de dano.</p>"
+		},
+		{
+			"id": "Weapon Surge",
+			"name": "Surto de Arma",
+			"description": "<p>Segurando sua arma erguida para cima, você a inunda com energia divina. Em seu próximo Golpe com essa arma antes do início de seu próximo turno, você recebe +1 de bônus de estado na rolagem de ataque e a arma causa um dado de dano adicional. Se a arma possuir uma runa impactante, esta magia aumenta a quantidade de dados da runa impactante em 1 (até um máximo de 3 dados danos de extras) em vez de ter seu efeito normal. \nSe a arma alvo sair de sua posse, surto de arma é encerrada imediatamente.</p>"
+		},
+		{
+			"id": "Weapon of Judgement",
+			"name": "Arma do Julgamento",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Uma arma imensa de força surge, pairando no ar sobre o alvo. A arma possui uma aparência visual fantasmagórica semelhante à arma favorita de sua divindade. Selecione guerra ou paz quando conjurar esta magia.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Se selecionar “guerra”, escolha mentalmente uma criatura. Ela deve ser uma criatura que você e o alvo possam ver. O alvo instintivamente sabe qual criatura é esta. Ao final de cada turno do alvo que ele não tiver usado uma ação hostil contra a criatura escolhida, a arma Golpeia o alvo.</span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Se selecionar “paz”, escolha mentalmente até cinco aliados. O alvo instintivamente sabe os aliados escolhidos. A arma Golpeia o alvo cada vez que ele usar uma ação hostil contra você ou um desses aliados. A arma Golpeia somente uma vez por ação, mesmo se a ação mirar vários aliados (como uma <a href=\"https://2e.aonprd.com/Spells.aspx?ID=119\"><em>bola de fogo</em></a> ou um <a href=\"https://2e.aonprd.com/Feats.aspx?ID=170\">Golpe Giratório</a>).<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Os Golpes da arma são ataques de magia corpo a corpo a corpo, mas utilizam seu modificador de ataque de magia. Independentemente da aparência da arma, ela causa dano de força igual a 3d10 mais o modificador de seu atributo de conjuração, mas você pode causar dano do tipo normalmente causado pela arma em vez de dano de força (ou qualquer tipo de dano disponível para uma arma versátil). A arma sofre penalidade por ataques múltiplos, que aumenta durante todo o turno do alvo, mas a penalidade dela é separada da sua.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Nenhum outro traço ou estatística da arma se aplica, e mesmo um ataque com uma arma à distância ataca somente criaturas adjacentes a ela. Apesar de realizar um ataque de magia, a arma de julgamento é considerada uma arma para os propósitos de acionamentos, resistências e outras regras similares.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">A arma não ocupa um espaço, não concede flanqueamento nem possui quaisquer outras características que uma criatura normalmente teria. A arma não pode realizar qualquer ataque além do Golpe dela, e talentos ou magias que afetem armas não se aplicam a ela.</span></p>\n<hr>\n<p><strong>Elevada (10º)</strong> O dano de força aumenta em 1d10.</p>"
+		},
+		{
+			"id": "Web",
+			"name": "Teia",
+			"description": "<p>Você cria uma teia pegajosa na área que dificulta o movimento de criaturas a cada vez que elas tentarem se mover por ela. Quadrados preenchidos com a teia são terreno difícil. Cada quadrado pode ter a teia removida com um único ataque ou efeito que cause pelo menos 5 de dano cortante ou 1 de dano de fogo. Um quadrado afetado por esta magia possui CA 5 e falha automaticamente em jogadas de salvamento.</p>\n<p>Cada vez que uma criatura na teia começa a usar uma ação de movimento ou entra na teia durante uma ação de movimento, deve tentar um teste de Atletismo ou um salvamento por Reflexo contra o sua CD de magia para evitar aplicar uma penalidade de circunstância às suas Velocidades ou se tornar @Compendium[pf2e.conditionspf2e.eIcWbB5o3pP6OIMe]{imobilizado}. Uma criatura que sair da teia para de sofrer a penalidade de circunstância na Velocidade dela devido a esta magia.</p>\n<hr>\n<p><strong>Sucesso Crítico</strong>  A criatura não é afetada e não precisa tentar mais testes de Atletismo ou jogadas de salvamento contra a teia neste turno. Se tiver usado um teste de Atletismo, ela remove a teia de todos os quadrados que atravessar após deixar esse quadrado.</p>\n<p><strong>Sucesso</strong> A criatura não é afetada durante a ação dela. Se tiver usado um teste de Atletismo, ela remover a teia de todos os quadrados que atravessar após deixar esse quadrado.</p>\n<p><strong>Falha</strong> A criatura sofre –3 metros de penalidade de circunstância nas Velocidades dela até o início do próximo turno dela.</p>\n<p><strong>Falha Crítica</strong> A criatura fica @Compendium[pf2e.conditionspf2e.eIcWbB5o3pP6OIMe]{imobilizado} até o início do próximo turno dela, e após isso sofre –3 metros de penalidade de circunstância nas Velocidades dela por 1 rodada. Ela pode tentar Escapar para remover essa condição @Compendium[pf2e.conditionspf2e.eIcWbB5o3pP6OIMe]{imobilizado}.</p>\n<hr>\n<p><strong>Elevada (4º)</strong> A área da magia aumenta para uma explosão de 6 metros e a distância aumenta para 18 metros.</p>"
+		},
+		{
+			"id": "Weird",
+			"name": "Fatídico",
+			"description": "<p>Você enche as mentes dos alvos com imagens aterrorizantes de criaturas temíveis, cada uma utilizando os piores medos dos alvos. Somente os alvos podem ver seus agressores. Cada alvo sofre 16d6 de dano mental e deve tentar um salvamento de Vontade.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b>  O alvo sofre metade do dano e fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 1.</p>\r<p>\n<b>Falha</b>  O alvo sofre o dano inteiro e fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 2.</p>\r<p>\n<b>Falha Crítica</b>  O alvo está com tanto medo que pode morrer instantaneamente. Ele deve tentar um salvamento de Fortitude. Se for bem-sucedido, ele sofre o dobro do dano e fica @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado} 2, além de também ficar @Compendium[pf2e.conditionspf2e.sDPxOjQ9kx2RZE8D]{fugindo} até o final do próximo turno dele se não tiver obtido um sucesso crítico. Se falhar, ele é reduzido a 0 Pontos de Vida e morre.</p>"
+		},
+		{
+			"id": "Whirling Scarves",
+			"name": "Lenços Giratórios",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se envolve em um vórtice de lenços coloridos de força que ofuscam você e desorientam seus inimigos. Você ganha os benefícios da condição @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado}, mas apenas contra ataques à distância e corpo a corpo. Quando um ataque corpo a corpo falha em atingi-lo por causa da verificação de acerto da condição @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado}, os lenços prendem a arma ou o ataque desarmado, e a criatura sofre uma penalidade de -1 de circunstância para novos ataques com essa arma ou ataque desarmado até o final de seu turno (ou no final do próximo turno, se não for o turno da criatura). O momento do movimento dos lenços é mais difícil de prever para atacantes à distância, portanto a verificação de acerto da condição @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} contra ataques à distância aumenta de CD 5 para CD 6. Você pode Dispensar essa magia.</span></p>\n<hr>\n<p><strong>Elevada (+2)</strong> A penalidade da circunstância para ataques adicionais com uma arma corpo a corpo ou ataque desarmado aumenta em 1. O CD do teste para a condição @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} contra ataques à distância aumenta em 1.</p>"
+		},
+		{
+			"id": "Wholeness of Body",
+			"name": "Integridade Corporal",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se cura de uma das maneiras a seguir, escolhida por você quando conjurar a magia.</span></p>\n<ul>\n<li>Você recupera 8 Pontos de Vida.</li>\n<li>Você tenta curar uma doença ou veneno que esteja o afligindo; tente neutralizar a aflição.</li>\n</ul>\n<hr>\n<p><strong>Elevada (+1)</strong> Se você escolher recuperar Pontos de Vida, a quantidade de Pontos de Vida recuperados aumenta em 8.</p>"
+		},
+		{
+			"id": "Wild Morph",
+			"name": "Morfia Selvagem",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você morfa seu corpo baseado em seu treinamento, escolhendo um dos efeitos a seguir baseado em seus talentos de ordem selvagem.</span></p>\n<ul>\n<li>Se possuir <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Feats.aspx?ID=316\">Aspecto Selvagem</a>, você pode morfar suas mãos em garras selvagens. Suas mãos se transformam em garras incrivelmente afiadas. Estas garras são um ataque desarmado no qual você é treinado e que causa 1d6 de dano cortante (acuidade, ágil) cada. Você ainda pode segurar e usar itens com suas mãos enquanto elas estiverem transformadas por esta magia, mas não pode segurar um item enquanto atacar. Se possuir <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Feats.aspx?ID=327\">Aspecto de Inseto</a>, você pode transformar sua boca em mandíbulas selvagens, um ataque desarmado no qual você é treinado e que causa 1d8 de dano perfurante.</li>\n<li>Se possuir <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Feats.aspx?ID=335\">Aspecto de Elemental</a>, você pode morfar seu corpo para ser parcialmente composto por matéria elemental, concedendo-lhe resistência 5 a acertos críticos e dano de precisão.</li>\n<li>Se possuir <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Feats.aspx?ID=338\">Aspecto de Planta</a>, você pode morfar seus braços em vinhas longas, aumentando seu alcance para 3 metros (ou 4,5 metros com uma arma de alcance).</li>\n<li>Se possuir <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Feats.aspx?ID=333\">Aspecto Altaneiro</a>, você pode conjurar a magia como uma atividade de duas ações (<img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/TwoActions.png\" alt=\"Two Actions\"> somático, verbal) para crescer asas em suas costas. Estas asas lhe permitem voar com uma Velocidade de voo de 9 metros.</li>\n</ul>\n<hr>\n<p><strong>Elevada (6º)</strong> Você pode escolher até dois dos aspectos da lista. Garras selvagens fazem ferimentos terríveis e grosseiros que também causam 2d6 de dano persistente de sangramento em um acerto, e mandíbulas selvagens são envenenadas, também causando 2d6 de dano persistente de veneno em um acerto.</p>\n<p><strong>Elevada (10º)</strong> Você pode escolher até três dos efeitos da lista. Garras selvagens causam 4d6 de dano persistente de sangramento em um acerto e mandíbulas selvagens causam 4d6 de dano persistente de veneno em um acerto.</p>"
+		},
+		{
+			"id": "Wild Shape",
+			"name": "Aspecto Selvagem",
+			"description": "<p>Você se infunde com essência primal e se transforma em outra forma. Você pode polimorfar em qualquer forma listada em forma de peste, que dura 10 minutos. Todas as outras formas de aspecto selvagem duram 1 minuto. Você pode adicionar mais formas à sua lista de aspecto selvagem com talentos de druida; seu talento pode conceder algumas ou todas as formas de uma determinada magia de polimorfia. Quando se transformar em uma forma concedida por uma magia, você recebe todos os efeitos da forma escolhida de uma versão da magia elevada para o nível de aspecto selvagem. Aspecto selvagem permite utilizar seu próprio treinamento de metamorfose mais facilmente do que a maioria das magias de polimorfia. Quando escolher utilizar seu próprio modificador de ataque enquanto estiver polimorfado em vez do modificador de ataque padrão da forma, você recebe +2 de bônus de estado em suas rolagens de ataque.</p>\n<hr>\n<p><strong>Elevada (2º)</strong> Você também pode usar aspecto selvagem para assumir as formas listadas em forma de animal.</p>"
+		},
+		{
+			"id": "Wild Winds Stance",
+			"name": "Postura dos Ventos Selvagens",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você assume a postura dos ventos correntes, enviando ondas de energia à distância. Você pode realizar Golpes desarmados de estampido do vento como Golpes à distância contra alvos a até 9 metros. Eles causam 1d6 de dano contundente; pertencem ao grupo pugilato; e possuem os traços ágil, desarmado, não-letal e propulsivo. Golpes de estampido do vento ignoram ocultação e toda cobertura.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Enquanto estiver na <em>postura dos ventos selvagens</em>, você recebe +2 de bônus de circunstância na CA contra ataques à distância.</span></p>"
+		},
+		{
+			"id": "Wind Jump",
+			"name": "Salto do Vento",
+			"description": "<p>Você adquire uma Velocidade de voo igual à sua Velocidade. Você deve encerrar seu turno sobre chão sólido ou cai.</p>\n<hr>\n<p><strong>Elevada (6º)</strong> Ao final de seu turno, você pode fazer um teste de Acrobatismo CD 30 para encontrar apoio no próprio ar. Se obtiver sucesso, você não cai.</p>"
+		},
+		{
+			"id": "Wind Walk",
+			"name": "Caminhar no Vento",
+			"description": "<p>Quando você conjurar esta magia, cada alvo é transformado em uma forma vagamente enevoada e é levado pelo vento, movendo-se na direção que você escolher. Você pode mudar a direção do vento ao usar uma ação única que possui o traço concentração. O vento carrega os alvos a uma Velocidade de 30 quilômetros por hora, mas se qualquer dos alvos fizer um ataque, Conjurar uma Magia, for atacado ou de alguma forma entrar no modo de encontro, a magia acaba para todos os alvos assim que eles rolarem iniciativa, e todos descem gentilmente para o solo.</p>"
+		},
+		{
+			"id": "Winter Bolt",
+			"name": "Raio de Inverno",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você arremessa um sincelo oco cheio da ira do inverno. Faça um ataque de magia contra um alvo dentro do alcance. O raio causa 1d8 de dano de perfuração e se aloja no alvo. No final do próximo turno do alvo, o raio se despedaça, liberando um turbilhão de neve e gelo que causa 1d12 de dano de frio no alvo e em todas as criaturas adjacentes. O raio pode ser removido com uma ação de Interagir, que faz com que derreta inofensivamente sem detonar.<br> <br><strong>Sucesso Crítico</strong> O raio inicial causa dano total e é especialmente bem ancorado, executando 2 ações de Interagir para remover. A explosão do raio causa o dobro do dano.<br><strong>Sucesso</strong> O raio e sua explosão causam dano total.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano inicial aumenta em 1d8 e o dano secundário aumenta em 1d12.</p>"
+		},
+		{
+			"id": "Wish",
+			"name": "Desejo",
+			"description": "<p>Você profere um desejo, fazendo sua maior vontade virar verdade. Uma conjuração de desejo pode resultar em qualquer um dos efeitos a seguir:\n• Duplicar qualquer magia arcana de 9º nível ou inferior.\n• Duplicar qualquer magia não-arcana de 7º nível ou inferior.\n• Produzir qualquer efeito cujo poder seja equivalente ao de qualquer magia arcana de 9º nível ou inferior ou equivalente ao poder de qualquer magia não-arcana de 7º nível ou inferior.\n• Reverter determinados efeitos que mencionem a magia desejo.\nA critério do MJ, você pode tentar produzir efeitos maiores, mas isto é perigoso e a magia pode ter um efeito somente parcial.</p>"
+		},
+		{
+			"id": "Withering Grasp",
+			"name": "Garra Seca",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Seu toque apodrece material orgânico e deteriora objetos. Faça um teste de ataque de feitiço corpo a corpo. Seu toque causa 1d12 de dano negativo mais 1d4 de dano negativo persistente. Se uma criatura usar um item para bloquear Garra Seca, como na reação Bloqueio de Escudo, o item será automaticamente afetado, mas a criatura não sofrerá dano (mesmo se houver dano sobrando após a Dureza do escudo). Ao contrário do dano negativo normal, o dano negativo de <em>garra seca</em> danifica objetos, construções e similares, corroendo-os.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\"><strong>Sucesso Crítico</strong> Seu toque causa o dobro de dano (inicial e persistente). Se você mirar em um objeto, diminua sua Dureza em 4 por 1 minuto.<br><strong>Sucesso</strong> Seu toque causa dano total. Se você atingir um objeto, diminua sua Dureza em 2 por 1 minuto.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d12 e o @Compendium[pf2e.conditionspf2e.lDVqvLKA6eF3Df60]{dano persistente} aumenta em 1. Se você atingir um objeto, diminua sua Dureza em 1 ponto adicional em um sucesso e um sucesso crítico.</p>"
+		},
+		{
+			"id": "Word of Freedom",
+			"name": "Palavra de Liberdade",
+			"description": "<p>Você profere uma palavra de poder libertadora que livra uma criatura. Você suprime uma das seguintes condições à sua escolha: @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso}, @Compendium[pf2e.conditionspf2e.TBSHQspnbcqxsmjL]{assustado}, @Compendium[pf2e.conditionspf2e.kWc1fhmv9LBiTuei]{agarrado}, ou @Compendium[pf2e.conditionspf2e.6uEgoh53GbXuHpTF]{paralisado}. O alvo não é afetado pela condição escolhida e, se você suprimir a condição @Compendium[pf2e.conditionspf2e.kWc1fhmv9LBiTuei]{agarrado} o alvo automaticamente se liberta de qualquer efeito o afetando quando você Conjurar a Magia.</p>\n<p>Se você não remover o efeito que gerou a condição, ela retorna após a magia acabar. Por exemplo, se uma magia estiver deixando o alvo @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso} por 1 minuto, palavra de liberdade permitiria o alvo agir normalmente por 1 rodada, mas a condição @Compendium[pf2e.conditionspf2e.yblD8fOR1J8rDwEQ]{confuso} retornaria após esse período.</p>"
+		},
+		{
+			"id": "Word of Truth",
+			"name": "Palavra da Verdade",
+			"description": "<p>Você profere uma afirmação que acredita ser verdade e que é livre de qualquer tentativa de dissimulação através de palavras enganosas, omissão e similares. A afirmação deve ter até 25 palavras. Um símbolo de sua divindade brilha sobre sua cabeça e qualquer pessoa que vir e ouvir sua afirmação sabe que você acredita que ela seja verdadeira.\nCada vez que você Sustentar a Magia, você pode repetir este efeito.</p>"
+		},
+		{
+			"id": "You're Mine",
+			"name": "Você é Meu",
+			"description": "<p>Você manipula as emoções do alvo, potencialmente controlando-o por um breve instante. O alvo deve tentar um salvamento de Vontade.</p>\r<p>\n<hr><b>Sucesso Crítico</b>  O alvo não é afetado..</p>\r<p>\n<b>Sucesso</b>  O alvo fica @Compendium[pf2e.conditionspf2e.dfCMdR4wnpbYNTix]{atordoado} 1.</p>\r<p>\n<b>Falha</b>  No próximo turno do alvo, ele fica @Compendium[pf2e.conditionspf2e.dfCMdR4wnpbYNTix]{atordoado} 1 e você o controla parcialmente, fazendo-o realizar uma ação única à sua escolha. Se possuir ações restantes, ele pode agir normalmente.</p>\r<p>\n<b>Falha Crítica</b>  O alvo fica @Compendium[pf2e.conditionspf2e.9qGBRpbX9NEwtAAr]{controlado} por 1 rodada.</p>\r<p>\n<hr><b>Elevada (7º)</b>  Em uma falha, o alvo fica @Compendium[pf2e.conditionspf2e.9qGBRpbX9NEwtAAr]{controlado} for 1 round. Em uma falha crítica, o alvo fica @Compendium[pf2e.conditionspf2e.9qGBRpbX9NEwtAAr]{controlado} por até 1 minuto; ele recebe um novo salvamento de Vontade ao final de cada um dos turnos dele e encerra a magia em um sucesso.</p>"
+		},
+		{
+			"id": "Zeal for Battle",
+			"name": "Entusiasmo pela Batalha",
+			"description": "<p>Você alimenta a ira justa dentro de si e de um aliado. Você e o aliado alvo rolam um d20 cada e usam o maior resultado para suas rolagens de iniciativa. Vocês ainda utilizam seus próprios modificadores de Percepção ou outras estatísticas para determinarem seus resultados.</p>"
+		},
+		{
+			"id": "Zealous Conviction",
+			"name": "Zealous Conviction",
+			"description": "<p>Você supera as mentes racionais de seus alvos, instigando-os com convicção e fervor inabaláveis. Cada alvo recebe 12 Pontos de Vida temporários e +2 de bônus de estado em salvamentos de Vontade contra efeitos mentais, já que sua fé supera os limites de seus próprios corpos e mentes. Se você disser a um alvo para fazer algo, ele deve consentir com seu pedido, embora, se normalmente acharia a tarefa repugnante, poderá tentar um salvamento de Vontade ao final do turno dele a cada rodada devido à dissonância cognitiva. Em um sucesso, ele encerra inteiramente os efeitos da magia sobre si mesmo.</p>\n<p><strong>Elevada (9º)</strong> Os Pontos de Vida temporários aumentam para 18 e\no bônus de estado em salvamentos de Vontade aumenta para +3.</p>"
+		},
+		{
+			"id": "Zenith Star",
+			"name": "Estrela Zênite",
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você chama uma pequena estrela para orbitar uma criatura em uma auréola brilhante antes de disparar para o céu, onde ela marca a localização aproximada da criatura. O alvo deve tentar um teste de Fortitude.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\"><strong>Sucesso Crítico</strong> O alvo não é afetado.<br><strong>Sucesso</strong> O alvo fica @Compendium[pf2e.conditionspf2e.TkIyaNPgTZFBCCuh]{ofuscado} por uma rodada.<br><strong>Falha</strong> O alvo está @Compendium[pf2e.conditionspf2e.TkIyaNPgTZFBCCuh]{ofuscado} por 1 rodada. Enquanto a magia persiste, desde que você possa ver o céu noturno e o alvo ser visível no mesmo céu noturno, você pode sentir a direção e a distância aproximadas da criatura usando uma única ação, que tem o traço <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Traits.aspx?ID=32\">concentração</a>. Isso é exato o suficiente para rastrear a criatura, mas não indica o quadrado exato (por exemplo, para fazer um ataque). Você pode definir um número de <em>estrelas zênites</em> igual ao seu modificador de sabedoria; se você exceder esse número, a mais antiga <em>estrela zênite</em> é automaticamente dissipada.<br> <strong>Falha Crítica</strong> Como falha, mas o alvo fica @Compendium[pf2e.conditionspf2e.XgEqL1kFApUbl5Z2]{cego} por 1 rodada.</span></p>\n<hr>\n<p><strong>Elevada (+1)</strong> A duração aumenta em 1 dia.<br> <strong>Elevada (4º)</strong> Você ignora a condição @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{ocultado} contra alvos marcados por <em>estrela zênite</em>.</p>"
+		},
+		{
+			"id": "Zone of Truth",
+			"name": "Zona da Verdade",
+			"description": "<p>Você designa uma área na qual criaturas são compelidas a falar somente a verdade. Criaturas dentro da área ou que entrarem nela têm dificuldade em mentir. Cada criatura potencialmente afetada deve tentar um salvamento de Vontade quando a magia for conjurada ou quando a criatura entrar na área pela primeira vez. Ela usa os resultados deste salvamento inicial se sair e reentrar na área. Criaturas afetadas ficam cientes deste encantamento; portanto, podem evitar responder questões que normalmente responderiam com uma mentira, ou então podem ser evasivas desde que permaneçam dentro dos limites da verdade.</p>\r<p>\n<hr><b>Sucesso Crítico</b> O alvo não é afetado.</p>\r<p>\n<b>Sucesso</b> O alvo sofre –2 de penalidade de estado em testes de Dissimulação.</p>\r<p>\n<b>Falha</b> O alvo não pode falar quaisquer mentiras deliberadas e intencionais e sofre –2 de penalidade de estado em testes de Dissimulação.</p>\r<p>\n<b>Falha Crítica</b> O alvo não pode falar quaisquer mentiras deliberadas e intencionais e sofre –4 de penalidade de estado em testes de Dissimulação.</p>"
+		}
+	]
+}
