@@ -132,6 +132,11 @@
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Em vez de se especializar estritamente em uma escola arcana, você pode se tornar um mago universalista — ao estudar todas as escolas igualmente, você busca compreender toda a amplitude das artes arcanas. Para cada nível de magia que puder conjurar, você pode usar Drenar Item Ligado uma vez por dia para recordar uma magia de cada nível desses (em vez de usá-la somente uma vez por dia no total). Você recebe um talento de mago extra, e adiciona uma magia de 1º nível à sua escolha ao seu grimório.&nbsp;</span></p>"
 		},
 		{
+			"id": "Arcane Spellcasting",
+			"name": "Conjuração Arcana",
+			"description": "<p>Através de estudo dedicado e prática intensiva, você consegue manipular o poder arcano para conjurar magias. Você pode conjurar magias arcanas usando a atividade @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Conjurar uma Magia} e pode providenciar componentes materiais, somáticos e verbais quando conjurar magias (veja Conjurando Magias, na página 302).</p>\n<p>No 1º nível, a cada manhã você pode preparar duas magias de 1º nível e cinco truques mágicos dentre as opções disponíveis em seu grimório (veja abaixo). Se for um mago especialista, você pode preparar magias adicionais da escola de magia escolhida, sendo um truque mágico e uma magia a cada nível de magia que seja capaz de conjurar. Magias preparadas permanecem disponíveis até você conjurá-las ou preparar suas magias novamente. A quantidade de magias que você pode preparar é chamada de espaços de magia.</p>\n<p>Conforme avança de nível como mago, a quantidade de magias que você pode preparar por dia aumenta, assim como o maior nível de magia que você é capaz de conjurar, conforme demonstrado na Tabela 3–17: Magias de Mago por Dia na página 181.</p>"
+		},
+		{
 			"id": "Arcane Thesis",
 			"name": "Tese Arcana",
 			"description": "<p><span id=\"ctl00_MainContent_Header\">Durante seus estudos para se tornar um mago completamente graduado, você produziu uma tese de pesquisa mágica única sobre um tópico específico. Você recebe um benefício especial que corresponde ao tópico da pesquisa de sua tese. Abaixo são apresentados alguns tópicos de tese arcana; sua tese específica provavelmente possui um título muito mais longo e técnico, como “Sobre os Métodos de Interpolação da Magia e a Gênese de uma Nova Compreensão dos Blocos Fundamentais da Magia”.</span></p>\n<h2>@Compendium[pf2e.classfeatures.SNZ46g3u7U6x0XJj]{Sintonização com Familiar Aprimorada}</h2>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Você insiste há muito tempo que uma afinação sutil da mágica que liga mago e familiar pode aprimorar imensamente essa conexão mística, especialmente comparada ao elo seguro e genérico usado pela maioria dos magos. Você formou um pacto desses com seu familiar, recebendo mais vantagens dessa ligação do que a maioria dos magos. Você recebe o talento de mago Familiar como um talento bônus. Seu familiar recebe uma habilidade extra e uma habilidade extra adicional quando você alcançar o 6º, 12º e 18º níveis.</p>\n<p>Sua forte conexão com seu familiar altera sua característica\nde classe elo arcano, permitindo que você armazene sua energia mágica em seu familiar em vez de num item. Você também recebe a ação livre Drenar Familiar em vez da ação Drenar Item Ligado. Drenar Familiar funciona da mesma forma e nos mesmos momentos que Drenar Item Ligado, exceto que você drena a magia de seu familiar em vez de um item.</span></p>\n<h2>@Compendium[pf2e.classfeatures.89zWKD2CN7nRu2xp]{Experimentação Metamágica}</h2>\n<p>Você percebeu que a prática conhecida como metamagia é um recurso que data de tempos antigos, quando magos tinham que criar suas próprias magias e variações em vez de recorrer a magias criadas por outros e repassadas ao longo dos anos. Este conhecimento lhe permite acessar eficientemente vários efeitos metamágicos.</p>\n<p> Você recebe um talento metamágico de mago de 1º nível como um talento bônus. A partir do 4º nível, durante suas preparações diárias, você recebe um talento metamágico de mago à sua escolha que possua um requerimento de nível igual à metade de seu nível ou inferior, e pode utilizá-lo até fazer suas próximas preparações diárias..</p>\n<h2>@Compendium[pf2e.classfeatures.OAcxS625AXSGrQIC]{Mescla de Magia}</h2>\n<p>Você teoriza que os espaços de magia são meramente um toda conjuração, e descobriu uma forma de rearranjar a hierarquia de espaços de magia, combinando-os para alimentar magias mais poderosas. </p>\n<p>Quando fizer suas preparações diárias, você pode trocar dois espaços de magia do mesmo nível por um espaço de magia bônus de até 2 níveis superior aos espaços de magia trocados. Você pode trocar quantos espaços de magia quiser, desde que os tenha disponíveis. Esses espaços de magia bônus devem pertencer a um nível que você pode conjurar normalmente, e cada espaço de magia bônus deve ser de um nível de magia diferente. Você também pode trocar qualquer espaço de magia para receber dois truques mágicos adicionais, embora só possa fazê-lo uma vez a cada preparação</p>\n<h2>@Compendium[pf2e.classfeatures.QzWXMCSGNfvvpYgF]{Substituição de Magia}</h2>\n<p>Você não aceita o fato de que, uma vez preparadas, magias não possam ser trocadas até suas próximas preparações diárias, e descobriu um atalho que lhe permite substituir magias previamente preparadas por novas magias escolhidas.</p>\n<p> Você pode gastar 10 minutos para esvaziar um de seus espaços de magia preparados e preparar uma magia diferente de seu grimório em seu lugar. Se for interrompido durante uma troca dessas, a magia original permanece preparada e ainda pode ser conjurada. Você pode tentar trocar a magia posteriormente, mas deve iniciar o processo desde o início</p>"
@@ -293,7 +298,7 @@
 		},
 		{
 			"id": "Chirugeon",
-			"name": "Cirurgião",
+			"name": "Chirugeon",
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se concentra em curar os outros com alquimia. Você começa com duas fórmulas adicionais em seu livro de fórmulas, escolhidas entre: <@Compendium[pf2e.equipment-srd.ktjFOp3U0wQD9t0Z]{antídoto menor}, @Compendium[pf2e.equipment-srd.UqinuuCWePTYGhVO]{antipeste menor}, or @Compendium[pf2e.equipment-srd.hDLbR56Id2OtU318]{elixir da vida mínimo}.<br><br>Enquanto sua graduação de proficiência em Medicina for treinado ou melhor, você pode realizar um teste de Manufatura em vez de Medicina para quaisquer usos destreinados e treinados de Medicina.</span></p>\n<h2 class=\"title\">Descoberta de Campo de Pesquisa<span style=\"float: right;\">Nível 5</span></h2>\n<p>Quando usar alquimia avançada para criar elixires de vida durante suas preparações diárias, você pode usar um lote de reagentes para criar três elixires em vez de apenas dois.</p>\n<h2 class=\"title\">Perpetual Infusions<span style=\"float: right;\">Nível 7</span></h2>\n<p>Antídoto menor e antipeste menor.</p>\n<h2 class=\"title\">Potência Perpétua<span style=\"float: right;\">Nível 11</span></h2>\n<p>Antídoto moderado e antipeste moderado.</p>\n<h2 class=\"title\">Descoberta de Campo de Pesquisa Maior<span style=\"float: right;\">Nível 13</span></h2>\n<p>Quando usar Alquimia Rápida para criar qualquer tipo de elixir de vida, a criatura que beber o elixir recebe o máximo de Pontos de Vida possíveis para o elixir em vez de rolar os dados para determinar a quantidade de Pontos de Vida recuperados.</p>\n<h2 class=\"title\">Perfeição Perpétua<span style=\"float: right;\">Nível 17</span></h2>\n<p>Antídoto maior e antipeste maior.&nbsp;</p>"
 		},
 		{
@@ -464,7 +469,7 @@
 		{
 			"id": "Field Discovery (Chirurgeon)",
 			"name": "Campo de Pesquisa (Cirurgião)",
-			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se concentra em curar os outros com alquimia. Você começa com duas fórmulas adicionais em seu livro de fórmulas, escolhidas entre: antídoto menor, antipeste menor ou elixir da vida mínimo.</p>\n<p> Enquanto sua graduação de proficiência em Medicina for treinado ou melhor, você pode realizar um teste de Manufatura em vez de Medicina para quaisquer usos destreinados e treinados de Medicina.&nbsp;</span></p>"
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você pode aumentar o respingo de suas bombas para causar dano a criaturas a até 3 metros (ou 4,5 metros se possuir Respingo Expandido).&nbsp;</span></p>"
 		},
 		{
 			"id": "Field Discovery (Mutagenist)",
@@ -488,7 +493,7 @@
 		},
 		{
 			"id": "Fury Instinct",
-			"name": "Instinto de Furor",
+			"name": "Instinto do Furor",
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Sua fúria se origina de uma fonte interior profunda e puramente pessoal. Você usa sua fúria conforme seus próprios desejos.</span></p>\n<h2 class=\"title\">Anátema e Habilidade de Instinto</h2>\n<p>Você não possui um anátema ou habilidade de instinto. Em vez disso, você recebe um talento de bárbaro de 1º nível adicional.</p>\n<h2 class=\"title\">Habilidade de Especialização</h2>\n<p>Aumente o dano adicional de sua Fúria de 2 para 6 pontos. Se possuir especialização em armas maior, aumente o dano adicional de sua Fúria de 6 para 12 pontos.</p>\n<h2 class=\"title\">Resistência em Fúria</h2>\n<p>Você resiste a dano físico de armas, mas não dano físico de outras fontes (como ataques desarmados).&nbsp;</p>"
 		},
 		{
@@ -683,7 +688,7 @@
 		},
 		{
 			"id": "Leaf",
-			"name": "Folha",
+			"name": "Da Folha",
 			"description": "<p>Você reverencia plantas e a magnanimidade da natureza, agindo como jardineiro e guardião dos ermos, ensinando técnicas sustentáveis para comunidades e ajudando a recuperação de regiões que sofreram desastres ou expansão humanoide negligente. Você é treinado em Diplomacia.&nbsp;</p>\n<p>Você também recebe o talento de druida @Compendium[pf2e.feats-srd.7y1BCJLrdk9mKXlc]{Familiar Leshy}. Você também recebe a magia de ordem @Compendium[pf2e.spells-srd.vQuwLqtFFYt0K15N]{ bom fruto} e aumenta em 1 a quantidade de Pontos de Foco em sua reserva de foco. Cometer crueldade arbitrária com plantas ou matá-las desnecessariamente é anátema à sua ordem.&nbsp;</p>\n<p>(Isto não o impede de defender-se de plantas ou colhê-las quando necessário para sobrevivência.)</p>"
 		},
 		{
@@ -874,7 +879,7 @@
 		{
 			"id": "Mutagenist",
 			"name": "Mutagenista",
-			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se especializa em transformações mutagênicas\nbizarras que sacrificam um aspecto físico ou psicológico\nde uma criatura para fortalecer o outro. Você começa com as fórmulas adicionais para dois mutagênicos de\n1º nível em seu livro de fórmulas. <br><br> Você ganha a ação</span></p>\n<h3 class=\"title\">@Compendium[pf2e.actionspf2e.00LNVSCbwJ8pszwE]{Retroatividade Mutagênica}</h3>\n<p><strong>Frequência</strong> uma vez por dia;</p>\n<hr>\n<p>Você vivencia uma breve ressurgência de um mutagênico. Escolha um mutagênico que você tenha consumido desde suas últimas preparações diárias. Você recebe os efeitos desse mutagênico por 1 minuto.</p>\n<h2 class=\"title\">Descoberta de Campo de Pesquisa<span style=\"float: right;\">Nível 5</span></h2>\n<p>Quando usar alquimia avançada para criar mutagênicos durante suas preparações diárias, você pode usar um lote de reagentes para criar três mutagênicos quaisquer em vez de apenas dois mutagênicos iguais.</p>\n<h2 class=\"title\">Infusões Perpétuas<span style=\"float: right;\">Nível 7</span></h2>\n<p>Escolha duas das seguintes fórmulas: @Compendium[pf2e.equipment-srd.ZR1TnC34ohP5nROX]{Mutagênico Bestial Menor},&nbsp;</span> @Compendium[pf2e.equipment-srd.zrcJMKdwxSKxxLEG]{Mutagênico Cognitivo Menor,}, @Compendium[pf2e.equipment-srd.iDgo3OfnikwNGyfo]{Mutagênico do Irrefreável Menor}, @Compendium[pf2e.equipment-srd.5fnEOtROEy2hkzDG]{Mutagênico de Língua de Prata Menor}, @Compendium[pf2e.equipment-srd.ChFYb3A94KNByRui]{Mutagênico de Mercúrio Menor},  @Compendium[pf2e.equipment-srd.dQHepNtDxhTH5TK0]{Mutagênico do Sereno Menor} </p>\n<h2 class=\"title\">Potência Perpétua<span style=\"float: right;\">Nível 11</span></h2>\n<p>As versões moderadas dos mutagênicos\nescolhidos em infusões perpétuas.</p>\n<h2 class=\"title\">Descoberta de Campo de Pesquisa Maior<span style=\"float: right;\">Nível 13</span></h2>\n<p>Se ingerir outro mutagênico enquanto estiver sob os efeitos de um mutagênico de sua criação, você pode receber os benefícios e desvantagens de ambos ao mesmo tempo (independente do fato de ambos possuírem o traço polimorfia e normalmente não funcionarem juntos). Se ficar sob efeito de qualquer outro mutagênico posteriormente enquanto já se beneficia de dois mutagênicos, você perde o benefício de um dos mutagênicos prévios à sua escolha — mas retém as desvantagens de todos os mutagênicos ingeridos. Se estiver sob os efeitos de dois mutagênicos e sofrer um efeito de polimorfia não-mutagênico, você perde os benefícios de todos os mutagênicos, mas retém as desvantagens de todos eles.</p>\n<h2 class=\"title\">Perfeição Perpétua<span style=\"float: right;\">Nível 17</span></h2>\n<p>As versões maiores dos mutagênicos escolhidos em infusões perpétuas.</p>"
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você se especializa em transformações mutagênicas\nbizarras que sacrificam um aspecto físico ou psicológico\nde uma criatura para fortalecer o outro. Você começa com as fórmulas adicionais para dois mutagênicos de\n1º nível em seu livro de fórmulas. <br><br> Você ganha a ação</span></p>\n<h3 class=\"title\">@Compendium[pf2e.actionspf2e.00LNVSCbwJ8pszwE]{Retroatividade Mutagênica}</h3>\n<p><strong>Frequência</strong> uma vez por dia;</p>\n<hr>\n<p>Você vivencia uma breve ressurgência de um mutagênico. Escolha um mutagênico que você tenha consumido desde suas últimas preparações diárias. Você recebe os efeitos desse mutagênico por 1 minuto.</p>\n<h2 class=\"title\">Descoberta de Campo de Pesquisa<span style=\"float: right;\">Nível 5</span></h2>\n<p>Quando usar alquimia avançada para criar mutagênicos durante suas preparações diárias, você pode usar um lote de reagentes para criar três mutagênicos quaisquer em vez de apenas dois mutagênicos iguais.</p>\n<h2 class=\"title\">Infusões Perpétuas<span style=\"float: right;\">Nível 7</span></h2>\n<p>Escolha duas das seguintes fórmulas: @Compendium[pf2e.equipment-srd.ZR1TnC34ohP5nROX]{Mutagênico Bestial Menor},&nbsp;</span> @Compendium[pf2e.equipment-srd.zrcJMKdwxSKxxLEG]{Mutagênico Cognitivo Menor,}, @Compendium[pf2e.equipment-srd.iDgo3OfnikwNGyfo]{Mutagênico do Irrefreável Menor}, @Compendium[pf2e.equipment-srd.5fnEOtROEy2hkzDG]{Mutagênico de Língua de Prata Menor}, @Compendium[pf2e.equipment-srd.ChFYb3A94KNByRui]{Mutagênico de Mercúrio Menor},  @Compendium[pf2e.equipment-srd.dQHepNtDxhTH5TK0]{Mutagênico do Sereno Menor} </p>\n<h2 class=\"title\">Potência Perpétua<span style=\"float: right;\">Nível 11</span></h2>\n<p>As versões moderadas dos mutagênicos\nescolhidos em infusões perpétuas.</p>\n<h2 class=\"title\">Descoberta de Campo de Pesquisa Maior<span style=\"float: right;\">Nível 13</span></h2>\n<p>Se ingerir outro mutagênico enquanto estiver sob os efeitos de um mutagênico de sua criação, você pode receber os benefícios e desvantagens de ambos ao mesmo tempo (independente do fato de ambos possuírem o traço polimorfia e normalmente não funcionarem juntos). Se ficar sob efeito de qualquer outro mutagênico posteriormente enquanto já se beneficia de dois mutagênicos, você perde o benefício de um dos mutagênicos prévios à sua escolha — mas retém as desvantagens de todos os mutagênicos ingeridos. Se estiver sob os efeitos de dois mutagênicos e sofrer um efeito de polimorfia não-mutagênico, você perde os benefícios de todos os mutagênicos, mas retém as desvantagens de todos eles.</p>\n<h2 class=\"title\">Perfeição Perpétua<span style=\"float: right;\">Nível 17</span></h2>\n<p>As versões maiores dos mutagênicos escolhidos em infusões perpétuas.</p>"
 		},
 		{
 			"id": "Mystic Strikes",
@@ -1064,7 +1069,7 @@
 		{
 			"id": "Shield Block (Champion)",
 			"name": "Bloqueio com Escudo (Campeão)",
-			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você recebe o talento geral . @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo} uma reação que lhe permite reduzir dano com seu escudo.</span></p>"
+			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você recebe o talento geral  @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo} uma reação que lhe permite reduzir dano com seu escudo.</span></p>"
 		},
 		{
 			"id": "Shield Block (Druid)",
@@ -1147,6 +1152,11 @@
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você é quase inigualável com qualquer arma. Suas graduações de proficiência em armas simples, armas marciais e ataques desarmados aumentam para lendário, e sua graduação de proficiência em armas avançadas aumenta para mestre. Sua graduação de proficiência em sua CD de classe de guerreiro aumenta para mestre.</span></p>"
 		},
 		{
+			"id": "Vigilant Senses (Bard)",
+			"name": "Sentidos Vigilantes (Bardo)",
+			"description": "<p>Durante suas aventuras, você desenvolveu um estado de alerta aguçado e uma maior atenção a detalhes. Sua graduação de proficiência em Percepção aumenta para mestre.</p>"
+		},
+		{
 			"id": "Vigilant Senses (Ranger)",
 			"name": "Sentidos Vigilantes (Patrulheiro)",
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Durante suas aventuras, você desenvolveu um estado de alerta aguçado e uma maior atenção a detalhes. Sua graduação de proficiência em Percepção aumenta para mestre.</span></p>"
@@ -1154,11 +1164,6 @@
 		{
 			"id": "Vigilant Senses (Rogue)",
 			"name": "Sentidos Vigilantes (Ladino)",
-			"description": "<p>Durante suas aventuras, você desenvolveu um estado de alerta aguçado e uma maior atenção a detalhes. Sua graduação de proficiência em Percepção aumenta para mestre.</p>"
-		},
-		{
-			"id": "Vigilant Senses (Rogue)",
-			"name": "Sentidos Vigilantes (Bardo)",
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Durante suas aventuras, você desenvolveu um estado de alerta aguçado e uma maior atenção a detalhes. Sua graduação de proficiência em Percepção aumenta para mestre.</span></p>"
 		},
 		{
@@ -1187,8 +1192,8 @@
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Você compreende completamente suas armas. Suas graduações de proficiência em armas simples, armas marciais e ataques desarmados aumentam para mestre.&nbsp;</span></p>"
 		},
 		{
-			"id": "Weapon Mastery (Fighter)",
-			"name": "Essa habilidade não existe, é um erro no compêndio original",
+			"id": "Weapon Mastery (Ranger)",
+			"name": "Weapon Mastery (Ranger)",
 			"description": "<p><span id=\"ctl00_MainContent_DetailedOutput\">Essa habilidade não existe, é um erro no compêndio original.&nbsp;</span></p>"
 		},
 		{

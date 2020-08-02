@@ -1,5 +1,11 @@
 # Atualizações:
 
+## Versão 1.9.4.1 
+
+* Adicionada tradução de boa parte dos equipamentos
+* Adicionada tradução de mais talentos
+* Consertados erros e feitas atualizações a textos anteriores diversos
+
 ## Versão 1.9.1482.0
 
 * Adicionada a tradução de 80% dos talentos
