@@ -9,7 +9,7 @@ Para a tradução dos Compêndios, é necessário que seja instalado o módulo [
 
 Se encontrar algum erro na tradução ou tiver uma sugestão de algum termo melhor para ser usado em alguma parte dela você pode abrir uma nova issue ou enviar uma mensagem para **DMerceless#1356** no Discord.
 
-> Atualizado para funcionar com a versão 0.7.0 do FoundryVTT e com a versão 1.9.4 do sistema Pathfinder Second Edition.
+> Atualizado para funcionar com a versão 0.7.0 do FoundryVTT e com a versão 1.10.4 do sistema Pathfinder Second Edition.
 
 
 ### Instalação
@@ -35,7 +35,7 @@ For translating the Compendium packs, it is necessary to also install the [Babel
 
 If you find a mistake in the translation or have a suggestion of a better term to use somewhere in it you can open a new issue or send a message to **DMerceless#1356** at Discord.
 
-> Updated to work with version 0.7.0 of FoundryVTT and with version 1.9.4 of the Pathfinder Second Edition System.
+> Updated to work with version 0.7.0 of FoundryVTT and with version 1.10.4 of the Pathfinder Second Edition System.
 
 
 ### Installation

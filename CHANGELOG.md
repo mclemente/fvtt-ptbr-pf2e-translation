@@ -1,5 +1,13 @@
 # Atualizações:
 
+## Versão 1.10.4.1
+
+* Adicionada tradução das classes (exceto APG)
+* Adicionada tradução da maioria dos antecedentes
+* Adicionada tradução de mais equipamentos
+* Consertados erros e feitas atualizações nas condições
+* Consertado bug que impedia as condições traduzidas de serem exibidas em certos lugares
+
 ## Versão 1.9.4.1 
 
 * Adicionada tradução de boa parte dos equipamentos
