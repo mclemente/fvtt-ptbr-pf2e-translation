@@ -1,6 +1,6 @@
 # Atualizações:
 
-## Versão 1.10.5.2
+## Versão 1.10.5.1
 
 * Adicionada tradução de habilidades do bestiário
 * Adicionada tradução de mais equipamentos
