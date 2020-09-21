@@ -1,0 +1,41 @@
+{
+    "name": "pathfinder-2e-pt-br",
+    "version": "1.10.9.2",
+    "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/foundryvtt-pt-br/pathfinder-2e-pt-br.git"
+    },
+    "scripts": {
+        "commit": "./node_modules/commitizen/bin/git-cz",
+        "release": "./node_modules/standard-version/bin/cli.js -s"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "commitizen": "^4.2.1",
+        "standard-version": "^9.0.0"
+    },
+    "standard-version": {
+        "skip": {
+            "changelog": true
+        },
+        "bumpFiles": [
+            {
+                "filename": "pf2e_pt-BR/module.json",
+                "type": "json"
+            },
+            {
+                "filename": "package.json",
+                "type": "json"
+            },
+            {
+                "filename": "package-lock.json",
+                "type": "json"
+            },
+            {
+                "filename": "pf2e_pt-BR/module.json",
+                "updater": "src/download-updater.js"
+            }
+        ]
+    }
+}

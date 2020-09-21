@@ -1,0 +1,28 @@
+image: node:alpine
+
+before_script:
+  - apk update
+  - apk add zip
+  - npm install @prantlf/jsonlint -g
+
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  script:
+    - jsonlint -q --enforce-double-quotes pf2e_pt-BR/
+
+build:
+  stage: build
+  script:
+    - zip pf2e_pt-BR.zip -r pf2e_pt-BR
+  artifacts:
+    expire_in: never
+    name: pt-BR
+    when: on_success
+    paths:
+      - pt-BR.zip
+  only:
+    - tags
