@@ -1,41 +1,25 @@
 {
-    "name": "pathfinder-2e-pt-br",
-    "version": "2.1.0",
-    "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.",
-    "repository": {
-        "type": "git",
-        "url": "https://gitlab.com/foundryvtt-pt-br/pathfinder-2e-pt-br.git"
-    },
-    "scripts": {
-        "commit": "./node_modules/commitizen/bin/git-cz",
-        "release": "./node_modules/standard-version/bin/cli.js -s"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "commitizen": "^4.2.1",
-        "standard-version": "^9.0.0"
-    },
-    "standard-version": {
-        "skip": {
-            "changelog": true
-        },
-        "bumpFiles": [
-            {
-                "filename": "pf2e_pt-BR/module.json",
-                "type": "json"
-            },
-            {
-                "filename": "package.json",
-                "type": "json"
-            },
-            {
-                "filename": "package-lock.json",
-                "type": "json"
-            },
-            {
-                "filename": "pf2e_pt-BR/module.json",
-                "updater": "src/download-updater.js"
-            }
-        ]
-    }
+  "name": "pathfinder-2e_pt-br",
+  "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/fvtt-brasil/pf2e.git"
+  },
+  "version": "2.1.0",
+  "scripts": {
+    "commit": "pnpx cz",
+    "lintjson": "pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR lang"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "semantic-release": "^17.4.2",
+    "@prantlf/jsonlint": "^10.2.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/gitlab": "^6.0.9",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "conventional-changelog-conventionalcommits": "^4.4.0",
+    "semantic-release-plugin-update-version-in-files": "^1.1.0"
+  }
 }

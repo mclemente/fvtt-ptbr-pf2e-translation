@@ -1,28 +1,55 @@
-image: node:alpine
+image: node:14-alpine
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_MESSAGE =~ /^chore\(release\).*/ || $CI_COMMIT_TAG
+      when: never
+    - when: always
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - .pnpm-store
 
 before_script:
   - apk update
-  - apk add zip
-  - npm install @prantlf/jsonlint -g
+  - apk add zip curl wget git openssh-client
+  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+  - eval $(ssh-agent -s)
+  - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
+  - pnpm config set store-dir .pnpm-store
+  - pnpm set verify-store-integrity false
+  - pnpm install
 
 stages:
   - test
   - build
+  - release
 
-test:
+jsonlint:
   stage: test
   script:
-    - jsonlint -q --enforce-double-quotes pf2e_pt-BR/
+    - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR lang
 
 build:
   stage: build
   script:
-    - zip pf2e_pt-BR.zip -r pf2e_pt-BR
+    - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR
   artifacts:
-    expire_in: never
-    name: pt-BR
+    name: pf2e_pt-BR
     when: on_success
     paths:
-      - pf2e_pt-BR.zip
-  only:
-    - tags
+      - pf2e_pt-BR.zip    
+  rules:
+      - if: $CI_COMMIT_BRANCH =~ /^(master|main|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+
+publish:
+  stage: release
+  script:
+    - pnpx semantic-release
+  rules:
+      - if: $CI_COMMIT_BRANCH =~ /^(master|main|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'

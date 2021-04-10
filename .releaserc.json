@@ -1,0 +1,40 @@
+{
+  "branches": [
+    "master"
+  ],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "curl --header \"JOB-TOKEN: $CI_JOB_TOKEN\" --upload-file pf2e_pt-BR.zip $CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/pf2e_pt-BR/${nextRelease.version}/pf2e_pt-BR.zip"
+      }
+    ],
+    "@semantic-release/gitlab",
+    [
+      "semantic-release-plugin-update-version-in-files",
+      {
+        "files": [
+          "pf2e_pt-BR/module.json"
+        ],
+        "placeholder": "(?<=pf2e_pt-BR\/)(.*)(?=\/)|(?<=\"version\": \")(.*)(?=\",)"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "pf2e_pt-BR/module.json"
+        ],
+        "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+      }
+    ]
+  ]
+}

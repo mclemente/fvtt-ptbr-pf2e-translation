@@ -4,12 +4,12 @@
   "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de PF2E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
   "version": "2.1.0",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.7.999",
+  "compatibleCoreVersion": "0.7.9",
   "dependencies": [
     {
       "name": "babele",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-      "version": "1.19"
+      "version": "1.25"
     }
   ],
   "author": "DanielMerceless",
@@ -26,7 +26,7 @@
       "path": "pt-BR.json"
     }
   ],
-  "url": "https://gitlab.com/foundryvtt-pt-br/pathfinder-2e-pt-br",
-  "manifest": "https://gitlab.com/foundryvtt-pt-br/pathfinder-2e-pt-br/-/raw/master/pf2e_pt-BR/module.json",
-  "download": "https://gitlab.com/foundryvtt-pt-br/pathfinder-2e-pt-br/-/jobs/artifacts/v2.1.0/raw/pf2e_pt-BR.zip?job=build"
+  "url": "https://gitlab.com/fvtt-brasil/pf2e",
+  "manifest": "https://gitlab.com/fvtt-brasil/pf2e/-/raw/master/pf2e_pt-BR/module.json",
+  "download": "https://gitlab.com/api/v4/projects/18254539/packages/generic/pf2e_pt-BR/2.1.0/pf2e_pt-BR.zip"
 }
