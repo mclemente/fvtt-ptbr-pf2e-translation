@@ -35,6 +35,11 @@ jsonlint:
   script:
     - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR lang
 
+semistandard:
+  stage: test
+  script:
+    - pnpx semistandard
+
 build:
   stage: build
   script:
