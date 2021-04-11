@@ -40,21 +40,14 @@ semistandard:
   script:
     - pnpx semistandard
 
-build:
-  stage: build
-  script:
-    - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR
-  artifacts:
-    name: pf2e_pt-BR
-    when: on_success
-    paths:
-      - pf2e_pt-BR.zip    
-  rules:
-      - if: $CI_COMMIT_BRANCH =~ /^(master|main|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
-
 publish:
   stage: release
   script:
     - pnpx semantic-release
+  artifacts:
+    name: pf2e_pt-BR
+    when: on_success
+    paths:
+      - pf2e_pt-BR.zip   
   rules:
       - if: $CI_COMMIT_BRANCH =~ /^(master|main|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
