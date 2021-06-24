@@ -1,4 +1,4 @@
-image: node:14-alpine
+image: node:14-alpine3.13
 
 workflow:
   rules:
@@ -13,41 +13,78 @@ cache:
 
 before_script:
   - apk update
-  - apk add zip curl wget git openssh-client
+  - apk add zip curl git openssh-client ack
   - curl -L https://unpkg.com/@pnpm/self-installer | node
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
   - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
-  - eval $(ssh-agent -s)
-  - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
   - pnpm config set store-dir .pnpm-store
   - pnpm set verify-store-integrity false
   - pnpm install
 
 stages:
+  - sync
   - test
   - build
   - release
 
+sync:
+  stage: sync
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
+    - curl -L --output pf2e.zip https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release-0.8.x/raw/pf2e.zip\?job\=build
+    - unzip -q pf2e.zip pf2e/lang/en.json
+    - xargs -I % -a .packs unzip -q pf2e.zip pf2e/packs/%.db
+    - pnpx fvttp --path pf2e/packs --babele true --save pf2e/packs
+    - mv pf2e/lang/en.json pf2e_pt-BR/lang/en
+    - mv pf2e/packs/*.json pf2e_pt-BR/lang/en
+    - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
+    - git add pf2e_pt-BR/lang
+    - "git commit -m 'chore(sync): update files' || echo 'No changes, nothing to commit!'"
+    - git remote rm origin && git remote add origin git@gitlab.com:$CI_PROJECT_PATH.git
+    - git push origin HEAD:$CI_COMMIT_REF_NAME
+  rules:
+      - if: $CI_PIPELINE_SOURCE == 'schedule'
+
 jsonlint:
   stage: test
   script:
-    - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR lang
+    - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'schedule'
 
 semistandard:
   stage: test
   script:
     - pnpx semistandard
+  rules:
+    - if: $CI_PIPELINE_SOURCE != 'schedule'
 
-publish:
-  stage: release
+build:
+  stage: build
   script:
-    - pnpx semantic-release
+    - export NEXT_VERSION=$(pnpx semantic-release --dry-run | ack -io '(?<=The next release version is )(.*)(?=$)')
+    - export NEXT_DOWNLOAD=$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/$CI_PROJECT_NAME/$NEXT_VERSION/pf2e_pt-BR.zip
+    - pnpx json -I -f pf2e_pt-BR/module.json -e 'this.version="'$NEXT_VERSION'"' -e 'this.download="'$NEXT_DOWNLOAD'"'
+    - pnpx json -I -f package.json -e 'this.version="'$NEXT_VERSION'"'
+    - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR
   artifacts:
     name: pf2e_pt-BR
     when: on_success
     paths:
-      - pf2e_pt-BR.zip   
+      - package.json
+      - pf2e_pt-BR.zip
+      - pf2e_pt-BR/module.json
   rules:
-      - if: $CI_COMMIT_BRANCH =~ /^(master|main|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+
+publish:
+  stage: release
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
+    - pnpx semantic-release
+  rules:
+      - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'

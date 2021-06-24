@@ -5,7 +5,7 @@ Hooks.on('init', () => {
     Babele.get().register({
       module: 'pf2e_pt-BR',
       lang: 'pt-BR',
-      dir: 'compendium'
+      dir: 'lang/pt-BR/compendium'
     });
   }
 });

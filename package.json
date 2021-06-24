@@ -1,26 +1,26 @@
 {
-  "name": "pathfinder-2e_pt-br",
+  "name": "pf2e_pt-br",
   "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/fvtt-brasil/pf2e.git"
   },
-  "version": "2.2.1",
+  "version": "2.1.1",
   "scripts": {
     "commit": "pnpx cz",
-    "lintjson": "pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR lang"
+    "lintjson": "pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR"
   },
   "devDependencies": {
-    "commitizen": "^4.2.1",
-    "semistandard": "^16.0.0",
-    "semantic-release": "^17.4.2",
+    "@elvis-pereira/fvtt-parser": "^2.1.1",
     "@prantlf/jsonlint": "^10.2.0",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/exec": "^5.0.0",
-    "@semantic-release/gitlab": "^6.0.9",
     "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/gitlab": "^6.0.9",
+    "commitizen": "^4.2.1",
     "conventional-changelog-conventionalcommits": "^4.4.0",
-    "semantic-release-plugin-update-version-in-files": "^1.1.0"
+    "semantic-release": "^17.4.2",
+    "semistandard": "^16.0.0"
   }
 }
