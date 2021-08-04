@@ -78,7 +78,7 @@ build:
       - pf2e_pt-BR.zip
       - pf2e_pt-BR/module.json
   rules:
-    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
 
 publish:
   stage: release
@@ -87,4 +87,4 @@ publish:
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
     - pnpx semantic-release
   rules:
-      - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule'
+      - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
