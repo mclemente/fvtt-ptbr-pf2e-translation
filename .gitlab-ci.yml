@@ -69,7 +69,7 @@ build:
     - export NEXT_DOWNLOAD=$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/$CI_PROJECT_NAME/$NEXT_VERSION/pf2e_pt-BR.zip
     - pnpx json -I -f pf2e_pt-BR/module.json -e 'this.version="'$NEXT_VERSION'"' -e 'this.download="'$NEXT_DOWNLOAD'"'
     - pnpx json -I -f package.json -e 'this.version="'$NEXT_VERSION'"'
-    - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR
+    - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR -x "pf2e_pt-BR/lang/en/*"
   artifacts:
     name: pf2e_pt-BR
     when: on_success
