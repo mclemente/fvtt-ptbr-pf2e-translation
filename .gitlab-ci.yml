@@ -54,6 +54,8 @@ jsonlint:
     - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
   rules:
     - if: $CI_PIPELINE_SOURCE != 'schedule'
+      changes:
+          - pf2e_pt-BR/**/*.json
 
 semistandard:
   stage: test
@@ -61,12 +63,16 @@ semistandard:
     - pnpx semistandard
   rules:
     - if: $CI_PIPELINE_SOURCE != 'schedule'
+      changes:
+        - pf2e_pt-BR/**/*.js
 
 build:
   stage: build
   script:
     - export NEXT_VERSION=$(pnpx semantic-release --dry-run | ack -io '(?<=The next release version is )(.*)(?=$)')
+    - echo $NEXT_VERSION
     - export NEXT_DOWNLOAD=$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/$CI_PROJECT_NAME/$NEXT_VERSION/pf2e_pt-BR.zip
+    - echo $NEXT_DOWNLOAD
     - pnpx json -I -f pf2e_pt-BR/module.json -e 'this.version="'$NEXT_VERSION'"' -e 'this.download="'$NEXT_DOWNLOAD'"'
     - pnpx json -I -f package.json -e 'this.version="'$NEXT_VERSION'"'
     - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR -x "pf2e_pt-BR/lang/en/*"
@@ -82,6 +88,9 @@ build:
 
 publish:
   stage: release
+  needs:
+      - job: build
+        artifacts: true
   script:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
