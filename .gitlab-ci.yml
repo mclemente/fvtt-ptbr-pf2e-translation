@@ -54,6 +54,8 @@ jsonlint:
     - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
   rules:
     - if: $CI_PIPELINE_SOURCE != 'schedule'
+      changes:
+          - pf2e_pt-BR/**/*.json
 
 semistandard:
   stage: test
@@ -61,6 +63,8 @@ semistandard:
     - pnpx semistandard
   rules:
     - if: $CI_PIPELINE_SOURCE != 'schedule'
+      changes:
+          - pf2e_pt-BR/**/*.js
 
 build:
   stage: build
