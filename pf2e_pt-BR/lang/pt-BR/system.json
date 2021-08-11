@@ -30,7 +30,7 @@
         "TypeWeapon": "Arma"
     },
     "COMPENDIUM": {
-        "ImportAllHint": "All of the content from this Compendium pack will be imported into your World to a Folder, which you may name. <p class=\"notes\"><strong>WARNING</strong>: It is strongly recommended that this <span style=\"text-decoration: underline\">not</span> be done with larger compendia. Doing so has no benefit and will adversely impact loading this world for both yourself and your players.</p>",
+        "ImportAllHint": "Todo o conteúdo deste pacote do Compendium será importado para o seu Mundo em uma pasta, que você pode nomear. <p class=\"notes\"><strong>AVISO</strong>: é altamente recomendável que isto<span style=\"text-decoration: underline\">não</span> seja feito com grandes compêndios. Fazê-lo não tem benefício algum e afetará negativamente o carregamento deste mundo tanto para você como para os seus jogadores.</p>",
         "Search": "Buscar no Compêndio"
     },
     "CONTROLS": {
@@ -94,6 +94,14 @@
                 },
                 "Title": "Equilibrar"
             },
+            "BonMot": {
+                "Notes": {
+                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo fica distraído e sofre –3 de penalidade de estado em Percepção e Vontade por 1 minuto. O alvo pode encerrar o efeito antes com uma réplica ao seu Comentário Maldoso. Isto pode ser uma ação única que possui o traço concentração ou uma ação de perícia apropriada que enquadre a réplica. O MJ determina quais ações de perícia se qualificam, embora elas devam usar ao menos 1 ação. Normalmente a réplica precisa usar uma ação de perícia linguística baseada em Carisma. @Compendium[pf2e.feat-effects.CtrZFI3RV0yPNzTv]{Efeito: Comentário Maldoso (Sucesso Crítico)}",
+                    "success": "<b>Sucesso</b> O alvo fica distraído e sofre –2 de penalidade de estado em Percepção e Vontade por 1 minuto. O alvo pode encerrar o efeito antes com uma réplica ao seu Comentário Maldoso. Isto pode ser uma ação única que possui o traço concentração ou uma ação de perícia apropriada que enquadre a réplica. O MJ determina quais ações de perícia se qualificam, embora elas devam usar ao menos 1 ação. Normalmente a réplica precisa usar uma ação de perícia linguística baseada em Carisma.@Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Efeito: Comentário Maldoso}",
+                    "criticalFailure": "<b>Falha Crítica</b> Sua brincadeira é abominável. Você sofre a mesma penalidade que um inimigo sofreria se você tivesse obtido sucesso. Este efeito é encerrado após 1 minuto ou se você fizer outro Comentário Maldoso e obtiver sucesso. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Efeito: Comentário Maldoso}"
+                },
+                "Title": "Comentário Maldoso"
+            },
             "Climb": {
                 "Notes": {
                     "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para cima, através de, ou desce seguramente a inclinação por 1,5 metros mais 1,5 metros para\ncada 6 metros de sua Velocidade em terra (um total de 3 metros para a maioria dos PJs).",
@@ -104,10 +112,10 @@
             },
             "Coerce": {
                 "Notes": {
-                    "criticalSuccess": "<b>Critical Success</b> The target gives you the information you seek or agrees to follow your directives so long as they aren't likely to harm the target in any way. The target continues to comply for an amount of time determined by the GM but not exceeding 1 day, at which point the target becomes unfriendly (if they weren't already unfriendly or hostile). However, the target is too scared of you to retaliate—at least in the short term.",
-                    "success": "<b>Success</b> As critical success, but once the target becomes unfriendly, they might decide to act against you—for example, by reporting you to the authorities or assisting your enemies.",
-                    "failure": "<b>Failure</b> The target doesn’t do what you say, and if they were not already unfriendly or hostile, they become unfriendly.",
-                    "criticalFailure": "<b>Critical Failure</b> The target refuses to comply, becomes hostile if they weren’t already, and can’t be Coerced by you for at least 1 week."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.",
+                    "success": "<b>Sucesso</b> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos.",
+                    "failure": "<b>Falha</b> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.",
+                    "criticalFailure": "<b>Falha Crítica</b> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana."
                 },
                 "Title": "Coagir"
             },
@@ -115,15 +123,15 @@
                 "DistractingWords": "Criar Uma Distração - Palavras Distrativas",
                 "Gesture": "Criar Uma Distração - Gesto",
                 "Notes": {
-                    "success": "<b>Sucesso</b> Você se torna @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondido} para cada criatura que possua CD de Percepção igual ou menor que o resultado de seu teste. (A condição escondido lhe permite se @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esgueirar}.) TEsta condição dura até o final do seu turno. Se realizar qualquer outra ação diferente de Dar um Passo ou das ações @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Esconder} ou @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esgueirar} da perícia Furtividade você se torna @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado}, exceto se o MJ determinar o contrário. Porém, se Golpear uma criatura, ela fica @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida} contra esse ataque e, logo após executá-lo, você se torna @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado}.",
+                    "success": "<b>Sucesso</b> Você se torna @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondido} para cada criatura que possua CD de Percepção igual ou menor que o resultado de seu teste. (A condição escondido lhe permite se @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esgueirar}.) Esta condição dura até o final do seu turno. Se realizar qualquer outra ação diferente de Dar um Passo ou das ações @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Esconder} ou @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esgueirar} da perícia Furtividade você se torna @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado}, exceto se o MJ determinar o contrário. Porém, se Golpear uma criatura, ela fica @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida} contra esse ataque e, logo após executá-lo, você se torna @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado}.",
                     "failure": "<b>Falha</b> Você não desvia a atenção de quaisquer criaturas que possuírem CD de Percepção maior que o resultado de seu teste, e essas criaturas ficam cientes da tentativa de enganá-las."
                 },
                 "Trick": "Criar Uma Distração - Truque"
             },
             "Demoralize": {
                 "Notes": {
-                    "criticalSuccess": "<b>Critical Success</b> The target becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.",
-                    "success": "<b>Success</b> The target becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo fica @Compendium[pf2e.conditionitems.Frightened]{Assustado 2}.",
+                    "success": "<b>Sucesso</b> O alvo fica @Compendium[pf2e.conditionitems.Frightened]{Assutado 1}."
                 },
                 "Title": "Desmoralizar"
             },
@@ -157,9 +165,9 @@
             },
             "Feint": {
                 "Notes": {
-                    "criticalSuccess": "<b>Critical Success</b> You throw your enemy’s defenses against you entirely off. The target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against melee attacks that you attempt against it until the end of your next turn.",
-                    "success": "<b>Success</b> Your foe is fooled, but only momentarily. The target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against the next melee attack that you attempt against it before the end of your current turn.",
-                    "criticalFailure": "<b>Critical Failure</b> Your feint backfires. You are @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against melee attacks the target attempts against you until the end of your next turn."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você deixa as defesas de seu inimigo completamente abertas. O alvo fica @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que você desferir contra ele até o final do seu próximo turno.",
+                    "success": "<b>Sucesso</b> Seu adversário é enganado, mas apenas momentaneamente. O alvo fica @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra o próximo ataque corpo a corpo que você desferir contra ele antes do final do seu turno atual.",
+                    "criticalFailure": "<b>Falha Crítica</b> Sua finta se volta contra você. Você fica @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que o alvo desferir contra você até o final do seu próximo turno."
                 },
                 "Title": "Fintar"
             },
@@ -173,8 +181,8 @@
             },
             "GatherInformation": {
                 "Notes": {
-                    "success": "<b>Success</b> You collect information about the individual or topic. The GM determines the specifics.",
-                    "criticalFailure": "<b>Critical Failure</b> You collect incorrect information about the individual or topic."
+                    "success": "<b>Sucesso</b> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades.",
+                    "criticalFailure": "<b>Falha crítica</b> Você coleta informações incorretas sobre o indivíduo ou tópico."
                 },
                 "Title": "Obter Informação"
             },
@@ -189,7 +197,7 @@
             },
             "Hide": {
                 "Notes": {
-                    "success": "<b>Success</b> If the creature could see you, you’re now @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from it instead of observed. If you were @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from or @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} by the creature, you retain that condition."
+                    "success": "<b>Sucesso</b> Se a criatura poderia vê-lo, você fica @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondido} dela em vez de observado. Se você estava @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondido} ou @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectado} pela criatura, você mantém essa condição."
                 },
                 "Title": "Esconder"
             },
@@ -204,16 +212,16 @@
             },
             "Impersonate": {
                 "Notes": {
-                    "success": "<b>Success</b> You trick the creature into thinking you’re the person you’re disguised as. You might have to attempt a new check if your behavior changes.",
-                    "failure": "<b>Failure</b> The creature can tell you’re not who you claim to be.",
-                    "criticalFailure": "<b>Critical Failure</b> The creature can tell you’re not who you claim to be, and it recognizes you if it would know you without a disguise."
+                    "success": "<b>Sucesso</b> Você leva a criatura a pensar que você é a pessoa em que está disfarçada. Você pode ter de fazer um novo teste se seu comportamento mudar.",
+                    "failure": "<b>Falha</b> A criatura nota que você não é quem afirma ser.",
+                    "criticalFailure": "<b>Falha Crítica</b> A criatura nota que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce."
                 },
                 "Title": "Personificar"
             },
             "Lie": {
                 "Notes": {
-                    "success": "<b>Success</b> The target believes your lie.",
-                    "failure": "<b>Failure</b> The target doesn’t believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future."
+                    "success": "<b>Sucesso</b> O alvo acredita em sua mentira.",
+                    "failure": "<b>Falha</b> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro."
                 },
                 "Title": "Mentir"
             },
@@ -227,9 +235,9 @@
             },
             "MakeAnImpression": {
                 "Notes": {
-                    "success": "<b>Success</b> The target’s attitude toward you improves by two steps.",
-                    "failure": "<b>Failure</b> The target’s attitude toward you improves by one step.",
-                    "criticalFailure": "<b>Critical Failure</b> The target’s attitude toward you decreases by one step."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> A atitude do alvo em relação a você melhora em dois passos.",
+                    "success": "<b>Sucesso</b> A atitude do alvo em relação a você melhora em um passo.",
+                    "criticalFailure": "<b>Falha Crítica</b> A atitude do alvo em relação a você piora em um passo."
                 },
                 "Title": "Impressionar"
             },
@@ -259,10 +267,10 @@
             },
             "Request": {
                 "Notes": {
-                    "criticalSuccess": "<b>Critical Success</b> The target agrees to your request without qualifications.",
-                    "success": "<b>Success</b> The target agrees to your request, but they might demand added provisions or alterations to the request.",
-                    "failure": "<b>Failure</b> The target refuses the request, though they might propose an alternative that is less extreme.",
-                    "criticalFailure": "<b>Critical Failure</b> Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo concorda com seu pedido sem exigências.",
+                    "success": "<b>Sucesso</b> O alvo concorda com seu pedido, mas pode demandar provisões adicionais ou alterações no pedido.",
+                    "failure": "<b>Falha</b> O alvo recusa o pedido, embora possa propor uma alternativa que pareça menos extrema.",
+                    "criticalFailure": "<b>Falha Crítica</b> Não apenas o alvo recusa o pedido, como a atitude dele em relação a você piora em um passo devido à temeridade do pedido."
                 },
                 "Title": "Pedir"
             },
@@ -295,9 +303,9 @@
             },
             "Sneak": {
                 "Notes": {
-                    "success": "<b>Success</b> You’re undetected by the creature during your movement and remain undetected by the creature at the end of it.",
-                    "failure": "<b>Failure</b> A telltale sound or other sign gives your position away, though you still remain unseen. You’re hidden from the creature throughout your movement and remain so",
-                    "criticalFailure": "<b>Critical Failure</b> You’re spotted! You’re observed by the creature throughout your movement and remain so. If you’re invisible and were hidden from the creature, instead of being observed you’re hidden throughout your movement and remain so."
+                    "success": "<b>Sucesso</b> Você fica indetectado pela criatura durante seu movimento e permanece indetectado pela criatura ao final dele.",
+                    "failure": "<b>Falha</b> Um som revelador ou outro sinal indica sua posição, embora você permaneça escondido. Você fica escondido da criatura durante todo seu movimento e permanece assim",
+                    "criticalFailure": "<b>Falha Crítica</b> Você é visto! Você é observado pela criatura durante todo seu movimento e permanece assim. Se estiver invisível e estava escondido da criatura, em vez de ser observado durante seu movimento, você fica escondido durante todo seu movimento e permanece assim."
                 },
                 "Title": "Esgueirar"
             },
@@ -391,10 +399,10 @@
         },
         "Actor": {
             "Character": {
-                "AncestryClass": "{ancestry} {class}"
+                "AncestryClass": "{ancestralidade} {classe}"
             },
             "Hazard": {
-                "Level": "Hazard {level}"
+                "Level": "Perigo {nível}"
             },
             "Plural": "Atores"
         },
@@ -411,8 +419,8 @@
             "Title": "Adicionar Proficiência de Combate",
             "Message": "Selecione um grupo de armas ou arma base"
         },
-        "AddModifierTitle": "Adicionar Modificador",
-        "RemoveModifierTitle": "Remover Modificador",
+        "AddModifierTitle": "Adicionar Mod",
+        "RemoveModifierTitle": "Remover Mod",
         "AddShortLabel": "Adicionar",
         "AddSpellTitle": "Adicionar Magia",
         "AddSpellcastingEntryTitle": "Adicionar Entrada de Magia",
@@ -507,7 +515,7 @@
         "ArmorPropertyRuneSoaring": "Soaring",
         "ArmorPropertyRuneWinged": "Alada",
         "ArmorResilientRune": "Resiliente",
-        "ArmorSpeedLabel": "Penalidade de Velocidade",
+        "ArmorSpeedLabel": "Pen. de Velocidade",
         "ArmorStrengthLabel": "Limiar de Força",
         "ArmorStrengthRequiredLabel": "Força requerida",
         "ArmorStrikingRune": "Impactante",
@@ -602,13 +610,13 @@
         "BrowserSortyByPriceLabel": "Preço",
         "BrowserSortyByNameLabel": "Nome",
         "BulkCapacityLabel": "Suporta Volume",
-        "BulkLabel": "Volume Carregado",
-        "BulkMaxLabel": "Volume Máximo",
+        "BulkLabel": "V. Carregado",
+        "BulkMaxLabel": "V. Máximo",
         "BulkReductionLabel": "Reduzir Volume em",
         "BulkShortLabel": "Volume",
         "BulkTypeLight": "Leve",
         "CapacityBarLabel": "Capacidade",
-        "CastLabel": "Execução",
+        "CastLabel": "Conj",
         "CharacterDetails": "Detalhes do Personagem",
         "CharacterLevelLabel": "Nível",
         "CharacterNamePlaceholder": "Nome do Personagem",
@@ -631,7 +639,7 @@
         "ClassHP": "PV da Classe",
         "ClassTitle": "A classe do seu personagem",
         "ClickToSetInitiative": "Clique para determinar a iniciativa do(s) token(s) selecionado(s).",
-        "ClickToSetInitiativeContext": "Set as Initiative",
+        "ClickToSetInitiativeContext": "Definir como Iniciativa",
         "CompendiumDirectory": {
             "Folders": {
                 "bestiaries": "Bestiários",
@@ -791,7 +799,7 @@
         "DamageDieD6": "d6",
         "DamageDieD8": "d8",
         "DamageLabel": "Dano",
-        "DamageRoll": "Damage Roll",
+        "DamageRoll": "Rolagem de Dano",
         "DamageTypeAcid": "Ácido",
         "DamageTypeBleed": "Sangramento",
         "DamageTypeBludgeoning": "Contundente",
@@ -814,6 +822,7 @@
         "DamageTypePrecision": "Precisão",
         "DamageTypeSlashing": "Cortante",
         "DamageTypeSonic": "Sônico",
+        "DamageTypeUntyped": "Sem Tipo",
         "DamageTypeCurse": "Maldição",
         "DamageTypeOlfactory": "Olfativo",
         "DamageTypeConfusion": "Confusão",
@@ -929,13 +938,16 @@
         "FlatBonusSPperLevel": "PE Bônus / Nível",
         "FlatCheck": "Teste Simples",
         "Focus": {
-            "label": "Pontos de Foco",
+            "label": "Foco",
             "NotEnoughFocusPointsError": "Você não tem pontos de foco suficientes para conjurar esta magia.",
             "pointLabel": "Pontos",
             "pointTitle": "Seus Pontos de Foco restantes",
-            "poolLabel": "Reserva",
-            "poolTitle": "O tamanho da sua Reserva de Foco"
+            "poolLabel": "Res",
+            "poolTitle": "O tamanho da sua Reserva de Foco",
+            "Outdated": "Valor antigo da reserva de foco, como um lembrete. Clique para excluir.",
+            "Previous": "Anterior"
         },
+        "Foot": "Metro",
         "FormulaPlaceholder": "Fórmula",
         "GenderPronoun": "Gênero/Pronomes",
         "GenderPronounTitle": "Seus gêneros/pronomes",
@@ -984,7 +996,7 @@
         "ImmunityTypeSwarmMind": "Mente de Enxame",
         "ImmunityTypeVisual": "Visual",
         "InitiativeHeader": "Bônus de iniciativa",
-        "InitativeIsNow": "{name}'s Initiative is now {value}!",
+        "InitativeIsNow": "A Iniciativa de {nome} agora é {valor}!",
         "InitiativeLabel": "Iniciativa",
         "InitiativeWithSkill": "Iniciativa: {skillName}",
         "InventoryArmorHeader": "Armadura",
@@ -1022,6 +1034,9 @@
             "NameLabel": "Nome",
             "IconLabel": "Ícone",
             "SidebarSummary": "{type} Sumário",
+            "Spells": {
+                "PlaceMeasuredTemplate": "Posicionar {shape} de {size}{unit}"
+            },
             "Physical": {
                 "LevelLabel": "Item {level}",
                 "PriceLabel": "Preço: {price}"
@@ -1167,7 +1182,7 @@
         "LanguageSphinx": "Esfinge",
         "LanguageStrix": "Estrige",
         "LanguageSylvan": "Silvestre",
-        "LanguageTaldane": "Taldane",
+        "LanguageTaldane": "Taldano",
         "LanguageTengu": "Tengu",
         "LanguageTerran": "Terran",
         "LanguageThassilonian": "Tassiloniano",
@@ -1219,7 +1234,7 @@
         "MacroActionNoActorError": "Este ator não existe mais!",
         "MacroActionNoActionError": "Esta ação não existe mais!",
         "MagicTraditionLabel": "Tradição Mágica",
-        "MAPAbbreviationLabel": "PAM",
+        "MAPAbbreviationLabel": "PAM {penalty}",
         "MartialAdvanced": "Armas Avançadas",
         "MartialHeavy": "Armadura Pesada",
         "MartialLight": "Armadura Leve",
@@ -1261,7 +1276,7 @@
             "OutsideSchemaRange": "A distância especificada está além dos esquema de parâmetros de distância do sistema (entre {minimum} e {maximum})."
         },
         "ModifierTitle": "Modificador",
-        "ModifiersTitle": "Modificadores",
+        "ModifiersTitle": "Valores",
         "ModifierNamePlaceholder": "Nome",
         "ModifierTypeTitle": "[Type]",
         "ModifierType": {
@@ -1328,7 +1343,7 @@
             "many": "º"
         },
         "OrphanedSpellsHeader": "Magias Orfãs (mover para entrada de conjuração acima)",
-        "OverridesTitle": "Overrides",
+        "OverridesTitle": "Substitui",
         "PenaltyLabel": {
             "ability": "Penalidade de Atributo",
             "proficiency": "Penalidade de Proficiência",
@@ -1370,7 +1385,7 @@
         "PreciousMaterialColdIron": "Ferro Frio",
         "PreciousMaterialDarkwood": "Madeira Negra",
         "PreciousMaterialDragonhide": "Couro de Dragão",
-        "PreciousMaterialGradeLabel": "Qualidade do Material Precioso",
+        "PreciousMaterialGradeLabel": "Qualidade do Material",
         "PreciousMaterialHighGrade": "Qualidade Alta",
         "PreciousMaterialLabel": "Material Precioso",
         "PreciousMaterialLowGrade": "Qualidade Baixa",
@@ -1392,14 +1407,14 @@
         "ProficiencyLabel": "Proficiência",
         "ProficiencyLevel0": "Destreinado",
         "ProficiencyLevel1": "Treinado",
-        "ProficiencyLevel2": "Especialista",
+        "ProficiencyLevel2": "Espec",
         "ProficiencyLevel3": "Mestre",
         "ProficiencyLevel4": "Lendário",
         "ProficiencyRankLabel": "Prof",
-        "PropertyRuneLabel1": "Runa de Propriedade (1º)",
-        "PropertyRuneLabel2": "Runa de Propriedade (2º)",
-        "PropertyRuneLabel3": "Runa de Propriedade (3º)",
-        "PropertyRuneLabel4": "Runa de Propriedade (4º)",
+        "PropertyRuneLabel1": "Runa de Propriedade 1",
+        "PropertyRuneLabel2": "Runa de Propriedade 2",
+        "PropertyRuneLabel3": "Runa de Propriedade 3",
+        "PropertyRuneLabel4": "Runa de Propriedade 4",
         "QuantityLabel": "Quantidade",
         "QuantityShortLabel": "Qtd.",
         "Rarity": "Raridade",
@@ -1460,20 +1475,20 @@
         "ResolvePointsShortLabel": "Determinação",
         "ResolveTitle": "A quantidade de pontos de determinação que você possui",
         "ResultLabel": "Resultado",
-        "ResultOffset": "by {offset}",
+        "ResultOffset": "por {offset}",
         "Roll": {
             "Modifier": "Modificador",
             "Type": "Tipo",
             "Fortune": "Fortuna",
-            "FortuneTitle": "{title} Fortune",
+            "FortuneTitle": "{title} Fortuna",
             "Misfortune": "Infortúnio",
-            "MisfortuneTitle": "{title} Misfortune",
+            "MisfortuneTitle": "{title} Infortúnio",
             "None": "Nenhum",
-            "Roll": "Roll",
+            "Roll": "Rolagem",
             "Normal": "Normal",
             "CriticalHit": "Acerto Crítico",
             "Add": "Adicionar",
-            "UntypedPenalty": "Untyped (penalty)"
+            "UntypedPenalty": "Sem tipo (penalidade)"
         },
         "RollTable": {
             "Plural": "Tabelas Roláveis"
@@ -1481,9 +1496,9 @@
         "RollBonusPlaceholder": "ex. +3 ou +1d4",
         "RollModeLabel": "Modo de Rolagem",
         "RuleElement": {
-            "ActiveEffectLike": "ActiveEffect-Like",
+            "ActiveEffectLike": "Semelhante a Efeito Ativo",
             "ActorTraits": "Traços do Ator",
-            "AdjustDegreeOfSuccess": "Adjust Degree of Success",
+            "AdjustDegreeOfSuccess": "Ajustar Grau de Sucesso",
             "BaseSpeed": "Velocidade Base",
             "DamageDice": "Dado de Dano",
             "DexterityModifierCap": "Limite de Modificador de Destreza",
@@ -1503,7 +1518,7 @@
             "TokenImage": "Imagem do Token",
             "TokenSize": "Tamanha do Token",
             "RecoveryCheckDC": "CD do Teste de Recuperação",
-            "LoseHitPoints": "Lose Hit Points",
+            "LoseHitPoints": "Perder Pontos de Vida",
             "WeaponPotency": "Potência de Arma",
             "NewRuleElement": "Novo Elemento de Regra",
             "Unrecognized": "Elemento de Regra não Reconhecido"
@@ -1522,10 +1537,10 @@
                 "name": "Botões de Cartas de Acertos e Falhas Críticas"
             },
             "JournalEntryTheme": {
-                "Name": "Journal Entry Theme",
-                "Hint": "Set the style theme of journal entries in this world.",
-                "Foundry": "Foundry (Classic)",
-                "PF2E": "PF2e System"
+                "Name": "Tema da Entrada de Diário",
+                "Hint": "Defina o estilo de tema da entrada dos jornais neste mundo.",
+                "Foundry": "Foundry (Clássico)",
+                "PF2E": "Sistema PF2e"
             },
             "statusEffectKeepFoundry": {
                 "hint": "Determina se você quer mostrar os ícones do Foundry abaixo dos ícones de status do Pf2. Isso irá recarregar o jogo.",
@@ -1571,7 +1586,7 @@
             },
             "IgnoreCoinBulk": {
                 "Name": "Moedas não pesam",
-                "Hint": "Altere para LIGADO para ignorar o peso do dinheiro."
+                "Hint": "Altere para ligado para ignorar o peso do dinheiro."
             },
             "IdentifyMagicNotMatchingTraditionModifier": {
                 "Name": "Modificador da Perícia de Identificar Magia",
@@ -1665,6 +1680,10 @@
                 }
             },
             "Metagame": {
+                "PartyVision": {
+                    "Name": "Visão do grupo compartilhada",
+                    "Hint": "Se ativado, todos os jogadores compartilharão a visão de token mutuamente, independentemente das permissões ou do token selecionado."
+                },
                 "SecretDamage": {
                     "Name": "Ocultar mensagem de dano sofrido",
                     "Hint": "Quando habilitado, apenas o MJ irá ver as mensagens de dano/cura recebidos que são gerados pelo dano dos painéis do chat dos tokens não possuídos por um jogador."
@@ -1709,8 +1728,8 @@
                     "Twelve": "12 Horas"
                 },
                 "ShowClockButton": {
-                    "Name": "Show clock button",
-                    "Hint": "Set whether to show the clock button at all (requires refresh)."
+                    "Name": "Mostrar o botão do relógio",
+                    "Hint": "Define se deseja mostrar o botão do relógio para todos (exige recarregamento)."
                 },
                 "PlayersCanView": {
                     "Name": "Acesso do Jogador",
@@ -1721,11 +1740,11 @@
                     "Hint": "Define de o Nível de Escuridão de uma cena refletirá a hora do dia — desde que a Iluminação Global também esteja ativada (atualmente {globalLight})."
                 },
                 "SyncDarknessScene": {
-                    "Name": "Synchronize Darkness (Current Scene)",
-                    "Hint": "Set whether this scene's Darkness Level will reflect the time of day.",
-                    "Enabled": "Enabled",
-                    "Disabled": "Disabled",
-                    "Default": "World Default ({worldDefault})"
+                    "Name": "Sincronizar Escuridão (Cena Atual)",
+                    "Hint": "Defina se o Nível das Trevas desta cena refletirá a hora do dia.",
+                    "Enabled": "Habilitado",
+                    "Disabled": "Desabilitado",
+                    "Default": "Padrão do Mundo ({worldDefault})"
                 },
                 "ResetWorldTime": {
                     "Name": "Redefinir a Data/Hora do Mundo",
@@ -1837,21 +1856,21 @@
         "SensesDarkvision": "Visão no Escuro",
         "SensesGreaterDarkvision": "Visão no Escuro Maior",
         "SensesLowLightVision": "Visão na Penumbra",
-        "SensesEcholocation": "Echolocation",
+        "SensesEcholocation": "Ecolocalização",
         "SensesLifesense": "Sentido Vital",
         "SensesMotionsense": "Sentido de Movimento",
         "SensesScent": "Faro",
         "SensesTitle": "Os sentidos do seu personagem",
         "SensesTremorsense": "Sentido Sísmico",
         "SensesWavesense": "Sentido de Ondas",
-        "SettingsColorBlue": "Azul-cinza",
+        "SettingsColorBlue": "Azul acinzentado",
         "SettingsColorLabel": "Tema da IU",
         "SettingsColorNotes": "Os temas da IU são mais visíveis nas barras laterais e nos painéis do chat.",
         "SettingsColorOriginal": "Original",
-        "SettingsColorRed": "Vermelho-Escuro",
+        "SettingsColorRed": "Vermelho escuro",
         "SettingsColorFoundry-UI": "Trabalho em Progresso",
         "SettingsQuickRollsLabel": "Exibir Painel de Rolagem",
-        "SettingsQuickRollsNotes": "Se desabilitado, as janelas para modificar das rolagens do D20 aparecerão apenas quando a tecla SHIFT estiver pressionada.",
+        "SettingsQuickRollsNotes": "Se desabilitado, as janelas para modificar as rolagens do D20 aparecerão apenas quando a tecla shift estiver pressionada.",
         "SettingsDataUriHighlightLabel": "Destaca imagens que usam dados: URI",
         "SettingsDataUriHighlightNotes": "Imagens que usam dados: URI são anexados à ficha de personagem. Isto tem um impacto de performance negativo no personagem. Se ativado, estas imagens serão destacadas com uma borda vermelha para facilitar sua remoção.<br>Esta configuração só esta ativa durante a atual sessão.",
         "SheetLabel": "Ficha {type}",
@@ -1905,8 +1924,8 @@
         "SkillSociety": "Sociedade",
         "SkillSte": "Furtividade",
         "SkillStealth": "Furtividade",
-        "SkillSur": "Sobrevivência",
-        "SkillSurvival": "Sobrevivência",
+        "SkillSur": "Sobreviv.",
+        "SkillSurvival": "Sobreviv.",
         "SkillThi": "Ladroagem",
         "SkillThievery": "Ladroagem",
         "SkillsLabel": "Perícias",
@@ -2098,7 +2117,7 @@
         "TraitAdditive1": "Aditivo 1",
         "TraitAdditive2": "Aditivo 2",
         "TraitAdditive3": "Aditivo 3",
-        "TraitAdjustment": "Adjustment",
+        "TraitAdjustment": "Ajuste",
         "TraitAesir": "Aesir",
         "TraitAeon": "Éon",
         "TraitAffixedToArmor": "Fixado na Armadura",
@@ -2615,14 +2634,14 @@
         "TraitRare": "Raro",
         "TraitRatfolk": "Povo-Rato",
         "TraitReach": "Alcance",
-        "TraitReach0": "Reach 0 ft",
+        "TraitReach0": "Alcance 0 metros",
         "TraitReach10": "Alcance 3 metros",
         "TraitReach15": "Alcance 4,5 metros",
         "TraitReach20": "Alcance 6 metros",
         "TraitReach25": "Alcance 7,5 metros",
         "TraitReach30": "Alcance 9 metros",
         "TraitReach40": "Alcance 12 metros",
-        "TraitReach50": "Reach 50 ft",
+        "TraitReach50": "Alcance 15 metros",
         "TraitReach60": "Alcance 18 metros",
         "TraitReload0": "Recarga 0",
         "TraitReload1": "Recarga 1",
@@ -2711,7 +2730,7 @@
         "TraitVersatileB": "Versátil Cn",
         "TraitVersatileHeritage": "Herança Versátil",
         "TraitVersatileP": "Versátil Pf",
-        "TraitVersatilePositive": "Versatile Positive",
+        "TraitVersatilePositive": "Versátil Positivo",
         "TraitVersatileS": "Versátil Ct",
         "TraitVigilante": "Vigilante",
         "TraitVirulent": "Virulento",
@@ -2821,12 +2840,19 @@
             "noDamageInfoForOutcome": "Nenhuma informação de dano para informa {outcome}.",
             "shiftModifyDamageLabel": "Modificador:",
             "shiftModifyDamageTitle": "Modificar o dano/cura rolado",
-            "shiftModifyDamageHint": "Use positive modifier to harm, negative to heal."
+            "shiftModifyDamageHint": "Usar modificador positivo para ferir, negativo para curar."
         },
         "UnitPriceLabel": "Preço Unitário",
         "UnprepareItemTitle": "Despreparar Item",
         "UnpreparedSpellsLabel": "Lista para Preparação",
         "UpdateActorLabel": "Atualizar Ator",
+        "UpdateLabelUniversal": "Atualizar",
+        "UserSettings": {
+            "DarkvisionFilter": {
+                "Label": "Filtro de Visão no Escuro",
+                "Hint": "Adicionar um filtro (geralmente monocromático) ao ver uma cena através do olhar de uma criatura com visão no escuro"
+            }
+        },
         "ValueLabel": "Valor",
         "WandFromSpell": "Varinha de {name} (Level {level})",
         "WeaknessTypeSaltWater": "Água Salgada",
@@ -3036,7 +3062,7 @@
         "WeaponHands1Plus": "Uma+",
         "WeaponHands2": "Duas",
         "WeaponMAPDefaultOption": "Padrão (usar traço Ágil se presente)",
-        "WeaponMAPLabel": "Penalidade de Ataques Múltiplos",
+        "WeaponMAPLabel": "Pen. Ataques Múltiplos",
         "WeaponPotencyRune1": "Potência de Arma (+1)",
         "WeaponPotencyRune2": "Potência de Arma (+2)",
         "WeaponPotencyRune3": "Potência de Arma (+3)",
@@ -3389,8 +3415,8 @@
         },
         "identification": {
             "Identify": "Identificar o Item",
-            "PostSkillsToChat": "Post skill checks to chat",
-            "PostSkillsToChatText": "Identify item: Skill checks",
+            "PostSkillsToChat": "Postar testes de perícia no chat",
+            "PostSkillsToChatText": "Identificar item: Testes de Perícias",
             "IsIdentified": "Identificado?",
             "IdentifyMagicDCs": "CDs de Identificar Magia",
             "IdentifyAlchemyDCs": "CDs de Identificar Alquimia",
@@ -3398,9 +3424,9 @@
             "MisidentifiedItem": "{item} Identificado Incorretamente",
             "Misidentify": "Item Identificado Incorretamente",
             "Mystify": "Mistificar o Item",
-            "MystificationStatus": "Mystification status",
-            "Identified": "Identified",
-            "Unidentified": "Unidentified",
+            "MystificationStatus": "Estado da Mistificação",
+            "Identified": "Identificado",
+            "Unidentified": "Não identificado",
             "TraitGMNote": "Nota: este traço está escondido dos jogadores.",
             "UnidentifiedDescription": "A natureza deste(a) {item} não está clara.",
             "UnidentifiedHint": "Alterar os detalhes apresentados deste item quando não estiver identificado.",
@@ -3485,8 +3511,8 @@
             "PilotingCheckLabel": "Teste de Pilotagem",
             "CrewLabel": "Tripulação",
             "PassengersLabel": "Passageiros",
-            "collisionDCLabel": "Collision DC",
-            "collisionDamageLabel": "Collision Damage",
+            "collisionDCLabel": "CD de Colisão",
+            "collisionDamageLabel": "Dano de Colisão",
             "SpaceLongLabel": "Comprimento",
             "SpaceWideLabel": "Largura",
             "SpaceHighLabel": "Altura",
@@ -3501,23 +3527,23 @@
             "PropertyDescriptionPassengers": "O número de passageiros que o veículo está configurado para carregar, caso tenha.",
             "PropertyDescriptionPilotingCheck": "Esta seção lista as perícias que podem ser utilizadas em testes de pilotagem para operar o veículo. Algumas perícias podem aumentar a CD; estes ajustes de CD são listados em parênteses logo após o nome da perícia.",
             "PropertyDescriptionSpeed": "As Velocidades do veículo, cada uma acompanhada pelo seu tipo de propulsão em parênteses. Um veículo de tração indica a quantidade e tamanho das criaturas necessárias.",
-            "PropertyDescriptionCollisionDC": "The vehicles's DC for saving throws to mitigate damage.",
-            "PropertyDescriptionCollisionDamage": "The vehicle's collision damage. Unless otherwise stated, collisions deal bludgeoning damage."
+            "PropertyDescriptionCollisionDC": "A CD de jogadas de salvamento dos veículos para mitigar o dano.",
+            "PropertyDescriptionCollisionDamage": "O dano de colisão do veículo. Exceto se especificado o contrário, colisões causam dano contundente."
         },
         "Familiar": {
             "Master": "Mestre",
-            "MasterActor": "Master Actor",
+            "MasterActor": "Ator Mestre",
             "MasterLevel": "Nível do Mestre",
-            "SelectMaster": "Select a master...",
-            "MasterSpellcastingAbility": "Master Spellcasting Ability",
-            "TotalNumberFamiliarAbilities": "Total # of Familiar Abilities",
+            "SelectMaster": "Selecione um mestre...",
+            "MasterSpellcastingAbility": "Habilidade de Conjuração do Mestre",
+            "TotalNumberFamiliarAbilities": "# Total de Habilidades de Familiar",
             "Familiar": "Familiar",
             "Creature": "Criatura",
             "Perception": "Percepção",
-            "Defenses": "Defenses",
+            "Defenses": "Defesas",
             "ArmorClass": "Classe de Armadura",
-            "Offenses": "Offenses",
-            "AttackRoll": "Attack Roll",
+            "Offenses": "Ofensivas",
+            "AttackRoll": "Rolagem de Ataque",
             "Skills": "Perícias"
         },
         "NPC": {
@@ -3596,26 +3622,23 @@
         },
         "DamageButton": {
             "Full": "Aplicar o dano completo aos tokens selecionados.",
-            "FullContext": "Apply Damage",
-            "FullShort": "Full",
+            "FullContext": "Aplicar Dano",
+            "FullShort": "Completo",
             "Half": "Aplicar metade do dano aos tokens selecionados.",
-            "HalfContext": "Half Damage",
-            "HalfShort": "Half",
+            "HalfContext": "Metade do Dano",
+            "HalfShort": "Metade",
             "Double": "Aplicar o dobro de dano aos tokens selecionados.",
-            "DoubleContext": "Double Damage",
-            "DoubleShort": "Double",
-            "Triple": "Apply triple damage to selected tokens.",
-            "TripleContext": "Apply Triple Damage",
-            "TripleShort": "Triple",
+            "DoubleContext": "Dobro do Dano",
+            "DoubleShort": "Dobro",
+            "Triple": "Aplicar o triplo do dano aos tokens selecionados.",
+            "TripleContext": "Aplicar o Triplo do Dano",
+            "TripleShort": "Triplo",
             "ShieldBlock": "Alterna o estado de bloqueio com escudo dos tokens selecionados.",
-            "ShieldBlockContext": "Shield Block",
-            "ShieldBlockShort": "Block",
+            "ShieldBlockContext": "Bloqueio com Escudo",
+            "ShieldBlockShort": "Bloqueio",
             "Healing": "Aplicar cura completa aos tokens selecionados.",
-            "HealingContext": "Apply Healing",
-            "HealingShort": "Heal"
+            "HealingContext": "Aplicar Cura",
+            "HealingShort": "Curar"
         }
-    },
-    "PF2e": {
-        "TraitStamina": "Estamina"
     }
 }
