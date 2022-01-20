@@ -1,0 +1,268 @@
+{
+    "PF2E": {
+        "NPCAbility": {
+            "FormationArea": "Formation (vs. Area Effects)",
+            "HuntedFear": {
+                "Demoralize": "Target is in maze or similarly difficult-to-navigate structure",
+                "Survival": "To Avoid Getting Lost"
+            },
+            "IgnoreConcealed": "The attack ignores the @Compendium[pf2e.conditionitems.Concealed]{Concealed} condition.",
+            "IgnoreCover": "The target doesn't benefit from lesser cover, and it reduces the AC bonus from standard cover by 2 against the the attack.",
+            "IncreasedCriticalChance": "If the attack hits and the creature rolls a 19 on the d20 roll, the attack is a critical hit. This has no effect if the 19 would be a failure.",
+            "IncreasedReach5": "Reach increased by 5 feet",
+            "NightmareGuardianRage": "Nightmare Guardian Rage"
+        },
+        "RuleElement": {
+            "ActiveEffectLike": "ActiveEffect-Like",
+            "ActorTraits": "Actor Traits",
+            "AdjustDegreeOfSuccess": "Adjust Degree of Success",
+            "BaseSpeed": "Base Speed",
+            "BattleForm": "Battle Form",
+            "ChoiceSet": "Choice Set",
+            "CraftingEntry": "Crafting Entry",
+            "CraftingFormula": "Crafting Formula",
+            "CreatureSize": "Creature Size",
+            "EffectTarget": "Effect Target",
+            "DamageDice": "Damage Dice",
+            "DexterityModifierCap": "Dexterity Modifier Cap",
+            "FastHealing": "Fast Healing/Regeneration",
+            "FlatModifier": "Flat Modifier",
+            "FixedProficiency": "Fixed Proficiency",
+            "GrantItem": "Grant Item",
+            "Immunity": "Immunity",
+            "MartialProficiency": "Martial Proficiency",
+            "LoseHitPoints": "Lose Hit Points",
+            "MultipleAttackPenalty": "Multiple Attack Penalty",
+            "Note": "Note",
+            "Sense": "Sense",
+            "Strike": "Strike",
+            "Striking": "Striking",
+            "RecoveryCheckDC": "Recovery Check DC",
+            "Resistance": "Resistance",
+            "RollOption": "Roll Option",
+            "TempHP": "Temporary Hit Points",
+            "TempHPShortLabel": "Temp",
+            "ToggleProperty": "Toggle Property",
+            "TokenEffectIcon": "Token Effect Icon",
+            "TokenImage": "Token Image",
+            "TokenSize": "Token Size",
+            "Weakness": "Weakness",
+            "WeaponPotency": "Weapon Potency",
+            "NewRuleElement": "New Rule Element",
+            "Unrecognized": "Unrecognized Rule Element"
+        },
+        "SkillVariant": {
+            "AboutCaves": "About Caves",
+            "Blacksmithing": "For Blacksmithing",
+            "Climb": "To Climb",
+            "ClimbOrSwim": "To Climb or Swim",
+            "CraftTrapSnare": "To Craft Traps and Snares",
+            "Darkness": "In Darkness",
+            "Deserts": "In Deserts",
+            "Disarm": "To Disarm",
+            "DisarmMetal": "To Disarm a Metal Item",
+            "DisarmStoneMetal": "To Disarm Stone or Metal Objects",
+            "Escape": "To Escape",
+            "Forests": "In Forests",
+            "ForestsOrSwamps": "In Forests or Swamps",
+            "Grapple": "To Grapple",
+            "Hide": "To Hide",
+            "HighJumpOrLongJump": "To High Jump or Long Jump",
+            "ImitateStone": "To Imitate Stone",
+            "Impersonate": "To Impersonate",
+            "ImpersonateCloakSheetRay": "To Impersonate a Cloak, Sheet, or Ray",
+            "Jungles": "In Jungles",
+            "Lair": "In Lair",
+            "Mountains": "In Mountains",
+            "Navigate": "To Navigate",
+            "Paint": "To Paint",
+            "Sand": "In Sand",
+            "Sewers": "In Sewers",
+            "Shove": "To Shove",
+            "Singing": "Singing",
+            "Snow": "In Snow",
+            "Steal": "To Steal",
+            "StonyOrIcyAreas": "In Stony or Icy Areas",
+            "Squeeze": "To Squeeze",
+            "Swamps": "In Swamps",
+            "Swim": "To Swim",
+            "TrackBleedingCreature": "To Track a Bleeding Creature",
+            "Track": "To Track",
+            "Traps": "Traps",
+            "TrashAndRubbish": "In Trash and Rubbish",
+            "Trip": "To Trip",
+            "Underground": "Underground",
+            "Undergrowth": "In Undergrowth",
+            "Vegetation": "In Vegetation",
+            "VsArthropods": "vs. Arthropods",
+            "VsControlled": "vs. Controlled effects",
+            "VsDiseases": "vs. diseases",
+            "VsProne": "vs. Prone effects",
+            "VsShoveOrTrip": "vs. Shove or Trip",
+            "Water": "In Water",
+            "Weave": "To Weave"
+        },
+        "SpecificRule": {
+            "AdvancedGeneralTraining": {
+                "AllowedDrops": "7th-level or lower general feat",
+                "Prompt": "Select a 7th-level or lower general feat."
+            },
+            "ClanWeapon": {
+                "Label": "Clan Weapon",
+                "Prompt": "Select a clan weapon.",
+                "ClanPistol": "Clan Pistol (Ancestry Feat)"
+            },
+            "Cover": {
+                "Prompt": "Select a level of cover.",
+                "Lesser": "Lesser",
+                "Standard": "Standard",
+                "Greater": "Greater"
+            },
+            "FighterWeaponMasteryLegend": {
+                "Advanced": {
+                    "axe": "Advanced Axes",
+                    "bomb": "Advanced Bombs",
+                    "bow": "Advanced Bows",
+                    "brawling": "Advanced Brawling",
+                    "club": "Advanced Clubs",
+                    "dart": "Advanced Darts",
+                    "firearm": "Advanced Firearms",
+                    "flail": "Advanced Flails",
+                    "hammer": "Advanced Hammers",
+                    "knife": "Advanced Knives",
+                    "pick": "Advanced Picks",
+                    "polearm": "Advanced Polearms",
+                    "shield": "Advanced Shields",
+                    "sling": "Advanced Slings",
+                    "spear": "Advanced Spears",
+                    "sword": "Advanced Swords"
+                },
+                "SimpleMartial": {
+                    "axe": "Simple & Martial Axes",
+                    "bomb": "Simple & Martial Bombs",
+                    "bow": "Simple & Martial Bows",
+                    "brawling": "Simple & Martial Brawling",
+                    "club": "Simple & Martial Clubs",
+                    "dart": "Simple & Martial Darts",
+                    "firearm": "Simple & Martial Firearms",
+                    "flail": "Simple & Martial Flails",
+                    "hammer": "Simple & Martial Hammers",
+                    "knife": "Simple & Martial Knives",
+                    "pick": "Simple & Martial Picks",
+                    "polearm": "Simple & Martial Polearms",
+                    "shield": "Simple & Martial Shields",
+                    "sling": "Simple & Martial Slings",
+                    "spear": "Simple & Martial Spears",
+                    "sword": "Simple & Martial Swords"
+                }
+            },
+            "GeneralTraining": {
+                "AllowedDrops": "1st-level general feat",
+                "Prompt": "Select a 1st-level general feat."
+            },
+            "AncestralParagon": {
+                "AllowedDrops": "1st-level ancestry feat",
+                "Prompt": "Select a 1st-level ancestry feat."
+            },
+            "AncientElf": {
+                "AllowedDrops": "multiclass dedication feat",
+                "Prompt": "Select a multiclass dedication."
+            },
+            "MartialProficiency": {
+                "AdvancedAzarketiWeapons": "Advanced Azarketi Weapons",
+                "AdvancedCatfolkWeapons": "Advanced Catfolk Weapons",
+                "AdvancedConrasuWeapons": "Advanced Conrasu Weapons",
+                "AdvancedDwarfWeapons": "Advanced Dwarven Weapons",
+                "AdvancedElfWeapons": "Advanced Elven Weapons",
+                "AdvancedFirearmsCrossbows": "Advanced Firearms & Crossbows",
+                "AdvancedGeniekinWeapons": "Advanced Geniekin Weapons",
+                "AdvancedGnollWeapons": "Advanced Gnoll Weapons",
+                "AdvancedGnomeWeapons": "Advanced Gnome Weapons",
+                "AdvancedGoblinWeapons": "Advanced Goblin Weapons",
+                "AdvancedGrippliWeapons": "Advanced Grippli Weapons",
+                "AdvancedHalflingWeapons": "Advanced Halfling Weapons",
+                "AdvancedHobgoblinWeapons": "Advanced Hobgoblin Weapons",
+                "AdvancedKoboldWeapons": "Advanced Kobold Weapons",
+                "AdvancedOrcWeapons": "Advanced Orc Weapons",
+                "AdvancedTenguWeapons": "Advanced Tengu Weapons",
+                "MartialAzarketiWeapons": "Martial Azarketi Weapons",
+                "MartialCatfolkWeapons": "Martial Catfolk Weapons",
+                "MartialConrasuWeapons": "Martial Conrasu Weapons",
+                "MartialDwarfWeapons": "Martial Dwarven Weapons",
+                "MartialElfWeapons": "Martial Elven Weapons",
+                "MartialFirearmsCrossbows": "Martial Firearms & Crossbows",
+                "MartialGeniekinWeapons": "Martial Geniekin Weapons",
+                "MartialGnollWeapons": "Martial Gnoll Weapons",
+                "MartialGnomeWeapons": "Martial Gnome Weapons",
+                "MartialGoblinWeapons": "Martial Goblin Weapons",
+                "MartialGrippliWeapons": "Martial Grippli Weapons",
+                "MartialHalflingWeapons": "Martial Halfling Weapons",
+                "MartialHobgoblinWeapons": "Martial Hobgoblin Weapons",
+                "MartialKoboldWeapons": "Martial Kobold Weapons",
+                "MartialOrcWeapons": "Martial Orc Weapons",
+                "MartialTenguWeapons": "Martial Tengu Weapons",
+                "MonasticArchery": "Monastic Archery",
+                "SimpleFirearmsCrossbows": "Simple Firearms & Crossbows"
+            },
+            "SpecialtyCrafting": {
+                "Alchemy": "Alchemy",
+                "Artistry": "Artistry",
+                "Blacksmithing": "Blacksmithing",
+                "Bookmaking": "Bookmaking",
+                "Glassmaking": "Glassmaking",
+                "Leatherworking": "Leatherworking",
+                "Pottery": "Pottery",
+                "Prompt": "Select a specialty.",
+                "Shipbuilding": "Shipbuilding",
+                "Stonemasonry": "Stonemasonry",
+                "Tailoring": "Tailoring",
+                "Weaving": "Weaving",
+                "Woodworking": "Woodworking"
+            },
+            "SterlingDynamo": {
+                "AutomaticPercussive": "Automatic Percussive Striker Dynamo",
+                "AutomaticPower": "Automatic Power Driver Dynamo",
+                "ManualPercussive": "Manual Percussive Striker Dynamo",
+                "ManualPower": "Manual Power Driver Dynamo"
+            },
+            "Multitalented": {
+                "AllowedDrops": "2nd-level multiclass dedication feat",
+                "Prompt": "Select a multiclass dedication feat."
+            },
+            "Prompt": {
+                "CreatureSize": "Select a creature size.",
+                "Lesson": "Select a lesson.",
+                "LevelOneClassFeat": "Select a 1st-level class feat.",
+                "PathToPerfection": "Select a path to perfection.",
+                "Skill": "Select a skill.",
+                "WeaponGroup": "Select a weapon group."
+            },
+            "TwoHanded": {
+                "BastardSword": "Use Bastard Sword Two-Handed",
+                "Broom": "Use Broom Two-Handed",
+                "Cane": "Use Cane Two-Handed",
+                "Katana": "Use Katana Two-Handed",
+                "Khakkhara": "Use Khakkhara Two-Handed",
+                "RhokaSword": "Use Rhoka Sword Two-Handed",
+                "Staff": "Use Staff Two-Handed"
+            }
+        },
+        "UI": {
+            "RuleElements": {
+                "ChoiceSet": {
+                    "HomebrewItem": "Homebrew Item",
+                    "DragHomebrewItem": "Drag a homebrew item here if using one instead of the above options",
+                    "Prompt": "Make a selection.",
+                    "SaveLabel": "Save"
+                },
+                "EffectTarget": {
+                    "Prompt": "Choose the target of this effect."
+                },
+                "Prompt": {
+                    "NoSelectionMade": "No selection was made: {item} is inactive.",
+                    "NoValidOptions": "{actor} has no valid options for {item}."
+                }
+            }
+        }
+    }
+}
