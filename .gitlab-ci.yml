@@ -34,11 +34,13 @@ sync:
   script:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
-    - curl -L --output pf2e.zip https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release-0.8.x/raw/pf2e.zip\?job\=build
+    - curl -L --output pf2e.zip https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release-v9/raw/pf2e.zip?job=build
     - unzip -q pf2e.zip pf2e/lang/en.json
+    - unzip -q pf2e.zip pf2e/lang/re-en.json
     - xargs -I % -a .packs unzip -q pf2e.zip pf2e/packs/%.db
     - pnpx fvttp --path pf2e/packs --babele true --save pf2e/packs
     - mv pf2e/lang/en.json pf2e_pt-BR/lang/en
+    - mv pf2e/lang/re-en.json pf2e_pt-BR/lang/en
     - mv pf2e/packs/*.json pf2e_pt-BR/lang/en
     - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
     - git add pf2e_pt-BR/lang
