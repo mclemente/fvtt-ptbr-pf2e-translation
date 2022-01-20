@@ -9,19 +9,23 @@
   "version": "3.0.0",
   "scripts": {
     "commit": "pnpx cz",
-    "lintjson": "pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR"
+    "crowdin:download": "pnpx crowdin download",
+    "crowdin:upload": "pnpx crowdin upload sources",
+    "lintjson": "pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR",
+    "packs:convert": "pnpx fvttp --path pf2e/packs --babele true --save pf2e/packs"
   },
   "devDependencies": {
+    "@crowdin/cli": "^3.7.7",
     "@elvis-pereira/fvtt-parser": "^2.1.1",
     "@prantlf/jsonlint": "^10.2.0",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/exec": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/git": "^9.0.1",
     "@semantic-release/gitlab": "^6.2.2",
     "commitizen": "^4.2.4",
-    "conventional-changelog-conventionalcommits": "^4.6.0",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
     "json": "^11.0.0",
-    "semantic-release": "^17.4.4",
+    "semantic-release": "^17.4.7",
     "semistandard": "^16.0.1"
   }
 }
