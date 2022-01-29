@@ -45,7 +45,7 @@
       "name": "(Vampire, Vrykolakas) Vrykolakas Vulnerabilities"
     },
     "5dbzWZbiTyPKgwKS": {
-      "description": "<div data-visibility=\"gm\">\n<p>This curse affects anyone who wears a graveknight's armor for at least 1 hour.</p>\n<hr /></div>\n<p><strong>Saving Throw</strong> @Check[type:will|dc:] save</p>\n<div data-visibility=\"gm\">\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed 1} and cannot remove the armor (1 day)</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed 2}, the creature's Speed is reduced by 10, and cannot remove the armor (1 day)</p>\n<p><strong>Stage 3</strong> dies and transforms into the armor's graveknight.</p>\n</div>",
+      "description": "<p>This curse affects anyone who wears a graveknight's armor for at least 1 hour.</p>\n<p><strong>Saving Throw</strong> @Check[type:will|dc:] save</p>\n<hr />\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Stage 1</strong> @Compendium[pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed 1} and cannot remove the armor (1 day)</p>\n<p><strong>Stage 2</strong> @Compendium[pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed 2}, the creature's Speed is reduced by 10, and cannot remove the armor (1 day)</p>\n<p><strong>Stage 3</strong> dies and transforms into the armor's graveknight.</p>\n<hr />\n<p>@Compendium[pf2e.bestiary-effects.6rnB7nK6J6zF4vea]{Effect: Graveknight's Curse}</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Graveknight) Graveknight's Curse"
     },
@@ -60,7 +60,7 @@
       "name": "(Ravener) Cowering Fear"
     },
     "6isn9nqnvfRrC1wW": {
-      "description": "<p>The graveknight has access to the critical specialization effects of any weapons it wields.</p>\n<p><em>As NPC strikes are not generated from the weapons it holds, this feature cannot be automated. Add a \"Note\" rule element to each of the graveknight's strikes for the correct critical specialization.</em></p>",
+      "description": "<p>The graveknight has access to the critical specialization effects of any weapons it wields.</p>\n<p><em>As NPC strikes are not generated from the weapons it holds, this feature cannot be automated. Add a \"Note\" rule element to each of the graveknight's strikes for the correct critical specialization. An example is provided.</em></p>",
       "source": "Pathfinder Bestiary",
       "name": "(Graveknight) Weapon Master"
     },
@@ -134,7 +134,7 @@
       "name": "(Werecreature) Moon Frenzy"
     },
     "FW4KAUHb7r8WkxUc": {
-      "description": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a @Check[type:fortitude|dc:] save or become @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns<span data-visibility=\"gm\">, and the DC cumulatively decreases by 1 on each such save</span>.</p>",
+      "description": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a @Check[type:fortitude|dc:] save or become @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Ghoul) Paralysis"
     },
@@ -144,7 +144,7 @@
       "name": "(Vampire, Basic) Coffin Restoration"
     },
     "FsqVhavMWAoFro1L": {
-      "description": "<p>An intangible field of necromantic energy protects a ravener from total destruction. A soul ward has 150 maximum Hit Points, or 200 if the ravener is level 21 or higher.</p>\n<p>Whenever a ravener would be reduced below 1 Hit Point, all damage in excess of what would reduce them to 1 Hit Point is instead dealt to their soul ward. If this damage reduces the soul ward to fewer than 0 Hit Points, the ravener is destroyed.</p>\n<p>A soul ward's Hit Points can be restored only via specific ravener abilities such as Consume Soul, ravenous breath, or vicious criticals. A ravener who goes more than a week without successfully using Consume Soul to feed on a dying creature starves, and their soul ward loses [[/r 1d4 #Hit Points]]{1d4 Hit Points} each day until they feed. If the ravener's soul ward loses all its Hit Points while the ravener still has more than 1 HP, they become a @Compendium[pf2e.pathfinder-bestiary-2.Yv0005Vym1peVKHq]{Ravener Husk}.</p>",
+      "description": "<p>An intangible field of necromantic energy protects a ravener from total destruction. A soul ward has 150 maximum Hit Points, or 200 if the ravener is level 21 or higher.</p>\n<p>Whenever a ravener would be reduced below 1 Hit Point, all damage in excess of what would reduce them to 1 Hit Point is instead dealt to their soul ward. If this damage reduces the soul ward to fewer than 0 Hit Points, the ravener is destroyed.</p>\n<p>A soul ward's Hit Points can be restored only via specific ravener abilities such as Consume Soul, ravenous breath, or vicious criticals. A ravener who goes more than a week without successfully using Consume Soul to feed on a dying creature starves, and their soul ward loses [[/r {1d4} #Soul Ward Decay]]{1d4 Hit Points} each day until they feed. If the ravener's soul ward loses all its Hit Points while the ravener still has more than 1 HP, they become a @Compendium[pf2e.pathfinder-bestiary-2.Yv0005Vym1peVKHq]{Ravener Husk}.</p>",
       "source": "Pathfinder Bestiary 2",
       "name": "(Ravener) Soul Ward"
     },
@@ -172,12 +172,17 @@
       "source": "Pathfinder Bestiary",
       "name": "(Werecreature) Curse of the Werecreature"
     },
+    "IFQd4GiHlV33p7oK": {
+      "description": "<p>A nymph queen can inspire a single intelligent creature by giving that creature a token of her favor, typically a lock of her hair. As long as the creature carries her token and remains in good standing with the nymph queen, the creature gains a +1 status bonus to all Crafting checks, Performance checks, and Will saves.</p>\n<p>If a nymph queen grants her Inspiration to a bard and the nymph queen is that bard's muse, the bard gains an additional benefit depending on their muse theme: for lore muse, the bard also gains a +1 status bonus to all Lore checks; for maestro muse, the status bonus to Performance checks increases to +2 for the purpose of determining the effects of compositions; for polymath muse, the bard gains a +4 status bonus to untrained skill checks; and for all other muses, the Will save bonus increases to +2 against fey.</p>\n<hr />\n<p>@Compendium[pf2e.bestiary-effects.iSyyR4QVOaY6mxtg]{Effect: Nymph Queen's Inspiration}</p>",
+      "source": "Pathfinder Core Rulebook",
+      "name": "(Nymph Queen) Inspiration"
+    },
     "IOk0MRs3f9FrarKL": {
       "description": "<p>A protean's vital organs shift and change shape and position constantly. Immediately after the protean takes acid, electricity, or sonic damage, it gains the listed amount of resistance to that damage type. This lasts for 1 hour or until the next time the protean takes damage of one of the other types (in which case its resistance changes to match that type), whichever comes first. The protean is immune to polymorph effects unless it is a willing target. If @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} or @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened}, the protean automatically recovers at the end of its next turn as new sensory organs grow to replace the compromised ones.</p>\n<hr />\n<p>@Compendium[pf2e.bestiary-effects.c6SiBB3mzV8lZUQr]{Effect: Protean Anatomy}</p>",
       "name": "(Protean) Protean Anatomy"
     },
     "IxJbFJ8dG5RbZWBD": {
-      "description": "<p>The graveknight unleashes a @Template[type:cone|distance:30] of energy.</p>\n<p>Creatures in the area take [[/r 1d12 #____]]{1d12 ____ damage}, plus an additional 1d12 damage for every two levels the graveknight has (@Check[type:reflex|dc:|basic:true] save).</p>\n<p>The graveknight can use this ability once every [[/br 1d4 #rounds]]{1d4 rounds}.</p>\n<p>This energy damage is of the same type as that of its ruinous weapons; <em>Devastating Blast gains the associated energy trait</em>.</p>",
+      "description": "<p>The graveknight unleashes a @Template[type:cone|distance:30] of energy. Creatures in the area take [[/r {1d12}[damageType]]]{1d12 damageType damage}, plus an additional 1d12 damage for every two levels the graveknight has (@Check[type:reflex|dc:|basic:true] save).</p>\n<p data-visibility=\"gm\">The graveknight can use this ability once every [[/br 1d4 #Recharge Devastating Blast]]{1d4 rounds}.</p>\n<p>This energy damage is of the same type as that of its ruinous weapons; <em>Devastating Blast gains the associated energy trait</em>.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Graveknight) Devastating Blast"
     },
@@ -196,7 +201,7 @@
       "name": "(Kallas Devil) Suffer the Children"
     },
     "KcUHCVhHnkMD8j3k": {
-      "description": "<p>The barghest breathes a cloud of toxic gas that deals [[/r {8d6}[poison]]]{8d6 poison damage} to all creatures in a @Template[type:cone|distance:30] (@Check[type:fortitude|dc:25|basic:true] save).</p>\n<p data-visibility=\"gm\">It can't use Toxic Breath again for [[/br 1d4 #rounds]]{1d4 rounds}.</p>",
+      "description": "<p>The barghest breathes a cloud of toxic gas that deals [[/r {8d6}[poison]]]{8d6 poison damage} to all creatures in a @Template[type:cone|distance:30] (@Check[type:fortitude|dc:25|basic:true] save).</p>\n<p data-visibility=\"gm\">It can't use Toxic Breath again for [[/br 1d4 #Recharge Toxic Breath]]{1d4 rounds}.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Greater Barghest) Mutation - Toxic Breath"
     },
@@ -226,7 +231,7 @@
       "name": "(Zombie) Plague-Ridden"
     },
     "N7UV5CZXtcoxDxCF": {
-      "description": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:]</p>\n<div data-visibility=\"gm\"><hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> [[/r {2d6}[negative]]]{2d6 negative damage} and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> [[/r {2d6}[negative]]]{2d6 negative damage} and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a @Compendium[pf2e.pathfinder-bestiary.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>\n</div>",
+      "description": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:]</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> [[/r {2d6}[negative]]]{2d6 negative damage} and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> [[/r {2d6}[negative]]]{2d6 negative damage} and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a @Compendium[pf2e.pathfinder-bestiary.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Ghoul) Ghoul Fever"
     },
@@ -295,10 +300,20 @@
       "source": "Pathfinder Lost Omens: Monsters of Myth",
       "name": "(Kuworsys) Smash and Grab"
     },
+    "SEmSk1INZDmeoB5R": {
+      "description": "<p>The nymph queen focuses her beauty upon a target within her aura. The creature must attempt a @Check[type:will|dc:0] save. On a failure, it is affected as if by the nymph queen's nymph's beauty aura; if it was already affected by the aura, it suffers a greater effect described in the nymph queen's entry. A nymph queen can Focus Beauty on a given creature only once per turn.</p>",
+      "source": "Pathfinder Core Rulebook",
+      "name": "(Nymph Queen) Focus Beauty"
+    },
     "SEzkqVJxr2eJDsuJ": {
       "description": "<p>@Template[type:emanation|distance:10]{10 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p>A creature entering the aura or starting its turn in the aura must succeed at a @Check[type:fortitude|dc:] save or become @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (plus @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as long as it's sickened on a critical failure).</p>\n<p>While within the aura, the creature takes a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.</p>\n<hr />\n<p>@Compendium[pf2e.bestiary-effects.wX9L6fbqVMLP05hn]{Effect: Stench}</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Ghast) Stench"
+    },
+    "UHuA1hue5xrRM6KK": {
+      "description": "<p>A nymph queen is intrinsically tied to a specific region, such as a forest for a dryad queen. As long as the queen is healthy, the environment is exceptionally resilient, allowing the nymph queen to automatically attempt to counteract spells and rituals such as <em>@Compendium[pf2e.spells-srd.7yWXx3qC4eFNHhxD]{Blight}</em> that would harm the environment, using her Spell DC with a counteract level equal to the highest-level druid spell she can cast. When the nymph queen becomes physically or psychologically unhealthy, however, her warded region eventually becomes twisted or unhealthy as well. In that case, restoring the nymph queen swiftly heals the entire region.</p>",
+      "source": "Pathfinder Core Rulebook",
+      "name": "(Nymph Queen) Tied to the Land"
     },
     "UOqq8lkBPcPtKoCN": {
       "description": "<p>The Melfesh Monster sprays flaming gas in a @Template[type:cone|distance:15] or a @Template[type:line|distance:30]. Creatures in the area take [[/r {4d6}[fire]]]{4d6 fire damage} (@Check[type:reflex|dc:21|basic:true|name:Flame Lash] save). This ability replaces the firelance ranged Strike.</p>",
@@ -395,7 +410,7 @@
       "name": "(Lich) Rejuvenation"
     },
     "aiwlPSmNY9b6Psvd": {
-      "description": "<p>The ghost laments its fate, forcing each living creature within 30 feet to attempt a @Check[type:will|dc:] save.</p>\n<p data-visibility=\"gm\">On a failure, a creature becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} (or @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure). On a success, a creature is temporarily immune to this ghost's frightful moan for 1 minute.</p>",
+      "description": "<p>The ghost laments its fate, forcing each living creature within @Template[type:emanation|distance:30]{30 feet} to attempt a @Check[type:will|dc:] save. On a failure, a creature becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} (or @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure). On a success, a creature is temporarily immune to this ghost's frightful moan for 1 minute.</p>",
       "name": "(Ghost) Frightful Moan"
     },
     "awFTdoQfYva84HkU": {
@@ -409,12 +424,12 @@
       "name": "(Lich) Siphon Life"
     },
     "bTJnxBQjr7G8yr30": {
-      "description": "<p>@Template[type:emanation|distance:30]{30 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p>When a creature in the aura uses a positive spell or ability, the graveknight automatically attempts to counteract it, with a counteract modifier of [[/r 1d10+0 #Counteract]]{+x}.</p>",
+      "description": "<p>@Template[type:emanation|distance:30]{30 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p>When a creature in the aura uses a positive spell or ability, the graveknight automatically attempts to counteract it, with a counteract modifier of [[/r 1d20+0 #Counteract]]{+x}.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Graveknight) Sacrilegious Aura"
     },
     "bVZ6KizWVTLJUBXi": {
-      "description": "<p>Any living creature hit by a ghast's attack must succeed at a @Check[type:fortitude|dc:] save or become @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns<span data-visibility=\"gm\">, and the DC cumulatively decreases by 1 on each such save</span>.</p>",
+      "description": "<p>Any living creature hit by a ghast's attack must succeed at a @Check[type:fortitude|dc:] save or become @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Ghast) Paralysis"
     },
@@ -443,6 +458,11 @@
       "source": "Pathfinder #152: Legacy of the Lost God",
       "name": "(Visitant) Vengeful Presence"
     },
+    "eXleBXdAemiEoHA8": {
+      "description": "<p>Nymph queens can transform between their original form, which looks much like a typical nymph of their kind, and any Small or Medium humanoid form, typically choosing a more humanoid-looking version of their natural form.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>",
+      "source": "Pathfinder Core Rulebook",
+      "name": "(Nymph Queen) Change Shape"
+    },
     "fTk5nmm7HHtXOdSo": {
       "description": "<p>The lich has resistance to positive equal to its level.</p>",
       "source": "Pathfinder Bestiary",
@@ -463,7 +483,7 @@
       "name": "(Graveknight) Clutching Armor"
     },
     "fqZhojt2M5LfSKSH": {
-      "description": "<p data-visibility=\"gm\"><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The lich taps into its <em>@Compendium[pf2e.equipment-srd.NEbr7nKuiluJgBHT]{Soul Cage's}</em> power to cast any arcane spell up to the highest level the lich can cast, even if the spell being cast is not one of the lich's prepared spells.</p>\n<p data-visibility=\"gm\">The lich's <em>soul cage</em> doesn't need to be present for the lich to use this ability.</p>",
+      "description": "<p data-visibility=\"gm\"><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> The lich taps into its <em>@Compendium[pf2e.equipment-srd.NEbr7nKuiluJgBHT]{Soul Cage's}</em> power to cast any arcane spell up to the highest level the lich can cast, even if the spell being cast is not one of the lich's prepared spells. The lich's <em>soul cage</em> doesn't need to be present for the lich to use this ability.</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Lich) Drain Soul Cage"
     },
@@ -473,7 +493,7 @@
       "name": "(Ghost) Corrupting Gaze"
     },
     "hA6HsM4i4yPfEsDH": {
-      "description": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:]</p>\n<div data-visibility=\"gm\"><hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> [[/r {3d8}[negative]]]{3d8 negative damage} and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> [[/r {3d8}[negative]]]{3d8 negative damage} and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a @Compendium[pf2e.pathfinder-bestiary.VC7rtYR4hLxwg7WZ]{Ghast} the next midnight</p>\n</div>",
+      "description": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:]</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> [[/r {3d8}[negative]]]{3d8 negative damage} and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> [[/r {3d8}[negative]]]{3d8 negative damage} and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a @Compendium[pf2e.pathfinder-bestiary.VC7rtYR4hLxwg7WZ]{Ghast} the next midnight</p>",
       "source": "Pathfinder Bestiary",
       "name": "(Ghast) Ghast Fever"
     },
@@ -535,6 +555,11 @@
       "description": "<p>While in disguise, the Kallas Devil can attempt to keep others from noticing her Loathsome Stench by attempting a Deception check to Lie. She has a +4 circumstance bonus to this check.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
       "name": "(Kallas Devil) Blameless"
+    },
+    "kG4fDd16fYEFvmgy": {
+      "description": "<p>@Template[type:emanation|distance:30]{30 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p>Creatures that start their turn in the aura must succeed at a @Check[type:will|dc:0] save or suffer an effect described in the nymph queen's entry.</p>",
+      "source": "Pathfinder Core Rulebook",
+      "name": "(Nymph Queen) Nymph's Beauty"
     },
     "kQZ6pzdSn6FaxWF2": {
       "description": "<p>Some visitants can cast the following innate occult spells. If you give a visitant the following spells, consider removing one of its other special abilities.</p>\n<p><strong>Occult Innate Spells</strong></p>\n<p><strong>DC</strong> varies</p>\n<p><strong>Spell Attack</strong> varies</p>\n<p><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{Fear}</em>, <em>@Compendium[pf2e.spells-srd.J7Y7tl0bbdz7TcCc]{Ray of Enfeeblement}</em></p>\n<p><strong>Constant (1st)</strong> <em>@Compendium[pf2e.spells-srd.QnTtGCAvdWRU4spv]{Detect Alignment (evil only)}</em></p>",
