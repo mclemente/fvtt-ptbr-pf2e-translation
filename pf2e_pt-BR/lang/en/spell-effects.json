@@ -142,6 +142,10 @@
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em></p>\n<p>Bolstered by magical power, the target grows to size Huge. Its equipment grows with it but returns to natural size if removed. The creature is clumsy 1. Its reach increases by 10 feet (or by 15 feet if it started out Tiny), and it gains a +4 status bonus to melee damage. The Spell has no effect on a Huge or larger creature.</p>",
       "name": "Spell Effect: Enlarge (Heightened 4th)"
     },
+    "46vCC77mBNBWtmx3": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.n3b3pDmA6L5YRTyq]{Litany of Righteousness}.</p>\n<p>You gain weakness 7 to good.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The weakness increases by 1.</p>",
+      "name": "Spell Effect: Litany of Righteousness"
+    },
     "4CUZSDn4BiqWpvZg": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{Ki Strike}</em> if you have @Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{Elemental Fist} and selecting air.</p>",
       "name": "Spell Effect: Ki Strike (Air)"
@@ -282,6 +286,10 @@
       "description": "<p>You create numerous phantom copies of your weapon arm, hiding your true movements and rendering your attacks unpredictable. You gain a +2 status bonus to Deception checks. If you're untrained in Deception, you can use the Feint action anyway, and add your level as your proficiency bonus despite being untrained.</p>",
       "name": "Spell Effect: Thicket of Knives"
     },
+    "8olfnTmWh0GGPDqX": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{Ki Strike}</p>\n<p>You gain a +1 status bonus to your attack rolls with the Strikes, and the Strikes deal 1d6 extra damage of the chosen type.</p>\n<hr />\n<p><strong>Heightened (+4)</strong> The extra damage increases by 1d6.</p>",
+      "name": "Spell Effect: Ki Strike"
+    },
     "8wCVSzWYcURWewbd": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.VuPDHoVEPLbMfCJC]{Bestial Curse}</em></p>\n<p>The creature gains weakness 1 to silver.</p>",
       "source": "Pathfinder Advanced Player's Guide",
@@ -357,6 +365,10 @@
       "source": "Pathfinder Secrets of Magic",
       "name": "Spell Effect: Angel Form (Movanic Deva)"
     },
+    "BfaFe1cI9IkpvmmY": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.ykyKclKTCMp2SFXa]{Countless Eyes}.</p>\n<hr />\n<p>Eyes form across the touched creature's body, allowing it to see in all directions at once. The subject can't be flanked for the spell's duration. In addition, when the subject @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seeks}, it can Seek in a 30-foot burst centered on itself or up to four 15-foot bursts within line of sight.</p>",
+      "name": "Spell Effect: Countless Eyes"
+    },
     "BsGZdgiEElNlgZVv": {
       "description": "<p>The creature takes a -1 status penalty to attack rolls against creatures other than you.</p>",
       "name": "Spell Effect: Draw Ire (Failure)"
@@ -364,6 +376,10 @@
     "C3RdbEQTvawqKAhw": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zhqnMOVPzVvWSUbC]{Tempest Form}</em></p>\n<p>Your body becomes fluid to better suit your surroundings.</p>\n<p>When you cast this spell, choose whether to become air, water, or mist. The spell gains the air trait if you choose air or mist, and the water trait if you choose water or mist.</p>\n<p>You become amorphous, as does your armor. You lose any item bonus to AC and use your proficiency bonus for unarmored defense to determine your AC. You also gain resistance 10 to physical damage and become immune to precision damage. You can slip through tiny cracks and don't need to breathe. You can't cast spells, activate items, or use actions that have the attack or manipulate trait. You also gain the following effects based on your form.</p>\n<p><strong>Water</strong></p>\n<ul>\n<li>You gain a Swim Speed of 20 feet and become @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible} while you are in the water.</li>\n<li>You can electrically charge yourself by taking a single action, which has the manipulate trait. If you do, you are no longer Invisible in the water due to electricity indicating your location, but any creature that makes a melee attack against you takes [[/r {1d6}[electricity]]]{1d6 electricity damage}; if it touches you, this is cumulative with the damage from your major curse.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+2)</strong> Increase the resistance by 5 and the electricity damage from the charged water form by 1.</p>",
       "name": "Spell Effect: Tempest Form (Water)"
+    },
+    "CTdEsMIwVYqqkH50": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.tYP8unoR0a5Dq9EA]{Litany of Depravity}.</p>\n<p>You gain weakness 7 to evil.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The weakness increases by 1.</p>",
+      "name": "Spell Effect: Litany of Depravity"
     },
     "CWC2fPmlgixoIKy5": {
       "description": "<p>The target's claw attack deals 1d6 slashing damage.</p>",
@@ -522,14 +538,13 @@
       "description": "<p>Drawing upon the deepest wells of magic in an elemental plane, you transform into a spectacular elemental. You can choose between an air elemental, earth elemental, fire elemental, or water elemental. Your battle form is Gargantuan, and you must have enough space to expand into or the spell is lost. While in this form, you gain the elemental trait and the trait for the element you choose. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 25 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>30 temporary Hit Points.</li>\n<li>Darkvision.</li>\n<li>One or more attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +34, and you use the listed damage. These attacks are Dexterity based if you choose an air or fire elemental, or Strength based if you choose an earth or water elemental. (This distinction doesn't change the statistics, but matters for the enfeebled and clumsy conditions, for example). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Acrobatics modifier of +36 for air or fire elemental or Athletics modifier of +36 for earth or water elemental, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of elemental you choose:</p>\n<ul>\n<li><strong>Air Elemental</strong> fly Speed 80 feet;\n<ul>\n<li><strong>High Winds</strong> (air, aura) 30 feet. Air within the emanation is difficult terrain for flying creatures that don't have the air trait;</li>\n<li><strong>Swiftness</strong> Your movement doesn't trigger reactions;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> gust (reach 25 feet), <strong>Damage</strong> 3d12+11 bludgeoning plus Push 10 feet;</li>\n<li><strong>Ranged</strong> <span class=\"pf2-icon\">1</span> lightning lash (range increment 80 feet), <strong>Damage</strong> 3d12+4 electricity.</li>\n</ul>\n</li>\n</ul>",
       "name": "Spell Effect: Element Embodied (Air)"
     },
-    "JJ7HZkXXm8sTapcu": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>",
-      "source": "Pathfinder Secrets of Magic",
-      "name": "Spell Effect: Boost Eidolon (4 Dice)"
-    },
     "Jemq5UknGdMO7b73": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield}</em></p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+1 circumstance bonus to AC</li>\n</ul>",
       "name": "Spell Effect: Shield"
+    },
+    "JqrTrvwV7pYStMXz": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.fI20AVwOzJMHXRdo]{Levitate}.</p>\n<p>You take a -2 circumstance penalty to attack rolls while floating in the air. You can spend an Interact action to stabilize yourself and negate this penalty for the remainder of the turn.</p>",
+      "name": "Spell Effect: Levitate"
     },
     "JrNHFNxJayevlv2G": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zCcfPS4y5SrZzU2x]{Plant Form}</em>.</p>\n<p>Taking inspiration from verdant creatures, you transform into a Large plant battle form. You must have space to expand into or the spell is lost. You can substitute a similar specific plant to turn into (such as a pitcher plant instead of a flytrap), but this has no effect on the form's Size or statistics. While in this form, you gain the plant trait. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 19 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>12 temporary Hit Points.</li>\n<li>Resistance 10 to poison.</li>\n<li>Low-light vision.</li>\n<li>One or more unarmed melee attacks specific to the battle form you choose, which are the only attacks you can use. You're trained with them. Your attack modifier is +17, and your damage bonus is +11. These attacks are Strength based (for the purpose of the @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled} condition, for example). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +19, unless your own modifier is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the type of plant you choose:</p>\n<ul>\n<li><strong>Flytrap</strong>\n<ul>\n<li>Speed 15 feet; resistance 10 to acid;</li>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1</span> leaf (reach 10 feet), <strong>Damage</strong> 2d8 piercing, and you can spend an action after a hit to Grab the target.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (6th)</strong> Your battle form is Huge, and the reach of your attacks increases by 5 feet. You instead gain AC = 22 + your level, 24 temporary HP, attack modifier +21, damage bonus +16, and Athletics +22.</p>",
@@ -735,10 +750,6 @@
     "TwtUIEyenrtAbeiX": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.uZK2BYzPnxUBnDjr]{Tanglefoot}</em>.</p>\n<p>Vines hamper your movement, you take a -10-foot circumstance penalty to your Speeds.</p>\n<hr />\n<p><em>Note: the duration needs to be increased to 2 rounds when the spell is heightened to 2nd level, and to 1 minute when the spell is heightened to 4th level.</em></p>",
       "name": "Spell Effect: Tanglefoot"
-    },
-    "U2dJnkoGSCYOsQFI": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{Gravity Weapon}</em> if your weapon deals 1 die of damage.</p>",
-      "name": "Spell Effect: Gravity Weapon (1 Die)"
     },
     "U2eD42cGwdvQMdN0": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.XS7Wyh5YC0NWeWyB]{Fiery Body}</em></p>",
@@ -952,6 +963,11 @@
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.LrhTFHUtSS9ahogL]{Traveler's Transit}</em>.</p>\n<p>You gain a fly speed equal to your land speed.</p>",
       "name": "Spell Effect: Traveler's Transit (Fly)"
     },
+    "cVVZXNbV0nElVOPZ": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.WBmvzNDfpwka3qT4]{Light}</p>\n<hr />\n<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>",
+      "source": "Pathfinder Core Rulebook",
+      "name": "Spell Effect: Light"
+    },
     "ccrcaKIRxiCnnRPT": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.K8vvrOgW4bGakXxm]{Dragon Claws}</em> if your bloodline is green.</p>",
       "name": "Spell Effect: Dragon Claw (Poison)"
@@ -972,11 +988,6 @@
       "description": "<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> Add the following options to the list of effects you can choose:</p>\n<ul>\n<li>Your eidolon gains a climb Speed equal to its land Speed.</li>\n</ul>",
       "source": "Pathfinder Secrets of Magic",
       "name": "Spell Effect: Evolution Surge (Climb)"
-    },
-    "d0jsFEx8kq9idSlo": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>",
-      "source": "Pathfinder Secrets of Magic",
-      "name": "Spell Effect: Boost Eidolon (3 Dice)"
     },
     "dCQCzapIk53xmDo5": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{Animal Feature}</em>.</p>\n<p>You gain low-light vision.</p>",
@@ -1007,11 +1018,6 @@
     "deG1dtfuQph03Kkg": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.s3abwDbTV43pGFFW]{Shillelagh}</em></p>\n<p>The target grows vines and leaves, brimming with primal energy. The target becomes a +1 striking weapon while in your hands, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two. Additionally, as long as you are on your home plane, attacks you make with the target against aberrations, extraplanar creatures, and undead increase the number of weapon damage dice to three.</p>",
       "name": "Spell Effect: Shillelagh"
-    },
-    "eFxUcQDkxcX9KoE1": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>",
-      "source": "Pathfinder Secrets of Magic",
-      "name": "Spell Effect: Boost Eidolon (1 Die)"
     },
     "ei9MIyZbIaP4AZmh": {
       "description": "<p>Three faintly glowing wisps of fire float around your head. Each time you hit a creature with a Strike, one of the wisps goes hurtling towards that creature, dealing 1d4 fire damage. If you Cast a Spell with the fire trait while you have fewer than three wisps, a new wisp appears.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d4.</p>",
@@ -1051,6 +1057,10 @@
       "description": "<p>An elemental force fills your target, granting the target the swiftness of air, the ruggedness of earth, the sting of fire, or the flexibility of water, depending on which element you choose. Choose an element when you Cast the Spell. The target gains the benefit of that element as described below, and this spell gains that trait's element.</p>\n<ul>\n<li><strong>Earth</strong> While on the ground, the target gets a +2 status bonus to Fortitude and Reflex saves against effects that would Shove or Trip it, and to saves against effects that would attempt to knock it prone. In addition, the ground adjacent to the target is difficult terrain, and the difficult terrain moves with the target, though the target ignores this difficult terrain with its own movement.</li>\n</ul>",
       "name": "Spell Effect: Elemental Gift (Earth)"
     },
+    "fvIlSZPwojixVvyZ": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.rDDYGY2ekZ1yVv7q]{Lucky Number}.</p>\n<p>You gain the @Compendium[pf2e.actionspf2e.kUME7DMhhHH6eIiH]{That's My Number} reaction; once you use the reaction, the spell ends.</p>",
+      "name": "Spell Effect: Lucky Number"
+    },
     "fwaAe71qfnK7SiOB": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.kwlKUxEuT8T15YW6]{Primal Summons}</em> when you select air.</p>\n<p>The creature gains a fly Speed of 60 feet.</p>",
       "name": "Spell Effect: Primal Summons (Air)"
@@ -1076,6 +1086,10 @@
     "gmgXUazwnm0i305Z": {
       "description": "<p>With enchanted gusto, you encourage yourself to get things done and share your motivation with your allies. You gain a +1 status bonus to attack rolls. During the spell's duration, an ally who observed you Casting this Spell and was within 30 feet when you did so can take a single action, which has the concentrate trait, to gain the same bonus you chose until the start of its next turn.</p>\n<p>Using this spell to influence someone in a social situation is typically considered a faux pas, negating the benefit on Charisma-based skills if the subject of the check observed you casting the spell.</p>",
       "name": "Spell Effect: Infectious Enthusiasm (Attack)"
+    },
+    "h0CKGrgjGNSg21BW": {
+      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>",
+      "name": "Spell Effect: Boost Eidolon"
     },
     "h28nZ8JB5JBwr87U": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.YDMOqndvYFu3OjA6]{Ki Form}</em></p>\n<p>Drawing from deep wells of spiritual power, you take on a special ki form. In your ki form, your hair, feathers, skin, or scales change color and begin to glow.</p>\n<p>In this form you gain a Fly Speed equal to your land Speed.</p>\n<p>All your Strikes deal [[/r {1d6}[negative]]]{1d6 additional negative damage}.</p>\n<p>Your entire body is also surrounded by a glowing corona of the same color as your inner ki; this is a light effect. Your corona is a 5-foot emanation that deals [[/r {2d6}[negative]]]{2d6 negative damage} to creatures who start their turn within the emanation. If the emanation overlaps with a darkness effect, the corona's glow attempts to counteract the darkness effect. Regardless of the outcome, the corona can't attempt to counteract that effect again for 1 day. As a single action, which has the concentrate trait, you can flare your corona out to become a 30-foot emanation.</p>\n<p>In your ki form, your emotions surge to the forefront and it's difficult to moderate your attacks. Your weapons and unarmed attacks lose the nonlethal trait. You take a -2 status penalty to saves against emotion effects but gain a +2 status bonus to saves against all other mental effects.</p>",
@@ -1153,6 +1167,10 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Spell Effect: Shifting Form (Speed)"
     },
+    "j9l4LDnAwg9xzYsy": {
+      "description": "<p>Granted by @Compendium[pf2e.spells-srd.HIY4XUJZKmFLAJTn]{Life Connection}.</p>\n<p>You gain the @Compendium[pf2e.actionspf2e.5V49l0K460CcvBOO]{Defend Life} reaction; once you use the reaction, the spell ends.</p>",
+      "name": "Spell Effect: Life Connection"
+    },
     "jKrLpG74nLHYGyWB": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.G0T1xv1FoZ23Jxvt]{Nudge Fate}</em></p>",
       "name": "Spell Effect: Nudge Fate"
@@ -1219,7 +1237,7 @@
       "name": "Spell Effect: Heroism"
     },
     "lIl0yYdS9zojOZhe": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.9kOI14Jep97TzGO7]{Life-Giving Form}</em></p>\n<p>You transcend your physical form, becoming a beacon of healing energy. Your body exudes bright light like a torch. You gain resistance 5 to precision damage and weakness 5 to negative damage, and your unarmed Strikes deal an extra [[/r {1d4}[positive]]]{1d4 positive damage}.</p>\n<p>You can touch a living creature with an @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} action to restore [[/r {6d8}[healing]]]{6d8 Hit Points} to it, and when a creature touches you with an Interact action you can allow it to gain the same healing; either way, the creature becomes temporarily immune to life-giving form's healing for 1 minute. This is a positive healing effect. You can't heal yourself with life-giving form. A creature harmed by positive damage (such as an undead) that touches you or damages you with an unarmed attack or non-reach melee weapon instead takes [[/r {3d4}[positive]]]{3d4 positive damage}, and it doesn't become temporarily immune.</p>\n<p>You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} this spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the Hit Points restored with an Interact action by [[/r 1d8]], the positive damage by 1, and the resistance and weakness by 1.</p>",
+      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.9kOI14Jep97TzGO7]{Life-Giving Form}</em></p>\n<p>You gain resistance 5 to precision damage and weakness 5 to negative damage, and your unarmed Strikes deal an extra [[/r {1d4}[positive]]]{1d4 positive damage}.</p>\n<p>You can touch a living creature with an @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} action to restore [[/r {6d8}[healing]]]{6d8 Hit Points} to it, and when a creature touches you with an Interact action you can allow it to gain the same healing; either way, the creature becomes temporarily immune to life-giving form's healing for 1 minute. This is a positive healing effect. You can't heal yourself with life-giving form. A creature harmed by positive damage (such as an undead) that touches you or damages you with an unarmed attack or non-reach melee weapon instead takes [[/r {3d4}[positive]]]{3d4 positive damage}, and it doesn't become temporarily immune.</p>\n<p>You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} this spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the Hit Points restored with an Interact action by [[/r 1d8]], the positive damage by 1, and the resistance and weakness by 1.</p>",
       "name": "Spell Effect: Life-Giving Form"
     },
     "lTL5VwNrZ5xiitGV": {
@@ -1334,10 +1352,6 @@
     "oaRt210JV4GZIHmJ": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.zNN9212H2FGfM7VS]{Lay on Hands}</em> if you have @Compendium[pf2e.feats-srd.xZrTjUub7V09sXZF]{Rejuvenating Touch}.</p>\n<p>An ally that recovers Hit Points from your <em>@Compendium[pf2e.spells-srd.zNN9212H2FGfM7VS]{Lay on Hands}</em> gains 10 temporary Hit Points at the start of their turn during each of the next 10 rounds. This effect ends if the ally is knocked @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}.</p>",
       "name": "Spell Effect: Rejuvenating Touch"
-    },
-    "oi5M6yQBlTKvLy29": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{Gravity Weapon}</em> if your weapon deals 3 dice of damage.</p>",
-      "name": "Spell Effect: Gravity Weapon (3 Dice)"
     },
     "otK6eG3b3FV7n2xP": {
       "description": "<p>You call upon the spirits of the soil to twist and churn, transforming the terrain in the targeted area into a sodden mess. The area becomes difficult terrain. Creatures in the area when you Cast this Spell must attempt a Reflex saving throw.</p>\n<hr />\n<p><strong>Critical Failure</strong> The creature sinks partially into the mud. The creature takes a -15-foot circumstance penalty to its Speeds (except for its swim Speed, if any) and becomes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}. These effects last until the creature leaves the area or until the end of its next turn, whichever comes first.</p>",
@@ -1480,9 +1494,9 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Spell Effect: Divine Vessel (Lawful)"
     },
-    "tNryw0Rl4L8LF8Yq": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{Gravity Weapon}</em> if your weapon deals 4 dice of damage.</p>",
-      "name": "Spell Effect: Gravity Weapon (4 Dice)"
+    "tNjimcyUwn8afeH6": {
+      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{Gravity Weapon}</em> .</p>",
+      "name": "Spell Effect: Gravity Weapon"
     },
     "tTRy1cc24ApPnym8": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{Ki Strike}</em> if you have @Compendium[pf2e.feats-srd.BU4NBIBkVZxdWLLH]{Elemental Fist} and selecting water.</p>",
@@ -1522,10 +1536,6 @@
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.XS7Wyh5YC0NWeWyB]{Fiery Body}</em></p>",
       "name": "Spell Effect: Fiery Body"
     },
-    "uJNDI3CGGOtcG8nB": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.IWUe32Y5k2QFd7YQ]{Gravity Weapon}</em> if your weapon deals 2 dice of damage.</p>",
-      "name": "Spell Effect: Gravity Weapon (2 Dice)"
-    },
     "ubT5UGReu1PoeCL0": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.ZL8NTvB22NeEWhVG]{Ki Strike}</em>, and selecting negative.</p>",
       "name": "Spell Effect: Ki Strike (Negative)"
@@ -1556,11 +1566,6 @@
     "wqh8D9kHGItZBvtQ": {
       "description": "<p>You surround yourself in a mantle of frigid ice magic, and your skin and armor morph into cold blue ice. Freezing air emanates from your body, sending a chill down anyone's spine who draws too close and leaving a fine dusting of frost in your wake. As a single action, which has the concentrate trait, you can change one of your chosen abilities to a different option from the list.</p>\n<ul>\n<li><strong>Icy Claws</strong> Your hands morph into vicious, piercing claws of ice useful for attacking or climbing. As long as you have both hands free, you gain a climb Speed equal to your land Speed. You gain a claw unarmed attack with the agile and finesse traits, in the brawling weapon group. Your claw attack deals 1d6 piercing damage as its base damage, plus an additional 2d6 cold damage.</li>\n</ul>",
       "name": "Spell Effect: Mantle of the Frozen Heart (Icy Claws)"
-    },
-    "xFvNsjmhvTkVk59U": {
-      "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon}</em></p>\n<p>You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>",
-      "source": "Pathfinder Secrets of Magic",
-      "name": "Spell Effect: Boost Eidolon (2 Dice)"
     },
     "xKJVqN1ETnNH3tFg": {
       "description": "<p>Granted by <em>@Compendium[pf2e.spells-srd.9aFg4EuOBVz0i3Lb]{Corrosive Body}</em></p>\n<p>You exhale corrosive gas, and acidic secretions coat your skin as you transform into a being of living acid. You gain acid immunity. Any creature that touches you or damages you with an unarmed melee attack or non-reach melee weapon takes [[/r {4d6}[acid]]]{4d6 acid damage}, and your unarmed attacks deal 2d4 additional acid damage. The first time each round that you deal acid damage to a creature in this way, you gain [[/r 5d6 #Temporary Hit Points]]{5d6 temporary Hit Points} as your body digests the eroded material and transforms it into a protective acid. When the spell ends, any remaining temporary HP expires as well. Your acid spells deal one additional die of acid damage (of the same damage die the spell uses). You can cast acid splash as an innate spell; the splash damage affects all creatures within 15 feet instead of the normal 5 feet.</p>",
