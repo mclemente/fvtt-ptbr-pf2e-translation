@@ -11,7 +11,7 @@
       "name": "Furious Strike"
     },
     "0XiPnnxKHWKFg1tN": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[piercing]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[piercing]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Piercing) (Cone)"
     },
     "0b3TTeQGFOiy6ykz": {
@@ -80,7 +80,7 @@
       "name": "Overdrive"
     },
     "3UEwtMA5y8foVqYP": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[electricity]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[electricity]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Electricity) (Line)"
     },
     "3ZzoI9MTtJFd1Kjl": {
@@ -115,7 +115,7 @@
       "name": "Defend Life"
     },
     "5Vuhf4DjvMvRqiEZ": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[negative]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[negative]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Negative) (Cone)"
     },
     "6OZfIjiPjWTIe7Pr": {
@@ -169,7 +169,7 @@
       "name": "Call on Ancient Blood"
     },
     "90fHUm0HGZFAbG1K": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[fire]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[fire]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Fire) (Line)"
     },
     "9MJcQEMVVrmMyGyq": {
@@ -209,7 +209,7 @@
       "name": "Impersonate"
     },
     "AWXPiqz4xDN03iPs": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[poison]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[poison]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Poison) (Line)"
     },
     "Ah5g9pDwWF9b9VW9": {
@@ -286,7 +286,7 @@
       "name": "Recall Ammunition"
     },
     "Dt6B1slsBy8ipJu9": {
-      "description": "<p><strong>Requirements</strong> You have at least one hand free. The target can't be more than one size larger than you.</p>\n<hr />\n<p>You try to knock something out of a creature's grasp. Attempt an <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\">Athletics</span> check against the target's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You knock the item out of the target's grasp. It falls to the ground in the target's space.</p>\n<p><strong>Success</strong> You weaken your target's grasp on the item. Until the start of that creature's turn, attempts to Disarm the target of that item gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.</p>\n<p><strong>Critical Failure</strong> You lose your balance and become @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} until the start of your next turn.</p>",
+      "description": "<p><strong>Requirements</strong> You have at least one hand free. The target can't be more than one size larger than you.</p>\n<hr />\n<p>You try to knock something out of a creature's grasp. Attempt an <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\">Athletics</span> check against the target's Reflex DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You knock the item out of the target's grasp. It falls to the ground in the target's space.</p>\n<p><strong>Success</strong> You weaken your target's grasp on the item. Until the start of that creature's turn, attempts to Disarm the target of that item gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.</p>\n<p>@Compendium[pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effect: Disarm (Success)}</p>\n<p><strong>Critical Failure</strong> You lose your balance and become @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} until the start of your next turn.</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Disarm"
     },
@@ -334,7 +334,7 @@
       "name": "Settle Emotions"
     },
     "EmFzFAwgQ0lJZwba": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[negative]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[negative]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Negative) (Line)"
     },
     "EwgTZBWsc8qKaViP": {
@@ -427,7 +427,7 @@
       "name": "Hunt Prey"
     },
     "JqThDeWlGobiAPJd": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[fire]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[fire]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Fire) (Cone)"
     },
     "JuqmIAnkL9hVGai8": {
@@ -478,11 +478,11 @@
       "name": "Recall Knowledge (Religion)"
     },
     "LfsQy2T8GjpuMqAh": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[electricity]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[electricity]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Electricity) (Cone)"
     },
     "Lt591Og3XRhx5dRx": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[acid]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[acid]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Acid) (Cone)"
     },
     "M76ycLAqHoAgbcej": {
@@ -514,7 +514,7 @@
       "name": "Wish for Luck"
     },
     "NEBuuhjZE9BL3I8v": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[poison]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[poison]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Poison) (Cone)"
     },
     "O1iircZOOCo42r9Y": {
@@ -590,7 +590,7 @@
       "name": "Feint"
     },
     "QQQaV7pi9Gv2GpLj": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[piercing]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[piercing]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Piercing) (Line)"
     },
     "Qf1ylAbdVi1rkc8M": {
@@ -671,6 +671,7 @@
     },
     "Tlrde2xh7AhesXNB": {
       "description": "<p><strong>Trigger</strong> You roll Stealth for initiative.</p>\n<hr />\n<p>Your first shot is the deadliest. Interact to draw a firearm or crossbow. On your first turn, your first Strike with that weapon deals an additional 1d6 precision damage. This precision damage increases to 2d6 at 9th level and 3d6 at 15th level.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "One Shot, One Kill"
     },
     "UAaQk93a30nx0nYY": {
@@ -789,7 +790,7 @@
       "name": "Airy Step"
     },
     "auOTjKr8gB1dqFh4": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[cold]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[cold]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Cold) (Cone)"
     },
     "b3h3QqvwS5fnaiu1": {
@@ -911,7 +912,7 @@
       "name": "Trip"
     },
     "grkggNQnOxWWsjBH": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[cold]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[cold]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Cold) (Line)"
     },
     "gxtq81VAhpmNvEgA": {
@@ -1117,7 +1118,7 @@
       "name": "Study"
     },
     "slwllcUtVhoCdBuM": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r {(floor(@actor.level/2))d6}[acid]]]{Levelled Damage}</p>",
+      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[acid]]]{Levelled Damage}</p>",
       "name": "Breath Weapon (Acid) (Line)"
     },
     "sn2hIy1iIJX9Vpgj": {

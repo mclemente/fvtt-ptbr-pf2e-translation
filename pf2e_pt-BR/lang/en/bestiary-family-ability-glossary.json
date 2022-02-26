@@ -18,7 +18,7 @@
     "49aAeGbH5p2IJ5Fz": {
       "description": "<p>Kuworsys's sling becomes a reload 0 weapon instead of reload 1.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Kuworsys) Rapid Bombadment"
+      "name": "(Kuworsys) Rapid Bombardment"
     },
     "4Aj4FWKObfMYoSvh": {
       "description": "<p data-visibility=\"gm\"><strong>Requirements</strong> A creature the ghost is aware of targets the ghost with an attack</p>\n<p><strong>Effect</strong> The ghost has an unusually pitiable appearance or can change its features to look like someone close to the attacker, which causes the target to pull back on its attack.</p>\n<p>The triggering creature must attempt a @Check[type:will|dc:] save. On a failure, the creature takes a -1 circumstance penalty to its attack roll (-2 on a critical failure).</p>",
@@ -151,7 +151,7 @@
     "G4yIjHMzD0KVpaCm": {
       "description": "<p>The Melfesh Monster Burrows twice. At any point in this movement, it can shed a temporary fungal limb to grasp a creature within 10 feet. The creature must succeed at a @Check[type:reflex|dc:21|name:Burrowing Grasp] save or be @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round (on a critical failure, 2 rounds) or until it Escapes (DC 21). This ability grants the Melfesh Monster a burrow speed of 15 feet and replaces its fly speed and Envelop.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Burrowing Grasp"
+      "name": "(Melfesh Monster) Burrowing Grasp"
     },
     "HKFoOZZV4WdjkeeJ": {
       "description": "<p>Many proteans can subject their foes to disorienting alterations perceived in time and space by creating ripples of unstable reality in the environment called warpwaves. When a creature fails its saving throw and is affected by a warpwave, roll [[/br 1d8 #Warpwave]]{1d8} and consult the table below for the specific effect on that creature. Unless indicated otherwise, a warpwave effect lasts for [[/br 1d4 #Duration Warpwave Effect]]{1d4 rounds}, and a new warpwave effect negates any previous warpwave effect already affecting a creature.</p>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>[[/br 1d8 #Warpwave]]{1d8}</th>\n<th>Warpwave Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2} (@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 3} on a critical failure)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} and gains [[/r 4d6 #Temporary Hit Points]]{4d6 temporary Hit Points}</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} (permanent on a critical failure)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} (@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 3} on a critical failure)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} by filaments of energy</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} (Stride, Strike, or Step only)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} (@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 3} on a critical failure)</td>\n</tr>\n</tbody>\n</table>",
@@ -318,7 +318,7 @@
     "UOqq8lkBPcPtKoCN": {
       "description": "<p>The Melfesh Monster sprays flaming gas in a @Template[type:cone|distance:15] or a @Template[type:line|distance:30]. Creatures in the area take [[/r {4d6}[fire]]]{4d6 fire damage} (@Check[type:reflex|dc:21|basic:true|name:Flame Lash] save). This ability replaces the firelance ranged Strike.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Flame Lash"
+      "name": "(Melfesh Monster) Flame Lash"
     },
     "UU1Fp3PRuTFONjC9": {
       "description": "<p>The ghoul jumps up to half its Speed. This movement doesn't trigger reactions.</p>",
@@ -338,7 +338,7 @@
     "VXKiqiW7gXfFCz1U": {
       "description": "<p data-visibility=\"gm\"><strong>Requirements</strong> A creature is within 90 feet of the Melfesh Monster and is standing on the ground</p>\n<p><strong>Effect</strong> Fungal threads burst from the ground. The creature must succeed at a @Check[type:reflex|dc:21|name:Mycelial Tomb] save or inhale Melfesh spores that remain in its body for 1 minute, be encased in mycelia, and be @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}. The mycelia have Hardness 8 and 16 HP, and the DC to Force them Open is 21. Breaking the mycelia frees the creature and ends the slowed effect. If someone other than the encased creatures breaks the mycelia from the outside, the creature is @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1} and takes any damage dealt by the breaking effect in excess of the mycelia's Hit Points. This replaces the Envelop ability.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Mycelial Tomb"
+      "name": "(Melfesh Monster) Mycelial Tomb"
     },
     "VzKVJlX2ocv1ezzp": {
       "description": "<p>The visitant exhales sharply, releasing pungent fumes from its lungs in a @Template[type:cone|distance:15]{15-foot cone}.</p>\n<p>Each creature in the area must succeed at a @Check[type:fortitude|dc:|name:Noxious Breath] save or become @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>",
@@ -451,7 +451,7 @@
     "d6eWuFd6pw6ffvPC": {
       "description": "<p data-visibility=\"gm\"><strong>Frequency</strong> once per hour</p>\n<p><strong>Effect</strong> The Melfesh Monster inflates with gas for 1 minute. It grows to Huge size, and its reach increases to 15 feet. It also gains 12 temporary Hit Points, resistance 5 to bludgeoning, and a +2 status bonus to damage rolls, but it's @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}. When the Melfesh Monster takes damage while swollen, all creatures within 15 feet inhale spores that remain in their body for 1 minute. This ability replaces terrorspores and Spore Cloud.</p>\n<p>@Compendium[pf2e.bestiary-effects.JlaO7fgm53Om1DxB]{Effect: Swell}</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Swell"
+      "name": "(Melfesh Monster) Swell"
     },
     "eSp48kG7v1GNuGgh": {
       "description": "<p>@Template[type:emanation|distance:20]{20 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>A creature that starts its turn within the visitant's aura must succeed at a @Check[type:will|dc:|name:Vengeful Presence] save or be overcome with a thirst for vengeance.</p>\n<p>For [[/r 1d4 #rounds]]{1d4 rounds} (1 minute on a critical failure), if the affected creature was attacked within the last round (whether or not the attack hit), the creature must use at least 1 action per round to Strike or use a hostile action toward its last attacker as long as the attacker is still alive. Failure to do so deals the affected creature [[/r {1d6}[mental]]]{1d6 mental damage}, plus 1d6 for every 5 levels the visitant has.</p>",
@@ -510,7 +510,7 @@
     "i4WBOAb7CmY53doM": {
       "description": "<p>The Melfesh Monster partially controls a creature within 60 feet that has inhaled its spores. This has the effects of a command spell (@Check[type:will|dc:24|name:False Synapses] save). This ability replaces sporesight and Spore Cloud.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) False Synapses"
+      "name": "(Melfesh Monster) False Synapses"
     },
     "i7m74TphAiFYvzPL": {
       "description": "<p>@Template[type:emanation|distance:30]{30 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>Wind surrounds the ghost out to a range of 30 feet. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Squares in the ghost's aura are difficult terrain and flying creatures are always considered to be moving against the wind.</p>\n<p>The ghost can dismiss or resume the wind as an action, which has the concentrate trait.</p>",
@@ -525,7 +525,7 @@
     "iiIhLkjuPYJ93Upw": {
       "description": "<p>@Template[type:emanation|distance:60] @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>The Melfesh Monster emits the overwhelming stink of burning, rotting matter. A creature that enters or begins its turn in the area inhales spores and must attempt a @Check[type:fortitude|dc:21|name:Smolderstench] save. On a failure, the creature takes [[/r {2d4}[poison]]]{2d4 poison damage} and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}; on a critical failure, the creature also takes [[/r {4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Damage} and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}. A creature that succeeds at its save is temporarily immune to smolderstench for 1 minute. This ability replaces terrorspores.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Smolderstench"
+      "name": "(Melfesh Monster) Smolderstench"
     },
     "ipGBYIXk4u47Mp1D": {
       "description": "<p>If the zombie is adjacent to a helpless or unconscious creature, or a deceased creature that died in the past hour, the zombie can feast upon its flesh to heal itself.</p>\n<p>This restores an amount of Hit Points equal to the zombie's level. If the creature is alive, the zombie deals damage equal to its jaws, fist, or claw damage.</p>",
@@ -564,7 +564,7 @@
     "kQZ6pzdSn6FaxWF2": {
       "description": "<p>Some visitants can cast the following innate occult spells. If you give a visitant the following spells, consider removing one of its other special abilities.</p>\n<p><strong>Occult Innate Spells</strong></p>\n<p><strong>DC</strong> varies</p>\n<p><strong>Spell Attack</strong> varies</p>\n<p><strong>1st</strong> <em>@Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{Fear}</em>, <em>@Compendium[pf2e.spells-srd.J7Y7tl0bbdz7TcCc]{Ray of Enfeeblement}</em></p>\n<p><strong>Constant (1st)</strong> <em>@Compendium[pf2e.spells-srd.QnTtGCAvdWRU4spv]{Detect Alignment (evil only)}</em></p>",
       "source": "Pathfinder #152: Legacy of the Lost God",
-      "name": "(Vistant) Visitant Spells"
+      "name": "(Visitant) Visitant Spells"
     },
     "m6teF5ADh7vuM8Zr": {
       "description": "<p data-visibility=\"gm\"><strong>Requirements</strong> The ghast is adjacent to the corpse of a creature that died within the last hour.</p>\n<p><strong>Effect</strong> The ghast devours a chunk of the corpse and regains [[/r {2d6}[healing]]]{2d6 Hit Points} plus 1d6 for every 2 levels it has.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>",
@@ -604,7 +604,7 @@
     "oD1cA9uXYQ8evT8f": {
       "description": "<p data-visibility=\"gm\"><strong>Trigger</strong> The Melfesh Monster ends its movement next to or takes damage from an adjacent creature</p>\n<p><strong>Effect</strong> Rifts in the Melfesh Monster's body spew burning gas. The triggering creature must succeed at a @Check[type:reflex|dc:21|name:Vent Flames|traits:damaging-effect] save or inhale spores which remain in its body for 1 minute, take [[/r {2d6}[fire]]]{2d6 fire damage}, and become @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (on a critical failure, double damage and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}). This ability replaces Reactive Growth.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Vent Flames"
+      "name": "(Melfesh Monster) Vent Flames"
     },
     "oXRnrQQ04oi8OkDG": {
       "description": "<p data-visibility=\"gm\"><strong>Trigger</strong> The vrykolakas is reduced to 0 Hit Points, and an animal is within 100 feet</p>\n<p><strong>Effect</strong> Unlike most other undead, a vrykolakas isn't destroyed when it reaches 0 HP. Instead, it attempts to cast its spirit into an animal within 100 feet, which must attempt a @Check[type:will|dc:|name:Feral Possession] save (use a high DC for the vrykolakas's level).</p>\n<p>On a failure, the animal is possessed. This has the effects of the <em>@Compendium[pf2e.spells-srd.wU6hNzK8Yfqdmc8m]{Possession}</em> spell, but it lasts a number of days equal to the vrykolakas's level. This possession can't be counteracted with magic (though <em>@Compendium[pf2e.spells-srd.OyFCwQuw8XRazsNr]{Remove Curse}</em> works against it normally).</p>\n<p>If the animal succeeds at its save, the vrykolakas can attempt to possess a different animal within 100 feet. If at any point an animal critically succeeds at its save or no animal is within 100 feet, the vrykolakas fails to possess anything and is destroyed.</p>\n<p>A vrykolakas possessing an animal seeks out its burial site immediately, burying itself there. While the vrykolakas is in this state of recovery, its animal host is @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}, and beheading it destroys the vrykolakas and kills its host. Removing the curse destroys the vrykolakas and returns the animal to normal.</p>\n<p>After [[/br 1d4 #days]]{1d4 days}, if the vrykolakas hasn't been destroyed, the animal dies and the vrykolakas rises in a new body that's identical to its previous one, formed from the animal's remains.</p>",
@@ -629,7 +629,7 @@
     "qs21GajPmFYel3pc": {
       "description": "<p>The Melfesh Monster injects a creature's corpse with spores over the course of 10 minutes, priming it to explode. These spores last 1 day, and the Melfesh Monster can only have three corpses primed at a time; if it primes another, the oldest corpse bomb deactivates harmlessly. Creatures that succeed at a @Check[type:perception|dc:21|name:Notice Corpse Bomb|traits:action:seek,action:investigate,secret] check while Seeking or Investigating notice a corpse bomb's explosive nature. Creatures can attempt to disarm a corpse bomb with a @Check[type:nature|dc:21|name:Disable Corpse Bomb (Nature)|traits:action:disable-a-device], @Check[type:survival|dc:21|name:Disable Corpse Bomb (Survival)|traits:action:disable-a-device], or @Check[type:thievery|dc:21|name:Disable Corpse Bomb (Thievery)|traits:action:disable-a-device] check to Disable a Device. A corpse bomb explodes in a @Template[type:burst|distance:10] if a creature comes within 5 feet or if the Melfesh Monster detonates it as a single action, which it can use once per round. This deals [[/r {2d8}[fire]+{2d8}[poison]]]{2d8 fire and 2d8 poison damage} (@Check[type:reflex|dc:21|basic:true|name:Corpse Bomb] save) and leaves a lingering, 10-foot-radius spore cloud. A creature that enters or begins its turn within the cloud inhales spores, which remain in its body for 1 minute. This ability replaces Spore Cloud.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Corpse Bomb"
+      "name": "(Melfesh Monster) Corpse Bomb"
     },
     "qt2exWwQTzoObKfW": {
       "description": "<p>@Check[type:fortitude|dc:|traits:damaging-effect]</p>\n<p data-visibility=\"gm\">[save effect]</p>\n<hr />\n<p>The golem Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can attempt to bar the way by succeeding at a Fortitude save.</p>",
@@ -674,7 +674,7 @@
     "tQY2xmcIhzCM7oCC": {
       "description": "<p>The Melfesh Monster dissolves into a mass of fungal threads and surges forward. It @Compendium[pf2e.bestiary-ability-glossary-srd.UNah0bxXxkcZjxO3]{Tramples} (Medium or smaller, limb, @Check[type:reflex|dc:21|basic:true|name:Trample] save), leaving a spore cloud in the squares through which it moves that last until the end of its next turn. A creature that enters or begins its turn in the cloud inhales spores and must succeed at a @Check[type:fortitude|dc:21|name:Torrential Advance] save or be @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). This ability replaces Envelop and Spore Cloud.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Torrential Advance"
+      "name": "(Melfesh Monster) Torrential Advance"
     },
     "uV4jf2pkMRGLdhJX": {
       "description": "<p>Anyone who meets the ghost or visits its bound site can become subject to this effect. The first time the subject sleeps after their ghostly encounter, they're targeted by a <em>@Compendium[pf2e.spells-srd.Uqj344bezBq3ESdq]{Nightmare}</em> spell, with the nightmares being somehow related to the ghost.</p>\n<p>Most often this means that the subject relives the ghost's last moments alive, but there are other possibilities. If the ghost wishes, it can manipulate the dreams to send messages or even hold entire conversations with dreamers.</p>",
@@ -698,7 +698,7 @@
     "wdO3EvDCGoDYW44S": {
       "description": "<p data-visibility=\"gm\"><strong>Trigger</strong> The Melfesh Monster dies</p>\n<p><strong>Effect</strong> The Melfesh Monster explodes in a @Template[type:burst|distance:30]. Creatures in the area take [[/r {3d8}[fire]+{3d8}[poison]]]{3d8 fire and 3d8 poison damage} (@Check[type:reflex|dc:24|basic:true|name:Death Throes] save). This ability replaces Reactive Growth.</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
-      "name": "(Melfish Monster) Death Throes"
+      "name": "(Melfesh Monster) Death Throes"
     },
     "wh2T2L5SMsa32RyE": {
       "description": "<p>The lich's hand Strike deals cold damage instead of negative, and instead of being paralyzed, the target is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>\n<p>A successful @Check[type:fortitude|name:Cold Beyond Cold|traits:arcane,curse,necromancy] save reduces this to @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} (or negates it on a critical success).</p>",
