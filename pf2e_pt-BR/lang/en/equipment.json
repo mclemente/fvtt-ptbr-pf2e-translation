@@ -540,6 +540,7 @@
     },
     "Cryomister (Moderate)": {
       "description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:10]{10-foot burst}, the @Check[type:acrobatics|dc:21|name:Acrobatics], and [[/r 3[cold]]]{3 cold splash damage}. The floating ice can support one Large creature or two Medium or smaller creatures.</p>",
+      "source": "Pathfinder Guns & Gears",
       "range": null,
       "target": null,
       "name": "Cryomister (Moderate)"
@@ -800,7 +801,7 @@
     },
     "Bag of Holding (Type IV)": {
       "description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 150 Bulk</p>",
-      "source": "Pathfinder Gamemastery Guide",
+      "source": "Pathfinder Core Rulebook",
       "name": "Bag of Holding (Type IV)"
     },
     "Energy Mutagen (Major)": {
@@ -2332,6 +2333,7 @@
     },
     "Primordial Flame": {
       "description": "<p>Created by the Kellid goddess Sister Cinder to lead her believers out of the Age of Darkness, this hand-held lamp is constructed from animal bone, hide, and sinew, and it contains an eternal flame that requires neither fuel nor oxygen to burn. The lamp's flame can be covered or hidden, but it can't be smothered or quenched. While uncovered, the <em>Primordial Flame</em> sheds bright light in a 100-foot radius (and dim light for the next 100 feet). If the light passes through an area of magical darkness or targets a creature affected by magical darkness, the <em>Primordial Flame</em> attempts to counteract the darkness with a counteract level of 10 and a counteract modifier of [[/r 1d20+35 #Counteract]]{+35}.</p>\n<p>The presence of the <em>Primordial Flame</em> alters the surrounding environment, changing weather patterns, temperature, climate, and even seasons. Within a 10-mile radius of the <em>Primordial Flame</em>, the temperature remains 70° F (21° C) during the day and 60° F (16° C) at night. The weather is calm and free from extreme weather conditions (such as blizzards, hail, thunderstorms, and tornadoes), and the sky remains clear. Plants in the area flourish as if they were receiving optimal sunlight, water, and nutrients for their species, despite the lack of precipitation. If the <em>Primordial Flame</em> remains in the same region for an extended time, the area of this effect increases (typically by 1 mile each year, though terrain and other factors might alter this limit). During the time Venexus carried the <em>Primordial Flame</em>, its environmental reach expanded to cover the entirety of Lost Mammoth Valley.</p>\n<p><strong>Cursed</strong> The <em>Primordial Flame</em> was cursed by Syarstik Painted-Tiger, the guardian spirit of Red Cat Cave. As long as it remains cursed, a creature that holds the <em>Primordial Flame</em> can't willingly give up possession. A creature that has held the <em>Primordial Flame</em> and no longer has it in their possession is wracked with mental anguish, becoming @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4}, @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 4}, and @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued}; these conditions can't be reduced or removed until the creature regains possession of the <em>Primordial Flame</em> or the curse is removed. The curse can be removed only by avenging Syarstik.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">3</span> command, Interact</p>\n<p><strong>Frequency</strong> once per week;</p>\n<p><strong>Effect</strong> The <em>Primordial Flame</em>'s light intensifies, shedding bright sunlight in a 10-mile radius (and dim light to the next mile) for 1 hour. If the light passes through an area of magical darkness or targets a creature affected by magical darkness, the <em>Primordial Flame</em> attempts to counteract the darkness with a counteract level of 10 and a counteract modifier of [[/r 1d20+35 #Counteract]]{+35}.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> command, Interact</p>\n<p><strong>Frequency</strong> once per day;</p>\n<p><strong>Effect</strong> The <em>Primordial Flame</em> casts a 7th-level <em>@Compendium[pf2e.spells-srd.a3aQxCpoj1q1NQxC]{Sunburst}</em> spell. If you can cast spells higher than 7th level, the <em>Primordial Flame</em> automatically heightens sunburst to half your level rounded up.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> command, Interact;</p>\n<p><strong>Effect</strong> The <em>Primordial Flame</em> casts a 5th-level <em>@Compendium[pf2e.spells-srd.O9w7r4BKgPogYDDe]{Produce Flame}</em> spell. If you can cast spells higher than 5th level, the <em>Primordial Flame</em> automatically heightens produce flame to half your level rounded up.</p>\n<hr />\n<p><strong>Destruction</strong> If used to slay a herald of Sister Cinder while on the Shadow Plane, the <em>Primordial Flame</em> is destroyed.</p>",
+      "source": "Pathfinder #176: Lost Mammoth Valley",
       "name": "Primordial Flame"
     },
     "Death Knell Powder": {
@@ -2470,6 +2472,7 @@
     },
     "Mad Mammoth's Juke": {
       "description": "<p><strong>Activate</strong> <span class=\"pf2-icon\">F</span> envision</p>\n<p><strong>Trigger</strong> You would be injured by an effect that would bury you, such as an avalanche or a tunnel collapse</p>\n<p><strong>Requirements</strong> You are an expert in Acrobatics</p>\n<hr />\n<p>This small, fragile tusk came from a very young mammoth. It's filled with ice-cold glacial water and capped with a carved piece of ivory. When you crush the tusk, the water rushes around you in an instant as you twist away from impending disaster with a supernatural flourish. You teleport to an unoccupied space within 200 feet that you can see, bringing along all your equipment. You can't bring any other creature with you, even in an extradimensional space.</p>",
+      "source": "Pathfinder #175: Broken Tusk Moon",
       "range": null,
       "target": null,
       "name": "Mad Mammoth's Juke"
@@ -3224,7 +3227,7 @@
     },
     "Arquebus": {
       "description": "<p>This is a long rifle that offers more range than the average firearm, though the long barrel and ferocious kickback make the weapon particularly unsteady unless a tripod or other stand is used to stabilize it. The arquebus is one of the most commonly used long guns among the soldiers of Dongun Hold and Alkenstar.</p>",
-      "source": "Pathfinder Lost Omens: The Grand Bazaar",
+      "source": "Pathfinder Guns & Gears",
       "name": "Arquebus"
     },
     "Wand of Slaying (7th-Level Spell)": {
@@ -4707,7 +4710,7 @@
     },
     "Bag of Holding (Type II)": {
       "description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 50 Bulk</p>",
-      "source": "Pathfinder Gamemastery Guide",
+      "source": "Pathfinder Core Rulebook",
       "name": "Bag of Holding (Type II)"
     },
     "Hunter's Arrowhead": {
@@ -5792,7 +5795,7 @@
     },
     "Stormbreaker Fulu": {
       "description": "<p><strong>Usage</strong> affixed to armor</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">f</span> command</p>\n<p><strong>Trigger</strong> You would be forced to move, you would be teleported, or you would take cold, electricity, or sonic damage.</p>\n<hr />\n<p>This unassuming paper tag is inscribed with magical symbols. When you activate the fulu, it vanishes in a wisp of cloud, and you gain resistance 15 to cold, electricity, and sonic damage until the end of your next turn. For that duration, you ignore difficult terrain from wind and weather, and you can't be forcibly moved or teleported unless the effect counteracts the fulu (DC 40). These protections apply against the triggering effect.</p>",
-      "source": "Pathfinder #167: Ready? Fight!",
+      "source": "Pathfinder Secrets of Magic",
       "range": null,
       "target": null,
       "name": "Stormbreaker Fulu"
@@ -6140,6 +6143,7 @@
     },
     "Cryomister (Major)": {
       "description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:20]{20-foot burst}, the @Check[type:acrobatics|dc:39|name:Acrobatics], and [[/r 8[cold]]]{8 cold splash damage}. The floating ice can support one Gargantuan creature, two Huge creatures, four Large creatures, or eight Medium or smaller creatures. The ice can't support Gargantuan creatures larger than a 20-by-20-foot space, such as a mu spore.</p>",
+      "source": "Pathfinder Guns & Gears",
       "range": null,
       "target": null,
       "name": "Cryomister (Major)"
@@ -7702,6 +7706,7 @@
     },
     "Cryomister (Lesser)": {
       "description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:5]{5-foot burst}, the @Check[type:acrobatics|dc:17|name:Acrobatics], and [[/r 1[cold]]]{1 cold splash damage}. The floating ice can support one creature up to Medium size.</p>",
+      "source": "Pathfinder Guns & Gears",
       "range": null,
       "target": null,
       "name": "Cryomister (Lesser)"
@@ -9413,7 +9418,7 @@
     },
     "Godsbreath Bow": {
       "description": "<p>This <em>+2 greater striking composite shortbow</em> is made from wood, horn, and sinew. Once wielded by Ninshaburian heretics, it's carried in a leather case etched with images of Namzaruum in combat with Somnalu. On a successful Strike, it deals an additional [[/r {1d6}[bludgeoning]]]{1d6 bludgeoning damage}.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> command</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You make a ranged Strike. On a hit, a vortex of air trails the arrow as it travels. When the arrow strikes its target, the vortex expands to a @Template[type:burst|distance:30]{30-foot radius} from its point of impact. The arrow deals an additional [[/r {1d8}[bludgeoning]]]{1d8 bludgeoning damage} against its target. For the next 3 minutes, any physical ranged attacks that would strike a target within the vortex deal an additional [[/r {1d8}[bludgeoning]]]{1d8 bludgeoning damage}. The vortex is difficult terrain, and creatures attempting to fly through the vortex using a move action must attempt a @Check[type:fortitude|dc:34|traits:evocation,magical|showDC:owner] save, losing its move action on a failed save. Any gases within the vortex are cleared by the winds.</p>",
-      "source": "Pathfinder Core Rulebook",
+      "source": "Pathfinder Lost Omens: Monsters of Myth",
       "name": "Godsbreath Bow"
     },
     "Marvelous Medicines": {
@@ -10816,7 +10821,7 @@
     },
     "Ready (Greater)": {
       "description": "<p>A <em>greater ready</em> rune draws component pieces of a suit of armor toward one another, making it easier and faster to get into. You can don light armor with this rune as a single action activity or medium or heavy armor with this rune with a 3-action activity.</p>",
-      "source": "Pathfinder Core Rulebook",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Ready (Greater)"
     },
     "Goblin-Eye Orb": {
@@ -11644,6 +11649,7 @@
     },
     "Cryomister (Greater)": {
       "description": "<p><strong>Activate</strong><span class=\"pf2-icon\">a </span>Interact</p>\n<hr />\n<p>When you Activate a cryomister, you can either place it in an adjacent square or toss it up to 20 feet away. Once you've done so, the metallic device instantly disperses a heavy mist, settling quickly on nearby flat surfaces and forming a sheet of ice. The cryomister creates a burst with a radius depending on the type, making the affected area difficult terrain for 1 minute; , at the GM's discretion, however, this duration might be reduced in unusually hot conditions or increased in unusually cold ones. If an affected square takes fire damage, the difficult terrain is removed. Though not designed as a weapon, the cryomister's rapidly cooling mist deals cold splash damage depending on the type to creatures in the area on activation. Creatures attempting to move through the affected area can attempt an Acrobatics check with a DC depending on the type to ignore the difficult terrain and move at their normal Speed. Throwing the cryomister onto the surface of a liquid creates a floating piece of ice for the same duration, capable of supporting one or more creatures of the listed size.</p>\n<hr />\n<p>The area is a @Template[type:burst|distance:15]{15-foot burst}, the @Check[type:acrobatics|dc:30|name:Acrobatics], and [[/r 5[cold]]]{5 cold splash damage}. The floating ice can support one Huge creature, two Large creatures, or four Medium or smaller creatures.</p>",
+      "source": "Pathfinder Guns & Gears",
       "range": null,
       "target": null,
       "name": "Cryomister (Greater)"
@@ -11748,7 +11754,7 @@
     },
     "Bag of Holding (Type I)": {
       "description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 25 Bulk</p>",
-      "source": "Pathfinder Gamemastery Guide",
+      "source": "Pathfinder Core Rulebook",
       "name": "Bag of Holding (Type I)"
     },
     "Clockwork Disguise": {
@@ -11787,7 +11793,7 @@
     },
     "Bag of Holding (Type III)": {
       "description": "<p>Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a <em>bag of holding</em> opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the <em>bag of holding</em> itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.</p>\n<p>You can Interact with the <em>bag of holding</em> to put items in or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.</p>\n<p>If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.</p>\n<p><strong>Capacity</strong> 100 Bulk</p>",
-      "source": "Pathfinder Gamemastery Guide",
+      "source": "Pathfinder Core Rulebook",
       "name": "Bag of Holding (Type III)"
     },
     "Potion of Shared Memories": {
@@ -14657,7 +14663,7 @@
     },
     "Bestiary of Metamorphosis": {
       "description": "<p>This grimoire fancifully illustrates the spells you inscribe within it with illuminated drawings of creatures that have never existed, the pictures changing to depict new ones from time to time.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> envision (polymorph, transmutation)</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're under the effect of a polymorph spell you prepared from this grimoire that offers a choice of multiple forms</p>\n<p><strong>Effect</strong> You transform into a different form allowed by the polymorph by bending and molding the spell's energy. This reduces the spell's remaining duration by half.</p>",
-      "source": "Pathfinder Core Rulebook",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Bestiary of Metamorphosis"
     },
     "Applereed Mutagen (Greater)": {
@@ -15471,7 +15477,7 @@
     },
     "Switchscythe": {
       "description": "<p>Another complex gnome invention, the switchscythe is designed for versatility. The curved blade is partly hollow, containing a long rod of wood or metal; the rod can be pulled perpendicular to the blade, turning the switchscythe from a sweeping, axe-like blade into a hooked pick capable of grappling a foe.</p>",
-      "source": "Pathfinder Lost Omens The Grand Bazaar",
+      "source": "Pathfinder Lost Omens: The Grand Bazaar",
       "name": "Switchscythe"
     },
     "Ivory Baton": {
