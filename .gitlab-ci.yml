@@ -1,4 +1,4 @@
-image: node:14-alpine3.13
+image: node:16-alpine
 
 workflow:
   rules:
@@ -38,7 +38,7 @@ sync:
     - unzip -q pf2e.zip pf2e/lang/en.json
     - unzip -q pf2e.zip pf2e/lang/re-en.json
     - xargs -I % -a .packs unzip -q pf2e.zip pf2e/packs/%.db
-    - pnpx fvttp --path pf2e/packs --babele true --save pf2e/packs
+    - pnpx fvttp --path pf2e/packs --babele --use-name --no-items --save pf2e/packs
     - mv pf2e/lang/en.json pf2e_pt-BR/lang/en
     - mv pf2e/lang/re-en.json pf2e_pt-BR/lang/en
     - mv pf2e/packs/*.json pf2e_pt-BR/lang/en
