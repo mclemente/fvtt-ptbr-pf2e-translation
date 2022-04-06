@@ -506,28 +506,6 @@
         "ActionsActionsHeader": "Ações",
         "ActionsFreeActionsHeader": "Ações Livres",
         "ActionsReactionsHeader": "Reações",
-        "ActiveEffects": {
-            "Label": "Efeitos Ativos",
-            "Duration": {
-                "Label": "Duração",
-                "Permanent": "Permanente",
-                "Second": "{quantity} segundos",
-                "Round": "{quantity} rodadas",
-                "Turn": "{quantity} turno",
-                "Seconds": "{quantity} segundos",
-                "Rounds": "{quantity} rodadas",
-                "Turns": "{quantity} turnos"
-            },
-            "Controls": {
-                "Label": "Controles",
-                "Disable": "Desabilitar",
-                "Enable": "Habilitar",
-                "Edit": "Editar",
-                "Delete": "Apagar"
-            },
-            "EnableAutomation": "Habilitar Automação",
-            "DisableAutomation": "Desabilitar Automação"
-        },
         "Actor": {
             "ApplyDamage": {
                 "AtFullHealth": "{actor} já está totalmente restaurado(a).",
@@ -590,7 +568,6 @@
         "AlignmentNG": "Neutro e Bom",
         "AlignmentTitle": "Sua Tendência",
         "AllSavesLabel": "Todos os Salvamentos",
-        "Ancestry": "Ancestralidade",
         "AncestryFeatures": "Características de Ancestralidade",
         "AncestryHP": "PVs de Ancestralidade",
         "AncestryTitle": "A ancestralidade do seu Personagem",
@@ -610,6 +587,7 @@
         "AreaSize75": "22,5 metros",
         "AreaSize80": "24 Metros",
         "AreaSize90": "27 metros",
+        "AreaSize1Mile": "1 Mile",
         "AreaTypeBurst": "Explosão",
         "AreaTypeCone": "Cone",
         "AreaTypeEmanation": "Emanação",
@@ -813,6 +791,7 @@
             "DC": {
                 "Label": {
                     "AdjustedTarget": "<target>Target: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
+                    "NoChangeTarget": "<target>Target: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
                     "NoTarget": "{dcType} {dc}",
                     "WithTarget": "<target>Target: {target}</target> <dc>({dcType} {dc})</dc>"
                 },
@@ -1068,8 +1047,9 @@
         "DCAdjustmentIncrediblyHard": "incrivelmente difícil",
         "DCBase": "CD base 10",
         "DCWithValue": "CD {dc} {text}",
+        "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
         "DecrementEffectTitle": "Diminuir o Nível de Efeito",
-        "DefencesLabel": "Defesas",
+        "DefensesLabel": "Defesas",
         "Deity": "Divindade",
         "DeityTitle": "Sua divindade",
         "DeleteConditionQuestion": "Tem certeza que deseja excluir {condition}?",
@@ -1177,7 +1157,7 @@
         "EquippedBulkLabel": "Volume Utilizado",
         "EquippedSameBulkValue": "Igual ao Carregado",
         "ErrorMessage": {
-            "ActorMustHaveToken": "Não é possível adicionar condições em atores sem tokens.",
+            "CantCreateEffectMacro": "An effect for a toggle macro must come from a compendium or world item.",
             "CantImportTooHighVersion": "Não foi possível importar {sourceName}: sua versão do esquema ({sourceSchemaVersion}) é maior do que esse mundo ({worldSchemaVersion}).",
             "CantMoveItemDestination": "Você não está autorizado a mover itens para este personagem.",
             "CantMoveItemSource": "Você não está autorizado a mover itens deste personagem.",
@@ -1199,6 +1179,7 @@
         "FeatBackgroundShort": "BIO",
         "FeatBonusHeader": "Talentos Bônus",
         "FeatBrowserSearchHint": "Você pode buscar por nome ou atributos customizados. Possíveis atributos de busca são:<br> source, spellType, level, school, components, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability and classes. <br>Exemplo: 'fire, damage:d6' para mostrar todas as magias que tem fogo no nome e d6 no dano",
+        "FeatCampaignHeader": "Campaign Feats",
         "FeatClassHeader": "Talentos de Classe",
         "FeatDualClassHeader": "Talentos de Classe Dupla",
         "FeatGeneralHeader": "Talentos Gerais",
@@ -1355,19 +1336,266 @@
             },
             "Deity": {
                 "Alignment": "Tendência",
-                "FollowerAlignments": "Follower Alignments",
-                "DivineAbility": "Divine Ability",
+                "ClericSpells": {
+                    "Label": "Magias de Clérigo",
+                    "Hint": "To add a spell, drag and drop one onto this sheet."
+                },
+                "DivineAbility": {
+                    "Label": "Divine Ability",
+                    "Hint": "If choosing the Raised by Belief background, its ability boost options come from a deity."
+                },
                 "DivineSkill": "Divine Skill",
-                "Edicts": "Edicts",
-                "Anathema": "Anátema",
-                "AreasOfConcern": "Areas of Concern",
                 "DivineFont": {
                     "Label": "Fonte Divina",
                     "Harm": "Harm",
                     "Heal": "Curar"
                 },
-                "FavoredWeapon": "Favored Weapon",
-                "ClericSpells": "Magias de Clérigo"
+                "FavoredWeapons": {
+                    "Label": "Favored Weapon(s)",
+                    "Hint": "Almost all deities have a single favored weapon, but a few have both a favored weapon and unarmed attack."
+                },
+                "FollowerAlignments": "Follower Alignments",
+                "Domains": {
+                    "Primary": "Primary Domains",
+                    "Alternate": {
+                        "Label": "Alternate Domains",
+                        "Hint": "A cleric can take the Expanded Domain Initiate feat to gain access to one of their deity's alternate domains."
+                    }
+                },
+                "Domain": {
+                    "Abomination": {
+                        "Label": "Abomination",
+                        "Description": "You seek to instill abhorrence and horror in those around you."
+                    },
+                    "Air": {
+                        "Label": "Ar",
+                        "Description": "You can control winds and the weather."
+                    },
+                    "Ambition": {
+                        "Label": "Ambition",
+                        "Description": "You strive to keep up with and outpace the competition."
+                    },
+                    "Change": {
+                        "Label": "Change",
+                        "Description": "You can restructure the physical and metaphysical."
+                    },
+                    "Cities": {
+                        "Label": "Cities",
+                        "Description": "You have powers over urban environments and denizens."
+                    },
+                    "Cold": {
+                        "Label": "Frio",
+                        "Description": "You control ice, snow, and freezing temperatures."
+                    },
+                    "Confidence": {
+                        "Label": "Confidence",
+                        "Description": "You overcome your fear and project pride."
+                    },
+                    "Creation": {
+                        "Label": "Creation",
+                        "Description": "You have divine abilities related to crafting and art."
+                    },
+                    "Darkness": {
+                        "Label": "Escuridão",
+                        "Description": "You operate in the darkness and take away the light."
+                    },
+                    "Death": {
+                        "Label": "Morte",
+                        "Description": "You have the power to end lives and destroy undead."
+                    },
+                    "Decay": {
+                        "Label": "Decay",
+                        "Description": "You have the power to spoil and deteriorate matter."
+                    },
+                    "Delirium": {
+                        "Label": "Delirium",
+                        "Description": "You can bring about hallucinations and restlessness."
+                    },
+                    "Destruction": {
+                        "Label": "Destruction",
+                        "Description": "You are a conduit for divine devastation."
+                    },
+                    "Dreams": {
+                        "Label": "Dreams",
+                        "Description": "You have the power to enter and manipulate dreams."
+                    },
+                    "Dust": {
+                        "Label": "Dust",
+                        "Description": "You have the power to dry and crumble what opposes you."
+                    },
+                    "Duty": {
+                        "Label": "Duty",
+                        "Description": "You defend oaths and carry out your divine missions with great dedication."
+                    },
+                    "Earth": {
+                        "Label": "Terra",
+                        "Description": "You control soil and stone."
+                    },
+                    "Family": {
+                        "Label": "Family",
+                        "Description": "You aid and protect your family and community more effectively."
+                    },
+                    "Fate": {
+                        "Label": "Fate",
+                        "Description": "You see and understand hidden inevitabilities."
+                    },
+                    "Fire": {
+                        "Label": "Fogo",
+                        "Description": "You control flame."
+                    },
+                    "Freedom": {
+                        "Label": "Freedom",
+                        "Description": "You liberate yourself and others from shackles and constraints."
+                    },
+                    "Glyph": {
+                        "Label": "Glyph",
+                        "Description": "You wield power over written words and symbols."
+                    },
+                    "Healing": {
+                        "Label": "Cura",
+                        "Description": "Your healing magic is particularly potent."
+                    },
+                    "Indulgence": {
+                        "Label": "Indulgence",
+                        "Description": "You feast mightily and can shake off the effects of overindulging."
+                    },
+                    "Knowledge": {
+                        "Label": "Knowledge",
+                        "Description": "You receive divine insights."
+                    },
+                    "Lightning": {
+                        "Label": "Lightning",
+                        "Description": "You control electricity, thunder, and storms."
+                    },
+                    "Luck": {
+                        "Label": "Luck",
+                        "Description": "You’re unnaturally lucky and keep out of harm’s way."
+                    },
+                    "Magic": {
+                        "Label": "Magia",
+                        "Description": "You perform the unexpected and inexplicable."
+                    },
+                    "Might": {
+                        "Label": "Might",
+                        "Description": "Your physical power is bolstered by divine strength."
+                    },
+                    "Moon": {
+                        "Label": "Moon",
+                        "Description": "You command powers associated with the moon."
+                    },
+                    "Naga": {
+                        "Label": "Naga",
+                        "Description": "Like the serpentine nagas, you're in tune with cosmic forces that Ravithra once controlled."
+                    },
+                    "Nature": {
+                        "Label": "Natureza",
+                        "Description": "You hold power over animals and plants."
+                    },
+                    "Nightmares": {
+                        "Label": "Nightmares",
+                        "Description": "You fill minds with horror and dread."
+                    },
+                    "Pain": {
+                        "Label": "Pain",
+                        "Description": "You punish those who displease you with the sharp sting of pain."
+                    },
+                    "Passion": {
+                        "Label": "Passion",
+                        "Description": "You evoke passion, whether as love or lust."
+                    },
+                    "Perfection": {
+                        "Label": "Perfection",
+                        "Description": "You strive to perfect your mind, body, and spirit."
+                    },
+                    "Plague": {
+                        "Label": "Plague",
+                        "Description": "You wield disease and pestilence like a weapon."
+                    },
+                    "Protection": {
+                        "Label": "Protection",
+                        "Description": "You ward yourself and others."
+                    },
+                    "Repose": {
+                        "Label": "Repose",
+                        "Description": "You ease mental burdens."
+                    },
+                    "Secrecy": {
+                        "Label": "Secrecy",
+                        "Description": "You protect secrets and keep them hidden."
+                    },
+                    "Sorrow": {
+                        "Label": "Sorrow",
+                        "Description": "You have a painful connection to melancholy and sadness."
+                    },
+                    "Soul": {
+                        "Label": "Soul",
+                        "Description": "You wield power over the spiritual."
+                    },
+                    "Star": {
+                        "Label": "Star",
+                        "Description": "You command the power of the stars."
+                    },
+                    "Sun": {
+                        "Label": "Sun",
+                        "Description": "You harness the power of the sun and other light sources, and punish undead."
+                    },
+                    "Swarm": {
+                        "Label": "Enxame",
+                        "Description": "You exert control over masses of creatures."
+                    },
+                    "Time": {
+                        "Label": "Tempo",
+                        "Description": "You reign over the flow of time."
+                    },
+                    "Toil": {
+                        "Label": "Toil",
+                        "Description": "You work constantly and refuse to let anything stand in your way."
+                    },
+                    "Travel": {
+                        "Label": "Travel",
+                        "Description": "You have power over movement and journeys."
+                    },
+                    "Trickery": {
+                        "Label": "Trickery",
+                        "Description": "You deceive others and cause mischief."
+                    },
+                    "Truth": {
+                        "Label": "Truth",
+                        "Description": "You pierce lies and discover the truth."
+                    },
+                    "Tyranny": {
+                        "Label": "Tyranny",
+                        "Description": "You wield power to rule and enslave others."
+                    },
+                    "Undeath": {
+                        "Label": "Undeath",
+                        "Description": "Your magic carries close ties to the undead."
+                    },
+                    "Vigil": {
+                        "Label": "Vigil",
+                        "Description": "You watch over those long passed and guard their secrets."
+                    },
+                    "Void": {
+                        "Label": "Void",
+                        "Description": "You draw power from emptiness."
+                    },
+                    "Water": {
+                        "Label": "Água",
+                        "Description": "You control water and bodies of water."
+                    },
+                    "Wealth": {
+                        "Label": "Wealth",
+                        "Description": "You hold power over wealth, trade, and treasure."
+                    },
+                    "Wyrmkin": {
+                        "Label": "Wyrmkin",
+                        "Description": "You draw on the power of dragons, linnorms, and other powerful reptilian creatures."
+                    },
+                    "Zeal": {
+                        "Label": "Zeal",
+                        "Description": "Your inner fire increases your combat prowess."
+                    }
+                }
             },
             "Effect": {
                 "Sustained": "Sustentada",
@@ -1385,6 +1613,7 @@
                     "Two": "Até 2x",
                     "Three": "Até 3x",
                     "Four": "Até 4x",
+                    "Five": "Up to 5x",
                     "NoLimit": "Sem Limite"
                 },
                 "Warning": {
@@ -1526,7 +1755,9 @@
         "ItemTitle": "Item",
         "ItemsLabel": "Itens",
         "JournalEntry": {
-            "Plural": "Registros de Diário"
+            "Plural": "Registros de Diário",
+            "FoundryTheme": "Foundry (Classic) Journal Entry",
+            "PF2ETheme": "PF2e System Journal Entry"
         },
         "KeyAbility": "Valor de Atributo Chave",
         "KeyAbilityLabel": "Atributo Chave",
@@ -1669,7 +1900,7 @@
             "middle": "{first}, {second}",
             "end": "{first}, ou {second}"
         },
-        "Lore": "Mistério do Saber",
+        "Lore": "Saber",
         "LoreProficiencyDisclaimer": "Somente informativo. Vontade não altera o modificador de perícia.",
         "LoreSkillsHeader": "Perícias de Saber",
         "LoreSkillFormat": "Saber de {name}",
@@ -1735,7 +1966,7 @@
             },
             "Troubleshooting": "Solução de problemas"
         },
-        "ModifierTitle": "Modificador",
+        "ModifierTitle": "Mod.",
         "ModifiersTitle": "Valores",
         "ModifierNamePlaceholder": "Nome",
         "ModifierTypeTitle": "[Type]",
@@ -1748,7 +1979,7 @@
             "status": "Estado",
             "untyped": "Sem Tipo"
         },
-        "MultipleAttackPenalty": "Penalidade de Ataques Múltiplos",
+        "MultipleAttackPenalty": "Pen. de Ataques Múltiplos",
         "MysticStrikes": "Golpes Místicos",
         "Nationality": "Nacionalidade",
         "NPCAttackMelee": "Corpo-a-Corpo",
@@ -1818,8 +2049,7 @@
         "PerceptionLabel": "Percepção",
         "PFS": {
             "CharacterNumber": "Personagem #",
-            "CurrentFaction": "Facção Atualmente Escolhida",
-            "Fame": "Fama",
+            "CurrentFaction": "Current Faction",
             "LevelBump": "Aumento de Nível",
             "OrganizedPlayNumber": "Campanha Organizada",
             "Reputation": "Reputação",
@@ -1950,13 +2180,15 @@
         },
         "ResiliencyRuneLabel": "Runa Resiliente",
         "ResistancesLabel": "Resistências",
-        "ResolvePointsShortLabel": "Determinação (Nível 7)",
+        "ResolvePointsShortLabel": "Determinação",
         "ResolveTitle": "A quantidade de pontos de determinação que você possui",
         "RestoreSpellTitle": "Restaurar Magia",
         "Roll": {
-            "Modifier": "Modificador",
+            "Modifier": "Mod.",
             "Type": "Tipo",
             "Fortune": "Fortuna",
+            "KeepHigher": "Keep Higher",
+            "KeepLower": "Keep Lower",
             "FortuneTitle": "{title} Fortuna",
             "Misfortune": "Infortúnio",
             "MisfortuneTitle": "{title} Infortúnio",
@@ -1994,12 +2226,6 @@
                 "Name": "Ícone de Morte",
                 "Hint": "Set the overlay icon used to mark dead actors."
             },
-            "JournalEntryTheme": {
-                "Name": "Tema da Entrada de Diário",
-                "Hint": "Defina o estilo de tema da entrada dos jornais neste mundo.",
-                "Foundry": "Foundry (Clássico)",
-                "PF2E": "Sistema PF2e"
-            },
             "statusEffectKeepFoundry": {
                 "hint": "Determina se você quer mostrar os ícones do Foundry abaixo dos ícones de status do Pf2. Isso irá recarregar o jogo.",
                 "name": "Ícones de Status do Foundry"
@@ -2029,18 +2255,6 @@
             "WorldSchemaVersion": {
                 "Name": "Versão de Esquema do Ator",
                 "Hint": "Registra a versão de esquema dos dados do ator do sistema PF2e. (Não modifique isto a menos que você saiba o que está fazendo)."
-            },
-            "DefaultTokenSettings": {
-                "Name": "Configurações do Protótipo de Token Padrão",
-                "Hint": "Define automaticamente as configurações do protótipo de token dos Atores recém-criados."
-            },
-            "DefaultTokenSettingsName": {
-                "Name": "Exibir o Nome do Token Padrão",
-                "Hint": "A configuração de exibição do nome do token padrão"
-            },
-            "DefaultTokenSettingsBar": {
-                "Name": "Exibir a Barra do Token Padrão",
-                "Hint": "A configuração de exibição da barra do token padrão"
             },
             "IgnoreCoinBulk": {
                 "Name": "Moedas não pesam",
@@ -2089,6 +2303,10 @@
                 "RemoveExpiredEffects": {
                     "Name": "Remover os efeitos expirados",
                     "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que o MJ esteja logado)."
+                },
+                "FlankingDetection": {
+                    "Name": "Flanking detection",
+                    "Hint": "Flanking arrangements and abilities that predicate on it are managed by the system."
                 },
                 "ActorsDeadAtZero": {
                     "Name": "PdMs morrem com 0 PVs",
@@ -2244,6 +2462,10 @@
                     }
                 },
                 "DeferredToModule": "Esta configuração é gerenciada pelo módulo Calendar/Weather."
+            },
+            "CampaignFeats": {
+                "Name": "Campaign Feats",
+                "Hint": "Adds a section to all player sheets for campaign specific feats."
             },
             "RAI": {
                 "TreatWoundsAltSkills": {
@@ -2416,7 +2638,7 @@
         "SkillIntimidation": "Intimidação",
         "SkillItm": "Intimidação",
         "SkillLabel": "Perícia",
-        "SkillLore": "Mistério do Saber",
+        "SkillLore": "Saber",
         "SkillMed": "Medicina",
         "SkillMedicine": "Medicina",
         "SkillNat": "Natureza",
@@ -2542,6 +2764,7 @@
         "SpellTypeSave": "Jogada de Salvamento",
         "SpellTypeUtility": "Utilidade",
         "SpellCategorySpell": "Magia",
+        "SpellUsesLabel": "Uses",
         "SpellCategoryFocus": "Foco",
         "SpellCategoryRitual": "Ritual",
         "SpellCategoryFocusCantrip": "Truque de Foco",
@@ -2661,7 +2884,7 @@
         "Traits": "Traços",
         "TraitAasimar": "Aasimar",
         "TraitAberration": "Aberração",
-        "TraitAbjuration": "Escola Arcana: Abjuração",
+        "TraitAbjuration": "Abjuração",
         "TraitAcid": "Ácido",
         "TraitAdditive1": "Aditivo 1",
         "TraitAdditive2": "Aditivo 2",
@@ -2766,7 +2989,7 @@
         "TraitConcentrate": "Concentração",
         "TraitConcussive": "Concussive",
         "TraitConfusion": "Confusão",
-        "TraitConjuration": "Escola Arcana: Conjuração",
+        "TraitConjuration": "Conjuração",
         "TraitConrasu": "Conrasu",
         "TraitConstruct": "Constructo",
         "TraitConsecration": "Consagração",
@@ -3084,7 +3307,7 @@
         "TraitDisarm": "Desarmar",
         "TraitDisease": "Doença",
         "TraitDiv": "Adiv",
-        "TraitDivination": "Escola Arcana: Adivinhação",
+        "TraitDivination": "Adivinhação",
         "TraitDivine": "Divina",
         "TraitDoubleBarrel": "Double Barrel",
         "TraitDowntime": "Recesso",
@@ -3104,12 +3327,12 @@
         "TraitElf": "Elfo",
         "TraitElixir": "Elixir",
         "TraitEmotion": "Emoção",
-        "TraitEnchantment": "Escola Arcana: Encantamento",
+        "TraitEnchantment": "Encantamento",
         "TraitEnergy": "Energia",
         "TraitEnvironmental": "Ambiental",
         "TraitEthereal": "Etérea",
         "TraitEvil": "Maligno",
-        "TraitEvocation": "Escola Arcana: Evocação",
+        "TraitEvocation": "Evocação",
         "TraitEvolution": "Evolução",
         "TraitExploration": "Exploração",
         "TraitExtradimensional": "Extradimensional",
@@ -3176,7 +3399,7 @@
         "TraitHumanoid": "Humanoide",
         "TraitIfrit": "Ifrit",
         "TraitIkeshti": "Ikeshti",
-        "TraitIllusion": "Escola Arcana: Ilusão",
+        "TraitIllusion": "Ilusão",
         "TraitIncapacitation": "Incapacitação",
         "TraitIncarnate": "Encarnação",
         "TraitIncorporeal": "Incorpóreo",
@@ -3206,7 +3429,7 @@
         "TraitLitany": "Litania",
         "TraitLizardfolk": "Povo-Lagarto",
         "TraitLocathah": "Locathah",
-        "TraitMagic": "Mágico",
+        "TraitMagic": "Magia",
         "TraitMagical": "Mágico",
         "TraitMagus": "Magus",
         "TraitManipulate": "Manuseio",
@@ -3232,7 +3455,7 @@
         "TraitMutagen": "Mutagênico",
         "TraitMutant": "Mutante",
         "TraitNagaji": "Nagaji",
-        "TraitNecromancy": "Escola Arcana: Necromancia",
+        "TraitNecromancy": "Necromancia",
         "TraitNegative": "Negativo",
         "TraitNoisy": "Barulhenta",
         "TraitNonlethal": "Não-letal",
@@ -3266,7 +3489,7 @@
         "TraitPossession": "Possessão",
         "TraitPotion": "Poção",
         "TraitPrecious": "Precioso",
-        "TraitPrecision": "Excelência do Caçador: Precisão",
+        "TraitPrecision": "Precisão",
         "TraitPrediction": "Predição",
         "TraitPress": "Pressão",
         "TraitPrimal": "Primal",
@@ -3439,7 +3662,7 @@
         "TraitTiefling": "Tiefling",
         "TraitTime": "Tempo",
         "TraitTitan": "Titã",
-        "TraitTransmutation": "Escola Arcana: Transmutação",
+        "TraitTransmutation": "Transmutação",
         "TraitTrap": "Armadilha",
         "TraitTrip": "Derrubar",
         "TraitTroll": "Troll",
@@ -3614,7 +3837,6 @@
                 "aldori-dueling-sword": "Espada de Duelo Aldori",
                 "air-repeater": "Air Repeater",
                 "arquebus": "Arquebus",
-                "arrows": "Flechas",
                 "axe-musket": "Axe Musket",
                 "asp-coil": "Asp Coil",
                 "bastard-sword": "Espada Bastarda",
@@ -3632,7 +3854,6 @@
                 "boarding-axe": "Boarding Axe",
                 "boarding-pike": "Boarding Pike",
                 "bola": "Boleadeira",
-                "bolts": "Virotes",
                 "butchering-axe": "Butchering Axe",
                 "butterfly-sword": "Espada Borboleta",
                 "buugeng": "Buugeng",
@@ -3865,7 +4086,7 @@
         "WeaponHands1Plus": "Uma+",
         "WeaponHands2": "Duas",
         "WeaponMAPDefaultOption": "Padrão (usar traço Ágil se presente)",
-        "WeaponMAPLabel": "Penalidade de Ataques Múltiplos",
+        "WeaponMAPLabel": "Pen. de Ataques Múltiplos",
         "WeaponPotencyRune1": "Potência de Arma (+1)",
         "WeaponPotencyRune2": "Potência de Arma (+2)",
         "WeaponPotencyRune3": "Potência de Arma (+3)",
@@ -4235,7 +4456,7 @@
         "WeaponRangeN": "{range} m",
         "WeaponRangeReach": "Alcance",
         "WeaponReloadLabel": "Tempo de Recarga",
-        "WeaponSpecialization": "Especialização em Armas (Bárbaro)",
+        "WeaponSpecialization": "Especialização em Armas",
         "WeaponSplashDamageLabel": "Dano de Respingo",
         "WeaponStrikeLabel": "Golpe",
         "WeaponTypeAdvanced": "Arma Avançada",
@@ -4255,7 +4476,21 @@
                 "AddOneDay": "+1 Dia",
                 "AddOneWeek": "+1 Semana",
                 "Advance": "Avançar",
-                "Retract": "Recolher"
+                "Retract": "Recolher",
+                "TimeOfDay": {
+                    "Advance": {
+                        "Dawn": "Advance to Dawn",
+                        "Dusk": "Advance to Dusk",
+                        "Noon": "Advance to Noon",
+                        "Midnight": "Advance to Midnight"
+                    },
+                    "Retract": {
+                        "Dawn": "Retract to Dawn",
+                        "Dusk": "Retract to Dusk",
+                        "Noon": "Retract to Noon",
+                        "Midnight": "Retract to Midnight"
+                    }
+                }
             },
             "Placeholder": "Número",
             "Title": "Relógio do Mundo",
@@ -4610,7 +4845,8 @@
             "Quantity": "Quantidade",
             "SheetType": "Tipo de Ficha",
             "SplitCoinsLabel": "Distribuir Moedas",
-            "SplitCoinsPopupHeader": "Escolha os atores para receberam uma partilha"
+            "SplitCoinsPopupHeader": "Escolha os atores para receberam uma partilha",
+            "Stack": "Create new stack?"
         },
         "vehicle": {
             "ItemTypeError": "Somente itens de inventário e ações são suportados por veículos.",
@@ -4798,7 +5034,7 @@
             "TripleContext": "Aplicar o Triplo do Dano",
             "TripleShort": "Triplo",
             "ShieldBlock": "Alterna o estado de bloqueio com escudo dos tokens selecionados.",
-            "ShieldBlockContext": "Bloqueio com Escudo (1º nível)",
+            "ShieldBlockContext": "Bloqueio com Escudo",
             "ShieldBlockShort": "Bloqueio",
             "Healing": "Aplicar cura completa aos tokens selecionados.",
             "HealingContext": "Aplicar Cura",
