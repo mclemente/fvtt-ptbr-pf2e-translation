@@ -35,13 +35,13 @@ sync:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
     - curl -L --output pf2e.zip https://github.com/foundryvtt/pf2e/releases/download/latest/pf2e.zip
-    - unzip -q pf2e.zip pf2e/lang/en.json
-    - unzip -q pf2e.zip pf2e/lang/re-en.json
-    - xargs -I % -a .packs unzip -q pf2e.zip pf2e/packs/%.db
-    - pnpx fvttp --path pf2e/packs --babele --use-name --no-items --save pf2e/packs
-    - mv pf2e/lang/en.json pf2e_pt-BR/lang/en
-    - mv pf2e/lang/re-en.json pf2e_pt-BR/lang/en
-    - mv pf2e/packs/*.json pf2e_pt-BR/lang/en
+    - unzip -q pf2e.zip lang/en.json
+    - unzip -q pf2e.zip lang/re-en.json
+    - xargs -I % -a .packs unzip -q pf2e.zip packs/%.db
+    - pnpx fvttp --path packs --babele --use-name --no-items --save packs
+    - mv lang/en.json pf2e_pt-BR/lang/en
+    - mv lang/re-en.json pf2e_pt-BR/lang/en
+    - mv packs/*.json pf2e_pt-BR/lang/en
     - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
     - git add pf2e_pt-BR/lang
     - "git commit -m 'chore(sync): update files' || echo 'No changes, nothing to commit!'"
