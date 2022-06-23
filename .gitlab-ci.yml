@@ -34,7 +34,7 @@ sync:
   script:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
-    - curl -L --output pf2e.zip https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release-v9/raw/pf2e.zip?job=build
+    - curl -L --output pf2e.zip https://github.com/foundryvtt/pf2e/releases/download/latest/pf2e.zip
     - unzip -q pf2e.zip pf2e/lang/en.json
     - unzip -q pf2e.zip pf2e/lang/re-en.json
     - xargs -I % -a .packs unzip -q pf2e.zip pf2e/packs/%.db
