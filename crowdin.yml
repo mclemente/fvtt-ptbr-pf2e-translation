@@ -14,16 +14,13 @@ files:
       source: /pf2e_pt-BR/lang/en/*.json,
       translation: /pf2e_pt-BR/lang/%locale%/compendium/pf2e.%original_file_name%,
       ignore: [/pf2e_pt-BR/lang/en/en.json, /pf2e_pt-BR/lang/en/re-en.json],
-      update_option: update_as_unapproved,
     },
     {
       source: /pf2e_pt-BR/lang/en/en.json,
       translation: /pf2e_pt-BR/lang/%locale%/system.json,
-      update_option: update_as_unapproved,
     },
     {
       source: /pf2e_pt-BR/lang/en/re-en.json,
       translation: /pf2e_pt-BR/lang/%locale%/rules-elements.json,
-      update_option: update_as_unapproved,
     },
   ]
