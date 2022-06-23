@@ -8,15 +8,28 @@
     },
     "Furious Strike": {
       "description": "<p>Your eidolon channels its anger into a furious attack. It makes a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, your eidolon deals an extra die of weapon damage and gains a +1 circumstance bonus to the damage roll.</p>\n<p>If you're at least 10th level, increase this to two extra dice with a +2 circumstance bonus, and if you're at least 18th level, increase it to three extra dice with a +3 circumstance bonus.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Furious Strike"
     },
     "Breath Weapon (Piercing) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[piercing]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Piercing) (Cone)"
     },
     "Change Shape (Beastkin)": {
       "description": "<p>You change into your humanoid or hybrid shape. Each shape has a specific, persistent appearance, and most beastkin remain in their hybrid shapes by default.</p>\n<p>In hybrid shape, you appear as a mix between your ancestry and your inherent animal. While in hybrid shape, you gain a jaws unarmed Strike resembling the features of your inherent animal (fangs for bats, beaks for eagles, mandibles for wasps, and so on). Your jaws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group.</p>\n<p>In your humanoid shape, you retain the appearance of your original ancestry.</p>",
+      "source": "Pathfinder Lost Omens: Ancestry Guide",
       "name": "Change Shape (Beastkin)"
+    },
+    "Consume Flesh": {
+      "description": "<p><strong>Requirements</strong> You are adjacent to the corpse of a Small or larger creature that died in the last hour;</p>\n<hr />\n<p>You devour a chunk of the corpse. You become satiated for 1 hour.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Consume Flesh"
+    },
+    "Deceptive Sidestep": {
+      "description": "<p><strong>Trigger</strong> An opponent hits, but does not critically hit you, with a melee Strike.</p>\n<p><strong>Requirements</strong> You're in a duel, you're trained in Deception, and you rolled a Deception check for initiative this round.</p>\n<hr />\n<p>You draw your enemy in and pull away at the last moment. The triggering opponent must roll again and take the second result. If your opponent is using Intimidation for initiative when this ability is used, they also take a -2 circumstance penalty to the second attack roll.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Deceptive Sidestep"
     },
     "Recall Knowledge (Lore)": {
       "description": "<p>To remember useful information on a topic, you can attempt to Recall Knowledge. You might know basic information about something without needing to attempt a check, but Recall Knowledge requires you to stop and think for a moment so you can recollect more specific facts and apply them. You might even need to spend time investigating first. For instance, to use Medicine to learn the cause of death, you might need to conduct a forensic examination before attempting to Recall Knowledge.</p>\n<p>The following skills can be used to Recall Knowledge, getting information about the listed topics. In some cases, you can get the GM's permission to use a different but related skill, usually against a higher DC than normal. Some topics might appear on multiple lists, but the skills could give different information. For example, Arcana might tell you about the magical defenses of a golem, whereas Crafting could tell you about its sturdy resistance to physical attacks.</p>\n<p><strong>Lore</strong> The subject of the Lore skill's subcategory.</p>\n<p>The GM might allow checks to Recall Knowledge using other skills. For example, you might assess the skill of an acrobat using Acrobatics. If you're using a physical skill (like in this example), the GM will most likely have you use a mental ability score-typically Intelligence-instead of the skill's normal physical ability score.</p>\n<hr />\n<p><strong>Critical Success</strong> You recall the knowledge accurately and gain additional information or context.</p>\n<p><strong>Success</strong> You recall the knowledge accurately or gain a useful clue about your current situation.</p>\n<p><strong>Critical Failure</strong> You recall incorrect information or gain an erroneous or misleading clue.</p><h2 class=\"title\">Sample Recall Knowledge Tasks</h2>\n<p>These examples use Society or Religion.</p>\n<ul>\n<li><strong>Untrained</strong> name of a ruler, key noble, or major deity</li>\n<li><strong>Trained</strong> line of succession for a major noble family, core doctrines of a major deity</li>\n<li><strong>Expert</strong> genealogy of a minor noble, teachings of an ancient priest</li>\n<li><strong>Master</strong> hierarchy of a genie noble court, major extraplanar temples of a deity</li>\n<li><strong>Legendary</strong> existence of a long-lost noble heir, secret doctrines of a religion</li>\n</ul>",
@@ -39,7 +52,8 @@
       "name": "Tumble Through"
     },
     "Catharsis": {
-      "description": "<p><strong>Trigger</strong> determined by your catharsis emotion</p>\n<p><strong>Effect</strong> You gain the catharsis activation effects listed for your catharsis emotion. You gain that emotion's emotional fervor benefits for 3 rounds. When your emotional fervor ends, you suffer the listed emotional fallout. After using Catharsis, you can't use it again until you use the @Compendium[pf2e.actionspf2e.EhLvRWFKhZ3HtrZO]{Settle Emotions} activity.</p>",
+      "description": "<p><strong>Trigger</strong> determined by your catharsis emotion</p>\n<hr />\n<p><strong>Effect</strong> You gain the catharsis activation effects listed for your catharsis emotion. You gain that emotion's emotional fervor benefits for 3 rounds. When your emotional fervor ends, you suffer the listed emotional fallout. After using Catharsis, you can't use it again until you use the @Compendium[pf2e.actionspf2e.EhLvRWFKhZ3HtrZO]{Settle Emotions} activity.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Catharsis"
     },
     "Retraining": {
@@ -64,6 +78,7 @@
     },
     "Act Together": {
       "description": "<p><strong>Frequency</strong> once per round</p>\n<p>You and your eidolon act as one. Either you or your eidolon takes an action or activity using the same number of actions as Act Together, and the other takes a single action.</p>\n<p>For example, if you spent 2 actions to Act Together, you could cast <em>@Compendium[pf2e.spells-srd.y6rAdMK6EFlV6U0t]{Burning Hands}</em> (2 actions) and your eidolon could Strike (1 action), or your eidolon could use its Breath Weapon (2 actions) and you could Stride (1 action).</p>\n<p>This lets you each use separate exploration activities like @Compendium[pf2e.actionspf2e.IE2nThCmoyhQA0Jn]{Avoid Notice} as you travel.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Act Together"
     },
     "Demoralize": {
@@ -73,22 +88,27 @@
     },
     "Change Shape (Anadi)": {
       "description": "<p>You change into your human or spider shape. Each shape has a specific, persistent appearance.</p>\n<p>In your human shape, you can't use unarmed attacks granted by your ancestry. You aren't flat footed when climbing in your spider shape.</p>\n<p>However, in your spider shape you can't use weapons, shields, or other held items of any sort, and you are limited in what actions you can take that have the manipulate trait. The only manipulate actions you can take are to @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell}with somatic components, weave silk or webbing, or simple @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} actions such as opening an unlocked door. Your spider legs can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish. The GM might determine other manipulate actions are appropriate for your spider legs.</p>",
+      "source": "Pathfinder Lost Omens: The Mwangi Expanse",
       "name": "Change Shape (Anadi)"
     },
     "Overdrive": {
-      "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p>Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a @Check[type:crafting|dc:@self.level] that has a standard DC for your level.</p>\n<hr />\n<p><strong>Critical Success</strong> Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute.</p>\n<p>@Compendium[pf2e.feat-effects.1XlJ9xLzL19GHoOL]{Effect: Overdrive (Critical Success)}</p>\n<p><strong>Success</strong> Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier.</p>\n<p>@Compendium[pf2e.feat-effects.MZDh3170EFIfOwTO]{Effect: Overdrive (Success)}</p>\n<p><strong>Failure</strong> You make a miscalculation and nothing happens.</p>\n<p><strong>Critical Failure</strong> Whoops! Something explodes. You take fire damage equal to your level, and you can't use Overdrive again for 1 minute as your gizmos cool down and reset.</p>\n<hr />\n<p><strong>Special</strong> When under the effects of Overdrive, you can still use the @Compendium[pf2e.actionspf2e.3D9kGfwg4LUZBR9A]{Overdrive} action. You can't extend your Overdrive's duration this way, but you can turn an overdrive into a critical overdrive if you critically succeed. A failure has no effect on your current Overdrive, and you end your Overdrive on a critical failure.</p>",
+      "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p>Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a @Check[type:crafting|dc:@self.level] that has a standard DC for your level.</p>\n<hr />\n<p><strong>Critical Success</strong> Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute.</p>\n<p>@Compendium[pf2e.feat-effects.1XlJ9xLzL19GHoOL]{Effect: Overdrive (Critical Success)}</p>\n<p><strong>Success</strong> Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier.</p>\n<p>@Compendium[pf2e.feat-effects.MZDh3170EFIfOwTO]{Effect: Overdrive (Success)}</p>\n<p><strong>Failure</strong> You make a miscalculation and nothing happens.</p>\n<p><strong>Critical Failure</strong> Whoops! Something explodes. You take [[/r {@actor.level}[fire]]]{fire damage equal to your level}, and you can't use Overdrive again for 1 minute as your gizmos cool down and reset.</p>\n<hr />\n<p><strong>Special</strong> When under the effects of Overdrive, you can still use the @Compendium[pf2e.actionspf2e.3D9kGfwg4LUZBR9A]{Overdrive} action. You can't extend your Overdrive's duration this way, but you can turn an overdrive into a critical overdrive if you critically succeed. A failure has no effect on your current Overdrive, and you end your Overdrive on a critical failure.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Overdrive"
     },
     "Breath Weapon (Electricity) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[electricity]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Electricity) (Line)"
     },
     "Share Senses": {
       "description": "<p><strong>Requirements</strong> Your eidolon is manifested.</p>\n<p>You project your senses into your eidolon, allowing you to perceive through it. When you do, you lose all sensory information from your own body, but can sense through your eidolon's body for up to 1 minute. You can @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Dismiss} this effect.</p>\n<hr />\n<p><strong>Special</strong> This action has the trait matching your eidolon's tradition (arcane, divine, occult, or primal). Your eidolon can also use this ability. When it does, it projects its senses into your body.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Share Senses"
     },
     "Bend Time": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your turn begins</p>\n<p><strong>Effect</strong> You are @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} this turn. You can use your extra action to Stride.</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your turn begins</p>\n<hr />\n<p><strong>Effect</strong> You are @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} this turn. You can use your extra action to Stride.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Bend Time"
     },
     "Sustain a Spell": {
@@ -101,6 +121,11 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Grab an Edge"
     },
+    "Drink Blood": {
+      "description": "<p><strong>Requirements</strong> A @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed}, @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}, @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, or willing creature is within your reach</p>\n<hr />\n<p><strong>Effect</strong> You sink your fangs into that creature and drink its blood. This requires an Athletics check against the victim's Fortitude DC if the victim is grabbed, and automatically succeeds for any of the other conditions. If you succeed, the creature becomes @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}, and you gain temporary HP equal to the target's level that last for 10 minutes. Further uses against the target don't increase the drained condition or grant you more temporary HP.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the vampire archetype.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Drink Blood"
+    },
     "Subsist": {
       "description": "<p>You try to provide food and shelter for yourself, and possibly others as well, with a standard of living. The GM determines the DC based on the nature of the place where you're trying to Subsist. You might need a minimum proficiency rank to Subsist in particularly strange environments. Unlike most downtime activities, you can Subsist after 8 hours or less of exploration, but if you do, you take a -5 penalty.</p>\n<hr />\n<p><strong>Critical Success</strong> You either provide a subsistence living for yourself and one additional creature, or you improve your own food and shelter, granting yourself a comfortable living.</p>\n<p><strong>Success</strong> You find enough food and shelter with basic protection from the elements to provide you a subsistence living.</p>\n<p><strong>Failure</strong> You're exposed to the elements and don't get enough food, becoming @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} until you attain sufficient food and shelter.</p>\n<p><strong>Critical Failure</strong> You attract trouble, eat something you shouldn't, or otherwise worsen your situation. You take a -2 circumstance penalty to checks to Subsist for 1 week. You don't find any food at all; if you don't have any stored up, you're in danger of starving or dying of thirst if you continue failing.</p><h2 class=\"title\">Sample Subsist Tasks</h2>\n<ul>\n<li><strong>Untrained</strong> lush forest with calm weather or large city with plentiful resources</li>\n<li><strong>Trained</strong> typical hillside or village</li>\n<li><strong>Expert</strong> typical mountains or insular hamlet</li>\n<li><strong>Master</strong> typical desert or city under siege</li>\n<li><strong>Legendary</strong> barren wasteland or city of undead</li>\n</ul>",
       "source": "Pathfinder Core Rulebook",
@@ -108,22 +133,32 @@
     },
     "Finish The Job": {
       "description": "<p><strong>Requirements</strong> On your last action, you failed (but didn't critically fail) a Strike with a firearm or crossbow you're holding in one hand, and your other hand is either wielding a melee weapon or empty.</p>\n<hr />\n<p>Your last attack failed, but it set you up for another. Make a Strike with your other hand, using a one-handed melee weapon or unarmed attack. This Strike uses the same multiple attack penalty as the Strike that failed on the last action. Afterward, increase your multiple attack penalty normally.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Finish The Job"
     },
     "Defend Life": {
-      "description": "<p><strong>Trigger</strong> The target takes damage</p>\n<p><strong>Requirements</strong> You're within 1 mile of the target</p>\n<p><strong>Effect</strong> After calculating the amount of damage the target would take (applying weaknesses, resistances, and the like), you lose an equal number of Hit Points, and the target doesn't take any of the damage. You can't reduce the amount of Hit Points you lose in this way. The target still takes any effects that would come with the damage, however, such as the venom on a viper's fangs Strike.</p>",
+      "description": "<p><strong>Trigger</strong> The target takes damage</p>\n<p><strong>Requirements</strong> You're within 1 mile of the target</p>\n<hr />\n<p><strong>Effect</strong> After calculating the amount of damage the target would take (applying weaknesses, resistances, and the like), you lose an equal number of Hit Points, and the target doesn't take any of the damage. You can't reduce the amount of Hit Points you lose in this way. The target still takes any effects that would come with the damage, however, such as the venom on a viper's fangs Strike.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Defend Life"
     },
     "Breath Weapon (Negative) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[negative]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Negative) (Cone)"
     },
     "Spinning Crush": {
       "description": "<p><strong>Requirements</strong> You're wielding a loaded firearm or loaded crossbow.</p>\n<hr />\n<p>You go into a vicious spin, smashing your weapon into those nearby and increasing your momentum by firing. All creatures adjacent to you take 1d6 bludgeoning damage plus your Strength modifier; this increases to 2d6 if your firearm has a striking rune, 3d6 if it has a greater striking rune, and 4d6 if it has a major striking rune. This ability does not apply other effects that increase damage with your firearm Strikes such as weapon specialization. Creatures affected by this attack must attempt a basic Reflex save. A creature that fails its save is also pushed 5 feet directly away from you.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Spinning Crush"
+    },
+    "Influence": {
+      "description": "<p>You attempt to make a favorable impression on an NPC to convince the NPC to support your cause. Attempt a skill check to impress that NPC. The DC and skills which can apply can be found in the NPC's stat block.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain 2 Influence Points with the chosen NPC.</p>\n<p><strong>Success</strong> You gain 1 Influence Point with the chosen NPC.</p>\n<p><strong>Failure</strong> You gain no Influence Points with the chosen NPC.</p>\n<p><strong>Critical Failure</strong> You lose 1 Influence Point with the chosen NPC.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Influence"
     },
     "Thundering Roar": {
       "description": "<p>The target unleashes a powerful vocalization. Each enemy in a 10- foot emanation takes 4d8 sonic damage with a basic Will save against your spell DC. A creature that fails its Will save is also @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage from the roar increases by 2d8.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Thundering Roar"
     },
     "Mighty Rage": {
@@ -136,14 +171,20 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Shove"
     },
+    "Forge Documents": {
+      "description": "<p>You prepare forgeries that might serve as convincing props. Attempt a hard or very hard Society check.</p>\n<hr />\n<p><strong>Success</strong> You create convincing forgeries and gain 1 EP you can use only when presenting some form of paperwork.</p>\n<p><strong>Failure</strong> You create unconvincing documents. You gain 1 EP that (unknown to you) grants no benefit when used.</p>\n<p><strong>Critical Failure</strong> As a failure, but a PC who tries to use the Edge Point gets a critical failure, even if they use the Edge Point after rolling a failure.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Forge Documents"
+    },
     "Warding Sign": {
       "description": "<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You attempt a saving throw against a magical effect, but you haven't rolled yet</p>\n<hr />\n<p><strong>Effect</strong> You call on the power of a personal, eldritch sign of protection, which flares brightly before slowly fading. You gain a +2 circumstance bonus to the triggering saving throw, or a +3 circumstance bonus if the effect is a curse.</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Warding Sign"
     },
-    "Energy Emanation": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Energy bursts forth from your body. You deal [[/r {1d6}]]{1d6 damage} of your chosen type to all adjacent creatures (basic Reflex save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by [[/r {1d6}]]{1d6 damage}.</p>",
+    "Energy Emanation (Acid)": {
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Energy bursts forth from your body. You deal 1d6 acid damage to all adjacent creatures (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6 damage.</p>\n<p>[[/r (ceil(@actor.level/2))d6[acid]]]{Levelled Damage}</p>",
       "source": "Pathfinder Lost Omens: Character Guide",
-      "name": "Energy Emanation"
+      "name": "Energy Emanation (Acid)"
     },
     "Anadi Venom": {
       "description": "<p><strong>Frequency</strong> a number of times per day equal to your level</p>\n<hr />\n<p>You envenom your fangs. If the next fangs Strike you make before the end of your turn hits and deals damage, the Strike deals an additional [[/r {1d6}[poison]]]{1d6 poison damage}. On a critical failure, the poison is wasted as normal. At 12th level, this poison damage increases to 2d6.</p>\n<p>[[/r (1+(floor(@actor.level/12)))d6 #poison]]{Levelled} poison damage</p>",
@@ -152,6 +193,7 @@
     },
     "Armor Up!": {
       "description": "<p><strong>Effect</strong> You snap your fingers. The armor returns to your body.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Armor Up!"
     },
     "Dream Research": {
@@ -170,14 +212,17 @@
     },
     "Breath Weapon (Fire) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[fire]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Fire) (Line)"
     },
     "Living Fortification": {
       "description": "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You can posture defensively with firearms or crossbows, acting like a walking tower. Interact to draw a firearm or crossbow. You then position that weapon defensively, gaining a +1 circumstance bonus to AC until the start of your first turn, or a +2 circumstance bonus if the chosen weapon has the parry trait.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Living Fortification"
     },
     "Affix a Fulu": {
       "description": "<p>You affix a fulu to an armor, weapon, shield, creature, or structure that's beside or in the same square as you. A creature can remove a fulu from itself or an unattended object in its reach with a single action.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Affix a Fulu"
     },
     "Stop": {
@@ -187,6 +232,7 @@
     },
     "Thoughtful Reload": {
       "description": "<p>As you sink deep into a state of analytical calm and focus on the foe before you, your hands reload a bullet instinctively. Attempt a Recall Knowledge check against an opponent you can see and then Interact to reload.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Thoughtful Reload"
     },
     "Automaton Aim": {
@@ -196,6 +242,7 @@
     },
     "Siegebreaker": {
       "description": "<p><strong>Requirements</strong> You're wielding a firearm that has the kickback or scatter trait, or a two-handed crossbow.</p>\n<hr />\n<p>With unbelievable force, you charge and smash your weapon into a target before digging in your heels and pulling the trigger. Leap or Stride, then make a Strike with the required firearm or crossbow against an adjacent target. This Strike deals an additional [[/r {3d8}[bludgeoning]]]{3d8 bludgeoning damage} and ignores 10 points of the target's Hardness (if any), or of their shield's Hardness if the target uses Shield Block.</p>\n<p>After the Strike, you become @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} and position the required weapon defensively, gaining a +1 circumstance bonus to AC, or a +2 circumstance bonus if the chosen weapon has the parry trait. Both effects last until the start of your next turn. If a force would move you while you're immobilized in this way, it must succeed at an appropriate check against your class DC.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Siegebreaker"
     },
     "Delay": {
@@ -210,6 +257,7 @@
     },
     "Breath Weapon (Poison) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[poison]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Poison) (Line)"
     },
     "Rage": {
@@ -237,10 +285,20 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Recall Knowledge (Occultism)"
     },
+    "Gossip": {
+      "description": "<p>You seek out rumors about the infiltration's target. Attempt a normal, hard, or very hard Diplomacy check.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain inside information about the location or group you're trying to infiltrate. This grants you a +2 circumstance bonus to future checks you attempt for preparation activities for this infiltration. If you share this information, those you share it with also gain this bonus.</p>\n<p><strong>Success</strong> You gain inside information about the place or group you're attempting to infiltrate that aids your planning.</p>\n<p><strong>Failure</strong> You learn nothing.</p>\n<p><strong>Critical Failure</strong> You hear a few mistaken rumors and take a -2 circumstance penalty to your next check for a preparation activity. Word spreads around that you're asking after that group or individual, increasing your Awareness Points by 1.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Gossip"
+    },
     "Conduct Energy": {
       "description": "<p><strong>Requirements</strong> Your last action or spell this turn had the acid, cold, electricity, fire, or sonic trait.</p>\n<hr />\n<p>You channel energy into your weapon. The weapon deals 1 additional damage per weapon damage die until the start of your next turn. This damage type matches the trait of the triggering action or spell. If your triggering action or spell had multiple eligible traits, you select one of those traits.</p>",
       "source": "Pathfinder Lost Omens: Ancestry Guide",
       "name": "Conduct Energy"
+    },
+    "Map the Area": {
+      "description": "<p>As long as your group has successfully Reconnoitered the hex, you can use this activity to create an accurate map of the hex with a successful Survival check (typically at a trained or expert DC). When you have an accurate map of the hex, the DC of any check to navigate that hex is reduced by 2.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Map the Area"
     },
     "Stride": {
       "description": "<p>You move up to your Speed.</p>",
@@ -283,6 +341,7 @@
     },
     "Recall Ammunition": {
       "description": "<p><strong>Trigger</strong> You miss with a firearm or crossbow Strike while using an ordinary level-0 bolt or bullet</p>\n<hr />\n<p>You amplify the connection between bullet and firearm, calling your missed shot back into your gun. The ammunition you just fired is reloaded back into your gun and immediately ready to fire again.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Recall Ammunition"
     },
     "Disarm": {
@@ -291,7 +350,7 @@
       "name": "Disarm"
     },
     "Track": {
-      "description": "<p>You follow tracks, moving at up to half your travel speed. After a successful check to Track, you can continue following the tracks at half your Speed without attempting additional checks for up to 1 hour. In some cases, you might Track in an encounter. In this case, Track is a single action and doesn't have the exploration trait, but you might need to roll more often because you're in a tense situation. The GM determines how often you must attempt this check.</p>\n<p>You attempt your <span data-pf2-action=\"track\" data-pf2-glyph=\"A\">Survival</span> check when you start Tracking, once every hour you continue tracking, and any time something significant changes in the trail. The GM determines the DCs for such checks, depending on the freshness of the trail, the weather, and the type of ground.</p>\n<hr />\n<p><strong>Success</strong> You find the trail or continue to follow the one you're already following.</p>\n<p><strong>Failure</strong> You lose the trail but can try again after a 1-hour delay.</p>\n<p><strong>Critical Failure</strong> You lose the trail and can't try again for 24 hours.</p>\n<h2 class=\"title\">Sample Track Tasks</h2>\n<ul>\n<li><strong>Untrained</strong> the path of a large army following a road</li>\n<li><strong>Trained</strong> relatively fresh tracks of a rampaging bear through the plains</li>\n<li><strong>Expert</strong> a nimble panther's tracks through a jungle, tracks obscured by rainfall</li>\n<li><strong>Master</strong> tracks obscured by winter snow, tracks of a mouse or smaller creature, tracks left on surfaces that can't hold prints like bare rock</li>\n<li><strong>Legendary</strong> old tracks through a windy desert's sands, tracks obscured by a major blizzard or hurricane</li>\n</ul>",
+      "description": "<p>You follow tracks, moving at up to half your travel speed. After a successful check to Track, you can continue following the tracks at half your Speed without attempting additional checks for up to 1 hour. In some cases, you might Track in an encounter. In this case, Track is a single action and doesn't have the exploration trait, but you might need to roll more often because you're in a tense situation. The GM determines how often you must attempt this check.</p>\n<p>You attempt your <span data-pf2-action=\"track\">Survival</span> check when you start Tracking, once every hour you continue tracking, and any time something significant changes in the trail. The GM determines the DCs for such checks, depending on the freshness of the trail, the weather, and the type of ground.</p>\n<hr />\n<p><strong>Success</strong> You find the trail or continue to follow the one you're already following.</p>\n<p><strong>Failure</strong> You lose the trail but can try again after a 1-hour delay.</p>\n<p><strong>Critical Failure</strong> You lose the trail and can't try again for 24 hours.</p>\n<h2 class=\"title\">Sample Track Tasks</h2>\n<ul>\n<li><strong>Untrained</strong> the path of a large army following a road</li>\n<li><strong>Trained</strong> relatively fresh tracks of a rampaging bear through the plains</li>\n<li><strong>Expert</strong> a nimble panther's tracks through a jungle, tracks obscured by rainfall</li>\n<li><strong>Master</strong> tracks obscured by winter snow, tracks of a mouse or smaller creature, tracks left on surfaces that can't hold prints like bare rock</li>\n<li><strong>Legendary</strong> old tracks through a windy desert's sands, tracks obscured by a major blizzard or hurricane</li>\n</ul>",
       "source": "Pathfinder Core Rulebook",
       "name": "Track"
     },
@@ -317,7 +376,13 @@
     },
     "Call Gun": {
       "description": "<p><strong>Effect</strong> You hold aloft a free hand and call the firearm or crossbow you chose during your daily preparations into your hand. As long as the weapon you chose is on the same plane, it appears in your hand.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Call Gun"
+    },
+    "Scout Location": {
+      "description": "<p>You spend time observing the place or group you wish to infiltrate. Attempt a normal, hard, or very hard DC Perception, Society or Stealth check.</p>\n<hr />\n<p><strong>Success</strong> You make observations that provide 1 EP.</p>\n<p><strong>Failure</strong> You learn nothing particularly noteworthy.</p>\n<p><strong>Critical Failure</strong> You misjudge some aspect of what you observed, gaining 1 EP that results in a critical failure instead of a success when used, even if a PC uses the Edge Point after rolling a failure.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Scout Location"
     },
     "Ten Paces": {
       "description": "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You react to trouble with lightning speed, positioning yourself just right. You gain a +2 circumstance bonus to your initiative roll, and you can Interact to draw a one-handed firearm or one-handed crossbow. As your first action on your first turn, you can Step up to 10 feet as a free action.</p>",
@@ -331,10 +396,12 @@
     },
     "Settle Emotions": {
       "description": "<p>You spend 10 minutes using techniques you've developed to calm your emotions and bring them back under control. This allows you to access your @Compendium[pf2e.actionspf2e.2424g94rpoiN1IPh]{Catharsis} again.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Settle Emotions"
     },
     "Breath Weapon (Negative) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[negative]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Negative) (Line)"
     },
     "Investigate": {
@@ -354,20 +421,18 @@
     },
     "Dispelling Bullet": {
       "description": "<p>You imprint a bullet with a field of abjuration built upon your magical signature, disrupting the magic of whatever it hits. Make a firearm or crossbow Strike against a foe you can see. If you hit, you attempt to counteract a spell effect active on the target (your choice, or the highest-level effect if you don't choose). Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your class DC - 10.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Dispelling Bullet"
     },
     "Rampaging Ferocity": {
       "description": "<p><strong>Trigger</strong> You use @Compendium[pf2e.feats-srd.PlhPpdwIV0rIAJ8K]{Orc Ferocity}</p>\n<hr />\n<p>You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn't count against its frequency.</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Rampaging Ferocity"
     },
     "Accidental Shot": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}.</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Accidental Shot"
-    },
-    "Exhale Poison": {
-      "description": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You were within the area of an inhaled poison within the last minute; @Compendium[pf2e.feats-srd.8PMxl8o5YXET58Pn]{Iron Lung}</p>\n<hr />\n<p>You sharply exhale the poison that previously surrounded you in a @Template[type:cone|distance:15]. Creatures in the area are affected by the poison; the poison's DC and effects are unchanged.</p>",
-      "source": "Pathfinder #153: Life's Long Shadow",
-      "name": "Exhale Poison"
     },
     "Create a Diversion": {
       "description": "<p>With a gesture, a trick, or some distracting words, you can create a diversion that draws creatures' attention elsewhere. If you use a gesture or trick, this action gains the manipulate trait. If you use distracting words, it gains the auditory and linguistic traits.</p>\n<p>Attempt a single Deception check (<span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"distracting-words\">distracting words</span>, <span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"gesture\">gesture</span>, or <span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"trick\">trick</span>) and compare it to the Perception DCs of the creatures whose attention you're trying to divert. Whether or not you succeed, creatures you attempt to divert gain a +4 circumstance bonus to their Perception DCs against your attempts to Create a Diversion for 1 minute.</p>\n<hr />\n<p><strong>Success</strong> You become @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to each creature whose Perception DC is less than or equal to your result. (The hidden condition allows you to @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} away.) This lasts until the end of your turn or until you do anything except Step or use the @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} or the Sneak action of the Stealth skill. If you Strike a creature, the creature remains @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against that attack, and you then become @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}. If you do anything else, you become observed just before you act unless the GM determines otherwise.</p>\n<p><strong>Failure</strong> You don't divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them.</p>",
@@ -391,6 +456,7 @@
     },
     "Arcane Cascade": {
       "description": "<p><strong>Requirements</strong> You used your most recent action to Cast a Spell or make a Spellstrike.</p>\n<p><strong>Grants</strong> @Compendium[pf2e.feature-effects.fsjO5oTKttsbpaKl]{Stance: Arcane Cascade}</p>\n<hr />\n<p>You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal [[/r {1}]]{1 extra damage}. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.</p>\n<p>If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.</p>\n<ul>\n<li><strong>Abjuration</strong> or <strong>Evocation</strong> force</li>\n<li><strong>Conjuration</strong> or <strong>Transmutation</strong> same type as your weapon or unarmed attack</li>\n<li><strong>Divination</strong>, <strong>Enchantment</strong>, or <strong>Illusion</strong> mental</li>\n<li><strong>Necromancy</strong> negative</li>\n</ul>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Arcane Cascade"
     },
     "Cram": {
@@ -400,12 +466,18 @@
     },
     "Mist Blending": {
       "description": "<p><strong>Trigger</strong> A creature attempts a flat check to target you because you're @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} or @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} due to fog, haze, mist, or smoke</p>\n<hr />\n<p><strong>Effect</strong> You shroud yourself in mist, making it harder for your foe to hit you. If you're concealed, the DC of the flat check increases from 5 to 7; if you're hidden, it increases from 11 to 13.</p>",
+      "source": "Pathfinder Lost Omens: Ancestry Guide",
       "name": "Mist Blending"
     },
     "Avoid Notice": {
-      "description": "<p>You attempt a Stealth check to avoid notice while traveling at half speed. If you have the @Compendium[pf2e.feats-srd.Imvu2RV2ggjJ2HZt]{Swift Sneak} feat, you can move at full Speed rather than half, but you still can't use another exploration activity while you do so. If you have the @Compendium[pf2e.feats-srd.n0urrOL8YlnVBVRQ]{Legendary Sneak} feat, you can move at full Speed and use a second exploration activity. If you're Avoiding Notice at the start of an encounter, you usually roll a Stealth check instead of a Perception check both to determine your initiative and to see if the enemies notice you (based on their Perception DCs, as normal for Sneak, regardless of their initiative check results).</p>",
+      "description": "<p>You attempt a <span data-pf2-action=\"avoidNotice\">Stealth</span> check to avoid notice while traveling at half speed. If you have the @Compendium[pf2e.feats-srd.Imvu2RV2ggjJ2HZt]{Swift Sneak} feat, you can move at full Speed rather than half, but you still can't use another exploration activity while you do so. If you have the @Compendium[pf2e.feats-srd.n0urrOL8YlnVBVRQ]{Legendary Sneak} feat, you can move at full Speed and use a second exploration activity. If you're Avoiding Notice at the start of an encounter, you usually roll a Stealth check instead of a Perception check both to determine your initiative and to see if the enemies notice you (based on their Perception DCs, as normal for Sneak, regardless of their initiative check results).</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Avoid Notice"
+    },
+    "Bribe Contact": {
+      "description": "<p><strong>Cost</strong> A bribe worth at least one-tenth of the Currency per Additional PC listed on Core Rulebook 509 (see table below). Doubling this amount grants a +2 circumstance bonus to the check.</p>\n<p><strong>Requirements</strong> You've successfully Gained a Contact. You offer a bribe to your contact to help the heist in some way. Attempt a hard or very hard Deception or Diplomacy check.</p>\n<hr />\n<p><strong>Success</strong> The contact accepts the bribe and you gain 1 EP.</p>\n<p><strong>Failure</strong> You believe you successfully Bribed your Contact and gained 1 EP, but in fact the contact informs the opposition of the attempted bribery, adding 1 AP to the infiltration. The GM can reveal that this Edge Point grants no benefit at any point during the infiltration, as befits the story.</p>\n<p><strong>Critical Failure</strong> As failure, but adding 2 AP to the infiltration.</p>\n<hr />\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>NPC Level</th>\n<th>Minimum</th>\n<th>+2 Bonus</th>\n<th>NPC Level</th>\n<th>Minimum</th>\n<th>+2 Bonus</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>1 gp</td>\n<td>2 gp</td>\n<td>11</td>\n<td>70 gp</td>\n<td>140 gp</td>\n</tr>\n<tr>\n<td>2</td>\n<td>1 gp, 8 sp</td>\n<td>3gp, 6sp</td>\n<td>12</td>\n<td>100 gp</td>\n<td>200 gp</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3 gp</td>\n<td>6 gp</td>\n<td>13</td>\n<td>150 gp</td>\n<td>300 gp</td>\n</tr>\n<tr>\n<td>4</td>\n<td>5 gp</td>\n<td>10 gp</td>\n<td>14</td>\n<td>225 gp</td>\n<td>450 gp</td>\n</tr>\n<tr>\n<td>5</td>\n<td>8 gp</td>\n<td>16 gp</td>\n<td>15</td>\n<td>325 gp</td>\n<td>650 gp</td>\n</tr>\n<tr>\n<td>6</td>\n<td>12 gp, 5 sp</td>\n<td>25 gp</td>\n<td>16</td>\n<td>500 gp</td>\n<td>1,000 gp</td>\n</tr>\n<tr>\n<td>7</td>\n<td>18 gp</td>\n<td>36 gp</td>\n<td>17</td>\n<td>750 gp</td>\n<td>1,500 gp</td>\n</tr>\n<tr>\n<td>8</td>\n<td>25 gp</td>\n<td>50 gp</td>\n<td>18</td>\n<td>1,200 gp</td>\n<td>2,400 gp</td>\n</tr>\n<tr>\n<td>9</td>\n<td>35 gp</td>\n<td>70 gp</td>\n<td>19</td>\n<td>2,000 gp</td>\n<td>4,000 gp</td>\n</tr>\n<tr>\n<td>10</td>\n<td>50 gp</td>\n<td>100 gp</td>\n<td>20</td>\n<td>3,500 gp</td>\n<td>7,000 gp</td>\n</tr>\n</tbody>\n</table>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Bribe Contact"
     },
     "Liberating Step": {
       "description": "<p><strong>Trigger</strong> An enemy damages, @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabs}, or @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapples} your ally, and both are within 15 feet of you</p>\n<hr />\n<p>You free an ally from restraint.</p>\n<p>If the trigger was an ally taking damage, the ally gains resistance to all damage against the triggering damage equal to 2 + your level.</p>\n<p>The ally can attempt to break free of effects grabbing, restraining, @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilizing}, or @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzing} them. They either attempt a new save against one such effect that allows a save, or attempt to @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} from one effect as a free action.</p>\n<p>If they can move, the ally can Step as a free action, even if they didn't need to escape.</p>",
@@ -413,8 +485,19 @@
       "name": "Liberating Step"
     },
     "Life Block": {
-      "description": "<p><strong>Trigger</strong> The spell's target would take damage</p>\n<p><strong>Effect</strong> Reduce the triggering damage by 10, but you lose 5 Hit Points. Even if this reduces the damage to 0, the target still takes any effects that would come with the damage, such as the poison on a viper's fangs Strike.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The reaction reduces the damage by another 10, and you lose 5 more Hit Points. If you want to lose fewer Hit Points, you can choose to lower the damage reduction and HP lost to what any lower-level version of the spell could do without lowering the spell's actual level.</p>",
+      "description": "<p><strong>Trigger</strong> The spell's target would take damage</p>\n<hr />\n<p><strong>Effect</strong> Reduce the triggering damage by 10, but you lose 5 Hit Points. Even if this reduces the damage to 0, the target still takes any effects that would come with the damage, such as the poison on a viper's fangs Strike.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The reaction reduces the damage by another 10, and you lose 5 more Hit Points. If you want to lose fewer Hit Points, you can choose to lower the damage reduction and HP lost to what any lower-level version of the spell could do without lowering the spell's actual level.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Life Block"
+    },
+    "Discover": {
+      "description": "<p>You watch or study an NPC to learn more about that NPC's preferences. Attempt a Perception check or an appropriate skill check determined by the GM. The DC is found in the NPC's influence stat block.</p>\n<hr />\n<p><strong>Critical Success</strong> Choose two of the options detailed in Success below; you can choose the same option twice to learn two pieces of information from the same category.</p>\n<p><strong>Success</strong> Choose one of the following: You learn which skill that can Influence the NPC has the lowest DC (skipping any skills that you already know), one of the NPC's personal biases, one of the NPC's resistances, or one of the NPC's weaknesses.</p>\n<p><strong>Failure</strong> You learn no information.</p>\n<p><strong>Critical Failure</strong> Choose a piece of information to learn about, as success, but the information is incorrect.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Discover"
+    },
+    "Energy Emanation (Cold)": {
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Energy bursts forth from your body. You deal 1d6 cold damage to all adjacent creatures (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6 damage.</p>\n<p>[[/r (ceil(@actor.level/2))d6[cold]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Lost Omens: Character Guide",
+      "name": "Energy Emanation (Cold)"
     },
     "Long Jump": {
       "description": "<p>You Stride, then make a horizontal Leap and attempt an <span data-pf2-action=\"longJump\" data-pf2-glyph=\"D\">Athletics</span> check to increase the length of your jump. The DC of the Athletics check is equal to the total distance in feet you're attempting to move during your Leap (so you'd need to succeed at a DC 20 check to Leap 20 feet). You can't Leap farther than your Speed.</p>\n<p>If you didn't Stride at least 10 feet, or if you attempt to jump in a different direction than your Stride, you automatically fail your check. This DC might be increased or decreased due to the situation, as determined by the GM.</p>\n<hr />\n<p><strong>Success</strong> Increase the maximum horizontal distance you @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} to the desired distance.</p>\n<p><strong>Failure</strong> You Leap normally.</p>\n<p><strong>Critical Failure</strong> You Leap normally, but then fall and land @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>",
@@ -426,8 +509,14 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Hunt Prey"
     },
+    "Slayer's Identification": {
+      "description": "<p><strong>Trigger</strong> You roll initiative and can observe a creature you know is undead</p>\n<hr />\n<p>You attempt to Recall Knowledge to identify the undead creature with a +1 circumstance bonus. If you're a master in the skill you're using to Recall Knowledge, you gain a +2 circumstance bonus instead.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Slayer's Identification"
+    },
     "Breath Weapon (Fire) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[fire]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Fire) (Cone)"
     },
     "Hustle": {
@@ -446,11 +535,13 @@
       "name": "Attack of Opportunity"
     },
     "Conjure Bullet": {
-      "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Effect</strong> You conjure an ordinary level-0 bolt or bullet out of thin air and then immediately Interact to load it into your weapon. If the bolt or bullet isn't fired before the end of your turn, the effect is wasted.</p>",
+      "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> You conjure an ordinary level-0 bolt or bullet out of thin air and then immediately Interact to load it into your weapon. If the bolt or bullet isn't fired before the end of your turn, the effect is wasted.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Conjure Bullet"
     },
     "Manifest Soulforged Armament": {
-      "description": "<p><strong>Requirements</strong> If summoning a weapon or shield, you have the hands free to wield it; if summoning armor, you aren't wearing any armor</p>\n<p><strong>Effect</strong> You immediately wield or wear the soulforged armament bound to you. The soulforged armament remains manifested until you Dismiss this effect.</p>\n<p>Once per day when you use this ability, you can manifest the armament's essence form. You gain the armament's essence power until it's Dismissed. After 1 minute, the essence form armament is automatically Dismissed.</p>",
+      "description": "<p><strong>Requirements</strong> If summoning a weapon or shield, you have the hands free to wield it; if summoning armor, you aren't wearing any armor</p>\n<hr />\n<p><strong>Effect</strong> You immediately wield or wear the soulforged armament bound to you. The soulforged armament remains manifested until you Dismiss this effect.</p>\n<p>Once per day when you use this ability, you can manifest the armament's essence form. You gain the armament's essence power until it's Dismissed. After 1 minute, the essence form armament is automatically Dismissed.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Manifest Soulforged Armament"
     },
     "Recall Knowledge (Society)": {
@@ -459,18 +550,29 @@
       "name": "Recall Knowledge (Society)"
     },
     "Treat Poison": {
-      "description": "<p><strong>Requirements</strong> You're wearing or holding @Compendium[pf2e.equipment-srd.s1vB3HdXjMigYAnY]{Healer's Tools}</p>\n<hr />\n<p>You treat a patient to prevent the spread of poison. Attempt a Medicine check against the poison's DC. After you attempt to Treat a Poison for a creature, you can't try again until after the next time that creature attempts a save against the poison.</p>\n<hr />\n<p><strong>Critical Success</strong> You grant the creature a +4 circumstance bonus to its next saving throw against the poison.</p>\n<p><strong>Success</strong> You grant the creature a +2 circumstance bonus to its next saving throw against the poison.</p>\n<p><strong>Critical Failure</strong> Your efforts cause the creature to take a -2 circumstance penalty to its next save against the poison.</p>",
+      "description": "<p><strong>Requirements</strong> You're wearing or holding @Compendium[pf2e.equipment-srd.s1vB3HdXjMigYAnY]{Healer's Tools}</p>\n<hr />\n<p>You treat a patient to prevent the spread of poison. Attempt a <span data-pf2-action=\"treatPoison\" data-pf2-glyph=\"A\">Medicine</span> check against the poison's DC. After you attempt to Treat a Poison for a creature, you can't try again until after the next time that creature attempts a save against the poison.</p>\n<hr />\n<p><strong>Critical Success</strong> You grant the creature a +4 circumstance bonus to its next saving throw against the poison.</p>\n<p><strong>Success</strong> You grant the creature a +2 circumstance bonus to its next saving throw against the poison.</p>\n<p><strong>Critical Failure</strong> Your efforts cause the creature to take a -2 circumstance penalty to its next save against the poison.</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Treat Poison"
     },
+    "Fortify Camp": {
+      "description": "<p>You can spend time fortifying your camp for defense with a successful Crafting check (typically at a trained or expert DC). Anyone keeping watch or defending the camp gains a +2 circumstance bonus to initiative rolls and Perception checks to Seek creatures attempting to sneak up on the camp.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Fortify Camp"
+    },
     "Dutiful Retaliation": {
       "description": "<p><strong>Trigger</strong> An enemy within 15 feet of you hits you with a Strike and deals damage to you.</p>\n<p><strong>Requirements</strong> Your eidolon is within 15 feet of you.</p>\n<p>Your eidolon instinctively flashes with ectoplasmic energy, allowing them to strike back against an enemy who dares to harm you. Your eidolon makes a melee unarmed Strike against the triggering enemy, even if that enemy isn't within your eidolon's reach.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Dutiful Retaliation"
     },
     "Recall Knowledge (Arcana)": {
       "description": "<p>To remember useful information on a topic, you can attempt to Recall Knowledge. You might know basic information about something without needing to attempt a check, but Recall Knowledge requires you to stop and think for a moment so you can recollect more specific facts and apply them. You might even need to spend time investigating first. For instance, to use Medicine to learn the cause of death, you might need to conduct a forensic examination before attempting to Recall Knowledge.</p>\n<p>The following skills can be used to Recall Knowledge, getting information about the listed topics. In some cases, you can get the GM's permission to use a different but related skill, usually against a higher DC than normal. Some topics might appear on multiple lists, but the skills could give different information. For example, Arcana might tell you about the magical defenses of a golem, whereas Crafting could tell you about its sturdy resistance to physical attacks.</p>\n<p><strong>Arcana</strong> Arcane theories, magical traditions, creatures of arcane significance, and arcane planes.</p>\n<p>The GM might allow checks to Recall Knowledge using other skills. For example, you might assess the skill of an acrobat using Acrobatics. If you're using a physical skill (like in this example), the GM will most likely have you use a mental ability score-typically Intelligence-instead of the skill's normal physical ability score.</p>\n<hr />\n<p><strong>Critical Success</strong> You recall the knowledge accurately and gain additional information or context.</p>\n<p><strong>Success</strong> You recall the knowledge accurately or gain a useful clue about your current situation.</p>\n<p><strong>Critical Failure</strong> You recall incorrect information or gain an erroneous or misleading clue.</p><h2 class=\"title\">Sample Recall Knowledge Tasks</h2>\n<p>These examples use Society or Religion.</p>\n<ul>\n<li><strong>Untrained</strong> name of a ruler, key noble, or major deity</li>\n<li><strong>Trained</strong> line of succession for a major noble family, core doctrines of a major deity</li>\n<li><strong>Expert</strong> genealogy of a minor noble, teachings of an ancient priest</li>\n<li><strong>Master</strong> hierarchy of a genie noble court, major extraplanar temples of a deity</li>\n<li><strong>Legendary</strong> existence of a long-lost noble heir, secret doctrines of a religion</li>\n</ul>",
       "source": "Pathfinder Core Rulebook",
       "name": "Recall Knowledge (Arcana)"
+    },
+    "Collect Spirit Remnant": {
+      "description": "<p><strong>Requirements</strong> You're holding your spirit dwelling</p>\n<hr />\n<p><strong>Effect</strong> You brandish your spirit dwelling at the location where a haunt, ghost, or other incorporeal undead was destroyed within the last minute and pray or recite ritual incantations. You coax the spirit remnant into your spirit dwelling.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Collect Spirit Remnant"
     },
     "Recall Knowledge (Religion)": {
       "description": "<p>To remember useful information on a topic, you can attempt to Recall Knowledge. You might know basic information about something without needing to attempt a check, but Recall Knowledge requires you to stop and think for a moment so you can recollect more specific facts and apply them. You might even need to spend time investigating first. For instance, to use Medicine to learn the cause of death, you might need to conduct a forensic examination before attempting to Recall Knowledge.</p>\n<p>The following skills can be used to Recall Knowledge, getting information about the listed topics. In some cases, you can get the GM's permission to use a different but related skill, usually against a higher DC than normal. Some topics might appear on multiple lists, but the skills could give different information. For example, Arcana might tell you about the magical defenses of a golem, whereas Crafting could tell you about its sturdy resistance to physical attacks.</p>\n<p><strong>Religion</strong> Divine agents, divine planes, theology, obscure myths, and creatures of religious significance.</p>\n<p>The GM might allow checks to Recall Knowledge using other skills. For example, you might assess the skill of an acrobat using Acrobatics. If you're using a physical skill (like in this example), the GM will most likely have you use a mental ability score-typically Intelligence-instead of the skill's normal physical ability score.</p>\n<hr />\n<p><strong>Critical Success</strong> You recall the knowledge accurately and gain additional information or context.</p>\n<p><strong>Success</strong> You recall the knowledge accurately or gain a useful clue about your current situation.</p>\n<p><strong>Critical Failure</strong> You recall incorrect information or gain an erroneous or misleading clue.</p><h2 class=\"title\">Sample Recall Knowledge Tasks</h2>\n<p>These examples use Society or Religion.</p>\n<ul>\n<li><strong>Untrained</strong> name of a ruler, key noble, or major deity</li>\n<li><strong>Trained</strong> line of succession for a major noble family, core doctrines of a major deity</li>\n<li><strong>Expert</strong> genealogy of a minor noble, teachings of an ancient priest</li>\n<li><strong>Master</strong> hierarchy of a genie noble court, major extraplanar temples of a deity</li>\n<li><strong>Legendary</strong> existence of a long-lost noble heir, secret doctrines of a religion</li>\n</ul>",
@@ -479,10 +581,12 @@
     },
     "Breath Weapon (Electricity) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[electricity]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Electricity) (Cone)"
     },
     "Breath Weapon (Acid) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[acid]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Acid) (Cone)"
     },
     "Balance": {
@@ -500,8 +604,14 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Administer First Aid"
     },
+    "Gain Contact": {
+      "description": "<p>You try to make contact with an individual who can aid you in the infiltration. Attempt a normal, hard, or very hard DC Diplomacy or Society check, or a check using a Lore skill appropriate to your prospective contact.</p>\n<hr />\n<p><strong>Success</strong> You make contact and gain 1 EP.</p>\n<p><strong>Failure</strong> You fail to make contact.</p>\n<p><strong>Critical Failure</strong> You insult or spook the contact in some way. Future attempts take a -2 circumstance penalty.</p>\n<hr />\n<p><strong>Special</strong> Multiple critical failures might cause the contact to work against the PCs in some way, likely increasing the party's Awareness Points.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Gain Contact"
+    },
     "Share Life": {
-      "description": "<p><strong>Trigger</strong> Your linked ally takes damage and is within 60 feet</p>\n<p><strong>Effect</strong> The ally takes half damage from the triggering effect (rounded down), and you lose a number of Hit Points equal to the remainder of the damage. You can't trigger this reaction to share damage caused by your ally using this reaction.</p>",
+      "description": "<p><strong>Trigger</strong> Your linked ally takes damage and is within 60 feet</p>\n<hr />\n<p><strong>Effect</strong> The ally takes half damage from the triggering effect (rounded down), and you lose a number of Hit Points equal to the remainder of the damage. You can't trigger this reaction to share damage caused by your ally using this reaction.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Share Life"
     },
     "Prove Peace": {
@@ -510,19 +620,23 @@
       "name": "Prove Peace"
     },
     "Wish for Luck": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are about to roll an attack roll, saving throw, or skill check</p>\n<p><strong>Effect</strong> You wish aloud for success. Roll the check twice and take the higher result.</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are about to roll an attack roll, saving throw, or skill check</p>\n<hr />\n<p><strong>Effect</strong> You wish aloud for success. Roll the check twice and take the higher result.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Wish for Luck"
     },
     "Breath Weapon (Poison) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[poison]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Poison) (Cone)"
     },
     "Ghost Shot": {
       "description": "<p>Make a firearm or crossbow Strike. If you're @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from or undetected by the target, the Strike adds the additional precision damage from One Shot, One Kill; if you would already receive that additional damage on the Strike, the effects aren't cumulative. If you were undetected or unnoticed by any creatures, you're now hidden from them instead, as the origin of the attack is clear.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Ghost Shot"
     },
     "Wyrm's Breath": {
       "description": "<p><strong>Frequency</strong> once per minute</p>\n<p>Your eidolon gathers the power of the mightiest wyrms to make its magical breath even more spectacular. If your eidolon's next action is to use Breath Weapon, both the number of damage dice and area of the Breath Weapon are doubled.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Wyrm's Breath"
     },
     "Repeat a Spell": {
@@ -577,12 +691,18 @@
     },
     "Spellstrike": {
       "description": "<p><strong>Frequency</strong> until recharged (see below)</p>\n<hr />\n<p>You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical.</p>\n<p>After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Spellstrike"
     },
     "Quick Tincture": {
       "description": "<p><strong>Cost</strong> 1 versatile vial</p>\n<p><strong>Requirements</strong> You know the formula for the alchemical item you're creating, you are holding or wearing alchemist's tools, and you have a free hand.</p>\n<hr />\n<p>You quickly brew up a short-lived tincture. You create a single alchemical elixir or tool of your level or lower without having to spend the normal monetary cost in alchemical reagents or needing to attempt a Crafting check. This item has the infused trait, but it remains potent only until the end of the current turn.</p>",
       "source": "Pathfinder Advanced Player's Guide",
       "name": "Quick Tincture"
+    },
+    "Reconnoiter": {
+      "description": "<p>You spend time surveying and exploring a specific area, getting the lay of the land and looking for unusual features and specific sites. Reconnoitering a single hex takes a number of hexploration activities equal to the number of Travel activities necessary to traverse the hex-1 for open terrain, 2 for difficult terrain, and 3 for greater difficult terrain. Traveling on roads doesn't lessen the time required to Reconnoiter. Once the hex has been Reconnoitered, you can Map the Area to reduce your chance of getting lost in that hex. You automatically find any special feature that doesn't require a check to find, and you attempt the appropriate checks to find hidden special features.</p>\n<p>For instance, if you were looking for an obvious rock formation among some hills, you would spend 2 hexploration activities to Reconnoiter the hex, and you'd find the rock formation. But if you were looking for a hidden tengu monastery somewhere in some deep forests, after spending 2 activities to Reconnoiter the forest hex, you would have to succeed at a Perception check as part of your Reconnoiter activity to find the monastery.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Reconnoiter"
     },
     "Feint": {
       "description": "<p><strong>Requirements</strong> You are within melee reach of the target you attempt to Feint.</p>\n<hr />\n<p>With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a <span data-pf2-action=\"feint\" data-pf2-glyph=\"A\">Deception</span> check against your target's Perception DC.</p>\n<hr />\n<p><strong>Critical Success</strong> You throw your enemy's defenses against you entirely off. The target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against melee attacks that you attempt against it until the end of your next turn.</p>\n<p><strong>Success</strong> Your foe is fooled, but only momentarily. The target is flat-footed against the next melee attack that you attempt against it before the end of your current turn.</p>\n<p><strong>Critical Failure</strong> Your feint backfires. You are flat-footed against melee attacks the target attempts against you until the end of your next turn.</p>",
@@ -591,6 +711,7 @@
     },
     "Breath Weapon (Piercing) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[piercing]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Piercing) (Line)"
     },
     "Maneuver in Flight": {
@@ -605,6 +726,7 @@
     },
     "Raconteur's Reload": {
       "description": "<p>Your rapid or forceful words draw the enemy's attention away from your hands long enough to chamber another bullet. Interact to reload and then attempt a Deception check to Create a Diversion or an Intimidation check to Demoralize.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Raconteur's Reload"
     },
     "Steal": {
@@ -628,8 +750,14 @@
       "name": "Cover Tracks"
     },
     "Bullet Dancer Stance": {
-      "description": "<p><strong>Requirements</strong> You're unarmored and wielding a simple firearm, bayonet, or reinforced stock</p>\n<p><strong>Effect</strong> You enter a specialized stance for a unique martial art centered around the use of simple firearms. While in this stance, the only Strikes you can make are those using bayonets, reinforced stocks, and simple firearms. You can use Flurry of Blows with these weapons. You can use your other monk feats or monk abilities that normally require unarmed attacks with bayonets and reinforced stocks, so long as the feat or ability doesn't require a single, specific Strike. You can also use them with simple firearms when attacking within half the first range increment.</p>",
+      "description": "<p><strong>Requirements</strong> You're unarmored and wielding a simple firearm, bayonet, or reinforced stock</p>\n<hr />\n<p><strong>Effect</strong> You enter a specialized stance for a unique martial art centered around the use of simple firearms. While in this stance, the only Strikes you can make are those using bayonets, reinforced stocks, and simple firearms. You can use Flurry of Blows with these weapons. You can use your other monk feats or monk abilities that normally require unarmed attacks with bayonets and reinforced stocks, so long as the feat or ability doesn't require a single, specific Strike. You can also use them with simple firearms when attacking within half the first range increment.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Bullet Dancer Stance"
+    },
+    "Spirit's Mercy": {
+      "description": "<p><strong>Trigger</strong> You take positive or negative damage, or you take any type of damage caused by a haunt, ghost, or other incorporeal undead</p>\n<p><strong>Cost</strong> 1 spirit wisp or remnant</p>\n<hr />\n<p><strong>Effect</strong> You purify a spirit by having it perform a final act of mercy to lessen the damage caused by another spirit. This grants you resistance to positive and negative damage (or resistance to all damage if caused by a haunt or incorporeal undead) against the triggering effect. If you expend a spirit wisp, the resistance is equal to twice your level. If you expend a spirit remnant, the resistance is equal to three times the level of the incorporeal undead or haunt from which you gained the remnant.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Spirit's Mercy"
     },
     "Recall Knowledge (Medicine)": {
       "description": "<p>To remember useful information on a topic, you can attempt to Recall Knowledge. You might know basic information about something without needing to attempt a check, but Recall Knowledge requires you to stop and think for a moment so you can recollect more specific facts and apply them. You might even need to spend time investigating first. For instance, to use Medicine to learn the cause of death, you might need to conduct a forensic examination before attempting to Recall Knowledge.</p>\n<p>The following skills can be used to Recall Knowledge, getting information about the listed topics. In some cases, you can get the GM's permission to use a different but related skill, usually against a higher DC than normal. Some topics might appear on multiple lists, but the skills could give different information. For example, Arcana might tell you about the magical defenses of a golem, whereas Crafting could tell you about its sturdy resistance to physical attacks.</p>\n<p><strong>Medicine</strong> Diseases, poisons, wounds, and forensics.</p>\n<p>The GM might allow checks to Recall Knowledge using other skills. For example, you might assess the skill of an acrobat using Acrobatics. If you're using a physical skill (like in this example), the GM will most likely have you use a mental ability score-typically Intelligence-instead of the skill's normal physical ability score.</p>\n<hr />\n<p><strong>Critical Success</strong> You recall the knowledge accurately and gain additional information or context.</p>\n<p><strong>Success</strong> You recall the knowledge accurately or gain a useful clue about your current situation.</p>\n<p><strong>Critical Failure</strong> You recall incorrect information or gain an erroneous or misleading clue.</p><h2 class=\"title\">Sample Recall Knowledge Tasks</h2>\n<p>These examples use Society or Religion.</p>\n<ul>\n<li><strong>Untrained</strong> name of a ruler, key noble, or major deity</li>\n<li><strong>Trained</strong> line of succession for a major noble family, core doctrines of a major deity</li>\n<li><strong>Expert</strong> genealogy of a minor noble, teachings of an ancient priest</li>\n<li><strong>Master</strong> hierarchy of a genie noble court, major extraplanar temples of a deity</li>\n<li><strong>Legendary</strong> existence of a long-lost noble heir, secret doctrines of a religion</li>\n</ul>",
@@ -647,17 +775,24 @@
       "name": "Escape"
     },
     "Treat Disease": {
-      "description": "<p><strong>Requirements</strong> You're wearing or holding @Compendium[pf2e.equipment-srd.s1vB3HdXjMigYAnY]{Healer's Tools}</p>\n<hr />\n<p>You spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease's DC. After you attempt to Treat a Disease for a creature, you can't try again until after that creature's next save against the disease.</p>\n<hr />\n<p><strong>Critical Success</strong> You grant the creature a +4 circumstance bonus to its next saving throw against the disease.</p>\n<p><strong>Success</strong> You grant the creature a +2 circumstance bonus to its next saving throw against the disease.</p>\n<p><strong>Critical Failure</strong> Your efforts cause the creature to take a -2 circumstance penalty to its next save against the disease.</p>",
+      "description": "<p><strong>Requirements</strong> You're wearing or holding @Compendium[pf2e.equipment-srd.s1vB3HdXjMigYAnY]{Healer's Tools}</p>\n<hr />\n<p>You spend at least 8 hours caring for a diseased creature. Attempt a <span data-pf2-action=\"treatDisease\">Medicine</span> check against the disease's DC. After you attempt to Treat a Disease for a creature, you can't try again until after that creature's next save against the disease.</p>\n<hr />\n<p><strong>Critical Success</strong> You grant the creature a +4 circumstance bonus to its next saving throw against the disease.</p>\n<p><strong>Success</strong> You grant the creature a +2 circumstance bonus to its next saving throw against the disease.</p>\n<p><strong>Critical Failure</strong> Your efforts cause the creature to take a -2 circumstance penalty to its next save against the disease.</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Treat Disease"
     },
     "Fey's Fortune": {
       "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a skill check and haven't yet rolled</p>\n<hr />\n<p><strong>Effect</strong> Roll the skill check twice and use the better result</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Fey's Fortune"
     },
     "Energy Shot": {
       "description": "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You unleash a small surge of magical energy into your weapon, shrouding the bullet with potential energy and granting it the ability to deal energy damage to your foes to exploit their weaknesses. You can Interact to draw a ranged weapon. On your first three Strikes of this encounter with a firearm or crossbow, you deal an additional 1 acid, cold, fire or electricity damage. You choose which damage type to deal as part of making each Strike.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Energy Shot"
+    },
+    "Bullying Press": {
+      "description": "<p><strong>Trigger</strong> You attempt a melee Strike against your opponent, but haven't rolled yet.</p>\n<p><strong>Requirements</strong> You're in a duel, you're trained in Intimidation, and you rolled an Intimidation check for initiative this round.</p>\n<hr />\n<p>If you hit, your opponent becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}. If your opponent is using Perception for initiative when this ability is used, they become @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} instead.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Bullying Press"
     },
     "Search": {
       "description": "<p>You @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the @Compendium[pf2e.feats-srd.GdZLxDtFXaQI3Fop]{Expeditious Search} feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly.</p>",
@@ -685,7 +820,7 @@
       "name": "Fire in the Hole"
     },
     "Step": {
-      "description": "<p><strong>Requirements</strong> Your Speed is at least 10 feet</p>\n<hr />\n<p>You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as @Compendium[pf2e.feats-srd.O2MwufzEHbuThoGr]{Attacks of Opportunity}, that can be triggered by move actions or upon leaving or entering a square.</p>\n<p>You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed.</p>",
+      "description": "<p><strong>Requirements</strong> Your Speed is at least 10 feet</p>\n<hr />\n<p>You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as @Compendium[pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Attacks of Opportunity}, that can be triggered by move actions or upon leaving or entering a square.</p>\n<p>You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed.</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Step"
     },
@@ -701,10 +836,12 @@
     },
     "Into the Fray": {
       "description": "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You know trouble can lurk around every corner, and your hands never stray far from your holsters. You can Interact to draw a one-handed ranged weapon and can then Interact to draw a one-handed melee weapon. As your first action on your first turn, you can Stride as a free action toward an enemy you can perceive. If you can't perceive any enemies or can't end your movement closer to one, you can't use this Stride.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Into the Fray"
     },
     "Sever Conduit": {
-      "description": "<p><strong>Trigger</strong> Your eidolon takes damage that would bring you to 0 Hit Points and comes from an effect other than a death effect</p>\n<p><strong>Effect</strong> You quickly shut the buffer in your link with your eidolon, causing your bonded ally to wink out of existence before you can be laid low. Your eidolon unmanifests, and you can't Manifest your Eidolon for 1 minute. In exchange, you don't take the triggering damage, though your eidolon still suffers any other adverse effects that accompanied the damage.</p>",
+      "description": "<p><strong>Trigger</strong> Your eidolon takes damage that would bring you to 0 Hit Points and comes from an effect other than a death effect</p>\n<hr />\n<p><strong>Effect</strong> You quickly shut the buffer in your link with your eidolon, causing your bonded ally to wink out of existence before you can be laid low. Your eidolon unmanifests, and you can't Manifest your Eidolon for 1 minute. In exchange, you don't take the triggering damage, though your eidolon still suffers any other adverse effects that accompanied the damage.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Sever Conduit"
     },
     "Sneak": {
@@ -713,15 +850,17 @@
       "name": "Sneak"
     },
     "Spellsling": {
-      "description": "<p><strong>Requirements</strong> You're wielding your bonded beast gun</p>\n<p><strong>Effect</strong> You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell do not occur immediately but are imbued into the beast gun you're wielding. Make a Strike with that beast gun. Your spell flies with the ammunition, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for the purposes of determining your multiple attack penalty, but you don't apply the penalty until after you've completed resolving the attack and spell.</p>",
+      "description": "<p><strong>Requirements</strong> You're wielding your bonded beast gun</p>\n<hr />\n<p><strong>Effect</strong> You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell do not occur immediately but are imbued into the beast gun you're wielding. Make a Strike with that beast gun. Your spell flies with the ammunition, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for the purposes of determining your multiple attack penalty, but you don't apply the penalty until after you've completed resolving the attack and spell.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Spellsling"
     },
     "Foresight": {
-      "description": "<p><strong>Trigger</strong> The target of <em>foresight</em> defends against a hostile creature or other danger.</p>\n<p><strong>Effect</strong> If the hostile creature or danger forces the target to roll dice (a saving throw, for example), the target rolls twice and uses the higher result, and this spell gains the fortune trait. But if the hostile creature or danger is rolling against the target (an attack roll or skill check, for example), that hostile creature or danger rolls twice and uses the lower result, and this spell gains the misfortune trait.</p>",
+      "description": "<p><strong>Trigger</strong> The target of <em>@Compendium[pf2e.spells-srd.qsNeG9KZpODSACMq]{Foresight}</em> defends against a hostile creature or other danger.</p>\n<hr />\n<p><strong>Effect</strong> If the hostile creature or danger forces the target to roll dice (a saving throw, for example), the target rolls twice and uses the higher result, and this spell gains the fortune trait. But if the hostile creature or danger is rolling against the target (an attack roll or skill check, for example), that hostile creature or danger rolls twice and uses the lower result, and this spell gains the misfortune trait.</p>",
+      "source": "Pathfinder Core Rulebook",
       "name": "Foresight"
     },
     "Shadow Step": {
-      "description": "<p><strong>Requirements</strong> The familiar is in dim light or darkness.</p>\n<p><strong>Effect</strong> The familiar teleports itself up to 30 feet. The destination must be in dim light or darkness and must be within your familiar's line of sight and line of effect.</p>\n<p>This action has the trait matching your tradition of magic, or occult if you aren't a spellcaster.</p>",
+      "description": "<p><strong>Requirements</strong> The familiar is in dim light or darkness.</p>\n<hr />\n<p><strong>Effect</strong> The familiar teleports itself up to 30 feet. The destination must be in dim light or darkness and must be within your familiar's line of sight and line of effect.</p>\n<p>This action has the trait matching your tradition of magic, or occult if you aren't a spellcaster.</p>",
       "source": "Pathfinder Secrets of Magic",
       "name": "Shadow Step"
     },
@@ -747,15 +886,17 @@
     },
     "Resist Magic": {
       "description": "<p><strong>Trigger</strong> You attempt a saving throw against a harmful magical effect but haven't rolled yet.</p>\n<hr />\n<p>Your innate magic protects you. You gain a +1 circumstance bonus to the triggering saving throw. Additionally, if the triggering effect is arcane, if you roll a success, you get a critical success instead.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Resist Magic"
     },
-    "Breath Weapon": {
-      "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals 1d6 damage to all creatures in the area, with a basic Reflex save against your spell DC. The area and damage type of the Breath Weapon are chosen when the eidolon gains this ability.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r (ceil(@actor.level/2))d6]]{Levelled Damage}</p>",
+    "Breath Weapon (Riding Drake)": {
+      "description": "<p>The riding drake breathes a @Template[type:cone|distance:30]{30-foot cone} of fire, dealing [[/r ((ceil(@actor.level/2))d6)[fire]]]{1d6 fire damage for every 2 levels the drake has} to all creatures in the area (basic Reflex save). This uses a trained DC using the drake's Constitution modifier or an expert DC if the drake is specialized.</p>",
       "source": "Pathfinder Advanced Player's Guide",
-      "name": "Breath Weapon"
+      "name": "Breath Weapon (Riding Drake)"
     },
     "Drifter's Wake": {
       "description": "<p>You drift across the battlefield, striking down foes as you go. You Stride, and you can Strike up to three times at any points during your movement. Each attack must target a different enemy and must be made with a one-handed firearm, crossbow, melee weapon, or unarmed attack. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you've made all your attacks. Your movement doesn't trigger reactions.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Drifter's Wake"
     },
     "Detect Magic": {
@@ -765,23 +906,32 @@
     },
     "Tendril Strike": {
       "description": "<p>Stretching to extend its body to its limits, your eidolon attacks a foe that would normally be beyond its reach. Your eidolon makes a melee unarmed Strike, increasing its reach by 5 feet for that Strike.</p>\n<p>If the unarmed attack has the disarm, shove, or trip trait, the eidolon can use the corresponding action instead of a Strike.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Tendril Strike"
     },
+    "Travel": {
+      "description": "<p>You progress toward moving into an adjacent hex. In open terrain, like a plain, using 1 Travel activity allows you to move from one hex to an adjacent hex. Traversing a hex with difficult terrain (such as a typical forest or desert) requires 2 Travel activities, and hexes of greater difficult terrain (such as a steep mountain or typical swamp) require 3 Travel activities to traverse. Traveling along a road uses a terrain type one step better than the surrounding terrain. For example, if you are traveling on a road over a mountain pass, the terrain is difficult terrain instead of greater difficult terrain.</p>\n<p>The Travel activity assumes you are walking overland. If you are flying or traveling on water, most hexes are open terrain, though there are exceptions. Flying into storms or high winds count as difficult or greater difficult terrain. Traveling down a river is open terrain, but traveling upriver is difficult or greater difficult terrain.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Travel"
+    },
     "Overload Vision": {
-      "description": "<p><strong>Trigger</strong> A creature within 60 feet would make an attack roll against you</p>\n<p><strong>Effect</strong> The triggering creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} until the end of the current turn.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until the end of the current turn.</p>\n<p><strong>Critical Failure</strong> The target is blinded until the end of the current turn and dazzled for 1 minute.</p>",
+      "description": "<p><strong>Trigger</strong> A creature within 60 feet would make an attack roll against you</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} until the end of the current turn.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until the end of the current turn.</p>\n<p><strong>Critical Failure</strong> The target is blinded until the end of the current turn and dazzled for 1 minute.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Overload Vision"
     },
     "Cleanse Soul Path": {
       "description": "<p>You meditate, pray, or otherwise try to reinforce your soul's connection to your soulforged armament. This takes 10 minutes. Attempt a counteract check against your <em>soulforged corruption</em>. The counteract level is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of your <em>soulforged corruption</em> by 1 (to a minimum of Stage 1).</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Cleanse Soul Path"
     },
     "Blizzard Evasion": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You take 40 or more physical damage from a single attack</p>\n<p><strong>Effect</strong> You discorporate into a whirling blizzard for up to 3 rounds. During this time, you gain resistance 10 to physical damage and weakness 10 to force damage. You gain a fly speed of 40 feet, but the only action you can take is to @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly}. The first time each round you enter another creature's space while discorporated, or the first time a creature enters your space, that creature takes [[/r {4d8}[cold]]]{4d8 cold damage} and must succeed at a Fortitude saving throw against your class DC or spell DC, whichever is higher, or else be @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}. At the start of your turn, you can end this effect as a free action.</p>\n<p>@Compendium[pf2e.feat-effects.JF2xCqL6t4UJZtUi]{Effect: Blizzard Evasion}</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You take 40 or more physical damage from a single attack</p>\n<hr />\n<p><strong>Effect</strong> You discorporate into a whirling blizzard for up to 3 rounds. During this time, you gain resistance 10 to physical damage and weakness 10 to force damage. You gain a fly speed of 40 feet, but the only action you can take is to @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly}. The first time each round you enter another creature's space while discorporated, or the first time a creature enters your space, that creature takes [[/r {4d8}[cold]]]{4d8 cold damage} and must succeed at a Fortitude saving throw against your class DC or spell DC, whichever is higher, or else be @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}. At the start of your turn, you can end this effect as a free action.</p>\n<p>@Compendium[pf2e.feat-effects.JF2xCqL6t4UJZtUi]{Effect: Blizzard Evasion}</p>",
       "source": "Pathfinder Lost Omens: Monsters of Myth",
       "name": "Blizzard Evasion"
     },
     "Cast a Spell": {
       "description": "<p>You cast a spell you have prepared or in your repertoire. Casting a Spell is a special activity that takes a variable number of actions depending on the spell, as listed in each spell's stat block. As soon as the spellcasting actions are complete, the spell effect occurs.</p>\n<p>Some spells are cast as a reaction or free action. In those cases, you Cast the Spell as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the spell's stat block-for example, \"[reaction] verbal.\"</p>\n<p><strong>Long Casting</strong> Times Some spells take minutes or hours to cast. The Cast a Spell activity for these spells includes a mix of the listed spell components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while casting such a spell, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these spells have the exploration trait, and you can't cast them in an encounter. If combat breaks out while you're casting one, your spell is disrupted.</p>\n<p><strong>Spell Components</strong> Each spell lists the spell components required to cast it after the action icons or text, such as \"[three-actions] material, somatic, verbal.\" The spell components, described in detail below, add traits and requirements to the Cast a Spell activity. If you can't provide the components, you fail to Cast the Spell.</p>\n<ul>\n<li>Material (manipulate)</li>\n<li>Somatic (manipulate)</li>\n<li>Verbal (concentrate)</li>\n<li>Focus (manipulate)</li>\n</ul>\n<p><strong>Disrupted and Lost Spells</strong> Some abilities and spells can disrupt a spell, causing it to have no effect and be lost. When you lose a spell, you've already expended the spell slot, spent the spell's costs and actions, and used the Cast a Spell activity. If a spell is disrupted during a @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell} action, the spell immediately ends.</p>",
+      "source": "Pathfinder Core Rulebook",
       "name": "Cast a Spell"
     },
     "Airy Step": {
@@ -791,18 +941,22 @@
     },
     "Breath Weapon (Cold) (Cone)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[cold]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Cold) (Cone)"
     },
     "Banshee Cry": {
-      "description": "<p><strong>Trigger</strong> A creature within 30 feet Casts a Spell that has a verbal component or Activates an Item using a command Activation</p>\n<p><strong>Effect</strong> You set off a firework to explode with a loud screech near the creature. The creature must attempt a Will save.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature must use an additional action on the triggering action or activity, or it's disrupted.</p>\n<p><strong>Critical Failure</strong> The triggering action is disrupted.</p>",
+      "description": "<p><strong>Trigger</strong> A creature within 30 feet Casts a Spell that has a verbal component or Activates an Item using a command Activation</p>\n<hr />\n<p><strong>Effect</strong> You set off a firework to explode with a loud screech near the creature. The creature must attempt a Will save.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature must use an additional action on the triggering action or activity, or it's disrupted.</p>\n<p><strong>Critical Failure</strong> The triggering action is disrupted.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Banshee Cry"
     },
     "Salt Wound": {
       "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature that has blood and is not at its maximum Hit Points hits you with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You channel salt and brine from your blood into the creature's wounds. The creature must attempt a Fortitude save using your class DC or spell DC, whichever is higher. On a failure, the creature takes [[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Acid Damage} and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} by the pain. On a critical failure, it instead takes [[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Acid Damage} and is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}.</p>",
+      "source": "Pathfinder Lost Omens: Ancestry Guide",
       "name": "Salt Wound"
     },
     "Pistolero's Retort": {
       "description": "<p><strong>Requirements</strong> You're wielding a one-handed firearm or one-handed crossbow.</p>\n<p><strong>Trigger</strong> A foe within the first range increment of the one- handed firearm or one-handed crossbow you're wielding critically fails an attack roll against you.</p>\n<hr />\n<p>You punish your foe's failure with a shot. Make a Strike against the triggering foe with a one-handed firearm or one-handed crossbow.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Pistolero's Retort"
     },
     "Board": {
@@ -842,6 +996,7 @@
     },
     "Beast's Charge": {
       "description": "<p>Your eidolon rushes forward, using its momentum to increase the power of its attack. Your eidolon Strides twice and then Strikes. If the eidolon moved at least 20 feet away from its starting position and moved entirely in a straight line, it gains a +1 circumstance bonus to this attack roll.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Beast's Charge"
     },
     "Leap": {
@@ -856,6 +1011,7 @@
     },
     "Basic Finisher": {
       "description": "<p>You make a graceful, deadly attack. Make a Strike; if you hit and your weapon qualifies for @Compendium[pf2e.classfeatures.RQH6vigvhmiYKKjg]{Precise Strike}, you deal the full [[/r {1d6}]]{1d6 damage} from precise strike.</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Basic Finisher"
     },
     "Ready": {
@@ -865,6 +1021,7 @@
     },
     "Encouraging Words": {
       "description": "<p><strong>Prerequisites</strong> Trained in Diplomacy</p>\n<p><strong>Requirements</strong> The target ally lost Stamina Points within the last round</p>\n<hr />\n<p>You give an ally within 30 feet a quick pep talk, helping them recover. Attempt a Diplomacy check. The DC is usually 15, though the GM might adjust it based on the circumstances. If you have expert proficiency in Diplomacy, you can instead attempt a DC 20 check to increase the Stamina Points recovered by 5; if you have master proficiency, you can attempt a DC 30 check to increase the Stamina Points by 15; if you have legendary proficiency, you can attempt a DC 40 check to increase the Stamina Points by 25. No matter the result, the ally is temporarily immune to Encouraging Words until they either @Compendium[pf2e.actionspf2e.qc0VsZ0UesnurUUB]{Take a Breather} or rest for the day.</p>\n<hr />\n<p><strong>Critical Success</strong> The ally recovers [[/r {2d8} #Stamina Points]]{2d8 Stamina Points}.</p>\n<p><strong>Success</strong> The ally recovers [[/r {1d8} #Stamina Points]]{1d8 Stamina Points}.</p>\n<p><strong>Critical Failure</strong> The ally takes [[/r {1d8}[mental]]]{1d8 mental damage}, but this can reduce only Stamina Points, never Hit Points.</p>",
+      "source": "Pathfinder Gamemastery Guide",
       "name": "Encouraging Words"
     },
     "Identify Magic": {
@@ -893,7 +1050,7 @@
       "name": "Lie"
     },
     "Sense Direction": {
-      "description": "<p>Using the stars, the position of the sun, traits of the geography or flora, or the behavior of fauna, you can stay oriented in the wild. Typically, you attempt a Survival check only once per day, but some environments or changes might necessitate rolling more often. The GM determines the DC and how long this activity takes (usually just a minute or so). More unusual locales or those you're unfamiliar with might require you to have a minimum proficiency rank to Sense Direction. Without a @Compendium[pf2e.equipment-srd.wob6DB1FFdWs0mbp]{Compass}, you take a -2 item penalty to checks to Sense Direction.</p>\n<hr />\n<p><strong>Critical Success</strong> You get an excellent sense of where you are. If you are in an environment with cardinal directions, you know them exactly.</p>\n<p><strong>Success</strong> You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions.</p><h2 class=\"title\">Sample Sense Direction Tasks</h2>\n<ul>\n<li><strong>Untrained</strong> determine a cardinal direction using the sun</li>\n<li><strong>Trained</strong> find an overgrown path in a forest</li>\n<li><strong>Expert</strong> navigate a hedge maze</li>\n<li><strong>Master</strong> navigate a byzantine labyrinth or relatively featureless desert</li>\n<li><strong>Legendary</strong> navigate an ever-changing dream realm</li>\n</ul>",
+      "description": "<p>Using the stars, the position of the sun, traits of the geography or flora, or the behavior of fauna, you can stay oriented in the wild. Typically, you attempt a <span data-pf2-action=\"senseDirection\">Survival</span> check only once per day, but some environments or changes might necessitate rolling more often. The GM determines the DC and how long this activity takes (usually just a minute or so). More unusual locales or those you're unfamiliar with might require you to have a minimum proficiency rank to Sense Direction. Without a @Compendium[pf2e.equipment-srd.wob6DB1FFdWs0mbp]{Compass}, you take a -2 item penalty to checks to Sense Direction.</p>\n<hr />\n<p><strong>Critical Success</strong> You get an excellent sense of where you are. If you are in an environment with cardinal directions, you know them exactly.</p>\n<p><strong>Success</strong> You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions.</p>\n<h2 class=\"title\">Sample Sense Direction Tasks</h2>\n<ul>\n<li><strong>Untrained</strong> determine a cardinal direction using the sun</li>\n<li><strong>Trained</strong> find an overgrown path in a forest</li>\n<li><strong>Expert</strong> navigate a hedge maze</li>\n<li><strong>Master</strong> navigate a byzantine labyrinth or relatively featureless desert</li>\n<li><strong>Legendary</strong> navigate an ever-changing dream realm</li>\n</ul>",
       "source": "Pathfinder Core Rulebook",
       "name": "Sense Direction"
     },
@@ -904,6 +1061,7 @@
     },
     "Covered Reload": {
       "description": "<p>You duck into a safe position or minimize your profile while reloading to make your next attack. Either @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover} or attempt to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, then Interact to reload. As normal, you must meet the requirements to Take Cover or Hide; you must be @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}, benefiting from cover, or near a feature that allows you to Take Cover, and you need to be benefiting from cover or @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} to a creature to Hide from that creature.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Covered Reload"
     },
     "Trip": {
@@ -913,10 +1071,12 @@
     },
     "Breath Weapon (Cold) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[cold]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Cold) (Line)"
     },
     "Tap Ley Line": {
       "description": "<p>You attempt to manipulate the magical essence of a ley line that you're aware of within 30 feet. The GM determines the DC based on the hard DC for the ley line's level.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain the ley line's benefits until the end of your next turn.</p>\n<p><strong>Success</strong> You gain the ley line's benefits until the end of your turn.</p>\n<p><strong>Failure</strong> You take mental damage equal to 1d6 × the ley line's level. You can't Tap the Ley Line again for 1 hour.</p>\n<p><strong>Critical Failure</strong> As failure, and you're subject to the ley line's backlash effect. You can't Tap the Ley Line again for 24 hours.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Tap Ley Line"
     },
     "Harvest Heartsliver": {
@@ -925,21 +1085,18 @@
       "name": "Harvest Heartsliver"
     },
     "Jinx": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You can curse another creature with clumsiness. This curse has a range of 30 feet, and you must be able to see your target. The target gets a Will saving throw to resist this jinx, using your class DC or spell DC, whichever is higher.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You can curse another creature with clumsiness. This curse has a range of 30 feet, and you must be able to see your target. The target gets a @Check[type:will|dc:resolve(@actor.attributes.classOrSpellDC.value)] to resist this jinx, using your class DC or spell DC, whichever is higher.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p>",
       "source": "Pathfinder Advanced Player's Guide",
       "name": "Jinx"
     },
     "Spin Tale": {
-      "description": "<p><strong>Frequency</strong> once every 10 minutes</p>\n<p><strong>Effect</strong> You tell a story, designating one of your allies (but not yourself) as the hero of the story, and one enemy as the villain; both must be within 60 feet. The hero gains a +1 status bonus to attack rolls and saving throws against the villain until the start of your next turn. If you Spin a Tale on your next turn, the story continues for another round, for a maximum of 10 rounds. While the tale continues, minor, crude illusions spring into being in your space; these are arcane illusion effects that have no mechanical impact other than illustrating your tale.</p>\n<p>@Compendium[pf2e.feat-effects.UzIamWcEJTOjwfoA]{Effect: Spin Tale}</p>",
+      "description": "<p><strong>Frequency</strong> once every 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> You tell a story, designating one of your allies (but not yourself) as the hero of the story, and one enemy as the villain; both must be within 60 feet. The hero gains a +1 status bonus to attack rolls and saving throws against the villain until the start of your next turn. If you Spin a Tale on your next turn, the story continues for another round, for a maximum of 10 rounds. While the tale continues, minor, crude illusions spring into being in your space; these are arcane illusion effects that have no mechanical impact other than illustrating your tale.</p>\n<p>@Compendium[pf2e.feat-effects.UzIamWcEJTOjwfoA]{Effect: Spin Tale}</p>",
       "source": "Pathfinder #170: Spoken on the Song Wind",
       "name": "Spin Tale"
     },
-    "Shootist's Draw": {
-      "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Effect</strong> You Interact to draw a @Compendium[pf2e.equipment-srd.XyA6PKV46aNlLXOd]{Hand Crossbow} and Strike with it, or you Strike with a loaded hand crossbow you're already holding and then Interact to stow it.</p>",
-      "name": "Shootist's Draw"
-    },
     "Fight with Fear": {
-      "description": "<p><strong>Trigger</strong> A creature that you can see uses a mental effect against you</p>\n<p><strong>Effect</strong> The triggering creature must attempt a Will save, which has the following effects.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}, and you gain a +2 status bonus to your saving throw or other defense against the triggering mental effect.</p>\n<p><strong>Critical Failure</strong> The creature is frightened 2, and you're unaffected by the triggering mental effect.</p>",
+      "description": "<p><strong>Trigger</strong> A creature that you can see uses a mental effect against you</p>\n<hr />\n<p><strong>Effect</strong> The triggering creature must attempt a Will save, which has the following effects.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}, and you gain a +2 status bonus to your saving throw or other defense against the triggering mental effect.</p>\n<p><strong>Critical Failure</strong> The creature is frightened 2, and you're unaffected by the triggering mental effect.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Fight with Fear"
     },
     "Craft Disharmonic Instrument": {
@@ -947,8 +1104,14 @@
       "source": "Pathfinder Lost Omens: Monsters of Myth",
       "name": "Craft Disharmonic Instrument"
     },
+    "Secure Disguises": {
+      "description": "<p>You seek to procure or create disguises. Attempt a normal, hard, or very hard Crafting, Deception, Performance, or Society check.</p>\n<hr />\n<p><strong>Success</strong> You procure or creates disguises, gaining 1 EP that can be used only to maintain a cover identity.</p>\n<p><strong>Failure</strong> Your efforts result in an unusable disguise.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Secure Disguises"
+    },
     "Visions of Sin": {
       "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p>Your eidolon summons images of its sin into the mind of a target creature within 30 feet, tormenting and confusing the target. The target must attempt a Will save against your spell DC with the following effects. The effects last until the end of your next turn, but your eidolon can use a single action, which has the concentrate trait, to extend the effects until the end of your next turn (like Sustaining a Spell), to a maximum duration of 1 minute.</p>\n<p>If the target is evil, it takes a -2 circumstance penalty to its save. Regardless of whether it succeeds, the target becomes temporarily immune for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target can't use reactions.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is also @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} for 1 round. The confusion can't be extended, but the other effects can.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Visions of Sin"
     },
     "Palm an Object": {
@@ -957,12 +1120,19 @@
       "name": "Palm an Object"
     },
     "Goblin Jubilee": {
-      "description": "<p><strong>Cost</strong> 3 batches of infused reagents</p>\n<p><strong>Effect</strong> Chaos fills a @Template[type:burst|distance:20] within 120 feet. All creatures in the area takes [[/r {3d6}[fire] + {3d6}[sonic]]]{3d6 fire damage and 3d6 sonic damage} and must attempt a Fortitude save. A goblin jubilee display costs 3 batches of infused reagents, rather than 1.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn and takes half damage.</p>\n<p><strong>Failure</strong> The creature is dazzled and deafened for 1 minute and takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, dazzled and deafened for 1 minute, and takes double damage.</p>",
+      "description": "<p><strong>Cost</strong> 3 batches of infused reagents</p>\n<hr />\n<p><strong>Effect</strong> Chaos fills a @Template[type:burst|distance:20] within 120 feet. All creatures in the area takes [[/r {3d6}[fire] + {3d6}[sonic]]]{3d6 fire damage and 3d6 sonic damage} and must attempt a Fortitude save. A goblin jubilee display costs 3 batches of infused reagents, rather than 1.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} and @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} until the end of its next turn and takes half damage.</p>\n<p><strong>Failure</strong> The creature is dazzled and deafened for 1 minute and takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, dazzled and deafened for 1 minute, and takes double damage.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Goblin Jubilee"
     },
     "Reloading Strike": {
       "description": "<p><strong>Requirements</strong> You're wielding a firearm or crossbow in one hand, and your other hand either wields a one-handed melee weapon or is empty.</p>\n<hr />\n<p>You make a melee attack and then reload your gun in one fluid movement. Strike an opponent within reach with your one-handed melee weapon (or, if your other hand is empty, with an unarmed attack), and then Interact to reload. You don't need a free hand to reload in this way.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Reloading Strike"
+    },
+    "Final Spite": {
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You're reduced to 0 Hit Points</p>\n<hr />\n<p><strong>Effect</strong> You make a Strike before falling @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Final Spite"
     },
     "Expeditious Inspection": {
       "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>You observe and assess your surroundings with great speed. You @Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Recall Knowledge}, @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek}, or @Compendium[pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Sense Motive}.</p>",
@@ -975,7 +1145,7 @@
       "name": "Call to Axis"
     },
     "Toxic Skin": {
-      "description": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> A creature touches you, such as by Grappling you, successfully hitting you with an unarmed attack, or using a touch-range spell against you.</p>\n<hr />\n<p>You exude a deadly toxin. The triggering creature takes [[/r {1d4}[poison]]]{1d4 poison damage} (basic Fortitude save using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4.</p>\n<p>[[/r ceil(@actor.level/2)d4 #poison]]{Levelled} poison damage</p>",
+      "description": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> A creature touches you, such as by Grappling you, successfully hitting you with an unarmed attack, or using a touch-range spell against you.</p>\n<hr />\n<p>You exude a deadly toxin. The triggering creature takes [[/r {1d4}[poison]]]{1d4 poison damage} (@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true|traits:poison] using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4.</p>\n<p>[[/r ceil(@actor.level/2)d4 #poison]]{Levelled} poison damage</p>",
       "source": "Pathfinder Lost Omens: The Mwangi Expanse",
       "name": "Toxic Skin"
     },
@@ -985,7 +1155,8 @@
       "name": "Squeeze"
     },
     "That's My Number": {
-      "description": "<p><strong>Trigger</strong> You roll your lucky number as your d20 result on a non‑secret attack roll, saving throw, or skill check</p>\n<p><strong>Effect</strong> You call upon the fortune stored within your lucky number and reroll the triggering check. However, pushing your luck has a price: if your result on the reroll is the same number again, you critically fail, regardless of what degree of success you ordinarily would have received.</p>",
+      "description": "<p><strong>Trigger</strong> You roll your lucky number as your d20 result on a non‑secret attack roll, saving throw, or skill check</p>\n<hr />\n<p><strong>Effect</strong> You call upon the fortune stored within your lucky number and reroll the triggering check. However, pushing your luck has a price: if your result on the reroll is the same number again, you critically fail, regardless of what degree of success you ordinarily would have received.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "That's My Number"
     },
     "Scout": {
@@ -995,6 +1166,7 @@
     },
     "Primal Roar": {
       "description": "<p>Your eidolon unleashes a primal roar or other such terrifying noise that fits your eidolon's form. Your eidolon attempts Intimidation checks to @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} each enemy that can hear the roar; these Demoralize attempts don't take any penalty for not sharing a language.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Primal Roar"
     },
     "Run Over": {
@@ -1014,27 +1186,32 @@
     },
     "Soaring Flight": {
       "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p>To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} Speed equal to your land Speed or 20 feet, whichever is greater.</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Soaring Flight"
     },
     "Coughing Dragon": {
-      "description": "<p><strong>Cost</strong> 2 batches of infused reagents</p>\n<p><strong>Effect</strong> Choose either auditory or visual effects. The display gains that trait, and you attempt to counteract one or more effects within 60 feet that have this trait. On a success, the effect is suppressed until the start of your next turn, rather than ending entirely. Use your Fireworks Lore modifier as your counteract modifier, and your counteract level is equal to half your advanced alchemy level (rounded up). A coughing dragon costs 2 batches of infused reagents rather than 1, but you can increase the cost to 3 batches and spend an additional action to create an even bigger coughing dragon display that attempts to counteract both auditory and visual effects at the same time.</p>",
+      "description": "<p><strong>Cost</strong> 2 batches of infused reagents</p>\n<hr />\n<p><strong>Effect</strong> Choose either auditory or visual effects. The display gains that trait, and you attempt to counteract one or more effects within 60 feet that have this trait. On a success, the effect is suppressed until the start of your next turn, rather than ending entirely. Use your Fireworks Lore modifier as your counteract modifier, and your counteract level is equal to half your advanced alchemy level (rounded up). A coughing dragon costs 2 batches of infused reagents rather than 1, but you can increase the cost to 3 batches and spend an additional action to create an even bigger coughing dragon display that attempts to counteract both auditory and visual effects at the same time.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Coughing Dragon"
     },
     "Call Upon the Brightness": {
-      "description": "<p><strong>Trigger</strong> You attempt an attack roll, skill check, or saving throw while performing the course of action from your <em>@Compendium[pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augury}</em>, but you haven't rolled yet</p>\n<hr />\n<p>You gain a +1 status bonus to the triggering check, or a +2 status bonus if the result of the augury was \"woe\" and you proceeded anyway.</p>",
+      "description": "<p><strong>Trigger</strong> You attempt an attack roll, skill check, or saving throw while performing the course of action from your <em>@Compendium[pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augury}</em>, but you haven't rolled yet</p>\n<hr />\n<p>You gain a +1 status bonus to the triggering check, or a +2 status bonus if the result of the augury was \"woe\" and you proceeded anyway.</p>\n<p>@Compendium[pf2e.feat-effects.xPg5wzzKNxJy18rU]{Effect: Brightness Seeker}</p>",
       "source": "Pathfinder Lost Omens: Character Guide",
       "name": "Call Upon the Brightness"
     },
     "Manifest Eidolon": {
       "description": "<p>Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest it instead.</p>\n<p>The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points, your eidolon's physical form dissolves: your eidolon unmanifests, and you need to use Manifest Eidolon to manifest it again.</p>\n<hr />\n<p><strong>Special</strong> This activity has the trait matching your eidolon's tradition (arcane, divine, occult, or primal).</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Manifest Eidolon"
     },
     "Seething Frenzy": {
       "description": "<p>Your eidolon's fury boils over into a reckless, out-of-control frenzy. While frenzied, your eidolon is affected by <em>boost eidolon</em> and gains temporary Hit Points equal to your level, but it takes a -2 penalty to AC. Your eidolon can't voluntarily end the frenzy or start another frenzy while in the frenzy.</p>\n<p>The frenzy lasts for 1 minute, after which it's @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} for 1 minute and can't start another frenzy for 1 minute.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Seething Frenzy"
     },
     "Explode": {
-      "description": "<p>You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals [[/r max(2, @actor.level)d6[fire]]]{leveled fire damage} with a basic Reflex save to all creatures in a @Template[type:emanation|distance:5] around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a minion).</p>\n<p>At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.</p>\n<p>If you have the breakthrough innovation class feature, you can choose either a 5-foot or @Template[type:emanation|distance:10] for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or @Template[type:emanation|distance:15].</p>\n<p>@Check[type:flat|dc:17|name:Unstable Flat Check|traits:unstable|showDC:all]{Unstable Check}</p>\n<p>On a failure, the innovation malfunctions in a spectacular (though harmless) fashion, such as a belch of smoke or shower of sparks, and it becomes incapable of being used for further unstable actions.</p>\n<p>On a critical failure, you also take [[{@actor.level}[fire]]]{fire damage equal to your level}.</p>",
+      "description": "<p>You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals [[/r max(2, @actor.level)d6[fire]]]{leveled fire damage} with a @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] to all creatures in a @Template[type:emanation|distance:5] around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a minion).</p>\n<p>At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.</p>\n<p>If you have the breakthrough innovation class feature, you can choose either a 5-foot or @Template[type:emanation|distance:10] for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or @Template[type:emanation|distance:15].</p>\n<p>@Check[type:flat|dc:17|name:Unstable Flat Check|showDC:all|traits:unstable]{Unstable Check}</p>\n<p>On a failure, the innovation malfunctions in a spectacular (though harmless) fashion, such as a belch of smoke or shower of sparks, and it becomes incapable of being used for further unstable actions.</p>\n<p>On a critical failure, you also take [[/r {@actor.level}[fire]]]{fire damage equal to your level}.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Explode"
     },
     "Flurry of Blows": {
@@ -1043,7 +1220,7 @@
       "name": "Flurry of Blows"
     },
     "Barbed Quills": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are hit with an unarmed strike or a strike with a non-reach melee weapon.</p>\n<hr />\n<p>You break off quills in your attacker's flesh. You deal [[/r {1d8}[piercing]]]{1d8 piercing damage} to the triggering creature (basic Reflex save using your class DC or spell DC, whichever is higher.) On a critical failure, the creature also takes [[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage} as your quills hook into its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 1d8 and the persistent piercing damage increases by 1.</p>\n<p>[[/r ceil(@actor.level/2)d8 #piercing]]{Levelled} piercing damage</p>\n<p>[[/r 1d4+ceil(@actor.level/2)-1 #persistent bleed]]{Levelled} @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}</p>\n<hr />\n<p><em>Note: +1 bonus from Bristle is not added automatically</em></p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are hit with an unarmed strike or a strike with a non-reach melee weapon.</p>\n<hr />\n<p>You break off quills in your attacker's flesh. You deal [[/r {1d8}[piercing]]]{1d8 piercing damage} to the triggering creature (basic Reflex save using your class DC or spell DC, whichever is higher.) On a critical failure, the creature also takes @Localize[PF2E.PersistentDamage.Bleed1d4.success] as your quills hook into its flesh. At 3rd level, and every 2 levels thereafter, this damage increases by 1d8 and the persistent piercing damage increases by 1.</p>\n<p>[[/r ceil(@actor.level/2)d8 #piercing]]{Levelled} piercing damage</p>\n<p>[[/r {1d4+ceil(@actor.level/2)-1}[persistent,bleed]]]{Levelled} @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}</p>\n<hr />\n<p><em>Note: +1 bonus from Bristle is not added automatically</em></p>",
       "source": "Pathfinder Lost Omens: The Mwangi Expanse",
       "name": "Barbed Quills"
     },
@@ -1053,7 +1230,8 @@
       "name": "Mark for Death"
     },
     "Smoke Blending": {
-      "description": "<p><strong>Trigger</strong> A creature attempts a flat check to target you because you're concealed or hidden due to fog, haze, mist, or smoke</p>\n<p><strong>Effect</strong> You shroud yourself in smoke, making it harder for your foe to hit you. If you're @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}, the DC of the flat check increases from 5 to 7; if you're @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}, it increases from 11 to 13.</p>",
+      "description": "<p><strong>Trigger</strong> A creature attempts a flat check to target you because you're concealed or hidden due to fog, haze, mist, or smoke</p>\n<hr />\n<p><strong>Effect</strong> You shroud yourself in smoke, making it harder for your foe to hit you. If you're @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}, the DC of the flat check increases from 5 to 7; if you're @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}, it increases from 11 to 13.</p>",
+      "source": "Pathfinder Lost Omens: Ancestry Guide",
       "name": "Smoke Blending"
     },
     "Gather Information": {
@@ -1068,10 +1246,11 @@
     },
     "Interact": {
       "description": "<p>You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful.</p>",
+      "source": "Pathfinder Core Rulebook",
       "name": "Interact"
     },
     "Command an Animal": {
-      "description": "<p>You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat.</p>\n<p>You automatically fail if the animal is hostile or unfriendly to you. If the animal is helpful to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like @Compendium[pf2e.feats-srd.Rq5wkA8DtsmbzoGV]{Ride}.</p>\n<p>Most animals know the Drop Prone, Leap, Seek, Stand, Stride, and Strike basic actions. If an animal knows an activity, such as a horse's Gallop, you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then Strike.</p>\n<hr />\n<p><strong>Success</strong> The animal does as you command on its next turn.</p>\n<p><strong>Failure</strong> The animal is hesitant or resistant, and it does nothing.</p>\n<p><strong>Critical Failure</strong> The animal misbehaves or misunderstands, and it takes some other action determined by the GM.</p>",
+      "description": "<p>You issue an order to an animal. Attempt a <span data-pf2-action=\"commandAnAnimal\" data-pf2-glyph=\"A\">Nature</span> check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat.</p>\n<p>You automatically fail if the animal is hostile or unfriendly to you. If the animal is helpful to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like @Compendium[pf2e.feats-srd.Rq5wkA8DtsmbzoGV]{Ride}.</p>\n<p>Most animals know the Drop Prone, Leap, Seek, Stand, Stride, and Strike basic actions. If an animal knows an activity, such as a horse's Gallop, you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then Strike.</p>\n<hr />\n<p><strong>Success</strong> The animal does as you command on its next turn.</p>\n<p><strong>Failure</strong> The animal is hesitant or resistant, and it does nothing.</p>\n<p><strong>Critical Failure</strong> The animal misbehaves or misunderstands, and it takes some other action determined by the GM.</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Command an Animal"
     },
@@ -1097,10 +1276,12 @@
     },
     "Grim Swagger": {
       "description": "<p><strong>Requirements</strong> You have a one-handed firearm or one-handed crossbow visibly worn or wielded.</p>\n<hr />\n<p>You attempt to clear the room by promising a grim fate to anyone who doesn't do what you say, and quickly. Attempt a Deception or Intimidation check against the Will DCs of each creature within 30 feet, except for your allies. Regardless of whether you succeed or fail, each subject is temporarily immune to your Grim Swagger for 10 minutes. For example, if you attempt a Deception check, you lie and boast about your prowess or the large group of friends on their way to back you up. If you attempt an Intimidation check, you promise everyone in the room that you're going to be the last thing they see.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3}. If it's lower level than you, it's also @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>\n<p><strong>Success</strong> The creature becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Grim Swagger"
     },
     "Instinctive Obfuscation": {
       "description": "<p><strong>Prerequisites</strong> At least one arcane or occult innate spell gained from a gnome heritage or gnome ancestry feat</p>\n<p><strong>Frequency</strong> Once per day</p>\n<p><strong>Trigger</strong> You are attacked by a foe</p>\n<hr />\n<p>The magic within you manifests as a natural reaction to threats. You gain the effects of <em>@Compendium[pf2e.spells-srd.j8vIoIEWElvpwkcI]{Mirror Image}</em> but with two images instead of three. The tradition of this action matches the tradition of your gnome ancestry options.</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Instinctive Obfuscation"
     },
     "Craft": {
@@ -1109,8 +1290,14 @@
       "name": "Craft"
     },
     "Divert Lightning": {
-      "description": "<p><strong>Requirements</strong> You aren't immune to electricity</p>\n<p><strong>Trigger</strong> A creature within 30 feet of you is targeted by an electricity effect or is in the area of an electricity effect.</p>\n<p><strong>Effect</strong> You draw the electricity to yourself like a lightning rod in order to shield the target. If the triggering effect was targeted, it targets you instead of the triggering creature. If it was an area effect, it leaps from the triggering creature's space to fill your space instead. This doesn't divert lightning from any other creatures targeted by or in the area of the lightning. You're automatically hit by or automatically fail your save against the effect. You then can't Divert Lightning for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+      "description": "<p><strong>Requirements</strong> You aren't immune to electricity</p>\n<p><strong>Trigger</strong> A creature within 30 feet of you is targeted by an electricity effect or is in the area of an electricity effect.</p>\n<hr />\n<p><strong>Effect</strong> You draw the electricity to yourself like a lightning rod in order to shield the target. If the triggering effect was targeted, it targets you instead of the triggering creature. If it was an area effect, it leaps from the triggering creature's space to fill your space instead. This doesn't divert lightning from any other creatures targeted by or in the area of the lightning. You're automatically hit by or automatically fail your save against the effect. You then can't Divert Lightning for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Divert Lightning"
+    },
+    "Change Tradition Focus": {
+      "description": "<p><strong>Requirements</strong> You are in a duel and are trained in the skill for the tradition you're changing your focus to (Arcana for arcane, Occultism for occult, Nature for primal, or Religion for divine).</p>\n<hr />\n<p>You change your tradition focus to another magical tradition.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Change Tradition Focus"
     },
     "Study": {
       "description": "<p><strong>Requirements</strong> You are an initiate, attendant, or conversant.</p>\n<hr />\n<p>You give everything you have to your studies, in keeping with your branch. Choose either your primary or secondary branch and attempt a skill check with one of the branch's associated skills against a standard DC of the branch's level.</p>\n<hr />\n<p><strong>Critical Success</strong> Incredible results! You ace every exam and cause a stir that all the instructors notice. Increase the level of the branch you chose by 2.</p>\n<p><strong>Success</strong> You succeed in your studies admirably. Increase the level of the branch you chose by 1.</p>\n<p><strong>Failure</strong> You need to work harder and try again. Your branch level remains the same.</p>\n<p><strong>Critical Failure</strong> You make a major mistake that requires you to perform remedial studies. The next time you would get an opportunity to attempt this activity, you must skip that opportunity to catch up.</p>",
@@ -1119,12 +1306,18 @@
     },
     "Breath Weapon (Acid) (Line)": {
       "description": "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[acid]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Breath Weapon (Acid) (Line)"
     },
     "Point Out": {
       "description": "<p><strong>Requirements</strong> A creature is undetected by one or more of your allies but isn't undetected by you</p>\n<hr />\n<p>You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to your allies, rather than @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}. This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's Stealth DC or they misunderstand and believe the target is in a different location.</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Point Out"
+    },
+    "Research": {
+      "description": "<p>You comb through information to learn more about the topic at hand. Choose your research topic, section of the library, or other division depending on the form of research, and attempt a skill check. The skills to use and the DC for the check depend on the choice you made.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain 2 RP.</p>\n<p><strong>Success</strong> You gain 1 RP.</p>\n<p><strong>Critical Failure</strong> You make a false discovery and lose 1 RP.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Research"
     },
     "Coerce": {
       "description": "<p>With threats either veiled or overt, you attempt to bully a creature into doing what you want. You must spend at least 1 minute of conversation with a creature you can see and that can either see or sense you. At the end of the conversation, attempt an <span data-pf2-action=\"coerce\">Intimidation</span> check against the target's Will DC, modified by any circumstances the GM determines.</p>\n<hr />\n<p><strong>Critical Success</strong> The target gives you the information you seek or agrees to follow your directives so long as they aren't likely to harm the target in any way. The target continues to comply for an amount of time determined by the GM but not exceeding 1 day, at which point the target becomes unfriendly (if they weren't already unfriendly or hostile). However, the target is too scared of you to retaliate - at least in the short term.</p>\n<p><strong>Success</strong> As critical success, but once the target becomes unfriendly, they might decide to act against you-for example, by reporting you to the authorities or assisting your enemies.</p>\n<p><strong>Failure</strong> The target doesn't do what you say, and if they were not already unfriendly or hostile, they become unfriendly.</p>\n<p><strong>Critical Failure</strong> The target refuses to comply, becomes hostile if they weren't already, and can't be Coerced by you for at least 1 week.</p>",
@@ -1133,6 +1326,7 @@
     },
     "Field of Roots": {
       "description": "<p>Your eidolon extends its roots underground to entangle and possibly damage all foes nearby. All enemies within your eidolon's reach take damage of the same type and amount as your eidolon's most damaging Strike, depending on their Reflex saves. Any ongoing effects of the save last until the enemy either Escapes or leaves your eidolon's reach.</p>\n<p>After using Field of Roots, your eidolon is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} until it takes a single action, which has the manipulate trait, to detach from the ground; this also ends any remaining effects on enemies from Field of Roots.</p>\n<hr />\n<p><strong>Critical Success</strong> The enemy is unaffected.</p>\n<p><strong>Success</strong> The enemy takes no damage, but takes a -10 foot circumstance penalty to its Speeds.</p>\n<p><strong>Failure</strong> The enemy takes half damage, takes a -10-foot circumstance penalty to its Speeds, and, at the end of each of its turns, takes half damage again.</p>\n<p><strong>Critical Failure</strong> The enemy is immobilized, takes full damage, and, at the end of each of its turns, takes full damage again.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Field of Roots"
     },
     "Follow the Expert": {
@@ -1140,8 +1334,14 @@
       "source": "Pathfinder Core Rulebook",
       "name": "Follow the Expert"
     },
+    "Energy Emanation (Electricity)": {
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Energy bursts forth from your body. You deal 1d6 electricity damage to all adjacent creatures (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6 damage.</p>\n<p>[[/r (ceil(@actor.level/2))d6[electricity]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Lost Omens: Character Guide",
+      "name": "Energy Emanation (Electricity)"
+    },
     "Whirlwind Maul": {
       "description": "<p>Your eidolon lashes out in all directions. It makes a melee unarmed Strike against up to four enemies within reach. It can choose different unarmed attacks for each enemy. Each attack counts toward your multiple attack penalty, but you don't increase your penalty until the eidolon has made all its attacks.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Whirlwind Maul"
     },
     "Glimpse of Redemption": {
@@ -1151,20 +1351,28 @@
     },
     "Clear a Path": {
       "description": "<p><strong>Requirements</strong> You're wielding a two-handed firearm or two-handed crossbow.</p>\n<hr />\n<p>You push outward with your weapon to clear some space before quickly reloading a fresh round. You make an Athletics check to @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} an opponent within your reach using your weapon, then Interact to reload. For this Shove, you don't need a free hand, and you add the weapon's item bonus on attack rolls (if any) to the Athletics check. If your last action was a ranged Strike with the weapon, use the same multiple attack penalty as that Strike for the Shove; the Shove still counts toward your multiple attack penalty on further attacks as normal.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Clear a Path"
     },
     "Draconic Frenzy": {
       "description": "<p>Your eidolon makes one Strike with their primary unarmed attack and two Strikes with their secondary unarmed attack (in any order). If any of these attacks critically hits an enemy, your eidolon instantly recovers the use of their Breath Weapon.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Draconic Frenzy"
     },
     "Chassis Deflection": {
-      "description": "<p><strong>Trigger</strong> A critical hit deals physical damage to you.</p>\n<hr />\n<p>Attempt a DC 17 flat check. If you are successful, the attack becomes a normal hit.</p>",
+      "description": "<p><strong>Trigger</strong> A critical hit deals physical damage to you.</p>\n<hr />\n<p>Attempt a @Check[type:flat|dc:17]. If you are successful, the attack becomes a normal hit.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Chassis Deflection"
     },
     "Drive": {
       "description": "<p><strong>Requirements</strong> You are piloting a vehicle. You pilot your vehicle to move.</p>\n<p>Decide how many actions you intend to spend before you begin Driving. The effects depend on the number of actions you spend. You can't Drive through spaces occupied by creatures, even if they are allies.</p>\n<p><span class=\"pf2-icon\">1</span> Attempt a piloting check. On a success, the vehicle moves up to its Speed and can turn normally. On a failure, the vehicle moves its Speed in a straight line. On a critical failure, the vehicle moves its Speed in a straight line and becomes uncontrolled</p>\n<p><span class=\"pf2-icon\">2 </span>(reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.</p>\n<p><span class=\"pf2-icon\">3</span> (reckless) You take a -5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading.</p>",
       "source": "Pathfinder Gamemastery Guide",
       "name": "Drive"
+    },
+    "Sense Weakness": {
+      "description": "<p><strong>Trigger</strong> You attempt a melee Strike against your opponent, but haven't rolled yet.</p>\n<p><strong>Requirements</strong> You're in a duel, you're trained in Perception, and you rolled a Perception check for initiative this round.</p>\n<hr />\n<p>You pick a precise moment to attack, giving you an edge. Your opponent is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against the attack. If your opponent is using Deception for initiative when this ability is used, they are instead flat-footed until the start of their next turn.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Sense Weakness"
     },
     "Take Cover": {
       "description": "<p><strong>Requirements</strong> You are benefiting from cover, are near a feature that allows you to take cover, or are @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}</p>\n<hr />\n<p>You press yourself against a wall or duck behind an obstacle to take better advantage of cover. If you would have standard cover, you instead gain greater cover, which provides a +4 circumstance bonus to AC; to Reflex saves against area effects; and to Stealth checks to @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak}, or otherwise avoid detection. Otherwise, you gain the benefits of standard cover (a +2 circumstance bonus instead). This lasts until you move from your current space, use an attack action, become @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}, or end this effect as a free action.</p>",
@@ -1178,18 +1386,27 @@
     },
     "Vital Shot": {
       "description": "<p>Your careful shot against an unsuspecting opponent pierces a vital artery or organ. Make a ranged Strike. If the target is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}, the Strike deals an extra die of weapon damage, and the foe takes persistent bleed damage equal to the amount of precision damage from your One Shot, One Kill.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Vital Shot"
     },
     "Boarding Assault": {
       "description": "<p>Either Stride twice or attempt an Acrobatics check (DC determined by the GM, but usually DC 20) to swing on a rope up to twice your Speed.</p>\n<p>If you boarded or disembarked from a boat or similar vehicle during this movement, you can make a melee Strike that deals one additional weapon damage die.</p>",
+      "source": "Pathfinder Advanced Player's Guide",
       "name": "Boarding Assault"
     },
+    "Energy Emanation (Fire)": {
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Energy bursts forth from your body. You deal 1d6 fire damage to all adjacent creatures (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] save using your class DC or spell DC, whichever is higher). At 3rd level, and every 2 levels thereafter, this damage increases by 1d6 damage.</p>\n<p>[[/r (ceil(@actor.level/2))d6[fire]]]{Levelled Damage}</p>",
+      "source": "Pathfinder Lost Omens: Character Guide",
+      "name": "Energy Emanation (Fire)"
+    },
     "Prophecy's Pawn": {
-      "description": "<p><strong>Trigger</strong> You fail a saving throw, attack roll, or skill check</p>\n<p><strong>Effect</strong> You twist the prophecy in your favor, which will have consequences later. Reroll the failed check. You must use the result of the second roll.</p>\n<p>For 24 hours afterward, the GM can force you to reroll a successful saving throw, attack roll, or skill check as fate balances the scale. This is a misfortune effect. You can't use prophecy's pawn again until the GM uses this option or 24 hours pass, whichever comes first.</p>",
+      "description": "<p><strong>Trigger</strong> You fail a saving throw, attack roll, or skill check</p>\n<hr />\n<p><strong>Effect</strong> You twist the prophecy in your favor, which will have consequences later. Reroll the failed check. You must use the result of the second roll.</p>\n<p>For 24 hours afterward, the GM can force you to reroll a successful saving throw, attack roll, or skill check as fate balances the scale. This is a misfortune effect. You can't use prophecy's pawn again until the GM uses this option or 24 hours pass, whichever comes first.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Prophecy's Pawn"
     },
     "Set Explosives": {
-      "description": "<p><strong>Requirements</strong> You have 1 or 2 bombs in hand</p>\n<p><strong>Effect</strong> You attach the bombs to an inanimate object within your reach, such as a door, wall, or column, and rig them to detonate at a set time. The bombs explode at a specific time you determine (such as after your next action or at the start of your next turn, to a maximum of 1 minute), dealing their damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, also combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, Calculated Splash and similar effects don't apply. Making sure your timing is correct requires concentration, so you can't Set Explosives again while you're waiting for a previously set bomb to detonate.</p>",
+      "description": "<p><strong>Requirements</strong> You have 1 or 2 bombs in hand</p>\n<hr />\n<p><strong>Effect</strong> You attach the bombs to an inanimate object within your reach, such as a door, wall, or column, and rig them to detonate at a set time. The bombs explode at a specific time you determine (such as after your next action or at the start of your next turn, to a maximum of 1 minute), dealing their damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, also combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, Calculated Splash and similar effects don't apply. Making sure your timing is correct requires concentration, so you can't Set Explosives again while you're waiting for a previously set bomb to detonate.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Set Explosives"
     },
     "Release": {
@@ -1198,12 +1415,24 @@
       "name": "Release"
     },
     "Jumping Jenny": {
-      "description": "<p><strong>Cost</strong> 2 batches of infused reagents</p>\n<p><strong>Effect</strong> Target a flying creature within 60 feet. Until the start of your next turn, each time that creature attempts to Fly, they must succeed at an Acrobatics check to Maneuver in Flight against the DC of your fireworks display, or the Fly action is disrupted. If all the creature's attempts to Fly are disrupted, at the end of its turn, it falls harmlessly to the ground below. A jumping jenny costs 2 batches of infused reagents, rather than 1.</p>",
+      "description": "<p><strong>Cost</strong> 2 batches of infused reagents</p>\n<hr />\n<p><strong>Effect</strong> Target a flying creature within 60 feet. Until the start of your next turn, each time that creature attempts to Fly, they must succeed at an Acrobatics check to Maneuver in Flight against the DC of your fireworks display, or the Fly action is disrupted. If all the creature's attempts to Fly are disrupted, at the end of its turn, it falls harmlessly to the ground below. A jumping jenny costs 2 batches of infused reagents, rather than 1.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Jumping Jenny"
     },
     "Change Shape (Kitsune)": {
       "description": "<p>You transform into a specific alternate form determined by your heritage. If your heritage doesn't list a form, your alternate form is a tailless form, which is a common Medium humanoid ancestry prevalent where you grew up (typically human). This form is the same age and body type as your true form and has roughly analogous physical traits, such as hair color. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. You lose any unarmed Strikes you gained from a kitsune heritage or ancestry feat in this form. You can remain in your alternate form indefinitely, and you can shift back to your true kitsune form by using this action again.</p>",
+      "source": "Pathfinder Lost Omens: Ancestry Guide",
       "name": "Change Shape (Kitsune)"
+    },
+    "Lay Down Arms": {
+      "description": "<p>You pull your arm off, harmlessly severing it from your body and dropping it in an adjacent square. You can also use this action to reattach your severed arm if it's adjacent to you; it immediately functions normally. If the detached limb was at 0 Hit Points, it takes 10 minutes to reattach it instead of a single action.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Lay Down Arms"
+    },
+    "Dueling Counter": {
+      "description": "<p><strong>Trigger</strong> Your opponent Casts a Spell from the same tradition as your tradition focus.</p>\n<p><strong>Requirements</strong> You are in a duel and have a tradition focus.</p>\n<hr />\n<p>Expend a prepared spell or spell slot. You then attempt to counteract the triggering spell with the expended spell.</p>",
+      "source": "Pathfinder Gamemastery Guide",
+      "name": "Dueling Counter"
     },
     "Rally": {
       "description": "<p><strong>Prerequisites</strong> trained in Diplomacy, Intimidation, or Performance</p>\n<hr />\n<p>You spend 1 minute encouraging your ally. Though this action typically has the auditory and linguistic traits, if you're using the Performance skill, the GM might adjust the traits for this action to match the traits for your type of performance.</p>\n<p>Attempt a DC 15 skill check. The GM might adjust this DC based on the circumstances, such as attempting to Rally an ally who just suffered a humiliating defeat.</p>\n<hr />\n<p><strong>Critical Success</strong> The ally can spend 1 Resolve Point to regain all their Stamina Points.</p>\n<p><strong>Success</strong> You can continue encouraging your ally for a total of 10 minutes. If you do, they can spend 1 Resolve Point to regain all their Stamina Points.</p>\n<p><strong>Critical Failure</strong> The ally takes [[/r {1d8}[mental]]]{1d8 mental damage}, but this can reduce only Stamina Points, never Hit Points.</p>",
@@ -1221,21 +1450,29 @@
       "name": "Pointed Question"
     },
     "Raise a Shield": {
-      "description": "<p><strong>Requirements</strong> You are wielding a shield</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>\n<p>@Compendium[pf2e.action-macros.4hfQEMiEOBbqelAh]{Raise a Shield}</p>",
+      "description": "<p><strong>Requirements</strong> You are wielding a shield</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>\n<p>@Compendium[pf2e.equipment-effects.2YgXoHvJfrDHucMr]{Effect: Raise a Shield}</p>",
       "source": "Pathfinder Core Rulebook",
       "name": "Raise a Shield"
     },
     "Anchor": {
       "description": "<p>You send your roots deeper into the ground, making it harder for you to stumble. Until you move, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you (or a +4 circumstance bonus if you're a root leshy). This bonus also applies to saving throws against spells or effects that attempt to move you or knock you prone.</p>\n<p>If an effect forces you to move, you move only half the normal distance, as some of the effort goes to tearing out the roots. At the GM's discretion, this ability might not work on ground that's more resilient than stone, such as metal flooring or magically-reinforced masonry.</p>",
+      "source": "Pathfinder Lost Omens: Character Guide",
       "name": "Anchor"
     },
     "Learn Name": {
       "description": "<p>You spend a week trying to discover and learn a creature's name. The exact form of your effort varies depending on the skill you use, the resources you have available, and other circumstances. Decide if you are searching for the name of a specific individual or for names in general. If you're looking for the name of an individual, you must be able to clearly identify that individual; for example, \"the general leading the invasion\" is enough, but \"the person who killed the duchess\" isn't, if you don't know who killed the duchess. If you're searching for names more generally, name one creature type.</p>\n<p>The GM chooses a DC, typically based on the level of the creature in question. If you're seeking names more generally, the DC is typically based on the level of the creature whose name the GM decides to provide, usually a creature from the chosen type of your level or lower. The GM might modify the DC of the task based on the resources you have available, or on using an unusually appropriate or inappropriate skill, or on other circumstances. Attempt a check with a skill that could be used to Recall Knowledge about the creature's type. After attempting to Learn a Name, you typically can't try to learn the name of the same individual again unless you gain access to a substantial new source of information, as determined by the GM.</p>\n<hr />\n<p><strong>Critical Success</strong> You find one or more private names of the specific individual you chose, or the private name of a creature with the type you chose and a level equal to the task level. You also find hidden fragments of their true name and, at the GM's discretion, you might find a clue leading to an adventure where you can learn the rest of the true name.</p>\n<p><strong>Success</strong> As critical success, except you find only one private name and don't find hidden fragments of their true name.</p>\n<p><strong>Critical Failure</strong> If you were searching for the name of a specific individual, you find no new information and that individual becomes aware of your efforts. If you were searching for a general name of a specific type, you find a creature's name or names likely to get you in trouble, possibly the names of a different type of creature entirely.</p>",
+      "source": "Pathfinder Secrets of Magic",
       "name": "Learn Name"
     },
     "Launch Fireworks Display": {
-      "description": "<p><strong>Cost</strong> 1 or more batches of infused reagents</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<p><strong>Effect</strong> You set off a fireworks display. You can launch a normal firework to simply create a visual or audible signal within 20 feet or you can choose one of the following special effects. A firework display has the listed traits, and if it costs more than 1 batch of infused reagents, it is noted in its Cost entry.</p>\n<p><strong>Comet</strong> <span class=\"pf2-icon\">1</span> (visual) You shoot a streak of shining light in a @Template[type:line|distance:60]. All spaces in that line are lit with bright light until the start of your next turn. As part of this action, you can also Point Out a single creature in the line, and your allies do not need to hear or understand you.</p>\n<p><strong>Flower</strong> <span class=\"pf2-icon\">1</span> (visual) You ignite a ring of sparks, creating a shape that might be reminiscent of a flower blooming in the sky. Each enemy with 20 feet of you must attempt a Fortitude save. On a failure, the enemy is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round, and on a critical failure they are dazzled for 2 rounds.</p>\n<p><strong>Salute</strong> <span class=\"pf2-icon\">1</span> (auditory) You create a startling bang or whistle, adding an auditory component to your fireworks display. When you launch a salute display, you can choose a @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} or @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} ally within 60 feet. If the ally you chose is fascinated, the noise is so violent that it acts as a hostile effect for the purpose of their fascinated condition (though it has no negative repercussions) automatically ending most applications of the fascinated condition. If they're confused, the sound is so loud and violent that it might snap the ally out of confusion. They can immediately attempt the flat check to remove the confused condition which normally occurs when a creature is damaged. If the confused condition has special rules that remove the flat check when taking damage or make the flat check harder, those rules also apply to the salute.</p>",
+      "description": "<p><strong>Cost</strong> 1 or more batches of infused reagents</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<hr />\n<p><strong>Effect</strong> You set off a fireworks display. You can launch a normal firework to simply create a visual or audible signal within 20 feet or you can choose one of the following special effects. A firework display has the listed traits, and if it costs more than 1 batch of infused reagents, it is noted in its Cost entry.</p>\n<p><strong>Comet</strong> <span class=\"pf2-icon\">1</span> (visual) You shoot a streak of shining light in a @Template[type:line|distance:60]. All spaces in that line are lit with bright light until the start of your next turn. As part of this action, you can also Point Out a single creature in the line, and your allies do not need to hear or understand you.</p>\n<p><strong>Flower</strong> <span class=\"pf2-icon\">1</span> (visual) You ignite a ring of sparks, creating a shape that might be reminiscent of a flower blooming in the sky. Each enemy with 20 feet of you must attempt a Fortitude save. On a failure, the enemy is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round, and on a critical failure they are dazzled for 2 rounds.</p>\n<p><strong>Salute</strong> <span class=\"pf2-icon\">1</span> (auditory) You create a startling bang or whistle, adding an auditory component to your fireworks display. When you launch a salute display, you can choose a @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} or @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} ally within 60 feet. If the ally you chose is fascinated, the noise is so violent that it acts as a hostile effect for the purpose of their fascinated condition (though it has no negative repercussions) automatically ending most applications of the fascinated condition. If they're confused, the sound is so loud and violent that it might snap the ally out of confusion. They can immediately attempt the flat check to remove the confused condition which normally occurs when a creature is damaged. If the confused condition has special rules that remove the flat check when taking damage or make the flat check harder, those rules also apply to the salute.</p>",
+      "source": "Pathfinder Guns & Gears",
       "name": "Launch Fireworks Display"
+    },
+    "Host Spirit": {
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You attempt one skill check to perform an exploration activity, even if it normally requires you to be trained to do so. You're trained in the skill just long enough to make that single check (to a maximum of 10 minutes).</p>\n<p>Whether or not the check succeeds, in the next 24 hours you must perform a minor favor to appease the spirit who aided you, determined by the GM (usually something sensation related, such as tasting a certain food, listening to a specific song, or smoking a pipe). You can't Host Spirit again until you've performed the favor. If you haven't completed it after 24 hours, you're @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} until the obligation is fulfilled.</p>",
+      "source": "Pathfinder Book of the Dead",
+      "name": "Host Spirit"
     },
     "Take Control": {
       "description": "<p><strong>Requirements</strong> You are aboard the vehicle and adjacent to its controls.</p>\n<p>You grab the reins, the wheel, or some other mechanism to control the vehicle. Attempt a piloting check; on a success, you become the vehicle's pilot, or regain control of the vehicle if it was uncontrolled. Some vehicles have complicated controls that cause this action to become a multi-action activity.</p>",
