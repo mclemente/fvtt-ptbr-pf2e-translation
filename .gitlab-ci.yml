@@ -1,4 +1,4 @@
-image: node:16-alpine
+image: node:18-alpine
 
 workflow:
   rules:
@@ -12,16 +12,16 @@ cache:
     - .pnpm-store
 
 before_script:
-  - apk update
-  - apk add zip curl git openssh-client ack
-  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - apk update --quiet
+  - apk add --quiet zip curl git openssh-client ack
+  - curl -LSs https://unpkg.com/@pnpm/self-installer | node
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
   - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
   - pnpm config set store-dir .pnpm-store
   - pnpm set verify-store-integrity false
-  - pnpm install
+  - pnpm install --reporter=silent
 
 stages:
   - sync
@@ -38,43 +38,43 @@ sync:
     - unzip -q pf2e.zip lang/en.json
     - unzip -q pf2e.zip lang/re-en.json
     - xargs -I % -a .packs unzip -q pf2e.zip packs/%.db
-    - pnpx fvttp --path packs --babele --use-name --no-items --save packs
+    - pnpm --silent exec fvttp --path packs --babele --use-name --no-items --save packs
     - mv lang/en.json pf2e_pt-BR/lang/en
     - mv lang/re-en.json pf2e_pt-BR/lang/en
     - mv packs/*.json pf2e_pt-BR/lang/en
-    - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
+    - pnpm --silent exec jsonlint -q --enforce-double-quotes pf2e_pt-BR
     - git add pf2e_pt-BR/lang
     - "git commit -m 'chore(sync): update files' || echo 'No changes, nothing to commit!'"
     - git remote rm origin && git remote add origin git@gitlab.com:$CI_PROJECT_PATH.git
     - git push origin HEAD:$CI_COMMIT_REF_NAME
   rules:
-      - if: $CI_PIPELINE_SOURCE == 'schedule'
+    - if: $CI_PIPELINE_SOURCE == 'schedule'
 
 jsonlint:
   stage: test
   script:
-    - pnpx jsonlint -q --enforce-double-quotes pf2e_pt-BR
+    - pnpm --silent exec jsonlint -q --enforce-double-quotes pf2e_pt-BR
   rules:
     - if: $CI_PIPELINE_SOURCE != 'schedule'
       changes:
-          - pf2e_pt-BR/**/*.json
+        - pf2e_pt-BR/**/*.json
 
 semistandard:
   stage: test
   script:
-    - pnpx semistandard
+    - pnpm --silent exec semistandard
   rules:
     - if: $CI_PIPELINE_SOURCE != 'schedule'
       changes:
-          - pf2e_pt-BR/**/*.js
+        - pf2e_pt-BR/**/*.js
 
 build:
   stage: build
   script:
-    - export VERSION=$(pnpx semantic-release --dry-run | ack -io '(?<=The next release version is )(.*)(?=$)')
+    - export VERSION=$(pnpm --silent exec semantic-release --dry-run | ack -io '(?<=The next release version is )(.*)(?=$)')
     - export DOWNLOAD=$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/pf2e_pt-BR/$VERSION/pf2e_pt-BR.zip
-    - pnpx json -I -f pf2e_pt-BR/module.json -e 'this.version="'$VERSION'"' -e 'this.download="'$DOWNLOAD'"'
-    - pnpx json -I -f package.json -e 'this.version="'$VERSION'"'
+    - pnpm --silent exec json -I -f pf2e_pt-BR/module.json -e 'this.version="'$VERSION'"' -e 'this.download="'$DOWNLOAD'"'
+    - pnpm --silent exec json -I -f package.json -e 'this.version="'$VERSION'"'
     - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR -x "pf2e_pt-BR/lang/en/*"
   artifacts:
     name: pf2e_pt-BR
@@ -91,6 +91,6 @@ publish:
   script:
     - eval $(ssh-agent -s)
     - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
-    - pnpx semantic-release
+    - pnpm --silent exec semantic-release
   rules:
-      - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
+    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
