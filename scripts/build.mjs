@@ -27,6 +27,5 @@ const module = new AdmZip();
 module.addLocalFolder(`${process.cwd()}/pf2e_pt-BR/lang/pt-BR`, 'lang/pt-BR');
 module.addLocalFolder(`${process.cwd()}/pf2e_pt-BR/src`, 'src');
 module.addLocalFile(`${process.cwd()}/pf2e_pt-BR/module.json`);
-module.addLocalFile(`${process.cwd()}/pf2e_pt-BR/main.js`);
 
 module.writeZip(`${process.cwd()}/module.zip`);
