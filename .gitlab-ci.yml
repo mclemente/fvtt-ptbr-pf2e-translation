@@ -1,4 +1,8 @@
-image: node:18-alpine
+image: node:lts-alpine
+
+.releases:
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
 
 workflow:
   rules:
@@ -13,12 +17,8 @@ cache:
 
 before_script:
   - apk update --quiet
-  - apk add --quiet zip curl git openssh-client ack
+  - apk add --quiet curl git ack
   - curl -LSs https://unpkg.com/@pnpm/self-installer | node
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
   - pnpm config set store-dir .pnpm-store
   - pnpm set verify-store-integrity false
   - pnpm install --reporter=silent
@@ -28,6 +28,9 @@ stages:
   - test
   - build
   - release
+
+variables:
+  PACKAGE_REGISTRY_URL: $CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/module
 
 sync:
   stage: sync
@@ -71,26 +74,23 @@ semistandard:
 build:
   stage: build
   script:
-    - export VERSION=$(pnpm --silent exec semantic-release --dry-run | ack -io '(?<=The next release version is )(.*)(?=$)')
-    - export DOWNLOAD=$CI_API_V4_URL/projects/$CI_PROJECT_ID/packages/generic/pf2e_pt-BR/$VERSION/pf2e_pt-BR.zip
-    - pnpm --silent exec json -I -f pf2e_pt-BR/module.json -e 'this.version="'$VERSION'"' -e 'this.download="'$DOWNLOAD'"'
-    - pnpm --silent exec json -I -f package.json -e 'this.version="'$VERSION'"'
-    - zip -r -9 pf2e_pt-BR.zip pf2e_pt-BR -x "pf2e_pt-BR/lang/en/*"
+    - export VERSION=$(pnpm --silent exec semantic-release --dry-run | ack -io '(?<=The next release version is )(.*)(?=$)') && echo VERSION=$VERSION >> build.env
+    - export MANIFEST=$CI_PROJECT_URL/-/raw/$CI_COMMIT_BRANCH/pf2e_pt-BR/module.json && echo MANIFEST=$MANIFEST >> build.env
+    - export DOWNLOAD=$CI_PROJECT_URL/-/releases/v$VERSION/downloads/module.zip && echo DOWNLOAD=$DOWNLOAD >> build.env
+    - pnpm run build
   artifacts:
-    name: pf2e_pt-BR
+    name: module
     when: on_success
+    reports:
+      dotenv: build.env
     paths:
       - package.json
-      - pf2e_pt-BR.zip
+      - module.zip
       - pf2e_pt-BR/module.json
-  rules:
-    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
+  extends: .releases
 
 publish:
   stage: release
   script:
-    - eval $(ssh-agent -s)
-    - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
     - pnpm --silent exec semantic-release
-  rules:
-    - if: $CI_COMMIT_BRANCH =~ /^(master|beta)/ && $CI_PIPELINE_SOURCE != 'schedule' && $CI_COMMIT_MESSAGE =~ /^(feat|fix).*/
+  extends: .releases
