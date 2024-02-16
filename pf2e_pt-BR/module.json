@@ -1,68 +1,52 @@
 {
   "id": "pf2e_pt-BR",
   "name": "pf2e_pt-BR",
-  "title": "Translation: Brazilian Portuguese [Pathfinder 2e]",
-  "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de PF2E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
-  "version": "3.3.0",
-  "minimumCoreVersion": "9",
+  "title": "Brazilian Portuguese [Pathfinder 2e] - Tradução PT-BR",
+  "description": "Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.",
   "compatibility": {
-    "minimum": "9",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   "relationships": {
     "systems": [
       {
         "id": "pf2e",
         "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "4.6.8"
-        }
-      }
-    ],
-    "requires": [
-      {
-        "id": "babele",
-        "type": "module",
-        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-        "compatibility": {
-          "minimum": "2.3.3"
+          "minimum": "5.13.6"
         }
       }
     ]
   },
   "authors": [
     {
-      "name": "Bellenus"
-    },
-    {
-      "name": "DanielMerceless"
+      "name": "Matheus Clemente"
     }
-  ],
-  "systems": [
-    "pf2e"
-  ],
-  "esmodules": [
-    "src/babele.js"
   ],
   "languages": [
     {
       "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt-BR/system.json"
+      "name": "Principal (Português)",
+      "path": "lang/pt-BR/pt-BR.json"
     },
     {
       "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt-BR/rules-elements.json"
+      "name": "Rules Elements (Português)",
+      "path": "lang/pt-BR/re-pt-BR.json"
     },
     {
       "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "lang/pt-BR/actions.json"
+      "name": "Ações (Português)",
+      "path": "lang/pt-BR/actions-pt-BR.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Kingmaker (Português)",
+      "path": "lang/kingmaker-pt-BR.json"
     }
   ],
-  "url": "https://gitlab.com/fvtt-brasil/pf2e",
-  "manifest": "https://gitlab.com/fvtt-brasil/pf2e/-/raw/master/pf2e_pt-BR/module.json",
-  "download": "https://gitlab.com/fvtt-brasil/pf2e/-/releases/v3.3.0/downloads/module.zip"
+  "url": "This is auto replaced",
+  "version": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced"
 }
