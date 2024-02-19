@@ -12,7 +12,7 @@ import gulp from "gulp";
 
 const sourceDirectory = "./";
 const distDirectory = "./dist";
-const staticFiles = ["lang/pt-BR", "module.json"];
+const staticFiles = ["lang", "module.json"];
 
 /********************/
 /*      BUILD       */
