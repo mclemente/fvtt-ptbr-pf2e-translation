@@ -22,10 +22,11 @@ const staticFiles = ["lang/pt-BR", "module.json"];
  * Copy static files
  */
 async function copyFiles() {
-	for (const file of staticFiles) {
-		if (fs.existsSync(`${sourceDirectory}/${file}`)) {
-			await fs.copy(`${sourceDirectory}/${file}`, `${distDirectory}/${file}`);
-		}
+	if (fs.existsSync(`${sourceDirectory}/module.json`)) {
+		await fs.copy(`${sourceDirectory}/module.json`, `${distDirectory}/module.json`);
+	}
+	if (fs.existsSync(`${sourceDirectory}/lang/pt-BR`)) {
+		await fs.copy(`${sourceDirectory}/lang/pt-BR`, `${distDirectory}/lang`);
 	}
 }
 
