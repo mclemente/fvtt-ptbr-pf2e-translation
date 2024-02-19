@@ -7,11 +7,11 @@
             },
             "ExplosiveAmmunition": {
                 "Greater": {
-                    "Text": "O projétil explode em um raio de 3 metros @Template[type:burst|distance:10], causando dano [[/r 10d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition].",
+                    "Text": "O projétil explode em um raio de 10 pés @Template[type:burst|distance:10], causando dano [[/r 10d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition].",
                     "Title": "Munição Explosiva (Maior)"
                 },
                 "Normal": {
-                    "Text": "O projétil explode em um raio de 3 metros @Template[type:burst|distance:10], causando dano [[/r 6d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition].",
+                    "Text": "O projétil explode em um raio de 10 pés @Template[type:burst|distance:10], causando dano [[/r 6d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition].",
                     "Title": "Munição Explosiva"
                 }
             },
@@ -22,7 +22,7 @@
                 "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição."
             },
             "ShiningAmmunition": {
-                "Text": "A munição emana luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) por 10 minutos. Se atingir um alvo, ela se fixa nele, fazendo o alvo emanar luz no mesmo raio. @UUID[Compendium.pf2e.equipment-effects.Sf6UO6vgCeicggOK]{Efeito: Munição Brilhante}",
+                "Text": "A munição emana luz brilhante em um raio de 20 pés (e luz fraca nos próximos 20 pés) por 10 minutos. Se atingir um alvo, ela se fixa nele, fazendo o alvo emanar luz no mesmo raio. @UUID[Compendium.pf2e.equipment-effects.Sf6UO6vgCeicggOK]{Efeito: Munição Brilhante}",
                 "Title": "Munição Brilhante"
             }
         },

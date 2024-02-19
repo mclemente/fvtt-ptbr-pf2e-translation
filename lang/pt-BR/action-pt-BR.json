@@ -49,7 +49,7 @@
                     "criticalFailure": "<b>Falha Crítica</b> Você cai e seu turno se encerra.",
                     "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para acima de sua velocidade.",
                     "failure": "<b>Falha</b> Você deve permanecer parado para manter seu equilíbrio (desperdiçando a ação) ou cai. Se cair, seu turno se encerra.",
-                    "success": "<b>Sucesso</b> Você se move até a sua Velocidade, tratando o local como terreno difícil (cada 1,5 metros custam 3 metros de movimento)."
+                    "success": "<b>Sucesso</b> Você se move até a sua Velocidade, tratando o local como terreno difícil (cada 5 pés custam 10 pés de movimento)."
                 },
                 "Title": "Equilibrar"
             },
@@ -64,8 +64,8 @@
             "Climb": {
                 "Notes": {
                     "criticalFailure": "<strong>Critical Failure</strong> You fall. If you began the climb on stable ground, you fall and land @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para cima, através de, ou desce seguramente a inclinação por 1,5 metros mais 1,5 metros para\ncada 6 metros de sua Velocidade em terra (um total de 3 metros para a maioria dos PJs).",
-                    "success": "<b>Sucesso</b> Você se move de forma segura para cima, para baixo ou através de uma inclinação por 1,5 metros para cada 6 metros de\nsua Velocidade em terra (um total de 1,5 metros para a maioria dos PJs; mínimo de 1,5 metros se sua Velocidade for menor que 6 metros)."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para cima, através de, ou desce seguramente a inclinação por 5 pés mais 5 pés para\ncada 20 pés de sua Velocidade em terra (um total de 10 pés para a maioria dos PJs).",
+                    "success": "<b>Sucesso</b> Você se move de forma segura para cima, para baixo ou através de uma inclinação por 5 pés para cada 20 pés de\nsua Velocidade em terra (um total de 5 pés para a maioria dos PJs; mínimo de 5 pés se sua Velocidade for menor que 20 pés)."
                 },
                 "Title": "Escalar"
             },
@@ -276,10 +276,10 @@
             },
             "HighJump": {
                 "Notes": {
-                    "criticalFailure": "<strong>Critical Failure</strong> You don't @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} at all, and instead you fall @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} in your space.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b>Aumente a distância vertical máxima para 2,4 metros, ou aumente a distância vertical máxima para 1,5 metros e a distância horizontal máxima para 3 metros.",
-                    "failure": "<strong>Failure</strong> You @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} normally.",
-                    "success": "<b>Sucesso</b> Aumente a distância vertical máxima para 1,5 metros."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} em seu espaço.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b>Você @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} até 8 pés verticalmente e 10 pés horizontalmente.",
+                    "failure": "<strong>Falha</strong> Você @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} normalmente.",
+                    "success": "<b>Sucesso</b> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} até 5 pés verticalmente e 5 pés horizontalmente."
                 },
                 "Title": "Salto em Altura"
             },
@@ -505,8 +505,8 @@
             "Shove": {
                 "Notes": {
                     "criticalFailure": "<strong>Critical Failure</strong> You lose your balance, fall, and land @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você empurra seu oponente até 3 metros para longe de você. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção.",
-                    "success": "<b>Sucesso</b> Você empurra seu oponente 1,5 metros para trás. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você empurra seu oponente até 10 pés para longe de você. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção.",
+                    "success": "<b>Sucesso</b> Você empurra seu oponente 5 pés para trás. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção."
                 },
                 "Title": "Empurrar"
             },
@@ -522,8 +522,8 @@
             "Squeeze": {
                 "Notes": {
                     "criticalFailure": "<b>Falha Crítica</b> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo contra a mesma CD. Qualquer resultado nesse teste diferente de uma falha crítica faz com que deixe de estar preso.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se espreme através do espaço apertado em 1 minuto para cada 3 metros atravessados.",
-                    "success": "<b>Sucesso</b> Você se espreme por 1 minuto para cada 1,5 metros."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se espreme através do espaço apertado em 1 minuto para cada 10 pés atravessados.",
+                    "success": "<b>Sucesso</b> Você se espreme por 1 minuto para cada 5 pés."
                 },
                 "Title": "Espremer"
             },
@@ -559,8 +559,8 @@
             "Swim": {
                 "Notes": {
                     "criticalFailure": "<b>Falha Crítica</b> Você não faz qualquer progresso e, se estiver prendendo sua respiração, perde 1 rodada de ar.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se move até 3 metros pela água, mais 1,5 metros para cada 6 metros de sua Velocidade em terra (um total de 4,5 metros para a maioria dos PJs).",
-                    "success": "<b>Sucesso</b> Você se move 1,5 metros pela água, mais 1,5 metros para cada 6 metros de sua Velocidade em terra (um total de 3 metros para a maioria dos PJs)."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se move até 10 pés pela água, mais 5 pés para cada 20 pés de sua Velocidade em terra (um total de 15 pés para a maioria dos PJs).",
+                    "success": "<b>Sucesso</b> Você se move 5 pés pela água, mais 5 pés para cada 20 pés de sua Velocidade em terra (um total de 10 pés para a maioria dos PJs)."
                 },
                 "Title": "Nadar"
             },
@@ -631,7 +631,7 @@
             "TumbleThrough": {
                 "Notes": {
                     "failure": "<b>Falha</b> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.",
-                    "success": "<b>Sucesso</b> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 1,5 metros custam 3 metros de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
+                    "success": "<b>Sucesso</b> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 10 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
                 },
                 "Title": "Atravessar Acrobaticamente"
             },
