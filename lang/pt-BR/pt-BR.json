@@ -1419,7 +1419,7 @@
     "FeatTypeSkill": "Talento de Perícia",
     "FeaturesAncestryHeader": "Características de Ancestralidade",
     "FeaturesClassHeader": "Características de Classe",
-    "Feet": "metros",
+    "Feet": "pés",
     "FlatCheck": "Teste Simples",
     "Focus": {
       "NotEnoughFocusPointsError": "Você não tem pontos de foco suficientes para conjurar esta magia.",
@@ -2170,6 +2170,9 @@
           "Wand": "Varinha de {name} (Level {level})"
         },
         "GeneratedName": {
+          "FourPropertiesMaterial": "{base} de {material} {property1} {property2} {property3} {property4}",
+          "Fundamental2": "{base} {fundamental2}",
+          "Fundamental2Material": "{base} de {material} {fundamental2}",
           "Material": "{base} de {material}",
           "OneProperty": "{base} {property1}",
           "OnePropertyMaterial": "{base} de {material} {property1}",
@@ -2289,7 +2292,7 @@
         "Specific": {
         }
       },
-      "SidebarSummary": "{type} Sumário",
+      "SidebarSummary": "Resumo ({type})",
       "Spell": {
         "Area": "{shape} de {size} {unit}",
         "Cast": "Conjurar",
@@ -2351,15 +2354,15 @@
         },
         "CriticalSpecialization": {
           "axe": "Escolha uma criatura adjacente ao alvo inicial e dentro do alcance. Se a CA dele for menor que o resultado da rolagem de ataque do acerto crítico, você causa dano a essa criatura igual ao resultado do dado de dano rolado da arma (incluindo dados extras por sua runa de potência, se houver). Esta quantia não é dobrada, e nenhum bônus ou outros dados adicionais se aplicam a este dano.",
-          "bomb": "Aumenta o raio do dano de respingo da bomba (se houver) para 3 metros.",
+          "bomb": "Aumenta o raio do dano de respingo da bomba (se houver) para 10 pés.",
           "bow": "Efeito de Especialização de Crítico: Se o alvo de um acerto crítico estiver adjacente a uma superfície, ele fica preso nessa superfície pelo projétil. O alvo fica @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{imobilizado} e deve gastar uma ação de Interagir para fazer um teste de Atletismo CD 10 para soltar o projétil; ele não pode sair de seu espaço até que obtenha sucesso. A criatura não fica presa se for incorpórea, líquida (como um elemental da água ou alguns limos) ou se de alguma forma puder escapar sem esforço",
           "brawling": "O alvo deve ser bem-sucedido em um salvamento @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all] ou ser @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno.",
-          "club": "Você empurra o alvo para longe de você até 3 metros (você escolhe a distância). Esse é um movimento forçado.",
+          "club": "Você empurra o alvo para longe de você até 10 pés (você escolhe a distância). Esse é um movimento forçado.",
           "firearm": "O alvo deve ser bem-sucedido em um @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Firearm Critical Specialization|showDC:all] salvar ou ser @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
           "flail": "O alvo é derrubado e fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
           "hammer": "O alvo é derrubado e fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
-          "polearm": "O alvo é movido com 1,5 metros em uma direção de sua escolha. Isto é um movimento forçado.",
-          "shield": "Você empurra o alvo para trás á 1,5 metros de você. Isto é um movimento forçado.",
+          "polearm": "O alvo é movido 5 pés em uma direção de sua escolha. Isto é um movimento forçado.",
+          "shield": "Você empurra o alvo para trás a 5 pés de distância. Este é um movimento forçado.",
           "sling": "O alvo deve ser bem-sucedido em um salvamento de @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Sling Critical Specialization|showDC:all] ou fica @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
           "spear": "A arma perfura o alvo, enfraquecendo seus ataques. O alvo é @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Desajeitado 1} até o início do seu próximo turno.",
           "sword": "O alvo foi desbalanceado pelo seu ataque, tornando-se @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevinodo} até o início do seu próximo turno."
@@ -2559,7 +2562,7 @@
       "Abilities": {
         "Glossary": {
           "AllAroundVision": "<p>Este monstro pode ver em todas as direções simultaneamente, e portanto não pode ser flanqueado.</p>",
-          "AquaticAmbush": "<p><strong>Requerimentos</strong> O monstro está escondido em água e uma criatura que não a detectou está no alcance listado em metros.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro move até o máximo de sua velocidade de nado + 3 metros na direção da criatura acionadora, viajando na água e na terra. Uma vez que a criatura está em alcance, o monstro faz um Golpe contra ela. A criatura é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra este Golpe</p>",
+          "AquaticAmbush": "<p><strong>Requerimentos</strong> O monstro está escondido em água e uma criatura que não a detectou está no alcance listado em pés.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro move até o máximo de sua velocidade de nado + 10 pés na direção da criatura acionadora, viajando na água e na terra. Uma vez que a criatura está em alcance, o monstro faz um Golpe contra ela. A criatura é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra este Golpe</p>",
           "AtWillSpells": "<p> O monstro pode conjurar suas magias à vontade qualquer número de vezes sem usar um slot de magia.</p>",
           "AttackOfOpportunity": "<p><strong>Acionamento</strong> Uma criatura no alcance do monstro usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe corpo a corpo contra a criatura acionada. Se o ataque dele for um acerto crítico e o acionamento for uma ação de manuseio, o monstro interrompe essa ação. Este Golpe não conta para a penalidade por ataques múltiplos do monstro, e a penalidade por ataques múltiplos do monstro não se aplica a ele.</p>",
           "Aura": "<p>A aura do monstro automaticamente afeta tudo na emanação especificada ao redor do monstro. O monstro não precisa gastar ações na aura; ao invés disso, o efeito da aura é aplicado em tempos específicos, como quando uma criatura termina seu turno na aura ou quando entra na aura.</p>\n<p>Se uma aura não faz nada mas dá dano, sua descrição lista somente seu raio, dano, e rolagens de salvamento. Tais auras dão este dano à criatura quando ela entra na aura ou começa seu turno dentro dela. A criatura pode sofrer o dano da aura somente uma vez por turno.</p>\n<p> O MJ pode determinar que uma aura de monstro não afeta seus próprios aliados. Por exemplo, uma criatura pode ser imune à presença aterradora de um monstro se eles estiverem andando juntos há um bom tempo.</p>",
@@ -2806,7 +2809,7 @@
     "ProficiencyLabel": "Proficiência",
     "ProficiencyLevel0": "Destreinado",
     "ProficiencyLevel1": "Treinado",
-    "ProficiencyLevel2": "Espec",
+    "ProficiencyLevel2": "Especialista",
     "ProficiencyLevel3": "Mestre",
     "ProficiencyLevel4": "Lendário",
     "ProficiencyRankLabel": "Prof",
