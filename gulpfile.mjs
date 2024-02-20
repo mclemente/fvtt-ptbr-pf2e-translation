@@ -12,7 +12,7 @@ import gulp from "gulp";
 
 const sourceDirectory = "./";
 const distDirectory = "./dist";
-const staticFiles = ["lang", "module.json"];
+const staticFiles = ["pf2e.css", "module.json"];
 
 /********************/
 /*      BUILD       */
@@ -22,8 +22,10 @@ const staticFiles = ["lang", "module.json"];
  * Copy static files
  */
 async function copyFiles() {
-	if (fs.existsSync(`${sourceDirectory}/module.json`)) {
-		await fs.copy(`${sourceDirectory}/module.json`, `${distDirectory}/module.json`);
+	for (const file of staticFiles) {
+		if (fs.existsSync(`${sourceDirectory}/${file}`)) {
+			await fs.copy(`${sourceDirectory}/${file}`, `${distDirectory}/${file}`);
+		}
 	}
 	if (fs.existsSync(`${sourceDirectory}/lang/pt-BR`)) {
 		await fs.copy(`${sourceDirectory}/lang/pt-BR`, `${distDirectory}/lang`);
@@ -51,7 +53,7 @@ export const build = gulp.series(clean, gulp.parallel(copyFiles));
  * Remove built files from `dist` folder while ignoring source files
  */
 export async function clean() {
-	const files = [...staticFiles, "module"];
+	const files = [...staticFiles, "lang"];
 
 	console.log(" ", "Files to clean:");
 	console.log("   ", files.join("\n    "));
