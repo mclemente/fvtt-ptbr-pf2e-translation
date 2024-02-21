@@ -111,17 +111,17 @@
     "ActionsReactionsHeader": "Reações",
     "Actor": {
       "ApplyDamage": {
-        "AtFullHealth": "<actor>{ator}</actor> já está com vida cheia.",
-        "DamagedForN": "<actor>{ator}</actor> recebe {hpDamage} de dano.",
+        "AtFullHealth": "<actor>{actor}</actor> já está com vida cheia.",
+        "DamagedForN": "<actor>{actor}</actor> recebe {hpDamage} de dano.",
         "DamagedForNShield": "O escudo de <actor>{actor}</actor> absorve {absorbedDamage} de dano, o dano adicional de {hpDamage} foi recebido.",
-        "HealedForN": "<actor>{ator}</actor> é curado em {hpDamage} de dano.",
+        "HealedForN": "<actor>{actor}</actor> é curado em {hpDamage} de dano.",
         "InstantDeath": {
           "DeathEffect": "O efeito de morte o mata imediatamente.",
           "Destroyed": "Ele é destruído.",
           "FinePowder": "Ele é reduzido a um pó fino; seu equipamento permanece.",
           "MassiveDamage": "O dano maciço o mata imediatamente."
         },
-        "ShieldAbsorbsAll": "<actor>{ator}</actor> não recebe dano, seu escudo absorveu completamente {absorbedDamage} de dano.",
+        "ShieldAbsorbsAll": "<actor>{actor}</actor> não recebe dano, seu escudo absorveu completamente {absorbedDamage} de dano.",
         "ShieldDamagedForN": "Seu escudo também sofre {shieldDamage} de dano.",
         "ShieldDamagedForNBroken": "Seu escudo também sofre {shieldDamage} de dano, quebrando-o.",
         "ShieldDamagedForNDestroyed": "Seu escudo também sofre {shieldDamage} de dano, destruindo-o.",
@@ -385,7 +385,7 @@
           "Title": "Emite som?",
           "True": "Sempre"
         },
-        "Level": "Perigo {nível}",
+        "Level": "Perigo {level}",
         "Plural": "Perigos",
         "Simple": "Simples",
         "TitleEdit": "{name} (Edit Mode)"
@@ -1001,12 +1001,12 @@
     "DCAdjustmentVeryHard": "muito difícil",
     "DCBase": "CD base 10",
     "DCWithValue": "CD {dc} {text}",
-    "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {texto}",
+    "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
     "Damage": {
       "Base": "Base",
       "IWR": {
         "ActorIsImmune": "{actor} é imune a {effect}.",
-        "ActorIsUnaffected": "{ator} não é afetado por {effect}.",
+        "ActorIsUnaffected": "{actor} não é afetado por {effect}.",
         "ApplicationBreakdown": {
           "ignored": "Resistência a {type} ignorada!",
           "immunity": "Imune a {type}: {adjustment}",
@@ -2112,9 +2112,9 @@
         },
         "Warning": {
           "InvalidCategory": "Não é possível adicionar o talento \"{item}\" na categoria {}: tipo de talento é inválido.",
-          "TakenAfterLevel1": "{item} deve ser recebido no nível 1, mas {ator} está no nível {nível}.",
-          "TakenMoreThanMax": "{item} só pode ter {maxTaken} vezes, mas {ator} selecionou {timesTaken} vezes.",
-          "TakenMoreThanOnce": "{item} pode ser pego apenas uma vez, mas {ator} selecionou mais vezes."
+          "TakenAfterLevel1": "{item} deve ser recebido no nível 1, mas {actor} está no nível {level}.",
+          "TakenMoreThanMax": "{item} só pode ter {maxTaken} vezes, mas {actor} selecionou {timesTaken} vezes.",
+          "TakenMoreThanOnce": "{item} pode ser pego apenas uma vez, mas {actor} selecionou mais vezes."
         }
       },
       "GMNotes": {
@@ -2445,7 +2445,7 @@
     },
     "KitItems": "Itens",
     "KitWorldItem": "Este item não foi encontrado em um compêndio e não funcionará em outros mundos",
-    "LackCastConsumableCapability": "{ator} não tem a proficiêcia para usar {spell} e não tem o talento Enganar Item Mágico.",
+    "LackCastConsumableCapability": "{actor} não tem a proficiêcia para usar {spell} e não tem o talento Enganar Item Mágico.",
     "LanguagesAdditional": "Idiomas Adicionais",
     "Level1": "Nível 1",
     "Level10": "Nível 10",
@@ -3452,7 +3452,7 @@
     "TabManageTabsLabel": "Gerenciar Abas",
     "TabPathfinderSociety": "Sociedade Pathfinder",
     "TabSkillsLabel": "Proficiências",
-    "TabSpellbookLabel": "Grimório",
+    "TabSpellbookLabel": "Conjuração",
     "TempHitPointsShortLabel": "PV Temp",
     "TemplateLabel": "{shape} de {size} {unit}",
     "TemporaryItemToolTip": "Este item é temporário e irá expirar após sua duração ou durante as preparações diárias. Ele não possui preço e não pode ser vendido.",
