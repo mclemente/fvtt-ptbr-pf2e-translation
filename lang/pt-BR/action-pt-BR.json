@@ -13,18 +13,31 @@
       "AdministerFirstAid": {
         "Stabilize": {
           "DifficultyClass": {
+            "Label": "CD de Administrar Primeiros Socorros"
           },
           "Notes": {
-          }
+            "criticalFailure": "<strong>Falha Crítica</strong> O valor de morte da criatura aumenta em 1.",
+            "success": "<strong>Sucesso</strong> A criatura perde a condição morrendo (mas permanece inconsciente)."
+          },
+          "Title": "Estabilizar"
         },
         "StopBleeding": {
+          "Description": "<p>Faça um teste de Medicina em uma criatura que esteja sofrendo dano de sangramento persistente. A CD geralmente é a CD do efeito que causou o sangramento.</p><p><strong>Sucesso</strong> A criatura se beneficia de uma recuperação assistida com a CD reduzida para ajuda particularmente apropriada.<br><strong >Falha Crítica</strong> A criatura sofre imediatamente uma quantidade de dano igual ao seu dano de sangramento persistente.</p>",
           "Notes": {
-          }
+            "criticalFailure": "<strong>Falha Crítica</strong> A criatura sofre imediatamente uma quantidade de dano igual ao seu dano de sangramento persistente.",
+            "success": "<strong>Sucesso</strong> A criatura se beneficia de uma recuperação assistida com a CD reduzida para ajuda particularmente apropriada."
+          },
+          "Title": "Parar Sangramento"
         },
+        "Title": "Administrar Primeiros Socorros",
         "Warning": {
+          "TargetNotDying": "A criatura alvo não está morrendo.",
+          "UnknownVariant": "Variante desconhecida {variant} usada para Administrar Primeiros Socorros, use uma das {variants}."
         }
       },
       "AffixATalisman": {
+        "Description": "<p><strong>Requisitos</strong> Você deve usar um @UUID[Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX]{Kit de Ferramentas de Reparo}.</p><hr><p>Você gasta 10 minutos fixando um talismã em um item, colocando o item em uma superfície estável e usando o kit de ferramentas de reparo com as duas mãos. Você também pode usar esta atividade para remover um talismã. Anexar mais de um talismã a um item desativa todos os talismãs. Eles devem ser removidos e reafixados antes de poderem ser usados ​​novamente.</p>",
+        "Title": "Afixar um Talismã"
       },
       "Aid": {
         "Notes": {
@@ -37,6 +50,11 @@
           "SizeDifference": "Diferença de Tamanho"
         },
         "Notes": {
+          "NoTarget": "<strong>Diferença de Tamanho</strong> Você sofre -2 de penalidade de circunstância em seu teste se o alvo for um tamanho maior que você e -4 de penalidade de circunstância se for maior que isso. Você ganha +2 de bônus de circunstância em seu teste se o alvo for um tamanho menor que você e +4 de bônus de circunstância se for ainda menor.",
+          "criticalFailure": "<strong>Falha Crítica</strong> A criatura se liberta e não está mais @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringida} por você.",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você derruba o inimigo e a energia mágica o domina. A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}, torna-se @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada e sofre dano igual a [[/ r 2d6 + @abilities.str.mod # Dano: Arcane Slam]]{2d6 mais seu modificador de Força}. O inimigo não está mais @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido} por você.",
+          "failure": "<strong>Falha</strong> Você não consegue acertar a criatura, mas seu controle sobre a criatura permanece.",
+          "success": "<strong>Sucesso</strong> Você derruba o inimigo. A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada} e sofre dano igual ao seu [[/r @abilities.str.mod # Damage: Arcane Slam]]{Modificador de Força}. O inimigo não está @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido} por você."
         },
         "Title": "Pancada Arcana"
       },
@@ -48,7 +66,8 @@
       },
       "AvoidNotice": {
         "Notes": {
-        }
+        },
+        "Title": "Evitar Ser Percebido"
       },
       "Balance": {
         "Notes": {
@@ -90,11 +109,13 @@
         "Notes": {
           "failure": "<strong>Falha</strong> O animal está hesitante ou resistente, e não faz nada.",
           "success": "<strong>Sucesso</strong> O animal faz seu comando no próximo turno dele."
-        }
+        },
+        "Title": "Comande um Animal"
       },
       "ConcealAnObject": {
         "Notes": {
-        }
+        },
+        "Title": "Ocultar um Objeto"
       },
       "CoverTracks": {
       },
@@ -142,28 +163,36 @@
       },
       "CreateADiversion": {
         "DistractingWords": {
+          "Title": "Palavras Distrativas"
         },
         "Gesture": {
+          "Title": "Gesto"
         },
         "Notes": {
           "failure": "<b>Falha</b> Você não desvia a atenção de quaisquer criaturas que possuírem CD de Percepção maior que o resultado de seu teste, e essas criaturas ficam cientes da tentativa de enganá-las."
         },
+        "Title": "Criar uma Distração",
         "Trick": {
+          "Title": "Truque"
         },
         "Warning": {
+          "UnknownVariant": "Variante desconhecida {variant} usada para Criar uma Distração, use uma das {variants}."
         }
       },
       "CreateForgery": {
         "ForgedDocument": {
+          "Name": "Documento Falsificado"
         },
         "Notes": {
-        }
+        },
+        "Title": "Criar Falsificação"
       },
       "DecipherWriting": {
         "Notes": {
         },
         "SampleTasks": {
         },
+        "Title": "Decifrar Escrita",
         "Warning": {
         }
       },
@@ -171,15 +200,20 @@
       },
       "Demoralize": {
         "Notes": {
+          "criticalSuccess": "<strong>Sucesso crítico</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 2}.",
+          "success": "<strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}."
         },
-        "Title": "Desmoralizar"
+        "Title": "Desmoralizar",
+        "Unintelligible": "Ininteligível"
       },
       "DisableDevice": {
         "Notes": {
-        }
+        },
+        "Title": "Desabilitar um Dispositivo"
       },
       "Disarm": {
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio e fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.",
           "criticalSuccess": "<b>Sucesso Crítico</b> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente."
         },
         "Title": "Desarmar"
@@ -195,6 +229,7 @@
         }
       },
       "EncouragingWords": {
+        "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou NPC.",
         "Cancel": "Cancelar",
         "ContentLabel1": "CD de Diplomacia:",
         "ContentLabel2": "Modificador de CD:",
@@ -207,6 +242,7 @@
         "CritSuccess": "Sucesso Crítico",
         "Damage": "Dano",
         "Failure": "Falha",
+        "NotTrained": "{name} não é treinado em Diplomacia e não sabe como usar Palavras Encorajadoras.",
         "Recovery": "Recuperação de Estamina",
         "StaminaNotEnabled": "A variante de Estamina não está habilitada.",
         "Success": "Sucesso",
@@ -214,11 +250,13 @@
       },
       "EndCover": {
         "TowerShield": {
+          "Description": "{actor} sai de trás de seu {arma}."
         }
       },
       "Escape": {
         "Notes": {
-        }
+        },
+        "Title": "Escapar"
       },
       "Feint": {
         "Notes": {
@@ -228,6 +266,7 @@
       "Fly": {
       },
       "ForceOpen": {
+        "NoCrowbarPenalty": "Sem pé de cabra",
         "Notes": {
           "criticalFailure": "<b>Falha Crítica</b> Sua tentativa emperra a porta, janela, recipiente ou portão, impondo –2 de penalidade de circunstância em tentativas futuras de Forçá-lo.",
           "criticalSuccess": "<b>Sucesso Crítico</b> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
@@ -288,6 +327,7 @@
       },
       "Interact": {
         "Draw": {
+          "Title": "Sacar"
         },
         "Draw1H": {
           "Description": "{actor} saca seu/sua {weapon}.",
@@ -425,10 +465,15 @@
       "PointOut": {
       },
       "RaiseAShield": {
+        "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou NPC.",
         "Content": "{actor} ergue seu escudo.",
         "NoShieldEquipped": "{actor} deve ter um escudo equipado.",
         "ReactionTitle": "Escudo Reativo",
-        "SingleActionTitle": "Erguer um Escudo"
+        "ShieldIsBroken": "O {shield} de {actor} está quebrado.",
+        "ShieldIsDestroyed": "O {shield} de {actor} foi destruído.",
+        "ShortTitle": "Erguer",
+        "SingleActionTitle": "Erguer um Escudo",
+        "Title": "Erguer um escudo"
       },
       "Ready": {
       },
@@ -442,12 +487,14 @@
       },
       "Release": {
         "Drop": {
-          "Description": "{actor} solta sua/seu {weapon} no chão."
+          "Description": "{actor} solta sua/seu {weapon} no chão.",
+          "Title": "Largar"
         },
         "Grip": {
           "Description": "{actor} solta uma mão de sua/seu {weapon}.",
           "Title": "Trocar Empunhadura (1M)"
-        }
+        },
+        "Title": "Soltar"
       },
       "Repair": {
         "Chat": {
@@ -458,13 +505,19 @@
         "Labels": {
           "DamageMitigatedByHardness": "A tentativa de Reparo que falhou criticamente não causou dano ao item devido à sua dureza.",
           "DealItemDamage": "Causa {value} de dano no item",
-          "Hardness": "Dureza"
+          "Hardness": "Dureza",
+          "ItemLevelRepairDC": "CD de reparo de item de nível {nível}",
+          "RestoreItemHitPoints": "Restaura {value} pontos de vida do item",
+          "RollItemDamage": "Rola {value} de dano"
         },
         "Notes": {
         },
         "SelectItemDialog": {
-          "CancelButtonLabel": "Cancelar"
+          "CancelButtonLabel": "Cancelar",
+          "RepairButtonLabel": "Reparar",
+          "Title": "Selecione o item para reparar"
         },
+        "Title": "Reparar",
         "Warning": {
           "NotPhysicalItem": "O item específico {item} não é um item físico."
         }
@@ -542,6 +595,7 @@
         "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
         "Content": "Gastar um ponto de determinação e recuperar estamina?",
         "NoStamina": "{name} está cansado(a) e precisa ir para a cama! Não há pontos de determinação sobrando.",
+        "RecoverStamina": "{name} possui {ratio} PE e gasta um ponto de determinação, recuperando metade da sua Estamina máxima.",
         "StaminaNotEnabled": "A variante de Estamina não está habilitada.",
         "Title": "Cerrar os Dentes"
       },
@@ -598,13 +652,19 @@
       },
       "TreatWounds": {
         "DC": {
+          "Expert": "Especialista CD 20, +10 de cura",
+          "Legendary": "Lendário CD 40, +50 de cura",
+          "Master": "Mestre CD 30, +30 de cura",
+          "Mod": "Modificador de CD",
           "Trained": "Treinado CD 15"
         },
+        "Error": "Token {name} não tem a perícia {skill}",
         "Feats": {
         },
         "Label": "Tratar Ferimentos",
         "Rolls": {
-        }
+        },
+        "SkillSelect": "Perícia de Tratar Ferimentos"
       },
       "Trip": {
         "Notes": {
