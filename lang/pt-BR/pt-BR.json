@@ -473,12 +473,12 @@
           "Lootable": {
             "DefaultLootable": "Padrão Global (Saqueável)",
             "DefaultNotLootable": "Padrão Global (Não saqueável)",
-            "Hint": "Defina se este NPC se torna saqueável pelos jogadores em sua morte. O padrão global pode ser configurado em <a>Configurações de automação</a>.",
+            "Hint": "Defina se este PdM se torna saqueável pelos jogadores em sua morte. O padrão global pode ser configurado em <a>Configurações de automação</a>.",
             "Label": "Saqueável?",
             "Lootable": "Saqueável",
             "NotLootable": "Não Saqueável"
           },
-          "Title": "Configurar NPC"
+          "Title": "Configurar PdM"
         },
         "GenerateAttack": {
           "Confirm": {
@@ -486,7 +486,7 @@
             "Title": "Regenerar ataque"
           },
           "Label": "Gerar Ataque",
-          "Notification": "Ataque de NPC gerado: {attack}"
+          "Notification": "Ataque de PdM gerado: {attack}"
         },
         "Identification": {
           "Skills": {
@@ -498,7 +498,7 @@
             "Tooltip": "\"Utilizar o Saber aplicável normalmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" – Livro Básico pág. 506"
           }
         },
-        "SimpleSheet": "Ficha de NPC Simples",
+        "SimpleSheet": "Ficha de PdM Simples",
         "SkillsEditor": {
           "LorePlaceholder": "Saber de Carpintaria",
           "Title": "Editor de Perícias ({actor})"
@@ -2712,8 +2712,8 @@
       },
       "ArmorExtraInfoLabelPlaceholder": "Detalhes da CA...",
       "AttackType": {
-        "Melee": "Ataque Corpo-a-Corpo do NPC",
-        "Ranged": "Ataque à Distância do NPC",
+        "Melee": "Ataque Corpo-a-Corpo do PdM",
+        "Ranged": "Ataque à Distância do PdM",
         "Weapon": "Compêndio de Armas"
       },
       "Attacks": "Ataques",
@@ -2758,7 +2758,7 @@
     "NPCAttackMelee": "Corpo-a-Corpo",
     "NPCAttackRanged": "À Distância",
     "NPCNotesLabel": "Notas/Condições",
-    "NPCNotesTitle": "Escreva quaisquer notas para este NPC aqui.",
+    "NPCNotesTitle": "Escreva quaisquer notas para este PdM aqui.",
     "NPCWeaponAddDamage": "Adicionar Parte de Dano",
     "NPCWeaponAttackEffect": "Efeitos de Ataque Adicionais",
     "NPCWeaponAttackLabel": "Modificador de Ataque",
@@ -3018,10 +3018,10 @@
     "SETTINGS": {
       "Automation": {
         "ActorsDeadAtZero": {
-          "Both": "PJs e NPCs",
-          "Hint": "Ao atingir zero pontos de vida, os NPCs são marcados como mortos.",
+          "Both": "PJs e PdMs",
+          "Hint": "Ao atingir zero pontos de vida, os PdMs são marcados como mortos.",
           "NPCsOnly": "Sim",
-          "Name": "NPCs morrem com 0 PVs",
+          "Name": "PdMs morrem com 0 PVs",
           "Neither": "Não"
         },
         "Encumbrance": {
@@ -3043,8 +3043,8 @@
         },
         "Label": "Gerenciar Automações",
         "LootableNPCs": {
-          "Hint": "Após serem derrotados, os NPCs podem ser saqueados pelos jogadores.",
-          "Name": "NPCs são saqueáveis"
+          "Hint": "Após serem derrotados, os PdMs podem ser saqueados pelos jogadores.",
+          "Name": "PdMs são saqueáveis"
         },
         "Name": "Automação",
         "RemoveExpiredEffects": {
@@ -3175,7 +3175,7 @@
           "Name": "Grupos de Armas"
         },
         "WeaponTraits": {
-          "Hint": "Traços aplicáveis à armas e aos ataques dos NPCs",
+          "Hint": "Traços aplicáveis à armas e aos ataques dos PdMs",
           "Name": "Traços de Arma"
         }
       },
@@ -3194,15 +3194,15 @@
         "Label": "Limitar Informação de Metajogo",
         "Name": "Informação de Metajogo",
         "ShowDC": {
-          "Hint": "Se habilitado, jogadores poderão ver os CDs de testes feitos contra NPCs e outras fontes das quais jogadores não são donos.",
+          "Hint": "Se habilitado, jogadores poderão ver os CDs de testes feitos contra PdMs e outras fontes das quais jogadores não são donos.",
           "Name": "Mostrar CDs dos ataques e salvamentos"
         },
         "ShowResults": {
-          "Hint": "Se habilitado, jogadores poderão ver o grau de sucesso de testes feitos contra NPCs e outras fontes das quais jogadores não são donos.",
+          "Hint": "Se habilitado, jogadores poderão ver o grau de sucesso de testes feitos contra PdMs e outras fontes das quais jogadores não são donos.",
           "Name": "Mostrar Resultados dos ataques e salvamentos"
         },
         "ShowBreakdowns": {
-          "Hint": "Os jogadores podem ver os modificadores constituintes e totais das rolagens feitas por NPCs e outros atores que não pertencem aos jogadores.",
+          "Hint": "Os jogadores podem ver os modificadores constituintes e totais das rolagens feitas por PdMs e outros atores que não pertencem aos jogadores.",
           "Name": "Mostrar detalhamentos de rolagens"
         },
         "SecretCondition": {
@@ -3222,8 +3222,8 @@
           "Name": "Mostrar estatísticas dos membros do grupo"
         },
         "TokenSetsNameVisibility": {
-          "Hint": "Se ativado, então para qualquer token de NPC cujo nome não seja visível para os jogadores, seu nome também será escondido deles no rastreador de encontro e nas mensagens do bate-papo.",
-          "Name": "Tokens determinam a visibilidade do nome do NPC"
+          "Hint": "Se ativado, então para qualquer token de PdM cujo nome não seja visível para os jogadores, seu nome também será escondido deles no rastreador de encontro e nas mensagens do bate-papo.",
+          "Name": "Tokens determinam a visibilidade do nome do PdM"
         }
       },
       "NathMode": {
@@ -4678,7 +4678,7 @@
       "Weeks": "Semanas"
     },
     "TrickMagicItemPopup": {
-      "InvalidActor": "Apenas um personagem ou NPC pode usar Enganar Item Mágico.",
+      "InvalidActor": "Apenas um personagem ou PdM pode usar Enganar Item Mágico.",
       "Label": "Selecione uma perícia para usar Enganar Item Mágico.",
       "Title": "Enganar Item Mágico"
     },
@@ -5503,7 +5503,7 @@
       "friendly": {
         "name": "Amistoso",
         "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja amistosa a um personagem gosta desse personagem. O personagem pode tentar fazer um Pedido para uma criatura amistosa, e a criatura amistosa possivelmente concordará com um pedido simples e seguro que não seja muito custoso para realizar. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo MJ.</p>",
-        "summary": "Um NPC com esta condição possui uma boa atitude em relação a você."
+        "summary": "Um PdM com esta condição possui uma boa atitude em relação a você."
       },
       "frightened": {
         "name": "Assustado",
@@ -5524,7 +5524,7 @@
       "helpful": {
         "name": "Prestativo",
         "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja prestativa a um personagem deseja ativamente ajudar esse personagem. Ela aceitará Pedidos razoáveis desse personagem, desde que esses Pedidos não sejam cumpridos ao custo dos objetivos ou qualidade de vida da criatura prestativa. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo MJ.</p>",
-        "summary": "Um NPC com esta condição quer lhe ajudar."
+        "summary": "Um PdM com esta condição quer lhe ajudar."
       },
       "hidden": {
         "name": "Escondido",
@@ -5534,7 +5534,7 @@
       "hostile": {
         "name": "Hostil",
         "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja hostil a um personagem busca ativamente prejudicar esse personagem. Ela não necessariamente ataca, mas não aceitará Pedidos do personagem.</p>",
-        "summary": "Um NPC com esta condição quer lhe ferir ou prejudicar."
+        "summary": "Um PdM com esta condição quer lhe ferir ou prejudicar."
       },
       "immobilized": {
         "name": "Imobilizado",
@@ -5544,7 +5544,7 @@
       "indifferent": {
         "name": "Indiferente",
         "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja indiferente a um personagem de fato não se importa com esse personagem de forma alguma. Assuma que a atitude de uma criatura a um determinado personagem é indiferente exceto se especificado o contrário.</p>",
-        "summary": "Um NPC com esta condição não possui opinião formada sobre você."
+        "summary": "Um PdM com esta condição não possui opinião formada sobre você."
       },
       "invisible": {
         "name": "Invisível",
@@ -5619,7 +5619,7 @@
       "unfriendly": {
         "name": "Inamistoso",
         "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja inamistosa a um personagem não gosta do personagem e desconfia especificamente dele. Ela não aceitará Pedidos do personagem.</p>",
-        "summary": "Um NPC com esta condição não gosta de você."
+        "summary": "Um PdM com esta condição não gosta de você."
       },
       "unnoticed": {
         "name": "Despercebido",
@@ -5769,7 +5769,7 @@
       "familiar": "Familiar",
       "hazard": "Perigo",
       "loot": "Saque",
-      "npc": "PNJ",
+      "npc": "Personagem do Mestre",
       "party": "Grupo",
       "vehicle": "Veículo"
     },
@@ -5792,7 +5792,7 @@
       "heritage": "Herança",
       "kit": "Kit",
       "lore": "Perícia de Saber",
-      "melee": "Ataque de NPC",
+      "melee": "Ataque de PdM",
       "shield": "Escudo",
       "spell": "Magia",
       "spellcastingEntry": "Registro de Conjuração",
