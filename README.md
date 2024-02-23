@@ -6,5 +6,5 @@ Este módulo para FoundryVTT traduz o sistema Pathfinder Second Edition para Por
 
 Para contribuir, entre no [GitLocalize do projeto](https://gitlocalize.com/repo/9365).
 
-## Detalhes
-A tradução usa a medida de Pés em vez de Metros devido ao sistema não ter suporte ao sistema métrico.
+## Informações
+Para mais informações sobre a tradução, veja [Divergências da Tradução](https://github.com/mclemente/fvtt-ptbr-pf2e-translation/discussions/9) e [Problemas da Tradução](https://github.com/mclemente/fvtt-ptbr-pf2e-translation/discussions/10).
