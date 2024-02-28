@@ -41,8 +41,13 @@
       },
       "Aid": {
         "Notes": {
+          "criticalFailure": "Seu aliado sofre –1 de penalidade de circunstância no teste acionador.",
+          "criticalSuccess": "Você concede +2 de bônus de circunstância ao seu aliado no teste acionador. Se você for mestre no teste que está realizando, o bônus é de +3 e, se for lendário, o bônus é de +4.",
+          "success": "Você concede +1 de bônus de circunstância ao seu aliado no teste acionador."
         },
+        "Title": "Auxiliar",
         "Warning": {
+          "NoStatistic": "A ação de Auxiliar pode ser utilizada com diferentes estatísticas, mas nenhuma foi especificada."
         }
       },
       "ArcaneSlam": {
@@ -59,13 +64,21 @@
         "Title": "Pancada Arcana"
       },
       "ArrestAFall": {
+        "Description": "<p><strong>Acionamento</strong> Você cai.</p><p><strong>Requisitos</strong> Você possui uma Velocidade de voo.</p><hr><p>Você faz um teste de Acrobatismo para refrear sua queda. Geralmente a CD é 15, mas pode ser maior devido à turbulência do ar ou outros circunstâncias.</p><p><strong>Sucesso</strong> Você cai gentilmente, sem sofrer dano da queda.</p>",
         "Notes": {
-        }
+          "success": "<strong>Sucesso</strong> Você cai gentilmente, sem sofrer dano da queda."
+        },
+        "Title": "Atenuar uma Queda"
       },
       "AvertGaze": {
+        "Description": "<p>Você desvia seu olhar do perigo. Você recebe +2 de bônus de circunstância em salvamentos contra habilidades visuais que requerem que você olhe para uma criatura ou objeto, como o olhar petrificante de uma medusa. Seu olhar permanece desviado até o início de seu próximo turno.</p>",
+        "Title": "Desviar Olhar"
       },
       "AvoidNotice": {
+        "Description": "<p>Você faz um teste de Furtividade para evitar ser percebido enquanto se move à metade de sua velocidade de viagem. Se tiver o talento Esgueirar-se Rapidamente, você pode se mover à sua Velocidade total em vez de reduzi-la pela metade, mas continua sem poder usar outra atividade de exploração enquanto o fizer. Se possuir o talento Esgueirador Lendário, você pode mover-se à Velocidade total e usar uma segunda atividade de exploração. Se estiver Evitando Ser Percebido no início de um encontro, você normalmente rola um teste de Furtividade em vez de um teste de Percepção para determinar sua iniciativa e para estabelecer se os inimigos o percebem (baseado em suas CDs de Percepção, como o normal para Esgueirar, independentemente do resultado de seus testes de iniciativa).</p>",
         "Notes": {
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você torna-se @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Indetectado} pela criatura durante seu movimento e permanece indetectado pela criatura ao fim dele.<br/><br/>Veja a ação @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Esqueirar} para mais detalhes.",
+          "success": "<strong>Successo</strong> Você torna-se @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Indetectado} pela criatura durante seu movimento e permanece indetectado pela criatura ao fim dele.<br/><br/>Veja a ação @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Esgueirar} para mais detalhes."
         },
         "Title": "Evitar Ser Percebido"
       },
@@ -77,6 +90,11 @@
           "success": "<b>Sucesso</b> Você se move até a sua Velocidade, tratando o local como terreno difícil (cada 5 pés custam 10 pés de movimento)."
         },
         "SampleTasks": {
+          "Untrained": " raízes emaranhadas, calçada irregular",
+          "Trained": "viga de madeira",
+          "Expert": "cascalho solto e fundo",
+          "Master": "corda bamba, camada de gelo macia",
+          "Legendary": "fio de navalha, pedaços de chão caindo pelo ar"
         },
         "Title": "Equilibrar"
       },
@@ -88,11 +106,18 @@
       "Burrow": {
       },
       "Climb": {
+        "Description": "<p><strong>Requerimentos</strong> Você tem ambas as mãos livres.</p><hr><p>Você realiza um teste de Atletismo para se mover até 5 pés para cima, para baixo ou através de um terreno inclinado. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} enquanto estiver escalando, a menos que possua uma Velocidade de Escalada. O MJ determina a CD baseado\nna natureza da inclinação e circunstâncias ambientais; você pode conseguir um sucesso crítico em uma inclinação que seja trivial de escalar. Se sua Velocidade em Terra for de 40 pés ou mais, aumente a distância máxima em 5 pés para cada 20 pés de Velocidade acima de 20 pés.</p><p><strong>Sucesso Crítico</strong> Você se move através da inclinação, aumentando a distância em 5 pés.<br><strong>Successo</strong> Você se move através da inclinação.<br><strong>Falha Crítica</strong> Você cai. Se começou a escalar em solo estável, você cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você cai. Se começou a escalar em solo estável, você cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
           "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para cima, através de, ou desce seguramente a inclinação por 5 pés mais 5 pés para\ncada 20 pés de sua Velocidade em terra (um total de 10 pés para a maioria dos PJs).",
           "success": "<b>Sucesso</b> Você se move de forma segura para cima, para baixo ou através de uma inclinação por 5 pés para cada 20 pés de\nsua Velocidade em terra (um total de 5 pés para a maioria dos PJs; mínimo de 5 pés se sua Velocidade for menor que 20 pés)."
         },
         "SampleTasks": {
+          "Untrained": " escadas, encostas íngremes, árvores de galhos baixos",
+          "Trained": "cordames, cordas, árvore típica",
+          "Expert": "parede com pequenos apoios para mãos e pés",
+          "Master": " teto com apoios para mãos e pés, muro de pedra",
+          "Legendary": "superfície lisa"
         },
         "Title": "Escalar"
       },
