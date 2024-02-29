@@ -476,9 +476,40 @@
       }
     },
     "Color": {
+      "Black": "Preto",
+      "Blue": "Azul",
+      "Cyan": "Ciano",
+      "Green": "Verde",
+      "Indigo": "Índigo",
+      "Magenta": "Magenta",
+      "Orange": "Laranja",
+      "Red": "Vermelho",
+      "Violet": "Violeta",
+      "White": "Branco",
+      "Yellow": "Amarelo"
     },
     "IWR": {
       "Custom": {
+        "AdamantineBludgeoning": "contundente de adamante",
+        "AllDamageFromSpells": "todo dano de magias",
+        "AllDamageFromUndead": "todo dano de mortos-vivos",
+        "AllMagicalDamage": "todo dano mágico",
+        "AllNonMagicalDamage": "todo dano não-mágico",
+        "AttacksWaterCreatures": "ataques de criaturas aquáticas",
+        "ColdIronBludgeoning": "contundente de ferro frio",
+        "ImpulseFireFrom": "impulso de fogo de {origem}",
+        "IngestedPoisons": "venenos ingeridos",
+        "MagicalBludgeoning": "contundente mágico",
+        "MagicalColdIron": "ferro frio mágico",
+        "MagicalDuskwood": "madeira crepuscular mágica",
+        "MagicalSilver": "prata mágica",
+        "MagicalSilverWeapons": "armas de prata mágicas",
+        "MagicalWeaponsBrightLight": "armas mágicas reluzindo luz brilhante",
+        "NonWeapons": "não-armas",
+        "PersistentPoison": "veneno persistente",
+        "PhysicalRangedAttacks": "ataques físicos à distância",
+        "RangedWeaponAttacks": "ataques à distância com armas",
+        "VoidZonKuthonFollowers": "vazio de seguidores de Zon-Kuthon"
       }
     },
     "Mutagens": {
@@ -486,10 +517,13 @@
         "FeralPrompt": "Aumentar a penalidade para CA para aumentar o tamanho dos dados de dano??"
       },
       "SanguineMutagen": {
+        "DamageNote": "Sempre que você sofre dano perfurante ou cortante, você sofre @Damage[1d6[bleed]].",
+        "VariantSaveLabel": "{item} vs Doença, Veneno, Fadiga"
       }
     },
     "NPCAbility": {
       "AlchemicalGolem": {
+        "Sickness": "Doença"
       },
       "AncientWisp": {
         "PinpointLight": "Ponto de Luz"
@@ -500,6 +534,8 @@
         }
       },
       "Bunyip": {
+        "CrocodileLegs": "Pernas de Crocodilo",
+        "SnakeTail": "Cauda de Cobra"
       },
       "Calikang": {
       },
@@ -637,128 +673,252 @@
     },
     "PersistentDamage": {
       "Acid1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,acid]]]{2*1d4 de dano ácido persistente}",
+        "success": "[[/r 1d4[persistent,acid]]]{1d4 de dano ácido persistente}"
       },
       "Acid1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,acid]]]{2*1d6 de dano ácido persistente}",
+        "success": "[[/r 1d6[persistent,acid]]]{1d6 de dano ácido persistente}"
       },
       "Acid2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,acid]]]{2*2d6 de dano ácido persistente}",
+        "success": "[[/r 2d6[persistent,acid]]]{2d6 de dano ácido persistente}"
       },
       "Acid2d6+2": {
+        "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]{2*2d6+4 de dano ácido persistente}",
+        "success": "[[/r (2d6+2)[persistent,acid]]]{2d6+2 de dano ácido persistente}"
       },
       "Bleed1": {
+        "criticalSuccess": "[[/r 2[bleed]]]{2 de dano de sangramento}",
+        "success": "[[/r 1[bleed]]]{1 de dano de sangramento}"
       },
       "Bleed1d10": {
+        "criticalSuccess": "[[/r (2*1d10)[bleed]]]{2*1d10 de dano de sangramento}",
+        "success": "[[/r 1d10[bleed]]]{1d10 de dano de sangramento}"
       },
       "Bleed1d12": {
+        "criticalSuccess": "[[/r (2*1d12)[bleed]]]{2*1d12 de dano de sangramento}",
+        "success": "[[/r 1d12[bleed]]]{1d12 de dano de sangramento}"
       },
       "Bleed1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[bleed]]]{2*1d4 de dano de sangramento}",
+        "success": "[[/r 1d4[bleed]]]{1d4 de dano de sangramento}"
       },
       "Bleed1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[bleed]]]{2*1d6 de dano de sangramento}",
+        "success": "[[/r 1d6[bleed]]]{1d6 de dano de sangramento}"
       },
       "Bleed1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[bleed]]]{2*1d8 de dano de sangramento}",
+        "success": "[[/r 1d8[bleed]]]{1d8 de dano de sangramento}"
       },
       "Bleed2": {
+        "criticalSuccess": "[[/r 4[bleed]]]{4 de dano de sangramento}",
+        "success": "[[/r 2[bleed]]]{2 de dano de sangramento}"
       },
       "Bleed2d10": {
+        "criticalSuccess": "[[/r (2*2d10)[bleed]]]{2*2d10 de dano de sangramento}",
+        "success": "[[/r 2d10[bleed]]]{2d10 de dano de sangramento}"
       },
       "Bleed2d12": {
+        "criticalSuccess": "[[/r (2*2d12)[bleed]]]{2*2d12 de dano de sangramento}",
+        "success": "[[/r 2d12[bleed]]]{2d12 de dano de sangramento}"
       },
       "Bleed2d4": {
+        "criticalSuccess": "[[/r (2*2d4)[bleed]]]{2*2d4 de dano de sangramento}",
+        "success": "[[/r 2d4[bleed]]]{2d4 de dano de sangramento}"
       },
       "Bleed2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[bleed]]]{2*2d6 de dano de sangramento}",
+        "success": "[[/r 2d6[bleed]]]{2d6 de dano de sangramento}"
       },
       "Bleed2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[bleed]]]{2*2d8 de dano de sangramento}",
+        "success": "[[/r 2d8[bleed]]]{2d8 de dano de sangramento}"
       },
       "Bleed3d10": {
+        "criticalSuccess": "[[/r (2*3d10)[bleed]]]{2*3d10 de dano de sangramento}",
+        "success": "[[/r 3d10[bleed]]]{3d10 de dano de sangramento}"
       },
       "Bleed3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[bleed]]]{2*3d6 de dano de sangramento}",
+        "success": "[[/r 3d6[bleed]]]{3d6 de dano de sangramento}"
       },
       "Bleed3d8": {
+        "criticalSuccess": "[[/r (2*3d8)[bleed]]]{2*3d8 de dano de sangramento}",
+        "success": "[[/r 3d8[bleed]]]{3d8 de dano de sangramento}"
       },
       "Bleed4d6": {
+        "criticalSuccess": "[[/r (2*4d6)[bleed]]]{2*4d6 de dano de sangramento}",
+        "success": "[[/r 4d6[bleed]]]{4d6 de dano de sangramento}"
       },
       "Bleed4d8": {
+        "criticalSuccess": "[[/r (2*4d8)[bleed]]]{2*4d8 de dano de sangramento}",
+        "success": "[[/r 4d8[bleed]]]{4d8 de dano de sangramento}"
       },
       "Bleed6d10": {
+        "criticalSuccess": "[[/r (2*6d10)[bleed]]]{2*6d10 de dano de sangramento}",
+        "success": "[[/r 6d10[bleed]]]{6d10 de dano de sangramento}"
       },
       "Bleed6d6": {
+        "criticalSuccess": "[[/r (2*6d6)[bleed]]]{2*6d6 de dano de sangramento}",
+        "success": "[[/r 6d6[bleed]]]{6d6 de dano de sangramento}"
       },
       "Bleed8d4": {
+        "criticalSuccess": "[[/r (2*8d4)[bleed]]]{2*8d4 de dano de sangramento}",
+        "success": "[[/r 8d4[bleed]]]{8d4 de dano de sangramento}"
       },
       "Cold1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,cold]]]{2*1d6 de dano de persistente de frio}",
+        "success": "[[/r 1d6[persistent,cold]]]{1d6 de dano de persistente de frio}"
       },
       "Cold1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,cold]]]{2*1d8 de dano de persistente de frio}",
+        "success": "[[/r 1d8[persistent,cold]]]{1d8 de dano de persistente de frio}"
       },
       "Cold2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,cold]]]{2*2d6 de dano de persistente de frio}",
+        "success": "[[/r 2d6[persistent,cold]]]{2d6 de dano de persistente de frio}"
       },
       "Cold2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[persistent,cold]]]{2*2d8 de dano de persistente de frio}",
+        "success": "[[/r 2d8[persistent,cold]]]{2d8 de dano de persistente de frio}"
       },
       "Fire1": {
+        "criticalSuccess": "[[/r 2[persistent,fire]]]{2 de dano de persistente de fogo}",
+        "success": "[[/r 1[persistent,fire]]]{1 de dano de persistente de fogo}"
       },
       "Fire1d10": {
+        "criticalSuccess": "[[/r (2*1d10)[persistent,fire]]]{2*1d10 de dano de persistente de fogo}",
+        "success": "[[/r 1d10[persistent,fire]]]{1d10 de dano de persistente de fogo}"
       },
       "Fire1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,fire]]]{2*1d4 de dano de persistente de fogo}",
+        "success": "[[/r 1d4[persistent,fire]]]{1d4 de dano de persistente de fogo}"
       },
       "Fire1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,fire]]]{2*1d6 de dano de persistente de fogo}",
+        "success": "[[/r 1d6[persistent,fire]]]{1d6 de dano de persistente de fogo}"
       },
       "Fire2d10": {
+        "criticalSuccess": "[[/r (2*2d10)[persistent,fire]]]{2*2d10 de dano de persistente de fogo}",
+        "success": "[[/r 2d10[persistent,fire]]]{2d10 de dano de persistente de fogo}"
       },
       "Fire2d4": {
+        "criticalSuccess": "[[/r (2*2d4)[persistent,fire]]]{2*2d4 de dano de persistente de fogo}",
+        "success": "[[/r 2d4[persistent,fire]]]{2d4 de dano de persistente de fogo}"
       },
       "Fire2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,fire]]]{2*2d6 de dano de persistente de fogo}",
+        "success": "[[/r 2d6[persistent,fire]]]{2d6 de dano de persistente de fogo}"
       },
       "Fire2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[persistent,fire]]]{2*2d8 de dano de persistente de fogo}",
+        "success": "[[/r 2d8[persistent,fire]]]{2d8 de dano de persistente de fogo}"
       },
       "Fire3d10": {
+        "criticalSuccess": "[[/r (2*3d10)[persistent,fire]]]{2*3d10 de dano de persistente de fogo}",
+        "success": "[[/r 3d10[persistent,fire]]]{3d10 de dano de persistente de fogo}"
       },
       "Fire3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[persistent,fire]]]{2*3d6 de dano de persistente de fogo}",
+        "success": "[[/r 3d6[persistent,fire]]]{3d6 de dano de persistente de fogo}"
       },
       "Fire3d8": {
+        "criticalSuccess": "[[/r (2*3d8)[persistent,fire]]]{2*3d8 de dano de persistente de fogo}",
+        "success": "[[/r 3d8[persistent,fire]]]{3d8 de dano de persistente de fogo}"
       },
       "Fire4d10": {
+        "criticalSuccess": "[[/r (2*4d10)[persistent,fire]]]{2*4d10 de dano de persistente de fogo}",
+        "success": "[[/r 4d10[persistent,fire]]]{4d10 de dano de persistente de fogo}"
       },
       "Force1d12": {
+        "criticalSuccess": "[[/r (2*1d12)[persistent,force]]]{2*1d12 de dano de persistente de força}",
+        "success": "[[/r 1d12[persistent,force]]]{1d12 de dano de persistente de força}"
       },
       "Force2d12": {
+        "criticalSuccess": "[[/r (2*2d12)[persistent,force]]]{2*2d12 de dano de persistente de força}",
+        "success": "[[/r 2d12[persistent,force]]]{2d12 de dano de persistente de força}"
       },
       "Mental1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,mental]]]{2*1d4 de dano de persistente mental}",
+        "success": "[[/r 1d4[persistent,mental]]]{1d4 de dano de persistente mental}"
       },
       "Mental1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,mental]]]{2*1d6 de dano de persistente mental}",
+        "success": "[[/r 1d6[persistent,mental]]]{1d6 de dano de persistente mental}"
       },
       "Mental1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,mental]]]{2*1d8 de dano de persistente mental}",
+        "success": "[[/r 1d8[persistent,mental]]]{1d8 de dano de persistente mental}"
       },
       "Mental2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,mental]]]{2*2d6 de dano de persistente mental}",
+        "success": "[[/r 2d6[persistent,mental]]]{2d6 de dano de persistente mental}"
       },
       "Mental3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[persistent,mental]]]{2*3d6 de dano de persistente mental}",
+        "success": "[[/r 3d6[persistent,mental]]]{3d6 de dano de persistente mental}"
       },
       "Negative1d10": {
+        "criticalSuccess": "[[/r (2*1d10)[persistent,void]]]{2*1d10 de dano de persistente vazio}",
+        "success": "[[/r 1d10[persistent,void]]]{1d10 de dano de persistente vazio}"
       },
       "Negative1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,void]]]{2*1d6 de dano de persistente vazio}",
+        "success": "[[/r 1d6[persistent,void]]]{2*1d6 de dano de persistente vazio}"
       },
       "Negative1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,void]]]{2*1d8 de dano de persistente vazio}",
+        "success": "[[/r 1d8[persistent,void]]]{1d8 de dano de persistente vazio}"
       },
       "Negative2d10": {
+        "criticalSuccess": "[[/r (2*2d10)[persistent,void]]]{2*2d10 de dano de persistente vazio}",
+        "success": "[[/r 2d10[persistent,void]]]{2d10 de dano de persistente vazio}"
       },
       "Piercing2d8+8": {
+        "criticalSuccess": "[[/r (2*2d8+16)[persistent,piercing]]]{2*2d8 de dano de persistente perfurante}",
+        "success": "[[/r (2d8+8)[persistent,piercing]]]{2d8 de dano de persistente perfurante}"
       },
       "Poison1d12": {
+        "criticalSuccess": "[[/r (2*1d12)[persistent,poison]]]{2*1d12 de dano de persistente de veneno}",
+        "success": "[[/r 1d12[persistent,poison]]]{1d12 de dano de persistente de veneno}"
       },
       "Poison1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}",
+        "success": "[[/r 1d4[persistent,poison]]]{1d4 de dano de persistente de veneno}"
       },
       "Poison1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 de dano de persistente de veneno}",
+        "success": "[[/r 1d6[persistent,poison]]]{1d6 de dano de persistente de veneno}"
       },
       "Poison1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,poison]]]{2*1d8 de dano de persistente de veneno}",
+        "success": "[[/r 1d8[persistent,poison]]]{1d8 de dano de persistente de veneno}"
       },
       "Poison2d4": {
+        "criticalSuccess": "[[/r (2*2d4)[persistent,poison]]]{2*2d4 de dano de persistente de veneno}",
+        "success": "[[/r 2d4[persistent,poison]]]{2d4 de dano de persistente de veneno}"
       },
       "Poison2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,poison]]]{2*2d6 de dano de persistente de veneno}",
+        "success": "[[/r 2d6[persistent,poison]]]{2d6 de dano de persistente de veneno}"
       },
       "Poison2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[persistent,poison]]]{2*2d8 de dano de persistente de veneno}",
+        "success": "[[/r 2d8[persistent,poison]]]{2d8 de dano de persistente de veneno}"
       },
       "Poison3d4": {
+        "criticalSuccess": "[[/r (2*3d4)[persistent,poison]]]{2*3d4 de dano de persistente de veneno}",
+        "success": "[[/r 3d4[persistent,poison]]]{2*3d4 de dano de persistente de veneno}"
       },
       "Poison3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[persistent,poison]]]{2*3d6 de dano de persistente de veneno}",
+        "success": "[[/r 3d6[persistent,poison]]]{2*3d6 de dano de persistente de veneno}"
       },
       "Poison4d6": {
+        "criticalSuccess": "[[/r (2*4d6)[persistent,poison]]]{2*4d6 de dano de persistente de veneno}",
+        "success": "[[/r 4d6[persistent,poison]]]{2*4d6 de dano de persistente de veneno}"
       }
     },
     "RuleEditor": {
@@ -779,6 +939,7 @@
           },
           "Texture": "Textura",
           "Translation": {
+            "Hint": "Uma translação manual x/y do recurso de textura",
             "Label": "Translação",
             "X": "x",
             "Y": "y"
@@ -791,6 +952,7 @@
             "Label": "Nível"
           },
           "MergeExisting": {
+            "Hint": "Se outra aura com o mesmo slug já estiver sendo emitida, mescle os dados desta aura com os da outra, combinando traços e efeitos, bem como mesclando dados de <em>cores</em>.",
             "Label": "Mesclar Existente"
           },
           "Radius": "Raio"
@@ -974,10 +1136,24 @@
       "Android": {
       },
       "AnimalForm": {
+        "Ape": "Macaco",
+        "Bat": "Morcego",
+        "Bear": "Urso",
+        "Bull": "Touro",
+        "Canine": "Canídeo",
+        "Cat": "Felino",
+        "Deer": "Veado",
+        "Frog": "Sapo",
+        "Shark": "Tubarão",
+        "Snake": "Serpente",
+        "Toad": "Rã",
+        "Wolf": "Lobo"
       },
       "AnimalSkin": {
       },
       "AquaticCombat": {
+        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água.",
+        "RangedNote": "Ataques à distância que causam dano contundente ou cortante erram automaticamente se o atacante ou alvo estiver debaixo d'água, e ataques perfurantes à distância feitos por uma criatura subaquática ou contra um alvo subaquático têm seus incrementos de alcance reduzidos à metade."
       },
       "ArtokussFire": {
       },
@@ -1061,6 +1237,10 @@
       "BloodlettingKukri": {
       },
       "BonusLabel": {
+        "NegativeOne": "-1",
+        "PlusFour": "+4",
+        "PlusOne": "+1",
+        "PlusThree": "+3",
         "PlusTwo": "+2"
       },
       "BottledOmen": {
@@ -1068,6 +1248,13 @@
       "BountyHunterDedication": {
       },
       "BrevicNoble": {
+        "Garess": "Garess",
+        "Lebeda": "Lebeda",
+        "Lodovka": "Lodovka",
+        "Medvyed": "Medvyed",
+        "Orlovsky": "Orlovsky",
+        "Prompt": "Selecione uma linhagem Brevana.",
+        "Surtova": "Surtova"
       },
       "CapeOfJustice": {
       },
@@ -1084,7 +1271,11 @@
         },
         "DivineSmite": {
           "Label": "Punição Divina"
-        }
+        },
+        "EvilDamage": "Dano de Espírito",
+        "NegativeDamage": "Dano de Vazio",
+        "RetributiveStrike": "Golpe Retributivo",
+        "TargetReaction": "O alvo desencadeou a reação do seu campeão"
       },
       "CharmOfResistance": {
       },
@@ -1105,12 +1296,17 @@
         "DirectedChannel": {
         },
         "DivineFont": {
+          "Harmful": "Ferimento",
+          "Healing": "Cura",
+          "Prompt": "Selecione uma Fonte Divina."
         },
         "DivineInfusion": {
         },
         "DivineRebuttal": {
         },
         "Doctrine": {
+          "AllowedDrops": "Característica de classe de clérigo de 1º nível",
+          "Prompt": "Selecione uma doutrina."
         },
         "ReplenishmentOfWar": {
         },
@@ -1154,11 +1350,17 @@
       "DancingShield": {
       },
       "DedicationCraftingEntry": {
-        "Herbalist": "Herbalista"
+        "Herbalist": "Herbalista",
+        "Poisoner": "Veneficista",
+        "Snarecrafter": "Arapuqueiro",
+        "TalismanDabbler": "Diletante Talismânico"
       },
       "Defending": {
+        "FireSpell": "Defesa contra uma magia de fogo"
       },
       "DeityAndCause": {
+        "AllowedDrops": "Característica de classe de campeão de 1º nível",
+        "Prompt": "Selecione uma causa de campeão."
       },
       "DeviantAbilities": {
         "AwakenedPower": {
@@ -1857,6 +2059,17 @@
       "SpellmastersResilience": {
       },
       "SpellRank": {
+        "Eighth": "8° Círculo",
+        "Fifth": "5° Círculo",
+        "First": "1° Círculo",
+        "Fourth": "4° Círculo",
+        "Ninth": "9° Círculo",
+        "Prompt": "Selecione um círculo de magia.",
+        "Second": "2° Círculo",
+        "Seventh": "7° Círculo",
+        "Sixth": "6° Círculo",
+        "Tenth": "10° Círculo",
+        "Third": "3° Círculo"
       },
       "SpiritPower": {
         "Love": {
@@ -1993,8 +2206,10 @@
           "Prompt": "Selecione uma escola arcana."
         },
         "ArcaneThesis": {
+          "Prompt": "Selecione uma tese arcana."
         },
         "Spellshape1": {
+          "Prompt": "Selecione um talento moldamagia de mago de 1º nível."
         },
         "UnifiedMagicalTheory": {
           "Prompt": "Selecione um talento de mago de 1º nível."
