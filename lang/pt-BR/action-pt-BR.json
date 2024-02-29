@@ -12,6 +12,7 @@
     "Actions": {
       "AdministerFirstAid": {
         "Stabilize": {
+          "Description": "<p>Faça um teste de Medicina em uma criatura que esteja com 0 Pontos de Vida e tenha a condição morrendo. A CD é igual a 5 + a CD de rolagem de recuperação dessa criatura (normalmente 15 + o valor de morrendo dela).</p><p><strong>Sucesso</strong> A criatura perde a condição morrendo (mas permanece inconsciente).<br ><strong>Falha Crítica</strong> O valor de morrendo da criatura aumenta em 1.</p>",
           "DifficultyClass": {
             "Label": "CD de Administrar Primeiros Socorros"
           },
@@ -132,7 +133,9 @@
         "Title": "Coagir"
       },
       "CommandAnAnimal": {
+        "Description": "<p>Você dá uma ordem a um animal. Faça um teste de Natureza contra a CD de Vontade do animal. O MJ pode ajustar a CD se o animal possuir uma atitude boa em relação a você, se você sugerir um curso de ação ao qual ele estava predisposto ou se você oferecer um petisco.</p><p>Você falha automaticamente se o animal estiver hostil ou inamistoso para você. Se o animal estiver prestativo para você, aumente seu grau de sucesso em um passo. Você pode ser capaz de Comandar um Animal mais facilmente com um talento como Cavalgar.</p><p>A maioria dos animais conhece as ações básicas Andar, Buscar, Golpear, Levantar e Saltar. Se um animal conhecer uma atividade (como o Galope de um cavalo), você pode Comandar um Animal a realizá-la, mas deve gastar tantas ações em Comandar Animal quanto a quantidade de ações necessárias para o animal realizar a atividade. Você também pode gastar várias ações para Comandar um Animal para ele realizar essa quantidade de ações básicas no próximo turno dele; por exemplo, você poderia gastar 3 ações para Comandar um Animal para que ele Ande três vezes ou Ande duas vezes e depois Golpeie.</p><p><strong>Successo</strong> O animal obedece a seu comando no próximo turno dele.<br><strong>Falha</strong> O animal hesita ou resiste, e não faz nada<br><strong>Falha Crítica</strong> O animal lhe desobedece ou entende errado, e faz alguma outra ação determinada pelo MJ.</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> O animal lhe desobedece ou entende errado, e faz alguma outra ação determinada pelo MJ.",
           "failure": "<strong>Falha</strong> O animal está hesitante ou resistente, e não faz nada.",
           "success": "<strong>Sucesso</strong> O animal faz seu comando no próximo turno dele."
         },
@@ -489,6 +492,10 @@
       },
       "Perform": {
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você demonstra somente incompetência.",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Sua performance impressiona os observadores e eles provavelmente compartilharão histórias de sua habilidade.",
+          "failure": "<strong>Falha</strong> Sua performance passa despercebida",
+          "success": "<strong>Sucesso</strong> Você se prova, e observadores apreciam a qualidade de sua performance."
         },
         "SampleTasks": {
           "Untrained": " audiência de plebeus",
@@ -526,6 +533,7 @@
         },
         "Title": "Performar",
         "Warning": {
+          "UnknownVariant": "Variante desconhecida '{variant}' usada para Performance, use atuação, comédia, dança, teclado, oratória, percussão, canto, cordas ou sopros."
         }
       },
       "PickALock": {
@@ -541,6 +549,7 @@
       "RaiseAShield": {
         "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
         "Content": "{actor} ergue seu escudo.",
+        "Description": "<p>Você posiciona seu escudo para se proteger. Quando tiver Erguido um Escudo, você recebe o bônus de circunstância dele na CA. Seu escudo permanece erguido até o início de seu próximo turno.</p>",
         "NoShieldEquipped": "{actor} deve ter um escudo equipado.",
         "ReactionTitle": "Escudo Reativo",
         "ShieldIsBroken": "O {shield} de {actor} está quebrado.",
@@ -550,10 +559,14 @@
         "Title": "Erguer um escudo"
       },
       "Ready": {
+        "Description": "<p>Você se prepara para usar uma ação que ocorrerá fora de seu turno. Escolha uma ação única ou ação livre que você pode usar e designe um acionamento. Seu turno acaba. Se o acionamento designado ocorrer antes do início de seu próximo turno, você pode usar a ação escolhida como uma reação (desde que atenda aos requerimentos para usá-la). Você não pode Preparar uma ação livre que já tenha um acionamento.</p><p>Se tiver uma penalidade por ataques múltiplos e sua ação preparada for uma ação de ataque, seu ataque preparado sofre a penalidade por ataques múltiplos que você tinha no momento em que usou Preparar. Esta é uma das poucas vezes em que a penalidade por ataques múltiplos se aplica quando não é o seu turno.</p>",
         "Title": "Preparar"
       },
       "RecallKnowledge": {
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você recorda informações incorretas. O MJ responde falsamente à sua pergunta (ou decide não lhe dar nenhuma informação, como se fosse uma falha).",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você recorda o conhecimento precisamente. O MJ responde à sua pergunta com sinceridade e fornece informações adicionais ou contexto, ou responde a uma pergunta complementar.",
+          "success": "<strong>Sucesso</strong> Você recorda o conhecimento precisamente. O MJ responde sua pergunta com sinceridade."
         },
         "SampleTasks": {
           "Caption": "Estes exemplos utilizam Sociedade ou Religião.",
@@ -565,6 +578,7 @@
         },
         "Title": "Recordar Conhecimento",
         "Warning": {
+          "NoSkill": "A ação Recordar Conhecimento pode ser usada com diferentes perícias e nenhuma perícia foi especificada."
         }
       },
       "Release": {
@@ -580,6 +594,8 @@
       },
       "Repair": {
         "Chat": {
+          "ItemDamaged": "{itemName} recebeu {damageDealt} pontos de dano, totalizando {afterDamageHitPoints} de {maximumHitPoints} pontos de vida.",
+          "ItemRepaired": "{itemName} foi reparado em {repairedDamage} pontos de dano, totalizando {afterRepairHitPoints} de {maximumHitPoints} pontos de vida."
         },
         "Error": {
           "ItemReferenceMismatch": "Aceita apenas itens físicos para Reparar de um ator."
@@ -593,6 +609,9 @@
           "RollItemDamage": "Rola {value} de dano"
         },
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você causa 2d6 de dano ao item. Aplique a Dureza do item a este dano.",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você restaura 10 Pontos de Vida ao item, mais 10 Pontos de Vida adicionais por graduação de proficiência que possuir em Manufatura (um total de 20 PV se for treinado, 30 PV se for especialista, 40 PV se for mestre ou 50 PV se for lendário).",
+          "success": "<strong>Sucesso</strong> Você restaura 5 Pontos de Vida ao item, mais 5 Pontos de Vida adicionais por graduação de proficiência que possuir em Manufatura (um total de 10 PV se for treinado, 15 PV se for especialista, 20 PV se for mestre ou 25 PV se for lendário)."
         },
         "SelectItemDialog": {
           "CancelButtonLabel": "Cancelar",
@@ -606,7 +625,11 @@
         }
       },
       "Reposition": {
+        "Description": "<p>Você força uma criatura ou objeto ao seu redor. Faça um teste de Atletismo contra a CD de Fortitude do alvo.</p><p><strong>Sucesso Crítico</strong> Você move a criatura até 3 metros. Ele deve permanecer ao seu alcance durante esse movimento e você não pode movê-lo para dentro ou através de obstáculos.<br><strong>Sucesso</strong> Você move o alvo até 1,5 metro. Ele deve permanecer ao seu alcance durante esse movimento e você não pode movê-lo para dentro ou através de obstáculos.<br><strong>Falha Crítica</strong> O alvo pode movê-lo até 1,5 metro como se tivesse reposicionado você com sucesso. </p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> O alvo pode mover você até 1,5 metro como se tivesse reposicionado você com sucesso.",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você move a criatura até 3 metros. Ele deve permanecer ao seu alcance durante esse movimento e você não pode movê-lo para dentro ou através de obstáculos.",
+          "success": "<strong>Sucesso</strong> Você move o alvo até 1,5 metro. Ele deve permanecer ao seu alcance durante esse movimento e você não pode movê-lo para dentro ou através de obstáculos."
         },
         "Title": "Reposicionar"
       },
@@ -629,6 +652,8 @@
           "NoCompass": "Sem bússola"
         },
         "Notes": {
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você obtém uma noção excelente de sua localização. Se estiver em um ambiente com direções cardinais, você as aponta com exatidão.",
+          "success": "<strong>Sucesso</strong> Você obtém orientação o suficiente para evitar ficar completamente perdido. Se estiver em um ambiente com direções cardinais, você tem uma noção dessas direções."
         },
         "SampleTasks": {
           "Untrained": "determinar uma direção cardinal usando o sol",
@@ -653,6 +678,7 @@
       },
       "Shove": {
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio, cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
           "criticalSuccess": "<b>Sucesso Crítico</b> Você empurra seu oponente até 10 pés para longe de você. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção.",
           "success": "<b>Sucesso</b> Você empurra seu oponente 5 pés para trás. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção."
         },
@@ -673,6 +699,8 @@
           "success": "<b>Sucesso</b> Você se espreme por 1 minuto para cada 5 pés."
         },
         "SampleTasks": {
+          "Trained": "espaço mal cabe seus ombros",
+          "Master": "espaço mal cabe sua cabeça"
         },
         "Title": "Espremer"
       },
@@ -682,7 +710,11 @@
       },
       "Steal": {
         "Notes": {
-        }
+          "failure": "<strong>Falha</strong> O portador do item percebe sua tentativa antes de você conseguir pegar o objeto, ou um observador vê que você pega ou tenta pegar o item. O MJ determina a resposta de qualquer criatura que perceber seu roubo.",
+          "success": "<strong>Sucesso</strong> Você furta o objeto sem o portador perceber, ou um observador não vê que você pega ou tenta pegar o item."
+        },
+        "Pocketed": "Objeto em um bolso ou protegido",
+        "Title": "Furtar"
       },
       "SteelYourResolve": {
         "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
@@ -693,15 +725,27 @@
         "Title": "Cerrar os Dentes"
       },
       "Step": {
+        "Description": "<p>Você se move 1,5 metros cuidadosamente. Ao contrário da maioria dos tipos de movimento, Dar um Passo não aciona reações que podem ser acionadas por ações de movimento ou ao sair ou entrar em um quadrado (tal como Ataques de Oportunidade).</p><p>Você não pode Dar um Passo em terreno difícil nem utilizando uma Velocidade diferente de sua Velocidade em terra.</p>",
+        "Title": "Dar Um Passo"
       },
       "Stride": {
+        "Description": "<p>Você se move até sua Velocidade.</p>",
+        "Title": "Andar"
       },
       "Strike": {
         "Notes": {
-        }
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você faz uma rolagem de dano de acordo com a arma ou ataque desarmado e causa o dobro de dano.",
+          "success": "<strong>Sucesso</strong> Você faz uma rolagem de dano de acordo com a arma ou ataque desarmado e causa dano."
+        },
+        "Title": "Golpear"
       },
       "Subsist": {
+        "AfterExplorationPenalty": "Após Exploração",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você atrai problemas, come algo que não deveria ou de alguma outra forma piora sua situação. Você sofre –2 de penalidade em testes de Subsistir por 1 semana. Você não encontra qualquer alimento; se não possuir qualquer comida armazenada, você corre risco de passar fome ou morrer de sede se continuar falhando. @UUID[Compendium.pf2e.other-effects.Item.wHWWHkjDXmJl4Ia6]{Efeito: Situação Adversa de Subsistência}",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você fornece subsistência para você e uma criatura adicional, ou melhora sua própria comida e abrigo, concedendo a si um padrão de vida confortável.",
+          "failure": "<strong>Falha</strong> Você se expõe às condições climáticas e não consegue alimentos suficientes, ficando fatigado até obter alimentos e abrigo melhores.",
+          "success": "<strong>Sucesso</strong> Você encontra alimentos e um abrigo com proteção básica contra as condições climáticas, conseguindo um padrão de vida de subsistência para si mesmo."
         },
         "SampleTasks": {
           "Untrained": "floresta exuberante com clima calmo ou cidade grande com plenitude de recursos",
@@ -712,6 +756,7 @@
         },
         "Title": "Subsistir",
         "Warning": {
+          "NoSkill": "A ação Subsistir pode ser usada com diferentes perícias e nenhuma perícia foi especificada. Isto normalmente utiliza Sociedade se você estiver em um assentamento ou Sobrevivência se estiver nos ermos."
         }
       },
       "Sustain": {
@@ -745,6 +790,9 @@
       },
       "Track": {
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você perde a trilha e não pode tentar novamente por 24 horas.",
+          "failure": "<strong>Falha</strong> Você perde a trilha, mas pode tentar novamente após 1 hora.",
+          "success": "<strong>Sucesso</strong> Você encontra a trilha ou continua a seguir uma que já esteja seguindo."
         },
         "SampleTasks": {
           "Untrained": "o caminho de um grande exército seguindo uma estrada",
@@ -788,7 +836,11 @@
         "SkillSelect": "Perícia de Tratar Ferimentos"
       },
       "Trip": {
+        "Description": "<p>Você tenta derrubar um oponente no chão. Faça um teste de Atletismo contra a CD de Reflexos dele.</p><p><strong>Sucesso Crítico</strong> O alvo cai, fica prostrado e sofre 1d6 de dano contundente.<br><strong>Sucesso</strong> O alvo cai e fica prostrado.<br><strong>Falha Crítica</strong> Você perde o equilíbrio e cai e fica prostrado.</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio, cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
+          "criticalSuccess": "<strong>Sucesso crítico</strong> O alvo cai, fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} e sofre @Damage[1d6[bludgeoning]] de dano.",
+          "success": "<strong>Sucesso</strong> O alvo cai e fica@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}."
         },
         "Title": "Derrubar"
       },
