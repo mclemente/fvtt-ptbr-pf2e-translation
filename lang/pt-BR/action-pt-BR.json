@@ -104,6 +104,7 @@
         "Title": "Comentário Maldoso"
       },
       "Burrow": {
+        "Title": "Escavar"
       },
       "Climb": {
         "Description": "<p><strong>Requerimentos</strong> Você tem ambas as mãos livres.</p><hr><p>Você realiza um teste de Atletismo para se mover até 5 pés para cima, para baixo ou através de um terreno inclinado. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} enquanto estiver escalando, a menos que possua uma Velocidade de Escalada. O MJ determina a CD baseado\nna natureza da inclinação e circunstâncias ambientais; você pode conseguir um sucesso crítico em uma inclinação que seja trivial de escalar. Se sua Velocidade em Terra for de 40 pés ou mais, aumente a distância máxima em 5 pés para cada 20 pés de Velocidade acima de 20 pés.</p><p><strong>Sucesso Crítico</strong> Você se move através da inclinação, aumentando a distância em 5 pés.<br><strong>Successo</strong> Você se move através da inclinação.<br><strong>Falha Crítica</strong> Você cai. Se começou a escalar em solo estável, você cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>",
@@ -143,6 +144,7 @@
         "Title": "Ocultar um Objeto"
       },
       "CoverTracks": {
+        "Title": "Cobrir Rastros"
       },
       "Craft": {
         "Details": {
@@ -185,6 +187,7 @@
         }
       },
       "Crawl": {
+        "Title": "Rastejar"
       },
       "CreateADiversion": {
         "DistractingWords": {
@@ -208,20 +211,31 @@
         "ForgedDocument": {
           "Name": "Documento Falsificado"
         },
+        "ForgedDocumentCreatedNotification": "Um documento falsificado foi adicionado ao inventário de {name}.",
         "Notes": {
+          "criticalFailure": "<strong>Falha</strong> O observador descobre que seu documento é uma falsificação.",
+          "criticalSuccess": "<strong>Sucesso</strong> O observador não detecta a falsificação.",
+          "failure": "<strong>Falha</strong> O observador descobre que seu documento é uma falsificação.",
+          "success": "<strong>Sucesso</strong> O observador não detecta a falsificação."
         },
-        "Title": "Criar Falsificação"
+        "Title": "Criar Falsificação",
+        "UnspecificHandwriting": "Caligrafia não específica"
       },
       "DecipherWriting": {
         "Notes": {
         },
         "SampleTasks": {
+          "Trained": "dissertação básica de filosofia",
+          "Expert": "código complexo, como cifras",
+          "Master": "código de um mestre espião ou anotações de pesquisa avançadas",
+          "Legendary": "texto planar esotérico escrito em metáforas por um celestial antigo"
         },
         "Title": "Decifrar Escrita",
         "Warning": {
         }
       },
       "Delay": {
+        "Title": "Adiar"
       },
       "Demoralize": {
         "Notes": {
@@ -244,14 +258,21 @@
         "Title": "Desarmar"
       },
       "Dismiss": {
+        "Title": "Dispensar"
       },
       "DropProne": {
+        "Title": "Prostrar"
       },
       "EarnIncome": {
         "Notes": {
         },
         "SampleTasks": {
-        }
+          "Trained": "copeiro, fazer pesquisa legal",
+          "Expert": "cuidar de uma adega, defender casos menores na corte",
+          "Master": "administrar uma grande cervejaria, defender casos importantes na corte",
+          "Legendary": "administrar uma franquia internacional de bebida, defender um caso nas cortes do Inferno"
+        },
+        "Title": "Ganhar Proventos"
       },
       "EncouragingWords": {
         "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
@@ -275,8 +296,11 @@
       },
       "EndCover": {
         "TowerShield": {
-          "Description": "{actor} sai de trás de seu {arma}."
-        }
+          "Description": "{actor} sai de trás de seu {arma}.",
+          "Title": "Abandonar Cobertura"
+        },
+        "ShortTitle": "Abandonar Cobertura",
+        "Title": "Abandonar Cobertura"
       },
       "Escape": {
         "Notes": {
@@ -289,6 +313,7 @@
         "Title": "Fintar"
       },
       "Fly": {
+        "Title": "Voar"
       },
       "ForceOpen": {
         "NoCrowbarPenalty": "Sem pé de cabra",
@@ -297,6 +322,11 @@
           "criticalSuccess": "<b>Sucesso Crítico</b> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
         },
         "SampleTasks": {
+          "Untrained": "tecido, vidro frágil",
+          "Trained": "gelo, vidro resistente",
+          "Expert": "porta de madeira frágil, rastrilho de madeira",
+          "Master": "porta de madeira resistente, rastrilho de ferro, barra de metal",
+          "Legendary": "porta de pedra ou ferro"
         },
         "Title": "Forçar"
       },
@@ -306,12 +336,18 @@
           "success": "<b>Sucesso</b> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades."
         },
         "SampleTasks": {
+          "Untrained": "fofoca atual",
+          "Trained": "rumor comum",
+          "Expert": "rumor obscuro, segredo mau guardado",
+          "Master": " informação bem guardada ou esotérica",
+          "Legendary": "informação conhecida somente por poucos incrivelmente selecionados ou apenas por seres extraordinários"
         },
         "Title": "Obter Informação"
       },
       "GrabAnEdge": {
         "Notes": {
-        }
+        },
+        "Title": "Segurar Numa Beirada"
       },
       "Grapple": {
         "Notes": {
@@ -334,11 +370,13 @@
       },
       "IdentifyAlchemy": {
         "Notes": {
-        }
+        },
+        "Title": "Identificar Alquimia"
       },
       "IdentifyMagic": {
         "Notes": {
         },
+        "Title": "Identificar Magia",
         "Warning": {
         }
       },
@@ -367,6 +405,7 @@
           "Title": "Trocar Empunhadura (2M)"
         },
         "Modular": {
+          "Title": "Modular"
         },
         "Parenthetical": "Interagir {purpose}",
         "PickUp1H": {
@@ -392,10 +431,12 @@
         "Title": "Interagir"
       },
       "Leap": {
+        "Title": "Saltar"
       },
       "LearnASpell": {
         "Notes": {
         },
+        "Title": "Aprenda uma Magia",
         "Warning": {
         }
       },
@@ -412,6 +453,9 @@
         "Title": "Salto em Distância"
       },
       "LowerShield": {
+        "Content": "{actor} abaixa seu {shield}.",
+        "ShortTitle": "Abaixar",
+        "Title": "Abaixar Escudo"
       },
       "MakeAnImpression": {
         "Notes": {
@@ -428,38 +472,59 @@
           "success": "<b>Sucesso</b> Você obtém sucesso na manobra."
         },
         "SampleTasks": {
+          "Trained": "subida ou descida íngreme",
+          "Expert": "voar contra o vento, pairar no ar",
+          "Master": " inverter sua direção",
+          "Legendary": "voar através de um vendaval"
         },
         "Title": "Manobrar em Voo"
       },
       "Mount": {
+        "Title": "Montar"
       },
       "PalmAnObject": {
         "Notes": {
-        }
+        },
+        "Title": "Empalmar Um Objeto"
       },
       "Perform": {
         "Notes": {
         },
         "SampleTasks": {
+          "Untrained": " audiência de plebeus",
+          "Trained": "audiência de artesãos",
+          "Expert": "audiência de mercadores ou baixa nobreza",
+          "Master": "audiência de alta nobreza ou baixa realeza",
+          "Legendary": "audiência de alta realeza ou seres de outros mundos"
         },
         "Acting": {
+          "Title": "Atuação"
         },
         "Comedy": {
+          "Title": "Comédia"
         },
         "Dance": {
+          "Title": "Dança"
         },
         "Keyboards": {
+          "Title": "Tocar um instrumento de teclado"
         },
         "Oratory": {
+          "Title": "Oratória"
         },
         "Percussion": {
+          "Title": "Tocar um instrumento de percussão"
         },
         "Singing": {
+          "Title": "Canto"
         },
         "Strings": {
+          "Title": "Tocar um instrumento de cordas"
         },
         "Winds": {
+          "Title": "Tocar um instrumento de sopro"
         },
+        "Title": "Performar",
         "Warning": {
         }
       },
@@ -471,6 +536,7 @@
         "Title": "Abrir uma Fechadura"
       },
       "PointOut": {
+        "Title": "Apontar"
       },
       "RaiseAShield": {
         "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
@@ -484,12 +550,20 @@
         "Title": "Erguer um escudo"
       },
       "Ready": {
+        "Title": "Preparar"
       },
       "RecallKnowledge": {
         "Notes": {
         },
         "SampleTasks": {
+          "Caption": "Estes exemplos utilizam Sociedade ou Religião.",
+          "Untrained": "nome de um governante, nobre principal ou divindade maior",
+          "Trained": "linha de sucessão de uma família nobre maior, doutrinas principais de uma divindade maior",
+          "Expert": "genealogia de um nobre menor, ensinamentos de um sacerdote antigo",
+          "Master": "hierarquia de uma nobre corte de gênios, templos extraplanares maiores de uma divindade",
+          "Legendary": "existência de um herdeiro nobre desaparecido há tempos, doutrinas secretas de uma religião"
         },
+        "Title": "Recordar Conhecimento",
         "Warning": {
         }
       },
@@ -522,6 +596,7 @@
         },
         "SelectItemDialog": {
           "CancelButtonLabel": "Cancelar",
+          "DropItemZoneLabel": "Arraste o item aqui...",
           "RepairButtonLabel": "Reparar",
           "Title": "Selecione o item para reparar"
         },
@@ -532,7 +607,8 @@
       },
       "Reposition": {
         "Notes": {
-        }
+        },
+        "Title": "Reposicionar"
       },
       "Request": {
         "Notes": {
@@ -550,11 +626,18 @@
       },
       "SenseDirection": {
         "Modifier": {
+          "NoCompass": "Sem bússola"
         },
         "Notes": {
         },
         "SampleTasks": {
-        }
+          "Untrained": "determinar uma direção cardinal usando o sol",
+          "Trained": "encontrar um caminho coberto por vegetação em uma floresta",
+          "Expert": " orientar-se em um labirinto de jardim",
+          "Master": "orientar-se em um labirinto bizantino ou deserto relativamente sem características",
+          "Legendary": "orientar-se em um reino dos sonhos em constante mudança"
+        },
+        "Title": "Intuir Direção"
       },
       "SenseMotive": {
         "Notes": {
@@ -594,6 +677,8 @@
         "Title": "Espremer"
       },
       "Stand": {
+        "Description": "<p>Você fica de pé se estava prostrado.</p>",
+        "Title": "Levantar"
       },
       "Steal": {
         "Notes": {
@@ -619,11 +704,18 @@
         "Notes": {
         },
         "SampleTasks": {
+          "Untrained": "floresta exuberante com clima calmo ou cidade grande com plenitude de recursos",
+          "Trained": "aldeia ou encosta típica",
+          "Expert": "montanhas típicas ou vilarejo insular",
+          "Master": "deserto típico ou cidade sob cerco",
+          "Legendary": "deserto estéril ou cidade de mortos-vivos"
         },
+        "Title": "Subsistir",
         "Warning": {
         }
       },
       "Sustain": {
+        "Title": "Sustentar"
       },
       "Swim": {
         "Notes": {
@@ -632,12 +724,20 @@
           "success": "<b>Sucesso</b> Você se move 5 pés pela água, mais 5 pés para cada 20 pés de sua Velocidade em terra (um total de 10 pés para a maioria dos PJs)."
         },
         "SampleTasks": {
+          "Untrained": "lago ou outras águas calmas",
+          "Trained": "água corrente, como um rio",
+          "Expert": "rio com correnteza rápida",
+          "Master": "mar revolto",
+          "Legendary": "redemoinho, cachoeira"
         },
         "Title": "Nadar"
       },
       "TakeCover": {
         "TowerShield": {
-        }
+          "Description": "{actor} se protege atrás de seu {shield}."
+        },
+        "ShortTitle": "Obter Cobertura",
+        "Title": "Obter Cobertura"
       },
       "Tamper": {
         "Notes": {
@@ -647,18 +747,26 @@
         "Notes": {
         },
         "SampleTasks": {
+          "Untrained": "o caminho de um grande exército seguindo uma estrada",
+          "Trained": "rastros relativamente recentes de um urso furioso atravessando planícies",
+          "Expert": "os rastros de uma pantera ligeira através de uma selva, rastros após uma chuva",
+          "Master": "rastros após neve de inverno, rastros de um camundongo ou criatura menor, rastros deixados em superfícies que não marcam pegadas como rocha nua",
+          "Legendary": "rastros antigos pelas areias de um deserto ventoso, rastros após uma grande nevasca ou furacão"
         },
         "Title": "Rastrear"
       },
       "TreatDisease": {
         "Notes": {
-        }
+        },
+        "Title": "Tratar Doença"
       },
       "TreatPoison": {
         "Notes": {
-        }
+        },
+        "Title": "Tratar Veneno"
       },
       "TreatWounds": {
+        "Content": "Selecione uma CD alvo. Lembre-se de que você não pode tentar uma cura acima de sua proficiência. Tentar fazer isso reduzirá a CD e a quantidade curada para o máximo que você for capaz.",
         "DC": {
           "Expert": "Especialista CD 20, +10 de cura",
           "Legendary": "Lendário CD 40, +50 de cura",
@@ -668,9 +776,14 @@
         },
         "Error": "Token {name} não tem a perícia {skill}",
         "Feats": {
+          "MortalHealing": "Cura Mortal",
+          "RiskySurgery": "Cirurgia Arriscada"
         },
         "Label": "Tratar Ferimentos",
         "Rolls": {
+          "RiskySurgery": "Rolagem de Dano: Cirurgia Arriscada",
+          "TreatWounds": "Rolagem de Cura: Tratar Ferimentos",
+          "TreatWoundsCriticalFailure": "Rolagem de Dano: Tratar Ferimentos"
         },
         "SkillSelect": "Perícia de Tratar Ferimentos"
       },
@@ -701,24 +814,35 @@
       "crafting": "Teste de Manufatura",
       "deception": "Teste de Dissimulação",
       "diplomacy": "Teste de Diplomacia",
+      "fortitude": "Salvamento de Fortitude",
       "intimidation": "Teste de Intimidação",
       "medicine": "Teste de Medicina",
       "nature": "Teste de Natureza",
       "occultism": "Teste de Ocultismo",
       "perception": "Teste de Percepção",
       "performance": "Teste de Performance",
+      "reflex": "Salvamento de Reflexos",
       "religion": "Teste de Religião",
       "society": "Teste de Sociedade",
+      "spell": "Ataque de Magia {type}",
       "stealth": "Teste de Furtividade",
       "survival": "Teste de Sobrevivência",
       "thievery": "Teste de Ladroagem",
-      "unarmed": "Rolagem de Ataque Desarmado"
+      "unarmed": "Rolagem de Ataque Desarmado",
+      "will": "Salvamento de Vontade",
+      "x": "Teste de {type}",
+      "x-attack-roll": "Rolagem de Ataque {type}"
     },
     "ActionsSampleTasks": {
+      "Title": "Exemplos de tarefas de {action}"
     },
     "ActionsWarning": {
       "NoActor": "Selecione pelo menos um token antes de rolar, ou atribua um personagem padrão.",
+      "NoStatistic": "O ator {name} ({id}) não possui uma estatística para {statistic}.",
       "Variants": {
+        "None": "A ação '{action}' não tem variantes, mas a variante '{variant}' foi solicitada.",
+        "Multiple": "A ação '{action}' tem diversas variantes, mas nenhuma variante foi solicitada.",
+        "Nonexistent": "A variante especificada '{variant}' não existe para a ação '{action}'"
       }
     }
   }
