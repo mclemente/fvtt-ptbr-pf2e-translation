@@ -2,17 +2,17 @@
   "PF2E": {
     "AmmunitionNotes": {
       "AntlerArrow": {
-        "CriticalText": "A CD do teste de Atletismo para puxar o projétil livremente aumenta para @Check[type:athletics|dc:15|name:Pull the Missile Free|showDC:all]",
-        "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:reflex|dc:16|name:Antler Arrow] ou fica peso à superfície, sofrendo os efeitos de especialização de crítico de um arco",
+        "CriticalText": "A CD do teste de Atletismo para puxar o projétil livremente aumenta para @Check[type:athletics|dc:15|name:Soltar O Projétil|showDC:all]{Atletismo}",
+        "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:reflex|dc:16|name:Flecha de Galhada]{Reflexos} ou fica peso à superfície, sofrendo os efeitos de especialização de crítico de um arco",
         "Title": "Flecha de Galhada"
       },
       "ExplosiveAmmunition": {
         "Greater": {
-          "Text": "O projétil explode em um raio de 10 pés @Template[type:burst|distance:10], causando dano [[/r 10d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition].",
+          "Text": "O projétil explode em um raio de 10 pés @Template[type:burst|distance:10], causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva (Maior)"
         },
         "Normal": {
-          "Text": "O projétil explode em um raio de 10 pés @Template[type:burst|distance:10], causando dano [[/r 6d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition].",
+          "Text": "O projétil explode em um raio de 10 pés @Template[type:burst|distance:10], causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva"
         }
       },

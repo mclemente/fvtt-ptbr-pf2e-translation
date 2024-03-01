@@ -2444,8 +2444,8 @@
           "brawling": "O alvo deve obter sucesso em uma jogada de @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Pugilato|showDC:all] contra sua CD de classe ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno.",
           "club": "Você empurra o alvo para longe de você até 10 pés (você escolhe a distância). Esse é um movimento forçado.",
           "firearm": "O alvo deve obter sucesso em uma jogada de @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Arma de Fogo|showDC:all] ou fica @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
-          "flail": "O alvo fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado} a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Mangual] contra a sua CD de classe.",
-          "hammer": "O alvo fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado} a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Martelo] contra a sua CD de classe.",
+          "flail": "O alvo fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado} a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Mangual]{Reflexos} contra a sua CD de classe.",
+          "hammer": "O alvo fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado} a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Martelo]{Reflexos} contra a sua CD de classe.",
           "polearm": "O alvo é movido com 5 pés em uma direção de sua escolha. Isto é um movimento forçado.",
           "shield": "Você empurra o alvo para trás á 5 pés de você. Isto é um movimento forçado.",
           "sling": "O alvo deve obter sucesso em uma jogada de @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Funda|showDC:all] ou fica @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
@@ -3791,7 +3791,7 @@
     "TraitDescriptionArcane": "Essa mágica vem da tradição arcana. Qualquer coisa com esse traço é mágica.",
     "TraitDescriptionArchetype": "Esse talento pertence a um arquétipo.",
     "TraitDescriptionArtifact": "Itens com este traço são artefatos. Estes itens mágicos não podem ser fabricados por meios normais, e eles não podem ser danificados por meios normais. Artefatos são sempre raros ou únicos.",
-    "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[type:crafting|dc:10]; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
+    "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[type:crafting|dc:10]{Manutafura}; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
     "TraitDescriptionAttack": "Uma habilidade com esse traço envolve um ataque. Para cada ataque que você fizer após o primeiro em seu turno, você sofre uma penalidade de ataques múltiplos.",
     "TraitDescriptionAuditory": "Ações e efeitos auditivos se baseiam em som. Uma ação com o traço auditivo pode ser executada com sucesso somente se a criatura usando a ação puder falar ou de outra forma produzir os sons requeridos. Uma magia ou efeito com o traço auditivo surte efeito somente se o alvo puder ouvi-los. Isto se aplica somente às partes do efeito baseadas em som, conforme determinado pelo MJ. Isto é diferente de um efeito sônico, que ainda afeta alvos incapazes de ouvi-lo (como alvos surdos) desde que o efeito emita um som.",
     "TraitDescriptionAura": "Uma aura é uma emanação que exala continuamente de você, afetando criaturas dentro de um determinado raio. Aura também pode se referir à assinatura mágica de um item ou de uma criatura com uma tendência forte.",
@@ -3817,7 +3817,7 @@
     "TraitDescriptionCleric": "Esse traço indica habilidades da classe clérigo.",
     "TraitDescriptionClimbing": "A mão empunhando a arma está disponível para Escalar.",
     "TraitDescriptionClockwork": "Clockworks são constructos complexos e intricados que podem ser programados para executar funções específicas.",
-    "TraitDescriptionCobbled": "Essa arma-de-fogo foi improvisada e é provável que falhe. Não importa o quanto ou quão bem cuide dela, numa rolagem de ataque falha, o ataque erra e você deve rolar um @Check[type:flat|dc:5]. Se você falha esse teste, a arma tem uma falha-de-disparo.",
+    "TraitDescriptionCobbled": "Essa arma-de-fogo foi improvisada e é provável que falhe. Não importa o quanto ou quão bem cuide dela, numa rolagem de ataque falha, o ataque erra e você deve rolar um @Check[type:flat|dc:5]{Teste Simples}. Se você falha esse teste, a arma tem uma falha-de-disparo.",
     "TraitDescriptionCoda": "<p>Instrumentos com o traço Coda funcionam em principalmente como cajados, e tem o traço Cajado. Tem duas diferenças: instrumentos coda são um tipo de instrumento musical, e podem ser preparados somente por bardos. Por não serem fisicamente cajados, não se pode atacar um instrumento coda, tampouco gravá-lo com runas de arma.</p><p> O processo de preparar um instrumento coda envolve tocar porções significantes de músicas relacionadas a magias no instrumento — seja velhos padrões ou as que você criou. Isso deixa reverberações mágicas no instrumento, permitindo que você complete as canções tocando o coda em outra hora.</p>",
     "TraitDescriptionCold": "Efeitos com este traço causam dano de frio. Criaturas com este traço possuem uma conexão mágica ao frio.",
     "TraitDescriptionCombination": "Este traço são para armas que combinam a funcionalidade de armas corpo-a-corpo e armas-de-fogo em jeitos únicos ou incomuns. Uma arma de combinação tem usos em forma de arma-de-fogo ou em forma corpo-a-corpo.",
@@ -4047,7 +4047,7 @@
     "TraitDescriptionStance": "Uma postura é uma estratégia geral de combate que você adota ao usar uma ação com o traço postura, permanecendo nela por um certo tempo. A postura é encerrada se você for nocauteado, se os requerimentos dela (se houver) forem violados, se o encontro terminar ou se você entrar em uma nova postura — o que ocorrer primeiro. Após usar uma ação com o traço postura, você não pode usar outra por 1 rodada. Você pode entrar ou estar em uma postura somente durante o modo de encontro.",
     "TraitDescriptionSteam": "Itens com este traço são alimentados por motores que fervem água para produzir vapor e mover seus componentes.",
     "TraitDescriptionStrix": "Humanoides alados, a maioria dos quais vivem em e ao redor de Cheliax.",
-    "TraitDescriptionStructure": "Um item com o traço de estrutura cria um edifício mágico ou outra estrutura quando ativado. O item deve ser ativado em um lote de terra, livre de outras estruturas. A estrutura adapta-se ao terreno natural, adoptando as necessidades estruturais da sua construção. A estrutura se ajusta em torno de pequenas características, como lagos ou aros de pedra, mas não pode ser criada em água ou outras superfícies não sólidas. Se ativado na neve, dunas de areia, ou outras superfícies suaves com uma superfície sólida debaixo da neve, a fundação da estrutura (se houver) atinge o solo sólido. Se um item com este traço estiver ativado em uma superfície sólida mas instável, como um pântano ou uma área atormentada por árvores, rolar um @Check[type:flat├dc:3] todos os dias; em caso de fracasso, a estrutura começa a afundar-se ou a desmoronar-se. A estrutura não prejudica criaturas dentro da área quando ela aparece e não pode ser criada dentro de uma multidão ou em uma área densamente povoada. Qualquer criatura pega inadvertidamente dentro da estrutura quando o item é ativado acaba desferido dentro da estrutura completa e sempre tem um caminho claro de escape. Uma criatura dentro da estrutura quando a ativação termina não é prejudicada, e é inofensivo no solo se se situar a um nível superior da estrutura.",
+    "TraitDescriptionStructure": "Um item com o traço de estrutura cria um edifício mágico ou outra estrutura quando ativado. O item deve ser ativado em um lote de terra, livre de outras estruturas. A estrutura adapta-se ao terreno natural, adoptando as necessidades estruturais da sua construção. A estrutura se ajusta em torno de pequenas características, como lagos ou aros de pedra, mas não pode ser criada em água ou outras superfícies não sólidas. Se ativado na neve, dunas de areia, ou outras superfícies suaves com uma superfície sólida debaixo da neve, a fundação da estrutura (se houver) atinge o solo sólido. Se um item com este traço estiver ativado em uma superfície sólida mas instável, como um pântano ou uma área atormentada por árvores, rolar um @Check[type:flat|dc:3]{Teste Simples} todos os dias; em caso de fracasso, a estrutura começa a afundar-se ou a desmoronar-se. A estrutura não prejudica criaturas dentro da área quando ela aparece e não pode ser criada dentro de uma multidão ou em uma área densamente povoada. Qualquer criatura pega inadvertidamente dentro da estrutura quando o item é ativado acaba desferido dentro da estrutura completa e sempre tem um caminho claro de escape. Uma criatura dentro da estrutura quando a ativação termina não é prejudicada, e é inofensivo no solo se se situar a um nível superior da estrutura.",
     "TraitDescriptionSubjectiveGravity": "Em planos com este traço, todos os corpos de massa podem ser centros de gravidade com a mesma quantidade de força, mas apenas se for uma criatura sem-mente voluntária.",
     "TraitDescriptionSubtle": "Uma magia com o traço sutil pode ser lançada sem encantamentos e não possui manifestações óbvias.",
     "TraitDescriptionSuli": "Sulis são herdeiros planares descendentes de jann.",
@@ -4968,7 +4968,7 @@
       },
       "anchoring": {
         "Note": {
-          "criticalSuccess": "Se você acerta um alvo criticamente enquanto empunha uma arma de ancoragem, a arma conjura <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancora Dimensional}</em> no alvo (@Check[type:will|dc:27|name:Anchoring Rune], modificador de neutralização [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+          "criticalSuccess": "Se você acerta um alvo criticamente enquanto empunha uma arma de ancoragem, a arma conjura <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancora Dimensional}</em> no alvo (@Check[type:will|dc:27|name:Runa de Ancoragem]{Vontade}, modificador de neutralização [[/r 1d20+17 # Teste de Neutralização da Runa de Ancoragem]]{+17})."
         }
       },
       "ashen": {
@@ -4999,7 +4999,7 @@
       "brilliant": {
         "Name": "Brilhante",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico, o alvo deve ser bem-sucedido em um salvamento de @Check[tipo:fortitude├dc:29├name:Brilhante Rune] ou ser @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 rodada."
+          "criticalSuccess": "Em um acerto crítico, o alvo deve ser bem-sucedido em um salvamento de @Check[tipo:fortitude|dc:29|name:Runa Brilhante] ou ser @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 rodada."
         }
       },
       "called": {
@@ -5073,7 +5073,7 @@
       "frost": {
         "Name": "Congelante",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico, o alvo também está @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno, a menos que consiga sucesso em um salvamento de @Check[type:fortitude|dc:24|name:Frost Rune]."
+          "criticalSuccess": "Em um acerto crítico, o alvo também está @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno, a menos que consiga sucesso em um salvamento de @Check[type:fortitude|dc:24|name:Runa Congelante]."
         }
       },
       "ghostTouch": {
@@ -5089,7 +5089,7 @@
       "greaterAnchoring": {
         "Name": "Ancoragem Maior",
         "Note": {
-          "criticalSuccess": "Quando você acerta criticamente um alvo com uma arma com a runa ancorada, a arma conjura um nível 8 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Âncora Dimensional}</em> sobre o alvo (@Check[type:will|dc:38|name:Greater Anchoring Rune], counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), exceto que se o alvo for bem sucedido criticamente, ele se salvar, em vez de não ter nenhum efeito, o <em>âncora dimensional</em> dura 1 rodada.",
+          "criticalSuccess": "Quando você acerta criticamente um alvo com uma arma com a runa ancorada, a arma conjura um nível 8 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Âncora Dimensional}</em> sobre o alvo (@Check[type:will|dc:38|name:Runa de Ancoragem Maior]{Vontade}, modificador de neutralização [[/r 1d20+28 # Teste de Neutralização da Runa de Ancoragem]]{+28}), exceto que se o alvo for bem sucedido criticamente, ele se salvar, em vez de não ter nenhum efeito, o <em>âncora dimensional</em> dura 1 rodada.",
           "success": "<strong>Runa maior de ancoragem</strong> quando você acerta um alvo com a arma mas não acerta criticamente, o alvo é afetado pelo nível 4 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Âncora Dimensional}</em> para 1 rodada sem um salvamento (counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
         }
       },
@@ -5427,12 +5427,12 @@
       },
       "concealed": {
         "name": "Ocultado",
-        "rules": "<p>Enquanto estiver ocultado para uma criatura, como em uma névoa espessa, você é difícil de ser visto por essa criatura. Você ainda pode ser Observado, mas é um alvo mais difícil. Uma criatura para a qual você esteja ocultado deve obter sucesso em um teste simples @Check[type:flat|dc:5] quando mirá-lo com um ataque, magia ou outro efeito.</p>\n<p>Efeitos de área não são sujeitos a este teste simples. Se o teste falhar, o ataque, magia ou efeito não o afeta.</p>",
+        "rules": "<p>Enquanto estiver ocultado para uma criatura, como em uma névoa espessa, você é difícil de ser visto por essa criatura. Você ainda pode ser Observado, mas é um alvo mais difícil. Uma criatura para a qual você esteja ocultado deve obter sucesso em um teste simples @Check[type:flat|dc:5]{Teste Simples} quando mirá-lo com um ataque, magia ou outro efeito.</p>\n<p>Efeitos de área não são sujeitos a este teste simples. Se o teste falhar, o ataque, magia ou efeito não o afeta.</p>",
         "summary": "Névoa ou obscurecimento similar o torna difícil de ser visto e mirado."
       },
       "confused": {
         "name": "Confuso",
-        "rules": "<p>Você não tem certeza sobre as coisas, e ataca selvagemente. Você está desprevenido, não trata ninguém como aliado (embora seus aliados ainda possam tratá-lo como um aliado deles) e não pode Adiar, Preparar ou usar reações.<p></p>Você usa todas suas ações para Golpear ou conjurar truques mágicos ofensivos, embora o MJ possa fazer você usar outras ações para facilitar o ataque, como sacar uma arma, mover-se para que um alvo esteja ao alcance e assim por diante. Seus alvos são determinados aleatoriamente pelo MJ. Se não tiver outros alvos viáveis, você acerta a si mesmo, acertando-se automaticamente, mas sem causar um acerto crítico. Se for impossível atacar ou conjurar magias, você balbucia incoerentemente, desperdiçando suas ações.</p>\n<p>Cada vez que sofrer dano de um ataque ou magia, você pode fazer um @Check[type:flat|dc:11] para recuperar-se de sua confusão e encerrar a condição.</p>",
+        "rules": "<p>Você não tem certeza sobre as coisas, e ataca selvagemente. Você está desprevenido, não trata ninguém como aliado (embora seus aliados ainda possam tratá-lo como um aliado deles) e não pode Adiar, Preparar ou usar reações.<p></p>Você usa todas suas ações para Golpear ou conjurar truques mágicos ofensivos, embora o MJ possa fazer você usar outras ações para facilitar o ataque, como sacar uma arma, mover-se para que um alvo esteja ao alcance e assim por diante. Seus alvos são determinados aleatoriamente pelo MJ. Se não tiver outros alvos viáveis, você acerta a si mesmo, acertando-se automaticamente, mas sem causar um acerto crítico. Se for impossível atacar ou conjurar magias, você balbucia incoerentemente, desperdiçando suas ações.</p>\n<p>Cada vez que sofrer dano de um ataque ou magia, você pode fazer um @Check[type:flat|dc:11]{Teste Simples} para recuperar-se de sua confusão e encerrar a condição.</p>",
         "summary": "Você ataca indiscriminadamente."
       },
       "controlled": {
@@ -5447,7 +5447,7 @@
       },
       "deafened": {
         "name": "Surdo",
-        "rules": "<p>Você não pode ouvir. Você automaticamente falha criticamente em testes de Percepção que requeiram que você seja capaz de ouvir. Você sofre -2 de penalidade de circunstância em testes de Percepção para iniciativa e testes que envolvam som e também utilizem de outros sentidos. Se realizar uma ação com o traço auditivo, você deve obter sucesso em um @Check[type:flat|dc:5] ou a ação é perdida; faça o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados. Você fica imune a efeitos auditivos.</p>",
+        "rules": "<p>Você não pode ouvir. Você automaticamente falha criticamente em testes de Percepção que requeiram que você seja capaz de ouvir. Você sofre -2 de penalidade de circunstância em testes de Percepção para iniciativa e testes que envolvam som e também utilizem de outros sentidos. Se realizar uma ação com o traço auditivo, você deve obter sucesso em um @Check[type:flat|dc:5]{Teste Simples} ou a ação é perdida; faça o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados. Você fica imune a efeitos auditivos.</p>",
         "summary": "Você é incapaz de ouvir."
       },
       "doomed": {
@@ -5507,7 +5507,7 @@
       },
       "grabbed": {
         "name": "Agarrado",
-        "rules": "<p>Você é mantido no lugar por outra criatura, impondo-lhe as condições desprevenido e imobilizado. Se tentar uma ação de manuseio enquanto estiver agarrado, você deve obter sucesso em um teste simples @Check[type:flat|dc:5] ou ela é perdida; role o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados.</p>",
+        "rules": "<p>Você é mantido no lugar por outra criatura, impondo-lhe as condições desprevenido e imobilizado. Se tentar uma ação de manuseio enquanto estiver agarrado, você deve obter sucesso em um teste simples @Check[type:flat|dc:5]{Teste Simples} ou ela é perdida; role o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados.</p>",
         "summary": "Uma criatura, objeto ou magia o segura no lugar."
       },
       "group": {
@@ -5523,7 +5523,7 @@
       },
       "hidden": {
         "name": "Escondido",
-        "rules": "<p>Enquanto estiver escondido para uma criatura, essa criatura sabe o espaço em que você está, mas é incapaz de determinar a sua localização precisa. Você normalmente fica escondido ao utilizar Furtividade para se Esconder. Quando Buscar uma criatura utilizando somente sentidos imprecisos, ela continua escondida em vez de observada. Uma criatura para a qual você estiver escondido fica Desprevenida para você e deve obter sucesso em um teste simples @Check[type:flat|dc:11] quando mirá-lo com um ataque, magia ou outro efeito, ou falha em afetá-lo. Efeitos de área não são sujeitos a este teste simples.</p><p>Uma criatura pode ser capaz de usar a ação Buscar para tentar observá-lo.</p>",
+        "rules": "<p>Enquanto estiver escondido para uma criatura, essa criatura sabe o espaço em que você está, mas é incapaz de determinar a sua localização precisa. Você normalmente fica escondido ao utilizar Furtividade para se Esconder. Quando Buscar uma criatura utilizando somente sentidos imprecisos, ela continua escondida em vez de observada. Uma criatura para a qual você estiver escondido fica Desprevenida para você e deve obter sucesso em um teste simples @Check[type:flat|dc:11]{Teste Simples} quando mirá-lo com um ataque, magia ou outro efeito, ou falha em afetá-lo. Efeitos de área não são sujeitos a este teste simples.</p><p>Uma criatura pode ser capaz de usar a ação Buscar para tentar observá-lo.</p>",
         "summary": "Uma criatura da qual você está escondido(a) sabe sua localização mas não pode te ver."
       },
       "hostile": {
@@ -5558,7 +5558,7 @@
       },
       "persistent-damage": {
         "name": "Dano Persistente",
-        "rules": "<p>Dano persistente origina de efeitos como ácido, estar em chamas ou muitas outras situações. Ele aparece como “X dano persistente [tipo]\", onde “X” é a quantidade de dano causado e “[type]\" é o tipo do dano. Em vez de sofrer dano persistente imediatamente, você o sofre ao final de cada um de seus turnos enquanto possuir a condição, rolando os dados de dano a cada vez. Após sofrer dano persistente, role um teste simples@Check[type:flat|dc:15] para conferir se consegue recuperar-se do dano persistente. Se obtiver sucesso, a condição acaba.</p>",
+        "rules": "<p>Dano persistente origina de efeitos como ácido, estar em chamas ou muitas outras situações. Ele aparece como “X dano persistente [tipo]\", onde “X” é a quantidade de dano causado e “[type]\" é o tipo do dano. Em vez de sofrer dano persistente imediatamente, você o sofre ao final de cada um de seus turnos enquanto possuir a condição, rolando os dados de dano a cada vez. Após sofrer dano persistente, role um teste simples@Check[type:flat|dc:15]{Teste Simples} para conferir se consegue recuperar-se do dano persistente. Se obtiver sucesso, a condição acaba.</p>",
         "summary": "Você continua sofrendo dano a cada rodada."
       },
       "petrified": {
@@ -5608,7 +5608,7 @@
       },
       "undetected": {
         "name": "Indetectado",
-        "rules": "<p>Quando estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem ideia do espaço que você ocupa e não pode mirá-lo — embora você ainda possa ser afetado por habilidades que mirem uma área. Quando estiver indetectado por uma criatura, essa criatura fica Desprevenida para você.</p><p>Uma criatura para a qual você está indetectado pode tentar descobrir onde você está para tentar mirá-lo. Ela deve escolher um quadrado e fazer um ataque. Isto funciona como mirar uma criatura escondida (requerendo um teste simples @Check[type:flat|dc:11]), mas o teste simples e rolagem de ataque são feitos em segredo pelo MJ — que não revela se o ataque errou por falhar no teste simples, por falhar na rolagem de ataque ou por escolher o quadrado errado.</p><p>Uma criatura pode usar a ação Buscar para tentar encontrá-lo.</p>",
+        "rules": "<p>Quando estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem ideia do espaço que você ocupa e não pode mirá-lo — embora você ainda possa ser afetado por habilidades que mirem uma área. Quando estiver indetectado por uma criatura, essa criatura fica Desprevenida para você.</p><p>Uma criatura para a qual você está indetectado pode tentar descobrir onde você está para tentar mirá-lo. Ela deve escolher um quadrado e fazer um ataque. Isto funciona como mirar uma criatura escondida (requerendo um @Check[type:flat|dc:11]{Teste Simples}), mas o teste simples e rolagem de ataque são feitos em segredo pelo MJ — que não revela se o ataque errou por falhar no teste simples, por falhar na rolagem de ataque ou por escolher o quadrado errado.</p><p>Uma criatura pode usar a ação Buscar para tentar encontrá-lo.</p>",
         "summary": "Uma criatura para a qual você está indetectado não sabe onde você está."
       },
       "unfriendly": {
