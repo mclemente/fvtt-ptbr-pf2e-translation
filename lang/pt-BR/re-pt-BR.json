@@ -1509,6 +1509,14 @@
         "CharmingLiar": {
         },
         "FeyInfluence": {
+          "Anteater": "Tamanduá",
+          "CatSith": "Cat Sith",
+          "CursedBluebird": "Azulão Amaldiçoado",
+          "Dryad": "Dríade",
+          "Faun": "Fauno",
+          "Gremlin": "Gremlin",
+          "Monarch": "Monarca",
+          "Unicorn": "Unicórnio"
         },
         "Forager": {
         },
@@ -1519,12 +1527,14 @@
       },
       "Fetchling": {
         "DeepFetchling": {
+          "Prompt": "Selecione um tipo de energia para resistir."
         }
       },
       "Fighter": {
         "DazingBlow": {
         },
         "DoubleSlice": {
+          "SecondAttackLabel": "Segundo ataque de Corte Duplo"
         }
       },
       "FighterWeaponMasteryLegend": {
@@ -1532,8 +1542,14 @@
           "axe": "Machados Avançados",
           "bomb": "Bombas Avançadas",
           "bow": "Arcos Avançados",
+          "brawling": "Pugilato Avançado",
+          "club": "Clavas Avançadas",
+          "dart": "Dardos Avançados",
+          "firearm": "Armas de Fogo Avançadas",
+          "flail": "Manguais Avançados",
           "hammer": "Martelos Avançados",
           "knife": "Adagas Avançadas",
+          "pick": "Picaretas Avançadas",
           "polearm": "Armas de Haste Avançadas",
           "shield": "Escudos Avançados",
           "sling": "Fundas Avançadas",
@@ -1541,6 +1557,18 @@
           "sword": "Espadas Avançadas"
         },
         "SimpleMartial": {
+          "axe": "Machados Simples & Marciais",
+          "bomb": "Bombas Simples & Marciais",
+          "bow": "Arcos Simples & Marciais",
+          "brawling": "Pugilato Simples & Marcial",
+          "club": "Clavas Simples & Marciais",
+          "dart": "Dardos Simples & Marciais",
+          "firearm": "Armas de Fogo Simples & Marciais",
+          "flail": "Manguais Simples & Marciais",
+          "hammer": "Martelos Simples & Marciais",
+          "knife": "Facas Simples & Marciais",
+          "pick": "Picaretas Simples & Marciais",
+          "polearm": "Haste Simples & Marciais",
           "shield": "Escudos Simples e Marciais",
           "sling": "Fundas Simples e Marciais",
           "spear": "Lanças Simples e Marciais",
@@ -1549,23 +1577,33 @@
       },
       "Fleshwarp": {
         "CoatingOfSlime": {
+          "CriticalHit": "Em um acerto crítico, o alvo sofre [[/r 1d4[persistent,acid]]]{1d4 de dano persistente de ácido}."
         },
         "LivingWeapon": {
+          "Prompt": "Selecione uma parte da sua forma para usar como arma."
         },
         "MutateWeapon": {
+          "Accuracy": "Ganhe +1 de bônus de estado em ataques",
+          "Bonus": "Selecione um bônus.",
+          "Reach": "Ganhe alcance 10",
+          "Target": "Selecione uma de suas armas vivas."
         }
       },
       "FollowTheExpert": {
+        "Prompt": "Selecione a proficiência do especialista na perícia."
       },
       "GameHunterDedication": {
+        "TargetHuntedPrey": "O alvo é sua Presa Caçada (somente Animal, Besta ou Dragão)"
       },
       "Ganzi": {
         "Irrepressible": {
         }
       },
       "Genie": {
+        "Prompt": "Selecione um gênio."
       },
       "GeneralTraining": {
+        "Prompt": "Selecione um talento geral de 1º nível."
       },
       "Ghoul": {
         "SickeningBite": {
@@ -1573,20 +1611,27 @@
       },
       "Gnome": {
         "GrimInsight": {
+          "SaveNote": "Se rolar um sucesso em uma jogada de salvamento contra um efeito de medo, trate o resultado como um sucesso crítico, e a fonte do efeito de medo fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenida} para você até o final do seu próximo turno."
         }
       },
       "Goblin": {
         "ChosenOfLamashtu": {
+          "Prompt": "Selecione uma herança goblin."
         },
         "CityScavenger": {
+          "EarnIncome": "Catador da Cidade - Ganhar Proventos"
         },
         "ExtraSquishy": {
+          "Note": "Quando rolar um sucesso em Espremer-se, trate o resultado como um sucesso crítico."
         },
         "RecklessAbandon": {
+          "Note": "Se rolar uma falha ou falha crítica em uma jogada de salvamento contra um efeito nocivo, trate o resultado como um sucesso."
         },
         "TorchGoblin": {
+          "Note": "Enquanto você estiver sofrendo dano persistente de fogo, todos os seus ataques corpo a corpo contra criaturas adjacentes causam [[/r 1[fire]]]{1 ponto de dano de fogo} adicional por dado de dano da arma."
         },
         "ScaldingSpit": {
+          "BoilingSpit": "Cuspe Escaldante"
         }
       },
       "GoldenBladeOfMzali": {
@@ -1603,18 +1648,29 @@
       },
       "HalfElf": {
         "EarnedGlory": {
+          "Note": "Se rolar uma falha crítica ao Impressionar um elfo, trate o resultado como uma falha."
         }
       },
       "Halfling": {
+        "GuidingLuck": "Você pode usar Sorte de Halfling duas vezes por dia: uma vez em resposta ao acionamento normal; e uma vez ao falhar em um teste de Percepção ou rolagem de ataque em vez do acionamento normal.",
         "IncredibleLuck": {
+          "Base": " Você pode usar Sorte de Halfling uma vez por hora em vez de uma vez por dia.",
+          "GuidingLuck": "Se possuir Sorte Guiada, você ainda pode usar Sorte de Halfling quando falhar em um teste de Percepção ou rolagem de ataque apenas uma vez por dia (embora possa usá-lo na mesma hora que tenha usado Sorte de Halfling).",
+          "SharedLuck": "Se possuir Halfling Útil, ainda pode usar Sorte de Halfling em um aliado em vez de você apenas uma vez por dia."
         },
         "Innocuous": {
+          "Note": "Se falhar em um teste de Dissimulação para Criar uma Distração, criaturas humanoides não ficam cientes de que você está tentando enganá-las a menos que você obtenha uma falha crítica na sua rolagem."
         },
         "KeenEyes": {
+          "Label": "Buscar criatura escondida ou indetectada a até 30 pés"
         },
         "SureFeet": {
+          "BalanceNote": "Quando rolar um sucesso em um teste de Acrobatismo para se Equilibrar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar se Equilibrar.",
+          "ClimbNote": "Quando rolar um sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar Escalar."
         },
         "SharedLuck": {
+          "Base": "Você pode usar Sorte de Halfling quando um aliado a até 30 pés falhar em um teste de perícia ou jogada de salvamento para permitir que o aliado rerrole o teste de perícia em vez de você fazer uma rerrolagem. Como o usual, seu aliado deve usar o novo resultado, mesmo que seja pior que o primeiro.",
+          "GuidingLuck": "Você não pode usar o efeito de Sorte Guiada que se aplique a rolagens de ataque e testes de Percepção para usar Sorte Compartilhada e beneficiar um aliado."
         }
       },
       "HarrowChosen": {
@@ -1641,19 +1697,27 @@
       },
       "Human": {
         "SaocAstrology": {
+          "Prompt": "Selecione a penalidade ou bônus de circunstância que você obteve ao usar a ação Astrologia Saoc."
         },
         "VikingShieldbearer": {
+          "Prompt": "Selecione uma arma para se tornar treinado."
         },
         "WitchWarden": {
         }
       },
       "HuntPrey": {
+        "FirstHitDamage": "Primeiro acerto na Presa Caçada",
+        "FirstHitSwitch": "Acertando Presa Caçada pela primeira vez na rodada",
+        "SeekHuntedPrey": "Para Buscar presa caçada",
+        "TargetHuntedPrey": "O alvo é sua Presa Caçada",
+        "TrackHuntedPrey": "Para Rastrear presa caçada"
       },
       "Ifrit": {
         "Lavasoul": {
         }
       },
       "InCombat": {
+        "ToggleLabel": "Em Combate"
       },
       "Inventor": {
         "BoostModulation": {
@@ -1691,13 +1755,18 @@
         "SharedStratagem": {
         }
       },
+      "ItemStrike": "Golpe de {item}",
       "Kineticist": {
         "Impulse": {
           "CriticalBlast": {
           },
           "ElementalBlast": {
             "Label": {
-            }
+            },
+            "OneAction": "Uma Ação",
+            "ShortLabel": "Explosão",
+            "TwoActions": "Duas Ações",
+            "TwoActionBonus": "Explosão de Duas Ações"
           },
           "ImpulseJunction": {
           }
@@ -1722,6 +1791,13 @@
         }
       },
       "Label": {
+        "DamageType": "Tipo de Dano",
+        "Exit": "Sair",
+        "NonCantrip": "Não-Truque",
+        "ResistanceType": "Tipo de Resistência",
+        "SecondAttempt": "Segunda Tentativa",
+        "ThirdAttempt": "Terceira Tentativa",
+        "WeaknessType": "Tipo de Fraqueza"
       },
       "Leshy": {
         "Seedpod": {
@@ -1846,11 +1922,14 @@
       },
       "Prompt": {
         "AdvancedMulticlassFeat": "Escolha um talento de classe até a metade do seu nível.",
+        "Alignment": "Selecione uma tendência.",
         "CantripOrNonCantrip": "Escolha truque ou uma magia não-truque.",
         "ClassDCAbilityScore": "Escolhe o valor do atributo de CD de clase.",
+        "Color": "Selecione uma cor.",
         "ConsciousMind": "Escolha uma Mente Consciente.",
         "CreatureSize": "Escolha o tamanho da criatura.",
         "DamageType": "Escolha um tipo de dano.",
+        "DegreeOfSuccess": "Selecione o grau de sucesso.",
         "Deity": "Escolha uma divindade.",
         "DeitysDomain": "Escolha um domínio de divindade.",
         "DragonBreathWeapon": "Escolha um Sopro de Dragão.",
@@ -1858,19 +1937,32 @@
         "EnergyType": "Escolha um tipo de energia.",
         "EvolutionFeat": "Escolha seu primeiro Talento de Evolução.",
         "Feat": "Escolha um talento.",
+        "Feature": "Selecione uma característica.",
         "FirstImplement": "Escolha seu primeiro implemento.",
+        "Form": "Selecione uma forma.",
+        "Item": "Selecione um item.",
         "Lesson": "Escolha uma lição.",
+        "LevelOneAncestryFeat": "Selecione um talento de ancestralidade de 1º nível.",
         "LevelOneClassFeat": "Escolha um talento de classe de 1º nível.",
         "LevelOneOrTwoClassFeat": "Escolha um talento de classe de 1º ou 2º nível.",
         "Material": "Escolha um material.",
         "PathToPerfection": "Escolha um caminho para perfeição.",
+        "Resistance": "Selecione uma resistência.",
+        "Rune": "Selecione uma runa.",
+        "Sanctification": "Selecione uma santificação.",
         "SecondImplement": "Escolha seu segundo Implemento.",
+        "Shield": "Selecione um escudo.",
         "Shillelagh": "Escolha uma clava ou cajado.",
         "Skill": "Escolha uma perícia.",
         "SkillFeat": "Escolha um talento de perícia.",
+        "Spell": "Selecione uma magia.",
         "SubconsciousMind": "Escolha uma Mente Subconsciente.",
         "ThirdImplement": "Escolha seu terceiro Implemento.",
+        "Tradition": "Selecione uma tradição.",
+        "Trait": "Selecione um traço.",
         "VersatileTrait": "Escolha um tipo de dano versátil.",
+        "UnarmedAttack": "Selecione um ataque desarmado.",
+        "UntamedForm": "Selecione um efeito de forma.",
         "Weapon": "Escolha um arma.",
         "WeaponGroup": "Escolha um grupo de arma.",
         "WeaponOrUnarmed": "Escolha uma arma ou ataque desarmado."
@@ -1929,8 +2021,11 @@
       },
       "Ranger": {
         "HamstringingStrike": {
+          "Prompt": "Selecione um resultado de acerto."
         },
         "HuntersEdge": {
+          "Prompt": "Selecione uma excelência de caçador.",
+          "FirstAttack": "Primeiro ataque a presa caçada na rodada"
         }
       },
       "Ratfolk": {
@@ -1946,45 +2041,82 @@
       "Rogue": {
         "Debilitation": {
           "Bloody": {
+            "Label": "Sangramento",
+            "Note": "O alvo sofre @Damage[3d6[bleed]]{dano persistente de sangramento}."
           },
           "Clumsy": {
+            "Label": "Desajeitado",
+            "Note": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1}."
           },
           "Critical": {
+            "Label": "Crítico",
+            "Note": " O alvo tenta um salvamento de @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.rogue.dc)]{Fortitude} contra sua CD de classe com os efeitos a seguir.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 1} até o final de seu próximo turno.</p><p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 2} até o final de seu próximo turno.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} até o final de seu próximo turno.</p>"
           },
           "Enfeebled": {
+            "Label": "Enfraquecido",
+            "Note": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 1}."
           },
+          "Label": "Debilitação",
           "OffGuard": {
+            "Label": "Desprevenido",
+            "Note": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido}."
           },
           "PrecisionDamage": {
+            "Label": "Dano de Precisão",
+            "Note": "O alvo sofre 2d6 de dano de precisão adicional\nde seus ataques. @UUID[Compendium.pf2e.feat-effects.Item.ZZXIUvZqqIxkMfYa]{Efeito: Debilitações Precisas}"
           },
           "PreventFlanking": {
+            "Label": "Evitar Flanqueamento",
+            "Note": "O alvo não pode flanquear ou contribuir para o flanqueamento de aliados. @UUID[Compendium.pf2e.feat-effects.Item.JUgx48XHMz4QM4Ir]{Efeito: Debilitação (Sem Flanqueamento)}"
           },
           "PreventReactions": {
+            "Label": "Evitar Reações",
+            "Note": "O alvo não pode usar reações."
           },
           "PreventStep": {
+            "Label": "Evitar Passo",
+            "Note": "O alvo não pode Dar Um Passo."
           },
           "ReduceCover": {
+            "Label": "Reduzir Cobertura",
+            "Note": "O alvo não recebe um bônus de circunstância na CA por Erguer um Escudo, cobertura menor ou cobertura padrão; ele recebe somente +2 de bônus de circunstância na CA por cobertura maior ou Obter Cobertura."
           },
+          "SecondLabel": "Segunda Debilitação",
           "SpeedPenalty": {
+            "Label": "Penalidade de Velocidade",
+            "Note": "O alvo sofre –10 pés de penalidade de estado em suas Velocidades. @UUID[Compendium.pf2e.feat-effects.Item.yBTASi3FvnReAwHy]{Efeito: Golpe Debilitante}"
           },
           "Stupefied": {
+            "Label": "Estupefato",
+            "Note": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupetado 1}"
           },
+          "Title": "Debilitação <span class=\"action-glyph\">f</span>",
+          "Trigger": "<strong>Acionamento</strong> Seu Golpe atinge uma criatura desprevenida e causa dano.",
           "Weakness": {
+            "Label": "Fraqueza",
+            "Note": "O alvo adquire fraqueza 5 a dano contundente, cortante ou perfurante (à sua escolha). @UUID[Compendium.pf2e.feat-effects.Item.Rgt9hH3W1oh9dvku]{Efeito: Debilitações Viciosas}"
           }
         },
         "DistractingFeint": {
         },
         "EldritchTrickster": {
+          "Prompt": "Selecione um arquétipo de multiclasse de conjurador de magias."
         },
         "Racket": {
+          "Prompt": "Selecione um esquema."
         },
         "TrainSkill": {
+          "Prompt": "Selecione uma perícia para se tornar treinado."
         }
       },
       "SaveSuccessToCriticalSuccess": {
+        "Fortitude": "Quando rolar um sucesso em um salvamento de Fortitude, trate o resultado como um sucesso crítico.",
+        "Reflex": "Quando rolar um sucesso em um salvamento de Reflexos, trate o resultado como um sucesso crítico.",
+        "Will": "Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico."
       },
       "SaveCriticalFailureToFailure": {
         "FailureHalfDamage": {
+          "Will": "Quando rolar uma falha crítica em um salvamento de Vontade, trate o resultado como uma falha. Quando rolar uma falha em um salvamento de Vontade contra um efeito que cause dano, divida o dano sofrido pela metade."
         }
       },
       "ScionOfDomora": {
@@ -2000,6 +2132,8 @@
       "ShadowSignet": {
       },
       "Shillelagh": {
+        "RollOptionLabel": "Aumente os dados de dano de Bastão de Abrunheiro para 3",
+        "DamageDiceLabel": "Bastão de Abrunheiro (dano aumentado)"
       },
       "Shisk": {
         "PiercingQuills": {
@@ -2012,6 +2146,8 @@
         }
       },
       "SkillMastery": {
+        "ExpertPrompt": "Selecione uma perícia para se tornar especialista.",
+        "MasterPrompt": "Selecione uma perícia para se tornar mestre."
       },
       "SmokingSword": {
       },
@@ -2022,8 +2158,12 @@
       },
       "Sorcerer": {
         "Bloodline": {
+          "Prompt": "Selecione uma linhagem.",
           "BloodMagicDescription": {
+            "Title": "Magia Sanguínea",
             "Shadow": {
+              "PerceptionPenalty": "-1 de penalidade em Percepção",
+              "StealthBonus": "+1 de bônus em Furtividade"
             }
           }
         }
@@ -2036,7 +2176,18 @@
       },
       "SpecialtyCrafting": {
         "Alchemy": "Alquimia",
-        "Prompt": "Escolha uma especialidade."
+        "Artistry": "Arte",
+        "Blacksmithing": "Ferraria",
+        "Bookmaking": "Fabricação de Livro",
+        "Glassmaking": "Fabricação de Vidro",
+        "Leatherworking": "Couraria",
+        "Pottery": "Cerâmica",
+        "Prompt": "Escolha uma especialidade.",
+        "Shipbuilding": "Construção Naval",
+        "Stonemasonry": "Alvenaria",
+        "Tailoring": "Alfaiataria",
+        "Weaving": "Tecelagem",
+        "Woodworking": "Carpintaria"
       },
       "SpellEffectEvolutionSurge": {
       },
@@ -2144,6 +2295,11 @@
       "TwinnedDefense": {
       },
       "TwoHanded": {
+        "BastardSword": "Usar Espada Bastarda com duas mãos",
+        "Broom": "Usar Vassoura com duas mãos",
+        "Cane": "Usar Bengala com duas mãos",
+        "Katana": "Usar Katana com duas mãos",
+        "Staff": "Usar Cajado com duas mãos"
       },
       "UndeadSlayer": {
         "SlayersPresence": {
@@ -2158,6 +2314,16 @@
         }
       },
       "VirtuosicPerformer": {
+        "Acting": "Atuação",
+        "Comedy": "Comédia",
+        "Dance": "Dança",
+        "Keyboards": "Teclados",
+        "Oratory": "Oratória",
+        "Percussion": "Percussão",
+        "Prompt": "Selecione um tipo de performance.",
+        "Singing": "Canto",
+        "Strings": "Cordas",
+        "Winds": "Sopro"
       },
       "Vishkanya": {
         "VenomResistantVishkanya": {
@@ -2179,8 +2345,10 @@
       },
       "Witch": {
         "Cauldron": {
+          "CraftingEntry": "Caldeirão"
         },
         "Patron": {
+          "Prompt": "Selecione um patrono.",
           "FamiliarAbility": {
             "BalancedLuck": {
             },
@@ -2199,6 +2367,9 @@
           }
         },
         "WitchsArmaments": {
+          "EldritchNails": "Unhas Místicas",
+          "IronTeeth": "Dentes de Ferro",
+          "LivingHair": "Cabelo Vivo"
         }
       },
       "Wizard": {
