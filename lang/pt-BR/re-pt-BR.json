@@ -1095,10 +1095,16 @@
     },
     "SpecificRule": {
       "Actions": {
+        "OneAction": "Uma Ação",
+        "Prompt": "Selecione o número de ações",
+        "ThreeActions": "Três Ações",
+        "TwoActions": "Duas Ações"
       },
+      "ActivatedItem": "{item} ativado",
       "AdjustDegreeOfSuccess": {
         "Athletics": {
           "Climb": {
+            "SuccessBetter": "Se você obtiver sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico."
           }
         },
         "RecallKnowledge": {
@@ -1111,14 +1117,17 @@
         }
       },
       "AdoptedAncestry": {
+        "Prompt": "Selecione uma ancestralidade comum."
       },
       "AdvancedGeneralTraining": {
+        "Prompt": "Selecione um talento geral de 7º nível ou inferior."
       },
       "AerialPiledriver": {
       },
       "AftermathFeats": {
       },
       "Aid": {
+        "Prompt": "Escolha o bônus do Auxílio."
       },
       "Alchemist": {
         "AlchemicalCrossbow": {
@@ -1129,6 +1138,7 @@
       "Anadi": {
       },
       "AncestralParagon": {
+        "Prompt": "Selecione um talento de ancestralidade de 1º nível."
       },
       "AncientElf": {
         "Prompt": "Select a multiclass dedication."
@@ -1142,6 +1152,7 @@
         "Bull": "Touro",
         "Canine": "Canídeo",
         "Cat": "Felino",
+        "Centipede": "Centopéia",
         "Deer": "Veado",
         "Frog": "Sapo",
         "Shark": "Tubarão",
@@ -1388,6 +1399,7 @@
       },
       "Druid": {
         "DruidicOrder": {
+          "Prompt": "Selecione uma ordem druídica."
         }
       },
       "DubiousKnowledge": {
@@ -1457,6 +1469,9 @@
         "DeckOfDestiny": {
         },
         "DruidsCrown": {
+          "AntlersLabel": "Chifres",
+          "FlowersLabel": "Flores",
+          "LeavesLabel": "Folhas"
         },
         "EagleEyeElixir": {
           "Greater": {
@@ -2254,13 +2269,33 @@
       },
       "Swashbuckler": {
         "Finisher": {
+          "Basic": "Básica",
+          "Bleeding": "Sangrenta",
+          "Confident": "Confiante",
+          "ConfidentNote": "Você causa metade do seu @Damage[((@actor.flags.pf2e.swashbuckler.preciseStrike)d6[precision])[@item.system.damage.damageType]]{dano de Golpe Preciso} ao alvo. Este tipo de dano é o da arma ou ataque desarmado que você usou no Golpe.",
+          "Dual": "Dupla",
+          "Impaling": "Empaladora",
+          "Label": "Finalização",
+          "Lethal": "Letal",
+          "Mobile": "Móvel",
+          "Perfect": "Perfeita",
+          "Stunning": "Atordoante",
+          "Targeting": "Mirada",
+          "Unbalancing": "Desequilibrante"
         },
+        "Panache": "Você ganha @UUID[Compendium.pf2e.feat-effects.Item.uBJsxCzNhje8m8jj]{Bravata}.",
         "Style": {
+          "Prompt": "Selecione um estilo."
         }
       },
       "TOTMToggle": {
       },
       "Target": {
+        "AgainstDemons": "Contra Demônios",
+        "AgainstDevils": "Contra Diabos",
+        "AgainstHumanoids": "Contra Humanoides",
+        "Necromancer": "Alvo é um necromante",
+        "Metal": "Alvo está usando uma armadura de metal ou é feito de metal"
       },
       "Tattoo": {
         "WildwoodInk": {
@@ -2277,8 +2312,12 @@
         }
       },
       "TerrainExpertise": {
+        "Prompt": "Selecione um terreno."
       },
       "TerrainStalker": {
+        "Rubble": "Detritos",
+        "Snow": "Neve",
+        "Underbrush": "Matagal"
       },
       "Thaumaturge": {
         "Implement": {
@@ -2293,6 +2332,7 @@
       "TrapFinder": {
       },
       "TwinnedDefense": {
+        "Prompt": "Você está empunhando uma arma de aparar?"
       },
       "TwoHanded": {
         "BastardSword": "Usar Espada Bastarda com duas mãos",
@@ -2332,12 +2372,17 @@
       "VitalityManipulationStance": {
       },
       "WardMedic": {
+        "Note": "Quando usar Tratar Doença ou Tratar Ferimentos, você pode tratar até dois alvos. Se for mestre em Medicina, você pode tratar até quatro alvos e, se for lendário em Medicina, pode tratar até oito alvos"
       },
       "WardenHuman": {
+        "Fortitude": "Especialista em salvamentos de Fortitude",
+        "HitPoints": "4 pontos de vida",
+        "MediumArmor": "Treinado em Armadura Média"
       },
       "WardingRune": {
       },
       "Weapon": {
+        "Metal": "Usando uma arma de metal"
       },
       "WeaponInfusion": {
       },
@@ -2351,18 +2396,32 @@
           "Prompt": "Selecione um patrono.",
           "FamiliarAbility": {
             "BalancedLuck": {
+              "Title": "Familiar da Sorte Equilibrada",
+              "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura a até 15 pés do seu familiar pode escolher entre um bônus de estado de +1 em sua CA ou uma penalidade de estado de -1 em sua CA até o início do seu próximo turno."
             },
             "FlowingScript": {
+              "Title": "Familiarizado da Escrita Flúda",
+              "Description": "Quando você lança ou sustenta um sortilégio, as letras começam a mudar rapidamente, causando uma distração. Até o início do seu próximo turno, seu familiar pode causar flanqueamento para você e seus aliados como se fosse capaz de atacar e tivesse um alcance de 5 pés; este é um efeito visual."
             },
             "FreezingRime": {
+              "Title": "Familiar da Geada Congelante",
+              "Description": "Seu familiar é frio ao toque, sua respiração sempre visível. Ao Conjurar ou Sustentar um sortilégio, você pode fazer com que gelo se forme em uma @Template[type:burst|distance:5]{Explosão de 5 pés} centrada em um quadrado do espaço do seu familiar. Esses quadrados são terreno difícil até o início do seu próximo turno."
             },
             "KeenSenses": {
+              "Title": "Familiar dos Sentidos Aguçados",
+              "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar ganha à sua escolha um olfato impreciso, sentido de tremor ou sentido de ondas, com um alcance de 60 pés até o início do seu próximo turno, e pode imediatamente @UUID[Compendium.pf2e.actionspf2e. Item.sn2hIy1iIJX9Vpgj]{Apontar} como uma ação livre."
             },
             "OngoingMisery": {
+              "Title": "Familiar da Míseria Contínua",
+              "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar pode amaldiçoar uma criatura a até 15 pés dele, prolongando em 1 rodada a duração de quaisquer condições negativas que o afetem. Este é um efeito de maldição. Isso prolonga apenas as condições com duração cronometrada (como '1 rodada' ou 'até o final do seu próximo turno') e não impede que as condições sejam removidas por outros meios."
             },
             "RestoredSpirit": {
+              "Title": "Familiar do Espírito Restaurado",
+              "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura voluntária a até 15 pés do seu familiar ganha Pontos de Vida temporários iguais a 2 + metade do seu nível, que duram até o início do seu próximo turno."
             },
             "StalkingNight": {
+              "Title": "Familiar da Noite Perseguidora",
+              "Description": "Seu familiar tem pelo ou penas escuros e a luz parece desaparecer nele. Quando você Conjura ou Sustenta um sortilégio e seu familiar está adjacente a um inimigo ao qual ele está @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultado}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, ou indetectado, o inimigo se torna @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}."
             }
           }
         },
