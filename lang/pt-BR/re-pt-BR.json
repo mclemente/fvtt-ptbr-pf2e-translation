@@ -491,10 +491,12 @@
     "IWR": {
       "Custom": {
         "AdamantineBludgeoning": "contundente de adamante",
+        "AllDamageFromArcaneSpells": "todo o dano de magias arcanas",
         "AllDamageFromSpells": "todo dano de magias",
         "AllDamageFromUndead": "todo dano de mortos-vivos",
         "AllMagicalDamage": "todo dano mágico",
         "AllNonMagicalDamage": "todo dano não-mágico",
+        "AllStrikeDamageFromUndeadCreatures": "todo o dano causado por Golpes feitos por criaturas mortas-vivas",
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
         "ColdIronBludgeoning": "contundente de ferro frio",
         "ImpulseFireFrom": "impulso de fogo de {origem}",
@@ -533,6 +535,8 @@
         "ArcaneCascade": {
         }
       },
+      "BrainCollector": {
+      },
       "Bunyip": {
         "CrocodileLegs": "Pernas de Crocodilo",
         "SnakeTail": "Cauda de Cobra"
@@ -543,13 +547,117 @@
         "ShiftMood": {
         }
       },
-      "Charge": {
+      "ChangeShape": {
+        "Form": {
+          "Animal": "Animal",
+          "AnimalAerial": "Animal Aéreo",
+          "AnimalAquatic": "Animal Aquático",
+          "AnimalMedium": "Animal Médio",
+          "AnimalSmall": "Animal Pequeno",
+          "AnimalTiny": "Animal Minúsculo",
+          "Bat": "Morcego",
+          "BatGiant": "Morcego Gigante",
+          "Barghest": "Barghest",
+          "Cacodaemon": "Cacodaemon",
+          "Cassisian": "Cassisiano",
+          "Dog": "Cachorro",
+          "Dove": "Pombo",
+          "Dragon": "Dragão",
+          "DryadQueen": "Dríade Rainha",
+          "Elemental": {
+            "Elemental": "Elemental",
+            "Medium": "Elemental Médio",
+            "Small": "Elemental Pequeno",
+            "Air": {
+              "Elemental": "Elemental do Ar",
+              "Medium": "Elemental do Ar Médio",
+              "Small": "Elemental do Ar Pequeno"
+            },
+            "Earth": {
+              "Elemental": "Elemental da Terra",
+              "Medium": "Elemental da Terra Médio",
+              "Small": "Elemental da Terra Pequeno"
+            },
+            "Fire": {
+              "Elemental": "Elemental do Fogo",
+              "Medium": "Elemental do Fogo Médio",
+              "Small": "Elemental do Fogo Pequeno"
+            },
+            "Metal": {
+              "Elemental": "Elemental do Metal",
+              "Medium": "Elemental de Metal Médio",
+              "Small": "Elemental de Metal Pequeno"
+            },
+            "Water": {
+              "Elemental": "Elemental da Água",
+              "Medium": "Elemental da Água Médio",
+              "Small": "Elemental da Água Pequeno"
+            },
+            "Wood": {
+              "Elemental": "Elemental da Madeira",
+              "Medium": "Elemental da Madeira Médio",
+              "Small": "Elemental da Madeira Pequeno"
+            }
+          },
+          "Fish": "Peixe",
+          "Gosreg": "Gosreg",
+          "Gylou": "Gylou",
+          "Hag": "Estriga",
+          "Humanoid": "Humanoide",
+          "HumanoidLarge": "Humanoide Grande",
+          "HumanoidMedium": "Humanoide Médio",
+          "HumanoidSmall": "Humanoide Pequeno",
+          "Hybrid": "Híbrido",
+          "Ifrit": "Ifrit",
+          "Imp": "Diabrete",
+          "LamiaMatriarch": "Matriarca Lâmia",
+          "Leshy": "Leshy",
+          "Lizard": "Lagarto",
+          "Morrigna": "Morrigna",
+          "Mushroom": "Cogumelo",
+          "NaiadQueen": "Náiade Rainha",
+          "ObjectTiny": "Objeto Inanimado Minúsculo",
+          "Octopus": "Polvo",
+          "Oni": "Oni",
+          "PorcupineGiant": "Porco-espinho gigante",
+          "Rat": "Rato",
+          "Scorpion": "Escorpião",
+          "Succubus": "Súcubo",
+          "Tree": "Árvore",
+          "Vampire": "Vampiro",
+          "Wolf": "Lobo",
+          "WolfDire": "Lobo Atroz"
+        },
+        "Label": "Forma Atual"
       },
+      "Charge": {
+        "AtLeastTen": "Movido pelo menos 10 pés"
+      },
+      "Chimera": {
+        "DragonHead": "Tradição Mágica da Cabeça do Dragão",
+        "DivineHead": {
+          "Label": "Santificação da Cabeça do Dragão",
+          "NoSanctification": "Não Santificado"
+        },
+        "PrimalHead": "Tipo de Energia do Sopro do Dragão"
+      },
+      "ClayEffigy": {
+        "SacredArt": {
+          "NoSanctification": "Não Santificado"
+        }
+      },
+      "ClockworkLostPlates": "Quantas placas foram perdidas?",
+      "ClockworkWindUp": "Modo de Espera",
       "ConstructArmor": {
+        "BrokenArmor": "Armadura de Construto Quebrada",
+        "CriticalHit": "Armadura do Construto Quebrada por um Acerto Crítico"
       },
       "CrumblingCarapace": {
+        "CriticalHit": "Carapaça Quebrada por um Acerto Crítico"
       },
       "CustomArmor": {
+        "BrokenArmor": "Armadura Personalizada Quebrada",
+        "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
       "CyclopsBully": {
       },
@@ -564,6 +672,10 @@
         "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
       },
       "DuskwalkerHuntPrey": {
+      },
+      "Elemental": {
+        "Earth": {
+        }
       },
       "FacetboundCascader": {
       },
@@ -621,9 +733,23 @@
       },
       "RaptorGuardWight": {
       },
+      "RuneGiant": {
+        "InvokeRune": {
+          "RuneOfDestruction": {
+          },
+          "RuneOfFlames": {
+          },
+          "RuneOfSmiting": {
+          }
+        }
+      },
       "Seugathi": {
       },
       "Shell": {
+      },
+      "ShockerLizard": {
+        "ShockingBurst": {
+        }
       },
       "SkyDragon": {
       },
@@ -983,6 +1109,7 @@
         "DeactivatedBy": "Desativado por"
       },
       "FlatModifier": {
+        "Force": "Forçar?",
         "HideIfDisabled": "Ocultar (se desativado)"
       },
       "General": {
@@ -1031,6 +1158,7 @@
       "CraftingFormula": "Fórmula de Manufatura",
       "CreatureSize": "Tamanho da Criatura",
       "CriticalSpecialization": "Especialização de Crítico",
+      "DamageAlteration": "Alteração de Dano",
       "DamageDice": "Dado de Dano",
       "DexterityModifierCap": "Limite de Modificador de Destreza",
       "EphemeralEffect": "Efeito Efêmero",
@@ -1064,8 +1192,24 @@
       "WeaponPotency": "Potência de Arma"
     },
     "SkillVariant": {
+      "AboutCaves": "Sobre Cavernas",
+      "AcidicEnvironment": "Em Ambientes Ácidos",
+      "AgainstDemons": "Contra Demônios",
+      "Aid": "Para Auxiliar",
+      "AttemptToFascinateOutdoorsInBrightSun": "Usando Performance Fascinante ao ar livre sob sol forte",
+      "Blacksmithing": "Para Ferraria",
+      "BloodOrWater": "Em Sangue ou Água",
+      "Buried": "Enterrado",
+      "CanClearlyIdentifyTheStars": "Pode identificar claramente as estrelas",
       "Climb": "Para Escalar",
+      "ClimbHighJumpLongJumpOrDisarm": "Para Escalar, Saltar em Altura, Saltar em Distância ou Desarmar",
       "ClimbOrSwim": "Para Escalar ou Nadar",
+      "CommandAnAnimal": "Para Comandar um Animal",
+      "CommandReptile": "Para Comandar um Animal que é um Réptil",
+      "ConcealAnObject": "Para Ocultar um Objeto",
+      "CraftAlchemical": "Para Manufaturar Itens Alquímicos",
+      "CraftAlchemicalOrMedicine": "Para Manutafura Itens Alquímicos ou Medicinais",
+      "CraftBone": "Usando Osso",
       "CraftTrapSnare": "Para Manufaturar Armadilhas e Arapucas",
       "Darkness": "Na Escuridão",
       "Deserts": "Em Desertos",
@@ -1235,6 +1379,8 @@
           "Maestro": "Musa Maestro",
           "Polymath": "Musa Polímata",
           "Warrior": "Musa Combatente"
+        },
+        "TriumphantInspiration": {
         }
       },
       "Beastkin": {
@@ -1276,21 +1422,50 @@
         }
       },
       "CelestialResistance": {
+        "Prompt": "Selecione um tipo de energia associada à sua linhagem."
       },
       "Champion": {
         "AuraOfFaith": {
+          "Toggle": "Primeiro Golpe contra uma criatura profana nesta rodada"
         },
+        "BladeAllyRune": "Selecione uma runa de propriedade para seu aliado de lâmina.",
         "DivineSmite": {
           "Label": "Punição Divina"
         },
         "EvilDamage": "Dano de Espírito",
+        "IronRepercussions": {
+          "Description": "Desobedecer à sua Mão de Ferro possui consequências duradouras. Se um inimigo se recusar a ajoelhar perante você, você pode causar @Damage[(ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor .level,12),4,ternary(gte(@actor.level,9),3,ternary(gte(@actor.level,5),2,1))))))d6[persistent,mental]]{dano persistente mental} em vez de dano mental normal. Você deve decidir se o dano mental será persistente antes do seu inimigo escolher se ajoelhar ou não. A quantidade de dano não é alterada."
+        },
         "NegativeDamage": "Dano de Vazio",
+        "OngoingSelfishness": {
+          "Description": "Após usar Escudo Egoísta, você recebe resistência a todo dano subsequente do inimigo acionador até o final do turno no qual você usou a reação. A resistência é igual à metade da resistência de seu Escudo Egoísta. @UUID[Compendium.pf2e.feat-effects.Item.seOQfjfjrDyK6rCo]{Efeito: Egoísmo Contínuo}"
+        },
+        "RangedReprisal": {
+          "Description": "Você pode usar o Golpe Retributivo com uma arma à distância. Além disso, se o adversário que acionou sua reação estiver a 1,5 metro além de seu alcance, mas não dentro do seu alcance, você pode Dar um Passo como parte de sua reação para colocar o adversário em seu alcance antes de realizar um Golpe Retributivo corpo a corpo."
+        },
         "RetributiveStrike": "Golpe Retributivo",
-        "TargetReaction": "O alvo desencadeou a reação do seu campeão"
+        "TargetReaction": "O alvo desencadeou a reação do seu campeão",
+        "UnimpededStep": {
+          "Description": "Com uma explosão de libertação divina, o movimento de seu aliado recebido de seu Passo Liberador não é afetado por terreno difícil, terreno difícil maior, superfícies estreitas e solo irregular"
+        },
+        "WeightOfGuilt": {
+          "Description": "A culpa anuvia a mente daqueles que ignoram seu Vislumbre de Redenção. Em vez de deixar a criatura acionadora enfraquecida 2, você pode deixá-la @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Estupefata 2} pela mesma duração."
+        }
       },
       "CharmOfResistance": {
+        "Greater": "Amuleto de Resistência a {damageType} (Maior)",
+        "Major": "Amuleto de Resistência a {damageType} (Superior)",
+        "Standard": "Amuleto de Resistência a {damageType}"
       },
       "ChromaticArmor": {
+        "Acid": "Laranja (ácido)",
+        "Electricity": "Amarelo (Eletricidade)",
+        "Fire": "Vermelho (Fogo)",
+        "Force": "Violeta (Força)",
+        "Mental": "Índigo (Mental)",
+        "Poison": "Verde (Veneno)",
+        "Prompt": "Selecione uma cor.",
+        "Sonic": "Azul (Sônico)"
       },
       "Chronoskimmer": {
       },
@@ -1300,9 +1475,13 @@
       "Cleric": {
         "CastigatingWeapon": {
         },
+        "ChannelingBlock": {
+        },
         "CommunalHealing": {
         },
         "CremateUndead": {
+        },
+        "DeitysProtection": {
         },
         "DirectedChannel": {
         },
@@ -1319,7 +1498,11 @@
           "AllowedDrops": "Característica de classe de clérigo de 1º nível",
           "Prompt": "Selecione uma doutrina."
         },
+        "RaiseSymbol": {
+        },
         "ReplenishmentOfWar": {
+        },
+        "RestorativeStrike": {
         },
         "SacredGround": {
         },
@@ -1498,6 +1681,8 @@
         "NosoiCharm": {
         },
         "PhantomShroud": {
+        },
+        "RobeOfTheArchmagi": {
         },
         "ScapularOfShields": {
         },
@@ -1787,9 +1972,18 @@
           }
         },
         "KineticGate": {
+          "DualGate": {
+          },
+          "ExpandThePortal": {
+          },
+          "ForkThePath": {
+          },
           "Junction": {
+            "Aura": "Aura",
+            "Skill": "Perícia"
           },
           "Prompt": {
+            "Element": "Selecione um elemento."
           }
         },
         "Overflow": {
@@ -1807,6 +2001,7 @@
       },
       "Label": {
         "DamageType": "Tipo de Dano",
+        "Enter": "Entrar",
         "Exit": "Sair",
         "NonCantrip": "Não-Truque",
         "ResistanceType": "Tipo de Resistência",
@@ -1824,8 +2019,16 @@
         "HandOfTheLich": {
         }
       },
+      "LitAlicornLance": "Lança de Alicórnio está acesa",
+      "LitCandle": "Vela está acesa",
+      "LitCandlecap": "Chapéu-vela está aceso",
+      "LitFirePoi": "Poi de Fogo está aceso",
+      "LitFulminatingSpear": "Lança Fulminante está acesa",
+      "LitItem": "{item} está aceso(a)",
+      "LitTorch": "Tocha está acesa",
       "Lizardfolk": {
         "GuidedByTheStars": {
+          "Prompt": "Selecione salvamento ou perícia."
         },
         "ParthenogenicHatchling": {
         }
@@ -1902,6 +2105,18 @@
       "Nagaji": {
         "VenomSpit": {
         }
+      },
+      "Numbers": {
+        "Eight": "Oito",
+        "Five": "Cinco",
+        "Four": "Quatro",
+        "Nine": "Nove",
+        "One": "Um",
+        "Seven": "Sete",
+        "Six": "Seis",
+        "Ten": "Dez",
+        "Three": "Três",
+        "Two": "Dois"
       },
       "Obcisidaemon": {
         "ConsumeSoul": {
@@ -2029,6 +2244,8 @@
         },
         "OscillatingWave": {
         },
+        "PsiCantripLabels": {
+        },
         "SpellModification": {
         },
         "UnleashPsyche": {
@@ -2117,6 +2334,8 @@
         "EldritchTrickster": {
           "Prompt": "Selecione um arquétipo de multiclasse de conjurador de magias."
         },
+        "OverextendingFeint": {
+        },
         "Racket": {
           "Prompt": "Selecione um esquema."
         },
@@ -2204,11 +2423,27 @@
         "Weaving": "Tecelagem",
         "Woodworking": "Carpintaria"
       },
+      "SpellEffectAnimalFeature": {
+        "CatEyes": "Olhos de Gato",
+        "FishTail": "Rabo de Peixe",
+        "OwlEyes": "Olhos de Coruja",
+        "Wings": "Asas"
+      },
       "SpellEffectEvolutionSurge": {
+        "Prompt": "Selecione uma evolução.",
+        "Sight": "Visão na penumbra e visão no escuro",
+        "Amphibious": "Velocidade de natação",
+        "Speed": "Bônus de status de +20 pés na Velocidade",
+        "Climb": "Velocidade de escalada",
+        "Fly": "Velocidade de voo"
       },
       "SpellEffectGluttonsJaw": {
       },
       "SpellEffectPreciousMetals": {
+        "Copper": "Cobre",
+        "Gold": "Ouro",
+        "Iron": "Ferro",
+        "Steel": "Aço"
       },
       "SpellEffectProtection": {
       },
@@ -2222,7 +2457,23 @@
         "BeastmastersSigil": {
         }
       },
+      "SpellHeightened": {
+        "HeightenedEighth": "Elevada (8º)",
+        "HeightenedFifth": "Elevada (5º)",
+        "HeightenedFourth": "Elevada (4º)",
+        "HeightenedNinth": "Elevada (9º)",
+        "HeightenedPlusOne": "Elevada (+1)",
+        "HeightenedPlusTwo": "Elevada (+2)",
+        "HeightenedPlusThree": "Elevada (+3)",
+        "HeightenedPlusFour": "Elevada (+4)",
+        "HeightenedSecond": "Elevada (2º)",
+        "HeightenedSeventh": "Elevada (7º)",
+        "HeightenedSixth": "Elevada (6th)",
+        "HeightenedTenth": "Elevada (10º)",
+        "HeightenedThird": "Elevada (3º)"
+      },
       "SpellmastersResilience": {
+        "Prompt": "Selecione uma tradição mágica para ganhar resistência."
       },
       "SpellRank": {
         "Eighth": "8° Círculo",
@@ -2237,6 +2488,58 @@
         "Tenth": "10° Círculo",
         "Third": "3° Círculo"
       },
+      "SpellTrickster": {
+        "AgileHand": {
+        },
+        "AnimateNet": {
+        },
+        "BarrierShield": {
+        },
+        "BeaconMark": {
+        },
+        "ChokingSmoke": {
+        },
+        "ConfoundingImage": {
+        },
+        "DirectedPoison": {
+        },
+        "DiskRider": {
+        },
+        "DrenchingMist": {
+        },
+        "ForcefulPush": {
+        },
+        "ObscuredTerrain": {
+        },
+        "LarcenousHand": {
+        },
+        "LingeringFlames": {
+        },
+        "ScatteredFire": {
+        },
+        "ShiningArms": {
+        },
+        "SiphoningHand": {
+        },
+        "SmolderingExplosion": {
+        },
+        "SurroundingFlames": {
+        },
+        "StealVitality": {
+        },
+        "SummonEnsemble": {
+        },
+        "TopplingTentacles": {
+        },
+        "TracingSigil": {
+        },
+        "UneasyRest": {
+        },
+        "VolatileGrease": {
+        },
+        "WildLights": {
+        }
+      },
       "SpiritPower": {
         "Love": {
         }
@@ -2245,6 +2548,10 @@
         "LuminousSprite": {
         },
         "SpritesSpark": {
+        }
+      },
+      "Staff": {
+        "AccursedStaff": {
         }
       },
       "Stance": {
