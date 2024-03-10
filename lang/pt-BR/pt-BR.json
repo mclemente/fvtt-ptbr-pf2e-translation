@@ -135,6 +135,9 @@
         "TakesNoDamage": "<actor>{actor}</actor> não sofre dano.",
         "TheTarget": "O alvo"
       },
+      "AttackEffects": {
+        "PlusList": "(mais {list})"
+      },
       "Attacks": "Ataques",
       "Character": {
         "Attribute": {
@@ -231,9 +234,12 @@
           "Defense": {
             "Heavy": "Armadura pesada",
             "HeavyBarding": "Armadura de animal pesada",
+            "HeavyShort": "Pesada",
             "Light": "Armadura leve",
             "LightBarding": "Armadura de animal leve",
+            "LightShort": "Leve",
             "Medium": "Armadura média",
+            "MediumShort": "Média",
             "Title": "Defesas",
             "Unarmored": "Defesa sem armadura"
           },
@@ -349,7 +355,7 @@
             "LowLightVision": "Visão na Penumbra",
             "MotionSense": "Sentido de movimento",
             "Scent": "Faro",
-            "SeeInvisibility": "Ver Invisibilidade",
+            "SeeInvisibility": "Ver o Invisível",
             "Spiritsense": "Sentido espiritual",
             "Thoughtsense": "Sentido de pensamentos",
             "Tremorsense": "Sentido Sísmico",
@@ -445,7 +451,7 @@
         "TotalBulk": "Volume Total: {bulk}",
         "UnitTitle": {
           "Bulk": "Volume por Unidade",
-          "Price": "Preço por Unidade"
+          "Price": "Preço"
         }
       },
       "IWREditor": {
@@ -572,7 +578,16 @@
         },
         "Wealth": "Patrimônio"
       },
-      "Plural": "Atores"
+      "Plural": "Atores",
+      "Vehicle": {
+        "EmitsSound": {
+          "Encounter": "Durante Encontros",
+          "False": "Não",
+          "Hint": "Se este veículo está emitindo som e pode ser detectado pela audição.",
+          "Title": "Emitindo Som?",
+          "True": "Sim"
+        }
+      }
     },
     "ActorSizeGargantuan": "Imenso",
     "ActorSizeHuge": "Enorme",
@@ -597,34 +612,24 @@
     "AncestryFeatLevels": "Níveis de Talentos de Ancestralidade",
     "AncestryFeatures": "Características de Ancestralidade",
     "AncestryHP": "PVs de Ancestralidade",
-    "AreaLabel": "Área",
-    "AreaSize10": "10 pés",
-    "AreaSize100": "100 pés",
-    "AreaSize1000": "1000 pés",
-    "AreaSize120": "120 pés",
-    "AreaSize15": "15 pés",
-    "AreaSize1Mile": "1 milha",
-    "AreaSize20": "20 pés",
-    "AreaSize25": "25 pés",
-    "AreaSize30": "30 pés",
-    "AreaSize360": "360 pés",
-    "AreaSize40": "40 pés",
-    "AreaSize45": "45 pés",
-    "AreaSize5": "5 pés",
-    "AreaSize50": "50 pés",
-    "AreaSize500": "500 pés",
-    "AreaSize60": "60 pés",
-    "AreaSize65": "65 pés",
-    "AreaSize75": "75 pés",
-    "AreaSize80": "80 pés",
-    "AreaSize90": "90 pés",
-    "AreaSizeQuarterMile": "Quarto de Milha",
-    "AreaTypeBurst": "Explosão",
-    "AreaTypeCone": "Cone",
-    "AreaTypeCube": "Cubo",
-    "AreaTypeEmanation": "Emanação",
-    "AreaTypeLine": "Linha",
-    "AreaTypeSquare": "Quadrado",
+    "Area": {
+      "InFeet": "Área (pés)",
+      "Label": "Área",
+      "Shape": {
+        "burst": "explosão",
+        "cone": "cone",
+        "cube": "cubo",
+        "cylinder": "cilindro",
+        "emanation": "emanação",
+        "line": "linha",
+        "square": "quadrado"
+      },
+      "Size": {
+        "Half": "meia",
+        "Mile": "milha",
+        "Quarter": "quarto de"
+      }
+    },
     "ArmorArmorLabel": "Bônus de CA",
     "ArmorCheckLabel": "Penalidade em Testes",
     "ArmorCheckPenalty": "Penalidade em Testes da Armadura",
@@ -653,6 +658,7 @@
     "ArmorPropertyRuneAssisting": "Ajudante",
     "ArmorPropertyRuneBitter": "Amarga",
     "ArmorPropertyRuneColdResistant": "Resistente ao Frio",
+    "ArmorPropertyRuneDeathless": "Imortal",
     "ArmorPropertyRuneElectricityResistant": "Resistente a Eletricidade",
     "ArmorPropertyRuneEnergyAdaptive": "Energia Adaptativa",
     "ArmorPropertyRuneEthereal": "Etérea",
@@ -676,13 +682,17 @@
     "ArmorPropertyRuneImmovable": "Imóvel",
     "ArmorPropertyRuneImplacable": "Implacável",
     "ArmorPropertyRuneInvisibility": "Invisibilidade",
+    "ArmorPropertyRuneLesserDread": "Terror Menor",
+    "ArmorPropertyRuneMagnetizing": "Magnetizante",
     "ArmorPropertyRuneMajorShadow": "Sombras (Superior)",
     "ArmorPropertyRuneMajorSlick": "Escorregadia (Superior)",
     "ArmorPropertyRuneMajorStanching": "Major Stanching",
     "ArmorPropertyRuneMalleable": "Maleável",
+    "ArmorPropertyRuneMisleading": "Enganadora",
     "ArmorPropertyRuneModerateDread": "Terror Moderado",
     "ArmorPropertyRunePortable": "Portátil",
     "ArmorPropertyRuneQuenching": "Extintora",
+    "ArmorPropertyRuneRaiment": "Deslumbrante",
     "ArmorPropertyRuneReady": "Preparar",
     "ArmorPropertyRuneRockBraced": "Suporte Rochoso",
     "ArmorPropertyRuneShadow": "Sombras",
@@ -819,8 +829,8 @@
     "CharacterTraits": "Traços do Personagem",
     "CharacterTraitsHeader": "Traços e Outros Detalhes",
     "ChatRollDetails": {
+      "DiceAndModifiers": "Dados e modificadores",
       "FlatCheckNoModifiers": "Testes Simples nunca incluem quaisquer modificadores, bônus ou penalidades.",
-      "ModifiersAndDice": "Modificadores e Dados",
       "RollOptions": "Opções de Rolagem",
       "Select": "Inspecionar Rolagem",
       "Title": "Inspetor de Rolagem"
@@ -828,10 +838,11 @@
     "Check": {
       "DC": {
         "Label": {
-          "AdjustedTarget": "<target>Alvo: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
-          "NoChangeTarget": "<target>Alvot: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
+          "AdjustedTarget": "<opposer>Alvo: {opposer}</opposer> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
+          "NoChangeTarget": "<opposer>Alvo: {opposer}</opposer> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
           "NoTarget": "<dc>{dcType} {dc}</dc>",
-          "WithTarget": "<target>Alvo: {target}</target> <dc>({dcType} {dc})</dc>"
+          "WithTarget": "<opposer>Alvo: {opposer}</target> <dc>({dcType} {dc})</dc>",
+          "WithOrigin": "<opposer>Origem: {opposer}</target> <dc>({dcType} {dc})</dc>"
         },
         "Specific": {
           "armor": "CA",
@@ -1142,6 +1153,7 @@
           "nonlethal": "não-letal",
           "nonlethal-attacks": "ataques não-Letais",
           "object-immunities": "imunidades de Objeto",
+          "occult": "ocultismo",
           "off-guard": "desprevenido",
           "olfactory": "olfativo",
           "orichalcum": "oricalco",
@@ -1152,6 +1164,7 @@
           "plant": "planta",
           "polymorph": "polimorfia",
           "possession": "possessão",
+          "primal": "primal",
           "prone": "prostrado",
           "protean-anatomy": "anatomia Proteana",
           "radiation": "radiação",
@@ -1242,8 +1255,7 @@
         "vitality": "vitalidade",
         "void": "vazio",
         "untyped": "sem Tipo"
-      },
-      "Scatter": "Dano de dispersão"
+      }
     },
     "DamageButton": {
       "Adjust": "[Shift-Click] Ajuste o valor antes de aplicar.",
@@ -1470,7 +1482,6 @@
     "FeatTypeSkill": "Talento de Perícia",
     "FeaturesAncestryHeader": "Características de Ancestralidade",
     "FeaturesClassHeader": "Características de Classe",
-    "Feet": "pés",
     "FlatCheck": "Teste Simples",
     "Focus": {
       "NotEnoughFocusPointsError": "Você não tem pontos de foco suficientes para conjurar esta magia.",
@@ -1481,7 +1492,18 @@
       "label": "Foco",
       "pointLabel": "Pontos"
     },
-    "Foot": "Pé(s)",
+    "Foot": {
+      "Label": "pé",
+      "Plural": "pés",
+      "Preformatted": {
+        "5": "5 pés",
+        "10": "10 pés",
+        "15": "15 pés",
+        "20": "20 pés",
+        "25": "25 pés",
+        "30": "30 pés"
+      }
+    },
     "FormulaKnownTitle": "Fórmulas Conhecidas",
     "FormulaListEmpty": "Vazio (arraste para cá a fórmula/item)",
     "Formula": "Fórmula",
@@ -1620,6 +1642,7 @@
       "Armor": {
         "Base": {
           "armored-cloak": "Manto Blindado",
+          "armored-coat": "Casaco Blindado",
           "bastion-plate": "Placa de Bastião",
           "breastplate": "Placa Peitoral",
           "buckle-armor": "Armadura de Fivela",
@@ -1766,7 +1789,10 @@
           "Heal": "Curar",
           "Label": "Fonte Divina"
         },
-        "DivineSkill": "Perícia Divina",
+        "DivineSkill": {
+          "Hint": "A maioria das divindades possui uma única perícia divina, embora algumas ofereçam a escolha entre duas.",
+          "Label": "Perícia Divina"
+        },
         "Domain": {
           "Abomination": {
             "Description": "Você visa induzir aversão e terror naqueles à sua volta.",
@@ -2108,6 +2134,7 @@
           },
           "Range": "Alcance",
           "ReevaluateFormula": {
+            "InitiativeRoll": "Na rolagem de iniciativa",
             "Label": "Reavaliar?",
             "Never": "Nunca",
             "TurnEnd": "No fim do turno",
@@ -2123,6 +2150,7 @@
           "Description": "Talvez seja uma condição tratável.",
           "Name": "Desintegrado"
         },
+        "Looping": "Voltar ao início?",
         "Plural": "Efeitos",
         "ShowTokenIcon": "Mostrar ícone no token?",
         "Unidentified": "Não identificado?"
@@ -2352,11 +2380,13 @@
           "dart-shield": "Escudo de Dardo",
           "fortress-shield": "Escudo da Fortaleza",
           "gauntlet-buckler": "Manopla Broquel",
+          "harnessed-shield": "Escudo Arreado",
           "heavy-rondache": "Rondache Pesado",
           "hide-shield": "Escudo de Couro",
           "klar": "Klar",
           "meteor-shield": "Escudo Meteoro",
           "razor-disc": "Disco Navalha",
+          "salvo-shield": "Escudo de Salva",
           "steel-shield": "Escudo de aço",
           "swordstealer-shield": "Escudo Ladrão de Espadas",
           "tower-shield": "Escudo de corpo",
@@ -2445,7 +2475,7 @@
           "brawling": "O alvo deve obter sucesso em uma jogada de @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Pugilato|showDC:all] contra sua CD de classe ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno.",
           "club": "Você empurra o alvo para longe de você até 10 pés (você escolhe a distância). Esse é um movimento forçado.",
           "firearm": "O alvo deve obter sucesso em uma jogada de @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Arma de Fogo|showDC:all] ou fica @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
-          "flail": "O alvo fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado} a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Mangual]{Reflexos} contra a sua CD de classe.",
+          "flail": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}, a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Mangual]{Reflexos} contra a sua CD de classe.",
           "hammer": "O alvo fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado} a não ser que ele obtenha sucesso em uma jogada de @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Martelo]{Reflexos} contra a sua CD de classe.",
           "polearm": "O alvo é movido com 5 pés em uma direção de sua escolha. Isto é um movimento forçado.",
           "shield": "Você empurra o alvo para trás á 5 pés de você. Isto é um movimento forçado.",
@@ -2647,7 +2677,7 @@
     "NPC": {
       "Abilities": {
         "Glossary": {
-          "AllAroundVision": "<p>Este monstro pode ver em todas as direções simultaneamente, e portanto não pode ser flanqueado.</p>",
+          "AllAroundVision": "<p>Este monstro pode ver em todas as direções simultaneamente e, portanto, não pode ser flanqueado.</p>",
           "AquaticAmbush": "<p><strong>Requerimentos</strong> O monstro está escondido em água e uma criatura que não a detectou está no alcance listado em pés</p>\n<hr />\n<p><strong>Efeito</strong> O monstro move até o máximo de sua velocidade de nado + 10 pés na direção da criatura acionadora, viajando na água e na terra. Uma vez que a criatura está em alcance, o monstro faz um Golpe contra ela. A criatura é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra este Golpe</p>",
           "AtWillSpells": "<p> O monstro pode conjurar suas magias à vontade qualquer número de vezes sem usar um slot de magia.</p>",
           "AttackOfOpportunity": "<p><strong>Acionamento</strong> Uma criatura no alcance do monstro usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe corpo a corpo contra a criatura acionada. Se o ataque dele for um acerto crítico e o acionamento for uma ação de manuseio, o monstro interrompe essa ação. Este Golpe não conta para a penalidade por ataques múltiplos do monstro, e a penalidade por ataques múltiplos do monstro não se aplica a ele.</p>",
@@ -2657,7 +2687,7 @@
           "ChangeShape": "<p> O monstro muda de forma indefinidamente. Ele pode usar essa ação novamente para retornar a sua forma natural ou adotar uma nova forma. Se não for listado o contrário, um monstro não pode usar Trocar Forma para parecer um indivíduo específico. Usar Trocar Forma conta como criar um disfarce para o uso de Dissimulação em @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonar}. A transformação do monstro automaticamente derrota CDs de Percepção para determinar se uma criatura é membro de uma ancestralidade ou tipo de criatura na qual se transformou, e ganha um bônus de +4 no seu CD de Dissimulação para prevenir outras criaturas de verem através de seu disfarce. Habilidades de Trocar Forma especificam quais formas o monstro pode adotar. O monstro não ganha nenhuma habilidade especial de sua nova formato, somente sua forma física. Por exemplo, em cada forma, ela troca sua Velocidade e Golpes normais, e pode potencialmente mudar seus sentidos ou tamanho. Quaisquer mudanças são listadas no seu bloco de estatísticas</p>",
           "ConstantSpells": "<p>Uma magia constante afeta o monstro sem que o monstro precise conjurá-la., e sua duração é ilimitada. Se sua magia constante é neutralizada, o monstro pode reativá-la usando os requerimentos de ação normal da magia.</p>",
           "Constrict": "<p> O monstro dá o dobro do dano listado em qualquer número de criaturas @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarradas} ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringido} por ele. Cada uma das criaturas pode tentar um salvamento básico de Fortitude com a CD listado.</p>",
-          "Coven": "<p> Este monstro pode formar um coventículo com uma ou mais outras criaturas que também possuem a habilidade coventículo. Isso envolve performar uma cerimônia de 8 horas com todos os possíveis membros. Após ser formado, cada um de seus membros ganha ajustes de Elite, ajustando seus níveis de acordo. Membros do coventículo podem sentir as localizações e condições de outros membros gastando uma única ação, com o traço de concentração, e pode sentir o que outro membro está sentindo como uma atividade de duas ações, com o traço concentração também.</p>\n<p>Coventículos também concedem magias e rituais a seus membros, mas estes só podem ser conjurados em cooperação entre três membros que estejam a 30 pés uns dos outros. Um membro pode contribuir para a magia do coventículo com uma atividade de conjuração de ação única que tem somente o componente verbal. Se dos outros membros contribuírem com estas ações dentro do último round, um terceiro pode conjurar a magia de coventículo em seu turno gastando as ações de conjuração normais. Um coventículo pode conjurar suas magias um número ilimitado de vezes, mas pode fazê-lo uma única vez por turno Todo coventículo concede a magia de 8ᵒ nível <em>@UUID[Compendium.pf2e.spells-srd.dN8QBNuTiaBHCKUe]{Polimorfia Perniciosa}</em> e todas as seguintes magias, quais o coventículo pode conjurar em qualquer nível até o 5ᵒ: <em>@UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augúrio}</em>, <em>@UUID[Compendium.pf2e.spells-srd.vLA0q0WOK2YPuJs6]{Cativar}</em>, <em>@UUID[Compendium.pf2e.spells-srd.HXhWYJviWalN5tQ2]{Clauriaudiência}</em>, <em>@UUID[Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE]{Claurividência}</em>, <em>@UUID[Compendium.pf2e.spells-srd.yM3KTTSAIHhyuP14]{Mensagem Onírica}</em>, <em>@UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Disfarce Ilusório}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Ucf8eynbZMfUucjE]{Cena Ilusória}</em>, <em>@UUID[Compendium.pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Olho Bisbilhoteiro}</em>, e <em>@UUID[Compendium.pf2e.spells-srd.FM3SmEW8N1FCRjqt]{Cadáver Falante}</em>. Criaturas individuais com a habilidade coventícula também concedem magias adicionais a qualquer coventículo que entrem. Um coventículo também pode conjurar o ritual <em>@UUID[Compendium.pf2e.spells-srd.XkDCzMIyc0YOjw05]{Controlar o Clima}</em>, com CD 23 ao invés da CD padrão.</p>\n<p>Se a morte ou saída de um membro do coventículo trouxer o total de membros para menos que três, os membros restantes mantém seus ajustes de Elite por 24 horas, mas sem membros suficientes para contribuir com as ações necessárias, eles não podem conjurar as magias do coventículo.</p>",
+          "Coven": "<p> Este monstro pode formar um coventículo com uma ou mais outras criaturas que também possuem a habilidade coventículo. Isso envolve performar uma cerimônia de 8 horas com todos os possíveis membros. Após ser formado, cada um de seus membros ganha ajustes de Elite, ajustando seus níveis de acordo. Membros do coventículo podem sentir as localizações e condições de outros membros gastando uma única ação, com o traço de concentração, e pode sentir o que outro membro está sentindo como uma atividade de duas ações, com o traço concentração também.</p>\\n<p>Coventículos também concedem magias e rituais a seus membros, mas estes só podem ser conjurados em cooperação entre três membros que estejam a 30 pés uns dos outros. Um membro pode contribuir para a magia do coventículo com uma ação única que tem somente o traço de concentração. Se dos outros membros contribuírem com estas ações dentro do último round, um terceiro pode conjurar a magia de coventículo em seu turno gastando as ações de conjuração normais. Um coventículo pode conjurar suas magias um número ilimitado de vezes, mas pode fazê-lo uma única vez por turno Todo coventículo concede a magia de 8° nível @UUID[Compendium.pf2e.spells-srd.dN8QBNuTiaBHCKUe]{Polimorfia Amaldiçoada} e todas as seguintes magias, quais o coventículo pode conjurar em qualquer nível até o 5°: @UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augúrio}, @UUID[Compendium.pf2e.spells-srd.vLA0q0WOK2YPuJs6]{Cativar}, @UUID[Compendium.pf2e.spells-srd.HXhWYJviWalN5tQ2]{Clariaudiência}, @UUID[Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE]{Clarividência}, @UUID[Compendium.pf2e.spells-srd.yM3KTTSAIHhyuP14]{Mensagem Onírica}, @UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Disfarce Ilusório}, @UUID[Compendium.pf2e.spells-srd.Ucf8eynbZMfUucjE]{Cena Ilusória}, @UUID[Compendium.pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Olho Escoteiro}, e @UUID[Compendium.pf2e.spells-srd.FM3SmEW8N1FCRjqt]{Cadáver Falante}. Criaturas individuais com a habilidade coventícula também concedem magias adicionais a qualquer coventículo que entrem. Um coventículo também pode conjurar o ritual @UUID[Compendium.pf2e.spells-srd.XkDCzMIyc0YOjw05]{Controlar o Clima}, com CD 23 ao invés da CD padrão.</p>\\n<p>Se a morte ou saída de um membro do coventículo trouxer o total de membros para menos que três, os membros restantes mantém seus ajustes de Elite por 24 horas, mas sem membros suficientes para contribuir com as ações necessárias, eles não podem conjurar as magias do coventículo.</p>",
           "Darkvision": "<p>Um monstro com visão no escuro pode ser perfeitamente bem em areas de escuridão e luz fraca, embora tal visão seja somente em preto e branco. Algumas formas de escuridão mágica, como a magia <em>@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{Escuridão}</em>, bloqueiam visão no escuro normal. Um monstro com @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr]{Visão no escuro Maior}, no entanto, pode ver através até mesmo de tais formas de escuridão.</p>",
           "Disease": "<p>Quando uma criatura é exposta à doença de um monstro, ela tenta um salvamento de Fortitude ou sucumbe a doença. O nível da doença é o mesmo do monstro infligindo-a. A doença segue a mesmas regras que aflições.</p>",
           "Engulf": "<p> O monstro Anda até o dobro de sua Velocidade e pode se mover através dos espaços de quaisquer criaturas em seu caminho. Qualquer criatura do tamanho do monstro ou menor cujos espaços o monstro andou, podem tentar um salvamento de Reflexos com a CD listado para evitar serem engolfados. Uma criatura incapaz de agir normalmente falha criticamente o salvamento. Se uma criatura passa em seu salvamento, pode escolher ser empurrada para fora do caminho do monstro ou para frente dele no final do movimento. O monstro pode tentar Engolfar a mesma criatura somente uma vez com um único uso de Engolfar. O monstro pode conter quantas criaturas couberem em seu espaço.</p>\n<p>A criatura que falha o salvamento é puxada para dentro do corpo do monstro. Ela é @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada}, é @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1}, e tem que segurar o fôlego ou começar a sufocar. A criatura recebe a quantidade de dano listada quando Engolfada pela primeira vez, e no fim de todos os turnos que estiver engolfada. Uma criatura Engolfada pode se libertar tentando @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar} contra a CD de escape listado. Uma criatura engolfada pode atacar o monstro que a envolve, mas somente com ataques desarmados ou com armas de volume leve ou menor. O monstro é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} ao golpe. Se o monstro recebe dano Perfurante ou Cortante que exceda o valor de Ruptura listado, de um único ataque ou magia, a criatura engolfada se liberta através do corte. A criatura que se liberte com qualquer um dos métodos pode respirar imediatamente e sai do espaço do mosntro.</p>\n<p>Se o monstro morre, todas as criaturas que ela havia engolfado são automaticamente libertas, uma vez que a forma do monstro perde coesão.</p>",
@@ -2667,7 +2697,7 @@
           "FrightfulPresence": "<p>A criatura que entrar pela primeira vez deve tentar um salvamento de Vontade</p>\n<p>Independente do resultado do salvamento, a criatura é temporariamente imune a Presença Aterradora do monstro por 1 minuto</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada pela presença.</p>\n<p><strong>Sucesso</strong> A criatura está @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustada 1}.</p>\n<p><strong>Falha</strong> A criatura está @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustada 2}.</p>\n<p><strong>Falha Crítica</strong> A criatura está @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustada 4}.</p>",
           "Grab": "<p><strong>Requerimentos</strong> A última ação do monstro foi um golpe bem-sucedido que lista Agarrar em sua listagem de dano, ou está agarrando uma criatura usando esta ação.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente Agarra o alvo até o fim do próximo turno do monstro. A criatura está @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada} por qualquer parte do corpo que o monstro usou para atacar, e este membro não pode ser usado para Golpear criaturas até que o fim da captura. Usar Agarrar estende a duração do agarramento do monstro até o fim do seu próximo turno para todas criaturas seguradas por ela. Uma criatura agarrada pode usar a ação de @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar} para se livrar da captura, e o Agarramento termina para as criaturas agarradas se o monstro se move para longe delas.</p>",
           "GreaterConstrict": "<p> O monstro dá a quantia listada de dano a qualquer número de criaturas @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarradas} ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restritas} por ele. Cada uma das criaturas pode tentar um salvamento básico de fortitude com a CD listado. A criatura que falha esse salvamento cai @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Inconsciente}. E a criatura bem-sucedida é então temporariamente imune a inconsciência por Constrição Maior por 1 minuto.</p>",
-          "GreaterDarkvision": "<p>Um monstro com visão no escuro maior pode ser perfeitamente bem em áreas de escuridão e luz fraca, embora tal visão seja somente em preto e branco. Algumas formas de escuridão mágica, como a magia de 4ᵒ nível <em>@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{Escuridão}</em>, bloqueiam @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6]{Visão no Escuro} normal. Um monstro com @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6]{Visão no escuro Maior}, no entanto, pode ver através até mesmo de tais formas de escuridão.</p>",
+          "GreaterDarkvision": "<p>Um monstro com visão no escuro maior pode ser perfeitamente bem em áreas de escuridão e luz fraca, embora tal visão seja somente em preto e branco. Uma criatura com visão no escuro maior pode ver até mesmo através de formas de escuridão mágica.</p>",
           "ImprovedGrab": "<p> O monstro pode usar @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Agarrar} como uma ação livre acionada por um acerto com seu ataque inicial. Um monstro com Captura Melhorada ainda precisa gastar uma ação para estender a duração para criaturas que ele já tem @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado}.</p>",
           "ImprovedKnockdown": "<p> O monstro pode usar o @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Tombar} como uma ação livre acionada por um acerto com seu ataque inicial</p>",
           "ImprovedPush": "<p> O monstro pode usar o @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Impelir} como uma ação livre acionada por um acerto com seu ataque inicial</p>",
@@ -2678,14 +2708,17 @@
           "NegativeHealing": "<p>Uma criatura com cura negativa extrai a vida de energia negativa em vez de energia positiva. É danificado por danos positivos e não é curado por efeitos positivos de cura. Ele não recebe dano negativo, e é curado por efeitos negativos que curam mortos.</p>",
           "Poison": "<p>Quando uma criatura é exposta ao veneno de um monstro, ela tenta um salvamento de Fortitude para evitar ser envenenada. O nível do veneno é igual ao nível do monstro que o inflige. O veneno segue as regras para aflições.</p>",
           "PowerAttack": "<p><strong>Frequência</strong> uma vez por rodada</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe. Isto conta como dois ataques para calcular a penalidade de ataques múltiplos do monstro. Caso este Golpe acerte, o monstro causa um dado adicional do dano da arma.</p>",
+          "Pull": "<p><strong>Requisitos</strong> A última ação do monstro foi um sucesso com um Golpe que lista Puxar em sua entrada de dano.</p><hr /><p><strong>Efeito</strong> O monstro tenta para @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar} a criatura, movendo-a para mais perto do monstro. Esta tentativa não se aplica nem conta para a penalidade de ataque múltiplo do monstro. Se Puxar listar uma distância, altere a distância que a criatura é puxada em caso de sucesso para essa distância.</p>",
           "Push": "<p><strong>Requerimentos</strong> A última ação do monstro foi um sucesso com um Golpe que lista Impelir em sua seção de dano.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente empurra o alvo para longe dele. Exceto se especificado o contrário na descrição da habilidade, a criatura é empurrada 5 pés Se o ataque for um sucesso crítico, a distância é dobrada</p>",
+          "ReactiveStrike": "<p><strong>Acionamento</strong> Uma criatura dentro do alcance do monstro usa uma ação de manipulação ou de movimento, faz um ataque à distância ou sai de um quadrado durante uma ação de movimento que está usando.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro faz um Golpe corpo a corpo contra a criatura acionadora. Se o ataque for um acerto crítico e o acionamento foi uma ação de manipulação, o monstro interrompe a ação. Este Golpe não conta para a penalidade de ataque múltiplo do monstro, e sua penalidade de ataque múltiplo não se aplica a este Golpe.</p>",
           "Regeneration": "<p>Este monstro recupera o número listado de Pontos de Vida a cada rodada no início de seu turno. Sua condição @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Morrendo} nunca aumenta além de 3 enquanto sua regeneração estiver ativa. No entanto, se ele sofrer dano de um tipo listado em Regeneração, sua regeneração desativa até o final do seu próximo turno. Desative a regeneração antes de aplicar qualquer dano de um tipo listado, já que esse dano pode matar o monstro levando ele para Morrendo 4.</p>",
           "Rend": "<p>Uma seção Despedaçar lista um Golpe possuído pelo monstro. </p>\n<p><strong>Requerimentos</strong> O monstro acerta o mesmo inimigo com dois Golpes consecutivos do tipo listado na mesma rodada.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente causa o dano desse Golpe contra o inimigo.</p>",
           "RetributiveStrike": "<p><strong>Acionamento</strong> Um inimigo causa dano a um aliado do monstro, e ambos estão a até 15 pés do monstro. </p>\n<hr />\n<p><strong>Efeito</strong> O aliado recebe resistência igual a 2 + o nível do monstro a todo dano contra o dano acionador. Se o adversário estiver no alcance do monstro, o monstro faz um Golpe corpo a corpo contra ele.</p>",
           "Scent": "<p>Faro envolve sentir criaturas ou objetos por cheiro, e geralmente é um sentido vago. O alcance é listado na habilidade, e ele só funciona se a criatura ou objeto que está sendo detectado emitir um aroma (por exemplo, criaturas incorpóreas geralmente não exaltam um aroma).</p>\n<p>Se uma criatura emite um aroma pesado ou está a favor do vento, o MJ pode duplicar ou mesmo triplicar o alcance de habilidades farejadoras usadas para detectar essa criatura, e o MJ pode reduzir o alcance se uma criatura estiver contra o vento.</p>",
           "ShieldBlock": "<p><strong>Acionamento</strong> O monstro está com o seu escudo erguido e sofre dano de um ataque físico.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro protege-se atrás do escudo para aparar o golpe. O escudo previne que o monstro sofra uma quantidade de dano igual a Dureza do escudo. O monstro e o escudo cada um sofrem o dano restante, possivelmente quebrando ou destruindo o escudo.</p>",
           "SneakAttack": "<p>Quando o monstro Golpear com uma arma corpo-a-corpo ágil ou de acuidade, uma arma à distância, ou um ataque desarmado ágil, ou de acuidade para Golpear uma criatura que tenha a condição @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida}, ele também causa o dano de precisão listado. Para um ataque à distância com uma arma de arremesso, essa arma também deve ser ágil ou de acuidade.</p>",
-          "SwallowWhole": "<p> O monstro tenta engolir uma criatura do tamanho listado ou menor que agarrou em sua mandíbula ou boca. Se uma criatura engolida tiver o tamanho máximo listado, o monstro não pode usar o Engolir Inteiro novamente. Se a criatura é menor do que o máximo, o monstro geralmente pode engolir mais criaturas; o MJ determina o máximo. O monstro tenta um teste de Atleticismo contra a CD de Reflexos da criatura capturada. Se ela for bem-sucedida, ela engole a criatura. A boca ou a mandíbula do monstro já não agarram uma criatura que engoliu, então o monstro está livre para usá-los para atacar ou pegar mais uma vez. O monstro não pode atacar criaturas que ele engoliu.</p>\n<p>Uma criatura ingerida é @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada}, é @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1}, e tem que segurar a respiração ou começar a sufocar. A criatura engolida recebe a quantidade de dano listada quando engolido pela primeira vez e no final de todos os turnos enquanto está engolida. Se a vítima @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapa} a condição de Agarrado desta habilidade, ela sai pela boca do monstro. Isto liberta qualquer outra criatura agarrada à boca ou às mandíbulas do monstro. Uma criatura engolida pode atacar o monstro que o engoliu, mas apenas com ataques desarmados ou com armas de volume leve, ou menos. A criatura engolida é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida} contra o ataque. Se o monstro sofrer dano perfurante ou cortante igual, ou superior ao valor de Ruptura listado em um único ataque, ou magia, a criatura engolida liberta-se pelo corte. Uma criatura que se liberta de qualquer maneira pode imediatamente respirar e sair do espaço do monstro.</p>\n<p>Se o monstro morrer, uma criatura engolida pode ser liberada por criaturas adjacentes ao cadáver se elas gastarem um total combinado de 3 ações abrindo o monstro com uma arma ou ataque desarmado que causa dano perfurante ou cortante.</p>",
+          "Stench": "<p>Uma criatura que entra na aura ou inicia seu turno na área deve ter sucesso em um teste de Fortitude ou se tornar @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoada 1} (mais @UUID[Compendium.pf2e.conditionitems .Item.xYTAsEpcJE1Ccni3]{Lenta 1} enquanto estiver enjoada em uma falha crítica). Uma criatura que obtiver sucesso no salvamento ou se recuperar do enjôo fica temporariamente imune a todas as auras fedorentas por 1 minuto.</p>",
+          "SwallowWhole": "<p> O monstro tenta engolir uma criatura do tamanho listado ou menor que agarrou em sua mandíbula ou boca. Se uma criatura engolida tiver o tamanho máximo listado, o monstro não pode usar o Engolir Inteiro novamente. Se a criatura é menor do que o máximo, o monstro geralmente pode engolir mais criaturas; o MJ determina o máximo. O monstro tenta um teste de Atleticismo contra a CD de Reflexos da criatura capturada. Se ela for bem-sucedida, ela engole a criatura. A boca ou a mandíbula do monstro já não agarram uma criatura que engoliu, então o monstro está livre para usá-los para atacar ou pegar mais uma vez. O monstro não pode atacar criaturas que ele engoliu.</p>\\n<p>Uma criatura ingerida é @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada}, é @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1}, e tem que segurar a respiração ou começar a sufocar. A criatura engolida recebe a quantidade de dano listada quando engolido pela primeira vez e no final de todos os turnos enquanto está engolida. Se a vítima @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapa} a condição de Agarrado desta habilidade, ela sai pela boca do monstro. Isto liberta qualquer outra criatura agarrada à boca ou às mandíbulas do monstro. Uma criatura engolida pode atacar o monstro que o engoliu, mas apenas com ataques desarmados ou com armas de volume leve, ou menos. A criatura engolida é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida} contra o ataque. Se o monstro sofrer dano perfurante ou cortante igual, ou superior ao valor de Ruptura listado em um único ataque, ou magia, a criatura engolida liberta-se pelo corte. Uma criatura que se liberta de qualquer maneira pode imediatamente respirar e sair do espaço do monstro.</p>\\n<p>Se o monstro morrer, uma criatura engolida pode ser liberada por criaturas adjacentes ao cadáver se elas gastarem um total combinado de 3 ações abrindo o monstro com uma arma ou ataque desarmado que causa dano perfurante ou cortante.</p>",
           "SwarmMind": "<p>Este monstro não possui uma única mente (normalmente porque ele é um enxame de criaturas menores) e é imune a efeitos mentais que miram somente uma quantidade específica de criaturas. Ele ainda é sujeito a efeitos mentais que afetam todas as criaturas em uma área.</p>",
           "Telepathy": "<p>Um monstro com telepatia é capaz de se comunicar mentalmente com quaisquer criaturas dentro do raio listado, desde que possuam um idioma em comum. Isto não concede qualquer acesso especial aos pensamentos delas e não permite comunicar mais informações que uma conversa falada.</p>",
           "Thoughtsense": "<p>Sentido de Pensamentos permite o monstro sentir a essência mental de todas as criaturas à distância listada.</p>",
@@ -3202,6 +3235,10 @@
         "Hint": "Limite que tipos de informação de metajogo seus jogadores tem acesso.",
         "Label": "Limitar Informação de Metajogo",
         "Name": "Informação de Metajogo",
+        "SecretChecks": {
+          "Hint": "Os jogadores podem ver as jogadas com o traço Secreto no chat.",
+          "Name": "Mostrar Testes Secretos"
+        },
         "ShowDC": {
           "Hint": "Se habilitado, jogadores poderão ver os CDs de testes feitos contra PdMs e outras fontes das quais jogadores não são donos.",
           "Name": "Mostrar CDs dos ataques e salvamentos"
@@ -3697,6 +3734,7 @@
     "TraitBonded": "Vinculada",
     "TraitBrace": "Esteio",
     "TraitBrutal": "Brutal",
+    "TraitBugbear": "Bugbear",
     "TraitBulwark": "Baluarte",
     "TraitCaligni": "Caligni",
     "TraitCantrip": "Truque",
@@ -3709,6 +3747,7 @@
     "TraitCatalyst": "Catalisador",
     "TraitCatfolk": "Povo-Felino",
     "TraitCelestial": "Celestial",
+    "TraitCentaur": "Centauro",
     "TraitChampion": "Campeão",
     "TraitChangeling": "Cambiante",
     "TraitCharauKa": "Charau-ka",
@@ -3904,6 +3943,7 @@
     "TraitDescriptionGnoll": "Gnolls são humanoides que lembram hienas.",
     "TraitDescriptionGnome": "Uma criatura com este traço é membro da ancestralidade gnomo. Gnomos são um povo pequeno habilidoso com magia que busca novas experiência e que normalmente possuem visão no escuro. Uma habilidade com este traço pode ser usada ou selecionada somente por gnomos. Um item com este traço é criado e usado por gnomos.",
     "TraitDescriptionGoblin": "Uma criatura com este traço pode originar-se de várias tribos de criaturas, incluindo goblins, hobgoblins e bugbears. Goblins tendem a ter visão no escuro. Uma habilidade com este traço pode ser usada ou selecionada somente por goblins. Um item com este traço é criado e usado por goblins.",
+    "TraitDescriptionBugbear": "Bugbears são os monstros que espreitam no armário e se escondem debaixo da cama.",
     "TraitDescriptionGoloma": "Humanoides insulares que portam incontáveis olhos.",
     "TraitDescriptionGrapple": "Você pode usar esta arma para Agarrar com a perícia Atletismo mesmo se não tiver uma mão livre. Isto utiliza o alcance da arma (se for diferente do seu) e adiciona o bônus de item dela que é aplicado a rolagens de ataque (se houver) como um bônus de item aplicado ao seu teste de Atletismo. Se obtiver uma falha crítica no teste para Agarrar enquanto usar essa arma, você pode escolher soltá-la para sofrer os efeitos de uma falha em vez dos efeitos de uma falha crítica.",
     "TraitDescriptionGrimoire": "Grimórios são ferramentas uteis para qualquer usuário de magia escrever encantações e runas de poder, mas onde a maioria dos tomos não é nada mais que tinta no papel, grimórios absorveram o encanto das conjurações descritas nele — encantos que conjuradores sábios podem usar para melhorar suas magias.",
@@ -4410,6 +4450,7 @@
     "TraitRangeIncrement280": "Incremento de Alcance 280 pés",
     "TraitRangeIncrement290": "Incremento de Alcance 290 pés",
     "TraitRangeIncrement30": "Incremento de Alcance 30 pés",
+    "TraitRangeIncrement35": "Incremento de alcance 35 pés",
     "TraitRangeIncrement300": "Incremento de Alcance 300 pés",
     "TraitRangeIncrement310": "Incremento de Alcance 310 pés",
     "TraitRangeIncrement320": "Incremento de Alcance 320 pés",
@@ -4850,7 +4891,6 @@
         "morningstar": "Maça-estrela",
         "naginata": "Naginata",
         "nightstick": "Nightstick",
-        "nine-ring-sword": "Espada dos Nove-Anéis",
         "nodachi": "Nodachi",
         "nunchaku": "Nunchaku",
         "ogre-hook": "Gancho Ogro",
@@ -5338,7 +5378,6 @@
     "WeaponRangeReach": "Alcance",
     "WeaponReloadLabel": "Tempo de Recarga",
     "WeaponSpecialization": "Especialização em Armas",
-    "WeaponSplashDamageLabel": "Dano de Respingo",
     "WeaponStrikeLabel": "Golpear",
     "WeaponTypeAdvanced": "Arma Avançada",
     "WeaponTypeMartial": "Arma Marcial",
@@ -5646,7 +5685,7 @@
       "Unidentified": "Não identificado",
       "UnidentifiedDescription": "A natureza deste(a) {item} não está clara.",
       "UnidentifiedHint": "Alterar os detalhes apresentados deste item quando não estiver identificado.",
-      "UnidentifiedItem": "{item} Não Usual",
+      "UnidentifiedItem": "{item} incomum",
       "UnidentifiedType": {
         "Amulet": "Amuleto",
         "Anklets": "Tornozeleiras",
