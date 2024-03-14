@@ -344,6 +344,7 @@
                     "ocotan": "Ocotan",
                     "okaiyan": "Okaiyan",
                     "orcish": "Órquico",
+                    "orvian": "Orviano",
                     "osiriani": "Osiriano",
                     "petran": "Petrano",
                     "protean": "Proteano",
@@ -731,6 +732,7 @@
         "ArmorPropertyRuneGreaterShadow": "Sombras (Maior)",
         "ArmorPropertyRuneGreaterSlick": "Escorregadia (Maior)",
         "ArmorPropertyRuneGreaterStanching": "Greater Stanching",
+        "ArmorPropertyRuneGreaterSwallowSpike": "Espinhosa Maior",
         "ArmorPropertyRuneGreaterWinged": "Alada Maior",
         "ArmorPropertyRuneImmovable": "Imóvel",
         "ArmorPropertyRuneImplacable": "Implacável",
@@ -741,6 +743,7 @@
         "ArmorPropertyRuneMajorShadow": "Sombras (Superior)",
         "ArmorPropertyRuneMajorSlick": "Escorregadia (Superior)",
         "ArmorPropertyRuneMajorStanching": "Major Stanching",
+        "ArmorPropertyRuneMajorSwallowSpike": "Espinhosa Superior",
         "ArmorPropertyRuneMalleable": "Maleável",
         "ArmorPropertyRuneMisleading": "Enganadora",
         "ArmorPropertyRuneModerateDread": "Terror Moderado",
@@ -755,6 +758,7 @@
         "ArmorPropertyRuneSlick": "Escorregadia",
         "ArmorPropertyRuneSoaring": "Soaring",
         "ArmorPropertyRuneStanching": "Estancadora",
+        "ArmorPropertyRuneSwallowSpike": "Espinhosa",
         "ArmorPropertyRuneTrueQuenching": "Extintora Verdadeira",
         "ArmorPropertyRuneTrueStanching": "True Stanching",
         "ArmorPropertyRuneWinged": "Alada",
@@ -981,6 +985,7 @@
             "Invalid": "Inválido",
             "LockedTooltip": "Não é possível migrar – o compêndio está bloqueado",
             "MigrateCompendium": "Migrar Compêndio",
+            "Schema": "Schema",
             "Size": "Tamanho",
             "Title": "Status da migração",
             "UpToDate": "Atualizado"
@@ -3885,6 +3890,7 @@
         "TraitDescriptionAphorite": "Um tipo de herdeiro planar descendente de um plano de Axis, o Plano da Lei.",
         "TraitDescriptionAquadynamic": "Esta armadura é projetada para uso debaixo d'água, com design simplificado e materiais flutuantes usados em lugares estratégicos. Você não aplica a penalidade da armadura para testes acrobatismo ou atletismo em água, ou líquidos similares.",
         "TraitDescriptionArcane": "Essa mágica vem da tradição arcana. Qualquer coisa com esse traço é mágica.",
+        "TraitDescriptionArdande": "Ardandes são herdeiros planares descendentes de kizidhars e outros seres de madeira elemental.",
         "TraitDescriptionArchetype": "Esse talento pertence a um arquétipo.",
         "TraitDescriptionArtifact": "Itens com esta característica são artefatos. Estes itens mágicos não podem ser fabricados por meios normais, e eles não podem ser danificados por meios normais. Artefatos são sempre raros ou únicos.",
         "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[type:crafting|dc:10]; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
@@ -3900,6 +3906,7 @@
         "TraitDescriptionBarding": "Você pode comprar armaduras especiais para animais. Todos animais tem graduação de proficiência treinado em armadura leve, e animais treinados para combate são treinados em armadura pesada. Armadura animal usa as mesmas regras de armadura, exceto pelo seguinte: O preço e Volume da armadura animal depende do tamanho dele que vai usá-la. Diferente de uma veste de armadura, a força listada na do animal é um modificador, não uma pontuação. Armadura Animal não pode ser gravada com runas magicas, embora certas armaduras mágicas possam estar disponíveis para animais.",
         "TraitDescriptionBeastkin": "Humanoides que podem parcial ou completamente transformar em formas animais.",
         "TraitDescriptionBomb": "Uma bomba alquímica combina componentes alquímicos voláteis que explodem quando a bomba atinge uma criatura ou objeto. A maioria das bombas alquímicas causa dano, embora algumas produzam outros efeitos.",
+        "TraitDescriptionBottledBreath": "Garrafas de sopro são garrafas encantadas de nuvem e névoa, desenvolvidas pela primeira vez pelos habitantes do Plano do Ar. Você pode ativar um item com o traço sopro engarrafado enquanto inala ou faz com que outra criatura o inale.",
         "TraitDescriptionBrace": "Uma arma de esteio é eficaz em danificar oponentes em movimento. Quando você Prepara um Golpe em um oponente que se move para dentro de seu alcance, até o início de seu próximo turno, Golpes com a arma de esteio causam 2 de dano adicional de precisão para cada dado de dano da arma.",
         "TraitDescriptionBrutal": "Um ataque à distância com este traço utiliza seu modificador de Força em vez do modificador de Destreza na rolagem de ataque.",
         "TraitDescriptionBulwark": "A armadura o cobre tão completamente que fornece benefícios contra alguns efeitos de dano. Em jogadas de Reflexos para evitar um efeito de dano, como contra uma bola de fogo, adicione +3 de modificador em vez de seu modificador de Destreza.",
@@ -3921,6 +3928,7 @@
         "TraitDescriptionCommon": "Qualquer coisa que não listar outro traço de raridade (incomum, raro ou único) automaticamente possui o traço comum. Esta raridade indica que uma habilidade, item ou magia é disponível para todos os jogadores que atenderem aos seus pré-requisitos. Uma criatura com esta raridade normalmente é conhecida e pode ser convocada com a magia de convocação apropriada.",
         "TraitDescriptionCompanion": "Um item com este traço pode ser vestido por um companheiro animal ou criatura similar. Um companheiro pode ter até dois itens investidos.",
         "TraitDescriptionComplex": "Um perigo com esse traço possui turnos em um encontro.",
+        "TraitDescriptionComposite": "Um impulso composto combina vários elementos. Você pode receber um impulso com o traço composto apenas se seus elementos cinéticos incluírem todos os elementos listados nos traços do impulso.",
         "TraitDescriptionComposition": "Para conjurar uma magia de foco ou um truque mágico de composição, você usa um tipo de Performance. Se a magia incluir um componente verbal, você deve usar uma performance auditiva, e se incluir um componente somático, você deve usar uma performance visual. A magia adquire todos os traços da performance usada. Você pode conjurar apenas uma magia de composição a cada turno, e pode ter apenas uma delas ativa ao mesmo tempo. Se conjurar uma nova magia de composição, quaisquer efeitos contínuos de sua magia de composição prévia são encerrados imediatamente.",
         "TraitDescriptionConcealable": "Essa arma é projetada para ser discreta ou facilmente ocultada. Você ganha bônus de circunstância +2 em testes e CDs de Furtividade para esconder ou ocultar a arma com este traço.",
         "TraitDescriptionConcentrate": "Uma ação com este traço requer um grau de concentração mental e disciplina.",
@@ -3966,6 +3974,7 @@
         "TraitDescriptionEsoterica": "O traço esotérica está presente em muitos talentos taumaturgos e características de classe que incorporam vários talismãs, badulaques sobrenaturais e outros objetos que carregue com você. Habilidades com este traço requerem que você esteja na possessão de sua esotérica para usá-las. Normalmente, é assumido que você sempre esteja com sua esotérica, mas em algumas raras circunstâncias, você pode não te-las em mãos ou ter seu equipamento removido de você.",
         "TraitDescriptionEvolution": "Talentos com este traço afetam seu eidolon em vez de você, normalmente concedendo a ele capacidades físicas adicionais.",
         "TraitDescriptionExpandable": "Um item com o traço Expansível aumenta para um tamanho específico quando ativado. Exceto se notado o contrário, esse espaço deve ser adjacente a você, no chão, e o item precisa ter este espaço aberto para expandir nele ou a ativação não tem efeito. Quando o efeito termina, o item desintegra se for um consumível ou reverte ao seu tamanho normal caso não seja.",
+        "TraitDescriptionExperiment": "Um criptídeo experimental foi alterado propositalmente através de alquimia, engenharia, magia ou ritual para conter algum grau de componentes de construção. Embora poderoso, o processo é volátil e imperfeito.",
         "TraitDescriptionExploration": "Uma atividade com este traço leva mais de um turno para usar e normalmente pode ser usada somente durante o modo de exploração.",
         "TraitDescriptionExtradimensional": "Este efeito ou item cria um espaço extradimensional. Um efeito extradimensional colocado dentro de outro espaço extradimensional para de funcionar até ser removido.",
         "TraitDescriptionFatal": "O traço fatal inclui um tamanho de dado. Em um acerto crítico, o dado de dano da arma aumenta para esse tamanho listado (fazendo-o usar esse tamanho de dado em vez do tamanho de dano normal da arma para calcular o dano desse acerto crítico) e ainda adiciona um dado de dano extra do tamanho listado a esse dano.",
@@ -3974,6 +3983,7 @@
         "TraitDescriptionFetchling": "Criaturas com este traço são membros da ancestralidade Fetchling. Fetchlings foram uma vez humanos, mas gerações de vida no Plano Sombrio as transformaram.",
         "TraitDescriptionFey": "Crituras do Primeiro Mundo são chamadas de fadas.",
         "TraitDescriptionFighter": "Esse traço indica habilidades da classe guerreiro.",
+        "TraitDescriptionFigurehead": "Enquanto muitos navios são adornados com esculturas decorativas, tripulações ousadas adquirem, por vezes, figuras mágicas para seus navios.",
         "TraitDescriptionFinesse": "Você pode utilizar seu modificador de Destreza em vez de seu modificador de Força em rolagens de ataque usando esta arma corpo a corpo. Você ainda utiliza seu modificador de Força para calcular o dano.",
         "TraitDescriptionFinisher": " Finalizações são movimentos de finalização espetaculares. Você pode usar uma finalização somente se tiver panache, e perde seu panache imediatamente após performar uma finalização. Uma vez que você use uma finalização, você não pode usar ações que tenham o traço ataque pelo resto do seu turno. Algumas ações de finalização também concedem um efeito em caso de falho. Se a sua finalização for bem sucedida, você pode escolher aplicar a falha.",
         "TraitDescriptionFinite": "Planos com este traço consistem de um espaço limitado.",
@@ -4019,10 +4029,12 @@
         "TraitDescriptionHumanoid": "Criaturas humanoides raciocinam e agem muito similarmente a humanos. Elas normalmente andam de pé e possuem dois braços e duas pernas.",
         "TraitDescriptionIfrit": "Um tipo de povo-gênio descendente de um ser do Pano do Fogo.",
         "TraitDescriptionIllusion": "Efeitos e itens mágicos com este traço são associados à escola de magia de ilusão, e normalmente envolvem estímulos sensoriais falsos.",
+        "TraitDescriptionImpulse": "As ações primárias mágicas que cineticistas usam são chamados de impulsos. Você só pode usar um impulso se sua aura cinética estiver ativa e canalizando esse elemento, e somente se você tiver uma mão livre para moldar o fluxo elemental. O traço impulso significa que a ação tem o traço concentração, a não ser que outra habilidade altere isso. Se um impulso permitir que você escolha um elemento, você pode escolher qualquer elemento que você está canalizando e o impulso recebe o traço daquele elemento.",
         "TraitDescriptionIncapacitation": "Uma habilidade com este traço pode tirar um personagem da luta ou até mesmo matá-lo, e é mais difícil de se usar contra um personagem mais poderoso. Se uma magia tiver o traço incapacitação, qualquer criatura que tenha nível maior do que o dobro do nível da magia trata o resultado do teste dele para impedir que seja incapacitada pela magia como um grau de sucesso melhor, ou o resultado de qualquer teste feito pelo conjurador para incapacitá-la como um grau de sucesso pior. Se qualquer outro efeito tiver o traço incapacitação, uma criatura de nível superior ao da criatura, item ou perigo gerando o efeito recebe os mesmos benefícios.",
         "TraitDescriptionIncarnate": "Uma magia com o traço encarnado é similar em tema a magias que convocam criaturas, mas não conjura um lacaio com o traço Convocado. Ao invés disso, quando convocado, a criatura encarnada toma sua ação de Chegada quando você termina de Conjurar a Magia. No final do seu próximo turno, a criatura encarnada pode Dar um Passo, Andar, ou usar ação para outro tipo de movimento (tal qual Escalada ou Escavar), e então toma sua ação de Partida. A magia então termina. Os nomes de ações especificas de Chegada e Partida são listadas em itálico após a palavra “Chegar” ou “Partir”, respectivamente, junto com qualquer traços. Uma criatura convocada por uma magia encarnada age conforme seus interesses, direciona seus efeitos para longe de você e seus aliados conforme o possível, e pode ouvir seus pedidos, mas toma suas próprias decisões no fim das contas. Se a magia indica que o encarnado toma uma decisão, o MJ determina o que o encarnado faria. Ele pode se tornar mais propenso a fazer precisamente como você deseja ao longo de múltiplas convocações. O encarnado não é uma criatura completa. Não pode tomar outras ações, nem ser alvejado ou ferido por Golpes, magias, ou outros efeitos exceto caso possam alvejar ou terminar um efeito mágico. (tal qual dissipar magia). Tem um tamanho pelos propósitos de determinar seu posicionamento para efeitos, mas não bloqueia movimento. Se aplicável, os efeitos do encarnado usam o seu CD de magias e seu ataque mágico.",
         "TraitDescriptionIncorporeal": "Uma criatura ou objeto incorpóreo não possui forma física. Ela pode passar por objetos sólidos, incluindo paredes. Quando dentro de um objeto, ela não pode perceber, atacar ou interagir com criaturas fora do objeto, e se começar o seu turno dentro de um objeto, ela ganha a condição lento 1. Criaturas corpóreas podem passar dentro de criaturas incorpóreas, mas não podem terminar o turno dentro de seu espaço. Uma criatura incorpórea não pode fazer testes relacionados a Força contra objetos ou criaturas físicas—apenas incorpóreas—ao menos que o objeto em questão tenha a propriedade toque fantasma. Da mesma forma, uma criatura corpórea não pode fazer testes relacionados a Força contra objetos ou criaturas incorpóreas. Criaturas incorpóreas são imunes a efeitos que requeiram um corpo, como doença, veneno e dano de precisão. Elas normalmente tem resistência contra todo o dano (exceto dano de força e contra Golpes com uma arma que tenha a propriedade toque fantasma), sendo dobrada contra dano não-mágico.",
         "TraitDescriptionInfused": "Você criou um item alquímico com o traço infundido usando seus reagentes infundidos, e ele funciona por um tempo limitado antes de ficar inerte. Quaisquer efeitos não-permanentes de seus itens alquímicos infundidos, com a exceção de aflições como venenos de ação lenta, se encerram quando você fizer suas preparações diárias novamente.",
+        "TraitDescriptionInfusion": "Ações com o traço de infusão modificam seus impulsos de cineticista. Você deve usar uma ação de infusão diretamente antes da ação de impulso que deseja alterar. Se você usar qualquer ação (incluindo ações e reações livres) que não seja uma ação de impulso diretamente depois, você desperdiça os benefícios da ação de infusão. Qualquer efeito adicional adicionado por uma ação de infusão faz parte do efeito do impulso, não da própria ação de infusão.",
         "TraitDescriptionIngested": "Esse veneno afeta alguém ao ser comido ou bebido.",
         "TraitDescriptionInhaled": "Esse veneno afeta alguém ao ser respirado.",
         "TraitDescriptionInjection": "Esta arma pode ser cheia de um veneno de ferimento. Imediatamente após um ataque bem-sucedido com a arma, você pode injetar o alvo com o veneno carregado com uma única ação de Interação. Recarregar a arma com uma nova substância requer três ações de Interação e usa ambas mãos.",
@@ -4150,12 +4162,14 @@
         "TraitDescriptionSubjectiveGravity": "Em planos com esta característica, todos os corpos de massa podem ser centros de gravidade com a mesma quantidade de força, mas apenas se for uma criatura sem-mente voluntária.",
         "TraitDescriptionSubtle": "Uma magia com o traço sutil pode ser lançada sem encantamentos e não possui manifestações óbvias.",
         "TraitDescriptionSuli": "Sulis são herdeiros planares descendentes de jann.",
+        "TraitDescriptionSummon": "Magias com o traço convocação podem conjurar criaturas, tipicamente aquelas com um traço específico. Tais criaturas podem ser encontradas no Monster Core e livros similares. A menos que seja notado, a criatura deve ser comum, ela recebe o traço convocado e deve aparecer em um espaço desocupado no alcance grande o suficiente para contê-la. O maior nível da criatura que a magia pode convocar depende do círculo da magia, como listado abaixo. A magia ainda pode convocar uma criatura de nível inferior se assim quiser. Estas regras se aplicam apenas à magias que têm o traço convocação; outras magias que chamam ou conjuram itens ou seres mas que não têm o traço, como convocar instrumento, funcionam como explicado na magia.",
         "TraitDescriptionSummoned": "Uma criatura chamada por meio de uma magia ou efeito adquire o traço convocado. Uma criatura convocada não pode convocar outra criatura, criar coisas de valor ou conjurar magias que requerem um custo. Ela possui o traço lacaio. Se tentar Conjurar uma Magia de nível igual ou maior do que a magia que a convocou, a magia falha e a convocação termina. Fora isso, a criatura convocada usa as habilidades padrão para uma criatura do tipo dela. Ela geralmente ataca seus inimigos com o melhor das habilidades à disposição dela. Se puder se comunicar com a criatura, você pode tentar comandá-la, mas o MJ determina até que ponto ela segue seus comandos. Imediatamente após você terminar de Conjurar a Magia, a criatura convocada usa suas 2 ações daquele turno. Uma cria ou outra criatura gerada pela criatura convocada retorna para o seu estado inalterado (geralmente um cadáver no caso de uma Cria) a partir do momento que a criatura convocada desaparecer. Caso este estado seja incerto, o MJ fica com a decisão. Criaturas convocadas podem ser banidas por diversas magias e efeitos. Elas são banidas automaticamente se reduzidas a 0 Pontos de Vida ou se a magia que as convocou se encerrar.",
         "TraitDescriptionSummoner": "Isso indica habilidades da classe Invocador.",
         "TraitDescriptionSwashbuckler": "Esse traço indica habilidades da classe Espadachim.",
         "TraitDescriptionSweep": "Esta arma faz ataques amplos ou giratórios, tornando mais fácil atacar vários inimigos. Quando atacar com ela, você recebe +1 de bônus de circunstância em sua rolagem de ataque se já tiver tentado atacar um alvo diferente neste turno usando esta arma.",
         "TraitDescriptionSylph": "Um tipo de povo-gênio descendente de um ser do Pano do Ar.",
         "TraitDescriptionTalisman": "Um talismã é um objeto pequeno afixado a uma arma, armadura ou escudo (chamado de item afixado). Você deve estar empunhando ou vestindo um item para ativar um talismã anexado a ele. Uma vez ativado, um talismã é consumido permanentemente.",
+        "TraitDescriptionTalos": "Talos são herdeiros planares descendentes de zuhras.",
         "TraitDescriptionTandem": "Ações com o traço sintonia permitem você e seu eidolon agirem juntos. Você não pode usar uma ação de sintonia se não tiver Manifestado seu Eidolon, se um de vocês dois não puder agir ou se o seu eidolon não estiver manifestado como uma entidade separada (como através do talento Fundir-se ao Eidolon). Ações de sintonia frequentemente deixam você e seu eidolon realizarem ações separadas, mas elas devem ser ações realizadas separadamente por você e seu eidolon; você não pode usar uma ação de sintonia para realizar outra ação de sintonia.",
         "TraitDescriptionTattoo": "Uma tatuagem é um tipo de item que é cortada ou desenhada na pele de uma criatura, normalmente formando imagens ou símbolos.",
         "TraitDescriptionTech": "Itens com este traço estão associados à tecnologia de Numeria.",
@@ -4192,6 +4206,7 @@
         "TraitDescriptionWildHunt": "Criaturas com a característica da caça selvagem nunca estão abaixo do nível 14. Possuem visão no escuro maior, visão verde, aclimação planar, olhar selvagem, cooperação instintiva, fraqueza a ferro frio, a habilidade de falar com plantas e animais, e seu próprio elo específico de caça selvagem.",
         "TraitDescriptionWitch": "Esse traço indica habilidades da classe bruxo.",
         "TraitDescriptionWizard": "Esse traço indica habilidades da classe mago.",
+        "TraitDescriptionWood": "Efeitos com o traço madeira conjuram ou manipulam madeira. Efeitos que manipulam madeira não possuem efeito em uma área sem madeira. Criaturas com este traço consistem principalmente de madeira ou têm uma conexão com madeira mágica.",
         "TraitCenser": "Incensário",
         "TraitDetection": "Detecção",
         "TraitDeviant": "Divergente",
@@ -4556,6 +4571,7 @@
         "TraitScatter": "Dispersar",
         "TraitScatter10": "Dispersar 3",
         "TraitScatter15": "Dispersar 4.5",
+        "TraitScatter20": "Dispersa 20",
         "TraitScatter5": "Dispersar 1.5",
         "TraitScroll": "Pergaminho",
         "TraitScrying": "Vidência",
@@ -4612,6 +4628,7 @@
         "TraitSweep": "Amplitude",
         "TraitSylph": "Sylph",
         "TraitTalisman": "Talismã",
+        "TraitTalos": "Talos",
         "TraitTandem": "Conjunto",
         "TraitTane": "Tane",
         "TraitTanggal": "Tanggal",
@@ -5140,9 +5157,16 @@
                     "criticalSuccess": "Se você acerta um alvo criticamente enquanto empunha uma arma de ancoragem, a arma conjura <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancora Dimensional}</em> no alvo (@Check[type:will|dc:27|name:Runa de Ancoragem]{Vontade}, modificador de neutralização [[/r 1d20+17 # Teste de Neutralização da Runa de Ancoragem]]{+17})."
                 }
             },
+            "ashen": {
+                "Name": "Cinza",
+                "Note": {
+                    "success": "Esta cinza turva os sentidos, causando com que a criatura fique confusa por 1 rodada a não ser que ela obtenha sucesso em um @Check[type:will|dc:25]."
+                }
+            },
             "astral": {
                 "Name": "Astral",
                 "Note": {
+                    "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[type:will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
                     "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
                 }
             },
@@ -5209,6 +5233,9 @@
                     "criticalSuccess": "Em um acerto crítico, o morto-vivo também é @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
                 }
             },
+            "earthbinding": {
+                "Name": "Aterradora"
+            },
             "energizing": {
                 "Name": "Energizante"
             },
@@ -5256,8 +5283,18 @@
                     "success": "<strong>Runa maior de ancoragem</strong> quando você acerta um alvo com a arma mas não acerta criticamente, o alvo é afetado pelo nível 4 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Âncora Dimensional}</em> para 1 rodada sem um salvamento (counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
                 }
             },
+            "greaterAshen": {
+                "Name": "Cinza Maior",
+                "Note": {
+                    "success": "Esta cinza turva os sentidos, causando com que a criatura fique confusa por 1 rodada a não ser que ela obtenha sucesso em um @Check[type:will|dc:35]. Em uma falha crítica, o efeito dura por 1 minuto."
+                }
+            },
             "greaterAstral": {
-                "Name": "Astral Maior"
+                "Name": "Astral Maior",
+                "Note": {
+                    "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[type:will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
+                    "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral maior é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais maiores. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos). O dano de espírito concedido por uma arma astral maior ignora qualquer resistência a dano de espírito que o alvo tem."
+                }
             },
             "greaterBloodbane": {
                 "Name": "Perdição Sanguinária Maior"
@@ -5447,6 +5484,9 @@
             },
             "spellStoring": {
                 "Name": "Armazenadora de Magia"
+            },
+            "swarming": {
+                "Name": "Enxameante"
             },
             "thundering": {
                 "Name": "Trovejante",
