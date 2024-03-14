@@ -1220,6 +1220,7 @@
                     "plant": "planta",
                     "polymorph": "polimorfia",
                     "possession": "possessão",
+                    "primal": "primal",
                     "prone": "prostrado",
                     "protean-anatomy": "anatomia Proteana",
                     "radiation": "radiação",
@@ -2438,6 +2439,7 @@
                     "harnessed-shield": "Escudo Arreado",
                     "heavy-rondache": "Rondache Pesado",
                     "hide-shield": "Escudo de Couro",
+                    "klar": "Klar",
                     "meteor-shield": "Escudo Meteoro",
                     "razor-disc": "Disco Navalha",
                     "salvo-shield": "Escudo de Salva",
@@ -3546,7 +3548,7 @@
         "SpellFlexibleLabel": "Flexível",
         "SpellLevelBase": "Base: {level}",
         "SpellLevelHeightened": "Elevada: +{heightened}",
-        "SpellLevelLabel": "Nível de Magia",
+        "SpellLevelLabel": "Círculo de Magia",
         "SpellPreparedLabel": "Preparada",
         "SpellRequirementsLabel": "Requerimentos",
         "SpellScalingInterval": {
@@ -3569,7 +3571,7 @@
         "SpellUsesLabel": "Usos",
         "SpellcastingSettings": {
             "AutoHeightenDefault": "Padrão (Usar Nível do Ator)",
-            "AutoHeightenLabel": "Auto-Elevar Nível",
+            "AutoHeightenLabel": "Auto-Elevar Círculo",
             "Title": "Configurações de Conjuração"
         },
         "SpellcastingTypeLabel": "Tipo de Conjuração",
@@ -3650,7 +3652,7 @@
         },
         "ToggleEffectUnidentified": "Alternar se o Efeito não é Identificado",
         "ToggleSignatureSpellTitle": "Alternar a Magia Emblemática",
-        "ToggleSlotlessSpellLevelsTitle": "Alternar a visibilidade dos níveis de magia sem espaço em seu Grimório",
+        "ToggleSlotlessSpellLevelsTitle": "Alternar a visibilidade dos círculos de magia sem espaços",
         "ToggleSpellVisibilityTitle": "Alternar seu Grimório",
         "ToggleUnreadyStrikes": "Alternar armas não-equipadas",
         "ToggleWithName": "Alternar: {property}",
@@ -5318,7 +5320,8 @@
             "greaterGiantKilling": {
                 "Name": "Matadora de Gigantes Maior",
                 "Note": {
-                    "success": "O dano mental causado por esta arma ignora a resistência mental do alvo."
+                    "success": "O dano mental causado por esta arma ignora a resistência mental do alvo.",
+                    "criticalSuccess": "Em um acerto crítico com esta arma, o gigante deve tentar um @Check[type:fortitude|dc:34] com os seguintes efeitos.<br /><strong>Sucesso Crítico</strong> O gigante fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno.<br /><strong>Successo</strong> O gigante fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno e sofre @Damage[1d10[mental]].<br /><strong>Falha</strong> O gigante fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 2} por 1 minuto e sofre @Damage[2d10[mental]].<br/><strong>Falha Crítica</strong> O gigante fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 4} por 1 minuto e recebe @Damage[4d10[mental]]."
                 }
             },
             "greaterHauling": {
@@ -5331,7 +5334,10 @@
                 }
             },
             "greaterRooting": {
-                "Name": "Enraizadora Maior"
+                "Name": "Enraizadora Maior",
+                "Note": {
+                    "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"28\">Escapar CD 28</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
+                }
             },
             "greaterShock": {
                 "Name": "Chocante Maior",
@@ -5403,7 +5409,10 @@
                 "Name": "Protege-Parente"
             },
             "majorRooting": {
-                "Name": "Enraizadora Superior"
+                "Name": "Enraizadora Superior",
+                "Note": {
+                    "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">Escapar CD 34</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
+                }
             },
             "merciful": {
                 "Name": "Piedosa"
@@ -5419,7 +5428,10 @@
                 "Note": "<strong>Runa Retornante</strong> Quando você faz um Golpe de arremesso com esta arma, ele voa de volta para sua mão depois que o ataque estiver completo. Se suas mãos estiverem ocupadas quando a arma retornar, ela cai no chão em seu espaço."
             },
             "rooting": {
-                "Name": "Enraizadora"
+                "Name": "Enraizadora",
+                "Note": {
+                    "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">Escapar CD 23</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
+                }
             },
             "serrating": {
                 "Name": "Serrada"
@@ -5443,7 +5455,10 @@
                 }
             },
             "trueRooting": {
-                "Name": "Enraizadora Verdadeira"
+                "Name": "Enraizadora Verdadeira",
+                "Note": {
+                    "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"41\">Escapar CD 41</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
+                }
             },
             "underwater": {
                 "Name": "Subaquática"
