@@ -61,11 +61,17 @@
         "AbilityStr": "Força",
         "AbilityTitle": "Atributo",
         "AbilityWis": "Sabedoria",
+        "AccessoryPropertyRuneCalled": "Called",
         "AccessoryPropertyRuneDragonsBreath": "Dragon's Breath",
         "AccessoryPropertyRuneGreaterPaired": "Greater Paired",
         "AccessoryPropertyRuneGreaterWindCatcher": "Greater Wind-Catcher",
         "AccessoryPropertyRuneMajorPaired": "Major Paired",
+        "AccessoryPropertyRunePaired": "Paired",
+        "AccessoryPropertyRunePresentable": "Presentable",
+        "AccessoryPropertyRuneSnagging": "Snagging",
+        "AccessoryPropertyRuneSoftLanding": "Soft-Landing",
         "AccessoryPropertyRuneSpellBastion": "Spell-Bastion",
+        "AccessoryPropertyRuneWindCatcher": "Wind-Catcher",
         "Action": {
             "RestForTheNight": {
                 "Label": "Descançar à Noite",
@@ -698,7 +704,9 @@
         "ArmorPropertyRuneAimAiding": "Auxíliante à Mira",
         "ArmorPropertyRuneAntimagic": "Antimagia",
         "ArmorPropertyRuneAssisting": "Ajudante",
+        "ArmorPropertyRuneBitter": "Bitter",
         "ArmorPropertyRuneColdResistant": "Resistente ao Frio",
+        "ArmorPropertyRuneDeathless": "Deathless",
         "ArmorPropertyRuneElectricityResistant": "Resistente a Eletricidade",
         "ArmorPropertyRuneEnergyAdaptive": "Energia Adaptativa",
         "ArmorPropertyRuneEthereal": "Etérea",
@@ -720,6 +728,7 @@
         "ArmorPropertyRuneGreaterStanching": "Greater Stanching",
         "ArmorPropertyRuneGreaterWinged": "Alada Maior",
         "ArmorPropertyRuneImmovable": "Imóvel",
+        "ArmorPropertyRuneImplacable": "Implacable",
         "ArmorPropertyRuneInvisibility": "Invisibilidade",
         "ArmorPropertyRuneLesserDread": "Terror Menor",
         "ArmorPropertyRuneMagnetizing": "Magnetizante",
@@ -739,6 +748,7 @@
         "ArmorPropertyRuneSizeChanging": "Mudança de Tamanho",
         "ArmorPropertyRuneSlick": "Escorregadia",
         "ArmorPropertyRuneSoaring": "Soaring",
+        "ArmorPropertyRuneStanching": "Stanching",
         "ArmorPropertyRuneTrueQuenching": "Extintora Verdadeira",
         "ArmorPropertyRuneTrueStanching": "True Stanching",
         "ArmorPropertyRuneWinged": "Alada",
@@ -851,6 +861,7 @@
         "CastLabel": "Conj",
         "CastingItemCreateDialog": {
             "10thLevelWand": "Varinhas de 10º nível não existem",
+            "cantripDeck5": "Cantrip Deck (5-pack)",
             "itemTypeLabel": "Tipo do item: ",
             "label": "Criar um item de conjuração a partir de uma magia escolhida",
             "scroll": "Pergaminho",
@@ -1673,6 +1684,7 @@
             "Armor": {
                 "Base": {
                     "armored-cloak": "Manto Blindado",
+                    "armored-coat": "Armored Coat",
                     "bastion-plate": "Placa de Bastião",
                     "breastplate": "Placa Peitoral",
                     "buckle-armor": "Armadura de Fivela",
@@ -3048,6 +3060,7 @@
                     "DiceHeader": "Dados",
                     "DieSizeUpgrade": "Aumentar Tamanho do Dado",
                     "ExtraDice": "{dice} extra(s)",
+                    "Label": "Label",
                     "None": "Nenhum",
                     "Override": "Substituir {value}",
                     "Splash": "{damageType} Respingo",
@@ -3182,7 +3195,8 @@
                     "Add": "Adicionar tipo de dano",
                     "Hint": "Tipos de Dano adicionais para o sistema reconhecer",
                     "Icon": "Ícone (Font Awesome)",
-                    "Name": "Tipos de Dano Customizados"
+                    "Name": "Tipos de Dano Customizados",
+                    "Label": "Label"
                 },
                 "EquipmentTraits": {
                     "Hint": "Traços aplicáveis a equipamentos que não sejam armas",
@@ -4493,6 +4507,7 @@
         "TraitReach60": "Alcance 60 pés",
         "TraitReckless": "Imprudente",
         "TraitRecovery": "Recuperação",
+        "TraitReflection": "Reflection",
         "TraitReincarnated": "Reencarnado",
         "TraitRelic": "Relíquia",
         "TraitReload": "Recarga",
@@ -4780,23 +4795,31 @@
         "Weapon": {
             "Base": {
                 "adze": "Adze",
+                "air-repeater": "Air Repeater",
                 "aklys": "Aklys",
                 "alchemical-bomb": "Bomba Alquímica",
                 "alchemical-crossbow": "Besta Alquímica",
                 "aldori-dueling-sword": "Espada de Duelo Aldori",
                 "arbalest": "Arbaleste",
+                "arquebus": "Arquebus",
+                "asp-coil": "Asp Coil",
                 "atlatl": "Atlatl",
+                "axe-musket": "Axe Musket",
                 "barricade-buster": "Barricade Buster",
                 "bastard-sword": "Espada Bastarda",
                 "battle-axe": "Machado de Batalha",
                 "battle-lute": "Battle Lute",
                 "battle-saddle": "Sela de Batalha",
                 "bec-de-corbin": "Bec de Corbin",
+                "big-boom-gun": "Big Boom Gun",
+                "black-powder-knuckle-dusters": "Black Powder Knuckle Dusters",
                 "bladed-diabolo": "Diabolo Lâminado",
+                "bladed-gauntlet": "Bladed Gauntlet",
                 "bladed-hoop": "Bambolê Laminado",
                 "bladed-scarf": "Cachecol Laminado",
                 "blowgun": "Zarabatana",
                 "blowgun-darts": "Dardos de Zarabatana",
+                "blunderbuss": "Blunderbuss",
                 "bo-staff": "Bo",
                 "boarding-axe": "Boarding Axe",
                 "boarding-pike": "Boarding Pike",
@@ -4805,14 +4828,19 @@
                 "bow-staff": "Cajado Arco",
                 "breaching-pike": "Pique Destruidor",
                 "broadspear": "Lançalarga",
+                "butchering-axe": "Butchering Axe",
                 "butterfly-sword": "Espada Borboleta",
                 "buugeng": "Buugeng",
+                "cane-pistol": "Cane Pistol",
                 "chain-sword": "Espada-Corrente",
+                "chakram": "Chakram",
                 "chakri": "Chakri",
                 "clan-dagger": "Adaga de Clã",
+                "clan-pistol": "Clan Pistol",
                 "claw": "Garra",
                 "claw-blade": "Lâmina de Garras",
                 "club": "Clava",
+                "coat-pistol": "Coat Pistol",
                 "combat-grapnel": "Combat Grapnel",
                 "combat-lure": "Isca de Combate",
                 "composite-longbow": "Arco Longo Composto",
@@ -4821,6 +4849,7 @@
                 "crescent-cross": "Cruz Crescente",
                 "crossbow": "Besta Leve",
                 "dagger": "Adaga",
+                "dagger-pistol": "Dagger Pistol",
                 "daikyu": "Daikyu",
                 "dancers-spear": "Lança do Dançarino",
                 "dandpatta": "Dandpatta",
@@ -4828,10 +4857,17 @@
                 "dogslicer": "Cortacão",
                 "donchak": "Donchak",
                 "double-barreled-musket": "Mosquete de Barril-Duplo",
+                "double-barreled-pistol": "Double-Barreled Pistol",
+                "dragon-mouth-pistol": "Dragon Mouth Pistol",
+                "dueling-pistol": "Dueling Pistol",
+                "dueling-spear": "Dueling Spear",
                 "dwarven-dorn-dergar": "Dorn-Dergar Enânico",
+                "dwarven-scattergun": "Dwarven Scattergun",
                 "dwarven-war-axe": "Machado de Guerra Enânico",
                 "earthbreaker": "Quebra-terra",
+                "elven-branched-spear": "Elven Branched Spear",
                 "elven-curve-blade": "Lâmina Curva Élfica",
+                "explosive-dogslicer": "Explosive Dogslicer",
                 "exquisite-sword-cane": "Exquisite Sword Cane",
                 "exquisite-sword-cane-sheath": "Exquisite Sword Cane Sheath",
                 "falcata": "Falcata",
@@ -4842,11 +4878,16 @@
                 "fighting-fan": "Leque Marcial",
                 "fighting-stick": "Fighting Stick",
                 "filchers-fork": "Forcado do Furtador",
+                "fire-lance": "Fire Lance",
                 "fire-poi": "Poi de Fogo",
                 "fist": "Punho",
                 "flail": "Mangual",
+                "flingflenser": "Flingflenser",
+                "flintlock-musket": "Flintlock Musket",
+                "flintlock-pistol": "Flintlock Pistol",
                 "flying-talon": "Garra Voadora",
                 "flyssa": "Flyssa",
+                "forked-bipod": "Forked Bipod",
                 "frying-pan": "Frigideira",
                 "gada": "Gada",
                 "gaff": "Gaff",
@@ -4855,24 +4896,33 @@
                 "gauntlet-bow": "Arco de Manopla",
                 "gill-hook": "Gill Hook",
                 "glaive": "Glaive",
+                "gnome-amalgam-musket": "Gnome Amalgam Musket",
                 "gnome-flickmace": "Maça-Chicote Gnômica",
                 "gnome-hooked-hammer": "Martelo com Gancho Gnômico",
                 "greataxe": "Machado Longo",
                 "greatclub": "Clava Pesada",
                 "greatpick": "Picareta Pesada",
                 "greatsword": "Montante",
+                "griffon-cane": "Griffon Cane",
                 "guisarme": "Bisarma",
+                "gun-sword": "Gun Sword",
                 "halberd": "Alabarda",
                 "halfling-sling-staff": "Cajado-Funda Halfling",
+                "hammer-gun": "Hammer Gun",
                 "hand-adze": "Hand Adze",
+                "hand-cannon": "Hand Cannon",
                 "hand-crossbow": "Besta de Mão",
+                "harmona-gun": "Harmona Gun",
                 "harpoon": "Arpão",
                 "hatchet": "Machadinha",
                 "heavy-crossbow": "Besta Pesada",
+                "hongali-hornbow": "Hongali Hornbow",
                 "hook-sword": "Espada Gancho",
                 "horsechopper": "Fatia-Cavalo",
+                "injection-spear": "Injection Spear",
                 "javelin": "Azagaia",
                 "jaws": "Mandíbulas",
+                "jezail": "Jezail",
                 "jiu-huan-dao": "Jin Huan Dao",
                 "juggling-club": "Bastão de Malabares",
                 "kalis": "Kalis",
@@ -4882,6 +4932,7 @@
                 "katar": "Katar",
                 "khakkhara": "Khakkhara",
                 "khopesh": "Khopesh",
+                "knuckle-duster": "Knuckle Duster",
                 "kris": "Cris",
                 "kukri": "Kukri",
                 "kusarigama": "Kusarigama",
@@ -4891,17 +4942,21 @@
                 "light-hammer": "Martelo Leve",
                 "light-mace": "Maça Leve",
                 "light-pick": "Picareta Leve",
+                "lion-scythe": "Lion Scythe",
+                "long-air-repeater": "Long Air Repeater",
                 "long-hammer": "Martelo Longo",
                 "longbow": "Arco Longo",
                 "longspear": "Lança Longa",
                 "longsword": "Espada Longa",
                 "mace": "Maça",
+                "mace-multipistol": "Mace Multipistol",
                 "machete": "Machete",
                 "main-gauche": "Adaga de Aparar",
                 "mambele": "Mambele",
                 "maul": "Malho",
                 "meteor-hammer": "Martelo Meteoro",
                 "mikazuki": "Mikazuki",
+                "mithral-tree": "Mithral Tree",
                 "monkeys-fist": "Monkey's Fist",
                 "morningstar": "Maça-estrela",
                 "naginata": "Naginata",
@@ -4912,13 +4967,21 @@
                 "orc-knuckle-dagger": "Adaga de Soco Órquica",
                 "orc-necksplitter": "Quebra-Pescoço Órquico",
                 "panabas": "Panabas",
+                "pepperbox": "Pepperbox",
                 "phalanx-piercer": "Fura-Falange",
                 "pick": "Picareta",
+                "piercing-wind": "Piercing Wind",
+                "piranha-kiss": "Piranha Kiss",
                 "poi": "Balangandã",
                 "polytool": "Poliferramenta",
+                "probing-cane": "Probing Cane",
                 "ranseur": "Ranseur",
                 "rapier": "Rapieira",
+                "rapier-pistol": "Rapier Pistol",
                 "reinforced-wheels": "Rodas Reforçadas",
+                "repeating-crossbow": "Repeating Crossbow",
+                "repeating-hand-crossbow": "Repeating Hand Crossbow",
+                "repeating-heavy-crossbow": "Repeating Heavy Crossbow",
                 "rhoka-sword": "Espada Roca",
                 "rope-dart": "Dardo de Corda",
                 "rotary-bow": "Arco Rotativo",
@@ -4932,27 +4995,34 @@
                 "scorpion-whip": "Chicote Escorpião",
                 "scourge": "Flagelo",
                 "scythe": "Segadeira",
+                "shauth-lash": "Shauth Lash",
                 "shears": "Tesoura de Jardinagem",
                 "shield-bash": "Pancada com Escudo",
                 "shield-boss": "Bossa de Escudo",
                 "shield-bow": "Escudo-Arco",
                 "shield-pistol": "Escudo-Pistola",
                 "shield-spikes": "Cravos de Escudo",
+                "shobhad-longrifle": "Shobhad Longrifle",
                 "shortbow": "Arco Curto",
                 "shortsword": "Espada Curta",
                 "shuriken": "Shuriken",
                 "sickle": "Foice",
+                "sickle-saber": "Sickle-saber",
+                "slide-pistol": "Slide Pistol",
                 "sling": "Funda",
                 "sling-bullets": "Balas de funda",
                 "spear": "Lança",
                 "spiked-chain": "Corrente com Cravos",
                 "spiked-gauntlet": "Manopla com Cravos",
                 "spiral-rapier": "Rapieira Espiral",
+                "spoon-gun": "Spoon Gun",
                 "spraysling": "Pulverização",
                 "staff": "Cajado",
                 "starknife": "Faca-Estrela",
                 "stiletto-pen": "Stiletto Pen",
                 "sukgung": "Sukgung",
+                "sun-sling": "Sun Sling",
+                "switchscythe": "Switchscythe",
                 "sword-cane": "Bengala-Espada",
                 "talwar": "Talwar",
                 "tamchal-chakram": "Tamchal Chakram",
@@ -4961,9 +5031,13 @@
                 "temple-sword": "Espada de Templo",
                 "tengu-gale-blade": "Lâmina Grimpa Tengu",
                 "thorn-whip": "Chicote de Espinhos",
+                "three-peaked-tree": "Three Peaked Tree",
                 "three-section-naginata": "Naginata de Três Seções",
                 "throwing-knife": "Faca de Arremesso",
                 "thunder-sling": "Thunder Sling",
+                "thundermace": "Thundermace",
+                "tonfa": "Tonfa",
+                "tri-bladed-katar": "Tri-bladed Katar",
                 "tricky-pick": "Tricky Pick",
                 "trident": "Tridente",
                 "triggerbrand": "Disparador",
@@ -4971,6 +5045,7 @@
                 "visap": "Visap",
                 "wakizashi": "Wakizashi",
                 "war-flail": "Mangual de Guerra",
+                "war-lance": "War Lance",
                 "war-razor": "Navalha de Guerra",
                 "warhammer": "Martelo de Guerra",
                 "wheel-blades": "Lâminas de Roda",
@@ -5029,6 +5104,7 @@
                 "Name": "Eco Ancestral"
             },
             "anchoring": {
+                "Name": "Anchoring",
                 "Note": {
                     "criticalSuccess": "Se você acerta um alvo criticamente enquanto empunha uma arma de ancoragem, a arma conjura <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancora Dimensional}</em> no alvo (@Check[type:will|dc:27|name:Runa de Ancoragem]{Vontade}, modificador de neutralização [[/r 1d20+17 # Teste de Neutralização da Runa de Ancoragem]]{+17})."
                 }
@@ -5049,6 +5125,7 @@
                 "Name": "Ruína do Sangue"
             },
             "bloodthirsty": {
+                "Name": "Bloodthirsty",
                 "Note": {
                     "criticalSuccess": "Quando você acerta criticamente um alvo que está recebendo @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dano de Sangramento Persistente}, seu alvo se torna @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drenado 1}."
                 }
@@ -5058,6 +5135,9 @@
                 "Note": {
                     "criticalSuccess": "Em um acerto crítico, o alvo deve ser bem-sucedido em um salvamento de @Check[tipo:fortitude|dc:29|name:Runa Brilhante] ou ser @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 rodada."
                 }
+            },
+            "called": {
+                "Name": "Called"
             },
             "coating": {
                 "Name": "Revestida"
@@ -5072,6 +5152,7 @@
                 }
             },
             "crushing": {
+                "Name": "Crushing",
                 "Note": {
                     "criticalSuccess": "Quando você acerta criticamente um alvo com essa arma, seu alvo torna-se @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Desajeitado 1} e @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido1} até o final do seu próximo turno."
                 }
@@ -5088,14 +5169,23 @@
             "deathdrinking": {
                 "Name": "Bebida Mortal"
             },
+            "demolishing": {
+                "Name": "Demolishing"
+            },
             "disrupting": {
                 "Name": "Disruptora",
                 "Note": {
                     "criticalSuccess": "Em um acerto crítico, o morto-vivo também é @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
                 }
             },
+            "energizing": {
+                "Name": "Energizing"
+            },
             "extending": {
                 "Name": "Extensora"
+            },
+            "fanged": {
+                "Name": "Fanged"
             },
             "fearsome": {
                 "Name": "Temível",
@@ -5244,6 +5334,9 @@
                     "Sword": "<strong>Runa Severa</strong> O alvo fica Desprevenido até o final do turno do portador da runa."
                 }
             },
+            "hauling": {
+                "Name": "Hauling"
+            },
             "holy": {
                 "Name": "Sagrada",
                 "Note": {
@@ -5251,6 +5344,7 @@
                 }
             },
             "hopeful": {
+                "Name": "Hopeful",
                 "Note": {
                     "criticalSuccess": "Num acerto crítico com esta arma, você inspira seus camaradas, incitando-os a lutarem e defenderem suas convicções compartilhadas. Aliados em 9 metros que compartilhem pelo menos um componente de tendência com você ganham um bônus de estado para rolagens de ataque até o final do seu próximo turno."
                 }
