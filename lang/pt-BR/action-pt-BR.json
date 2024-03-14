@@ -255,8 +255,10 @@
                 "Unintelligible": "Ininteligível"
             },
             "DisableDevice": {
+                "Description": "<p>Esta ação permite desarmar uma armadilha ou outro dispositivo complexo. Frequentemente, um dispositivo exige vários sucessos para ser desabilitado, dependendo de sua construção ou complexidade. Ferramentas de ladrão são úteis e às vezes requeridas para Desabilitar um Dispositivo, conforme determinado pelo MJ, e às vezes um dispositivo requer uma proficiência de graduação em Ladroagem para desabilitá-lo.</p><p>O resultado de seu teste de Ladroagem determina o progresso que você alcança.</p><p><strong>Sucesso Crítico</strong>Você desabilita o dispositivo ou obtém dois sucessos para desabilitar um dispositivo complexo. Você não deixa traços de sua interferência e pode rearmar o dispositivo posteriormente se esse tipo de dispositivo puder ser rearmado.</p><p><strong>Sucesso</strong>Você desabilita o dispositivo ou obtém um sucesso para desabilitar um dispositivo complexo.</p><p><strong>Falha Crítica</strong>Você aciona o dispositivo.</p>",
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você aciona o dispositivo."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você aciona o dispositivo.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você desabilita o dispositivo ou obtém dois sucessos para desabilitar um dispositivo complexo. Você não deixa traços de sua interferência e pode rearmar o dispositivo posteriormente se esse tipo de dispositivo puder ser rearmado."
                 },
                 "Title": "Desabilitar um Dispositivo"
             },
@@ -527,6 +529,7 @@
                 }
             },
             "PickALock": {
+                "Description": "<p>Abrir uma fechadura sem uma chave é muito similar a Desabilitar um Dispositivo, mas a CD do teste de Ladroagem é determinada pela complexidade e construção da fechadura que estiver tentando abrir (trancas e suas CDs são encontradas em suas descrições). Fechaduras de qualidades superiores podem requerer vários sucessos para destrancá-las, afinal, se não fosse isso, até mesmo um ladrão incompetente poderia facilmente abrir a fechadura fazendo o teste várias vezes até rolar um 20 natural. Se você não possuir as ferramentas apropriadas, o MJ pode permitir o uso de ferramentas improvisadas, que são tratadas como ferramentas de má qualidade.</p><p><strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.</p><p><strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa.</p><p><strong>Falha Crítica</strong> Você quebra suas ferramentas. Consertá-las requer usar Manufatura para @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repará-las} ou providenciar @Compendium[pf2e.equipment-srd.Sw7MBLASN3xK4Y44]{Apetrechos de Reposição}</p>",
                 "Notes": {
                     "criticalSuccess": "<b>Sucesso Crítico</b> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
                     "success": "<b>Sucesso</b> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
@@ -774,8 +777,11 @@
             },
             "Tamper": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Sua interferência sai pela culatra de forma dramática, criando uma pequena explosão de suas próprias ferramentas ou equipamentos. Você recebe [[/r (@actor.level)[fire] #Tamper Backfire]]{fire damage equal to your level}."
-                }
+                    "criticalFailure": "<strong>Falha Crítica</strong> Sua interferência sai pela culatra de forma dramática, criando uma pequena explosão de suas próprias ferramentas ou equipamentos. Você recebe [[/r (@actor.level)[fire] #Tamper Backfire]]{fire damage equal to your level}.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Sua adulteração é incrivelmente eficaz. Se você adulterou uma arma, o inimigo sofre -2 de penalidade de circunstância para rolagens de ataque e de dano com aquela arma. Se você adulterou uma armadura, a armadura atrapalha o movimento do inimigo, tornando-o desprevenido e infligindo uma -10 pés de penalidade a suas velocidades. O efeito dura até que o inimigo Interaja para removê-lo, independente de qual você usou. @UUID[Compendium.pf2e.feat-effects.Item.rzcpTJU9MvW1x1gz]{Efeito: Armadura Adulterada (Successo Crítico)} @UUID[Compendium.pf2e.feat-effects.Item.o7qm13OmaYOMwgib]{Efeito: Arma Adulterada (Successo Crítico)}",
+                    "success": "<strong>Sucesso</strong> Sua interferência é temporariamente eficaz. Como sucesso crítico, mas o efeito termina no início do seu próximo turno, mesmo que o inimigo não Interaja para terminá-la. @UUID[Compendium.pf2e.feat-effects.Item.IfRkgjyh0JzGalIy]{Efeito: Armadura Adulterada (Successo)} @UUID[Compendium.pf2e.feat-effects.Item.4QWayYR3JSL9bk2T]{Effect: Arma Adulterada (Successo)}"
+                },
+                "Title": "Adulterar"
             },
             "Track": {
                 "Notes": {
