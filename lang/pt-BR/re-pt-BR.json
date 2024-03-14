@@ -2,16 +2,17 @@
     "PF2E": {
         "AmmunitionNotes": {
             "AntlerArrow": {
-                "CriticalText": "A CD do teste de Atletismo para puxar o projétil livremente aumenta para @Check[type:athletics|dc:15|name:Pull the Missile Free|showDC:all]",
-                "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:reflex|dc:16|name:Antler Arrow] ou fica peso à superfície, sofrendo os efeitos de especialização de crítico de um arco"
+                "CriticalText": "A CD do teste de Atletismo para puxar o projétil livremente aumenta para @Check[type:athletics|dc:15|name:Soltar O Projétil|showDC:all]{Atletismo}",
+                "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:reflex|dc:16|name:Flecha de Galhada]{Reflexos} ou fica peso à superfície, sofrendo os efeitos de especialização de crítico de um arco",
+                "Title": "Flecha de Galhada"
             },
             "ExplosiveAmmunition": {
                 "Greater": {
-                    "Text": "O projétil explode em um raio de 3 metros @Template[type:burst|distance:10], causando dano [[/r 10d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition].",
+                    "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
                     "Title": "Munição Explosiva (Maior)"
                 },
                 "Normal": {
-                    "Text": "O projétil explode em um raio de 3 metros @Template[type:burst|distance:10], causando dano [[/r 6d6[fire]]] de fogo a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition].",
+                    "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
                     "Title": "Munição Explosiva"
                 }
             },
@@ -51,7 +52,7 @@
                 "FireMote": "Salpico de Fogo",
                 "Foot": "Metros",
                 "Foreleg": "Perna Dianteira",
-                "Gust": "Luvada",
+                "Gust": "Lufada",
                 "HolyMace": "Maça Sagrada",
                 "Hoof": "Casco",
                 "Horn": "Chifre",
@@ -64,7 +65,7 @@
                 "Moonbeam": "Feixe Lunar",
                 "PiercingHymn": "Hino Perfurante",
                 "Pincer": "Pinça",
-                "Pseudopod": "Pseudopode",
+                "Pseudopod": "Pseudópode",
                 "Rock": "Rocha",
                 "Spikes": "Espinhos",
                 "Spine": "Espinha",
@@ -522,6 +523,9 @@
                 },
                 "Label": "Forma Atual"
             },
+            "Charge": {
+                "AtLeastTen": "Movido pelo menos 10 pés"
+            },
             "Chimera": {
                 "DragonHead": "Tradição Mágica da Cabeça do Dragão",
                 "DivineHead": {
@@ -535,8 +539,18 @@
                     "NoSanctification": "Não Santificado"
                 }
             },
+            "ClockworkLostPlates": "Quantas placas foram perdidas?",
+            "ClockworkWindUp": "Modo de Espera",
+            "ConstructArmor": {
+                "BrokenArmor": "Armadura de Construto Quebrada",
+                "CriticalHit": "Armadura do Construto Quebrada por um Acerto Crítico"
+            },
             "CrumblingCarapace": {
                 "CriticalHit": "Carapaça Quebrada por um Acerto Crítico"
+            },
+            "CustomArmor": {
+                "BrokenArmor": "Armadura Personalizada Quebrada",
+                "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
             },
             "Dramofir": {
                 "BittersweetDreamsCriticalFailure": "Falha Crítica",
@@ -579,6 +593,194 @@
             }
         },
         "PersistentDamage": {
+            "Acid1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,acid]]]{2*1d4 de dano ácido persistente}",
+                "success": "[[/r 1d4[persistent,acid]]]{1d4 de dano ácido persistente}"
+            },
+            "Acid1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,acid]]]{2*1d6 de dano ácido persistente}",
+                "success": "[[/r 1d6[persistent,acid]]]{1d6 de dano ácido persistente}"
+            },
+            "Acid2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,acid]]]{2*2d6 de dano ácido persistente}",
+                "success": "[[/r 2d6[persistent,acid]]]{2d6 de dano ácido persistente}"
+            },
+            "Acid2d6+2": {
+                "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]{2*2d6+4 de dano ácido persistente}",
+                "success": "[[/r (2d6+2)[persistent,acid]]]{2d6+2 de dano ácido persistente}"
+            },
+            "Bleed1": {
+                "criticalSuccess": "[[/r 2[bleed]]]{2 de dano de sangramento}",
+                "success": "[[/r 1[bleed]]]{1 de dano de sangramento}"
+            },
+            "Bleed1d10": {
+                "criticalSuccess": "[[/r (2*1d10)[bleed]]]{2*1d10 de dano de sangramento}",
+                "success": "[[/r 1d10[bleed]]]{1d10 de dano de sangramento}"
+            },
+            "Bleed1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[bleed]]]{2*1d12 de dano de sangramento}",
+                "success": "[[/r 1d12[bleed]]]{1d12 de dano de sangramento}"
+            },
+            "Bleed1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[bleed]]]{2*1d4 de dano de sangramento}",
+                "success": "[[/r 1d4[bleed]]]{1d4 de dano de sangramento}"
+            },
+            "Bleed1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[bleed]]]{2*1d6 de dano de sangramento}",
+                "success": "[[/r 1d6[bleed]]]{1d6 de dano de sangramento}"
+            },
+            "Bleed1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[bleed]]]{2*1d8 de dano de sangramento}",
+                "success": "[[/r 1d8[bleed]]]{1d8 de dano de sangramento}"
+            },
+            "Bleed2": {
+                "criticalSuccess": "[[/r 4[bleed]]]{4 de dano de sangramento}",
+                "success": "[[/r 2[bleed]]]{2 de dano de sangramento}"
+            },
+            "Bleed2d10": {
+                "criticalSuccess": "[[/r (2*2d10)[bleed]]]{2*2d10 de dano de sangramento}",
+                "success": "[[/r 2d10[bleed]]]{2d10 de dano de sangramento}"
+            },
+            "Bleed2d12": {
+                "criticalSuccess": "[[/r (2*2d12)[bleed]]]{2*2d12 de dano de sangramento}",
+                "success": "[[/r 2d12[bleed]]]{2d12 de dano de sangramento}"
+            },
+            "Bleed2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[bleed]]]{2*2d4 de dano de sangramento}",
+                "success": "[[/r 2d4[bleed]]]{2d4 de dano de sangramento}"
+            },
+            "Bleed2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[bleed]]]{2*2d6 de dano de sangramento}",
+                "success": "[[/r 2d6[bleed]]]{2d6 de dano de sangramento}"
+            },
+            "Bleed2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[bleed]]]{2*2d8 de dano de sangramento}",
+                "success": "[[/r 2d8[bleed]]]{2d8 de dano de sangramento}"
+            },
+            "Bleed3d10": {
+                "criticalSuccess": "[[/r (2*3d10)[bleed]]]{2*3d10 de dano de sangramento}",
+                "success": "[[/r 3d10[bleed]]]{3d10 de dano de sangramento}"
+            },
+            "Bleed3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[bleed]]]{2*3d6 de dano de sangramento}",
+                "success": "[[/r 3d6[bleed]]]{3d6 de dano de sangramento}"
+            },
+            "Bleed3d8": {
+                "criticalSuccess": "[[/r (2*3d8)[bleed]]]{2*3d8 de dano de sangramento}",
+                "success": "[[/r 3d8[bleed]]]{3d8 de dano de sangramento}"
+            },
+            "Bleed4d6": {
+                "criticalSuccess": "[[/r (2*4d6)[bleed]]]{2*4d6 de dano de sangramento}",
+                "success": "[[/r 4d6[bleed]]]{4d6 de dano de sangramento}"
+            },
+            "Bleed4d8": {
+                "criticalSuccess": "[[/r (2*4d8)[bleed]]]{2*4d8 de dano de sangramento}",
+                "success": "[[/r 4d8[bleed]]]{4d8 de dano de sangramento}"
+            },
+            "Bleed6d10": {
+                "criticalSuccess": "[[/r (2*6d10)[bleed]]]{2*6d10 de dano de sangramento}",
+                "success": "[[/r 6d10[bleed]]]{6d10 de dano de sangramento}"
+            },
+            "Bleed6d6": {
+                "criticalSuccess": "[[/r (2*6d6)[bleed]]]{2*6d6 de dano de sangramento}",
+                "success": "[[/r 6d6[bleed]]]{6d6 de dano de sangramento}"
+            },
+            "Bleed8d4": {
+                "criticalSuccess": "[[/r (2*8d4)[bleed]]]{2*8d4 de dano de sangramento}",
+                "success": "[[/r 8d4[bleed]]]{8d4 de dano de sangramento}"
+            },
+            "Cold1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,cold]]]{2*1d6 de dano de persistente de frio}",
+                "success": "[[/r 1d6[persistent,cold]]]{1d6 de dano de persistente de frio}"
+            },
+            "Cold1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,cold]]]{2*1d8 de dano de persistente de frio}",
+                "success": "[[/r 1d8[persistent,cold]]]{1d8 de dano de persistente de frio}"
+            },
+            "Cold2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,cold]]]{2*2d6 de dano de persistente de frio}",
+                "success": "[[/r 2d6[persistent,cold]]]{2d6 de dano de persistente de frio}"
+            },
+            "Cold2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,cold]]]{2*2d8 de dano de persistente de frio}",
+                "success": "[[/r 2d8[persistent,cold]]]{2d8 de dano de persistente de frio}"
+            },
+            "Fire1": {
+                "criticalSuccess": "[[/r 2[persistent,fire]]]{2 de dano de persistente de fogo}",
+                "success": "[[/r 1[persistent,fire]]]{1 de dano de persistente de fogo}"
+            },
+            "Fire1d10": {
+                "criticalSuccess": "[[/r (2*1d10)[persistent,fire]]]{2*1d10 de dano de persistente de fogo}",
+                "success": "[[/r 1d10[persistent,fire]]]{1d10 de dano de persistente de fogo}"
+            },
+            "Fire1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,fire]]]{2*1d4 de dano de persistente de fogo}",
+                "success": "[[/r 1d4[persistent,fire]]]{1d4 de dano de persistente de fogo}"
+            },
+            "Fire1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,fire]]]{2*1d6 de dano de persistente de fogo}",
+                "success": "[[/r 1d6[persistent,fire]]]{1d6 de dano de persistente de fogo}"
+            },
+            "Fire2d10": {
+                "criticalSuccess": "[[/r (2*2d10)[persistent,fire]]]{2*2d10 de dano de persistente de fogo}",
+                "success": "[[/r 2d10[persistent,fire]]]{2d10 de dano de persistente de fogo}"
+            },
+            "Fire2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[persistent,fire]]]{2*2d4 de dano de persistente de fogo}",
+                "success": "[[/r 2d4[persistent,fire]]]{2d4 de dano de persistente de fogo}"
+            },
+            "Fire2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,fire]]]{2*2d6 de dano de persistente de fogo}",
+                "success": "[[/r 2d6[persistent,fire]]]{2d6 de dano de persistente de fogo}"
+            },
+            "Fire2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,fire]]]{2*2d8 de dano de persistente de fogo}",
+                "success": "[[/r 2d8[persistent,fire]]]{2d8 de dano de persistente de fogo}"
+            },
+            "Fire3d10": {
+                "criticalSuccess": "[[/r (2*3d10)[persistent,fire]]]{2*3d10 de dano de persistente de fogo}",
+                "success": "[[/r 3d10[persistent,fire]]]{3d10 de dano de persistente de fogo}"
+            },
+            "Fire3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[persistent,fire]]]{2*3d6 de dano de persistente de fogo}",
+                "success": "[[/r 3d6[persistent,fire]]]{3d6 de dano de persistente de fogo}"
+            },
+            "Fire3d8": {
+                "criticalSuccess": "[[/r (2*3d8)[persistent,fire]]]{2*3d8 de dano de persistente de fogo}",
+                "success": "[[/r 3d8[persistent,fire]]]{3d8 de dano de persistente de fogo}"
+            },
+            "Fire4d10": {
+                "criticalSuccess": "[[/r (2*4d10)[persistent,fire]]]{2*4d10 de dano de persistente de fogo}",
+                "success": "[[/r 4d10[persistent,fire]]]{4d10 de dano de persistente de fogo}"
+            },
+            "Force1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[persistent,force]]]{2*1d12 de dano de persistente de força}",
+                "success": "[[/r 1d12[persistent,force]]]{1d12 de dano de persistente de força}"
+            },
+            "Force2d12": {
+                "criticalSuccess": "[[/r (2*2d12)[persistent,force]]]{2*2d12 de dano de persistente de força}",
+                "success": "[[/r 2d12[persistent,force]]]{2d12 de dano de persistente de força}"
+            },
+            "Mental1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,mental]]]{2*1d4 de dano de persistente mental}",
+                "success": "[[/r 1d4[persistent,mental]]]{1d4 de dano de persistente mental}"
+            },
+            "Mental1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,mental]]]{2*1d6 de dano de persistente mental}",
+                "success": "[[/r 1d6[persistent,mental]]]{1d6 de dano de persistente mental}"
+            },
+            "Mental1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,mental]]]{2*1d8 de dano de persistente mental}",
+                "success": "[[/r 1d8[persistent,mental]]]{1d8 de dano de persistente mental}"
+            },
+            "Mental2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,mental]]]{2*2d6 de dano de persistente mental}",
+                "success": "[[/r 2d6[persistent,mental]]]{2d6 de dano de persistente mental}"
+            },
+            "Mental3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[persistent,mental]]]{2*3d6 de dano de persistente mental}",
+                "success": "[[/r 3d6[persistent,mental]]]{3d6 de dano de persistente mental}"
+            },
             "Negative1d10": {
                 "criticalSuccess": "[[/r (2*1d10)[persistent,void]]]{2*1d10 de dano de persistente vazio}",
                 "success": "[[/r 1d10[persistent,void]]]{1d10 de dano de persistente vazio}"
@@ -594,6 +796,50 @@
             "Negative2d10": {
                 "criticalSuccess": "[[/r (2*2d10)[persistent,void]]]{2*2d10 de dano de persistente vazio}",
                 "success": "[[/r 2d10[persistent,void]]]{2d10 de dano de persistente vazio}"
+            },
+            "Piercing2d8+8": {
+                "criticalSuccess": "[[/r (2*2d8+16)[persistent,piercing]]]{2*2d8 de dano de persistente perfurante}",
+                "success": "[[/r (2d8+8)[persistent,piercing]]]{2d8 de dano de persistente perfurante}"
+            },
+            "Poison1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[persistent,poison]]]{2*1d12 de dano de persistente de veneno}",
+                "success": "[[/r 1d12[persistent,poison]]]{1d12 de dano de persistente de veneno}"
+            },
+            "Poison1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}",
+                "success": "[[/r 1d4[persistent,poison]]]{1d4 de dano de persistente de veneno}"
+            },
+            "Poison1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 de dano de persistente de veneno}",
+                "success": "[[/r 1d6[persistent,poison]]]{1d6 de dano de persistente de veneno}"
+            },
+            "Poison1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,poison]]]{2*1d8 de dano de persistente de veneno}",
+                "success": "[[/r 1d8[persistent,poison]]]{1d8 de dano de persistente de veneno}"
+            },
+            "Poison2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[persistent,poison]]]{2*2d4 de dano de persistente de veneno}",
+                "success": "[[/r 2d4[persistent,poison]]]{2d4 de dano de persistente de veneno}"
+            },
+            "Poison2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,poison]]]{2*2d6 de dano de persistente de veneno}",
+                "success": "[[/r 2d6[persistent,poison]]]{2d6 de dano de persistente de veneno}"
+            },
+            "Poison2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,poison]]]{2*2d8 de dano de persistente de veneno}",
+                "success": "[[/r 2d8[persistent,poison]]]{2d8 de dano de persistente de veneno}"
+            },
+            "Poison3d4": {
+                "criticalSuccess": "[[/r (2*3d4)[persistent,poison]]]{2*3d4 de dano de persistente de veneno}",
+                "success": "[[/r 3d4[persistent,poison]]]{2*3d4 de dano de persistente de veneno}"
+            },
+            "Poison3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[persistent,poison]]]{2*3d6 de dano de persistente de veneno}",
+                "success": "[[/r 3d6[persistent,poison]]]{2*3d6 de dano de persistente de veneno}"
+            },
+            "Poison4d6": {
+                "criticalSuccess": "[[/r (2*4d6)[persistent,poison]]]{2*4d6 de dano de persistente de veneno}",
+                "success": "[[/r 4d6[persistent,poison]]]{2*4d6 de dano de persistente de veneno}"
             }
         },
         "RuleEditor": {
@@ -651,39 +897,67 @@
                     "Type": "Tipo"
                 }
             },
+            "FastHealing": {
+                "DeactivatedBy": "Desativado por"
+            },
             "FlatModifier": {
-                "Force": "Forçar?"
+                "Force": "Forçar?",
+                "HideIfDisabled": "Ocultar (se desativado)"
             },
             "General": {
                 "Add": "Adicionar",
+                "Brackets": "Faixas",
+                "CriticalBehavior": {
+                    "false": "1x Dano em Crítico",
+                    "null": "2x Dano em Crítico",
+                    "true": "Apenas Dano Crítico"
+                },
                 "DamageType": "Tipo de Dano",
-                "Label": "Label",
+                "Label": "Rótulo",
                 "Opacity": "Opacidade",
+                "Predicate": "Predicado",
+                "Primitive": "Primitivo",
                 "PriorityHint": "A prioridade determina a ordem em que os elementos de regra são executados. Os elementos de regra com valores de prioridade mais baixos são executados primeiro.",
                 "Range": "Distância",
                 "Remove": "Remover",
+                "Selector": "Seletor",
                 "Slug": "Slug",
                 "Value": "Valor"
             },
+            "GrantItem": {
+                "AllowDuplicate": "Permitir duplicatas",
+                "ReevaluateOnUpdate": "Reavaliar ao Atualizar",
+                "ReplaceSelf": "Substitua a si mesmo"
+            },
             "Note": {
-                "Hidden": "Escondido"
+                "Hidden": "Escondido",
+                "Outcome": "Resultado",
+                "Text": "Conteúdo de texto",
+                "Title": "Título"
             }
         },
         "RuleElement": {
             "ActiveEffectLike": "Semelhante a Efeito Ativo",
             "ActorTraits": "Traços do Ator",
             "AdjustDegreeOfSuccess": "Ajustar Grau de Sucesso",
+            "AdjustModifier": "Ajustar Modificador",
+            "AdjustStrike": "Ajustar Golpe",
             "Aura": "Aura",
             "BaseSpeed": "Velocidade Base",
             "BattleForm": "Forma de Batalha",
+            "ChoiceSet": "Conjunto de Escolhas",
+            "CraftingEntry": "Entrada de Manutafura",
+            "CraftingFormula": "Fórmula de Manufatura",
             "CreatureSize": "Tamanho da Criatura",
             "CriticalSpecialization": "Especialização de Crítico",
             "DamageAlteration": "Alteração de Dano",
             "DamageDice": "Dado de Dano",
             "DexterityModifierCap": "Limite de Modificador de Destreza",
+            "EphemeralEffect": "Efeito Efêmero",
             "FastHealing": "Cura Acelerada/Regeneração",
             "FixedProficiency": "Proficiência Fixa",
             "FlatModifier": "Modificador Simples",
+            "GrantItem": "Concessão de Item",
             "Immunity": "Imunidade",
             "ItemAlteration": "Alteração de Item",
             "LoseHitPoints": "Perder Pontos de Vida",
@@ -692,54 +966,93 @@
             "Note": "Anotação",
             "Resistance": "Resistência",
             "RollOption": "Opção de rolagem",
-            "Sense": "Sentido",
+            "RollTwice": "Rolar Duas Vezes",
+            "Sense": "Sentidos",
             "SpecialStatistic": "Estatística Especial",
             "Strike": "Golpear",
             "Striking": "Impactante",
+            "SubstituteRoll": "Substituir Rolagem",
             "TempHP": "Pontos de Vida Temporários",
             "TempHPShortLabel": "Temp",
             "TokenEffectIcon": "Ícone de Efeito do Token",
             "TokenImage": "Imagem do Token",
+            "TokenLight": "Luz de Token",
             "TokenMark": "Marca de Token",
+            "TokenName": "Nome de Token",
             "Unrecognized": "Elemento de Regra não Reconhecido",
             "Weakness": "Fraqueza",
             "WeaponPotency": "Potência de Arma"
         },
         "SkillVariant": {
+            "AboutCaves": "Sobre Cavernas",
+            "AcidicEnvironment": "Em Ambientes Ácidos",
+            "AgainstDemons": "Contra Demônios",
+            "Aid": "Para Auxiliar",
+            "AttemptToFascinateOutdoorsInBrightSun": "Usando Performance Fascinante ao ar livre sob sol forte",
+            "Blacksmithing": "Para Ferraria",
             "BloodOrWater": "Em Sangue ou Água",
+            "Buried": "Enterrado",
+            "CanClearlyIdentifyTheStars": "Pode identificar claramente as estrelas",
             "Climb": "Para Escalar",
             "ClimbHighJumpLongJumpOrDisarm": "Para Escalar, Saltar em Altura, Saltar em Distância ou Desarmar",
             "ClimbOrSwim": "Para Escalar ou Nadar",
             "CommandAnAnimal": "Para Comandar um Animal",
+            "CommandReptile": "Para Comandar um Animal que é um Réptil",
             "ConcealAnObject": "Para Ocultar um Objeto",
             "CraftAlchemical": "Para Manufaturar Itens Alquímicos",
             "CraftAlchemicalOrMedicine": "Para Manutafura Itens Alquímicos ou Medicinais",
+            "CraftBone": "Usando Osso",
+            "CraftJewelry": "Para Manufaturar Joias",
             "CraftSnare": "Para Manufaturar Arapucas",
+            "CraftTrap": "Para Manufatur Arrmadilhas",
             "CraftTrapSnare": "Para Manufaturar Armadilhas e Arapucas",
+            "CreateForgery": "Para Criar Falsificação",
+            "Dance": "Para Dançar",
             "Darkness": "Na Escuridão",
             "DarknessOrSmoke": "Na Escuridão ou Fumaça",
+            "DecayingPlantFungus": "Em meio a matéria decadente de planta ou fungos",
+            "Demoralize": "Para Desmoralizar",
+            "DemoralizeThreateningLunge": "Para Desmoralizar com Estocada Ameaçadora",
             "Deserts": "Em Desertos",
+            "DimLight": "Na Penumbra",
+            "DimLightOrDarkness": "Na Penumbra ou Escuridão",
+            "DisableADevice": "Para Desabilitar um Dispositivo",
             "Disarm": "Para Desarmar",
+            "DisarmGrapple": "Para Agarrar ou Desarmar",
+            "DisarmGrappleAvoidDisarm": "Para Agarrar, Desarmar ou evitar ser Desarmado",
             "DisarmMetal": "Para Desarmar um Item de Metal",
             "DisarmStoneMetal": "Para Desarmar Objetos de Pedra ou Metal",
+            "DiscernAndPredictWeather": "Discernir padrões climáticos e prever condições climáticas futuras",
             "Diversion": "Para Criar uma Distração",
             "Escape": "Para Escapar",
+            "EscapeForceOpenOrLift": "Para Escapar, Forçar ou Levantar Objetos Pesados",
+            "Feint": "Para Fintar",
             "ForceOpenGrappleShoveOrTrip": "Para Agarrar, Derrubar, Empurrar ou Forçar",
             "Forests": "Em Florestas",
             "ForestsOrGrasslands": "Em Florestas ou Pradarias",
             "ForestsOrJungles": "Em Florestas ou Selvas",
+            "ForestsOrSnow": "Em Florestas ou Neve",
             "ForestsOrSwamps": "Em Florestas ou Pântanos",
             "ForestsOrUnderground": "Em Florestas ou Áreas Subterrâneas",
             "FortuneTelling": "Para Ler a Sorte",
             "FullMoon": "Lua Cheia",
+            "GatherInformation": "para Obter Informação",
             "Grapple": "Para Agarrar",
+            "GrappleShove": "Para Agarrar ou Empurrar",
             "Hide": "Para Esconder",
             "HideInBody": "Para se Esconder dentro de um corpo",
             "HideInDim": "Para se Esconder na penumbra",
+            "HideInDimOrDark": "Para se Esconder na penumbra ou na escuridão",
+            "HideSneakInscriptions": "Para se Esconder ou se Esgueirar entre inscrições",
+            "HideSneakTree": "Para se Esconder ou se Esgueirar enquanto estiver em uma árvore",
             "HighJumpOrLongJump": "Para Salto em Altura ou Salto em Distância",
+            "IceAndSnow": "No gelo ou neve",
+            "ImitateStone": "Para imitar pedra",
             "ImitateVoice": "Para imitar uma voz",
             "Impersonate": "Para Personificar",
+            "ImpersonateCloakSheetRay": "Para Personificar uma capa, lençol ou raio",
             "ImpersonateClothing": "Para Personificar roupas",
+            "ImpersonateHumanVersion": "Para Personificar uma versão humana de si mesmo",
             "ImpersonateInanimate": "Para Personificar um objeto inanimado",
             "ImpersonatePeasantOrLaborer": "Para Personificar um camponês ou trabalhador",
             "ImpersonateSpecificPerson": "Para Personificar uma pessoa específica",
@@ -749,37 +1062,73 @@
             "Jar": "Dentro de uma jarra",
             "JumpOrClimb": "Para Escalar ou Saltar",
             "JumpOrSwim": "Para Nadar ou Saltar ",
+            "Jungles": "Em selvas",
+            "JunglesOrFlowerFields": "Em selvas ou campos floridos",
+            "JunkOrDebris": "Em lixo ou detritos",
+            "Lair": "No covil",
+            "Lava": "Na Lava",
+            "LeyLine": "Perto de Linha de Ley",
+            "Lie": "Para Mentir",
+            "LongJump": "Para Salto em Distância",
             "Lute": "Para tocar alaúde",
+            "MakeAnImpression": "Para Impressionar",
+            "ManeuverInFlight": "Para Manobrar em Vôo",
             "Moist": "Em ambientes úmidos",
             "Moonlight": "Ao luar",
             "Mountains": "Em Montanhas",
             "Navigate": "Para Navegar",
+            "NearTheOcean": "Perto do oceano",
+            "NighttimeWithMoonVisible": "À noite, com a Lua Visível",
+            "OceansForests": "Nos oceanos e florestas",
+            "Orate": "Para orar",
             "Paint": "Para Pintar",
             "PalmAnObjectOrSteal": "Para Empalmar um Objeto ou Furtar",
             "PickALock": "Para Abrir uma Fechadura",
             "Poison": "Para Manufaturar venenos",
             "Prophecy": "Para profetizar",
+            "Raining": "Chovendo",
             "RecallKnowledge": "Para Recordar Conhecimento",
             "RecallKnowledgeDeadSubject": "Para Recordar Conhecimento sobre um falecido",
+            "Rocky": "Em terreno rochoso",
             "Ruins": "Em ruinas",
+            "RunningWater": "Em água corrente",
+            "RustyTerrain": "Em áreas com objetos enferrujados",
+            "Sand": "Na areia",
+            "SenseMotive": "Para Sentir Motivação",
             "Sewers": "Em Esgotos",
             "SewersScrapyards": "Em esgotos e ferros-velhos",
             "Shoes": "Para sapatos",
             "ShootingGallery": "Na Galeria de Tiro",
             "Shove": "Para Empurrar",
+            "Singing": "Canto",
             "Skinless": "Quando sem pele",
+            "Snow": "Na neve",
             "Squeeze": "Para Espremer-se",
             "Steal": "Para Furtar",
+            "StonyOrIcyAreas": "Em áreas pedregosas ou geladas",
+            "StringedInstruments": "Para instrumentos de corda",
+            "Subsist": "Para Subsistir",
             "Swamps": "Em Pântanos",
             "Swim": "Para Nadar",
+            "TarPit": "Em poços de piche",
+            "TellTheTruth": "Para falar a verdade",
+            "ThickVegetation": "Em vegetação espessa",
             "Track": "Para Rastrear",
             "TrackBleedingCreature": "Para Rastrear uma Criatura Sangrando",
             "TrackCreator": "Para Rastrear seu criador",
             "TrackHalfHealth": "Para Rastrear uma criatura com metade de seus pontos de vida ou menos",
             "Traps": "Armadilhas",
+            "TrashAndRubbish": "No lixo e detritos",
             "Treasure": "Em tesouro",
+            "Trip": "Para Derrubar",
+            "TripTangle": "Para Derrubar e Emaranhar",
             "TumbleThrough": "Para Atravessar Acrobaticamente",
             "TumbleThroughMediumOrLarger": "Para Atravessar Acrobaticamente no espaço de uma criatura Média ou Grande",
+            "Tundra": "Na tundra",
+            "Underground": "Embaixo da terra",
+            "Undergrowth": "Em vegetação rasteira",
+            "Underwater": "Subaquática",
+            "UnderwaterVegetation": "Na vegetação subaquática",
             "VsDiseases": "vs. diseases"
         },
         "SpecificRule": {
@@ -799,6 +1148,15 @@
             },
             "AdoptedAncestry": {
                 "Prompt": "Selecione uma ancestralidade comum."
+            },
+            "AdvancedGeneralTraining": {
+                "Prompt": "Selecione um talento geral de 7º nível ou inferior."
+            },
+            "Aid": {
+                "Prompt": "Escolha o bônus do Auxílio."
+            },
+            "AncestralParagon": {
+                "Prompt": "Selecione um talento de ancestralidade de 1º nível."
             },
             "AncientElf": {
                 "Prompt": "Select a multiclass dedication."
@@ -861,16 +1219,23 @@
                     "ToggleLabel": "Fúria Espiritual"
                 },
                 "Superstition": {
-                    "TargetingCaster": "O Alvo é um conjurador"
+                    "TargetingCaster": "Alvo é um conjurador"
                 }
             },
             "Bard": {
+                "DiscordantVoice": {
+                    "Label": "Voz Discordante"
+                },
                 "Muse": {
                     "Enigma": "Musa Enigma",
                     "Maestro": "Musa Maestro",
                     "Polymath": "Musa Polímata",
+                    "Prompt": "Selecione uma musa.",
                     "Warrior": "Soldado"
                 }
+            },
+            "BlessingOfDefiance": {
+                "Prompt": "Escolha um salvamento."
             },
             "BonusLabel": {
                 "PlusTwo": "+2"
@@ -878,10 +1243,14 @@
             "BrevicNoble": {
                 "Prompt": "Selecione uma linhagem Brevana."
             },
+            "CelestialResistance": {
+                "Prompt": "Selecione um tipo de energia associada à sua linhagem."
+            },
             "Champion": {
                 "AuraOfFaith": {
                     "Toggle": "Primeiro Golpe contra uma criatura profana nesta rodada"
                 },
+                "BladeAllyRune": "Selecione uma runa de propriedade para seu aliado de lâmina.",
                 "DivineSmite": {
                     "Label": "Punição Divina"
                 },
@@ -910,6 +1279,16 @@
                 "Major": "Amuleto de Resistência a {damageType} (Superior)",
                 "Standard": "Amuleto de Resistência a {damageType}"
             },
+            "ChromaticArmor": {
+                "Acid": "Laranja (ácido)",
+                "Electricity": "Amarelo (Eletricidade)",
+                "Fire": "Vermelho (Fogo)",
+                "Force": "Violeta (Força)",
+                "Mental": "Índigo (Mental)",
+                "Poison": "Verde (Veneno)",
+                "Prompt": "Selecione uma cor.",
+                "Sonic": "Azul (Sônico)"
+            },
             "ClanWeapon": {
                 "Label": "Arma do Clã"
             },
@@ -918,6 +1297,10 @@
                     "Harmful": "Ferimento",
                     "Healing": "Cura",
                     "Prompt": "Selecione uma Fonte Divina."
+                },
+                "Doctrine": {
+                    "AllowedDrops": "Característica de classe de clérigo de 1º nível",
+                    "Prompt": "Selecione uma doutrina."
                 }
             },
             "Cover": {
@@ -933,13 +1316,25 @@
                 }
             },
             "DedicationCraftingEntry": {
-                "Herbalist": "Herbalista"
+                "Herbalist": "Herbalista",
+                "Poisoner": "Veneficista",
+                "Snarecrafter": "Arapuqueiro",
+                "TalismanDabbler": "Diletante Talismânico"
+            },
+            "Defending": {
+                "FireSpell": "Defesa contra uma magia de fogo"
             },
             "DeityAndCause": {
+                "AllowedDrops": "Característica de classe de campeão de 1º nível",
                 "Prompt": "Selecione uma causa de campeão."
             },
             "DragonDisciple": {
                 "Prompt": "Escolha um Dragão."
+            },
+            "Druid": {
+                "DruidicOrder": {
+                    "Prompt": "Selecione uma ordem druídica."
+                }
             },
             "Elf": {
                 "BrightnessSeeker": {
@@ -969,13 +1364,29 @@
                     "Unicorn": "Unicórnio"
                 }
             },
+            "Fetchling": {
+                "DeepFetchling": {
+                    "Prompt": "Selecione um tipo de energia para resistir."
+                }
+            },
+            "Fighter": {
+                "DoubleSlice": {
+                    "SecondAttackLabel": "Segundo ataque de Corte Duplo"
+                }
+            },
             "FighterWeaponMasteryLegend": {
                 "Advanced": {
                     "axe": "Machados Avançados",
                     "bomb": "Bombas Avançadas",
                     "bow": "Arcos Avançados",
+                    "brawling": "Pugilato Avançado",
+                    "club": "Clavas Avançadas",
+                    "dart": "Dardos Avançados",
+                    "firearm": "Armas de Fogo Avançadas",
+                    "flail": "Manguais Avançados",
                     "hammer": "Martelos Avançados",
                     "knife": "Adagas Avançadas",
+                    "pick": "Picaretas Avançadas",
                     "polearm": "Armas de Haste Avançadas",
                     "shield": "Escudos Avançados",
                     "sling": "Fundas Avançadas",
@@ -983,6 +1394,18 @@
                     "sword": "Espadas Avançadas"
                 },
                 "SimpleMartial": {
+                    "axe": "Machados Simples & Marciais",
+                    "bomb": "Bombas Simples & Marciais",
+                    "bow": "Arcos Simples & Marciais",
+                    "brawling": "Pugilato Simples & Marcial",
+                    "club": "Clavas Simples & Marciais",
+                    "dart": "Dardos Simples & Marciais",
+                    "firearm": "Armas de Fogo Simples & Marciais",
+                    "flail": "Manguais Simples & Marciais",
+                    "hammer": "Martelos Simples & Marciais",
+                    "knife": "Facas Simples & Marciais",
+                    "pick": "Picaretas Simples & Marciais",
+                    "polearm": "Haste Simples & Marciais",
                     "shield": "Escudos Simples e Marciais",
                     "sling": "Fundas Simples e Marciais",
                     "spear": "Lanças Simples e Marciais",
@@ -993,13 +1416,28 @@
                 "CoatingOfSlime": {
                     "CriticalHit": "Em um acerto crítico, o alvo sofre [[/r 1d4[persistent,acid]]]{1d4 de dano persistente de ácido}."
                 },
+                "LivingWeapon": {
+                    "Prompt": "Selecione uma parte da sua forma para usar como arma."
+                },
                 "MutateWeapon": {
-                    "Bonus": "Selecione um bônus."
+                    "Accuracy": "Ganhe +1 de bônus de estado em ataques",
+                    "Bonus": "Selecione um bônus.",
+                    "Reach": "Ganhe alcance 10",
+                    "Target": "Selecione uma de suas armas vivas."
                 }
+            },
+            "FollowTheExpert": {
+                "Prompt": "Selecione a proficiência do especialista na perícia."
+            },
+            "GameHunterDedication": {
+                "TargetHuntedPrey": "Alvo é sua Presa Caçada (somente Animal, Besta ou Dragão)"
             },
             "Genie": {
                 "Ifrit": "Ifrit",
                 "Prompt": "Selecione um gênio."
+            },
+            "GeneralTraining": {
+                "Prompt": "Selecione um talento geral de 1º nível."
             },
             "Gnome": {
                 "GrimInsight": {
@@ -1007,8 +1445,28 @@
                 }
             },
             "Goblin": {
+                "ChosenOfLamashtu": {
+                    "Prompt": "Selecione uma herança goblin."
+                },
                 "CityScavenger": {
                     "EarnIncome": "Catador da Cidade - Ganhar Proventos"
+                },
+                "ExtraSquishy": {
+                    "Note": "Quando rolar um sucesso em Espremer-se, trate o resultado como um sucesso crítico."
+                },
+                "RecklessAbandon": {
+                    "Note": "Se rolar uma falha ou falha crítica em uma jogada de salvamento contra um efeito nocivo, trate o resultado como um sucesso."
+                },
+                "TorchGoblin": {
+                    "Note": "Enquanto você estiver sofrendo dano persistente de fogo, todos os seus ataques corpo a corpo contra criaturas adjacentes causam [[/r 1[fire]]]{1 ponto de dano de fogo} adicional por dado de dano da arma."
+                },
+                "ScaldingSpit": {
+                    "BoilingSpit": "Cuspe Escaldante"
+                }
+            },
+            "HalfElf": {
+                "EarnedGlory": {
+                    "Note": "Se rolar uma falha crítica ao Impressionar um elfo, trate o resultado como uma falha."
                 }
             },
             "Halfling": {
@@ -1018,6 +1476,12 @@
                     "GuidingLuck": "Se possuir Sorte Guiada, você ainda pode usar Sorte de Halfling quando falhar em um teste de Percepção ou rolagem de ataque apenas uma vez por dia (embora possa usá-lo na mesma hora que tenha usado Sorte de Halfling).",
                     "SharedLuck": "Se possuir Halfling Útil, ainda pode usar Sorte de Halfling em um aliado em vez de você apenas uma vez por dia."
                 },
+                "Innocuous": {
+                    "Note": "Se falhar em um teste de Dissimulação para Criar uma Distração, criaturas humanoides não ficam cientes de que você está tentando enganá-las a menos que você obtenha uma falha crítica na sua rolagem."
+                },
+                "KeenEyes": {
+                    "Label": "Buscar criatura escondida ou indetectada a até 30 pés"
+                },
                 "SureFeet": {
                     "BalanceNote": "Quando rolar um sucesso em um teste de Acrobatismo para se Equilibrar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar se Equilibrar.",
                     "ClimbNote": "Quando rolar um sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar Escalar."
@@ -1026,6 +1490,21 @@
                     "Base": "Você pode usar Sorte de Halfling quando um aliado a até 30 pés falhar em um teste de perícia ou jogada de salvamento para permitir que o aliado rerrole o teste de perícia em vez de você fazer uma rerrolagem. Como o usual, seu aliado deve usar o novo resultado, mesmo que seja pior que o primeiro.",
                     "GuidingLuck": "Você não pode usar o efeito de Sorte Guiada que se aplique a rolagens de ataque e testes de Percepção para usar Sorte Compartilhada e beneficiar um aliado."
                 }
+            },
+            "Human": {
+                "SaocAstrology": {
+                    "Prompt": "Selecione a penalidade ou bônus de circunstância que você obteve ao usar a ação Astrologia Saoc."
+                },
+                "VikingShieldbearer": {
+                    "Prompt": "Selecione uma arma para se tornar treinado."
+                }
+            },
+            "HuntPrey": {
+                "FirstHitDamage": "Primeiro acerto na Presa Caçada",
+                "FirstHitSwitch": "Acertando Presa Caçada pela primeira vez na rodada",
+                "SeekHuntedPrey": "Para Buscar presa caçada",
+                "TargetHuntedPrey": "Alvo é sua Presa Caçada",
+                "TrackHuntedPrey": "Para Rastrear presa caçada"
             },
             "InCombat": {
                 "ToggleLabel": "Em Combate"
@@ -1047,7 +1526,7 @@
                         "Skill": "Perícia"
                     },
                     "Prompt": {
-                        "Element": "Escolha um elemento."
+                        "Element": "Selecione um elemento."
                     }
                 },
                 "Overflow": {
@@ -1071,12 +1550,25 @@
                 "WeaknessType": "Tipo de Fraqueza"
             },
             "LitAlicornLance": "Lança de Alicórnio está acesa",
+            "LitCandle": "Vela está acesa",
             "LitCandlecap": "Chapéu-vela está aceso",
             "LitFirePoi": "Poi de Fogo está aceso",
             "LitFulminatingSpear": "Lança Fulminante está acesa",
             "LitItem": "{item} está aceso(a)",
+            "LitTorch": "Tocha está acesa",
+            "Lizardfolk": {
+                "GuidedByTheStars": {
+                    "Prompt": "Selecione salvamento ou perícia."
+                }
+            },
+            "MarkForDeath": {
+                "DeceiveMark": "Para usar Dissimulação para Fintar sua Marca",
+                "SeekMark": "Para Buscar sua Marca",
+                "TargetMark": "Alvo está Marcado para Morrer"
+            },
             "Marshal": {
                 "DreadMarshalStance": {
+                    "Title": "Aura Pavorosa de Marechal ",
                     "Note": "Quando você obtém um acerto crítico contra um inimigo com um Golpe, esse inimigo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assutado 1}."
                 }
             },
@@ -1085,8 +1577,14 @@
                     "axe": "Machados Avançados",
                     "bomb": "Bombas Avançadas",
                     "bow": "Arcos Avançados",
+                    "brawling": "Pugilato Avançado",
+                    "club": "Clavas Avançadas",
+                    "dart": "Dardos Avançados",
+                    "firearm": "Armas de Fogo Avançadas",
+                    "flail": "Manguais Avançados",
                     "hammer": "Martelos Avançados",
                     "knife": "Adagas Avançadas",
+                    "pick": "Picaretas Avançadas",
                     "polearm": "Armas de Haste Avançadas",
                     "shield": "Escudos Avançados",
                     "sling": "Fundas Avançadas",
@@ -1098,7 +1596,8 @@
                 "MartialConrasuWeapons": "Armas maciais de Conrasu",
                 "MartialGnollWeapons": "Armas Marciais de Gnoll",
                 "MartialGnomeWeapons": "Armas Marciais de Gnomo",
-                "MartialGoblinWeapons": "Armas Marciais de Goblin"
+                "MartialGoblinWeapons": "Armas Marciais de Goblin",
+                "SimpleMartialBows": "Arcos Simples & Marciais"
             },
             "MechanicalTorch": {
                 "LitCone": "Cone",
@@ -1140,7 +1639,7 @@
                 "Deity": "Escolha uma divindade.",
                 "DeitysDomain": "Escolha um domínio de divindade.",
                 "DragonBreathWeapon": "Escolha um Sopro de Dragão.",
-                "Element": "Escolha um elemento.",
+                "Element": "Selecione um elemento.",
                 "EnergyType": "Escolha um tipo de energia.",
                 "EvolutionFeat": "Escolha seu primeiro Talento de Evolução.",
                 "Feat": "Escolha um talento.",
@@ -1149,6 +1648,7 @@
                 "Form": "Selecione uma forma.",
                 "Item": "Selecione um item.",
                 "Lesson": "Escolha uma lição.",
+                "LevelOneAncestryFeat": "Selecione um talento de ancestralidade de 1º nível.",
                 "LevelOneClassFeat": "Escolha um talento de classe de 1º nível.",
                 "LevelOneOrTwoClassFeat": "Escolha um talento de classe de 1º ou 2º nível.",
                 "Material": "Escolha um material.",
@@ -1167,7 +1667,7 @@
                 "Tradition": "Selecione uma tradição.",
                 "Trait": "Selecione um traço.",
                 "VersatileTrait": "Escolha um tipo de dano versátil.",
-                "UntamedForm": "Escolha um efeito de forma.",
+                "UntamedForm": "Selecione um efeito de forma.",
                 "Weapon": "Escolha um arma.",
                 "WeaponGroup": "Escolha um grupo de arma.",
                 "WeaponOrUnarmed": "Escolha uma arma ou ataque desarmado."
@@ -1198,6 +1698,15 @@
                     "TelekineticRend": "Telekinetic Rend",
                     "ThermalStasis": "Thermal Stasis",
                     "WarpStep": "Warp Step"
+                }
+            },
+            "Ranger": {
+                "HamstringingStrike": {
+                    "Prompt": "Selecione um resultado de acerto."
+                },
+                "HuntersEdge": {
+                    "Prompt": "Selecione uma excelência de caçador.",
+                    "FirstAttack": "Primeiro ataque a presa caçada na rodada"
                 }
             },
             "Rogue": {
@@ -1258,7 +1767,21 @@
                         "Label": "Fraqueza",
                         "Note": "O alvo adquire fraqueza 5 a dano contundente, cortante ou perfurante (à sua escolha). @UUID[Compendium.pf2e.feat-effects.Item.Rgt9hH3W1oh9dvku]{Efeito: Debilitações Viciosas}"
                     }
+                },
+                "EldritchTrickster": {
+                    "Prompt": "Selecione um arquétipo de multiclasse de conjurador de magias."
+                },
+                "Racket": {
+                    "Prompt": "Selecione um esquema."
+                },
+                "TrainSkill": {
+                    "Prompt": "Selecione uma perícia para se tornar treinado."
                 }
+            },
+            "SaveSuccessToCriticalSuccess": {
+                "Fortitude": "Quando rolar um sucesso em um salvamento de Fortitude, trate o resultado como um sucesso crítico.",
+                "Reflex": "Quando rolar um sucesso em um salvamento de Reflexos, trate o resultado como um sucesso crítico.",
+                "Will": "Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico."
             },
             "SaveCriticalFailureToFailure": {
                 "FailureHalfDamage": {
@@ -1267,7 +1790,7 @@
             },
             "SeasonOfGhosts": {
                 "Background": {
-                    "Bitter": "Bitter",
+                    "Bitter": "Amarga",
                     "Family": "Família"
                 }
             },
@@ -1275,9 +1798,14 @@
                 "RollOptionLabel": "Aumente os dados de dano de Bastão de Abrunheiro para 3",
                 "DamageDiceLabel": "Bastão de Abrunheiro (dano aumentado)"
             },
+            "SkillMastery": {
+                "ExpertPrompt": "Selecione uma perícia para se tornar especialista.",
+                "MasterPrompt": "Selecione uma perícia para se tornar mestre."
+            },
             "SneakAttack": "Ataque Furtivo",
             "Sorcerer": {
                 "Bloodline": {
+                    "Prompt": "Selecione uma linhagem.",
                     "BloodMagicDescription": {
                         "Title": "Magia Sanguínea",
                         "Phoenix": "O fogo primal da vida e da morte flui através de você ou de um alvo. Escolha fazer com que você ou um alvo da magia receba Pontos de Vida temporários iguais ao círculo da magia por 1 rodada, ou fazer com que um alvo da magia receba @Damage[@item.level[fire]]{dano de fogo} (se a magia já causa dano de fogo inicial, combine isso com o dano inicial da magia antes de determinar fraquezas e resistências).",
@@ -1290,7 +1818,17 @@
             },
             "SpecialtyCrafting": {
                 "Alchemy": "Alquimia",
-                "Prompt": "Escolha uma especialidade."
+                "Artistry": "Arte",
+                "Blacksmithing": "Ferraria",
+                "Bookmaking": "Fabricação de Livro",
+                "Glassmaking": "Fabricação de Vidro",
+                "Leatherworking": "Couraria",
+                "Pottery": "Cerâmica",
+                "Prompt": "Escolha uma especialidade.",
+                "Shipbuilding": "Construção Naval",
+                "Stonemasonry": "Alvenaria",
+                "Tailoring": "Alfaiataria",
+                "Weaving": "Tecelagem"
             },
             "SpellEffectAnimalFeature": {
                 "CatEyes": "Olhos de Gato",
@@ -1333,6 +1871,9 @@
                 "HeightenedTenth": "Elevada (10º)",
                 "HeightenedThird": "Elevada (3º)"
             },
+            "SpellmastersResilience": {
+                "Prompt": "Selecione uma tradição mágica para ganhar resistência."
+            },
             "SpellRank": {
                 "Eighth": "8° Círculo",
                 "Fifth": "5° Círculo",
@@ -1350,8 +1891,12 @@
                 "Assurance": "Certeza"
             },
             "Suli": {
+                "Dualborn": {
+                    "FirstElement": "Escolha seu primeiro elemento.",
+                    "SecondElement": "Escolha seu segundo elemento."
+                },
                 "ElementalAssault": {
-                    "Prompt": "Escolha um elemento."
+                    "Prompt": "Selecione um elemento."
                 }
             },
             "Swashbuckler": {
@@ -1370,13 +1915,24 @@
                     "Targeting": "Mirada",
                     "Unbalancing": "Desequilibrante"
                 },
-                "Panache": "Você ganha @UUID[Compendium.pf2e.feat-effects.Item.uBJsxCzNhje8m8jj]{Bravata}."
+                "Panache": "Você ganha @UUID[Compendium.pf2e.feat-effects.Item.uBJsxCzNhje8m8jj]{Bravata}.",
+                "Style": {
+                    "Prompt": "Selecione um estilo."
+                }
             },
             "TOTMToggle": {
+                "FirstRangeIncrement": "Habilita habilidades que exigem um alvo dentro do primeiro incremento de alcance.",
+                "Incorporeal": "Habilita habilidades que exigem um alvo incorpóreo",
                 "OffGuard": "Habilita habilidades que exigem um alvo desprevenido",
-                "Prone": "Habilita habilidades que exigem um alvo caído"
+                "Prone": "Habilita habilidades que exigem um alvo caído",
+                "Undead": "Habilita abilities that require an undead target",
+                "Vampire": "Habilita habilidades que exigem um alvo vampiro"
             },
             "Target": {
+                "AgainstDemons": "Contra Demônios",
+                "AgainstDevils": "Contra Diabos",
+                "AgainstHumanoids": "Contra Humanoides",
+                "Necromancer": "Alvo é um necromante",
                 "Metal": "Alvo está usando uma armadura de metal ou é feito de metal"
             },
             "TerrainExpertise": {
@@ -1395,20 +1951,48 @@
                     "Weapon": "Arma"
                 }
             },
+            "TwinnedDefense": {
+                "Prompt": "Você está empunhando uma arma de aparar?"
+            },
+            "TwoHanded": {
+                "BastardSword": "Usar Espada Bastarda com duas mãos",
+                "Broom": "Usar Vassoura com duas mãos",
+                "Cane": "Usar Bengala com duas mãos",
+                "Katana": "Usar Katana com duas mãos",
+                "Staff": "Usar Cajado com duas mãos"
+            },
             "UntamedShift": {
                 "Wings": "Asas"
             },
             "VirtuosicPerformer": {
-                "Prompt": "Selecione um tipo de performance."
+                "Acting": "Atuação",
+                "Comedy": "Comédia",
+                "Dance": "Dança",
+                "Keyboards": "Teclados",
+                "Oratory": "Oratória",
+                "Percussion": "Percussão",
+                "Prompt": "Selecione um tipo de performance.",
+                "Singing": "Canto",
+                "Strings": "Cordas",
+                "Winds": "Sopro"
             },
             "WardMedic": {
                 "Note": "Quando usar Tratar Doença ou Tratar Ferimentos, você pode tratar até dois alvos. Se for mestre em Medicina, você pode tratar até quatro alvos e, se for lendário em Medicina, pode tratar até oito alvos"
+            },
+            "WardenHuman": {
+                "Fortitude": "Especialista em salvamentos de Fortitude",
+                "HitPoints": "4 pontos de vida",
+                "MediumArmor": "Treinado em Armadura Média"
             },
             "Weapon": {
                 "Metal": "Usando uma arma de metal"
             },
             "Witch": {
+                "Cauldron": {
+                    "CraftingEntry": "Caldeirão"
+                },
                 "Patron": {
+                    "Prompt": "Selecione um patrono.",
                     "FamiliarAbility": {
                         "BalancedLuck": {
                             "Title": "Familiar da Sorte Equilibrada",
@@ -1441,44 +2025,68 @@
                     }
                 },
                 "WitchsArmaments": {
-                    "IronTeeth": "Dentes de Ferro"
+                    "EldritchNails": "Unhas Místicas",
+                    "IronTeeth": "Dentes de Ferro",
+                    "LivingHair": "Cabelo Vivo"
                 }
             },
             "Wizard": {
+                "ArcaneSchool": {
+                    "Prompt": "Selecione uma escola arcana."
+                },
+                "ArcaneThesis": {
+                    "Prompt": "Selecione uma tese arcana."
+                },
                 "Spellshape1": {
                     "Prompt": "Selecione um talento moldamagia de mago de 1º nível."
                 },
                 "UnifiedMagicalTheory": {
                     "Prompt": "Selecione um talento de mago de 1º nível."
                 }
+            },
+            "Zombie": {
+                "Deteriorated": "Deteriorado"
             }
         },
         "Terrain": {
-            "Aquatic": "Aquático"
+            "Aquatic": "Aquático",
+            "Forest": "Floresta",
+            "Plains": "Planícies",
+            "Sky": "Céu",
+            "Underground": "Embaixo da terra"
         },
         "UI": {
             "RuleElements": {
                 "ChoiceSet": {
+                    "Decline": "Recusar",
                     "DragHomebrewItem": "Arraste um item caseiro aqui se estiver usando um em vez das opções acima.",
+                    "HomebrewItem": "Item caseiro",
                     "ViewItem": {
                         "Tooltip": "Ver item",
                         "Disabled": "A opção selecionada não possui ficha de item"
                     },
                     "NoLabel": "Não",
+                    "Prompt": "Faça uma escolha.",
+                    "SaveLabel": "Salvar",
                     "SkillLabel": "Perícia",
                     "YesLabel": "Sim"
                 },
                 "EffectTarget": {
                     "Prompt": "Escolha o alvo deste efeito."
                 },
+                "GrantItem": {
+                    "AlreadyHasItem": "{actor} já tem {item}, portanto não foi adicionado novamente."
+                },
                 "MultipleAttackPenalty": {
                     "Breakdown": "PAM ({label})"
                 },
                 "Prompt": {
-                    "NoValidOptions": "{actor} não possui opções válidas para o/a {item}."
+                    "NoSelectionMade": "Nenhuma seleção foi feita: {item} está inativo.",
+                    "NoValidOptions": "{actor} não possui opções válidas para {item}."
                 },
                 "TokenMark": {
-                    "TargetToken": "Mire um token passando o mouse sobre ele e pressionando T. Pressione Escape para cancelar."
+                    "TargetToken": "Mire em um token passando o mouse sobre um deles e pressionando T. Pressione ESC para cancelar.",
+                    "Timeout": "Criação do efeito cancelada por falta de alvo."
                 }
             }
         }
