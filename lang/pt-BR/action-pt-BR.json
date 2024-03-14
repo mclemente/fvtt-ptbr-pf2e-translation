@@ -17,19 +17,20 @@
                         "Label": "CD de Administrar Primeiros Socorros"
                     },
                     "Notes": {
-                        "criticalFailure": "<strong>Falha Crítica</strong> O valor de morrendo da criatura aumenta em 1.",
-                        "success": "<strong>Sucesso</strong> A criatura perde a condição morrendo (mas permanece inconsciente)"
+                        "criticalFailure": "<strong>Falha Crítica</strong> O valor de morte da criatura aumenta em 1.",
+                        "success": "<strong>Sucesso</strong> A criatura perde a condição morrendo (mas permanece inconsciente)."
                     },
                     "Title": "Estabilizar"
                 },
                 "StopBleeding": {
                     "Description": "<p>Faça um teste de Medicina em uma criatura que esteja sofrendo dano de sangramento persistente. A CD geralmente é a CD do efeito que causou o sangramento.</p><p><strong>Sucesso</strong> A criatura se beneficia de uma recuperação assistida com a CD reduzida para ajuda particularmente apropriada.<br><strong >Falha Crítica</strong> A criatura sofre imediatamente uma quantidade de dano igual ao seu dano de sangramento persistente.</p>",
                     "Notes": {
-                        "criticalFailure": "<strong>Falha Crítica</strong> A criatura imediatamente sofre uma quantidade de dano igual ao dano persistente de sangramento dela.",
+                        "criticalFailure": "<strong>Falha Crítica</strong> A criatura sofre imediatamente uma quantidade de dano igual ao seu dano de sangramento persistente.",
                         "success": "<strong>Sucesso</strong> A criatura se beneficia de uma recuperação assistida com a CD reduzida para ajuda particularmente apropriada."
                     },
                     "Title": "Parar Sangramento"
                 },
+                "Title": "Administrar Primeiros Socorros",
                 "Warning": {
                     "TargetNotDying": "A criatura alvo não está morrendo.",
                     "UnknownVariant": "Variante desconhecida {variant} usada para Administrar Primeiros Socorros, use uma das {variants}."
@@ -55,10 +56,10 @@
                     "SizeDifference": "Diferença de Tamanho"
                 },
                 "Notes": {
-                    "NoTarget": "<strong>Diferença de Tamanho</strong> Você sofre –2 de penalidade de circunstância no seu teste caso o alvo seja uma categoria de tamanho maior que você e –4 de penalidade de circunstância caso ele seja maior que isso. Você recebe +2 de bônus de circunstância no seu teste caso o alvo seja uma categoria de tamanho menor qe você e +4 de bônus de circunstância caso ele seja menor que isso.",
+                    "NoTarget": "<strong>Diferença de Tamanho</strong> Você sofre -2 de penalidade de circunstância em seu teste se o alvo for um tamanho maior que você e -4 de penalidade de circunstância se for maior que isso. Você ganha +2 de bônus de circunstância em seu teste se o alvo for um tamanho menor que você e +4 de bônus de circunstância se for ainda menor.",
                     "criticalFailure": "<strong>Falha Crítica</strong> A criatura se liberta e não está mais @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringida} por você.",
                     "criticalSuccess": "<strong>Sucesso Crítico</strong> Você derruba o inimigo e a energia mágica o domina. A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}, torna-se @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada e sofre dano igual a [[/ r 2d6 + @abilities.str.mod # Dano: Arcane Slam]]{2d6 mais seu modificador de Força}. O inimigo não está mais @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido} por você.",
-                    "failure": "<strong>Falhou</strong> Você não pode bater na criatura, mas seu controle sobre a criatura permanece.",
+                    "failure": "<strong>Falha</strong> Você não consegue acertar a criatura, mas seu controle sobre a criatura permanece.",
                     "success": "<strong>Sucesso</strong> Você derruba o inimigo. A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada} e sofre dano igual ao seu [[/r @abilities.str.mod # Damage: Arcane Slam]]{Modificador de Força}. O inimigo não está @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido} por você."
                 },
                 "Title": "Pancada Arcana"
@@ -80,14 +81,14 @@
                     "criticalSuccess": "<strong>Sucesso Crítico</strong> Você torna-se @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Indetectado} pela criatura durante seu movimento e permanece indetectado pela criatura ao fim dele.<br/><br/>Veja a ação @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Esqueirar} para mais detalhes.",
                     "success": "<strong>Successo</strong> Você torna-se @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Indetectado} pela criatura durante seu movimento e permanece indetectado pela criatura ao fim dele.<br/><br/>Veja a ação @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Esgueirar} para mais detalhes."
                 },
-                "Title": "Evitar ser Percebido"
+                "Title": "Evitar Ser Percebido"
             },
             "Balance": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você cai e seu turno se encerra.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você se move até sua Velocidade.",
-                    "failure": "<strong>Falha</strong> Você deve permanecer parado para manter seu equilíbrio (desperdiçando a ação) ou cai. Se cair, seu turno se encerra.",
-                    "success": "<strong>Sucesso</strong> Você se move até sua Velocidade, tratando o local como terreno difícil (cada 1,5 metros custam 3 metros de movimento)."
+                    "criticalFailure": "<b>Falha Crítica</b> Você cai e seu turno se encerra.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para acima de sua velocidade.",
+                    "failure": "<b>Falha</b> Você deve permanecer parado para manter seu equilíbrio (desperdiçando a ação) ou cai. Se cair, seu turno se encerra.",
+                    "success": "<b>Sucesso</b> Você se move até a sua Velocidade, tratando o local como terreno difícil (cada 5 pés custam 10 pés de movimento)."
                 },
                 "SampleTasks": {
                     "Untrained": " raízes emaranhadas, calçada irregular",
@@ -102,7 +103,7 @@
                 "Title": "Comentário Maldoso"
             },
             "Burrow": {
-                "Title": "Escavação"
+                "Title": "Escavar"
             },
             "Climb": {
                 "Description": "<p><strong>Requerimentos</strong> Você tem ambas as mãos livres.</p><hr><p>Você realiza um teste de Atletismo para se mover até 5 pés para cima, para baixo ou através de um terreno inclinado. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} enquanto estiver escalando, a menos que possua uma Velocidade de Escalada. O MJ determina a CD baseado\nna natureza da inclinação e circunstâncias ambientais; você pode conseguir um sucesso crítico em uma inclinação que seja trivial de escalar. Se sua Velocidade em Terra for de 40 pés ou mais, aumente a distância máxima em 5 pés para cada 20 pés de Velocidade acima de 20 pés.</p><p><strong>Sucesso Crítico</strong> Você se move através da inclinação, aumentando a distância em 5 pés.<br><strong>Successo</strong> Você se move através da inclinação.<br><strong>Falha Crítica</strong> Você cai. Se começou a escalar em solo estável, você cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>",
@@ -122,10 +123,10 @@
             },
             "Coerce": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.",
-                    "failure": "<strong>Falha</strong> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.",
-                    "success": "<strong>Sucesso</strong> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos."
+                    "criticalFailure": "<b>Falha Crítica</b> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.",
+                    "failure": "<b>Falha</b> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.",
+                    "success": "<b>Sucesso</b> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos."
                 },
                 "Title": "Coagir"
             },
@@ -133,10 +134,10 @@
                 "Description": "<p>Você dá uma ordem a um animal. Faça um teste de Natureza contra a CD de Vontade do animal. O MJ pode ajustar a CD se o animal possuir uma atitude boa em relação a você, se você sugerir um curso de ação ao qual ele estava predisposto ou se você oferecer um petisco.</p><p>Você falha automaticamente se o animal estiver hostil ou inamistoso para você. Se o animal estiver prestativo para você, aumente seu grau de sucesso em um passo. Você pode ser capaz de Comandar um Animal mais facilmente com um talento como Cavalgar.</p><p>A maioria dos animais conhece as ações básicas Andar, Buscar, Golpear, Levantar e Saltar. Se um animal conhecer uma atividade (como o Galope de um cavalo), você pode Comandar um Animal a realizá-la, mas deve gastar tantas ações em Comandar Animal quanto a quantidade de ações necessárias para o animal realizar a atividade. Você também pode gastar várias ações para Comandar um Animal para ele realizar essa quantidade de ações básicas no próximo turno dele; por exemplo, você poderia gastar 3 ações para Comandar um Animal para que ele Ande três vezes ou Ande duas vezes e depois Golpeie.</p><p><strong>Successo</strong> O animal obedece a seu comando no próximo turno dele.<br><strong>Falha</strong> O animal hesita ou resiste, e não faz nada<br><strong>Falha Crítica</strong> O animal lhe desobedece ou entende errado, e faz alguma outra ação determinada pelo MJ.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> O animal lhe desobedece ou entende errado, e faz alguma outra ação determinada pelo MJ.",
-                    "failure": "<strong>Falha</strong> O animal hesita ou resiste, e não faz nada.",
-                    "success": "<strong>Sucesso</strong> O animal obedece a seu comando no próximo turno dele."
+                    "failure": "<strong>Falha</strong> O animal está hesitante ou resistente, e não faz nada.",
+                    "success": "<strong>Sucesso</strong> O animal faz seu comando no próximo turno dele."
                 },
-                "Title": "Comandar um Animal"
+                "Title": "Comande um Animal"
             },
             "ConcealAnObject": {
                 "Notes": {
@@ -146,23 +147,23 @@
                 "Title": "Ocultar um Objeto"
             },
             "CoverTracks": {
-                "Title": "Cobrir rastros"
+                "Title": "Cobrir Rastros"
             },
             "Craft": {
                 "Details": {
                     "DaysForNoCost": "Dias sem Valor Adicional:",
-                    "Discount": "Desconto por Dia:",
-                    "LostMaterials": "Perde {cost} de Materiais",
-                    "PayFull": "Paga {cost} Valor Total e Manufatura",
-                    "PayMaterials": "Paga {cost} Valor de Material e Manufatura",
-                    "ReceiveItem": "Recebe Item"
+                    "Discount": "Desconto Por Dia:",
+                    "LostMaterials": "Perder {cost} de material",
+                    "PayFull": "Pagar {cost} de custo total e Manufaturar",
+                    "PayMaterials": "Pagar {cost} de materiais e Manufaturar",
+                    "ReceiveItem": "Receber Item"
                 },
                 "Error": {
-                    "ItemReferenceMismatch": "Aceita apenas itens físicos para Manufaturar de um compêndio ou do Diretório de Itens do Mundo."
+                    "ItemReferenceMismatch": "Aceita apenas itens físicos para Manufaturar de um compêndio ou do Diretório de Itens do mundo."
                 },
                 "Information": {
                     "LoseMaterials": "{actorName} perde {cost} de materiais.",
-                    "PayAndReceive": "{actorName} paga {cost} de custos de manufatura e recebe {quantity}x {itemName}.",
+                    "PayAndReceive": "{actorName} paga {cost} de custo de manufatura e recebe {quantity}x {itemName}.",
                     "ReceiveItem": "{actorName} recebe {quantity}x {itemName}."
                 },
                 "Notes": {
@@ -172,21 +173,21 @@
                     "success": "<strong>Sucesso</strong> Sua tentativa é bem-sucedida. Cada dia adicional gasto Manufaturando reduz os materiais necessários para completar o item em uma quantidade baseada em seu nível e sua graduação de proficiência."
                 },
                 "SelectItemDialog": {
-                    "CancelButtonLabel": "Cancela",
+                    "CancelButtonLabel": "Cancelar",
                     "CraftButtonLabel": "Manufaturar",
-                    "DropItemZoneLabel": "Arraste item para cá...",
+                    "DropItemZoneLabel": "Arraste um item para cá...",
                     "Title": "Escolha um item para Manufaturar"
                 },
                 "SelectSpellDialog": {
                     "CraftButtonLabel": "Manufaturar",
-                    "Title": "Escolha Magia"
+                    "Title": "Escolha a Magia"
                 },
                 "Title": "Manufaturar",
                 "Warning": {
-                    "CantAddItem": "Não pode adicionar items",
-                    "InsufficientCoins": "Moedas Insuficientes",
-                    "MissingItem": "Não é possível Manufaturar um item desconhecido com ID {uuid}.",
-                    "NotPhysicalItem": "O item especificado {item} não é um item físico."
+                    "CantAddItem": "Não foi possível adicionar itens",
+                    "InsufficientCoins": "Moedas insuficientes",
+                    "MissingItem": "Incapaz de Manufaturar um item desconhecido com ID {uuid}.",
+                    "NotPhysicalItem": "O item específico {item} não é um item físico."
                 }
             },
             "Crawl": {
@@ -200,7 +201,7 @@
                     "Title": "Gesto"
                 },
                 "Notes": {
-                    "failure": "<strong>Falha</strong> Você não desvia a atenção de quaisquer criaturas que possuírem CD de Percepção maior que o resultado de seu teste, e essas criaturas ficam cientes da tentativa de enganá-las."
+                    "failure": "<b>Falha</b> Você não desvia a atenção de quaisquer criaturas que possuírem CD de Percepção maior que o resultado de seu teste, e essas criaturas ficam cientes da tentativa de enganá-las."
                 },
                 "Title": "Criar uma Distração",
                 "Trick": {
@@ -214,18 +215,18 @@
                 "ForgedDocument": {
                     "Description": "<p>Um observador que tiver sido enganado ao olhar de relance ainda pode examinar os documentos minuciosamente para procurar por uma falsificação, utilizando técnicas diferentes e métodos de análise além dos elementos superficiais que você forjou com sucesso em seu teste original. Nesse caso, o observador pode fazer um teste de @Check[type:perception|dc:{societyDC}] ou @Check[type:society|dc:{societyDC}] contra sua CD de Sociedade (se obtiver sucesso, ele descobre que seu documento é uma falsificação).</p>",
                     "FailureGmNote": "<p>A falsificação possui alguns sinais óbvios de que é uma fraude, portanto, o MJ compara seu resultado de {total} com a CD de Percepção ou Sociedade (o que for maior) de cada observador passivo, usando os resultados de sucesso ou falha abaixo. Uma vez que o MJ tenha rolado seu teste para um documento, esse mesmo resultado é usado contra as CDs de todos os observadores passivos, não importa quantas criaturas observem esse documento passivamente.</p>\n<p>{success}</p>\n<p>{failure}</p>",
-                    "Name": "Forjar Documento",
+                    "Name": "Documento Falsificado",
                     "SuccessGmNote": "<p>A falsificação é de qualidade boa o suficiente para que observadores passivos não percebam a fraude. Somente aqueles que examinarem cuidadosamente o documento e realizarem um teste de @Check[type:perception|dc:{societyDC}|showDC:gm] ou @Check[type:society|dc:{societyDC}|showDC:gm] contra sua CD de Sociedade podem detectar a falsificação.</p>"
                 },
-                "ForgedDocumentCreatedNotification": "Um documento forjado foi adicionado ao inventário de {name}.",
+                "ForgedDocumentCreatedNotification": "Um documento falsificado foi adicionado ao inventário de {name}.",
                 "Notes": {
-                    "criticalFailure": "<strong>Falha</strong>  O observador descobre que seu documento é uma falsificação.",
+                    "criticalFailure": "<strong>Falha</strong> O observador descobre que seu documento é uma falsificação.",
                     "criticalSuccess": "<strong>Sucesso</strong> O observador não detecta a falsificação.",
-                    "failure": "<strong>Falha</strong>  O observador descobre que seu documento é uma falsificação.",
+                    "failure": "<strong>Falha</strong> O observador descobre que seu documento é uma falsificação.",
                     "success": "<strong>Sucesso</strong> O observador não detecta a falsificação."
                 },
                 "Title": "Criar Falsificação",
-                "UnspecificHandwriting": "Caligrafia Inespecífica"
+                "UnspecificHandwriting": "Caligrafia não específica"
             },
             "DecipherWriting": {
                 "Notes": {
@@ -282,22 +283,22 @@
                 "Title": "Ganhar Proventos"
             },
             "EncouragingWords": {
-                "BadArgs": "Esta ação deve ser realizada com exatamente um personagem ou NPC.",
-                "Cancel": "Cancela",
+                "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
+                "Cancel": "Cancelar",
                 "ContentLabel1": "CD de Diplomacia:",
                 "ContentLabel2": "Modificador de CD:",
-                "ContentMain": "Selecione um CD alvo. Lembre-se de que você não pode tentar uma cura acima de sua proficiência. Tentar fazer isso rebaixará a CD e a quantidade curada para o máximo que você for capaz.",
+                "ContentMain": "Selecione uma CD alvo. Lembre-se que você não pode tentar uma cura acima da sua proficiência. Tentar fazer isso diminuirá a CD e a quantidade curada ao mais elevado do qual você é capaz.",
                 "ContentOption1": "Treinado CD 15",
-                "ContentOption2": "Especialista CD 20, +5 Estamina",
-                "ContentOption3": "Mestre CD 30, +15 Estamina",
-                "ContentOption4": "Lendário CD 40, +25 Estamina",
+                "ContentOption2": "Especialista CD 20, +5 de Estamina",
+                "ContentOption3": "Mestre CD 30, +15 de Estamina",
+                "ContentOption4": "Lendário CD 40, +25 de Estamina",
                 "CritFailure": "Falha Crítica",
                 "CritSuccess": "Sucesso Crítico",
                 "Damage": "Dano",
                 "Failure": "Falha",
-                "NotTrained": "{name} não é treinado em Diplomacia e não sabe usar Palavras Encorajadoras.",
+                "NotTrained": "{name} não é treinado em Diplomacia e não sabe como usar Palavras Encorajadoras.",
                 "Recovery": "Recuperação de Estamina",
-                "StaminaNotEnabled": "A variante de estamina não está habilitada.",
+                "StaminaNotEnabled": "A variante de Estamina não está habilitada.",
                 "Success": "Sucesso",
                 "Title": "Palavras Encorajadoras"
             },
@@ -324,10 +325,10 @@
                 "Title": "Voar"
             },
             "ForceOpen": {
-                "NoCrowbarPenalty": "Sem Pé-de-cabra",
+                "NoCrowbarPenalty": "Sem pé de cabra",
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Sua tentativa emperra a porta, janela, recipiente ou portão, impondo –2 de penalidade de circunstância em tentativas futuras de Forçá-lo.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
+                    "criticalFailure": "<b>Falha Crítica</b> Sua tentativa emperra a porta, janela, recipiente ou portão, impondo –2 de penalidade de circunstância em tentativas futuras de Forçá-lo.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
                 },
                 "SampleTasks": {
                     "Untrained": "tecido, vidro frágil",
@@ -340,8 +341,8 @@
             },
             "GatherInformation": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você coleta informações incorretas sobre o indivíduo ou tópico.",
-                    "success": "<strong>Sucesso</strong> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades."
+                    "criticalFailure": "<b>Falha crítica</b> Você coleta informações incorretas sobre o indivíduo ou tópico.",
+                    "success": "<b>Sucesso</b> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades."
                 },
                 "SampleTasks": {
                     "Untrained": "fofoca atual",
@@ -378,9 +379,9 @@
             },
             "Impersonate": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> A criatura note que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce.",
-                    "failure": "<strong>Falha</strong> A criatura nota que você não é quem afirma ser.",
-                    "success": "<strong>Sucesso</strong> Você leva a criatura a pensar que você é a pessoa em que está disfarçada. Você pode ter de fazer um novo teste se seu comportamento mudar."
+                    "criticalFailure": "<b>Falha Crítica</b> A criatura nota que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce.",
+                    "failure": "<b>Falha</b> A criatura nota que você não é quem afirma ser.",
+                    "success": "<b>Sucesso</b> Você leva a criatura a pensar que você é a pessoa em que está disfarçada. Você pode ter de fazer um novo teste se seu comportamento mudar."
                 },
                 "Title": "Personificar"
             },
@@ -389,40 +390,40 @@
                     "Title": "Sacar"
                 },
                 "Draw1H": {
-                    "Description": "{actor} saca o(a) {weapon} dele(a).",
+                    "Description": "{actor} saca {weapon}.",
                     "Title": "Sacar (1M)"
                 },
                 "Draw2H": {
-                    "Description": "{actor} saca o(a) {weapon} dele(a).",
+                    "Description": "{actor} saca {weapon}.",
                     "Title": "Sacar (2M)"
                 },
                 "Grip": {
-                    "Description": "{actor} segura o(a) {weapon} dele(a) com duas mãos.",
-                    "Title": "Mudar Pegada (2M)"
+                    "Description": "{actor} empunhe {weapon} com as duas mãos.",
+                    "Title": "Trocar Empunhadura (2M)"
                 },
                 "Modular": {
                     "Title": "Modular"
                 },
                 "Parenthetical": "Interagir {purpose}",
                 "PickUp1H": {
-                    "Description": "{actor} pega o(a) {weapon} do chão.",
-                    "Title": "Pegar (1M)"
+                    "Description": "{actor} apanha {weapon} do chão.",
+                    "Title": "Apanhar (1M)"
                 },
                 "PickUp2H": {
-                    "Description": "{actor} pega o(a) {weapon} do chão.",
-                    "Title": "Pegar (2M)"
+                    "Description": "{actor} apanha {weapon} do chão.",
+                    "Title": "Apanhar (2M)"
                 },
                 "Retrieve1H": {
-                    "Description": "{actor} recupera o(a) {weapon} dele(a).",
-                    "Title": "Recuperar (1M)"
+                    "Description": "{actor} pega {weapon}.",
+                    "Title": "Pegar (1M)"
                 },
                 "Retrieve2H": {
-                    "Description": "{actor} recupera o(a) {weapon} dele(a).",
-                    "Title": "Recuperar (1M)"
+                    "Description": "{actor} pega {weapon}.",
+                    "Title": "Pegar (1M)"
                 },
                 "Sheathe": {
-                    "Description": "{actor} embainha o(a) {weapon} dele(a).",
-                    "Title": "Embainhar"
+                    "Description": "{actor} guarda {weapon}.",
+                    "Title": "Guardar"
                 },
                 "Title": "Interagir"
             },
@@ -430,17 +431,17 @@
                 "Title": "Saltar"
             },
             "LearnASpell": {
-                "Title": "Aprender uma Magia"
+                "Title": "Aprenda uma Magia"
             },
             "Lie": {
                 "Notes": {
-                    "failure": "<strong>Falha</strong> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro.",
-                    "success": "<strong>Sucesso</strong> O alvo acredita em sua mentira."
+                    "failure": "<b>Falha</b> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro.",
+                    "success": "<b>Sucesso</b> O alvo acredita em sua mentira."
                 },
                 "Title": "Mentir"
             },
             "LongJump": {
-                "Title": "Salto em distância"
+                "Title": "Salto em Distância"
             },
             "LowerShield": {
                 "Content": "{actor} abaixa seu {shield}.",
@@ -449,17 +450,17 @@
             },
             "MakeAnImpression": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.",
-                    "success": "<strong>Sucesso</strong> A atitude do alvo em relação a você melhora em um passo."
+                    "criticalFailure": "<b>Falha Crítica</b> A atitude do alvo em relação a você piora em um passo.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> A atitude do alvo em relação a você melhora em dois passos.",
+                    "success": "<b>Sucesso</b> A atitude do alvo em relação a você melhora em um passo."
                 },
                 "Title": "Impressionar"
             },
             "ManeuverInFlight": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas a consequência é bem pior.",
-                    "failure": "<strong>Falha</strong> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
-                    "success": "<strong>Sucesso</strong> Você obtém sucesso na manobra."
+                    "criticalFailure": "<b>Falha Crítica</b> Como falha, mas a consequência é bem pior.",
+                    "failure": "<b>Falha</b> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
+                    "success": "<b>Sucesso</b> Você obtém sucesso na manobra."
                 },
                 "SampleTasks": {
                     "Trained": "subida ou descida íngreme",
@@ -467,7 +468,7 @@
                     "Master": " inverter sua direção",
                     "Legendary": "voar através de um vendaval"
                 },
-                "Title": "Manobrar em Vôo"
+                "Title": "Manobrar em Voo"
             },
             "Mount": {
                 "Title": "Montar"
@@ -477,13 +478,13 @@
                     "failure": "<strong>Falha</strong> A criatura percebe você Empalmando o Objeto e o MJ determina a resposta dela a isso.",
                     "success": "<strong>Sucesso</strong> A criatura não percebe você Empalmando o Objeto."
                 },
-                "Title": "Empalmar um Objeto"
+                "Title": "Empalmar Um Objeto"
             },
             "Perform": {
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você demonstra somente incompetência.",
                     "criticalSuccess": "<strong>Sucesso Crítico</strong> Sua performance impressiona os observadores e eles provavelmente compartilharão histórias de sua habilidade.",
-                    "failure": "<strong>Falha</strong> Sua performance passa despercebida.",
+                    "failure": "<strong>Falha</strong> Sua performance passa despercebida",
                     "success": "<strong>Sucesso</strong> Você se prova, e observadores apreciam a qualidade de sua performance."
                 },
                 "SampleTasks": {
@@ -493,11 +494,26 @@
                     "Master": "audiência de alta nobreza ou baixa realeza",
                     "Legendary": "audiência de alta realeza ou seres de outros mundos"
                 },
+                "Acting": {
+                    "Title": "Atuação"
+                },
+                "Comedy": {
+                    "Title": "Comédia"
+                },
+                "Dance": {
+                    "Title": "Dança"
+                },
                 "Keyboards": {
                     "Title": "Tocar um instrumento de teclado"
                 },
+                "Oratory": {
+                    "Title": "Oratória"
+                },
                 "Percussion": {
                     "Title": "Tocar um instrumento de percussão"
+                },
+                "Singing": {
+                    "Title": "Canto"
                 },
                 "Strings": {
                     "Title": "Tocar um instrumento de cordas"
@@ -507,13 +523,13 @@
                 },
                 "Title": "Performar",
                 "Warning": {
-                    "UnknownVariant": "Variante desconhecida '{variant}' usada para Performar, use atuação, comédia, dança, teclado, oratória, percussão, canto, cordas ou sopros."
+                    "UnknownVariant": "Variante desconhecida '{variant}' usada para Performance, use atuação, comédia, dança, teclado, oratória, percussão, canto, cordas ou sopros."
                 }
             },
             "PickALock": {
                 "Notes": {
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
-                    "success": "<strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
+                    "success": "<b>Sucesso</b> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
                 },
                 "Title": "Abrir uma Fechadura"
             },
@@ -521,12 +537,13 @@
                 "Title": "Apontar"
             },
             "RaiseAShield": {
-                "BadArgs": "Esta ação deve ser realizada com exatamente um personagem ou NPC.",
+                "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
                 "Content": "{actor} ergue seu escudo.",
-                "NoShieldEquipped": "{actor} precisa ter um escudo equipado.",
+                "Description": "<p>Você posiciona seu escudo para se proteger. Quando tiver Erguido um Escudo, você recebe o bônus de circunstância dele na CA. Seu escudo permanece erguido até o início de seu próximo turno.</p>",
+                "NoShieldEquipped": "{actor} deve ter um escudo equipado.",
                 "ReactionTitle": "Escudo Reativo",
-                "ShieldIsBroken": "O {shield} do {actor} está quebrado.",
-                "ShieldIsDestroyed": "O {shield} do {actor} está destruído.",
+                "ShieldIsBroken": "O {shield} de {actor} está quebrado.",
+                "ShieldIsDestroyed": "O {shield} de {actor} foi destruído.",
                 "ShortTitle": "Erguer",
                 "SingleActionTitle": "Erguer um Escudo",
                 "Title": "Erguer um Escudo"
@@ -556,30 +573,30 @@
             },
             "Release": {
                 "Drop": {
-                    "Description": "{actor} larga o(a) {weapon} dele(a) no chão.",
-                    "Title": "Soltar"
+                    "Description": "{actor} solta sua/seu {weapon} no chão.",
+                    "Title": "Largar"
                 },
                 "Grip": {
-                    "Description": "{actor} remove uma mão do(a) {weapon} dele(a).",
-                    "Title": "Mudar Pegada (1M)"
+                    "Description": "{actor} solta uma mão de sua/seu {weapon}.",
+                    "Title": "Trocar Empunhadura (1M)"
                 },
-                "Title": "Release"
+                "Title": "Soltar"
             },
             "Repair": {
                 "Chat": {
-                    "ItemDamaged": "{itemName} tomou {damageDealt} pontos de dano para um total de {afterDamageHitPoints} dos {maximumHitPoints} pontos de vida.",
-                    "ItemRepaired": "{itemName} for reparado em {repairedDamage} pontos de dano para um total de {afterRepairHitPoints} dos {maximumHitPoints} pontos de vida."
+                    "ItemDamaged": "{itemName} recebeu {damageDealt} pontos de dano, totalizando {afterDamageHitPoints} de {maximumHitPoints} pontos de vida.",
+                    "ItemRepaired": "{itemName} foi reparado em {repairedDamage} pontos de dano, totalizando {afterRepairHitPoints} de {maximumHitPoints} pontos de vida."
                 },
                 "Error": {
-                    "ItemReferenceMismatch": "Só aceita itens físicos parar ser Reparado por um ator."
+                    "ItemReferenceMismatch": "Aceita apenas itens físicos para Reparar de um ator."
                 },
                 "Labels": {
-                    "DamageMitigatedByHardness": "A falha crítica na tentativa de Reparo não causou dano ao item devido à dureza.",
-                    "DealItemDamage": "Causa {value} de dano ao item",
+                    "DamageMitigatedByHardness": "A tentativa de Reparo que falhou criticamente não causou dano ao item devido à sua dureza.",
+                    "DealItemDamage": "Causa {value} de dano no item",
                     "Hardness": "Dureza",
-                    "ItemLevelRepairDC": "CD de reparo do Item  de nível {level}",
-                    "RestoreItemHitPoints": "Restaura {value} Pontos de vida para o item",
-                    "RollItemDamage": "Rolou {value} de dano"
+                    "ItemLevelRepairDC": "CD de reparo de item de nível {level}",
+                    "RestoreItemHitPoints": "Restaura {value} pontos de vida do item",
+                    "RollItemDamage": "Rola {value} de dano"
                 },
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você causa 2d6 de dano ao item. Aplique a Dureza do item a este dano.",
@@ -587,14 +604,14 @@
                     "success": "<strong>Sucesso</strong> Você restaura 5 Pontos de Vida ao item, mais 5 Pontos de Vida adicionais por graduação de proficiência que possuir em Manufatura (um total de 10 PV se for treinado, 15 PV se for especialista, 20 PV se for mestre ou 25 PV se for lendário)."
                 },
                 "SelectItemDialog": {
-                    "CancelButtonLabel": "Cancela",
-                    "DropItemZoneLabel": "Arraste item para cá...",
+                    "CancelButtonLabel": "Cancelar",
+                    "DropItemZoneLabel": "Arraste um item para cá...",
                     "RepairButtonLabel": "Reparar",
-                    "Title": "Escolha um item para Reparar"
+                    "Title": "Selecione o item para reparar"
                 },
                 "Title": "Reparar",
                 "Warning": {
-                    "NotPhysicalItem": "O item especificado {item} não é um item físico."
+                    "NotPhysicalItem": "O item específico {item} não é um item físico."
                 }
             },
             "Reposition": {
@@ -608,10 +625,10 @@
             },
             "Request": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Não apenas o alvo recusa o pedido, como a atitude dele em relação a você piora em um passo devido à temeridade do pedido.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo concorda com seu pedido sem exigências.",
-                    "failure": "<strong>Falha</strong> O alvo recusa o pedido, embora possa propor uma alternativa que pareça menos extrema.",
-                    "success": "<strong>Sucesso</strong> O alvo concorda com seu pedido, mas pode demandar provisões adicionais ou alterações no pedido."
+                    "criticalFailure": "<b>Falha Crítica</b> Não apenas o alvo recusa o pedido, como a atitude dele em relação a você piora em um passo devido à temeridade do pedido.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo concorda com seu pedido sem exigências.",
+                    "failure": "<b>Falha</b> O alvo recusa o pedido, embora possa propor uma alternativa que pareça menos extrema.",
+                    "success": "<b>Sucesso</b> O alvo concorda com seu pedido, mas pode demandar provisões adicionais ou alterações no pedido."
                 },
                 "Title": "Pedir"
             },
@@ -620,7 +637,7 @@
             },
             "SenseDirection": {
                 "Modifier": {
-                    "NoCompass": "Sem Bússola"
+                    "NoCompass": "Sem bússola"
                 },
                 "Notes": {
                     "criticalSuccess": "<strong>Sucesso Crítico</strong> Você obtém uma noção excelente de sua localização. Se estiver em um ambiente com direções cardinais, você as aponta com exatidão.",
@@ -637,10 +654,10 @@
             },
             "SenseMotive": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você obtém uma falsa noção das intenções da criatura.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você determina as verdadeiras intenções da criatura e obtém uma ideia concreta de qualquer magia mental que esteja afetando-a.",
-                    "failure": "<strong>Falha</strong> Você detecta o que uma criatura que está lhe enganando quer que você acredite. Se ela não estiver tentando lhe enganar, você acredita que ela está se comportando normalmente.",
-                    "success": "<strong>Sucesso</strong> Você consegue determinar se a criatura está se comportando normalmente ou não, mas não descobre exatamente quais as intenções dela ou qual magia pode estar afetando-a."
+                    "criticalFailure": "<b>Falha Crítica</b> Você obtém uma falsa noção das intenções da criatura.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você determina as verdadeiras intenções da criatura e obtém uma ideia concreta de qualquer magia mental que esteja afetando-a.",
+                    "failure": "<b>Falha</b> Você detecta o que uma criatura que está lhe enganando quer que você acredite. Se ela não estiver tentando lhe enganar, você acredita que ela está se comportando normalmente.",
+                    "success": "<b>Sucesso</b> Você consegue determinar se a criatura está se comportando normalmente ou não, mas não descobre exatamente quais as intenções dela ou qual magia pode estar afetando-a."
                 },
                 "Title": "Sentir Motivação"
             },
@@ -657,17 +674,17 @@
             },
             "Sneak": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você é visto! Você é observado pela criatura durante todo seu movimento e permanece assim. Se estiver invisível e estava escondido da criatura, em vez de ser observado durante seu movimento, você fica escondido durante todo seu movimento e permanece assim.",
+                    "criticalFailure": "<b>Falha Crítica</b> Você é visto! Você é observado pela criatura durante todo seu movimento e permanece assim. Se estiver invisível e estava escondido da criatura, em vez de ser observado durante seu movimento, você fica escondido durante todo seu movimento e permanece assim.",
                     "failure": "<b>Falha</b> Um som revelador ou outro sinal indica sua posição, embora você permaneça escondido. Você fica escondido da criatura durante todo seu movimento e permanece assim",
-                    "success": "<strong>Sucesso</strong> Você fica indetectado pela criatura durante seu movimento e permanece indetectado pela criatura ao final dele."
+                    "success": "<b>Sucesso</b> Você fica indetectado pela criatura durante seu movimento e permanece indetectado pela criatura ao final dele."
                 },
                 "Title": "Esgueirar"
             },
             "Squeeze": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo contra a mesma CD. Qualquer resultado nesse teste diferente de uma falha crítica faz com que deixe de estar preso.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você se espreme através do espaço apertado em 1 minuto para cada 3 metros atravessados.",
-                    "success": "<strong>Sucesso</strong> Você se espreme por 1 minuto para cada 1,5 metros."
+                    "criticalFailure": "<b>Falha Crítica</b> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo contra a mesma CD. Qualquer resultado nesse teste diferente de uma falha crítica faz com que deixe de estar preso.",
+                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se espreme através do espaço apertado em 1 minuto para cada 10 pés atravessados.",
+                    "success": "<b>Sucesso</b> Você se espreme por 1 minuto para cada 5 pés."
                 },
                 "SampleTasks": {
                     "Trained": "espaço mal cabe seus ombros",
@@ -684,20 +701,20 @@
                     "failure": "<strong>Falha</strong> O portador do item percebe sua tentativa antes de você conseguir pegar o objeto, ou um observador vê que você pega ou tenta pegar o item. O MJ determina a resposta de qualquer criatura que perceber seu roubo.",
                     "success": "<strong>Sucesso</strong> Você furta o objeto sem o portador perceber, ou um observador não vê que você pega ou tenta pegar o item."
                 },
-                "Pocketed": "Objeto embolsado ou protegido",
+                "Pocketed": "Objeto em um bolso ou protegido",
                 "Title": "Furtar"
             },
             "SteelYourResolve": {
-                "BadArgs": "Esta ação deve ser realizada com exatamente um personagem ou NPC.",
+                "BadArgs": "Essa ação deve ser realizada com exatamente um personagem ou PdM.",
                 "Content": "Gastar um ponto de determinação e recuperar estamina?",
-                "NoStamina": "{name} está cansado e precisa ir para a cama! Nenhum ponto de determinação restante.",
-                "RecoverStamina": "{name} tem {ratio} SP e gasta um ponto de determinação, recuperando metada da Estamina máxima.",
-                "StaminaNotEnabled": "A variante de estamina não está habilitada.",
-                "Title": "Determinação de Aço"
+                "NoStamina": "{name} está cansado(a) e precisa ir para a cama! Não há pontos de determinação sobrando.",
+                "RecoverStamina": "{name} possui {ratio} PE e gasta um ponto de determinação, recuperando metade da sua Estamina máxima.",
+                "StaminaNotEnabled": "A variante de Estamina não está habilitada.",
+                "Title": "Cerrar os Dentes"
             },
             "Step": {
                 "Description": "<p>Você se move 1,5 metros cuidadosamente. Ao contrário da maioria dos tipos de movimento, Dar um Passo não aciona reações que podem ser acionadas por ações de movimento ou ao sair ou entrar em um quadrado (tal como Ataques de Oportunidade).</p><p>Você não pode Dar um Passo em terreno difícil nem utilizando uma Velocidade diferente de sua Velocidade em terra.</p>",
-                "Title": "Dar um Passo"
+                "Title": "Dar Um Passo"
             },
             "Stride": {
                 "Description": "<p>Você se move até sua Velocidade.</p>",
@@ -727,7 +744,7 @@
                 },
                 "Title": "Subsistir",
                 "Warning": {
-                    "NoSkill": "A ação Subsistir pode ser usada com diferentes habilidades e nenhuma habilidade foi especificada. Isso normalmente usa Sociedade se você estiver em um assentamento ou Sobrevivência se estiver em estado selvagem."
+                    "NoSkill": "A ação Subsistir pode ser usada com diferentes perícias e nenhuma perícia foi especificada. Isto normalmente utiliza Sociedade se você estiver em um assentamento ou Sobrevivência se estiver nos ermos."
                 }
             },
             "Sustain": {
@@ -782,28 +799,29 @@
                 "Title": "Tratar Veneno"
             },
             "TreatWounds": {
-                "Content": "Selecione um CD alvo. Lembre-se de que você não pode tentar uma cura acima de sua proficiência. Tentar fazer isso rebaixará a CD e a quantidade curada para o máximo que você for capaz.",
+                "Content": "Selecione uma CD alvo. Lembre-se que você não pode tentar uma cura acima da sua proficiência. Tentar fazer isso diminuirá a CD e a quantidade curada ao mais elevado do qual você é capaz.",
                 "DC": {
-                    "Expert": "Especialista CD 20, +10 Cura",
-                    "Legendary": "Lendário CD 40, +50 Cura",
-                    "Master": "Mestre CD 30, +30 Cura",
+                    "Expert": "Especialista CD 20, +10 de cura",
+                    "Legendary": "Lendário CD 40, +50 de cura",
+                    "Master": "Mestre CD 30, +30 de cura",
                     "Mod": "Modificador de CD",
                     "Trained": "Treinado CD 15"
                 },
                 "Error": "Token {name} não tem a perícia {skill}",
                 "Feats": {
-                    "MortalHealing": "Cura Mortal"
+                    "MortalHealing": "Cura Mortal",
+                    "RiskySurgery": "Cirurgia Arriscada"
                 },
                 "Label": "Tratar Ferimentos",
                 "Rolls": {
-                    "RiskySurgery": "Rolar Dano: Cirurgia Arriscada",
-                    "TreatWounds": "Rolar Cura: Tratar Ferimentos",
-                    "TreatWoundsCriticalFailure": "Rolar Dano: Tratar Ferimentos"
+                    "RiskySurgery": "Rolagem de Dano: Cirurgia Arriscada",
+                    "TreatWounds": "Rolagem de Cura: Tratar Ferimentos",
+                    "TreatWoundsCriticalFailure": "Rolagem de Dano: Tratar Ferimentos"
                 },
                 "SkillSelect": "Perícia de Tratar Ferimentos"
             },
             "Trip": {
-                "Description": "<p>Você tenta derrubar um oponente no chão. Faça um teste de Atletismo contra a CD de Reflexos dele.</p><p><strong>Sucesso Crítico</strong> O alvo cai, fica prostrado e sofre 1d6 de dano contundente.<br><strong>Sucesso</strong> O alvo cai e fica prostrado.<br><strong>Falha Crítica</strong> Você perde o equilíbrio, cai e fica prostrado.</p>",
+                "Description": "<p>Você tenta derrubar um oponente no chão. Faça um teste de Atletismo contra a CD de Reflexos dele.</p><p><strong>Sucesso Crítico</strong> O alvo cai, fica prostrado e sofre 1d6 de dano contundente.<br><strong>Sucesso</strong> O alvo cai e fica prostrado.<br><strong>Falha Crítica</strong> Você perde o equilíbrio e cai e fica prostrado.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio, cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
                     "criticalSuccess": "<strong>Sucesso crítico</strong> O alvo cai, fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} e sofre @Damage[1d6[bludgeoning]]{1d6 de dano contundente}.",
@@ -813,8 +831,8 @@
             },
             "TumbleThrough": {
                 "Notes": {
-                    "failure": "<strong>Falha</strong> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.",
-                    "success": "<strong>Sucesso</strong> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 1,5 metros custam 3 metros de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
+                    "failure": "<b>Falha</b> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.",
+                    "success": "<b>Sucesso</b> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 10 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
                 },
                 "Title": "Atravessar Acrobaticamente"
             },
@@ -835,7 +853,7 @@
             "diplomacy": "Teste de Diplomacia",
             "fortitude": "Salvamento de Fortitude",
             "intimidation": "Teste de Intimidação",
-            "medicine": "Testa de Medicina",
+            "medicine": "Teste de Medicina",
             "nature": "Teste de Natureza",
             "occultism": "Teste de Ocultismo",
             "perception": "Teste de Percepção",
@@ -856,11 +874,11 @@
             "Title": "Exemplos de tarefas de {action}"
         },
         "ActionsWarning": {
-            "NoActor": "Seleciona pelo menos um token antes de rolar, ou atribua um personagem padrão.",
-            "NoStatistic": "O ator {name} ({id}) não tem uma estatística para {statistic}.",
+            "NoActor": "Selecione pelo menos um token antes de rolar, ou atribua um personagem padrão.",
+            "NoStatistic": "O ator {name} ({id}) não possui uma estatística para {statistic}.",
             "Variants": {
-                "None": "Ação '{action}' não tem variantes, mas a variante '{variant}' foi solicitada.",
-                "Multiple": "Ação '{action}' tem múltiplas variantes, mas nenhuma variante foi solicitada.",
+                "None": "A ação '{action}' não tem variantes, mas a variante '{variant}' foi solicitada.",
+                "Multiple": "A ação '{action}' tem diversas variantes, mas nenhuma variante foi solicitada.",
                 "Nonexistent": "A variante especificada '{variant}' não existe para a ação '{action}'"
             }
         }
