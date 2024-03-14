@@ -61,17 +61,17 @@
         "AbilityStr": "Força",
         "AbilityTitle": "Atributo",
         "AbilityWis": "Sabedoria",
-        "AccessoryPropertyRuneCalled": "Called",
+        "AccessoryPropertyRuneCalled": "Chamada",
         "AccessoryPropertyRuneDragonsBreath": "Dragon's Breath",
         "AccessoryPropertyRuneGreaterPaired": "Greater Paired",
         "AccessoryPropertyRuneGreaterWindCatcher": "Greater Wind-Catcher",
         "AccessoryPropertyRuneMajorPaired": "Major Paired",
-        "AccessoryPropertyRunePaired": "Paired",
-        "AccessoryPropertyRunePresentable": "Presentable",
-        "AccessoryPropertyRuneSnagging": "Snagging",
-        "AccessoryPropertyRuneSoftLanding": "Soft-Landing",
+        "AccessoryPropertyRunePaired": "Pareada",
+        "AccessoryPropertyRunePresentable": "Apresentável",
+        "AccessoryPropertyRuneSnagging": "Agarrante",
+        "AccessoryPropertyRuneSoftLanding": "Pouso Suave",
         "AccessoryPropertyRuneSpellBastion": "Spell-Bastion",
-        "AccessoryPropertyRuneWindCatcher": "Wind-Catcher",
+        "AccessoryPropertyRuneWindCatcher": "Apanhadora de Vento",
         "Action": {
             "RestForTheNight": {
                 "Label": "Descançar à Noite",
@@ -327,6 +327,7 @@
                     "kaava": "Kaava",
                     "kashrishi": "Kashrishi",
                     "kelish": "Kelishiano",
+                    "kholo": "Kholo",
                     "kibwani": "Kibwani",
                     "kitsune": "Kitsune",
                     "kovintal": "Kovintal",
@@ -352,6 +353,7 @@
                     "razatlani": "Razatlani",
                     "requian": "Requiano",
                     "russian": "Russo",
+                    "sakvroth": "Sakvroth",
                     "samsaran": "Samsaran",
                     "sasquatch": "Sasquatch",
                     "senzar": "Senzar",
@@ -390,7 +392,7 @@
                         "Precise": "Preciso",
                         "Vague": "Vago"
                     },
-                    "Label": "Sentido",
+                    "Label": "Sentidos",
                     "NoRangeLimit": "Sem Limite",
                     "NoVision": "Sem visão",
                     "Plural": "Sentidos",
@@ -405,8 +407,9 @@
                         "LowLightVision": "Visão na Penumbra",
                         "MotionSense": "Sentido de movimento",
                         "Scent": "Faro",
+                        "SeeInvisibility": "Ver o Invisível",
                         "Spiritsense": "Sentido espiritual",
-                        "Thoughtsense": "Sentido de Pensamento",
+                        "Thoughtsense": "Sentido de pensamentos",
                         "Tremorsense": "Sentido Sísmico",
                         "Truesight": "Visão verdadeira",
                         "Vision": "Visão",
@@ -515,7 +518,7 @@
                 "Label": "Velocidade",
                 "LabelFeet": "Velocidade (pés)",
                 "Type": {
-                    "Burrow": "Escavação",
+                    "Burrow": "Escavar",
                     "Climb": "Escalar",
                     "Fly": "Voar",
                     "Label": "Velocidade {type}",
@@ -666,6 +669,7 @@
             "Label": "Área",
             "Shape": {
                 "burst": "explosão",
+                "cone": "cone",
                 "cube": "cubo",
                 "cylinder": "cilindro",
                 "emanation": "emanação",
@@ -704,9 +708,9 @@
         "ArmorPropertyRuneAimAiding": "Auxíliante à Mira",
         "ArmorPropertyRuneAntimagic": "Antimagia",
         "ArmorPropertyRuneAssisting": "Ajudante",
-        "ArmorPropertyRuneBitter": "Bitter",
+        "ArmorPropertyRuneBitter": "Amarga",
         "ArmorPropertyRuneColdResistant": "Resistente ao Frio",
-        "ArmorPropertyRuneDeathless": "Deathless",
+        "ArmorPropertyRuneDeathless": "Imortal",
         "ArmorPropertyRuneElectricityResistant": "Resistente a Eletricidade",
         "ArmorPropertyRuneEnergyAdaptive": "Energia Adaptativa",
         "ArmorPropertyRuneEthereal": "Etérea",
@@ -722,16 +726,18 @@
         "ArmorPropertyRuneGreaterFireResistant": "Resistência ao Fogo (Maior)",
         "ArmorPropertyRuneGreaterFortification": "Fortificação (Maior)",
         "ArmorPropertyRuneGreaterInvisibility": "Invisibilidade (Maior)",
+        "ArmorPropertyRuneGreaterQuenching": "Extintora Maior",
         "ArmorPropertyRuneGreaterReady": "Aprestada Maior",
         "ArmorPropertyRuneGreaterShadow": "Sombras (Maior)",
         "ArmorPropertyRuneGreaterSlick": "Escorregadia (Maior)",
         "ArmorPropertyRuneGreaterStanching": "Greater Stanching",
         "ArmorPropertyRuneGreaterWinged": "Alada Maior",
         "ArmorPropertyRuneImmovable": "Imóvel",
-        "ArmorPropertyRuneImplacable": "Implacable",
+        "ArmorPropertyRuneImplacable": "Implacável",
         "ArmorPropertyRuneInvisibility": "Invisibilidade",
         "ArmorPropertyRuneLesserDread": "Terror Menor",
         "ArmorPropertyRuneMagnetizing": "Magnetizante",
+        "ArmorPropertyRuneMajorQuenching": "Extintora Superior",
         "ArmorPropertyRuneMajorShadow": "Sombras (Superior)",
         "ArmorPropertyRuneMajorSlick": "Escorregadia (Superior)",
         "ArmorPropertyRuneMajorStanching": "Major Stanching",
@@ -748,7 +754,7 @@
         "ArmorPropertyRuneSizeChanging": "Mudança de Tamanho",
         "ArmorPropertyRuneSlick": "Escorregadia",
         "ArmorPropertyRuneSoaring": "Soaring",
-        "ArmorPropertyRuneStanching": "Stanching",
+        "ArmorPropertyRuneStanching": "Estancadora",
         "ArmorPropertyRuneTrueQuenching": "Extintora Verdadeira",
         "ArmorPropertyRuneTrueStanching": "True Stanching",
         "ArmorPropertyRuneWinged": "Alada",
@@ -861,7 +867,7 @@
         "CastLabel": "Conj",
         "CastingItemCreateDialog": {
             "10thLevelWand": "Varinhas de 10º nível não existem",
-            "cantripDeck5": "Cantrip Deck (5-pack)",
+            "cantripDeck5": "Baralho de truque mágico (conjunto com 5 cartas)",
             "itemTypeLabel": "Tipo do item: ",
             "label": "Criar um item de conjuração a partir de uma magia escolhida",
             "scroll": "Pergaminho",
@@ -970,6 +976,7 @@
         },
         "CompendiumMigrationStatus": {
             "Document": "Documento",
+            "Foundry": "Foundry",
             "FoundryOld": "0.7 ou mais velho",
             "Invalid": "Inválido",
             "LockedTooltip": "Não é possível migrar – o compêndio está bloqueado",
@@ -1150,7 +1157,9 @@
                 },
                 "Type": {
                     "adamantine": "adamante",
+                    "alchemical": "alquímico",
                     "all-damage": "todo o dano",
+                    "arcane": "arcano",
                     "area-damage": "dano em Área",
                     "arrow-vulnerability": "vulnerabilidade a flecha",
                     "auditory": "auditivo",
@@ -1170,6 +1179,7 @@
                     "death-effects": "efeitos de Morte",
                     "detection": "detecção",
                     "disease": "doença",
+                    "divine": "divino",
                     "doomed": "condenado",
                     "drained": "drenado",
                     "duskwood": "madeira crepuscular",
@@ -1222,7 +1232,7 @@
                     "sleep": "sono",
                     "slowed": "lento",
                     "spell-deflection": "deflexão de Magia",
-                    "spells": "Magias (SRD)",
+                    "spells": "magias",
                     "splash-damage": "dano de respingo",
                     "stunned": "atordoado",
                     "stupefied": "estupefato",
@@ -1458,7 +1468,8 @@
             },
             "NoActiveEncounter": "Não há encontros ativos.",
             "NoTokenInScene": "{actor} não possui um token na cena.",
-            "RevealName": "Revelar Nome"
+            "RevealName": "Revelar Nome",
+            "XP": "XP"
         },
         "ErrorMessage": {
             "CantCreateEffectMacro": "Um efeito para um macro alternativo deve vir de um compêndio ou item do mundo.",
@@ -1540,7 +1551,7 @@
             "Label": "pé",
             "Plural": "metros",
             "Preformatted": {
-                "5": "1.5 metros",
+                "5": "5 pés",
                 "10": "10 pés",
                 "15": "15 pés",
                 "20": "20 pés",
@@ -1564,7 +1575,7 @@
         },
         "GenderPronoun": "Gênero/Pronomes",
         "GeneralFeatLevels": "Níveis de Talentos Gerais",
-        "GreaterWeaponSpecialization": "Especialização em Armas Maior (Nível 15)",
+        "GreaterWeaponSpecialization": " Especialização em Armas Maior",
         "HardnessLabel": "Dureza",
         "HazardDescriptionLabel": "Descrição",
         "HazardDisableLabel": "Desabilitar",
@@ -1591,7 +1602,9 @@
         "InitiativeWithSkill": "Iniciativa: {skillName}",
         "InlineAction": {
             "Check": {
-                "DC": "CD {dc}"
+                "DC": "CD {dc}",
+                "StatisticVsDefense": "{statistic} vs {defense}",
+                "VsDefense": "vs {defense}"
             },
             "Warning": {
                 "InvalidAction": "Ação inválida: {slug}",
@@ -1684,7 +1697,7 @@
             "Armor": {
                 "Base": {
                     "armored-cloak": "Manto Blindado",
-                    "armored-coat": "Armored Coat",
+                    "armored-coat": "Casaco Blindado",
                     "bastion-plate": "Placa de Bastião",
                     "breastplate": "Placa Peitoral",
                     "buckle-armor": "Armadura de Fivela",
@@ -2287,11 +2300,15 @@
                     "HeldOrStowed": "Volume (segurado/armazenado)",
                     "Label": "Volume",
                     "Light": {
-                        "Label": "Luz"
+                        "Label": "Luz",
+                        "ShortLabel": "L"
                     },
                     "Negligible": {
-                        "Label": "Desprezível"
-                    }
+                        "Label": "Desprezível",
+                        "ShortLabel": "—"
+                    },
+                    "NLight": "{light}L",
+                    "WithLight": "{bulk}, {light}L"
                 },
                 "Destroyed": "Destruído",
                 "FromSpell": {
@@ -2424,10 +2441,10 @@
                     "meteor-shield": "Escudo Meteoro",
                     "razor-disc": "Disco Navalha",
                     "salvo-shield": "Escudo de Salva",
-                    "steel-shield": "Escudo de Aço",
+                    "steel-shield": "Escudo de aço",
                     "swordstealer-shield": "Escudo Ladrão de Espadas",
-                    "tower-shield": "Escudo de Corpo",
-                    "wooden-shield": "Escudo de Madeira"
+                    "tower-shield": "Escudo de corpo",
+                    "wooden-shield": "Escudo de madeira"
                 },
                 "Rune": {
                     "Reinforcing": {
@@ -2464,6 +2481,7 @@
                     "Label": "Defesas"
                 },
                 "LevelN": "Magia {level}",
+                "LineSplit": ";",
                 "MeasuredTemplate": {
                     "Clear": "Limpar gabaritos colocados",
                     "Place": "Colocar {area}"
@@ -2880,6 +2898,7 @@
         },
         "OrphanedSpellsHeader": "Magias Orfãs (mover para entrada de conjuração acima)",
         "OverridesTitle": "Substitui",
+        "Pathfinder": "Pathfinder",
         "PFS": {
             "CharacterNumber": "Personagem #",
             "CurrentFaction": "Facção Atual",
@@ -2982,9 +3001,12 @@
             "Authors": "Autor(es)",
             "Label": "Publicação",
             "License": {
-                "Label": "Licença"
+                "Label": "Licença",
+                "OGL": "OGL",
+                "ORC": "ORC"
             },
-            "Remaster": "Remasterição?"
+            "Remaster": "Remasterição?",
+            "Title": "Título"
         },
         "QuantityLabel": "Quantidade",
         "QuantityShortLabel": "Qtd.",
@@ -3060,7 +3082,7 @@
                     "DiceHeader": "Dados",
                     "DieSizeUpgrade": "Aumentar Tamanho do Dado",
                     "ExtraDice": "{dice} extra(s)",
-                    "Label": "Label",
+                    "Label": "Rótulo",
                     "None": "Nenhum",
                     "Override": "Substituir {value}",
                     "Splash": "{damageType} Respingo",
@@ -3139,7 +3161,8 @@
                 "Hint": "Estender suporte para campanhas como Kingmaker",
                 "Name": "Características específicas de campanha",
                 "Choices": {
-                    "none": "Nenhum"
+                    "none": "Nenhum",
+                    "kingmaker": "Kingmaker"
                 }
             },
             "CompendiumBrowserPacks": {
@@ -3196,7 +3219,7 @@
                     "Hint": "Tipos de Dano adicionais para o sistema reconhecer",
                     "Icon": "Ícone (Font Awesome)",
                     "Name": "Tipos de Dano Customizados",
-                    "Label": "Label"
+                    "Label": "Rótulo"
                 },
                 "EquipmentTraits": {
                     "Hint": "Traços aplicáveis a equipamentos que não sejam armas",
@@ -3504,8 +3527,8 @@
         "SkillSociety": "Society",
         "SkillSte": "Furtividade",
         "SkillStealth": "Furtividade",
-        "SkillSur": "Survival",
-        "SkillSurvival": "Survival",
+        "SkillSur": "Sobrevivência",
+        "SkillSurvival": "Sobrevivência",
         "SkillThi": "Ladroagem",
         "SkillThievery": "Ladroagem",
         "SkillsLabel": "Perícias",
@@ -3697,6 +3720,7 @@
         "TraitAgathion": "Agathion",
         "TraitAgile": "Ágil",
         "TraitAir": "Ar",
+        "TraitAiuvarin": "Aiuvarin",
         "TraitAlchemical": "Alquímico",
         "TraitAlchemist": "Alquimista",
         "TraitAmp": "Amp",
@@ -3728,6 +3752,7 @@
         "TraitArcane": "Arcana",
         "TraitArchetype": "Arquétipo",
         "TraitArchon": "Arconte",
+        "TraitArdande": "Ardande",
         "TraitAreaDamage": "Dano em Área",
         "TraitArtifact": "Artefato",
         "TraitAstral": "Astral",
@@ -3745,7 +3770,7 @@
         "TraitAttack": "Ataque",
         "TraitAuditory": "Auditivo",
         "TraitAura": "Aura",
-        "TraitAutomaton": "Automaton (Guns & Gears)",
+        "TraitAutomaton": "Autômato",
         "TraitAzarketi": "Azarketi (Absalom)",
         "TraitAzata": "Azata",
         "TraitBackstabber": "Apunhaladora",
@@ -3760,8 +3785,10 @@
         "TraitBoggard": "Boggard",
         "TraitBomb": "Bomba",
         "TraitBonded": "Vinculada",
+        "TraitBottledBreath": "Sopro Engarrafado",
         "TraitBrace": "Esteio",
         "TraitBrutal": "Brutal",
+        "TraitBugbear": "Bugbear",
         "TraitBulwark": "Baluarte",
         "TraitCaligni": "Caligni",
         "TraitCantrip": "Truque",
@@ -4177,6 +4204,7 @@
         "TraitDowntime": "Recesso",
         "TraitDragon": "Dragão",
         "TraitDream": "Sonho",
+        "TraitDromaar": "Dromaar",
         "TraitDrow": "Drow",
         "TraitDrug": "Droga",
         "TraitDruid": "Druida",
@@ -4292,7 +4320,7 @@
         "TraitHex": "Sortilégio",
         "TraitHindering": "Hindering",
         "TraitHobgoblin": "Hobgoblin",
-        "TraitHoly": "Sagrada",
+        "TraitHoly": "Sagrado",
         "TraitHuman": "Humano",
         "TraitHumanoid": "Humanoide",
         "TraitIfrit": "Ifrit",
@@ -4507,7 +4535,7 @@
         "TraitReach60": "Alcance 60 pés",
         "TraitReckless": "Imprudente",
         "TraitRecovery": "Recuperação",
-        "TraitReflection": "Reflection",
+        "TraitReflection": "Reflexão",
         "TraitReincarnated": "Reencarnado",
         "TraitRelic": "Relíquia",
         "TraitReload": "Recarga",
@@ -4571,11 +4599,12 @@
         "TraitStheno": "Stheno",
         "TraitStrix": "Estrige",
         "TraitStructure": "Estrutura",
+        "TraitSubjectiveGravity": "Gravidade Subjetiva",
         "TraitSubtle": "Sutil",
         "TraitSuli": "Suli",
         "TraitSummon": "Convocar",
         "TraitSummoned": "Convocado",
-        "TraitSummoner": "Invocador",
+        "TraitSummoner": "Convocador",
         "TraitSwarm": "Enxame",
         "TraitSwashbuckler": "Espadachim",
         "TraitSweep": "Amplitude",
@@ -4623,7 +4652,7 @@
         "TraitUncommon": "Incomum",
         "TraitUndead": "Morto-Vivos",
         "TraitUndine": "Undine",
-        "TraitUnholy": "Profana",
+        "TraitUnholy": "Profano",
         "TraitUnique": "Único",
         "TraitUnstable": "Instável",
         "TraitUntyped": "Sem Tipo",
@@ -4721,8 +4750,8 @@
             "DifficultTerrain": "Velocidade em Terreno Difícil",
             "Distance": "Distância",
             "ExplorationActivities": {
-                "AvoidNotice": "Evitar ser Percebido",
-                "CoverTracks": "Cobrir rastros",
+                "AvoidNotice": "Evitar Ser Percebido",
+                "CoverTracks": "Cobrir Rastros",
                 "Defend": "Defender",
                 "DetectMagic": "Detectar Magia",
                 "HalfSpeed": "Outro (Metade da Velocidade)",
@@ -4801,7 +4830,7 @@
                 "alchemical-crossbow": "Besta Alquímica",
                 "aldori-dueling-sword": "Espada de Duelo Aldori",
                 "arbalest": "Arbaleste",
-                "arquebus": "Arquebus",
+                "arquebus": "Arcabuz",
                 "asp-coil": "Asp Coil",
                 "atlatl": "Atlatl",
                 "axe-musket": "Axe Musket",
@@ -4979,9 +5008,9 @@
                 "rapier": "Rapieira",
                 "rapier-pistol": "Rapier Pistol",
                 "reinforced-wheels": "Rodas Reforçadas",
-                "repeating-crossbow": "Repeating Crossbow",
-                "repeating-hand-crossbow": "Repeating Hand Crossbow",
-                "repeating-heavy-crossbow": "Repeating Heavy Crossbow",
+                "repeating-crossbow": "Besta Repetidora",
+                "repeating-hand-crossbow": "Besta de mão Repetidora",
+                "repeating-heavy-crossbow": "Besta Pesada Repetidora",
                 "rhoka-sword": "Espada Roca",
                 "rope-dart": "Dardo de Corda",
                 "rotary-bow": "Arco Rotativo",
@@ -5125,7 +5154,7 @@
                 "Name": "Ruína do Sangue"
             },
             "bloodthirsty": {
-                "Name": "Bloodthirsty",
+                "Name": "Sedenta por Sangue",
                 "Note": {
                     "criticalSuccess": "Quando você acerta criticamente um alvo que está recebendo @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dano de Sangramento Persistente}, seu alvo se torna @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drenado 1}."
                 }
@@ -5137,7 +5166,7 @@
                 }
             },
             "called": {
-                "Name": "Called"
+                "Name": "Chamada"
             },
             "coating": {
                 "Name": "Revestida"
@@ -5152,7 +5181,7 @@
                 }
             },
             "crushing": {
-                "Name": "Crushing",
+                "Name": "Esmagadora",
                 "Note": {
                     "criticalSuccess": "Quando você acerta criticamente um alvo com essa arma, seu alvo torna-se @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Desajeitado 1} e @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido1} até o final do seu próximo turno."
                 }
@@ -5170,7 +5199,7 @@
                 "Name": "Bebida Mortal"
             },
             "demolishing": {
-                "Name": "Demolishing"
+                "Name": "Demolidora"
             },
             "disrupting": {
                 "Name": "Disruptora",
@@ -5179,13 +5208,13 @@
                 }
             },
             "energizing": {
-                "Name": "Energizing"
+                "Name": "Energizante"
             },
             "extending": {
                 "Name": "Extensora"
             },
             "fanged": {
-                "Name": "Fanged"
+                "Name": "Dentada"
             },
             "fearsome": {
                 "Name": "Temível",
@@ -5301,6 +5330,9 @@
                     "criticalSuccess": "Em um acerto crítico, você pode escolher forçar o alvo para ter sucesso em um salvamento de @Check[type:fortitude|dc:37|name:Greater Impactful Rune] ou ser empurrado a 10 metros de distância de você."
                 }
             },
+            "greaterRooting": {
+                "Name": "Enraizadora Maior"
+            },
             "greaterShock": {
                 "Name": "Chocante Maior",
                 "Note": {
@@ -5338,7 +5370,7 @@
                 "Name": "Hauling"
             },
             "holy": {
-                "Name": "Sagrada",
+                "Name": "Sagrado",
                 "Note": {
                     "criticalSuccess": "(<span class=\"pf2-icon\">R</span> comando; uma vez ao dia)<br /><strong>Acionamento</strong> Usando essa arma, você obtém sucesso critico numa rolagem de ataque contra criaturas malignas<br /><strong>Efeito</strong> Você recupera PV igual ao dobro do nível da criatura maligna. Isso é um efeito de cura positivo e bom."
                 }
@@ -5370,6 +5402,9 @@
             "kinWarding": {
                 "Name": "Protege-Parente"
             },
+            "majorRooting": {
+                "Name": "Enraizadora Superior"
+            },
             "merciful": {
                 "Name": "Piedosa"
             },
@@ -5382,6 +5417,9 @@
             "returning": {
                 "Name": "Retornante",
                 "Note": "<strong>Runa Retornante</strong> Quando você faz um Golpe de arremesso com esta arma, ele voa de volta para sua mão depois que o ataque estiver completo. Se suas mãos estiverem ocupadas quando a arma retornar, ela cai no chão em seu espaço."
+            },
+            "rooting": {
+                "Name": "Enraizadora"
             },
             "serrating": {
                 "Name": "Serrada"
@@ -5404,8 +5442,14 @@
                     "criticalSuccess": "Em um acerto crítico, o alvo deve ser bem-sucedido em um teste de salvamento @Check[type:fortitude|dc:24|name:Thundering Rune] ou ficará @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdo} por 1 minuto (ou 1 hora em uma falha crítica)."
                 }
             },
+            "trueRooting": {
+                "Name": "Enraizadora Verdadeira"
+            },
+            "underwater": {
+                "Name": "Subaquática"
+            },
             "unholy": {
-                "Name": "Profana",
+                "Name": "Profano",
                 "Note": {
                     "criticalSuccess": "(<span class=\"pf2-icon\">R</span> comando; uma vez por dia)<br /><strong>Acionamento</strong> Você acerta criticamente em uma jogada de ataque contra criatura boa com a arma<br /><strong>Efeito</strong> O alvo recebe @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dano Persistente de Sangramento} igual a 1d8 por dado de dano da arma."
                 }
