@@ -273,6 +273,7 @@
                 "Title": "Dispensar"
             },
             "DropProne": {
+                "Description": "<p>Você fica prostrado.</p>",
                 "Title": "Prostrar"
             },
             "EarnIncome": {
@@ -433,6 +434,12 @@
                 "Title": "Saltar"
             },
             "LearnASpell": {
+                "Notes": {
+                    "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas você gasta metade dos materiais.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você gasta metade dos materiais e aprende a magia.",
+                    "failure": "<strong>Falha</strong> Você falha em aprender a magia, mas pode tentar novamente após subir um nível. Os materiais não são gastos.",
+                    "success": "<strong>Sucesso</strong> Você gasta os materiais e aprende a magia."
+                },
                 "Title": "Aprenda uma Magia"
             },
             "Lie": {
@@ -802,6 +809,12 @@
                 "Title": "Tratar Doença"
             },
             "TreatPoison": {
+                "Description": "<p>Você trata um paciente para impedir que um veneno se alastre. Faça um teste de Medicina contra a CD do veneno. Após tentar Tratar Veneno em uma criatura, você não pode fazê-lo novamente até o próximo salvamento dessa criatura contra o veneno.</p><p><strong>Sucesso Crítico</strong> Você concede à criatura +4 de bônus de circunstância na próxima jogada de salvamento contra o veneno.<br><strong>Sucesso</strong> Você concede à criatura +2 de bônus de circunstância na próxima jogada de salvamento contra o veneno.<br><strong>Falha Crítica</strong> Seus esforços fazem a criatura sofrer –2 de penalidade de circunstância na próxima jogada de salvamento dela contra o veneno.</p>",
+                "Notes": {
+                    "criticalFailure": "<strong>Falha Crítica</strong> Seus esforços fazem a criatura sofrer –2 de penalidade de circunstância na próxima jogada de salvamento dela contra o veneno.<br/>@UUID[Compendium.pf2e.equipment-effects.ESuBosh3t1pXEcBj]{Efeito: Tratar Veneno (Falha Crítica)}",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você concede à criatura +4 de bônus de circunstância na próxima jogada de salvamento contra o veneno.<br/>@UUID[Compendium.pf2e.equipment-effects.XwCBalKJf3CiEiFa]{Efeito: Tratar Veneno (Sucesso Crítico)}",
+                    "success": "<strong>Sucesso</strong> Você concede à criatura +2 de bônus de circunstância na próxima jogada de salvamento contra o veneno.<br/>@UUID[Compendium.pf2e.equipment-effects.XWenziR7J3mwKV4W]{Efeito: Tratar Veneno (Sucesso)}"
+                },
                 "Title": "Tratar Veneno"
             },
             "TreatWounds": {
@@ -836,6 +849,7 @@
                 "Title": "Derrubar"
             },
             "TumbleThrough": {
+                "Description": "<p>Você Anda até sua Velocidade. Durante este movimento, você pode tentar mover-se através do espaço de um inimigo. Faça um teste de Acrobatismo contra a CD de Reflexos do inimigo assim que tentar entrar no espaço dele. Você pode Atravessar Acrobaticamente utilizando Escalar, Nadar, Voar, ou outra ação em vez de Andar no ambiente apropriado.</p><p><strong>Sucesso</strong> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 15 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha.<br><strong>Falha</strong> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.</p>",
                 "Notes": {
                     "failure": "<b>Falha</b> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.",
                     "success": "<b>Sucesso</b> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 10 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
@@ -844,6 +858,8 @@
             },
             "WhirlingThrow": {
                 "Notes": {
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você não arremessa a criatura, e ela não está mais @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada} ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringida} por você.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você arremessa a criatura a distância desejada e ela cai @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada}.",
                     "failure": "<strong>Falha</strong> Você não arremessa a criatura.",
                     "success": "<strong>Sucesso</strong> Você arremessa a criatura à distância desejada."
                 },
