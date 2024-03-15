@@ -96,6 +96,10 @@
                 "GrabbingTrunk": {
                     "Title": "Grabbing Trunk (Pathfinder #177)"
                 }
+            },
+            "WormForm": {
+                "PurpleWorm": "Vorme Púrpura",
+                "Hybrid": "Híbrida"
             }
         },
         "BombNotes": {
@@ -393,6 +397,7 @@
             "Cyan": "Ciano",
             "Green": "Verde",
             "Indigo": "Índigo",
+            "Magenta": "Magenta",
             "Orange": "Laranja",
             "Red": "Vermelho",
             "Violet": "Violeta",
@@ -456,6 +461,8 @@
                     "AnimalTiny": "Animal Minúsculo",
                     "Bat": "Morcego",
                     "BatGiant": "Morcego Gigante",
+                    "Barghest": "Bargheste",
+                    "Cacodaemon": "Cacodaemon",
                     "Cassisian": "Cassisiano",
                     "Dog": "Cachorro",
                     "Dove": "Pombo",
@@ -502,6 +509,7 @@
                     "HumanoidLarge": "Humanoide Grande",
                     "HumanoidMedium": "Humanoide Médio",
                     "HumanoidSmall": "Humanoide Pequeno",
+                    "Hybrid": "Híbrida",
                     "Ifrit": "Ifrit",
                     "Imp": "Diabrete",
                     "LamiaMatriarch": "Matriarca Lâmia",
@@ -558,6 +566,13 @@
             },
             "LemureSubservience": {
                 "Defend": "Defender"
+            },
+            "MarilithFocusedAssault": {
+                "Five": "5 Espadas Longas",
+                "Four": "4 Espadas Longas",
+                "One": "1 Espada Longa",
+                "Prompt": "Quantas espadas longas a Marilith está empunhando?",
+                "Six": "6 Espadas Longas"
             },
             "Marut": {
                 "Lightning": "Relâmpagos"
@@ -850,7 +865,8 @@
                     "Highlight": "Destaque",
                     "Label": "Aparência",
                     "Loop": {
-                        "Hint": "Se o arquivo for um vídeo, será necessário fazer um loop"
+                        "Hint": "Se o arquivo for um vídeo, será necessário fazer um loop",
+                        "Label": "Repetir"
                     },
                     "NotApplicable": "Não aplicável",
                     "PlaybackRate": {
@@ -860,7 +876,9 @@
                     "Texture": "Textura",
                     "Translation": {
                         "Hint": "Uma translação manual x/y do recurso de textura",
-                        "Label": "Translação"
+                        "Label": "Translação",
+                        "X": "x",
+                        "Y": "y"
                     }
                 },
                 "Basic": {
@@ -1238,6 +1256,7 @@
                 "Prompt": "Escolha um salvamento."
             },
             "BonusLabel": {
+                "NegativeOne": "-1",
                 "PlusTwo": "+2"
             },
             "BrevicNoble": {
