@@ -1096,8 +1096,8 @@
         "CritFailure": "<strong>Falha Crítica</strong>",
         "CritSuccess": "<strong>Sucesso Crítico</strong>",
         "CriticalDamageLabel": "Crítico",
-        "CriticalFumbleCardButtonTitle": "Puxar uma Carta de Erro Crítico",
-        "CriticalHitCardButtonTitle": "Puxar uma Carta de Acerto Crítico",
+        "CriticalFumbleCardButtonTitle": "Sacar uma Carta de Erro Crítico",
+        "CriticalHitCardButtonTitle": "Sacar uma Carta de Acerto Crítico",
         "CurrencyAbbreviations": {
             "cp": "pc",
             "gp": "po",
@@ -3154,7 +3154,7 @@
                     "Name": "Remover os efeitos expirados"
                 },
                 "RulesBasedVision": {
-                    "Hint": "Aplicar mecânica de visão consistente com as regras de Pathfinder 2e. Habilitar essa configuração irá remover a habilidade de configurar visão global sem restrições, bem como raio de visão de token.",
+                    "Hint": "Aplicar mecânica de visão consistente com as regras de Pathfinder 2e. Habilitar essa configuração removerá o poder de configurar visão global sem restrições, bem como o raio de visão de token.",
                     "ManagedBy": "Gerenciado pela <rbv>visão baseada em regras</rbv>.",
                     "Name": "Regras de visão",
                     "ViewWorldSetting": "Ver Configurações do Mundo"
@@ -3299,11 +3299,11 @@
                     "Name": "Mostrar Testes Secretos"
                 },
                 "ShowDC": {
-                    "Hint": "Se habilitado, jogadores poderão ver os CDs de testes feitos contra PdMs e outras fontes das quais jogadores não são donos.",
+                    "Hint": "Jogadores poderão ver os CDs de testes feitos contra PdMs e outras fontes das quais eles não são donos.",
                     "Name": "Mostrar CDs dos ataques e salvamentos"
                 },
                 "ShowResults": {
-                    "Hint": "Se habilitado, jogadores poderão ver o grau de sucesso de testes feitos contra PdMs e outras fontes das quais jogadores não são donos.",
+                    "Hint": "Jogadores poderão ver o grau de sucesso de testes feitos contra PdMs e outras fontes das quais eles não são donos.",
                     "Name": "Mostrar Resultados dos ataques e salvamentos"
                 },
                 "ShowBreakdowns": {
@@ -3311,11 +3311,11 @@
                     "Name": "Mostrar detalhamentos de rolagens"
                 },
                 "SecretCondition": {
-                    "Hint": "Quando habilitado, apenas o MJ irá ver a atualização de condição e mensagens de lembrete que são gerados por tokens não possuídos por um jogador.",
+                    "Hint": "Apenas o MJ verá mensagens de atualização elembres de condição que são gerados por tokens não possuídos por um jogador.",
                     "Name": "Ocultar mensagens de atualização de condição"
                 },
                 "SecretDamage": {
-                    "Hint": "Quando habilitado, apenas o MJ irá ver as mensagens de dano/cura recebidos que são gerados pelo dano dos painéis do chat dos tokens não possuídos por um jogador.",
+                    "Hint": "Apenas o MJ pode ver as mensagens de dano/cura que são geradas por mensagens de dano do chat para tokens não possuídos por um jogador.",
                     "Name": "Ocultar mensagem de dano sofrido"
                 },
                 "PartyVision": {
@@ -3447,11 +3447,11 @@
             },
             "critFumbleCardButtons": {
                 "hint": "Mostrar botões de cartas de acertos e falhas críticas nas rolagens de ataque.",
-                "name": "Botões de Cards de Acerto & Falha Crítica"
+                "name": "Botões de Cartas de Acerto & Falha Crítica"
             },
             "critFumbleCards": {
                 "hint": "Automaticamente saca uma carta de acerto ou falha crítica nas rolagens apropriadas.",
-                "name": "Cards de Acerto & Falha Crítica"
+                "name": "Cartas de Acerto & Falha Crítica"
             },
             "statusEffectShowCombatMessage": {
                 "hint": "Cada turno de um encontro, envia uma mensagem no chat contendo as condições do participante do turno.",
