@@ -37,14 +37,22 @@
             "KnockProne": "Em um acerto, o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
         },
         "BattleForm": {
+            "AngelForm": {
+                "DeafenedNote": "@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Surdo} por 1 rodada em um acerto crítico"
+            },
             "Attack": {
                 "Antler": "Galhada",
+                "AqueousFist": "Punho Aquoso",
                 "Beak": "Bico",
                 "Beard": "Barba",
                 "Bite": "Mordida",
+                "Blade": "Lâmina",
                 "Body": "Corpo",
+                "BoneDart": "Dardo de Osso",
                 "BoneShard": "Lasca de Osso",
+                "BoneSpike": "Espinho de Osso",
                 "Boot": "Bota",
+                "Boulder": "Pedregulho",
                 "Branch": "Galho",
                 "Claw": "Garra",
                 "CubeFace": "Face do Cubo",
@@ -59,17 +67,22 @@
                 "Jaws": "Mandíbulas",
                 "LavaFist": "Punho de Lava",
                 "Leaf": "Folha",
+                "Leaves": "Folhas",
                 "Leg": "Perna",
                 "LightningLash": "Açoitada Relampejante",
                 "Mandibles": "Mandíbulas",
+                "MetalShard": "Fragmento de Metal",
                 "Moonbeam": "Feixe Lunar",
                 "PiercingHymn": "Hino Perfurante",
                 "Pincer": "Pinça",
                 "Pseudopod": "Pseudópode",
+                "Quill": "Espinho",
                 "Rock": "Rocha",
+                "Seed": "Semente",
                 "Spikes": "Espinhos",
                 "Spine": "Espinha",
                 "Stinger": "Ferrão",
+                "StoneBall": "Bola de Pedra",
                 "Sunbeam": "Raio de sol",
                 "Tail": "Cauda",
                 "Talon": "Unha",
@@ -86,10 +99,14 @@
                 "Web": "Teia",
                 "Wing": "Asa"
             },
+            "CosmicForm": {
+                "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada."
+            },
             "MonstrosityForm": {
                 "ShroudOfFlame": "Shroud of Flame"
             },
             "NatureIncarnate": {
+                "GreenMan": "Homem Verde",
                 "Kaiju": "Kaiju"
             },
             "Note": {
@@ -451,6 +468,14 @@
                 "CrocodileLegs": "Pernas de Crocodilo",
                 "SnakeTail": "Cauda de Cobra"
             },
+            "Capritellix": {
+                "ShiftMood": {
+                    "Angry": "Irritado",
+                    "Gregarious": "Gregório",
+                    "Serene": "Sereno",
+                    "Sly": "Astuto"
+                }
+            },
             "ChangeShape": {
                 "Form": {
                     "Animal": "Animal",
@@ -459,6 +484,7 @@
                     "AnimalMedium": "Animal Médio",
                     "AnimalSmall": "Animal Pequeno",
                     "AnimalTiny": "Animal Minúsculo",
+                    "Azuretzi": "Azuretzi",
                     "Bat": "Morcego",
                     "BatGiant": "Morcego Gigante",
                     "Barghest": "Bargheste",
@@ -503,7 +529,9 @@
                             "Small": "Elemental da Madeira Pequeno"
                         }
                     },
+                    "Faydhaan": "Faydhaan",
                     "Fish": "Peixe",
+                    "Gylou": "Gylou",
                     "Hag": "Estriga",
                     "Humanoid": "Humanoide",
                     "HumanoidLarge": "Humanoide Grande",
@@ -512,9 +540,12 @@
                     "Hybrid": "Híbrida",
                     "Ifrit": "Ifrit",
                     "Imp": "Diabrete",
+                    "Jann": "Jann",
+                    "Keketar": "Keketar",
                     "LamiaMatriarch": "Matriarca Lâmia",
                     "Leshy": "Leshy",
                     "Lizard": "Lagarto",
+                    "Morrigna": "Morrigna",
                     "Mushroom": "Cogumelo",
                     "NaiadQueen": "Náiade Rainha",
                     "ObjectTiny": "Objeto Inanimado Minúsculo",
@@ -565,14 +596,17 @@
                 "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
             },
             "LemureSubservience": {
-                "Defend": "Defender"
+                "Defend": "Defender",
+                "Kill": "Matar"
             },
             "MarilithFocusedAssault": {
                 "Five": "5 Espadas Longas",
                 "Four": "4 Espadas Longas",
                 "One": "1 Espada Longa",
                 "Prompt": "Quantas espadas longas a Marilith está empunhando?",
-                "Six": "6 Espadas Longas"
+                "Six": "6 Espadas Longas",
+                "Three": "3 Espadas Longas",
+                "Two": "2 Espadas Longas"
             },
             "Marut": {
                 "Lightning": "Relâmpagos"
@@ -1347,6 +1381,11 @@
                 "AllowedDrops": "Característica de classe de campeão de 1º nível",
                 "Prompt": "Selecione uma causa de campeão."
             },
+            "DeviantAbilities": {
+                "BoneSpikes": {
+                    "StrikeLabel": "Espinho de Osso"
+                }
+            },
             "DragonDisciple": {
                 "Prompt": "Escolha um Dragão."
             },
@@ -1363,7 +1402,8 @@
             "Equipment": {
                 "DruidsCrown": {
                     "AntlersLabel": "Chifres",
-                    "FlowersLabel": "Flores"
+                    "FlowersLabel": "Flores",
+                    "LeavesLabel": "Folhas"
                 },
                 "FuryCocktail": {
                     "DoubleLabel": "Dobro"
@@ -1452,6 +1492,7 @@
                 "TargetHuntedPrey": "Alvo é sua Presa Caçada (somente Animal, Besta ou Dragão)"
             },
             "Genie": {
+                "Faydhaan": "Faydhaan",
                 "Ifrit": "Ifrit",
                 "Prompt": "Selecione um gênio."
             },
