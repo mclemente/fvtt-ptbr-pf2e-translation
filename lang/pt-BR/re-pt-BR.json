@@ -1309,7 +1309,7 @@
                 },
                 "EvilDamage": "Dano de Espírito",
                 "IronRepercussions": {
-                    "Description": "Desobedecer à sua Mão de Ferro possui consequências duradouras. Se um inimigo se recusar a ajoelhar perante você, você pode causar @Damage[(ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor .level,12),4,ternary(gte(@actor.level,9),3,ternary(gte(@actor.level,5),2,1))))))d6[persistent,mental]]{dano persistente mental} em vez de dano mental normal. Você deve decidir se o dano mental será persistente antes do seu inimigo escolher se ajoelhar ou não. A quantidade de dano não é alterada."
+                    "Description": "Desobedecer à sua Mão de Ferro possui consequências duradouras. Se um inimigo se recusar a ajoelhar perante você, você pode causar @Damage[(ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor.level,12),4,ternary(gte(@actor.level,9),3,ternary(gte(@actor.level,5),2,1))))))d6[persistent,mental]] em vez de dano mental normal. Você deve decidir se o dano mental será persistente antes do seu inimigo escolher se ajoelhar ou não. A quantidade de dano não é alterada."
                 },
                 "NegativeDamage": "Dano Negativo",
                 "OngoingSelfishness": {
