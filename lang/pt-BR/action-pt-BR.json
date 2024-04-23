@@ -86,6 +86,7 @@
                 "Title": "Evitar Ser Percebido"
             },
             "Balance": {
+                "Description": "<p>Você cruza uma superfície estreita ou terreno irregular, realizando um teste de Acrobacia contra o CD de Equilibrar. Você está desprevenido enquanto estiver sobre a superfície estreita ou terreno irregular.</p><p><strong>Sucesso Crítico</strong> Você move sua Velocidade.<br><strong>Sucesso</strong> Você move sua Velocidade, tratando como terreno difícil (cada 5 pés custam 10 pés de movimento).<br><strong>Falha</strong> Você deve permanecer imóvel para se manter equilibrado (disperdiçando a ação) ou cairá. Se você cair, seu turno termina.<br><strong>Falha Crítica</strong> Você cai e seu turno termina.</p>",
                 "Notes": {
                     "criticalFailure": "<b>Falha Crítica</b> Você cai e seu turno se encerra.",
                     "criticalSuccess": "<b>Sucesso Crítico</b> Você se move para acima de sua velocidade.",
@@ -102,6 +103,11 @@
                 "Title": "Equilibrar"
             },
             "BonMot": {
+                "Notes": {
+                    "criticalFailure": "<strong>Falha Crítica</strong> Sua tirada é abominável. Você sofre a mesma penalidade que um inimigo sofreria em caso de sucesso. Este efeito termina após 1 minuto ou se você fizer outro Comentário Maldoso e obter sucesso. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{Effect: Bon Mot}",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo fica distraído e recebe -3 de penalidade de estado em salvaguardas de Percepção e Vontade por 1 minuto. O alvo pode encerrar o efeito antes com uma resposta ao seu Comentário Maldoso, podendo ser uma ação única que possui o traço concentração, ou uma ação de perícia apropriada à resposta. O MJ determina quais ações de perícia qualificam, porém elas devem custar pelo menos 1 ação. Geralmente, a resposta requer o uso de uma ação de perícia linguística baseada em Carisma. @UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]{Effect: Bon Mot (Critical Success)}",
+                    "success": "<strong>Sucesso</strong> O alvo fica distraído e sofre –2 de penalidade de estado em Percepção ee Vontade por 1 minuto. O alvo pode encerrar o efeito antes respondendo ao seu Comentário Maldoso, podendo ser uma ação única que possui o traço concentração, ou uma ação de perícia apropriada à resposta. O MJ determina quais ações de perícia qualificam, porém elas devem custar pelo menos 1 ação. Geralmente, a resposta requer o uso de uma ação de perícia linguística baseada em Carisma. @UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effect: Bon Mot}"
+                },
                 "Title": "Comentário Maldoso"
             },
             "Burrow": {
