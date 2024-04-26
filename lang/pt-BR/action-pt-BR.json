@@ -258,9 +258,13 @@
                     "Master": "código de um mestre espião ou anotações de pesquisa avançadas",
                     "Legendary": "texto planar esotérico escrito em metáforas por um celestial antigo"
                 },
-                "Title": "Decifrar Escrita"
+                "Title": "Decifrar Escrita",
+                "Warning": {
+                    "NoSkill": "A ação Decifrar Escrita pode ser usada com perícias diferentes e nenhuma perícia foi especificada. As perícias usadas para Decifrar Escrita e os tipos de textos que estas podem decifrar são: Arcanismo para textos que abordam magia ou ciência, Ocultismo para textos esotéricos que abordam mistérios e filosofia, Religião para escrituras ou Sociedade para mensagens codificadas ou documentos arcaicos."
+                }
             },
             "Delay": {
+                "Description": "<p>Você espera pelo momento certo de agir. O resto do seu turno ainda não acontece e, em vez disso, você é removido da ordem de iniciativa, podendo retornar como uma ação livre acionada pelo fim do turno de outra criatura. Isso altera permanentemente a sua iniciativa para nova posição. Você não pode usar reações até retornar para a ordem de iniciativa. Se você Adiar uma rodada inteira sem retornar para a ordem de iniciativa, as ações do turno Adiado serão perdidas, sua iniciativa não mudará e o seu próximo turno ocorrerá na sua posição original na ordem de iniciativa.</p><p>Ao Adiar, qualquer dano persistente ou outros efeitos negativos que normalmente ocorrem no começo de seu turno ocorrem imediatamente ao usar a ação Adiar. Quaisquer efeitos beneficiais que encerrariam a qualquer momento durante o seu turno também se encerram. O MJ também pode determinar o fim de quaisquer outros efeitos quando você Adiar. Essencialmente, não é possível Adiar para evitar consequências negativas que aconteceriam em seu turno ou estender efeitos beneficiais que se encerrariam em seu turno.</p>",
                 "Title": "Adiar"
             },
             "Demoralize": {
@@ -275,7 +279,8 @@
                 "Description": "<p>Esta ação permite desarmar uma armadilha ou outro dispositivo complexo. Frequentemente, um dispositivo exige vários sucessos para ser desabilitado, dependendo de sua construção ou complexidade. Ferramentas de ladrão são úteis e às vezes requeridas para Desabilitar um Dispositivo, conforme determinado pelo MJ, e às vezes um dispositivo requer uma proficiência de graduação em Ladroagem para desabilitá-lo.</p><p>O resultado de seu teste de Ladroagem determina o progresso que você alcança.</p><p><strong>Sucesso Crítico</strong>Você desabilita o dispositivo ou obtém dois sucessos para desabilitar um dispositivo complexo. Você não deixa traços de sua interferência e pode rearmar o dispositivo posteriormente se esse tipo de dispositivo puder ser rearmado.</p><p><strong>Sucesso</strong>Você desabilita o dispositivo ou obtém um sucesso para desabilitar um dispositivo complexo.</p><p><strong>Falha Crítica</strong>Você aciona o dispositivo.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você aciona o dispositivo.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você desabilita o dispositivo ou obtém dois sucessos para desabilitar um dispositivo complexo. Você não deixa traços de sua interferência e pode rearmar o dispositivo posteriormente se esse tipo de dispositivo puder ser rearmado."
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você desabilita o dispositivo ou obtém dois sucessos para desabilitar um dispositivo complexo. Você não deixa traços de sua interferência e pode rearmar o dispositivo posteriormente se esse tipo de dispositivo puder ser rearmado.",
+                    "success": "<strong>Sucesso</strong> Você desabilita o dispositivo ou obtém um sucesso para desabilitar um dispositivo que requer mais de um sucesso."
                 },
                 "Title": "Desabilitar um Dispositivo"
             },
@@ -287,6 +292,7 @@
                 "Title": "Desarmar"
             },
             "Dismiss": {
+                "Description": "<p>Você encerra um efeito que você seja capaz de Dispensar. Dispensar encerra o efeito por completo a menos que seja dito o contrário.</p>",
                 "Title": "Dispensar"
             },
             "DropProne": {
@@ -294,7 +300,12 @@
                 "Title": "Prostrar"
             },
             "EarnIncome": {
+                "Notes": {
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Seu trabalho é excepcional. Ganhe a quantidade de dinheiro listada para o nível da tarefa + 1 e sua graduação de proficiência.",
+                    "success": "<strong>Sucesso</strong> Seu serviço é competente. Ganhe a quantidade de dinheiro listada para o nível da tarefa e sua graduação de proficiência."
+                },
                 "SampleTasks": {
+                    "Caption": "Estes exemplos usam Saber de Álcool para trabalhar num bar ou Saber de Leis para realizar trabalhos legais.",
                     "Trained": "copeiro, fazer pesquisa legal",
                     "Expert": "cuidar de uma adega, defender casos menores na corte",
                     "Master": "administrar uma grande cervejaria, defender casos importantes na corte",
@@ -392,9 +403,18 @@
                 "Title": "Salto em Altura"
             },
             "IdentifyAlchemy": {
+                "Notes": {
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você identifica o item erroneamente como outro item a escolha do MJ.",
+                    "failure": "<strong>Falha</strong> Você falha em identificar o item, mas pode tentar novamente.",
+                    "success": "<strong>Sucesso</strong> Você identifica o item e os meios de ativá-lo."
+                },
                 "Title": "Identificar Alquimia"
             },
             "IdentifyMagic": {
+                "Notes": {
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você identifica a magia como outra coisa a escolha do MJ.",
+                    "failure": "<strong>Falha</strong> Você falha em identificar o item e só poderá tentar novamente após 1 dia."
+                },
                 "Title": "Identificar Magia",
                 "Warning": {
                     "NoStatistic": "A ação de Identificar Magia pode ser utilizada com diferentes estatísticas, mas nenhuma foi especificada."
@@ -425,6 +445,7 @@
                     "Title": "Trocar Empunhadura (2M)"
                 },
                 "Modular": {
+                    "Description": "{actor} ajusta {weapon} para aplicar dano de {damageType}.",
                     "Title": "Modular"
                 },
                 "Parenthetical": "Interagir {purpose}",
@@ -470,6 +491,9 @@
                 "Title": "Mentir"
             },
             "LongJump": {
+                "Notes": {
+                    "failure": "<strong>Falha</strong> Você realiza um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salto} normal e horizontal."
+                },
                 "Title": "Salto em Distância"
             },
             "LowerShield": {
