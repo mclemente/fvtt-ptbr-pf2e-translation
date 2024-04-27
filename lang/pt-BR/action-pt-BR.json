@@ -131,7 +131,7 @@
                 "Title": "Escalar"
             },
             "Coerce": {
-                "Description": "<p>Com ameaças veladas ou explícitas, você tenta coagir uma criatura a fazer o que você quer. Você deve passar pelo menos 1 minuto conversando com uma criatura e ela poder vê-lo ou senti-lo. Ao final da conversa, faça um teste de Intimidação contra a CD de Vontade do alvo, modificado por quaisquer circunstâncias determinadas pelo MJ. As atitudes citadas nos efeitos abaixo são resumidas na barra lateral Mudando Atitudes e descritas por completo no Apêndice de Condições.</p><p><strong>Sucesso Crítico</strong> O alvo fornece a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de forma alguma. O alvo continua a obedecer por uma quantidade de tempo determinada pelo MJ e não ultrapassando 1 dia, que é quando o alvo se torna inamistoso (se já não era inamistoso ou hostil). Entretanto, o alvo está assustado demais para reagir — pelo menos a curto prazo.<br><strong>Sucesso</strong> Como Sucesso Crítico, porém quando o alvo se torna inamistoso, ele pode decidir agir contra você — como por exemplo, reportando-o a autoridades ou assistindo seus inimigos.<br><strong>Falha</strong> O alvo não obedece o seu comando e, se ele já não era inamistoso ou hostil, ele se torna inamistoso.<br><strong>Falha Crítica</strong> O alvo se recusa a obedecer, se torna hostil se já não era, e não pode ser Coagido por você por pelo menos 1 semana.</p>",
+                "Description": "<p>Com ameaças veladas ou explícitas, você tenta coagir uma criatura a fazer o que você quer. Você deve passar pelo menos 1 minuto conversando com uma criatura que possa ver e que ela possa vê-lo ou senti-lo. Ao final da conversa, faça um teste de Intimidação contra a CD de Vontade do alvo, modificado por quaisquer circunstâncias determinadas pelo MJ. As atitudes citadas nos efeitos abaixo são resumidas no quadro Alterando Atitudes e descritas por completo no Apêndice de Condições.</p><p><strong>Sucesso Crítico</strong> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.<br><strong>Sucesso</strong> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos.<br><strong>Falha</strong> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.<br><strong>Falha Crítica</strong> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.</p>",
                 "Notes": {
                     "criticalFailure": "<b>Falha Crítica</b> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.",
                     "criticalSuccess": "<b>Sucesso Crítico</b> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.",
@@ -150,7 +150,7 @@
                 "Title": "Comande um Animal"
             },
             "ConcealAnObject": {
-                "Description": "<p>Você esconde um pequeno objeto em sua pessoa (como uma arma de Volume leve). Quando tentar manter um objeto escondido de alguém que possa percebê-lo, o MJ rola seu teste de Furtividade e o compara à CD de Percepção desse observador passivo. Uma vez que o MJ tenha rolado seu teste para um objeto escondido, esse mesmo resultado é usado contra todos os observadores passivos que você cruzar — não importa a quantidade. Se uma criatura estiver especificamente o revistando, ela pode tentar um teste de Percepção contra seu CD de Furtividade (encontrando o objeto em um sucesso).</p><p>Você também pode ocultar um objeto em outro lugar além da sua pessoa, como num matagal ou em um compartimento secreto dentro de um móvel. Neste caso, personagens Procurando em uma área devem comparar resultados de seus respectivos testes de Percepção contra a sua CD de Furtividade para determinar se encontram o objeto.</p><p><strong>Sucesso</strong> O objeto permanece indetectado.</p><p><strong>Falha</strong> O objeto é encontrado por quem o procura.</p>",
+                "Description": "<p>Você esconde um objeto pequeno em si (como uma arma de Volume leve). Quando tentar manter um objeto ocultado contra alguém que possa percebê-lo, o MJ rola seu teste de Furtividade e o compara à CD de Percepção deste observador passivo. Uma vez que o MJ tenha rolado seu teste para um objeto ocultado, esse mesmo resultado é usado contra as CDs de todos os observadores passivos — não importa quantas criaturas observem esse objeto passivamente. Se uma criatura estiver especificamente procurando por um item em você, ela pode fazer um teste de Percepção contra sua CD de Furtividade (encontrando o objeto em um sucesso).</p><p>Você também pode ocultar um objeto em algum outro lugar além de na sua posse, como em um matagal ou em um compartimento secreto em um móvel. Neste caso, personagens Buscando em uma área comparam os resultados dos testes de Percepção deles à sua CD de Furtividade para determinar se encontram o objeto.</p><p><strong>Sucesso</strong> O objeto permanece indetectado.</p><p><strong>Falha</strong> O objeto é encontrado por quem o procura.</p>",
                 "Notes": {
                     "failure": "<strong>Falha</strong> O objeto é encontrado por quem o procura.",
                     "success": "<strong>Sucesso</strong> O objeto permanece indetectado."
@@ -203,7 +203,7 @@
                 }
             },
             "Crawl": {
-                "Description": "<p>Você se move 5 pés (1,52 m) rastejando e permanece prostrado.</p>",
+                "Description": "<p>Você se move 5 pés arrastando-se e continua prostrado.</p>",
                 "Title": "Rastejar"
             },
             "CreateADiversion": {
@@ -292,7 +292,7 @@
                 "Title": "Desarmar"
             },
             "Dismiss": {
-                "Description": "<p>Você encerra um efeito que você seja capaz de Dispensar. Dispensar encerra o efeito por completo a menos que seja dito o contrário.</p>",
+                "Description": "<p>Você encerra um efeito que você pode Dispensar. Dispensar encerra o efeito inteiramente a menos que seja dito o contrário.</p>",
                 "Title": "Dispensar"
             },
             "DropProne": {
@@ -301,11 +301,11 @@
             },
             "EarnIncome": {
                 "Notes": {
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Seu trabalho é excepcional. Ganhe a quantidade de dinheiro listada para o nível da tarefa + 1 e sua graduação de proficiência.",
-                    "success": "<strong>Sucesso</strong> Seu serviço é competente. Ganhe a quantidade de dinheiro listada para o nível da tarefa e sua graduação de proficiência."
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você faz um trabalho excepcional. Ganhe a quantidade de dinheiro listada para o nível da tarefa + 1 e sua graduação de proficiência.",
+                    "success": "<strong>Sucesso</strong> Você faz um trabalho competente. Ganhe a quantidade de dinheiro listada para o nível da tarefa e sua graduação de proficiência."
                 },
                 "SampleTasks": {
-                    "Caption": "Estes exemplos usam Saber de Álcool para trabalhar num bar ou Saber de Leis para realizar trabalhos legais.",
+                    "Caption": "Estes exemplos utilizam Saber de Álcool para trabalhar em um bar ou Saber de Leis para realizar trabalhos relacionados a leis.",
                     "Trained": "copeiro, fazer pesquisa legal",
                     "Expert": "cuidar de uma adega, defender casos menores na corte",
                     "Master": "administrar uma grande cervejaria, defender casos importantes na corte",
@@ -351,7 +351,7 @@
             },
             "Feint": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Sua finta sai pela culatra. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que o alvo desferir contra você até o final do seu próximo turno."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Sua finta se volta contra você. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que o alvo desferir contra você\naté o final do seu próximo turno."
                 },
                 "Title": "Fintar"
             },
@@ -452,7 +452,7 @@
                     "Title": "Trocar Empunhadura (2M)"
                 },
                 "Modular": {
-                    "Description": "{actor} ajusta {weapon} para aplicar dano de {damageType}.",
+                    "Description": "{actor} ajusta {weapon} para aplicar dano {damageType}.",
                     "Title": "Modular"
                 },
                 "Parenthetical": "Interagir {purpose}",
