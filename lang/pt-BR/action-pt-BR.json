@@ -133,10 +133,10 @@
             "Coerce": {
                 "Description": "<p>Com ameaças veladas ou explícitas, você tenta coagir uma criatura a fazer o que você quer. Você deve passar pelo menos 1 minuto conversando com uma criatura que possa ver e que ela possa vê-lo ou senti-lo. Ao final da conversa, faça um teste de Intimidação contra a CD de Vontade do alvo, modificado por quaisquer circunstâncias determinadas pelo MJ. As atitudes citadas nos efeitos abaixo são resumidas no quadro Alterando Atitudes e descritas por completo no Apêndice de Condições.</p><p><strong>Sucesso Crítico</strong> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.<br><strong>Sucesso</strong> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos.<br><strong>Falha</strong> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.<br><strong>Falha Crítica</strong> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.</p>",
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.",
-                    "failure": "<b>Falha</b> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.",
-                    "success": "<b>Sucesso</b> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos."
+                    "criticalFailure": "<strong>Falha Crítica</strong> O alvo se recusa a consentir, se torna hostil se já não estiver e não pode ser Coagido por você pelo menos por uma semana.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo lhe dá a informação que você busca ou concorda em seguir suas ordens desde que não sejam prejudiciais a ele de qualquer forma. O alvo continua a consentir por uma quantidade de tempo determinada pelo MJ desde que não exceda 1 dia, momento em que o alvo fica inamistoso (se já não estivesse inamistoso ou hostil). Entretanto, o alvo está amedrontado demais para retaliar contra você — pelo menos a curto prazo.",
+                    "failure": "<strong>Falha</strong> O alvo não faz o que você diz e se torna inamistoso se já não estiver inamistoso ou hostil.",
+                    "success": "<strong>Sucesso</strong> Como sucesso crítico, mas após o alvo ficar inamistoso, ele pode decidir agir contra você — por exemplo, reportando-o às autoridades ou auxiliando seus inimigos."
                 },
                 "Title": "Coagir"
             },
@@ -287,7 +287,7 @@
             "Disarm": {
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio e fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente."
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente."
                 },
                 "Title": "Desarmar"
             },
@@ -361,8 +361,8 @@
             "ForceOpen": {
                 "NoCrowbarPenalty": "Sem pé de cabra",
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Sua tentativa emperra a porta, janela, recipiente ou portão, impondo –2 de penalidade de circunstância em tentativas futuras de Forçá-lo.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Sua tentativa emperra a porta, janela, recipiente ou portão, impondo –2 de penalidade de circunstância em tentativas futuras de Forçá-lo.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
                 },
                 "SampleTasks": {
                     "Untrained": "tecido, vidro frágil",
@@ -375,8 +375,8 @@
             },
             "GatherInformation": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha crítica</b> Você coleta informações incorretas sobre o indivíduo ou tópico.",
-                    "success": "<b>Sucesso</b> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você coleta informações incorretas sobre o indivíduo ou tópico.",
+                    "success": "<strong>Sucesso</strong> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades."
                 },
                 "SampleTasks": {
                     "Untrained": "fofoca atual",
@@ -402,9 +402,9 @@
             "HighJump": {
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} em seu espaço.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b>Você @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} até 8 pés verticalmente e 10 pés horizontalmente.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong>Você @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} até 8 pés verticalmente e 10 pés horizontalmente.",
                     "failure": "<strong>Falha</strong> Você @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} normalmente.",
-                    "success": "<b>Sucesso</b> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} até 5 pés verticalmente e 5 pés horizontalmente."
+                    "success": "<strong>Sucesso</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} até 5 pés verticalmente e 5 pés horizontalmente."
                 },
                 "Title": "Salto em Altura"
             },
@@ -429,9 +429,9 @@
             },
             "Impersonate": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> A criatura nota que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce.",
-                    "failure": "<b>Falha</b> A criatura nota que você não é quem afirma ser.",
-                    "success": "<b>Sucesso</b> Você leva a criatura a pensar que você é a pessoa em que está disfarçada. Você pode ter de fazer um novo teste se seu comportamento mudar."
+                    "criticalFailure": "<strong>Falha Crítica</strong> A criatura note que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce.",
+                    "failure": "<strong>Falha</strong> A criatura nota que você não é quem afirma ser.",
+                    "success": "<strong>Sucesso</strong> Você leva a criatura a pensar que você é a pessoa em que está disfarçada. Você pode ter de fazer um novo teste se seu comportamento mudar."
                 },
                 "Title": "Personificar"
             },
@@ -492,8 +492,8 @@
             },
             "Lie": {
                 "Notes": {
-                    "failure": "<b>Falha</b> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro.",
-                    "success": "<b>Sucesso</b> O alvo acredita em sua mentira."
+                    "failure": "<strong>Falha</strong> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro.",
+                    "success": "<strong>Sucesso</strong> O alvo acredita em sua mentira."
                 },
                 "Title": "Mentir"
             },
@@ -512,17 +512,17 @@
             },
             "MakeAnImpression": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> A atitude do alvo em relação a você piora em um passo.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> A atitude do alvo em relação a você melhora em dois passos.",
-                    "success": "<b>Sucesso</b> A atitude do alvo em relação a você melhora em um passo."
+                    "criticalFailure": "<strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.",
+                    "success": "<strong>Sucesso</strong> A atitude do alvo em relação a você melhora em um passo."
                 },
                 "Title": "Impressionar"
             },
             "ManeuverInFlight": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Como falha, mas a consequência é bem pior.",
-                    "failure": "<b>Falha</b> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
-                    "success": "<b>Sucesso</b> Você obtém sucesso na manobra."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas a consequência é bem pior.",
+                    "failure": "<strong>Falha</strong> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
+                    "success": "<strong>Sucesso</strong> Você obtém sucesso na manobra."
                 },
                 "SampleTasks": {
                     "Trained": "subida ou descida íngreme",
@@ -591,8 +591,8 @@
             "PickALock": {
                 "Description": "<p>Abrir uma fechadura sem uma chave é muito similar a Desabilitar um Dispositivo, mas a CD do teste de Ladroagem é determinada pela complexidade e construção da fechadura que estiver tentando abrir (trancas e suas CDs são encontradas em suas descrições). Fechaduras de qualidades superiores podem requerer vários sucessos para destrancá-las, afinal, se não fosse isso, até mesmo um ladrão incompetente poderia facilmente abrir a fechadura fazendo o teste várias vezes até rolar um 20 natural. Se você não possuir as ferramentas apropriadas, o MJ pode permitir o uso de ferramentas improvisadas, que são tratadas como ferramentas de má qualidade.</p><p><strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.</p><p><strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa.</p><p><strong>Falha Crítica</strong> Você quebra suas ferramentas. Consertá-las requer usar Manufatura para @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repará-las} ou providenciar @Compendium[pf2e.equipment-srd.Sw7MBLASN3xK4Y44]{Apetrechos de Reposição}</p>",
                 "Notes": {
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
-                    "success": "<b>Sucesso</b> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
+                    "success": "<strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
                 },
                 "Title": "Abrir uma Fechadura"
             },
@@ -688,10 +688,10 @@
             },
             "Request": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Não apenas o alvo recusa o pedido, como a atitude dele em relação a você piora em um passo devido à temeridade do pedido.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> O alvo concorda com seu pedido sem exigências.",
-                    "failure": "<b>Falha</b> O alvo recusa o pedido, embora possa propor uma alternativa que pareça menos extrema.",
-                    "success": "<b>Sucesso</b> O alvo concorda com seu pedido, mas pode demandar provisões adicionais ou alterações no pedido."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Não apenas o alvo recusa o pedido, como a atitude dele em relação a você piora em um passo devido à temeridade do pedido.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo concorda com seu pedido sem exigências.",
+                    "failure": "<strong>Falha</strong> O alvo recusa o pedido, embora possa propor uma alternativa que pareça menos extrema.",
+                    "success": "<strong>Sucesso</strong> O alvo concorda com seu pedido, mas pode demandar provisões adicionais ou alterações no pedido."
                 },
                 "Title": "Pedir"
             },
@@ -717,10 +717,10 @@
             },
             "SenseMotive": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Você obtém uma falsa noção das intenções da criatura.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você determina as verdadeiras intenções da criatura e obtém uma ideia concreta de qualquer magia mental que esteja afetando-a.",
-                    "failure": "<b>Falha</b> Você detecta o que uma criatura que está lhe enganando quer que você acredite. Se ela não estiver tentando lhe enganar, você acredita que ela está se comportando normalmente.",
-                    "success": "<b>Sucesso</b> Você consegue determinar se a criatura está se comportando normalmente ou não, mas não descobre exatamente quais as intenções dela ou qual magia pode estar afetando-a."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você obtém uma falsa noção das intenções da criatura.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você determina as verdadeiras intenções da criatura e obtém uma ideia concreta de qualquer magia mental que esteja afetando-a.",
+                    "failure": "<strong>Falha</strong> Você detecta o que uma criatura que está lhe enganando quer que você acredite. Se ela não estiver tentando lhe enganar, você acredita que ela está se comportando normalmente.",
+                    "success": "<strong>Sucesso</strong> Você consegue determinar se a criatura está se comportando normalmente ou não, mas não descobre exatamente quais as intenções dela ou qual magia pode estar afetando-a."
                 },
                 "Title": "Sentir Motivação"
             },
@@ -730,24 +730,24 @@
             "Shove": {
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio, cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você empurra seu oponente até 10 pés para longe de você. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção.",
-                    "success": "<b>Sucesso</b> Você empurra seu oponente 5 pés para trás. Você pode Andar após isso, mas deve mover-se a mesma distância e na mesma direção."
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você empurra seu oponente até 10 pés para longe de você. Você pode @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Andar} após isso, mas deve mover-se a mesma distância e na mesma direção.",
+                    "success": "<strong>Sucesso</strong> Você empurra seu oponente 5 pés para trás. Você pode @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Andar} após isso, mas deve mover-se a mesma distância e na mesma direção."
                 },
                 "Title": "Empurrar"
             },
             "Sneak": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Você é visto! Você é observado pela criatura durante todo seu movimento e permanece assim. Se estiver invisível e estava escondido da criatura, em vez de ser observado durante seu movimento, você fica escondido durante todo seu movimento e permanece assim.",
-                    "failure": "<b>Falha</b> Um som revelador ou outro sinal indica sua posição, embora você permaneça escondido. Você fica escondido da criatura durante todo seu movimento e permanece assim",
-                    "success": "<b>Sucesso</b> Você fica indetectado pela criatura durante seu movimento e permanece indetectado pela criatura ao final dele."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você é visto! Você é observado pela criatura durante todo seu movimento e permanece assim. Se estiver invisível e estava escondido da criatura, em vez de ser observado durante seu movimento, você fica escondido durante todo seu movimento e permanece assim.",
+                    "failure": "<strong>Falha</strong> Um som revelador ou outro sinal indica sua posição, embora você permaneça escondido. Você fica escondido da criatura durante todo seu movimento e permanece assim.",
+                    "success": "<strong>Sucesso</strong> Você fica indetectado pela criatura durante seu movimento e permanece indetectado pela criatura ao final dele."
                 },
                 "Title": "Esgueirar"
             },
             "Squeeze": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo contra a mesma CD. Qualquer resultado nesse teste diferente de uma falha crítica faz com que deixe de estar preso.",
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo contra a mesma CD. Qualquer resultado nesse teste diferente de uma falha crítica faz com que deixe de estar preso.",
                     "criticalSuccess": "<b>Sucesso Crítico</b> Você se espreme através do espaço apertado em 1 minuto para cada 10 pés atravessados.",
-                    "success": "<b>Sucesso</b> Você se espreme por 1 minuto para cada 5 pés."
+                    "success": "<strong>Sucesso</strong> Você se espreme por 1 minuto para cada 5 pés."
                 },
                 "SampleTasks": {
                     "Trained": "espaço mal cabe seus ombros",
@@ -815,9 +815,9 @@
             },
             "Swim": {
                 "Notes": {
-                    "criticalFailure": "<b>Falha Crítica</b> Você não faz qualquer progresso e, se estiver prendendo sua respiração, perde 1 rodada de ar.",
-                    "criticalSuccess": "<b>Sucesso Crítico</b> Você se move até 10 pés pela água, mais 5 pés para cada 20 pés de sua Velocidade em terra (um total de 15 pés para a maioria dos PJs).",
-                    "success": "<b>Sucesso</b> Você se move 5 pés pela água, mais 5 pés para cada 20 pés de sua Velocidade em terra (um total de 10 pés para a maioria dos PJs)."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você não faz qualquer progresso e, se estiver prendendo sua respiração, perde 1 rodada de ar.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você se move pela água, aumentando a distância máxima em 5 pés.",
+                    "success": "<strong>Sucesso</strong> Você se move pela água."
                 },
                 "SampleTasks": {
                     "Untrained": "lago ou outras águas calmas",
@@ -907,8 +907,8 @@
             "TumbleThrough": {
                 "Description": "<p>Você Anda até sua Velocidade. Durante este movimento, você pode tentar mover-se através do espaço de um inimigo. Faça um teste de Acrobatismo contra a CD de Reflexos do inimigo assim que tentar entrar no espaço dele. Você pode Atravessar Acrobaticamente utilizando Escalar, Nadar, Voar, ou outra ação em vez de Andar no ambiente apropriado.</p><p><strong>Sucesso</strong> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 15 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha.<br><strong>Falha</strong> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.</p>",
                 "Notes": {
-                    "failure": "<b>Falha</b> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.",
-                    "success": "<b>Sucesso</b> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 10 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
+                    "failure": "<strong>Falha</strong> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.",
+                    "success": "<strong>Sucesso</strong> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 10 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha."
                 },
                 "Title": "Atravessar Acrobaticamente"
             },
