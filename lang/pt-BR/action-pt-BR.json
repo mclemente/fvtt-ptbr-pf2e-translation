@@ -158,7 +158,7 @@
                 "Title": "Ocultar um Objeto"
             },
             "CoverTracks": {
-                "Description": "<p>Você cobre seus rastros, movendo-se até metade de sua Velocidade de viagem, usando as regras de @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.YVLMgNxXTUQuDJgp]{Travel Speed}. Não é necessário realizar um teste de Sobrevivência para cobrir seus rastros, mas qualquer um que esteja lhe rastreando terá de obter sucesso em um teste de Sobrevivência contra sua CD de Sobrevivência, se for superior à CD normal de Rastrear.</p><p>Em alguns casos, você pode Cobrir Rastros em um encontro. Neste caso, Cobrir Rastros é uma ação única e não possui o traço de exploração.</p>",
+                "Description": "<p>Você cobre seus rastros, movendo-se até metade de sua Velocidade de viagem, usando as regras de @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.YVLMgNxXTUQuDJgp]{Velocidade de Viagem}. Você não precisa fazer um teste de Sobrevivência para cobrir seus rastros, mas qualquer um que esteja lhe rastreando deve obter sucesso em um teste de Sobrevivência contra sua CD de Sobrevivência se ela for maior que a CD normal para Rastrear.</p><p>Em alguns casos, você pode Cobrir Rastros durante um encontro. Neste caso, Cobrir Rastros é uma ação única e não possui o traço exploração.</p>",
                 "Title": "Cobrir Rastros"
             },
             "Craft": {
@@ -418,9 +418,9 @@
             },
             "IdentifyMagic": {
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Você identifica a magia como outra coisa a escolha do MJ.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você descobre todos os atributos da magia, incluindo seu nome (para um efeito), o que ela faz, qualquer meio de ativá-la (para um item ou local) e se é amaldiçoado ou não.",
-                    "failure": "<strong>Falha</strong> Você falha em identificar o item e só poderá tentar novamente após 1 dia."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Você identifica a magia incorretamente como alguma outra coisa à escolha do MJ.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você descobre todas as características da magia, incluindo seu nome (para um efeito), o que ela faz, quaisquer meios de ativá-la (para um item ou local) e se ela é amaldiçoada.",
+                    "failure": "<strong>Falha</strong> Você falha em identificar a magia e não pode tentar novamente por 1 dia."
                 },
                 "Title": "Identificar Magia",
                 "Warning": {
@@ -501,7 +501,7 @@
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} normalmente, mas cai e aterrissa @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
                     "failure": "<strong>Falha</strong> Você realiza um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salto} normal e horizontal.",
-                    "success": "<strong>Sucesso</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} uma distância igual ao resultado do teste arredondado para os 5 pés (1,5m) mais próximos. Você não pode pular mais longe do que sua Velocidade na terra."
+                    "success": "<strong>Sucesso</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} uma distância igual ao resultado do teste arredondado para baixo para os 5 pés mais próximos. Você não pode pular mais longe do que sua Velocidade."
                 },
                 "Title": "Salto em Distância"
             },
