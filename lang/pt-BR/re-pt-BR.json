@@ -58,6 +58,7 @@
                 "CubeFace": "Face do Cubo",
                 "Fangs": "Presas",
                 "FireMote": "Salpico de Fogo",
+                "Fist": "Punho",
                 "Foot": "Pé",
                 "Foreleg": "Perna Dianteira",
                 "Gust": "Lufada",
@@ -233,20 +234,6 @@
                 },
                 "Moderate": {
                     "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[cold]]]{2 de dano de respingo de frio} e o alvo sofre uma penalidade de -3 m/-10 pés a sua Velocidade até o final do seu próximo turno (@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Efeito: Frasco Congelante (Moderado)})."
-                }
-            },
-            "GhostCharge": {
-                "Greater": {
-                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[positive]]]{3 de dano de respingo positivo} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno."
-                },
-                "Lesser": {
-                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[positive]]]{1 de dano de respingo positivo} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
-                },
-                "Major": {
-                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[positive]]]{4 de dano de respingo positivo} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno."
-                },
-                "Moderate": {
-                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[positive]]]{2 de dano de respingo positivo} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
                 }
             },
             "GooGrenade": {
@@ -463,6 +450,13 @@
             "AncientWisp": {
                 "PinpointLight": "Ponto de Luz"
             },
+            "AsoBerang": {
+                "PhantomFlames": {
+                    "Fire": "Fogo",
+                    "None": "Nenhuma",
+                    "Spirit": "Espírito"
+                }
+            },
             "BarghestFeed": "Quantas vezes o Barghest se alimentou?",
             "Bunyip": {
                 "CrocodileLegs": "Pernas de Crocodilo",
@@ -484,6 +478,7 @@
                     "AnimalMedium": "Animal Médio",
                     "AnimalSmall": "Animal Pequeno",
                     "AnimalTiny": "Animal Minúsculo",
+                    "Ape": "Macaco",
                     "Azuretzi": "Azuretzi",
                     "Bat": "Morcego",
                     "BatGiant": "Morcego Gigante",
@@ -548,6 +543,7 @@
                     "Morrigna": "Morrigna",
                     "Mushroom": "Cogumelo",
                     "NaiadQueen": "Náiade Rainha",
+                    "Nymph": "Ninfa",
                     "ObjectTiny": "Objeto Inanimado Minúsculo",
                     "Octopus": "Polvo",
                     "Oni": "Oni",
@@ -556,6 +552,7 @@
                     "Scorpion": "Escorpião",
                     "Succubus": "Súcubo",
                     "Tree": "Árvore",
+                    "Unicorn": "Unicórnio",
                     "Vampire": "Vampiro",
                     "Wolf": "Lobo",
                     "WolfDire": "Lobo Atroz"
@@ -594,6 +591,14 @@
             "Dramofir": {
                 "BittersweetDreamsCriticalFailure": "Falha Crítica",
                 "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
+            },
+            "GauChoRong": {
+                "SubsumedTrait": {
+                    "Animal": "Animal",
+                    "Aquatic": "Aquático",
+                    "Amphibious": "Anfíbio",
+                    "Humanoid": "Humanoide"
+                }
             },
             "LemureSubservience": {
                 "Defend": "Defender",
@@ -969,7 +974,6 @@
                 "Opacity": "Opacidade",
                 "Predicate": "Predicado",
                 "Primitive": "Primitivo",
-                "PriorityHint": "A prioridade determina a ordem em que os elementos de regra são executados. Os elementos de regra com valores de prioridade mais baixos são executados primeiro.",
                 "Range": "Intervalo",
                 "Remove": "Remover",
                 "Selector": "Seletor",
@@ -1250,13 +1254,13 @@
                     "Snake": "Serpente",
                     "Wolf": "Lobo"
                 },
-                "Elemental": {
-                    "ElementalEvolutionLabel": "Dano de Fúria Elemental"
-                },
                 "Dragon": {
                     "NormalRageDamage": "Causa dano de fúria normal",
                     "ToggleLabel": "Fúria Dracônica",
                     "Prompt": "Escolha um Dragão."
+                },
+                "Elemental": {
+                    "ElementalEvolutionLabel": "Dano de Fúria Elemental"
                 },
                 "Giant": {
                     "Prompt": "Escolha um tipo de energia para Resistência em Fúria."
@@ -1666,6 +1670,9 @@
             "Multitalented": {
                 "Prompt": "Select a multiclass dedication."
             },
+            "Notes": {
+                "NoteLabel": "Anotação"
+            },
             "Numbers": {
                 "Eight": "Oito",
                 "Five": "Cinco",
@@ -1682,6 +1689,9 @@
                 "OrcWarmask": {
                     "Magic": "Magia"
                 }
+            },
+            "PathfinderAgentDedication": {
+                "ThoroughReports": "Relatórios Completos"
             },
             "PreciseStrike": {
                 "Finisher": "Finalização"
@@ -1994,6 +2004,10 @@
                 "AgainstHumanoids": "Contra Humanoides",
                 "Necromancer": "Alvo é um necromante",
                 "Metal": "Alvo está usando uma armadura de metal ou é feito de metal"
+            },
+            "TempestForm": {
+                "Air": "Ar",
+                "Water": "Água"
             },
             "TerrainExpertise": {
                 "Prompt": "Selecione um terreno."
