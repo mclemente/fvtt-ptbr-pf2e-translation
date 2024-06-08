@@ -236,6 +236,20 @@
                     "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[cold]]]{2 de dano de respingo de frio} e o alvo sofre uma penalidade de -3 m/-10 pés a sua Velocidade até o final do seu próximo turno (@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Efeito: Frasco Congelante (Moderado)})."
                 }
             },
+            "GhostCharge": {
+                "Greater": {
+                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[positive]]]{3 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno."
+                },
+                "Lesser": {
+                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[positive]]]{1 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
+                },
+                "Major": {
+                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[positive]]]{4 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno."
+                },
+                "Moderate": {
+                    "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[positive]]]{2 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
+                }
+            },
             "GooGrenade": {
                 "Greater": "Maior",
                 "Lesser": "Menor",
@@ -974,6 +988,7 @@
                 "Opacity": "Opacidade",
                 "Predicate": "Predicado",
                 "Primitive": "Primitivo",
+                "PriorityHint": "A prioridade determina a ordem em que os elementos de regra são executados dentro da mesma fase. Os elementos de regra com valores de prioridade mais baixos são executados primeiro.",
                 "Range": "Intervalo",
                 "Remove": "Remover",
                 "Selector": "Seletor",
