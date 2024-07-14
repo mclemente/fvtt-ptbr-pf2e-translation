@@ -564,9 +564,11 @@
                     "Octopus": "Polvo",
                     "Oni": "Oni",
                     "Owlbear": "Urso-Coruja",
+                    "Plant": "Planta",
                     "PorcupineGiant": "Porco-espinho gigante",
                     "Rat": "Rato",
                     "Scorpion": "Escorpião",
+                    "Shark": "Tubarão",
                     "Succubus": "Súcubo",
                     "Tree": "Árvore",
                     "Unicorn": "Unicórnio",
@@ -1262,12 +1264,14 @@
             "Barbarian": {
                 "Animal": {
                     "Ape": "Macaco",
+                    "Bat": "Morcego",
                     "Bear": "Urso",
                     "Bull": "Touro",
                     "Cat": "Felino",
                     "Deer": "Veado",
                     "Frog": "Sapo",
                     "Prompt": "Escolha um animal.",
+                    "Scorpion": "Escorpião",
                     "Shark": "Tubarão",
                     "Snake": "Serpente",
                     "Wolf": "Lobo"
@@ -1378,6 +1382,13 @@
                     "Prompt": "Selecione uma doutrina."
                 }
             },
+            "ConcertFrog": {
+                "Conduct": {
+                    "Blue": "Azul",
+                    "Red": "Vermelho",
+                    "Yellow": "Amarelo"
+                }
+            },
             "Cover": {
                 "Greater": "Maior",
                 "Lesser": "Menor",
@@ -1422,6 +1433,14 @@
                 }
             },
             "Equipment": {
+                "Bomb": {
+                    "Type": {
+                        "Greater": "Maior",
+                        "Lesser": "Menor",
+                        "Major": "Superior",
+                        "Moderate": "Moderado"
+                    }
+                },
                 "DruidsCrown": {
                     "AntlersLabel": "Chifres",
                     "FlowersLabel": "Flores",
@@ -2087,33 +2106,37 @@
                     "Prompt": "Selecione um patrono.",
                     "FamiliarAbility": {
                         "BalancedLuck": {
-                            "Title": "Familiar da Sorte Equilibrada",
-                            "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura a até 15 pés do seu familiar pode escolher entre um bônus de estado de +1 em sua CA ou uma penalidade de estado de -1 em sua CA até o início do seu próximo turno."
+                            "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura a até 15 pés do seu familiar pode escolher entre um bônus de estado de +1 em sua CA ou uma penalidade de estado de -1 em sua CA até o início do seu próximo turno.",
+                            "Title": "Familiar da Sorte Equilibrada"
                         },
                         "FlowingScript": {
-                            "Title": "Familiarizado da Escrita Flúda",
-                            "Description": "Quando você lança ou sustenta um sortilégio, as letras começam a mudar rapidamente, causando uma distração. Até o início do seu próximo turno, seu familiar pode causar flanqueamento para você e seus aliados como se fosse capaz de atacar e tivesse um alcance de 5 pés; este é um efeito visual."
+                            "Description": "Quando você lança ou sustenta um sortilégio, as letras começam a mudar rapidamente, causando uma distração. Até o início do seu próximo turno, seu familiar pode causar flanqueamento para você e seus aliados como se fosse capaz de atacar e tivesse um alcance de 5 pés; este é um efeito visual.",
+                            "Title": "Familiarizado da Escrita Flúda"
                         },
                         "FreezingRime": {
-                            "Title": "Familiar da Geada Congelante",
-                            "Description": "Seu familiar é frio ao toque, sua respiração sempre visível. Ao Conjurar ou Sustentar um sortilégio, você pode fazer com que gelo se forme em uma @Template[type:burst|distance:5]{Explosão de 5 pés} centrada em um quadrado do espaço do seu familiar. Esses quadrados são terreno difícil até o início do seu próximo turno."
+                            "Description": "Seu familiar é frio ao toque, sua respiração sempre visível. Ao Conjurar ou Sustentar um sortilégio, você pode fazer com que gelo se forme em uma @Template[type:burst|distance:5]{Explosão de 5 pés} centrada em um quadrado do espaço do seu familiar. Esses quadrados são terreno difícil até o início do seu próximo turno.",
+                            "Title": "Familiar da Geada Congelante"
                         },
                         "KeenSenses": {
-                            "Title": "Familiar dos Sentidos Aguçados",
-                            "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar ganha à sua escolha um olfato impreciso, sentido de tremor ou sentido de ondas, com um alcance de 60 pés até o início do seu próximo turno, e pode imediatamente @UUID[Compendium.pf2e.actionspf2e. Item.sn2hIy1iIJX9Vpgj]{Apontar} como uma ação livre."
+                            "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar ganha à sua escolha um olfato impreciso, sentido de tremor ou sentido de ondas, com um alcance de 60 pés até o início do seu próximo turno, e pode imediatamente @UUID[Compendium.pf2e.actionspf2e. Item.sn2hIy1iIJX9Vpgj]{Apontar} como uma ação livre.",
+                            "Title": "Familiar dos Sentidos Aguçados"
                         },
                         "OngoingMisery": {
-                            "Title": "Familiar da Míseria Contínua",
-                            "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar pode amaldiçoar uma criatura a até 15 pés dele, prolongando em 1 rodada a duração de quaisquer condições negativas que o afetem. Este é um efeito de maldição. Isso prolonga apenas as condições com duração cronometrada (como '1 rodada' ou 'até o final do seu próximo turno') e não impede que as condições sejam removidas por outros meios."
+                            "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar pode amaldiçoar uma criatura a até 15 pés dele, prolongando em 1 rodada a duração de quaisquer condições negativas que o afetem. Este é um efeito de maldição. Isso prolonga apenas as condições com duração cronometrada (como '1 rodada' ou 'até o final do seu próximo turno') e não impede que as condições sejam removidas por outros meios.",
+                            "Title": "Familiar da Míseria Contínua"
                         },
                         "RestoredSpirit": {
-                            "Title": "Familiar do Espírito Restaurado",
-                            "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura voluntária a até 15 pés do seu familiar ganha Pontos de Vida temporários iguais a 2 + metade do seu nível, que duram até o início do seu próximo turno."
+                            "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura voluntária a até 15 pés do seu familiar ganha Pontos de Vida temporários iguais a 2 + metade do seu nível, que duram até o início do seu próximo turno.",
+                            "Title": "Familiar do Espírito Restaurado"
                         },
                         "StalkingNight": {
-                            "Title": "Familiar da Noite Perseguidora",
-                            "Description": "Seu familiar tem pelo ou penas escuros e a luz parece desaparecer nele. Quando você Conjura ou Sustenta um sortilégio e seu familiar está adjacente a um inimigo ao qual ele está @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultado}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, ou indetectado, o inimigo se torna @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}."
+                            "Title": "Familiar da Noite Perseguidora"
                         }
+                    }
+                },
+                "WildWitchsArmaments": {
+                    "LivingHair": {
+                        "SrikeLabel": "Espinho"
                     }
                 },
                 "WitchsArmaments": {
