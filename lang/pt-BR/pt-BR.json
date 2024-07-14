@@ -1486,6 +1486,18 @@
             "RevealName": "Revelar Nome",
             "XP": "XP"
         },
+        "Environment": {
+            "Type": {
+                "Aquatic": "Aquático",
+                "Forest": "Floresta",
+                "Plains": "Planícies",
+                "Underground": "Embaixo da terra"
+            },
+            "Feature": {
+                "Rubble": "Detritos",
+                "Snow": "Neve"
+            }
+        },
         "ErrorMessage": {
             "CantCreateEffectMacro": "Um efeito para um macro alternativo deve vir de um compêndio ou item do mundo.",
             "CantImportTooHighVersion": "Não foi possível importar {sourceName}: sua versão do esquema ({sourceSchemaVersion}) é maior do que esse mundo ({worldSchemaVersion}).",
@@ -1652,6 +1664,7 @@
         "InvestedLabel": "Investido",
         "Item": {
             "ABC": {
+                "Add": "Adicionar",
                 "Features": "Características",
                 "InvalidDrop": "{badType} não pode ser colocado aqui (deve ser {goodType})"
             },
@@ -2619,10 +2632,6 @@
         "ItemTitle": "Item",
         "ItemsLabel": "Itens",
         "Keybinding": {
-            "CycleTokenStack": {
-                "Hint": "Ciclo os índices Z de uma pilha de tokens que o mouse está sobre, empurrando a parte superior para baixo.",
-                "Label": "Alternar Pilha de Token"
-            },
             "GMVision": {
                 "Hint": "Ilumina cenas escuras para visualização facilitada.",
                 "Label": "Visão do GM"
@@ -3058,6 +3067,18 @@
             "rollingDescription": "Teste de Recuperação contra CD {dc} (morrendo {dying})",
             "success": "Reduz seu valor de Morrendo em 1."
         },
+        "Region": {
+            "Environment": {
+                "Mode": {
+                    "Add": {
+                        "Label": "Adicionar"
+                    },
+                    "Remove": {
+                        "Label": "Remover"
+                    }
+                }
+            }
+        },
         "RemoveCoinsByValueLabel": "Remover valor, nenhum tipo específico",
         "RemoveCoinsTitle": "Remover Moedas",
         "RemoveCombatProficiency": {
@@ -3219,10 +3240,6 @@
                 "Enabled": "Habilitado",
                 "Default": "Padrão do Mundo ({worldDefault})",
                 "Disabled": "Desabilitado"
-            },
-            "EnabledRulesUI": {
-                "Hint": "Quando habilitado, jogadores poderão ver e utilizar o painel de elementos de regras nas fichas de itens.",
-                "Name": "Acesso de Jogador à Elementos de Regra"
             },
             "Homebrew": {
                 "BaseWeapons": {
@@ -3516,44 +3533,30 @@
         "SidebarAppearanceLabel": "Aparência",
         "Size": "Tamanho",
         "SizeLabel": "Tamanho",
-        "SkillAcr": "Acrobatismo",
-        "SkillAcrobatics": "Acrobatismo",
-        "SkillArc": "Arcanismo",
-        "SkillArcana": "Arcanismo",
-        "SkillAth": "Atletismo",
-        "SkillAthletics": "Atletismo",
+        "Skill": {
+            "Acrobatics": "Acrobatismo",
+            "Arcana": "Arcanismo",
+            "Athletics": "Atletismo",
+            "Crafting": "Manufatura",
+            "Deception": "Dissimulação",
+            "Diplomacy": "Diplomacia",
+            "Intimidation": "Intimidação",
+            "Medicine": "Medicina",
+            "Nature": "Natureza",
+            "Occultism": "Ocultismo",
+            "Performance": "Performance",
+            "Religion": "Religião",
+            "Society": "Sociedade",
+            "Stealth": "Furtividade",
+            "Survival": "Sobrevivência",
+            "Thievery": "Ladroagem"
+        },
         "SkillCheckWithName": "Teste de Perícia: {skillName}",
-        "SkillCra": "Manufatura",
-        "SkillCrafting": "Manufatura",
-        "SkillDec": "Dissimulação",
-        "SkillDeception": "Dissimulação",
-        "SkillDip": "Diplomacia",
-        "SkillDiplomacy": "Diplomacia",
         "SkillFeatLevels": "Nível de Talentos de Perícia",
         "SkillIncreaseLevels": "Níveis de Incremento de Perícia",
-        "SkillIntimidation": "Intimidação",
-        "SkillItm": "Intimidação",
         "SkillLabel": "Perícia",
         "SkillLore": "Saber",
-        "SkillMed": "Medicina",
-        "SkillMedicine": "Medicina",
-        "SkillNat": "Natureza",
-        "SkillNature": "Natureza",
-        "SkillOcc": "Ocultismo",
-        "SkillOccultism": "Ocultismo",
-        "SkillPerformance": "Performance",
         "SkillPotencyHeader": "Potências de Perícia",
-        "SkillPrf": "Performance",
-        "SkillRel": "Religião",
-        "SkillReligion": "Religião",
-        "SkillSoc": "Sociedade",
-        "SkillSociety": "Sociedade",
-        "SkillSte": "Furtividade",
-        "SkillStealth": "Furtividade",
-        "SkillSur": "Sobrevivência",
-        "SkillSurvival": "Sobrevivência",
-        "SkillThi": "Ladroagem",
-        "SkillThievery": "Ladroagem",
         "SkillsLabel": "Perícias",
         "Slug": "Slug",
         "SpecialSensesLabel": "Sentidos Especiais",
@@ -3780,6 +3783,7 @@
         "TraitArtifact": "Artefato",
         "TraitAstral": "Astral",
         "TraitAsura": "Asura",
+        "TraitAthamaru": "Athamaru",
         "TraitAttached": "Anexado",
         "TraitAttachedToAThrownWeapon": "Anexado à Arma Arremessável",
         "TraitAttachedToCrossbowOrFirearm": "Anexado em uma Besta ou Arma-de-fogo",
@@ -5944,8 +5948,6 @@
             "PermissionError": "Um MJ deve estar online para saquear ou guardar um item.",
             "PlantMessage": "{planter} deposita {quantity} × {item} do(a) {corpse}.",
             "PlantSubtitle": "Depositar Item",
-            "PurchaseLoot": "Comprar Itens",
-            "PurchaseLootMessage": "Quantos itens você deseja comprar?",
             "Quantity": "Quantidade",
             "SellMessage": "{seller} vende {quantity} × {item} para {buyer}.",
             "SellSubtitle": "Vender item",
