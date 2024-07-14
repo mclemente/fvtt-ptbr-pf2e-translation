@@ -10,9 +10,9 @@ import gulp from "gulp";
 /*  CONFIGURATION   */
 /********************/
 
-const sourceDirectory = "./";
+const sourceDirectory = ".";
 const distDirectory = "./dist";
-const staticFiles = ["pf2e.css", "module.json"];
+const staticFiles = ["module.json"];
 
 /********************/
 /*      BUILD       */
