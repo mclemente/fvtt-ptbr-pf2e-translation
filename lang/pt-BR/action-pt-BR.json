@@ -268,6 +268,7 @@
                 "Title": "Adiar"
             },
             "Demoralize": {
+                "Description": "<p>Com um grito súbito, uma provocação oportuna ou uma crítica severa, você pode abalar a determinação de um inimigo. Escolha uma criatura a até 9 metros de você da qual esteja ciente. Faça um teste de <span data-pf2-action=\"demoralize\" data-pf2-glyph=\"A\">Intimidação</span> contra a CD de Vontade do alvo. Se você não estiver falando um idioma, se o alvo não compreender o idioma que você estiver falando ou se ele não puder ouvi-lo, você sofre –4 de penalidade de circunstância no teste. Independentemente do resultado, o alvo fica temporariamente imune às suas tentativas de Desmoralizá-lo por 10 minutos.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> O alvo fica @UUID[Compendium. pf2e. conditionitems. TBSHQspnbcqxsmjL]{Assustado 2}.</p>\n<p><strong>Sucesso</strong> O alvo fica @UUID[Compendium. pf2e. conditionitems. TBSHQspnbcqxsmjL]{Assustado 1}.</p>",
                 "Notes": {
                     "criticalSuccess": "<strong>Sucesso crítico</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 2}.",
                     "success": "<strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}."
@@ -285,6 +286,7 @@
                 "Title": "Desabilitar um Dispositivo"
             },
             "Disarm": {
+                "Description": "<p><strong>Requerimentos</strong> Você tem pelo menos uma mão livre. Seu alvo não pode ser mais de um tamanho maior que você.</p>\n<hr />\n<p>Você tenta derrubar algo que um oponente esteja segurando. Faça um teste de <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\">Atletismo</span> contra a CD de Reflexos dele.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente.</p>\n<p><strong>Sucesso</strong> Você enfraquece a empunhadura de seu oponente no item. Até o início do turno dessa criatura, tentativas de Desarmar o oponente desse item recebem +2 de bônus de circunstância e o alvo sofre –2 de penalidade de circunstância em ataques com o item ou outros testes que exijam uma empunhadura firme nesse item.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Efeito: Desarmar}</p>\n<p><strong>Falha Crítica</strong> Você perde o equilíbrio e fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início de seu próximo turno.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio e fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.",
                     "criticalSuccess": "<strong>Sucesso Crítico</strong> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente."
