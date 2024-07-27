@@ -34,7 +34,19 @@
                 "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:fortitude|dc:19] ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} por 1 rodada pelo frio intenso (lento 1 para 1 minuto em uma falha crítica)."
             },
             "MeteorShot": {
-                "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição."
+                "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição.",
+                "Greater": {
+                    "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 6d6[fire]]] dano em uma @Template[type:emanation|distance:10] ao redor do alvo (@Check[type:reflex|dc:29|basic:true|name:Meteor Shot] save).",
+                    "Title": "Tiro Meteórico (Maior)"
+                },
+                "Major": {
+                    "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 9d6[fire]]] dano em uma @Template[type:emanation|distance:20] ao redor do alvo (@Check[type:reflex|dc:37|basic:true|name:Meteor Shot] save).",
+                    "Title": "Tiro Meteórico (Superior)"
+                },
+                "Normal": {
+                    "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 3d6[fire]]] dano em uma @Template[type:emanation|distance:5] ao redor do alvo (@Check[type:reflex|dc:23|basic:true|name:Meteor Shot] save).",
+                    "Title": "Tiro Meteórico"
+                }
             },
             "ShiningAmmunition": {
                 "Text": "A munição emana luz brilhante em um raio de 20 pés (e luz fraca nos próximos 20 pés) por 10 minutos. Se atingir um alvo, ela se fixa nele, fazendo o alvo emanar luz no mesmo raio. @UUID[Compendium.pf2e.equipment-effects.Sf6UO6vgCeicggOK]{Efeito: Munição Brilhante}",
@@ -1331,7 +1343,16 @@
             },
             "BonusLabel": {
                 "NegativeOne": "-1",
+                "PlusFour": "+4",
+                "PlusOne": "+1",
+                "PlusThree": "+3",
                 "PlusTwo": "+2"
+            },
+            "BottledOmen": {
+                "Label": "Use seu presságio"
+            },
+            "BountyHunterDedication": {
+                "GatherInfoHuntedPrey": "Para coletar informações sobre caçar presa"
             },
             "BrevicNoble": {
                 "Prompt": "Selecione uma linhagem Brevana."
