@@ -386,6 +386,7 @@
                 "Title": "Forçar"
             },
             "GatherInformation": {
+                "Description": "<p>Você investiga mercados locais, tabernas e coleta de lugares para tentar aprender sobre um tópico ou indivíduo específico. O GM determina o DC do teste e o tempo que leva (tipicamente 2 horas, mas por vezes mais), junto com qualquer benefício que você possa ganhar gastando moeda em subornos, bebidas ou presentes.</p><p><strong>Sucesso</strong> Você coleta informações sobre o indivíduo ou tópico. O GM determina as especificidades.<br><strong>Falha Crítica</strong> Você coletou informações incorretas sobre o indivíduo ou tópico.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você coleta informações incorretas sobre o indivíduo ou tópico.",
                     "success": "<strong>Sucesso</strong> Você coleta informações sobre o indivíduo ou tópico. O MJ determina as especificidades."
@@ -400,6 +401,7 @@
                 "Title": "Obter Informação"
             },
             "GrabAnEdge": {
+                "Description": "<p><strong>Acionamento</strong> Você cai ou passa por uma beirada, ou um apoio para a mão.</p>\n<p><strong>Pré-requisitos</strong> Suas mãos não estão presas às suas costas ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringidas} de alguma outra forma.</p>\n<hr />\n<p>Quando cair ou passar por uma beirada, ou outro apoio para as mãos, você pode tentar agarrá-lo, potencialmente parando sua queda. Você deve obter sucesso em um salvamento de Reflexos, normalmente contra a CD de Escalar. Se agarrar a beirada ou apoio para as mãos, você pode @UUID[Compendium.pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Escalar} utilizando Atletismo.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Você se agarra a uma beirada ou um apoio, quer tenha uma mão livre ou não, normalmente usando um item empunhado adequado para se segurar (prendendo um machado de batalha em uma beirada, por exemplo). Você ainda sofre dano da distância caída até ali, mas trata a queda como se fosse 30 pés (9 m) menor.</p>\n<p><strong>Sucesso</strong> Se tiver pelo menos uma mão livre, você agarra a beirada ou apoio para a mão, parando a queda. Você ainda sofre dano da distância caída até ali, mas trata a queda como se fosse 20 pés (6 m) menor. Se não tiver nenhuma mão livre, você continua a cair como se tivesse falhado no teste.</p>\n<p><strong>Falha Crítica</strong> Você continua a cair e, se tiver caído 20 pés (6 m) ou mais antes de usar esta reação, você sofre @Damage[10[contundente]] devido ao impacto para cada 20 pés (6 m) caídos.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você continua a cair e, se tiver caído 20 pés ou mais antes de usar esta reação, você sofre @Damage[10[bludgeoning]] devido ao impacto para cada 20 pés caídos."
                 },
