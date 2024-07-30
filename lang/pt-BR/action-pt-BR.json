@@ -359,18 +359,22 @@
             "Feint": {
                 "Description": "<p><strong>Requerimentos</strong> Você está no alcance corpo a corpo do oponente que está tentando Fintar.</p>\n<hr />\n<p>Com um floreio enganoso, você deixa um oponente despreparado para seu ataque real. Faça um teste de <span data-pf2-action=\"feint\" data-pf2-glyph=\"A\">Dissimulação</span> contra a CD de Percepção do oponente.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Você deixa as defesas de seu inimigo completamente abertas. O alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que você desferir contra ele até o final do seu próximo turno.</p>\n<p><strong>Sucesso</strong> Seu adversário é enganado, mas apenas momentaneamente. O alvo fica desprevenido contra o próximo ataque corpo a corpo que você desferir contra ele até o final do seu turno atual.</p>\n<p><strong>Falha Crítica</strong> Sua finta se volta contra você. Você fica desprevenido contra ataques corpo a corpo que o alvo desferir contra você até o final do seu próximo turno.</p>",
                 "Notes": {
-                    "criticalFailure": "<strong>Falha Crítica</strong> Sua finta se volta contra você. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que o alvo desferir contra você\naté o final do seu próximo turno."
+                    "criticalFailure": "<strong>Falha Crítica</strong> Sua finta se volta contra você. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ataques corpo a corpo que o alvo desferir contra você\naté o final do seu próximo turno.",
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você deixa as defesas de seu inimigo completamente abertas. O alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra os ataques corpo a corpo que você desferir contra ele até o final do seu próximo turno.",
+                    "success": "<strong>Sucesso</strong> Seu adversário é enganado, mas apenas momentaneamente. O alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra os ataques corpo a corpo que você desferir contra ele até o final do seu turno atual."
                 },
                 "Title": "Fintar"
             },
             "Fly": {
+                "Description": "<p><strong>Pré-requisitos</strong> Você possui uma Velocidade de voo.</p>\n<hr />\n<p>Você se desloca pelo ar até sua Velocidade de voo. Mover-se para cima (ou diagonalmente) utiliza as regras de movimento em terreno difícil. Você pode mover-se 10 pés (3 m) para baixo para cada 5 pés (1,5 m) de movimento que gastar. Se Voar até o chão, você não sofre dano de queda. Você pode usar uma ação para Voar 0 pés e pairar no mesmo lugar. Se estiver no ar ao final de seu turno e não tiver usado uma ação de Voar nesta rodada, você cai.</p>",
                 "Title": "Voar"
             },
             "ForceOpen": {
                 "NoCrowbarPenalty": "Sem pé de cabra",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Sua tentativa emperra a porta, janela, recipiente ou portão, impondo –2 de penalidade de circunstância em tentativas futuras de Forçá-lo.",
-                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo."
+                    "criticalSuccess": "<strong>Sucesso Crítico</strong> Você abre a porta, janela, recipiente ou portão e pode evitar danificar o item no processo.",
+                    "success": "<strong>Sucesso</strong> Você quebra a porta, janela, recipiente ou portão para abri-lo, e o objeto aberto sofre a condição @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Quebrado}. Se o item for especialmente resistente, o MJ pode fazer com que ele sofra dano, mas não fique quebrado."
                 },
                 "SampleTasks": {
                     "Untrained": "tecido, vidro frágil",
