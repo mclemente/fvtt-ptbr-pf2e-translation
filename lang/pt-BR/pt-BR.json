@@ -5346,6 +5346,12 @@
                     "criticalSuccess": "Num acerto crítico, você dá [[/r 1d10[persistent,fire]]] adicional."
                 }
             },
+            "flickering": {
+                "Name": "Cintilante",
+                "Note": {
+                    "criticalSuccess": "Em um acerto crítico, a arma lança pulsos de cores brilhantes nos olhos da criatura, deixando-a @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada (esse efeito possui o traço visual)."
+                }
+            },
             "flurrying": {
                 "Name": "Agitada"
             },
@@ -5977,6 +5983,7 @@
             "DepositSubtitle": "Depositar item",
             "EditLootLabel": "Configurar Espólio?",
             "GMSupervisionError": "Um MJ precisa estar online para poder interagir com {loot}.",
+            "Give": "Dar",
             "GiveMessage": "{giver} deposita {quantity} × {item} em {recipient}.",
             "GiveSubtitle": "Dar item",
             "HiddenWhenEmpty": {
@@ -6001,6 +6008,8 @@
             "PermissionError": "Um MJ deve estar online para saquear ou guardar um item.",
             "PlantMessage": "{planter} deposita {quantity} × {item} do(a) {corpse}.",
             "PlantSubtitle": "Depositar Item",
+            "Purchase": "Comprar",
+            "PurchasePrice": "Preço de compra",
             "Quantity": "Quantidade",
             "SellMessage": "{seller} vende {quantity} × {item} para {buyer}.",
             "SellSubtitle": "Vender item",
