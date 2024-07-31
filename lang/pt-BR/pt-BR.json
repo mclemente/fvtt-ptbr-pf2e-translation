@@ -331,6 +331,7 @@
                     "kibwani": "Kibwani",
                     "kitsune": "Kitsune",
                     "kovintal": "Kovintal",
+                    "lashunta": "Lashunta",
                     "lirgeni": "Lirgeni",
                     "mahwek": "Mahwek",
                     "migo": "Mi-Go",
@@ -369,6 +370,7 @@
                     "skald": "Escaldo",
                     "sphinx": "Esfinge",
                     "strix": "Estrige",
+                    "surki": "Surki",
                     "sussuran": "Sussurano",
                     "taldane": "Taldano",
                     "talican": "Talicano",
@@ -1491,10 +1493,15 @@
                 "Aquatic": "Aquático",
                 "Forest": "Floresta",
                 "Plains": "Planícies",
-                "Underground": "Embaixo da terra"
+                "Underground": "Embaixo da terra",
+                "Urban": "Urbano"
             },
             "Feature": {
+                "Ice": "Gelo",
+                "Lava": "Lava",
                 "Rubble": "Detritos",
+                "Sand": "Areia",
+                "Sewer": "Esgoto",
                 "Snow": "Neve"
             }
         },
@@ -2310,6 +2317,7 @@
                         "Label": "Desanexar item",
                         "Prompt": "Tem certeza de que deseja desanexar {attachable}?"
                     },
+                    "Label": "Acoplado",
                     "Outcome": {
                         "Failure": "Você não conseguiu anexar {attachable}.",
                         "Success": "{attachable} agora está anexado a {target}."
@@ -2450,12 +2458,14 @@
                 "Hint": {
                     "Slug": "Um identificador estável e legível para humanos: se definido, será mantido mesmo que o item seja renomeado.",
                     "SourceId": "O UUID do item original do compêndio",
-                    "UUID": "Um identificador universalmente único para este item"
+                    "UUID": "Um identificador universalmente único para este item",
+                    "RollOptions": "O prefixo para a rolagem de um item depende do seu uso. <em>item:</em> é usado na maioria das vezes, mas o <em>traço:</em> é usado para o item que contém o elemento de regra."
                 },
                 "New": "Novo Elemento de Regra",
                 "RegenerateSlug": "(Re)generar Slug",
                 "Remove": "Remover Elemento de Regra",
-                "Tab": "Regras"
+                "Tab": "Regras",
+                "ViewRollOptions": "Ver Opções de Rolagem"
             },
             "Shield": {
                 "Base": {
@@ -3073,9 +3083,22 @@
                     "Add": {
                         "Label": "Adicionar"
                     },
+                    "Hint": "Defina o modo para este comportamento do terreno. Adicione os tipos de ambientes existentes ou os tipos selecionados, remova os tipos selecionados dos tipos existentes, ou sobreponha os tipos existentes com os tipos selecionados.",
+                    "Label": "Modo",
+                    "Override": {
+                        "Label": "Sobrepor"
+                    },
                     "Remove": {
                         "Label": "Remover"
                     }
+                },
+                "Label": "Ambiente",
+                "RegionLegend": {
+                    "Header": "Padrões de Cena",
+                    "SceneRegionsHeader": "Regiões de Cena"
+                },
+                "Type": {
+                    "Label": "Ambiente"
                 }
             }
         },
@@ -3129,6 +3152,7 @@
                     "Label": "Rótulo",
                     "None": "Nenhuma",
                     "Override": "Substituir {value}",
+                    "OverrideLabel": "Sobrepor",
                     "Splash": "{damageType} de respingo",
                     "TitleCritical": "Rolagem de Dano Crítico",
                     "Title": "Rolagem de Dano"
@@ -3301,6 +3325,10 @@
                     "Damage": "Tipos de Dano",
                     "Traits": "Traços e Categorias"
                 },
+                "EnvironmentTypes": {
+                    "Hint": "Qualquer tipo de ambiente personalizado",
+                    "Name": "Tipos de Ambiente"
+                },
                 "WeaponCategories": {
                     "Hint": "O nível máximo da taxonomia das armas do Pathfinder 2e (ex: Simples, Marcial)",
                     "Name": "Categorias de Armas"
@@ -3363,6 +3391,9 @@
                     "Hint": "Se ativado, então para qualquer token de PdM cujo nome não seja visível para os jogadores, seu nome também será escondido deles no rastreador de encontro e nas mensagens do bate-papo.",
                     "Name": "Tokens determinam a visibilidade do nome do PdM"
                 }
+            },
+            "MinimumRulesUI": {
+                "Name": "Função mínima de acesso aos elementos de regra"
             },
             "NathMode": {
                 "Hint": "Usar ícones de token padrão melhorados",
@@ -3798,6 +3829,7 @@
         "TraitAuditory": "Auditivo",
         "TraitAura": "Aura",
         "TraitAutomaton": "Autômato",
+        "TraitAwakenedAnimal": "Animal Despertado",
         "TraitAzarketi": "Azarketi (Absalom)",
         "TraitAzata": "Azata",
         "TraitBackstabber": "Apunhaladora",
@@ -3890,6 +3922,7 @@
         "TraitDeflectingSlashing": "Defletindo Cortante",
         "TraitDemon": "Demônio",
         "TraitDero": "Dero",
+        "TraitDescriptionAberration": "As aberrações são criaturas de outros planos ou deturpações da ordem natural.",
         "TraitDescriptionAcid": "Efeitos com este traço causam dano de ácido. Criaturas com este traço possuem uma conexão mágica ao ácido.",
         "TraitDescriptionAdditive": "Talentos com o traço aditivo lhe permitem gastar ações para acrescentar substâncias especiais a bombas ou elixires. Você pode acrescentar somente um único aditivo a um determinado item alquímico — tentar acrescentar outro aditivo estraga o item. Normalmente você só pode usar ações com o traço aditivo quando estiver criando um item alquímico infundido, e algumas só podem ser usadas com a ação Alquimia Rápida. O traço aditivo é sempre apresentado com um nível, como aditivo 2. Um aditivo adiciona o nível dele ao nível do item alquímico que está sendo modificado; o resultado é o novo nível da mistura. O nível de item da mistura não pode ser maior que seu nível de alquimia avançada",
         "TraitDescriptionAdjusted": "O equipamento vem com um ajuste descrito em sua listagem. Esse ajuste é construído no equipamento permanentemente, o que significa que o equipamento não pode ter ajustes adicionados, nem pode ser trocado por ajustes diferentes. Se o ajuste altera as estatísticas base do item, tais como adicionar o traço barulhento, isso é refletido na listagem de tabela do equipamento.",
@@ -3907,31 +3940,42 @@
         "TraitDescriptionAmphibious": "Uma criatura anfíbia pode respirar na água e no ar, mesmo fora do seu ambiente preferido, geralmente por tempo indeterminada, mas por pelo menos horas. Estas criaturas geralmente têm uma Velocidade de Natação. Seus Golpes desarmados cortantes e contundentes não recebem a penalidade de -2 habitual por estarem debaixo d'água.",
         "TraitDescriptionAnadi": "Um povo recluso de Garund que lembram aranhas e assumem formas humanas.",
         "TraitDescriptionAndroid": "Uma ancestralidade humanoide sintética criada por meios artificiais. Mais comuns em Numeria.",
+        "TraitDescriptionAngel": "Essa família de celestiais é composta por mensageiros e guerreiros. A maioria dos anjos são sagrados, têm visão no escuro e possuem fraqueza ao profano.",
+        "TraitDescriptionAnimal": "Um animal é uma criatura com inteligência relativamente baixa. Normalmente, ele não tem um modificador de atributo de inteligência superior a -4, não consegue falar idiomas e não pode ser treinado em perícias baseadas em inteligência.",
         "TraitDescriptionApex": "Quando você investe num item com o traço Ápice ele melhora um de seus atributos ou em +2, ou para um total de 18, escolhendo o que resultar no maior valor. Isso lhe dá todos os benefícios do novo valor de atributo até que a investidura termine. Um item ápice concede este benefício somente na primeira vez que é investido dentro de um período de 24h, e você só pode se beneficiar de um item ápice por vez. Se você tentar investir em um item ápice, já tendo um investido, você não ganha o aumento de atributo, embora ganhe qualquer outro efeito de investir no item.",
         "TraitDescriptionAphorite": "Um tipo de herdeiro planar descendente de um plano de Axis, o Plano da Lei.",
         "TraitDescriptionAquadynamic": "Esta armadura é projetada para uso debaixo d'água, com design simplificado e materiais flutuantes usados em lugares estratégicos. Você não aplica a penalidade da armadura para testes acrobatismo ou atletismo em água, ou líquidos similares.",
+        "TraitDescriptionAquatic": "As criaturas aquáticas se sentem em casa debaixo d'água. Seus golpes desarmados, contundentes e cortantes não sofrem a penalidade usual de -2 por estarem debaixo d'água. As criaturas aquáticas conseguem respirar na água, mas não na superfície.",
         "TraitDescriptionArcane": "Esta magia vem da tradição arcana, que é construída sobre lógica e racionalidade. Qualquer coisa com este traço é mágica. Uma criatura com este traço é principalmente constituída ou tem uma forte relação com a magia arcana.",
         "TraitDescriptionArdande": "Ardandes são herdeiros planares descendentes de kizidhars e outros seres de madeira elemental.",
+        "TraitDescriptionArchon": "Os membros dessa família de celestiais são os protetores do Céu e são tipicamente sagrados. Eles têm visão no escuro e fraqueza ao profano.",
         "TraitDescriptionArchetype": "Esse talento pertence a um arquétipo.",
         "TraitDescriptionArtifact": "Itens com este traço são artefatos. Estes itens mágicos não podem ser fabricados por meios normais, e eles não podem ser danificados por meios normais. Artefatos são sempre raros ou únicos.",
+        "TraitDescriptionAstral": "As criaturas astrais são nativas do Plano Astral. Elas podem sobreviver aos efeitos ambientais básicos do Plano Astral.",
+        "TraitDescriptionAthamaru": "Os Athamarus são humanoides aquáticos com aspecto de peixe.",
         "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[type:crafting|dc:10]{Manutafura}; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
         "TraitDescriptionAttack": "Uma habilidade com esse traço envolve um ataque. Para cada ataque que você fizer após o primeiro em seu turno, você sofre uma penalidade de ataques múltiplos.",
         "TraitDescriptionAuditory": "Ações e efeitos auditivos se baseiam em som. Uma ação com o traço auditivo pode ser executada com sucesso somente se a criatura usando a ação puder falar ou de outra forma produzir os sons requeridos. Uma magia ou efeito com o traço auditivo surte efeito somente se o alvo puder ouvi-los. Isto se aplica somente às partes do efeito baseadas em som, conforme determinado pelo MJ. Isto é diferente de um efeito sônico, que ainda afeta alvos incapazes de ouvi-lo (como alvos surdos) desde que o efeito emita um som.",
         "TraitDescriptionAura": "Uma aura é uma emanação que exala continuamente de você, afetando criaturas dentro de um determinado raio. Aura também pode se referir à assinatura mágica de um item ou de uma criatura com uma tendência forte.",
         "TraitDescriptionAutomaton": "Uma criatura com este traço é membro da ancestralidade automata.",
+        "TraitDescriptionAwakenedAnimal": "Os animais despertados já foram criaturas normais antes de ganharem sapiência.",
         "TraitDescriptionAzarketi": "Humanoides anfíbios que vivem entre os mares da região do Mar Interior, dizem ser descendentes do povo de Azlant. Às vezes conhecidos como Homens-guelra ou Baixos Azlanti. Azarketi são uma ramificação de humanos adaptados para viver em comunidades aquáticas. Eles têm guelras, dedos palmados e pequenas nadadeiras e podem sobreviver dentro ou fora da água.",
+        "TraitDescriptionAzata": "Essa família de celestiais é nativa do Elysium. Eles são tipicamente sagrados e têm visão no escuro e fraqueza ao ferro frio e ao profano.",
         "TraitDescriptionBackstabber": "Quando você atinge uma criatura Desprevenida, esta arma causa 1 ponto de dano de precisão em adição ao seu dano normal. O dano de precisão aumenta para 2 pontos se ela for uma arma +3.",
         "TraitDescriptionBackswing": "Você pode usar o impulso de um ataque errado com esta arma e aproveitá-lo em seu próximo ataque. Depois de errar com esta arma no seu turno, você recebe +1 de bônus de circunstância em seu próximo ataque realizado com esta arma antes do final de seu turno.",
         "TraitDescriptionBarbarian": "Esse traço indica habilidades da classe bárbaro.",
         "TraitDescriptionBard": "Esse traço indica habilidades da classe bardo.",
         "TraitDescriptionBarding": "Você pode comprar armaduras especiais para animais. Todos animais tem graduação de proficiência treinado em armadura leve, e animais treinados para combate são treinados em armadura pesada. Armadura animal usa as mesmas regras de armadura, exceto pelo seguinte: O preço e Volume da armadura animal depende do tamanho dele que vai usá-la. Diferente de uma veste de armadura, a força listada na do animal é um modificador, não uma pontuação. Armadura Animal não pode ser gravada com runas magicas, embora certas armaduras mágicas possam estar disponíveis para animais.",
+        "TraitDescriptionBeast": "Uma criatura semelhante a um animal, mas com um modificador de Inteligência de -3 ou mais, geralmente é uma fera. Ao contrário de um animal, uma fera pode conseguir falar e compreender.",
         "TraitDescriptionBeastkin": "Humanoides que podem parcial ou completamente transformar em formas animais.",
+        "TraitDescriptionBoggard": "Os boggards são humanoides semelhantes a sapos. Normalmente, eles possuem visão no escuro.",
         "TraitDescriptionBomb": "Uma bomba alquímica combina componentes alquímicos voláteis que explodem quando a bomba atinge uma criatura ou objeto. A maioria das bombas alquímicas causa dano, embora algumas produzam outros efeitos.",
         "TraitDescriptionBottledBreath": "Garrafas de sopro são garrafas encantadas de nuvem e névoa, desenvolvidas pela primeira vez pelos habitantes do Plano do Ar. Você pode ativar um item com o traço sopro engarrafado enquanto inala ou faz com que outra criatura o inale.",
         "TraitDescriptionBrace": "Uma arma de esteio é eficaz em danificar oponentes em movimento. Quando você Prepara um Golpe em um oponente que se move para dentro de seu alcance, até o início de seu próximo turno, Golpes com a arma de esteio causam 2 de dano adicional de precisão para cada dado de dano da arma.",
         "TraitDescriptionBrutal": "Um ataque à distância com este traço utiliza seu modificador de Força em vez do modificador de Destreza na rolagem de ataque.",
         "TraitDescriptionBugbear": "Uma criatura com este traço é um goblinoide peludo e furtivo. Os bugbear costumam ter visão no escuro.",
         "TraitDescriptionBulwark": "A armadura o cobre tão completamente que fornece benefícios contra alguns efeitos de dano. Em jogadas de Reflexos para evitar um efeito de dano, como contra uma bola de fogo, adicione +3 de modificador em vez de seu modificador de Destreza.",
+        "TraitDescriptionCaligni": "Esses povos subterrâneos têm visão no escuro e alguns têm o poder para criar escuridão.",
         "TraitDescriptionCantrip": "Uma magia que você pode conjurar à vontade que é automaticamente elevada para a metade de seu nível arredondada para cima.",
         "TraitDescriptionCapacity": "Armas contendo o traço de Capacidade tipicamente tem múltiplos barris ou câmaras capazes de conter um cartucho de munição. Capacidade é sempre acompanhado de um número indicando a quantidade de barris ou câmaras. Após ser disparada, você pode selecionar o próximo barril ou câmara como uma ação de Interagir que não requer uma mão livre. Cada barril ou câmara pode ser recarregado após o disparo com uma ação de Interagir separada.",
         "TraitDescriptionCatalyst": "Itens com o traço Catalisador são componentes de magia consumíveis que alteram ou amplificam magias específicas. Ativar um catalisador é parte de Conjurar uma Magia. O catalisador pode aumentar o número de ações requeridas para a conjuração, como indicado na listagem de Ativação do catalisador. Adicionalmente, a magia ganha componentes materiais se já não tinham ou adiciona o catalisador aos componentes existentes. Pelo catalisador se tornar parte do componente material, você pode sacá-lo como parte da conjuração.",
@@ -4029,6 +4073,7 @@
         "TraitDescriptionGeniekin": "Um termo amplo para herdeiros planares descendidos de seres dos Planos Elementais.",
         "TraitDescriptionGhoran": "Uma ancestralidade planta inteligente que mantém longas vidas se rejuvenescendo de suas próprias sementes.",
         "TraitDescriptionGhul": "Morto-vivo ganancioso e glutão originalmente formado de um gênio.",
+        "TraitDescriptionGiant": "Os gigantes são criaturas humanoides massivas.",
         "TraitDescriptionGnoll": "Gnolls são humanoides que lembram hienas.",
         "TraitDescriptionGnome": "Uma criatura com este traço é membro da ancestralidade gnomo. Gnomos são um povo pequeno habilidoso com magia que busca novas experiência e que normalmente possuem visão no escuro. Uma habilidade com este traço pode ser usada ou selecionada somente por gnomos. Um item com este traço é criado e usado por gnomos.",
         "TraitDescriptionGoblin": "Uma criatura com este traço é um goblinoide pequeno e frenético. Goblins costumam ter visão no escuro. Uma habilidade com este traço pode ser usada ou selecionada apenas por goblins. Um item com este traço é criado e usado por goblins.",
@@ -4336,6 +4381,7 @@
         "TraitGoblin": "Goblin",
         "TraitGolem": "Golem",
         "TraitGoloma": "Goloma",
+        "TraitGraft": "Enxerto",
         "TraitGrapple": "Agarrar",
         "TraitGremlin": "Gremlin",
         "TraitGrimoire": "Grimório",
@@ -4368,6 +4414,7 @@
         "TraitIfrit": "Ifrit",
         "TraitIkeshti": "Ikeshti",
         "TraitIllusion": "Ilusão",
+        "TraitImplanted": "Implantado",
         "TraitImpulse": "Impulso",
         "TraitIncapacitation": "Incapacitação",
         "TraitIncarnate": "Encarnação",
@@ -4422,6 +4469,7 @@
         "TraitMindless": "Acéfalo",
         "TraitMindshift": "Mindshift",
         "TraitMinion": "Lacaio",
+        "TraitMinotaur": "Minotauro",
         "TraitMisfortune": "Infortúnio",
         "TraitMisfortuneEffects": "Efeitos de infortúnio",
         "TraitMissive": "Missivo",
@@ -4654,6 +4702,7 @@
         "TraitSummon": "Convocar",
         "TraitSummoned": "Convocado",
         "TraitSummoner": "Convocador",
+        "TraitSurki": "Surki",
         "TraitSwarm": "Enxame",
         "TraitSwashbuckler": "Espadachim",
         "TraitSweep": "Amplitude",
@@ -4689,6 +4738,7 @@
         "TraitTouched": "Tocado",
         "TraitTraining": "Treinamento",
         "TraitTrap": "Armadilha",
+        "TraitTrial": "Provação",
         "TraitTrip": "Derrubar",
         "TraitTroll": "Troll",
         "TraitTroop": "Tropa",
@@ -4712,6 +4762,7 @@
         "TraitVanara": "Vanara",
         "TraitVehicular": "Veicular",
         "TraitVelstrac": "Velstrac",
+        "TraitVenomous": "Venenoso",
         "TraitVersatile": "Versátil",
         "TraitVersatileAcid": "Versátil Ácido",
         "TraitVersatileB": "Versátil Cn",
@@ -4787,6 +4838,7 @@
         "TraitWornShoes": "Sapatos Vestidos",
         "TraitWornUnderArmor": "Usado sob Armadura Leve ou Roupas",
         "TraitWraith": "Aparição",
+        "TraitWraithvine": "Videira Espectral",
         "TraitWyrwood": "Wyrwood",
         "TraitXulgath": "Xulgath",
         "TraitZombie": "Zumbi",
@@ -5114,6 +5166,7 @@
                 "tekko-kagi": "Tekko-kagi",
                 "temple-sword": "Espada de Templo",
                 "tengu-gale-blade": "Lâmina Grimpa Tengu",
+                "tetsubo": "Tetsubo",
                 "thorn-whip": "Chicote de Espinhos",
                 "three-peaked-tree": "Three Peaked Tree",
                 "three-section-naginata": "Naginata de Três Seções",
