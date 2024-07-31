@@ -420,6 +420,9 @@
             },
             "Hide": {
                 "Description": "<p>Você fica atrás de uma cobertura (ou cobertura maior) ou em uma área de ocultação para tornar-se escondido em vez de observado. O MJ rola seu teste de Furtividade em segredo e compara o resultado a CD de Percepção de cada criatura que o esteja observando e que você tenha cobertura (ou cobertura maior) ou esteja ocultado em relação a elas. Você recebe um bônus de circunstância de +2 para o seu teste se tiver cobertura padrão (ou +4 se tiver cobertura maior).<p><p><strong>Sucesso</strong> Se a criatura poderia vê-lo, você fica escondido em vez de observado. Se estava escondido ou indetectado pela criatura, você mantém essa condição.</p><p>Se obtiver sucesso em ficar escondido para uma criatura, mas deixar de ter cobertura (ou cobertura maior) ou deixar de estar ocultado contra ela, você se torna observado novamente. Se realizar qualquer outra ação diferente de Dar um Passo, Esconder ou Esgueirar, você deixa de estar escondido, exceto se o MJ determinar o contrário. Porém, se Golpear uma criatura, ela fica Desprevenida contra esse ataque e, logo após executá-lo, você se torna observado. Se quiser, o MJ pode lhe permitir realizar uma ação particularmente discreta sem ser percebido, possivelmente exigindo outro teste de Furtividade.</p><p>Se uma criatura usar Buscar para torná-lo observado para ela, você deve obter sucesso em Esconder-se para ficar escondido para ela novamente.</p>",
+                "Notes": {
+                    "success": "<strong>Sucesso</strong> Se a criatura poderia vê-lo, você fica @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondido} dela em vez de observado. Se você estava @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondido} ou @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectado} pela criatura, você mantém essa condição."
+                },
                 "Title": "Esconder"
             },
             "HighJump": {
@@ -432,6 +435,7 @@
                 "Title": "Salto em Altura"
             },
             "IdentifyAlchemy": {
+                "Description": "<p><strong>Pré-requisitos</strong> Você possui Ferramentas de Alquimista.</p><hr><p>Você pode identificar a natureza de um item alquímico com 10 minutos de testes utilizando suas ferramentas de alquimista. Se sua tentativa for interrompida, você deve começar novamente.</p><p><strong>Sucesso</strong> Você identifica o item e os meios para ativá-lo.</p><p><strong>Falha</strong> Você falha em identificar o item, mas pode tentar novamente.</p><p><strong>Falha Crítica</strong> Você identifica erroneamente o item como sendo outro item da escolha do MJ.<p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você identifica o item erroneamente como outro item à escolha do MJ.",
                     "failure": "<strong>Falha</strong> Você falha em identificar o item, mas pode tentar novamente.",
@@ -440,10 +444,12 @@
                 "Title": "Identificar Alquimia"
             },
             "IdentifyMagic": {
+                "Description": "<p>Ao descobrir que um item, local ou efeito contínuo é mágico, você pode gastar 10 minutos para tentar identificar os detalhes da magia. Se sua tentativa for interrompida, você deve começar de novo. O MJ define o DC para o teste. Objetos mágicos amaldiçoados ou esotéricos geralmente têm CDs mais altos, ou podem até ser impossíveis de identificar usando apenas essa atividade. Aumentar uma magia não aumenta o CD para identificá-la.</p><p><strong>Sucesso Crítico</strong> Você descobre todos os atributos da magia, incluindo seu nome (para um efeito), o que ela faz, e quaisquer meios de ativá-la (para um item ou local) e se ela é amaldiçoada.</p>\n<p><strong>Sucesso</strong> Para um item ou local, você tem uma sensação do que ele faz e descobre quaisquer meios de ativá-lo. Para um efeito contínuo (como um feitiço com duração), você descobre o nome do efeito e o que ele faz. Você não pode tentar novamente na esperança de obter um sucesso crítico.</p>\n<p><strong>Falha</strong> Você falha em identificar a magia e não pode tentar novamente por 1 dia.</p>\n<p><strong>Falha Crítica</strong> Você identifica a magia incorretamente como alguma outra coisa à escolha do MJ.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Falha Crítica</strong> Você identifica a magia incorretamente como alguma outra coisa à escolha do MJ.",
                     "criticalSuccess": "<strong>Sucesso Crítico</strong> Você descobre todas as características da magia, incluindo seu nome (para um efeito), o que ela faz, quaisquer meios de ativá-la (para um item ou local) e se ela é amaldiçoada.",
-                    "failure": "<strong>Falha</strong> Você falha em identificar a magia e não pode tentar novamente por 1 dia."
+                    "failure": "<strong>Falha</strong> Você falha em identificar a magia e não pode tentar novamente por 1 dia.",
+                    "success": "<strong>Sucesso</strong> Para um item ou local, você percebe o que faz e aprende qualquer meio de ativá-lo. Para um efeito contínuo (como um feitiço com duração), você aprende o nome do efeito e o que ele faz. Você não pode tentar novamente na esperança de ter um sucesso crítico."
                 },
                 "Title": "Identificar Magia",
                 "Warning": {
