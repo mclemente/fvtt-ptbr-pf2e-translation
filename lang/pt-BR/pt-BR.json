@@ -972,6 +972,7 @@
                 "CreateDialogText": "Criar tabela de rolagem com {count} resultado(s)?",
                 "CreateLabel": "Criar tabela de rolagem",
                 "SelectTableTitle": "Selecionar tabela de rolagem",
+                "TooManyResults": "A lista de resultados de tamanho {size} é muito grande. O tamanho máximo é {maxSize}",
                 "WeightLabel": "Peso"
             },
             "Settings": {
@@ -3101,7 +3102,9 @@
                     "SceneRegionsHeader": "Regiões de Cena"
                 },
                 "Type": {
-                    "Label": "Ambiente"
+                    "Hint": "Um ou mais tipos de ambiente para esta região de cena.",
+                    "Label": "Ambiente",
+                    "SceneHint": "Especifique um ou mais tipos de ambiente para a cena inteira."
                 }
             }
         },
@@ -3989,6 +3992,7 @@
         "TraitDescriptionCatfolk": "Uma criatura com este traço é um membro da ancestralidade povo-felino. Povo-felinos são humanoides com características felinas.",
         "TraitDescriptionCelestial": "As criaturas oriundas dos planos sagrados ou que têm uma forte conexão com eles são chamadas de celestiais. Os celestiais podem sobreviver aos efeitos ambientais básicos dos planos da Esfera Exterior.",
         "TraitDescriptionCenser": "Incensários são recipientes decorativos, muitas vezes metálicos ou cerâmicos, em que o incenso é queimado. Um item com o traço de incensário deve ser preenchido com incenso para Ativá-lo, que acende o incenso e faz com que o incensário exale uma nuvem de fumaça.",
+        "TraitDescriptionCentaur": "Os centauros têm a parte superior do corpo humanoide e a parte inferior do corpo equivalente a um equino.",
         "TraitDescriptionChampion": "Esse traço indica habilidades da classe campeão.",
         "TraitDescriptionChangeling": "Uma criatura com este traço tem a herança versátil cambiante. Cambiantes são filhos de estrigas e membros de outras ancestralidades humanoides. Uma habilidade com esse traço só pode ser usada ou selecionada por cambiantes.",
         "TraitDescriptionClass": "Arquétipos com o traço de Classe divergem das especialidades da classe fundamentalmente, mas ainda cabem no tema dela. Você pode selecionar um arquétipo de classe somente se sua classe cumpre os pré-requisitos do arquétipo. Arquétipos de classe sempre alteram ou trocam algumas das características de classe estáticas em adição a quaisquer novos talentos que o arquétipo ofereça. Pode ser possível pegar um arquétipo de classe no 1ᵒ nível se ele altera ou troca algum dos talentos iniciais da classe. A habilidade de 1ᵒ nível é apresentada como uma característica de classe de incluí os pré-requisitos e regras do arquétipo de classe e como mudam sua classe original. Se selecionar essa habilidade, você deve pegar o talento de dedicação do arquétipo no 2ᵒ nível, e você pode progredir normalmente após isso. Você nunca pode ter mais de um arquétipo de classe.",
