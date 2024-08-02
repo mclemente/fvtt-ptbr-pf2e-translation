@@ -79,7 +79,7 @@ export const build = gulp.series(clean, gulp.parallel(buildCode, copyFiles));
  * Remove built files from `dist` folder while ignoring source files
  */
 export async function clean() {
-	const files = [...staticFiles, "lang"];
+	const files = [...staticFiles, "lang", "module"];
 
 	console.log(" ", "Files to clean:");
 	console.log("   ", files.join("\n    "));
