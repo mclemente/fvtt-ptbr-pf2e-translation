@@ -1,4 +1,7 @@
 files:
+  - source: /lang/en/dictionary.json
+    translation: /lang/%locale%/dictionary.json
+    update_option: update_as_unapproved
   - source: /lang/en/action-en.json
     translation: /lang/%locale%/action-%locale%.json
   - source: /lang/en/en.json
@@ -7,3 +10,35 @@ files:
     translation: /lang/%locale%/kingmaker-%locale%.json
   - source: /lang/en/re-en.json
     translation: /lang/%locale%/re-%locale%.json
+  - source: /lang/en/compendium/*.json
+    ignore:
+      - equipment.json
+      - feats.json
+      - spells.json
+      - actions.json
+      - macros.json
+      - conditions.json
+      - mwangi-expanse-bestiary.json
+    translation: /lang/%locale%/compendium/pf2e.%file_name%.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/feats.json
+    translation: /lang/%locale%/compendium/pf2e.%file_name%-srd.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/equipment.json
+    translation: /lang/%locale%/compendium/pf2e.%file_name%-srd.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/spells.json
+    translation: /lang/%locale%/compendium/pf2e.%file_name%-srd.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/actions.json
+    translation: /lang/%locale%/compendium/pf2e.%file_name%pf2e.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/macros.json
+    translation: /lang/%locale%/compendium/pf2e.pf2e-%file_name%.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/conditions.json
+    translation: /lang/%locale%/compendium/pf2e.conditionitems.json
+    update_option: update_as_unapproved
+  - source: /lang/en/compendium/mwangi-expanse-bestiary.json
+    translation: /lang/%locale%/compendium/pf2e.lost-omens-mwangi-expanse-bestiary.json
+    update_option: update_as_unapproved
