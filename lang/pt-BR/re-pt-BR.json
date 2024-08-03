@@ -8,9 +8,11 @@
       },
       "ExplosiveAmmunition": {
         "Greater": {
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva (Maior)"
         },
         "Normal": {
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva"
         }
       },
@@ -35,12 +37,15 @@
       "MeteorShot": {
         "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição.",
         "Greater": {
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 6d6[fire]]] dano em uma @Template[type:emanation|distance:10] ao redor do alvo (@Check[type:reflex|dc:29|basic:true|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico (Maior)"
         },
         "Major": {
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 9d6[fire]]] dano em uma @Template[type:emanation|distance:20] ao redor do alvo (@Check[type:reflex|dc:37|basic:true|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico (Superior)"
         },
         "Normal": {
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 3d6[fire]]] dano em uma @Template[type:emanation|distance:5] ao redor do alvo (@Check[type:reflex|dc:23|basic:true|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico"
         }
       },
@@ -160,6 +165,135 @@
       }
     },
     "BombNotes": {
+      "AcidFlask": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*3d6)[persistent,acid]]] e [[/r (3[splash])[acid]]]{3 de dano de ácido de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 3d6[persistent,acid]]] e [[/r (3[splash])[acid]]]{3 de dano de ácido de respingo}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*1d6)[persistent,acid]]] e [[/r (1[splash])[acid]]]{1 de dano de ácido de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 1d6[persistent,acid]]] e [[/r (1[splash])[acid]]]{3 de dano de ácido de respingo}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*4d6)[persistent,acid]]] e [[/r (4[splash])[acid]]]{4 de dano de ácido de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 4d6[persistent,acid]]] e [[/r (4[splash])[acid]]]{4 de dano de ácido de respingo}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2d6)[persistent,acid]]] e [[/r (2[splash])[acid]]]{2 de dano de ácido de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2d6[persistent,acid]]] e [[/r (2[splash])[acid]]]{2 de dano de ácido de respingo}."
+        }
+      },
+      "AlchemistsFire": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*3)[persistent,fire]]] e [[/r (3[splash])[fire]]]{3 de dano de fogo de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 3[persistent,fire]]] e [[/r (3[splash])[fire]]]{3 de dano de fogo de respingo}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*1)[persistent,fire]]] e [[/r (1[splash])[fire]]]{1 de dano de fogo de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 1[persistent,fire]]] e [[/r (1[splash])[fire]]]{1 de dano de fogo de respingo}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*4)[persistent,fire]]] e [[/r (4[splash])[fire]]]{4 de dano de fogo de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 4[persistent,fire]]] e [[/r (4[splash])[fire]]]{4 de dano de fogo de respingo}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
+        }
+      },
+      "BlightBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*3d4)[persistent,poison]]] e [[/r (3[splash])[poison]]]{3 de dano de veneno de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 3d4[persistent,poison]]] e [[/r (3[splash])[poison]]]{3 de dano de veneno de respingo}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*1d4)[persistent,poison]]] e [[/r (1[splash])[poison]]]{1 de dano de veneno de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 1d4[persistent,poison]]] e [[/r (1[splash])[poison]]]{1 de dano de veneno de respingo}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*4d4)[persistent,poison]]] e [[/r (4[splash])[poison]]]{4 de dano de veneno de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 4d4[persistent,poison]]] e [[/r (4[splash])[poison]]]{4 de dano de veneno de respingo}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2d4)[persistent,poison]]] e [[/r (2[splash])[poison]]]{2 de dano de veneno de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2d4[persistent,poison]]] e [[/r (2[splash])[poison]]]{2 de dano de veneno de respingo}."
+        }
+      },
+      "BottledLightning": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[electricity]]]{3 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[electricity]]]{1 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[electricity]]]{4 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[electricity]]]{2 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
+        }
+      },
+      "CrystalShards": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (5[splash])[piercing]]]{5 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +2 de bônus de item no próximo teste de Atletismo para Escalar."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (6[splash])[piercing]]]{6 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +3 de bônus de item no próximo teste de Atletismo para Escalar."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[piercing]]]{4 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +1 de bônus de item no próximo teste de Atletismo para Escalar."
+        }
+      },
+      "DreadAmpoule": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[mental]]]{3 de dano de respingo mental} e o alvo fica @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 1} (@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 2} em um crítico)."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[mental]]]{1 de dano de respingo mental} e o alvo fica @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 1} (@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 2} em um crítico)."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[mental]]]{4 de dano de respingo mental} e o alvo fica @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 1} (@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 2} em um crítico)."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[mental]]]{2 de dano de respingo mental} e o alvo fica @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 1} (@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 2} em um crítico)."
+        }
+      },
+      "DwarvenDaisy": {
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[fire]]]{1 de dano de respingo de fogo} e o alvo deve obter sucesso em um teste de @Check[type:fortitude|dc:16|traits:damaging-effect|showDC:all] ou ficará @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[fire]]]{2 de dano de respingo de fogo} e o alvo deve obter sucesso em um teste de @Check[type:fortitude|dc:18|traits:damaging-effect|showDC:all] ou ficará @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
+        }
+      },
+      "FrostVial": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[cold]]]{3 de dano de respingo de frio} e o alvo sofre uma penalidade de -3 m/-10 pés a sua Velocidade até o final do seu próximo turno (@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Efeito: Frasco Congelante (Maior)})."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[cold]]]{1 de dano de respingo de frio} e o alvo sofre uma penalidade de -1,5 m/-5 pés a sua Velocidade até o final do seu próximo turno (@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Efeito: Frasco Congelante (Menor)})."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[cold]]]{4 de dano de respingo de frio} e o alvo sofre uma penalidade de -4,5 m/-15 pés a sua Velocidade até o final do seu próximo turno (@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Efeito: Frasco Congelante (Superior)})."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[cold]]]{2 de dano de respingo de frio} e o alvo sofre uma penalidade de -3 m/-10 pés a sua Velocidade até o final do seu próximo turno (@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Efeito: Frasco Congelante (Moderado)})."
+        }
+      },
+      "GhostCharge": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[positive]]]{3 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[positive]]]{1 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[positive]]]{4 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 2} até o final do seu próximo turno."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[positive]]]{2 de dano de respingo de vitalidade} e o alvo que tomar o dano fica @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o final do seu próximo turno."
+        }
+      },
       "GooGrenade": {
         "Greater": "Maior",
         "Lesser": "Menor",
@@ -167,6 +301,110 @@
         "Moderate": "Moderado",
         "Prompt": "Escolha a qualidade da granada de Gosma.",
         "success": "<strong>Efeito</strong> Em um acerto, a criatura sofre um penalidade em suas Velocidades devido a gosma pegajosa. @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{Efeito: Granada de Gosma}"
+      },
+      "JunkBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*3)[bleed]]] e [[/r (3[splash])[slashing]]]{3 de dano de respingo cortante}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 3[bleed]]] e [[/r (3[splash])[slashing]]]{3 de dano de respingo cortante}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*1)[bleed]]] e [[/r (1[splash])[slashing]]]{1 de dano de respingo cortante}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 1[bleed]]] e [[/r (1[splash])[slashing]]]{1 de dano de respingo cortante}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*4)[bleed]]] e [[/r (4[splash])[slashing]]]{4 de dano de respingo cortante}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 4[bleed]]] e [[/r (4[splash])[slashing]]]{4 de dano de respingo cortante}.."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*2)[bleed]]] e [[/r (2[splash])[slashing]]]{2 de dano de respingo cortante}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 2[bleed]]] e [[/r (2[splash])[slashing]]]{2 de dano de respingo cortante}.."
+        }
+      },
+      "MudBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[bludgeoning]]]{3 de dano de respingo contundente}. O alvo fica @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} até o início de seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[bludgeoning]]]{3 de dano de respingo contundente}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[bludgeoning]]]{1 de dano de respingo contundente}. O alvo fica @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} até o início de seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[bludgeoning]]]{1 de dano de respingo contundente}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[bludgeoning]]]{4 de dano de respingo contundente}. O alvo fica @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} até o início de seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[bludgeoning]]]{4 de dano de respingo contundente}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}. O alvo fica @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} até o início de seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}."
+        }
+      },
+      "NecroticBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[negative]]]{3 de dano de respingo negativo} e o alvo fica @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado 3}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[negative]]]{3 de dano de respingo negativo}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[negative]]]{1 de dano de respingo negativo} e o alvo fica @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[negative]]]{1 de dano de respingo negativo}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[negative]]]{4 de dano de respingo negativo} e o alvo fica @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado 4}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[negative]]]{4 de dano de respingo negativo}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[negative]]]{2 de dano de respingo negativo} e o alvo fica @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado 2}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[negative]]]{2 de dano de respingo negativo}."
+        }
+      },
+      "PerniciousSporeBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*3d4)[persistent,piercing]]] e [[/r (3[splash])[poison]]]{3 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 3d4[persistent,piercing]]] e [[/r (3[splash])[poison]]]{3 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*1d4)[persistent,piercing]]] e [[/r (1[splash])[poison]]]{1 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 1d4[persistent,piercing]]] e [[/r (1[splash])[poison]]]{1 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*4d4)[persistent,piercing]]] e [[/r (4[splash])[poison]]]{4 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 4d4[persistent,piercing]]] e [[/r (4[splash])[poison]]]{4 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 minuto."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*2d4)[persistent,piercing]]] e [[/r (2[splash])[poison]]]{2 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r 2d4[persistent,piercing]]] e [[/r (2[splash])[poison]]]{2 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada."
+        }
+      },
+      "PeshspineGrenade": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[piercing]]]{3 de dano de respingo perfurante} e o alvo fica @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Estupefato 2} até o fim do turno dele."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[piercing]]]{1 de dano de respingo perfurante} e o alvo fica @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Estupefato 1} até o fim do turno dele."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[piercing]]]{4 de dano de respingo perfurante} e o alvo fica @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Estupefato 3} até o fim do turno dele."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[piercing]]]{2 de dano de respingo perfurante} e o alvo fica @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Estupefato 1} até o fim do turno dele."
+        }
+      },
+      "PressureBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[bludgeoning]]]{3 de dano de respingo contundente}, Alvos médios ou menores são empurrados 1,5 m/5 pés para longe de você, e o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[bludgeoning]]]{3 de dano de respingo contundente}, Alvos médios ou menores são empurrados 1,5 m/5 pés para longe de você."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[bludgeoning]]]{1 de dano de respingo contundente}, Alvos minúsculos ou menores são empurrados 1,5 m/5 pés para longe de você, e o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[bludgeoning]]]{1 de dano de respingo contundente}, Alvos minúsculos ou menores são empurrados 1,5 m/5 pés para longe de você."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[bludgeoning]]]{4 de dano de respingo contundente}, Criaturas médias ou menores que tomaram dano de respingo são empurrados 1,5 m/5 pés para longe de alvo, e então, se o alvo é Grande ou menor, ele é empurrado 1,5 m/5 pés para longe de você, e o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[bludgeoning]]]{4 de dano de respingo contundente}, Criaturas médias ou menores que tomaram dano de respingo são empurrados 1,5 m/5 pés para longe de alvo, e então, se o alvo é Grande ou menor, ele é empurrado 1,5 m/5 pés para longe de você."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}, Alvos pequenos ou menores são empurrados 1,5 m/5 pés para longe de você, e o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}, Alvos pequenos ou menores são empurrados 1,5 m/5 pés para longe de você."
+        }
       },
       "TanglefootBag": {
         "Greater": {
@@ -184,6 +422,34 @@
         "Moderate": {
           "criticalSuccess": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-4,5 m/-15 pés de Penalidade de Velocidade} por 1 minuto. Em um acerto Crítico, @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada.",
           "success": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-4,5 m/-15 pés de Penalidade de Velocidade} por 1 minuto."
+        }
+      },
+      "Thunderstone": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[sonic]]]{3 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:28|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[sonic]]]{1 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:17|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[sonic]]]{4 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:36|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[sonic]]]{2 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:20|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+        }
+      },
+      "WaterBomb": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[bludgeoning]]]{3 de dano não-letal de respingo contundente}. A bomba extingue fogo não-mágico dentro da área de respingo."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[bludgeoning]]]{1 de dano não-letal de respingo contundente}."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[bludgeoning]]]{4 de dano não-letal de respingo contundente}. A bomba extingue fogo não-mágico dentro da área de respingo."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano não-letal de respingo contundente}."
         }
       }
     },
@@ -441,6 +707,256 @@
         "Extreme": "Extremo",
         "Major": "Superior",
         "Moderate": "Moderado"
+      }
+    },
+    "PersistentDamage": {
+      "Acid1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,acid]]]{2*1d4 de dano ácido persistente}",
+        "success": "[[/r 1d4[persistent,acid]]]{1d4 de dano ácido persistente}"
+      },
+      "Acid1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,acid]]]{2*1d6 de dano ácido persistente}",
+        "success": "[[/r 1d6[persistent,acid]]]{1d6 de dano ácido persistente}"
+      },
+      "Acid2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,acid]]]{2*2d6 de dano ácido persistente}",
+        "success": "[[/r 2d6[persistent,acid]]]{2d6 de dano ácido persistente}"
+      },
+      "Acid2d6+2": {
+        "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]{2*2d6+4 de dano ácido persistente}",
+        "success": "[[/r (2d6+2)[persistent,acid]]]{2d6+2 de dano ácido persistente}"
+      },
+      "Bleed1": {
+        "criticalSuccess": "[[/r 2[bleed]]]{2 de dano de sangramento}",
+        "success": "[[/r 1[bleed]]]{1 de dano de sangramento}"
+      },
+      "Bleed1d10": {
+        "criticalSuccess": "[[/r (2*1d10)[bleed]]]{2*1d10 de dano de sangramento}",
+        "success": "[[/r 1d10[bleed]]]{1d10 de dano de sangramento}"
+      },
+      "Bleed1d12": {
+        "criticalSuccess": "[[/r (2*1d12)[bleed]]]{2*1d12 de dano de sangramento}",
+        "success": "[[/r 1d12[bleed]]]{1d12 de dano de sangramento}"
+      },
+      "Bleed1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[bleed]]]{2*1d4 de dano de sangramento}",
+        "success": "[[/r 1d4[bleed]]]{1d4 de dano de sangramento}"
+      },
+      "Bleed1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[bleed]]]{2*1d6 de dano de sangramento}",
+        "success": "[[/r 1d6[bleed]]]{1d6 de dano de sangramento}"
+      },
+      "Bleed1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[bleed]]]{2*1d8 de dano de sangramento}",
+        "success": "[[/r 1d8[bleed]]]{1d8 de dano de sangramento}"
+      },
+      "Bleed2": {
+        "criticalSuccess": "[[/r 4[bleed]]]{4 de dano de sangramento}",
+        "success": "[[/r 2[bleed]]]{2 de dano de sangramento}"
+      },
+      "Bleed2d10": {
+        "criticalSuccess": "[[/r (2*2d10)[bleed]]]{2*2d10 de dano de sangramento}",
+        "success": "[[/r 2d10[bleed]]]{2d10 de dano de sangramento}"
+      },
+      "Bleed2d12": {
+        "criticalSuccess": "[[/r (2*2d12)[bleed]]]{2*2d12 de dano de sangramento}",
+        "success": "[[/r 2d12[bleed]]]{2d12 de dano de sangramento}"
+      },
+      "Bleed2d4": {
+        "criticalSuccess": "[[/r (2*2d4)[bleed]]]{2*2d4 de dano de sangramento}",
+        "success": "[[/r 2d4[bleed]]]{2d4 de dano de sangramento}"
+      },
+      "Bleed2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[bleed]]]{2*2d6 de dano de sangramento}",
+        "success": "[[/r 2d6[bleed]]]{2d6 de dano de sangramento}"
+      },
+      "Bleed2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[bleed]]]{2*2d8 de dano de sangramento}",
+        "success": "[[/r 2d8[bleed]]]{2d8 de dano de sangramento}"
+      },
+      "Bleed3d10": {
+        "criticalSuccess": "[[/r (2*3d10)[bleed]]]{2*3d10 de dano de sangramento}",
+        "success": "[[/r 3d10[bleed]]]{3d10 de dano de sangramento}"
+      },
+      "Bleed3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[bleed]]]{2*3d6 de dano de sangramento}",
+        "success": "[[/r 3d6[bleed]]]{3d6 de dano de sangramento}"
+      },
+      "Bleed3d8": {
+        "criticalSuccess": "[[/r (2*3d8)[bleed]]]{2*3d8 de dano de sangramento}",
+        "success": "[[/r 3d8[bleed]]]{3d8 de dano de sangramento}"
+      },
+      "Bleed4d6": {
+        "criticalSuccess": "[[/r (2*4d6)[bleed]]]{2*4d6 de dano de sangramento}",
+        "success": "[[/r 4d6[bleed]]]{4d6 de dano de sangramento}"
+      },
+      "Bleed4d8": {
+        "criticalSuccess": "[[/r (2*4d8)[bleed]]]{2*4d8 de dano de sangramento}",
+        "success": "[[/r 4d8[bleed]]]{4d8 de dano de sangramento}"
+      },
+      "Bleed6d10": {
+        "criticalSuccess": "[[/r (2*6d10)[bleed]]]{2*6d10 de dano de sangramento}",
+        "success": "[[/r 6d10[bleed]]]{6d10 de dano de sangramento}"
+      },
+      "Bleed6d6": {
+        "criticalSuccess": "[[/r (2*6d6)[bleed]]]{2*6d6 de dano de sangramento}",
+        "success": "[[/r 6d6[bleed]]]{6d6 de dano de sangramento}"
+      },
+      "Bleed8d4": {
+        "criticalSuccess": "[[/r (2*8d4)[bleed]]]{2*8d4 de dano de sangramento}",
+        "success": "[[/r 8d4[bleed]]]{8d4 de dano de sangramento}"
+      },
+      "Cold1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,cold]]]{2*1d6 de dano de persistente de frio}",
+        "success": "[[/r 1d6[persistent,cold]]]{1d6 de dano de persistente de frio}"
+      },
+      "Cold1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,cold]]]{2*1d8 de dano de persistente de frio}",
+        "success": "[[/r 1d8[persistent,cold]]]{1d8 de dano de persistente de frio}"
+      },
+      "Cold2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,cold]]]{2*2d6 de dano de persistente de frio}",
+        "success": "[[/r 2d6[persistent,cold]]]{2d6 de dano de persistente de frio}"
+      },
+      "Cold2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[persistent,cold]]]{2*2d8 de dano de persistente de frio}",
+        "success": "[[/r 2d8[persistent,cold]]]{2d8 de dano de persistente de frio}"
+      },
+      "Fire1": {
+        "criticalSuccess": "[[/r 2[persistent,fire]]]{2 de dano de persistente de fogo}",
+        "success": "[[/r 1[persistent,fire]]]{1 de dano de persistente de fogo}"
+      },
+      "Fire1d10": {
+        "criticalSuccess": "[[/r (2*1d10)[persistent,fire]]]{2*1d10 de dano de persistente de fogo}",
+        "success": "[[/r 1d10[persistent,fire]]]{1d10 de dano de persistente de fogo}"
+      },
+      "Fire1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,fire]]]{2*1d4 de dano de persistente de fogo}",
+        "success": "[[/r 1d4[persistent,fire]]]{1d4 de dano de persistente de fogo}"
+      },
+      "Fire1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,fire]]]{2*1d6 de dano de persistente de fogo}",
+        "success": "[[/r 1d6[persistent,fire]]]{1d6 de dano de persistente de fogo}"
+      },
+      "Fire2d10": {
+        "criticalSuccess": "[[/r (2*2d10)[persistent,fire]]]{2*2d10 de dano de persistente de fogo}",
+        "success": "[[/r 2d10[persistent,fire]]]{2d10 de dano de persistente de fogo}"
+      },
+      "Fire2d4": {
+        "criticalSuccess": "[[/r (2*2d4)[persistent,fire]]]{2*2d4 de dano de persistente de fogo}",
+        "success": "[[/r 2d4[persistent,fire]]]{2d4 de dano de persistente de fogo}"
+      },
+      "Fire2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,fire]]]{2*2d6 de dano de persistente de fogo}",
+        "success": "[[/r 2d6[persistent,fire]]]{2d6 de dano de persistente de fogo}"
+      },
+      "Fire2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[persistent,fire]]]{2*2d8 de dano de persistente de fogo}",
+        "success": "[[/r 2d8[persistent,fire]]]{2d8 de dano de persistente de fogo}"
+      },
+      "Fire3d10": {
+        "criticalSuccess": "[[/r (2*3d10)[persistent,fire]]]{2*3d10 de dano de persistente de fogo}",
+        "success": "[[/r 3d10[persistent,fire]]]{3d10 de dano de persistente de fogo}"
+      },
+      "Fire3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[persistent,fire]]]{2*3d6 de dano de persistente de fogo}",
+        "success": "[[/r 3d6[persistent,fire]]]{3d6 de dano de persistente de fogo}"
+      },
+      "Fire3d8": {
+        "criticalSuccess": "[[/r (2*3d8)[persistent,fire]]]{2*3d8 de dano de persistente de fogo}",
+        "success": "[[/r 3d8[persistent,fire]]]{3d8 de dano de persistente de fogo}"
+      },
+      "Fire4d10": {
+        "criticalSuccess": "[[/r (2*4d10)[persistent,fire]]]{2*4d10 de dano de persistente de fogo}",
+        "success": "[[/r 4d10[persistent,fire]]]{4d10 de dano de persistente de fogo}"
+      },
+      "Force1d12": {
+        "criticalSuccess": "[[/r (2*1d12)[persistent,force]]]{2*1d12 de dano de persistente de força}",
+        "success": "[[/r 1d12[persistent,force]]]{1d12 de dano de persistente de força}"
+      },
+      "Force2d12": {
+        "criticalSuccess": "[[/r (2*2d12)[persistent,force]]]{2*2d12 de dano de persistente de força}",
+        "success": "[[/r 2d12[persistent,force]]]{2d12 de dano de persistente de força}"
+      },
+      "Mental1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,mental]]]{2*1d4 de dano de persistente mental}",
+        "success": "[[/r 1d4[persistent,mental]]]{1d4 de dano de persistente mental}"
+      },
+      "Mental1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,mental]]]{2*1d6 de dano de persistente mental}",
+        "success": "[[/r 1d6[persistent,mental]]]{1d6 de dano de persistente mental}"
+      },
+      "Mental1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,mental]]]{2*1d8 de dano de persistente mental}",
+        "success": "[[/r 1d8[persistent,mental]]]{1d8 de dano de persistente mental}"
+      },
+      "Mental2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,mental]]]{2*2d6 de dano de persistente mental}",
+        "success": "[[/r 2d6[persistent,mental]]]{2d6 de dano de persistente mental}"
+      },
+      "Mental3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[persistent,mental]]]{2*3d6 de dano de persistente mental}",
+        "success": "[[/r 3d6[persistent,mental]]]{3d6 de dano de persistente mental}"
+      },
+      "Negative1d10": {
+        "criticalSuccess": "[[/r (2*1d10)[persistent,void]]]{2*1d10 de dano de persistente vazio}",
+        "success": "[[/r 1d10[persistent,void]]]{1d10 de dano de persistente vazio}"
+      },
+      "Negative1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,void]]]{2*1d6 de dano de persistente vazio}",
+        "success": "[[/r 1d6[persistent,void]]]{2*1d6 de dano de persistente vazio}"
+      },
+      "Negative1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,void]]]{2*1d8 de dano de persistente vazio}",
+        "success": "[[/r 1d8[persistent,void]]]{1d8 de dano de persistente vazio}"
+      },
+      "Negative2d10": {
+        "criticalSuccess": "[[/r (2*2d10)[persistent,void]]]{2*2d10 de dano de persistente vazio}",
+        "success": "[[/r 2d10[persistent,void]]]{2d10 de dano de persistente vazio}"
+      },
+      "Piercing2d8+8": {
+        "criticalSuccess": "[[/r (2*2d8+16)[persistent,piercing]]]{2*2d8 de dano de persistente perfurante}",
+        "success": "[[/r (2d8+8)[persistent,piercing]]]{2d8 de dano de persistente perfurante}"
+      },
+      "Poison1d12": {
+        "criticalSuccess": "[[/r (2*1d12)[persistent,poison]]]{2*1d12 de dano de persistente de veneno}",
+        "success": "[[/r 1d12[persistent,poison]]]{1d12 de dano de persistente de veneno}"
+      },
+      "Poison1d4": {
+        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}",
+        "success": "[[/r 1d4[persistent,poison]]]{1d4 de dano de persistente de veneno}"
+      },
+      "Poison1d6": {
+        "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 de dano de persistente de veneno}",
+        "success": "[[/r 1d6[persistent,poison]]]{1d6 de dano de persistente de veneno}"
+      },
+      "Poison1d8": {
+        "criticalSuccess": "[[/r (2*1d8)[persistent,poison]]]{2*1d8 de dano de persistente de veneno}",
+        "success": "[[/r 1d8[persistent,poison]]]{1d8 de dano de persistente de veneno}"
+      },
+      "Poison2d4": {
+        "criticalSuccess": "[[/r (2*2d4)[persistent,poison]]]{2*2d4 de dano de persistente de veneno}",
+        "success": "[[/r 2d4[persistent,poison]]]{2d4 de dano de persistente de veneno}"
+      },
+      "Poison2d6": {
+        "criticalSuccess": "[[/r (2*2d6)[persistent,poison]]]{2*2d6 de dano de persistente de veneno}",
+        "success": "[[/r 2d6[persistent,poison]]]{2d6 de dano de persistente de veneno}"
+      },
+      "Poison2d8": {
+        "criticalSuccess": "[[/r (2*2d8)[persistent,poison]]]{2*2d8 de dano de persistente de veneno}",
+        "success": "[[/r 2d8[persistent,poison]]]{2d8 de dano de persistente de veneno}"
+      },
+      "Poison3d4": {
+        "criticalSuccess": "[[/r (2*3d4)[persistent,poison]]]{2*3d4 de dano de persistente de veneno}",
+        "success": "[[/r 3d4[persistent,poison]]]{2*3d4 de dano de persistente de veneno}"
+      },
+      "Poison3d6": {
+        "criticalSuccess": "[[/r (2*3d6)[persistent,poison]]]{2*3d6 de dano de persistente de veneno}",
+        "success": "[[/r 3d6[persistent,poison]]]{2*3d6 de dano de persistente de veneno}"
+      },
+      "Poison4d6": {
+        "criticalSuccess": "[[/r (2*4d6)[persistent,poison]]]{2*4d6 de dano de persistente de veneno}",
+        "success": "[[/r 4d6[persistent,poison]]]{2*4d6 de dano de persistente de veneno}"
       }
     },
     "RuleEditor": {
@@ -1053,6 +1569,9 @@
         }
       },
       "Fleshwarp": {
+        "CoatingOfSlime": {
+          "CriticalHit": "Em um acerto crítico, o alvo sofre [[/r 1d4[persistent,acid]]]{1d4 de dano persistente de ácido}."
+        },
         "LivingWeapon": {
           "Prompt": "Selecione uma parte da sua forma para usar como arma."
         },
@@ -1094,6 +1613,9 @@
         },
         "RecklessAbandon": {
           "Note": "Se rolar uma falha ou falha crítica em uma jogada de salvamento contra um efeito nocivo, trate o resultado como um sucesso."
+        },
+        "TorchGoblin": {
+          "Note": "Enquanto você estiver sofrendo dano persistente de fogo, todos os seus ataques corpo a corpo contra criaturas adjacentes causam [[/r 1[fire]]]{1 ponto de dano de fogo} adicional por dado de dano da arma."
         },
         "ScaldingSpit": {
           "BoilingSpit": "Cuspe Escaldante"
@@ -1664,6 +2186,7 @@
               "Title": "Familiar do Espírito Restaurado"
             },
             "StalkingNight": {
+              "Description": "Seu familiar tem pelo ou penas escuros e a luz parece desaparecer nele. Quando você Conjura ou Sustenta um sortilégio e seu familiar está adjacente a um inimigo ao qual ele está @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultado}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, ou indetectado, o inimigo se torna @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}.",
               "Title": "Familiar da Noite Perseguidora"
             }
           }
