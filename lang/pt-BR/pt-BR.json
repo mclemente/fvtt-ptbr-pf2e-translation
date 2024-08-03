@@ -568,6 +568,7 @@
         "SimpleSheet": "Ficha de PdM Simples",
         "SpecialSkill": "+{mod} {label}",
         "SkillsEditor": {
+          "AddSpecial": "Adicionar Especial",
           "Error": {
             "PredicateArray": "Predicado deve ser um vetor"
           },
@@ -2663,6 +2664,10 @@
         "Hint": "Ilumina cenas escuras para visualização facilitada.",
         "Label": "Visão do GM"
       },
+      "PlaceWaypoint": {
+        "Hint": "Coloca uma parada enquanto usa a medição de arraste.",
+        "Label": "Criar Parada (Medição de Arraste)"
+      },
       "TogglePartySheet": {
         "Hint": "Abre ou fecha a ficha do grupo ativo ou, se for um jogador, grupo designado.",
         "Label": "Alternar Ficha do Grupo"
@@ -3125,12 +3130,13 @@
         }
       },
       "EnvironmentFeature": {
+        "Label": "Característica de Ambiente",
         "Terrain": {
           "Difficult": {
             "Difficult": "Difícil",
             "Greater": "Difícil Maior",
             "Label": "Terreno Difícil",
-            "None": "Nenhuma"
+            "None": "Nenhum"
           }
         }
       }
@@ -3299,6 +3305,8 @@
       "DragMeasurement": {
         "Always": "Sempre",
         "Encounters": "Durante Encontros",
+        "Hint": "Mede a distância viajada enquanto arrasta um token sem a necessidade de segurar nenhum outro botão. Paradas podem ser colocadas ao pressionar \"{key}\" e removidas pelo clique-direito.",
+        "Name": "Medição de Arraste",
         "Never": "Nunca"
       },
       "EnabledDisabled": {
@@ -4720,7 +4728,7 @@
     "TraitSnare": "Arapuca",
     "TraitSocial": "Social",
     "TraitSonic": "Sônico",
-    "TraitSorcerer": "Feiticieiro",
+    "TraitSorcerer": "Feiticeiro",
     "TraitSoulbound": "Alma Presa",
     "TraitSpellDeflection": "Deflexão de Magia",
     "TraitSpellgun": "Spellgun",
