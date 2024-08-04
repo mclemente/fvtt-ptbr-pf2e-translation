@@ -463,6 +463,7 @@
       "Dead": "Morto",
       "Familiar": {
         "Blurb": "Familiar de {master}",
+        "MinimumAttributeModifier": "Modificador Mínimo de Atributo",
         "Master": {
           "ArmorClass": "Classe de Armadura do Mestre",
           "Perception": "Percepção do Mestre"
@@ -565,7 +566,9 @@
           }
         },
         "SimpleSheet": "Ficha de PdM Simples",
+        "SpecialSkill": "+{mod} {label}",
         "SkillsEditor": {
+          "AddSpecial": "Adicionar Especial",
           "Error": {
             "PredicateArray": "Predicado deve ser um vetor"
           },
@@ -2433,6 +2436,7 @@
             "collar": "Colar",
             "crown": "Coroa",
             "epaulet": "Dragona",
+            "eyeglasses": "Óculos",
             "eyepiece": "Lente",
             "footwear": "Calçado",
             "garment": "Traje",
@@ -2660,6 +2664,10 @@
         "Hint": "Ilumina cenas escuras para visualização facilitada.",
         "Label": "Visão do GM"
       },
+      "PlaceWaypoint": {
+        "Hint": "Coloca uma parada enquanto usa a medição de arraste.",
+        "Label": "Criar Parada (Medição de Arraste)"
+      },
       "TogglePartySheet": {
         "Hint": "Abre ou fecha a ficha do grupo ativo ou, se for um jogador, grupo designado.",
         "Label": "Alternar Ficha do Grupo"
@@ -2792,6 +2800,7 @@
           "AtWillSpells": "<p> O monstro pode conjurar suas magias à vontade qualquer número de vezes sem usar um slot de magia.</p>",
           "AttackOfOpportunity": "<p><strong>Acionamento</strong> Uma criatura no alcance do monstro usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe corpo a corpo contra a criatura acionada. Se o ataque dele for um acerto crítico e o acionamento for uma ação de manuseio, o monstro interrompe essa ação. Este Golpe não conta para a penalidade por ataques múltiplos do monstro, e a penalidade por ataques múltiplos do monstro não se aplica a ele.</p>",
           "Aura": "<p>A aura do monstro automaticamente afeta tudo na emanação especificada ao redor do monstro. O monstro não precisa gastar ações na aura; ao invés disso, o efeito da aura é aplicado em tempos específicos, como quando uma criatura termina seu turno na aura ou quando entra na aura.</p>\n<p>Se uma aura não faz nada mas dá dano, sua descrição lista somente seu raio, dano, e rolagens de salvamento. Tais auras dão este dano à criatura quando ela entra na aura ou começa seu turno dentro dela. A criatura pode sofrer o dano da aura somente uma vez por turno.</p>\n<p> O MJ pode determinar que uma aura de monstro não afeta seus próprios aliados. Por exemplo, uma criatura pode ser imune à presença aterradora de um monstro se eles estiverem andando juntos há um bom tempo.</p>",
+          "Buck": "<hr />\n<p>A maioria dos monstros que servem como montarias podem tentar derrubar cavalgantes indesejados ou irritantes, mas a maior parte das montarias não vão usar essa reação contra uma criatura confiada a não ser que a montaria esteja assustada ou maltratada.</p>\n<p><strong>Acionamento</strong> A criatura @UUID[Compendium.pf2e.actionspf2e.PM5jvValFkbFH3TV]{Monta} ou usa a ação @UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Comandar um Animal} enquanto cavalga o monstro.</p>\n<hr />\n<p><strong>Efeito</strong> A criatura acionadora deve passar uma jogada de salvamento de Reflexos contra a CD listada ou cair da criatura e aterrisar @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}. Se o salvamento foi uma falha crítica, a criatura acionadora também recebe [[/roll 1d6[bludgeoning]]]{1d6 dano contundente}</p>",
           "CatchRock": "<p><strong>Requerimentos</strong> O monstro deve ter uma mão livre, mas pode @UUID[Compendium.pf2e.actionspf2e.wQYmDStjdjn0I26t]{Soltar} qualquer coisa que esteja segurando como parte da reação.</p>\n<p><strong>Acionamento</strong> O monstro é alvejado com um Golpe de pedra arremessável ou uma pedra cairia sobre o monstro</p>\n<hr />\n<p><strong>Efeito</strong> O monstro ganha bônus de circunstância +4 para sua CA contra o ataque acionante, ou para qualquer defesa contra as pedras. Se o ataque erra ou o monstro tem sucesso em se defender, o monstro pega a pedra, não toma dano, e passa a segurá-la.</p>",
           "ChangeShape": "<p> O monstro muda de forma indefinidamente. Ele pode usar essa ação novamente para retornar a sua forma natural ou adotar uma nova forma. Se não for listado o contrário, um monstro não pode usar Trocar Forma para parecer um indivíduo específico. Usar Trocar Forma conta como criar um disfarce para o uso de Dissimulação em @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonar}. A transformação do monstro automaticamente derrota CDs de Percepção para determinar se uma criatura é membro de uma ancestralidade ou tipo de criatura na qual se transformou, e ganha um bônus de +4 no seu CD de Dissimulação para prevenir outras criaturas de verem através de seu disfarce. Habilidades de Trocar Forma especificam quais formas o monstro pode adotar. O monstro não ganha nenhuma habilidade especial de sua nova formato, somente sua forma física. Por exemplo, em cada forma, ela troca sua Velocidade e Golpes normais, e pode potencialmente mudar seus sentidos ou tamanho. Quaisquer mudanças são listadas no seu bloco de estatísticas</p>",
           "ConstantSpells": "<p>Uma magia constante afeta o monstro sem que o monstro precise conjurá-la., e sua duração é ilimitada. Se sua magia constante é neutralizada, o monstro pode reativá-la usando os requerimentos de ação normal da magia.</p>",
@@ -3121,12 +3130,13 @@
         }
       },
       "EnvironmentFeature": {
+        "Label": "Característica de Ambiente",
         "Terrain": {
           "Difficult": {
             "Difficult": "Difícil",
             "Greater": "Difícil Maior",
             "Label": "Terreno Difícil",
-            "None": "Nenhuma"
+            "None": "Nenhum"
           }
         }
       }
@@ -3295,6 +3305,8 @@
       "DragMeasurement": {
         "Always": "Sempre",
         "Encounters": "Durante Encontros",
+        "Hint": "Mede a distância viajada enquanto arrasta um token sem a necessidade de segurar nenhum outro botão. Paradas podem ser colocadas ao pressionar \"{key}\" e removidas pelo clique-direito.",
+        "Name": "Medição de Arraste",
         "Never": "Nunca"
       },
       "EnabledDisabled": {
@@ -4716,7 +4728,7 @@
     "TraitSnare": "Arapuca",
     "TraitSocial": "Social",
     "TraitSonic": "Sônico",
-    "TraitSorcerer": "Feiticieiro",
+    "TraitSorcerer": "Feiticeiro",
     "TraitSoulbound": "Alma Presa",
     "TraitSpellDeflection": "Deflexão de Magia",
     "TraitSpellgun": "Spellgun",
@@ -5295,7 +5307,8 @@
       "astral": {
         "Name": "Astral",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[type:will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[type:will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
+          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
         }
       },
       "authorized": {
@@ -5329,7 +5342,10 @@
         "Name": "Conducting"
       },
       "corrosive": {
-        "Name": "Corrosiva"
+        "Name": "Corrosiva",
+        "Note": {
+          "criticalSuccess": "Em um acerto crítico, a armadura do alvo (se houver) leva [[/r 3d6[acid] #Corrosive Rune]]{3d6 acid} dano (antes de aplicar Hardness); Se o alvo tiver um escudo erguido, o escudo leva este dano."
+        }
       },
       "crushing": {
         "Name": "Esmagadora",
@@ -5368,7 +5384,10 @@
         }
       },
       "flaming": {
-        "Name": "Flamejante"
+        "Name": "Flamejante",
+        "Note": {
+          "criticalSuccess": "Num acerto crítico, você dá [[/r 1d10[persistent,fire]]] adicional."
+        }
       },
       "flickering": {
         "Name": "Cintilante",
@@ -5411,18 +5430,24 @@
       "greaterAstral": {
         "Name": "Astral Maior",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[type:will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[type:will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
+          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
         }
       },
       "greaterBloodbane": {
         "Name": "Perdição Sanguinária Maior"
       },
       "greaterBrilliant": {
-        "Name": "Brilhante Maior"
+        "Name": "Brilhante Maior",
+        "Note": {
+          "criticalSuccess": "Dano causado por esta arma ignora a resistencia a fogo, bom ou positivo do alvo. Em um acerto crítico, o alvo deve ser bem-sucedido em um salvamento @Check[type:fortitude|dc:41|name:Greater Brilliant Rune] ou ser @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 rodada.",
+          "success": "<strong> Grande Runa Brilhante</strong> Dano causado por esta arma ignora a reistencia a fogo, bom ou positivo do alvo."
+        }
       },
       "greaterCorrosive": {
         "Name": "Corrosiva Maior",
         "Note": {
+          "criticalSuccess": "O dano ácido causado por esta arma ignora a resistência ácida do alvo. Em um golpe crítico, a armadura do alvo (se houver) leva [[/r 6d6[acid]]]{6d6 ácido} dano (antes de aplicar Hardness); se o alvo tiver um escudo aumentado, o escudo leva este dano em vez disso.",
           "success": "<strong>Runa Corrosiva Maior</strong> O dano ácido causado por esta arma ignora a resistência ácida do alvo."
         }
       },
@@ -5456,6 +5481,7 @@
       "greaterFlaming": {
         "Name": "Flamejante Maior",
         "Note": {
+          "criticalSuccess": "Dano de fogo causado por esta arma (incluindo o dano de fogo persistente) ignora a resistência ao fogo do alvo. Quando você teve sucesso crítico em um golpe com essa arma, você lida com um adicional de [[/r 2d10[persistente,fire]]].",
           "success": "Dano de fogo causado por esta arma ignora a resistência ao fogo do alvo."
         }
       },
@@ -5509,6 +5535,7 @@
           "Bow": "<strong>Runa Severa</strong> O teste de Atleticismo para puxar o míssil tem CD 20.",
           "Brawling": "<strong>Runa Severa</strong> O alvo tem uma penalidade de circunstância -4 para o seu salvamento.",
           "Club": "<strong>Runa Severa</strong> Você empurra o alvo a até 15 pés de distância.",
+          "Dart": "<strong>Runa Sera</strong> A base do dano persistente de sangramento aumenta para [[/r 2d6[bleed]]].",
           "Flail": "<strong>Runa Severa</strong> Você move o alvo 5 pés Você não pode movê-lo para longe de si, mas pode movê-lo em qualquer outra direção de sua escolha.",
           "Hammer": "<strong>Runa Severa</strong> Você pode também empurrar o alvo 5 pés para longe de você.",
           "Knife": "<strong>Runa Severa</strong> O alvo recebe uma penalidade de estado de -5 pés em sua velocidade enquanto estiver com @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dano Persistente de Sangramento}.",
@@ -5524,7 +5551,10 @@
         "Name": "Hauling"
       },
       "holy": {
-        "Name": "Sagrado"
+        "Name": "Sagrado",
+        "Note": {
+          "criticalSuccess": "(<span class=\"pf2-icon\">R</span> comando; uma vez ao dia)<br /><strong>Acionamento</strong> Usando essa arma, você obtém sucesso critico numa rolagem de ataque contra criaturas malignas<br /><strong>Efeito</strong> Você recupera PV igual ao dobro do nível da criatura maligna. Isso é um efeito de cura positivo e bom."
+        }
       },
       "hopeful": {
         "Name": "Hopeful",
@@ -5618,7 +5648,10 @@
         "Name": "Subaquática"
       },
       "unholy": {
-        "Name": "Profano"
+        "Name": "Profano",
+        "Note": {
+          "criticalSuccess": "(<span class=\"pf2-icon\">R</span> comando; uma vez por dia)<br /><strong>Acionamento</strong> Você acerta criticamente em uma jogada de ataque contra criatura boa com a arma<br /><strong>Efeito</strong> O alvo recebe @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dano Persistente de Sangramento} igual a 1d8 por dado de dano da arma."
+        }
       },
       "disrupting": {
         "Name": "Disruptora",
@@ -5627,7 +5660,10 @@
         }
       },
       "vorpal": {
-        "Name": "Vorpal"
+        "Name": "Vorpal",
+        "Note": {
+          "criticalSuccess": "(<span class=\\\"pf2-icon\\\">R</span> visualizar (morte, incapacitação))<br /><strong> Gatilho</strong> Você rola um 20 natural em um Golpe com a arma contra uma criatura que tem uma cabeça, acertando criticamente, e causa dano cortante.<br /><strong>Efeito</strong> O alvo deve ter sucesso em um salvamento de @Check[type:fortitude|dc:37|traits:death,incapacitation|name:Runa Vorpal] ou ser decapitado. Isso mata qualquer criatura, exceto aquelas que não precisam de uma cabeça para viver. Para criaturas com múltiplas cabeças, isto normalmente mata a criatura apenas se você cortar sua última cabeça."
+        }
       },
       "wounding": {
         "Name": "Sanguinária"

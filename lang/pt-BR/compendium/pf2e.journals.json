@@ -1,4 +1,5 @@
 {
+  "label": "diários",
   "entries": {
     "Ancestries": {
       "name": "Ancestralidades",
@@ -114,18 +115,82 @@
       }
     },
     "Archetypes": {
+      "name": "Arquétipos",
       "pages": {
         "Acrobat": {
           "name": "Acrobata"
         },
+        "Aldori Duelist": {
+          "name": "Duelista de Aldori"
+        },
+        "Animal Trainer": {
+          "name": "Adestrador de animais"
+        },
         "Archaeologist": {
           "name": "Arqueologista (PFS Guide)"
+        },
+        "Archer": {
+          "name": "Arqueiro"
+        },
+        "Assassin": {
+          "name": "Assassino"
+        },
+        "Bastion": {
+          "name": "Bastião"
+        },
+        "Beastmaster": {
+          "name": "Mestre das Feras"
+        },
+        "Blessed One": {
+          "name": "Abençoado"
         },
         "Bounty Hunter": {
           "name": "Caçador de Recompensas"
         },
         "Bright Lion": {
           "name": "Leão Reluzente"
+        },
+        "Butterfly Blade": {
+          "name": "Faca Borboleta"
+        },
+        "Cathartic Mage": {
+          "name": "Magista Catártico"
+        },
+        "Cavalier": {
+          "name": "Cavaleiro"
+        },
+        "Celebrity": {
+          "name": "Celebridade"
+        },
+        "Dandy": {
+          "name": "Dândi"
+        },
+        "Demolitionist": {
+          "name": "Demolidor"
+        },
+        "Dragon Disciple": {
+          "name": "Discípulo do Dragão"
+        },
+        "Dual-Weapon Warrior": {
+          "name": "Combatente de Duas Armas"
+        },
+        "Duelist": {
+          "name": "Duelista"
+        },
+        "Eldritch Archer": {
+          "name": "Arqueiro Místico"
+        },
+        "Elementalist (Class Archetype)": {
+          "name": "Elementalista (Arquétipo de Classe)"
+        },
+        "Exorcist": {
+          "name": "Exorcista"
+        },
+        "Familiar Master": {
+          "name": "Mestre em Familiar"
+        },
+        "Geomancer": {
+          "name": "Geomante"
         },
         "Ghost": {
           "name": "Fantasma"
@@ -142,17 +207,50 @@
         "Investigator": {
           "name": "Investigador"
         },
+        "Linguist": {
+          "name": "Linguista"
+        },
+        "Loremaster": {
+          "name": "Mestre do Saber"
+        },
+        "Marshal": {
+          "name": "Marechal"
+        },
+        "Martial Artist": {
+          "name": "Artista Marcial"
+        },
         "Oracle": {
           "name": "Oráculo"
+        },
+        "Pirate": {
+          "name": "Pirata"
         },
         "Poisoner": {
           "name": "Veneficista"
         },
+        "Ritualist": {
+          "name": "Ritualista"
+        },
         "Scout": {
           "name": "Patrulhar"
         },
+        "Scroll Trickster": {
+          "name": "Trapaceiro de Pergaminhos"
+        },
+        "Scrounger": {
+          "name": "Escarafunchador"
+        },
+        "Sentinel": {
+          "name": "Sentinela"
+        },
+        "Shadowdancer": {
+          "name": "Dançarino das Sombras"
+        },
         "Snarecrafter": {
           "name": "Arapuqueiro"
+        },
+        "Soulforger": {
+          "name": "Forjador de Alma"
         },
         "Swashbuckler": {
           "name": "Espadachim"
@@ -162,6 +260,15 @@
         },
         "Vigilante": {
           "name": "Vigilante"
+        },
+        "Viking": {
+          "name": "Viking"
+        },
+        "Weapon Improviser": {
+          "name": "Improvisador de Armas"
+        },
+        "Wellspring Mage (Class Archetype)": {
+          "name": "Magista Manancial (Arquétipo de Classe)"
         },
         "Witch": {
           "name": "Bruxo"
@@ -218,7 +325,7 @@
           "name": "Ladino"
         },
         "Sorcerer": {
-          "name": "Feiticieiro"
+          "name": "Feiticeiro"
         },
         "Summoner": {
           "name": "Convocador"
@@ -289,7 +396,7 @@
           "name": "Ladino"
         },
         "Sorcerer": {
-          "name": "Feiticieiro"
+          "name": "Feiticeiro"
         },
         "Summoner": {
           "name": "Convocador"
@@ -308,10 +415,70 @@
         }
       }
     },
-    "GM Screen": {
+    "Deep Backgrounds": {
+      "name": "Biografias Profundas",
       "pages": {
+        "Homeland": {
+          "name": "Terra Natal"
+        },
+        "Using Deep Backgrounds": {
+          "name": "Usando Biografias Profundas"
+        },
+        "Family Background": {
+          "name": "Biografia da Família"
+        },
+        "Major Childhood Event": {
+          "name": "Evento Marcante na Infância"
+        },
+        "Influential Associate": {
+          "name": "Associado Influente"
+        },
+        "Relationships": {
+          "name": "Relacionamentos"
+        },
+        "Inspiring Relationships": {
+          "name": "Relacionamentos Inspiradores"
+        },
+        "Challenging Relationships": {
+          "name": "Relacionamentos Desafiadores"
+        }
+      }
+    },
+    "Domains": {
+      "name": "Domínios"
+    },
+    "GM Screen": {
+      "name": "Tela do MJ",
+      "pages": {
+        "GM Screen": {
+          "name": "Tela do MJ"
+        },
+        "Player Screen": {
+          "name": "Tela do Jogador"
+        },
+        "Adjusting Treasure": {
+          "name": "Ajustando o Tesouro"
+        },
+        "Animals & Barding": {
+          "name": "Animais e Armaduras de Animais"
+        },
+        "Armor Traits": {
+          "name": "Traços de Armadura"
+        },
         "Automatic Bonus Progression": {
           "name": "Progressão Automática de Bônus"
+        },
+        "Basic Actions": {
+          "name": "Ações Básicas"
+        },
+        "Basic Services": {
+          "name": "Serviços Básicos"
+        },
+        "Bulk Conversions for Different Sizes": {
+          "name": "Conversões de Volume para Tamanhos Diferentes"
+        },
+        "Character Wealth": {
+          "name": "Riqueza do Personagem"
         },
         "Conditions": {
           "name": "Condições"
@@ -319,29 +486,113 @@
         "Counteract": {
           "name": "Neutralização"
         },
+        "Cover": {
+          "name": "Cobertura"
+        },
+        "Creature Identification": {
+          "name": "Identificação de Criaturas"
+        },
+        "Critical Specialization Effects": {
+          "name": "Efeitos de Especialização de Crítico"
+        },
         "Death and Dying": {
           "name": "Morte e Morrendo"
+        },
+        "Deep Backgrounds": {
+          "name": "Biografias Profundas"
+        },
+        "Detecting Creatures": {
+          "name": "Detectando Criaturas"
+        },
+        "Detecting with Other Senses": {
+          "name": "Detectando com Outros Sentidos"
+        },
+        "Different Size Items": {
+          "name": "Itens de Tamanho Diferente"
+        },
+        "Difficulty Classes": {
+          "name": "Classes de Dificuldade"
+        },
+        "Downtime Events": {
+          "name": "Eventos de Recesso"
+        },
+        "Downtime Tasks": {
+          "name": "Tarefas de Recesso"
         },
         "Earn Income": {
           "name": "Ganhar Proventos"
         },
+        "Elite/Weak Adjustments": {
+          "name": "Ajustes de Elite/Fraco"
+        },
+        "Encounter Building & XP Awards": {
+          "name": "Construção de Encontros & Recompensas de XP"
+        },
+        "Environmental Damage": {
+          "name": "Dano Ambiental"
+        },
+        "Exploration Activities": {
+          "name": "Atividades de Exploração"
+        },
+        "Falling": {
+          "name": "Caindo"
+        },
         "Force Open": {
           "name": "Forçar"
+        },
+        "Golarion Calendar": {
+          "name": "Calendário de Golarion"
         },
         "Hero Points": {
           "name": "Pontos de Heroísmo"
         },
+        "High-Quality Items": {
+          "name": "Itens de Alta Qualidade"
+        },
+        "Item Quirks": {
+          "name": "Peculiaridades de Item"
+        },
         "Learn a Spell": {
           "name": "Aprenda uma Magia"
+        },
+        "Monster Abilities": {
+          "name": "Habilidades de Monstros"
+        },
+        "Proficiency Without Level": {
+          "name": "Proficiência Sem Nível"
         },
         "Reputation": {
           "name": "Reputação"
         },
+        "Scroll Prices": {
+          "name": "Preços de Pergaminhos"
+        },
         "Senses": {
           "name": "Sentidos"
         },
+        "Skill Actions": {
+          "name": "Ações de Perícia"
+        },
+        "Special Battles": {
+          "name": "Batalhas Especiais"
+        },
+        "Spellcasting Services": {
+          "name": "Serviços de Conjuração"
+        },
         "Stamina": {
           "name": "Estamina"
+        },
+        "Structures": {
+          "name": "Estruturas"
+        },
+        "Temperature Effects": {
+          "name": "Efeitos de Temperatura"
+        },
+        "Terrain in Encounters": {
+          "name": "Terreno em Encontros"
+        },
+        "Three-Dimensional Combat": {
+          "name": "Combate Tridimensional"
         },
         "Travel Speed": {
           "name": "Velocidade de Viagem"
@@ -349,14 +600,32 @@
         "Treasure": {
           "name": "Tesouro"
         },
+        "Treasure Per Encounter": {
+          "name": "Tesouro por Encontro"
+        },
         "Treat Wounds": {
           "name": "Tratar Ferimentos"
+        },
+        "Victory Points": {
+          "name": "Pontos de Vitória"
+        },
+        "Wand Prices": {
+          "name": "Preços de Varinhas"
         },
         "Weapon Traits": {
           "name": "Traços de Arma"
         },
         "Variant Rules": {
           "name": "Regras Variantes"
+        },
+        "Basic Rules": {
+          "name": "Regras Básicas"
+        },
+        "Worldbuilding": {
+          "name": "Construção de Mundo"
+        },
+        "Changing Equipment": {
+          "name": "Mudando Equipamento"
         }
       }
     },
@@ -393,6 +662,9 @@
         },
         "Equipment": {
           "name": "Equipamento"
+        },
+        "Rules and Languages": {
+          "name": "Regras e Idiomas"
         }
       }
     }
