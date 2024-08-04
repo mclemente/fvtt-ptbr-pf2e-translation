@@ -30,6 +30,13 @@
         }
       ]
     },
+    "Accurate Swing": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
     "Accursed Clay Fist": {
       "name": "Punho de Barro Amaldiçoado",
       "prerequisites": [
@@ -42,6 +49,35 @@
       "prerequisites": [
         {
           "value": "Magia Básica do Louva-a-Deus Vermelho"
+        }
+      ]
+    },
+    "Acknowledge Fan": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Celebridade"
+        }
+      ]
+    },
+    "Acquired Tolerance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Veneficista"
+        }
+      ]
+    },
+    "Acrobat Dedication": {
+      "name": "Dedicação de Acrobata",
+      "prerequisites": [
+        {
+          "value": "treinado em Acrobatismo"
+        }
+      ]
+    },
+    "Acrobatic Performer": {
+      "prerequisites": [
+        {
+          "value": "treinado em Acrobatismo"
         }
       ]
     },
@@ -112,7 +148,12 @@
       "description": "<p><strong>Pré-requisitos</strong> magia de linhagem</p> <hr> <p>Você estudou sua linhagem para aprender os segredos de sua magia. Você recebe a magia de linhagem avançada associada à sua linhagem. Aumente em 1 a quantidade de Pontos de Foco em sua reserva de foco.</p>"
     },
     "Advanced Bow Training": {
-      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.4QFElZoWjg1X0vsg]{Archer Dedication}</p> <hr> <p>Through constant practice and the crucible of experience, you increase your skill with advanced bows. You gain proficiency with all advanced bows as if they were martial weapons in the bow weapon group.</p>"
+      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.4QFElZoWjg1X0vsg]{Archer Dedication}</p> <hr> <p>Through constant practice and the crucible of experience, you increase your skill with advanced bows. You gain proficiency with all advanced bows as if they were martial weapons in the bow weapon group.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro"
+        }
+      ]
     },
     "Advanced Concoction": {
       "name": "Concocção Avançada",
@@ -222,6 +263,13 @@
     "Advanced School Spell": {
       "name": "Magia de Escola Avançada"
     },
+    "Advanced Synergy": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Convocador"
+        }
+      ]
+    },
     "Advanced Trickery": {
       "name": "Trapaça Avançada",
       "description": "<p><strong>Pré-requisitos<strong> Trapaça Básica<p> <p>Você recebe um talento de ladino. Para o propósito de atender seus pré-requisitos, seu nível de ladino é igual à metade de seu nível de personagem.<p> <p><strong>Especial <strong>Você pode selecionar este talento várias vezes. Cada vez que o fizer, você recebe outro talento de ladino.<p>",
@@ -296,7 +344,12 @@
       "name": "Estudioso em Alquimia"
     },
     "Alchemist Dedication": {
-      "name": "Dedicação de Alquimista"
+      "name": "Dedicação de Alquimista",
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
     },
     "Aldori Duelist Dedication": {
       "name": "Dedicação do Duelista Aldori"
@@ -327,6 +380,13 @@
         }
       ]
     },
+    "Analyze Idiolect": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Linguista"
+        }
+      ]
+    },
     "Ancestral Blood Magic": {
       "description": "<p>The magic of your bloodline mixes with that of your ancestry. You gain your blood magic effect when you cast a non-cantrip spell you gained from a heritage or an ancestry feat, in addition to the normal circumstances that trigger your blood magic.&nbsp;</p>"
     },
@@ -354,6 +414,20 @@
     },
     "Anchoring Aura": {
       "name": "Aura de Ancoragem"
+    },
+    "Angel Of Death": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assassino"
+        }
+      ]
+    },
+    "Angel of Vindication": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assassino"
+        }
+      ]
     },
     "Animal Accomplice": {
       "name": "Cúmplice Animal",
@@ -440,10 +514,31 @@
     "Arcane Tattoos": {
       "name": "Tatuagem Arcana"
     },
+    "Archaeologist Dedication": {
+      "name": "Dedicação de Arqueólogo"
+    },
+    "Archaeologist's Luck": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueólogo"
+        }
+      ]
+    },
     "Archaeologist's Warning": {
       "prerequisites": [
         {
           "value": "Dedicação de Agente Pathfinder"
+        }
+      ]
+    },
+    "Archer Dedication": {
+      "name": "Dedicação de Arqueiro"
+    },
+    "Archer's Aim": {
+      "name": "Mira do Arqueiro",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro"
         }
       ]
     },
@@ -487,12 +582,24 @@
       ]
     },
     "Armor Specialist": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.8foxmfC6FFT3oYpV]{Sentinel Dedication}</p> <hr> <p>You have trained hard to optimize your armor’s protective qualities. You gain the armor specialization effects of medium and heavy armor.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.8foxmfC6FFT3oYpV]{Sentinel Dedication}</p> <hr> <p>You have trained hard to optimize your armor’s protective qualities. You gain the armor specialization effects of medium and heavy armor.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Sentinela"
+        }
+      ]
     },
     "Armored Exercise": {
       "prerequisites": [
         {
           "value": "Dedicação de Mestre da Espada"
+        }
+      ]
+    },
+    "Armored Rebuff": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Sentinela"
         }
       ]
     },
@@ -513,6 +620,13 @@
         }
       ]
     },
+    "Arrow of Death": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
+    },
     "Ashen Veil": {
       "prerequisites": [
         {
@@ -521,9 +635,20 @@
       ]
     },
     "Assassin Dedication": {
+      "name": "Dedicação de Assassino",
+      "prerequisites": {
+        "0": {
+          "value": "Manufatura Alquímica"
+        },
+        "3": {
+          "value": "treinado em Furtividade"
+        }
+      }
+    },
+    "Assassinate": {
       "prerequisites": [
         {
-          "value": "Manufatura Alquímica"
+          "value": "Dedicação de Assassino"
         }
       ]
     },
@@ -591,7 +716,12 @@
       "description": "<p><strong>Pré-Requisitos</strong>especialista em uma perícia com a ação Recordar Conhecimento, Certeza nessa perícia</p> <hr> <p>Você recorda fatos básicos prontamente. Escolha uma perícia na qual seja especialista que tenha a ação Recordar Conhecimento e para a qual você possui o talento Certeza. Você pode usar a ação Recordar Conhecimento com essa perícia como uma ação livre uma vez por rodada. Se o fizer, você deve usar Certeza no teste de perícia</p> <p><strong>Especial</strong> Você pode selecionar este talento várias vezes. Cada vez que o fizer, escolha uma perícia diferente. Você pode usar Conhecimento Automático com quaisquer perícias que tiver escolhido, mas ainda pode usar Conhecimento Automático somente uma vez por rodada.</p>"
     },
     "Avalanche Strike": {
-      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.AimSmPyiMhJZVZRq]{Mauler Dedication}</p> <p><strong>Requirements</strong> You are wielding a melee weapon in two hands.</p> <hr> <p>You attack all nearby adversaries. Make a melee @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} with the required weapon against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but don’t increase your penalty until you have made all your attacks.</p>"
+      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.AimSmPyiMhJZVZRq]{Mauler Dedication}</p> <p><strong>Requirements</strong> You are wielding a melee weapon in two hands.</p> <hr> <p>You attack all nearby adversaries. Make a melee @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} with the required weapon against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but don’t increase your penalty until you have made all your attacks.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Malhador"
+        }
+      ]
     },
     "Avatar's Audience": {
       "name": "Audiência do Avatar"
@@ -630,11 +760,26 @@
         }
       ]
     },
+    "Back To Back": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
+    },
     "Backup Disguise": {
       "name": "Disfarce Reserva"
     },
     "Barbarian Dedication": {
-      "name": "Dedicação de Bárbaro"
+      "name": "Dedicação de Bárbaro",
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        },
+        {
+          "value": "Constituição +2"
+        }
+      ]
     },
     "Barbarian Resiliency": {
       "name": "Resiliência de Bárbaro",
@@ -646,7 +791,12 @@
       ]
     },
     "Bard Dedication": {
-      "name": "Dedicação de Bardo"
+      "name": "Dedicação de Bardo",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Bardic Lore": {
       "name": "Saber Bárdico"
@@ -692,6 +842,13 @@
         }
       ]
     },
+    "Basic Breakthrough": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Inventor"
+        }
+      ]
+    },
     "Basic Cleric Spellcasting": {
       "name": "Conjuração Básica de Clérigo",
       "prerequisites": [
@@ -710,7 +867,12 @@
       ]
     },
     "Basic Deduction": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.CZXhJS55rG5H6PpB]{Investigator Dedication}</p> <hr> <p>You gain a 1st- or 2nd-level investigator feat of your choice.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.CZXhJS55rG5H6PpB]{Investigator Dedication}</p> <hr> <p>You gain a 1st- or 2nd-level investigator feat of your choice.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Investigador"
+        }
+      ]
     },
     "Basic Devotion": {
       "name": "Devoção Básica",
@@ -738,8 +900,20 @@
         }
       ]
     },
+    "Basic Eldritch Archer Spellcasting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
+    },
     "Basic Flair": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.eAlrvPVb8qt8Lruw]{Swashbuckler Dedication}</p> <hr> <p>You gain a 1st- or 2nd-level swashbuckler feat of your choice.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.eAlrvPVb8qt8Lruw]{Swashbuckler Dedication}</p> <hr> <p>You gain a 1st- or 2nd-level swashbuckler feat of your choice.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Espadachim"
+        }
+      ]
     },
     "Basic Fury": {
       "name": "Furor Básico",
@@ -768,12 +942,33 @@
         }
       ]
     },
+    "Basic Magus Spellcasting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Magus"
+        }
+      ]
+    },
     "Basic Maneuver": {
       "name": "Manobra Básica",
       "description": "<p><strong>Pré-Requisites</strong> Dedicação de Guerreiro</p> <hr> <p>Você recebe um talento de guerreiro de 1º ou 2º nível.</p>",
       "prerequisites": [
         {
           "value": "Dedicação de Guerreiro"
+        }
+      ]
+    },
+    "Basic Martial Magic": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Magus"
+        }
+      ]
+    },
+    "Basic Modification": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Inventor"
         }
       ]
     },
@@ -787,7 +982,19 @@
       ]
     },
     "Basic Mysteries": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.OUNj8nXTHwGcEdlh]{Oracle Dedication}</p> <hr> <p>You gain a 1st- or 2nd-level oracle feat of your choice.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.OUNj8nXTHwGcEdlh]{Oracle Dedication}</p> <hr> <p>You gain a 1st- or 2nd-level oracle feat of your choice.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Oráculo"
+        }
+      ]
+    },
+    "Basic Oracle Spellcasting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Oráculo"
+        }
+      ]
     },
     "Basic Red Mantis Magic": {
       "name": "Magia Básica do Louva-a-Deus Vermelho",
@@ -797,11 +1004,39 @@
         }
       }
     },
+    "Basic Shooting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pistoleiro"
+        }
+      ]
+    },
     "Basic Sorcerer Spellcasting": {
       "name": "Conjuração Básica de Feiticeiro",
       "prerequisites": [
         {
           "value": "Dedicação de Feiticeiro"
+        }
+      ]
+    },
+    "Basic Summoner Spellcasting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Convocador"
+        }
+      ]
+    },
+    "Basic Synergy": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Convocador"
+        }
+      ]
+    },
+    "Basic Thaumaturgy": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Taumaturgo"
         }
       ]
     },
@@ -823,6 +1058,20 @@
         }
       ]
     },
+    "Basic Witch Spellcasting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bruxo"
+        }
+      ]
+    },
+    "Basic Witchcraft": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bruxo"
+        }
+      ]
+    },
     "Basic Wizard Spellcasting": {
       "name": "Conjuração Básica de Mago",
       "prerequisites": [
@@ -832,6 +1081,8 @@
       ]
     },
     "Bastion Dedication": {
+      "name": "Dedicação de Bastião",
+      "description": "<p>Você é particularmente habilidoso usando escudos em combate. Você recebe @UUID[Compendium.pf2e.feats-srd.Item.w8Ycgeq2zfyshtoS]{Escudo Reativo}. Isto preenche quaisquer pré-requisitos normalmente requeridos por Escudo Reativo.\n<p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter recebido dois outros talentos do arquétipo de @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.C3P0TycdFCN02p9u]{Bastião}.</p>",
       "prerequisites": [
         {
           "value": "Bloqueio com Escudo"
@@ -872,7 +1123,12 @@
       }
     },
     "Bellflower Dedication": {
-      "name": "Dedicação da Campânula"
+      "name": "Dedicação da Campânula",
+      "prerequisites": {
+        "3": {
+          "value": "Carisma +2"
+        }
+      }
     },
     "Bespell Weapon": {
       "name": "Magia Residual em Arma"
@@ -1036,6 +1292,9 @@
       "name": "Represálias Ilimitadas",
       "description": "<p>Com um sexto sentido para o fluxo de combate, você reage rapidamente a qualquer situação. No começo do turno de cada inimigo, você recebe uma reação que pode ser usada somente durante esse turno.</p>"
     },
+    "Bounty Hunter Dedication": {
+      "name": "Dedicação de Caçador de Recompensas"
+    },
     "Brain Drain": {
       "name": "Brain Drain"
     },
@@ -1054,8 +1313,29 @@
     "Breath Control": {
       "name": "Controlar a Respiração"
     },
+    "Bright Lion Dedication": {
+      "prerequisites": {
+        "2": {
+          "value": "treinado em Furtividade"
+        }
+      }
+    },
     "Brightness Seeker": {
       "name": "Buscador do Brilho"
+    },
+    "Brilliant Crafter": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Inventor"
+        }
+      ]
+    },
+    "Broadside Buckos": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pirata"
+        }
+      ]
     },
     "Brutal Beating": {
       "name": "Surra Brutal"
@@ -1079,8 +1359,22 @@
         }
       ]
     },
+    "Burning Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Cackle": {
       "name": "Cacarejo"
+    },
+    "Cadence Call": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Calculated Splash": {
       "name": "Respingo Calculado",
@@ -1111,6 +1405,16 @@
     },
     "Cantrip Expansion": {
       "name": "Expansão de Truque Mágico"
+    },
+    "Captivator Dedication": {
+      "prerequisites": [
+        {
+          "value": "treinado em Dissimulação ou Diplomacia"
+        },
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Capture Magic": {
       "prerequisites": [
@@ -1167,7 +1471,12 @@
       "name": "Arma Castigante"
     },
     "Cat Fall": {
-      "name": "Queda do Gato"
+      "name": "Queda do Gato",
+      "prerequisites": [
+        {
+          "value": "treinado em Acrobatismo"
+        }
+      ]
     },
     "Catfolk Weapon Expertise": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.bEh5qUgX5eFaQwzU]{Catfolk Weapon Familiarity}</p> <hr> <p>Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from Catfolk Weapon Familiarity.</p>"
@@ -1182,6 +1491,23 @@
         }
       ]
     },
+    "Cavalier Dedication": {
+      "name": "Dedicação de Cavaleiro"
+    },
+    "Cavalier's Banner": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
+    "Cavalier's Charge": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Cave Climber": {
       "name": "Escalador de Caverna"
     },
@@ -1193,6 +1519,9 @@
         }
       ]
     },
+    "Celebrity Dedication": {
+      "name": "Dedicação de Celebridade"
+    },
     "Celestial Form": {
       "name": "Forma Celestial"
     },
@@ -1203,7 +1532,15 @@
       "name": "Golpe Infalível"
     },
     "Champion Dedication": {
-      "name": "Dedicação de Campeão"
+      "name": "Dedicação de Campeão",
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        },
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Champion Resiliency": {
       "name": "Resiliência de Campeão",
@@ -1249,7 +1586,12 @@
       "description": "<p> <strong>Pré-Requisitos</strong> treinado em Dissimulação </span></p> <hr> <p>Você aprendeu a mimetizar as habilidades de um conjurador estudando suas gesticulações floreadas e palavras. Quando você ativa um item mágico para gerar um efeito de magia, faça uma rolagem de Dissimulação. Se obtiver um sucesso contra a CD de Percepção do observador, você aparenta ter conjurado a magia. Observadores que obtiverem sucesso em reconhecer a magia percebem que você usou um item mágico, mas aqueles que conseguirem identificar posteriormente não conseguem identificar que a magia veio de um item mágico.</p>"
     },
     "Charmed Life": {
-      "description": "<p><strong>Prerequisites</strong> Charisma 14</p> <p><strong>Trigger </strong>You attempt a saving throw, but you haven’t rolled yet.</p> <hr> <p>When danger calls, you have a strange knack for coming&nbsp;out on top. You gain a +2 circumstance bonus to the&nbsp;triggering save.</p>"
+      "description": "<p><strong>Prerequisites</strong> Charisma 14</p> <p><strong>Trigger </strong>You attempt a saving throw, but you haven’t rolled yet.</p> <hr> <p>When danger calls, you have a strange knack for coming&nbsp;out on top. You gain a +2 circumstance bonus to the&nbsp;triggering save.</p>",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Charming Liar": {
       "name": "Mentiroso Charmoso"
@@ -1282,12 +1624,24 @@
         }
       ]
     },
+    "Clear The Way": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Malhador"
+        }
+      ]
+    },
     "Cleave": {
       "name": "Trespassar",
       "description": "<p><strong>Acionamento</strong> Seus Golpes corpo a corpo matam uma criatura ou a derrubam inconsciente, e outro adversário está adjacente a essa criatura.</p> <hr> <p>Seu ataque atravessa um adversário em direção a outro. Faça um Golpe corpo a corpo contra o segundo adversário.</p>"
     },
     "Cleric Dedication": {
-      "name": "Dedicação de Clérigo"
+      "name": "Dedicação de Clérigo",
+      "prerequisites": [
+        {
+          "value": "Sabedoria +2"
+        }
+      ]
     },
     "Clever Counterspell": {
       "name": "Trespassar Contramágica",
@@ -1339,6 +1693,13 @@
     "Come and Get Me": {
       "name": "Venha me Pegar"
     },
+    "Command Attention": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Celebridade"
+        }
+      ]
+    },
     "Command Undead": {
       "name": "Comandar Mortos-Vivos"
     },
@@ -1384,6 +1745,13 @@
     "Continual Recovery": {
       "name": "Recuperação Contínua"
     },
+    "Contortionist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
+        }
+      ]
+    },
     "Cooperative Nature": {
       "name": "Natureza Cooperativa",
       "description": "<p>A vida curta dos humanos o concede uma grande capacidade de perspectiva além de ensiná-lo desde cedo a colocar as diferenças de lado e cooperar com outras pessoas para alcançar a grandeza. Você recebe +4 de bônus de circunstância em testes para @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Auxiliar}.</p>"
@@ -1397,7 +1765,12 @@
       ]
     },
     "Coordinated Charge": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <hr> <p>You heroically dash into the fray, inspiring your allies to follow. You @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} up to your Speed and make a melee @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If your Strike hits and damages an enemy, each ally within 60 feet who saw you hit can use a reaction to Stride, but they each must end their Stride closer to the creature you hit than where they started.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <hr> <p>You heroically dash into the fray, inspiring your allies to follow. You @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} up to your Speed and make a melee @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If your Strike hits and damages an enemy, each ally within 60 feet who saw you hit can use a reaction to Stride, but they each must end their Stride closer to the creature you hit than where they started.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Costume Change": {
       "prerequisites": {
@@ -1496,6 +1869,11 @@
       "name": "Ás com a Besta"
     },
     "Crossbow Terror": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro"
+        }
+      ],
       "rules": {
         "1": {
           "label": "Ás com a Besta"
@@ -1512,7 +1890,12 @@
       ]
     },
     "Crude Communication": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.u6SDVWbzHnBBPNMo]{Linguist Dedication}</p> <hr> <p>Even if you don’t speak a creature’s language, you can rely on inflection, root words, and body language to infer rudimentary meaning.</p> <p>If you interact with a creature for at least 10 minutes and that creature can speak a language, the GM rolls a secret Society check with a DC appropriate for the language’s rarity.</p> <p> On a success, you understand the gist of the meaning and can communicate basic concepts back to the creature; on a failure, you are mistaken or communicate incorrect concepts.</p> <p>If you’re legendary in Society, you can communicate instantly without needing to attempt a Society check; even if you didn’t know the medium of communication the creature uses (speech, sign language, and so on), you intuit this information as soon as they try to communicate.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.u6SDVWbzHnBBPNMo]{Linguist Dedication}</p> <hr> <p>Even if you don’t speak a creature’s language, you can rely on inflection, root words, and body language to infer rudimentary meaning.</p> <p>If you interact with a creature for at least 10 minutes and that creature can speak a language, the GM rolls a secret Society check with a DC appropriate for the language’s rarity.</p> <p> On a success, you understand the gist of the meaning and can communicate basic concepts back to the creature; on a failure, you are mistaken or communicate incorrect concepts.</p> <p>If you’re legendary in Society, you can communicate instantly without needing to attempt a Society check; even if you didn’t know the medium of communication the creature uses (speech, sign language, and so on), you intuit this information as soon as they try to communicate.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Linguista"
+        }
+      ]
     },
     "Crushing Grab": {
       "name": "Agarrão Esmagador"
@@ -1535,6 +1918,13 @@
       "name": "Escalador Astuto",
       "description": "<p> Esteja você escalando o equipamento de um navio, uma árvore da selva ou uma torre do relógio, você tem um talento especial para encontrar apoios de pés e pegas onde criaturas maiores não conseguem. Você ganha uma velocidade de subida de 3 metros. Você pode pegar o talento Escalador Lendário, mesmo que não tenha o talento @Compendium[pf2e.feats-srd.P04Hw8E6WAWARKHP]{Escalada Rápida}, desde que você atenda aos outros pré-requisitos.</span></p> (Tradução não oficial - Lost Omens: Character Guide)"
     },
+    "Current Spell (Elementalist)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Cut the Bonds": {
       "name": "Cortar os Laços",
       "prerequisites": [
@@ -1545,6 +1935,9 @@
     },
     "Dancing Leaf": {
       "name": "Folha Dançante"
+    },
+    "Dandy Dedication": {
+      "name": "Dedicação de Dândi"
     },
     "Dangerous Sorcery": {
       "name": "Feitiçaria Perigosa"
@@ -1650,7 +2043,12 @@
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.1t5479E6bdvFs4E7]{Talisman Dabbler Dedication}</p> <hr> <p>With some streamlining to your process and a deeper collection of talisman materials, you make a greater number of talismans every day. You can create two additional talismans during your daily preparations.</p> <p><strong>Special</strong> You can select this feat a second time if you are 14th level or higher.</p>"
     },
     "Defend Mount": {
-      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"5Q69PI8jdQVkb1ZT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Cavalier Dedication</a></p> <p><strong>Trigger</strong> An enemy makes an attack roll against your mount while you’re riding it.</p> <hr> <p>You interpose yourself between an attacker and your mount, defending your mount from harm.</p> <p>Use your own AC against the triggering attack instead your mount’s AC. If the triggering attack hits, you take the effects of the attack instead of your mount.</p>"
+      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"5Q69PI8jdQVkb1ZT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Cavalier Dedication</a></p> <p><strong>Trigger</strong> An enemy makes an attack roll against your mount while you’re riding it.</p> <hr> <p>You interpose yourself between an attacker and your mount, defending your mount from harm.</p> <p>Use your own AC against the triggering attack instead your mount’s AC. If the triggering attack hits, you take the effects of the attack instead of your mount.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
     },
     "Defensive Recovery": {
       "name": "Recuperação Defensiva"
@@ -1717,6 +2115,13 @@
     "Desperate Prayer": {
       "description": "<p><strong>Frequency</strong> once per day</p> <p><strong>Trigger</strong> You begin your turn and have no Focus Points in your pool.</p> <hr> <p>You call out to your deity in a plea for their aid. You instantly recover 1 Focus Point.</p>"
     },
+    "Destructive Block": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bastião"
+        }
+      ]
+    },
     "Determination": {
       "name": "Determinação"
     },
@@ -1750,6 +2155,13 @@
     "Devoted Focus": {
       "name": "Foco Devotado",
       "description": "<p><strong>Pré-requisitos</strong> magias de devoção</p> <hr> <p>Sua devoção é forte o suficiente para aumentar seu foco a um grau incrível. Se tiver gastado pelo menos 2 Pontos de Foco desde a última vez que Refocou, você recupera 2 Pontos de Foco ao Refocar (em vez de recuperar somente 1 ponto).</p>"
+    },
+    "Devrin's Cunning Stance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Diabolic Certitude": {
       "name": "Certeza Diabólica",
@@ -1788,11 +2200,25 @@
     "Dirge of Doom": {
       "name": "Lamento da Condenação"
     },
+    "Disarming Block": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bastião"
+        }
+      ]
+    },
     "Disarming Stance": {
       "name": "Postura de Desarme"
     },
     "Disarming Twist": {
       "name": "Torção de Desarme"
+    },
+    "Discerning Gaze": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
     },
     "Discerning Strike": {
       "prerequisites": [
@@ -1836,6 +2262,13 @@
     },
     "Distracting Feint": {
       "name": "Finta de Distração"
+    },
+    "Distracting Flattery": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Dândi"
+        }
+      ]
     },
     "Distracting Shadows": {
       "name": "Distração nas Sombras"
@@ -1926,6 +2359,20 @@
     "Divine Weapon": {
       "name": "Arma Divina"
     },
+    "Doctor's Visitation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Médico"
+        }
+      ]
+    },
+    "Dodge Away": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
+        }
+      ]
+    },
     "Domain Acumen": {
       "description": "<p>Every oracle’s mystery touches on a divine domain of the deities that fuel it; you can access that power.</p> <p>Choose one of the domains associated with your mystery for which you don’t already have an initial domain spell. You gain an initial domain spell from that domain, which you cast as a revelation spell. It gains the cursebound trait. Increase the number of Focus Points in your focus pool by 1.</p>"
     },
@@ -1956,6 +2403,13 @@
     },
     "Doublespeak": {
       "description": "<p><strong>Prerequisites </strong>master at Deception</p> <hr> <p>You are skilled at saying one thing while meaning something different. You disguise your true meaning behind other words and phrases, relying on subtle emphasis and shared experience to convey meaning that only your allies understand.</p> <p>Any allies who have traveled alongside you for at least 1 full week automatically discern your meaning. Other observers must succeed at a Perception check against your Deception DC to realize you are passing a secret message, and they must critically succeed to understand the message itself.</p>"
+    },
+    "Dousing Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
     },
     "Draconic Arrogance": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.classfeatures.VDot7CDcXElxmkkz]{Dragon Instinct}</p> <hr> <p>Few can sway you from your goals while the fury of combat fills you. While raging, you gain a +2 status bonus to saving throws against emotion effects.</p>"
@@ -2025,11 +2479,30 @@
         }
       }
     },
+    "Dread Marshal Stance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
+    },
     "Dread Striker": {
       "name": "Golpeador Pavoroso"
     },
+    "Drive Back": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bastião"
+        }
+      ]
+    },
     "Druid Dedication": {
-      "name": "Dedicação de Druida"
+      "name": "Dedicação de Druida",
+      "prerequisites": [
+        {
+          "value": "Sabedoria +2"
+        }
+      ]
     },
     "Dual Thrower": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.YhnCjiHNlS3nCeoC]{Dual-Weapon Warrior Dedication}</p> <hr> <p>You know how to throw two weapons as easily as @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} with them.</p> <p>Whenever a dual-weapon warrior feat allows you to make a melee Strike, you can instead make a ranged Strike with a thrown weapon or a one-handed ranged weapon you are wielding.</p> <p>Any effects from these feats that apply to one-handed melee weapons or melee Strikes also apply to one-handed ranged weapons and ranged Strikes.</p>"
@@ -2071,6 +2544,13 @@
     },
     "Dwarven Weapon Familiarity": {
       "name": "Familiaridade com Armas Enânicas"
+    },
+    "Eagle Eye": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pistoleiro"
+        }
+      ]
     },
     "Easily Dismissed": {
       "name": "Facilmente Dispensado"
@@ -2123,6 +2603,13 @@
         }
       ]
     },
+    "Eerie Environs": {
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Furtividade"
+        }
+      }
+    },
     "Efficient Alchemy (Alchemist)": {
       "name": "Alquimia Eficiente (Alquimista)"
     },
@@ -2148,6 +2635,9 @@
     "Elastic Mutagen": {
       "name": "Mutagênico Elástico"
     },
+    "Eldritch Archer Dedication": {
+      "name": "Dedicação de Arqueiro Místico"
+    },
     "Eldritch Debilitations": {
       "prerequisites": {
         "1": {
@@ -2163,11 +2653,14 @@
       ]
     },
     "Elemental Familiar": {
-      "prerequisites": {
-        "1": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        },
+        {
           "value": "Familiar"
         }
-      }
+      ]
     },
     "Elemental Fist": {
       "name": "Punho Elemental",
@@ -2182,6 +2675,9 @@
     },
     "Elemental Wrath": {
       "name": "Ira Elemental"
+    },
+    "Elementalist Dedication": {
+      "name": "Dedicação de Elementalista"
     },
     "Elf Atavism": {
       "name": "Atavismo Élfico"
@@ -2264,6 +2760,13 @@
     },
     "Empty Body": {
       "name": "Corpo Vazio"
+    },
+    "Enchanting Arrow": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
     },
     "Encouraging Words": {
       "name": "Palavras Encorajadoras"
@@ -2383,7 +2886,12 @@
       ]
     },
     "Evasiveness (Swashbuckler)": {
-      "description": "<p><strong>Prerequisites</strong> Rogue Dedication, expert in Reflex saves</p> <hr> <p>Your proficiency rank for Reflex saves increases to master.</p>"
+      "description": "<p><strong>Prerequisites</strong> Rogue Dedication, expert in Reflex saves</p> <hr> <p>Your proficiency rank for Reflex saves increases to master.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Espadachim"
+        }
+      ]
     },
     "Everstand Stance": {
       "name": "Postura de Semprefirme"
@@ -2403,11 +2911,32 @@
     "Exacting Strike": {
       "name": "Golpe de Exatidão"
     },
+    "Execution": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
+    "Executioner Weapon Training": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
     "Expanded Domain Initiate": {
       "description": "<p>You have long venerated one of your deity’s lesser-known aspects. Select one domain from your deity’s alternate&nbsp;domains. You gain access to that domain and an initial domain spell for that domain.</p>",
       "prerequisites": [
         {
           "value": "Iniciado no Domínio"
+        }
+      ]
+    },
+    "Expanded Elemental Magic": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
         }
       ]
     },
@@ -2457,6 +2986,13 @@
         }
       ]
     },
+    "Expert Backstabber": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assassino"
+        }
+      ]
+    },
     "Expert Bard Spellcasting": {
       "name": "Conjuração Especialista de Bardo",
       "prerequisites": [
@@ -2470,6 +3006,13 @@
       "prerequisites": [
         {
           "value": "Conjuração Básica de Clérigo"
+        }
+      ]
+    },
+    "Expert Combat Eidolon": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Convocador"
         }
       ]
     },
@@ -2489,6 +3032,13 @@
       "prerequisites": [
         {
           "value": "Longevidade Ancestral"
+        }
+      ]
+    },
+    "Expert Poisoner": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Veneficista"
         }
       ]
     },
@@ -2519,6 +3069,13 @@
     "Exploitive Bomb": {
       "name": "Bomba Lancinante"
     },
+    "Explosion": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Inventor"
+        }
+      ]
+    },
     "Extend Boost": {
       "name": "Extend Boost"
     },
@@ -2542,6 +3099,13 @@
           "value": "Sentido Arcano"
         }
       }
+    },
+    "Fabricated Connections": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Dândi"
+        }
+      ]
     },
     "Fade Away": {
       "name": "Desaparecer",
@@ -2615,7 +3179,12 @@
     },
     "Fast Recovery": {
       "name": "Recuperação Rápida",
-      "description": "<p> <strong>Pré-requisites</strong> Constituição 14 </span></p> <hr> <p>Seu corpo combate aflições rapidamente. Você recupera o dobro de Pontos de Vida por descansar. Cada vez que obtiver sucesso em um salvamento de Fortitude contra uma doença ou veneno em efeito, você reduz seu estágio em 2, ou em 1 contra uma doença ou veneno virulento. Cada sucesso crítico que você obtiver contra uma doença ou veneno em efeito reduz seu estágio em 3, ou em 2 contra uma doença ou veneno virulento. Além disso, você reduz a severidade de sua condição drenado em 2 quando descansar por uma noite (em vez de reduzi-la apenas em 1).</p>"
+      "description": "<p> <strong>Pré-requisites</strong> Constituição 14 </span></p> <hr> <p>Seu corpo combate aflições rapidamente. Você recupera o dobro de Pontos de Vida por descansar. Cada vez que obtiver sucesso em um salvamento de Fortitude contra uma doença ou veneno em efeito, você reduz seu estágio em 2, ou em 1 contra uma doença ou veneno virulento. Cada sucesso crítico que você obtiver contra uma doença ou veneno em efeito reduz seu estágio em 3, ou em 2 contra uma doença ou veneno virulento. Além disso, você reduz a severidade de sua condição drenado em 2 quando descansar por uma noite (em vez de reduzi-la apenas em 1).</p>",
+      "prerequisites": [
+        {
+          "value": "Constituição +2"
+        }
+      ]
     },
     "Fatal Aria": {
       "name": "Aria Fatal"
@@ -2680,7 +3249,12 @@
       ]
     },
     "Fighter Dedication": {
-      "name": "Dedicação de Guerreiro"
+      "name": "Dedicação de Guerreiro",
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        }
+      ]
     },
     "Fighter Resiliency": {
       "name": "Resiliência de Guerreiro",
@@ -2698,8 +3272,34 @@
         }
       ]
     },
+    "Finishing Precision": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Espadachim"
+        }
+      ]
+    },
+    "Firearm Expert": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pistoleiro"
+        }
+      ]
+    },
     "Firebrand Braggart Dedication": {
-      "name": "Dedicação de Atiçador Fanfarrão"
+      "name": "Dedicação de Atiçador Fanfarrão",
+      "prerequisites": {
+        "1": {
+          "value": "Carisma +2"
+        }
+      }
+    },
+    "First Revelation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Oráculo"
+        }
+      ]
     },
     "First World Adept": {
       "name": "Adepto do Primeiro Mundo"
@@ -2871,6 +3471,13 @@
     "Friendly Toss": {
       "description": "<p><strong>Requirements</strong> You are adjacent to an ally and have one or  more hands free.</p> <hr> <p>You toss your friends around the battlefield. Pick up an adjacent ally of your size or smaller and throw them to an unoccupied space you can see within 30 feet. Their movement doesn’t trigger reactions.</p> <p>Your ally ends this movement on their feet and doesn’t take damage from the fall. If your ally ends this movement within melee reach of at least one enemy, they can make a melee @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against an enemy within their reach as a reaction.</p>"
     },
+    "Frightful Condemnation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
     "Fulminating Synergy": {
       "name": "Sinergia Fulminante",
       "prerequisites": [
@@ -2919,6 +3526,13 @@
       "prerequisites": [
         {
           "value": "Dedicação da Campânula"
+        }
+      ]
+    },
+    "Gardener's Resolve": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
         }
       ]
     },
@@ -3016,6 +3630,20 @@
     "Golem Grafter Dedication": {
       "name": "Dedicação de Golem Enxertado"
     },
+    "Gossip Lore": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Dândi"
+        }
+      ]
+    },
+    "Graceful Leaper": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
+        }
+      ]
+    },
     "Graceful Poise": {
       "name": "Pose Graciosa",
       "prerequisites": [
@@ -3094,6 +3722,13 @@
     "Greater Interpose": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.bYijGvCvCmJnW6aA]{Sacrifice Armor}</p> <hr> <p>Your divine grace empowers you to avoid hits when you otherwise could not.</p> <p>You can use Sacrifice Armor to reduce any type of damage from an attack or effect requiring a Reflex save. When you use Sacrifice Armor against a critical hit or a critical failure on a Reflex save that would otherwise cause you to take double damage, you take the normal amount of damage instead.</p>"
     },
+    "Greater Magical Scholastics": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueólogo"
+        }
+      ]
+    },
     "Greater Mental Evolution": {
       "name": "Evolução Mental Maior"
     },
@@ -3150,6 +3785,20 @@
     "Group Impression": {
       "name": "Impressionar Grupo"
     },
+    "Growth Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
+    "Grudging Compliment": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Celebridade"
+        }
+      ]
+    },
     "Guarded Movement": {
       "name": "Movimento Cauteloso",
       "description": "<p>Você mantém sua guarda alta, mesmo enquanto se move. Você recebe +4 de bônus de circunstância na CA contra reações acionadas pelo seu movimento.</p>"
@@ -3173,6 +3822,9 @@
           "value": "Riposta de Duelo"
         }
       ]
+    },
+    "Gunslinger Dedication": {
+      "name": "Dedicação de Pistoleiro"
     },
     "Halcyon Speaker Dedication": {
       "name": "Dedicação de Orador Halcyon",
@@ -3218,6 +3870,13 @@
     "Halfling Weapon Familiarity": {
       "name": "Familiaridade com Armas Halfling"
     },
+    "Hammer Quake": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Malhador"
+        }
+      ]
+    },
     "Handy with your Paws": {
       "name": "Útil com as Patas"
     },
@@ -3237,6 +3896,13 @@
     "Harrying Strike": {
       "name": "Golpe Irritante",
       "description": "<div><strong>Arquétipo</strong>  @Compendium[pf2e.archetypes.bi1SeBS7Af3ZisIA]{Mestre da Espada}</div> <div> <strong>Pré-requisitos</strong> Dedicação de Mestre da Espada  </span></div> <hr> <p>Seu ataque impede que um inimigo persiga seus aliados. Faça um Golpe corpo a corpo, adicionando os seguintes efeitos além dos efeitos normais do Golpe.  <strong>Sucesso Crítico</strong> O alvo recebe uma penalidade de status de –4,5 metros em suas Velocidades até o início do seu próximo turno. <strong>Sucesso</strong> O alvo recebe uma penalidade de status de –3 metros em suas Velocidades até o início do seu próximo turno. <strong>Falha</strong> O alvo recebe uma penalidade de status de –1,5 metros em suas Velocidades até o início do seu próximo turno.</p> (Tradução não oficial - Lost Omens: Character Guide)"
+    },
+    "Harsh Judgement": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
     },
     "Hasted Assault": {
       "name": "Hasted Assault"
@@ -3338,6 +4004,13 @@
     "Heroic Recovery": {
       "name": "Recuperação Heroica"
     },
+    "Hidden Magic": {
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Vigilante"
+        }
+      }
+    },
     "Hidden Paragon": {
       "name": "Exemplar Escondido"
     },
@@ -3352,7 +4025,12 @@
       ]
     },
     "Hireling Manager": {
-      "description": "<p><strong>Prerequisites </strong>Charisma 14</p> <hr> <p>You are able to find and secure better labor than most. When securing a hireling for a service, that hireling gains a +2 circumstance bonus to all skill checks. This circumstance bonus applies to both trained and untrained hirelings and has no effect on the cost of the service or labor provided.</p>"
+      "description": "<p><strong>Prerequisites </strong>Charisma 14</p> <hr> <p>You are able to find and secure better labor than most. When securing a hireling for a service, that hireling gains a +2 circumstance bonus to all skill checks. This circumstance bonus applies to both trained and untrained hirelings and has no effect on the cost of the service or labor provided.</p>",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Hobgoblin Lore": {
       "name": "Saber de Hobgoblin",
@@ -3382,6 +4060,13 @@
     "Hobnobber": {
       "name": "Camarada"
     },
+    "Hook 'Em": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pirata"
+        }
+      ]
+    },
     "House of Imaginary Walls": {
       "name": "Casa das Paredes Imaginárias"
     },
@@ -3398,6 +4083,13 @@
     },
     "Hunter's Aim": {
       "name": "Mira do Caçador"
+    },
+    "Hybrid Study Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Magus"
+        }
+      ]
     },
     "Hymn of Healing": {
       "name": "Hino de Cura"
@@ -3429,6 +4121,13 @@
           "value": "Espremer-se Rapidamente"
         }
       }
+    },
+    "Implement Initiate": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Taumaturgo"
+        }
+      ]
     },
     "Imposing Destrier": {
       "name": "Corcel Imponente",
@@ -3477,7 +4176,12 @@
       "description": "<p><strong>Acionamento</strong> O ataque de um inimigo o acerta ou você falha em uma jogada de salvamento contra a habilidade de um inimigo.</p> <p><strong>Requerimentos</strong> Você está sem armadura e não está fatigado</p> <hr> <p>Você executa uma manobra que desafia as possibilidades. Se o efeito acionador for o acerto do ataque de um inimigo, ele deve rerrolar a rolagem de ataque e usar o menor resultado. Se o efeito acionador for a sua falha em uma jogada de salvamento, você rerrola a jogada de salvamento e usa o maior resultado entre as duas rolagens.</p>"
     },
     "Impressive Mount": {
-      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"5Q69PI8jdQVkb1ZT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Cavalier Dedication</a></p> <hr> <p>You’ve trained your mount to become a powerful force on the battlefield. The mount you gained through the Cavalier Dedication feat becomes a mature animal companion, granting it additional capabilities. During an encounter, even if you don’t use the Command an Animal action, your animal companion can still use 1 action on your turn to <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"Bcxarzksqt9ezrs6\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Stride</a> or <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"VjxZFuUXrCU94MWR\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Strike</a>.</p>"
+      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"5Q69PI8jdQVkb1ZT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Cavalier Dedication</a></p> <hr> <p>You’ve trained your mount to become a powerful force on the battlefield. The mount you gained through the Cavalier Dedication feat becomes a mature animal companion, granting it additional capabilities. During an encounter, even if you don’t use the Command an Animal action, your animal companion can still use 1 action on your turn to <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"Bcxarzksqt9ezrs6\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Stride</a> or <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"VjxZFuUXrCU94MWR\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Strike</a>.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
     },
     "Impressive Performance": {
       "name": "Performance Impressionante"
@@ -3647,6 +4351,13 @@
     "Influence Nature": {
       "description": "<p><strong>Prerequisites</strong> master in Nature</p> <hr> <p>With patience and time, you can make bird calls, leave game trails, and ultimately influence the behavior of a certain type of animals in the region to favor and even aid you in the days to come.</p> <p>The GM determines the DC of any check required and the amount of time your work requires (usually at least a day or two of downtime). While you can’t directly control how you’ve influenced nature, you can hope for certain effects, such as easier hunts or birds falling silent whenever danger is approaching.</p> <p>If you’re legendary in Nature, you can elicit these same adjustments to animal behavior in the area by spending only 10 minutes.</p>"
     },
+    "Initial Eidolon Ability": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Convocador"
+        }
+      ]
+    },
     "Innate Magical Intuition": {
       "prerequisites": [
         {
@@ -3670,6 +4381,13 @@
     },
     "Inspire Imitation": {
       "name": "Inspirar Imitação"
+    },
+    "Inspiring Marshal Stance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Instant Armor": {
       "name": "Instant Armor"
@@ -3729,6 +4447,29 @@
     },
     "Inventor": {
       "name": "Inventor"
+    },
+    "Inventor Dedication": {
+      "name": "Dedicação de Inventor",
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
+    },
+    "Investigator Dedication": {
+      "name": "Dedicação de Investigador",
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
+    },
+    "Investigator's Stratagem": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Investigador"
+        }
+      ]
     },
     "Invigorating Mercy": {
       "prerequisites": [
@@ -3828,7 +4569,19 @@
       ]
     },
     "Keen Recollection": {
-      "name": "Recordação Acurada"
+      "name": "Recordação Acurada",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Investigador"
+        }
+      ]
+    },
+    "Keep Pace (Bounty Hunter)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Caçador de Recompensas"
+        }
+      ]
     },
     "Keep Up Appearances": {
       "name": "Manter as Aparências",
@@ -3854,6 +4607,13 @@
     "Ki Strike": {
       "name": "Golpe de Ki"
     },
+    "Kineticist Dedication": {
+      "prerequisites": [
+        {
+          "value": "Constituição +2"
+        }
+      ]
+    },
     "Kip Up": {
       "name": "Levantar Rapidamente",
       "description": "<p><strong>Pré-requisitos</strong> mestre em Acrobatismo</p> <hr> <p>Você se Levanta. Este movimento não aciona reações.</p>"
@@ -3862,7 +4622,12 @@
       "name": "Ajoelhe-se por Nenhum Deus"
     },
     "Knight Reclaimant Dedication": {
-      "name": "Dedicação do Cavaleiro Recuperador"
+      "name": "Dedicação do Cavaleiro Recuperador",
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Furtividade"
+        }
+      }
     },
     "Knight in Shining Armor": {
       "name": "Cavaleiro em Armadura Brilhante",
@@ -3969,6 +4734,13 @@
     "Legendary Professional": {
       "name": "Profissional Lendário"
     },
+    "Legendary Rider": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Legendary Shot": {
       "name": "Tiro Lendário",
       "description": "<p><strong>Pré-requisitos</strong> caçador magistral, lendário em Percepção, Tiro Longo</p> <p>Você foca a atenção em sua presa caçada, notando o ângulo, resistência do ar e cada variável que afetaria seu ataque à distância. Se possuir proficiência de mestre com sua arma à distância e estiver atacando sua presa caçada, você ignora a penalidade por atacar a até cinco incrementos de distância.</p>",
@@ -4061,6 +4833,9 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada"
+    },
+    "Linguist Dedication": {
+      "name": "Dedicação de Linguista"
     },
     "Linked Focus": {
       "name": "Foco Vinculado"
@@ -4181,6 +4956,13 @@
     "Magaambyan Attendant Dedication": {
       "name": "Dedicação de Assistente Magaambyano"
     },
+    "Magic Arrow": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
+    },
     "Magic Finder": {
       "prerequisites": [
         {
@@ -4223,11 +5005,33 @@
     "Magical Crafting": {
       "name": "Manufatura Mágica"
     },
+    "Magical Knowledge": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Taumaturgo"
+        }
+      ]
+    },
+    "Magical Scholastics": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueólogo"
+        }
+      ]
+    },
     "Magical Shorthand": {
       "name": "Atalho Mágico"
     },
     "Magical Trickster": {
       "name": "Trapaceiro Mágico"
+    },
+    "Magus Dedication": {
+      "name": "Dedicação de Magus",
+      "prerequisites": {
+        "1": {
+          "value": "Inteligência +2"
+        }
+      }
     },
     "Magus's Analysis": {
       "prerequisites": [
@@ -4249,6 +5053,13 @@
     "Manifold Edge": {
       "name": "Excelência Múltipla"
     },
+    "Manipulative Charm": {
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Dissimulação ou Diplomacia"
+        }
+      }
+    },
     "Mantis Form": {
       "name": "Forma de Louva-a-Deus",
       "prerequisites": [
@@ -4258,10 +5069,18 @@
       ]
     },
     "Many Guises": {
-      "description": "<p><strong>Prerequisites </strong>master in Deception, @Compendium[pf2e.feats-srd.uqIiSDbv80TbRwTQ]{Vigilante Dedication}</p> <hr> <p>You can take on any number of mundane guises. Whenever you change your identity, instead of taking on your social or vigilante identity, you can become someone completely ordinary.</p> <p>This identity isn’t a specific individual—rather, you become a nondescript member of your ancestry, of any gender, with a neutral alignment and a mundane occupation such as common laborer, farmer, or peasant.</p> <p>Spells and abilities detect you as if you were this ordinary identity, rather than either of your two real identities, unless they succeed at a counteract check against your Deception DC. You can’t use either social abilities or vigilante abilities while in this identity.</p>"
+      "description": "<p><strong>Prerequisites </strong>master in Deception, @Compendium[pf2e.feats-srd.uqIiSDbv80TbRwTQ]{Vigilante Dedication}</p> <hr> <p>You can take on any number of mundane guises. Whenever you change your identity, instead of taking on your social or vigilante identity, you can become someone completely ordinary.</p> <p>This identity isn’t a specific individual—rather, you become a nondescript member of your ancestry, of any gender, with a neutral alignment and a mundane occupation such as common laborer, farmer, or peasant.</p> <p>Spells and abilities detect you as if you were this ordinary identity, rather than either of your two real identities, unless they succeed at a counteract check against your Deception DC. You can’t use either social abilities or vigilante abilities while in this identity.</p>",
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Vigilante"
+        }
+      }
     },
     "Marsh Runner": {
       "name": "Correr nos Pântanos"
+    },
+    "Marshal Dedication": {
+      "name": "Dedicação de Marechal"
     },
     "Martial Exercise": {
       "prerequisites": [
@@ -4330,7 +5149,12 @@
       ]
     },
     "Master Spotter (Investigator)": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.CZXhJS55rG5H6PpB]{Investigator Dedication}, expert in Perception</p> <hr> <p>Your proficiency rank in Perception increases to master.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.CZXhJS55rG5H6PpB]{Investigator Dedication}, expert in Perception</p> <hr> <p>Your proficiency rank in Perception increases to master.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Investigador"
+        }
+      ]
     },
     "Master Spotter (Ranger)": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.CZXhJS55rG5H6PpB]{Investigator Dedication}, expert in Perception</p> <hr> <p>Your proficiency rank in Perception increases to master.</p>",
@@ -4389,7 +5213,16 @@
         }
       ]
     },
+    "Mauler Dedication": {
+      "name": "Dedicação de Malhador",
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        }
+      ]
+    },
     "Medic Dedication": {
+      "name": "Dedicação de Médico",
       "prerequisites": {
         "1": {
           "value": "Medicina de Batalha"
@@ -4420,6 +5253,20 @@
     "Mercy": {
       "name": "Misericórdia"
     },
+    "Mesmerizing Gaze": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Celebridade"
+        }
+      ]
+    },
+    "Metabolize Element": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Meteoric Spellstrike": {
       "prerequisites": [
         {
@@ -4435,7 +5282,12 @@
       }
     },
     "Mighty Bulwark": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.8foxmfC6FFT3oYpV]{Sentinel Dedication}</p> <hr> <p>Thanks to your incredible connection to your armor, you can use it to shrug off an incredible array of dangers. Your bonus from the bulwark armor trait increases from +3 to +4, and it applies on all Reflex saves, not just damaging Reflex saves.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.8foxmfC6FFT3oYpV]{Sentinel Dedication}</p> <hr> <p>Thanks to your incredible connection to your armor, you can use it to shrug off an incredible array of dangers. Your bonus from the bulwark armor trait increases from +3 to +4, and it applies on all Reflex saves, not just damaging Reflex saves.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Sentinela"
+        }
+      ]
     },
     "Mighty Dragon Shape": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.eR0sifECG27CC4do]{Shape Of The Dragon}</p> <hr> <p>You’ve practiced and increased your draconic might,&nbsp;allowing you to take your draconic form more often. You&nbsp;can use Shape of the Dragon once per hour instead of once&nbsp;per day.</p>"
@@ -4444,7 +5296,12 @@
       "name": "Mutagênico de Mente Limpa"
     },
     "Minion Guise": {
-      "description": "<p><strong>Prerequisites </strong>animal companion or familiar, expert in Deception, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"uqIiSDbv80TbRwTQ\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vigilante Dedication</a></p> <hr> <p>When you are in your social identity, you can also grant a social identity to an animal companion, familiar, or other minion you gained from a class feature.</p> <p>When changing to your social identity, you also change your minion’s appearance to that of a socially acceptable creature of its type, such as grooming a wolf to appear as a large dog or disguising a familiar to appear as an exotic pet.</p> <p>Commanding your minion to use unusual magical or combat abilities it gained from your class features or feats while in this social identity risks exposing your vigilante identity.</p>"
+      "description": "<p><strong>Prerequisites </strong>animal companion or familiar, expert in Deception, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"uqIiSDbv80TbRwTQ\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vigilante Dedication</a></p> <hr> <p>When you are in your social identity, you can also grant a social identity to an animal companion, familiar, or other minion you gained from a class feature.</p> <p>When changing to your social identity, you also change your minion’s appearance to that of a socially acceptable creature of its type, such as grooming a wolf to appear as a large dog or disguising a familiar to appear as an exotic pet.</p> <p>Commanding your minion to use unusual magical or combat abilities it gained from your class features or feats while in this social identity risks exposing your vigilante identity.</p>",
+      "prerequisites": {
+        "2": {
+          "value": "Dedicação de Vigilante"
+        }
+      }
     },
     "Minor Magic": {
       "name": "Mágica Menor"
@@ -4474,6 +5331,13 @@
     "Mobility": {
       "name": "Mobilidade"
     },
+    "Mockingbird's Disarm": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
+        }
+      ]
+    },
     "Moment of Clarity": {
       "name": "Momento de Clareza",
       "description": "<p>Você controla sua fúria por um momento para pensar claramente. Até o final deste turno, você pode usar ações com o traço concentração mesmo que essas ações não possuam o traço fúria.</p>"
@@ -4483,7 +5347,12 @@
       "description": "<p>Você treinou com as armas tradicionais de sua escola ou monastério. Você obtém acesso a armas incomuns que possuam o traço monge e se torna treinado em armas de monge simples e marciais. Quando sua graduação de proficiência para ataques desarmados aumentar para especialista ou mestre, sua graduação de proficiência para estas armas também aumenta para a mesma graduação.</p> <p>Você pode usar armas marciais de monge com quaisquer talentos ou habilidades de monge que normalmente requeiram ataques desarmados, embora não possa fazê-lo se o talento ou habilidade requerer o uso de um tipo específico de ataque, como Postura da Garça.</p>"
     },
     "Monk Dedication": {
-      "name": "Dedicação de Monge"
+      "name": "Dedicação de Monge",
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        }
+      ]
     },
     "Monk Moves": {
       "name": "Movimentos de Monge",
@@ -4567,6 +5436,13 @@
     "Mountain's Stoutness": {
       "name": "Firmeza da Montanha"
     },
+    "Mounted Shield": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Mug": {
       "name": "Caneca"
     },
@@ -4575,6 +5451,13 @@
     },
     "Multilingual": {
       "name": "Poliglota"
+    },
+    "Multilingual Cipher": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Linguista"
+        }
+      ]
     },
     "Multishot Stance": {
       "name": "Postura de Tiros Múltiplos",
@@ -4651,6 +5534,13 @@
         }
       ]
     },
+    "Never Tire": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Celebridade"
+        }
+      ]
+    },
     "Nimble Crawl": {
       "name": "Rastejo Ligeiro"
     },
@@ -4660,6 +5550,13 @@
     },
     "Nimble Roll": {
       "name": "Cambalhota Ágil"
+    },
+    "Nimble Shield Hand": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bastião"
+        }
+      ]
     },
     "No Escape": {
       "name": "Sem Escapatória"
@@ -4725,6 +5622,21 @@
           "value": "Dedicação de Malabarista"
         }
       }
+    },
+    "Opportunistic Grapple": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Caçador de Recompensas"
+        }
+      ]
+    },
+    "Oracle Dedication": {
+      "name": "Dedicação de Oráculo",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Oracular Warning": {
       "description": "<p><strong>Trigger</strong> You are about to roll initiative.</p> <hr> <p>You have a flash of insight about impending danger related to one ally, and you can shout or gesture to warn that ally of the threat a moment before it materializes. One ally of your choice can roll twice for initiative and use the better result; this is a fortune effect. If you are legendary in Religion, you receive two visions and can warn two allies, granting them both this benefit.</p> <p>You are momentarily thrown off by the divine insight, however, and you must roll twice for your initiative roll and use the worse result. This is a misfortune effect. The two effects are tied together; if you would avoid the misfortune effect for any reason, or if any of your allies would negate their fortune effect, your Oracular Warning does nothing. Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively.</p>"
@@ -4834,7 +5746,12 @@
       "description": "<p> Você foi chocado de um ovo não fertilizado durante tempos difíceis para o seu povo, e você é uma cópia biológica da sua mãe. Você ganha um bônus de circunstância +1 nas jogadas de salvamento contra doenças. Cada um dos seus sucessos nessas jogadas reduzem o Estágio em 2, ou 1 para uma doença virulenta. Cada sucesso crítico contra uma doença latente reduz o estágio em 3, ou 2 contra doenças virulentas. Você toma dano somente a cada 2 horas de sede e a cada 2 dias de  inanição, ao invés de a cada hora e a cada dia respectivamente.</span></p> <p><strong>Especial</strong>Você só pode pegar este talento no primeiro nível.</p>"
     },
     "Party Crasher": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.4M5zIlJ8EvjQDtg9]{Dandy Dedication}, master in Society</p> <hr> <p>You attend all the fashionable society parties, no matter how exclusive they might be.</p> <p>Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can spend [[/r 1d4]] hours to secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies.</p> <p>This ability doesn’t apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.4M5zIlJ8EvjQDtg9]{Dandy Dedication}, master in Society</p> <hr> <p>You attend all the fashionable society parties, no matter how exclusive they might be.</p> <p>Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can spend [[/r 1d4]] hours to secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies.</p> <p>This ability doesn’t apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Dândi"
+        }
+      ]
     },
     "Path Of Iron": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.zn7arorE3VJLNYsb]{Martial Artist Dedication}</p> <p><strong>Frequency </strong>once per minute</p> <hr> <p>With a burst of effort, you weave a path through your enemies, striking each in turn as you move past them. You @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride}; this movement doesn’t trigger reactions. You can @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} up to three times at any point during your movement, each against a different enemy.</p> <p>Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn’t increase until you have made all your attacks.</p>"
@@ -4978,8 +5895,20 @@
       "name": "Pele de Pesh",
       "description": "<p><strong>Requerimentos</strong> Você é transformado em uma planta por uma magia de polimorfia.</p> <hr> <p>Sua forma vegetal brota centenas de espinhos e seu sangue causa alucinações leves em criaturas expostas a ele. Cada vez que uma criatura toca em você, bate em você com um ataque desarmado ou com uma arma corpo a corpo enquanto está adjacente a você, essa criatura recebe 1d6 de dano perfurante. Aumente o dano para 2d6 se a magia polimorfia for do 8º nível ou superior, ou para 3d6 se for o 10º nível.</p> <p>Quando uma criatura adjacente o danifica com dano perfurante ou cortante, ela deve ter sucesso em um teste de Fortitude contra o CD da sua classe ou ficar estupefata 1 (ou estupefata 2 em uma falha crítica) até o final do seu próximo turno.</p> <p>Esses benefícios duram até que você não seja mais polimorfizado em uma planta.</p> (Tradução não oficial - Age of Ashes livro 5)"
     },
+    "Phase Arrow": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
+    },
     "Phonetic Training": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.u6SDVWbzHnBBPNMo]{Linguist Dedication}, expert in Society</p> <hr> <p>You can pronounce and repeat words with near-perfect accuracy even if you don’t understand their meaning, and you can write them down in a phonetic script that allows you or another creature with Phonetic Training to read it later. Even if the words are in a language with sound you can’t pronounce, you can faithfully transcribe them. Memorizing long sequences of words remains just as difficult as it is normally.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.u6SDVWbzHnBBPNMo]{Linguist Dedication}, expert in Society</p> <hr> <p>You can pronounce and repeat words with near-perfect accuracy even if you don’t understand their meaning, and you can write them down in a phonetic script that allows you or another creature with Phonetic Training to read it later. Even if the words are in a language with sound you can’t pronounce, you can faithfully transcribe them. Memorizing long sequences of words remains just as difficult as it is normally.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Linguista"
+        }
+      ]
     },
     "Physical Training": {
       "prerequisites": [
@@ -4988,11 +5917,28 @@
         }
       ]
     },
+    "Pick Up The Pace": {
+      "prerequisites": [
+        {
+          "value": "Constituição +2"
+        }
+      ]
+    },
     "Pickpocket": {
       "name": "Punga"
     },
     "Pied Piping": {
       "name": "Pied Piping"
+    },
+    "Pirate Dedication": {
+      "name": "Dedicação de Pirata"
+    },
+    "Pirate Weapon Training": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pirata"
+        }
+      ]
     },
     "Pivot Strike": {
       "name": "Golpe de Pivô",
@@ -5015,6 +5961,13 @@
     "Plant Shape": {
       "name": "Aspecto de Planta"
     },
+    "Play to the Crowd (Dandy)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Dândi"
+        }
+      ]
+    },
     "Plentiful Snares": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.4MUbwilvb9dI0X59]{Snarecrafter Dedication}</p> <hr> <p>You can prepare incredible numbers of snares each day out of simple ingredients. Double the number of prepared snares granted by Snarecrafter Dedication.</p>"
     },
@@ -5022,7 +5975,12 @@
       "description": "<p>You spend 10 minutes in contemplation to uncannily predict how events will play out. Choose a particular goal or activity you plan to engage in within 1 week, or an event you expect might happen within 1 week. You analyze whether it’s likely to come to pass, learning whether it’s highly likely, somewhat likely, somewhat unlikely, or highly unlikely. You also gain a piece of advice suggesting a course of action you or your allies could take that might make the chosen event more or less likely, whichever you prefer.</p> <p>The GM determines the likeliness of the event and the piece of advice you learn.</p>"
     },
     "Poison Coat": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.y7DDs03GtDnmhxFp]{Poisoner Dedication}</p> <p><strong>Trigger </strong>A creature adjacent to you hits you with a melee unarmed @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}.</p> <p><strong>Requirements</strong> You have prepared your clothing to poison  attackers (see below).</p> <hr> <p>In nature, certain animals are covered in venomous spines, such that even touching them is deadly.</p> <p>To use this reaction, you must have brushed poison onto your clothing or woven sharp poisoned needles into the garment’s fabric. This takes 10 minutes and uses one dose of contact or injury poison. You can have only one such poison suffused into your clothing at a time.</p> <p>When you use this reaction, the triggering creature is exposed to the suffused poison.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.y7DDs03GtDnmhxFp]{Poisoner Dedication}</p> <p><strong>Trigger </strong>A creature adjacent to you hits you with a melee unarmed @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}.</p> <p><strong>Requirements</strong> You have prepared your clothing to poison  attackers (see below).</p> <hr> <p>In nature, certain animals are covered in venomous spines, such that even touching them is deadly.</p> <p>To use this reaction, you must have brushed poison onto your clothing or woven sharp poisoned needles into the garment’s fabric. This takes 10 minutes and uses one dose of contact or injury poison. You can have only one such poison suffused into your clothing at a time.</p> <p>When you use this reaction, the triggering creature is exposed to the suffused poison.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Veneficista"
+        }
+      ]
     },
     "Poison Resistance": {
       "name": "Resistência a Veneno"
@@ -5030,11 +5988,28 @@
     "Poison Weapon": {
       "name": "Envenenar Arma"
     },
+    "Poisoner Dedication": {
+      "name": "Dedicação de Veneficista"
+    },
+    "Poisoner's Twist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Veneficista"
+        }
+      ]
+    },
     "Positioning Assault": {
       "name": "Ataque de Posicionamento"
     },
     "Positive Luminance": {
       "name": "Luminância Positiva"
+    },
+    "Posse": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Caçador de Recompensas"
+        }
+      ]
     },
     "Potent Poisoner": {
       "description": "<section> <p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.7JK2a1D3VeWDcObo]{Powerful Alchemy}</p> <hr></section> <section> <p>By concentrating your poisons’ toxic components, you make them harder for victims to resist. When you craft an alchemical item with the poison trait by any means, the DC is increased by up to 4, to a maximum of your class DC.</p> </section>",
@@ -5084,8 +6059,20 @@
       "name": "Remador Praticante",
       "description": "<p> <strong>Pré-requisitos</strong> remador shoony </span></p> <hr> <p>Você é bem treinado em navegar por pântanos e brejos, mesmo para um remador shoony. Você ganha velocidade de nado de 4,5 metros.</p>"
     },
+    "Practiced Reloads": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pistoleiro"
+        }
+      ]
+    },
     "Precious Arrow": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.oyLkqhDGwGGj40ME]{Eldritch Archer Dedication}</p> <hr> <p>You enchant a piece of ammunition with the magical essence of a precious material, allowing you to leverage certain creatures’ weaknesses.</p> <p>Choose cold iron or silver; if you shoot the arrow before the end of your turn, it counts as that material. At 14th level, add adamantine to the list of materials you can choose from.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.oyLkqhDGwGGj40ME]{Eldritch Archer Dedication}</p> <hr> <p>You enchant a piece of ammunition with the magical essence of a precious material, allowing you to leverage certain creatures’ weaknesses.</p> <p>Choose cold iron or silver; if you shoot the arrow before the end of your turn, it counts as that material. At 14th level, add adamantine to the list of materials you can choose from.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
     },
     "Precise Debilitations": {
       "name": "Debilitações Precisas",
@@ -5109,9 +6096,23 @@
     "Premonition of Clarity": {
       "description": "<p><strong>Frequency</strong> once per hour</p> <p><strong>Trigger</strong> You fail a saving throw against a mental effect.</p> <hr> <p>Your deity sends you a vision of faith to steel you against mental attacks. Reroll the triggering saving throw with a +2 circumstance bonus. You must use the second result, even if it’s worse.</p>"
     },
+    "Preventative Treatment": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Médico"
+        }
+      ]
+    },
     "Pride in Arms": {
       "name": "Orgulho em Armas",
       "description": "<p> <strong>Acionamento</strong> Um aliado em um raio de 9 metros leva um inimigo a 0 Pontos de Vida. </span></p> <hr> <p>Com um grito de triunfo, você dá inspiração a uma luta de aliados. O aliado desencadeador ganha Pontos de Vida temporários iguais ao seu modificador de Constituição até o final do próximo turno.</p> (Tradução não oficial - Lost Omens: Character Guide)"
+    },
+    "Primadonna": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Celebridade"
+        }
+      ]
     },
     "Primal Breadth": {
       "name": "Amplitude Primal",
@@ -5150,6 +6151,30 @@
         }
       ]
     },
+    "Provocator Dedication": {
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        },
+        {
+          "value": "Carisma +2"
+        }
+      ]
+    },
+    "Public Execution": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assassino"
+        }
+      ]
+    },
+    "Push Back the Dead!": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
+    },
     "Quah Bond": {
       "name": "Vinculo Quah"
     },
@@ -5168,7 +6193,12 @@
       "name": "Bombardeiro Rápido"
     },
     "Quick Change": {
-      "description": "<p><strong>Prerequisites </strong>master in Deception, @Compendium[pf2e.feats-srd.uqIiSDbv80TbRwTQ]{Vigilante Dedication}</p> <hr> <p>You can shift between your identities with ease. Instead of spending 1 minute to change your identity, you can now do so as a 3-action activity. If you are legendary in Deception, you can perform this change as a 1-action activity.</p>"
+      "description": "<p><strong>Prerequisites </strong>master in Deception, @Compendium[pf2e.feats-srd.uqIiSDbv80TbRwTQ]{Vigilante Dedication}</p> <hr> <p>You can shift between your identities with ease. Instead of spending 1 minute to change your identity, you can now do so as a 3-action activity. If you are legendary in Deception, you can perform this change as a 1-action activity.</p>",
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Vigilante"
+        }
+      }
     },
     "Quick Climb": {
       "name": "Escalada Rápida"
@@ -5199,6 +6229,13 @@
     "Quick Jump": {
       "name": "Salto Rápido"
     },
+    "Quick Mount": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Quick Recognition": {
       "name": "Reconhecimento Rápido",
       "prerequisites": {
@@ -5213,12 +6250,33 @@
     "Quick Reversal": {
       "name": "Reversão Rápida"
     },
+    "Quick Shot": {
+      "name": "Tiro Rápido",
+      "description": "<p>Você saca seu arco e ataca com a mesma ação. Você @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interage} para sacar uma arma do grupo de armas de arcos que esteja recarregada ou tenha recarga 0, e então Golpeia com essa arma.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro"
+        }
+      ]
+    },
     "Quick Snares": {
       "name": "Arapucas Rápidas"
     },
+    "Quick Spring": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
+        }
+      ]
+    },
     "Quick Squeeze": {
       "name": "Espremer-se Rapidamente",
-      "description": "<p><strong>Pré-requisitos</strong> treinado em Acrobatismo</p> <hr> <p>Você se Espreme 1,5 metros por rodada (3 metros em um sucesso crítico). Se for lendário em Acrobatismo, você se Espreme à Velocidade total.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> treinado em Acrobatismo</p> <hr> <p>Você se Espreme 1,5 metros por rodada (3 metros em um sucesso crítico). Se for lendário em Acrobatismo, você se Espreme à Velocidade total.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Acrobatismo"
+        }
+      ]
     },
     "Quick Stow (Swordmaster)": {
       "prerequisites": [
@@ -5294,6 +6352,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Assistente Magaambyano"
+        }
+      ]
+    },
+    "Rallying Charge": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
         }
       ]
     },
@@ -5384,6 +6449,13 @@
     "Read Lips": {
       "name": "Ler Lábios"
     },
+    "Read Shibboleths": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Linguista"
+        }
+      ]
+    },
     "Reaper of Repose": {
       "name": "Ceifador do Repouso",
       "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Cavaleiro Recuperador, mestre em proficiência em uma arma </span></p> <hr> <p>Sua habilidade e fervor permitem que você penetre as defesas dos mortos-vivos e explorar suas fraquezas. Ao atacar uma criatura morto-vivo com uma arma com que tenha pró-eficiência mestre, você ignora 5 pontos das resistências da criatura, e a fraqueza do morto-vivo é maior em 2 contra seu ataque.</p>",
@@ -5453,6 +6525,13 @@
         }
       ]
     },
+    "Redirect Elements": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Reflect Spell": {
       "name": "Refletir Magia"
     },
@@ -5507,6 +6586,13 @@
         }
       ]
     },
+    "Reminder of the Greater Fear": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
     "Remorseless Lash": {
       "name": "Acoite sem Remorsos"
     },
@@ -5544,6 +6630,13 @@
         }
       ]
     },
+    "Resolute": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Taumaturgo"
+        }
+      ]
+    },
     "Resolute Defender": {
       "prerequisites": [
         {
@@ -5563,6 +6656,13 @@
     },
     "Resurrectionist": {
       "name": "Ressurreicionista"
+    },
+    "Resuscitate": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Médico"
+        }
+      ]
     },
     "Retain Absorbed Spell": {
       "prerequisites": [
@@ -5593,6 +6693,13 @@
     },
     "Revealing Stab": {
       "name": "Punhalada Reveladora"
+    },
+    "Reverberating Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
     },
     "Reverse Engineering": {
       "description": "<p><strong>Prerequisites </strong>expert in Crafting, @Compendium[pf2e.feats-srd.CaeCSWFWytWv8Fgu]{Scrounger Dedication}</p> <hr> <p>You are able to reverse engineer items into formulas more effectively than most. You gain a +2 circumstance bonus to Crafting checks to reverse engineer a formula from an item.</p> <p>Additionally, if you get a critical success on your Crafting check, you can opt to not only create the formula but also reassemble the original item at the same time, leaving you with the formula and the item instead ofthe formula and raw materials equal to half the item’s value.</p>"
@@ -5634,6 +6741,13 @@
     "Rock Runner": {
       "name": "Correr nas Rochas"
     },
+    "Rockslide Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Rogue Dedication": {
       "name": "Dedicação de Ladino"
     },
@@ -5649,8 +6763,21 @@
       "prerequisites": [
         {
           "value": "Queda do Gato"
+        },
+        {
+          "value": "treinado em Acrobatismo"
         }
       ]
+    },
+    "Rope Runner": {
+      "prerequisites": {
+        "0": {
+          "value": "treinado em Acrobatismo"
+        },
+        "2": {
+          "value": "Dedicação de Pirata"
+        }
+      }
     },
     "Rough Rider": {
       "name": "Cavaleiro Brusco"
@@ -5688,6 +6815,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Sentinela de Ultimuro"
+        }
+      ]
+    },
+    "Safe House": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
         }
       ]
     },
@@ -5741,6 +6875,13 @@
         }
       ]
     },
+    "Scholastic Identification": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueólogo"
+        }
+      ]
+    },
     "Scout's Warning": {
       "name": "Aviso do Batedor"
     },
@@ -5774,6 +6915,13 @@
         }
       ]
     },
+    "Seeker Arrow": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro Místico"
+        }
+      ]
+    },
     "Selective Energy": {
       "name": "Energia Seletiva"
     },
@@ -5800,8 +6948,16 @@
         }
       ]
     },
+    "Sentinel Dedication": {
+      "name": "Dedicação de Sentinela"
+    },
     "Settlement Scholastics": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.PRKe5rWYZMZgEpFU]{Archaeologist Dedication}</p> <hr> <p>Your studies open up new horizons. You become an expert in a Lore skill about a specific settlement; if you were already trained in that Lore skill, you also become trained in the Lore skill for a different settlement of your choice. Choose a single common or uncommon language prevalent in that settlement. You learn that language.</p> <p><strong>Special</strong> You can take this feat multiple times. When you take this feat again, choose a different settlement.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.PRKe5rWYZMZgEpFU]{Archaeologist Dedication}</p> <hr> <p>Your studies open up new horizons. You become an expert in a Lore skill about a specific settlement; if you were already trained in that Lore skill, you also become trained in the Lore skill for a different settlement of your choice. Choose a single common or uncommon language prevalent in that settlement. You learn that language.</p> <p><strong>Special</strong> You can take this feat multiple times. When you take this feat again, choose a different settlement.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueólogo"
+        }
+      ]
     },
     "Shackles of Law": {
       "prerequisites": [
@@ -5927,6 +7083,13 @@
       "name": "Escudeiro Exemplar",
       "description": "<p><strong>Pré-requisitos</strong> aliado divino (escudo)</p> <hr> <p>Seu escudo é um receptáculo de proteção divina. Quando estiver empunhando seu escudo escolhido, ele está sempre erguido mesmo que você não use a ação Erguer um Escudo. Os PV e LQ de seu escudo escolhido são dobrados, em vez de serem aumentados em 50%. Se fosse ser destruído, ele desaparece e vai para o reino de sua divindade em vez disso, sendo reparado por seu aliado divino. Durante suas próximas preparações diárias, o escudo retorna para você completamente reparado.</p>"
     },
+    "Shield Salvation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Bastião"
+        }
+      ]
+    },
     "Shield of Faith": {
       "prerequisites": [
         {
@@ -5969,6 +7132,20 @@
       "prerequisites": [
         {
           "value": "Dedicação de Mestre da Espada"
+        }
+      ]
+    },
+    "Shoving Sweep": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Malhador"
+        }
+      ]
+    },
+    "Show-Off": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
         }
       ]
     },
@@ -6030,7 +7207,12 @@
       ]
     },
     "Skill Mastery (Investigator)": {
-      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"CZXhJS55rG5H6PpB\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Investigator Dedication</a>, trained in at least one skill and expert in at least one skill</p> <hr> <p>Increase your proficiency rank in one of your skills from expert to master and in another of your skills from trained to expert. You gain a skill feat associated with one of the skills you chose.</p> <p><strong>Special</strong> You can select this feat up to five times.</p>"
+      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"CZXhJS55rG5H6PpB\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Investigator Dedication</a>, trained in at least one skill and expert in at least one skill</p> <hr> <p>Increase your proficiency rank in one of your skills from expert to master and in another of your skills from trained to expert. You gain a skill feat associated with one of the skills you chose.</p> <p><strong>Special</strong> You can select this feat up to five times.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Investigador"
+        }
+      ]
     },
     "Skill Mastery (Rogue)": {
       "prerequisites": [
@@ -6066,6 +7248,13 @@
     "Sleeper Hold": {
       "name": "Aperto Dormente"
     },
+    "Slinger's Readiness": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pistoleiro"
+        }
+      ]
+    },
     "Slippery Secrets": {
       "name": "Segredos Escorregadios"
     },
@@ -6080,6 +7269,13 @@
     },
     "Snagging Strike": {
       "name": "Ataque Fisgador"
+    },
+    "Snap Out Of It! (Marshal)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Snap Out Of It! (Pathfinder Agent)": {
       "prerequisites": [
@@ -6139,6 +7335,13 @@
         }
       ]
     },
+    "Sniping Duo Dedication": {
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Furtividade"
+        }
+      }
+    },
     "Soaring Flight": {
       "name": "Vôo Altaneiro"
     },
@@ -6156,7 +7359,12 @@
       "name": "Sociável"
     },
     "Social Purview": {
-      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"uqIiSDbv80TbRwTQ\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vigilante Dedication</a></p> <hr> <p>You have built a reputation for yourself in your social identity. Choose one archetype that you meet the prerequisites for. You gain that archetype’s dedication feat and can select feats from that archetype, even if you haven’t yet gained enough feats in the vigilante archetype to take another dedication feat.</p> <p>These feats become part of your social identity and gain the social trait—for instance, a fighter vigilante could take the wizard dedication feat and have a wizard social identity. Using these feats in your social identity doesn’t risk exposing your vigilante identity, but using them in your vigilante identity could put you at risk for exposure.</p>"
+      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"uqIiSDbv80TbRwTQ\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vigilante Dedication</a></p> <hr> <p>You have built a reputation for yourself in your social identity. Choose one archetype that you meet the prerequisites for. You gain that archetype’s dedication feat and can select feats from that archetype, even if you haven’t yet gained enough feats in the vigilante archetype to take another dedication feat.</p> <p>These feats become part of your social identity and gain the social trait—for instance, a fighter vigilante could take the wizard dedication feat and have a wizard social identity. Using these feats in your social identity doesn’t risk exposing your vigilante identity, but using them in your vigilante identity could put you at risk for exposure.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
     },
     "Sodbuster": {
       "name": "Cava-Relva",
@@ -6177,7 +7385,12 @@
       "name": "Balada Tranquilizante"
     },
     "Sorcerer Dedication": {
-      "name": "Dedicação de Feiticeiro"
+      "name": "Dedicação de Feiticeiro",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Sow Rumor": {
       "name": "Semear Rumores"
@@ -6268,6 +7481,13 @@
         }
       ]
     },
+    "Spellstriker": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Magus"
+        }
+      ]
+    },
     "Spirit's Wrath": {
       "name": "Ira do Espírito"
     },
@@ -6293,7 +7513,12 @@
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.classfeatures.TQqv9Q5mB4PW6LH9]{Spirit Instinct}</p> <p><strong>Frequency</strong> once per day</p> <p><strong>Trigger</strong> You fail, but don’t critically fail, a Perception check or a skill check.</p> <hr> <p>Though no one sees them and only you can hear them, the spirits around you constantly chatter, save when you are raging. Sometimes they’re even helpful. You can heed the spirits’ guidance to reroll the triggering check, using the second result even if it’s worse.</p>"
     },
     "Spot Translate": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.u6SDVWbzHnBBPNMo]{Linguist Dedication}</p> <p><strong>Trigger</strong> Another creature within 60 feet uses a linguistic effect in a language you understand.</p> <hr> <p>You interpret a creature’s words, repeating their message in a different language that you know. If the triggering effect’s targets speak either the original language or the one you translated into, they are affected.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.u6SDVWbzHnBBPNMo]{Linguist Dedication}</p> <p><strong>Trigger</strong> Another creature within 60 feet uses a linguistic effect in a language you understand.</p> <hr> <p>You interpret a creature’s words, repeating their message in a different language that you know. If the triggering effect’s targets speak either the original language or the one you translated into, they are affected.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Linguista"
+        }
+      ]
     },
     "Spring from the Shadows": {
       "name": "Surgir das Sombras"
@@ -6310,7 +7535,12 @@
       "description": "<p><strong>Trigger</strong> You critically fail a Deception, Diplomacy, or Intimidation check against a creature that doesn’t have the tengu trait.</p> <hr> <p>You let out an awkward squawk, ruffle your feathers, or fake some other birdlike tic to cover up a social misstep or faux pas. You get a failure on the triggering check, rather than a critical failure. All creatures that witnessed you Squawk are temporarily immune for 24 hours.&nbsp;</p>"
     },
     "Staff Acrobat Dedication": {
-      "name": "Dedicação de Acrobata do Cajado"
+      "name": "Dedicação de Acrobata do Cajado",
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Acrobatismo"
+        }
+      }
     },
     "Staff Sweep": {
       "name": "Varredura com Cajado",
@@ -6322,6 +7552,13 @@
     },
     "Stage Fighting": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"Dm0YMEvSY0qg0jA0\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Gladiator Dedication</a></p> <hr> <p>You pull punches to give a better show. You don’t take the usual –2 circumstance penalty when making a nonlethal attack with a weapon or unarmed attack that doesn’t have the nonlethal trait.</p>"
+    },
+    "Staggering Fire": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Arqueiro"
+        }
+      ]
     },
     "Stance Savant (Monk)": {
       "name": "Sagaz em Postura (Monge)",
@@ -6344,6 +7581,13 @@
         }
       ]
     },
+    "Startling Appearance (Vigilante)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
     "Stave off Catastrophe": {
       "prerequisites": [
         {
@@ -6360,7 +7604,12 @@
       ]
     },
     "Steady Balance": {
-      "name": "Equilíbrio Estável"
+      "name": "Equilíbrio Estável",
+      "prerequisites": [
+        {
+          "value": "treinado em Acrobatismo"
+        }
+      ]
     },
     "Steady Spellcasting": {
       "name": "Conjuração Consistente"
@@ -6390,13 +7639,23 @@
       ]
     },
     "Steel Skin": {
-      "description": "<p><strong>Prerequisites </strong>trained in Survival, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"8foxmfC6FFT3oYpV\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Sentinel Dedication</a></p> <hr> <p>You wear your armor like a second skin. You can rest normally while wearing medium armor. If you are a master in heavy armor, you can also rest normally while wearing heavy armor.</p>"
+      "description": "<p><strong>Prerequisites </strong>trained in Survival, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"8foxmfC6FFT3oYpV\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Sentinel Dedication</a></p> <hr> <p>You wear your armor like a second skin. You can rest normally while wearing medium armor. If you are a master in heavy armor, you can also rest normally while wearing heavy armor.</p>",
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Sentinela"
+        }
+      }
     },
     "Steel Your Resolve": {
       "name": "Cerrar os Dentes"
     },
     "Steel Yourself!": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <hr> <p>You encourage an ally to toughen up, giving them a fighting chance. Choose one ally within your marshal’s aura. The ally gains temporary Hit Points equal to your Charisma modifier and a +2 circumstance bonus to Fortitude saves. Both benefits last until the start of your next turn.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <hr> <p>You encourage an ally to toughen up, giving them a fighting chance. Choose one ally within your marshal’s aura. The ally gains temporary Hit Points equal to your Charisma modifier and a +2 circumstance bonus to Fortitude saves. Both benefits last until the start of your next turn.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Sticky Bomb": {
       "name": "Bomba Grudenta"
@@ -6415,11 +7674,25 @@
     "Stone Bones": {
       "description": "<p><strong>Trigger</strong> You are struck by a critical hit that deals physical damage.</p> <hr> <p>Your intractable nature can help you shrug off even the most grievous injuries. Attempt a DC 17 flat check. If you are successful, the attack becomes a normal hit.&nbsp;</p>"
     },
+    "Stone Brawler Dedication": {
+      "prerequisites": [
+        {
+          "value": "Constituição +2"
+        }
+      ]
+    },
     "Stone Communion": {
       "name": "Comunhão com Pedra",
       "prerequisites": [
         {
           "value": "Ritual de Pedra Ka"
+        }
+      ]
+    },
+    "Stonebound Dedication": {
+      "prerequisites": [
+        {
+          "value": "Constituição +2"
         }
       ]
     },
@@ -6441,6 +7714,13 @@
     },
     "Streetwise": {
       "name": "Manha das Ruas"
+    },
+    "Strident Command": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
     },
     "Striker's Scroll": {
       "prerequisites": [
@@ -6483,6 +7763,13 @@
         }
       ]
     },
+    "Subjective Truth": {
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Vigilante"
+        }
+      }
+    },
     "Subtle Theft": {
       "name": "Furto Súbito"
     },
@@ -6492,6 +7779,14 @@
     },
     "Sudden Leap": {
       "name": "Salto Súbito"
+    },
+    "Summoner Dedication": {
+      "name": "Dedicação de Convocador",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Sun Blade": {
       "name": "Lâmina Solar"
@@ -6525,7 +7820,12 @@
       "name": "Cultura de Superfície"
     },
     "Surprise Attack": {
-      "name": "Ataque Surpresa"
+      "name": "Ataque Surpresa",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assassino"
+        }
+      ]
     },
     "Surreptitious Spellcaster": {
       "name": "Conjurador Furtivo"
@@ -6548,6 +7848,28 @@
       "prerequisites": [
         {
           "value": "Dedicação de Agente Pathfinder"
+        }
+      ]
+    },
+    "Swashbuckler Dedication": {
+      "name": "Dedicação de Espadachim",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
+    },
+    "Swashbuckler's Riposte": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Espadachim"
+        }
+      ]
+    },
+    "Swashbuckler's Speed": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Espadachim"
         }
       ]
     },
@@ -6656,7 +7978,12 @@
       "name": "Postura da Floresta Emaranhada"
     },
     "Target Of Opportunity": {
-      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <p><strong>Trigger</strong> An ally succeeds at a ranged @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against an opponent within your weapon’s first range increment.</p> <p><strong>Requirements</strong> You have a ranged or thrown weapon in hand.</p> <hr> <p>You capitalize on your ally’s attack to create a coordinated barrage.</p> <p>Make a ranged Strike with a –2 penalty against the opponent targeted by the triggering attack. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.</p> <p>If this Strike is successful, combine the damage from the attack with the damage from your ally’s attack for the purpose of resistances and weaknesses.</p>"
+      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <p><strong>Trigger</strong> An ally succeeds at a ranged @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} against an opponent within your weapon’s first range increment.</p> <p><strong>Requirements</strong> You have a ranged or thrown weapon in hand.</p> <hr> <p>You capitalize on your ally’s attack to create a coordinated barrage.</p> <p>Make a ranged Strike with a –2 penalty against the opponent targeted by the triggering attack. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.</p> <p>If this Strike is successful, combine the damage from the attack with the damage from your ally’s attack for the purpose of resistances and weaknesses.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Targeting Shot": {
       "name": "Tiro Mirado",
@@ -6727,16 +8054,36 @@
       }
     },
     "Terrain Stalker": {
-      "name": "Esgueirador de Terreno"
+      "name": "Esgueirador de Terreno",
+      "prerequisites": [
+        {
+          "value": "treinado em Furtividade"
+        }
+      ]
     },
     "Terrified Retreat": {
       "name": "Retirada Aterrorizada"
+    },
+    "Terrifying Countenance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
     },
     "Terrifying Howl": {
       "name": "Brado Aterrorizante",
       "prerequisites": [
         {
           "value": "Olhar Intimidante"
+        }
+      ]
+    },
+    "Thaumaturge Dedication": {
+      "name": "Dedicação de Taumaturgo",
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
         }
       ]
     },
@@ -6846,7 +8193,12 @@
       }
     },
     "To Battle!": {
-      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"MYzRfNExDYp25rro\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Marshal Dedication</a></p> <hr> <p>With a resounding cry, you rally your ally to the offensive. Choose one ally within your marshal’s aura who has a reaction available. If you spend 1 action, that ally can use their reaction to immediately <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"Bcxarzksqt9ezrs6\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Stride</a>. If you spend 2 actions, that ally can use their reaction to immediately <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"VjxZFuUXrCU94MWR\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Strike</a>.</p>"
+      "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"MYzRfNExDYp25rro\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Marshal Dedication</a></p> <hr> <p>With a resounding cry, you rally your ally to the offensive. Choose one ally within your marshal’s aura who has a reaction available. If you spend 1 action, that ally can use their reaction to immediately <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"Bcxarzksqt9ezrs6\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Stride</a>. If you spend 2 actions, that ally can use their reaction to immediately <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"VjxZFuUXrCU94MWR\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Strike</a>.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "To the Ends of the Earth": {
       "name": "Até os Confins da Terra"
@@ -6857,6 +8209,20 @@
     "Tongue of Sun and Moon": {
       "name": "Língua do Sol e da Lua",
       "description": "<p>Você transcende as barreiras entre palavras e significados. Você pode falar e compreender todos os idiomas falados.</p>"
+    },
+    "Tools Of The Trade": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Caçador de Recompensas"
+        }
+      ]
+    },
+    "Topple Foe": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Marechal"
+        }
+      ]
     },
     "Torch Goblin": {
       "name": "Goblin Tocha"
@@ -6886,6 +8252,13 @@
     "Trample": {
       "name": "Atropelar"
     },
+    "Trampling Charge": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Transcribe Moment": {
       "name": "Transcribe Moment",
       "prerequisites": [
@@ -6896,6 +8269,13 @@
     },
     "Trap Finder": {
       "name": "Descobridor de Armadilha"
+    },
+    "Treat Condition": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Médico"
+        }
+      ]
     },
     "Triangle Shot": {
       "prerequisites": {
@@ -6940,6 +8320,20 @@
       "prerequisites": [
         {
           "value": "Aspecto de Dragão"
+        }
+      ]
+    },
+    "Tumbling Opportunist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
+        }
+      ]
+    },
+    "Tumbling Strike": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
         }
       ]
     },
@@ -7066,6 +8460,13 @@
         }
       }
     },
+    "Underhanded Assault": {
+      "prerequisites": [
+        {
+          "value": "treinado em Furtividade"
+        }
+      ]
+    },
     "Underwater Marauder": {
       "name": "Saqueador Subaquático"
     },
@@ -7132,6 +8533,13 @@
     "Unrivaled Builder": {
       "name": "Construtor Incomparável"
     },
+    "Unseat": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Unshakable Idealism": {
       "name": "Idealismo Inabalável",
       "description": "<p> <strong>Pré-requisitos</strong> Cavaleiro Vigilante, especialista em salvamentos de Vonatde </span></p> <hr> <p>Sua fé e esperança não podem ser abaladas e você não foge quando vidas estão em risco. Você ganha um bônus de circunstância +1 nos salvamentos contra efeitos de medo e emoção que causam desespero. Quando você ganharia a condição de fugindo, pode escolher se manter firme e ficar atordoado pela duração do efeito, impedindo-o de correr e permitindo que você entre novamente na luta mais rapidamente quando o efeito terminar.</p> (Tradução não oficial - Lost Omens: Character Guide)"
@@ -7166,6 +8574,13 @@
     "Vampire Lore": {
       "description": "You were raised by your vampiric parent, or you’ve invested substantial time and energy researching the secrets of your undead progenitors. You gain the trained proficiency rank in Religion and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in Vampire Lore."
     },
+    "Vehicle Mechanic Dedication": {
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
+    },
     "Vengeful Oath": {
       "name": "Juramento Vingativo"
     },
@@ -7182,6 +8597,13 @@
     },
     "Verdant Presence": {
       "description": "<section class=\"details\"> <p><strong>Frequency</strong> once per hour</p> <p><strong>Trigger</strong> You take damage or cast a <a class=\"btn-inform2\" tabindex=\"0\" title=\"\" role=\"button\" data-trigger=\"focus\" data-toggle=\"popover\" data-boundary=\"window\" data-placement=\"auto\" data-html=\"true\" data-content=\"<p>An instinctual connection to and faith in the world, the cycle of day and night, the turning of the seasons, and the natural selection of predator and prey drive the <em>primal</em> tradition. Druids are the most iconic <em>primal</em> spellcasters, calling upon the magic of nature through deep faith and a connection to the plants and animals around them, and <em>primal</em> sorcerers call upon their fey or beast blood to harness the same natural energies.</p>\" data-original-title=\"<strong>magical tradition: primal</strong>\">primal</a> spell.</p> <hr></section> <section class=\"content\"> <p>The life-giving properties of the aeon orbs flourish within you. Small plants or fungi magically appear on all surfaces in a 60-foot emanation around you. This life withers after 1 day unless the environment can support it. You can choose one of the following options each time you use this feat.</p> <ul> <li>You can cause any number of 5-foot squares in the area to be light undergrowth, which is difficult terrain and provides lesser cover.</li> <li>You can cause a tree or giant mushroom to appear in any unoccupied location in the area; it occupies an entire 5-foot square and provides standard cover. The tree or mushroom has 5 Hardness and 50 Hit Points.</li> </ul> </section>"
+    },
+    "Verduran Shadow Dedication": {
+      "prerequisites": [
+        {
+          "value": "treinado em Furtividade"
+        }
+      ]
     },
     "Vernai Training": {
       "prerequisites": {
@@ -7248,6 +8670,9 @@
         }
       }
     },
+    "Vigilante Dedication": {
+      "name": "Dedicação de Vigilante"
+    },
     "Vigorous Health": {
       "name": "Saúde Vigorosa"
     },
@@ -7259,6 +8684,13 @@
       "prerequisites": [
         {
           "value": "Tatuagem Ornamentada"
+        }
+      ]
+    },
+    "Virtuosic Dancer": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Acrobata"
         }
       ]
     },
@@ -7275,8 +8707,22 @@
         }
       ]
     },
+    "Voice of Authority": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
     "Waking Dream": {
       "name": "Waking Dream"
+    },
+    "Walk The Plank": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Pirata"
+        }
+      ]
     },
     "Wall Jump": {
       "name": "Salto na Parede"
@@ -7345,6 +8791,13 @@
       "name": "Passo na Água",
       "description": "<p>Você pode Andar sobre líquidos e superfícies que não suportem seu peso. Este benefício dura somente durante seu movimento. Se encerrar seu movimento em uma superfície incapaz de suportá-lo, você cai ou ela colapsa normalmente.</p>"
     },
+    "Water Step (Elementalist)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Wavetouched Paragon": {
       "name": "Paragon Tocado pelas Ondas",
       "description": "<p> <strong>Pré-requisitos</strong> Etnia Bonuwat </span></p> <hr> <p>Você foi abençoado pelo mar, permitindo-lhe nadar como um peixe. Você ganha uma velocidade de natação de 4,5 metros.  <strong>Especial</strong> Se você tem a biografia <a href=\"https://2e.aonprd.com/Backgrounds.aspx?ID=96\">Bonuwat Tocado pelas Ondas</a>, você pode pegar esse talento no 1º nível, em vez do 5º.</p> (Tradução não oficial - Lost Omens: Character Guide)"
@@ -7399,6 +8852,13 @@
           "value": "Funileiro de Ressonância de Bússola Desbravadora"
         }
       ]
+    },
+    "Wheeling Grab": {
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Acrobatismo"
+        }
+      }
     },
     "Whirling Blade Stance": {
       "prerequisites": [
@@ -7486,9 +8946,24 @@
     "Wind Jump": {
       "name": "Salto do Vento"
     },
+    "Wind-Tossed Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Elementalista"
+        }
+      ]
+    },
     "Winding Flow": {
       "name": "Fluidez Sinuosa",
       "description": "<p><strong>Frequência</strong> uma vez por rodada</p> <hr> <p>Qualquer jornada é muito mais do que simplesmente alcançar o destino. Você usa duas das seguintes ações em qualquer ordem: Andar, Dar um Passo e Levantar. Você não pode usar a mesma ação duas vezes.</p>"
+    },
+    "Witch Dedication": {
+      "name": "Dedicação de Bruxo",
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
     },
     "Witch Warden": {
       "name": "Guardião da Bruxa",
@@ -7512,7 +8987,12 @@
       ]
     },
     "Wizard Dedication": {
-      "name": "Dedicação de Mago"
+      "name": "Dedicação de Mago",
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
     },
     "Wolf Drag": {
       "name": "Arrasto do Lobo",
