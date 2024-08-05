@@ -2,13 +2,29 @@
   "label": "Talentos",
   "entries": {
     "A Home In Every Port": {
-      "description": "<p><strong>Prerequisites</strong> Charisma 16</p> <hr> <p>You have a reputation in towns and villages you’ve visited, and residents are always willing to open their doors to you.</p> <p>When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost.</p> <p>After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</p>"
+      "name": "Um lar em cada porto",
+      "description": "<p><strong>Prerequisites</strong> Charisma 16</p> <hr> <p>You have a reputation in towns and villages you’ve visited, and residents are always willing to open their doors to you.</p> <p>When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost.</p> <p>After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</p>",
+      "prerequisites": [
+        {
+          "value": "Carisma +3"
+        }
+      ]
     },
     "Absorb Spell": {
       "name": "Absorver Magia",
       "prerequisites": [
         {
           "value": "Dedicação de Mestre do Encanto"
+        },
+        {
+          "value": "repertório de magias ou habilidade de preparar magia"
+        }
+      ]
+    },
+    "Absorb Toxin": {
+      "prerequisites": [
+        {
+          "value": "Você não é imune a doenças ou venenos"
         }
       ]
     },
@@ -20,6 +36,22 @@
         },
         {
           "value": "Magias de Ki"
+        }
+      ]
+    },
+    "Accelerating Touch": {
+      "name": "Toque Acelerante",
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      ]
+    },
+    "Acclimatization": {
+      "name": "Aclimatação",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
         }
       ]
     },
@@ -377,6 +409,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Sentinela de Ultimuro"
+        }
+      ]
+    },
+    "Amplifying Touch": {
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
         }
       ]
     },
@@ -3684,6 +3723,9 @@
       "prerequisites": [
         {
           "value": "Dedicação de Atiçador Fanfarrão"
+        },
+        {
+          "value": "Carisma +3"
         }
       ]
     },
@@ -3923,7 +3965,12 @@
       "name": "Heal Companion"
     },
     "Heal Mount": {
-      "name": "Curar Montaria"
+      "name": "Curar Montaria",
+      "prerequisites": {
+        "1": {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      }
     },
     "Healing Hands": {
       "name": "Mãos Curandeiras"
@@ -4069,6 +4116,9 @@
           "value": "Dedicação de Pirata"
         }
       ]
+    },
+    "Horizon Walker Dedication": {
+      "name": "Dedicação de Andarilho do Horizonte"
     },
     "House of Imaginary Walls": {
       "name": "Casa das Paredes Imaginárias"
@@ -4328,7 +4378,12 @@
     },
     "Incredible Investiture": {
       "name": "Investidura Incrível",
-      "description": "<p><strong>Pré-requisitos</strong> Carisma 16</p> <hr> <p>Você possui uma habilidade incrível para investir em mais itens mágicos. Aumente seu limite de itens investidos de 10 para 12.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> Carisma 16</p> <hr> <p>Você possui uma habilidade incrível para investir em mais itens mágicos. Aumente seu limite de itens investidos de 10 para 12.</p>",
+      "prerequisites": [
+        {
+          "value": "Carisma +3"
+        }
+      ]
     },
     "Incredible Luck (Halfling)": {
       "prerequisites": [
@@ -5005,6 +5060,13 @@
         }
       ]
     },
+    "Magical Adaptation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
+    },
     "Magical Crafting": {
       "name": "Manufatura Mágica"
     },
@@ -5254,7 +5316,12 @@
       "name": "Elixir Misericordioso"
     },
     "Mercy": {
-      "name": "Misericórdia"
+      "name": "Misericórdia",
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      ]
     },
     "Mesmerizing Gaze": {
       "prerequisites": [
@@ -5865,6 +5932,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Monge"
+        }
+      ]
+    },
+    "Perpetual Scout": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
         }
       ]
     },
@@ -6569,6 +6643,13 @@
     "Reinforce Eidolon": {
       "name": "Reinforce Eidolon"
     },
+    "Rejuvenating Touch": {
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      ]
+    },
     "Relentless Disarm": {
       "name": "Desarme Implacável",
       "description": "<div><strong>Archetype</strong> @Compendium[pf2e.archetypes.Lr108TWazbuxxUzP]{ Guarda Zéfiro}</div> <div><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.UyyrFtPWOo0qvXOv]Dedicação de Guarda Zéfiro}, treinado em Atletismo</div> <hr> <p>Quando você obtêm um sucesso, mas não um sucesso crítico, em um teste para desarmar uma criatura, seu bônus de circunstância para testes futuros para disarmar é +4 ao invés de +2. Outras criaturas ganham somente o bônus normal.</p> <p>Quando você tem um sucesso crítico em um teste para desarmar, você pode imediatamente Desmoralizar seu alvo como uma reação.</p>",
@@ -6630,6 +6711,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Sentinela de Ultimuro"
+        }
+      ]
+    },
+    "Resilient Touch": {
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
         }
       ]
     },
@@ -7819,6 +7907,13 @@
     "Sure Feet": {
       "name": "Pés Firmes"
     },
+    "Sure Foot": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
+    },
     "Surface Culture": {
       "name": "Cultura de Superfície"
     },
@@ -8087,6 +8182,13 @@
       "prerequisites": [
         {
           "value": "Carisma +2"
+        }
+      ]
+    },
+    "Thaumaturge's Investiture": {
+      "prerequisites": [
+        {
+          "value": "Carisma +3"
         }
       ]
     },
@@ -8916,6 +9018,13 @@
     },
     "Wild Stride": {
       "name": "Deslocamento nos Ermos"
+    },
+    "Wild Strider": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
     },
     "Wild Winds Gust": {
       "name": "Lufada dos Ventos Selvagens",
