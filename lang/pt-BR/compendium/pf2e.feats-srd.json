@@ -2,13 +2,29 @@
   "label": "Talentos",
   "entries": {
     "A Home In Every Port": {
-      "description": "<p><strong>Prerequisites</strong> Charisma 16</p> <hr> <p>You have a reputation in towns and villages you’ve visited, and residents are always willing to open their doors to you.</p> <p>When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost.</p> <p>After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</p>"
+      "name": "Um Lar Em Cada Porto",
+      "description": "<p><strong>Prerequisites</strong> Charisma 16</p> <hr> <p>You have a reputation in towns and villages you’ve visited, and residents are always willing to open their doors to you.</p> <p>When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost.</p> <p>After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</p>",
+      "prerequisites": [
+        {
+          "value": "Carisma +3"
+        }
+      ]
     },
     "Absorb Spell": {
       "name": "Absorver Magia",
       "prerequisites": [
         {
           "value": "Dedicação de Mestre do Encanto"
+        },
+        {
+          "value": "repertório de magias ou habilidade de preparar magia"
+        }
+      ]
+    },
+    "Absorb Toxin": {
+      "prerequisites": [
+        {
+          "value": "Você não é imune a doenças ou venenos"
         }
       ]
     },
@@ -23,7 +39,27 @@
         }
       ]
     },
+    "Accelerating Touch": {
+      "name": "Toque Acelerante",
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      ]
+    },
+    "Acclimatization": {
+      "name": "Aclimatação",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
+    },
+    "Accompany": {
+      "name": "Acompanhar"
+    },
     "Accurate Flurry": {
+      "name": "Rajada Precisa",
       "prerequisites": [
         {
           "value": "Rajada Impossível"
@@ -37,11 +73,21 @@
         }
       ]
     },
+    "Accursed Claws": {
+      "prerequisites": [
+        {
+          "value": "ataque desarmado de garra"
+        }
+      ]
+    },
     "Accursed Clay Fist": {
       "name": "Punho de Barro Amaldiçoado",
       "prerequisites": [
         {
           "value": "Dedicação de Golem Enxertado"
+        },
+        {
+          "value": "especialista em ataques desarmados"
         }
       ]
     },
@@ -97,6 +143,9 @@
       "prerequisites": [
         {
           "value": "Truque Mágico Adaptado"
+        },
+        {
+          "value": "capacidade de conjurar magias de 3º círculo"
         }
       ]
     },
@@ -110,7 +159,13 @@
       ]
     },
     "Additional Companion": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.wdmUH6hdat7jpEWt]{Beastmaster Dedication}</p> <hr> <p>Another animal joins you in your travels. It is a young animal companion that has the minion trait. See Beastmaster Animal Companions (in Beastmaster Dedication) for rules on how having multiple animal companions works.</p> <p><strong>Special</strong> You can select this feat more than once, gaining an additional animal companion each time, to a maximum of four total companions (including the one you gained from Beastmaster Dedication and possibly one you gained from sources other than the beastmaster archetype).</p>"
+      "name": "Companheiro Adicional",
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.wdmUH6hdat7jpEWt]{Beastmaster Dedication}</p> <hr> <p>Another animal joins you in your travels. It is a young animal companion that has the minion trait. See Beastmaster Animal Companions (in Beastmaster Dedication) for rules on how having multiple animal companions works.</p> <p><strong>Special</strong> You can select this feat more than once, gaining an additional animal companion each time, to a maximum of four total companions (including the one you gained from Beastmaster Dedication and possibly one you gained from sources other than the beastmaster archetype).</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Additional Lore": {
       "name": "Saber Adicional"
@@ -120,6 +175,9 @@
     },
     "Adopted Ancestry": {
       "name": "Ancestralidade Adotada"
+    },
+    "Adrenaline Rush": {
+      "name": "Ímpeto de Adrenalina"
     },
     "Adroit Manipulation": {
       "name": "Manipulação Astuta",
@@ -145,7 +203,12 @@
     },
     "Advanced Bloodline": {
       "name": "Linhagem Avançada",
-      "description": "<p><strong>Pré-requisitos</strong> magia de linhagem</p> <hr> <p>Você estudou sua linhagem para aprender os segredos de sua magia. Você recebe a magia de linhagem avançada associada à sua linhagem. Aumente em 1 a quantidade de Pontos de Foco em sua reserva de foco.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> magia de linhagem</p> <hr> <p>Você estudou sua linhagem para aprender os segredos de sua magia. Você recebe a magia de linhagem avançada associada à sua linhagem. Aumente em 1 a quantidade de Pontos de Foco em sua reserva de foco.</p>",
+      "prerequisites": [
+        {
+          "value": "magia de linhagem"
+        }
+      ]
     },
     "Advanced Bow Training": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.4QFElZoWjg1X0vsg]{Archer Dedication}</p> <hr> <p>Through constant practice and the crucible of experience, you increase your skill with advanced bows. You gain proficiency with all advanced bows as if they were martial weapons in the bow weapon group.</p>",
@@ -202,6 +265,13 @@
         }
       ]
     },
+    "Advanced First Aid": {
+      "prerequisites": [
+        {
+          "value": "mestre em Medicina"
+        }
+      ]
+    },
     "Advanced Flair": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.sE7x3QAel4VGdkgn]{Basic Flair}</p> <hr> <p>You gain one swashbuckler feat. For the purpose of meeting its prerequisites, your swashbuckler level is equal to half your character level.</p> <p><strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another swashbuckler feat.</p>"
     },
@@ -213,6 +283,9 @@
           "value": "Furor Básico"
         }
       ]
+    },
+    "Advanced General Training": {
+      "name": "Treinamento Geral Avançado"
     },
     "Advanced Hunter's Trick": {
       "name": "Truque Avançado de Caçador",
@@ -317,6 +390,13 @@
     "Ageless Patience": {
       "name": "Paciência Eterna"
     },
+    "Aggravating Scratch": {
+      "prerequisites": [
+        {
+          "value": "ataque desarmado de garra"
+        }
+      ]
+    },
     "Aggressive Block": {
       "name": "Bloqueio Agressivo"
     },
@@ -377,6 +457,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Sentinela de Ultimuro"
+        }
+      ]
+    },
+    "Amplifying Touch": {
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
         }
       ]
     },
@@ -1113,14 +1200,32 @@
       "name": "Orador da Besta"
     },
     "Beastmaster Bond": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.wdmUH6hdat7jpEWt]{Beastmaster Dedication}</p> <hr> <p>You can communicate telepathically with your animal companions within 100 feet. If you’re legendary in Nature, you can communicate telepathically with your animal companions anywhere on the planet.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.wdmUH6hdat7jpEWt]{Beastmaster Dedication}</p> <hr> <p>You can communicate telepathically with your animal companions within 100 feet. If you’re legendary in Nature, you can communicate telepathically with your animal companions anywhere on the planet.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
+    "Beastmaster Dedication": {
+      "name": "Dedicação de Mestre das Feras"
     },
     "Beastmaster's Call": {
-      "prerequisites": {
-        "1": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        },
+        {
           "value": "Chamar Companheiro"
         }
-      }
+      ]
+    },
+    "Beastmaster's Trance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Bellflower Dedication": {
       "name": "Dedicação da Campânula",
@@ -1132,6 +1237,13 @@
     },
     "Bespell Weapon": {
       "name": "Magia Residual em Arma"
+    },
+    "Bestial Protection": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Bestiary Scholar": {
       "prerequisites": [
@@ -1149,6 +1261,13 @@
     },
     "Big Mouth": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.Pox93XMBaFmeLIDM]{Cheek Pouches}</p> <hr> <p>Your cheek pouches are especially stretchy. Instead of storing up to four items of Light Bulk in your cheek pouches, you can store up to 1 Bulk worth of items. The maximum size of a given item is unchanged.</p>"
+    },
+    "Billowing Wings": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Biographical Eye": {
       "description": "<p><strong>Prerequisites </strong>master in Society</p> <hr> <p>In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person’s origin and history. You might notice bits of green under the person’s fingernails and determine they’re an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn’t learn any of their weaknesses, nor necessarily even that they are a vampire.</p> <p>Spend 1 minute in the presence of someone you haven’t met before, or haven’t met since you first gained Biographical Eye, then attempt a DC 30 Society check. You gain a +1 circumstance bonus to the check if you engaged the person in conversation during this time. If the person is deliberately trying to conceal their nature or present a false identity, you learn about their false biography rather than their true one unless the result of your Society check exceeds their Will DC.</p> <hr> <p><strong>Critical Success</strong> You learn the creature’s profession, their  specialty within that profession, and a major accomplishment  or controversy from their career. You also learn the nation  and settlement where they live, as well as the district in a  city large enough to have districts. In addition, you learn the  nation or settlement where they spent their formative years.</p> <p><strong>Success</strong> You learn the creature’s profession and specialty  within that profession. You learn the nation or settlement  where they normally live.</p> <p><strong>Failure</strong> You learn the creature’s profession and the region of  the world they hail from, but no more.</p> <p><strong>Critical Failure</strong> You learn a piece of erroneous information  about the creature.</p>"
@@ -1231,7 +1350,12 @@
     },
     "Bloodline Focus": {
       "name": "Foco de Linhagem",
-      "description": "<p><strong>Pré-Requisitos</strong>magia de linhagem</p> <hr> <p>Seu foco se recupera mais rápido. Se tiver gastado pelo menos 2 Pontos de Foco desde a última vez que Refocou, você recupera 2 Pontos de Foco ao Refocar (em vez de recuperar somente 1 ponto).</p>"
+      "description": "<p><strong>Pré-Requisitos</strong>magia de linhagem</p> <hr> <p>Seu foco se recupera mais rápido. Se tiver gastado pelo menos 2 Pontos de Foco desde a última vez que Refocou, você recupera 2 Pontos de Foco ao Refocar (em vez de recuperar somente 1 ponto).</p>",
+      "prerequisites": [
+        {
+          "value": "magia de linhagem"
+        }
+      ]
     },
     "Bloodline Metamorphosis": {
       "name": "Metamorfose da Linhagem"
@@ -1666,6 +1790,13 @@
     },
     "Cobble Dancer": {
       "name": "Dançarino de Piso"
+    },
+    "Cobra Envenom": {
+      "prerequisites": {
+        "1": {
+          "value": "especialista em ataques desarmados"
+        }
+      }
     },
     "Cognitive Loophole": {
       "name": "Brecha Cognitiva"
@@ -2758,6 +2889,9 @@
       "prerequisites": [
         {
           "value": "Dedicação de Mestre da Espada"
+        },
+        {
+          "value": "mestre em Medicina"
         }
       ]
     },
@@ -3225,6 +3359,13 @@
         }
       }
     },
+    "Ferocious Charge": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Ferocious Shape": {
       "name": "Aspecto de Dinossauro"
     },
@@ -3684,6 +3825,9 @@
       "prerequisites": [
         {
           "value": "Dedicação de Atiçador Fanfarrão"
+        },
+        {
+          "value": "Carisma +3"
         }
       ]
     },
@@ -3697,7 +3841,12 @@
     },
     "Greater Bloodline": {
       "name": "Linhagem Maior",
-      "description": "<p><strong>Pré-requisitos</strong> magia de linhagem</p> <hr> <p>Uma grande comunhão com o legado de sua linhagem desvendou seus maiores segredos. Você recebe a magia de linhagem maior associada à sua linhagem. Aumente em 1 a quantidade de Pontos de Foco em sua reserva de foco.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> magia de linhagem</p> <hr> <p>Uma grande comunhão com o legado de sua linhagem desvendou seus maiores segredos. Você recebe a magia de linhagem maior associada à sua linhagem. Aumente em 1 a quantidade de Pontos de Foco em sua reserva de foco.</p>",
+      "prerequisites": [
+        {
+          "value": "magia de linhagem"
+        }
+      ]
     },
     "Greater Crossblooded Evolution": {
       "name": "Evolução de Linhagem Cruzada Maior",
@@ -3917,13 +4066,23 @@
       "name": "Descobridor de Perigo"
     },
     "Heal Animal": {
-      "name": "Curar Animal"
+      "name": "Curar Animal",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Heal Companion": {
       "name": "Heal Companion"
     },
     "Heal Mount": {
-      "name": "Curar Montaria"
+      "name": "Curar Montaria",
+      "prerequisites": {
+        "1": {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      }
     },
     "Healing Hands": {
       "name": "Mãos Curandeiras"
@@ -3949,6 +4108,13 @@
     "Hefty Hauler": {
       "name": "Carregador Robusto",
       "description": "<p><strong>Pré-requisitos</strong> treinado em atletismo</p> <hr> <p>Você pode carregar mais do que sua estrutura indica. Aumente seus limites de Volume máximo e sobrecarregado em 2 pontos.</p>"
+    },
+    "Heightened Instincts": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Heir of the Saoc": {
       "name": "Herdeiro do Saoc",
@@ -4069,6 +4235,9 @@
           "value": "Dedicação de Pirata"
         }
       ]
+    },
+    "Horizon Walker Dedication": {
+      "name": "Dedicação de Andarilho do Horizonte"
     },
     "House of Imaginary Walls": {
       "name": "Casa das Paredes Imaginárias"
@@ -4328,7 +4497,12 @@
     },
     "Incredible Investiture": {
       "name": "Investidura Incrível",
-      "description": "<p><strong>Pré-requisitos</strong> Carisma 16</p> <hr> <p>Você possui uma habilidade incrível para investir em mais itens mágicos. Aumente seu limite de itens investidos de 10 para 12.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> Carisma 16</p> <hr> <p>Você possui uma habilidade incrível para investir em mais itens mágicos. Aumente seu limite de itens investidos de 10 para 12.</p>",
+      "prerequisites": [
+        {
+          "value": "Carisma +3"
+        }
+      ]
     },
     "Incredible Luck (Halfling)": {
       "prerequisites": [
@@ -5005,6 +5179,13 @@
         }
       ]
     },
+    "Magical Adaptation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
+    },
     "Magical Crafting": {
       "name": "Manufatura Mágica"
     },
@@ -5216,6 +5397,13 @@
         }
       ]
     },
+    "Mature Beastmaster Companion": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Mauler Dedication": {
       "name": "Dedicação de Malhador",
       "prerequisites": [
@@ -5254,7 +5442,12 @@
       "name": "Elixir Misericordioso"
     },
     "Mercy": {
-      "name": "Misericórdia"
+      "name": "Misericórdia",
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      ]
     },
     "Mesmerizing Gaze": {
       "prerequisites": [
@@ -5510,6 +5703,13 @@
       "name": "Perícia Natural",
       "description": "<p>Sua engenhosidade lhe permite aprender uma ampla variedade de perícias. Você recebe a graduação de proficiência treinado em duas perícias à sua escolha.</p>"
     },
+    "Nature's Precision": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Necromantic Bulwark": {
       "prerequisites": [
         {
@@ -5724,6 +5924,13 @@
     "Pack Attack": {
       "name": "Pack Attack"
     },
+    "Pack Movement": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Paradoxical Mystery": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.HSW3N9pfHhM7upRB]{Greater Revelation}</p> <hr> <p>The truest depths of your divine mystery are fathomless and contradictory, granting you changing powers that even you can barely begin to fathom. Each day during your daily preparations, choose one basic or advanced domain spell from any domain from the <em>Core Rulebook</em> or another domain to which you have access, or any initial or advanced revelation spell from another mystery. You gain that spell as a revelation spell until your next daily preparations, and it has the cursebound trait.</p>"
     },
@@ -5731,6 +5938,9 @@
       "prerequisites": [
         {
           "value": "Medicina de Batalha"
+        },
+        {
+          "value": "mestre em Medicina"
         }
       ]
     },
@@ -5865,6 +6075,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Monge"
+        }
+      ]
+    },
+    "Perpetual Scout": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
         }
       ]
     },
@@ -6569,6 +6786,13 @@
     "Reinforce Eidolon": {
       "name": "Reinforce Eidolon"
     },
+    "Rejuvenating Touch": {
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
+        }
+      ]
+    },
     "Relentless Disarm": {
       "name": "Desarme Implacável",
       "description": "<div><strong>Archetype</strong> @Compendium[pf2e.archetypes.Lr108TWazbuxxUzP]{ Guarda Zéfiro}</div> <div><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.UyyrFtPWOo0qvXOv]Dedicação de Guarda Zéfiro}, treinado em Atletismo</div> <hr> <p>Quando você obtêm um sucesso, mas não um sucesso crítico, em um teste para desarmar uma criatura, seu bônus de circunstância para testes futuros para disarmar é +4 ao invés de +2. Outras criaturas ganham somente o bônus normal.</p> <p>Quando você tem um sucesso crítico em um teste para desarmar, você pode imediatamente Desmoralizar seu alvo como uma reação.</p>",
@@ -6630,6 +6854,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Sentinela de Ultimuro"
+        }
+      ]
+    },
+    "Resilient Touch": {
+      "prerequisites": [
+        {
+          "value": "magia de devoção (imposição de mãos)"
         }
       ]
     },
@@ -6807,6 +7038,13 @@
     },
     "Runic Impression": {
       "name": "Runic Impression"
+    },
+    "Running Kick": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
     },
     "Running Reload": {
       "name": "Recarga em Movimento"
@@ -7209,6 +7447,13 @@
         }
       ]
     },
+    "Sinking Jaws": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Skill Mastery (Investigator)": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"CZXhJS55rG5H6PpB\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Investigator Dedication</a>, trained in at least one skill and expert in at least one skill</p> <hr> <p>Increase your proficiency rank in one of your skills from expert to master and in another of your skills from trained to expert. You gain a skill feat associated with one of the skills you chose.</p> <p><strong>Special</strong> You can select this feat up to five times.</p>",
       "prerequisites": [
@@ -7284,6 +7529,9 @@
       "prerequisites": [
         {
           "value": "Dedicação de Agente Pathfinder"
+        },
+        {
+          "value": "mestre em Medicina"
         }
       ]
     },
@@ -7488,6 +7736,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Magus"
+        }
+      ]
+    },
+    "Spirit of the Beast": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
         }
       ]
     },
@@ -7819,6 +8074,13 @@
     "Sure Feet": {
       "name": "Pés Firmes"
     },
+    "Sure Foot": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
+    },
     "Surface Culture": {
       "name": "Cultura de Superfície"
     },
@@ -7873,6 +8135,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Espadachim"
+        }
+      ]
+    },
+    "Sweeping Tail": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
         }
       ]
     },
@@ -8019,6 +8288,13 @@
     "Tenacious Blood Magic": {
       "description": "<section class=\"details\"> <p><strong>Frequency</strong> once per minute</p> <p><strong>Trigger</strong> You apply an effect from your blood magic that lasts for 1 round.</p> <hr></section> <section class=\"content\"> <p>You have learned how to invest magic more deeply by witnessing Aroden’s works. The triggering blood magic effect lasts for 1 minute instead of 1 round.</p> </section>"
     },
+    "Tenacious Endurance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Tenacious Toxins": {
       "description": "<p>Your victims tend to expire long before your poisons, since the latter have been specifically formulated to last longer. The maximum duration of any poison you create increases by an amount equal to the poison’s stage 1 interval, to a maximum of twice the poison’s maximum duration.&nbsp;</p>"
     },
@@ -8087,6 +8363,13 @@
       "prerequisites": [
         {
           "value": "Carisma +2"
+        }
+      ]
+    },
+    "Thaumaturge's Investiture": {
+      "prerequisites": [
+        {
+          "value": "Carisma +3"
         }
       ]
     },
@@ -8653,6 +8936,13 @@
         }
       }
     },
+    "Vicious Rend": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Mestre das Feras"
+        }
+      ]
+    },
     "Vicious Snares": {
       "prerequisites": {
         "1": {
@@ -8916,6 +9206,13 @@
     },
     "Wild Stride": {
       "name": "Deslocamento nos Ermos"
+    },
+    "Wild Strider": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Andarilho do Horizonte"
+        }
+      ]
     },
     "Wild Winds Gust": {
       "name": "Lufada dos Ventos Selvagens",
