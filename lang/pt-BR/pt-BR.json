@@ -1146,6 +1146,10 @@
         "ApplicationBreakdown": {
           "ignored": "Resistência a {type} ignorada!",
           "immunity": "Imune a {type}: {adjustment}",
+          "redirect": {
+            "immunity": "Imune a {type} (tratado como {redirect}): {adjustment}",
+            "resistance": "Resistente a {type} (tratado como {redirect}): {adjustment}"
+          },
           "reduction": "Reduzido por {type}: {adjustment}",
           "resistance": "Resistente a {type}: {adjustment}",
           "unaffected": "Não afetado por {type}: {adjustment}",
