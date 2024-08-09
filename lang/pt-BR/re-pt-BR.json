@@ -8,11 +8,11 @@
       },
       "ExplosiveAmmunition": {
         "Greater": {
-          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva (Maior)"
         },
         "Normal": {
-          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic:true|name:Munição Explosiva]{Reflexos Básico}.",
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva"
         }
       },
@@ -37,15 +37,15 @@
       "MeteorShot": {
         "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição.",
         "Greater": {
-          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 6d6[fire]]] dano em uma @Template[type:emanation|distance:10] ao redor do alvo (@Check[type:reflex|dc:29|basic:true|name:Meteor Shot] save).",
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 6d6[fire]]] dano em uma @Template[type:emanation|distance:10] ao redor do alvo (@Check[type:reflex|dc:29|basic|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico (Maior)"
         },
         "Major": {
-          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 9d6[fire]]] dano em uma @Template[type:emanation|distance:20] ao redor do alvo (@Check[type:reflex|dc:37|basic:true|name:Meteor Shot] save).",
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 9d6[fire]]] dano em uma @Template[type:emanation|distance:20] ao redor do alvo (@Check[type:reflex|dc:37|basic|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico (Superior)"
         },
         "Normal": {
-          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 3d6[fire]]] dano em uma @Template[type:emanation|distance:5] ao redor do alvo (@Check[type:reflex|dc:23|basic:true|name:Meteor Shot] save).",
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 3d6[fire]]] dano em uma @Template[type:emanation|distance:5] ao redor do alvo (@Check[type:reflex|dc:23|basic|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico"
         }
       },
@@ -1874,7 +1874,7 @@
           },
           "Critical": {
             "Label": "Crítico",
-            "Note": " O alvo tenta um salvamento de @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.rogue.dc)]{Fortitude} contra sua CD de classe com os efeitos a seguir.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 1} até o final de seu próximo turno.</p><p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 2} até o final de seu próximo turno.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} até o final de seu próximo turno.</p>"
+            "Note": " O alvo tenta um salvamento de @Check[type:fortitude|against:rogue]{Fortitude} contra sua CD de classe com os efeitos a seguir.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 1} até o final de seu próximo turno.</p><p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 2} até o final de seu próximo turno.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} até o final de seu próximo turno.</p>"
           },
           "Enfeebled": {
             "Label": "Enfraquecido",
