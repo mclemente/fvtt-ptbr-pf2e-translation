@@ -551,7 +551,7 @@
         "Title": "Abaixar Escudo"
       },
       "MakeAnImpression": {
-        "Description": "<p>Com pelo menos 1 minuto de conversa, falas carismáticas, lisonjas e outros atos de boa vontade, você busca causar uma boa impressão em alguém para torná-lo temporariamente bem disposto. Ao final da conversa, faça um teste de <span data-pf2-action=\"makeAnImpression\">Diplomacia</span> contra a CD de Vontade de um alvo, modificado por quaisquer circunstâncias que o MJ considerar adequadas. Boas impressões (ou más, em uma falha crítica) duram pelo menos por uma interação social atual a menos que o MJ decida o contrário.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.</p>\n<p><strong>Sucesso</strong> A atitude do alvo em relação a você melhora em um passo.</p>\n<p><strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.</p>",
+        "Description": "<p>Com pelo menos 1 minuto de conversa, falas carismáticas, lisonjas e outros atos de boa vontade, você busca causar uma boa impressão em alguém para torná-lo temporariamente bem-disposto. Ao final da conversa, faça um teste de <span data-pf2-action=\"makeAnImpression\">Diplomacia</span> contra a CD de Vontade de um alvo, modificado por quaisquer circunstâncias que o MJ considerar adequadas. Boas impressões (ou más, em uma falha crítica) duram pelo menos por uma interação social atual a menos que o MJ decida o contrário.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.</p>\n<p><strong>Sucesso</strong> A atitude do alvo em relação a você melhora em um passo.</p>\n<p><strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.",
@@ -560,7 +560,7 @@
         "Title": "Impressionar"
       },
       "ManeuverInFlight": {
-        "Description": "<p>Você tenta uma manobra difícil enquanto voa. Faça um teste de Acrobatismo. O mestre determina quais manobras são possíveis, mas raramente permitirá que você se mova além da sua Velocidade de voo.</p><p><strong>Sucesso</strong> Você é bem-sucedido na manobra.<br><strong>Falha</strong> A manobra falha. O mestre determina se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você tentou (por exemplo, ser desviado da rota se estiver tentando voar contra ventos fortes).<br><strong>Falha crítica</strong> Como na falha, porém as consequências são piores.</p>",
+        "Description": "<p>Você tenta uma manobra difícil enquanto voa. Faça um teste de Acrobatismo. O mestre determina quais manobras são possíveis, mas raramente permitirá que você se mova além da sua Velocidade de voo.</p><p><strong>Sucesso</strong> Você é bem-sucedido na manobra.<br><strong>Falha</strong> A manobra falha. O mestre determina se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você tentou (por exemplo, ser desviado da rota se estiver tentando voar contra ventos fortes).<br><strong>Falha Crítica</strong> Como na falha, porém as consequências são piores.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas a consequência é bem pior.",
           "failure": "<strong>Falha</strong> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
@@ -587,6 +587,7 @@
         "Title": "Empalmar Um Objeto"
       },
       "Perform": {
+        "Description": "<p>Ao realizar uma breve performance — uma canção, dança rápida ou algumas piadas — você usa a ação Performar. Esta ação é especialmente útil quando você quiser provar sua capacidade ou impressionar alguém rapidamente. Performar nem sempre tem impacto por si só, mas pode influenciar as CDs de futuros testes de Diplomacia contra os espectadores, ou até mesmo alterar as atitudes deles, caso o mestre considere adequado.</p><p><strong>Sucesso Crítico</strong> Sua performance impressiona os espectadores, e eles possivelmente contarão histórias sobre as suas habilidades.<br><strong>Sucesso</strong>Você consegue se provar, e os espectadores ficam satisfeitos com a qualidade da sua performance..<br><strong>Falha</strong> Sua performance não agrada.<br><strong>Falha Crítica</strong> Você demonstra pura incompetência.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você demonstra somente incompetência.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Sua performance impressiona os observadores e eles provavelmente compartilharão histórias de sua habilidade.",
@@ -635,12 +636,14 @@
       "PickALock": {
         "Description": "<p>Abrir uma fechadura sem uma chave é muito similar a Desabilitar um Dispositivo, mas a CD do teste de Ladroagem é determinada pela complexidade e construção da fechadura que estiver tentando abrir (trancas e suas CDs são encontradas em suas descrições). Fechaduras de qualidades superiores podem requerer vários sucessos para destrancá-las, afinal, se não fosse isso, até mesmo um ladrão incompetente poderia facilmente abrir a fechadura fazendo o teste várias vezes até rolar um 20 natural. Se você não possuir as ferramentas apropriadas, o MJ pode permitir o uso de ferramentas improvisadas, que são tratadas como ferramentas de má qualidade.</p><p><strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.</p><p><strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa.</p><p><strong>Falha Crítica</strong> Você quebra suas ferramentas. Consertá-las requer usar Manufatura para @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repará-las} ou providenciar @Compendium[pf2e.equipment-srd.Sw7MBLASN3xK4Y44]{Apetrechos de Reposição}</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você quebra suas ferramentas e deixa evidências claras de dano na fechadura. @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Consertar} ferramentas quebradas exige o uso de Manufatura para Consertá-las, ou substituir as @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Gazuas de Reposição}.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
           "success": "<strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
         },
         "Title": "Abrir uma Fechadura"
       },
       "PointOut": {
+        "Description": "<p><strong>Exigências</strong> Uma criatura está indetectada por um ou mais dos seus aliados, mas não\ncontra você.</p><hr><p>Você indica para seus aliados uma criatura que você pode ver, gesticulando em direção a ela e descrevendo sua distância verbalmente. A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} para seus aliados, em vez de @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Indetectada}. Isso só funciona para\naliados que possam vê-lo e que estejam em uma posição em que poderiam detectar o alvo. Se os seus\naliados não puderem ouvi-lo ou entendê-lo, eles precisam ser bem-sucedidos em um teste de @Check[perception|defense:stealth]{Perception} contra a CD de Furtividade da criatura, ou não compreendem suas direções e acreditam que o alvo está em outro lugar.</p>",
         "Title": "Apontar"
       },
       "RaiseAShield": {
