@@ -460,6 +460,7 @@
         }
       },
       "Impersonate": {
+        "Description": "<p>Você cria um disfarce para se passar por outra pessoa ou por algo que você não é. Montar um disfarce convincente leva 10 minutos e exige um @UUID[Compendium.pf2e.equipment-srd.Item.Jvp0x2Sc82WVpExT]{Conjunto de Disfarce}, mas um disfarce mais simples e rápido pode servir caso você não esteja tentando imitar um indivíduo específico, ao critério do mestre.</p><p> Na maioria dos casos, outras criaturas só terão a chance de detectar o seu disfarce se usarem a ação @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} para fazer testes de Percepção contra a sua CD de Dissimulação. Se você tentar interagir diretamente com alguém enquanto estiver disfarçado, em vez disso, o mestre deve fazer um teste secreto de Dissimulação por você contra a CD de Percepção da criatura.</p><p>Se você estiver disfarçado como um indivíduo específico, o mestre pode conceder um bônus de circunstância às criaturas com quem você interagir, de acordo com o quão bem elas conhecem a pessoa que você está imitando. Em alguns casos, o mestre pode fazer um teste secreto de Dissimulação mesmo se você não estiver interagindo diretamente com as criaturas</p><p><strong>Sucesso</strong> A criatura acredita que você é a pessoa na qual está disfarçado. Você pode precisar fazer um novo teste caso mude seu próprio comportamento.<br><strong>Falha</strong> A criatura percebe que você não é quem diz ser.<br><strong>Falha Crítica</strong> A criatura percebe que você não é quem diz ser e reconhece sua verdadeira identidade caso já a conheça.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> A criatura note que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce.",
           "failure": "<strong>Falha</strong> A criatura nota que você não é quem afirma ser.",
@@ -468,6 +469,7 @@
         "Title": "Personificar"
       },
       "Interact": {
+        "Description": "<p>Você usa sua mão (ou mãos) para manusear um objeto ou o terreno. Você pode pegar um objeto desapossado ou guardado, abrir uma porta ou produzir algum efeito similar. Em raras ocasiões, você deve realizar um teste de perícia para determinar se sua ação de Interagir foi bem-sucedida.</p>",
         "Draw": {
           "Title": "Sacar"
         },
@@ -514,15 +516,20 @@
         "Title": "Saltar"
       },
       "LearnASpell": {
+        "Description": "<p><strong>Exigências</strong> Você tem a característica de classe conjuração, e a magia que você quer aprender consta na lista de magias da sua tradição mágica.</p><hr><p>Você pode ganhar acesso a uma nova magia da sua tradição através de alguém que conheça essa magia ou de um texto mágico como um grimório ou pergaminho. Se puder conjurar magias de mais de uma tradição, você pode Aprender Magias de qualquer uma delas, mas deve usar a perícia correspondente à tradição de cada magia. Por exemplo, se você for um clérigo com o arquétipo de bardo multiclasse, não poderia usar Religião para adicionar uma magia ocultista ao seu repertório de magias bárdicas.</p><p> Para aprender a magia, você precisa:</p><ul><li>Gastar 1 hora por círculo da magia, durante as quais você deve permanecer conversando com uma pessoa que conhece a magia, ou ter um texto mágico consigo.</li><li>Ter materiais com o Preço indicado na tabela Aprendendo Magias.</li><li>Fazer um teste da perícia correspondente à sua tradição\n(CD determinada pelo mestre, geralmente semelhante à CD indicada na tabela Aprendendo magias). Magias incomuns ou raras têm CDs maiores. As regras completas para o mestre são descritas na página 52 do Livro do mestre.</li></ul><p><strong>Sucesso Crítico</strong> Você gasta metade dos materiais e aprende a magia.</p><p><strong>Sucesso</strong> Você gasta os materiais e aprende a magia.</p><p><strong>Falha</strong> Você falha em aprender a magia, mas pode tentar novamente após avançar um nível. Os materiais não são gastos.</p><p><strong>Falha Crítica</strong> Como na falha, porém você gasta metade dos materiais.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas você gasta metade dos materiais.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você gasta metade dos materiais e aprende a magia.",
           "failure": "<strong>Falha</strong> Você falha em aprender a magia, mas pode tentar novamente após subir um nível. Os materiais não são gastos.",
           "success": "<strong>Sucesso</strong> Você gasta os materiais e aprende a magia."
         },
-        "Title": "Aprenda uma Magia"
+        "Title": "Aprenda uma Magia",
+        "Warning": {
+          "NoSkill": "A ação Aprender um Feitiço pode ser usada com diferentes perícias, e nenhuma perícia foi especificada. Cada tradição mágica tem uma habilidade correspondente: Arcanismo para a tradição arcana, Natureza para a tradição primal, Ocultismo para a tradição oculta e Religião para a tradição divina."
+        }
       },
       "Lie": {
+        "Description": "<p>Você tenta enganar alguém com uma mentira. Fazer isso leva pelo menos 1 rodada (ou mais, se a mentira for elaborada). Você faz um único teste de Dissimulação e o compara contra a CD de Percepção de cada criatura que está tentando enganar. O mestre pode conceder um bônus de circunstância às criaturas, de acordo com a situação e a natureza da sua mentira. Convencer alguém com mentiras elaboradas ou inacreditáveis é muito mais difícil do que com mentiras mais simples e críveis, e algumas mentiras são tão exageradas que simplesmente não funcionariam contra ninguém.</p><p>Ao critério do mestre, se uma criatura inicialmente acreditar na sua mentira, ela pode mais tarde fazer um teste de Percepção para @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sentir Motivação} contra a sua CD de Dissimulação para perceber que é uma mentira. Normalmente, isso acontecerá se a criatura encontrar evidências o suficiente para contestar as suas afirmações.</p><p><strong>Sucesso</strong> O alvo acredita na sua mentira.<br><strong>Falha</strong> O alvo não acredita na sua mentira e recebe +4 de bônus de circunstância contra as suas tentativas de Mentir durante a conversa. O alvo também se torna mais propenso a desconfiar de você no futuro.</p>",
         "Notes": {
           "failure": "<strong>Falha</strong> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro.",
           "success": "<strong>Sucesso</strong> O alvo acredita em sua mentira."
