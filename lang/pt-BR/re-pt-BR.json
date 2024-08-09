@@ -52,15 +52,19 @@
       "OozeAmmunition": {
         "CriticalHitText": "Em um acerto crítico, o alvo é @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada além dos outros efeitos.",
         "Greater": {
+          "Text": "A criatura leva uma penalidade de -10 pés nas suas Velocidades e @Damage[3d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 29) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Maior)}",
           "Title": "Munição de Gosma (Maior)"
         },
         "Lesser": {
+          "Text": "A criatura leva uma penalidade de -5 pés nas suas Velocidades e @Damage[1d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 16) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Menor)}",
           "Title": "Munição de Gosma (Menor)"
         },
         "Major": {
+          "Text": "A criatura leva uma penalidade de -15 pés nas suas Velocidades e @Damage[4d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 38) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Superior)}",
           "Title": "Munição de Gosma (Superior)"
         },
         "Moderate": {
+          "Text": "A criatura leva uma penalidade de -10 pés nas suas Velocidades e @Damage[2d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 20) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Moderado)}",
           "Title": "Munição de Gosma (Moderada)"
         }
       },
@@ -72,6 +76,7 @@
     "AttackEffects": {
       "DropWeapon": "A criatura larga a arma empunhada.",
       "IgnoreConcealed": "O ataque ignora a condição @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Ocultado}.",
+      "ReduceHiddenCheck": "Ao mirar em alvo @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ocultado} é necessário fazer um teste simples de CD @Check[type:flat|dc:5].",
       "IgnoreCover": "O alvo não se beneficia de cobertura menor, e seu bônus de CA de cobertura padrão é reduzido em 2 contra o ataque.",
       "IncreasedCriticalChance": "Caso o ataque acerte e a criatura rolar um 19 no d20, o ataque vira um acerto crítico. Isso não terá efeito caso o 19 resulte em uma falha.",
       "IncreasedReach5": "O alcance aumenta em 1,5 m",
@@ -79,6 +84,9 @@
       "KnockProne": "Em um acerto, o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
     },
     "BattleForm": {
+      "AberrantForm": {
+        "GugSqueezeNote": "Suas várias articulações permitem que você caiba em espaços apertados como se você fosse uma criatura de tamanho Médio."
+      },
       "AngelForm": {
         "DeafenedNote": "@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Surdo} por 1 rodada em um acerto crítico"
       },
@@ -146,13 +154,28 @@
         "Wing": "Asa"
       },
       "CosmicForm": {
-        "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada."
+        "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
+        "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
+      },
+      "DaemonForm": {
+        "CeustodaemonDamageNote": "Qualquer Golpe bem-sucedido com as mandíbulas ou presas causa um adicional de @Damage[1d6[untyped] de dano, e você recebe a mesma quantidade de dano"
+      },
+      "ElementEmbodied": {
+        "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
+        "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
+      },
+      "InsectForm": {
+        "SpiderWebNote": "Um ataque de teia bem-sucedido envolve o alvo por 1 rodada, mas não causa dano"
+      },
+      "MonstrosityForm": {
+        "ShroudOfFlame": "Manto de Chamas"
       },
       "NatureIncarnate": {
         "GreenMan": "Homem Verde",
         "Kaiju": "Kaiju"
       },
       "Note": {
+        "Grab": "Você pode gastar uma ação imediatamente após um acerto para @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Agarrar} o alvo",
         "GrabbingTrunk": {
           "Title": "Grabbing Trunk (Pathfinder #177)"
         }
