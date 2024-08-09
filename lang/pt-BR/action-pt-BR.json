@@ -537,6 +537,7 @@
         "Title": "Mentir"
       },
       "LongJump": {
+        "Description": "<p>Você @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Anda}, e em seguida faz um teste de Atletismo CD 15 para realizar um salto horizontal na direção em que estava Andando. Se não tiver Andado pelo menos 10 pés, você falha automaticamente. O mestre pode aumentar ou diminuir essa CD\nde acordo com a situação.</p><p><strong>Sucesso</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pula} Você Pula até uma distância de 1 quadrado de 5 pés para cada 5 pontos no resultado do teste. Você não pode saltar uma distância maior que a sua Velocidade terrestre.<br><strong>Falha</strong> Você faz um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pulo} horizontal normal.<br><strong>Falha crítica</strong> Você faz um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pulo} horizontal normal e então cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} normalmente, mas cai e aterrissa @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
           "failure": "<strong>Falha</strong> Você faz um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salto} horizontal normalmente.",
@@ -550,6 +551,7 @@
         "Title": "Abaixar Escudo"
       },
       "MakeAnImpression": {
+        "Description": "<p>Com pelo menos 1 minuto de conversa, falas carismáticas, lisonjas e outros atos de boa vontade, você busca causar uma boa impressão em alguém para torná-lo temporariamente bem disposto. Ao final da conversa, faça um teste de <span data-pf2-action=\"makeAnImpression\">Diplomacia</span> contra a CD de Vontade de um alvo, modificado por quaisquer circunstâncias que o MJ considerar adequadas. Boas impressões (ou más, em uma falha crítica) duram pelo menos por uma interação social atual a menos que o MJ decida o contrário.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.</p>\n<p><strong>Sucesso</strong> A atitude do alvo em relação a você melhora em um passo.</p>\n<p><strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.",
@@ -558,6 +560,7 @@
         "Title": "Impressionar"
       },
       "ManeuverInFlight": {
+        "Description": "<p>Você tenta uma manobra difícil enquanto voa. Faça um teste de Acrobatismo. O mestre determina quais manobras são possíveis, mas raramente permitirá que você se mova além da sua Velocidade de voo.</p><p><strong>Sucesso</strong> Você é bem-sucedido na manobra.<br><strong>Falha</strong> A manobra falha. O mestre determina se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você tentou (por exemplo, ser desviado da rota se estiver tentando voar contra ventos fortes).<br><strong>Falha crítica</strong> Como na falha, porém as consequências são piores.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas a consequência é bem pior.",
           "failure": "<strong>Falha</strong> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
@@ -572,9 +575,11 @@
         "Title": "Manobrar em Voo"
       },
       "Mount": {
+        "Description": "<p><strong>Exigências</strong> Você está adjacente a uma criatura que é pelo menos um tamanho maior do que você e que está disposta a ser sua montaria.</p><hr><p>Você se move até a criatura e a cavalga. Se você já estiver montado, pode usar esta ação para desmontar, movendo-se para fora da montaria e ficando em um espaço adjacente a ela.</p>",
         "Title": "Montar"
       },
       "PalmAnObject": {
+        "Description": "<p>Você pega um objeto desapossado pequeno e tenta não ser notado. Faça um único teste de Ladroagem contra as CDs de Percepção de todas as criaturas que estiverem observando você no momento. Normalmente só é possível Surrupiar Objetos de Volume insignificante, embora o mestre possa permitir objetos maiores dependendo da situação.</p><p><strong>Sucesso</strong> A criatura não nota você Surrupiando o Objeto.</p><p><strong>Falha</strong> A criatura nota você Surrupiando o Objeto.</p>",
         "Notes": {
           "failure": "<strong>Falha</strong> A criatura percebe você Empalmando o Objeto e o MJ determina a resposta dela a isso.",
           "success": "<strong>Sucesso</strong> A criatura não percebe você Empalmando o Objeto."
