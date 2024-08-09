@@ -182,6 +182,9 @@
         },
         "Shove": "Você pode gastar uma ação imediatamente após um acerto para empurrar o alvo por uma distância de 5 pés com os efeitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar}"
       },
+      "OozeForm": {
+        "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
+      },
       "WormForm": {
         "PurpleWorm": "Vorme Púrpura",
         "Hybrid": "Híbrida"
@@ -223,6 +226,9 @@
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}.",
           "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
         }
+      },
+      "BioluminescenceBomb": {
+        "success": "U<p>Cada criatura dentro de @Template[tipo:emanationūdistância:10]{10 feet} de onde a bomba explodiu deve ter sucesso em um salvamento @Check[type:reflex|dc:17] ou ser marcado com tintura que continua brilhando por 24 horas. Uma criatura afetada deve também tentar um teste de salvamento @Check[type:fortitude|dc:17] contra a forte explosão de luz.</p><p><strong>Sucesso</strong> A criatura não é afetada.</p><p><strong>Falha</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p><p><strong>Falha Crítica</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} por 1 rodada, e então @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p>"
       },
       "BlightBomb": {
         "Greater": {
@@ -395,7 +401,10 @@
         "Moderate": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*2d4)[persistent,piercing]]] e [[/r (2[splash])[poison]]]{2 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada.",
           "success": "<strong>Efeito</strong> A bomba também causa [[/r 2d4[persistent,piercing]]] e [[/r (2[splash])[poison]]]{2 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada."
-        }
+        },
+        "Terrain": "Salvo em caso de falha crítica, a área do respingo da bomba torna-se revestida por vegetação, tornando-se um terreno difícil por 1 rodada.",
+        "TerrainLesser": "Salvo em caso de falha crítica, a área ocupada pela criatura atingida torna-se revestida por vegetação, tornando-se um terreno difícil por 1 rodada.",
+        "TerrainMajor": "Salvo em caso de falha crítica, a área do respingo da bomba torna-se revestida por vegetação, tornando-se um terreno difícil por 1 rodada."
       },
       "PeshspineGrenade": {
         "Greater": {
@@ -427,6 +436,17 @@
         "Moderate": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}, Alvos pequenos ou menores são empurrados 1,5 m/5 pés para longe de você, e o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}, Alvos pequenos ou menores são empurrados 1,5 m/5 pés para longe de você."
+        }
+      },
+      "RedpitchBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+        }
+      },
+      "TallowBomb": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
         }
       },
       "TanglefootBag": {
@@ -675,9 +695,34 @@
         "BrokenArmor": "Armadura Personalizada Quebrada",
         "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
+      "DisplacedRobot": {
+        "Fists": "Punhos",
+        "LaserBeam": "Feixe de Laser"
+      },
       "Dramofir": {
         "BittersweetDreamsCriticalFailure": "Falha Crítica",
         "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
+      },
+      "DuskwalkerHuntPrey": {
+        "AC": "Presa Designada ataca ao Crepuscular",
+        "Checks": "Crepuscular rola teste contra a sua Presa Designada"
+      },
+      "Elemental": {
+        "Earth": {
+          "SpikeStones": "Suprimir Aura de Pedra Espinhosas"
+        }
+      },
+      "FacetboundCascader": {
+        "EnergyCharge": "Carga Energética"
+      },
+      "FiveColorOrchidMantis": {
+        "ColorShift": {
+          "Black": "Preto - Água",
+          "Green": "Verde - Madeira",
+          "Red": "Vermelho - Fogo",
+          "White": "Branco - Metal",
+          "Yellow": "Amarelo - Terra"
+        }
       },
       "GauChoRong": {
         "SubsumedTrait": {
@@ -715,11 +760,43 @@
           "AttackOfOpportunity": "Ataque de Oportunidade",
           "SneakAttack": "Ataque Furtivo"
         }
+      },
+      "PlanarScion": {
+        "Duskwalker": {
+          "HuntPrey": {
+            "AC": "Presa Designada ataca ao Crepuscular",
+            "Checks": "Crepuscular rola teste contra a sua Presa Designada"
+          }
+        }
+      },
+      "StoneSpider": {
+        "StoneFangs": "Presas de Pedra"
+      },
+      "Surgeon": {
+        "MedicalMalpracticeCriticalSuccess": "Má Prática Médica (Sucesso Crítico)"
+      },
+      "Target": {
+        "GrabbedByNPC": "Você está com o alvo agarrado."
+      },
+      "TheGreatFlood": {
+        "LeadingHeadName": {
+          "NoHeadSelected": "Nenhum Selecionado",
+          "Aloof": "Indiferente",
+          "Ambitious": "Ambicioso",
+          "Assertive": "Convicto",
+          "Capricious": "Caprichoso",
+          "PeoplePleaser": "Bajulador",
+          "Perfectionist": "Perfeccionista",
+          "Playful": "Brincalhão",
+          "Secretive": "Sigiloso",
+          "Suspicious": "Suspeito"
+        }
       }
     },
     "OracleCurses": {
       "Ancestor": {
         "Label": {
+          "Martial": "Marcial",
           "Spellcasting": "Conjuração"
         }
       },
