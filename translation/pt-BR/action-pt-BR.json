@@ -821,6 +821,7 @@
         "Title": "Levantar"
       },
       "Steal": {
+        "Description": "<p>Você tenta pegar um objeto pequeno de outra criatura sem ser notado. Normalmente, você só pode Furtar objetos de Volume insignificante e falha automaticamente se a criatura estiver em combate ou em guarda.</p><p>Faça um teste de Ladroagem para determinar se você consegue Furtar o objeto. A CD costuma ser a CD de Percepção da criatura que está equipada com o objeto. É mais fácil furtar objetos equipados que não estejam sendo vigiados com atenção (como uma algibeira mal amarrada cheia de moedas ou um objeto dentro dela). O mestre pode aumentar a CD caso o objeto esteja bem protegido ou se a natureza dele tornar mais difícil furtá-lo (como um item muito pequeno em uma mochila grande, ou uma folha de pergaminho misturada com outros documentos). Por exemplo, a CD costuma ser aumentada em 5 se o objeto estiver em um bolso, na mão da criatura ou protegido de forma semelhante.</p><p>Você também pode precisar comparar seu teste de Ladroagem com as CDs de Percepção de espectadores além da pessoa que está equipada com o objeto. O mestre pode impor uma penalidade de circunstância nas CDs de espectadores distraídos.</p><p><strong>Sucesso</strong> Você furta o item sem que o portador ou espectador perceba o ato.</p><p><strong>Falha</strong> O portador do item percebe a sua tentativa antes que você furte o objeto, ou um espectador nota você furtando ou tentando furtar o item. O mestre determina a resposta de quaisquer criaturas que notarem o furto.</p>",
         "Notes": {
           "failure": "<strong>Falha</strong> O portador do item percebe sua tentativa antes de você conseguir pegar o objeto, ou um observador vê que você pega ou tenta pegar o item. O MJ determina a resposta de qualquer criatura que perceber seu roubo.",
           "success": "<strong>Sucesso</strong> Você furta o objeto sem o portador perceber, ou um observador não vê que você pega ou tenta pegar o item."
@@ -845,6 +846,7 @@
         "Title": "Andar"
       },
       "Strike": {
+        "Description": "<p>Você ataca com uma arma que está empunhando ou faz um ataque desarmado, visando uma criatura ao seu alcance corporal (para um ataque corporal) ou dentro da distância (para um ataque à distância). Faça um teste de ataque usando o modificador de ataque da arma ou ataque desarmado que está usando e compare o resultado com a CA do alvo para determinar o efeito.</p><p><strong>Sucesso Crítico</strong> Você faz a jogada de dano correspondente à sua arma ou ataque desarmado e causa o dobro do dano.</p><p><strong>Sucesso</strong> Você faz a jogada de dano correspondente à sua arma ou ataque desarmado e causa dano.</p>",
         "Notes": {
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você faz uma rolagem de dano de acordo com a arma ou ataque desarmado e causa o dobro de dano.",
           "success": "<strong>Sucesso</strong> Você faz uma rolagem de dano de acordo com a arma ou ataque desarmado e causa dano."
@@ -872,6 +874,7 @@
         }
       },
       "Sustain": {
+        "Description": "<p>Escolha um dos seus efeitos de duração sustentada ou que liste um benefício especial quando você o Sustenta. A maioria desses efeitos é concedida por magias ou ativações de itens mágicos. Se o efeito tiver duração sustentada, ela é estendida até o fim do seu próximo turno (Sustentar mais de uma vez no mesmo turno não estende a duração para turnos subsequentes). Se uma habilidade puder ser sustentada, mas não indicar por quanto tempo, ela pode ser sustentada por até 10 minutos.</p><p>Alguns efeitos podem listar benefícios adicionais que ocorrem se você Sustentá-los, e isso pode aparecer até mesmo em efeitos que não têm duração sustentada. Se o efeito tiver um benefício especial e duração sustentada, a sua ação Sustentar estende a duração dele e concede o benefício especial.</p><p>Se sua ação Sustentar for interrompida, a habilidade é encerrada.</p>",
         "Title": "Sustentar"
       },
       "Swim": {
@@ -890,6 +893,7 @@
         "Title": "Nadar"
       },
       "TakeCover": {
+        "Description": "<p>Você se espreme contra uma parede ou se encolhe atrás de um obstáculo para tirar melhor proveito de uma cobertura. Se você normalmente fosse receber cobertura padrão, em vez disso recebe cobertura maior, que fornece +4 de bônus de circunstância na CA, salvamentos de Reflexos contra efeitos de área e testes de Furtividade para Esconder-se, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Esgueirar-se} e evitar detecção de outras formas. Caso contrário, recebe os benefícios de cobertura padrão (+2 bônus de circunstância). Esse benefício dura até que você saia do seu espaço atual, use uma ação de ataque, fique @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} ou encerre esse efeito com uma ação livre.</p>",
         "TowerShield": {
           "Description": "{actor} se protege atrás de seu {shield}."
         },
@@ -920,7 +924,10 @@
         "Title": "Rastrear"
       },
       "TreatDisease": {
+        "Description": "<p>Você gasta pelo menos 8 horas cuidando de uma criatura adoecida. Faça um teste de Medicina contra a CD da doença. Após tentar Tratar Doença em uma criatura, você não pode tentar novamente até o próximo salvamento dela contra a doença.</p><p><strong>Sucesso Crítico</strong> Você concede +4 de bônus de circunstância no próximo salvamento da criatura contra a doença.<br><strong>Sucesso</strong> Você concede +2 de bônus de circunstância no próximo salvamento da criatura contra a doença.<br><strong>Falha Crítica</strong> Seus esforços impõem –2 de penalidade de circunstância no próximo salvamento da criatura contra a doença.</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Seus esforços impõem –2 de penalidade de circunstância no próximo salvamento da criatura contra a doença.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.5oYKYXAexr0vhx84]{Efeito: Tratar Doença Disease (Falha Crítica)}",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você concede +4 de bônus de circunstância no próximo salvamento da criatura contra a doença.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.id20P4pj7zDKeLmy]{Efeito: Tratar Doença (Sucesso Crítico)}",
           "success": "<strong>Sucesso</strong> Você concede à criatura +2 de bônus de circunstância na próxima jogada de salvamento contra a doença.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.Ee2xfKX1yyqGIDZj]{Efeito: Tratar Doença (Sucesso)}"
         },
         "Title": "Tratar Doença"
