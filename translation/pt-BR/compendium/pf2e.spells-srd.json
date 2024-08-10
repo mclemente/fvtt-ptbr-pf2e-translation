@@ -38,6 +38,8 @@
       "target": "1 creature"
     },
     "Acid Grip": {
+      "name": "Aperto Ácido",
+      "description": "<p>Uma mão efêmera e com garras aperta o alvo, queimando-o com ácido mágico. O alvo sofre 2d8 de dano de ácido mais @Damage[floor(@item.level/2)d6[persistent,acid]] de dano persistente de ácido, dependendo do salvamento de Reflexos. Quem estiver sofrendo do dano persistente de ácido desta magia sofre uma penalidade de –10 pés na Velocidade.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Success</strong> A criatura sofre metade do dano, nenhum dano persistente, e a garra move-a até 1,5 metro em uma direção da sua escolha.</p>\n<p><strong>Failure</strong> A criatura sofre o dano completo e o dano persistente, e a garra move-a até 3 metros em uma direção da sua escolha.</p>\n<p><strong>Critical Failure</strong> A criatura sofre o dobro do dano e o dano persistente total, e a garra move-a até 6 metros em uma direção da sua escolha.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> O dano inicial aumenta em 2d8 e o dano persistente de ácido aumenta em 1d6.</p>",
       "target": "1 creature"
     },
     "Acid Splash": {
@@ -1961,6 +1963,10 @@
     "False Vision": {
       "name": "Visão Falsa",
       "description": "<p>Você cria uma imagem falsa que engana quaisquer tentativas de vidência na área. Qualquer magia de vidência vê, ouve, cheira e, de qualquer outra maneira, detecta o que você desejar na área e não o que realmente houver nela. Você pode Sustentar a Magia a cada rodada para mudar a ilusão conforme desejar, inclusive armar uma cena complexa. Se a magia de vidência for de um nível superior a visão falsa, o vidente pode fazer um teste de Percepção para desacreditar a ilusão, embora mesmo que seja bem-sucedido, ele não pode descobrir o que realmente está ocorrendo na área.</p>"
+    },
+    "False Vitality": {
+      "name": "Vitalidade Falsa",
+      "description": "<p>Você aprimora a sua carne com as energias que normalmente são usadas para manipular os mortos-vivos. Você recebe 10 PVs temporários.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> Os PVs temporários aumentam em 3.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.PANUWN5xXC20WBg2]{Efeito de Magia: Vitalidade Falsa}</p>"
     },
     "Falsify Heat": {
       "heightening": {
