@@ -76,7 +76,7 @@ Hooks.once("init", () => {
 		game.babele.register({
 			module: "pathfinder-2e-pt-br",
 			lang: "pt-BR",
-			dir: "lang/compendium",
+			dir: "translation/pt-BR/compendium",
 		});
 
 		game.babele.registerConverters({
