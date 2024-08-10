@@ -1,0 +1,98 @@
+name: Relese
+
+on:
+  workflow_dispatch:
+    inputs:
+      checks:
+        description: 'Versionsnummern in module.json und CURRENT-RELEASE.md aktualisiert?'
+        required: false
+        type: boolean
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Check prerequisites
+        if: inputs.checks == false
+        uses: actions/github-script@v7
+        with:
+          script: |
+            core.setFailed('Kein Release erstellt, bitte Modulversionen und CURRENT-RELEASE.md aktualisieren')
+      
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Get module version
+        run: |
+          MODULE_VERSION=$(grep -oP '(?<="version": ")[^"]+' ./module.json | tr -d '\n')
+          echo "moduleVersion=$MODULE_VERSION" >> $GITHUB_ENV
+      
+      - name: Update CHANGELOG and Commit Changes
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "Github Action"
+          echo -e "$(cat CURRENT-RELEASE.md)\n\n$(cat CHANGELOG.md)" > CHANGELOG.md
+          git add CHANGELOG.md
+          git commit -m "Update Changelog"
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: 'Update Changelog'
+          commit-message: 'Update Changelog with current release info'
+          branch: update-changelog
+          body: |
+            Update Changelog with current release info
+            
+      - name: Merge Pull Request
+        run: gh pr merge --merge --auto ${{ steps.cpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get current PF2 system from master branch
+        run: |
+          mkdir pf2e
+          curl -L -o pf2e/archive.tar.gz https://api.github.com/repos/foundryvtt/pf2e/tarball/master
+          tar -xf pf2e/archive.tar.gz --strip-components=1 --directory pf2e
+
+      - name: Create buildconfig.json for build script
+        id: create-json
+        uses: jsdaniell/create-json@v1.2.3
+        with:
+          name: "buildconfig.json"
+          json: '{"buildPath": "./lang-de-pf2e", "systemPath": "./pf2e"}'
+
+      - name: Build release version
+        run: |
+          git submodule init
+          git submodule update
+          npm ci
+          npm run build
+
+      - name: Zip files
+        working-directory: ./lang-de-pf2e
+        run: zip -r ./lang-de-pf2e.zip ./*
+          
+      - name: Create release
+        id: create_version_release
+        uses: ncipollo/release-action@v1
+        with:
+          name: v${{ env.moduleVersion }}
+          bodyFile: "CURRENT-RELEASE.md"
+          allowUpdates: false
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: './lang-de-pf2e/module.json,./lang-de-pf2e/lang-de-pf2e.zip'
+          tag: v${{ env.moduleVersion }}

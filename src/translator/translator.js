@@ -294,8 +294,8 @@ export class Translator {
 							itemTranslation[dataElement] =
 								dataElement === "description"
 									? itemTranslation[dataElement].replace(
-										  "<Compendium>",
-										  arr[index].system.description.value
+											"<Compendium>",
+											arr[index].system.description.value
 									  )
 									: itemTranslation[dataElement].replace("<Compendium>", arr[index].name);
 						}
