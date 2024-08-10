@@ -1,11 +1,18 @@
 export const LIVROS_TRADUZIDOS = [
+	// Livros de Regra
 	"Pathfinder Player Core",
 	"Pathfinder Core Rulebook",
-	"Pathfinder Bestiary",
 	"Pathfinder Gamemastery Guide",
+	"Pathfinder GM Core",
 	"Pathfinder Advanced Player's Guide",
-	"Pathfinder Bestiary 2",
 	"Pathfinder Secrets of Magic",
+	"Pathfinder Guns & Gears",
+	// Bestiários
+	"Pathfinder Bestiary",
+	"Pathfinder Bestiary 2",
+	// Baralho de Críticos
+	"Pathfinder Critical Decks",
+	// Presságios Perdidos
 	"Pathfinder Lost Omens: World Guide",
 	"Pathfinder Lost Omens: Character Guide",
 	"Pathfinder Lost Omens: Gods & Magic",
@@ -13,6 +20,7 @@ export const LIVROS_TRADUZIDOS = [
 	"Pathfinder Lost Omens: Legends",
 	"Pathfinder Lost Omens: Pathfinder Society Guide",
 	"Pathfinder Lost Omens: Ancestry Guide",
+	// Aventuras Independentes
 	"Pathfinder Adventure: We Be Heroes?",
 	"Pathfinder Adventure: The Fall of Plaguestone",
 	"Pathfinder Adventure: The Slithering",
@@ -21,6 +29,7 @@ export const LIVROS_TRADUZIDOS = [
 	"Pathfinder Adventure: Troubles in Otari",
 	"Pathfinder Adventure: Little Trouble In Big Absalom",
 	"Pathfinder Adventure: Night of the Gray Death",
+	// Trilha de Aventuras
 	"Pathfinder Age of Ashes Player's Guide",
 	"Pathfinder #145: Age of Ashes - Hellknight Hill",
 	"Pathfinder #146: Age of Ashes - Cult of Cinders",
@@ -35,6 +44,7 @@ export const LIVROS_TRADUZIDOS = [
 	"Pathfinder #154: Extinction Curse - Siege Of The Dinosaurs",
 	"Pathfinder #155: Extinction Curse - Lord of the Black Sands",
 	"Pathfinder #156: Extinction Curse - The Apocalypse Prophet",
+	// Pathfinder Society Quests
 	"Pathfinder Society Quest #01: The Sandstone Secret",
 	"Pathfinder Society Quest #02: Unforgiving Fire",
 	"Pathfinder Society Quest #03: Grehunde's Gorget",
@@ -48,6 +58,7 @@ export const LIVROS_TRADUZIDOS = [
 	"Pathfinder Society Quest #11: A Parchment Tree",
 	"Pathfinder Society Quest #12: Putrid Seeds",
 	"Pathfinder Society Quest #13: Falcons' Descent",
+	// Pathfinder Society Scenarios
 	"Pathfinder Society Scenario #01-00 Origin Of The Open Road",
 	"Pathfinder Society Scenario #01-01 The Absalom Initiation",
 	"Pathfinder Society Scenario #01-02 The Mosquito Witch",
