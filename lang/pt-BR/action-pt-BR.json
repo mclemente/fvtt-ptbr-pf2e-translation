@@ -460,6 +460,7 @@
         }
       },
       "Impersonate": {
+        "Description": "<p>Você cria um disfarce para se passar por outra pessoa ou por algo que você não é. Montar um disfarce convincente leva 10 minutos e exige um @UUID[Compendium.pf2e.equipment-srd.Item.Jvp0x2Sc82WVpExT]{Conjunto de Disfarce}, mas um disfarce mais simples e rápido pode servir caso você não esteja tentando imitar um indivíduo específico, ao critério do mestre.</p><p> Na maioria dos casos, outras criaturas só terão a chance de detectar o seu disfarce se usarem a ação @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} para fazer testes de Percepção contra a sua CD de Dissimulação. Se você tentar interagir diretamente com alguém enquanto estiver disfarçado, em vez disso, o mestre deve fazer um teste secreto de Dissimulação por você contra a CD de Percepção da criatura.</p><p>Se você estiver disfarçado como um indivíduo específico, o mestre pode conceder um bônus de circunstância às criaturas com quem você interagir, de acordo com o quão bem elas conhecem a pessoa que você está imitando. Em alguns casos, o mestre pode fazer um teste secreto de Dissimulação mesmo se você não estiver interagindo diretamente com as criaturas</p><p><strong>Sucesso</strong> A criatura acredita que você é a pessoa na qual está disfarçado. Você pode precisar fazer um novo teste caso mude seu próprio comportamento.<br><strong>Falha</strong> A criatura percebe que você não é quem diz ser.<br><strong>Falha Crítica</strong> A criatura percebe que você não é quem diz ser e reconhece sua verdadeira identidade caso já a conheça.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> A criatura note que você não é quem afirma ser e o reconhece caso o conheça previamente sem um disfarce.",
           "failure": "<strong>Falha</strong> A criatura nota que você não é quem afirma ser.",
@@ -468,6 +469,7 @@
         "Title": "Personificar"
       },
       "Interact": {
+        "Description": "<p>Você usa sua mão (ou mãos) para manusear um objeto ou o terreno. Você pode pegar um objeto desapossado ou guardado, abrir uma porta ou produzir algum efeito similar. Em raras ocasiões, você deve realizar um teste de perícia para determinar se sua ação de Interagir foi bem-sucedida.</p>",
         "Draw": {
           "Title": "Sacar"
         },
@@ -511,18 +513,24 @@
         "Title": "Interagir"
       },
       "Leap": {
+        "Description": "<p>Você faz um pequeno salto horizontal ou vertical. Saltar uma distância maior exige usar a perícia Atletismo para realizar um @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Salto em Altura} ou @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Salto em Distância}.</p><ul><li> Um Pulo<strong>Horizontal</strong> permite que você salte e aterrisse ao final do seu @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pulo}. Você Pula até 10 pés horizontalmente se a sua Velocidade for de pelo menos 15 pés (sendo possível passar por cima de um buraco de 5 pés) ou você Pula até 15 pés horizontalmente se sua Velocidade for de pelo menos 30 pés (você consegue passar um buraco de 3 metros). Você não pode fazer um Pulo horizontal se a sua Velocidade for menor que 15 pés. </li><li> Um Pulo<strong>Vertical</strong> permite que você salte até 3 pés verticalmente e 5 pés horizontalmente rumo a uma superfície elevada.</li></ul>",
         "Title": "Saltar"
       },
       "LearnASpell": {
+        "Description": "<p><strong>Exigências</strong> Você tem a característica de classe conjuração, e a magia que você quer aprender consta na lista de magias da sua tradição mágica.</p><hr><p>Você pode ganhar acesso a uma nova magia da sua tradição através de alguém que conheça essa magia ou de um texto mágico como um grimório ou pergaminho. Se puder conjurar magias de mais de uma tradição, você pode Aprender Magias de qualquer uma delas, mas deve usar a perícia correspondente à tradição de cada magia. Por exemplo, se você for um clérigo com o arquétipo de bardo multiclasse, não poderia usar Religião para adicionar uma magia ocultista ao seu repertório de magias bárdicas.</p><p> Para aprender a magia, você precisa:</p><ul><li>Gastar 1 hora por círculo da magia, durante as quais você deve permanecer conversando com uma pessoa que conhece a magia, ou ter um texto mágico consigo.</li><li>Ter materiais com o Preço indicado na tabela Aprendendo Magias.</li><li>Fazer um teste da perícia correspondente à sua tradição\n(CD determinada pelo mestre, geralmente semelhante à CD indicada na tabela Aprendendo magias). Magias incomuns ou raras têm CDs maiores. As regras completas para o mestre são descritas na página 52 do Livro do mestre.</li></ul><p><strong>Sucesso Crítico</strong> Você gasta metade dos materiais e aprende a magia.</p><p><strong>Sucesso</strong> Você gasta os materiais e aprende a magia.</p><p><strong>Falha</strong> Você falha em aprender a magia, mas pode tentar novamente após avançar um nível. Os materiais não são gastos.</p><p><strong>Falha Crítica</strong> Como na falha, porém você gasta metade dos materiais.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas você gasta metade dos materiais.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você gasta metade dos materiais e aprende a magia.",
           "failure": "<strong>Falha</strong> Você falha em aprender a magia, mas pode tentar novamente após subir um nível. Os materiais não são gastos.",
           "success": "<strong>Sucesso</strong> Você gasta os materiais e aprende a magia."
         },
-        "Title": "Aprenda uma Magia"
+        "Title": "Aprenda uma Magia",
+        "Warning": {
+          "NoSkill": "A ação Aprender um Feitiço pode ser usada com diferentes perícias, e nenhuma perícia foi especificada. Cada tradição mágica tem uma habilidade correspondente: Arcanismo para a tradição arcana, Natureza para a tradição primal, Ocultismo para a tradição oculta e Religião para a tradição divina."
+        }
       },
       "Lie": {
+        "Description": "<p>Você tenta enganar alguém com uma mentira. Fazer isso leva pelo menos 1 rodada (ou mais, se a mentira for elaborada). Você faz um único teste de Dissimulação e o compara contra a CD de Percepção de cada criatura que está tentando enganar. O mestre pode conceder um bônus de circunstância às criaturas, de acordo com a situação e a natureza da sua mentira. Convencer alguém com mentiras elaboradas ou inacreditáveis é muito mais difícil do que com mentiras mais simples e críveis, e algumas mentiras são tão exageradas que simplesmente não funcionariam contra ninguém.</p><p>Ao critério do mestre, se uma criatura inicialmente acreditar na sua mentira, ela pode mais tarde fazer um teste de Percepção para @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sentir Motivação} contra a sua CD de Dissimulação para perceber que é uma mentira. Normalmente, isso acontecerá se a criatura encontrar evidências o suficiente para contestar as suas afirmações.</p><p><strong>Sucesso</strong> O alvo acredita na sua mentira.<br><strong>Falha</strong> O alvo não acredita na sua mentira e recebe +4 de bônus de circunstância contra as suas tentativas de Mentir durante a conversa. O alvo também se torna mais propenso a desconfiar de você no futuro.</p>",
         "Notes": {
           "failure": "<strong>Falha</strong> O alvo não acredita em sua mentira e recebe +4 de bônus de circunstância contra suas tentativas de Mentir pela duração de sua conversa. É mais provável que o alvo suspeite de você no futuro.",
           "success": "<strong>Sucesso</strong> O alvo acredita em sua mentira."
@@ -530,6 +538,7 @@
         "Title": "Mentir"
       },
       "LongJump": {
+        "Description": "<p>Você @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Anda}, e em seguida faz um teste de Atletismo CD 15 para realizar um salto horizontal na direção em que estava Andando. Se não tiver Andado pelo menos 10 pés, você falha automaticamente. O mestre pode aumentar ou diminuir essa CD\nde acordo com a situação.</p><p><strong>Sucesso</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pula} Você Pula até uma distância de 1 quadrado de 5 pés para cada 5 pontos no resultado do teste. Você não pode saltar uma distância maior que a sua Velocidade terrestre.<br><strong>Falha</strong> Você faz um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pulo} horizontal normal.<br><strong>Falha Crítica</strong> Você faz um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Pulo} horizontal normal e então cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta} normalmente, mas cai e aterrissa @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
           "failure": "<strong>Falha</strong> Você faz um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salto} horizontal normalmente.",
@@ -543,6 +552,7 @@
         "Title": "Abaixar Escudo"
       },
       "MakeAnImpression": {
+        "Description": "<p>Com pelo menos 1 minuto de conversa, falas carismáticas, lisonjas e outros atos de boa vontade, você busca causar uma boa impressão em alguém para torná-lo temporariamente bem-disposto. Ao final da conversa, faça um teste de <span data-pf2-action=\"makeAnImpression\">Diplomacia</span> contra a CD de Vontade de um alvo, modificado por quaisquer circunstâncias que o MJ considerar adequadas. Boas impressões (ou más, em uma falha crítica) duram pelo menos por uma interação social atual a menos que o MJ decida o contrário.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.</p>\n<p><strong>Sucesso</strong> A atitude do alvo em relação a você melhora em um passo.</p>\n<p><strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> A atitude do alvo em relação a você piora em um passo.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> A atitude do alvo em relação a você melhora em dois passos.",
@@ -551,6 +561,7 @@
         "Title": "Impressionar"
       },
       "ManeuverInFlight": {
+        "Description": "<p>Você tenta uma manobra difícil enquanto voa. Faça um teste de Acrobatismo. O mestre determina quais manobras são possíveis, mas raramente permitirá que você se mova além da sua Velocidade de voo.</p><p><strong>Sucesso</strong> Você é bem-sucedido na manobra.<br><strong>Falha</strong> A manobra falha. O mestre determina se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você tentou (por exemplo, ser desviado da rota se estiver tentando voar contra ventos fortes).<br><strong>Falha Crítica</strong> Como na falha, porém as consequências são piores.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Como falha, mas a consequência é bem pior.",
           "failure": "<strong>Falha</strong> Sua manobra falha. O MJ escolhe se você simplesmente não consegue se mover ou se ocorre algum outro efeito prejudicial. O resultado deve ser apropriado para a manobra que você está tentando realizar (por exemplo, ser tirado de curso se estiver tentando voar contra um vento forte).",
@@ -565,9 +576,11 @@
         "Title": "Manobrar em Voo"
       },
       "Mount": {
+        "Description": "<p><strong>Exigências</strong> Você está adjacente a uma criatura que é pelo menos um tamanho maior do que você e que está disposta a ser sua montaria.</p><hr><p>Você se move até a criatura e a cavalga. Se você já estiver montado, pode usar esta ação para desmontar, movendo-se para fora da montaria e ficando em um espaço adjacente a ela.</p>",
         "Title": "Montar"
       },
       "PalmAnObject": {
+        "Description": "<p>Você pega um objeto desapossado pequeno e tenta não ser notado. Faça um único teste de Ladroagem contra as CDs de Percepção de todas as criaturas que estiverem observando você no momento. Normalmente só é possível Surrupiar Objetos de Volume insignificante, embora o mestre possa permitir objetos maiores dependendo da situação.</p><p><strong>Sucesso</strong> A criatura não nota você Surrupiando o Objeto.</p><p><strong>Falha</strong> A criatura nota você Surrupiando o Objeto.</p>",
         "Notes": {
           "failure": "<strong>Falha</strong> A criatura percebe você Empalmando o Objeto e o MJ determina a resposta dela a isso.",
           "success": "<strong>Sucesso</strong> A criatura não percebe você Empalmando o Objeto."
@@ -575,6 +588,7 @@
         "Title": "Empalmar Um Objeto"
       },
       "Perform": {
+        "Description": "<p>Ao realizar uma breve performance — uma canção, dança rápida ou algumas piadas — você usa a ação Performar. Esta ação é especialmente útil quando você quiser provar sua capacidade ou impressionar alguém rapidamente. Performar nem sempre tem impacto por si só, mas pode influenciar as CDs de futuros testes de Diplomacia contra os espectadores, ou até mesmo alterar as atitudes deles, caso o mestre considere adequado.</p><p><strong>Sucesso Crítico</strong> Sua performance impressiona os espectadores, e eles possivelmente contarão histórias sobre as suas habilidades.<br><strong>Sucesso</strong>Você consegue se provar, e os espectadores ficam satisfeitos com a qualidade da sua performance..<br><strong>Falha</strong> Sua performance não agrada.<br><strong>Falha Crítica</strong> Você demonstra pura incompetência.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você demonstra somente incompetência.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Sua performance impressiona os observadores e eles provavelmente compartilharão histórias de sua habilidade.",
@@ -623,12 +637,14 @@
       "PickALock": {
         "Description": "<p>Abrir uma fechadura sem uma chave é muito similar a Desabilitar um Dispositivo, mas a CD do teste de Ladroagem é determinada pela complexidade e construção da fechadura que estiver tentando abrir (trancas e suas CDs são encontradas em suas descrições). Fechaduras de qualidades superiores podem requerer vários sucessos para destrancá-las, afinal, se não fosse isso, até mesmo um ladrão incompetente poderia facilmente abrir a fechadura fazendo o teste várias vezes até rolar um 20 natural. Se você não possuir as ferramentas apropriadas, o MJ pode permitir o uso de ferramentas improvisadas, que são tratadas como ferramentas de má qualidade.</p><p><strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.</p><p><strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa.</p><p><strong>Falha Crítica</strong> Você quebra suas ferramentas. Consertá-las requer usar Manufatura para @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repará-las} ou providenciar @Compendium[pf2e.equipment-srd.Sw7MBLASN3xK4Y44]{Apetrechos de Reposição}</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você quebra suas ferramentas e deixa evidências claras de dano na fechadura. @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Consertar} ferramentas quebradas exige o uso de Manufatura para Consertá-las, ou substituir as @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Gazuas de Reposição}.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
           "success": "<strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
         },
         "Title": "Abrir uma Fechadura"
       },
       "PointOut": {
+        "Description": "<p><strong>Exigências</strong> Uma criatura está indetectada por um ou mais dos seus aliados, mas não\ncontra você.</p><hr><p>Você indica para seus aliados uma criatura que você pode ver, gesticulando em direção a ela e descrevendo sua distância verbalmente. A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondida} para seus aliados, em vez de @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Indetectada}. Isso só funciona para\naliados que possam vê-lo e que estejam em uma posição em que poderiam detectar o alvo. Se os seus\naliados não puderem ouvi-lo ou entendê-lo, eles precisam ser bem-sucedidos em um teste de @Check[perception|defense:stealth]{Perception} contra a CD de Furtividade da criatura, ou não compreendem suas direções e acreditam que o alvo está em outro lugar.</p>",
         "Title": "Apontar"
       },
       "RaiseAShield": {
@@ -648,6 +664,7 @@
         "Title": "Preparar"
       },
       "RecallKnowledge": {
+        "Description": "<p>Você faz um teste de perícia para tentar se lembrar de alguma informação sobre um assunto relacionado à perícia. Sugira qual perícia você gostaria de usar e faça uma pergunta ao mestre. Ele\ndetermina a CD. Você pode precisar colaborar com o mestre para deixar a pergunta mais específica ou escolher a perícia, e caso não goste das opções, você pode decidir não Recordar Conhecimento antes de se comprometer com a ação.</p><p><strong>Sucesso Crítico</strong> Você se recorda da informação corretamente. O mestre responde à sua pergunta com sinceridade e compartilha informações ou contexto adicionais, ou responde a uma segunda pergunta.</p><p><strong>Sucesso</strong> Você se recorda da informação corretamente. O mestre responde à sua pergunta com sinceridade.</p><p><strong>Falha Crítica</strong> Você se recorda da informação incorretamente. O mestre responde à sua pergunta com uma mentira (ou decide não conceder informação, como em uma falha).</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você recorda informações incorretas. O MJ responde falsamente à sua pergunta (ou decide não lhe dar nenhuma informação, como se fosse uma falha).",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você recorda o conhecimento precisamente. O MJ responde à sua pergunta com sinceridade e fornece informações adicionais ou contexto, ou responde a uma pergunta complementar.",
@@ -667,6 +684,7 @@
         }
       },
       "Release": {
+        "Description": "<p><p>Você solta algo que está segurando na mão ou mãos. Isso pode ser soltar um item, remover uma mão da arma enquanto continua segurando-a com a outra, largar uma corda presa a um candelabro ou outra ação parecida. Ao contrário da maioria das ações de manuseio, Largar não aciona reações que podem ser acionadas por ações com o traço manuseio (como Golpe Reativo).</p><p>Se quiser preparar-se para Largar algo fora de seu turno, você pode usar a atividade @Uuid[Compendium. pf2e. actionspf2e. dLgAMt3TbkmLkUqE]{Preparar.}</p>",
         "Drop": {
           "Description": "{actor} solta sua/seu {weapon} no chão.",
           "Title": "Largar"
@@ -719,6 +737,7 @@
         "Title": "Reposicionar"
       },
       "Request": {
+        "Description": "<p>Você pode fazer um pedido a uma criatura que seja amistosa ou prestativa com você. É necessário formular o pedido de uma forma que o alvo aceitaria, considerando a atitude dele em relação a você. O mestre determina a CD de acordo com a dificuldade do pedido. Alguns pedidos são tão desagradáveis ou impossíveis que até mesmo um PdM prestativo jamais concordaria.</p><p><strong>Sucesso Crítico</strong> O alvo concorda com o pedido sem ressalvas.<br><strong>Sucesso</strong> O alvo concorda com o pedido, mas pode exigir mais provisões ou alterações no pedido.<br><strong>Falha</strong> O alvo rejeita o pedido, mas pode propor uma alternativa menos extrema.<br><strong>Falha Crítica</strong> O alvo não só rejeita o pedido, como a atitude dele em relação a você diminui em um passo devido à sua audácia.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Não apenas o alvo recusa o pedido, como a atitude dele em relação a você piora em um passo devido à temeridade do pedido.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo concorda com seu pedido sem exigências.",
@@ -728,9 +747,15 @@
         "Title": "Pedir"
       },
       "Seek": {
+        "Description": "<p>Você procura por sinais de criaturas ou objetos em uma área, possivelmente incluindo portas secretas ou perigos. Escolha uma área para examinar. O mestre determina a área que você pode analisar com uma ação @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} — quase sempre é 30 pés ou menos, em qualquer dimensão. O mestre pode impor uma penalidade se você estiver procurando algo longe de você ou ajustar a quantidade de ações necessárias para Buscar em uma área particularmente lotada de coisas.</p><p>O mestre fará um único teste secreto de Percepção por você e comparar o resultado com as CDs de Furtividade de quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} ou @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} na área, ou com a CD para detectar cada objeto na área (conforme determinado pelo mestre ou por alguém que esteja Ocultando o Objeto). Se você estiver usando um sentido impreciso ou se um efeito (como invisibilidade) impedir que o alvo seja observado, a criatura detectada pode permanecer escondida, em vez de tornar-se observada.</p><p><strong>Sucesso Crítico</strong> Quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} ou @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} contra as quais você tiver obtido sucesso crítico tornam-se @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observadas} por você. Você descobre a localização de objetos na área contra os quais obteve sucesso crítico.</p><p><strong>Sucesso</strong> Quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} contra as quais você tiver obtido sucesso ficam @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} contra você; se a criatura já estava @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondida}, ela torna-se @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observada} por você. Você descobre a localização de algum objeto ou recebe uma pista sobre o paradeiro dele, conforme determinado pelo mestre.</p>",
+        "Notes": {
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} ou @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} contra as quais você tiver obtido sucesso crítico tornam-se @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observadas} por você. Você descobre a localização de objetos na área contra os quais obteve sucesso crítico.",
+          "success": "<strong>Sucesso</strong> Quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} contra as quais você tiver obtido sucesso ficam @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} contra você; se a criatura já estava @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondida}, ela torna-se @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observada} por você. Você descobre a localização de algum objeto ou recebe uma pista sobre o paradeiro dele, conforme determinado pelo mestre."
+        },
         "Title": "Buscar"
       },
       "SenseDirection": {
+        "Description": "<p>Baseando-se nas estrelas, na posição do sol, características da geografia ou flora e comportamentos da fauna, você consegue manter-se orientado nos ermos. Isso normalmente requer um único teste de Sobrevivência por dia, mas alguns ambientes ou circunstâncias podem exigir testes com maior frequência. O mestre determina a CD e quanto tempo essa atividade leva (geralmente por volta de um minuto). Locais mais incomuns ou com os quais você não esteja familiarizado podem exigir uma graduação de proficiência mínima para Intuir Direção. Se não tiver uma bússola, você sofre –2 de penalidade de item em testes para Intuir Direção.</p><p><strong>Sucesso Crítico</strong> Você tem uma noção excelente de onde está. Se estiver em um ambiente com direções cardeais, você as sabe com exatidão.</p><p><strong>Sucesso</strong> Você consegue se orientar o suficiente para evitar se perder por completo. Se estiver em um ambiente com direções cardeais, você tem uma noção geral sobre elas.</p>",
         "Modifier": {
           "NoCompass": "Sem bússola"
         },
@@ -748,6 +773,7 @@
         "Title": "Intuir Direção"
       },
       "SenseMotive": {
+        "Description": "<p>Você tenta determinar se há algo de errado com o comportamento de uma criatura. Escolha uma criatura e procure indícios de linguagem corporal estranha, sinais de nervosismo e outros indicadores de que ela possa estar tentando enganar alguém. O mestre fará um único teste secreto de Percepção por você e comparará o resultado com a CD de Dissimulação da criatura, a CD de uma magia que esteja afetando o estado mental dela, ou outra CD que ele considere apropriada. Geralmente, você não pode tentar Sentir a Motivação da mesma criatura outra vez até que a situação tenha mudado bastante.</p><p><strong>Sucesso Crítico</strong> Você determina as verdadeiras intenções da criatura e tem uma boa noção sobre a magia mental que está afetando-a.</p><p><strong>Sucesso</strong> Você consegue determinar se a criatura está se comportando normalmente ou não, mas não sabe as verdadeiras intenções dela ou que magia pode estar afetando-a.</p><p><strong>Falha</strong> Você detecta o que uma criatura que está lhe enganando quer que você acredite. Se ela não estiver tentando lhe enganar, você acredita que ela está se comportando normalmente.</p><p><strong>Falha Crítica</strong> Você obtém uma impressão equivocada sobre as intenções da criatura.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você obtém uma falsa noção das intenções da criatura.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você determina as verdadeiras intenções da criatura e obtém uma ideia concreta de qualquer magia mental que esteja afetando-a.",
@@ -760,6 +786,7 @@
         "SelectAShield": "Selecione um escudo"
       },
       "Shove": {
+        "Description": "<p><strong>Exigências</strong> Você tem pelo menos uma mão livre. Seu alvo não pode ser mais de um tamanho maior que você</p><hr><p>Você empurra uma criatura para longe de você. Faça um teste de\nAtletismo contra a CD de Fortitude do alvo.</p><p><strong>Critical Success</strong> Você empurra o alvo até 10 pés para longe de você. Você pode @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Andar} atrás dele, mas precisa se mover a mesma distância e na mesma direção que ele.<br><strong>Sucesso</strong> Você empurra o alvo 5 pés para longe de você. Você\npode @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Andar} atrás dele, mas precisa se mover a mesma distância e na mesma direção que ele.<br><strong>Falha Crítica</strong> Você perde o equilíbrio e cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio, cai e fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você empurra seu oponente até 10 pés para longe de você. Você pode @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Andar} após isso, mas deve mover-se a mesma distância e na mesma direção.",
@@ -768,6 +795,7 @@
         "Title": "Empurrar"
       },
       "Sneak": {
+        "Description": "<p>Você tenta se mover para outro local ao mesmo tempo que fica ou permanece indetectado. Ande até metade da sua Velocidade (você pode usar Esgueirar-se ao Escalar, Escavar, Nadar ou Voar, em vez de Andar, se tiver o tipo de movimento correspondente, mas move-se até metade da Velocidade utilizada).</p><p>Ao fim do seu movimento, o mestre faz um teste secreto de Furtividade por você e compara o resultado com a CD de Percepção de cada criatura contra a qual você estava escondido ou indetectado no início do movimento. Se você tiver cobertura ou cobertura maior contra a criatura ao longo do movimento, recebe o +2 de bônus de circunstância da cobertura (ou +4, se tiver cobertura maior) nesse teste de Furtividade. Por estar se movendo, melhorias no grau de cobertura (de padrão para maior) não aumentam o bônus fornecido. Você não pode fazer esse teste contra uma criatura se, ao fim do seu movimento, não estiver ocultado ou tiver cobertura, ou cobertura maior contra ela. Nesse caso, você automaticamente se torna observado por ela.</p><p><strong>Sucesso</strong> Você fica indetectado contra a criatura durante o seu movimento e permanece indetectado contra ela após mover-se.</p><p>Você se torna observado assim que fizer qualquer coisa além de Esconder-se, Esgueirar-se ou Dar um Passo. Se você tentar Golpear uma criatura, ela permanece desprevenida contra esse ataque, e você passa a estar observado logo em seguida. Se você fizer qualquer outra coisa, fica observado logo antes de agir, a menos que o mestre determine o contrário. O mestre pode permitir que você faça alguma outra ação particularmente discreta sem ser notado, possivelmente exigindo outro teste de Furtividade. Se falar ou fizer algum barulho deliberadamente alto, você fica escondido, em vez de indetectado.</p><p>Se uma criatura usar Buscar e como resultado torná-lo escondido contra ela, você precisa Esgueirar-se caso queira ficar indetectado contra ela novamente.</p><p><strong>Falha</strong> Um som revelador ou outro sinal denuncia sua posição, embora você ainda não seja visto. Você fica escondido contra a criatura ao longo do seu movimento e permanece assim.</p><p><strong>Falha Crítica</strong> Você é visto! Você fica observado pela criatura ao longo do seu movimento e permanece assim. Se você estiver invisível e escondido contra a criatura, você fica escondido ao longo do movimento, em vez de observado, e permanece assim.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você é visto! Você é observado pela criatura durante todo seu movimento e permanece assim. Se estiver invisível e estava escondido da criatura, em vez de ser observado durante seu movimento, você fica escondido durante todo seu movimento e permanece assim.",
           "failure": "<strong>Falha</strong> Um som revelador ou outro sinal indica sua posição, embora você permaneça escondido. Você fica escondido da criatura durante todo seu movimento e permanece assim.",
@@ -776,6 +804,7 @@
         "Title": "Esgueirar"
       },
       "Squeeze": {
+        "Description": "<p>Você se contorce para se espremer por um espaço tão pequeno que mal consegue atravessar. Esta ação é para espaços excepcionalmente pequenos. Muitos espaços apertados são considerados terreno difícil pelos quais você poderia atravessar mais rapidamente e sem necessidade de teste.</p><p><strong>Sucesso Crítico</strong> Você se espreme pelo espaço apertado a uma taxa\nde 10 pés por minuto.<br><strong>Sucesso</strong> Você se espreme a uma taxa de 5 pés por minuto.<br><strong>Falha Crítica </strong> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo com a mesma CD. Qualquer resultado nesse teste que não seja uma falha crítica faz com que você se solte.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você fica preso no espaço apertado. Enquanto estiver preso, você pode gastar 1 minuto fazendo outro teste de Acrobatismo contra a mesma CD. Qualquer resultado nesse teste diferente de uma falha crítica faz com que deixe de estar preso.",
           "criticalSuccess": "<b>Sucesso Crítico</b> Você se espreme através do espaço apertado em 1 minuto para cada 10 pés atravessados.",

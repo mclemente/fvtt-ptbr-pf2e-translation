@@ -50,16 +50,21 @@
         }
       },
       "OozeAmmunition": {
+        "CriticalHitText": "Em um acerto crítico, o alvo é @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada além dos outros efeitos.",
         "Greater": {
+          "Text": "A criatura leva uma penalidade de -10 pés nas suas Velocidades e @Damage[3d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 29) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Maior)}",
           "Title": "Munição de Gosma (Maior)"
         },
         "Lesser": {
+          "Text": "A criatura leva uma penalidade de -5 pés nas suas Velocidades e @Damage[1d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 16) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Menor)}",
           "Title": "Munição de Gosma (Menor)"
         },
         "Major": {
+          "Text": "A criatura leva uma penalidade de -15 pés nas suas Velocidades e @Damage[4d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 38) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Superior)}",
           "Title": "Munição de Gosma (Superior)"
         },
         "Moderate": {
+          "Text": "A criatura leva uma penalidade de -10 pés nas suas Velocidades e @Damage[2d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 20) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Moderado)}",
           "Title": "Munição de Gosma (Moderada)"
         }
       },
@@ -71,6 +76,7 @@
     "AttackEffects": {
       "DropWeapon": "A criatura larga a arma empunhada.",
       "IgnoreConcealed": "O ataque ignora a condição @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Ocultado}.",
+      "ReduceHiddenCheck": "Ao mirar em alvo @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ocultado} é necessário fazer um teste simples de CD @Check[type:flat|dc:5].",
       "IgnoreCover": "O alvo não se beneficia de cobertura menor, e seu bônus de CA de cobertura padrão é reduzido em 2 contra o ataque.",
       "IncreasedCriticalChance": "Caso o ataque acerte e a criatura rolar um 19 no d20, o ataque vira um acerto crítico. Isso não terá efeito caso o 19 resulte em uma falha.",
       "IncreasedReach5": "O alcance aumenta em 1,5 m",
@@ -78,6 +84,9 @@
       "KnockProne": "Em um acerto, o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
     },
     "BattleForm": {
+      "AberrantForm": {
+        "GugSqueezeNote": "Suas várias articulações permitem que você caiba em espaços apertados como se você fosse uma criatura de tamanho Médio."
+      },
       "AngelForm": {
         "DeafenedNote": "@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Surdo} por 1 rodada em um acerto crítico"
       },
@@ -145,16 +154,36 @@
         "Wing": "Asa"
       },
       "CosmicForm": {
-        "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada."
+        "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
+        "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
+      },
+      "DaemonForm": {
+        "CeustodaemonDamageNote": "Qualquer Golpe bem-sucedido com as mandíbulas ou presas causa um adicional de @Damage[1d6[untyped] de dano, e você recebe a mesma quantidade de dano"
+      },
+      "ElementEmbodied": {
+        "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
+        "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
+      },
+      "InsectForm": {
+        "SpiderWebNote": "Um ataque de teia bem-sucedido envolve o alvo por 1 rodada, mas não causa dano"
+      },
+      "MonstrosityForm": {
+        "ShroudOfFlame": "Manto de Chamas"
       },
       "NatureIncarnate": {
         "GreenMan": "Homem Verde",
         "Kaiju": "Kaiju"
       },
       "Note": {
+        "Grab": "Você pode gastar uma ação imediatamente após um acerto para @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Agarrar} o alvo",
         "GrabbingTrunk": {
+          "Text": "Uma criatura que tem um tamanho menor que o seu em até dois graus ao ser atingida pela sua tromba é @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrada}. Se você for bem-sucedido em um teste de @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Agarrar} contra a criatura agarrada pela sua tromba, você pode reposicionar a criatura para outro espaço dentro do alcance da sua tromba.",
           "Title": "Grabbing Trunk (Pathfinder #177)"
-        }
+        },
+        "Shove": "Você pode gastar uma ação imediatamente após um acerto para empurrar o alvo por uma distância de 5 pés com os efeitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar}"
+      },
+      "OozeForm": {
+        "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
       },
       "WormForm": {
         "PurpleWorm": "Vorme Púrpura",
@@ -197,6 +226,9 @@
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}.",
           "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
         }
+      },
+      "BioluminescenceBomb": {
+        "success": "U<p>Cada criatura dentro de @Template[tipo:emanationūdistância:10]{10 feet} de onde a bomba explodiu deve ter sucesso em um salvamento @Check[type:reflex|dc:17] ou ser marcado com tintura que continua brilhando por 24 horas. Uma criatura afetada deve também tentar um teste de salvamento @Check[type:fortitude|dc:17] contra a forte explosão de luz.</p><p><strong>Sucesso</strong> A criatura não é afetada.</p><p><strong>Falha</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p><p><strong>Falha Crítica</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} por 1 rodada, e então @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p>"
       },
       "BlightBomb": {
         "Greater": {
@@ -369,7 +401,10 @@
         "Moderate": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2*2d4)[persistent,piercing]]] e [[/r (2[splash])[poison]]]{2 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada.",
           "success": "<strong>Efeito</strong> A bomba também causa [[/r 2d4[persistent,piercing]]] e [[/r (2[splash])[poison]]]{2 de dano de respingo de veneno}. A área de respingo da bomba é coberta por vegetação, tornando-se um terreno difícil por 1 rodada."
-        }
+        },
+        "Terrain": "Salvo em caso de falha crítica, a área do respingo da bomba torna-se revestida por vegetação, tornando-se um terreno difícil por 1 rodada.",
+        "TerrainLesser": "Salvo em caso de falha crítica, a área ocupada pela criatura atingida torna-se revestida por vegetação, tornando-se um terreno difícil por 1 rodada.",
+        "TerrainMajor": "Salvo em caso de falha crítica, a área do respingo da bomba torna-se revestida por vegetação, tornando-se um terreno difícil por 1 rodada."
       },
       "PeshspineGrenade": {
         "Greater": {
@@ -401,6 +436,17 @@
         "Moderate": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}, Alvos pequenos ou menores são empurrados 1,5 m/5 pés para longe de você, e o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.",
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[bludgeoning]]]{2 de dano de respingo contundente}, Alvos pequenos ou menores são empurrados 1,5 m/5 pés para longe de você."
+        }
+      },
+      "RedpitchBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+        }
+      },
+      "TallowBomb": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
         }
       },
       "TanglefootBag": {
@@ -649,9 +695,34 @@
         "BrokenArmor": "Armadura Personalizada Quebrada",
         "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
+      "DisplacedRobot": {
+        "Fists": "Punhos",
+        "LaserBeam": "Feixe de Laser"
+      },
       "Dramofir": {
         "BittersweetDreamsCriticalFailure": "Falha Crítica",
         "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
+      },
+      "DuskwalkerHuntPrey": {
+        "AC": "Presa Designada ataca ao Crepuscular",
+        "Checks": "Crepuscular rola teste contra a sua Presa Designada"
+      },
+      "Elemental": {
+        "Earth": {
+          "SpikeStones": "Suprimir Aura de Pedra Espinhosas"
+        }
+      },
+      "FacetboundCascader": {
+        "EnergyCharge": "Carga Energética"
+      },
+      "FiveColorOrchidMantis": {
+        "ColorShift": {
+          "Black": "Preto - Água",
+          "Green": "Verde - Madeira",
+          "Red": "Vermelho - Fogo",
+          "White": "Branco - Metal",
+          "Yellow": "Amarelo - Terra"
+        }
       },
       "GauChoRong": {
         "SubsumedTrait": {
@@ -689,11 +760,43 @@
           "AttackOfOpportunity": "Ataque de Oportunidade",
           "SneakAttack": "Ataque Furtivo"
         }
+      },
+      "PlanarScion": {
+        "Duskwalker": {
+          "HuntPrey": {
+            "AC": "Presa Designada ataca ao Crepuscular",
+            "Checks": "Crepuscular rola teste contra a sua Presa Designada"
+          }
+        }
+      },
+      "StoneSpider": {
+        "StoneFangs": "Presas de Pedra"
+      },
+      "Surgeon": {
+        "MedicalMalpracticeCriticalSuccess": "Má Prática Médica (Sucesso Crítico)"
+      },
+      "Target": {
+        "GrabbedByNPC": "Você está com o alvo agarrado."
+      },
+      "TheGreatFlood": {
+        "LeadingHeadName": {
+          "NoHeadSelected": "Nenhum Selecionado",
+          "Aloof": "Indiferente",
+          "Ambitious": "Ambicioso",
+          "Assertive": "Convicto",
+          "Capricious": "Caprichoso",
+          "PeoplePleaser": "Bajulador",
+          "Perfectionist": "Perfeccionista",
+          "Playful": "Brincalhão",
+          "Secretive": "Sigiloso",
+          "Suspicious": "Suspeito"
+        }
       }
     },
     "OracleCurses": {
       "Ancestor": {
         "Label": {
+          "Martial": "Marcial",
           "Spellcasting": "Conjuração"
         }
       },
