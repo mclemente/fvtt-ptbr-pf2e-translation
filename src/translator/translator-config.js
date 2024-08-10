@@ -1,5 +1,5 @@
 export const TRANSLATOR_CONFIG = {
-	paths: { dictionary: "modules/pathfinder-2e-pt-br/translation/dictionary.json" },
+	paths: { dictionary: "modules/pathfinder-2e-pt-br/translation/pt-BR/dictionary.json" },
 	iconList: {
 		item: "modules/pathfinder-2e-pt-br/static/icons/item.webp",
 		location: "modules/pathfinder-2e-pt-br/static/icons/location.webp",
