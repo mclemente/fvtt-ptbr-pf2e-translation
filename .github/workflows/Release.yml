@@ -1,98 +1,132 @@
 name: Relese
 
+env:
+    package_type: module
+    node_version: 18
+
 on:
-  workflow_dispatch:
-    inputs:
-      checks:
-        description: 'Versionsnummern in module.json und CURRENT-RELEASE.md aktualisiert?'
-        required: false
-        type: boolean
+    release:
+        types: [published]
 
 jobs:
-  release:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Check prerequisites
-        if: inputs.checks == false
-        uses: actions/github-script@v7
-        with:
-          script: |
-            core.setFailed('Kein Release erstellt, bitte Modulversionen und CURRENT-RELEASE.md aktualisieren')
-      
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
+            - name: Check prerequisites
+              if: inputs.checks == false
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      core.setFailed('Kein Release erstellt, bitte Modulversionen und CURRENT-RELEASE.md aktualisieren')
 
-      - name: Get module version
-        run: |
-          MODULE_VERSION=$(grep -oP '(?<="version": ")[^"]+' ./module.json | tr -d '\n')
-          echo "moduleVersion=$MODULE_VERSION" >> $GITHUB_ENV
-      
-      - name: Update CHANGELOG and Commit Changes
-        run: |
-          git config user.email "action@github.com"
-          git config user.name "Github Action"
-          echo -e "$(cat CURRENT-RELEASE.md)\n\n$(cat CHANGELOG.md)" > CHANGELOG.md
-          git add CHANGELOG.md
-          git commit -m "Update Changelog"
+            - name: Use Node.js ${{ env.node_version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ env.node_version }}
 
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v6
-        with:
-          title: 'Update Changelog'
-          commit-message: 'Update Changelog with current release info'
-          branch: update-changelog
-          body: |
-            Update Changelog with current release info
-            
-      - name: Merge Pull Request
-        run: gh pr merge --merge --auto ${{ steps.cpr.outputs.pull-request-number }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Install dependencies
+              run: npm ci --cache .npm --prefer-offline
 
-      - name: Get current PF2 system from master branch
-        run: |
-          mkdir pf2e
-          curl -L -o pf2e/archive.tar.gz https://api.github.com/repos/foundryvtt/pf2e/tarball/master
-          tar -xf pf2e/archive.tar.gz --strip-components=1 --directory pf2e
+            - name: Extract tag version number
+              id: get_version
+              uses: battila7/get-version-action@v2
 
-      - name: Create buildconfig.json for build script
-        id: create-json
-        uses: jsdaniell/create-json@v1.2.3
-        with:
-          name: "buildconfig.json"
-          json: '{"buildPath": "./lang-de-pf2e", "systemPath": "./pf2e"}'
+            - name: Substitute Manifest and Download Links For Versioned Ones
+              id: sub_manifest_link_version
+              uses: microsoft/variable-substitution@v1
+              with:
+                  files: "${{ env.package_type }}.json"
+              env:
+                  version: ${{ steps.get_version.outputs.version }}
+                  url: https://github.com/${{ github.repository }}
+                  manifest: https://github.com/${{ github.repository }}/releases/latest/download/${{ env.package_type }}.json
+                  download: https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/${{ env.package_type }}.zip
 
-      - name: Build release version
-        run: |
-          git submodule init
-          git submodule update
-          npm ci
-          npm run build
+            - name: Get current PF2 system from master branch
+              run: |
+                  mkdir pf2e
+                  curl -L -o pf2e/archive.tar.gz https://api.github.com/repos/foundryvtt/pf2e/tarball/master
+                  tar -xf pf2e/archive.tar.gz --strip-components=1 --directory pf2e
 
-      - name: Zip files
-        working-directory: ./lang-de-pf2e
-        run: zip -r ./lang-de-pf2e.zip ./*
-          
-      - name: Create release
-        id: create_version_release
-        uses: ncipollo/release-action@v1
-        with:
-          name: v${{ env.moduleVersion }}
-          bodyFile: "CURRENT-RELEASE.md"
-          allowUpdates: false
-          draft: false
-          prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: './lang-de-pf2e/module.json,./lang-de-pf2e/lang-de-pf2e.zip'
-          tag: v${{ env.moduleVersion }}
+            - name: Create buildconfig.json for build script
+              id: create-json
+              uses: jsdaniell/create-json@v1.2.3
+              with:
+                  name: "buildconfig.json"
+                  json: '{"buildPath": "./dist", "systemPath": "./pf2e"}'
+
+            - name: Build release version
+              run: npm run build
+
+            - name: Archive production artifacts
+              uses: actions/upload-artifact@v2
+              with:
+                  name: dist
+                  path: dist
+
+    publish:
+        needs:
+            - build
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Download production artifacts for publication
+              uses: actions/download-artifact@v2
+              with:
+                  name: dist
+                  path: dist
+
+            - name: Create zip file
+              working-directory: ./dist
+              run: zip -r ../${{ env.package_type }}.zip .
+
+            - name: Create release
+              id: create_version_release
+              uses: ncipollo/release-action@v1
+              with:
+                  allowUpdates: true
+                  name: ${{ github.event.release.name }}
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  artifacts: "./dist/${{ env.package_type }}.json, ./${{ env.package_type }}.zip"
+                  tag: ${{ github.event.release.tag_name }}
+                  body: ${{ github.event.release.body }}
+
+            - name: Get Module ID
+              id: moduleID
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "./dist/${{ env.package_type }}.json"
+                  prop_path: "id"
+
+            - name: Get mininum
+              id: minimum
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "./dist/${{ env.package_type }}.json"
+                  prop_path: "compatibility.minimum"
+
+            - name: Get verified
+              id: verified
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "./dist/${{ env.package_type }}.json"
+                  prop_path: "compatibility.verified"
+
+            - name: Extract tag version number
+              id: get_version
+              uses: battila7/get-version-action@v2
+
+            - name: Foundry Release API
+              uses: fjogeleit/http-request-action@v1
+              with:
+                  url: "https://api.foundryvtt.com/_api/packages/release_version"
+                  method: "POST"
+                  customHeaders: '{"Content-Type": "application/json", "Authorization" : "${{ secrets.FOUNDRY_KEY }}"}'
+                  data: '{"id": "${{ steps.moduleID.outputs.prop }}", "release": {"version": "${{ steps.get_version.outputs.version }}", "manifest": "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/${{ env.package_type }}.json", "notes": "https://github.com/${{ github.repository }}/releases/tag/${{ github.event.release.tag_name }}/", "compatibility" : {"minimum": "${{ steps.minimum.outputs.prop }}", "verified": "${{ steps.verified.outputs.prop }}"}}}'
+                  preventFailureOnNoResponse: true
