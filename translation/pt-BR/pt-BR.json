@@ -1508,8 +1508,12 @@
     "Environment": {
       "Type": {
         "Aquatic": "Aquático",
+        "Arctic": "Ártico",
+        "Desert": "Deserto",
         "Forest": "Floresta",
+        "Mountain": "Montanha",
         "Plains": "Planícies",
+        "Swamp": "Pântano",
         "Underground": "Embaixo da terra",
         "Urban": "Urbano"
       },
@@ -3320,6 +3324,14 @@
         "Disabled": "Desabilitado"
       },
       "Homebrew": {
+        "ArmorGroups": {
+          "Hint": "O nível intermediário da taxonomia das armaduras do Pathfinder 2e (ex: Placas, Malha)",
+          "Name": "Grupos de Armadura"
+        },
+        "BaseArmors": {
+          "Hint": "O nível inferior da taxonomia das armaduras do Pathfinder 2e (ex: Placas, Malha)",
+          "Name": "Tipos de base de Armadura"
+        },
         "BaseWeapons": {
           "Hint": "O nível mínimo da taxonomia das armas do Pathfinder 2e (ex: Besta Pesada, Espada Longa)",
           "Name": "Armas Base"
@@ -3356,6 +3368,7 @@
             "Label": "O idioma “Comum”"
           },
           "Hint": "Idiomas para os personagens conhecerem ou aprenderem (ex: Dracônico, Gnômico)",
+          "Name": "Idiomas",
           "Rarities": {
             "Common": "Idiomas <rarity>Comuns</rarity>",
             "Name": "Raridades dos Idiomas",
@@ -3370,6 +3383,10 @@
         },
         "Name": "Material Caseiro",
         "ReservedTerm": "\"{term}\" é um termo reservado.",
+        "ShieldTraits": {
+          "Hint": "Traços que podem ser aplicados a escudos",
+          "Name": "Traços de Escudo"
+        },
         "SpellTraits": {
           "Hint": " Traços que podem ser aplicados a qualquer magia (ex: Ominoso, Cura)",
           "Name": "Traços de Magias"
@@ -3377,11 +3394,8 @@
         "Tabs": {
           "Campaign": "Campanha",
           "Damage": "Tipos de Dano",
-          "Traits": "Traços e Categorias"
-        },
-        "EnvironmentTypes": {
-          "Hint": "Qualquer tipo de ambiente personalizado",
-          "Name": "Tipos de Ambiente"
+          "Taxonomies": "Taxonomia de Equipamentos",
+          "Traits": "Traços"
         },
         "WeaponCategories": {
           "Hint": "O nível máximo da taxonomia das armas do Pathfinder 2e (ex: Simples, Marcial)",
@@ -5422,8 +5436,8 @@
           "criticalSuccess": "Quando você acerta criticamente um alvo com essa arma, seu alvo torna-se @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Desajeitado 1} e @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido1} até o final do seu próximo turno."
         }
       },
-      "cunning": {
-        "Name": "Cunning"
+      "dancing": {
+        "Name": "Animada"
       },
       "decaying": {
         "Name": "Decadente"
@@ -5618,9 +5632,6 @@
           "Sword": "<strong>Runa Severa</strong> O alvo fica Desprevenido até o final do turno do portador da runa."
         }
       },
-      "hauling": {
-        "Name": "Hauling"
-      },
       "holy": {
         "Name": "Sagrado",
         "Note": {
@@ -5676,6 +5687,7 @@
         "Name": "Pacifying"
       },
       "quickstrike": {
+        "Name": "Velocidade",
         "Note": "Enquanto estiver empunhando uma arma de golpe rápido, você ganha a condição @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}, mas você só pode usar a ação adicional concedida para realizar um Golpe com a arma gravada."
       },
       "returning": {
@@ -5703,6 +5715,9 @@
       "shockwave": {
         "Name": "Onda de Choque",
         "Note": "Golpes com esta arma causam dano de respingo por concussão igual ao número de dados de dano da arma. Você é imune a esse dano de respingo."
+      },
+      "spellStoring": {
+        "Name": "Armazenadora de Magia"
       },
       "swarming": {
         "Name": "Enxameante"

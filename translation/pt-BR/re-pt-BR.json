@@ -76,12 +76,12 @@
     "AttackEffects": {
       "DropWeapon": "A criatura larga a arma empunhada.",
       "IgnoreConcealed": "O ataque ignora a condição @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Ocultado}.",
-      "ReduceHiddenCheck": "Ao mirar em alvo @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ocultado} é necessário fazer um teste simples de CD @Check[type:flat|dc:5].",
       "IgnoreCover": "O alvo não se beneficia de cobertura menor, e seu bônus de CA de cobertura padrão é reduzido em 2 contra o ataque.",
       "IncreasedCriticalChance": "Caso o ataque acerte e a criatura rolar um 19 no d20, o ataque vira um acerto crítico. Isso não terá efeito caso o 19 resulte em uma falha.",
       "IncreasedReach5": "O alcance aumenta em 1,5 m",
       "InterruptAction": "Em um acerto, a ação do alvo é interrompida.",
-      "KnockProne": "Em um acerto, o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+      "KnockProne": "Em um acerto, o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.",
+      "ReduceHiddenCheck": "Ao mirar em alvo @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ocultado} é necessário fazer um teste simples de CD @Check[type:flat|dc:5]."
     },
     "BattleForm": {
       "AberrantForm": {
@@ -186,8 +186,8 @@
         "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
       },
       "WormForm": {
-        "PurpleWorm": "Vorme Púrpura",
-        "Hybrid": "Híbrida"
+        "Hybrid": "Híbrida",
+        "PurpleWorm": "Vorme Púrpura"
       }
     },
     "BombNotes": {
@@ -509,6 +509,11 @@
       "White": "Branco",
       "Yellow": "Amarelo"
     },
+    "FeatDescription": {
+      "Requirements": {
+        "Label": "Requerimentos"
+      }
+    },
     "IWR": {
       "Custom": {
         "AdamantineBludgeoning": "contundente de adamante",
@@ -582,9 +587,9 @@
           "AnimalTiny": "Animal Minúsculo",
           "Ape": "Macaco",
           "Azuretzi": "Azuretzi",
+          "Barghest": "Bargheste",
           "Bat": "Morcego",
           "BatGiant": "Morcego Gigante",
-          "Barghest": "Bargheste",
           "Boar": "Javali",
           "Cacodaemon": "Cacodaemon",
           "Cassisian": "Cassisiano",
@@ -593,9 +598,6 @@
           "Dragon": "Dragão",
           "DryadQueen": "Dríade Rainha",
           "Elemental": {
-            "Elemental": "Elemental",
-            "Medium": "Elemental Médio",
-            "Small": "Elemental Pequeno",
             "Air": {
               "Elemental": "Elemental do Ar",
               "Medium": "Elemental do Ar Médio",
@@ -606,16 +608,19 @@
               "Medium": "Elemental da Terra Médio",
               "Small": "Elemental da Terra Pequeno"
             },
+            "Elemental": "Elemental",
             "Fire": {
               "Elemental": "Elemental do Fogo",
               "Medium": "Elemental do Fogo Médio",
               "Small": "Elemental do Fogo Pequeno"
             },
+            "Medium": "Elemental Médio",
             "Metal": {
               "Elemental": "Elemental do Metal",
               "Medium": "Elemental de Metal Médio",
               "Small": "Elemental de Metal Pequeno"
             },
+            "Small": "Elemental Pequeno",
             "Water": {
               "Elemental": "Elemental da Água",
               "Medium": "Elemental da Água Médio",
@@ -670,11 +675,11 @@
         "AtLeastTen": "Movido pelo menos 10 pés"
       },
       "Chimera": {
-        "DragonHead": "Tradição Mágica da Cabeça do Dragão",
         "DivineHead": {
           "Label": "Santificação da Cabeça do Dragão",
           "NoSanctification": "Não Santificado"
         },
+        "DragonHead": "Tradição Mágica da Cabeça do Dragão",
         "PrimalHead": "Tipo de Energia do Sopro do Dragão"
       },
       "ClayEffigy": {
@@ -726,9 +731,9 @@
       },
       "GauChoRong": {
         "SubsumedTrait": {
+          "Amphibious": "Anfíbio",
           "Animal": "Animal",
           "Aquatic": "Aquático",
-          "Amphibious": "Anfíbio",
           "Humanoid": "Humanoide"
         }
       },
@@ -780,11 +785,11 @@
       },
       "TheGreatFlood": {
         "LeadingHeadName": {
-          "NoHeadSelected": "Nenhum Selecionado",
           "Aloof": "Indiferente",
           "Ambitious": "Ambicioso",
           "Assertive": "Convicto",
           "Capricious": "Caprichoso",
+          "NoHeadSelected": "Nenhum Selecionado",
           "PeoplePleaser": "Bajulador",
           "Perfectionist": "Perfeccionista",
           "Playful": "Brincalhão",
@@ -1098,21 +1103,21 @@
         },
         "Effects": {
           "Affects": "Afeta",
-          "DropText": "Soltar efeito",
-          "DropTooltip": "Um efeito para incluir nesta aura",
-          "Events": "Eventos",
-          "EventsOptions": {
-            "Enter": "Entrada",
-            "TurnStart": "Início de Turno",
-            "TurnEnd": "Fim de Turno"
-          },
-          "IncludesSelf": "Inclui a si mesmo",
-          "Label": "Efeitos",
           "AffectsOptions": {
             "All": "Todos",
             "Allies": "Aliados",
             "Enemies": "Inimigos"
           },
+          "DropText": "Soltar efeito",
+          "DropTooltip": "Um efeito para incluir nesta aura",
+          "Events": "Eventos",
+          "EventsOptions": {
+            "Enter": "Entrada",
+            "TurnEnd": "Fim de Turno",
+            "TurnStart": "Início de Turno"
+          },
+          "IncludesSelf": "Inclui a si mesmo",
+          "Label": "Efeitos",
           "RemoveEffect": "Remover efeito",
           "RemoveOnExit": "Remover ao Sair",
           "Type": "Tipo"
@@ -1275,11 +1280,11 @@
       "ImpersonateClothing": "Para Personificar roupas",
       "ImpersonateHumanVersion": "Para Personificar uma versão humana de si mesmo",
       "ImpersonateInanimate": "Para Personificar um objeto inanimado",
+      "ImpersonateMound": "Para Personificar um monte",
+      "ImpersonatePastSelf": "Para Personificar um eu passado",
       "ImpersonatePeasantOrLaborer": "Para Personificar um camponês ou trabalhador",
       "ImpersonateSpecificPerson": "Para Personificar uma pessoa específica",
       "ImpersonateStumpOrLog": "Para Personificar um toco ou tronco",
-      "ImpersonateMound": "Para Personificar um monte",
-      "ImpersonatePastSelf": "Para Personificar um eu passado",
       "Jar": "Dentro de uma jarra",
       "JumpOrClimb": "Para Escalar ou Saltar",
       "JumpOrSwim": "Para Nadar ou Saltar ",
@@ -1423,8 +1428,8 @@
         },
         "Dragon": {
           "NormalRageDamage": "Causa dano de fúria normal",
-          "ToggleLabel": "Fúria Dracônica",
-          "Prompt": "Escolha um Dragão."
+          "Prompt": "Escolha um Dragão.",
+          "ToggleLabel": "Fúria Dracônica"
         },
         "Elemental": {
           "ElementalEvolutionLabel": "Dano de Fúria Elemental"
@@ -1689,13 +1694,13 @@
       "GameHunterDedication": {
         "TargetHuntedPrey": "Alvo é sua Presa Caçada (somente Animal, Besta ou Dragão)"
       },
+      "GeneralTraining": {
+        "Prompt": "Selecione um talento geral de 1º nível."
+      },
       "Genie": {
         "Faydhaan": "Faydhaan",
         "Ifrit": "Ifrit",
         "Prompt": "Selecione um gênio."
-      },
-      "GeneralTraining": {
-        "Prompt": "Selecione um talento geral de 1º nível."
       },
       "Gnome": {
         "GrimInsight": {
@@ -1715,11 +1720,11 @@
         "RecklessAbandon": {
           "Note": "Se rolar uma falha ou falha crítica em uma jogada de salvamento contra um efeito nocivo, trate o resultado como um sucesso."
         },
-        "TorchGoblin": {
-          "Note": "Enquanto você estiver sofrendo dano persistente de fogo, todos os seus ataques corpo a corpo contra criaturas adjacentes causam [[/r 1[fire]]]{1 ponto de dano de fogo} adicional por dado de dano da arma."
-        },
         "ScaldingSpit": {
           "BoilingSpit": "Cuspe Escaldante"
+        },
+        "TorchGoblin": {
+          "Note": "Enquanto você estiver sofrendo dano persistente de fogo, todos os seus ataques corpo a corpo contra criaturas adjacentes causam [[/r 1[fire]]]{1 ponto de dano de fogo} adicional por dado de dano da arma."
         }
       },
       "HalfElf": {
@@ -1740,13 +1745,13 @@
         "KeenEyes": {
           "Label": "Buscar criatura escondida ou indetectada a até 30 pés"
         },
-        "SureFeet": {
-          "BalanceNote": "Quando rolar um sucesso em um teste de Acrobatismo para se Equilibrar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar se Equilibrar.",
-          "ClimbNote": "Quando rolar um sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar Escalar."
-        },
         "SharedLuck": {
           "Base": "Você pode usar Sorte de Halfling quando um aliado a até 30 pés falhar em um teste de perícia ou jogada de salvamento para permitir que o aliado rerrole o teste de perícia em vez de você fazer uma rerrolagem. Como o usual, seu aliado deve usar o novo resultado, mesmo que seja pior que o primeiro.",
           "GuidingLuck": "Você não pode usar o efeito de Sorte Guiada que se aplique a rolagens de ataque e testes de Percepção para usar Sorte Compartilhada e beneficiar um aliado."
+        },
+        "SureFeet": {
+          "BalanceNote": "Quando rolar um sucesso em um teste de Acrobatismo para se Equilibrar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar se Equilibrar.",
+          "ClimbNote": "Quando rolar um sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar Escalar."
         }
       },
       "Human": {
@@ -1773,8 +1778,8 @@
           "ElementalBlast": {
             "OneAction": "Uma Ação",
             "ShortLabel": "Explosão",
-            "TwoActions": "Duas Ações",
-            "TwoActionBonus": "Explosão de Duas Ações"
+            "TwoActionBonus": "Explosão de Duas Ações",
+            "TwoActions": "Duas Ações"
           }
         },
         "KineticGate": {
@@ -1826,8 +1831,8 @@
       },
       "Marshal": {
         "DreadMarshalStance": {
-          "Title": "Aura Pavorosa de Marechal ",
-          "Note": "Quando você obtém um acerto crítico contra um inimigo com um Golpe, esse inimigo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assutado 1}."
+          "Note": "Quando você obtém um acerto crítico contra um inimigo com um Golpe, esse inimigo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assutado 1}.",
+          "Title": "Aura Pavorosa de Marechal "
         }
       },
       "MartialProficiency": {
@@ -1864,6 +1869,14 @@
       "Multitalented": {
         "Prompt": "Select a multiclass dedication."
       },
+      "Mummy": {
+        "Terrain": {
+          "Arctic": "Ártico",
+          "Desert": "Deserto",
+          "Mountain": "Montanha",
+          "Swamp": "Pântano"
+        }
+      },
       "Notes": {
         "NoteLabel": "Anotação"
       },
@@ -1878,6 +1891,12 @@
         "Ten": "Dez",
         "Three": "Três",
         "Two": "Duas"
+      },
+      "Oracle": {
+        "NudgeTheScales": {
+          "Death": "Morte",
+          "Life": "Vida"
+        }
       },
       "Orc": {
         "OrcWarmask": {
@@ -1930,8 +1949,8 @@
         "ThirdImplement": "Escolha seu terceiro Implemento.",
         "Tradition": "Selecione uma tradição.",
         "Trait": "Selecione um traço.",
-        "VersatileTrait": "Escolha um tipo de dano versátil.",
         "UntamedForm": "Selecione um efeito de forma.",
+        "VersatileTrait": "Escolha um tipo de dano versátil.",
         "Weapon": "Escolha um arma.",
         "WeaponGroup": "Escolha um grupo de arma.",
         "WeaponOrUnarmed": "Escolha uma arma ou ataque desarmado."
@@ -1952,7 +1971,7 @@
           "DetectMagic": "Detectar Magia",
           "Guidance": "Orientação",
           "Message": "Mensagem",
-          "Shield": "Escudo Místico",
+          "Shield": "Escudo",
           "TelekineticProjectile": "Projétil Telecinético"
         }
       },
@@ -1961,8 +1980,8 @@
           "Prompt": "Selecione um resultado de acerto."
         },
         "HuntersEdge": {
-          "Prompt": "Selecione uma excelência de caçador.",
-          "FirstAttack": "Primeiro ataque à presa caçada na rodada"
+          "FirstAttack": "Primeiro ataque à presa caçada na rodada",
+          "Prompt": "Selecione uma excelência de caçador."
         }
       },
       "Rogue": {
@@ -2034,15 +2053,15 @@
           "Prompt": "Selecione uma perícia para se tornar treinado."
         }
       },
-      "SaveSuccessToCriticalSuccess": {
-        "Fortitude": "Quando rolar um sucesso em um salvamento de Fortitude, trate o resultado como um sucesso crítico.",
-        "Reflex": "Quando rolar um sucesso em um salvamento de Reflexos, trate o resultado como um sucesso crítico.",
-        "Will": "Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico."
-      },
       "SaveCriticalFailureToFailure": {
         "FailureHalfDamage": {
           "Will": "Quando rolar uma falha crítica em um salvamento de Vontade, trate o resultado como uma falha. Quando rolar uma falha em um salvamento de Vontade contra um efeito que cause dano, divida o dano sofrido pela metade."
         }
+      },
+      "SaveSuccessToCriticalSuccess": {
+        "Fortitude": "Quando rolar um sucesso em um salvamento de Fortitude, trate o resultado como um sucesso crítico.",
+        "Reflex": "Quando rolar um sucesso em um salvamento de Reflexos, trate o resultado como um sucesso crítico.",
+        "Will": "Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico."
       },
       "SeasonOfGhosts": {
         "Background": {
@@ -2051,8 +2070,8 @@
         }
       },
       "Shillelagh": {
-        "RollOptionLabel": "Aumente os dados de dano de Bastão de Abrunheiro para 3",
-        "DamageDiceLabel": "Bastão de Abrunheiro (dano aumentado)"
+        "DamageDiceLabel": "Bastão de Abrunheiro (dano aumentado)",
+        "RollOptionLabel": "Aumente os dados de dano de Bastão de Abrunheiro para 3"
       },
       "SkillMastery": {
         "ExpertPrompt": "Selecione uma perícia para se tornar especialista.",
@@ -2061,15 +2080,18 @@
       "SneakAttack": "Ataque Furtivo",
       "Sorcerer": {
         "Bloodline": {
-          "Prompt": "Selecione uma linhagem.",
           "BloodMagicDescription": {
-            "Title": "Magia Sanguínea",
             "Phoenix": "O fogo primal da vida e da morte flui através de você ou de um alvo. Escolha fazer com que você ou um alvo da magia receba Pontos de Vida temporários iguais ao círculo da magia por 1 rodada, ou fazer com que um alvo da magia receba @Damage[@item.level[fire]]{dano de fogo} (se a magia já causa dano de fogo inicial, combine isso com o dano inicial da magia antes de determinar fraquezas e resistências).",
             "Shadow": {
               "PerceptionPenalty": "-1 de penalidade em Percepção",
               "StealthBonus": "+1 de bônus em Furtividade"
-            }
-          }
+            },
+            "Title": "Magia Sanguínea"
+          },
+          "BloodMagicLabel": {
+            "Angelic": "Aura Divina"
+          },
+          "Prompt": "Selecione uma linhagem."
         }
       },
       "SpecialtyCrafting": {
@@ -2093,12 +2115,12 @@
         "Wings": "Asas"
       },
       "SpellEffectEvolutionSurge": {
+        "Amphibious": "Velocidade de natação",
+        "Climb": "Velocidade de escalada",
+        "Fly": "Velocidade de voo",
         "Prompt": "Selecione uma evolução.",
         "Sight": "Visão na penumbra e visão no escuro",
-        "Amphibious": "Velocidade de natação",
-        "Speed": "Bônus de status de +20 pés na Velocidade",
-        "Climb": "Velocidade de escalada",
-        "Fly": "Velocidade de voo"
+        "Speed": "Bônus de status de +20 pés na Velocidade"
       },
       "SpellEffectPreciousMetals": {
         "Copper": "Cobre",
@@ -2117,18 +2139,15 @@
         "HeightenedFifth": "Elevada (5º)",
         "HeightenedFourth": "Elevada (4º)",
         "HeightenedNinth": "Elevada (9º)",
-        "HeightenedPlusOne": "Elevada (+1)",
-        "HeightenedPlusTwo": "Elevada (+2)",
-        "HeightenedPlusThree": "Elevada (+3)",
         "HeightenedPlusFour": "Elevada (+4)",
+        "HeightenedPlusOne": "Elevada (+1)",
+        "HeightenedPlusThree": "Elevada (+3)",
+        "HeightenedPlusTwo": "Elevada (+2)",
         "HeightenedSecond": "Elevada (2º)",
         "HeightenedSeventh": "Elevada (7º)",
         "HeightenedSixth": "Elevada (6th)",
         "HeightenedTenth": "Elevada (10º)",
         "HeightenedThird": "Elevada (3º)"
-      },
-      "SpellmastersResilience": {
-        "Prompt": "Selecione uma tradição mágica para ganhar resistência."
       },
       "SpellRank": {
         "Eighth": "8° Círculo",
@@ -2142,6 +2161,9 @@
         "Sixth": "6° Círculo",
         "Tenth": "10° Círculo",
         "Third": "3° Círculo"
+      },
+      "SpellmastersResilience": {
+        "Prompt": "Selecione uma tradição mágica para ganhar resistência."
       },
       "SubstituteRoll": {
         "Assurance": "Certeza"
@@ -2188,8 +2210,8 @@
         "AgainstDemons": "Contra Demônios",
         "AgainstDevils": "Contra Diabos",
         "AgainstHumanoids": "Contra Humanoides",
-        "Necromancer": "Alvo é um necromante",
-        "Metal": "Alvo está usando uma armadura de metal ou é feito de metal"
+        "Metal": "Alvo está usando uma armadura de metal ou é feito de metal",
+        "Necromancer": "Alvo é um necromante"
       },
       "TempestForm": {
         "Air": "Ar",
@@ -2252,7 +2274,6 @@
           "CraftingEntry": "Caldeirão"
         },
         "Patron": {
-          "Prompt": "Selecione um patrono.",
           "FamiliarAbility": {
             "BalancedLuck": {
               "Description": "Quando você Conjura ou Sustenta um sortilégio, uma criatura a até 15 pés do seu familiar pode escolher entre um bônus de estado de +1 em sua CA ou uma penalidade de estado de -1 em sua CA até o início do seu próximo turno.",
@@ -2282,7 +2303,8 @@
               "Description": "Seu familiar tem pelo ou penas escuros e a luz parece desaparecer nele. Quando você Conjura ou Sustenta um sortilégio e seu familiar está adjacente a um inimigo ao qual ele está @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultado}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, ou indetectado, o inimigo se torna @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}.",
               "Title": "Familiar da Noite Perseguidora"
             }
-          }
+          },
+          "Prompt": "Selecione um patrono."
         },
         "WildWitchsArmaments": {
           "LivingHair": {
@@ -2315,9 +2337,13 @@
     },
     "Terrain": {
       "Aquatic": "Aquático",
+      "Arctic": "Ártico",
+      "Desert": "Deserto",
       "Forest": "Floresta",
+      "Mountain": "Montanha",
       "Plains": "Planícies",
       "Sky": "Céu",
+      "Swamp": "Pântano",
       "Underground": "Embaixo da terra"
     },
     "UI": {
@@ -2326,14 +2352,14 @@
           "Decline": "Recusar",
           "DragHomebrewItem": "Arraste um item caseiro aqui se estiver usando um em vez das opções acima.",
           "HomebrewItem": "Item caseiro",
-          "ViewItem": {
-            "Tooltip": "Ver item",
-            "Disabled": "A opção selecionada não possui ficha de item"
-          },
           "NoLabel": "Não",
           "Prompt": "Faça uma escolha.",
           "SaveLabel": "Salvar",
           "SkillLabel": "Perícia",
+          "ViewItem": {
+            "Disabled": "A opção selecionada não possui ficha de item",
+            "Tooltip": "Ver item"
+          },
           "YesLabel": "Sim"
         },
         "EffectTarget": {
