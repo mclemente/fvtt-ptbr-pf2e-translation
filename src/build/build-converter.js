@@ -392,7 +392,7 @@ export const convertDeities = (deitiesTranslated) => {
 		}
 
 		// Add text addition after general description and before avatar info, if available
-		const descriptionPartials = deitiesTranslated.entries[deityName].description.split("<h2>Avatar</h2>");
+		const descriptionPartials = deitiesTranslated.entries[deityName]?.description?.split("<h2>Avatar</h2>") ?? [""];
 		descriptionPartials[0] += textAddition;
 		deitiesTranslated.entries[deityName].description = descriptionPartials.join("<h2>Avatar</h2>");
 	});
