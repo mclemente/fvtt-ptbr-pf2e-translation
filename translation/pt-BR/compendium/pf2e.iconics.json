@@ -201,6 +201,13 @@
         }
       }
     },
+    "Jirelle (Level 3)": {
+      "items": {
+        "lore->Sailing Lore": {
+          "name": "Saber de Navegação"
+        }
+      }
+    },
     "Jirelle (Level 5)": {
       "items": {
         "lore->Sailing Lore": {
@@ -215,21 +222,27 @@
         }
       }
     },
+    "Korakai (Level 3)": {
+      "items": {
+        "lore->Cooking Lore": {
+          "name": "Saber de Culinária"
+        },
+        "consumable->Scroll of Cleanse Affliction (Rank 2)": {
+          "consumableSpellTarget": "1 willing creature"
+        }
+      }
+    },
     "Korakai (Level 5)": {
       "items": {
         "lore->Cooking Lore": {
           "name": "Saber de Culinária"
         },
-        "consumable->Scroll of Faerie Fire (Rank 2)": {
-          "consumableSpellName": "Fogo Feérico"
+        "feat->Vision of Weakness": {
+          "name": "Vision of Weakness",
+          "description": "<p>You can call upon divine insights to single out your foes’ weak points. You learn the <a class=\"entity-link\" data-pack=\"pf2e.spells-srd\" data-id=\"NhNKzq1DvFxkvTEc\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vision of Weakness</a> revelation spell. Increase the number of Focus Points in your focus pool by 1.</p>"
         },
-        "consumable->Scroll of Restoration (Rank 2)": {
-          "consumableSpellName": "Restauração",
-          "consumableSpellTarget": "1 creature"
-        },
-        "consumable->Wand of Heal (Rank 1)": {
-          "consumableSpellName": "Curar",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
+        "consumable->Scroll of Cleanse Affliction (Rank 2)": {
+          "consumableSpellTarget": "1 willing creature"
         }
       }
     },
@@ -342,6 +355,13 @@
         }
       }
     },
+    "Sajan (Level 3)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
     "Sajan (Level 5)": {
       "items": {
         "lore->Warfare Lore": {
@@ -359,6 +379,16 @@
         }
       }
     },
+    "Seelah (Level 3)": {
+      "items": {
+        "lore->Absalom Lore": {
+          "name": "Saber de Absalom"
+        },
+        "spellcastingEntry->Focus Spells": {
+          "name": "Magias de Foco"
+        }
+      }
+    },
     "Seelah (Level 5)": {
       "items": {
         "lore->Absalom Lore": {
@@ -366,6 +396,13 @@
         },
         "spellcastingEntry->Focus Spells": {
           "name": "Magias de Foco"
+        }
+      }
+    },
+    "Seoni (Level 5)": {
+      "items": {
+        "feat->Bespell Weapon": {
+          "name": "Magia Residual em Arma"
         }
       }
     },
