@@ -1,31 +1,9 @@
 {
   "label": "Efeitos do Bestiário",
   "entries": {
-    "Effect: Absorb Memories": {
-      "name": "Efeito: Absorver Memórias",
-      "description": "<p>A criatura ganha um bônus de estado de +1 para todos os testes de perícia.</p>"
-    },
-    "Effect: Activate Defenses": {
-      "name": "Efeito: Ativar Defesas",
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
     "Effect: Adaptive Strike": {
       "name": "Efeito: Golpe Adaptivo",
       "description": "<p> Os golpes corpo a corpo da criatura contam como adamante, ferro frio ou prata.</p>"
-    },
-    "Effect: Aggravating Aura": {
-      "rules": {
-        "0": {
-          "choices": {
-            "0": {
-              "label": "Falha"
-            },
-            "1": {
-              "label": "Falha Crítica"
-            }
-          }
-        }
-      }
     },
     "Effect: Alchemical Crossbow": {
       "name": "Efeito: Besta Alquímica",
@@ -35,32 +13,9 @@
       "name": "Efeito: Golpe Alquímico",
       "description": "<p>Escolha ácido, frio, eletricidade ou dano ígneo. O drudge impregna seus ataques de punho com este dano.</p>\n<p>Cada acerto causa 1d6 pontos de dano do mesmo tipo da bomba carregada nele. Cada bomba tem fluido suficiente na bomba para 10 ataques bem sucedidos.</p>"
     },
-    "Effect: Ancestral Journey": {
-      "name": "Efeito: Jornada Ancestral",
-      "description": "<p>A criatura ganha um bônus de estado de +1 para jogadas de salvamento de Vontade e todos os testes de perícia.</p>"
-    },
-    "Effect: Ancestral Response": {
-      "description": "<p>A criatura ganha um bônus de circunstância de +2 em jogadas de salvamento.</p>"
-    },
     "Effect: Aura of Command": {
       "name": "Efeito: Aura de Comando",
       "description": "<p>A criatura recebe a +1 de bônus de estado nas rolagens de ataque e +2 de bônus de estado em seus salvamentos de Vontade</p>"
-    },
-    "Effect: Aura of Corruption": {
-      "name": "Efeito: Aura de Corrupção",
-      "description": "<p>A criatura é tratada como se fosse planta para os propósitos de qualquer efeito que seja particularmente nocivo ou inconveniente para criaturas do tipo planta mais do que para outras criaturas, mas não recebem quaisquer benefícios por serem criaturas planta.</p>"
-    },
-    "Effect: Aura of Misfortune": {
-      "name": "Efeito: Aura do Infortúnio",
-      "description": "<p>Criaturas vivas devem rolar duas vezes em todas as rolagens de d20 e usa o menor resultado.</p>"
-    },
-    "Effect: Battle Cry": {
-      "name": "Efeito: Brado de Batalha",
-      "description": "<p>A criatura recebe +1 de bônus de estado em rolagens de ataque e dano.</p>"
-    },
-    "Effect: Blasphemous Utterances": {
-      "name": "Efeito: Expressões Blafemas",
-      "description": "<p>A criatura sofre –2 de penalidade de circunstância em salvamentos contra efeitos mentais.</p>\n<p>Não pode realizar ações que possuam o traço concentração a menos que obtenham sucesso em um teste simples @Check[type:flat|dc:10]. Falhar neste teste desperdiça a ação.</p>"
     },
     "Effect: Blood Frenzy": {
       "name": "Efeito: Frenesi Sanguinário",
@@ -68,10 +23,6 @@
     },
     "Effect: Blood Siphon (Critical Failure)": {
       "name": "Efeito: Sifonar Sangue (Falha Crítica)"
-    },
-    "Effect: Blood Soak": {
-      "name": "Efeito: Banhar em Sangue",
-      "description": "<p>A criatura recebe +4 de bônus de estado em rolagens de dano.</p>"
     },
     "Effect: Bloodline Magic": {
       "name": "Efeito: Magia Sanguínea",
@@ -88,9 +39,6 @@
     "Effect: Bosun's Command - Speed Bonus": {
       "name": "Efeito: Comando do Contramestre - Bônus de Velocidade",
       "description": "<p>A criatura recebe +10 de bônus de estado em suas Velocidades.</p>"
-    },
-    "Effect: Brand of the Impenitent": {
-      "name": "Efeito: Marca do Impenitente"
     },
     "Effect: Breach the Abyss - Acid": {
       "name": "Efeito: Fenda para o Abismo - Ácido"
@@ -118,14 +66,6 @@
     "Effect: Call to Blood": {
       "name": "Efeito: Convocar o Sangue"
     },
-    "Effect: Calming Bioluminescence": {
-      "name": "Efeito: Bioluminescência Calmante",
-      "description": "<p>A criatura recebe +2 de bônus de circunstância em jogadas de salvamento contra efeitos de emoção.</p>"
-    },
-    "Effect: Caustic Mucus": {
-      "name": "Efeito: Muco Cáustico",
-      "description": "<p>A criatura sofre -1,5 metros de penalidade de estado na Velocidade. sta redução de Velocidade se encerra junto do dano persistente de ácido.</p>"
-    },
     "Effect: Choose Weakness": {
       "name": "Efeito: Escolher Fraqueza"
     },
@@ -141,98 +81,19 @@
       "name": "Efeito: Forma de Crocodilo",
       "description": "<p>O bunyip recebe uma velocidade em solo de 6 metros, mas seu Golpe de Mordida não causa mais o dano persistente de sangramento.</p>"
     },
-    "Effect: Crystalline Dust Form": {
-      "name": "Efeito: Forma de Pó Cristalino",
-      "description": "<p>A criatura recebe uma Velocidade de vôo de 12 metros.</p>"
-    },
-    "Effect: Curl Up": {
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
-    "Effect: Curse of Boiling Blood": {
-      "name": "Efeito: Maldição do Sangue Fervente"
-    },
-    "Effect: Curse of Fire": {
-      "name": "Efeito: Maldição do Fogo",
-      "description": "<p>A criatura adquire fraqueza a fogo 15.</p>"
-    },
-    "Effect: Curse of Frost": {
-      "name": "Efeito: Maldição do Frio",
-      "description": "<p>A criatura adquire fraqueza a frio 15.</p>"
-    },
     "Effect: Defensive Assault": {
       "name": "Effect: Defensive Assault (1 Weapon)",
       "description": "<p>The creature gains a +1 circumstance bonus to AC.</p>"
     },
-    "Effect: Defensive Slam": {
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
     "Effect: Fanatical Frenzy": {
       "description": "<p>A criatura recebe +1 de bônus de estado nas jogadas de ataque, +2 de bônus de estado nas jogadas de dano e sofre -2 de penalidade de estado na CA.</p>"
-    },
-    "Effect: Form a Phalanx": {
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
-    "Effect: Harmonizing Aura (Allies)": {
-      "name": "Efeito: Aura Harmonizante (Aliados)",
-      "description": "<p>A criatura recebe +2 de bônus de estado nas jogadas de dano sônico e +1 de bônus de estado na CA e em todos os salvamentos contra sônico e efeitos auditivos</p>"
-    },
-    "Effect: Inspire Defense (Love Siktempora)": {
-      "rules": {
-        "0": {
-          "label": "Inspirar Defesa"
-        }
-      }
     },
     "Effect: Instinctual Tinker (Critical Success)": {
       "description": "<p>A criatura recebe +1 de bônus de circunstância em rolagens de ataque.</p>"
     },
-    "Effect: Interpose": {
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
     "Effect: Lantern of Hope": {
       "name": "Efeito: Lanterna de Esperança",
       "description": "<p>A criatura recebe +1 de bônus de estado nas jogadasde dano e nos salvamentos contra <em>@Compendium[pf2e.spells-srd.GaRQlC9Yw1BGKHfN]{Desespero Esmagador}</em>.</p>"
-    },
-    "Effect: Lost Red Cap": {
-      "name": "Effect: Red Cap"
-    },
-    "Effect: Mangling Rend": {
-      "description": "<p> O alvo recebe -6 metros penalidade de status para todas as velocidades de deslocamento até o final de seu próximo turno.</p>"
-    },
-    "Effect: Oceanic Armor": {
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
-    "Effect: Raise Guard": {
-      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
-    },
-    "Effect: Rune of Flames (Longspear)": {
-      "name": "Efeito: Runas de Chamas (Lança Longa)",
-      "description": "<p>A lança longa causa 3d6 de dano de fogo adicional em todos os ataques.</p>"
-    },
-    "Effect: Rune of Flames (Rock)": {
-      "name": "Efeito: Runa de Chamas (Rocha)",
-      "description": "<p>A rocha causa 3d6 de dano de fogo adicional em todos os ataques.</p>"
-    },
-    "Effect: Soul Siphon": {
-      "description": "<p>An astradaemon draws power from the souls of the recently slain. If a Small or larger living creature dies within its aura, the astradaemon gains 5 temporary Hit Points and a status bonus to attack and damage rolls for 1 round.</p>"
-    },
-    "Effect: Splintered Ground": {
-      "description": "<p>Granted by the Splintered Ground ability of the @Compendium[pf2e.pathfinder-bestiary.myEeYWWAgnkLwtIb]{Skulltaker}</p>\n<p>The affected creature takes a -10-foot circumstance penalty to all Speeds for 10 minutes.</p>"
-    },
-    "Effect: Splintered Ground (Critical Failure)": {
-      "description": "<p>Granted by the Splintered Ground ability of the @Compendium[pf2e.pathfinder-bestiary.myEeYWWAgnkLwtIb]{Skulltaker}</p>\n<p>The affected creature takes a -15-foot circumstance penalty to all Speeds for 10 minutes.</p>"
-    },
-    "Effect: Tail Lash (Skill Check)": {
-      "description": "<p>A criatura recebe uma penalidade de circunstância de -2 para o teste de perícia acionador.</p>"
-    },
-    "Effect: Uncanny Tinker": {
-      "description": "<p>A criatura recebe +1 de bônus de circunstância em rolagens de ataque.</p>"
-    },
-    "Effect: Undead Mastery": {
-      "description": "<p>A criatura ganha um bônus de circunstância de +1 para rolagens de ataque, rolagens de dano, CA, jogadas de salvamento, e testes de perícias.</p>"
-    },
-    "Effect: Viscous Trap": {
-      "description": "<p>Granted by the Splintered Ground ability of the @Compendium[pf2e.pathfinder-bestiary.myEeYWWAgnkLwtIb]{Skulltaker}</p>\n<p>The affected creature takes a -15-foot circumstance penalty to all Speeds for 10 minutes.</p>"
     }
   }
 }
