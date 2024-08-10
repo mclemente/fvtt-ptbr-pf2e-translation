@@ -1,0 +1,45 @@
+name: Sync
+
+env:
+    node_version: 18
+
+on:
+    workflow_dispatch:
+
+jobs:
+    sync:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version: [18.x]
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Use Node.js ${{ env.node_version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ env.node_version }}
+
+            - name: Install dependencies
+              run: npm ci --cache .npm --prefer-offline
+
+            - name: Sync packs and Commit Changes
+              run: |
+                  git config user.email "action@github.com"
+                  git config user.name "Github Action"
+                  npm run pack-extractor
+                  git add translation/en
+                  git commit -m "Sync packs"
+
+            - name: Create Pull Request
+              id: cpr
+              uses: peter-evans/create-pull-request@v6
+              with:
+                  title: "Sync packs"
+                  commit-message: "Sync PF2 pack updates into main"
+                  branch: sync-packs
+                  body: |
+                      Sync PF2 pack updates into main

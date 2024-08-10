@@ -1,0 +1,43 @@
+{
+  "label": "bestiary-ability-glossary-srd",
+  "entries": {
+    "Attack of Opportunity": {
+      "name": "Attack of Opportunity"
+    },
+    "Catch Rock": {
+      "name": "Catch Rock"
+    },
+    "Nimble Dodge": {
+      "name": "Nimble Dodge",
+      "description": "<p><strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.</p>\n<p><strong>Requirements</strong> You are not encumbered</p>\n<hr />\n<p>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
+    },
+    "Power Attack": {
+      "name": "Power Attack"
+    },
+    "Retributive Strike": {
+      "name": "Retributive Strike"
+    },
+    "Sneak Attack": {
+      "name": "Sneak Attack",
+      "description": "<p>The creature's Strikes deal an additional 1d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
+    },
+    "Thoughtsense": {
+      "name": "Thoughtsense"
+    }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  }
+}

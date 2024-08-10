@@ -1,0 +1,64 @@
+{
+  "label": "kingmaker-features",
+  "entries": {
+    "Effect: Guard (Critical Success)": {
+      "name": "Effect: Guard (Critical Success)",
+      "description": "<p>This army gains a +2 item bonus to its AC until the start of its next turn; this bonus applies to all attacks.</p>",
+      "rules": {
+        "0": {
+          "label": "Guarded"
+        }
+      }
+    },
+    "Effect: Guard (Success)": {
+      "name": "Effect: Guard (Success)",
+      "description": "<p>This army gains a +2 item bonus to its AC until the start of your next turn against attacks from the targeted army.</p>",
+      "rules": {
+        "1": {
+          "label": "Guarded"
+        }
+      }
+    },
+    "Engines of War": {
+      "name": "Engines of War",
+      "description": "<p><em><strong>Note</strong>: Basic siege armies know Engines of War automatically, and must 'spend' their first tactic on it.</em></p>\n<hr />\n<p>Siege engines cannot be outfitted with gear. They cannot attack @UUID[Compendium.pf2e.kingmaker-features.Item.2IqM1XHELKwARAx1]{Engaged} armies. They are more difficult to destroy due to their higher hit points than other basic armies. A siege engine can attack and damage fortifications with its ranged attacks as part of the @UUID[Compendium.pf2e.kingmaker-features.Item.qCxyuNhzaaYlYBum]{Battle} or @UUID[Compendium.pf2e.kingmaker-features.Item.HLu1o1RzCZxWjOJJ]{Overwhelming Bombardment} actions.</p>"
+    },
+    "Overrun": {
+      "name": "Overrun",
+      "description": "<p><em><strong>Note</strong>: Basic cavalry armies know Overrun automatically, and must 'spend' their first tactic on it.</em></p>\n<hr />\n<p>Cavalry armies gain a +1 status bonus on weapon attacks against infantry and skirmisher armies, but they suffer a –1 status penalty on Maneuver and Morale saves against area attacks and mental attacks.</p>",
+      "rules": {
+        "0": {
+          "label": "vs Infantry and Skirmisher"
+        },
+        "1": {
+          "label": "vs Area or Mental attacks"
+        }
+      }
+    },
+    "Reduced Accuracy": {
+      "name": "Reduced Accuracy",
+      "description": "<p><em><strong>Note</strong>: This effect does not represent an army condition itself but is instead used for automating various buffs, effects, and conditions which reduce the accuracy of an attacker, such as the @UUID[Compendium.pf2e.kingmaker-features.Item.tWS8aMCyeGKcnFh1]{Concealed} army condition.</em></p>"
+    }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    }
+  },
+  "folders": {
+    "Army Conditions": "Army Conditions",
+    "Army Tactics": "Army Tactics",
+    "Army War Actions (Basic)": "Army War Actions (Basic)",
+    "Army War Actions (Tactical)": "Army War Actions (Tactical)",
+    "Effects": "Effects",
+    "Kingdom Activities": "Kingdom Activities",
+    "Kingdom Feats": "Kingdom Feats",
+    "Kingdom Features": "Kingdom Features"
+  }
+}

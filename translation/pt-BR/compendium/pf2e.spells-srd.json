@@ -1389,7 +1389,6 @@
       "description": "<strong>Acionamento</strong> Você sofre dano de um inimigo ou de um perigo. <hr /> <p><p> Após sofrer o dano acionador, você se transforma em ar. Até o final do turno atual, você não pode ser atacado ou mirado, não ocupa um espaço, não pode agir e quaisquer auras ou emanações que tiver são suprimidas. Ao final do turno, você se reforma em qualquer espaço que puder ocupar a até 4,5 metros de onde estava quando foi dispersado. Quaisquer auras ou emanações que você tiver são restauradas desde que a duração delas não tenham acabado enquanto você estava dispersado.</p>"
     },
     "Distortion Lens": {
-      "name": "Distortion Lens",
       "description": "<p>You create a magical lens that distorts space as best suits you. You create the lens in a space in range, even suspended in midair. If your or an ally's ranged attack passes through the lens, the attack gains an additional 10 feet of range; if an enemy's ranged attack would pass through the lens, it requires an additional 10 feet of range to move through, though the enemy knows before using its ability whether the interference puts the target out of range. An ally whose space overlaps the lens can increase the range of its ranged attacks, but an enemy whose space overlaps the lens doesn't reduce the range of its ranged attacks.</p>\n<p>The first time each round you Sustain the Spell, you can choose to relocate it to another square within range. The lens disappears if you cast <em>distortion lens</em> again.</p>\n<hr />\n<p><strong>Heightened (+3)</strong> The lens increases or decreases the range of abilities by an additional 5 feet.</p>\n<hr />\n<p><strong>Amp</strong> The lens can interfere with creatures as well as attacks. Once during a Medium or smaller ally's move action, the ally can move into and out of the lens's square without that square counting against the total distance moved. Conversely, the lens is difficult terrain for your enemies.</p>"
     },
     "Distracting Chatter": {
@@ -2162,7 +2161,6 @@
       "requirements": "You are wielding a sword or spear made partly or wholly of metal."
     },
     "Forbidden Thought": {
-      "name": "Forbidden Thought",
       "description": "<p>You place a psychic lock in a foe's mind that prevents it from a specific action. Choose \"Strike,\" \"Stride,\" \"Cast a Spell,\" or a specific action you know the creature to have (such as \"Breath Weapon\" against a dragon). If the creature attempts that action on its next turn, it must surmount your lock to do so, causing it to take 1d6 mental damage plus your spellcasting ability modifier (with a basic Will save). The target is then temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by [[/r 1d6]]{1d6}.</p>\n<hr />\n<p><strong>Amp</strong> Your telepathic push is particularly shocking to those who resist it. If the target fails its save, it's also @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.</p>",
       "target": "1 creature"
     },
@@ -2357,7 +2355,6 @@
       "description": "<p>You're bathed in a smooth, almost glittering aura that improves the attitude of those near you. Any creature that ends its turn in the aura must attempt a Will saving throw with the following effects. No matter the result, it's then temporarily immune for 24 hours. The effect lasts until the spell ends, even after the creature leaves the aura.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is aware of the aura.</p>\n<p><strong>Success</strong> The creature's attitude toward you improves by one step. If that improves its attitude to at least @UUID[Compendium.pf2e.conditionitems.fuG8dgthlDWfWjIA]{Indifferent}, it can't take hostile actions against you, though the effect ends as soon as you take a hostile action against the creature or its allies.</p>\n<p><strong>Failure</strong> The creature's attitude toward you improves by two steps. It can't take hostile actions against you, though the effect ends as soon as you take a hostile action against the creature or its allies.</p>\n<p><strong>Critical Failure</strong> The creature's attitude becomes @UUID[Compendium.pf2e.conditionitems.v44P3WUcU1j0115l]{Helpful} to you, though the effect ends as soon as you take a hostile action against the creature or its allies. While the creature is helpful, it can't take hostile actions against you.</p>"
     },
     "Glimpse Weakness": {
-      "name": "Glimpse Weakness",
       "description": "<p>You glimpse a loose scale, a seam in a foe's armor, or a similar weakness, aiding your allies in landing a precise hit. The first ally that hits the target with a successful Strike deals additional precision damage equal to 1 + this spell's level, and then the spell ends.</p>\n<hr />\n<p><strong>Amp</strong> The additional precision damage is 1d4+1.</p>\n<p><strong>Amp Heightened (+2)</strong> The additional precision damage increases by 1d4+1.</p>",
       "target": "1 creature"
     },
@@ -2725,7 +2722,6 @@
       "target": "1 willing creature"
     },
     "Imaginary Weapon": {
-      "name": "Imaginary Weapon",
       "description": "<p>You create a simple weapon of force. Make a melee spell attack roll against your target's AC. If you hit, you deal your choice of bludgeoning or slashing damage equal to 1d8 plus your spellcasting ability modifier. On a critical success, you deal double damage and can choose to detonate your weapon to push the target 10 feet away from you.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>\n<hr />\n<p><strong>Amp</strong> You form multiple force weapons to lash out at multiple foes. You make two imaginary weapon Strikes, each against a different target. Your multiple attack penalty doesn't increase until you've made both Strikes.</p>\n<p><strong>Amp Heightened (+1)</strong> The damage increases by 2d8 instead of 1d8.</p>",
       "target": "1 creature"
     },
@@ -3758,7 +3754,6 @@
       "primarycheck": "Occultism (expert)"
     },
     "Phase Bolt": {
-      "name": "Phase Bolt",
       "description": "<p>You point your finger and project a bolt of magical energy that stutters in and out of phase until it reaches the target. Make a ranged spell attack roll against your target's AC; if the target has any circumstance bonuses to AC (such as from a shield or cover), reduce that bonus by 2 for this attack. On a success, you deal [[/r 1d4[piercing]]] damage plus your spellcasting ability modifier. On a critical success, the target takes double damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The bolt's damage increases by [[/r 1d4]]{1d4}.</p>",
       "target": "1 creature"
     },
@@ -5278,7 +5273,6 @@
       "target": "1 creature"
     },
     "Telekinetic Rend": {
-      "name": "Telekinetic Rend",
       "description": "<p>Two non-overlapping @Template[type:burst|distance:5]</p>\n<hr />\n<p>Your mind creates a violent axis of motion in a nearby space. You deal your choice of [[/r 1d6[bludgeoning]]] or [[/r 1d6[slashing]]] damage to all creatures in the area, with a basic Fortitude save. A creature large enough to be in more than one of the bursts takes damage only once.</p>\n<hr />\n<p><strong>Amp</strong> Your thoughts expand in scope and power. The bursts deal [[/r 1d6[bludgeoning]]] damage and [[/r 1d6[slashing]]] damage, instead of the usual damage. A creature that critically fails its save is also @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.</p>\n<p><strong>Amp Heightened (+2)</strong> Both types of damage increase by 1d6 instead of just one. Add a third non-overlapping @Template[type:burst|distance:5] to the area.</p>",
       "target": "2 non-overlapping 5-foot bursts"
     },
@@ -5387,7 +5381,6 @@
       "secondarycheck": "Crafting, Performance"
     },
     "Thermal Stasis": {
-      "name": "Thermal Stasis",
       "description": "<p>The same abilities that let you raise or lower thermal energy also let you keep it at a safe medium. The target gains resistance 2 against fire damage and resistance 2 against cold damage.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Y6aNYnGVXdAMvL7Y]{Spell Effect: Thermal Stasis}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Each resistance increases by 2.</p>\n<hr />\n<p><strong>Amp</strong> The spell's duration becomes 1 minute.</p>",
       "target": "1 creature"
     },
@@ -5865,7 +5858,6 @@
       "target": "1 creature"
     },
     "Warp Step": {
-      "name": "Warp Step",
       "description": "<p>When you walk, the earth warps beneath your feet-your steps extend, distance contracts, and everything is just a little bit closer. You gain a +5-foot status bonus to your Speed until the end of your turn. You then Stride twice. You can use warp step to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type.</p>"
     },
     "Warped Terrain": {

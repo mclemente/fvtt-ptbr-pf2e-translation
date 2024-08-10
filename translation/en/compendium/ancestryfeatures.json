@@ -1,0 +1,82 @@
+{
+  "label": "ancestryfeatures",
+  "entries": {
+    "Automaton Core": {
+      "name": "Automaton Core",
+      "description": "<p>Your body contains an automaton core infused with planar quintessence that grants you power to perform various tasks and houses your soul and life energy. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via vitality energy. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.</p>"
+    },
+    "Change Shape (Kitsune)": {
+      "name": "Change Shape (Kitsune)",
+      "description": "<p>As a kitsune, you gain the @UUID[Compendium.pf2e.actionspf2e.Item.wwvPiG2kET2rkSAG]{Change Shape (Kitsune)} ability.</p>"
+    },
+    "Clan Dagger": {
+      "name": "Clan Dagger",
+      "description": "<p>You get one @UUID[Compendium.pf2e.equipment-srd.Item.kJJvKm80KwWXPukV]{Clan Dagger} of your clan for free, as it was given to you at birth. Selling this dagger is a terrible taboo and earns you the disdain of other dwarves.</p>"
+    },
+    "Constructed": {
+      "name": "Constructed",
+      "description": "<p>Your synthetic body resists ailments better than those of purely biological organisms. You gain a +1 circumstance bonus to saving throws against diseases, poisons, and radiation.</p>",
+      "rules": {
+        "0": {
+          "label": "Constructed (vs. diseases, poisons, and radiation)"
+        }
+      }
+    },
+    "Constructed Body": {
+      "name": "Constructed Body",
+      "description": "<p>Your physiological needs are different than those of living creatures. You don't need to eat or drink. You don't need to sleep, but you still need a daily period of rest. During this period of rest, you must enter a recuperating standby state for 2 hours, which is similar to sleeping except you are aware of your surroundings and don't take penalties for being @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. Much like with sleeping, if you go too long without entering your standby state, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} and can't recover until you enter standby for 2 hours.</p>"
+    },
+    "Draconic Exemplar": {
+      "name": "Draconic Exemplar",
+      "description": "<p>You draw minor powers from your draconic exemplar. Choose a type of chromatic or metallic dragon to be your exemplar. This determines your scale color and appearance, and dragons sometimes look more favorably upon those kobolds who resemble them, at the GM's discretion. Your exemplar may also determine details of other abilities you have, using the Draconic Exemplars table.</p>\n<h3><strong>Table 1-1 Draconic Exemplars</strong></h3>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Dragon</th>\n<th>Breath Weapon Shape</th>\n<th>Damage Type</th>\n<th>Saving Throw</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Black</td>\n<td>Line</td>\n<td>Acid</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Blue</td>\n<td>Line</td>\n<td>Electricity</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Green</td>\n<td>Cone</td>\n<td>Poison</td>\n<td>Fortitude</td>\n</tr>\n<tr>\n<td>Red</td>\n<td>Cone</td>\n<td>Fire</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>White</td>\n<td>Cone</td>\n<td>Cold</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Brass</td>\n<td>Line</td>\n<td>Fire</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Bronze</td>\n<td>Line</td>\n<td>Electricity</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Copper</td>\n<td>Line</td>\n<td>Acid</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Gold</td>\n<td>Cone</td>\n<td>Fire</td>\n<td>Reflex</td>\n</tr>\n<tr>\n<td>Silver</td>\n<td>Cone</td>\n<td>Cold</td>\n<td>Reflex</td>\n</tr>\n</tbody>\n</table>"
+    },
+    "Emotionally Unaware": {
+      "name": "Emotionally Unaware",
+      "description": "<p>You find it difficult to understand and express complex emotions. You take a -1 circumstance penalty to Diplomacy and Performance checks, and on Perception checks to Sense Motive.</p>",
+      "rules": {
+        "0": {
+          "label": "Emotionally Unaware (to Sense Motive)"
+        }
+      }
+    },
+    "Greater Darkvision": {
+      "name": "Greater Darkvision",
+      "description": "<p>You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white. Some forms of magical darkness, such as a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} spell, block normal darkvision. You, however, can see through even these forms of magical darkness.</p>"
+    },
+    "Keen Eyes": {
+      "name": "Keen Eyes",
+      "description": "<p>Your eyes are sharp, allowing you to make out small details about @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or even @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures that others might miss. You gain a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of you. When you target an opponent that is concealed from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+    },
+    "Magical Strikes": {
+      "name": "Magical Strikes",
+      "description": "<p>Your inherent magic pervades your entire being. All your Strikes are magical, whether with unarmed attacks or weapons.</p>"
+    },
+    "Plant Nourishment": {
+      "name": "Plant Nourishment",
+      "description": "<p>You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food. If you normally rely on photosynthesis and go without sunlight for 1 week, you begin to starve. You can derive nourishment from specially formulated bottles of sunlight instead of natural sunlight, but these bottles cost 10 times as much as standard rations (or 40 sp).</p>"
+    },
+    "Unusual Anatomy": {
+      "name": "Unusual Anatomy",
+      "description": "<p>Your unorthodox body resists physical afflictions meant for other creatures. You gain a +1 circumstance bonus to saves against diseases and poisons.</p>"
+    },
+    "Wings": {
+      "name": "Wings",
+      "description": "<p>All strix possess powerful wings. While not all strix focus on honing their flying skills, a strong flap of their wings allows strix to travel longer distances when jumping.</p>\n<p>When @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leaping} horizontally, you move an additional 5 feet. You don't automatically fail your checks to @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} if you don't Stride at least 10 feet first. In addition, when you make a Long Jump, you can jump a distance up to 10 feet further than your Athletics check result, though still with the normal maximum of your Speed. Additionally, you take no damage from falling, no matter what distance you fall.</p>"
+    }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  }
+}
