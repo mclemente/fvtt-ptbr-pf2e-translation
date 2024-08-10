@@ -70,7 +70,7 @@ Hooks.once("init", () => {
 			type: Boolean,
 			default: false,
 			config: true,
-			requiresReload: true
+			requiresReload: true,
 		});
 
 		game.babele.register({
@@ -170,7 +170,3 @@ Hooks.once("i18nInit", () => {
 		removeMismatchingTypes(fallback, game.i18n.translations);
 	}
 });
-
-Hooks.once("ready", () => {
-
-})
