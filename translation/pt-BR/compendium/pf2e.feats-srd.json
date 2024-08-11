@@ -49,11 +49,15 @@
       ]
     },
     "Accurate Swing": {
-      "prerequisites": [
-        {
+      "name": "Balanço Preciso",
+      "prerequisites": {
+        "0": {
           "value": "Dedicação de Vigilante"
+        },
+        "2": {
+          "value": "Julgamento Severo"
         }
-      ]
+      }
     },
     "Accursed Claws": {
       "description": "<p><strong>Prerequisites&nbsp;</strong>Claw unarmed attack</p> <hr> <p>Your claws carry your mother’s hag magic. When you critically hit with a claw Strike, the target takes an additional [[/r 1d4 #persistent mental]] persistent mental damage.</p>",
@@ -2379,11 +2383,14 @@
       "description": "<p>Você faz um ataque controlado, considerando calculadamente o seu impulso. Faça um Golpe. Este Golpe possui o efeito de falha a seguir.</p> <p><strong>Falha</strong> Este ataque não conta para sua penalidade por ataques múltiplos.</p>"
     },
     "Execution": {
-      "prerequisites": [
-        {
+      "prerequisites": {
+        "0": {
           "value": "Dedicação de Vigilante"
+        },
+        "2": {
+          "value": "Julgamento Severo"
         }
-      ]
+      }
     },
     "Executioner Weapon Training": {
       "description": "<p>Your Gray Gardener training has made you deeply skilled with the weapons that execute with a swift chop to the neck. You become trained with the following weapons: @Compendium[pf2e.equipment-srd.War0uyLBx1jA0Ge7]{Battle Axe}, @Compendium[pf2e.equipment-srd.XGtIUZ4ZNKuFx1uL]{Falchion}, @Compendium[pf2e.equipment-srd.8COlYvHe6hKCXY8x]{Greataxe}, and @Compendium[pf2e.equipment-srd.grmaV4GdoGD7sKbn]{Scimitar}.</p>\n<p>Whenever you gain a class feature that grants you expert or greater proficiency with a given weapon or weapons, you also gain that proficiency for these weapons.</p>",
@@ -2918,11 +2925,14 @@
     },
     "Frightful Condemnation": {
       "description": "<p><strong>Trigger</strong> You hit your condemned foe with a melee Strike in the same turn during which you condemned it with Harsh Judgment.</p>\n<p><strong>Requirements</strong> You have condemned a foe to death with Harsh Judgment.</p>\n<hr />\n<p>Your willingness to follow through on your pitiless judgment is frightful to the person you have condemned, and they begin to dread what you will do to them next. Your condemned foe is @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}, or @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} if the triggering Strike was a critical hit.</p>",
-      "prerequisites": [
-        {
+      "prerequisites": {
+        "0": {
           "value": "Dedicação de Vigilante"
+        },
+        "2": {
+          "value": "Julgamento Severo"
         }
-      ]
+      }
     },
     "Full Automation": {
       "description": "<p>You become so entwined with your innovations that you can use them without a second thought. You're permanently @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened}. How you can use the extra action depends on your innovation.</p>\n<ul>\n<li><strong>Armor</strong> Your armor responds to the most subtle stimuli to move you in the right direction as long as you are wearing it. You can use the extra action to Stride, Step, or use a form of movement provided by your innovation (such as Fly or Swim).</li>\n<li><strong>Construct</strong> Your ability to command your construct becomes instinctive. You can use the extra action to Command your construct innovation (or to provide 1 of the actions if you choose to spend 2 actions to Command your construct).</li>\n<li><strong>Weapon</strong> Your weapon becomes easier to wield with deadly efficacy, almost as if it is an extension of your body. It speeds effortlessly toward whatever target you choose as long as you are holding it. You can use the extra action to Strike with your innovation.</li>\n</ul>"
@@ -3273,6 +3283,7 @@
       "description": "<div><strong>Arquétipo</strong>  @Compendium[pf2e.archetypes.bi1SeBS7Af3ZisIA]{Mestre da Espada}</div> <div> <strong>Pré-requisitos</strong> Dedicação de Mestre da Espada  </span></div> <hr> <p>Seu ataque impede que um inimigo persiga seus aliados. Faça um Golpe corpo a corpo, adicionando os seguintes efeitos além dos efeitos normais do Golpe.  <strong>Sucesso Crítico</strong> O alvo recebe uma penalidade de status de –4,5 metros em suas Velocidades até o início do seu próximo turno. <strong>Sucesso</strong> O alvo recebe uma penalidade de status de –3 metros em suas Velocidades até o início do seu próximo turno. <strong>Falha</strong> O alvo recebe uma penalidade de status de –1,5 metros em suas Velocidades até o início do seu próximo turno.</p> (Tradução não oficial - Lost Omens: Character Guide)"
     },
     "Harsh Judgement": {
+      "name": "Julgamento Severo",
       "description": "<p>Choose one creature you can see, and loudly declare the creature's life forfeit by your judgment. That creature becomes your condemned foe until they are defeated, you use Harsh Judgment on a different creature, or the encounter ends. You gain a +2 circumstance bonus to Perception checks to Seek your condemned foe and on Intimidation checks to Demoralize them. You have a -1 circumstance penalty to Perception checks to Seek creatures other than your condemned foe and on Intimidation checks to Demoralize anyone other than your condemned foe.</p>\n<p>You typically can use Harsh Judgment only during an encounter, and if you try to use it to declare someone's life forfeit during exploration or downtime, you are likely to start an encounter.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.raoz523QRsj5WjcF]{Effect: Harsh Judgement}</p>",
       "prerequisites": [
         {
