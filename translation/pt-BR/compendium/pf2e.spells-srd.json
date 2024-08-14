@@ -387,7 +387,7 @@
       "description": "<p><strong>Area</strong> 30-foot radius, 100-foot tall cylinder</p>\n<hr />\n<p>An intangible hollow tree sprouts from the ground and grows to towering height, radiating a fiery passion and fascinating viewers. The base of the tree takes up a single square and grows 100 feet upwards, while its branches extend outwards 30 feet, forming the spell's cylindrical area. The tree then blossoms, growing delicate white flowers that burn with white-hot fire. As the tree's branches gently rustle in the wind, flower petals drift to the ground in a shower of flame. Any creature that ends its turn under the tree's branches takes 6d6 fire damage from the burning petals. Any enemy that can see the tree, even if the enemy is outside the spell's area, must attempt a will save. This is an emotion, mental, and visual effect. Creatures fascinated with the tree must use at least one of their actions on each of their turns to move toward the tree.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The creature is unaffected, but it must attempt a new save at the end of its turn if it can still see the tree.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with the tree until the end of its next turn. If it can still see the tree then, it must attempt a save again.</p>\n<p><strong>Critical Failure</strong> The creature is fascinated with the tree until the spell ends. The tree's fire damage doesn't end the fascination; other hostile actions end it, as normal. If the fascination ends, the creature must attempt a new save at the end of its turn if it can still see the tree.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6</p>"
     },
     "Cackle": {
-      "name": "Cacarejo",
+      "name": "Risada",
       "description": "<p>With a quick burst of laughter, you prolong a magical effect you created. You @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell} as a free action.</p>"
     },
     "Call Spirit": {
@@ -1337,6 +1337,9 @@
     "Fortify Summoning": {
       "target": "1 creature you summoned"
     },
+    "Fortissimo Composition": {
+      "name": "Composição Fortissimo"
+    },
     "Foul Miasma": {
       "name": "Choque de Miasma",
       "description": "<p> Você multiplica a doença dentro de uma criatura, atraindo uma névoa infecciosa para fora do seu corpo, onde pode se espalhar para outras criaturas. O alvo deve fazer um teste de Vontade. Se o alvo estiver disposto, ele pode optar por assumir os efeitos de uma falha crítica.  <strong>Sucesso Crítico</strong> O alvo recebe o benefício de uma defesa bem-sucedida contra a doença de nível mais baixo que a afeta. <strong>Sucesso</strong> O alvo não é afetado. <strong>Falha</strong> Uma doença escolhida aleatoriamente que afeta o alvo preenche o ar em uma emanação de 4,5 metros centralizada no alvo. Durante a duração da magia, qualquer criatura que entre ou termine seu turno dentro da área é exposta a essa doença. <strong>Falha Crítica</strong> Como falha, exceto o miasma contém todas as doenças que afetam o alvo.&nbsp; </p> (Tradução não oficial - Gods and Magic)",
@@ -1596,7 +1599,7 @@
       "description": "<p>Uma torrente rodopiante de água jorra em linha reta, batendo naqueles que estiverem em seu caminho e possivelmente empurrando-os para longe de você. A torrente causa 8d6 de dano contundente. Cada criatura na área deve tentar um salvamento básico de Fortitude. Criaturas que falharem no salvamento também são empurradas 1,5 metros para trás (3 metros em uma falha crítica).</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
     },
     "Hymn of Healing": {
-      "name": "Hino de Cura",
+      "name": "Hino da Cura",
       "description": "<p>Your divine singing mends wounds and provides a temporary respite from harm. The target gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.fJSNOw4zHGbIm4bZ]{Fast Healing} 2.</p>\n<p>When you Cast this Spell and the first time each round you Sustain the Spell, the target gains 2 temporary Hit Points, which last for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fast healing and temporary Hit Points each increase by 2.</p>",
       "target": "you or 1 ally"
     },
@@ -1651,7 +1654,7 @@
       "description": "<p> Você forma uma cena imaginária que inclui até 10 criaturas ou objetos distintos de vários tamanhos, que devem estar dentro da área da magia. Estes elementos geram sons e cheiros apropriados e parecem normais ao toque. Todos os elementos de uma cena ilusória são incapazes de falar. Ao contrário da magia <a href=\"https://2e.aonprd.com/Spells.aspx?ID=158\"><em>criatura ilusória</em></a>, criaturas em sua cena não possuem habilidades e estatísticas de combate. Sua cena não altera o ambiente ao redor dela, embora você possa situar sua cena dentro do ambiente ilusório da magia <a href=\"https://2e.aonprd.com/Spells.aspx?ID=145\"><em>terreno alucinatório</em></a>.  </p><p> Quando criar uma cena, você pode escolher que ela seja estática ou que siga uma programação. Embora a cena estática seja estacionária, ela inclui movimentos naturais básicos. Por exemplo, um vento soprando um pedaço ilusório de papel o arrastaria. Um programa pode ter até 1 minuto de duração e se repete quando é finalizado. Portanto, você poderia criar uma cena de dois orcs lutando um contra o outro, e a luta aconteceria da mesma forma a cada repetição. Você pode criar uma cena que termine de forma semelhante ao início, de maneira que seja difícil dizer quando cada iteração começa e termina — os dois guerreiros acabariam no mesmo lugar onde começaram. Qualquer um observando a cena por mais de alguns minutos sempre percebe a iteração dela. Você é incapaz de alterar a programação após criar a ilusão.  </p><p> Uma criatura que tocar qualquer parte da imagem ou que usar a ação Buscar para examiná-la pode tentar desacreditar sua ilusão. Se ela interagir somente com parte da ilusão, ela desacredita somente essa parte. Ela desacredita a cena inteira somente em um sucesso crítico. </p><hr /><p><strong>Elevada (6º)</strong> Criaturas ou objetos em sua cena são capazes de falar. Você deve definir as falas específicas para cada ator quando criar sua programação. A magia disfarça sua voz para cada ator.</p><p><strong>Elevada (8º)</strong> Como a versão de 6º nível, mas a duração é ilimitada.</p>"
     },
     "Impaling Briars": {
-      "name": "Silvados Impaladores",
+      "name": "Silvados Empaladores",
       "description": "<p> O solo na área se transforma em uma massa de silvados perigosos que agridem e impedem seus adversários. A cada rodada em que Sustentar a Magia, você pode selecionar um dos efeitos a seguir para ocorrer na área.  </p><ul><li><strong>Enredar</strong> Os silvados se amontoam ao redor de seus adversários, tentando segurá-los no lugar. Um adversário na área (ou voando a no máximo 6 metros acima da área) deve tentar um salvamento de Reflexos. Em uma falha, ele sofre –3 metros de penalidade de circunstância em todas as Velocidades por 1 rodada e, em uma falha crítica, ele fica @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada a menos que Escape. </li><li><strong>Impedir</strong> Os silvados se contorcem e crescem, tornando a área inteira terreno difícil.</li><li><strong>Muralha</strong> Uma muralha de espinhos aparece na área, durando por 1 rodada. A muralha é terreno difícil maior em vez de terreno difícil. &nbsp;</li> </ul><p>Além disso, uma vez por rodada, você pode direcionar os silvados para empalarem qualquer alvo na área (ou voando a até 6 metros acima da área) à sua vista ao usar uma ação única que possui os traços concentração e manuseio. Faça uma rolagem de ataque de magia. Em um sucesso, o alvo sofre 10d6 de dano perfurante e sofre –3 metros de penalidade de circunstância em todas as Velocidades por 1 rodada; em um sucesso crítico, o alvo fica @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada a menos que Escape. </p><p>&nbsp;</p>"
     },
     "Impaling Spike": {
@@ -1816,7 +1819,7 @@
       "description": "<p>You make a quick gesture, tracing the link between yourself and your eidolon and drawing on your connection to slowly strengthen your shared life force. Your eidolon gains Fast Healing 4 for 4 rounds.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.h2JzNunzO8hXiNV3]{Spell Effect: Lifelink Surge}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fast healing increases by 2.</p>"
     },
     "Light": {
-      "name": "Leve",
+      "name": "Luz",
       "description": "<p> O objeto brilha, emanando luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) como uma tocha. Se você conjurar esta magia em um segundo objeto, a magia luz no primeiro objeto é encerrada.</p>\n<p>@Compendium[pf2e.spell-effects.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Elevada (4°)</strong> O objeto emana luz brilhante em um raio de 18 metros (e luz fraca nos próximos 18 metros).</p>"
     },
     "Light of Revelation": {
@@ -1846,7 +1849,7 @@
       "target": "1 lock, or a door or container with a latch"
     },
     "Loremaster's Etude": {
-      "name": "Etude do Mestre do Saber",
+      "name": "Étude do Mestre do Saber",
       "description": "<p><strong>Acionamento</strong> Você ou um aliado na distância faz um teste para Recordar Conhecimento</p><hr /><p><strong>Efeito </strong>Você recorre aos mistérios profundos de sua musa, concedendo ao alvo uma maior habilidade de pensar e recordar informação. Role o teste de Recordar Conhecimento acionador duas vezes e use o melhor resultado.</p>",
       "target": "you or the triggering ally"
     },
@@ -3446,6 +3449,7 @@
       "target": "1 creature"
     },
     "Uplifting Overture": {
+      "name": "Abertura Inspiradora",
       "target": "1 ally"
     },
     "Vampiric Exsanguination": {
