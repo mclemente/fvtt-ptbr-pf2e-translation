@@ -570,6 +570,9 @@
         "spell->Disintegrate": {
           "target": "1 creature or unattended object"
         },
+        "spell->Invisibility Sphere": {
+          "target": "you and any number of creatures in range"
+        },
         "spell->Inveigle": {
           "target": "1 creature of a level no greater than double the inveigle ritual's level"
         },
@@ -666,6 +669,7 @@
     "Jahsi": {
       "items": {
         "spell->Litany against Wrath": {
+          "name": "Litania contra a Ira",
           "target": "1 evil creature"
         },
         "spell->Dancing Lights": {
@@ -1166,6 +1170,16 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        }
+      }
+    },
+    "Spawn of Dahak": {
+      "items": {
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        },
+        "action->Draconic Frenzy": {
+          "name": "Frenesi Dracônico"
         }
       }
     },
