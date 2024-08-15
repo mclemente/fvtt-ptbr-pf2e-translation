@@ -77,6 +77,9 @@ export class Translator {
 
 	// Merge an array of objects using a provided field mapping
 	dynamicArrayMerge(sourceArray, translations, mapping) {
+		if (!translations) {
+			return sourceArray;
+		}
 		// Loop through array, merge available objects
 		const mappedObjectArray = [];
 		for (let i = 0; i < sourceArray.length; i++) {

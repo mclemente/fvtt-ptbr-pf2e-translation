@@ -28,6 +28,7 @@ export const PF2_DEFAULT_MAPPING = {
             converter: "updateActorImage",
             extractOptions: { extractValue: false },
         },
+        privateNotes: { path: "system.details.privateNotes" },
         publicNotes: {
             path: "system.details.publicNotes",
             converter: "translateActorDescription",
