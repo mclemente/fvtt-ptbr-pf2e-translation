@@ -103,7 +103,22 @@
       ]
     },
     "Adaptive Vision": {
-      "name": "Visão Adaptativa"
+      "name": "Visão Adaptativa",
+      "description": "<p><strong>Acesso</strong> Você é da Fortaleza de Dongun ou de Alkenstrela</p><hr />\n<p>Após anos utilizando armamentos de pólvora em ambientes com pouca iluminação, você se acostumou a flashes de luz ofuscantes e mudanças repentinas na iluminação. Você recebe um bônus circunstancial de +1 nos testes de resistência contra efeitos visuais. Se você obtiver sucesso em um teste de resistência contra um efeito visual, você trata esse sucesso como um sucesso crítico.</p>",
+      "rules": {
+        "2": {
+          "text": "Quando rolar um sucesso em um salvamento contra um efeito visual, trate o resultado como um sucesso crítico."
+        }
+      }
+    },
+    "Additional Circus Trick": {
+      "name": "Truque de Circo Avançado",
+      "description": "<p>Seu truque emblemático pode possuir um traço adicional além da quantidade indicada pela Tabela 2: Progressão de Truque na página 63 da Trilha de Aventuras #151: O Espetáculo Deve Continuar. Se o traço de truque for associado a uma perícia (como Intimidação para o traço fogo) e esta perícia for um dos testes de seu truque, seus testes com esta perícia para Realizar um Truque não sofrem penalidade se você utilizar uma perícia diferente. Por exemplo, se o seu truque emblemático utilizar Acrobatismo e Intimidação para os testes e você adquirir este talento para adicionar o traço fogo, você pode Realizar um Truque utilizando Acrobatismo (sem penalidade), Acrobatismo novamente (com –5 de penalidade) e depois Intimidação (sem penalidade).</p>",
+      "prerequisites": [
+        {
+          "value": "Você deve possuir um truque emblemático"
+        }
+      ]
     },
     "Additional Lore": {
       "name": "Saber Adicional",
