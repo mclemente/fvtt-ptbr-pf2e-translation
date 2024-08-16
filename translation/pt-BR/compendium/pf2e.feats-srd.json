@@ -247,7 +247,7 @@
     },
     "Advanced Warden": {
       "name": "Guarda Avançado",
-      "description": "<p>Você desbloqueia feitiços primais mais poderosos. Você ganha a sua escolha de um feitiço de guardião da lista de feitiços avançados de guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.vGEgI8e7AW6FQ3tP]{Talento Animal}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.8rj45fKzCFcB0fxs]{Aumentar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.GfrKNJ9pNeATiKCc]{Sorte do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.RGBZrVRIEDb2G48h]{Névoa Suavizante}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo um feitiço de guardião avançado diferente a cada vez.</p>",
+      "description": "<p>Você desbloqueia feitiços primais mais poderosos. Você ganha a sua escolha de um feitiço de protetor da lista de magias de protetor avançado.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.vGEgI8e7AW6FQ3tP]{Talento Animal}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.8rj45fKzCFcB0fxs]{Aumentar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.GfrKNJ9pNeATiKCc]{Sorte do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.RGBZrVRIEDb2G48h]{Névoa Suavizante}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo um feitiço de guardião avançado diferente a cada vez.</p>",
       "prerequisites": [
         {
           "value": "Protetor Inicial"
@@ -3483,7 +3483,7 @@
       "description": "<p>Você pode fazer sua pele adquirir a resistência lenhosa de uma árvore antiga e fazer seu familiar seguir o mesmo. Você pode lançar @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Resiliência de Carvalho} à vontade como um feitiço primal inato com um nível de feitiço um abaixo do maior nível de feitiços que você pode lançar. Este feitiço tem como alvo você e seu Familiar Leshy, se ele estiver a até 30 pés de você.</p>"
     },
     "Guardian's Deflection (Fighter)": {
-      "name": "Desvio do Guardião (Guerreiro)",
+      "name": "Deflexão do Protetor (Guerreiro)",
       "description": "<p><strong>Acionamento</strong> Um aliado dentro do seu alcance de combate corpo a corpo é atingido por um ataque, você pode ver o atacante, e o aliado ganhar um bônus circunstancial de +2 na CA transformaria o acerto crítico em um acerto ou o acerto em uma falha.</p>\n<p><strong>Requerimento</strong> Você está empunhando uma única arma corpo a corpo de uma mão e não está segurando nada mais em suas mãos.</p>\n<hr />\n<p>Você usa sua arma para desviar o ataque contra seu aliado, concedendo um bônus circunstancial de +2 na Classe de Armadura dele contra o ataque acionador. Isso transforma o acerto crítico acionador em um acerto, ou o acerto acionador em uma falha.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.w6X7io56B2HHTOvs]{Effect: Guardian's Deflection}</p>"
     },
     "Guiding Finish": {
@@ -4074,7 +4074,7 @@
     },
     "Initiate Warden": {
       "name": "Protetor Inicial",
-      "description": "<p>Você treinou com uma das seitas de patrulheiros conhecidos como guardiões, que praticam um tipo especializado de magia primal. Você ganha a sua escolha de um feitiço de guardião desses feitiços iniciais de guardião (ou outro ao qual você tenha acesso).</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.IWUe32Y5k2QFd7YQ]{Arma Gravitacional}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KIV2LqzS5KtqOItV]{Curar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.u2uSeH6YSbK1ajTy]{Ocultar Mágica}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo um feitiço de guardião inicial diferente a cada vez.</p>"
+      "description": "<p>Você treinou com um dos círculos de patrulheiros conhecidos como os protetores, que praticam um tipo especializado de magia\nprimal. Você aprende uma magia de protetor à sua escolha dentre as magias de protetor iniciado (ou outro ao qual você tenha acesso).</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.IWUe32Y5k2QFd7YQ]{Arma Gravitacional}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KIV2LqzS5KtqOItV]{Curar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.u2uSeH6YSbK1ajTy]{Ocultar Mágica}</p>\n<hr />\n<p><strong>Especial</strong>Você pode selecionar este talento várias vezes, escolhendo uma magia de protetor iniciado diferente a cada vez.</p>"
     },
     "Innate Magical Intuition": {
       "prerequisites": [
@@ -4824,7 +4824,7 @@
     },
     "Master Monster Hunter": {
       "name": "Mestre Caçador de Monstros",
-      "description": "<p>Você tem um conhecimento quase enciclopédico de todas as criaturas do mundo. Você pode usar Natureza para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{recordar conhecimento} para identificar qualquer criatura. Além disso, você ganha os benefícios de @UUID[Compendium.pf2e.feats-srd.Item.YTTJqRKH8QZl6al2]{Caçador de Monstros} (e @UUID[Compendium.pf2e.feats-srd.Item.2yq3l8e2Vzz34yRV]{Guardião de Monstros}, se você tiver) em um sucesso, assim como em um sucesso crítico.</p>",
+      "description": "<p>Você tem um conhecimento quase enciclopédico sobre todas as criaturas do mundo. Você pode usar Natureza para Recordar Conhecimento para identificar qualquer criatura. Além disso, você recebe os benefícios de um sucesso crítico de @UUID[Compendium.pf2e.feats-srd.Item.YTTJqRKH8QZl6al2]{Caçador de Monstros} (e @UUID[Compendium.pf2e.feats-srd.Item.2yq3l8e2Vzz34yRV]{Rechaçar Monstros}, se houver) quando obter um sucesso.</p>",
       "prerequisites": {
         "1": {
           "value": "Caçador de Monstros"
@@ -4893,8 +4893,8 @@
       ]
     },
     "Masterful Warden": {
-      "name": "Guardião Magistral",
-      "description": "<p>Seu domínio da magia de guardião aumenta. Você ganha a sua escolha de uma magia de guardião da lista de magias de mestre guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.QpjHqxwTGdILLvjD]{Rastreamento Efêmero}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KktHf7zIAWOr499h]{Espinheiro do Patrulheiro}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo uma magia de mestre guardião diferente a cada vez.</p>",
+      "name": "Protetor Magistral",
+      "description": "<p>Seu domínio sobre a magia dos protetores aumenta. Você aprende uma magia de protetor à sua escolha dentre as magias de protetor mestre.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.QpjHqxwTGdILLvjD]{Rastreamento Efêmero}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KktHf7zIAWOr499h]{Espinheiro do Patrulheiro}</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, escolhendo uma magia de protetor mestre diferente a cada vez.</p>",
       "prerequisites": [
         {
           "value": "Protetor Inicial"
@@ -5424,7 +5424,7 @@
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.zWEu9xuAxBnPoSrv]{Disturbing Defense}</p> <hr> <p>Your circulatory system contains viscous protoplasmic fluid instead of ordinary blood. You gain a +2 circumstance bonus to saving throws against disease and poison, and resistance to poison damage equal to half your level.</p> <p>In addition, your resistance to precision damage from Disturbing Defense increases to an amount equal to 7 + your number of class feats from the oozemorph archetype, and the DC of your flat checks to recover from persistent bleed damage is 8 rather than 13.</p>"
     },
     "Peerless Warden": {
-      "name": "Guardião Imparável",
+      "name": "Velador Supremo",
       "description": "<p>Seu domínio da magia primal lhe deu acesso aos maiores segredos da magia de guardião. Você ganha a sua escolha de uma magia de guardião da lista de magias excelentes de guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.tj86Rnq3QuQnDtG3]{Visão do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.rtA3HRGoy7PQTOhq]{Transposição de Terreno}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo uma magia excelente de guardião diferente a cada vez.</p>",
       "prerequisites": [
         {
@@ -8326,7 +8326,7 @@
       "description": "<p>Você aponta vulnerabilidades presentes na sua presa caçada, concedendo os benefícios listados em @UUID[Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm]{caçar presa} e sua excelência de caçador a um aliado até o final do próximo turno dele. Dependendo de você usar chamadas ou gestos, essa ação ganha o traço auditivo ou visual.</p>\n<ul>\n<li>@UUID[Compendium.pf2e.feat-effects.Item.uXCU8GgriUjuj5FV]{Efeito: Excelência de Caçador, Frenesi}</li>\n<li>@UUID[Compendium.pf2e.feat-effects.Item.ltIvO9ZQlmqGD89Y]{Efeito: Excelência de Caçador, Enganar}</li>\n<li>@UUID[Compendium.pf2e.feat-effects.Item.mNk0KxsZMFnDjUA0]{Efeito: Excelência de Caçador, Precisão}</li>\n</ul>"
     },
     "Warden's Focus": {
-      "name": "Foco do Guardião",
+      "name": "Foco do Protetor",
       "description": "<p>Sua conexão com seu entorno se aprofunda e se expande, permitindo que você atraia mais do poder primal da Natureza enquanto você se foca. Quando você Refoca, você recupera todos os seus Pontos de Foco em vez de apenas 1.</p>",
       "prerequisites": [
         {
@@ -8339,7 +8339,7 @@
       "description": "<p>Você comunica a localização da sua presa para seus aliados com uma série de palavras ou gestos cuidadosos. Desde que sua presa caçada seja observada por você, todos os seus aliados que rolarem falhas e falhas críticas ao @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Procurar} obtêm um sucesso em vez disso. Seus aliados precisam ser capazes de ver ou ouvir você para obter esse benefício. Você precisa ser capaz de chamar ou fazer gestos visíveis para que seus aliados obtenham esse benefício.</p>"
     },
     "Warden's Reload": {
-      "name": "Recarga do Guardião",
+      "name": "Recarga do Protetor",
       "description": "<p><strong>Frequência</strong> uma vez por rodada</p>\n<p><strong>Requerimentos</strong> Sua última ação ou atividade deste turno foi lançar uma magia de guardião.</p>\n<hr />\n<p>Seu domínio de magia e armas como a besta permitem que você maneje ambas com igual facilidade. Interagir para recarga de uma arma que você está empunhando atualmente.</p>"
     },
     "Warden's Step": {
