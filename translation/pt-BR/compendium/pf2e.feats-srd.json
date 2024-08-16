@@ -247,7 +247,12 @@
     },
     "Advanced Warden": {
       "name": "Guarda Avançado",
-      "description": "<p>Você desbloqueia feitiços primais mais poderosos. Você ganha a sua escolha de um feitiço de guardião da lista de feitiços avançados de guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.vGEgI8e7AW6FQ3tP]{Talento Animal}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.8rj45fKzCFcB0fxs]{Aumentar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.GfrKNJ9pNeATiKCc]{Sorte do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.RGBZrVRIEDb2G48h]{Névoa Suavizante}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo um feitiço de guardião avançado diferente a cada vez.</p>"
+      "description": "<p>Você desbloqueia feitiços primais mais poderosos. Você ganha a sua escolha de um feitiço de guardião da lista de feitiços avançados de guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.vGEgI8e7AW6FQ3tP]{Talento Animal}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.8rj45fKzCFcB0fxs]{Aumentar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.GfrKNJ9pNeATiKCc]{Sorte do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.RGBZrVRIEDb2G48h]{Névoa Suavizante}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo um feitiço de guardião avançado diferente a cada vez.</p>",
+      "prerequisites": [
+        {
+          "value": "Protetor Inicial"
+        }
+      ]
     },
     "Advanced Weapon Training": {
       "name": "Treinamento com Armas Avançadas",
@@ -2518,7 +2523,12 @@
     },
     "Enlarge Companion": {
       "name": "Enlarge Companion",
-      "description": "<p><strong>Prerequisites </strong>an animal companion, warden spells</p> <hr> <p>You make your companion enormous. You gain the @Compendium[pf2e.spells-srd.8rj45fKzCFcB0fxs]{Enlarge Companion} warden spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "description": "<p><strong>Prerequisites </strong>an animal companion, warden spells</p> <hr> <p>You make your companion enormous. You gain the @Compendium[pf2e.spells-srd.8rj45fKzCFcB0fxs]{Enlarge Companion} warden spell. Increase the number of Focus Points in your focus pool by 1.</p>",
+      "prerequisites": {
+        "1": {
+          "value": "magias de protetor"
+        }
+      }
     },
     "Enlarged Chassis": {
       "description": "<p>You've empowered your core to support a larger body, granting you size and additional reach. You gain the effects of <em>@UUID[Compendium.pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em> constantly.</p>\n<p><strong>Enhancement</strong> Your core's empowerment has stabilized, allowing for greater support. You are no longer @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} due to the effects of enlarge.</p>"
@@ -4063,6 +4073,7 @@
       ]
     },
     "Initiate Warden": {
+      "name": "Protetor Inicial",
       "description": "<p>Você treinou com uma das seitas de patrulheiros conhecidos como guardiões, que praticam um tipo especializado de magia primal. Você ganha a sua escolha de um feitiço de guardião desses feitiços iniciais de guardião (ou outro ao qual você tenha acesso).</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.IWUe32Y5k2QFd7YQ]{Arma Gravitacional}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KIV2LqzS5KtqOItV]{Curar Companheiro}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.u2uSeH6YSbK1ajTy]{Ocultar Mágica}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo um feitiço de guardião inicial diferente a cada vez.</p>"
     },
     "Innate Magical Intuition": {
@@ -4647,7 +4658,12 @@
     },
     "Magic Hide": {
       "name": "Magic Hide",
-      "description": "<p><strong>Prerequisites </strong>an animal companion, warden spells</p> <hr> <p>You can defend your companion in battle. You gain the @Compendium[pf2e.spells-srd.u2uSeH6YSbK1ajTy]{Magic Hide} warden spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "description": "<p><strong>Prerequisites </strong>an animal companion, warden spells</p> <hr> <p>You can defend your companion in battle. You gain the @Compendium[pf2e.spells-srd.u2uSeH6YSbK1ajTy]{Magic Hide} warden spell. Increase the number of Focus Points in your focus pool by 1.</p>",
+      "prerequisites": {
+        "1": {
+          "value": "magias de protetor"
+        }
+      }
     },
     "Magic Rider": {
       "name": "Cavaleiro da Magia",
@@ -4878,7 +4894,12 @@
     },
     "Masterful Warden": {
       "name": "Guardião Magistral",
-      "description": "<p>Seu domínio da magia de guardião aumenta. Você ganha a sua escolha de uma magia de guardião da lista de magias de mestre guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.QpjHqxwTGdILLvjD]{Rastreamento Efêmero}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KktHf7zIAWOr499h]{Espinheiro do Patrulheiro}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo uma magia de mestre guardião diferente a cada vez.</p>"
+      "description": "<p>Seu domínio da magia de guardião aumenta. Você ganha a sua escolha de uma magia de guardião da lista de magias de mestre guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.QpjHqxwTGdILLvjD]{Rastreamento Efêmero}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.KktHf7zIAWOr499h]{Espinheiro do Patrulheiro}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo uma magia de mestre guardião diferente a cada vez.</p>",
+      "prerequisites": [
+        {
+          "value": "Protetor Inicial"
+        }
+      ]
     },
     "Mature Animal Companion (Druid)": {
       "name": "Companheiro Animal Maduro (Druida)",
@@ -5404,7 +5425,12 @@
     },
     "Peerless Warden": {
       "name": "Guardião Imparável",
-      "description": "<p>Seu domínio da magia primal lhe deu acesso aos maiores segredos da magia de guardião. Você ganha a sua escolha de uma magia de guardião da lista de magias excelentes de guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.tj86Rnq3QuQnDtG3]{Visão do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.rtA3HRGoy7PQTOhq]{Transposição de Terreno}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo uma magia excelente de guardião diferente a cada vez.</p>"
+      "description": "<p>Seu domínio da magia primal lhe deu acesso aos maiores segredos da magia de guardião. Você ganha a sua escolha de uma magia de guardião da lista de magias excelentes de guardião.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.tj86Rnq3QuQnDtG3]{Visão do Caçador}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.rtA3HRGoy7PQTOhq]{Transposição de Terreno}</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes, escolhendo uma magia excelente de guardião diferente a cada vez.</p>",
+      "prerequisites": [
+        {
+          "value": "Protetor Inicial"
+        }
+      ]
     },
     "Pelagic Aptitude": {
       "description": "<p>You've learned special tricks to survive underwater. You gain the trained proficiency rank in Survival.</p>\n<p>When in an aquatic environment, if you roll a critical failure on a Survival skill check to @UUID[Compendium.pf2e.actionspf2e.fJImDBQfqfjKJOhk]{Sense Direction} or @UUID[Compendium.pf2e.actionspf2e.49y9Ec4bDii8pcD3]{Subsist}, you get a failure instead.</p>"
@@ -5914,7 +5940,12 @@
     },
     "Ranger's Bramble": {
       "name": "Ranger's Bramble",
-      "description": "<p>You can cause plants to grow and trap your foes with thorns. You gain the <em>@UUID[Compendium.pf2e.spells-srd.KktHf7zIAWOr499h]{Ranger's Bramble}</em> warden spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "description": "<p>You can cause plants to grow and trap your foes with thorns. You gain the <em>@UUID[Compendium.pf2e.spells-srd.KktHf7zIAWOr499h]{Ranger's Bramble}</em> warden spell. Increase the number of Focus Points in your focus pool by 1.</p>",
+      "prerequisites": [
+        {
+          "value": "magias de protetor"
+        }
+      ]
     },
     "Rapid Mantel": {
       "name": "Segurar-se Rapidamente",
@@ -6903,6 +6934,9 @@
       "prerequisites": [
         {
           "value": "Manufatura de Arapuca"
+        },
+        {
+          "value": "magias de protetor"
         }
       ]
     },
@@ -8293,7 +8327,12 @@
     },
     "Warden's Focus": {
       "name": "Foco do Guardião",
-      "description": "<p>Sua conexão com seu entorno se aprofunda e se expande, permitindo que você atraia mais do poder primal da Natureza enquanto você se foca. Quando você Refoca, você recupera todos os seus Pontos de Foco em vez de apenas 1.</p>"
+      "description": "<p>Sua conexão com seu entorno se aprofunda e se expande, permitindo que você atraia mais do poder primal da Natureza enquanto você se foca. Quando você Refoca, você recupera todos os seus Pontos de Foco em vez de apenas 1.</p>",
+      "prerequisites": [
+        {
+          "value": "magias de protetor"
+        }
+      ]
     },
     "Warden's Guidance": {
       "name": "Orientação do Guardião",
