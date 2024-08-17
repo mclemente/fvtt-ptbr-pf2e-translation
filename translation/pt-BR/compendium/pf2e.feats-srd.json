@@ -4196,23 +4196,6 @@
     "Invoke The Elements": {
       "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of shimmering heat, flurrying snow, crashing waves, or swirling wind and lightning.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers [[/r 1d12]] damage (basic Reflex save using your class DC or spell DC, whichever is higher). At 13th and 17th level, this damage increases by 1d12.</p>\n<p>A veil may changeling deals fire damage, a snow may changeling deals cold damage, a brine may changeling deals bludgeoning damage and the effect gains the water trait, and a virga may changeling deals electricity damage.</p>"
     },
-    "Invoke The Elements (Brine May)": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of crashing waves.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers [[/r 1d12[bludgeoning]]] damage damage (basic Reflex save using your class DC or spell DC, whichever is higher).</p>\n<p>At [[/r 2d12[bludgeoning]]]{13th} and [[/r 3d12[bludgeoning]]]{17th} level, this damage increases by 1d12.</p>",
-      "prerequisites": [
-        {
-          "value": "Dama salobra"
-        }
-      ]
-    },
-    "Invoke The Elements (Snow May)": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of flurrying snow.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers [[/r 1d12[cold]]] damage damage (basic Reflex save using your class DC or spell DC, whichever is higher).</p>\n<p>At [[/r 2d12[cold]]]{13th} and [[/r 3d12[cold]]]{17th} level, this damage increases by 1d12.</p>"
-    },
-    "Invoke The Elements (Veil May)": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of shimmering heat.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers [[/r 1d12[fire]]] damage damage (basic Reflex save using your class DC or spell DC, whichever is higher).</p>\n<p>At [[/r 2d12[fire]]]{13th} and [[/r 3d12[fire]]]{17th} level, this damage increases by 1d12.</p>"
-    },
-    "Invoke The Elements (Virga May)": {
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of swirling wind and lightning.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers [[/r 1d12[electricity]]] damage damage (basic Reflex save using your class DC or spell DC, whichever is higher).</p>\n<p>At [[/r 2d12[electricity]]]{13th} and [[/r 3d12[electricity]]]{17th} level, this damage increases by 1d12.</p>"
-    },
     "Invoke the Crimson Oath": {
       "name": "Invocar o Juramento Carmesim",
       "description": "<p> <strong>Pré-requisitos</strong> Dedicação do Cavaleiro Recuperador  </span></p> <hr> <p>Você pode invocar o Juramento Carmesim para liberar rajadas de energia rubi de sua arma. Você ganha a magia de foco @Compendium[pf2e.spells-srd.AsKLseOo8hwv5Jha]{Invocar Juramento Carmesim}. Se você ainda não possui um, ganha uma reserva de foco de 1 ponto de foco, que pode ser recuperado usando a atividade Refocar para recitar o Juramento Carmesim e meditar sobre seus ensinamentos; se você já possui uma reserva de focos, aumente o número de Pontos de Foco em sua reserva de focos em 1. Suas magias de foco de Cavaleiro Recuperador são magias divinas; Quando você ganha esse talento, você é treinado em ataques de magia e CDs de magias divinas.</p> (Tradução não oficial - Lost Omens: Character Guide)",
