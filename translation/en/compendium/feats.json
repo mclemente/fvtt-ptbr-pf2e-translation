@@ -1357,7 +1357,7 @@
     },
     "Battle Prayer": {
       "name": "Battle Prayer",
-      "description": "<p>Calling out to your deity, you recite scripture to harm a foe. When you select this feat, choose chaos, evil, good, or law. Your choice must match one of your deity's alignment components. This action has the trait corresponding to the chosen alignment.</p>\n<p>Attempt a @Check[religion|defense:will] check against the Will DC of a foe within 30 feet. The foe is then temporarily immune to Battle Prayers from your deity for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal [[/r 2d6]] damage of the chosen alignment type, or [[/r 6d6]] damage if you have legendary proficiency in Religion.</p>\n<p><strong>Success</strong> You deal [[/r 1d6]] damage of the chosen alignment type, or [[/r 3d6]] damage if you have legendary proficiency in Religion.</p>\n<p><strong>Failure</strong> There is no effect.</p>\n<p><strong>Critical Failure</strong> The backlash of your foe's will against your prayer prevents you from using Battle Prayer again for 10 minutes.</p>",
+      "description": "<p>Calling out to your deity, you recite scripture to harm a foe. When you select this feat, choose chaos, evil, good, or law. Your choice must match one of your deity's alignment components. This action has the trait corresponding to the chosen alignment.</p>\n<p>Attempt a @Check[religion|defense:will] check against the Will DC of a foe within 30 feet. The foe is then temporarily immune to Battle Prayers from your deity for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal @Damage[2d6] damage of the chosen alignment type, or @Damage[6d6] damage if you have legendary proficiency in Religion.</p>\n<p><strong>Success</strong> You deal @Damage[1d6] damage of the chosen alignment type, or @Damage[3d6] damage if you have legendary proficiency in Religion.</p>\n<p><strong>Failure</strong> There is no effect.</p>\n<p><strong>Critical Failure</strong> The backlash of your foe's will against your prayer prevents you from using Battle Prayer again for 10 minutes.</p>",
       "prerequisites": [
         {
           "value": "master in Religion"
@@ -1413,7 +1413,7 @@
     },
     "Bespell Strikes": {
       "name": "Bespell Strikes",
-      "description": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your most recent action was to cast a non-cantrip spell.</p>\n<hr />\n<p><strong>Oracle</strong> You siphon spell energy into one weapon you're wielding, or into one of your unarmed attacks, such as a fist. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 force damage and gains the divine trait if it didn't have it already. If the spell dealt a different type of damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p>\n<p><strong>Sorcerer</strong> You siphon spell energy into one weapon you're wielding or into one of your unarmed attacks, such as a fist. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 force damage and gains the trait of your bloodline's magical tradition if it didn't have it already. If the spell dealt a different type of damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p>\n<p><strong>Wizard</strong> <span style=\"font-family:Roboto, sans-serif\">You siphon spell energy into one weapon you're wielding, or into one of your unarmed attacks, such as a fist. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 force damage and gains the arcane trait if it didn't have it already. If the spell dealt a different type of damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</span></p>"
+      "description": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your most recent action was to cast a non-cantrip spell.</p>\n<hr />\n<p><strong>Oracle</strong> You siphon spell energy into one weapon you're wielding, or into one of your unarmed attacks, such as a fist. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 force damage and gains the divine trait if it didn't have it already. If the spell dealt a different type of damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p>\n<p><strong>Sorcerer</strong> You siphon spell energy into one weapon you're wielding or into one of your unarmed attacks, such as a fist. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 force damage and gains the trait of your bloodline's magical tradition if it didn't have it already. If the spell dealt a different type of damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p>\n<p><strong>Wizard</strong> You siphon spell energy into one weapon you're wielding, or into one of your unarmed attacks, such as a fist. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 force damage and gains the arcane trait if it didn't have it already. If the spell dealt a different type of damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p>"
     },
     "Bestial Manifestation": {
       "name": "Bestial Manifestation",
@@ -2341,7 +2341,7 @@
     },
     "Clockwork Celerity": {
       "name": "Clockwork Celerity",
-      "description": "<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You can use unstable clockwork devices in your innovation to push your invention to act more quickly. You are @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for this turn. How you can use the extra action depends on your innovation.</p>\n<ul>\n<li><strong>Armor</strong> You can use the extra action to Step, Stride, or use another movement action granted by your innovation (such as Swim if you have the Diving Armor feat).</li>\n<li><strong>Construct</strong> You can use the extra action to Command your construct innovation (or to provide 1 of the actions if you spend 2 actions to Command your construct).</li>\n<li><strong>Weapon</strong> You can use the extra action to Strike with your innovation or Reload your innovation.</li>\n</ul>\n<hr />\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>",
+      "description": "<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You can use unstable clockwork devices in your innovation to push your invention to act more quickly. You are @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for this turn. How you can use the extra action depends on your innovation.</p>\n<ul>\n<li><strong>Armor</strong> You can use the extra action to Step, Stride, or use another movement action granted by your innovation (such as Swim if you have the Diving Armor feat).</li>\n<li><strong>Construct</strong> You can use the extra action to Command your construct innovation (or to provide 1 of the actions if you spend 2 actions to Command your construct).</li>\n<li><strong>Weapon</strong> You can use the extra action to Strike with your innovation or Reload your innovation.</li>\n</ul>",
       "prerequisites": [
         {
           "value": "armor, construct, or weapon innovation"
@@ -2538,7 +2538,7 @@
     },
     "Constricting Hold": {
       "name": "Constricting Hold",
-      "description": "<p><strong>Requirements</strong> Your eidolon has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>\n<p>Your eidolon constricts the creature, dealing [[/r (@actor.level+@actor.abilities.str.mod)[bludgeoning]]]{bludgeoning damage} equal to your eidolon's level plus its Strength modifier, with a basic Fortitude save against your spell DC.</p>"
+      "description": "<p><strong>Requirements</strong> Your eidolon has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>\n<p>Your eidolon constricts the creature, dealing @Damage[(@actor.level+@actor.abilities.str.mod)[bludgeoning]]{bludgeoning damage} equal to your eidolon's level plus its Strength modifier, with a basic Fortitude save against your spell DC.</p>"
     },
     "Construct Shell": {
       "name": "Construct Shell",
@@ -3415,7 +3415,7 @@
     },
     "Distracting Explosion": {
       "name": "Distracting Explosion",
-      "description": "<p><strong>Trigger</strong> A creature within your reach uses a concentrate action.</p>\n<hr />\n<p>Your enemies think they can concentrate on something else while you're nearby? Oh, you'll give them a distraction, all right! Make a melee Strike against the triggering creature with a weapon or unarmed attack that is benefiting from your offensive boost. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>\n<p><strong>Unstable Function</strong> You pull out all the stops to create an explosive distraction. Add the unstable trait to Distracting Explosion. If the attack hits, you disrupt the triggering concentrate action.</p>\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>\n<p><strong>Special</strong> If your innovation is a minion, it can take this reaction instead of you, even though minions can't normally take reactions or act when it's not their turn. It uses your reaction for the turn to do so.</p>",
+      "description": "<p><strong>Trigger</strong> A creature within your reach uses a concentrate action.</p>\n<hr />\n<p>Your enemies think they can concentrate on something else while you're nearby? Oh, you'll give them a distraction, all right! Make a melee Strike against the triggering creature with a weapon or unarmed attack that is benefiting from your offensive boost. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>\n<p><strong>Unstable Function</strong> You pull out all the stops to create an explosive distraction. Add the unstable trait to Distracting Explosion. If the attack hits, you disrupt the triggering concentrate action.</p>\n<p><strong>Special</strong> If your innovation is a minion, it can take this reaction instead of you, even though minions can't normally take reactions or act when it's not their turn. It uses your reaction for the turn to do so.</p>",
       "prerequisites": [
         {
           "value": "offensive boost"
@@ -3614,6 +3614,15 @@
     "Dracomancer": {
       "name": "Dracomancer",
       "description": "<p>Your inborn arcane power manifests as your exemplar's most time-honored spells.</p>\n<p>Choose one 1st-rank spell and one 2nd-rank spell from those listed for a dragon spellcaster of your draconic exemplar's type (such as @UUID[Compendium.pf2e.spells-srd.Item.4WAib3GichxLjp5p]{Alarm}, @UUID[Compendium.pf2e.spells-srd.Item.3JG1t3T4mWn6vTke]{Blur}, @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}, and @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike} for a black dragon exemplar).</p>\n<p>You can cast each of these spells once per day as arcane innate spells. You gain the trained proficiency rank in arcane spell attack rolls and spell DCs, and your key spellcasting ability is Charisma.</p>"
+    },
+    "Draconic Scent (Dragon Disciple)": {
+      "name": "Draconic Scent (Dragon Disciple)",
+      "description": "<p>Your sense of smell is uncanny, much like a dragon's. You gain imprecise scent with a range of 30 feet. The GM might double the range if you're downwind from the creature or halve the range if you're upwind, at their discretion.</p>",
+      "prerequisites": [
+        {
+          "value": "Dragon Disciple Dedication"
+        }
+      ]
     },
     "Draconic Sycophant": {
       "name": "Draconic Sycophant",
@@ -4055,7 +4064,7 @@
     },
     "Electrify Armor": {
       "name": "Electrify Armor",
-      "description": "<p><strong>Requirements</strong> You are wearing your armor innovation.</p>\n<p>You electrify your armor to punish foes who dare to attack you. For 1 round, any creature that touches you, or that hits you with a melee unarmed attack or a non-reach melee weapon attack, takes @Damage[1d4[electricity]|overrideTraits] damage. The effect ends if you cease wearing your armor innovation.</p>\n<p>If you have the revolutionary innovation class feature, the damage increases to @Damage[2d4[electricity]|overrideTraits]{2d4}.</p>\n<p><strong>Unstable Function</strong> You create an unstable chain reaction, sending countless sparks dancing across your armor. Add the unstable trait to Electrify Armor. The effects last for 1 minute instead of 1 round, and the damage dice increase from d4s to d12s (@Damage[1d12[electricity]] / @Damage[2d12[electricity]]).</p>\n<hr />\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>",
+      "description": "<p><strong>Requirements</strong> You are wearing your armor innovation.</p>\n<p>You electrify your armor to punish foes who dare to attack you. For 1 round, any creature that touches you, or that hits you with a melee unarmed attack or a non-reach melee weapon attack, takes @Damage[1d4[electricity]|overrideTraits] damage. The effect ends if you cease wearing your armor innovation.</p>\n<p>If you have the revolutionary innovation class feature, the damage increases to @Damage[2d4[electricity]|overrideTraits]{2d4}.</p>\n<p><strong>Unstable Function</strong> You create an unstable chain reaction, sending countless sparks dancing across your armor. Add the unstable trait to Electrify Armor. The effects last for 1 minute instead of 1 round, and the damage dice increase from d4s to d12s (@Damage[1d12[electricity]] / @Damage[2d12[electricity]]).</p>",
       "prerequisites": [
         {
           "value": "armor innovation"
@@ -4871,7 +4880,7 @@
     },
     "Explosive Leap": {
       "name": "Explosive Leap",
-      "description": "<p>You aim an explosion from your innovation downward to launch yourself into the air. You jump up to 30 feet in any direction without touching the ground. You must land on a space of solid ground, or else you fall after using your next action. As normal for effects where you fall after using your next action, you still fall at the end of your turn, even if you don't use any further actions that turn.</p>\n<p><strong>Special</strong> If your innovation is a minion, it can take this action rather than you.</p>\n<hr />\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>"
+      "description": "<p>You aim an explosion from your innovation downward to launch yourself into the air. You jump up to 30 feet in any direction without touching the ground. You must land on a space of solid ground, or else you fall after using your next action. As normal for effects where you fall after using your next action, you still fall at the end of your turn, even if you don't use any further actions that turn.</p>\n<p><strong>Special</strong> If your innovation is a minion, it can take this action rather than you.</p>"
     },
     "Explosive Maneuver": {
       "name": "Explosive Maneuver",
@@ -4897,7 +4906,7 @@
     },
     "Extend Boost": {
       "name": "Extend Boost",
-      "description": "<p>You can increase the duration of your eidolon's boosts.</p>\n<p>You learn the <em>extend boost</em> link spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+      "description": "<p>You can increase the duration of your eidolon's boosts.</p>\n<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.CR8OKDbeFJoZbOCu]{Extend Boost} link spell. Increase the number of Focus Points in your focus pool by 1.</p>"
     },
     "Extinguish Light": {
       "name": "Extinguish Light",
@@ -5445,7 +5454,7 @@
     },
     "Floral Restoration": {
       "name": "Floral Restoration",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You request that nearby plants share their vitality with you to replenish your body and magic. You regain 1 Focus Point and [[/r 4d8[healing]]] Hit Points.</p>\n<p>You must be in a location of at least 15 square feet with healthy plant life, though this can be grass, lichen, seaweed, or any other form of naturally occurring flora. Using Floral Restoration on a given section of nature does not harm it, but it prevents that section of nature from giving its vitality to another use of Floral Restoration for 24 hours.</p>\n<p>At 9th level, and every 2 levels thereafter, increase the healing by 1d8.</p>\n<p>@Damage[ceil(@item.level/2)d8]{Leveled Healing}</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You request that nearby plants share their vitality with you to replenish your body and magic. You regain 1 Focus Point and @Damage[ceil(@item.level/2)d8[healing]] Hit Points.</p>\n<p>You must be in a location of at least 15 square feet with healthy plant life, though this can be grass, lichen, seaweed, or any other form of naturally occurring flora. Using Floral Restoration on a given section of nature does not harm it, but it prevents that section of nature from giving its vitality to another use of Floral Restoration for 24 hours.</p>\n<p>At 9th level, and every 2 levels thereafter, increase the healing by 1d8.</p>",
       "prerequisites": [
         {
           "value": "leaf order"
@@ -6393,7 +6402,7 @@
     },
     "Haphazard Repair": {
       "name": "Haphazard Repair",
-      "description": "<p>You quickly fix your innovation, at the cost of its stability. You @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} your innovation almost immediately. You don't have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it), as well as having a repair kit as normal.</p>\n<hr />\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>"
+      "description": "<p>You quickly fix your innovation, at the cost of its stability. You @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} your innovation almost immediately. You don't have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it), as well as having a repair kit as normal.</p>"
     },
     "Hard Tail": {
       "name": "Hard Tail",
@@ -6525,7 +6534,7 @@
     },
     "Healer's Halo": {
       "name": "Healer's Halo",
-      "description": "<p><strong>Trigger</strong> You or allies within 30 feet recover Hit Points while your @UUID[Compendium.pf2e.feats-srd.Item.PGVXjbAi1Fa4uTmD]{Halo} is active.</p>\n<hr />\n<p>Your halo can enhance positive energy. Creatures who have recovered Hit Points from a positive healing effect recover an additional [[/r 1d6[healing]]]{1d6 Hit Points}. Creatures who benefit from this power become temporarily immune to its effect for the next 10 minutes.</p>",
+      "description": "<p><strong>Trigger</strong> You or allies within 30 feet recover Hit Points while your @UUID[Compendium.pf2e.feats-srd.Item.PGVXjbAi1Fa4uTmD]{Halo} is active.</p>\n<hr />\n<p>Your halo can enhance positive energy. Creatures who have recovered Hit Points from a positive healing effect recover an additional @Damage[1d6[healing]] Hit Points. Creatures who benefit from this power become temporarily immune to its effect for the next 10 minutes.</p>",
       "prerequisites": [
         {
           "value": "Halo"
@@ -7249,7 +7258,7 @@
     },
     "Inner Fire (Monk)": {
       "name": "Inner Fire (Monk)",
-      "description": "<p>While you're in Stoked Flame Stance, you have cold and fire resistance equal to half your level, and any creature that hits you with an unarmed attack, tries to Grab or Grapple you, or otherwise touches you takes [[/r @actor.abilities.wis.mod[fire]]]{fire damage} equal to your Wisdom modifier (minimum 1). A creature can take this damage no more than once per turn.</p>",
+      "description": "<p>While you're in Stoked Flame Stance, you have cold and fire resistance equal to half your level, and any creature that hits you with an unarmed attack, tries to Grab or Grapple you, or otherwise touches you takes @Damage[@actor.abilities.wis.mod[fire]]{fire damage} equal to your Wisdom modifier (minimum 1). A creature can take this damage no more than once per turn.</p>",
       "prerequisites": [
         {
           "value": "Stoked Flame Stance"
@@ -7440,46 +7449,10 @@
     },
     "Invoke The Elements": {
       "name": "Invoke The Elements",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of shimmering heat, flurrying snow, crashing waves, or swirling wind and lightning.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers [[/r 1d12]] damage (basic Reflex save using your class DC or spell DC, whichever is higher). At 13th and 17th level, this damage increases by 1d12.</p>\n<p>A veil may changeling deals fire damage, a snow may changeling deals cold damage, a brine may changeling deals bludgeoning damage and the effect gains the water trait, and a virga may changeling deals electricity damage.</p>",
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of shimmering heat, flurrying snow, crashing waves, or swirling wind and lightning.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers @Damage[(ternary(gte(@actor.level,17),3,ternary(gte(@actor.level,13,2,1)))d12[@item.flags.pf2e.rulesSelections.changelingType]] damage (@Check[reflex|against:class-spell|basic] save using your class DC or spell DC, whichever is higher).</p>\n<p>At 13th and 17th level, this damage increases by 1d12.</p>\n<p>A veil may changeling deals fire damage, a snow may changeling deals cold damage, a brine may changeling deals bludgeoning damage and the effect gains the water trait, and a virga may changeling deals electricity damage.</p>",
       "prerequisites": [
         {
           "value": "Brine May, Snow May, Veil May, or Virga May"
-        }
-      ]
-    },
-    "Invoke The Elements (Brine May)": {
-      "name": "Invoke The Elements (Brine May)",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of crashing waves.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers @Damage[1d12[bludgeoning]] damage (@Check[reflex|against:class-spell|basic] save using your class DC or spell DC, whichever is higher).</p>\n<p>At @Damage[2d12[bludgeoning]]{13th} and @Damage[3d12[bludgeoning]]{17th} level, this damage increases by 1d12.</p>",
-      "prerequisites": [
-        {
-          "value": "Brine May"
-        }
-      ]
-    },
-    "Invoke The Elements (Snow May)": {
-      "name": "Invoke The Elements (Snow May)",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of flurrying snow.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers @Damage[1d12[cold]] damage (@Check[reflex|against:class-spell|basic] save using your class DC or spell DC, whichever is higher).</p>\n<p>At @Damage[2d12[cold]]{13th} and @Damage[3d12[cold]]{17th} level, this damage increases by 1d12.</p>",
-      "prerequisites": [
-        {
-          "value": "Snow May"
-        }
-      ]
-    },
-    "Invoke The Elements (Veil May)": {
-      "name": "Invoke The Elements (Veil May)",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of shimmering heat.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers @Damage[1d12[fire]] damage (@Check[reflex|against:class-spell|basic] save using your class DC or spell DC, whichever is higher).</p>\n<p>At @Damage[2d12[fire]]{13th} and @Damage[3d12[fire]]{17th} level, this damage increases by 1d12.</p>",
-      "prerequisites": [
-        {
-          "value": "Veil May"
-        }
-      ]
-    },
-    "Invoke The Elements (Virga May)": {
-      "name": "Invoke The Elements (Virga May)",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You summon an aura of swirling wind and lightning.</p>\n<p>For 1 minute, you gain @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} against creatures more than 5 feet away, and any creature that ends its turn within 5 feet of you suffers @Damage[1d12[electricity]] damage (@Check[reflex|against:class-spell|basic] save using your class DC or spell DC, whichever is higher).</p>\n<p>At @Damage[2d12[electricity]]{13th} and @Damage[3d12[electricity]]{17th} level, this damage increases by 1d12.</p>",
-      "prerequisites": [
-        {
-          "value": "Virga May"
         }
       ]
     },
@@ -8538,7 +8511,7 @@
     },
     "Mask Of Pain": {
       "name": "Mask Of Pain",
-      "description": "<p><strong>Trigger</strong> You succeed at a Demoralize check.</p>\n<hr />\n<p><strong>Requirements</strong> You're wearing your <em>warmask</em>.</p>\n<hr />\n<p>Your mask has grown into a manifestation of your pain, which you can release. The creature you successfully Demoralized takes [[/r 2d6[mental] #Mask of Pain]]{2d6 mental damage}, or [[/r 4d6[mental] #Mask of Pain]]{4d6 mental damage} if you're legendary in Intimidation. The target is then temporarily immune to additional damage from Mask of Pain for 24 hours.</p>",
+      "description": "<p><strong>Trigger</strong> You succeed at a Demoralize check.</p>\n<hr />\n<p><strong>Requirements</strong> You're wearing your <em>warmask</em>.</p>\n<hr />\n<p>Your mask has grown into a manifestation of your pain, which you can release. The creature you successfully Demoralized takes @Damage[2d6[mental]] damage, or @Damage[4d6[mental]] damage if you're legendary in Intimidation. The target is then temporarily immune to additional damage from Mask of Pain for 24 hours.</p>",
       "prerequisites": [
         {
           "value": "expert in Intimidation"
@@ -8549,10 +8522,10 @@
       ],
       "rules": {
         "0": {
-          "text": "The creature you successfully Demoralized takes [[/r 2d6[mental] #Mask of Pain]]{2d6 mental damage}, and is then temporarily immune to additional damage from Mask of Pain for 24 hours."
+          "text": "The creature you successfully Demoralized takes @Damage[2d6[mental]] damage, and is then temporarily immune to additional damage from Mask of Pain for 24 hours."
         },
         "1": {
-          "text": "The creature you successfully Demoralized takes [[/r 4d6[mental] #Mask of Pain]]{4d6 mental damage}, and is then temporarily immune to additional damage from Mask of Pain for 24 hours."
+          "text": "The creature you successfully Demoralized takes @Damage[4d6[mental]] damage, and is then temporarily immune to additional damage from Mask of Pain for 24 hours."
         }
       }
     },
@@ -9239,7 +9212,7 @@
     },
     "Negate Damage": {
       "name": "Negate Damage",
-      "description": "<p><strong>Trigger</strong> You would take damage.</p>\n<hr />\n<p>Your armor innovation activates various devices you prepared ahead of time, and you use one of them to reduce the damage you would take by 15.</p>\n<p><strong>Unstable Function</strong> You activate all the precautions at once, violently repelling the incoming attack to blunt its force. Add the unstable trait to Negate Damage and reduce the damage you would take by 50.</p>\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>",
+      "description": "<p><strong>Trigger</strong> You would take damage.</p>\n<hr />\n<p>Your armor innovation activates various devices you prepared ahead of time, and you use one of them to reduce the damage you would take by 15.</p>\n<p><strong>Unstable Function</strong> You activate all the precautions at once, violently repelling the incoming attack to blunt its force. Add the unstable trait to Negate Damage and reduce the damage you would take by 50.</p>",
       "prerequisites": [
         {
           "value": "armor innovation"
@@ -9299,7 +9272,7 @@
     },
     "Nimble Strike": {
       "name": "Nimble Strike",
-      "description": "<p>You're cunning enough to find an opening in an opponent's attack. When you use your @UUID[Compendium.pf2e.feats-srd.Item.dNH8OHEvx3vI9NBQ]{Flashy Dodge} reaction, you can make a melee Strike against the triggering creature. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike. If you use the @UUID[Compendium.pf2e.feats-srd.Item.F6ZAceuDpiM9bUiF]{Flashy Roll} feat, you can make this Strike at any point during your roll.</p>"
+      "description": "<p>You're cunning enough to find an opening in an opponent's attack. When you use your @UUID[Compendium.pf2e.feats-srd.Item.dNH8OHEvx3vI9NBQ]{Nimble Dodge} reaction, you can make a melee Strike against the triggering creature. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike. If you use the @UUID[Compendium.pf2e.feats-srd.Item.F6ZAceuDpiM9bUiF]{Nimble Roll} feat, you can make this Strike at any point during your roll.</p>"
     },
     "No Cause For Alarm": {
       "name": "No Cause For Alarm",
@@ -9418,7 +9391,7 @@
     },
     "Olethros's Decree": {
       "name": "Olethros's Decree",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You have a connection to olethroses, the enigmatic psychopomps who successfully swayed the yamaraj to permit the creation of the first duskwalkers. You place a finger on fate's scales by wrapping silk around your bow.</p>\n<p>The first time this turn that you hit a creature with a Strike using a weapon in the bow group you've modified in this way, that creature takes an additional [[/r 60]] damage (@Check[fortitude|against:class-spell|basic] save using your class or spell DC, whichever is higher) as the arrow works to cut short their very destiny. This additional damage is of the same type as the initial attack dealt. If you hit more than one creature at the same time, choose one to suffer the effect of your decree.</p>"
+      "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You have a connection to olethroses, the enigmatic psychopomps who successfully swayed the yamaraj to permit the creation of the first duskwalkers. You place a finger on fate's scales by wrapping silk around your bow.</p>\n<p>The first time this turn that you hit a creature with a Strike using a weapon in the bow group you've modified in this way, that creature takes an additional @Damage[60[untyped]] damage (@Check[fortitude|against:class-spell|basic] save using your class or spell DC, whichever is higher) as the arrow works to cut short their very destiny. This additional damage is of the same type as the initial attack dealt. If you hit more than one creature at the same time, choose one to suffer the effect of your decree.</p>"
     },
     "One with Earth": {
       "name": "One with Earth",
@@ -11568,7 +11541,7 @@
     },
     "Searing Restoration": {
       "name": "Searing Restoration",
-      "description": "<p>They told you there was no way that explosions could heal people, but they were fools… Fools who didn't understand your brilliance! You create a minor explosion from your innovation, altering the combustion to cauterize wounds using vaporized medicinal herbs. You or a living creature adjacent to you regains @Damage[max(1,ceil(@actor.level/2))d10[healing]] Hit Points. In addition, the creature you heal can attempt an immediate flat check to recover from a single source of persistent bleed damage, with the DC reduction from appropriate assistance. At 3rd level, and every 2 levels thereafter, increase the healing by 1d10.</p>\n<p><strong>Special</strong> If your innovation is a minion, it can take this action rather than you, though because it's not a living creature, it can't use the ability on itself.</p>\n<hr />\n<p>@Check[flat|dc:15|options:unstable-check|name:PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label]{PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label}</p>"
+      "description": "<p>They told you there was no way that explosions could heal people, but they were fools… Fools who didn't understand your brilliance! You create a minor explosion from your innovation, altering the combustion to cauterize wounds using vaporized medicinal herbs. You or a living creature adjacent to you regains @Damage[max(1,ceil(@actor.level/2))d10[healing]] Hit Points. In addition, the creature you heal can attempt an immediate flat check to recover from a single source of persistent bleed damage, with the DC reduction from appropriate assistance. At 3rd level, and every 2 levels thereafter, increase the healing by 1d10.</p>\n<p><strong>Special</strong> If your innovation is a minion, it can take this action rather than you, though because it's not a living creature, it can't use the ability on itself.</p>"
     },
     "Seasoned": {
       "name": "Seasoned",
@@ -11716,7 +11689,7 @@
     },
     "Shadow Pact": {
       "name": "Shadow Pact",
-      "description": "<p>Thousands of years ago, your ancestors made a pact with @UUID[Compendium.pf2e.deities.Item.ZfN7jkK6boU1FuiS]{Zon-Kuthon}. He has not forgotten, even if you might wish he had. You can take [[/r 1]]{1 damage} to mix blood and shadows to cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Creation} as an innate divine spell. You can use this ability as often as you wish, but you can have only one such object in existence at a time. If the object encounters bright light, the spell ends and the object dissolves into shadows.</p>",
+      "description": "<p>Thousands of years ago, your ancestors made a pact with @UUID[Compendium.pf2e.deities.Item.ZfN7jkK6boU1FuiS]{Zon-Kuthon}. He has not forgotten, even if you might wish he had. You can take @Damage[1]{1 damage} to mix blood and shadows to cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]{Creation} as an innate divine spell. You can use this ability as often as you wish, but you can have only one such object in existence at a time. If the object encounters bright light, the spell ends and the object dissolves into shadows.</p>",
       "prerequisites": [
         {
           "value": "Nidalese ethnicity"
@@ -12552,7 +12525,7 @@
     },
     "Solar Rejuvenation": {
       "name": "Solar Rejuvenation",
-      "description": "<p>If you rest outdoors for 10 minutes during the day, you regain Hit Points equal to your [[/r (@actor.abilities.con.mod * floor(@actor.level/2))[healing]]]{Constitution modifier × half your level}. You gain this benefit in addition to any healing from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}. Leshies whose plant nourishment does not rely on photosynthesis require a similarly suitable environment. For example, fungus leshies need dark, damp environments and a pile of decaying plant matter.</p>"
+      "description": "<p><strong>Ghoran</strong> - The warmth and light of the sun gives you life. If you rest outdoors for 10 minutes during the day, you regain Hit Points equal to your @Damage[(floor(@actor.level/2)*@actor.con.mod)[healing]]{Constitution modifier × half your level}. You gain this benefit in addition to any healing from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}.</p>\n<p><strong>Leshy</strong> - If you rest outdoors for 10 minutes during the day, you regain Hit Points equal to your @Damage[(floor(@actor.level/2)*@actor.con.mod)[healing]]{Constitution modifier × half your level}. You gain this benefit in addition to any healing from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}. Leshies whose plant nourishment does not rely on photosynthesis require a similarly suitable environment. For example, fungus leshies need dark, damp environments and a pile of decaying plant matter.</p>"
     },
     "Song Of Marching": {
       "name": "Song Of Marching",
@@ -13191,7 +13164,7 @@
     },
     "Strix Vengeance": {
       "name": "Strix Vengeance",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You, or a strix ally you can see, are damaged by an enemy's critical hit.</p>\n<hr />\n<p>You dedicate yourself to destroying those who harm your kin. Until the end of your next turn, you deal an additional [[/r 1d6]]{+1d6 damage} on Strikes against the triggering enemy. The bonus increases to [[/r 2d6]]{+2d6 damage} if you use a Striking weapon or unarmed attack and [[/r 3d6]]{+3d6 damage} if you use a Striking (Major) weapon or unarmed attack.</p>"
+      "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You, or a strix ally you can see, are damaged by an enemy's critical hit.</p>\n<hr />\n<p>You dedicate yourself to destroying those who harm your kin. Until the end of your next turn, you deal an additional +1d6 damage on Strikes against the triggering enemy. The bonus increases to +2d6 damage if you use a Striking weapon or unarmed attack and +3d6 damage if you use a Striking (Major) weapon or unarmed attack.</p>"
     },
     "Strong Arm": {
       "name": "Strong Arm",
@@ -13765,7 +13738,7 @@
     },
     "Tetraelemental Assault": {
       "name": "Tetraelemental Assault",
-      "description": "<p>Your Elemental Assault cycles through all four elements. When you use Elemental Assault, instead of choosing a single element, you can choose an element from the list when using the action, and then choose a different element at the beginning of each of your next 3 turns without spending an action; once you have chosen an element, you can't choose it again during this Elemental Assault, meaning you must select all four elements over the course of 4 turns. Each time you choose an element, until the beginning of your next turn, your Strikes deal an additional [[/r 1d6]] damage of the indicated type and have the trait corresponding to that element.</p>",
+      "description": "<p>Your Elemental Assault cycles through all four elements. When you use Elemental Assault, instead of choosing a single element, you can choose an element from the list when using the action, and then choose a different element at the beginning of each of your next 3 turns without spending an action; once you have chosen an element, you can't choose it again during this Elemental Assault, meaning you must select all four elements over the course of 4 turns. Each time you choose an element, until the beginning of your next turn, your Strikes deal an additional @Damage[1d6[untyped]] damage of the indicated type and have the trait corresponding to that element.</p>",
       "prerequisites": [
         {
           "value": "Elemental Assault"
@@ -14829,7 +14802,7 @@
     },
     "Vivacious Conduit": {
       "name": "Vivacious Conduit",
-      "description": "<p>Your connection to the First World has grown, and its vital energy flows into you rapidly. If you rest for 10 minutes, you regain Hit Points equal to your [[/r (@actor.abilities.con.mod*(floor(@actor.level/2)))[vitality,healing] #Vivacious Conduit]]{Constitution modifier × half your level}. This is a healing vitality effect and is cumulative with any healing you receive from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}.</p>"
+      "description": "<p>Your connection to the First World has grown, and its vital energy flows into you rapidly. If you rest for 10 minutes, you regain Hit Points equal to your @Damage[(@actor.abilities.con.mod*(floor(@actor.level/2)))[vitality,healing]]{Constitution modifier × half your level}. This is a healing vitality effect and is cumulative with any healing you receive from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}.</p>"
     },
     "Voice of Authority": {
       "name": "Voice of Authority",

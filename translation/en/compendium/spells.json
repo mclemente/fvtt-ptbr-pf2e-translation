@@ -694,7 +694,7 @@
     },
     "Cornucopia": {
       "name": "Cornucopia",
-      "description": "<p>Vines twine into a wicker horn in your hands, and out spills a single fruit, nut, or similar small bit of produce. A creature who eats the produce with an Interact action regains 1d6+4 HP. The cornucopia, as well as any unconsumed pieces of fruit, wither away at the end of the duration.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The cornucopia produces an additional piece of food. A creature can consume any amount of food from the same casting with a single Interact action. Eating six pieces of produce from the cornucopia gives as much nourishment as one square meal for a typical human.</p>\n<p>[[/r ((@item.level)d6+(@item.level)*4)[vitality,healing]]]{Consume all produce}</p>"
+      "description": "<p>Vines twine into a wicker horn in your hands, and out spills a single fruit, nut, or similar small bit of produce. A creature who eats the produce with an Interact action regains 1d6+4 HP. The cornucopia, as well as any unconsumed pieces of fruit, wither away at the end of the duration.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The cornucopia produces an additional piece of food. A creature can consume any amount of food from the same casting with a single Interact action. Eating six pieces of produce from the cornucopia gives as much nourishment as one square meal for a typical human.</p>\n<p>@Damage[((@item.level)d6+(@item.level)*4)[vitality,healing]]{Consume all produce}</p>"
     },
     "Corrosive Body": {
       "name": "Corrosive Body",
@@ -1654,7 +1654,7 @@
     },
     "Freeze Time": {
       "name": "Freeze Time",
-      "description": "<p>You temporarily stop time for everything but yourself, allowing you to use several actions in what appears to others to be no time at all. Immediately after casting <em>freeze time</em>, you can use up to 9 actions in 3 sets of up to 3 actions each.</p>\n<p>After each set of actions, 1 round passes, but for only you, effects specifically targeting or affecting you, and effects that you create during the stoppage. All other creatures and objects are invulnerable to your attacks, and you can't target or affect them with anything.</p>\n<p>Once you have finished your actions, time begins to flow again for the rest of the world. If you created an effect with a duration that extends beyond <em>freeze time'</em>s duration, such as @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}, it immediately affects others again, but it doesn't have any of the effects that happen only when you first Cast the Spell.</p>"
+      "description": "<p>You temporarily stop time for everything but yourself, allowing you to use several actions in what appears to others to be no time at all. Immediately after casting <em>freeze time</em>, you can use up to 9 actions in 3 sets of up to 3 actions each.</p>\n<p>After each set of actions, 1 round passes, but for only you, effects specifically targeting or affecting you, and effects that you create during the stoppage. All other creatures and objects are invulnerable to your attacks, and you can't target or affect them with anything.</p>\n<p>Once you have finished your actions, time begins to flow again for the rest of the world. If you created an effect with a duration that extends beyond <em>freeze time</em>'s duration, such as @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}, it immediately affects others again, but it doesn't have any of the effects that happen only when you first Cast the Spell.</p>"
     },
     "Frigid Flurry": {
       "name": "Frigid Flurry",
@@ -1744,7 +1744,7 @@
     },
     "Gouging Claw": {
       "name": "Gouging Claw",
-      "description": "<p>You temporarily morph your limb into a clawed appendage. Make a melee spell attack roll against your target's AC. If you hit, you deal your choice of 2d6 slashing damage or 2d6 piercing damage, plus @Damage[(@item.level +1)[bleed]] damage. On a critical success, you deal double damage and double bleed damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6 and the persistent bleed damage increases by 1.</p>",
+      "description": "<p>You temporarily morph your limb into a clawed appendage. Make a melee spell attack roll against your target's AC. If you hit, you deal your choice of 2d6 slashing damage or 2d6 piercing damage, plus 2 persistent bleed damage. On a critical success, you deal double damage and double bleed damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6 and the persistent bleed damage increases by 1.</p>",
       "spellVariants": {
         "URQWpedXx9fB1fR7": {
           "name": "Gouging Claw (Piercing)"
@@ -2017,7 +2017,7 @@
     },
     "Ignition": {
       "name": "Ignition",
-      "description": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>[[/r (@item.level)d4[persistent,fire]]]{Leveled Persistent Fire Damage}</p>\n<p>[[/r (@item.level)d6[persistent,fire]]]{Leveled Persistent Fire Damage (Melee)}</p>",
+      "description": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[1d4[persistent,fire]]{Leveled Persistent Fire Damage}</p>\n<p>@Damage[1d6[persistent,fire]]{Leveled Persistent Fire Damage (Melee)}</p>",
       "spellVariants": {
         "xYyA7CV1GaFTRjBQ": {
           "name": "Ignition (Melee)"
@@ -3026,7 +3026,7 @@
     },
     "Quench": {
       "name": "Quench",
-      "description": "<p>You cause the air in the area to become supersaturated with water vapor. Non-magical fires within the area are automatically extinguished. Fire creatures within the area take [[/r 4d8]] damage (basic Fortitude save). Choose one magical fire, fire spell, or fire item in the area and attempt to counteract it. If you succeed against an item, the item loses its fire properties for 10 minutes (for instance, a <em>+1 Flaming Longsword</em> would become a <em>+1 Longsword</em>). If the target is an artifact or similarly powerful item, you automatically fail to counteract it.</p>\n<p>The first time each round you Sustain this spell, you can move the area of vapor anywhere within range, but the only effect when you do so is to automatically extinguish non-magical fires.</p>\n<p>If you have the Counterspell reaction, you can use <em>quench</em> to counter any spell with the fire trait instead of needing to have the triggering fire spell prepared or in your repertoire.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage to fire creatures by [[/r 2d8]].</p>"
+      "description": "<p>You cause the air in the area to become supersaturated with water vapor. Non-magical fires within the area are automatically extinguished. Fire creatures within the area take @Damage[4d8[untyped]] damage (basic Fortitude save). Choose one magical fire, fire spell, or fire item in the area and attempt to counteract it. If you succeed against an item, the item loses its fire properties for 10 minutes (for instance, a <em>+1 Flaming Longsword</em> would become a <em>+1 Longsword</em>). If the target is an artifact or similarly powerful item, you automatically fail to counteract it.</p>\n<p>The first time each round you Sustain this spell, you can move the area of vapor anywhere within range, but the only effect when you do so is to automatically extinguish non-magical fires.</p>\n<p>If you have the Counterspell reaction, you can use <em>quench</em> to counter any spell with the fire trait instead of needing to have the triggering fire spell prepared or in your repertoire.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage to fire creatures by @Damage[2d8[untyped]] .</p>"
     },
     "Quick Sort": {
       "name": "Quick Sort",
@@ -3505,7 +3505,7 @@
     },
     "Shocking Grasp": {
       "name": "Shocking Grasp",
-      "description": "<p>You shroud your hands in a crackling field of lightning. Make a melee spell attack roll. On a hit, the target takes 2d12 electricity damage. If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with shocking grasp, and the target also takes [[/r (1d4+((@item.level)-1))[persistent,electricity]]] damage on a hit. On a critical hit, double the initial damage, but not the persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12, and the persistent electricity damage increases by 1.</p>",
+      "description": "<p>You shroud your hands in a crackling field of lightning. Make a melee spell attack roll. On a hit, the target takes 2d12 electricity damage. If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your attack roll with shocking grasp, and the target also takes @Damage[(1d4+((@item.level)-1))[persistent,electricity]] damage on a hit. On a critical hit, double the initial damage, but not the persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12, and the persistent electricity damage increases by 1.</p>",
       "target": "1 creature"
     },
     "Shockwave": {
@@ -3647,7 +3647,7 @@
     },
     "Spellmaster's Ward": {
       "name": "Spellmaster's Ward",
-      "description": "<p>You create one or more glowing protective runes that revolve around you. For each additional action you use when Casting the Spell, increase the number of runes you create by one, to a maximum of three runes for 3 actions.</p>\n<p>When you next take damage from a spell, a rune is expended to prevent [[/r 2d6 + (@item.rank - 5)]] of that spell's damage. If damage from the triggering spell remains, additional runes are expended until the damage is completely negated, or until all runes have been spent, whichever comes first.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Each rune prevents an additional 1 damage.</p>"
+      "description": "<p>You create one or more glowing protective runes that revolve around you. For each additional action you use when Casting the Spell, increase the number of runes you create by one, to a maximum of three runes for 3 actions.</p>\n<p>When you next take damage from a spell, a rune is expended to prevent @Damage[2d6 + (@item.rank - 5)[untyped]] of that spell's damage. If damage from the triggering spell remains, additional runes are expended until the damage is completely negated, or until all runes have been spent, whichever comes first.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Each rune prevents an additional 1 damage.</p>"
     },
     "Spellwrack": {
       "name": "Spellwrack",
