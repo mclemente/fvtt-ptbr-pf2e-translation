@@ -2,17 +2,17 @@
   "PF2E": {
     "AmmunitionNotes": {
       "AntlerArrow": {
-        "CriticalText": "A CD do teste de Atletismo para puxar o projétil livremente aumenta para @Check[type:athletics|dc:15|name:Soltar O Projétil|showDC:all]{Atletismo}",
-        "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:reflex|dc:16|name:Flecha de Galhada]{Reflexos} ou fica peso à superfície, sofrendo os efeitos de especialização de crítico de um arco",
+        "CriticalText": "A CD do teste de Atletismo para puxar o projétil livremente aumenta para @Check[athletics|dc:15|name:Soltar O Projétil|showDC:all]{Atletismo}",
+        "Text": "O alvo deve obter sucesso em um salvamento de @Check[reflex|dc:16|name:Flecha de Galhada]{Reflexos} ou fica peso à superfície, sofrendo os efeitos de especialização de crítico de um arco",
         "Title": "Flecha de Galhada"
       },
       "ExplosiveAmmunition": {
         "Greater": {
-          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic|name:Munição Explosiva]{Reflexos Básico}.",
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[reflex|dc:30|basic|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva (Maior)"
         },
         "Normal": {
-          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic|name:Munição Explosiva]{Reflexos Básico}.",
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[reflex|dc:25|basic|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva"
         }
       },
@@ -31,21 +31,21 @@
         }
       },
       "FreezingAmmunition": {
-        "Text": "O alvo deve obter sucesso em um salvamento de @Check[type:fortitude|dc:19] ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} por 1 rodada pelo frio intenso (lento 1 para 1 minuto em uma falha crítica).",
+        "Text": "O alvo deve obter sucesso em um salvamento de @Check[fortitude|dc:19] ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} por 1 rodada pelo frio intenso (lento 1 para 1 minuto em uma falha crítica).",
         "Title": "Munição Congelante"
       },
       "MeteorShot": {
         "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição.",
         "Greater": {
-          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 6d6[fire]]] dano em uma @Template[type:emanation|distance:10] ao redor do alvo (@Check[type:reflex|dc:29|basic|name:Meteor Shot] save).",
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 6d6[fire]]] dano em uma @Template[type:emanation|distance:10] ao redor do alvo (@Check[reflex|dc:29|basic|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico (Maior)"
         },
         "Major": {
-          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 9d6[fire]]] dano em uma @Template[type:emanation|distance:20] ao redor do alvo (@Check[type:reflex|dc:37|basic|name:Meteor Shot] save).",
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 9d6[fire]]] dano em uma @Template[type:emanation|distance:20] ao redor do alvo (@Check[reflex|dc:37|basic|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico (Superior)"
         },
         "Normal": {
-          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 3d6[fire]]] dano em uma @Template[type:emanation|distance:5] ao redor do alvo (@Check[type:reflex|dc:23|basic|name:Meteor Shot] save).",
+          "Text": "Além do dano normal da arma, o tiro meteórico causa dano de fogo e o terreno na área se torna terreno difícil. A munição causa [[/r 3d6[fire]]] dano em uma @Template[type:emanation|distance:5] ao redor do alvo (@Check[reflex|dc:23|basic|name:Meteor Shot] save).",
           "Title": "Tiro Meteórico"
         }
       },
@@ -81,7 +81,7 @@
       "IncreasedReach5": "O alcance aumenta em 1,5 m",
       "InterruptAction": "Em um acerto, a ação do alvo é interrompida.",
       "KnockProne": "Em um acerto, o alvo é derrubado @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.",
-      "ReduceHiddenCheck": "Ao mirar em alvo @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ocultado} é necessário fazer um teste simples de CD @Check[type:flat|dc:5]."
+      "ReduceHiddenCheck": "Ao mirar em alvo @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Ocultado} é necessário fazer um teste simples de CD @Check[flat|dc:5]."
     },
     "BattleForm": {
       "AberrantForm": {
@@ -183,7 +183,7 @@
         "Shove": "Você pode gastar uma ação imediatamente após um acerto para empurrar o alvo por uma distância de 5 pés com os efeitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar}"
       },
       "OozeForm": {
-        "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
+        "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
       },
       "WormForm": {
         "Hybrid": "Híbrida",
@@ -228,7 +228,7 @@
         }
       },
       "BioluminescenceBomb": {
-        "success": "U<p>Cada criatura dentro de @Template[tipo:emanationūdistância:10]{10 feet} de onde a bomba explodiu deve ter sucesso em um salvamento @Check[type:reflex|dc:17] ou ser marcado com tintura que continua brilhando por 24 horas. Uma criatura afetada deve também tentar um teste de salvamento @Check[type:fortitude|dc:17] contra a forte explosão de luz.</p><p><strong>Sucesso</strong> A criatura não é afetada.</p><p><strong>Falha</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p><p><strong>Falha Crítica</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} por 1 rodada, e então @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p>"
+        "success": "U<p>Cada criatura dentro de @Template[tipo:emanationūdistância:10]{10 feet} de onde a bomba explodiu deve ter sucesso em um salvamento @Check[reflex|dc:17] ou ser marcado com tintura que continua brilhando por 24 horas. Uma criatura afetada deve também tentar um teste de salvamento @Check[fortitude|dc:17] contra a forte explosão de luz.</p><p><strong>Sucesso</strong> A criatura não é afetada.</p><p><strong>Falha</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p><p><strong>Falha Crítica</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} por 1 rodada, e então @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p>"
       },
       "BlightBomb": {
         "Greater": {
@@ -289,10 +289,10 @@
       },
       "DwarvenDaisy": {
         "Lesser": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[fire]]]{1 de dano de respingo de fogo} e o alvo deve obter sucesso em um teste de @Check[type:fortitude|dc:16|traits:damaging-effect|showDC:all] ou ficará @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[fire]]]{1 de dano de respingo de fogo} e o alvo deve obter sucesso em um teste de @Check[fortitude|dc:16|traits:damaging-effect|showDC:all] ou ficará @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
         },
         "Moderate": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[fire]]]{2 de dano de respingo de fogo} e o alvo deve obter sucesso em um teste de @Check[type:fortitude|dc:18|traits:damaging-effect|showDC:all] ou ficará @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[fire]]]{2 de dano de respingo de fogo} e o alvo deve obter sucesso em um teste de @Check[fortitude|dc:18|traits:damaging-effect|showDC:all] ou ficará @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
         }
       },
       "FrostVial": {
@@ -469,16 +469,16 @@
       },
       "Thunderstone": {
         "Greater": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[sonic]]]{3 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:28|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[sonic]]]{3 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[fortitude|dc:28|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
         },
         "Lesser": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[sonic]]]{1 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:17|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (1[splash])[sonic]]]{1 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[fortitude|dc:17|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
         },
         "Major": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[sonic]]]{4 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:36|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[sonic]]]{4 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[fortitude|dc:36|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
         },
         "Moderate": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[sonic]]]{2 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[type:fortitude|dc:20|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[sonic]]]{2 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[fortitude|dc:20|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
         }
       },
       "WaterBomb": {
@@ -1891,6 +1891,19 @@
         "Double": {
           "Label": "Dobro"
         },
+        "Flat": {
+          "Label": "Bemol"
+        },
+        "Natural": {
+          "Label": "Bequadro"
+        },
+        "Prompt": "Seleciona uma Assinatura",
+        "Quadruple": {
+          "Label": "Quádruplo"
+        },
+        "Sharp": {
+          "Label": "Sustenido"
+        },
         "Triple": {
           "Label": "Triplo"
         }
@@ -2022,7 +2035,7 @@
           },
           "Critical": {
             "Label": "Crítico",
-            "Note": " O alvo tenta um salvamento de @Check[type:fortitude|against:rogue]{Fortitude} contra sua CD de classe com os efeitos a seguir.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 1} até o final de seu próximo turno.</p><p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 2} até o final de seu próximo turno.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} até o final de seu próximo turno.</p>"
+            "Note": " O alvo tenta um salvamento de @Check[fortitude|against:rogue]{Fortitude} contra sua CD de classe com os efeitos a seguir.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 1} até o final de seu próximo turno.</p><p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lento 2} até o final de seu próximo turno.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralizado} até o final de seu próximo turno.</p>"
           },
           "Enfeebled": {
             "Label": "Enfraquecido",
@@ -2118,6 +2131,12 @@
             "Angelic": "Aura Divina"
           },
           "Prompt": "Selecione uma linhagem."
+        },
+        "DiabolicEdict": {
+          "Accept": "Aceitar",
+          "Refuse": "Recusar",
+          "Bonus": "Édito Diabólico: Aceito",
+          "Penalty": "Édito Diabólico: Recusado"
         }
       },
       "SpecialtyCrafting": {
