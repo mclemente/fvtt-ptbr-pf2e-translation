@@ -129,7 +129,22 @@
       "description": "<p><strong>Acionamento</strong> Você é bem-sucedido ou tem sucesso crítico em um teste para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar Conhecimento} em sua presa caçada.</p>\n<hr />\n<p>Você escaneia rapidamente o campo de batalha, lembrando detalhes críticos sobre vários oponentes que você enfrenta. Você imediatamente tenta um teste para Recordar Conhecimento sobre uma criatura diferente que você pode perceber.</p>"
     },
     "Additional Shadow Magic": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.tha0L3Z6608JrUwN]{Shadow Magic}</p> <hr> <p>Choose an additional shadowdancer focus spell you haven’t already selected from Shadow Magic. Increase the number of Focus Points in your pool by 1.</p>"
+      "name": "Magia das Sombras Adicional",
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.tha0L3Z6608JrUwN]{Shadow Magic}</p> <hr> <p>Choose an additional shadowdancer focus spell you haven’t already selected from Shadow Magic. Increase the number of Focus Points in your pool by 1.</p>",
+      "prerequisites": [
+        {
+          "value": "Magia das Sombras"
+        }
+      ]
+    },
+    "Adhyabhau": {
+      "name": "Adhyabhau",
+      "description": "<p>Você descende dos raros vampiros psíquicos conhecidos como vetalaranas. Seus ancestrais sobreviviam da energia mental e emocional de criaturas vivas, que se\nmanifesta em você como uma poderosa resistência a esses efeitos.</p>\n<p>Você recebe +1 de bônus de circunstância em salvamentos de Vontade contra efeitos com o traço emoção, e quando rolar um sucesso em um salvamento contra um efeito desses, trate o resultado como um sucesso crítico</p>",
+      "rules": {
+        "1": {
+          "text": "<em>@Localize[PF2E.SpecificRule.Dhampir.Adhyabhau.SaveNote]</em>"
+        }
+      }
     },
     "Adopted Ancestry": {
       "name": "Ancestralidade Adotada",
@@ -2935,6 +2950,13 @@
     },
     "Feathered Cloak": {
       "description": "<p>To blend in with the grounded and wingless, you fold your wings just so on your back, creating the illusion of a feathered cloak. You receive a +2 circumstance bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} a version of yourself who is not a strix. Additionally, your folded wings help you obscure objects on your person, providing a +2 circumstance bonus to Stealth checks to @UUID[Compendium.pf2e.actionspf2e.qVNVSmsgpKFGk9hV]{Conceal an Object}.</p>"
+    },
+    "Feed On Pain": {
+      "prerequisites": [
+        {
+          "value": "Adhyabhau"
+        }
+      ]
     },
     "Felling Shot": {
       "name": "Tiro de Derrubada",
@@ -6506,9 +6528,15 @@
     },
     "Shadow Illusion": {
       "name": "Shadow Illusion",
-      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.tha0L3Z6608JrUwN]{Shadow Magic}</p> <hr> <p>With an artful eye, you shape shadows into illusory forms. You gain the @Compendium[pf2e.spells-srd.EOWh6VVcSjB3WPjX]{Shadow Illusion} focus spell. Increase the number of Focus Points in your pool by 1. You become an expert in occult spell attack rolls and DCs.&nbsp;</p>"
+      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.tha0L3Z6608JrUwN]{Shadow Magic}</p> <hr> <p>With an artful eye, you shape shadows into illusory forms. You gain the @Compendium[pf2e.spells-srd.EOWh6VVcSjB3WPjX]{Shadow Illusion} focus spell. Increase the number of Focus Points in your pool by 1. You become an expert in occult spell attack rolls and DCs.&nbsp;</p>",
+      "prerequisites": [
+        {
+          "value": "Magia das Sombras"
+        }
+      ]
     },
     "Shadow Magic": {
+      "name": "Magia das Sombras",
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.1AgirzUGkyDdmENy]{Shadowdancer Dedication}</p> <hr> <p>You gain the ability to fuse and play with shadows by using focus spells specific to shadowdancers.</p> <p>You learn a shadowdancer focus spell of your choice: @Compendium[pf2e.spells-srd.9BGEf9Sv5rgNBCk0]{Dance of Darkness} or @Compendium[pf2e.spells-srd.5ttAVJbWg2GVKmrN]{Shadow Jump}<em>.</em> If you don’t already have one, you gain a focus pool of 1 Focus Point, which you can @Compendium[pf2e.actionspf2e.OSefkMgojBLqmRDh]{Refocus}by meditating within an area of dim light or darkness. The rules for focus spells appear on page 300 of the <em>Core Rulebook</em>.</p> <p>Shadowdancer focus spells are occult spells. You become trained in occult spell attack rolls and spell DCs, and your spellcasting ability for these spells is Charisma.</p>"
     },
     "Shadow Master": {
@@ -6519,7 +6547,12 @@
       "description": "<p> <strong>Pré-requisitos</strong> Etinia Nidalesa </span></p> <hr> <p>Milhares de anos atrás, seus ancestrais fizeram um pacto com @Compendium[pf2e.deities.ZfN7jkK6boU1FuiS]{Zon-Kuthon}. Ele não foi esquecido, embora vocês gostariam que fosse. Você pode tomar 1 de dano para misturar sangue e sombras para conjurar  @Compendium[pf2e.spells-srd.TUj8eugNqAvB1vVR]{Criação} de 5º nível como uma magia divina inata. Você pode usar esta perícia com a frequência que desejar, mas você só pode possuir um objeto criado por vez. Se o objeto encontra luz brilhante, a magia se dissipa nas sombras.</p>"
     },
     "Shadow Power": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.tha0L3Z6608JrUwN]{Shadow Magic}</p> <hr> <p>You can focus the shadows into a powerful blast. You can cast @Compendium[pf2e.spells-srd.IqJ9URobmJ9L9UBG]{Shadow Blast}&nbsp;as an innate occult spell once per day. Its level is always 1 level lower than the level of your shadowdancer focus spells. You become an expert in occult spell attack rolls and DCs.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.tha0L3Z6608JrUwN]{Shadow Magic}</p> <hr> <p>You can focus the shadows into a powerful blast. You can cast @Compendium[pf2e.spells-srd.IqJ9URobmJ9L9UBG]{Shadow Blast}&nbsp;as an innate occult spell once per day. Its level is always 1 level lower than the level of your shadowdancer focus spells. You become an expert in occult spell attack rolls and DCs.</p>",
+      "prerequisites": [
+        {
+          "value": "Magia das Sombras"
+        }
+      ]
     },
     "Shadow Self": {
       "name": "Sombra de Si Mesmo",
