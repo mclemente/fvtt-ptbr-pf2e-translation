@@ -1632,7 +1632,7 @@
     },
     "Fortify Summoning": {
       "name": "Fortify Summoning",
-      "description": "<p>As you call a creature to your side, your magic transforms its body, heightening its ferocity and fortifying its resilience. The target gains a +1 status bonus to all checks and DCs (including its AC) for the duration of its summoning, up to 1 minute.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UtIOWubq7akdHMOh]{Spell Effect: Augment Summoning}</p>",
+      "description": "<p>As you call a creature to your side, your magic transforms its body, heightening its ferocity and fortifying its resilience. The target gains a +1 status bonus to all checks and DCs (including its AC) for the duration of its summoning, up to 1 minute.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UtIOWubq7akdHMOh]{Spell Effect: Fortify Summoning}</p>",
       "target": "1 creature you summoned"
     },
     "Fortissimo Composition": {
@@ -2017,7 +2017,7 @@
     },
     "Ignition": {
       "name": "Ignition",
-      "description": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[1d4[persistent,fire]]{Leveled Persistent Fire Damage}</p>\n<p>@Damage[1d6[persistent,fire]]{Leveled Persistent Fire Damage (Melee)}</p>",
+      "description": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Fire Damage (Melee)}</p>",
       "spellVariants": {
         "xYyA7CV1GaFTRjBQ": {
           "name": "Ignition (Melee)"
@@ -2780,7 +2780,7 @@
     },
     "Phantom Pain": {
       "name": "Phantom Pain",
-      "description": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>",
+      "description": "<p>Illusory pain wracks the target, dealing 2d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes full initial damage but no persistent damage, and the spell ends immediately.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. If the target recovers from being Sickened, the persistent damage ends and the spell ends.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d4 and the persistent damage by 1d4.</p>",
       "target": "1 creature"
     },
     "Phantom Prison": {
@@ -3319,7 +3319,7 @@
     },
     "Savor the Sting": {
       "name": "Savor the Sting",
-      "description": "<p>You inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and [[/r (@item.level)d4[persistent,mental]]] damage; the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and no persistent damage.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage.</p>\n<p><strong>Critical Failure</strong> The target takes double initial and persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent damage increases by 1d4.</p>",
+      "description": "<p>You inflict pain upon the target and revel in their anguish. This deals 1d4 mental damage and @Damage[(@item.level)d4[persistent,mental]] damage; the target must attempt a Will save. As long as the target is taking persistent damage from this spell, you gain a +1 status bonus to attack rolls and skill checks against the target.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and no persistent damage.</p>\n<p><strong>Failure</strong> The target takes full initial and persistent damage.</p>\n<p><strong>Critical Failure</strong> The target takes double initial and persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent damage increases by 1d4.</p>",
       "target": "1 creature"
     },
     "Scholarly Recollection": {
