@@ -49,7 +49,7 @@
     },
     "Board": {
       "name": "Embarcar",
-      "description": "<p><strong>Requerimentos</strong> Você está adjacente a um ponto de entrada do veículo no qual está tentando embarcar.</p>\n<p>Você embarca em um veículo através de uma abertura, porta, portal ou escotilha; se já estiver a bordo, você pode usar esta ação para desembarcar em um espaço vazio adjacente ao ponto de entrada do veículo. Usar esta ação enquanto o veículo estiver em movimento é desafiador, exigindo um teste bem-sucedido de Acrobatismo ou Atletismo contra a CD do veículo.</p>"
+      "description": "<p><strong>Exigências</strong> Você está adjacente a um ponto de entrada do veículo no qual está tentando embarcar.</p>\n<p>Você embarca em um veículo através de uma abertura, porta, portal ou escotilha; se já estiver a bordo, você pode usar esta ação para desembarcar em um espaço vazio adjacente ao ponto de entrada do veículo. Usar esta ação enquanto o veículo estiver em movimento é desafiador, exigindo um teste bem-sucedido de Acrobatismo ou Atletismo contra a CD do veículo.</p>"
     },
     "Borrow an Arcane Spell": {
       "name": "Emprestar um Magia Arcana"
@@ -136,11 +136,11 @@
     },
     "Change Tradition Focus": {
       "name": "Trocar Foco de Tradição",
-      "description": "<p><strong>Requerimentos</strong> Você está em um duelo e é treinado na perícia para a tradição para a qual está trocando seu foco (Arcanismo para arcana, Natureza para primal, Ocultismo para ocultista ou Religião para divina).</p>\n<hr />\n<p>Você troca seu foco de tradição para outra tradição mágica.</p>"
+      "description": "<p><strong>Exigências</strong> Você está em um duelo e é treinado na perícia para a tradição para a qual está trocando seu foco (Arcanismo para arcana, Natureza para primal, Ocultismo para ocultista ou Religião para divina).</p>\n<hr />\n<p>Você troca seu foco de tradição para outra tradição mágica.</p>"
     },
     "Chassis Deflection": {
       "name": "Chassis Deflection (Guns & Gears)",
-      "description": "<p><strong>Trigger</strong> A critical hit deals physical damage to you.</p>\n<hr />\n<p>Attempt a @Check[type:flat|dc:17]. If you are successful, the attack becomes a normal hit.</p>"
+      "description": "<p><strong>Trigger</strong> A critical hit deals physical damage to you.</p>\n<hr />\n<p>Attempt a @Check[flat|dc:17]. If you are successful, the attack becomes a normal hit.</p>"
     },
     "Cleanse Soul Path": {
       "name": "Purgar Caminho da Alma"
@@ -193,7 +193,7 @@
     },
     "Deceptive Sidestep": {
       "name": "Passo Lateral Enganoso",
-      "description": "<p><strong>Acionamento</strong> Um oponente lhe acerta com um Golpe corpo a corpo (mas não com um acerto crítico).</p>\n<p><strong>Requerimentos</strong> Você está em um duelo, você é treinado em Dissimulação e rolou um teste de Dissimulação para iniciativa nesta rodada.</p>\n<hr />\n<p>Você atrai seu inimigo e se afasta no último momento. O oponente acionador deve rolar o Golpe novamente e usar o segundo resultado. Se o seu oponente estiver utilizando Intimidação para iniciativa quando esta habilidade for usada, ele também sofre –2 de penalidade de circunstância na segunda rolagem de ataque.</p>"
+      "description": "<p><strong>Gatilho</strong> Um oponente lhe acerta com um Golpe corpo a corpo (mas não com um acerto crítico).</p>\n<p><strong>Exigências</strong> Você está em um duelo, você é treinado em Dissimulação e rolou um teste de Dissimulação para iniciativa nesta rodada.</p>\n<hr />\n<p>Você atrai seu inimigo e se afasta no último momento. O oponente acionador deve rolar o Golpe novamente e usar o segundo resultado. Se o seu oponente estiver utilizando Intimidação para iniciativa quando esta habilidade for usada, ele também sofre –2 de penalidade de circunstância na segunda rolagem de ataque.</p>"
     },
     "Decipher Writing": {
       "name": "Decifrar Escrita"
@@ -203,7 +203,7 @@
     },
     "Defend Life": {
       "name": "Defender Vida",
-      "description": "<p><strong>Trigger</strong> O alvo sofre dano</p>\n<p><strong>Requerimentos</strong> Você está a até 1,5 quilômetros do alvo</p>\n<hr />\n<p><strong>Efeito</strong> Após calcular a quantidade de dano que o alvo sofreria (aplicando fraquezas, resistências e similares), você perde a mesma quantidade de Pontos de Vida, e o alvo não sofre qualquer dano. Você não pode reduzir a quantidade de Pontos de Vida que você perde dessa maneira. Entretanto, o alvo ainda sofre quaisquer efeitos que seriam transmitidos junto com o dano, como o veneno de um Golpe de presas de uma víbora.</p>"
+      "description": "<p><strong>Trigger</strong> O alvo sofre dano</p>\n<p><strong>Exigências</strong> Você está a até 1,5 quilômetros do alvo</p>\n<hr />\n<p><strong>Efeito</strong> Após calcular a quantidade de dano que o alvo sofreria (aplicando fraquezas, resistências e similares), você perde a mesma quantidade de Pontos de Vida, e o alvo não sofre qualquer dano. Você não pode reduzir a quantidade de Pontos de Vida que você perde dessa maneira. Entretanto, o alvo ainda sofre quaisquer efeitos que seriam transmitidos junto com o dano, como o veneno de um Golpe de presas de uma víbora.</p>"
     },
     "Delay": {
       "name": "Adiar"
@@ -230,7 +230,7 @@
     },
     "Divert Lightning": {
       "name": "Desviar Relâmpago",
-      "description": "<p><strong>Requerimentos</strong> Você não é imune a eletricidade</p>\n<p><strong>Acionamento</strong> Uma criatura a até 9 metros de você é mirada por um efeito de eletricidade ou está na área de um efeito de eletricidade.</p>\n<hr />\n<p><strong>Efeito</strong> Você atrai a eletricidade para si como um para-raios visando proteger o alvo. Se o efeito acionador tinha um alvo, ele mira você em vez do alvo original. Se era um efeito de área, ele salta do espaço da criatura acionadora para preencher o seu espaço em vez do dela. Isso não desvia o relâmpago de outras criaturas miradas pelo efeito ou que estejam na área do efeito. Você é automaticamente atingido ou falha no seu salvamento contra o efeito. Você não pode Desviar Relâmpago por [[/r 1d4 #rounds]]{1d4 rodadas}.</p>"
+      "description": "<p><strong>Exigências</strong> Você não é imune a eletricidade</p>\n<p><strong>Gatilho</strong> Uma criatura a até 9 metros de você é mirada por um efeito de eletricidade ou está na área de um efeito de eletricidade.</p>\n<hr />\n<p><strong>Efeito</strong> Você atrai a eletricidade para si como um para-raios visando proteger o alvo. Se o efeito acionador tinha um alvo, ele mira você em vez do alvo original. Se era um efeito de área, ele salta do espaço da criatura acionadora para preencher o seu espaço em vez do dela. Isso não desvia o relâmpago de outras criaturas miradas pelo efeito ou que estejam na área do efeito. Você é automaticamente atingido ou falha no seu salvamento contra o efeito. Você não pode Desviar Relâmpago por [[/r 1d4 #rounds]]{1d4 rodadas}.</p>"
     },
     "Draconic Frenzy": {
       "name": "Frenesi Dracônico",
@@ -255,11 +255,11 @@
     },
     "Dueling Counter": {
       "name": "Contramágica de Duelo",
-      "description": "<p><strong>Acionamento</strong> Seu oponente Conjura uma Magia da mesma tradição que seu foco de tradição.</p>\n<p><strong>Requerimentos</strong> Você está em um duelo e possui um foco de tradição.</p>\n<hr />\n<p>Gaste uma magia preparada ou um espaço de magia. Você então tenta neutralizar a magia acionadora com a magia gasta.</p>"
+      "description": "<p><strong>Gatilho</strong> Seu oponente Conjura uma Magia da mesma tradição que seu foco de tradição.</p>\n<p><strong>Exigências</strong> Você está em um duelo e possui um foco de tradição.</p>\n<hr />\n<p>Gaste uma magia preparada ou um espaço de magia. Você então tenta neutralizar a magia acionadora com a magia gasta.</p>"
     },
     "Dutiful Retaliation": {
       "name": "Retaliação Dedicada",
-      "description": "<p><strong>Acionamento</strong> Um inimigo a até 4,5 metros de você o acerta com um Golpe e causa dano.</p>\n<p><strong>Requerimentos</strong> Seu eidolon está a até 4,5 metros de você.</p>\n<p>Seu eidolon instintivamente dispara energia ectoplasmática, permitindo que ele revide contra um inimigo que ouse machucar você. Seu eidolon realiza um Golpe com um ataque desarmado corpo a corpo contra o inimigo acionador, mesmo que esse inimigo não esteja no alcance de seu eidolon.</p>"
+      "description": "<p><strong>Gatilho</strong> Um inimigo a até 4,5 metros de você o acerta com um Golpe e causa dano.</p>\n<p><strong>Exigências</strong> Seu eidolon está a até 4,5 metros de você.</p>\n<p>Seu eidolon instintivamente dispara energia ectoplasmática, permitindo que ele revide contra um inimigo que ouse machucar você. Seu eidolon realiza um Golpe com um ataque desarmado corpo a corpo contra o inimigo acionador, mesmo que esse inimigo não esteja no alcance de seu eidolon.</p>"
     },
     "Earn Income": {
       "name": "Ganhar Proventos"
@@ -451,7 +451,7 @@
     },
     "Manifest Soulforged Armament": {
       "name": "Manifestar Armamento Forjado na Alma",
-      "description": "<p><strong>Requerimentos</strong> Se convocar uma arma ou escudo, você tem mãos livres para segurar o item; se convocar uma armadura, você não está vestindo qualquer armadura</p>\n<hr />\n<p><strong>Efeito</strong> Você imediatamente empunha ou veste o armamento forjado na alma ligado a você. O armamento forjado na alma permanece manifestado até você Dispensar este efeito.</p>\n<p>Uma vez por dia quando usar esta habilidade, você pode manifestar a forma de essência do armamento até ele ser Dispensado. Após 1 minuto, a forma de essência do armamento é automaticamente Dispensada.</p>"
+      "description": "<p><strong>Exigências</strong> Se convocar uma arma ou escudo, você tem mãos livres para segurar o item; se convocar uma armadura, você não está vestindo qualquer armadura</p>\n<hr />\n<p><strong>Efeito</strong> Você imediatamente empunha ou veste o armamento forjado na alma ligado a você. O armamento forjado na alma permanece manifestado até você Dispensar este efeito.</p>\n<p>Uma vez por dia quando usar esta habilidade, você pode manifestar a forma de essência do armamento até ele ser Dispensado. Após 1 minuto, a forma de essência do armamento é automaticamente Dispensada.</p>"
     },
     "Map the Area": {
       "name": "Mapear a Área",
@@ -512,7 +512,7 @@
     },
     "Prophecy's Pawn": {
       "name": "Peão da Profecia",
-      "description": "<p><strong>Acionamento</strong> Você falha em uma jogada de salvamento, rolagem de ataque ou teste de perícia</p>\n<hr />\n<p><strong>Efeito</strong> Você distorce a profecia a seu favor, o que terá consequências posteriormente. Rerrole o teste em que falhou. Você deve usar o resultado da segunda rolagem.</p>\n<p>Durante 24 horas após usar Peão da Profecia, o MJ pode forçá-lo a rerrolar uma jogada de salvamento, rolagem de ataque ou teste de perícia conforme o destino equilibra a balança. Esse é um efeito de infortúnio. Você não pode usar Peão da Profecia novamente até o MJ usar essa opção ou se passarem 24 horas, o que ocorrer primeiro.</p>"
+      "description": "<p><strong>Gatilho</strong> Você falha em uma jogada de salvamento, rolagem de ataque ou teste de perícia</p>\n<hr />\n<p><strong>Efeito</strong> Você distorce a profecia a seu favor, o que terá consequências posteriormente. Rerrole o teste em que falhou. Você deve usar o resultado da segunda rolagem.</p>\n<p>Durante 24 horas após usar Peão da Profecia, o MJ pode forçá-lo a rerrolar uma jogada de salvamento, rolagem de ataque ou teste de perícia conforme o destino equilibra a balança. Esse é um efeito de infortúnio. Você não pode usar Peão da Profecia novamente até o MJ usar essa opção ou se passarem 24 horas, o que ocorrer primeiro.</p>"
     },
     "Raconteur's Reload": {
       "name": "Raconteur's Reload (Guns & Gears)"
@@ -527,11 +527,11 @@
       "name": "Ferocidade Desenfreada"
     },
     "Reactive Strike": {
-      "description": "<p><strong>Acionamento</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
+      "description": "<p><strong>Gatilho</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
     },
     "Ready": {
       "name": "Preparar",
-      "description": "<p>Você se prepara para usar uma ação que ocorrerá fora de seu turno. Escolha uma ação única ou ação livre que você pode usar e designe um acionamento. Seu turno acaba. Se o acionamento designado ocorrer antes do início de seu próximo turno, você pode usar a ação escolhida como uma reação (desde que atenda aos requerimentos para usá-la). Você não pode Preparar uma ação livre que já tenha um acionamento.</p>\n<p>Se tiver uma penalidade por ataques múltiplos e sua ação preparada for uma ação de ataque, seu ataque preparado sofre a penalidade por ataques múltiplos que você tinha no momento em que usou Preparar. Esta é uma das poucas vezes em que a penalidade por ataques múltiplos se aplica quando não é o seu turno.</p>"
+      "description": "<p>Você se prepara para usar uma ação que ocorrerá fora de seu turno. Escolha uma ação única ou ação livre que você pode usar e designe um acionamento. Seu turno acaba. Se o acionamento designado ocorrer antes do início de seu próximo turno, você pode usar a ação escolhida como uma reação (desde que atenda às exigências para usá-la). Você não pode Preparar uma ação livre que já tenha um acionamento.</p>\n<p>Se tiver uma penalidade por ataques múltiplos e sua ação preparada for uma ação de ataque, seu ataque preparado sofre a penalidade por ataques múltiplos que você tinha no momento em que usou Preparar. Esta é uma das poucas vezes em que a penalidade por ataques múltiplos se aplica quando não é o seu turno.</p>"
     },
     "Recall Ammunition": {
       "name": "Recall Ammunition (Guns & Gears)",
@@ -581,7 +581,7 @@
     },
     "Run Over": {
       "name": "Atropelar",
-      "description": "<p><strong>Requerimentos</strong> Você está pilotando um veículo.</p>\n<p>Você tenta passar por cima de criaturas com seu veículo, possivelmente também abalroando uma criatura ou objeto maior. Se mantiver o controle de seu veículo, ele se move até duas vezes a Velocidade dele em uma linha reta na direção para a qual o veículo estiver virado. Você tenta atropelar quaisquer criaturas que sejam dois tamanhos menores que o seu veículo e estejam em seu caminho, e também pode tentar abalroar uma criatura ou objeto alvo em seu caminho que seja no mínimo um tamanho menor que o veículo.</p>\n<p>Cada criatura em seu caminho, incluindo um alvo abalroado, sofre o dano de colisão do veículo (salvamento básico de Reflexos com a CD de colisão do veículo). Se o alvo abalroado for um veículo, o piloto dele pode fazer um teste de pilotagem no lugar de seu salvamento de Reflexos, com os mesmos resultados. Se o alvo de seu abalroamento sofrer dano, você e seu veículo sofrem o dano de colisão (sem salvamento) e seu movimento é encerrado.</p>"
+      "description": "<p><strong>Exigências</strong> Você está pilotando um veículo.</p>\n<p>Você tenta passar por cima de criaturas com seu veículo, possivelmente também abalroando uma criatura ou objeto maior. Se mantiver o controle de seu veículo, ele se move até duas vezes a Velocidade dele em uma linha reta na direção para a qual o veículo estiver virado. Você tenta atropelar quaisquer criaturas que sejam dois tamanhos menores que o seu veículo e estejam em seu caminho, e também pode tentar abalroar uma criatura ou objeto alvo em seu caminho que seja no mínimo um tamanho menor que o veículo.</p>\n<p>Cada criatura em seu caminho, incluindo um alvo abalroado, sofre o dano de colisão do veículo (salvamento básico de Reflexos com a CD de colisão do veículo). Se o alvo abalroado for um veículo, o piloto dele pode fazer um teste de pilotagem no lugar de seu salvamento de Reflexos, com os mesmos resultados. Se o alvo de seu abalroamento sofrer dano, você e seu veículo sofrem o dano de colisão (sem salvamento) e seu movimento é encerrado.</p>"
     },
     "Salt Wound": {
       "name": "Salt Wound (Ancestry Guide)"
@@ -624,15 +624,15 @@
     },
     "Sever Conduit": {
       "name": "Romper Conduíte",
-      "description": "<p><strong>Acionamento</strong> Seu eidolon sofre dano que o levaria a 0 Pontos de Vida por um efeito que não seja um efeito de morte.</p>\n<hr />\n<p><strong>Efeito</strong> Você rapidamente lança o amortecedor em seu vínculo com seu eidolon, fazendo seu aliado vinculado piscar para fora da existência antes que você possa ser prejudicado. Seu eidolon desmanifesta, e você não pode Manifestar seu Eidolon por 1 minuto. Em troca, você não sofre o dano acionador, embora seu eidolon ainda sofra quaisquer outros efeitos adversos que acompanharem o dano.</p>"
+      "description": "<p><strong>Gatilho</strong> Seu eidolon sofre dano que o levaria a 0 Pontos de Vida por um efeito que não seja um efeito de morte.</p>\n<hr />\n<p><strong>Efeito</strong> Você rapidamente lança o amortecedor em seu vínculo com seu eidolon, fazendo seu aliado vinculado piscar para fora da existência antes que você possa ser prejudicado. Seu eidolon desmanifesta, e você não pode Manifestar seu Eidolon por 1 minuto. Em troca, você não sofre o dano acionador, embora seu eidolon ainda sofra quaisquer outros efeitos adversos que acompanharem o dano.</p>"
     },
     "Shadow Step": {
       "name": "O Passo nas Sombras",
-      "description": "<p><strong>Requerimentos</strong> O familiar está sob luz fraca ou escuridão.</p>\n<hr />\n<p><strong>Efeito</strong> familiar se teleporta a até 9 metros. O destino deve estar sob luz fraca ou escuridão e deve estar na linha de visão e linha de efeito de seu familiar.</p>\n<p>Esta ação possui o traço correspondente à sua tradição mágica, ou ocultista se você não for um conjurador.</p>"
+      "description": "<p><strong>Exigências</strong> O familiar está sob luz fraca ou escuridão.</p>\n<hr />\n<p><strong>Efeito</strong> familiar se teleporta a até 9 metros. O destino deve estar sob luz fraca ou escuridão e deve estar na linha de visão e linha de efeito de seu familiar.</p>\n<p>Esta ação possui o traço correspondente à sua tradição mágica, ou ocultista se você não for um conjurador.</p>"
     },
     "Share Life": {
       "name": "Vida Compartilhada",
-      "description": "<p><strong>Acionamento</strong> Seu aliado vinculado sofre dano e está a até 18 metros</p>\n<hr />\n<p><strong>Efeito</strong> O aliado sofre metade do dano do efeito acionador (arredondado para baixo), e você perde uma quantidade de Pontos de Vida igual ao dano restante. Você não pode acionar esta reação para compartilhar dano causado por seu aliado usando esta reação.</p>"
+      "description": "<p><strong>Gatilho</strong> Seu aliado vinculado sofre dano e está a até 18 metros</p>\n<hr />\n<p><strong>Efeito</strong> O aliado sofre metade do dano do efeito acionador (arredondado para baixo), e você perde uma quantidade de Pontos de Vida igual ao dano restante. Você não pode acionar esta reação para compartilhar dano causado por seu aliado usando esta reação.</p>"
     },
     "Share Senses": {
       "name": "Compartilhar Sentidos"
@@ -681,7 +681,7 @@
     },
     "Stop": {
       "name": "Parar",
-      "description": "<p><strong>Requerimentos</strong> Você está pilotando um veículo em movimento.</p>\n<p>Você faz o veículo parar.</p>"
+      "description": "<p><strong>Exigências</strong> Você está pilotando um veículo em movimento.</p>\n<p>Você faz o veículo parar.</p>"
     },
     "Stride": {
       "name": "Andar",
@@ -704,7 +704,7 @@
     },
     "Take Control": {
       "name": "Assumir Controle",
-      "description": "<p><strong>Requerimentos</strong> ocê está a bordo de um veículo e adjacente aos controles dele.</p>\n<p>Você pega as rédeas, o volante ou algum outro mecanismo para controlar o veículo. Faça um teste de pilotagem; em um sucesso, você se torna o piloto do veículo ou recupera o controle se ele estivesse descontrolado. Alguns veículos possuem controles complicados que tornam esta ação uma atividade de várias ações.</p>"
+      "description": "<p><strong>Exigências</strong> ocê está a bordo de um veículo e adjacente aos controles dele.</p>\n<p>Você pega as rédeas, o volante ou algum outro mecanismo para controlar o veículo. Faça um teste de pilotagem; em um sucesso, você se torna o piloto do veículo ou recupera o controle se ele estivesse descontrolado. Alguns veículos possuem controles complicados que tornam esta ação uma atividade de várias ações.</p>"
     },
     "Take Cover": {
       "name": "Obter Cobertura"
@@ -769,7 +769,7 @@
     },
     "Wish for Luck": {
       "name": "Desejo de Sorte",
-      "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<p><strong>Acionamento</strong> Você está prestes a rolar uma jogada de salvamento, rolagem de ataque ou teste de perícia</p>\n<hr />\n<p><strong>Efeito</strong> Você deseja em voz alta por sucesso. Role o teste duas vezes e use o melhor resultado.</p>"
+      "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<p><strong>Gatilho</strong> Você está prestes a rolar uma jogada de salvamento, rolagem de ataque ou teste de perícia</p>\n<hr />\n<p><strong>Efeito</strong> Você deseja em voz alta por sucesso. Role o teste duas vezes e use o melhor resultado.</p>"
     },
     "Wyrm's Breath": {
       "name": "Sopro de Ancião",
