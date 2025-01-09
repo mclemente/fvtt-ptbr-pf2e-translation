@@ -476,17 +476,22 @@
       },
       "TallowBomb": {
         "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]], @Damage[(3[splash])[fire]]{3 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
         },
         "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]], @Damage[(1[splash])[fire]]{1 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
         },
         "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*4d4)[persistent,fire]], @Damage[(4[splash])[fire]]{4 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[4d4[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}."
         },
         "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*2d4)[persistent,fire]], @Damage[(2[splash])[fire]]{2 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
-        }
+        },
+        "criticalSuccess": "Em um acerto crítico, uma criatura viva que recebe dano persistente de fogo de uma bomba de sebo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em combustão e não pode reduzir o seu valor de enjoado para abaixo de 1 enquanto o dano persistente do fogo persistir."
       },
       "TanglefootBag": {
         "Greater": {
@@ -518,6 +523,42 @@
         },
         "Moderate": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[sonic]]]{2 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[fortitude|dc:20|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
+        }
+      },
+      "TwigjackSack": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*4)[bleed]] e @Damage[(3[splash])[piercing]]{3 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[4[bleed]] e @Damage[(3[splash])[piercing]]{3 piercing splash damage}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1)[bleed]] e @Damage[(1[splash])[piercing]]{1 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[1[bleed]] e @Damage[(1[splash])[piercing]]{1 piercing splash damage}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*5)[bleed]] e @Damage[(4[splash])[piercing]]{4 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[5[bleed]] e @Damage[(4[splash])[piercing]]{4 piercing splash damage}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3)[bleed]] e @Damage[(2[splash])[piercing]]{2 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3[bleed]] e @Damage[(2[splash])[piercing]]{2 piercing splash damage}."
+        }
+      },
+      "VexingVapor": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[mental]]{3 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[mental]]{3 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[mental]]{1 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[mental]]{1 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[mental]]{4 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[mental]]{4 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[mental]]{2 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[mental]]{2 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
         }
       },
       "WaterBomb": {
@@ -587,6 +628,8 @@
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
         "BludgeoningPiercingSlashing": "dano contundente, perfurante e cortante",
         "ColdIronBludgeoning": "contundente de ferro frio",
+        "DraconicBreathWeapons": "armas de sopro dracônicas",
+        "HolyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante sagrado",
         "ImpulseFireFrom": "impulso de fogo de {origem}",
         "IngestedPoisons": "venenos ingeridos",
         "MagicalBludgeoning": "contundente mágico",
@@ -600,6 +643,7 @@
         "PhysicalRangedAttacks": "ataques físicos à distância",
         "RangedWeaponAttacks": "ataques à distância com armas",
         "Spirits": "espíritos",
+        "UnholyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante profano",
         "VoidZonKuthonFollowers": "vazio de seguidores de Zon-Kuthon"
       }
     },
@@ -799,6 +843,39 @@
           "Humanoid": "Humanoide"
         }
       },
+      "HehShanBao": {
+        "UrbanLegend": {
+          "DisbelieveResistance": "A Resistência Física é Desacreditada.",
+          "DisbelieveSlashing": "O Dano Cortante é Desacreditado."
+        }
+      },
+      "HellboundAttorney": {
+        "OpeningStatementCriticalSuccess": "Sustentação de Abertura (Sucesso Crítico)"
+      },
+      "Herexen": {
+        "HereticSmite": "Empunhando a arma favorita de sua antiga divindade"
+      },
+      "HobgoblinFormationArea": "Formação vs. Efeitos de Área",
+      "Hryngar": {
+        "AlchemicalGrenade": "Tipo de Dano da Granada Alquímica"
+      },
+      "IoseffXarwin": {
+        "FulviasRing": {
+          "SavePossess": "Salvamento contra alvo em posse de um Anel de Fulvia",
+          "SaveWear": "Salvamento contra alvo usando um Anel de Fulvia",
+          "TargetPossess": "O alvo possui um Anel de Fulvia",
+          "TargetWear": "O alvo está usando um Anel de Fulvia"
+        }
+      },
+      "Ivarsa": {
+        "ArcaneCascade": {
+          "Note": "Enquanto nesta postura, os ataques corpo a corpo de Ivarsa causam @Damage[(4[splash])[fire]]{4 splash fire} em inimigos adjacentes a seu alvo."
+        }
+      },
+      "KallasDevil": {
+        "DisguisedAsChild": "Disfarçado como uma Criança",
+        "LyingAboutLoathsomeStench": "Mentir sobre Fedor Repugnante"
+      },
       "LemureSubservience": {
         "Defend": "Defender",
         "Kill": "Matar"
@@ -833,6 +910,21 @@
           "HuntPrey": {
             "AC": "Presa Designada ataca ao Crepuscular",
             "Checks": "Crepuscular rola teste contra a sua Presa Designada"
+          }
+        }
+      },
+      "PoltergeistTelekineticStorm": {
+        "MultipleTargets": "Alvos Múltiplos",
+        "SingleTarget": "Alvo Único"
+      },
+      "RuneGiant": {
+        "InvokeRune": {
+          "Prompt": "Selecione uma runa.",
+          "RuneOfDestruction": {
+            "Label": "Runa da Destruição"
+          },
+          "RuneOfFlames": {
+            "Label": "Runa das Chamas"
           }
         }
       },
@@ -1432,6 +1524,9 @@
           "Climb": {
             "SuccessBetter": "Se você obtiver sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico."
           }
+        },
+        "RecallKnowledge": {
+          "SuccessBetterAdditionalInformation": "Quando você obtém um sucesso em um teste para Recordar Conhecimento, você ganha informações ou contexto adicional. Quando você obtém um sucesso crítico em um teste para Recordar Conhecimento, você obtém ainda mais informação ou contexto adicional do que o normal, a critério do mestre."
         }
       },
       "AdoptedAncestry": {
@@ -1442,6 +1537,43 @@
       },
       "Aid": {
         "Prompt": "Escolha o bônus do Auxílio."
+      },
+      "Alchemist": {
+        "AlchemicalCrossbow": {
+          "Prompt": "Escolha uma bomba para adicionar à besta."
+        },
+        "Alchemy": {
+          "IdentifyAlchemy": "Você pode identificar automaticamente itens alquímicos para os quais você possui a fórmula."
+        },
+        "ExpandedSplash": {
+          "Note": "O dano de respingo afeta todas as criaturas a 10 pés do alvo em vez de 5 pés."
+        },
+        "ResearchField": {
+          "Bomber": {
+            "FieldBenefit": "Ao atirar uma bomba alquímica com o traço respingo, você pode optar por causar dano de respingo apenas em seu alvo principal em vez da área habitual de respingo.",
+            "FieldVials": {
+              "RollOptionLabel": "Dano das Ampolas Versáteis"
+            },
+            "GreaterFieldDiscovery": "Você pode aumentar a área de respingo de suas bombas para causar dano a criaturas a até 10 pés do alvo principal, ou 15 pés se possuir Respingo Expandido."
+          },
+          "Chirurgeon": {
+            "FieldVials": {
+              "Description": "Suas ampolas versáteis podem ser usadas para curar uma criatura viva @Damage[(ternary(gte(@actor.level,18),4,ternary(gte(@actor.level,12),3,ternary(gte(@actor.level,4),2,1))))d6[healing]] Pontos de Vida. Uma criatura pode beber a ampola para obter esse benefício, ou você pode jogá-la em uma criatura dentro de 20 pés, como uma ação de Interação para curar ela. Em ambos os casos, uma ampola usada desta forma perde os traços ácido e respingo e ganha os traços coagulante e cura, mais o traço elixir se uma criatura o beber."
+            }
+          },
+          "FieldVials": "Ampolas de Campo",
+          "Mutagenist": {
+            "FieldVials": {
+              "Description": "Você pode beber o conteúdo de um dos seus frascos versáteis para suprimir a desvantagem de um mutagênico que está te afetando atualmente até o início do seu próximo turno. Uma ampola usada desta maneira perde o traço ácido, bomba e respingo e ganha o traço elixir. Se você tem mais de uma desvantagem a @UUID[Compendium.pf2e.feats-srd.Item.jSkJIWPfSZZzvYzq]{Combinar Elixires} ou uma habilidade semelhante, beber a ampola suprime uma desvantagem de sua escolha."
+            }
+          },
+          "Prompt": "Selecione um campo de pesquisa.",
+          "Toxicologist": {
+            "FieldVials": {
+              "Description": "Você pode aplicar o conteúdo de um frasco versátil a uma arma ou pedaço de munição como um veneno de ferimento. Adicione os danos iniciais da ampola versátil ao primeiro ataque bem-sucedido com essa arma ou munição. A substância se torna inerte no final do seu turno atual."
+            }
+          }
+        }
       },
       "AncestralParagon": {
         "Prompt": "Selecione um talento de ancestralidade de 1º nível."
