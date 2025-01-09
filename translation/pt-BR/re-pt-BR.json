@@ -1600,16 +1600,39 @@
         "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água.",
         "RangedNote": "Ataques à distância que causam dano contundente ou cortante erram automaticamente se o atacante ou alvo estiver debaixo d'água, e ataques perfurantes à distância feitos por uma criatura subaquática ou contra um alvo subaquático têm seus incrementos de alcance reduzidos à metade."
       },
+      "Ardande": {
+        "PotentNectar": {
+          "PersistentDamage": "Dano Persistente de Ácido",
+          "SplashDamage": "Dano de Respingo de Ácido"
+        }
+      },
+      "ArtokussFire": {
+        "Note": "O seu Fogo Alquímico causa 1d4 de dano persistente de fogo adicional, e as criaturas devem fazer dois testes simples bem sucedidos para acabar com a condição (ou um teste, se tiverem recuperação assistida que reduz o teste simples para DC 10). O seu fogo melhorado queima debaixo de água, e a água não ajuda a acabar com o dano persistente."
+      },
       "Automaton": {
+        "ArcaneLocomotion": {
+          "Prompt": "Selecione um tipo de movimento."
+        },
+        "AutomatonArmament": {
+          "Prompt": "Selecione um ataque desarmado."
+        },
+        "CoreCannon": {
+          "AttackNote": "Você precisa aplicar manualmente sua Runa de Potência de nível mais alto para esta rolagem de ataque.",
+          "CriticalHit": "Em um acerto crítico, o alvo recebe @Damage[10[persistent,fire]]. Sua explosão de energia não aplica efeitos de especialização de crítico.</p>"
+        },
         "EnhanceableFeats": {
           "ArcaneSlam": "Pancada Arcana"
         }
       },
       "Barbarian": {
         "Animal": {
+          "Ankylosaurus": "Anquilossauro",
+          "Ant": "Formiga",
           "Ape": "Macaco",
           "Bat": "Morcego",
           "Bear": "Urso",
+          "Bird": "Pássaro",
+          "Brontosaurus": "Brontossauro",
           "Bull": "Touro",
           "Cat": "Felino",
           "Deer": "Veado",
@@ -1618,6 +1641,9 @@
           "Scorpion": "Escorpião",
           "Shark": "Tubarão",
           "Snake": "Serpente",
+          "Spider": "Aranha",
+          "Tyrannosaurus": "Tiranossauro",
+          "Wasp": "Vespa",
           "Wolf": "Lobo"
         },
         "Dragon": {
@@ -1732,7 +1758,9 @@
         "Sonic": "Azul (Sônico)"
       },
       "ClanWeapon": {
-        "Label": "Arma do Clã"
+        "ClanPistol": "Pistola do Clã (Talento de Ancestralidade)",
+        "Label": "Arma do Clã",
+        "Prompt": "Selecione uma arma de clã."
       },
       "Cleric": {
         "DivineFont": {
@@ -1743,6 +1771,9 @@
         "Doctrine": {
           "AllowedDrops": "Característica de classe de clérigo de 1º nível",
           "Prompt": "Selecione uma doutrina."
+        },
+        "RaiseSymbol": {
+          "RollOptionLabel": "Empunhando o escudo como um símbolo religioso"
         }
       },
       "ConcertFrog": {
@@ -1785,6 +1816,19 @@
           "StrikeLabel": "Espinho de Osso"
         }
       },
+      "DivineAlly": {
+        "AllowedDrops": "talento de classe de campeão",
+        "Prompt": "Selecione um aliado divino."
+      },
+      "DivineIntercessions": {
+        "Lamashtu": {
+          "MinorBoon": {
+            "DFourLabel": "1d4 (acuidade, ágil)",
+            "DSixLabel": "1d6",
+            "LamashtusMutation": "Mutação de Lamashtu"
+          }
+        }
+      },
       "DragonDisciple": {
         "DragonChoice": {
           "Black": "Dragão Negro",
@@ -1802,19 +1846,32 @@
           "Prompt": "Selecione uma ordem druídica."
         }
       },
+      "Dwarf": {
+        "DwarvenClan": {
+          "Prompt": "Selecione um clã enânico."
+        }
+      },
       "Elf": {
+        "Atavism": {
+          "Prompt": "Selecione uma herança de elfo."
+        },
         "BrightnessSeeker": {
           "Label": "Invocar o Esplendor"
         }
       },
       "Equipment": {
         "Bomb": {
+          "Choice": "Tipo de Bomba",
           "Type": {
             "Greater": "Maior",
             "Lesser": "Menor",
             "Major": "Superior",
             "Moderate": "Moderado"
           }
+        },
+        "ChimeraFlail": {
+          "GoatLabel": "Cabra",
+          "LionLabel": "Leão"
         },
         "DruidsCrown": {
           "AntlersLabel": "Chifres",
@@ -1965,6 +2022,11 @@
         "SureFeet": {
           "BalanceNote": "Quando rolar um sucesso em um teste de Acrobatismo para se Equilibrar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar se Equilibrar.",
           "ClimbNote": "Quando rolar um sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar Escalar."
+        }
+      },
+      "Hobgoblin": {
+        "WarConditioning": {
+          "Prompt": "Selecione um tipo de movimento."
         }
       },
       "Human": {
