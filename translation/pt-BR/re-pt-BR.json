@@ -442,11 +442,50 @@
         "Greater": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*4d4)[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 3} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[4d4[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*2d4)[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
+        }
+      },
+      "SulfurBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[acid]]{3 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[acid]]{3 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[acid]]{1 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[acid]]{1 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[acid]]{4 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[acid]]{4 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[acid]]{2 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[acid]]{2 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
         }
       },
       "TallowBomb": {
         "Greater": {
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[4d4[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
         }
       },
       "TanglefootBag": {
