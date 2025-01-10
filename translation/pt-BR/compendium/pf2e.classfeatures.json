@@ -9,7 +9,16 @@
       "name": "Feito Avançado",
       "description": "<p>Você aprendeu uma poderosa nova técnica do caminho que escolheu. Você adquire a habilidade feito avançado do caminho que escolheu no 1º nível.</p>"
     },
+    "Advanced Rangefinder": {
+      "name": "Telêmetro Avançado",
+      "description": "<p><strong>Apenas Armas à Distância</strong></p>\n<hr />\n<p>Uma mira ou luneta cuidadosamente ajustada torna sua arma especialmente boa para atingir pontos fracos. Sua inovação adquire o traço apunhaladora e aumenta o incremento de distância em 10 pés.</p>"
+    },
+    "Aerodynamic Construction": {
+      "name": "Compleição Aerodinâmica",
+      "description": "<p><strong>Apenas Armas Corpo a Corpo</strong></p>\n<hr />\n<p>Você projeta cuidadosamente o formato da sua arma para manter a inércia dela contra alvos sucessivos. Sua inovação adquire os traços amplitude e versátil Ct.</p>"
+    },
     "Agile Mind": {
+      "name": "Mente Ágil",
       "description": "<p>Você faz jogos mentais e emprega truques cognitivos para se livrar de efeitos que afetem sua mente. Sua graduação de proficiência em salvamentos de Vontade aumenta para mestre. Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico.</p>"
     },
     "Alchemical Alacrity": {
@@ -40,6 +49,10 @@
       "name": "Ordem Animal",
       "description": "<p>Você possui uma forte conexão com bestas e está aliado a uma besta companheira. Você é treinado em Atletismo e recebe o talento de druida @Compendium[pf2e.feats-srd.f2Pl5dWEL9ZvEyI1]{Companheiro Animal (Druída)}. Você também recebe a magia de ordem @Compendium[pf2e.spells-srd.Zmh4ynfnCtwKeAYl]{Curar Animal}. Cometer crueldade arbitrária com animais ou matar animais desnecessariamente é anátema à sua ordem. (Isto não o impede de defender-se de animais ou matá-los para alimentar-se.)</p>"
     },
+    "Antimagic Plating": {
+      "name": "Revestimento Antimagia",
+      "description": "<p>Quer tenha usado alguma adaptação inteligente do metal celeste que bloqueia magia, conhecido como no qual, ou criado proteções mágicas da sua própria autoria, você fortaleceu sua armadura contra magia. Enquanto estiver vestindo a sua armadura, você recebe +1 de bônus de circunstância em todos os testes de salvamento contra magia e em CA contra magia. No caso de magias que visem diretamente a armadura (como Esquentar Metal), em vez disso você recebe +4 de bônus de circunstância na CA e em todos os salvamentos.</p>"
+    },
     "Arcane Bond": {
       "name": "Vínculo Arcano",
       "description": "<p>Você deposita parte de seu poder mágico em um item ligado. A cada dia, quando preparar suas magias, você pode designar um único item seu como seu item ligado. Ele tipicamente é um item associado com a conjuração de magias, como uma varinha, anel ou cajado, mas você pode designar uma arma ou qualquer outro item. Você ganha a ação livre @Compendium[pf2e.actionspf2e.v82XtjAVN4ffgVVR]{Drenar Item Ligado}.</p>"
@@ -53,7 +66,8 @@
       "description": "<p>A maioria dos magos adquire conhecimento sobre magias em uma instituição de ensino formal, como o Arcanamirium ou a Magaambya. No 1º nível, você escolhe sua escola arcana, que lhe concede habilidades mágicas.</p>\n<p>Você aprende magias e adquire espaços de magia adicionais do currículo ensinado na escola que frequentou. Alguns magos seguem a escola da teoria mágica unificada, que tenta forjar uma nova escola ao estudar de forma independente e extrair informações de uma grande variedade de textos e tutores. Embora magos com essa abordagem careçam do foco de um treinamento formal, têm maior flexibilidade.</p>"
     },
     "Arcane Spellcasting (Magus)": {
-      "name": "Conjuração Arcana (Magus)"
+      "name": "Conjuração Arcana (Magus)",
+      "description": "<p>Você estuda magias para que possa combiná-las com seus ataques ou solucionar problemas que poder marcial sozinho não seria capaz. Você pode conjurar magias arcanas usando a atividade @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Conjurar uma Magia} e pode providenciar componentes materiais, somáticos e verbais quando conjurar magias. </p>\n<p>Por ser um magus, você pode desenhar símbolos substitutivos com a ponta da sua arma ou com sua mão livre para magias que requeiram componentes materiais, substituindo-os por componentes somáticos em vez de precisar de uma bolsa de componentes materiais.</p>\n<p>No 1º nível, a cada manhã você pode preparar uma magia de 1º nível e cinco truques mágicos dentre as\nopções disponíveis em seu grimório. Magias preparadas permanecem disponíveis até você conjurá-las ou\npreparar suas magias novamente. A quantidade de magias que você pode preparar é chamada de espaços de magia.</p>\n<p>Conforme avança de nível como magus, a quantidade de magias que você pode preparar por dia aumenta, assim como o maior nível de magia que você é capaz de conjurar, conforme demonstrado na Tabela 2–4: Magias de Magus por Dia. Por dividir seu foco entre treinamento físico e estudos mágicos, você não tem mais do que dois espaços de magia do seu maior nível de magia e, se puder conjurar magias de 2º nível ou superior, também tem dois espaços de magia de 1 nível inferior ao seu maior nível de magia. Ou seja, você começa a perder espaços de magia de níveis inferiores quando atinge o 5º nível. A quantidade máxima de espaços de magia que você recebe da classe magus é quatro, começando quando você atinge o 4º nível.</p>\n<p>Algumas de suas magias exigem que você faça uma rolagem de ataque de magia para determinar sua efetividade, enquanto outras fazem com que seus inimigos rolem contra sua CD de magia (tipicamente ao tentar uma jogada de salvamento). Como seu atributo chave é Inteligência, suas rolagens de ataque de magia e CDs de magias utilizam seu modificador de Inteligência.</p>"
     },
     "Arcane Thesis": {
       "name": "Tese Arcana",
@@ -63,9 +77,21 @@
       "name": "Magifício do Arquimago",
       "description": "<p>Você domina as forças mais poderosas da magia arcana, tornando-se capaz de conjurar uma magia de poder verdadeiramente incrível. Você adquire um único espaço de magia de 10º círculo e pode preparar uma magia nesse espaço através da sua conjuração de mago. Ao contrário de outros espaços de magia, você não pode usar espaços de 10º círculo com habilidades que lhe concederiam mais espaços de magia ou que lhe permitiriam conjurar magias sem gastar espaços de magia. Você não aprende mais magias de 10º círculo conforme avança de nível, mas pode adquirir o talento @Compendium[pf2e.feats-srd.tP26mgaFPpr6df1i]{Poder do Arquimago} para adquirir um segundo espaço.</p>"
     },
+    "Armor Innovation": {
+      "name": "Inovação de Armadura",
+      "description": "<p>Sua inovação é uma armadura média de última geração com uma variedade de aparelhos e dispositivos anexados a ela. Escolha um dos conjuntos de estatísticas da tabela 2–2: Estatísticas de armadura de inovação (ou escolha outro conjunto de estatísticas de armadura de inovação ao qual você tenha acesso).</p>\n<p>Sua armadura de inovação pode ter runas fundamentais e de propriedades adicionadas a ela da mesma forma que uma armadura comum. Devido às características únicas da sua inovação, ninguém, exceto você, é treinado nela, mesmo que normalmente fosse treinado (ou melhor) em armaduras médias.\nEscolha uma modi\u001fcação de armadura inicial para aplicar à sua inovação, seja uma das apresentadas a seguir ou de outras modi\u001fcações de armadura iniciais às quais você tem acesso.</p>\n<ul>\n<li><strong>Oscilador Harmônico</strong> Você projetou sua armadura para vibrar de forma inaudível na frequência certa para criar interferência contra força e ondas sonoras. Você recebe uma quantidade de resistência a dano de força e sônico igual a 3 + metade do seu nível. Quando estiver sob os efeitos de Sobrecarga, essa resistência aumenta em +2.</li>\n<li><strong>Reatância Metálica</strong> Os metais da sua armadura estão cuidadosamente reforçados para fornecer aterramento e também protegem contra reações químicas ácidas. Você recebe uma quantidade de resistência a dano de ácido e de eletricidade igual a 3 + metade do seu nível. Quando\nestiver sob os efeitos de Sobrecarga, essa resistência aumenta em +2.</li>\n<li><strong>Exoesqueleto Muscular (Apenas Traje Energizado)</strong> Sua armadura sustenta seus músculos com um exoesqueleto cuidadosamente elaborado. Quando fi\u001fzer uma sobrecarga na sua armadura, o exoesqueleto também complementa suas façanhas atléticas. Quando estiver sob os efeitos de Sobrecarga, você recebe +1 de bônus de circunstância em testes de Atletismo; se for mestre em Manufatura você recebe +2 de bônus de circunstância.</li>\n<li><strong>Proteção Sobrenatural:</strong> Só porque você usa a ciência não signifi\u001fca que não possa construir sua armadura a partir de materiais cuidadosamente escolhidos e dispositivos projetados para proteger contra ataques sobrenaturais. Você recebe uma quantidade de resistência a dano negativo\n(ou a positivo, se você tiver cura negativa; talvez por ser um dampiro, por exemplo) igual 3 + metade do seu\nnível. Você recebe essa mesma quantidade de resistência a qualquer tipo de dano de alinhamento — bom, caótico, mau ou ordeiro — que possa causar dano a você (observe que, a menos que sejam do alinhamento oposto, as criaturas não sofrem dano de alinhamento; por exemplo, você só poderá sofrer dano maligno se tiver uma tendência boa).</li>\n<li><strong>Regulador Flogístico:</strong> Uma camada de isolamento da armadura protege contra fl\u001eutuações de temperatura. Você recebe uma quantidade de resistência a fogo e frio igual à metade do seu nível. Quando estiver sob os efeitos de Sobrecarga, essa resistência aumenta em +2.</li>\n<li><strong>Amplificadores de Velocidade</strong> Sua armadura tem ampli\u001fcadores que aumentam sua Velocidade. Você recebe +5 pés de bônus de estado na sua Velocidade, que aumentam para +10 pés de bônus de estado quando estiver sob os efeitos de Sobrecarga.</li>\n<li><strong>Amortecedores Sutis (Apenas Traje de Subterfúgio)</strong> Você projetou sua armadura para ajudá-lo a se misturar e amortecer um pouco os ruídos. Quando fi\u001fzer sobrecarga na sua armadura, os amortecedores têm efeito aprimorado, melhorando a sua Furtividade. Quando estiver sob os efeitos de Sobrecarga, você recebe +1 de bônus de circunstância em testes de Furtividade. Se for mestre em\nManufatura, você recebe +2 de bônus de circunstância</li>\n</ul>"
+    },
     "Armor of Fury": {
       "name": "Armadura de Furor",
       "description": "<p>Seu treinamento e fúria aprofundam sua conexão com armaduras. Suas graduações de proficiência em armaduras leves, armaduras médias e defesa sem armadura aumentam para mestre</p>"
+    },
+    "Attack Refiner": {
+      "name": "Refinador de Ataque",
+      "description": "<p>Sua arma faz recalibrações minuciosas após cada ataque que errar, para garantir que o próximo acerte. Sua inovação adquire os traços empurrar e oscilante.</p>"
+    },
+    "Automated Impediments": {
+      "name": "Impedimentos Automatizados",
+      "description": "<p>Sua armadura usa campos eletromagnéticos, distorções sub-harmônicas ou outras técnicas para difi\u001fcultar que pessoas próximas se movam, a menos que você permita. Enquanto estiver vestindo a sua armadura, todos os espaços adjacentes a você são terreno difícil para seus inimigos.</p>"
     },
     "Baba Yaga Patron": {
       "name": "Patrono da Baba Yaga",
@@ -74,6 +100,10 @@
     "Bard Weapon Expertise": {
       "name": "Especialidade em Armas de Bardo",
       "description": "<p>Você se tornou totalmente perito com armas bárdicas. Suas graduações de proficiência em armas simples, arco curto, chicote, espada curta, espada longa, porrete, rapieira e ataques desarmados aumentam para especialista. Quando obtiver um sucesso crítico em uma rolagem de ataque usando uma destas armas enquanto uma de suas composições estiver ativa, você aplica o efeito de especialização de crítico da arma que estiver empunhando.</p>"
+    },
+    "Battle Hardened": {
+      "name": "Calejado Pela Batalha",
+      "description": "<p>Sua experiência em batalha o ajuda a se proteger contra magia e toxinas. Sua graduação de proficiência em salvamentos de Fortitude aumenta para mestre. Quando jogar um sucesso em um teste de Fortitude, em vez disso, trate como um sucesso crítico.</p>"
     },
     "Battlefield Surveyor": {
       "name": "Intendente do Campo de Batalha",
@@ -91,9 +121,16 @@
     "Bloodline: Shadow": {
       "name": "Linhagem: Sombras"
     },
+    "Blunt Shot": {
+      "name": "Tiro Contundente",
+      "description": "<p><strong>Apenas à Distância</strong></p>\n<hr />\n<p>Sua inovação de arma pode lixar as pontas da sua munição e ajustar a força contusiva do disparo para desferir um ataque contundente quando necessário, bem como evitar desferir um golpe letal com um disparo que de outra forma seria mortal. Sua inovação adquire os traços não letal e versátil Cn. Sempre que atacar com sua inovação, você escolhe se quer aplicar o traço não letal.</p>"
+    },
     "Bravery": {
       "name": "Bravura",
       "description": "<p>Tendo enfrentado o caos da batalha e adversários incontáveis, você aprendeu a permanecer forte frente ao medo e a sempre continuar lutando. Sua graduação de proficiência em salvamentos de Vontade aumenta para especialista. Quando rolar um sucesso em um salvamento de Vontade contra um efeito de medo, trate o resultado como um sucesso crítico. Além disso, sempre que você sofrer a condição assustado, reduza seu valor em 1.</p>"
+    },
+    "Breakthrough Innovation": {
+      "name": "Inovação Incremental"
     },
     "Champion's Reaction": {
       "name": "Reação de Campeão",
