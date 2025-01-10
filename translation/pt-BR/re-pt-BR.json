@@ -590,6 +590,7 @@
       "Yellow": "Amarelo"
     },
     "Dragon": {
+      "Adamantine": "Dragão de Adamante",
       "Arcane": "Dragão Arcano",
       "Black": "Dragão Negro",
       "Blue": "Dragão Azul",
@@ -599,8 +600,18 @@
       "Copper": "Dragão de Cobre",
       "Diabolic": "Dragão Diabólico",
       "Divine": "Dragão Divino",
+      "Empyreal": "Dragão Empíreo",
+      "Fortune": "Dragão da Sorte",
       "Gold": "Dragão Dourado",
-      "Green": "Dragão Verde"
+      "Green": "Dragão Verde",
+      "Horned": "Dragão Cornífero",
+      "Mirage": "Dragão das Miragens",
+      "Occult": "Dragão Oculto",
+      "Omen": "Dragão Agourento",
+      "Primal": "Dragão Primal",
+      "Red": "Dragão Vermelho",
+      "Silver": "Dragão Prateado",
+      "White": "Dragão Branco"
     },
     "FeatDescription": {
       "Frequency": {
@@ -628,6 +639,7 @@
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
         "BludgeoningPiercingSlashing": "dano contundente, perfurante e cortante",
         "ColdIronBludgeoning": "contundente de ferro frio",
+        "CrystalHazards": "perigos de cristal",
         "DraconicBreathWeapons": "armas de sopro dracônicas",
         "HolyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante sagrado",
         "ImpulseFireFrom": "impulso de fogo de {origem}",
@@ -668,12 +680,26 @@
           "Fire": "Fogo",
           "None": "Nenhuma",
           "Spirit": "Espírito"
-        }
+        },
+        "SpectralFlame": "Chama Espectral"
       },
       "BarghestFeed": "Quantas vezes o Barghest se alimentou?",
+      "BladeMagus": {
+        "ArcaneCascade": {
+          "Note": "Enquanto nesta postura, os ataques corpo a corpo do Magus da Lâmina causam @Damage[(4[splash])[fire]]{4 splash force} em inimigos adjacentes a seu alvo."
+        }
+      },
+      "BrainCollector": {
+        "BrainBlistersRemaining": "Pústulas Cerebrais Restantes"
+      },
       "Bunyip": {
         "CrocodileLegs": "Pernas de Crocodilo",
         "SnakeTail": "Cauda de Cobra"
+      },
+      "Calikang": {
+        "SixfoldFlurry": "Golpes não realizados?",
+        "SuspendedAnimationEnter": "Entrar em Animação Suspensa",
+        "SuspendedAnimationExit": "Sair da Animação Suspensa"
       },
       "Capritellix": {
         "ShiftMood": {
@@ -699,6 +725,7 @@
           "Boar": "Javali",
           "Cacodaemon": "Cacodaemon",
           "Cassisian": "Cassisiano",
+          "Cobra": "Serpente",
           "Dog": "Cachorro",
           "Dove": "Pombo",
           "Dragon": "Dragão",
@@ -740,6 +767,10 @@
           },
           "Faydhaan": "Faydhaan",
           "Fish": "Peixe",
+          "Gancanagh": "Gancanagh",
+          "Gimmerling": "Gimmerling",
+          "Gosreg": "Gosreg",
+          "Gourd": "Cabaça",
           "Gylou": "Gylou",
           "Hag": "Estriga",
           "Humanoid": "Humanoide",
@@ -749,12 +780,15 @@
           "Hybrid": "Híbrida",
           "Ifrit": "Ifrit",
           "Imp": "Diabrete",
+          "Jaathoom": "Jaathoom",
           "Jann": "Jann",
           "Keketar": "Keketar",
           "LamiaMatriarch": "Matriarca Lâmia",
           "Leshy": "Leshy",
+          "LeshyMob": "Leshy Monstro",
           "Lizard": "Lagarto",
           "Mantis": "Louva-a-deus",
+          "Moose": "Alce",
           "Morrigna": "Morrigna",
           "Mushroom": "Cogumelo",
           "NaiadQueen": "Náiade Rainha",
@@ -765,6 +799,7 @@
           "Owlbear": "Urso-Coruja",
           "Plant": "Planta",
           "PorcupineGiant": "Porco-espinho gigante",
+          "Pukwudgie": "Pukwudgie",
           "Rat": "Rato",
           "Scorpion": "Escorpião",
           "Shark": "Tubarão",
@@ -1837,7 +1872,10 @@
           "Bronze": "Dragão de Bronze",
           "Copper": "Dragão de Cobre",
           "Gold": "Dragão Dourado",
-          "Green": "Dragão Verde"
+          "Green": "Dragão Verde",
+          "Red": "Dragão Vermelho",
+          "Silver": "Dragão Prateado",
+          "White": "Dragão Branco"
         },
         "Prompt": "Escolha um Dragão."
       },
@@ -1970,6 +2008,7 @@
       "Genie": {
         "Faydhaan": "Faydhaan",
         "Ifrit": "Ifrit",
+        "Jaathoom": "Jaathoom",
         "Prompt": "Selecione um gênio."
       },
       "Gnome": {
