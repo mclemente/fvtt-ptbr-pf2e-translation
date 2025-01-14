@@ -811,6 +811,8 @@
           "Vampire": "Vampiro",
           "Vidileth": "Vidileth",
           "Vilderavn": "Vilderavn",
+          "Voidworm": "Verne Nulo",
+          "WingedHumanoid": "Humanóide Alado",
           "Wolf": "Lobo",
           "WolfDire": "Lobo Atroz"
         },
@@ -827,12 +829,16 @@
         "DragonHead": "Tradição Mágica da Cabeça do Dragão",
         "PrimalHead": "Tipo de Energia do Sopro do Dragão"
       },
+      "ChyzaeduAlienVestment": "Vestimenta Alienígena Partida",
       "ClayEffigy": {
         "SacredArt": {
           "NoSanctification": "Não Santificado"
         }
       },
       "ClockworkLostPlates": "Quantas placas foram perdidas?",
+      "ClockworkSerpent": {
+        "Coils": "Bobinas"
+      },
       "ClockworkWindUp": "Modo de Espera",
       "ConstructArmor": {
         "BrokenArmor": "Armadura de Construto Quebrada",
@@ -845,7 +851,18 @@
         "BrokenArmor": "Armadura Personalizada Quebrada",
         "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
+      "CyclopsBully": {
+        "TerrorizingSwing": "Se a criatura está @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada} e recebe dano, isso causa um dano adicional de 2d10 e ela é derrubada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}."
+      },
+      "DeadFaine": {
+        "TargetFeintOrTraitorousBetrayal": "Alvo desprevenido devido à Finta ou Traição Traiçoeira"
+      },
+      "DemonInfuseWeapons": "Causa dano caótico em vez de dano maligno",
       "DisplacedRobot": {
+        "DivertPower": {
+          "Fists": "Desviar Energia Para os Punhos",
+          "LaserBeam": "Desviar a Energia Para o Raio Laser"
+        },
         "Fists": "Punhos",
         "LaserBeam": "Feixe de Laser"
       },
@@ -865,21 +882,45 @@
       "FacetboundCascader": {
         "EnergyCharge": "Carga Energética"
       },
+      "Falrok": {
+        "LazuriteTerrainSwitch": "Em terrenos infundidos com lazurita"
+      },
       "FiveColorOrchidMantis": {
         "ColorShift": {
           "Black": "Preto - Água",
           "Green": "Verde - Madeira",
+          "None": "Nenhuma Cor Selecionada",
           "Red": "Vermelho - Fogo",
           "White": "Branco - Metal",
           "Yellow": "Amarelo - Terra"
         }
+      },
+      "GangUp": {
+        "TwoAllies": "Dois aliados estão ao alcance do alvo"
       },
       "GauChoRong": {
         "SubsumedTrait": {
           "Amphibious": "Anfíbio",
           "Animal": "Animal",
           "Aquatic": "Aquático",
-          "Humanoid": "Humanoide"
+          "Humanoid": "Humanoide",
+          "NoneOrOther": "Selecione manualmente a resistência, se aplicável"
+        }
+      },
+      "GiantAnimatedStatueBrazier": "Braseiro aceso",
+      "GiantTardigrade": {
+        "TunState": {
+          "Dry": "Seco",
+          "Rehydrating": "Reidratado"
+        }
+      },
+      "GrimReaper": {
+        "InfuseWeapon": "Se o Ceifador atingir uma criatura com uma fraqueza a qualquer tipo específico de dano, o dano da foice conta como esse tipo de dano, para além do dano cortante."
+      },
+      "Hadrinnex": {
+        "RapidEvolution": {
+          "EnergyGland": "Evolução Rápida - Glândula Energética",
+          "Husk": "Evolução Rápida - Carapaça"
         }
       },
       "HehShanBao": {
@@ -915,8 +956,13 @@
         "DisguisedAsChild": "Disfarçado como uma Criança",
         "LyingAboutLoathsomeStench": "Mentir sobre Fedor Repugnante"
       },
+      "KrampusPunishTheNaughty": "O Krampus rola um teste contra um alvo Travesso",
+      "LegionArchon": {
+        "FlameOfJustice": "Chama da Justiça - Acerto Crítico"
+      },
       "LemureSubservience": {
         "Defend": "Defender",
+        "Fetch": "Pegar",
         "Kill": "Matar"
       },
       "MarilithFocusedAssault": {
@@ -929,32 +975,65 @@
         "Two": "2 Espadas Longas"
       },
       "Marut": {
-        "Lightning": "Relâmpagos"
+        "Lightning": "Relâmpagos",
+        "Thunder": "Relâmpago"
+      },
+      "MinotaurHuntedFear": {
+        "Demoralize": "O alvo está em um labirinto ou em outra estrutura de difícil navegação",
+        "Survival": "Para Evitar se Perder"
+      },
+      "Necrohulk": {
+        "AlchemicalCartridgeRuptured": "Cartucho Alquímico Rebentado"
       },
       "Nindoru": {
         "Meokdan": {
           "BoneClub": {
-            "New": "Novo"
+            "Label": "Manifestar Porrete de Osso",
+            "New": "Novo",
+            "Shattered": "Estilhaçado",
+            "ShatteredLabel": "Porrete de Osso Estilhaçado"
           }
         }
       },
       "NopperaBo": {
         "Impersonator": {
+          "AbilityPrompt": "Selecionar uma Habilidade a Ser Imitada",
+          "Armored": "Blindado",
           "AttackOfOpportunity": "Ataque de Oportunidade",
-          "SneakAttack": "Ataque Furtivo"
+          "Commander": "Comandante",
+          "ElementalAttack": "Ataque Elemental",
+          "ShieldCarrier": "Escudeiro",
+          "SneakAttack": "Ataque Furtivo",
+          "WeaponPerk": "Benefício de Arma",
+          "WeaponPerkPrompt": "Selecione um Traço Para a Arma"
         }
+      },
+      "PaleStranger": {
+        "TargetMurderedPaleStranger": "O Alvo Assassinou o Forasteiro Esquálido (Pale Stranger)",
+        "TargetNeverKilled": "O Alvo Nunca Assassinou"
       },
       "PlanarScion": {
         "Duskwalker": {
           "HuntPrey": {
             "AC": "Presa Designada ataca ao Crepuscular",
             "Checks": "Crepuscular rola teste contra a sua Presa Designada"
-          }
+          },
+          "Immunity": "efeitos que transformariam seu corpo ou alma em mortos-vivos",
+          "SpiritHunter": "O alvo é indicado pelo Caçador de Espíritos"
         }
       },
       "PoltergeistTelekineticStorm": {
+        "MultiAttackLabel": "Tempestade Telecinética - Múltiplos Alvos",
         "MultipleTargets": "Alvos Múltiplos",
+        "SingleAttackEffect": "O ataque causa @Damage[1d12[untyped]] de dano em uma falha.",
+        "SingleAttackLabel": "Tempestade Telecinética - Alvo Único",
         "SingleTarget": "Alvo Único"
+      },
+      "PunishingStrike": {
+        "Note": "O ataque imprudente faz com que o usuário fique @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do próximo turno. Ao realizar um acerto, é possível adicionar o traço @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ao ataque"
+      },
+      "RebornDevotee": {
+        "RebornDevoteeFocusedAssault": "Número de Perseguidos"
       },
       "RuneGiant": {
         "InvokeRune": {
@@ -989,12 +1068,21 @@
           "Secretive": "Sigiloso",
           "Suspicious": "Suspeito"
         }
+      },
+      "YetiNightmareGuardianRage": "Fúria do Guardião dos Pesadelos",
+      "Zetogeki": {
+        "TiltScalesChannelEnergy": "Energia Cinética Canalizada",
+        "TiltScalesTilted": "Escamas Inclinadas"
       }
     },
     "OracleCurses": {
       "Ancestor": {
+        "AncestralInfluence": "Influência Ancestral",
         "Label": {
+          "ExtremeBattle": "Combate Extremo",
+          "MajorBattle": "Combate Maior",
           "Martial": "Marcial",
+          "MinorBattle": "Combate Menor",
           "Spellcasting": "Conjuração"
         }
       },
@@ -2183,6 +2271,11 @@
       "MechanicalTorch": {
         "LitCone": "Cone",
         "LitRadius": "Raio"
+      },
+      "Merfolk": {
+        "ShieldingWave": {
+          "Dry": "Seco"
+        }
       },
       "Modifier": {
         "Bonus": "Bônus",
