@@ -1101,17 +1101,36 @@
           "MinorBattle": "Combate Menor",
           "ModerateBattle": "Batalha Moderada",
           "ModerateSkillful": "Habilidade Moderada",
+          "ModerateSpellcasting": "Conjuração Moderada",
+          "Skillful": "Habilidoso",
           "Spellcasting": "Conjuração"
-        }
+        },
+        "MajorFailure": "Sua maldição interfere com esta ação, e você precisa ter sucesso em um @Check[flat|dc:8|showDC:owner] ou perder a ação.",
+        "MeddlingAncestor": "Ancestral Intrometido",
+        "MinorFailure": "Sua maldição interfere nesta ação, e você precisa ter sucesso em um @Check[flat|dc:4|showDC:owner] ou perder a ação.",
+        "ModerateFailure": "Sua maldição interfere nesta ação, e você precisa ter sucesso em um @Check[flat|dc:6|showDC:owner] ou perder a ação."
       },
       "Battle": {
         "MadeAStrike": "Você realizou um Golpe nesta rodada",
         "NonTrivialEncounter": "Em um encontro não trivial"
       },
+      "Bones": {
+        "MajorUpgrade": "Quando você rola uma falha crítica em uma salvaguarda contra uma doença, veneno ou efeito de morte, você fica com um fracasso.",
+        "ModerateUpgrade": "Quando você tem sucesso em uma salvaguarda contra uma doença, veneno ou efeito de morte, trate como um sucesso crítico."
+      },
       "Label": {
         "Extreme": "Extremo",
         "Major": "Superior",
+        "Minor": "Menor",
         "Moderate": "Moderado"
+      },
+      "Life": {
+        "DescriptionMajor": "Cada vez que usar um slot de magia para lançar um feitiço de quinto ranque ou superior que leva 2 ou mais ações para conjurar, você dispersa a energia de vitalidade em um @Template[burst|distance:30] com os efeitos de um feitiço @UID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} de 3 ações com um ranque 4 menor que o do feitiço que você lançar. Esta cura ocorre imediatamente após você terminar @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Casting the Spell}. Você não se beneficia com esta cura. Em vez disso, você perde o dobro de pontos de vida rolados para o feitiço de cura.",
+        "DescriptionModerate": "Sempre que você terminar de conjurar uma magia que não seja um truque, você restaura @Damage[@item.level[healing]] Pontos de Vida para sua escolha: um alvo da magia ou a criatura mais próxima de você. Você não pode se curar dessa forma. Essa cura possui os traços cura, necromancia e vitalidade, além do traço de tradição da magia.",
+        "ToggleLabel": "Todos os alvos da Cura são criaturas vivas"
+      },
+      "Time": {
+        "ACLabel": "Defendendo contra reações ou ações gratuitas enquanto se move"
       }
     },
     "PersistentDamage": {
@@ -1478,6 +1497,7 @@
       "DamageAlteration": "Alteração de Dano",
       "DamageDice": "Dado de Dano",
       "DexterityModifierCap": "Limite de Modificador de Destreza",
+      "EffectSpinoff": "Giro do Efeito",
       "EphemeralEffect": "Efeito Efêmero",
       "FastHealing": "Cura Acelerada/Regeneração",
       "FixedProficiency": "Proficiência Fixa",
@@ -1514,8 +1534,10 @@
       "AgainstDemons": "Contra Demônios",
       "Aid": "Para Auxiliar",
       "AttemptToFascinateOutdoorsInBrightSun": "Usando Performance Fascinante ao ar livre sob sol forte",
+      "Balance": "Equilibrar",
       "Blacksmithing": "Para Ferraria",
       "BloodOrWater": "Em Sangue ou Água",
+      "BoundHome": "Dentro do lar Vinculado",
       "Buried": "Enterrado",
       "CanClearlyIdentifyTheStars": "Pode identificar claramente as estrelas",
       "Climb": "Para Escalar",
@@ -1552,6 +1574,7 @@
       "Escape": "Para Escapar",
       "EscapeForceOpenOrLift": "Para Escapar, Forçar ou Levantar Objetos Pesados",
       "Feint": "Para Fintar",
+      "Fly": "Voar",
       "ForceOpenGrappleShoveOrTrip": "Para Agarrar, Derrubar, Empurrar ou Forçar",
       "Forests": "Em Florestas",
       "ForestsOrGrasslands": "Em Florestas ou Pradarias",
@@ -1615,6 +1638,7 @@
       "RecallKnowledge": "Para Recordar Conhecimento",
       "RecallKnowledgeDeadSubject": "Para Recordar Conhecimento sobre um falecido",
       "Rocky": "Em terreno rochoso",
+      "RockyOrBarren": "Em terreno rochoso ou árido",
       "Ruins": "Em ruinas",
       "RunningWater": "Em água corrente",
       "RustyTerrain": "Em áreas com objetos enferrujados",
@@ -1634,6 +1658,7 @@
       "StringedInstruments": "Para instrumentos de corda",
       "Subsist": "Para Subsistir",
       "Swamps": "Em Pântanos",
+      "Swardlands": "Nas Swardlands",
       "Swim": "Para Nadar",
       "TarPit": "Em poços de piche",
       "TellTheTruth": "Para falar a verdade",
@@ -1654,9 +1679,33 @@
       "Undergrowth": "Em vegetação rasteira",
       "Underwater": "Subaquática",
       "UnderwaterVegetation": "Na vegetação subaquática",
-      "VsDiseases": "vs. diseases"
+      "Vegetation": "Em vegetação",
+      "VsArthropods": "vs. Artrópodes",
+      "VsControlled": "vs. Efeitos controlados",
+      "VsDarknessLightShadow": "vs Escuridão, Luz ou Sombra",
+      "VsDemons": "vs. Demônios",
+      "VsDiseases": "vs. diseases",
+      "VsEmotion": "vs. efeitos de emoção",
+      "VsMagic": "vs. Efeitos mágicos",
+      "VsMental": "vs Efeitos mentais",
+      "VsPlants": "vs. Plantas",
+      "VsProne": "vs. Efeitos de Prostração",
+      "VsShoveOrTrip": "vs. Empurrão ou Derrubar",
+      "VsSleeping": "vs. alvos dormindo",
+      "Water": "Na Água",
+      "WaterOrMud": "Na Água ou Lama",
+      "Weave": "Tecer",
+      "Woodworking": "Carpintaria"
     },
     "SpecificRule": {
+      "Acrobat": {
+        "AcrobatDedication": {
+          "Note": "Sempre que você obtiver um sucesso crítico em um teste de Acrobacia para Passar por um Espaço de um inimigo, você não trata o espaço do inimigo como terreno difícil."
+        },
+        "Contortionist": {
+          "Note": "Sempre que você obtiver sucesso ao usar @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} com Acrobatics, a criatura da qual você escapou fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} contra o próximo ataque que você fizer contra ela antes do final do seu próximo turno."
+        }
+      },
       "Actions": {
         "OneAction": "Uma Ação",
         "Prompt": "Selecione o número de ações",
@@ -1672,6 +1721,14 @@
         },
         "RecallKnowledge": {
           "SuccessBetterAdditionalInformation": "Quando você obtém um sucesso em um teste para Recordar Conhecimento, você ganha informações ou contexto adicional. Quando você obtém um sucesso crítico em um teste para Recordar Conhecimento, você obtém ainda mais informação ou contexto adicional do que o normal, a critério do mestre."
+        },
+        "Squeeze": {
+          "CriticalFailureSuccessBetter": "Quando você obtém uma falha crítica em um teste para Esgueirar, ela se torna uma falha normal. Além disso, quando você obtém um sucesso, ele se torna um sucesso crítico."
+        },
+        "Survival": {
+          "SenseDirection": {
+            "SuccessBetter": "Se você obtiver sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico."
+          }
         }
       },
       "AdoptedAncestry": {
@@ -1679,6 +1736,15 @@
       },
       "AdvancedGeneralTraining": {
         "Prompt": "Selecione um talento geral de 7º nível ou inferior."
+      },
+      "AerialPiledriver": {
+        "CriticalFailureText": "Você cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, e o alvo não é mais agarrado ou contido por você.",
+        "FailureText": "Você perde a aderência ao alvo e ele já não está mais agarrado nem contido por você.",
+        "SuccessText": "O alvo é derrubado e fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+      },
+      "AftermathFeats": {
+        "DormantEruptionToggle": "Você usou Erupção Térmica Hoje",
+        "StoneFistLabel": "Punho de Pedra"
       },
       "Aid": {
         "Prompt": "Escolha o bônus do Auxílio."
@@ -1719,6 +1785,22 @@
             }
           }
         }
+      },
+      "AldoriDuelist": {
+        "DuelistsEdge": {
+          "Note": "Você pode imediatamente usar a ação Interagir para sacar sua Espada de Duelo Aldori."
+        }
+      },
+      "AlkenstarAgent": {
+        "LooseCannon": {
+          "Note": {
+            "CriticalFailure": "A arma de fogo falha e também explode. Ela se torna @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken} e causa o dano normal da arma a todas as criaturas em um @Template[burst|distance:20] centrado na arma de fogo, com um @Check[reflex|against:class|basic]. Esse dano inclui qualquer bônus proveniente das runas fundamentais e de propriedades da arma.",
+            "Failure": "A arma de fogo falha, mas não causa os outros efeitos de falha crítica."
+          }
+        }
+      },
+      "Anadi": {
+        "SpiderOrHybridForm": "Em forma de Aranha ou Híbrida"
       },
       "AncestralParagon": {
         "Prompt": "Selecione um talento de ancestralidade de 1º nível."
@@ -1806,6 +1888,12 @@
           "Drops": "Característica de Classe de Bárbaro Nível 1",
           "Prompt": "Escolha um instinto."
         },
+        "InuredToAlchemy": {
+          "SuccessVirulent": "Cada uma de suas salvaguardas bem-sucedidas contra um veneno alquímico virulento, uma droga ou um vício reduz o estágio em 1"
+        },
+        "Ligneous": {
+          "ToggleLabel": "Ira de Madeira"
+        },
         "Spirit": {
           "NegativeDamage": "Dano Negativo",
           "PositiveDamage": "Dano Positivo",
@@ -1825,10 +1913,28 @@
           "Polymath": "Musa Polímata",
           "Prompt": "Selecione uma musa.",
           "Warrior": "Soldado"
+        },
+        "TriumphantInspiration": {
+          "Note": "Com um grito triunfante, você inspira seus aliados. Você conjura um truque de composição que conhece e que normalmente requer uma única ação para ser conjurado."
+        }
+      },
+      "Beastkin": {
+        "AnimalSenses": {
+          "Prompt": "Selecione um sentido disponível para o seu animal inerente."
+        },
+        "Senses": {
+          "EcholocationImprecise": "Ecolocalização (Imprecisa) 30 pés",
+          "EcholocationPrecise": "Melhore sua ecolocalização para precisa",
+          "Scent": "Faro (Impreciso) 30 pés",
+          "TremorsenseImprecise": "Sentido de Tremor (Impreciso) 30 pés",
+          "TremorsensePrecise": "Melhore seu Sentido de Tremor para preciso"
         }
       },
       "BlessingOfDefiance": {
         "Prompt": "Escolha um salvamento."
+      },
+      "BloodlettingKukri": {
+        "Note": "Se o alvo não tiver dano persistente de sangramento quando você acertar o golpe crítico, você também ganha [[/r 1d8]] Pontos de Vida temporários."
       },
       "BonusLabel": {
         "NegativeOne": "-1",
@@ -1844,16 +1950,37 @@
         "GatherInfoHuntedPrey": "Para coletar informações sobre caçar presa"
       },
       "BrevicNoble": {
-        "Prompt": "Selecione uma linhagem Brevana."
+        "Garess": "Garess",
+        "Lebeda": "Lebeda",
+        "Lodovka": "Lodovka",
+        "Medvyed": "Medvyed",
+        "Orlovsky": "Orlovsky",
+        "Prompt": "Selecione uma linhagem Brevana.",
+        "Surtova": "Surtova"
       },
       "BreathWeapon": {
         "Shape": {
           "Cone": {
-            "Label": "Cone"
+            "Label": "Cone",
+            "Description": "Seu eidolon exala uma rajada de energia destrutiva. Ele causa @Damage[((ceil(@actor.level/2))d6)[@actor.flags.pf2e.breathweapon.breathDamage]|options:area-damage] de dano a todas as criaturas em um @Template[cone|distance:30], com uma salvaguarda básica de Reflexo contra a sua CD de magia."
           },
           "Line": {
-            "Label": "Linha"
+            "Label": "Linha",
+            "Description": "Seu eidolon exala uma rajada de energia destrutiva. Ele causa @Damage[((ceil(@actor.level/2))d6)[@actor.flags.pf2e.breathweapon.breathDamage]|options:area-damage] de dano a todas as criaturas em um @Template[line|distance:60], com uma salvaguarda básica de Reflexo contra a sua CD de magia."
           }
+        },
+        "Cooldown": "Seu eidolon não pode usar sua Arma de Sopro novamente pelos próximos [[/r 1d4 #rounds]]{1d4 rounds}.",
+        "Scaling": "No nível 3 e a cada 2 níveis depois, o dano aumenta em 1d6."
+      },
+      "CapeOfJustice": {
+        "Toggle": "O alvo é o seu infrator designado"
+      },
+      "CatharticMage": {
+        "EmotionalState": {
+          "Prompt": "Selecione uma emoção de catarse."
+        },
+        "Love": {
+          "Toggle": "Você conjura uma magia para beneficiar seu foco emocional"
         }
       },
       "CelestialResistance": {
@@ -1868,6 +1995,10 @@
           "Label": "Punição Divina"
         },
         "EvilDamage": "Dano de Espírito",
+        "ExaltedReaction": {
+          "Desecration": "Cada inimigo na aura do seu campeão recebe uma penalidade de status de –1 nas jogadas de ataque contra você até o início do seu próximo turno. @UUID[Compendium.pf2e.feat-effects.Item.Ef63SlxSKlZmHosM]{Effect: Exalted Reaction (Desecrator)}",
+          "Grandeur": "Além do inimigo afetado por Flash of Grandeur, cada outro inimigo na aura do seu campeão é afetado pela magia revealing light por 1 rodada."
+        },
         "IronRepercussions": {
           "Description": "Desobedecer à sua Mão de Ferro possui consequências duradouras. Se um inimigo se recusar a ajoelhar perante você, você pode causar @Damage[(ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor.level,12),4,ternary(gte(@actor.level,9),3,ternary(gte(@actor.level,5),2,1))))))d6[persistent,mental]] em vez de dano mental normal. Você deve decidir se o dano mental será persistente antes do seu inimigo escolher se ajoelhar ou não. A quantidade de dano não é alterada."
         },
@@ -2575,7 +2706,8 @@
         "Shipbuilding": "Construção Naval",
         "Stonemasonry": "Alvenaria",
         "Tailoring": "Alfaiataria",
-        "Weaving": "Tecelagem"
+        "Weaving": "Tecelagem",
+        "Woodworking": "Carpintaria"
       },
       "SpellEffectAnimalFeature": {
         "CatEyes": "Olhos de Gato",
