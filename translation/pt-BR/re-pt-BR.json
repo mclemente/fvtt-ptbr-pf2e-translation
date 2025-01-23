@@ -1032,6 +1032,9 @@
       "PunishingStrike": {
         "Note": "O ataque imprudente faz com que o usuário fique @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do próximo turno. Ao realizar um acerto, é possível adicionar o traço @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ao ataque"
       },
+      "RaptorGuardWight": {
+        "TerrorMaster": "A Guarda de Raptor está usando seu elmo de crânio de dinossauro."
+      },
       "RebornDevotee": {
         "RebornDevoteeFocusedAssault": "Número de Perseguidos"
       },
@@ -1039,7 +1042,8 @@
         "InvokeRune": {
           "Prompt": "Selecione uma runa.",
           "RuneOfDestruction": {
-            "Label": "Runa da Destruição"
+            "Label": "Runa da Destruição",
+            "Text": "Uma criatura atingida com a arma é @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} a menos que seja bem sucedida em @Check[fortitude|dc:35|name:Rune of Destruction|traits:arcane,electricity]."
           },
           "RuneOfFlames": {
             "Label": "Runa das Chamas"
@@ -1069,6 +1073,18 @@
           "Suspicious": "Suspeito"
         }
       },
+      "Vordine": {
+        "TridentOfDis": {
+          "NoAlly": "Nenhum Aliado",
+          "UnholyAlly": "Aliado Profano"
+        }
+      },
+      "Warsworn": {
+        "AnimatedWeapon": {
+          "DamageType": "Arma Animada - Tipo de Dano",
+          "DieSize": "Arma Animada - Tamanho do Dado"
+        }
+      },
       "YetiNightmareGuardianRage": "Fúria do Guardião dos Pesadelos",
       "Zetogeki": {
         "TiltScalesChannelEnergy": "Energia Cinética Canalizada",
@@ -1083,6 +1099,8 @@
           "MajorBattle": "Combate Maior",
           "Martial": "Marcial",
           "MinorBattle": "Combate Menor",
+          "ModerateBattle": "Batalha Moderada",
+          "ModerateSkillful": "Habilidade Moderada",
           "Spellcasting": "Conjuração"
         }
       },
