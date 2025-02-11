@@ -224,10 +224,16 @@
     "Banishment": {
       "name": "Banimento",
       "description": "<p>Você envia o alvo de volta ao plano natal dele. O alvo deve tentar um salvamento de Vontade. Você pode gastar uma ação extra enquanto Conjurar esta Magia e adicionar um componente material para impor à criatura –2 de penalidade de circunstância no salvamento dela. O componente deve ser algum objeto especialmente adquirido que seja um anátema para a criatura e não simplesmente retirado uma bolsa de componentes de magia. Esta magia falha se você não estiver em seu plano natal quando conjurá-la.</p><p><hr /><strong>Sucesso Crítico</strong> O alvo resiste ao banimento e você fica @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} 1.</p><p><strong>Sucesso</strong> O alvo resiste ao banimento.</p><p><strong>Falha</strong> O alvo é banido.</p><p><strong>Falha Crítica</strong> O alvo é banido e não pode retornar por quaisquer meios ao plano do qual foi banido por 1 semana.</p><p><hr /><strong>Elevada (9º)</strong> Você pode afetar até 10 criaturas. O componente material extra afeta todos os alvos para os quais for um anátema.</p>",
+      "heightening": {
+        "9": {
+          "target": "10 criaturas que não estão no seu plano de origem"
+        }
+      },
       "target": "1 creature that isn't on its home plane"
     },
     "Bathe in Blood": {
       "name": "Bathe in Blood",
+      "cost": "ervas e componentes alquímicos num total de 1.000 po × o nível do alvo",
       "description": "<p>This is an old ritual, illegal in nearly every corner of Golarion, but never quite exterminated. You bathe in the freshly spilled blood of your people, whose lives and years you steal in the process.</p>\n<p>This ritual requires that you submerge yourself in a bath of alchemically treated blood, attended by silent servants. The blood must come from the same ancestry as your own, and must have been spilled within the last 6 hours; a spell such as gentle repose can extend this time, but using such preserved blood applies a -4 circumstance penalty to the primary and secondary checks. If you're Medium, you require 30 gallons of blood to immerse yourself, and a typical Medium creature holds about 1-1/2 gallons of blood in its body. This ritual doesn't strictly require that the blood donors be killed and drained dry, but the logistical challenges of gathering enough blood without murder are beyond all but the most well-resourced casters.</p>\n<p>Each time you enact this ritual, regardless of its success or failure, you take a penalty to the primary check for all subsequent castings. This penalty starts at -1 and increases by -1 during each casting (so if you were casting this ritual on yourself for the fifth time, you would take a -4 penalty on your Occultism check).</p>\n<hr />\n<p><strong>Critical Success</strong> You emerge rejuvenated and revived. You become up to 40 years younger, returning to the prime of youth and life. If you're already at your desired age, your aging instead stops for the next 40 years. While remaining recognizably yourself, you also become preternaturally attractive, gaining a +1 circumstance bonus to Make an Impression. @UUID[Compendium.pf2e.spell-effects.kMoOWWBqDYmPcYyS]{Spell Effect: Bathe in Blood}</p>\n<p><strong>Success</strong> You become 20 years younger or pause your aging for 20 years.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> You die. Casters killed this way frequently return as undead, often as ghosts or vampires.</p>",
       "primarycheck": "Occultism (expert)",
       "secondarycheck": "Religion, Society",
@@ -241,6 +247,14 @@
     "Befitting Attire": {
       "name": "Befitting Attire",
       "description": "<p>You cloak the targets in an illusion, shaping their clothing and worn items into ones suitable for a particular occasion. You visualize the occasion, and the spell creates illusory attire customized to each target. For instance, if you visualized a noble ball, armor would appear to be fine clothing. This doesn't change identifying details of the targets' appearances other than their clothes.</p>\n<p>Any creature that touches the attire, uses the Seek action to examine it, or otherwise interacts with it can attempt to disbelieve your illusion.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> You can target up to 20 creatures.</p>\n<p><strong>Heightened (5th)</strong> You can target up to 100 creatures.</p>",
+      "heightening": {
+        "4": {
+          "target": "20 criaturas dispostas"
+        },
+        "5": {
+          "target": "100 criaturas dispostas"
+        }
+      },
       "target": "5 willing creatures"
     },
     "Befuddle": {
@@ -277,6 +291,9 @@
     },
     "Blazing Bolt": {
       "spellVariants": {
+        "hqiwae0wgehycnex": {
+          "target": "2 ou mais criaturas"
+        },
         "wlrbtv7c5shfmdh1": {
           "target": "1 criatura"
         }
@@ -444,6 +461,11 @@
     "Charm": {
       "name": "Cativar",
       "description": "<p>Para o alvo, suas palavras são doces e sua aparência parece banhada em um nevoeiro onírico. Ele deve tentar um salvamento de Vontade, recebendo +4 de bônus de circunstância se você ou seus aliados o tiverem ameaçado recentemente ou usado ações hostis contra ele.</p><p>Você pode Dispensar esta magia. Se usar ações hostis contra o alvo, a magia é encerrada. Quando a magia acabar, o alvo não necessariamente percebe que foi cativado a menos que a amizade dele com você ou as ações que você o convenceu a tomar contrariem as expectativas dele, significando que você poderia potencialmente convencê-lo a continuar sendo seu amigo através de meios mundanos.</p><hr /><p><strong>Sucesso Crítico</strong> O alvo não é afetado e fica ciente de que você tentou cativá-lo.</p><p><strong>Sucesso</strong> O alvo não é afetado, mas pensa que sua magia foi alguma outra coisa inofensiva em vez de cativar, a não ser que ele identifique a magia (normalmente identificando magias; veja a página 305).</p><p><strong>Falha</strong> A atitude do alvo se torna @Compendium[pf2e.conditionitems.v66R7FdOf11l94im]{Amistosa} em relação a você. Se ele já fosse @Compendium[pf2e.conditionitems.v66R7FdOf11l94im]{Amistoso}, ele fica @Compendium[pf2e.conditionitems.v44P3WUcU1j0115l]{Prestativo}. Ele não pode usar ações hostis contra você.</p><p><strong>Falha Crítica</strong> A atitude do alvo se torna @Compendium[pf2e.conditionitems.v44P3WUcU1j0115l]{Prestativo} em relação a você e ele não pode usar ações hostis contra você.</p><hr /><p><strong>Elevada (+4)</strong> A duração permanece até a próxima vez que você fizer suas preparações diárias.</p><p><strong>Elevada (+8)</strong> A duração permanece até a próxima vez que você fizer suas preparações diárias e você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "8": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Charming Push": {
@@ -527,6 +549,11 @@
     "Command": {
       "name": "Comando",
       "description": "<p>Você emite um comando que é difícil de ignorar. Você pode comandar o alvo a se aproximar de você, correr (como se tivesse a condição @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo}), soltar o que estiver segurando, @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{prostado} ou levantar-se. Ele não pode Adiar ou usar quaisquer reações até ter obedecido ao seu comando. Os efeitos dependem do salvamento de Vontade do alvo.</p><p><hr /><strong>Sucesso</strong>  A criatura não é afetada.</p><p><strong>Falha</strong>  Como a primeira ação no turno dela, a criatura deve usar uma ação única para obedecer ao seu comando.</p><p><strong>Falha Crítica</strong>  O alvo deve usar todas as ações no turno dele para obedecer ao seu comando.</p><p><hr /><strong>Elevada (5º)</strong>  Você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "5": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Commanding Lash": {
@@ -563,6 +590,11 @@
     "Confusion": {
       "name": "Confusão",
       "description": "<p>Você confunde seu alvo com impulsos estranhos, fazendo-o agir aleatoriamente. Os efeitos são determinados pelo salvamento de Vontade do alvo. Você pode Dispensar esta magia.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo balbucia incoerentemente e fica @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{atordoado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{confuso} por 1 minuto. Ele pode tentar um novo salvamento ao final de cada um dos turnos dele para encerrar a confusão.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{confuso} por 1 minuto sem salvamento para encerrar o efeito previamente.</p><p><hr /><strong>Elevada (8º)</strong>  Você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "8": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Consecrate": {
@@ -594,6 +626,9 @@
       "name": "Coral Eruption",
       "description": "<p>Razor sharp coral growths erupt from the ground, transforming the landscape into a dangerous coral reef. You can create a third nonoverlapping burst if the centers of all three bursts are underwater. Creatures in the area when the spell is cast take 6d6 piercing damage and must attempt a basic Reflex save. A creature that critically fails its saving throw also takes @Localize[PF2E.PersistentDamage.Bleed1d6.success]. The area becomes difficult terrain and hazardous terrain. A creature that moves through the area takes [[/r 3[piercing]]] damage for every square of that area it moves into.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The initial piercing damage increases by 3d6, and the hazardous terrain damage increases by [[/r 1[piercing]]].</p>"
     },
+    "Cornucopia": {
+      "name": "Cornucópia"
+    },
     "Corrosive Body": {
       "name": "Corrosive Body",
       "description": "<p>You exhale corrosive gas, and acidic secretions coat your skin as you transform into a being of living acid. You gain acid immunity. Any creature that touches you or damages you with an unarmed melee attack or non-reach melee weapon takes [[/r 3d6[acid]]] damage, and your unarmed attacks deal 1d4 additional acid damage. The first time each round that you deal acid damage to a creature in this way, you gain [[/r 3d6 #Temporary Hit Points]]{3d6 temporary Hit Points} as your body digests the eroded material and transforms it into a protective acid. When the spell ends, any remaining temporary HP expires as well. Your acid spells deal one additional die of acid damage (of the same damage die the spell uses). You can cast acid splash as an innate spell; the splash damage affects all creatures within 15 feet instead of the normal 5 feet.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.LT5AV9vSN3T9x3J9]{Spell Effect: Corrosive Body}</p>\n<hr />\n<p><strong>Heightened (9th)</strong> Creatures touching you take [[/r 4d6[acid]]] damage instead of 3d6, your unarmed attacks deal 2d4 additional acid damage, and you gain [[/r 5d6 #Temporary Hit Points]]{5d6 temporary Hit Points}. @UUID[Compendium.pf2e.spell-effects.xKJVqN1ETnNH3tFg]{Spell Effect: Corrosive Body (Heightened 9th)}</p>"
@@ -612,6 +647,7 @@
     },
     "Create Demiplane": {
       "name": "Create Demiplane",
+      "cost": "materiais preciosos num valor total de 800 po",
       "description": "<p>Few incantations are as renowned as the power to create worlds. To cast this ritual, you must be on the Astral Plane, the Ethereal Plane, or a plane that connects to one of the two.</p>\n<p>A demiplane created with this ritual exists on the Astral or Ethereal Plane. It can have the appearance of any mundane environment or structure, such as a glorious cathedral, a clearing in a forest, a comfortably furnished cavern, or anything else one can imagine. All demiplanes have finite, unbreachable boundaries, which might resemble stone, wood, or something more unnatural, such as a wall of mist or unceasing void.</p>\n<p>Demiplanes have environmental conditions as appropriate for the Material Plane, though the primary caster can dictate a general climate or light level, as well as whether the demiplane experiences seasons or a day-night cycle. The demiplane has no native plants or animals, but they can be introduced, and plants will grow in a demiplane's light.</p>\n<p>When you first cast create demiplane, the casters are teleported to the demiplane. The demiplane has no direct access to other worlds, so <em>@UUID[Compendium.pf2e.spells-srd.5bTt2CvYHPvaR7QQ]{Plane Shift}</em> or similar abilities are necessary to access it. As part of casting the ritual to create a new demiplane, you create a key to the demiplane which serves as a plane shift tuning fork for that demiplane. Most resemble ornate keys, but some take the forms of maps, compasses, or dowsing rods.</p>\n<p>If you have the original key to an existing demiplane and are on that demiplane, you can instead use this ritual to either expand the demiplane or add special traits or features.</p>\n<ul>\n<li><strong>Alignment</strong> The demiplane gains one alignment trait, such as lawful or good.</li>\n<li><strong>Bounteous</strong> The demiplane has a functional ecosystem, with plants and animals appropriate to the environment. This ecosystem doesn't require any additional effort on your part to maintain.</li>\n<li><strong>Elemental</strong> The demiplane gains the air, earth, fire, or water planar essence trait.</li>\n<li><strong>Gravity</strong> The demiplane gains a gravity trait of your choice.</li>\n<li><strong>Key</strong> You create an additional key that can be used to access the demiplane with plane shift and improve it with create demiplane.</li>\n<li><strong>Portal</strong> You create a permanent gateway between the demiplane and a single other location. You must spend the ritual's casting time constructing the gateway on the external side, which typically resembles an arch or doorway of some sort. The gate is always active, but it can be secured as you would any door.</li>\n<li><strong>Scope</strong> The demiplane can be unbounded instead of finite, though still with the same size.<hr /></li>\n</ul>\n<p><strong>Critical Success</strong> You create a new demiplane whose area consists of two contiguous squares, each 100 feet on a side. The ceiling is 20 feet high. If modifying an existing demiplane, you can instead either add this area to the demiplane's size or add two special traits or features.</p>\n<p><strong>Success</strong> As critical success, but the demiplane's area is a single square, 100 feet on a side and a ceiling 20 feet high. If modifying an existing demiplane, you can add one special trait or feature.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> Something goes horribly wrong, and all casters are teleported to an unknown but likely hostile plane.</p>\n<hr />\n<p><strong>Heightened (10th)</strong> The ritual creates a square area 1,000 feet on a side, with a ceiling 20 feet high (two contiguous areas of this size on a critical success). The cost of the ritual increases to 20,000 gp</p>",
       "primarycheck": "Arcana, Nature, Occultism, or Religion (legendary)",
       "secondarycheck": "Arcana, Nature, Occultism,  Religion (whichever three aren't used for the primary check)"
@@ -1182,7 +1218,12 @@
     },
     "Face in the Crowd": {
       "name": "Rosto na Multidão",
-      "description": "<p>Enquanto estiver em uma multidão de criaturas mais ou menos similares, sua aparência se torna branda e indefinida. Você recebe +2 de bônus de estado em testes de Dissimulação e Furtividade para passar despercebido pela multidão e ignora terreno difícil causado por multidões.</p>\n<p>@Compendium[pf2e.spell-effects.4iakL7fDcZ8RT6Tu]{Spell Effect: Face in the Crowd}</p>\n<hr />\n<p><strong>Elevada (3º)</strong> A magia adquire distância de 3 metros e pode afetar até 10 criaturas.</p>"
+      "description": "<p>Enquanto estiver em uma multidão de criaturas mais ou menos similares, sua aparência se torna branda e indefinida. Você recebe +2 de bônus de estado em testes de Dissimulação e Furtividade para passar despercebido pela multidão e ignora terreno difícil causado por multidões.</p>\n<p>@Compendium[pf2e.spell-effects.4iakL7fDcZ8RT6Tu]{Spell Effect: Face in the Crowd}</p>\n<hr />\n<p><strong>Elevada (3º)</strong> A magia adquire distância de 3 metros e pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "3": {
+          "target": "10 criaturas"
+        }
+      }
     },
     "Faerie Fire": {
       "name": "Fogo Feérico"
@@ -2151,6 +2192,11 @@
     "Paralyze": {
       "name": "Paralisar",
       "description": "<p>Você bloqueia os impulsos motores do alvo antes que eles possam sair da mente dele, ameaçando paralisá-lo. O alvo deve tentar um salvamento de Vontade.</p> <hr /><p><strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica  @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} 1.</p><p><strong>Falha</strong> O alvo fica @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 1 rodada.</p><p><strong>Falha</strong> O alvo fica  @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 4 rodadas. No início de cada um dos turnos dele, o alvo deve tentar um novo salvamento de Vontade para reduzir a duração em 1 rodada, ou encerrá-la inteiramente em um sucesso crítico.</p> <hr /><p><strong>Elevada (7º)</strong> Você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "7": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Paranoia": {
@@ -2597,6 +2643,11 @@
     "Roaring Applause": {
       "name": "Roaring Applause",
       "description": "<p>Your flamboyant flourish invokes such powerful feelings in your audience that you incite cheers and applause. Targets of this spell must be able to see, hear, or otherwise understand you. The targets must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes mildly distracted by your display and applauds while it isn't fully occupied. It can't use reactions.</p>\n<p><strong>Failure</strong> The target applauds you so vigorously that it can't use reactions and is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. The applause is so involved that it has the manipulate trait. This triggers reactions based on the manipulate trait at the start of the target's turn.</p>\n<p><strong>Critical Failure</strong> As failure, plus the target is so distracted by its vigorous applauding of you that it's @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with you.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>",
+      "heightening": {
+        "4": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Rope Trick": {
@@ -2849,6 +2900,11 @@
     "Slow": {
       "name": "Lentidão",
       "description": "<p>Você dilata o fluxo do tempo ao redor do alvo, tornando as ações dele mais lentas.</p><p><hr /><strong>Suceso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1 por 1 rodada.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1 por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 2 por 1 minuto.</p><p><hr /><strong>Elevada (6º)</strong>  Você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "6": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Snare Hopping": {
@@ -3054,6 +3110,11 @@
     "Suggestion": {
       "name": "Sugestão",
       "description": "<p>Suas palavras doces são quase irresistíveis. Você sugere um curso de ação ao alvo, que deve ser descrito de forma que pareça um curso de ação lógico para o alvo, não podendo ser autodestrutivo ou obviamente contra os interesses dele. O alvo deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado e sabe que você tentou controlá-lo.</p><p><strong>Sucesso</strong>  O alvo não é afetado e pensa que você estava falando normalmente com ele, e não conjurando uma magia.</p><p><strong>Falha</strong>  O alvo segue sua sugestão imediatamente. O efeito possui duração de 1 minuto ou até o alvo ter completado uma sugestão finita, ou se a sugestão se tornar autodestrutiva ou se possuir outros efeitos obviamente negativos.</p><p><strong>Falha Crítica</strong>  Como falha, mas a duração é de 1 hora.</p><p><hr /><strong>Elevada (8º)</strong>  Você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "8": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Summon Anarch": {
@@ -3341,6 +3402,11 @@
     },
     "Translate": {
       "description": "<p> O alvo pode compreender o significado de um único idioma que estiver ouvindo ou lendo quando você conjurar a magia. Isto não permite que ele compreenda códigos, linguagens expressas em metáforas e coisas similares (sujeito ao critério do MJ). Se estiver ouvindo vários idiomas e souber disso, o alvo pode escolher qual idioma irá compreender; caso contrário, escolha um dos idiomas aleatoriamente.</p><hr /><p><strong>Elevada (3º)</strong> O alvo também pode falar o idioma.</p><p><strong>Elevada (4º)</strong> Você pode afetar até 10 criaturas e os alvos também podem falar o idioma.</p>",
+      "heightening": {
+        "4": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Transmute Rock And Mud": {
@@ -3578,6 +3644,11 @@
     "Water Walk": {
       "name": "Caminhar na Água",
       "description": "<p> O alvo pode andar na superfície da água e outros líquidos sem afundar neles. Ele pode ficar submerso se quiser, mas nesse caso deve Nadar normalmente. Esta magia não concede a habilidade de respirar na água.</p><hr /><p><strong>Elevada (4º)</strong> A distância da magia aumenta para 9 metros, a duração aumenta para 1 hora e você pode afetar até 10 criaturas.</p>",
+      "heightening": {
+        "4": {
+          "target": "10 criaturas"
+        }
+      },
       "target": "1 criatura"
     },
     "Weapon Storm": {
