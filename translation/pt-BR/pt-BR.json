@@ -87,7 +87,6 @@
           "Resolve": "Determinação restaurada.",
           "SpellSlots": "Todos os espaços de magia restaurados.",
           "StaminaPoints": "Pontos de Estamina restaurados.",
-          "TemporaryItems": "Itens temporários removidos.",
           "WandsCharges": "Varinhas recarregadas."
         },
         "Prompt": "Descansar à noite?"
@@ -100,8 +99,6 @@
     },
     "ActionActionTypeLabel": "Tipo de Ação",
     "ActionActionsLabel": "Ações",
-    "ActionBrowserSearchHint": "Você pode buscar por nome ou atributos customizados. Possíveis atributos de busca são:<br> source, spellType, level, school, components, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability and classes. <br>Exemplo: 'fire, damage:d6' para mostrar todas as magias que tem fogo no nome e d6 no dano",
-    "ActionDeathNoteLabel": "Nota de Morte",
     "ActionNumber1": "Uma",
     "ActionNumber2": "Duas",
     "ActionNumber3": "Três",
@@ -202,16 +199,17 @@
         },
         "Crafting": {
           "Cost": "Custo",
+          "Create": "Criar",
           "Daily": {
-            "Complete": {
-              "OneConsumed": "Manufatura diária concluída: um reagente foi consumido.",
-              "NConsumed": "Manufatura diária concluída: {quantity} reagentes foram consumidos.",
-              "ZeroConsumed": "Manufatura diária concluída."
-            },
             "Perform": "Executar Manufatura diária"
           }
         },
         "CreateFeat": "Criar Talento",
+        "FeatSlot": {
+          "AncestryFeaturesHeader": "Características de Ancestralidade",
+          "ClassFeaturesHeader": "Características de Classe",
+          "SkillHeader": "Talentos de Perícia"
+        },
         "HandsOccupied": "Mãos ocupadas",
         "Language": {
           "OverLimit": "Este idioma excede o número de idiomas que esse personagem pode conhecer.",
@@ -389,6 +387,7 @@
           "wildsong": "Canção Selvagem",
           "wyrwood": "Wyrwood",
           "xanmba": "Xanmba",
+          "wayang": "Wayang",
           "yithian": "Yithian",
           "ysoki": "Ysoki"
         },
@@ -558,12 +557,10 @@
         },
         "Identification": {
           "Skills": {
-            "Label": "{skills}: CD {dc} ({adjustment})",
-            "Tooltip": "\"A perícia utilizada para identificar uma criatura normalmente depende dos traços que ela possui, conforme mostrado na Tabela 10–7 (mas você tem uma grande margem para decidir qual perícia se aplica).\" – Livro Básico pág. 506"
+            "Label": "{skills}: CD {dc} ({adjustment})"
           },
           "Lore": {
-            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})",
-            "Tooltip": "\"Utilizar o Saber aplicável normalmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" – Livro Básico pág. 506"
+            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})"
           }
         },
         "SimpleSheet": "Ficha de PdM Simples",
@@ -649,6 +646,9 @@
         "Wealth": "Patrimônio"
       },
       "Plural": "Atores",
+      "Resource": {
+        "Focus": "Foco"
+      },
       "Vehicle": {
         "EmitsSound": {
           "Encounter": "Durante Encontros",
@@ -815,7 +815,6 @@
     "BackgroundSkillFeats": "Talentos de Perícia",
     "BaseModifier": "Modificador Base",
     "BaseWeapons": "Armas Base",
-    "BestiaryBrowserSearchHint": "Você pode buscar por nome ou atributos customizados. Possíveis atributos de busca são:<br> source, spellType, level, school, components, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability and classes. <br>Exemplo: 'fire, damage:d6' para mostrar todas as magias que tem fogo no nome e d6 no dano",
     "Biography": "Biografia",
     "BiographyAllies": "Aliados",
     "BiographyAppearance": "Aparência",
@@ -845,35 +844,6 @@
     "BonusSPLabel": "PE Bônus",
     "BonusSPperLevel": "PE Bônus por Nível",
     "BrowseLabel": "Navegar",
-    "BrowserClearFilter": "Limpar Filtro",
-    "BrowserClearFilters": "Limpar Filtros",
-    "BrowserFilterAlignments": "Tendências",
-    "BrowserFilterAncestries": "Ancestralidades",
-    "BrowserFilterArmorFilters": "Filtros de Armadura",
-    "BrowserFilterCastingTime": "Tempo de conjuração",
-    "BrowserFilterCategory": "Categorias",
-    "BrowserFilterClass": "Classes",
-    "BrowserFilterComplexity": "Complexidades do Perigo",
-    "BrowserFilterConjunction": {
-      "AndLabel": "Todos acima",
-      "OrLabel": "Qualquer um dos acima"
-    },
-    "BrowserFilterInventoryTypes": "Tipos de Inventário",
-    "BrowserFilterLevels": "Níveis",
-    "BrowserFilterProficiencyRequirements": "Requisitos de Proficiência",
-    "BrowserFilterRarities": "Raridades",
-    "BrowserFilterSizes": "Tamanhos",
-    "BrowserFilterSkills": "Perícias",
-    "BrowserFilterSource": "Fonte",
-    "BrowserFilterSpellCategories": "Categorias",
-    "BrowserFilterTraditions": "Tradições",
-    "BrowserFilterTraits": "Traços",
-    "BrowserFilterWeaponFilters": "Filtros de Armas",
-    "BrowserSearchPlaceholder": "Pesquisar Texto",
-    "BrowserSearchTitle": "Clique com botão direito para guia",
-    "BrowserSettingsSaved": "Configurações foram salvas",
-    "BrowserSortyByLabel": "Organizar por",
-    "BrowserWarnPackNotLoaded": "O compêndio \"{pack}\" não pôde ser carregado.",
     "BulkMaxLabel": "Volume Máximo",
     "CapacityBarLabel": "Capacidade",
     "CarryType": {
@@ -975,6 +945,10 @@
       "BuyLabel": "Comprar Item",
       "FailedToBuyItemWithCharacter": "Não foi possível comprar {item} com {character}.",
       "FailedToBuyItemWithSomeCharacters": "Não foi possível comprar {item} com alguns dos personagens selecionados.",
+      "Filter": {
+        "ClearFilter": "Limpar",
+        "Source": "Fontes"
+      },
       "Hint": "Use as abas acima para selecionar um compêndio",
       "RollTable": {
         "AddDialogText": "Adicionar {count} resultado(s) à tabela de rolagem?",
@@ -1025,6 +999,7 @@
     "ConditionTypeConcealed": "Ocultado",
     "ConditionTypeConfused": "Confuso",
     "ConditionTypeControlled": "Controlado",
+    "ConditionTypeCursebound": "Ominoso",
     "ConditionTypeDazzled": "Ofuscado",
     "ConditionTypeDeafened": "Surdo",
     "ConditionTypeDoomed": "Condenado",
@@ -1084,20 +1059,15 @@
         "TotalCost": "Custo Total"
       },
       "Alerts": {
-        "CharacterLevel": "Nível do item excede o nível do personagem.",
         "FormulaExpended": "A fórmula preparada já foi criada.",
         "ItemMissingTraits": "O item não é compatível com os requisitos de item de criação.",
-        "MaxItemLevel": "O nível do item excede o nível de item máximo.",
-        "MaxSlots": "Os espaços permitidos para Manufaturar estão cheios.",
-        "MissingReagents": "Reagentes infundidos insuficientes para completar a manufatura."
+        "MaxSlots": "Os espaços permitidos para Manufaturar estão cheios."
       },
       "CraftQuantityTitle": "Quantidade",
       "ExpendFormula": "Gastar Fórmula",
       "NoEligibleEntry": "Nenhuma entrada de manufatura elegível foi encontrada.",
-      "QuickAddTitle": "Adicione esta fórmula a uma ou mais entradas de Manufatura",
       "RemoveFormulaDialogQuestion": "Tem certeza que deseja remover a fórmula para {name}?",
       "RemoveFormulaDialogTitle": "Remover Fórmula",
-      "ToggleFreeCrafting": "Alternar Manufatura Livre",
       "ToggleQuickAlchemy": "Alquimia Rápida",
       "UndeletableTooltip": "Esta fórmula de manufatura é parte de outro item e não pode ser deletado individualmente.",
       "UnprepareFormulaDialogQuestion": "Você tem certeza que deseja despreparar a fórmula para {name}?",
@@ -1154,33 +1124,6 @@
           "resistance": "Resistente a {type}: {adjustment}",
           "unaffected": "Não afetado por {type}: {adjustment}",
           "weakness": "Fraco para {type}: {adjustment}"
-        },
-        "CompositeLabel": {
-          "Exceptions0DoubleVs0": "{type} {value}",
-          "Exceptions0DoubleVs1": "{type} {value} (resistência dobrada vs. {doubleVs1})",
-          "Exceptions0DoubleVs2": "{type} {value} (resistência dobrada vs. {doubleVs1} ou {doubleVs2})",
-          "Exceptions0DoubleVs3": "{type} {value} (resistência dobrada vs. {doubleVs1}, {doubleVs2}, ou {doubleVs3})",
-          "Exceptions0DoubleVs4": "{type} {value} (resistência dobrada vs. {doubleVs1}, {doubleVs2}, {doubleVs3}, ou {doubleVs4})",
-          "Exceptions1DoubleVs0": "{type} {value} (exceto {exception1})",
-          "Exceptions1DoubleVs1": "{type} {value} (exceto {exception1}; resistência dobrada vs. {doubleVs1})",
-          "Exceptions1DoubleVs2": "{type} {value} (exceto {exception1}; resistência dobrada vs. {doubleVs1} ou {doubleVs2})",
-          "Exceptions1DoubleVs3": "{type} {value} (exceto {exception1}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, ou {doubleVs3})",
-          "Exceptions1DoubleVs4": "{type} {value} (exceto {exception1}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, {doubleVs3}, ou {doubleVs4})",
-          "Exceptions2DoubleVs0": "{type} {value} (exceto {exception1} ou {exception2})",
-          "Exceptions2DoubleVs1": "{type} {value} (exceto {exception1} ou {exception2}; resistência dobrada vs. {doubleVs1})",
-          "Exceptions2DoubleVs2": "{type} {value} (exceto {exception1} ou {exception2}; resistência dobrada vs. {doubleVs1} ou {doubleVs2})",
-          "Exceptions2DoubleVs3": "{type} {value} (exceto {exception1} ou {exception2}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, ou {doubleVs3})",
-          "Exceptions2DoubleVs4": "{type} {value} (exceto {exception1} ou {exception2}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, {doubleVs3}, or {doubleVs4})",
-          "Exceptions3DoubleVs0": "{type} {value} (exceto {exception1}, {exception2}, ou {exception3})",
-          "Exceptions3DoubleVs1": "{type} {value} (exceto {exception1}, {exception2}, ou {exception3}; resistência dobrada vs. {doubleVs1})",
-          "Exceptions3DoubleVs2": "{type} {value} (exceto {exception1}, {exception2}, ou {exception3}; resistência dobrada vs. {doubleVs1} ou {doubleVs2})",
-          "Exceptions3DoubleVs3": "{type} {value} (exceto {exception1}, {exception2}, ou {exception3}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, ou {doubleVs3})",
-          "Exceptions3DoubleVs4": "{type} {value} (exceto {exception1}, {exception2}, ou {exception3}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, {doubleVs3}, or {doubleVs4})",
-          "Exceptions4DoubleVs0": "{type} {value} (exceto {exception1}, {exception2}, {exception3}, ou {exception4})",
-          "Exceptions4DoubleVs1": "{type} {value} (exceto {exception1}, {exception2}, {exception3}, ou {exception4}; resistência dobrada vs. {doubleVs1})",
-          "Exceptions4DoubleVs2": "{type} {value} (exceto {exception1}, {exception2}, {exception3}, ou {exception4}; resistência dobrada vs. {doubleVs1} ou {doubleVs2})",
-          "Exceptions4DoubleVs3": "{type} {value} (exceto {exception1}, {exception2}, {exception3}, ou {exception4}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, ou {doubleVs3})",
-          "Exceptions4DoubleVs4": "{type} {value} (exceto {exception1}, {exception2}, {exception3}, ou {exception4}; resistência dobrada vs. {doubleVs1}, {doubleVs2}, {doubleVs3}, ou {doubleVs4})"
         },
         "Type": {
           "abysium": "abysium",
@@ -1569,31 +1512,10 @@
     },
     "FeatActionTypeLabel": "Tipo de Ação",
     "FeatActionsLabel": "Número de Ações",
-    "FeatAncestryHeader": "Talentos de Ancestralidade",
-    "FeatArchetypeHeader": "Talentos de Arquétipo",
     "FeatBackgroundShort": "BIO",
-    "FeatBonusHeader": "Talentos Bônus",
-    "FeatBrowserSearchHint": "Você pode buscar por nome ou atributos customizados. Possíveis atributos de busca são:<br> source, spellType, level, school, components, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability and classes. <br>Exemplo: 'fire, damage:d6' para mostrar todas as magias que tem fogo no nome e d6 no dano",
-    "FeatCampaignHeader": "Talentos da Campanha",
-    "FeatClassHeader": "Talentos de Classe",
-    "FeatDeityBoonCursesHeader": "Dádivas/Maldições da Divindade",
-    "FeatGeneralHeader": "Talentos Gerais",
     "FeatLevelLabel": "Nível",
     "FeatPFSBoonHeader": "Benefícios de Sociedade",
     "FeatPrereqLabel": "Pré-requisitos",
-    "FeatSkillHeader": "Talentos de Perícia",
-    "FeatTypeAncestry": "Talento de Ancestralidade",
-    "FeatTypeAncestryfeature": "Característica de Ancestralidade",
-    "FeatTypeBonus": "Talentos Bônus",
-    "FeatTypeClass": "Talento de Classe",
-    "FeatTypeClassfeature": "Característica de Classe",
-    "FeatTypeCurse": "Maldição",
-    "FeatTypeDeityboon": "Dádiva da Divindade",
-    "FeatTypeGeneral": "Talento Geral",
-    "FeatTypePfsboon": "Benefício de Sociedade",
-    "FeatTypeSkill": "Talento de Perícia",
-    "FeaturesAncestryHeader": "Características de Ancestralidade",
-    "FeaturesClassHeader": "Características de Classe",
     "FlatCheck": "Teste Simples",
     "Focus": {
       "NotEnoughFocusPointsError": "Você não tem pontos de foco suficientes para conjurar esta magia.",
@@ -1641,11 +1563,6 @@
     "HealingTypeTemporaryHealing": "Cura (Temporária)",
     "Height": "Altura",
     "Heritage": "Herança",
-    "HeroPointRatio": {
-      "Many": "{value}/{max} Pontos de Heroísmo",
-      "One": "1/{max} Ponto de Heroísmo"
-    },
-    "HeroPointsLabel": "Pontos de Heroísmo",
     "HitPointsDetailsLabel": "Detalhes dos PVs",
     "HitPointsDetailsTitle": "Informações adicionais relacionadas aos Pontos de Vida como Cura Acelerada ou Regeneração",
     "HitPointsHeader": "Pontos de Vida",
@@ -1690,7 +1607,6 @@
       "TypeUnsupported": "Erro no @Template: tipo {type} não é suportado",
       "WidthNoNumber": "Erro no @Template: largura {width} não é um número"
     },
-    "InventroyBrowserSearchHint": "Você pode buscar por nome ou atributos customizados. Possíveis atributos de busca são:<br> source, spellType, level, school, components, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability and classes. <br>Exemplo: 'fire, damage:d6' para mostrar todas as magias que tem fogo no nome e d6 no dano",
     "InvestedLabel": "Investido",
     "Item": {
       "ABC": {
@@ -1698,24 +1614,9 @@
         "Features": "Características",
         "InvalidDrop": "{badType} não pode ser colocado aqui (deve ser {goodType})"
       },
-      "Action": {
-        "Category": {
-          "None": "Nenhuma",
-          "Defensive": "Defensiva",
-          "Interaction": "Interação",
-          "Offensive": "Ofensiva",
-          "Familiar": "Habilidade de Familiar"
-        },
+      "Ability": {
         "Plural": "Habilidades",
-        "SelfAppliedEffect": {
-          "Applied": "{effect} foi aplicado.",
-          "Delete": "Excluir referência",
-          "Drop": "Soltar efeito",
-          "Label": "Efeito auto-aplicado",
-          "Hint": "Um único item de efeito a ser aplicado ao ator que utiliza esta ação"
-        },
         "Type": {
-          "Activity": "Atividade",
           "Free": "Ação Livre",
           "Single": "Ação Única",
           "Reaction": "Reação"
@@ -1885,7 +1786,6 @@
       "Deity": {
         "Alignment": "Tendência",
         "Category": {
-          "Hint": "Panteões de divindades, filosofias e espiritualidades que não são associadas a uma divindade, podem ser seguidas ao invés de qualquer divindade particular. Clérigos e Campeões devem seguir uma divindade ou panteão.",
           "Pantheon": "Panteão",
           "Philosophy": "Filosofia"
         },
@@ -1973,8 +1873,7 @@
             "Label": "Decadência"
           },
           "Delirium": {
-            "Description": "Você tem o poder de trazer alucinações e inquietude.",
-            "Label": "Delírio"
+            "Description": "Você tem o poder de trazer alucinações e inquietude."
           },
           "Destruction": {
             "Description": "Você é um conduíte para devastação divina.",
@@ -2177,8 +2076,7 @@
             "Label": "Vigília"
           },
           "Void": {
-            "Description": "Você extrai poder do vazio.",
-            "Label": "Vazio"
+            "Description": "Você extrai poder do vazio."
           },
           "Water": {
             "Description": "Você controla água e corpos de água.",
@@ -2198,7 +2096,7 @@
           },
           "Wyrmkin": {
             "Description": "Você atrai o poder dos dragões, linnormes, e de outras criaturas répteis poderosas.",
-            "Label": "Wyrmkin"
+            "Label": "Dragão"
           },
           "Zeal": {
             "Description": "Você tem proeza em combate aumentada pelo seu fogo interior.",
@@ -2268,6 +2166,11 @@
         "Plural": "Efeitos",
         "ShowTokenIcon": "Mostrar ícone no token?",
         "Unidentified": "Não identificado?"
+      },
+      "FIELDS": {
+        "category": {
+          "label": "Categoria"
+        }
       },
       "Feat": {
         "Info": {
@@ -2815,20 +2718,15 @@
           "ConstantSpells": "<p>Uma magia constante afeta o monstro sem que ele precise conjurá-la, e sua duração é ilimitada. Se uma magia constante é neutralizada, o monstro pode reativá-la usando a as ações de conjuração normais que a magia requer.</p>",
           "Constrict": "<p> O monstro dá o dobro do dano listado em qualquer número de criaturas @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarradas} ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringido} por ele. Cada uma das criaturas pode tentar um salvamento básico de Fortitude com a CD listado.</p>",
           "Coven": "<p> Este monstro pode formar um coventículo com uma ou mais outras criaturas que também possuem a habilidade coventículo. Isso envolve performar uma cerimônia de 8 horas com todos os possíveis membros. Após ser formado, cada um de seus membros ganha ajustes de Elite, ajustando seus níveis de acordo. Membros do coventículo podem sentir as localizações e condições de outros membros gastando uma única ação, com o traço de concentração, e pode sentir o que outro membro está sentindo como uma atividade de duas ações, com o traço concentração também.</p>\\n<p>Coventículos também concedem magias e rituais a seus membros, mas estes só podem ser conjurados em cooperação entre três membros que estejam a 30 pés uns dos outros. Um membro pode contribuir para a magia do coventículo com uma ação única que tem somente o traço de concentração. Se dos outros membros contribuírem com estas ações dentro do último round, um terceiro pode conjurar a magia de coventículo em seu turno gastando as ações de conjuração normais. Um coventículo pode conjurar suas magias um número ilimitado de vezes, mas pode fazê-lo uma única vez por turno Todo coventículo concede a magia de 8° nível @UUID[Compendium.pf2e.spells-srd.dN8QBNuTiaBHCKUe]{Polimorfia Amaldiçoada} e todas as seguintes magias, quais o coventículo pode conjurar em qualquer nível até o 5°: @UUID[Compendium.pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augúrio}, @UUID[Compendium.pf2e.spells-srd.vLA0q0WOK2YPuJs6]{Cativar}, @UUID[Compendium.pf2e.spells-srd.HXhWYJviWalN5tQ2]{Clariaudiência}, @UUID[Compendium.pf2e.spells-srd.zvKWclOZ7A53DObE]{Clarividência}, @UUID[Compendium.pf2e.spells-srd.yM3KTTSAIHhyuP14]{Mensagem Onírica}, @UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Disfarce Ilusório}, @UUID[Compendium.pf2e.spells-srd.Ucf8eynbZMfUucjE]{Cena Ilusória}, @UUID[Compendium.pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Olho Escoteiro}, e @UUID[Compendium.pf2e.spells-srd.FM3SmEW8N1FCRjqt]{Cadáver Falante}. Criaturas individuais com a habilidade coventícula também concedem magias adicionais a qualquer coventículo que entrem. Um coventículo também pode conjurar o ritual @UUID[Compendium.pf2e.spells-srd.XkDCzMIyc0YOjw05]{Controlar o Clima}, com CD 23 ao invés da CD padrão.</p>\\n<p>Se a morte ou saída de um membro do coventículo trouxer o total de membros para menos que três, os membros restantes mantém seus ajustes de Elite por 24 horas, mas sem membros suficientes para contribuir com as ações necessárias, eles não podem conjurar as magias do coventículo.</p>",
-          "Darkvision": "<p>Um monstro com visão no escuro pode ser perfeitamente bem em areas de escuridão e luz fraca, embora tal visão seja somente em preto e branco. Algumas formas de escuridão mágica, como a magia <em>@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{Escuridão}</em>, bloqueiam visão no escuro normal. Um monstro com @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr]{Visão no escuro Maior}, no entanto, pode ver através até mesmo de tais formas de escuridão.</p>",
           "Disease": "<p>Quando uma criatura é exposta à doença de um monstro, ela tenta um salvamento de Fortitude ou sucumbe a doença. O nível da doença é o mesmo do monstro infligindo-a. A doença segue a mesmas regras que aflições.</p>",
           "Engulf": "<p> O monstro Anda até o dobro de sua Velocidade e pode se mover através dos espaços de quaisquer criaturas em seu caminho. Qualquer criatura do tamanho do monstro ou menor cujos espaços o monstro andou, podem tentar um salvamento de Reflexos com a CD listado para evitar serem engolfados. Uma criatura incapaz de agir normalmente falha criticamente o salvamento. Se uma criatura passa em seu salvamento, pode escolher ser empurrada para fora do caminho do monstro ou para frente dele no final do movimento. O monstro pode tentar Engolfar a mesma criatura somente uma vez com um único uso de Engolfar. O monstro pode conter quantas criaturas couberem em seu espaço.</p>\n<p>A criatura que falha o salvamento é puxada para dentro do corpo do monstro. Ela é @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada}, é @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1}, e tem que segurar o fôlego ou começar a sufocar. A criatura recebe a quantidade de dano listada quando Engolfada pela primeira vez, e no fim de todos os turnos que estiver engolfada. Uma criatura Engolfada pode se libertar tentando @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar} contra a CD de escape listado. Uma criatura engolfada pode atacar o monstro que a envolve, mas somente com ataques desarmados ou com armas de volume leve ou menor. O monstro é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} ao golpe. Se o monstro recebe dano Perfurante ou Cortante que exceda o valor de Ruptura listado, de um único ataque ou magia, a criatura engolfada se liberta através do corte. A criatura que se liberte com qualquer um dos métodos pode respirar imediatamente e sai do espaço do mosntro.</p>\n<p>Se o monstro morre, todas as criaturas que ela havia engolfado são automaticamente libertas, uma vez que a forma do monstro perde coesão.</p>",
           "FastHealing": "<p>Um monstro com esta habilidade recupera o número dado de Pontos de Vida cada rodada no começo de seu turno</p>",
           "Ferocity": "<p><strong>Gatilho</strong> O monstro é reduzido a 0 PV.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro evita ser derrubado e se mantém em 1HP, mas seu valor de @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Ferido} aumenta em 1. Quando estiver Ferido 3, não pode mais usar essa habilidade</p>",
           "FormUp": "<p>A tropa escolhe um dos quadrados que atualmente ocupa e redistribuí os quadrados para qualquer configuração em que ainda sejam contínuos e dentro de 15 pés do quadrado escolhido. A tropa não pode compartilhar seus espaços com outras criaturas</p>",
           "FrightfulPresence": "<p>A criatura que entrar pela primeira vez deve tentar um salvamento de Vontade</p>\n<p>Independente do resultado do salvamento, a criatura é temporariamente imune a Presença Aterradora do monstro por 1 minuto</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada pela presença.</p>\n<p><strong>Sucesso</strong> A criatura está @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustada 1}.</p>\n<p><strong>Falha</strong> A criatura está @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustada 2}.</p>\n<p><strong>Falha Crítica</strong> A criatura está @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustada 4}.</p>",
-          "Grab": "<p><strong>Exigências</strong> A última ação do monstro foi um golpe bem-sucedido que lista Agarrar em sua listagem de dano, ou está agarrando uma criatura usando esta ação.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente Agarra o alvo até o fim do próximo turno do monstro. A criatura está @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada} por qualquer parte do corpo que o monstro usou para atacar, e este membro não pode ser usado para Golpear criaturas até que o fim da captura. Usar Agarrar estende a duração do agarramento do monstro até o fim do seu próximo turno para todas criaturas seguradas por ela. Uma criatura agarrada pode usar a ação de @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar} para se livrar da captura, e o Agarramento termina para as criaturas agarradas se o monstro se move para longe delas.</p>",
           "GreaterConstrict": "<p> O monstro dá a quantia listada de dano a qualquer número de criaturas @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarradas} ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restritas} por ele. Cada uma das criaturas pode tentar um salvamento básico de fortitude com a CD listado. A criatura que falha esse salvamento cai @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Inconsciente}. E a criatura bem-sucedida é então temporariamente imune a inconsciência por Constrição Maior por 1 minuto.</p>",
           "GreaterDarkvision": "<p>Um monstro com visão no escuro maior pode ser perfeitamente bem em áreas de escuridão e luz fraca, embora tal visão seja somente em preto e branco. Uma criatura com visão no escuro maior pode ver até mesmo através de formas de escuridão mágica.</p>",
-          "ImprovedGrab": "<p> O monstro pode usar @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Agarrar} como uma ação livre acionada por um acerto com seu ataque inicial. Um monstro com Captura Melhorada ainda precisa gastar uma ação para estender a duração para criaturas que ele já tem @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado}.</p>",
-          "ImprovedKnockdown": "<p> O monstro pode usar o @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Tombar} como uma ação livre acionada por um acerto com seu ataque inicial</p>",
           "ImprovedPush": "<p> O monstro pode usar o @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Impelir} como uma ação livre acionada por um acerto com seu ataque inicial</p>",
-          "Knockdown": "<p><strong>Requerimento</strong> A última ação do monstro foi um sucesso com um Golpe que lista Tombar em sua seção de dano.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro derruba o alvo @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}.</p>",
           "Lifesense": "<p>Sentido vital permite ao monstro sentir a essência vital de criaturas vivas e mortas-vivas dentro da distância listada. O sentido pode distinguir entre a energia positiva animando criaturas vivas e a energia negativa animando criaturas mortasvivas, de forma similar à maneira que a visão distingue cores.</p>",
           "LightBlindness": "<p>No momento em que é exposto à luz brilhante, o monstro fica @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o final do próximo turno dele. Após esta exposição, ele não é cego pela luz até passar pelo menos 1 hora na escuridão. Entretanto, enquanto permanecer em uma área de luz brilhante, o monstro fica @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ofuscado}.</p>",
           "LowLightVision": "<p> O monstro enxerga na luz fraca da mesma maneira que enxerga na luz brilhante, ignorando a condição @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Ocultado} devido a luz fraca.</p>",
@@ -2955,7 +2853,6 @@
       "Weapon": "Nova Arma"
     },
     "NoAmmoLabel": "Sem Munição",
-    "NoneOption": "Nenhuma",
     "OK": "OK",
     "OpenActionBrowserTitle": "Abrir Navegador de Ações",
     "OpenInventoryBrowser": "Abrir Navegador do Inventário",
@@ -3144,8 +3041,7 @@
           "Difficult": {
             "Difficult": "Difícil",
             "Greater": "Difícil Maior",
-            "Label": "Terreno Difícil",
-            "None": "Nenhuma"
+            "Label": "Terreno Difícil"
           }
         }
       }
@@ -3176,7 +3072,6 @@
       "WarnNoHeroPoint": "{name} não possui Pontos de Heroísmo"
     },
     "ResistancesLabel": "Resistências",
-    "ResolvePointsShortLabel": "Determinação",
     "RestoreSpellTitle": "Restaurar Magia",
     "RevertDamage": {
       "ButtonTooltip": "Desfazer",
@@ -3198,7 +3093,6 @@
           "DieSizeUpgrade": "Aumentar Tamanho do Dado",
           "ExtraDice": "Extra",
           "Label": "Rótulo",
-          "None": "Nenhuma",
           "Override": "Substituir {value}",
           "OverrideLabel": "Sobrepor",
           "Splash": "{damageType} de respingo",
@@ -3215,7 +3109,6 @@
       "Misfortune": "Infortúnio",
       "MisfortuneTitle": "{title} Infortúnio",
       "Modifier": "Mod.",
-      "None": "Nenhuma",
       "Normal": "Normal",
       "Roll": "Rolar",
       "Type": "Tipo",
@@ -3270,14 +3163,12 @@
         }
       },
       "CampaignFeats": {
-        "Hint": "Adiciona uma seção em todas as fichas de jogador para talentos específicos de campanha.",
-        "Name": "Talentos da Campanha"
+        "Hint": "Adiciona uma seção em todas as fichas de jogador para talentos específicos de campanha."
       },
       "CampaignType": {
         "Hint": "Estender suporte para campanhas como Kingmaker",
         "Name": "Características específicas de campanha",
         "Choices": {
-          "none": "Nenhuma",
           "kingmaker": "Kingmaker"
         }
       },
@@ -3290,10 +3181,7 @@
         "DeleteAllQuestion": "Tem certeza de que deseja redefinir todas as configurações das fontes incluídas?",
         "DeleteAllTitle": "Redefinir Configurações",
         "Hint": "Configurações para exibir apenas entradas com fontes especificadas no navegador do compêndio.",
-        "IgnoreAsGM": "Deixar os MJs ignorarem a filtragem e verem todas as entradas.",
         "Name": "Fontes incluídas",
-        "ShowEmptySources": "Não filtrar entradas com fontes vazias.",
-        "ShowUnknownSources": "Não filtrar entradas com fontes desconhecidas.",
         "SourcesListHeader": "Fontes especificadas"
       },
       "Core": {
@@ -3516,10 +3404,15 @@
         },
         "Hint": "Ativar e configurar regras variantes, como Proficiência Sem Nível ou o sistema de Estamina.",
         "Label": "Habilitar Regras Variantes",
+        "Mythic": {
+          "Choices": {
+            "disabled": "Desabilitado",
+            "enabled": "Habilitado"
+          }
+        },
         "Name": "Regras Variantes",
         "Proficiency": {
           "Hint": "Jogue com a variante de proficiência sem nível do Guia do Mestre.",
-          "ModifiersHint": "Defina o valor do modificador para cada graduação de proficiência.",
           "Name": "Proficiência Sem Nível"
         },
         "Stamina": {
@@ -3612,7 +3505,6 @@
     "Scene": {
       "HearingRange": {
         "Caveat": "*Por questões de desempenho, o raio é uma medida real e não baseada na grade.",
-        "Hint": "Limita o alcance* que as criaturas podem ouvir nesta cena como uma representação de “um ambiente que confunde os sentidos, como em uma sala barulhenta” (Livro Básico pág. 465). Requer que a visão baseada em regras esteja habilitada.",
         "Name": "Alcance de Audição (pés)",
         "Unlimited": "Ilimitado"
       }
@@ -3664,7 +3556,6 @@
     "SpellArea": "Área: {areaSize} {areaUnit} {areaType}",
     "SpellAttackLabel": "Ataque de Magia",
     "SpellAttackWithTradition": "Ataque Mágico {tradition}",
-    "SpellBrowserSearchHint": "Você pode buscar por nome ou atributos customizados. Possíveis atributos de busca são:<br> source, spellType, level, school, components, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability and classes. <br>Exemplo: 'fire, damage:d6' para mostrar todas as magias que tem fogo no nome e d6 no dano",
     "SpellCastingFormat": "Magias {traditionSpells} {preparationType}",
     "SpellCollectionAdd": "Adicionar à Coleção de Magias",
     "SpellCollectionRemove": "Remover da Coleção de Magias",
@@ -3690,7 +3581,6 @@
     "SpellSlotExpendedError": "Não é possível conjurar {name}, a magia já foi gasta",
     "SpellSlotNotEnoughError": "Não é possível conjurar {name} no {level}, não há espaços de magia suficientes",
     "SpellTargetLabel": "Alvo",
-    "SpellTraditionsLabel": "Tradições",
     "SpellUnlimitedLabel": "Ilimitado",
     "SpellUsesLabel": "Usos",
     "SpellcastingSettings": {
@@ -3910,6 +3800,7 @@
     "TraitBeastkin": "Beastkin",
     "TraitBleed": "Sangramento",
     "TraitBludgeoning": "Contundente",
+    "TraitBlight": "Esmorecimento",
     "TraitBoggard": "Boggard",
     "TraitBomb": "Bomba",
     "TraitBonded": "Vinculada",
@@ -3930,6 +3821,7 @@
     "TraitCatalyst": "Catalisador",
     "TraitCatfolk": "Povo-Felino",
     "TraitCelestial": "Celestial",
+    "TraitCenser": "Incensário",
     "TraitCentaur": "Centauro",
     "TraitCertainKill": "Abate Certo",
     "TraitChampion": "Campeão",
@@ -3994,17 +3886,14 @@
     "TraitDero": "Dero",
     "TraitDescriptionAberration": "As aberrações são criaturas de outros planos ou deturpações da ordem natural.",
     "TraitDescriptionAcid": "Efeitos com este traço causam dano de ácido. Criaturas com este traço possuem uma conexão mágica ao ácido.",
-    "TraitDescriptionAdditive": "Talentos com o traço aditivo lhe permitem gastar ações para acrescentar substâncias especiais a bombas ou elixires. Você pode acrescentar somente um único aditivo a um determinado item alquímico — tentar acrescentar outro aditivo estraga o item. Normalmente você só pode usar ações com o traço aditivo quando estiver criando um item alquímico infundido, e algumas só podem ser usadas com a ação Alquimia Rápida. O traço aditivo é sempre apresentado com um nível, como aditivo 2. Um aditivo adiciona o nível dele ao nível do item alquímico que está sendo modificado; o resultado é o novo nível da mistura. O nível de item da mistura não pode ser maior que seu nível de alquimia avançada",
     "TraitDescriptionAdjusted": "O equipamento vem com um ajuste descrito em sua listagem. Esse ajuste é construído no equipamento permanentemente, o que significa que o equipamento não pode ter ajustes adicionados, nem pode ser trocado por ajustes diferentes. Se o ajuste altera as estatísticas base do item, tais como adicionar o traço barulhento, isso é refletido na listagem de tabela do equipamento.",
     "TraitDescriptionAdjustment": "Itens com este traço destinam-se a alterar peças existentes de equipamento, tipicamente armaduras, escudos e armas. O item fornecido listará qual tipo de equipamento ele modifica. Uma peça de equipamento só pode ser afetada por um único ajuste de cada vez. A menos que seja descrito contrário, adicionar ou remover um ajuste requer o uso de uma atividade de 10 minutos e um kit de reparo.",
-    "TraitDescriptionAeon": "Estes monitores são defensores autointitulados da realidade. Éons tradicionais possuem naturezas e formas dualísticas e possuem uma dicotomia de interesses, embora eixomitas e inevitáveis sejam diferentes. Éons que não sejam eixomitas e inevitáveis se comunicam através de uma estranha mistura telepática de informações sensoriais chamada visualização.",
     "TraitDescriptionAesir": "Aesir são monitores frequentemente belicosos dos planos caóticos, aperfeiçoando suas habilidades em batalha e preparando para o confronto final no término do multiverso.",
     "TraitDescriptionAftermath": "Este traço descreve talentos que representam habilidades especiais adquiridas após exposição ao estranho e mortal.",
     "TraitDescriptionAgathion": "Essa família de celestiais animalescos é nativa ao plano de Nirvana. A maioria dos agathions são Neutro-Bom, tem visão no escuro, e fraqueza a dano maligno.",
     "TraitDescriptionAgile": "A penalidade por ataques múltiplos que você sofre com esta arma é de -4 (em vez de -5) em seu segundo ataque no turno e de -8 (em vez de -10) em seu terceiro ataque e ataques subsequentes no turno.",
     "TraitDescriptionAir": "Efeitos com o traço ar conjuram ou manipulam ar. Efeitos que manipulam ar não possuem efeito no vácuo ou em uma área sem ar. Criaturas com este traço consistem principalmente de ar ou possuem uma conexão com ar mágico.",
     "TraitDescriptionAiuvarin": "Uma criatura com esse traço possui a herança versátil aiuvarin. Os aiuvarins são de ascendência mista, incluindo elfos ou outros aiuvarins. Uma habilidade com este traço pode ser usada ou selecionada apenas por aiuvarins.",
-    "TraitDescriptionAlchemical": "Itens alquímicos são energizados pelas reações de reagentes químicos. Itens alquímicos não são mágicos e não irradiam uma aura mágica. Criaturas alquímicas são parcialmente energizadas por reações químicas.",
     "TraitDescriptionAlchemist": "Esse traço indica habilidades da classe alquimista.",
     "TraitDescriptionAmp": "Um amp é uma forma de pensar que modifica propriedades de seus truques mágicos psi. Cada truque psi tem seu próprio amp, e talentos com o traço amp fornecem amps diferentes que você pode aplicar aos truques ao invés dos amps normais.",
     "TraitDescriptionAmphibious": "Uma criatura anfíbia pode respirar na água e no ar, mesmo fora do seu ambiente preferido, geralmente por tempo indeterminada, mas por pelo menos horas. Estas criaturas geralmente têm uma Velocidade de Natação. Seus Golpes desarmados cortantes e contundentes não recebem a penalidade de -2 habitual por estarem debaixo d'água.",
@@ -4012,7 +3901,6 @@
     "TraitDescriptionAndroid": "Uma ancestralidade humanoide sintética criada por meios artificiais. Mais comuns em Numeria.",
     "TraitDescriptionAngel": "Essa família de celestiais é composta por mensageiros e guerreiros. A maioria dos anjos são sagrados, têm visão no escuro e possuem fraqueza ao profano.",
     "TraitDescriptionAnimal": "Um animal é uma criatura com inteligência relativamente baixa. Normalmente, ele não tem um modificador de atributo de inteligência superior a -4, não consegue falar idiomas e não pode ser treinado em perícias baseadas em inteligência.",
-    "TraitDescriptionApex": "Quando você investe num item com o traço Ápice ele melhora um de seus atributos ou em +2, ou para um total de 18, escolhendo o que resultar no maior valor. Isso lhe dá todos os benefícios do novo valor de atributo até que a investidura termine. Um item ápice concede este benefício somente na primeira vez que é investido dentro de um período de 24h, e você só pode se beneficiar de um item ápice por vez. Se você tentar investir em um item ápice, já tendo um investido, você não ganha o aumento de atributo, embora ganhe qualquer outro efeito de investir no item.",
     "TraitDescriptionAphorite": "Um tipo de herdeiro planar descendente de um plano de Axis, o Plano da Lei.",
     "TraitDescriptionAquadynamic": "Esta armadura é projetada para uso debaixo d'água, com design simplificado e materiais flutuantes usados em lugares estratégicos. Você não aplica a penalidade da armadura para testes acrobatismo ou atletismo em água, ou líquidos similares.",
     "TraitDescriptionAquatic": "As criaturas aquáticas se sentem em casa debaixo d'água. Seus golpes desarmados, contundentes e cortantes não sofrem a penalidade usual de -2 por estarem debaixo d'água. As criaturas aquáticas conseguem respirar na água, mas não na superfície.",
@@ -4048,7 +3936,6 @@
     "TraitDescriptionCaligni": "Esses povos subterrâneos têm visão no escuro e alguns têm o poder para criar escuridão.",
     "TraitDescriptionCantrip": "Uma magia que você pode conjurar à vontade que é automaticamente elevada para a metade de seu nível arredondada para cima.",
     "TraitDescriptionCapacity": "Armas contendo o traço de Capacidade tipicamente tem múltiplos barris ou câmaras capazes de conter um cartucho de munição. Capacidade é sempre acompanhado de um número indicando a quantidade de barris ou câmaras. Após ser disparada, você pode selecionar o próximo barril ou câmara como uma ação de Interagir que não requer uma mão livre. Cada barril ou câmara pode ser recarregado após o disparo com uma ação de Interagir separada.",
-    "TraitDescriptionCatalyst": "Itens com o traço Catalisador são componentes de magia consumíveis que alteram ou amplificam magias específicas. Ativar um catalisador é parte de Conjurar uma Magia. O catalisador pode aumentar o número de ações requeridas para a conjuração, como indicado na listagem de Ativação do catalisador. Adicionalmente, a magia ganha componentes materiais se já não tinham ou adiciona o catalisador aos componentes existentes. Pelo catalisador se tornar parte do componente material, você pode sacá-lo como parte da conjuração.",
     "TraitDescriptionCatfolk": "Uma criatura com este traço é um membro da ancestralidade povo-felino. Povo-felinos são humanoides com características felinas.",
     "TraitDescriptionCelestial": "As criaturas oriundas dos planos sagrados ou que têm uma forte conexão com eles são chamadas de celestiais. Os celestiais podem sobreviver aos efeitos ambientais básicos dos planos da Esfera Exterior.",
     "TraitDescriptionCenser": "Incensários são recipientes decorativos, muitas vezes metálicos ou cerâmicos, em que o incenso é queimado. Um item com o traço de incensário deve ser preenchido com incenso para Ativá-lo, que acende o incenso e faz com que o incensário exale uma nuvem de fumaça.",
@@ -4078,12 +3965,10 @@
     "TraitDescriptionConsecration": "Uma magia de consagração melhora uma área por um longo período de tempo. Uma determinada área pode ter somente um único efeito de consagração ao mesmo tempo. O novo efeito tenta neutralizar qualquer outro existindo em áreas que se sobrepuserem.",
     "TraitDescriptionConstruct": "Um construto é uma criatura artificial energizada por uma força diferente de vitalidade ou vazio. Construtos são geralmente acéfalos; eles são imunes a dano de sangramento, efeitos de morte, doença, cura, ataques não-letais, veneno, vitalidade, vazio, e as condições condenado, drenado, fatigado, paralisado, enjoado e inconsciente; e podem ter Dureza baseado no material usado para construir seus corpos. Construtos não são criaturas vivas, nem mortos-vivos. Quando reduzidos a 0 Pontos de Vida, um construto é destruído.",
     "TraitDescriptionConsumable": "Um item com este traço pode ser usado somente uma vez. Exceto se especificado o contrário, ele é destruído após a ativação. Itens consumíveis incluem itens alquímicos e consumíveis mágicos como pergaminhos e talismãs. Quando um personagem criar itens consumíveis, ele pode criá-los em lotes de quatro.",
-    "TraitDescriptionContact": "Este veneno é transmitido ao contato com a pele.",
     "TraitDescriptionContingency": "Magias com este traço lhe dão uma ação durante seus efeitos, tipicamente uma reação com um acionamento especial. Elas tipicamente tem uma duração longa, tal qual 24 horas. Você só pode ter uma magia com o traço contingência, ou uma magia contingente, ativa por vez. Se você conjura outra magia com este traço ou contingência, a nova conjuração substitui a antiga.",
     "TraitDescriptionContract": "Um contrato é uma categoria de item que estabelece magicamente um acordo entre múltiplas partes e tipicamente garante benefícios mágicos.",
     "TraitDescriptionCriticalFusion": "Fusão crítica é um novo traço para armas de combinação que concedem duas opções adicionais para efeitos de especialização de crítico quando usando a forma corpo-a-corpo da arma de combinação para efetuar um golpe corpo-a-corpo enquanto a arma de fogo está carregada. Se você escolhe usar uma das duas opções, ela substitui o efeito de especialização de crítico normal do uso corpo-a-corpo. Primeiro, você pode descarregar a arma-de-fogo para criar um bang alto e concussão, e usar o efeito de especialização de crítico para armas de fogo ao invés da especialização do grupo que a arma corpo-a-corpo pertence. Segundo, você pode escolher descarregar a arma-de-fogo para aumentar a inércia de um acerto crítico ou atirar no seu oponente enquanto ataca corpo-a-corpo, dando 2 de dano adicional por dado de dano da arma. Ambas opções descarregam a arma-de-fogo, que tipicamente significa que você deve recarregá-la antes de atirar novamente.",
     "TraitDescriptionCurse": "Uma maldição é um efeito que impõe alguma aflição de longo prazo a uma criatura. Maldições sempre são mágicas e normalmente são resultado de uma magia ou armadilha. Efeitos com este traço podem ser removidos apenas por efeitos que afetam especificadamente maldições.",
-    "TraitDescriptionCursebound": "Magias com esse traço aumentam a severidade da sua maldição de oráculo quando você conjura. Geralmente, só magias de revelação possuem este traço. Você não pode conjurar uma magia ominosa se você não tiver a maldição de oráculo.",
     "TraitDescriptionCursed": "Um item com este traço é amaldiçoado para causar problemas ao seu dono. Uma maldição não é detectada quando o item é identificado, embora um sucesso crítico revele tanto a presença quanto a natureza exata da maldição. Itens amaldiçoados não podem ser descartados após terem sido acionados ou investidos na primeira vez. O item só pode ser removido se a maldição for removida.",
     "TraitDescriptionDaemon": "Uma família de demônios gerados no plano desolado de Abaddon, a maioria dos daemon são irremediavelmente profanos. Eles geralmente possuem visão no escuro e fraqueza contra sagrado.",
     "TraitDescriptionDarkness": "Efeitos de escuridão extinguem luz não-mágica na área e podem neutralizar luz mágica menos poderosa. Você normalmente deve mirar luz mágica com sua escuridão mágica diretamente para neutralizar a luz, mas algumas magias de escuridão tentam neutralizar luz automaticamente.",
@@ -4105,6 +3990,7 @@
     "TraitDescriptionDoubleBarrel": "Essa arma tem dois barreis que são carregados separadamente. Você pode atirar ambos barris de uma arma de barril-duplo em um único golpe para aumentar o dado de dano em um grau. Se a arma tem o traço Fatal, isso aumenta o dado fatal em um grau.",
     "TraitDescriptionDowntime": "Uma atividade com este traço leva um dia ou mais e pode ser usada somente durante o recesso.",
     "TraitDescriptionDragon": "Dragões são criaturas reptilianas, frequentemente aladas ou com o poder de voar. A maioria pode exalar energia mágica e é imune a sono e paralisia.",
+    "TraitDescriptionDragonblood": "Uma criatura com este traço possui a herança versátil draconato. Estas criaturas nascem de uma linhagem dracônica, e muitas vezes têm aparências draconianas.",
     "TraitDescriptionDromaar": "Uma criatura com este traço possui a herança versátil dromaar. Dromaars são de ascendência mista, incluindo orcs ou outros dromaars. Uma habilidade com este traço pode ser usada ou selecionada apenas por dromaars.",
     "TraitDescriptionDrug": "Um veneno que concede benefícios, porém com efeitos colaterais a longo prazo. Quando uma criatura utiliza uma droga, ela deve rolar um teste contra vício.",
     "TraitDescriptionDruid": "Esse traço indica habilidades da classe druida.",
@@ -4160,7 +4046,7 @@
     "TraitDescriptionGhoul": "Carniçais são criaturas vis de mortos-vivos que se alimentam de carne.",
     "TraitDescriptionGhul": "Morto-vivo ganancioso e glutão originalmente formado de um gênio.",
     "TraitDescriptionGiant": "Os gigantes são criaturas humanoides massivas.",
-    "TraitDescriptionGnoll": "Gnolls são humanoides que lembram hienas.",
+    "TraitDescriptionGnoll": "Kholos são humanoides que se assemelham a hienas.",
     "TraitDescriptionGnome": "Uma criatura com este traço é membro da ancestralidade gnomo. Gnomos são um povo pequeno habilidoso com magia que busca novas experiência e que normalmente possuem visão no escuro. Uma habilidade com este traço pode ser usada ou selecionada somente por gnomos. Um item com este traço é criado e usado por gnomos.",
     "TraitDescriptionGoblin": "Uma criatura com este traço é um goblinoide pequeno e frenético. Goblins costumam ter visão no escuro. Uma habilidade com este traço pode ser usada ou selecionada apenas por goblins. Um item com este traço é criado e usado por goblins.",
     "TraitDescriptionGoloma": "Humanoides insulares que portam incontáveis olhos.",
@@ -4168,7 +4054,6 @@
     "TraitDescriptionGrapple": "Você pode usar esta arma para Agarrar com a perícia Atletismo mesmo se não tiver uma mão livre. Isto utiliza o alcance da arma (se for diferente do seu) e adiciona o bônus de item dela que é aplicado a rolagens de ataque (se houver) como um bônus de item aplicado ao seu teste de Atletismo. Se obtiver uma falha crítica no teste para Agarrar enquanto usar essa arma, você pode escolher soltá-la para sofrer os efeitos de uma falha em vez dos efeitos de uma falha crítica.",
     "TraitDescriptionGremlin": "Cruéis e travessos, os gremlins são feéricos que se adaptaram à vida no Universo.",
     "TraitDescriptionGrimoire": "Grimórios são ferramentas uteis para qualquer usuário de magia escrever encantações e runas de poder, mas onde a maioria dos tomos não é nada mais que tinta no papel, grimórios absorveram o encanto das conjurações descritas nele — encantos que conjuradores sábios podem usar para melhorar suas magias.",
-    "TraitDescriptionGrippli": "Gripplis são uma família de humanoides-anfíbios",
     "TraitDescriptionGunslinger": "Isso indica habilidades da classe Pistoleiro.",
     "TraitDescriptionHag": "Esses conjuradores malévolos formam coventículos.",
     "TraitDescriptionHalfling": "Uma criatura com este traço é membro da ancestralidade halfling. Halflings são um povo pequenino de andarilhos amistosos considerados sortudos. Uma habilidade com este traço pode ser usada ou selecionada somente por halflings. Um item com este traço é criado e usado por halflings.",
@@ -4177,7 +4062,6 @@
     "TraitDescriptionHaunt": "Um perigo com este traço é um eco espiritual, frequentemente de alguém com uma morte trágica. Colocar uma assombração para descansar frequentemente envolve resolver assuntos inacabados da assombração. Um assombração que não tenha sido devidamente colocada para descansar sempre retorna após algum tempo.",
     "TraitDescriptionHealing": "Um efeito de cura restaura o corpo de uma criatura, normalmente ao restaurar Pontos de Vida, mas às vezes pode remover doenças ou outros efeitos debilitantes.",
     "TraitDescriptionHefty": "Um escudo robusto é tão pesado que levantá-lo requer mais esforço. Levantar um Escudo com o traço robusto é uma atividade de 2 ações, a menos que sua pontuação de Força seja igual ou maior que o valor do traço.",
-    "TraitDescriptionHex": "Um sortilégio é um tipo de magia de foco que um bruxo pode conjurar.",
     "TraitDescriptionHindering": "Esta armadura é tão pesada e maciça que o atrasa não importa o quê. Você recebe uma penalidade -5 a todas as suas Velocidades (até um mínimo de uma velocidade de 5 pés). Isso é separado e adicionado à penalidade da Velocidade da armadura, e afeta você mesmo que sua Força ou uma habilidade permita reduzir, ou ignorar a penalidade da Velocidade da Armadura.",
     "TraitDescriptionHobgoblin": "Uma criatura com esse atributo é um goblinoide alto e militarista. Hobgoblins tendem a ter visão no escuro.",
     "TraitDescriptionHoly": "Os efeitos com o traço sagrado estão ligados a poderosas forças mágicas de benevolência e virtude. Eles frequentemente têm efeitos mais fortes em criaturas profanas. Criaturas com este traço são fortemente dedicadas a causas sagradas e muitas vezes têm fraqueza a profano. Se uma criatura com fraqueza a sagrado usar um item ou efeito sagrado, ela recebe dano de sua fraqueza.",
@@ -4190,17 +4074,11 @@
     "TraitDescriptionIncapacitation": "Uma habilidade com este traço pode tirar um personagem da luta ou até mesmo matá-lo, e é mais difícil de se usar contra um personagem mais poderoso. Se uma magia tiver o traço incapacitação, qualquer criatura que tenha nível maior do que o dobro do nível da magia trata o resultado do teste dele para impedir que seja incapacitada pela magia como um grau de sucesso melhor, ou o resultado de qualquer teste feito pelo conjurador para incapacitá-la como um grau de sucesso pior. Se qualquer outro efeito tiver o traço incapacitação, uma criatura de nível superior ao da criatura, item ou perigo gerando o efeito recebe os mesmos benefícios.",
     "TraitDescriptionIncarnate": "Uma magia com o traço encarnado é similar em tema a magias que convocam criaturas, mas não conjura um lacaio com o traço Convocado. Ao invés disso, quando convocado, a criatura encarnada toma sua ação de Chegada quando você termina de Conjurar a Magia. No final do seu próximo turno, a criatura encarnada pode Dar um Passo, Andar, ou usar ação para outro tipo de movimento (tal qual Escalada ou Escavar), e então toma sua ação de Partida. A magia então termina. Os nomes de ações especificas de Chegada e Partida são listadas em itálico após a palavra “Chegar” ou “Partir”, respectivamente, junto com qualquer traços. Uma criatura convocada por uma magia encarnada age conforme seus interesses, direciona seus efeitos para longe de você e seus aliados conforme o possível, e pode ouvir seus pedidos, mas toma suas próprias decisões no fim das contas. Se a magia indica que o encarnado toma uma decisão, o MJ determina o que o encarnado faria. Ele pode se tornar mais propenso a fazer precisamente como você deseja ao longo de múltiplas convocações. O encarnado não é uma criatura completa. Não pode tomar outras ações, nem ser alvejado ou ferido por Golpes, magias, ou outros efeitos exceto caso possam alvejar ou terminar um efeito mágico. (tal qual dissipar magia). Tem um tamanho pelos propósitos de determinar seu posicionamento para efeitos, mas não bloqueia movimento. Se aplicável, os efeitos do encarnado usam o seu CD de magias e seu ataque mágico.",
     "TraitDescriptionIncorporeal": "Uma criatura ou objeto incorpóreo não possui forma física. Ela pode passar por objetos sólidos, incluindo paredes. Quando dentro de um objeto, uma criatura incorpórea não pode perceber, atacar ou interagir com nada fora do objeto, e se começar o seu turno dentro de um objeto, fica lento 1 até o final de seu turno. Uma criatura corpórea e outra incorpórea podem passar um pelo outro, mas não podem terminar seu movimento no espaço do outro. Uma criatura incorpórea não pode fazer testes baseados em Força contra objetos ou criaturas físicas—apenas incorpóreas—ao menos que o objeto em questão tenha a propriedade toque fantasma. Da mesma forma, uma criatura corpórea não pode fazer testes baseados em Força contra objetos ou criaturas incorpóreas. Criaturas incorpóreas geralmente são imunes a efeitos ou condições que exigem um corpo, como doença, veneno e dano de precisão. Elas normalmente tem resistência contra todo o dano (exceto dano de força, dano espiritual, dano de Golpes com uma runa de propriedade toque fantasma), sendo dobrada contra dano não-mágico.",
-    "TraitDescriptionInfused": "Você criou um item alquímico com o traço infundido usando seus reagentes infundidos, e ele funciona por um tempo limitado antes de ficar inerte. Quaisquer efeitos não-permanentes de seus itens alquímicos infundidos, com a exceção de aflições como venenos de ação lenta, se encerram quando você fizer suas preparações diárias novamente.",
     "TraitDescriptionInfusion": "Ações com o traço de infusão modificam seus impulsos de cineticista. Você deve usar uma ação de infusão diretamente antes da ação de impulso que deseja alterar. Se você usar qualquer ação (incluindo ações e reações livres) que não seja uma ação de impulso diretamente depois, você desperdiça os benefícios da ação de infusão. Qualquer efeito adicional adicionado por uma ação de infusão faz parte do efeito do impulso, não da própria ação de infusão.",
-    "TraitDescriptionIngested": "Esse veneno afeta alguém ao ser comido ou bebido.",
-    "TraitDescriptionInhaled": "Esse veneno afeta alguém ao ser respirado.",
-    "TraitDescriptionInjection": "Esta arma pode ser preenchida de líquido, geralmente de um veneno de ferimento. Imediatamente após um ataque bem-sucedido com a arma, você pode injetar o alvo com o conteúdo carregado com uma única ação de Interação. (Se o alvo for voluntária, a injeção leva apenas um total de ação de Interação.) Recarregar a arma com uma nova substância requer 3 ações de Interação e usa duas mãos.",
-    "TraitDescriptionInjury": "Este veneno é transmitido através de um dano causado ao recipiente.",
     "TraitDescriptionInscribed": "A armadura ou escudo foram tratados para poderem ser inscritos com símbolos mágicos usando o mesmo método de Manufatura de um pergaminho. Traje inscrito pode segurar um pergaminho inscrito nele. Você precisa de uma mão livre para Ativar o pergaminho, mas você não precisa Interagir para desenhá-lo. Você também pode Ativar a magia para apagar o pergaminho atual da armadura. Você não pode inscrever um novo pergaminho na armadura se um pergaminho estiver atualmente inscrito nela ou se a armadura estiver quebrada.",
     "TraitDescriptionIntegrated": "Este escudo foi artesonado para incluir uma arma em sua construção, que pode funcionar como uma arma anexada, mas não pode ser removida do escudo.",
     "TraitDescriptionIntelligent": "Um item comeste traço é inteligente e tem sua própria vontade e personalidade, também como várias estatísticas que muitos itens não têm. Itens Inteligentes não podem ser manufaturados por meios normais, e são sempre raros ou únicos.",
     "TraitDescriptionInventor": "Isso indica habilidades da classe Inventor.",
-    "TraitDescriptionInvested": "Um personagem pode vestir somente 10 itens mágicos que tenham o traço investido. Um personagem não recebe nenhum dos efeitos mágicos do item (e nem pode ativá-lo) se não tiver investido nele — embora ainda receba os benefícios físicos normais por vestir um item desse tipo (por exemplo, um chapéu ainda protege sua cabeça da chuva).",
     "TraitDescriptionInvestigator": "Esse traço indica habilidades da classe investigador.",
     "TraitDescriptionJousting": "A arma é apropriada para combates montados com uma sela ou meios similares. Quando estiver montado, se tiver se movido pelo menos 10 pés na ação anterior ao seu ataque, adicione um bônus de circunstância ao dano desse ataque igual à quantidade de dados de dano dessa arma. Além disso, enquanto estiver montado, você pode empunhar a arma em uma mão, mudando o dado de dano para o valor listado.",
     "TraitDescriptionKashrishi": "Uma ancestralidade corpulenta portando chifres cristalinos característicos, com inerentes habilidades psíquicas.",
@@ -4226,7 +4104,6 @@
     "TraitDescriptionMetal": "Efeitos com o traço de metal conjuram ou manipulam metal. Efeitos que manipulam metal não têm efeito em uma área sem metal. Criaturas com esta característica consistem principalmente de metal ou têm uma conexão com metal mágico.",
     "TraitDescriptionMindless": "Uma criatura acéfala tem atributos mentais programados ou rudimentares. A maioria, se não todos seus modificadores de atributos mentais são -5. Eles são imunes a todos efeitos mentais.",
     "TraitDescriptionMindshift": "Uma ação com este traço pode sempre ser alteradas para usar a força bruta da sua mente. Quando você toma essa ação, você pode escolher trocar qualquer dano que ela dá para dano mental, dando-lhe o traço mental, e trocando qualquer salvamento para um de Vontade. A ação perde qualquer traço que combine com os tipos de dano que não dê mais.",
-    "TraitDescriptionMinion": "Lacaios são criaturas que diretamente servem outra. Uma criatura com este traço pode usar somente 2 ações por turno, não pode usar reações e não podem atuar quando não for o turno do seu personagem. Seu lacaio age no turno do seu personagem, uma vez por turno, quando você gastar uma ação para emitir comandos. Para um companheiro animal, você Comanda um Animal; para um lacaio que seja um efeito de item mágico ou magia, como um lacaio convocado, você Sustenta uma Magia ou Sustenta uma Ativação; e se não for especificado de outra forma, você emite um comando verbal, sendo uma ação única com os traços auditivo e concentração. Se não receberem comandos, por padrão seus lacaios não usam nenhuma ação a não ser para se defenderem ou escaparem de perigos óbvios. Se forem deixados sem atenção por pelo menos 1 minuto, lacaios acéfalos não agem, animais seguem seus instintos e lacaios inteligentes agem como quiserem. Um lacaio não pode controlar outras criaturas.",
     "TraitDescriptionMinotaur": "Minotauros são humanoides bovinos com chifres e um domínio sobre labirintos e quebra-cabeças.",
     "TraitDescriptionMisfortune": "Um efeito de infortúnio altera prejudicialmente como você rola seus dados. Você nunca pode ter mais de um efeito de infortúnio alterando uma mesma rolagem. Se múltiplos efeitos de infortúnio fossem se aplicar, o MJ deve escolher qual é pior e aplicá-lo. Se um efeito de fortuna e um efeito de infortúnio se aplicarem à mesma rolagem, as duas se cancelam e você rola normalmente.",
     "TraitDescriptionMissive": "A missiva é um pedaço de estação mágica que deve ser criada e composta para que possa ser ativada. Todos os mísseis têm os traços míssel e consumível. Os mísseis são muitas vezes construídos de papel, pergaminho ou veludo, mas qualquer outro fino, material portátil que pode armazenar ou incorporar sobre ele pode ser transformado em mísseis. Depois de ser elaborado, a carta é uma folha em branco até que uma mensagem seja composta, completando sua mágica.",
@@ -4305,7 +4182,6 @@
     "TraitDescriptionReflection": "Uma criatura com este traço tem a herança versátil Reflexo. Reflexos são seres copias de pessoas vivas, seja por clonagem, duplicação planar, ou outro mecanismo. Uma habilidade com este traço pode ser usada e selecionada somente por Reflexos.",
     "TraitDescriptionRelic": "Um item com o traço relíquia cresce em poder com seu portador.",
     "TraitDescriptionReload": "Embora todas as armas precisem de algum tempo para ficarem prontas, muitas armas à distância também precisam ser carregadas e recarregadas. Esta seção indica quantas ações de Interagir levam para recarregar essas armas. Isto pode ser 0 se sacar uma munição e disparar a arma forem parte da mesma ação. Se um item precisar de 2 ou mais ações para recarregar, o MJ determina se elas devem ser feitas juntas como uma atividade ou se você pode gastar algumas destas ações durante um turno e o resto durante seu próximo turno.",
-    "TraitDescriptionRepeating": "A repeating weapon is typically a type of crossbow that has a shorter reload time. These weapons can’t be loaded with individual bolts like other crossbows; instead, they require a magazine of specialized ammunition to be loaded into a special slot. Once that magazine is in place, the ammunition is automatically loaded each time the weapon is cocked to fire, reducing its reload to the value in its reload entry (typically 0). When the ammunition runs out, a new magazine must be loaded, which requires a free hand and 3 Interact actions (to remove the old magazine, retrieve the new magazine, and slot the new magazine in place). These actions don’t need to be consecutive.",
     "TraitDescriptionResonant": "Essa arma pode canalizar dano de energia. Você ganha a ação livre Conduzir Energia enquanto empunha uma arma ressonante.",
     "TraitDescriptionRevelation": "Efeitos com este traço veem coisas como elas realmente são.",
     "TraitDescriptionRogue": "Esse traço indica habilidades da classe ladino.",
@@ -4334,15 +4210,12 @@
     "TraitDescriptionSpellheart": "Spellhearts são itens permanentes que funcionam da mesma forma que os talismãs. Você aconserta uma ponta usando afixar uma atividade de Spellheart, que é de outra forma idêntica ao afixar um Talismã. O limite de um talismã por item subsiste — um item pode ter um feitiço ou um talismão, não ambos. Ao lançar um canhão de um folheto ortográfico, você pode usar o seu próprio rolo de ataque feitiço ou DC se for maior. Fabricar uma ponta de magia requer os feitiços que a ponta pode lançar. Por exemplo, uma maior coroa de cinco penas requer ar andando, explosão de luz e parede de vento.",
     "TraitDescriptionSpellshape": "As ações de moldamagia ajustam as propriedades de suas magias. Você deve usar uma ação de moldamagia diretamente antes de conjurar a magia que deseja alterar. Se você usar qualquer ação (incluindo ações livres e reações) além de lançar uma magia logo após, você desperdiçará os benefícios da ação de moldamagia. O benefício também é perdido se o seu turno terminar antes de você lançar a magia. Quaisquer efeitos adicionais adicionados por uma ação de moldamagia fazem parte do efeito da magia, não da ação de forma mágica em si.",
     "TraitDescriptionSpirit": "Efeitos com este traço podem afetar criaturas com essência espiritual e causar dano espiritual. Uma criatura com este traço é definida pela sua essência espiritual. As criaturas espirituais muitas vezes carecem de forma material.",
-    "TraitDescriptionSplash": "Quando usar uma arma de arremesso com o traço respingo, você não adiciona seu modificador de Força à rolagem de dano. Se um ataque com uma arma de respingo falhar, obtiver um sucesso ou obtiver um sucesso crítico, todas as criaturas a até 5 pés do alvo (incluindo o alvo) sofrem o dano de respingo listado. Em uma falha (mas não em uma falha crítica), o alvo do ataque ainda sofre o dano de respingo. Some o dano de respingo ao dano inicial contra o alvo antes de aplicar as fraquezas ou resistências do alvo. Você não multiplica dano de respingo em um acerto crítico.",
     "TraitDescriptionSplash10": "Quando usar uma arma de arremesso com o traço respingo, você não adiciona seu modificador de Força à rolagem de dano. Se um ataque com uma arma de respingo falhar, obtiver um sucesso ou obtiver um sucesso crítico, todas as criaturas a até 10 pés do alvo (incluindo o alvo) sofrem o dano de respingo listado. Em uma falha (mas não em uma falha crítica), o alvo do ataque ainda sofre o dano de respingo. Some o dano de respingo ao dano inicial contra o alvo antes de aplicar as fraquezas ou resistências do alvo. Você não multiplica dano de respingo em um acerto crítico.",
     "TraitDescriptionSprite": "Uma família de diminutos féerios alados com uma forte conexão à magia primal.",
     "TraitDescriptionStaff": "Este item mágico contém magias de um tema em particular e permite que um conjurador lance novas magias ao preparar um cajado.",
     "TraitDescriptionStance": "Uma postura é uma estratégia geral de combate que você adota ao usar uma ação com o traço postura, permanecendo nela por um certo tempo. A postura é encerrada se você for nocauteado, se os requerimentos dela (se houver) forem violados, se o encontro terminar ou se você entrar em uma nova postura — o que ocorrer primeiro. Após usar uma ação com o traço postura, você não pode usar outra por 1 rodada. Você pode entrar ou estar em uma postura somente durante o modo de encontro.",
     "TraitDescriptionSteam": "Itens com este traço são alimentados por motores que fervem água para produzir vapor e mover seus componentes.",
     "TraitDescriptionStrix": "Humanoides alados, a maioria dos quais vivem em e ao redor de Cheliax.",
-    "TraitDescriptionStructure": "Um item com o traço de estrutura cria um edifício mágico ou outra estrutura quando ativado. O item deve ser ativado em um lote de terra, livre de outras estruturas. A estrutura adapta-se ao terreno natural, adoptando as necessidades estruturais da sua construção. A estrutura se ajusta em torno de pequenas características, como lagos ou aros de pedra, mas não pode ser criada em água ou outras superfícies não sólidas. Se ativado na neve, dunas de areia, ou outras superfícies suaves com uma superfície sólida debaixo da neve, a fundação da estrutura (se houver) atinge o solo sólido. Se um item com este traço estiver ativado em uma superfície sólida mas instável, como um pântano ou uma área atormentada por árvores, rolar um @Check[flat|dc:3]{Teste Simples} todos os dias; em caso de fracasso, a estrutura começa a afundar-se ou a desmoronar-se. A estrutura não prejudica criaturas dentro da área quando ela aparece e não pode ser criada dentro de uma multidão ou em uma área densamente povoada. Qualquer criatura pega inadvertidamente dentro da estrutura quando o item é ativado acaba desferido dentro da estrutura completa e sempre tem um caminho claro de escape. Uma criatura dentro da estrutura quando a ativação termina não é prejudicada, e é inofensivo no solo se se situar a um nível superior da estrutura.",
-    "TraitDescriptionSubjectiveGravity": "Em planos com este traço, todos os corpos de massa podem ser centros de gravidade com a mesma quantidade de força, mas apenas se for uma criatura sem-mente voluntária.",
     "TraitDescriptionSubtle": "Uma magia com o traço sutil pode ser lançada sem encantamentos e não possui manifestações óbvias.",
     "TraitDescriptionSuli": "Sulis são herdeiros planares descendentes de jann.",
     "TraitDescriptionSurki": "Surkis são uma ancestralidade subterrânea insetoide que absorve magia ambiente e evolui adaptações únicas.",
@@ -4402,7 +4275,6 @@
     "TraitDescriptionWood": "Efeitos com o traço madeira conjuram ou manipulam madeira. Efeitos que manipulam madeira não possuem efeito em uma área sem madeira. Criaturas com este traço consistem principalmente de madeira ou têm uma conexão com madeira mágica.",
     "TraitDescriptionXulgath": "Essas criaturas reptilianas subterrâneas tendem a ter visão no escuro e cheiram mal.",
     "TraitDescriptionZombie": "Esses mortos-vivos são cadáveres apodrecidos sem mente que têm fome de carne viva.",
-    "TraitCenser": "Incensário",
     "TraitDetection": "Detecção",
     "TraitDeviant": "Divergente",
     "TraitDevil": "Diabo",
@@ -4415,6 +4287,7 @@
     "TraitDoubleBarrel": "Barril Duplo",
     "TraitDowntime": "Recesso",
     "TraitDragon": "Dragão",
+    "TraitDragonblood": "Draconato",
     "TraitDream": "Sonho",
     "TraitDromaar": "Dromaar",
     "TraitDrow": "Drow",
@@ -5103,6 +4976,7 @@
         "butterfly-sword": "Espada Borboleta",
         "buugeng": "Buugeng",
         "cane-pistol": "Cane Pistol",
+        "capturing-spetum": "Espeto Capturador",
         "chain-sword": "Espada-Corrente",
         "chakram": "Chakram",
         "chakri": "Chakri",
@@ -5143,6 +5017,7 @@
         "exquisite-sword-cane-sheath": "Exquisite Sword Cane Sheath",
         "falcata": "Falcata",
         "falchion": "Bracamante",
+        "fangs": "Presas",
         "fangwire": "Fangwire",
         "fauchard": "Foucinho",
         "feng-huo-lun": "Feng Huo Lun",
@@ -5227,7 +5102,6 @@
         "maul": "Malho",
         "meteor-hammer": "Martelo Meteoro",
         "mikazuki": "Mikazuki",
-        "mithral-tree": "Mithral Tree",
         "monkeys-fist": "Monkey's Fist",
         "morningstar": "Maça-estrela",
         "naginata": "Naginata",
@@ -5287,6 +5161,7 @@
         "spiked-chain": "Corrente com Cravos",
         "spiked-gauntlet": "Manopla com Cravos",
         "spiral-rapier": "Rapieira Espiral",
+        "spirit-thresher": "Debulhadora de Espíritos",
         "spoon-gun": "Spoon Gun",
         "spraysling": "Pulverização",
         "staff": "Cajado",
@@ -5377,10 +5252,7 @@
         "Name": "Eco Ancestral"
       },
       "anchoring": {
-        "Name": "Anchoring",
-        "Note": {
-          "criticalSuccess": "Se você acerta um alvo criticamente enquanto empunha uma arma de ancoragem, a arma conjura <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancora Dimensional}</em> no alvo (@Check[will|dc:27|name:Runa de Ancoragem]{Vontade}, modificador de neutralização [[/r 1d20+17 # Teste de Neutralização da Runa de Ancoragem]]{+17})."
-        }
+        "Name": "Anchoring"
       },
       "ashen": {
         "Name": "Cinza",
@@ -5391,7 +5263,6 @@
       "astral": {
         "Name": "Astral",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
           "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
         }
       },
@@ -5436,6 +5307,9 @@
         "Note": {
           "criticalSuccess": "Quando você acerta criticamente um alvo com essa arma, seu alvo torna-se @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Desajeitado 1} e @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfraquecido1} até o final do seu próximo turno."
         }
+      },
+      "cunning": {
+        "Name": "Astuto"
       },
       "dancing": {
         "Name": "Animada"
@@ -5499,11 +5373,7 @@
         }
       },
       "greaterAnchoring": {
-        "Name": "Ancoragem Maior",
-        "Note": {
-          "criticalSuccess": "Quando você acerta criticamente um alvo com uma arma com a runa ancorada, a arma conjura um nível 8 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Âncora Dimensional}</em> sobre o alvo (@Check[will|dc:38|name:Runa de Ancoragem Maior]{Vontade}, modificador de neutralização [[/r 1d20+28 # Teste de Neutralização da Runa de Ancoragem]]{+28}), exceto que se o alvo for bem sucedido criticamente, ele se salvar, em vez de não ter nenhum efeito, o <em>âncora dimensional</em> dura 1 rodada.",
-          "success": "<strong>Runa maior de ancoragem</strong> quando você acerta um alvo com a arma mas não acerta criticamente, o alvo é afetado pelo nível 4 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Âncora Dimensional}</em> para 1 rodada sem um salvamento (counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
-        }
+        "Name": "Ancoragem Maior"
       },
       "greaterAshen": {
         "Name": "Cinza Maior",
@@ -5514,7 +5384,6 @@
       "greaterAstral": {
         "Name": "Astral Maior",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
           "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
         }
       },
@@ -5633,6 +5502,9 @@
           "Sword": "<strong>Runa Severa</strong> O alvo fica Desprevenido até o final do turno do portador da runa."
         }
       },
+      "hauling": {
+        "Name": "Transporte"
+      },
       "holy": {
         "Name": "Sagrado",
         "Note": {
@@ -5686,10 +5558,6 @@
       },
       "pacifying": {
         "Name": "Pacifying"
-      },
-      "quickstrike": {
-        "Name": "Velocidade",
-        "Note": "Enquanto estiver empunhando uma arma de golpe rápido, você ganha a condição @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}, mas você só pode usar a ação adicional concedida para realizar um Golpe com a arma gravada."
       },
       "returning": {
         "Name": "Retornante",

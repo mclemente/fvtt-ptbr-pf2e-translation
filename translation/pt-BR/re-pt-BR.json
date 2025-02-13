@@ -157,9 +157,6 @@
         "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
         "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
       },
-      "DaemonForm": {
-        "CeustodaemonDamageNote": "Qualquer Golpe bem-sucedido com as mandíbulas ou presas causa um adicional de @Damage[1d6[untyped] de dano, e você recebe a mesma quantidade de dano"
-      },
       "ElementEmbodied": {
         "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
         "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
@@ -223,8 +220,7 @@
           "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 4[persistent,fire]]] e [[/r (4[splash])[fire]]]{4 de dano de fogo de respingo}."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}.",
-          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
         }
       },
       "BioluminescenceBomb": {
@@ -260,17 +256,6 @@
         },
         "Moderate": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[electricity]]]{2 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
-        }
-      },
-      "CrystalShards": {
-        "Greater": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (5[splash])[piercing]]]{5 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +2 de bônus de item no próximo teste de Atletismo para Escalar."
-        },
-        "Major": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (6[splash])[piercing]]]{6 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +3 de bônus de item no próximo teste de Atletismo para Escalar."
-        },
-        "Moderate": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[piercing]]]{4 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +1 de bônus de item no próximo teste de Atletismo para Escalar."
         }
       },
       "DreadAmpoule": {
@@ -442,12 +427,56 @@
         "Greater": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*4d4)[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 3} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[4d4[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*2d4)[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
+        }
+      },
+      "SulfurBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[acid]]{3 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[acid]]{3 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[acid]]{1 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[acid]]{1 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[acid]]{4 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[acid]]{4 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[acid]]{2 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[acid]]{2 acid splash damage} e o alvo recebe uma penalidade de estado de -1 para testes de Percepção e rolagens de ataque até o final do próximo turno dele (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Efeito: Bomba de Enxofre})."
         }
       },
       "TallowBomb": {
         "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]], @Damage[(3[splash])[fire]]{3 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
-        }
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]], @Damage[(1[splash])[fire]]{1 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*4d4)[persistent,fire]], @Damage[(4[splash])[fire]]{4 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[4d4[persistent,fire]] e @Damage[(4[splash])[fire]]{4 fire splash damage}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*2d4)[persistent,fire]], @Damage[(2[splash])[fire]]{2 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
+        },
+        "criticalSuccess": "Em um acerto crítico, uma criatura viva que recebe dano persistente de fogo de uma bomba de sebo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em combustão e não pode reduzir o seu valor de enjoado para abaixo de 1 enquanto o dano persistente do fogo persistir."
       },
       "TanglefootBag": {
         "Greater": {
@@ -481,6 +510,42 @@
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[sonic]]]{2 de dano de respingo sônico} e todas as criaturas dentro de 3 m/10 pés devem obter sucesso em um teste de @Check[fortitude|dc:20|showDC:all] ou ficarão @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdas} até o fim de seu próximo turno."
         }
       },
+      "TwigjackSack": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*4)[bleed]] e @Damage[(3[splash])[piercing]]{3 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[4[bleed]] e @Damage[(3[splash])[piercing]]{3 piercing splash damage}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1)[bleed]] e @Damage[(1[splash])[piercing]]{1 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[1[bleed]] e @Damage[(1[splash])[piercing]]{1 piercing splash damage}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*5)[bleed]] e @Damage[(4[splash])[piercing]]{4 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[5[bleed]] e @Damage[(4[splash])[piercing]]{4 piercing splash damage}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3)[bleed]] e @Damage[(2[splash])[piercing]]{2 piercing splash damage}.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3[bleed]] e @Damage[(2[splash])[piercing]]{2 piercing splash damage}."
+        }
+      },
+      "VexingVapor": {
+        "Greater": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[mental]]{3 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[mental]]{3 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[mental]]{1 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(1[splash])[mental]]{1 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[mental]]{4 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(4[splash])[mental]]{4 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[mental]]{2 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura 1 minuto.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[(2[splash])[mental]]{2 mental splash damage} e o alvo deve ser bem-sucedido em um @Check[flat|dc:5] antes de tomar ações com o traço concentração, este efeito dura até o fim do próximo turno do alvo."
+        }
+      },
       "WaterBomb": {
         "Greater": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[bludgeoning]]]{3 de dano não-letal de respingo contundente}. A bomba extingue fogo não-mágico dentro da área de respingo."
@@ -509,6 +574,30 @@
       "White": "Branco",
       "Yellow": "Amarelo"
     },
+    "Dragon": {
+      "Adamantine": "Dragão de Adamante",
+      "Arcane": "Dragão Arcano",
+      "Black": "Dragão Negro",
+      "Blue": "Dragão Azul",
+      "Brass": "Dragão de Latão",
+      "Bronze": "Dragão de Bronze",
+      "Conspirator": "Dragão Conspirador",
+      "Copper": "Dragão de Cobre",
+      "Diabolic": "Dragão Diabólico",
+      "Divine": "Dragão Divino",
+      "Empyreal": "Dragão Empíreo",
+      "Fortune": "Dragão da Sorte",
+      "Gold": "Dragão Dourado",
+      "Green": "Dragão Verde",
+      "Horned": "Dragão Cornífero",
+      "Mirage": "Dragão das Miragens",
+      "Occult": "Dragão Oculto",
+      "Omen": "Dragão Agourento",
+      "Primal": "Dragão Primal",
+      "Red": "Dragão Vermelho",
+      "Silver": "Dragão Prateado",
+      "White": "Dragão Branco"
+    },
     "FeatDescription": {
       "Frequency": {
         "OncePerTurn": "uma vez por turno"
@@ -516,21 +605,37 @@
       "Requirements": {
         "Label": "Requerimentos"
       },
+      "Special": {
+        "Label": "Especial"
+      },
       "Trigger": {
         "Label": "Gatilho"
       }
     },
+    "GenericLabel": {
+      "Check": {
+        "Perception": "Teste de Percepção",
+        "SavingThrow": "Jogadas de Salvamento"
+      }
+    },
     "IWR": {
       "Custom": {
+        "AcidAndSpellsThatCauseRust": "ácido e magias que causam ferrugem",
         "AdamantineBludgeoning": "contundente de adamante",
         "AllDamageFromArcaneSpells": "todo o dano de magias arcanas",
+        "AllDamageFromFungus": "todos os danos de fungos",
         "AllDamageFromSpells": "todo dano de magias",
         "AllDamageFromUndead": "todo dano de mortos-vivos",
         "AllMagicalDamage": "todo dano mágico",
         "AllNonMagicalDamage": "todo dano não-mágico",
         "AllStrikeDamageFromUndeadCreatures": "todo o dano causado por Golpes feitos por criaturas mortas-vivas",
+        "AttacksDemons": "ataques por demônios",
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
+        "BludgeoningPiercingSlashing": "dano contundente, perfurante e cortante",
         "ColdIronBludgeoning": "contundente de ferro frio",
+        "CrystalHazards": "perigos de cristal",
+        "DraconicBreathWeapons": "armas de sopro dracônicas",
+        "HolyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante sagrado",
         "ImpulseFireFrom": "impulso de fogo de {origem}",
         "IngestedPoisons": "venenos ingeridos",
         "MagicalBludgeoning": "contundente mágico",
@@ -544,6 +649,7 @@
         "PhysicalRangedAttacks": "ataques físicos à distância",
         "RangedWeaponAttacks": "ataques à distância com armas",
         "Spirits": "espíritos",
+        "UnholyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante profano",
         "VoidZonKuthonFollowers": "vazio de seguidores de Zon-Kuthon"
       }
     },
@@ -566,14 +672,27 @@
       "AsoBerang": {
         "PhantomFlames": {
           "Fire": "Fogo",
-          "None": "Nenhuma",
           "Spirit": "Espírito"
-        }
+        },
+        "SpectralFlame": "Chama Espectral"
       },
       "BarghestFeed": "Quantas vezes o Barghest se alimentou?",
+      "BladeMagus": {
+        "ArcaneCascade": {
+          "Note": "Enquanto nesta postura, os ataques corpo a corpo do Magus da Lâmina causam @Damage[(4[splash])[fire]]{4 splash force} em inimigos adjacentes a seu alvo."
+        }
+      },
+      "BrainCollector": {
+        "BrainBlistersRemaining": "Pústulas Cerebrais Restantes"
+      },
       "Bunyip": {
         "CrocodileLegs": "Pernas de Crocodilo",
         "SnakeTail": "Cauda de Cobra"
+      },
+      "Calikang": {
+        "SixfoldFlurry": "Golpes não realizados?",
+        "SuspendedAnimationEnter": "Entrar em Animação Suspensa",
+        "SuspendedAnimationExit": "Sair da Animação Suspensa"
       },
       "Capritellix": {
         "ShiftMood": {
@@ -599,6 +718,7 @@
           "Boar": "Javali",
           "Cacodaemon": "Cacodaemon",
           "Cassisian": "Cassisiano",
+          "Cobra": "Serpente",
           "Dog": "Cachorro",
           "Dove": "Pombo",
           "Dragon": "Dragão",
@@ -640,8 +760,14 @@
           },
           "Faydhaan": "Faydhaan",
           "Fish": "Peixe",
+          "Fungus": "Fungo",
+          "Gancanagh": "Gancanagh",
+          "Gimmerling": "Gimmerling",
+          "Gosreg": "Gosreg",
+          "Gourd": "Cabaça",
           "Gylou": "Gylou",
           "Hag": "Estriga",
+          "Human": "Humano",
           "Humanoid": "Humanoide",
           "HumanoidLarge": "Humanoide Grande",
           "HumanoidMedium": "Humanoide Médio",
@@ -649,12 +775,15 @@
           "Hybrid": "Híbrida",
           "Ifrit": "Ifrit",
           "Imp": "Diabrete",
+          "Jaathoom": "Jaathoom",
           "Jann": "Jann",
           "Keketar": "Keketar",
           "LamiaMatriarch": "Matriarca Lâmia",
           "Leshy": "Leshy",
+          "LeshyMob": "Leshy Monstro",
           "Lizard": "Lagarto",
           "Mantis": "Louva-a-deus",
+          "Moose": "Alce",
           "Morrigna": "Morrigna",
           "Mushroom": "Cogumelo",
           "NaiadQueen": "Náiade Rainha",
@@ -662,16 +791,26 @@
           "ObjectTiny": "Objeto Inanimado Minúsculo",
           "Octopus": "Polvo",
           "Oni": "Oni",
+          "Orc": "Orc",
           "Owlbear": "Urso-Coruja",
           "Plant": "Planta",
           "PorcupineGiant": "Porco-espinho gigante",
+          "Pukwudgie": "Pukwudgie",
+          "RajaKrodha": "Raja-Krodha",
+          "Raktavarna": "Raktavarna",
           "Rat": "Rato",
           "Scorpion": "Escorpião",
           "Shark": "Tubarão",
+          "Spider": "Aranha",
           "Succubus": "Súcubo",
           "Tree": "Árvore",
           "Unicorn": "Unicórnio",
           "Vampire": "Vampiro",
+          "Vidileth": "Vidileth",
+          "Vilderavn": "Vilderavn",
+          "Voidworm": "Verne Nulo",
+          "Wasp": "Vespa",
+          "WingedHumanoid": "Humanóide Alado",
           "Wolf": "Lobo",
           "WolfDire": "Lobo Atroz"
         },
@@ -688,12 +827,16 @@
         "DragonHead": "Tradição Mágica da Cabeça do Dragão",
         "PrimalHead": "Tipo de Energia do Sopro do Dragão"
       },
+      "ChyzaeduAlienVestment": "Vestimenta Alienígena Partida",
       "ClayEffigy": {
         "SacredArt": {
           "NoSanctification": "Não Santificado"
         }
       },
       "ClockworkLostPlates": "Quantas placas foram perdidas?",
+      "ClockworkSerpent": {
+        "Coils": "Bobinas"
+      },
       "ClockworkWindUp": "Modo de Espera",
       "ConstructArmor": {
         "BrokenArmor": "Armadura de Construto Quebrada",
@@ -706,7 +849,18 @@
         "BrokenArmor": "Armadura Personalizada Quebrada",
         "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
+      "CyclopsBully": {
+        "TerrorizingSwing": "Se a criatura está @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada} e recebe dano, isso causa um dano adicional de 2d10 e ela é derrubada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}."
+      },
+      "DeadFaine": {
+        "TargetFeintOrTraitorousBetrayal": "Alvo desprevenido devido à Finta ou Traição Traiçoeira"
+      },
+      "DemonInfuseWeapons": "Causa dano caótico em vez de dano maligno",
       "DisplacedRobot": {
+        "DivertPower": {
+          "Fists": "Desviar Energia Para os Punhos",
+          "LaserBeam": "Desviar a Energia Para o Raio Laser"
+        },
         "Fists": "Punhos",
         "LaserBeam": "Feixe de Laser"
       },
@@ -726,25 +880,87 @@
       "FacetboundCascader": {
         "EnergyCharge": "Carga Energética"
       },
+      "Falrok": {
+        "LazuriteTerrainSwitch": "Em terrenos infundidos com lazurita"
+      },
       "FiveColorOrchidMantis": {
         "ColorShift": {
           "Black": "Preto - Água",
           "Green": "Verde - Madeira",
+          "None": "Nenhuma Cor Selecionada",
           "Red": "Vermelho - Fogo",
           "White": "Branco - Metal",
           "Yellow": "Amarelo - Terra"
         }
+      },
+      "GangUp": {
+        "TwoAllies": "Dois aliados estão ao alcance do alvo"
       },
       "GauChoRong": {
         "SubsumedTrait": {
           "Amphibious": "Anfíbio",
           "Animal": "Animal",
           "Aquatic": "Aquático",
-          "Humanoid": "Humanoide"
+          "Humanoid": "Humanoide",
+          "NoneOrOther": "Selecione manualmente a resistência, se aplicável"
         }
+      },
+      "GiantAnimatedStatueBrazier": "Braseiro aceso",
+      "GiantTardigrade": {
+        "TunState": {
+          "Dry": "Seco",
+          "Rehydrating": "Reidratado"
+        }
+      },
+      "GrimReaper": {
+        "InfuseWeapon": "Se o Ceifador atingir uma criatura com uma fraqueza a qualquer tipo específico de dano, o dano da foice conta como esse tipo de dano, para além do dano cortante."
+      },
+      "Hadrinnex": {
+        "RapidEvolution": {
+          "EnergyGland": "Evolução Rápida - Glândula Energética",
+          "Husk": "Evolução Rápida - Carapaça"
+        }
+      },
+      "HehShanBao": {
+        "UrbanLegend": {
+          "DisbelieveResistance": "A Resistência Física é Desacreditada.",
+          "DisbelieveSlashing": "O Dano Cortante é Desacreditado."
+        }
+      },
+      "HellboundAttorney": {
+        "OpeningStatementCriticalSuccess": "Sustentação de Abertura (Sucesso Crítico)"
+      },
+      "Herexen": {
+        "HereticSmite": "Empunhando a arma favorita de sua antiga divindade"
+      },
+      "HobgoblinFormationArea": "Formação vs. Efeitos de Área",
+      "Hryngar": {
+        "AlchemicalGrenade": "Tipo de Dano da Granada Alquímica"
+      },
+      "IoseffXarwin": {
+        "FulviasRing": {
+          "SavePossess": "Salvamento contra alvo em posse de um Anel de Fulvia",
+          "SaveWear": "Salvamento contra alvo usando um Anel de Fulvia",
+          "TargetPossess": "O alvo possui um Anel de Fulvia",
+          "TargetWear": "O alvo está usando um Anel de Fulvia"
+        }
+      },
+      "Ivarsa": {
+        "ArcaneCascade": {
+          "Note": "Enquanto nesta postura, os ataques corpo a corpo de Ivarsa causam @Damage[(4[splash])[fire]]{4 splash fire} em inimigos adjacentes a seu alvo."
+        }
+      },
+      "KallasDevil": {
+        "DisguisedAsChild": "Disfarçado como uma Criança",
+        "LyingAboutLoathsomeStench": "Mentir sobre Fedor Repugnante"
+      },
+      "KrampusPunishTheNaughty": "O Krampus rola um teste contra um alvo Travesso",
+      "LegionArchon": {
+        "FlameOfJustice": "Chama da Justiça - Acerto Crítico"
       },
       "LemureSubservience": {
         "Defend": "Defender",
+        "Fetch": "Pegar",
         "Kill": "Matar"
       },
       "MarilithFocusedAssault": {
@@ -757,26 +973,105 @@
         "Two": "2 Espadas Longas"
       },
       "Marut": {
-        "Lightning": "Relâmpagos"
+        "Lightning": "Relâmpagos",
+        "Thunder": "Relâmpago"
+      },
+      "MinotaurHuntedFear": {
+        "Demoralize": "O alvo está em um labirinto ou em outra estrutura de difícil navegação",
+        "Survival": "Para Evitar se Perder"
+      },
+      "Necrohulk": {
+        "AlchemicalCartridgeRuptured": "Cartucho Alquímico Rebentado"
       },
       "Nindoru": {
         "Meokdan": {
           "BoneClub": {
-            "New": "Novo"
+            "Label": "Manifestar Porrete de Osso",
+            "New": "Novo",
+            "Shattered": "Estilhaçado",
+            "ShatteredLabel": "Porrete de Osso Estilhaçado"
           }
         }
       },
       "NopperaBo": {
         "Impersonator": {
+          "AbilityPrompt": "Selecionar uma Habilidade a Ser Imitada",
+          "Armored": "Blindado",
           "AttackOfOpportunity": "Ataque de Oportunidade",
-          "SneakAttack": "Ataque Furtivo"
+          "Commander": "Comandante",
+          "ElementalAttack": "Ataque Elemental",
+          "ShieldCarrier": "Escudeiro",
+          "SneakAttack": "Ataque Furtivo",
+          "WeaponPerk": "Benefício de Arma",
+          "WeaponPerkPrompt": "Selecione um Traço Para a Arma"
         }
+      },
+      "PaleStranger": {
+        "TargetMurderedPaleStranger": "O Alvo Assassinou o Forasteiro Esquálido (Pale Stranger)",
+        "TargetNeverKilled": "O Alvo Nunca Assassinou"
       },
       "PlanarScion": {
         "Duskwalker": {
           "HuntPrey": {
             "AC": "Presa Designada ataca ao Crepuscular",
             "Checks": "Crepuscular rola teste contra a sua Presa Designada"
+          },
+          "Immunity": "efeitos que transformariam seu corpo ou alma em mortos-vivos",
+          "SpiritHunter": "O alvo é indicado pelo Caçador de Espíritos"
+        }
+      },
+      "PoltergeistTelekineticStorm": {
+        "MultiAttackLabel": "Tempestade Telecinética - Múltiplos Alvos",
+        "MultipleTargets": "Alvos Múltiplos",
+        "SingleAttackEffect": "O ataque causa @Damage[1d12[untyped]] de dano em uma falha.",
+        "SingleAttackLabel": "Tempestade Telecinética - Alvo Único",
+        "SingleTarget": "Alvo Único"
+      },
+      "PunishingStrike": {
+        "Note": "O ataque imprudente faz com que o usuário fique @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do próximo turno. Ao realizar um acerto, é possível adicionar o traço @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ao ataque"
+      },
+      "RaptorGuardWight": {
+        "TerrorMaster": "A Guarda de Raptor está usando seu elmo de crânio de dinossauro."
+      },
+      "RebornDevotee": {
+        "RebornDevoteeFocusedAssault": "Número de Perseguidos"
+      },
+      "RuneGiant": {
+        "InvokeRune": {
+          "Prompt": "Selecione uma runa.",
+          "RuneOfDestruction": {
+            "Label": "Runa da Destruição",
+            "Text": "Uma criatura atingida com a arma é @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} a menos que seja bem sucedida em @Check[fortitude|dc:35|name:Rune of Destruction|traits:arcane,electricity]."
+          },
+          "RuneOfFlames": {
+            "Label": "Runa das Chamas"
+          }
+        }
+      },
+      "ShockerLizard": {
+        "ShockingBurst": {
+          "Four": "Quatro Lagartos",
+          "One": "Um Lagarto",
+          "Three": "Três Lagartos",
+          "Two": "Dois Lagartos"
+        }
+      },
+      "Silene": {
+        "LumberjacksBane": "Alvo está empunhando um machado"
+      },
+      "SovereignDragon": {
+        "InspireEnvoyDragonAdult": "Dragão Soberano Adulto",
+        "InspireEnvoyDragonAncient": "Dragão Soberano Ancião",
+        "InspireEnvoyDragonChoice": "Dragão Concedendo o Efeito",
+        "InspireEnvoyEffectAC": "Bônus para AC",
+        "InspireEnvoyEffectAttack": "Bônus de Ataque",
+        "InspireEnvoyEffectChoice": "Efeito Concedido",
+        "InspireEnvoyEffectPercWillCha": "Bônus para Testes de Vontade, Percepção e Testes de Atributo de Carisma"
+      },
+      "StargutHydra": {
+        "SkymetalMetamorphosis": {
+          "Siccatite": {
+            "Superheated": "Superaquecido"
           }
         }
       },
@@ -802,23 +1097,70 @@
           "Secretive": "Sigiloso",
           "Suspicious": "Suspeito"
         }
+      },
+      "TreerazerPlantAttack": "Atacar uma Planta",
+      "Tyrafdir": {
+        "DeceptiveJaws": "Mandíbulas Enganadoras"
+      },
+      "Vordine": {
+        "TridentOfDis": {
+          "NoAlly": "Nenhum Aliado",
+          "UnholyAlly": "Aliado Profano"
+        }
+      },
+      "Warsworn": {
+        "AnimatedWeapon": {
+          "DamageType": "Arma Animada - Tipo de Dano",
+          "DieSize": "Arma Animada - Tamanho do Dado"
+        }
+      },
+      "YetiNightmareGuardianRage": "Fúria do Guardião dos Pesadelos",
+      "Zetogeki": {
+        "TiltScalesChannelEnergy": "Energia Cinética Canalizada",
+        "TiltScalesTilted": "Escamas Inclinadas"
       }
     },
     "OracleCurses": {
       "Ancestor": {
+        "AncestralInfluence": "Influência Ancestral",
         "Label": {
+          "ExtremeBattle": "Combate Extremo",
+          "MajorBattle": "Combate Maior",
           "Martial": "Marcial",
+          "MinorBattle": "Combate Menor",
+          "MinorSpellcasting": "Conjuração Menor",
+          "ModerateBattle": "Batalha Moderada",
+          "ModerateSkillful": "Habilidade Moderada",
+          "ModerateSpellcasting": "Conjuração Moderada",
+          "Skillful": "Habilidoso",
           "Spellcasting": "Conjuração"
-        }
+        },
+        "MajorFailure": "Sua maldição interfere com esta ação, e você precisa ter sucesso em um @Check[flat|dc:8|showDC:owner] ou perder a ação.",
+        "MeddlingAncestor": "Ancestral Intrometido",
+        "MinorFailure": "Sua maldição interfere nesta ação, e você precisa ter sucesso em um @Check[flat|dc:4|showDC:owner] ou perder a ação.",
+        "ModerateFailure": "Sua maldição interfere nesta ação, e você precisa ter sucesso em um @Check[flat|dc:6|showDC:owner] ou perder a ação."
       },
       "Battle": {
         "MadeAStrike": "Você realizou um Golpe nesta rodada",
         "NonTrivialEncounter": "Em um encontro não trivial"
       },
+      "Bones": {
+        "MajorUpgrade": "Quando você rola uma falha crítica em uma salvaguarda contra uma doença, veneno ou efeito de morte, você fica com um fracasso.",
+        "ModerateUpgrade": "Quando você tem sucesso em uma salvaguarda contra uma doença, veneno ou efeito de morte, trate como um sucesso crítico."
+      },
       "Label": {
         "Extreme": "Extremo",
         "Major": "Superior",
+        "Minor": "Menor",
         "Moderate": "Moderado"
+      },
+      "Life": {
+        "DescriptionMajor": "Cada vez que usar um slot de magia para lançar um feitiço de quinto ranque ou superior que leva 2 ou mais ações para conjurar, você dispersa a energia de vitalidade em um @Template[burst|distance:30] com os efeitos de um feitiço @UID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} de 3 ações com um ranque 4 menor que o do feitiço que você lançar. Esta cura ocorre imediatamente após você terminar @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Casting the Spell}. Você não se beneficia com esta cura. Em vez disso, você perde o dobro de pontos de vida rolados para o feitiço de cura.",
+        "DescriptionModerate": "Sempre que você terminar de conjurar uma magia que não seja um truque, você restaura @Damage[@item.level[healing]] Pontos de Vida para sua escolha: um alvo da magia ou a criatura mais próxima de você. Você não pode se curar dessa forma. Essa cura possui os traços cura, necromancia e vitalidade, além do traço de tradição da magia.",
+        "ToggleLabel": "Todos os alvos da Cura são criaturas vivas"
+      },
+      "Time": {
+        "ACLabel": "Defendendo contra reações ou ações gratuitas enquanto se move"
       }
     },
     "PersistentDamage": {
@@ -1035,8 +1377,7 @@
         "success": "[[/r 1d12[persistent,poison]]]{1d12 de dano de persistente de veneno}"
       },
       "Poison1d4": {
-        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}",
-        "success": "[[/r 1d4[persistent,poison]]]{1d4 de dano de persistente de veneno}"
+        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}"
       },
       "Poison1d6": {
         "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 de dano de persistente de veneno}",
@@ -1095,17 +1436,10 @@
             "Y": "y"
           }
         },
-        "Basic": {
-          "Label": "Básico",
+        "Basics": {
           "Level": {
-            "Hint": "Um nível opcional para a aura, para ser usado para definir o nível dos efeitos que ela transmite",
             "Label": "Nível"
-          },
-          "MergeExisting": {
-            "Hint": "Se outra aura com o mesmo slug já estiver sendo emitida, mescle os dados desta aura com os da outra, combinando traços e efeitos, bem como mesclando dados de <em>cores</em>.",
-            "Label": "Mesclar Existente"
-          },
-          "Radius": "Raio"
+          }
         },
         "Effects": {
           "Affects": "Afeta",
@@ -1114,7 +1448,6 @@
             "Allies": "Aliados",
             "Enemies": "Inimigos"
           },
-          "DropText": "Soltar efeito",
           "DropTooltip": "Um efeito para incluir nesta aura",
           "Events": "Eventos",
           "EventsOptions": {
@@ -1178,16 +1511,14 @@
       "BaseSpeed": "Velocidade Base",
       "BattleForm": "Forma de Batalha",
       "ChoiceSet": "Conjunto de Escolhas",
-      "CraftingEntry": "Entrada de Manutafura",
-      "CraftingFormula": "Fórmula de Manufatura",
       "CreatureSize": "Tamanho da Criatura",
       "CriticalSpecialization": "Especialização de Crítico",
       "DamageAlteration": "Alteração de Dano",
       "DamageDice": "Dado de Dano",
       "DexterityModifierCap": "Limite de Modificador de Destreza",
+      "EffectSpinoff": "Giro do Efeito",
       "EphemeralEffect": "Efeito Efêmero",
       "FastHealing": "Cura Acelerada/Regeneração",
-      "FixedProficiency": "Proficiência Fixa",
       "FlatModifier": "Modificador Simples",
       "GrantItem": "Concessão de Item",
       "Immunity": "Imunidade",
@@ -1221,8 +1552,10 @@
       "AgainstDemons": "Contra Demônios",
       "Aid": "Para Auxiliar",
       "AttemptToFascinateOutdoorsInBrightSun": "Usando Performance Fascinante ao ar livre sob sol forte",
+      "Balance": "Equilibrar",
       "Blacksmithing": "Para Ferraria",
       "BloodOrWater": "Em Sangue ou Água",
+      "BoundHome": "Dentro do lar Vinculado",
       "Buried": "Enterrado",
       "CanClearlyIdentifyTheStars": "Pode identificar claramente as estrelas",
       "Climb": "Para Escalar",
@@ -1259,6 +1592,7 @@
       "Escape": "Para Escapar",
       "EscapeForceOpenOrLift": "Para Escapar, Forçar ou Levantar Objetos Pesados",
       "Feint": "Para Fintar",
+      "Fly": "Voar",
       "ForceOpenGrappleShoveOrTrip": "Para Agarrar, Derrubar, Empurrar ou Forçar",
       "Forests": "Em Florestas",
       "ForestsOrGrasslands": "Em Florestas ou Pradarias",
@@ -1322,6 +1656,7 @@
       "RecallKnowledge": "Para Recordar Conhecimento",
       "RecallKnowledgeDeadSubject": "Para Recordar Conhecimento sobre um falecido",
       "Rocky": "Em terreno rochoso",
+      "RockyOrBarren": "Em terreno rochoso ou árido",
       "Ruins": "Em ruinas",
       "RunningWater": "Em água corrente",
       "RustyTerrain": "Em áreas com objetos enferrujados",
@@ -1341,6 +1676,7 @@
       "StringedInstruments": "Para instrumentos de corda",
       "Subsist": "Para Subsistir",
       "Swamps": "Em Pântanos",
+      "Swardlands": "Nas Swardlands",
       "Swim": "Para Nadar",
       "TarPit": "Em poços de piche",
       "TellTheTruth": "Para falar a verdade",
@@ -1361,9 +1697,36 @@
       "Undergrowth": "Em vegetação rasteira",
       "Underwater": "Subaquática",
       "UnderwaterVegetation": "Na vegetação subaquática",
-      "VsDiseases": "vs. diseases"
+      "Vegetation": "Em vegetação",
+      "VsArthropods": "vs. Artrópodes",
+      "VsControlled": "vs. Efeitos controlados",
+      "VsDarknessLightShadow": "vs Escuridão, Luz ou Sombra",
+      "VsDemons": "vs. Demônios",
+      "VsDiseases": "vs. diseases",
+      "VsEmotion": "vs. efeitos de emoção",
+      "VsMagic": "vs. Efeitos mágicos",
+      "VsMental": "vs Efeitos mentais",
+      "VsPlants": "vs. Plantas",
+      "VsProne": "vs. Efeitos de Prostração",
+      "VsShoveOrTrip": "vs. Empurrão ou Derrubar",
+      "VsSleeping": "vs. alvos dormindo",
+      "Water": "Na Água",
+      "WaterOrMud": "Na Água ou Lama",
+      "Weave": "Tecer",
+      "Woodworking": "Carpintaria"
+    },
+    "SpecificLore": {
+      "Herbalism": "Saber de Herbalismo"
     },
     "SpecificRule": {
+      "Acrobat": {
+        "AcrobatDedication": {
+          "Note": "Sempre que você obtiver um sucesso crítico em um teste de Acrobacia para Passar por um Espaço de um inimigo, você não trata o espaço do inimigo como terreno difícil."
+        },
+        "Contortionist": {
+          "Note": "Sempre que você obtiver sucesso ao usar @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} com Acrobatics, a criatura da qual você escapou fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} contra o próximo ataque que você fizer contra ela antes do final do seu próximo turno."
+        }
+      },
       "Actions": {
         "OneAction": "Uma Ação",
         "Prompt": "Selecione o número de ações",
@@ -1376,6 +1739,17 @@
           "Climb": {
             "SuccessBetter": "Se você obtiver sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico."
           }
+        },
+        "RecallKnowledge": {
+          "SuccessBetterAdditionalInformation": "Quando você obtém um sucesso em um teste para Recordar Conhecimento, você ganha informações ou contexto adicional. Quando você obtém um sucesso crítico em um teste para Recordar Conhecimento, você obtém ainda mais informação ou contexto adicional do que o normal, a critério do mestre."
+        },
+        "Squeeze": {
+          "CriticalFailureSuccessBetter": "Quando você obtém uma falha crítica em um teste para Esgueirar, ela se torna uma falha normal. Além disso, quando você obtém um sucesso, ele se torna um sucesso crítico."
+        },
+        "Survival": {
+          "SenseDirection": {
+            "SuccessBetter": "Se você obtiver sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico."
+          }
         }
       },
       "AdoptedAncestry": {
@@ -1384,8 +1758,66 @@
       "AdvancedGeneralTraining": {
         "Prompt": "Selecione um talento geral de 7º nível ou inferior."
       },
+      "AerialPiledriver": {
+        "CriticalFailureText": "Você cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, e o alvo não é mais agarrado ou contido por você.",
+        "FailureText": "Você perde a aderência ao alvo e ele já não está mais agarrado nem contido por você.",
+        "SuccessText": "O alvo é derrubado e fica @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+      },
+      "AftermathFeats": {
+        "DormantEruptionToggle": "Você usou Erupção Térmica Hoje",
+        "StoneFistLabel": "Punho de Pedra"
+      },
       "Aid": {
         "Prompt": "Escolha o bônus do Auxílio."
+      },
+      "Alchemist": {
+        "AdvancedAlchemy": "Alquimia Avançada",
+        "AlchemicalCrossbow": {
+          "Prompt": "Escolha uma bomba para adicionar à besta."
+        },
+        "Alchemy": {
+          "IdentifyAlchemy": "Você pode identificar automaticamente itens alquímicos para os quais você possui a fórmula."
+        },
+        "ExpandedSplash": {
+          "Note": "O dano de respingo afeta todas as criaturas a 10 pés do alvo em vez de 5 pés."
+        },
+        "ResearchField": {
+          "Bomber": {
+            "FieldBenefit": "Ao atirar uma bomba alquímica com o traço respingo, você pode optar por causar dano de respingo apenas em seu alvo principal em vez da área habitual de respingo.",
+            "FieldVials": {
+              "RollOptionLabel": "Dano das Ampolas Versáteis"
+            },
+            "GreaterFieldDiscovery": "Você pode aumentar a área de respingo de suas bombas para causar dano a criaturas a até 10 pés do alvo principal, ou 15 pés se possuir Respingo Expandido."
+          },
+          "FieldVials": "Ampolas de Campo",
+          "Mutagenist": {
+            "FieldVials": {
+              "Description": "Você pode beber o conteúdo de um dos seus frascos versáteis para suprimir a desvantagem de um mutagênico que está te afetando atualmente até o início do seu próximo turno. Uma ampola usada desta maneira perde o traço ácido, bomba e respingo e ganha o traço elixir. Se você tem mais de uma desvantagem a @UUID[Compendium.pf2e.feats-srd.Item.jSkJIWPfSZZzvYzq]{Combinar Elixires} ou uma habilidade semelhante, beber a ampola suprime uma desvantagem de sua escolha."
+            }
+          },
+          "Prompt": "Selecione um campo de pesquisa.",
+          "Toxicologist": {
+            "FieldVials": {
+              "Description": "Você pode aplicar o conteúdo de um frasco versátil a uma arma ou pedaço de munição como um veneno de ferimento. Adicione os danos iniciais da ampola versátil ao primeiro ataque bem-sucedido com essa arma ou munição. A substância se torna inerte no final do seu turno atual."
+            }
+          }
+        }
+      },
+      "AldoriDuelist": {
+        "DuelistsEdge": {
+          "Note": "Você pode imediatamente usar a ação Interagir para sacar sua Espada de Duelo Aldori."
+        }
+      },
+      "AlkenstarAgent": {
+        "LooseCannon": {
+          "Note": {
+            "CriticalFailure": "A arma de fogo falha e também explode. Ela se torna @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken} e causa o dano normal da arma a todas as criaturas em um @Template[burst|distance:20] centrado na arma de fogo, com um @Check[reflex|against:class|basic]. Esse dano inclui qualquer bônus proveniente das runas fundamentais e de propriedades da arma.",
+            "Failure": "A arma de fogo falha, mas não causa os outros efeitos de falha crítica."
+          }
+        }
+      },
+      "Anadi": {
+        "SpiderOrHybridForm": "Em forma de Aranha ou Híbrida"
       },
       "AncestralParagon": {
         "Prompt": "Selecione um talento de ancestralidade de 1º nível."
@@ -1409,19 +1841,44 @@
         "Wolf": "Lobo"
       },
       "AquaticCombat": {
-        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água.",
-        "RangedNote": "Ataques à distância que causam dano contundente ou cortante erram automaticamente se o atacante ou alvo estiver debaixo d'água, e ataques perfurantes à distância feitos por uma criatura subaquática ou contra um alvo subaquático têm seus incrementos de alcance reduzidos à metade."
+        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água."
+      },
+      "Ardande": {
+        "PotentNectar": {
+          "PersistentDamage": "Dano Persistente de Ácido",
+          "SplashDamage": "Dano de Respingo de Ácido"
+        }
+      },
+      "ArtokussFire": {
+        "Note": "O seu Fogo Alquímico causa 1d4 de dano persistente de fogo adicional, e as criaturas devem fazer dois testes simples bem sucedidos para acabar com a condição (ou um teste, se tiverem recuperação assistida que reduz o teste simples para DC 10). O seu fogo melhorado queima debaixo de água, e a água não ajuda a acabar com o dano persistente."
       },
       "Automaton": {
+        "ArcaneLocomotion": {
+          "Prompt": "Selecione um tipo de movimento."
+        },
+        "AutomatonArmament": {
+          "Prompt": "Selecione um ataque desarmado."
+        },
+        "CoreCannon": {
+          "AttackNote": "Você precisa aplicar manualmente sua Runa de Potência de nível mais alto para esta rolagem de ataque.",
+          "CriticalHit": "Em um acerto crítico, o alvo recebe @Damage[10[persistent,fire]]. Sua explosão de energia não aplica efeitos de especialização de crítico.</p>"
+        },
         "EnhanceableFeats": {
-          "ArcaneSlam": "Pancada Arcana"
+          "ArcaneLocomotion": "Locomoção Arcana",
+          "ArcanePropulsion": "Propulsão Arcana",
+          "ArcaneSlam": "Pancada Arcana",
+          "MagicalResistance": "Resistência Mágica"
         }
       },
       "Barbarian": {
         "Animal": {
+          "Ankylosaurus": "Anquilossauro",
+          "Ant": "Formiga",
           "Ape": "Macaco",
           "Bat": "Morcego",
           "Bear": "Urso",
+          "Bird": "Pássaro",
+          "Brontosaurus": "Brontossauro",
           "Bull": "Touro",
           "Cat": "Felino",
           "Deer": "Veado",
@@ -1430,7 +1887,13 @@
           "Scorpion": "Escorpião",
           "Shark": "Tubarão",
           "Snake": "Serpente",
+          "Spider": "Aranha",
+          "Tyrannosaurus": "Tiranossauro",
+          "Wasp": "Vespa",
           "Wolf": "Lobo"
+        },
+        "ComeAndGetMe": {
+          "Name": "Venha me Pegar"
         },
         "Dragon": {
           "NormalRageDamage": "Causa dano de fúria normal",
@@ -1446,6 +1909,12 @@
         "Instinct": {
           "Drops": "Característica de Classe de Bárbaro Nível 1",
           "Prompt": "Escolha um instinto."
+        },
+        "InuredToAlchemy": {
+          "SuccessVirulent": "Cada uma de suas salvaguardas bem-sucedidas contra um veneno alquímico virulento, uma droga ou um vício reduz o estágio em 1"
+        },
+        "Ligneous": {
+          "ToggleLabel": "Ira de Madeira"
         },
         "Spirit": {
           "NegativeDamage": "Dano Negativo",
@@ -1466,10 +1935,28 @@
           "Polymath": "Musa Polímata",
           "Prompt": "Selecione uma musa.",
           "Warrior": "Soldado"
+        },
+        "TriumphantInspiration": {
+          "Note": "Com um grito triunfante, você inspira seus aliados. Você conjura um truque de composição que conhece e que normalmente requer uma única ação para ser conjurado."
+        }
+      },
+      "Beastkin": {
+        "AnimalSenses": {
+          "Prompt": "Selecione um sentido disponível para o seu animal inerente."
+        },
+        "Senses": {
+          "EcholocationImprecise": "Ecolocalização (Imprecisa) 30 pés",
+          "EcholocationPrecise": "Melhore sua ecolocalização para precisa",
+          "Scent": "Faro (Impreciso) 30 pés",
+          "TremorsenseImprecise": "Sentido de Tremor (Impreciso) 30 pés",
+          "TremorsensePrecise": "Melhore seu Sentido de Tremor para preciso"
         }
       },
       "BlessingOfDefiance": {
         "Prompt": "Escolha um salvamento."
+      },
+      "BloodlettingKukri": {
+        "Note": "Se o alvo não tiver dano persistente de sangramento quando você acertar o golpe crítico, você também ganha [[/r 1d8]] Pontos de Vida temporários."
       },
       "BonusLabel": {
         "NegativeOne": "-1",
@@ -1485,16 +1972,43 @@
         "GatherInfoHuntedPrey": "Para coletar informações sobre caçar presa"
       },
       "BrevicNoble": {
-        "Prompt": "Selecione uma linhagem Brevana."
+        "Garess": "Garess",
+        "Lebeda": "Lebeda",
+        "Lodovka": "Lodovka",
+        "Medvyed": "Medvyed",
+        "Orlovsky": "Orlovsky",
+        "Prompt": "Selecione uma linhagem Brevana.",
+        "Surtova": "Surtova"
       },
       "BreathWeapon": {
         "Shape": {
           "Cone": {
-            "Label": "Cone"
+            "Label": "Cone",
+            "Description": "Seu eidolon exala uma rajada de energia destrutiva. Ele causa @Damage[((ceil(@actor.level/2))d6)[@actor.flags.pf2e.breathweapon.breathDamage]|options:area-damage] de dano a todas as criaturas em um @Template[cone|distance:30], com uma salvaguarda básica de Reflexo contra a sua CD de magia."
           },
           "Line": {
-            "Label": "Linha"
+            "Label": "Linha",
+            "Description": "Seu eidolon exala uma rajada de energia destrutiva. Ele causa @Damage[((ceil(@actor.level/2))d6)[@actor.flags.pf2e.breathweapon.breathDamage]|options:area-damage] de dano a todas as criaturas em um @Template[line|distance:60], com uma salvaguarda básica de Reflexo contra a sua CD de magia."
           }
+        },
+        "Cooldown": "Seu eidolon não pode usar sua Arma de Sopro novamente pelos próximos [[/r 1d4 #rounds]]{1d4 rounds}.",
+        "Scaling": "No nível 3 e a cada 2 níveis depois, o dano aumenta em 1d6."
+      },
+      "CapeOfJustice": {
+        "Toggle": "O alvo é o seu infrator designado"
+      },
+      "CatharticMage": {
+        "EmotionalState": {
+          "Prompt": "Selecione uma emoção de catarse."
+        },
+        "Dedication": {
+          "Label": "Dedicação"
+        },
+        "Fear": {
+          "Label": "Medo"
+        },
+        "Love": {
+          "Toggle": "Você conjura uma magia para beneficiar seu foco emocional"
         }
       },
       "CelestialResistance": {
@@ -1507,6 +2021,10 @@
         "BladeAllyRune": "Selecione uma runa de propriedade para seu aliado de lâmina.",
         "DivineSmite": {
           "Label": "Punição Divina"
+        },
+        "ExaltedReaction": {
+          "Desecration": "Cada inimigo na aura do seu campeão recebe uma penalidade de status de –1 nas jogadas de ataque contra você até o início do seu próximo turno. @UUID[Compendium.pf2e.feat-effects.Item.Ef63SlxSKlZmHosM]{Effect: Exalted Reaction (Desecrator)}",
+          "Grandeur": "Além do inimigo afetado por Flash of Grandeur, cada outro inimigo na aura do seu campeão é afetado pela magia revealing light por 1 rodada."
         },
         "EvilDamage": "Dano de Espírito",
         "IronRepercussions": {
@@ -1544,7 +2062,9 @@
         "Sonic": "Azul (Sônico)"
       },
       "ClanWeapon": {
-        "Label": "Arma do Clã"
+        "ClanPistol": "Pistola do Clã (Talento de Ancestralidade)",
+        "Label": "Arma do Clã",
+        "Prompt": "Selecione uma arma de clã."
       },
       "Cleric": {
         "DivineFont": {
@@ -1555,6 +2075,9 @@
         "Doctrine": {
           "AllowedDrops": "Característica de classe de clérigo de 1º nível",
           "Prompt": "Selecione uma doutrina."
+        },
+        "RaiseSymbol": {
+          "RollOptionLabel": "Empunhando o escudo como um símbolo religioso"
         }
       },
       "ConcertFrog": {
@@ -1597,7 +2120,32 @@
           "StrikeLabel": "Espinho de Osso"
         }
       },
+      "DivineAlly": {
+        "AllowedDrops": "talento de classe de campeão",
+        "Prompt": "Selecione um aliado divino."
+      },
+      "DivineIntercessions": {
+        "Lamashtu": {
+          "MinorBoon": {
+            "DFourLabel": "1d4 (acuidade, ágil)",
+            "DSixLabel": "1d6",
+            "LamashtusMutation": "Mutação de Lamashtu"
+          }
+        }
+      },
       "DragonDisciple": {
+        "DragonChoice": {
+          "Black": "Dragão Negro",
+          "Blue": "Dragão Azul",
+          "Brass": "Dragão de Latão",
+          "Bronze": "Dragão de Bronze",
+          "Copper": "Dragão de Cobre",
+          "Gold": "Dragão Dourado",
+          "Green": "Dragão Verde",
+          "Red": "Dragão Vermelho",
+          "Silver": "Dragão Prateado",
+          "White": "Dragão Branco"
+        },
         "Prompt": "Escolha um Dragão."
       },
       "Druid": {
@@ -1605,19 +2153,32 @@
           "Prompt": "Selecione uma ordem druídica."
         }
       },
+      "Dwarf": {
+        "DwarvenClan": {
+          "Prompt": "Selecione um clã enânico."
+        }
+      },
       "Elf": {
+        "Atavism": {
+          "Prompt": "Selecione uma herança de elfo."
+        },
         "BrightnessSeeker": {
           "Label": "Invocar o Esplendor"
         }
       },
       "Equipment": {
         "Bomb": {
+          "Choice": "Tipo de Bomba",
           "Type": {
             "Greater": "Maior",
             "Lesser": "Menor",
             "Major": "Superior",
             "Moderate": "Moderado"
           }
+        },
+        "ChimeraFlail": {
+          "GoatLabel": "Cabra",
+          "LionLabel": "Leão"
         },
         "DruidsCrown": {
           "AntlersLabel": "Chifres",
@@ -1716,6 +2277,7 @@
       "Genie": {
         "Faydhaan": "Faydhaan",
         "Ifrit": "Ifrit",
+        "Jaathoom": "Jaathoom",
         "Prompt": "Selecione um gênio."
       },
       "Gnome": {
@@ -1768,6 +2330,11 @@
         "SureFeet": {
           "BalanceNote": "Quando rolar um sucesso em um teste de Acrobatismo para se Equilibrar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar se Equilibrar.",
           "ClimbNote": "Quando rolar um sucesso em um teste de Atletismo para Escalar, trate o resultado como um sucesso crítico. Você não fica desprevenido quando tentar Escalar."
+        }
+      },
+      "Hobgoblin": {
+        "WarConditioning": {
+          "Prompt": "Selecione um tipo de movimento."
         }
       },
       "Human": {
@@ -1879,8 +2446,12 @@
         "SimpleMartialBows": "Arcos Simples & Marciais"
       },
       "MechanicalTorch": {
-        "LitCone": "Cone",
-        "LitRadius": "Raio"
+        "LitCone": "Cone"
+      },
+      "Merfolk": {
+        "ShieldingWave": {
+          "Dry": "Seco"
+        }
       },
       "Modifier": {
         "Bonus": "Bônus",
@@ -1933,6 +2504,7 @@
         "Three": "Três",
         "Two": "Duas"
       },
+      "ObjectMemory": "Memória de Objetos",
       "Oracle": {
         "NudgeTheScales": {
           "Death": "Morte",
@@ -1953,6 +2525,7 @@
       "Prompt": {
         "AdvancedMulticlassFeat": "Escolha um talento de classe até a metade do seu nível.",
         "Alignment": "Selecione uma tendência.",
+        "Bonus": "Selecione um bônus.",
         "CantripOrNonCantrip": "Escolha truque ou uma magia não-truque.",
         "ClassDCAbilityScore": "Escolhe o valor do atributo de CD de clase.",
         "Color": "Selecione uma cor.",
@@ -1976,6 +2549,7 @@
         "LevelOneClassFeat": "Escolha um talento de classe de 1º nível.",
         "LevelOneOrTwoClassFeat": "Escolha um talento de classe de 1º ou 2º nível.",
         "Material": "Escolha um material.",
+        "MovementType": "Selecione um tipo de movimento.",
         "PathToPerfection": "Escolha um caminho para perfeição.",
         "Resistance": "Selecione uma resistência.",
         "Rune": "Selecione uma runa.",
@@ -2162,7 +2736,8 @@
         "Shipbuilding": "Construção Naval",
         "Stonemasonry": "Alvenaria",
         "Tailoring": "Alfaiataria",
-        "Weaving": "Tecelagem"
+        "Weaving": "Tecelagem",
+        "Woodworking": "Carpintaria"
       },
       "SpellEffectAnimalFeature": {
         "CatEyes": "Olhos de Gato",
@@ -2283,10 +2858,15 @@
       },
       "Thaumaturge": {
         "Implement": {
-          "Amulet": "Amuleto",
-          "Mirror": "Espelho",
-          "Wand": "Varinha",
-          "Weapon": "Arma"
+          "Amulet": {
+            "Label": "Amuleto"
+          },
+          "Wand": {
+            "Label": "Varinha"
+          },
+          "Weapon": {
+            "Label": "Arma"
+          }
         }
       },
       "TwinnedDefense": {
@@ -2364,7 +2944,7 @@
         },
         "WildWitchsArmaments": {
           "LivingHair": {
-            "SrikeLabel": "Espinho"
+            "StrikeLabel": "Espinho"
           }
         },
         "WitchsArmaments": {
