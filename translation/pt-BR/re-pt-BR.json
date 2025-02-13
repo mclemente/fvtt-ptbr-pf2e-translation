@@ -157,9 +157,6 @@
         "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
         "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
       },
-      "DaemonForm": {
-        "CeustodaemonDamageNote": "Qualquer Golpe bem-sucedido com as mandíbulas ou presas causa um adicional de @Damage[1d6[untyped] de dano, e você recebe a mesma quantidade de dano"
-      },
       "ElementEmbodied": {
         "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
         "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
@@ -223,8 +220,7 @@
           "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 4[persistent,fire]]] e [[/r (4[splash])[fire]]]{4 de dano de fogo de respingo}."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}.",
-          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
         }
       },
       "BioluminescenceBomb": {
@@ -260,17 +256,6 @@
         },
         "Moderate": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[electricity]]]{2 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
-        }
-      },
-      "CrystalShards": {
-        "Greater": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (5[splash])[piercing]]]{5 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +2 de bônus de item no próximo teste de Atletismo para Escalar."
-        },
-        "Major": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (6[splash])[piercing]]]{6 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +3 de bônus de item no próximo teste de Atletismo para Escalar."
-        },
-        "Moderate": {
-          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[piercing]]]{4 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +1 de bônus de item no próximo teste de Atletismo para Escalar."
         }
       },
       "DreadAmpoule": {
@@ -620,8 +605,17 @@
       "Requirements": {
         "Label": "Requerimentos"
       },
+      "Special": {
+        "Label": "Especial"
+      },
       "Trigger": {
         "Label": "Gatilho"
+      }
+    },
+    "GenericLabel": {
+      "Check": {
+        "Perception": "Teste de Percepção",
+        "SavingThrow": "Jogadas de Salvamento"
       }
     },
     "IWR": {
@@ -678,7 +672,6 @@
       "AsoBerang": {
         "PhantomFlames": {
           "Fire": "Fogo",
-          "None": "Nenhuma",
           "Spirit": "Espírito"
         },
         "SpectralFlame": "Chama Espectral"
@@ -767,12 +760,14 @@
           },
           "Faydhaan": "Faydhaan",
           "Fish": "Peixe",
+          "Fungus": "Fungo",
           "Gancanagh": "Gancanagh",
           "Gimmerling": "Gimmerling",
           "Gosreg": "Gosreg",
           "Gourd": "Cabaça",
           "Gylou": "Gylou",
           "Hag": "Estriga",
+          "Human": "Humano",
           "Humanoid": "Humanoide",
           "HumanoidLarge": "Humanoide Grande",
           "HumanoidMedium": "Humanoide Médio",
@@ -796,6 +791,7 @@
           "ObjectTiny": "Objeto Inanimado Minúsculo",
           "Octopus": "Polvo",
           "Oni": "Oni",
+          "Orc": "Orc",
           "Owlbear": "Urso-Coruja",
           "Plant": "Planta",
           "PorcupineGiant": "Porco-espinho gigante",
@@ -805,6 +801,7 @@
           "Rat": "Rato",
           "Scorpion": "Escorpião",
           "Shark": "Tubarão",
+          "Spider": "Aranha",
           "Succubus": "Súcubo",
           "Tree": "Árvore",
           "Unicorn": "Unicórnio",
@@ -812,6 +809,7 @@
           "Vidileth": "Vidileth",
           "Vilderavn": "Vilderavn",
           "Voidworm": "Verne Nulo",
+          "Wasp": "Vespa",
           "WingedHumanoid": "Humanóide Alado",
           "Wolf": "Lobo",
           "WolfDire": "Lobo Atroz"
@@ -1379,8 +1377,7 @@
         "success": "[[/r 1d12[persistent,poison]]]{1d12 de dano de persistente de veneno}"
       },
       "Poison1d4": {
-        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}",
-        "success": "[[/r 1d4[persistent,poison]]]{1d4 de dano de persistente de veneno}"
+        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}"
       },
       "Poison1d6": {
         "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 de dano de persistente de veneno}",
@@ -1439,17 +1436,10 @@
             "Y": "y"
           }
         },
-        "Basic": {
-          "Label": "Básico",
+        "Basics": {
           "Level": {
-            "Hint": "Um nível opcional para a aura, para ser usado para definir o nível dos efeitos que ela transmite",
             "Label": "Nível"
-          },
-          "MergeExisting": {
-            "Hint": "Se outra aura com o mesmo slug já estiver sendo emitida, mescle os dados desta aura com os da outra, combinando traços e efeitos, bem como mesclando dados de <em>cores</em>.",
-            "Label": "Mesclar Existente"
-          },
-          "Radius": "Raio"
+          }
         },
         "Effects": {
           "Affects": "Afeta",
@@ -1458,7 +1448,6 @@
             "Allies": "Aliados",
             "Enemies": "Inimigos"
           },
-          "DropText": "Soltar efeito",
           "DropTooltip": "Um efeito para incluir nesta aura",
           "Events": "Eventos",
           "EventsOptions": {
@@ -1522,8 +1511,6 @@
       "BaseSpeed": "Velocidade Base",
       "BattleForm": "Forma de Batalha",
       "ChoiceSet": "Conjunto de Escolhas",
-      "CraftingEntry": "Entrada de Manutafura",
-      "CraftingFormula": "Fórmula de Manufatura",
       "CreatureSize": "Tamanho da Criatura",
       "CriticalSpecialization": "Especialização de Crítico",
       "DamageAlteration": "Alteração de Dano",
@@ -1532,7 +1519,6 @@
       "EffectSpinoff": "Giro do Efeito",
       "EphemeralEffect": "Efeito Efêmero",
       "FastHealing": "Cura Acelerada/Regeneração",
-      "FixedProficiency": "Proficiência Fixa",
       "FlatModifier": "Modificador Simples",
       "GrantItem": "Concessão de Item",
       "Immunity": "Imunidade",
@@ -1729,6 +1715,9 @@
       "Weave": "Tecer",
       "Woodworking": "Carpintaria"
     },
+    "SpecificLore": {
+      "Herbalism": "Saber de Herbalismo"
+    },
     "SpecificRule": {
       "Acrobat": {
         "AcrobatDedication": {
@@ -1782,6 +1771,7 @@
         "Prompt": "Escolha o bônus do Auxílio."
       },
       "Alchemist": {
+        "AdvancedAlchemy": "Alquimia Avançada",
         "AlchemicalCrossbow": {
           "Prompt": "Escolha uma bomba para adicionar à besta."
         },
@@ -1798,11 +1788,6 @@
               "RollOptionLabel": "Dano das Ampolas Versáteis"
             },
             "GreaterFieldDiscovery": "Você pode aumentar a área de respingo de suas bombas para causar dano a criaturas a até 10 pés do alvo principal, ou 15 pés se possuir Respingo Expandido."
-          },
-          "Chirurgeon": {
-            "FieldVials": {
-              "Description": "Suas ampolas versáteis podem ser usadas para curar uma criatura viva @Damage[(ternary(gte(@actor.level,18),4,ternary(gte(@actor.level,12),3,ternary(gte(@actor.level,4),2,1))))d6[healing]] Pontos de Vida. Uma criatura pode beber a ampola para obter esse benefício, ou você pode jogá-la em uma criatura dentro de 20 pés, como uma ação de Interação para curar ela. Em ambos os casos, uma ampola usada desta forma perde os traços ácido e respingo e ganha os traços coagulante e cura, mais o traço elixir se uma criatura o beber."
-            }
           },
           "FieldVials": "Ampolas de Campo",
           "Mutagenist": {
@@ -1856,8 +1841,7 @@
         "Wolf": "Lobo"
       },
       "AquaticCombat": {
-        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água.",
-        "RangedNote": "Ataques à distância que causam dano contundente ou cortante erram automaticamente se o atacante ou alvo estiver debaixo d'água, e ataques perfurantes à distância feitos por uma criatura subaquática ou contra um alvo subaquático têm seus incrementos de alcance reduzidos à metade."
+        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água."
       },
       "Ardande": {
         "PotentNectar": {
@@ -1907,6 +1891,9 @@
           "Tyrannosaurus": "Tiranossauro",
           "Wasp": "Vespa",
           "Wolf": "Lobo"
+        },
+        "ComeAndGetMe": {
+          "Name": "Venha me Pegar"
         },
         "Dragon": {
           "NormalRageDamage": "Causa dano de fúria normal",
@@ -2014,6 +2001,12 @@
         "EmotionalState": {
           "Prompt": "Selecione uma emoção de catarse."
         },
+        "Dedication": {
+          "Label": "Dedicação"
+        },
+        "Fear": {
+          "Label": "Medo"
+        },
         "Love": {
           "Toggle": "Você conjura uma magia para beneficiar seu foco emocional"
         }
@@ -2029,11 +2022,11 @@
         "DivineSmite": {
           "Label": "Punição Divina"
         },
-        "EvilDamage": "Dano de Espírito",
         "ExaltedReaction": {
           "Desecration": "Cada inimigo na aura do seu campeão recebe uma penalidade de status de –1 nas jogadas de ataque contra você até o início do seu próximo turno. @UUID[Compendium.pf2e.feat-effects.Item.Ef63SlxSKlZmHosM]{Effect: Exalted Reaction (Desecrator)}",
           "Grandeur": "Além do inimigo afetado por Flash of Grandeur, cada outro inimigo na aura do seu campeão é afetado pela magia revealing light por 1 rodada."
         },
+        "EvilDamage": "Dano de Espírito",
         "IronRepercussions": {
           "Description": "Desobedecer à sua Mão de Ferro possui consequências duradouras. Se um inimigo se recusar a ajoelhar perante você, você pode causar @Damage[(ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor.level,12),4,ternary(gte(@actor.level,9),3,ternary(gte(@actor.level,5),2,1))))))d6[persistent,mental]] em vez de dano mental normal. Você deve decidir se o dano mental será persistente antes do seu inimigo escolher se ajoelhar ou não. A quantidade de dano não é alterada."
         },
@@ -2453,8 +2446,7 @@
         "SimpleMartialBows": "Arcos Simples & Marciais"
       },
       "MechanicalTorch": {
-        "LitCone": "Cone",
-        "LitRadius": "Raio"
+        "LitCone": "Cone"
       },
       "Merfolk": {
         "ShieldingWave": {
@@ -2512,6 +2504,7 @@
         "Three": "Três",
         "Two": "Duas"
       },
+      "ObjectMemory": "Memória de Objetos",
       "Oracle": {
         "NudgeTheScales": {
           "Death": "Morte",
@@ -2532,6 +2525,7 @@
       "Prompt": {
         "AdvancedMulticlassFeat": "Escolha um talento de classe até a metade do seu nível.",
         "Alignment": "Selecione uma tendência.",
+        "Bonus": "Selecione um bônus.",
         "CantripOrNonCantrip": "Escolha truque ou uma magia não-truque.",
         "ClassDCAbilityScore": "Escolhe o valor do atributo de CD de clase.",
         "Color": "Selecione uma cor.",
@@ -2555,6 +2549,7 @@
         "LevelOneClassFeat": "Escolha um talento de classe de 1º nível.",
         "LevelOneOrTwoClassFeat": "Escolha um talento de classe de 1º ou 2º nível.",
         "Material": "Escolha um material.",
+        "MovementType": "Selecione um tipo de movimento.",
         "PathToPerfection": "Escolha um caminho para perfeição.",
         "Resistance": "Selecione uma resistência.",
         "Rune": "Selecione uma runa.",
@@ -2863,10 +2858,15 @@
       },
       "Thaumaturge": {
         "Implement": {
-          "Amulet": "Amuleto",
-          "Mirror": "Espelho",
-          "Wand": "Varinha",
-          "Weapon": "Arma"
+          "Amulet": {
+            "Label": "Amuleto"
+          },
+          "Wand": {
+            "Label": "Varinha"
+          },
+          "Weapon": {
+            "Label": "Arma"
+          }
         }
       },
       "TwinnedDefense": {
@@ -2944,7 +2944,7 @@
         },
         "WildWitchsArmaments": {
           "LivingHair": {
-            "SrikeLabel": "Espinho"
+            "StrikeLabel": "Espinho"
           }
         },
         "WitchsArmaments": {
