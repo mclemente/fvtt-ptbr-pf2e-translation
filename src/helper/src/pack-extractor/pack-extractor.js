@@ -11,7 +11,7 @@ import { LIVROS_TRADUZIDOS } from "./livros-traduzidos.js";
  * @param {Object} itemDatabase Contains a database for compendium items to validate nested item entries against
  * @returns {Object}            Extracted data, stored in extractedPackGroups and packGroupListDictionary
  */
-export function extractPackGroupList(packs, config, itemDatabase = {}) {
+export function extractPackGroupList(packs, config, itemDatabase = {}, actorRedirects = []) {
 	const extractedPackGroupListData = {
 		extractedPackGroups: {},
 		packGroupListDictionary: {},
@@ -29,7 +29,9 @@ export function extractPackGroupList(packs, config, itemDatabase = {}) {
 			packs.filter((pack) => packGroupConfig.packNames.includes(pack.fileName)),
 			packGroupConfig.mapping,
 			itemDatabase,
-			extractFolders(folderPacks)
+			extractFolders(folderPacks),
+			actorRedirects,
+			packGroupConfig.limitedPacks ? packGroupConfig.limitedPacks : null
 		);
 		extractedPackGroupListData.extractedPackGroups[groupName] = extractedPackGroupData.extractedPacks;
 		extractedPackGroupListData.packGroupListDictionary = mergeNestedObjects(
@@ -51,7 +53,15 @@ export function extractPackGroupList(packs, config, itemDatabase = {}) {
  * @param {Object} folderPacks      Contains folders for the compendium packs
  * @returns {Object}                Extracted data, stored in extractedPacks and packGroupDictionary
  */
-export function extractPackGroup(groupName, packs, mapping, itemDatabase = {}, folderPacks) {
+export function extractPackGroup(
+	groupName,
+	packs,
+	mapping,
+	itemDatabase = {},
+	folderPacks,
+	actorRedirects = [],
+	limitedPacks = null
+) {
 	postExtractMessage(groupName, true);
 
 	const extractedPackGroupData = {
@@ -60,12 +70,18 @@ export function extractPackGroup(groupName, packs, mapping, itemDatabase = {}, f
 	};
 
 	packs.forEach((pack) => {
+		let limitedEntries = null;
+		if (limitedPacks && limitedPacks[pack.fileName]) {
+			limitedEntries = limitedPacks[pack.fileName];
+		}
 		const extractedPackData = extractPack(
 			pack.fileName,
 			JSON.parse(pack.content),
 			mapping,
 			itemDatabase,
-			folderPacks[pack.fileName]
+			folderPacks[pack.fileName],
+			actorRedirects,
+			limitedEntries
 		);
 		extractedPackGroupData.extractedPacks[pack.fileName] = extractedPackData.extractedPack;
 		extractedPackGroupData.packGroupDictionary = mergeNestedObjects(
@@ -88,7 +104,15 @@ export function extractPackGroup(groupName, packs, mapping, itemDatabase = {}, f
  * @param {Object} packFolders      Contains folders for the compendium pack
  * @returns {Object}                Extracted data, stored in extractedPack and packDictionary
  */
-export function extractPack(packName, pack, mapping, itemDatabase = {}, packFolders) {
+export function extractPack(
+	packName,
+	pack,
+	mapping,
+	itemDatabase = {},
+	packFolders,
+	actorRedirects = [],
+	limitedEntries = null
+) {
 	postExtractMessage(packName);
 
 	const extractedPackData = {
@@ -105,10 +129,20 @@ export function extractPack(packName, pack, mapping, itemDatabase = {}, packFold
 		extractedPackData.extractedPack.folders = packFolders;
 	}
 
-	pack.filter(
-		(entry) => !entry.system?.publication?.title || LIVROS_TRADUZIDOS.includes(entry.system.publication.title)
-	).forEach((entry) => {
-		const extractedEntryData = extractEntry(entry, mapping, itemDatabase);
+	for (const entry of pack) {
+		if (
+			!entry.system?.publication?.title || LIVROS_TRADUZIDOS.includes(entry.system.publication.title)
+			// !entry.system?.publication?.title
+			// || LIVROS_TRADUZIDOS.includes(entry.system.publication.title)
+			// || (entry.system.publication.title === "Pathfinder Player Core 2" && ["classes", "classfeatures", "feats"].includes(packName))
+		) {
+			continue;
+		}
+
+		if (limitedEntries && !limitedEntries.includes(entry.name)) {
+			continue;
+		}
+		const extractedEntryData = extractEntry(entry, mapping, itemDatabase, false, actorRedirects, limitedEntries);
 
 		extractedPackData.extractedPack.entries[entry.name] = extractedEntryData.extractedEntry;
 
@@ -121,7 +155,7 @@ export function extractPack(packName, pack, mapping, itemDatabase = {}, packFold
 			extractedPackData.packDictionary,
 			extractedEntryData.entryDictionary
 		);
-	});
+	}
 	extractedPackData.extractedPack.entries = sortObject(extractedPackData.extractedPack.entries);
 	return extractedPackData;
 }
@@ -136,7 +170,7 @@ export function extractPack(packName, pack, mapping, itemDatabase = {}, packFold
  * @param {boolean|string} nestedEntryType                                              Specifies, if the entry is nested within other entries, e.g. an ector item
  * @returns {{extractedEntry: Object, entryMapping: Object, entryDictionary: Object}}   Extracted data, mapping, and dictionary entries
  */
-export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType = false) {
+export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType = false, actorRedirects = []) {
 	const extractedEntryData = {
 		extractedEntry: {},
 		entryMapping: {},
@@ -148,7 +182,7 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
 		addToDictionary: false, // Defines if values should get extracted to a dictionary
 		addToMapping: true, // Defines if keys should get added to mapping if data is found
 		convertArray: true, // Defines if an array should get converted to an object list
-		specialExtraction: false, // Defines special extractions: actorItems, nameAsKey, nameCollection, tableResults, textCollection, adventureActor
+		specialExtraction: false, // Defines special extractions: actorItems, nameAsKey, nameCollection, tableResults, textCollection, adventureActor, sourceId
 		extractValue: true, // Defines if value should get extracted
 		extractOnActorItem: true, // Defines if value should get extracted for items within actors
 		extractOnAdventureActor: false, // For special extraction adventureActor, only data for non-compendium actors gets extracted by default. Set to true in order to extract the data
@@ -184,7 +218,7 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
 
 		// Check if the current field exists in the compendium entry and extract its value
 		let extractedValue = resolvePath(entry, mappingData.path).exists
-			? resolveValue(entry, mappingData.path)
+			? unifyLineBreaks(resolveValue(entry, mappingData.path))
 			: false;
 
 		// Add mappings that should always be included
@@ -205,6 +239,21 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
 		// Don't extract fields on compendium actors within adventures that don't specifically define extraction
 		if (nestedEntryType === "adventureCompendiumActors" && !extractOptions.extractOnAdventureActor) {
 			continue;
+		}
+
+		// For special extraction sourceId, only extract value if redirected; use redirected value instead
+		if (extractOptions.specialExtraction === "sourceId") {
+			let redirected = false;
+			for (const actorRedirect of actorRedirects) {
+				if (extractedValue === actorRedirect.linkOld) {
+					redirected = true;
+					extractedValue = actorRedirect.linkNew;
+					continue;
+				}
+			}
+			if (!redirected) {
+				continue;
+			}
 		}
 
 		// Add mapping
@@ -317,7 +366,8 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
 					extractedValue[subEntry],
 					extractOptions.subMapping,
 					itemDatabase,
-					nestedEntry
+					nestedEntry,
+					actorRedirects
 				);
 
 				// Initialize structure for the current entry in order to receive subentry data and assign subentry data
@@ -376,6 +426,12 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
 			continue;
 		}
 		// Apply special extraction rules on value level
+		// Special extraction for actors
+		if (["adventureActors", "adventureCompendiumActors"].includes(nestedEntryType)) {
+			// Add the actor id in order to identify actor duplicates (e.g. treasure actors with the same name)
+			extractedEntryData.extractedEntry.duplicateId = entry._id;
+		}
+
 		// Special extraction for actor items
 		if (["actorItems", "adventureActorItems"].includes(nestedEntryType)) {
 			const formatedActorItem = formatActorItem(
@@ -423,7 +479,7 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
 			extractedEntryData.extractedEntry.duplicateId = entry._id;
 		}
 
-		extractedEntryData.extractedEntry[mappingKey] = unifyLineBreaks(extractedValue);
+		extractedEntryData.extractedEntry[mappingKey] = extractedValue;
 	}
 	return extractedEntryData;
 }
@@ -432,7 +488,7 @@ export function extractEntry(entry, mapping, itemDatabase = {}, nestedEntryType 
  * Extracts folder names for a list of folder packs
  *
  * @param {Array<Object>} folderPacks   Array containing the folder packs
- * @returns {Object}                    Object list of compendium packs containing their folder names
+ * @returns {Object}					Object list of compendium packs containing their folder names
  */
 function extractFolders(folderPacks) {
 	const extractedFolders = {};
@@ -488,9 +544,9 @@ function formatActorItem(extractedValue, mappingKey, mappingPath, item, itemData
 	}
 
 	// Check if the item exists in a pf2 system compendium
-	if (resolvePath(item, "flags.core.sourceId").exists && itemDatabase[item.flags.core.sourceId]) {
-		const databaseItem = itemDatabase[item.flags.core.sourceId];
-
+	const itemCompendiumLink = getCompendiumLinkFromItemData(item);
+	if (itemCompendiumLink && itemDatabase[itemCompendiumLink]) {
+		const databaseItem = itemDatabase[itemCompendiumLink];
 		// For regular actor items, reduce localization load since items are pulled and merged from a compendium during translation.
 		// For adventure actor items however, items may have gotten modified and mustn't get merged with the compendium version.
 		// As a result, adventure actor items need to get all relevant fields extracted
@@ -544,7 +600,7 @@ function addMapping(mapping, mappingData, converter = false) {
 /**
  * Post extraction status messages to console
  * @param {string} extractedContent Name of the extracted content
- * @param {boolean} header          Set for posting a header message
+ * @param {boolean} header		  Set for posting a header message
  */
 export function postExtractMessage(extractedContent, header = false) {
 	const message = header
@@ -558,8 +614,8 @@ export function postExtractMessage(extractedContent, header = false) {
  * Ignore empty data fields, empty arrays, and empty objects
  * Ignore numbers, values already containing a localization variable like "PF2E." and other variables
  *
- * @param {*} data      The data that should get checked for relevance
- * @return {boolean}    The check result
+ * @param {*} data	  The data that should get checked for relevance
+ * @return {boolean}	The check result
  */
 function checkLocalizationRelevance(data) {
 	if (!data) return false;
@@ -578,8 +634,8 @@ function checkLocalizationRelevance(data) {
 
 /**
  * Check if strike is ranged or melee and return the type
- * @param {*} strike    Object containing the strike data
- * @returns {string}    The strike type, either "strike-melee" or "strike-ranged"
+ * @param {*} strike	Object containing the strike data
+ * @returns {string}	The strike type, either "strike-melee" or "strike-ranged"
  */
 function checkStrikeType(strike) {
 	let strikeType = "strike-melee";
@@ -595,8 +651,8 @@ function checkStrikeType(strike) {
  * Create an item database consisting of the Foundry compendium links and defined item properies
  *
  * @param {{path: string, fileName: string, fileType: string, content: string}} itemPacks   The item packs
- * @param {{blacklist: Array<string>, fields: Array<string>, packs: Object}} packMapping    Maps pack files to compendium links and defines required property fields for the database and blacklisted items
- * @returns {Object}                                                                        The item database
+ * @param {{blacklist: Array<string>, fields: Array<string>, packs: Object}} packMapping	Maps pack files to compendium links and defines required property fields for the database and blacklisted items
+ * @returns {Object}																		The item database
  */
 export function buildItemDatabase(itemPacks, packMapping) {
 	const itemDatabase = {};
@@ -608,8 +664,8 @@ export function buildItemDatabase(itemPacks, packMapping) {
 			// Loop through the pack items and build database, exclude items on blacklist
 			JSON.parse(pack.content).forEach((item) => {
 				const itemLink =
-					item.flags?.core?.sourceId && !packMapping.blacklist.includes(item.flags.core.sourceId)
-						? item.flags.core.sourceId
+					item._stats?.compendiumSource && !packMapping.blacklist.includes(item._stats.compendiumSource)
+						? item._stats.compendiumSource
 						: "";
 
 				let itemLinkShort = "";
@@ -645,9 +701,9 @@ export function buildItemDatabase(itemPacks, packMapping) {
  * If yes, an array with the old and the new value are created within the property
  * In addition, the new value gets the item's Id added as an identifier
  *
- * @param {Object} obj      The object that should get checked
+ * @param {Object} obj	  The object that should get checked
  * @param {string} property The property that should get added
- * @param {Object} value    The value for the property
+ * @param {Object} value	The value for the property
  */
 function entryDuplicates(obj, property, value) {
 	if (!obj.hasOwnProperty(property)) {
@@ -677,38 +733,66 @@ function entryDuplicates(obj, property, value) {
  * Unifies a string, adding missing line breaks after certain html tags
  *
  * @param {string} str  The string that needs to get unified
- * @returns {string}    The unified string
+ * @returns {string}	The unified string
  */
-function unifyLineBreaks(str) {
-	if (typeof str === "object" || !typeof str === "string") {
-		return str;
+function unifyLineBreaks(htmlString) {
+	if (typeof htmlString !== "string") {
+		return htmlString;
 	}
 
-	let unifiedStr = str
-		.replace(/(?<!\n)<hr \/>/g, "\n<hr />")
-		.replace(/<hr \/>(?!\n)/g, "<hr />\n")
-		.replace(/<\/li>(?!\n)<li>/g, "</li>\n<li>")
-		.replace(/<\/p>(?!\n)<ol>/g, "</p>\n<ol>")
-		.replace(/<ol>(?!\n)<li>/g, "<ol>\n<li>")
-		.replace(/<\/li>(?!\n)<\/ol>/g, "</li>\n</ol>")
-		.replace(/<\/p>(?!\n)<ul>/g, "</p>\n<ul>")
-		.replace(/<ul>(?!\n)<li>/g, "<ul>\n<li>")
-		.replace(/<\/li>(?!\n)<\/ul>/g, "</li>\n</ul>")
-		.replace(/<\/ol>(?!\n)<p>/g, "</ol>\n<p>")
-		.replace(/<\/ul>(?!\n)<p>/g, "</ul>\n<p>")
-		.replace(/<\/p>(?!\n)<p>/g, "</p>\n<p>")
-		.replace(/<\/p>(?!\n)<h1>/g, "</p>\n<h1>")
-		.replace(/<\/h1>(?!\n)<p>/g, "</h1>\n<p>")
-		.replace(/<\/p>(?!\n)<h2>/g, "</p>\n<h2>")
-		.replace(/<\/h2>(?!\n)<p>/g, "</h2>\n<p>")
-		.replace(/<\/p>(?!\n)<h3>/g, "</p>\n<h3>")
-		.replace(/<\/h3>(?!\n)<p>/g, "</h3>\n<p>")
-		.replace(/<tbody>(?!\n)<tr>/g, "<tbody>\n<tr>")
-		.replace(/<tr>(?!\n)<td>/g, "<tr>\n<td>")
-		.replace(/<\/td>(?!\n)<td>/g, "</td>\n<td>")
-		.replace(/<\/td>(?!\n)<\/tr>/g, "</td>\n</tr>")
-		.replace(/<\/tr>(?!\n)<tr>/g, "</tr>\n<tr>")
-		.replace(/<\/tr>(?!\n)<\/tbody>/g, "</tr>\n</tbody>")
-		.replace(/<\/tbody>(?!\n)<\/table>/g, "</tbody>\n</table>");
-	return unifiedStr;
+	//Replace <hr>
+	htmlString = htmlString.replaceAll("<hr>", "<hr />");
+
+	const tags = [
+		"p",
+		"h1",
+		"h2",
+		"h3",
+		"h4",
+		"ul",
+		"ol",
+		"li",
+		"table",
+		"thead",
+		"th",
+		"tbody",
+		"tr",
+		"td",
+		"section",
+		"blockquote",
+	];
+
+	const tagList = tags.map((tag) => tag.toLowerCase());
+
+	tagList.forEach((tag) => {
+		const regexOpenTag = new RegExp(`(?<!\n|^)<${tag}(\\s[^>]*)?>`, "g");
+		const regexCloseTag = new RegExp(`</${tag}>(?!\n|$)`, "g");
+
+		htmlString = htmlString.replace(regexOpenTag, `\n<${tag}$1>`);
+		htmlString = htmlString.replace(regexCloseTag, `</${tag}>\n`);
+	});
+
+	return htmlString;
+}
+
+/**
+ * Extracts an item's compendium link for items, that originate from a compendium
+ *
+ * @param {Object} item         Item data
+ * @returns {string|boolean}  The item's compendium link
+ */
+function getCompendiumLinkFromItemData(item) {
+	let compendiumLink = false;
+	if (resolvePath(item, "flags.core.sourceId").exists && item.flags.core.sourceId !== null) {
+		compendiumLink = item.flags.core.sourceId;
+	}
+	if (resolvePath(item, "_stats.compendiumSource").exists && item._stats.compendiumSource !== null) {
+		compendiumLink = item._stats.compendiumSource;
+	}
+
+	if (compendiumLink !== false && compendiumLink.startsWith("Compendium.pf2e.")) {
+		return compendiumLink;
+	}
+
+	return false;
 }

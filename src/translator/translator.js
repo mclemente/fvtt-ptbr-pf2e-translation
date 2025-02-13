@@ -1,5 +1,3 @@
-import { TRANSLATOR_CONFIG } from "./translator-config.js";
-
 export class Translator {
 	static get() {
 		if (!Translator.instance) {
@@ -11,13 +9,19 @@ export class Translator {
 	// Initialize translator
 	async initialize() {
 		// Read config file
-		const config = TRANSLATOR_CONFIG;
+		const config = await Promise.all([
+			fetch("modules/pathfinder-2e-pt-br/src/translator/translator-config.json")
+				.then((r) => r.json())
+				.catch((_e) => {
+					console.error("pathfinder-2e-pt-br: Couldn't find translator config file.");
+				}),
+		]);
 
 		// Initialize artwork lists
 		this.artworkLists = {};
 
 		// Load translations from dictionary
-		const dictionaryPath = config?.paths?.dictionary ?? undefined;
+		const dictionaryPath = config[0]?.paths?.dictionary ?? undefined;
 		if (dictionaryPath) {
 			const dict = await Promise.all([
 				fetch(dictionaryPath)
@@ -32,17 +36,38 @@ export class Translator {
 		}
 
 		// Create list of icons
-		this.icons = config?.iconList ?? {};
+		this.icons = config[0]?.iconList ?? {};
 
 		// Create item blacklist for items. Actor items with compendium sources on this list won't get synchronized with the compendium data
-		this.itemBlacklist = config?.itemBlacklist ?? [];
+		this.itemBlacklist = config[0]?.itemBlacklist ?? [];
 
 		// Create list of mappings
-		this.mappings = config?.mappings ?? {};
+		this.mappings = config[0]?.mappings ?? {};
 	}
 
 	constructor() {
 		this.initialize();
+	}
+
+	// Register a madia path for a compendium containing portrait and token images
+	addMediaPath(compendium, path) {
+		["portraits", "tokens"].forEach(async (imageType) => {
+			const imagePath = path.concat(`/${imageType}/`);
+			const images = {};
+			await FilePicker.browse("data", imagePath).then((picker) =>
+				picker.files.forEach((file) => {
+					const actorName = file.split("\\").pop().split("/").pop().replace(".webp", "");
+
+					Object.assign(images, {
+						[actorName]: {
+							[imageType.substring(0, imageType.length - 1)]: file,
+						},
+					});
+				})
+			);
+
+			foundry.utils.mergeObject(this.artworkLists, { [compendium]: images });
+		});
 	}
 
 	// Sluggify a string
@@ -58,7 +83,6 @@ export class Translator {
 
 	// Get mapping
 	getMapping(mapping, compendium = false) {
-		const CompendiumMapping = game.babele.packs.entries().next().value[1].mapping.constructor;
 		if (compendium) {
 			return this.mappings[mapping]
 				? new CompendiumMapping(this.mappings[mapping].entryType, this.mappings[mapping].mappingEntries)
@@ -118,6 +142,24 @@ export class Translator {
 	// Normalize name for correct display within Foundry
 	normalizeName(name) {
 		return name.replace("ß", "ss");
+	}
+
+	registerCompendium(module, compendium, language, compendiumDirectory, imageDirectory = undefined) {
+		// Register compendium
+		if (game.babele) {
+			game.babele.register({
+				module: module,
+				lang: language,
+				dir: compendiumDirectory,
+			});
+		} else {
+			console.error("pathfinder-2e-pt-br: Required module Babele not active");
+		}
+
+		// Register imageDirectory if provided
+		if (imageDirectory) {
+			this.addMediaPath(compendium, `modules/${module}/${imageDirectory}`);
+		}
 	}
 
 	// Translate an array of similar objects, e.g. scenes or journal pages. This supports duplicate object names within the array using ids to identify the correct data
@@ -243,16 +285,18 @@ export class Translator {
 			let itemName = entry.name;
 
 			// For compendium items, get the data from the compendium
+
+			const compendiumLink = getCompendiumLinkFromItemData(entry);
 			if (
-				entry.flags?.core?.sourceId &&
-				entry.flags.core.sourceId.startsWith("Compendium.pf2e.") &&
-				!entry.flags.core.sourceId.includes(".Actor.") &&
-				!this.itemBlacklist.includes(entry.flags.core.sourceId)
+				compendiumLink &&
+				compendiumLink.startsWith("Compendium.pf2e.") &&
+				!compendiumLink.includes(".Actor.") &&
+				!this.itemBlacklist.includes(compendiumLink)
 			) {
 				// Get the actual compendium name
-				const itemCompendium = entry.flags.core.sourceId.split(".");
+				const itemCompendium = compendiumLink.split(".");
 
-				const originalName = fromUuidSync(entry.flags.core.sourceId)?.flags?.babele?.originalName;
+				const originalName = fromUuidSync(compendiumLink)?.flags?.babele?.originalName;
 				if (originalName) {
 					entry.name = originalName;
 					itemName = originalName;
@@ -297,8 +341,8 @@ export class Translator {
 							itemTranslation[dataElement] =
 								dataElement === "description"
 									? itemTranslation[dataElement].replace(
-											"<Compendium>",
-											arr[index].system.description.value
+										  "<Compendium>",
+										  arr[index].system.description.value
 									  )
 									: itemTranslation[dataElement].replace("<Compendium>", arr[index].name);
 						}
@@ -328,8 +372,10 @@ export class Translator {
 			}
 
 			// Add the item slug if not already included
-			if (!arr[index].system.slug || arr[index].system.slug === "") {
-				arr[index].system.slug = this.sluggify(itemName);
+			if (arr[index].system) {
+				if (!arr[index].system.slug || arr[index].system.slug === "") {
+					arr[index].system.slug = this.sluggify(itemName);
+				}
 			}
 		});
 
@@ -405,6 +451,9 @@ export class Translator {
 
 	// For default icons, update the image if included in the media path
 	updateImage(type, value, dataObject, translatedCompendium) {
+		if (!translatedCompendium) {
+			return value;
+		}
 		// Get image source based on type
 		let imageSource = "";
 		if (type === "portrait") {
@@ -415,7 +464,7 @@ export class Translator {
 			return value;
 		}
 		// Check, if image source uses default image
-		if (!(imageSource.includes("systems/pf2e/icons") || imageSource.includes("icons/svg/mystery-man"))) {
+		if (!(imageSource.includes("systems/pf2e/") || imageSource.includes("icons/svg/mystery-man"))) {
 			return value;
 		}
 		const artworkList = this.artworkLists[translatedCompendium.metadata.name];
@@ -429,4 +478,25 @@ export class Translator {
 		}
 		return value;
 	}
+}
+
+/**
+ * Extracts an item's compendium link for items, that originate from a compendium
+ *
+ * @param {Object} item         Item data
+ * @returns {string|boolean}  The item's compendium link
+ */
+function getCompendiumLinkFromItemData(item) {
+	let compendiumLink = false;
+	if (item.flags?.core?.sourceId && item.flags.core.sourceId !== null) {
+		compendiumLink = item.flags.core.sourceId;
+	}
+	if (item._stats?.compendiumSource && item._stats.compendiumSource !== null) {
+		compendiumLink = item._stats.compendiumSource;
+	}
+	if (compendiumLink !== false && compendiumLink.startsWith("Compendium.pf2e.")) {
+		return compendiumLink;
+	}
+
+	return false;
 }
