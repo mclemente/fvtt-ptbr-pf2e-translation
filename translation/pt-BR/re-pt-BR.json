@@ -157,6 +157,11 @@
         "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
         "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
       },
+      "DaemonForm": {
+        "Note": {
+          "CeustodaemonDamage": "Qualquer Golpe bem-sucedido com as mandíbulas ou presas causa um adicional de @Damage[1d6[untyped] de dano, e você recebe a mesma quantidade de dano"
+        }
+      },
       "ElementEmbodied": {
         "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
         "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
@@ -220,7 +225,8 @@
           "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 4[persistent,fire]]] e [[/r (4[splash])[fire]]]{4 de dano de fogo de respingo}."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa dano [[/r (2*2)[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}.",
+          "success": "<strong>Efeito</strong> A bomba também causa dano [[/r 2[persistent,fire]]] e [[/r (2[splash])[fire]]]{2 de dano de fogo de respingo}."
         }
       },
       "BioluminescenceBomb": {
@@ -256,6 +262,17 @@
         },
         "Moderate": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (2[splash])[electricity]]]{2 de dano de respingo de eletricidade} e o alvo fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno."
+        }
+      },
+      "CrystalShards": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (5[splash])[piercing]]]{5 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +2 de bônus de item no próximo teste de Atletismo para Escalar."
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (6[splash])[piercing]]]{6 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +3 de bônus de item no próximo teste de Atletismo para Escalar."
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[piercing]]]{4 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +1 de bônus de item no próximo teste de Atletismo para Escalar."
         }
       },
       "DreadAmpoule": {
@@ -672,6 +689,7 @@
       "AsoBerang": {
         "PhantomFlames": {
           "Fire": "Fogo",
+          "None": "Nenhuma",
           "Spirit": "Espírito"
         },
         "SpectralFlame": "Chama Espectral"
@@ -1377,7 +1395,8 @@
         "success": "[[/r 1d12[persistent,poison]]]{1d12 de dano de persistente de veneno}"
       },
       "Poison1d4": {
-        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}"
+        "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 de dano de persistente de veneno}",
+        "success": "[[/r 1d4[persistent,poison]]]{1d4 de dano de persistente de veneno}"
       },
       "Poison1d6": {
         "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 de dano de persistente de veneno}",
@@ -1438,8 +1457,14 @@
         },
         "Basics": {
           "Level": {
+            "Hint": "Um nível opcional para a aura, para ser usado para definir o nível dos efeitos que ela transmite",
             "Label": "Nível"
-          }
+          },
+          "MergeExisting": {
+            "Hint": "Se outra aura com o mesmo slug já estiver sendo emitida, mescle os dados desta aura com os da outra, combinando traços e efeitos, bem como mesclando dados de <em>cores</em>.",
+            "Label": "Mesclar Existente"
+          },
+          "Radius": "Raio"
         },
         "Effects": {
           "Affects": "Afeta",
@@ -1448,6 +1473,7 @@
             "Allies": "Aliados",
             "Enemies": "Inimigos"
           },
+          "DropText": "Soltar efeito",
           "DropTooltip": "Um efeito para incluir nesta aura",
           "Events": "Eventos",
           "EventsOptions": {
@@ -1789,6 +1815,11 @@
             },
             "GreaterFieldDiscovery": "Você pode aumentar a área de respingo de suas bombas para causar dano a criaturas a até 10 pés do alvo principal, ou 15 pés se possuir Respingo Expandido."
           },
+          "Chirurgeon": {
+            "FieldVials": {
+              "Description": "Suas ampolas versáteis podem ser usadas para curar uma criatura viva @Damage[(ternary(gte(@actor.level,18),4,ternary(gte(@actor.level,12),3,ternary(gte(@actor.level,4),2,1))))d6[healing]] Pontos de Vida. Uma criatura pode beber a ampola para obter esse benefício, ou você pode jogá-la em uma criatura dentro de 20 pés, como uma ação de Interação para curar ela. Em ambos os casos, uma ampola usada desta forma perde os traços ácido e respingo e ganha os traços coagulante e cura, mais o traço elixir se uma criatura o beber."
+            }
+          },
           "FieldVials": "Ampolas de Campo",
           "Mutagenist": {
             "FieldVials": {
@@ -1841,7 +1872,8 @@
         "Wolf": "Lobo"
       },
       "AquaticCombat": {
-        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água."
+        "FireNote": "Você não pode conjurar magias de fogo ou usar ações com o traço fogo debaixo d'água.",
+        "RangedNote": "Ataques à distância que causam dano contundente ou cortante erram automaticamente se o atacante ou alvo estiver debaixo d'água, e ataques perfurantes à distância feitos por uma criatura subaquática ou contra um alvo subaquático têm seus incrementos de alcance reduzidos à metade."
       },
       "Ardande": {
         "PotentNectar": {
@@ -1950,6 +1982,13 @@
           "Scent": "Faro (Impreciso) 30 pés",
           "TremorsenseImprecise": "Sentido de Tremor (Impreciso) 30 pés",
           "TremorsensePrecise": "Melhore seu Sentido de Tremor para preciso"
+        }
+      },
+      "BeastLord": {
+        "CreatureOfMyth": {
+          "EnergyAegis": {
+            "Label": "Égide de Energia"
+          }
         }
       },
       "BlessingOfDefiance": {
@@ -2193,6 +2232,9 @@
         "Name": "Finalização Exemplar"
       },
       "Feat": {
+        "BurnIt": {
+          "Label": "Taca Fogo!"
+        },
         "FeyInfluence": {
           "Anteater": "Tamanduá",
           "CursedBluebird": "Azulão Amaldiçoado",
@@ -2446,7 +2488,8 @@
         "SimpleMartialBows": "Arcos Simples & Marciais"
       },
       "MechanicalTorch": {
-        "LitCone": "Cone"
+        "LitCone": "Cone",
+        "LitRadius": "Raio"
       },
       "Merfolk": {
         "ShieldingWave": {
@@ -2796,6 +2839,11 @@
       "SpellmastersResilience": {
         "Prompt": "Selecione uma tradição mágica para ganhar resistência."
       },
+      "StarlitSentinel": {
+        "Constellation": {
+          "Archer": "Arqueiro"
+        }
+      },
       "SubstituteRoll": {
         "Assurance": "Certeza"
       },
@@ -2860,6 +2908,9 @@
         "Implement": {
           "Amulet": {
             "Label": "Amuleto"
+          },
+          "Mirror": {
+            "Label": "Espelho"
           },
           "Wand": {
             "Label": "Varinha"

@@ -1,1 +1,2617 @@
-{}
+{
+  "entries": {
+    "Aecora Silverfire": {
+      "items": {
+        "spell->Disrupt Undead": {
+          "target": "1 undead creature"
+        },
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Agai": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Morningstar": {
+          "name": "Maça-estrela"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Besta Leve"
+        }
+      }
+    },
+    "Akiros Ismort": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->No Escape": {
+          "name": "Sem Escapatória"
+        },
+        "action->Rage": {
+          "name": "Fúria"
+        }
+      }
+    },
+    "Akuzhail": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Alasen": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Defensive Roll": {
+          "name": "Rolamento Defensivo"
+        },
+        "action->Mobility": {
+          "name": "Mobilidade"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Aldori Sister": {
+      "items": {
+        "strike-melee->Aldori Dueling Sword": {
+          "name": "Espada de Duelo Aldori"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Forager": {
+          "name": "Forrageador"
+        },
+        "action->Hunt Prey": {
+          "name": "Caçar Presa",
+          "rules": {
+            "4": {
+              "label": "Primeiro ataque à presa caçada na rodada"
+            }
+          }
+        },
+        "lore->Forest Lore": {
+          "name": "Saber de Florestas"
+        }
+      }
+    },
+    "Ameon Trask": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        },
+        "action->Twin Feint": {
+          "name": "Finta Dupla"
+        },
+        "action->Twin Parry": {
+          "name": "Aparada Dupla"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Amiri (Level 1, Kingmaker)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        },
+        "backpack->Belt Pouch": {
+          "name": "Algibeira"
+        }
+      }
+    },
+    "Amiri (Level 11, Kingmaker)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        },
+        "backpack->Belt Pouch": {
+          "name": "Algibeira"
+        }
+      }
+    },
+    "Ancient Wisp": {
+      "items": {
+        "strike-melee->Shock": {
+          "name": "Chocante"
+        }
+      }
+    },
+    "Ankou Assassin": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Wing": {
+          "name": "Asa"
+        }
+      }
+    },
+    "Annamede Belavarah": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "spell->Soothe": {
+          "target": "1 willing living creature"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Armag Twice-Born": {
+      "items": {
+        "action->Second Wind": {
+          "name": "Retomar o Fôlego"
+        },
+        "action->Awesome Blow": {
+          "name": "Golpe Impressionante"
+        }
+      }
+    },
+    "Auchs": {
+      "items": {
+        "strike-melee->Club": {
+          "name": "Clava"
+        },
+        "strike-ranged->Club": {
+          "name": "Clava"
+        }
+      }
+    },
+    "Avatar of the Lantern King": {
+      "items": {
+        "spell->Fantastic Facade": {
+          "secondarycheck": "Society or Survival; Deception; Stealth"
+        },
+        "spell->Create Demiplane": {
+          "primarycheck": "Arcana, Nature, Occultism, or Religion (legendary)",
+          "secondarycheck": "Arcana, Nature, Occultism,  Religion (whichever three aren't used for the primary check)"
+        },
+        "spell->Freedom": {
+          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
+        },
+        "spell->Plane Shift": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "spell->Commune with Nature": {
+          "name": "Comunhão com a Natureza",
+          "primarycheck": "Nature (master)",
+          "secondarycheck": "Natureza"
+        },
+        "spell->Geas": {
+          "target": "1 creature of a level no greater than double the geas ritual's level"
+        },
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "action->Blindness": {
+          "name": "Cegueira"
+        },
+        "action->Change Shape": {
+          "name": "Trocar Forma",
+          "rules": {
+            "1": {
+              "label": "Punho"
+            },
+            "2": {
+              "label": "Força"
+            },
+            "4": {
+              "label": "Força"
+            }
+          }
+        }
+      }
+    },
+    "Barbtongued Wyvern": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Stinger": {
+          "name": "Ferrão"
+        }
+      }
+    },
+    "Basic Cavalry": {
+      "tokenName": "Cavalaria"
+    },
+    "Basic Infantry": {
+      "tokenName": "Infantaria"
+    },
+    "Black Smilodon": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Black Tear Cutthroat": {
+      "items": {
+        "backpack->Belt Pouch": {
+          "name": "Algibeira"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Hand Crossbow": {
+          "name": "Besta de Mão"
+        }
+      }
+    },
+    "Bloom Cultist": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "strike-melee->Kukri": {
+          "name": "Kukri"
+        }
+      }
+    },
+    "Bloom Wyvern": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Stinger": {
+          "name": "Ferrão"
+        }
+      }
+    },
+    "Bloomborn Athach": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        }
+      }
+    },
+    "Bog Mummy Cultist": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Boggard Cultist": {
+      "items": {
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        },
+        "strike-melee->Whip": {
+          "name": "Chicote"
+        },
+        "strike-ranged->Blowgun": {
+          "name": "Zarabatana"
+        }
+      }
+    },
+    "Boggard Warden": {
+      "items": {
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        },
+        "strike-ranged->Trident": [
+          {
+            "name": "Tridente"
+          },
+          {
+            "name": "Tridente"
+          }
+        ],
+        "strike-ranged->Blowgun": {
+          "name": "Zarabatana"
+        },
+        "action->Nature's Edge": {
+          "name": "Préstimo da Natureza"
+        }
+      }
+    },
+    "Brush Thylacine": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Castruccio Irovetti": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "spell->Soothe": {
+          "target": "1 willing living creature"
+        },
+        "consumable->Wand of Dimension Door (Level 4)": {
+          "consumableSpellName": "Porta Dimensional",
+          "consumableSpellDescription": " <p>Abrindo uma porta que transcende o espaço normal, você transporta instantaneamente a si e a quaisquer itens que estiver  vestindo ou segurando para um espaço livre à sua vista dentro da distância. Se este efeito traria outra criatura com você — mesmo se você a estiver carregando em um recipiente extradimensional — a magia é perdida.</p><hr /><p><strong> Elevada (5º)</strong> A distância aumenta para 1,5 quilômetros. Você não precisa ser capaz de ver seu destino, desde que tenha estado lá no passado e souber sua localização e distância relativas a você. Você fica temporariamente imune por 1 hora.</p>"
+        },
+        "consumable->Wand of Paralyze (Level 3)": {
+          "consumableSpellName": "Paralisar",
+          "consumableSpellDescription": "<p>Você bloqueia os impulsos motores do alvo antes que eles possam sair da mente dele, ameaçando paralisá-lo. O alvo deve tentar um salvamento de Vontade.</p> <hr /><p><strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica  @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} 1.</p><p><strong>Falha</strong> O alvo fica @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 1 rodada.</p><p><strong>Falha</strong> O alvo fica  @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 4 rodadas. No início de cada um dos turnos dele, o alvo deve tentar um novo salvamento de Vontade para reduzir a duração em 1 rodada, ou encerrá-la inteiramente em um sucesso crítico.</p> <hr /><p><strong>Elevada (7º)</strong> Você pode afetar até 10 criaturas.</p>",
+          "consumableSpellTarget": "1 creature"
+        }
+      }
+    },
+    "Centaur Scout": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Cephal Lorentus": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Chief Sootscale": {
+      "items": {
+        "strike-ranged->Club": [
+          {
+            "name": "Clava"
+          },
+          {
+            "name": "Clava"
+          }
+        ],
+        "action->Unbalancing Blow": {
+          "name": "Golpe Desequilibrante"
+        }
+      }
+    },
+    "Cleansed Cultist": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Dagger": [
+          {
+            "name": "Adaga"
+          },
+          {
+            "name": "Adaga"
+          }
+        ],
+        "action->Twin Feint": {
+          "name": "Finta Dupla"
+        }
+      }
+    },
+    "Corax": {
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        }
+      }
+    },
+    "Cursed Guardian": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Cyclops Zombie": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "action->Slow": {
+          "name": "Lentidão"
+        }
+      }
+    },
+    "Darivan": {
+      "items": {
+        "strike-melee->Falchion": {
+          "name": "Bracamante"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Davik Nettles": {
+      "items": {
+        "spell->Water Walk (Constant) (Self Only)": {
+          "target": "si mesmo"
+        },
+        "strike-melee->Ranseur": {
+          "name": "Ranseur"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Defaced Naiad Queen": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Flesh to Stone": {
+          "target": "1 creature made of flesh"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        }
+      }
+    },
+    "Dog (Ekundayo's Companion)": {
+      "tokenName": "Cachorro",
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Dovan from Nisroch": {
+      "items": {
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "action->Mobility": {
+          "name": "Mobilidade"
+        }
+      }
+    },
+    "Dread Aura": {
+      "name": "Aura Pavorosa"
+    },
+    "Drelev Guard": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Intimidating Strike": {
+          "name": "Golpe Intimidante"
+        }
+      }
+    },
+    "Ekundayo (Level 1)": {
+      "items": {
+        "lore->Guild Lore": {
+          "name": "Saber de Guildas"
+        },
+        "lore->Hunting Lore": {
+          "name": "Saber de Caça"
+        }
+      }
+    },
+    "Ekundayo (Level 6)": {
+      "items": {
+        "lore->Guild Lore": {
+          "name": "Saber de Guildas"
+        },
+        "lore->Hunting Lore": {
+          "name": "Saber de Caça"
+        }
+      }
+    },
+    "Elder Elemental Tsunami": {
+      "items": {
+        "strike-melee->Wave": {
+          "name": "Onda"
+        }
+      }
+    },
+    "Elga Verniex": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        }
+      }
+    },
+    "Engelidis": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "spell->Misdirection": {
+          "name": "Desorientar",
+          "description": "<p>Você remolda a aura mágica de uma criatura ou objeto para que pareça similar à aura de outra. Você designa um alvo como o alvo primário e o outro como o alvo secundário. Efeitos que detectariam auras no alvo primário em vez disso detectam os mesmos tipos de aura do alvo secundário. Uma criatura lendo a aura pode tentar desacreditar a ilusão. Você pode Dispensar esta magia a até 1,5 quilômetros de distância.</p>",
+          "target": "2 creatures or objects"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Enormous Dragonfly": {
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Enormous Flame Drake": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Draconic Frenzy": {
+          "name": "Frenesi Dracônico"
+        }
+      }
+    },
+    "Eobald": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "lore->Academia Lore": {
+          "name": "Saber Acadêmico"
+        }
+      }
+    },
+    "Exploding Bloom Pods": {
+      "items": {
+        "action->Burst": {
+          "name": "Explosão"
+        }
+      }
+    },
+    "Explosion Bear": {
+      "items": {
+        "action->Fireball": {
+          "name": "Bola de Fogo"
+        }
+      }
+    },
+    "False Priestess": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "strike-melee->Glaive": {
+          "name": "Glaive"
+        },
+        "action->Reach Spell": {
+          "name": "Magia de Alcance"
+        }
+      }
+    },
+    "Fen Pudding": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        }
+      }
+    },
+    "Fetch Behemoth": {
+      "items": {
+        "spell->Plane Shift (to or from the First World only)": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        }
+      }
+    },
+    "Fetch Stalker": {
+      "items": {
+        "spell->Plane Shift (to or from the First World only)": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        }
+      }
+    },
+    "Fionn": {
+      "items": {
+        "lore->Fey Lore": {
+          "name": "Saber de Fadas"
+        }
+      }
+    },
+    "Foras": {
+      "items": {
+        "spell->Touch of Idiocy": {
+          "target": "1 living creature"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "action->Resolve": {
+          "name": "Determinação (Nível 7)"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        }
+      }
+    },
+    "Freshly Bloomed Basilisk": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Gaetane": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Oathbow": {
+          "name": "Arco do Juramento"
+        },
+        "action->Deadly Aim": {
+          "name": "Mira Letal"
+        },
+        "action->Distracting Shot": {
+          "name": "Tiro de Distração"
+        },
+        "action->Hunted Shot": {
+          "name": "Tiro à Caça"
+        },
+        "action->Moon Frenzy": {
+          "name": "Frenesi da Lua"
+        },
+        "action->Targeting Shot": {
+          "name": "Tiro Mirado"
+        }
+      }
+    },
+    "Gedovius": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Dread Striker": {
+          "name": "Golpeador Pavoroso"
+        },
+        "action->Intimidating Prowess": {
+          "name": "Intrepidez Intimidante"
+        }
+      }
+    },
+    "General Avinash Jurrg": {
+      "items": {
+        "strike-melee->Greatsword": {
+          "name": "Montante"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Giant Trapdoor Spider": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Goblin Bat-Dog": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Goblin Pox": {
+          "name": "Varíola Goblin"
+        }
+      }
+    },
+    "Grabbles": {
+      "items": {
+        "strike-ranged->Trident": [
+          {
+            "name": "Tridente"
+          },
+          {
+            "name": "Tridente"
+          }
+        ]
+      }
+    },
+    "Grigori": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    },
+    "Gromog": {
+      "senses": "cego",
+      "items": {
+        "strike-melee->Ogre Hook": {
+          "name": "Gancho Ogro"
+        },
+        "action->Blinded": {
+          "name": "Cego"
+        }
+      }
+    },
+    "Gurija": {
+      "items": {
+        "consumable->Wand of Shocking Grasp (Level 2)": {
+          "consumableSpellName": "Toque Chocante",
+          "consumableSpellTarget": "1 creature"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claws": {
+          "name": "Garras"
+        }
+      }
+    },
+    "Hannis Drelev": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Besta Leve"
+        },
+        "action->Skirmish Strike": {
+          "name": "Golpe Escaramuçador"
+        }
+      }
+    },
+    "Happs Bydon": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        }
+      }
+    },
+    "Hargulka": {
+      "items": {
+        "strike-melee->Morningstar": {
+          "name": "Maça-estrela"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Hateful Hermit": {
+      "items": {
+        "strike-melee->Whip": {
+          "name": "Chicote"
+        },
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        },
+        "strike-ranged->Blowgun": {
+          "name": "Zarabatana"
+        },
+        "action->Trackless Step": {
+          "name": "Passo Irrastreável"
+        }
+      }
+    },
+    "Hill Giant Butcher": {
+      "items": {
+        "consumable->Rock": {
+          "name": "Rocha"
+        },
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-ranged->Hatchet": [
+          {
+            "name": "Machadinha"
+          },
+          {
+            "name": "Machadinha"
+          }
+        ],
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        }
+      }
+    },
+    "Hillstomper": {
+      "items": {
+        "strike-melee->Tusk": {
+          "name": "Presa"
+        },
+        "strike-melee->Trunk": {
+          "name": "Tronco"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "action->Grabbing Trunk": {
+          "name": "Grabbing Trunk (Pathfinder #177)"
+        }
+      }
+    },
+    "Hooktongue": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        }
+      }
+    },
+    "Hooktongue Hydra": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Horagnamon": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "action->Cunning": {
+          "name": "Astuto"
+        }
+      }
+    },
+    "Ilora Nuski": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "action->Nature's Edge": {
+          "name": "Préstimo da Natureza"
+        },
+        "action->Twin Parry": {
+          "name": "Aparada Dupla"
+        },
+        "action->Twin Takedown": {
+          "name": "Abate Duplo"
+        },
+        "action->Wild Stride": {
+          "name": "Deslocamento nos Ermos"
+        }
+      }
+    },
+    "Ilthuliak": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Resilient Sphere": {
+          "target": "1 Large or smaller creature"
+        },
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-melee->Horns": {
+          "name": "Chifres"
+        }
+      }
+    },
+    "Imeckus Stroon": {
+      "items": {
+        "spellcastingEntry->Staff of Fire (Major)": {
+          "name": "Cajado do Fogo (Superior)"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "action->Enhanced Familiar": {
+          "name": "Familiar Aprimorado"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        },
+        "lore->Academia Lore": {
+          "name": "Saber Acadêmico"
+        }
+      }
+    },
+    "Immense Mandragora": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Irahkatu": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Irovetti's Fetch": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Plane Shift (to or from the First World only)": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        }
+      }
+    },
+    "Jaggedbriar Hag": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Jamandi Aldori": {
+      "items": {
+        "strike-melee->Aldori Dueling Sword": {
+          "name": "Espada de Duelo Aldori"
+        },
+        "action->Aldori Parry": {
+          "name": "Aparada Aldori"
+        },
+        "action->Aldori Riposte": {
+          "name": "Riposta Aldori"
+        },
+        "action->Saving Slash": {
+          "name": "Corte Salvador"
+        },
+        "action->Unnerving Prowess": {
+          "name": "Proeza Desalentadora"
+        }
+      }
+    },
+    "Jewel": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Ankle Bite": {
+          "name": "Morder Tornozelos"
+        }
+      }
+    },
+    "Jin Durwhimmer": {
+      "items": {
+        "spell->Awaken Animal": {
+          "target": "1 animal up to the level on Table 7-1"
+        },
+        "spell->Commune with Nature": {
+          "name": "Comunhão com a Natureza",
+          "primarycheck": "Nature (master)",
+          "secondarycheck": "Natureza"
+        }
+      }
+    },
+    "Jubilost (Level 1)": {
+      "items": {
+        "lore->Academia Lore": {
+          "name": "Saber Acadêmico"
+        },
+        "lore->Forest Lore": {
+          "name": "Saber de Florestas"
+        },
+        "backpack->Bandolier": {
+          "name": "Bandoleira"
+        },
+        "backpack->Belt Pouch": {
+          "name": "Algibeira"
+        }
+      }
+    },
+    "Jubilost (Level 8)": {
+      "items": {
+        "lore->Academia Lore": {
+          "name": "Saber Acadêmico"
+        },
+        "lore->Forest Lore": {
+          "name": "Saber de Florestas"
+        },
+        "backpack->Bandolier": {
+          "name": "Bandoleira"
+        },
+        "backpack->Belt Pouch": {
+          "name": "Algibeira"
+        }
+      }
+    },
+    "Jurgrindor": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Kargstaad": {
+      "items": {
+        "consumable->Rock": {
+          "name": "Rocha"
+        },
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        },
+        "action->Juggernaut": {
+          "name": "Irrefreável (Nível 7)"
+        },
+        "action->Rage": {
+          "name": "Fúria"
+        }
+      }
+    },
+    "Kargstaad's Giant": {
+      "items": {
+        "consumable->Rock": {
+          "name": "Rocha"
+        },
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        }
+      }
+    },
+    "Kellid Graveknight": {
+      "items": {
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Kereek": {
+      "items": {
+        "consumable->Wand of Burning Hands (Level 1)": {
+          "consumableSpellName": "Mãos Flamejantes",
+          "consumableSpellDescription": "<p>Chamas jorram de suas mãos. Você causa 2d6 de dano de fogo às criaturas na área.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "King Vesket": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-ranged->Trident": [
+          {
+            "name": "Tridente"
+          },
+          {
+            "name": "Tridente"
+          }
+        ]
+      }
+    },
+    "Kob Moleg": {
+      "items": {
+        "consumable->Rock": {
+          "name": "Rocha"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Kressle": {
+      "items": {
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        }
+      }
+    },
+    "Kundal": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "action->Moon Frenzy": {
+          "name": "Frenesi da Lua"
+        }
+      }
+    },
+    "Leng Envoy": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "strike-melee->Kukri": {
+          "name": "Kukri"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "lore->Sailing Lore": {
+          "name": "Saber de Navegação"
+        }
+      }
+    },
+    "Lesser Jabberwock": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-melee->Wing": {
+          "name": "Asa"
+        },
+        "action->Vorpal Fear": {
+          "name": "Medo Vorpal"
+        }
+      }
+    },
+    "Lickweed": {
+      "items": {
+        "consumable->Wand of Glitterdust (Level 2)": {
+          "consumableSpellName": "Poeira Reluzente"
+        },
+        "strike-melee->Scythe": {
+          "name": "Segadeira"
+        },
+        "action->Goblin Scuttle": {
+          "name": "Passadela Goblin"
+        },
+        "action->Reach Spell": {
+          "name": "Magia de Alcance"
+        }
+      }
+    },
+    "Lintwerth": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Linzi (Level 1)": {
+      "items": {
+        "lore->Art Lore": {
+          "name": "Saber de Artes"
+        },
+        "lore->Bardic Lore": {
+          "name": "Saber Bárdico"
+        },
+        "spell->Soothe": {
+          "target": "1 willing living creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        }
+      }
+    },
+    "Linzi (Level 7)": {
+      "items": {
+        "lore->Art Lore": {
+          "name": "Saber de Artes"
+        },
+        "lore->Bardic Lore": {
+          "name": "Saber Bárdico"
+        },
+        "spell->Soothe": {
+          "target": "1 willing living creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "consumable->Wand of Invisibility (Level 2)": {
+          "consumableSpellName": "Invisibilidade",
+          "consumableSpellTarget": "1 creature"
+        }
+      }
+    },
+    "Lizardfolk Defenders": {
+      "items": {
+        "campaignFeature->Swamp Dwellers": {
+          "rules": {
+            "0": {
+              "label": "Ajuste"
+            }
+          }
+        }
+      }
+    },
+    "Lizardfolk Warrior": {
+      "items": {
+        "strike-melee->Longspear": {
+          "name": "Lança Longa"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Azagaia"
+        },
+        "action->Sudden Charge": {
+          "name": "Investida Súbita"
+        },
+        "action->Terrain Advantage": {
+          "name": "Vantagem de Terreno"
+        }
+      }
+    },
+    "Logger": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-ranged->Hatchet": [
+          {
+            "name": "Machadinha"
+          },
+          {
+            "name": "Machadinha"
+          }
+        ]
+      }
+    },
+    "M'botuu Frog Riders": {
+      "items": {
+        "campaignFeature->Amphibious": {
+          "name": "Anfíbio"
+        }
+      }
+    },
+    "Malgorzata Niska": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "consumable->Wand of Heal (Level 1)": {
+          "consumableSpellName": "Curar",
+          "consumableSpellTarget": "1 willing living creature or 1 undead"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Mastiff Of Tindalos": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Melianse": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        }
+      }
+    },
+    "Minognos-Ushad": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Stinger": {
+          "name": "Ferrão"
+        }
+      }
+    },
+    "Ngara": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Nightmare Rook": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "strike-melee->Wing": {
+          "name": "Asa"
+        }
+      }
+    },
+    "Nilak": {
+      "items": {
+        "spell->Disrupt Undead": {
+          "target": "1 undead creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Club": {
+          "name": "Clava"
+        },
+        "strike-ranged->Club": {
+          "name": "Clava"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        },
+        "action->Form Control": {
+          "name": "Controlar Forma"
+        },
+        "action->Reach Spell": {
+          "name": "Magia de Alcance"
+        },
+        "action->Wild Shape": {
+          "name": "Aspecto Selvagem"
+        }
+      }
+    },
+    "Niodrhast": {
+      "items": {
+        "spell->Geas": {
+          "target": "1 creature of a level no greater than double the geas ritual's level"
+        },
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Nishkiv the Knife": {
+      "items": {
+        "strike-ranged->Dagger": [
+          {
+            "name": "Adaga"
+          },
+          {
+            "name": "Adaga"
+          }
+        ]
+      }
+    },
+    "Nok-Nok (Level 1)": {
+      "items": {
+        "lore->Underworld Lore": {
+          "name": "Saber de Submundo"
+        }
+      }
+    },
+    "Nok-Nok (Level 5)": {
+      "items": {
+        "lore->Underworld Lore": {
+          "name": "Saber de Submundo"
+        }
+      }
+    },
+    "Ntavi": {
+      "items": {
+        "strike-melee->Maul": {
+          "name": "Malho"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        }
+      }
+    },
+    "Nugrah": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Club": {
+          "name": "Clava"
+        }
+      }
+    },
+    "Numerian Adamantine Golem": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Numerian Guthallah": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        }
+      }
+    },
+    "Numerian Radiant Warden": {
+      "items": {
+        "strike-melee->Hammer": {
+          "name": "Martelo"
+        },
+        "strike-melee->Radiant Beam": {
+          "name": "Radiant Beam"
+        }
+      }
+    },
+    "Nyrissa": {
+      "items": {
+        "spell->Wish": {
+          "name": "Desejo",
+          "description": "<p>Você profere um desejo, fazendo sua maior vontade virar verdade. Uma conjuração de desejo pode resultar em qualquer um dos efeitos a seguir: • Duplicar qualquer magia arcana de 9º nível ou inferior. • Duplicar qualquer magia não-arcana de 7º nível ou inferior. • Produzir qualquer efeito cujo poder seja equivalente ao de qualquer magia arcana de 9º nível ou inferior ou equivalente ao poder de qualquer magia não-arcana de 7º nível ou inferior. • Reverter determinados efeitos que mencionem a magia desejo. A critério do MJ, você pode tentar produzir efeitos maiores, mas isto é perigoso e a magia pode ter um efeito somente parcial.</p>"
+        },
+        "spell->Create Demiplane": {
+          "primarycheck": "Arcana, Nature, Occultism, or Religion (legendary)",
+          "secondarycheck": "Arcana, Nature, Occultism,  Religion (whichever three aren't used for the primary check)"
+        },
+        "spell->Plane Shift": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "spell->Awaken Animal": {
+          "target": "1 animal up to the level on Table 7-1"
+        },
+        "spell->Commune with Nature": {
+          "name": "Comunhão com a Natureza",
+          "primarycheck": "Nature (master)",
+          "secondarycheck": "Natureza"
+        },
+        "spell->Disintegrate": {
+          "target": "1 creature or unattended object"
+        },
+        "spell->Flesh to Stone": {
+          "target": "1 creature made of flesh"
+        },
+        "spell->Geas": {
+          "target": "1 creature of a level no greater than double the geas ritual's level"
+        },
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "spell->Restore Senses (At Will)": {
+          "target": "1 creature"
+        },
+        "spell->Touch of Idiocy": {
+          "target": "1 living creature"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        },
+        "action->Blinding Beauty": {
+          "name": "Blinding Beauty"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        },
+        "action->Contingency": {
+          "name": "Contingência"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        }
+      }
+    },
+    "Old Crackjaw": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Oleg": {
+      "items": {
+        "strike-ranged->Light Hammer": [
+          {
+            "name": "Martelo Leve"
+          },
+          {
+            "name": "Martelo Leve"
+          }
+        ]
+      }
+    },
+    "Orb Blast Trap": {
+      "items": {
+        "strike-melee->Force Bolt": {
+          "name": "Dardo de Força"
+        }
+      }
+    },
+    "Overgrown Viper Vine": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Vine": {
+          "name": "Vinha"
+        }
+      }
+    },
+    "Oversized Chimera": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Pavetta Stroon-Drelev": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Phomandala": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        },
+        "action->Woodland Stride": {
+          "name": "Deslocamento da Floresta"
+        }
+      }
+    },
+    "Pitax Warden": {
+      "items": {
+        "strike-melee->Greatsword": {
+          "name": "Montante"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        },
+        "action->Sudden Charge": {
+          "name": "Investida Súbita"
+        }
+      }
+    },
+    "Prank Workshop Mitflit": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        }
+      }
+    },
+    "Prazil": {
+      "items": {
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        }
+      }
+    },
+    "Primal Bandersnatch": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claws": {
+          "name": "Garras"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-ranged->Quill": {
+          "name": "Espinho"
+        },
+        "action->Pain": {
+          "name": "Dor"
+        }
+      }
+    },
+    "Quintessa Maray": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "spell->Soothe": {
+          "target": "1 willing living creature"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        }
+      }
+    },
+    "Rezatha": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Thrash": {
+          "name": "Arrebentar"
+        }
+      }
+    },
+    "Rigg Gargadilly": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        }
+      }
+    },
+    "Risen Fetch": {
+      "items": {
+        "spell->Plane Shift (to or from the First World only)": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        }
+      }
+    },
+    "River Elasmosaurus": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Satinder Morne": {
+      "items": {
+        "spell->Undetectable Alignment": {
+          "name": "Tendência Indetectável",
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
+          "target": "1 creature or object"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Sepoko": {
+      "items": {
+        "spell->Commanding Lash": {
+          "requirements": "Your most recent action dealt damage to a target."
+        },
+        "strike-melee->Mace": {
+          "name": "Maça"
+        },
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        }
+      }
+    },
+    "Shambler": {
+      "items": {
+        "strike-melee->Vine": {
+          "name": "Vinha"
+        }
+      }
+    },
+    "Sir Fredero Sinnet": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        }
+      }
+    },
+    "Sister of the Bloodshot Eye": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Skeletal Tiger Lord": {
+      "items": {
+        "strike-melee->Greatsword": {
+          "name": "Montante"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        }
+      }
+    },
+    "Spiral Seal": {
+      "items": {
+        "action->Recovery": {
+          "name": "Recuperação"
+        }
+      }
+    },
+    "Spirit of Stisshak": {
+      "items": {
+        "strike-melee->Shock": {
+          "name": "Chocante"
+        }
+      }
+    },
+    "Stag Lord Bandit": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        }
+      }
+    },
+    "Storm-Struck Arboreal": {
+      "items": {
+        "strike-melee->Branch": {
+          "name": "Galho"
+        },
+        "action->Axe Vulnerability": {
+          "name": "Vulnerabilidade a Machado"
+        }
+      }
+    },
+    "Talon Peak Roc": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "strike-melee->Wing": {
+          "name": "Asa"
+        }
+      }
+    },
+    "Tartuccio": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "consumable->Wand of Magic Missile (Level 1)": {
+          "consumableSpellName": "Mísseis Mágicos",
+          "consumableSpellDescription": "<p>Você lança um míssil de força em direção a uma criatura em sua visão. Ele acerta automaticamente e causa 1d4+1 de dano de força. Para cada ação adicional que você usar para Conjurar esta Magia, aumente a quantidade de mísseis disparados em um, até um máximo de três mísseis para 3 ações. Você escolhe o alvo para cada míssil individualmente. Se você disparar mais de um míssil no mesmo alvo, combine o dano antes de aplicar bônus ou penalidades ao dano, resistências, fraquezas e assim por diante.</p><hr /><p><strong>Elevada (+2)</strong> Você dispara um míssil adicional com cada ação que gastar.</p>",
+          "consumableSpellTarget": "1 creature"
+        },
+        "effect->Spell Effect: Mage Armor": {
+          "rules": {
+            "0": {
+              "label": "Armadura Mística"
+            },
+            "1": {
+              "label": "Armadura Mística"
+            },
+            "2": {
+              "label": "Armadura Mística"
+            }
+          }
+        },
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        },
+        "action->Change Shape": {
+          "name": "Trocar Forma"
+        },
+        "lore->Bardic Lore": {
+          "name": "Saber Bárdico"
+        }
+      }
+    },
+    "Terrion Numesti": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "The Beast": {
+      "items": {
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "strike-melee->Beak": {
+          "name": "Bico"
+        }
+      }
+    },
+    "The Dancing Lady": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Drink Blood": {
+          "name": "Drink Blood (Book of the Dead)"
+        }
+      }
+    },
+    "The First Faithful": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Planar Binding": {
+          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "weapon->Staff of Necromancy (Major)": {
+          "name": "Cajado da Necromancia (Superior)"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        }
+      }
+    },
+    "The Gardener": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Spectral Hand": {
+          "name": "Mão Espectral"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        }
+      }
+    },
+    "The Horned Hunter": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Horns": {
+          "name": "Chifres"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        },
+        "action->Juggernaut": {
+          "name": "Irrefreável (Nível 7)"
+        },
+        "action->Hunt Prey": {
+          "name": "Caçar Presa"
+        },
+        "action->Masterful Hunter": {
+          "name": "Caçador Magistral"
+        }
+      }
+    },
+    "The Knurly Witch": {
+      "items": {
+        "spell->Word of Recall": {
+          "target": "Up to seven willing creatures of 14th level or lower"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Resolve": {
+          "name": "Determinação (Nível 7)"
+        },
+        "action->Word of Recall": {
+          "name": "Word of Recall"
+        }
+      }
+    },
+    "The Lonely Warrior": {
+      "items": {
+        "strike-melee->Bastard Sword": {
+          "name": "Espada Bastarda"
+        },
+        "action->Final Spite": {
+          "name": "Final Spite"
+        },
+        "action->Drain Life": {
+          "name": "Drenar Vida"
+        }
+      }
+    },
+    "The Misbegotten Troll": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Glaive": {
+          "name": "Glaive"
+        }
+      }
+    },
+    "The Stag Lord": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Dread Striker": {
+          "name": "Golpeador Pavoroso"
+        },
+        "action->Hunt Prey": {
+          "name": "Caçar Presa"
+        }
+      }
+    },
+    "The Wriggling Man": {
+      "items": {
+        "spell->Veil": {
+          "name": "Véu",
+          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>",
+          "target": "up to 10 creatures"
+        },
+        "weapon->Staff of Transmutation (Major)": {
+          "name": "Cajado da Transmutação (Superior)"
+        },
+        "strike-melee->Tendril": {
+          "name": "Gavinha"
+        },
+        "action->Contingency": {
+          "name": "Contingência"
+        },
+        "action->Effortless Concentration": {
+          "name": "Concentração sem Esforço"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        }
+      }
+    },
+    "Thorn River Bandit": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    },
+    "Thresholder Disciple": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Shuriken": {
+          "name": "Shuriken"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        },
+        "action->Guarded Movement": {
+          "name": "Movimento Cauteloso"
+        },
+        "action->Flurry of Blows": {
+          "name": "Rajada de Golpes"
+        }
+      }
+    },
+    "Thresholder Hermeticist": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "action->Juggernaut": {
+          "name": "Irrefreável (Nível 7)"
+        },
+        "action->Bomber": {
+          "name": "Bombardeiro"
+        },
+        "action->Quick Bomber": {
+          "name": "Bombardeiro Rápido"
+        }
+      }
+    },
+    "Thresholder Mystic": {
+      "items": {
+        "spell->Delay Consequence": {
+          "target": "the triggering creature"
+        },
+        "spell->Disrupt Undead": {
+          "target": "1 undead creature"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "action->Resolve": {
+          "name": "Determinação (Nível 7)"
+        },
+        "action->Divine Font": {
+          "name": "Fonte Divina"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        }
+      }
+    },
+    "Thylacine": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Tiger Lord": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        },
+        "action->No Escape": {
+          "name": "Sem Escapatória"
+        }
+      }
+    },
+    "Tiger Lord Hill Giant (TL2)": {
+      "items": {
+        "consumable->Rock": {
+          "name": "Rocha"
+        },
+        "strike-melee->Greatclub": {
+          "name": "Clava Pesada"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        },
+        "action->Knockback": {
+          "name": "Jogar para Trás"
+        }
+      }
+    },
+    "Trapdoor Ogre Spider": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Tristian (Level 1)": {
+      "items": {
+        "lore->Forest Lore": {
+          "name": "Saber de Florestas"
+        },
+        "spell->Protection": {
+          "target": "1 creature"
+        },
+        "spell->Disrupt Undead": {
+          "target": "1 undead creature"
+        }
+      }
+    },
+    "Tristian (Level 10)": {
+      "items": {
+        "lore->Forest Lore": {
+          "name": "Saber de Florestas"
+        },
+        "spell->Protection": {
+          "target": "1 creature"
+        },
+        "spell->Disrupt Undead": {
+          "target": "1 undead creature"
+        },
+        "consumable->Wand of Heal (Level 3)": {
+          "consumableSpellName": "Curar",
+          "consumableSpellTarget": "1 willing living creature or 1 undead"
+        },
+        "spell->Neutralize Poison": {
+          "target": "1 creature"
+        },
+        "spell->Remove Disease": {
+          "name": "Remover Doença",
+          "description": "<p>Cura mágica purga uma doença do corpo de uma criatura. Você tenta neutralizar uma doença que esteja afligindo o alvo.<p>",
+          "target": "1 creature"
+        },
+        "spell->Remove Curse": {
+          "name": "Remover Maldição",
+          "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
+          "target": "1 creature"
+        },
+        "spell->Rebuke Death": {
+          "target": "1 living creature per action spent to cast this spell"
+        }
+      }
+    },
+    "Troll Guard": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Troll Marauders": {
+      "items": {
+        "campaignFeature->Regeneration": {
+          "name": "Regeneração"
+        }
+      }
+    },
+    "Tulvak": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Scythe": {
+          "name": "Segadeira"
+        }
+      }
+    },
+    "Valerie (Level 1)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Valerie (Level 9)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Vilderavn Herald": {
+      "items": {
+        "strike-melee->Greatsword": {
+          "name": "Montante"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "lore->Heraldry Lore": {
+          "name": "Saber de Heráldica"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Villamor Koth": {
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-melee->Lance": {
+          "name": "Lança de Cavalaria"
+        },
+        "action->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        },
+        "action->Raging Resistance": {
+          "name": "Resistência em Fúria"
+        },
+        "action->Furious Finish": {
+          "name": "Finalização Furiosa"
+        },
+        "action->Giant's Lunge": {
+          "name": "Estocada de Gigante"
+        },
+        "action->Knockback": {
+          "name": "Jogar para Trás"
+        },
+        "action->Rage": {
+          "name": "Fúria"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Virthad": {
+      "items": {
+        "strike-melee->Dogslicer": {
+          "name": "Cortacão"
+        }
+      }
+    },
+    "Volodmyra": {
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        }
+      }
+    },
+    "Vordakai": {
+      "items": {
+        "spell->Imprisonment (Cannot Currently Cast)": {
+          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
+        },
+        "spell->Planar Binding": {
+          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        },
+        "action->Familiar": {
+          "name": "Familiar"
+        }
+      }
+    },
+    "Werendegar": {
+      "items": {
+        "spell->Plane Shift": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "action->Disarm": {
+          "name": "Desarmar"
+        }
+      }
+    },
+    "Whimwyrm": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        }
+      }
+    },
+    "Wild Hunt Archer": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Disintegrate": {
+          "target": "1 creature or unattended object"
+        },
+        "strike-melee->Horns": {
+          "name": "Chifres"
+        }
+      }
+    },
+    "Wild Hunt Horse": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Wild Hunt Hound": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Wild Hunt Monarch": {
+      "items": {
+        "spell->Wind Walk": {
+          "target": "you and up to five creatures touched"
+        },
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Plane Shift": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "strike-melee->Glaive": {
+          "name": "Glaive"
+        },
+        "strike-melee->Horns": {
+          "name": "Chifres"
+        }
+      }
+    },
+    "Wild Hunt Scout": {
+      "items": {
+        "spell->Wind Walk": {
+          "target": "you and up to five creatures touched"
+        },
+        "spell->Plane Shift": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "action->Befuddle": {
+          "name": "Confundir"
+        },
+        "action->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        }
+      }
+    },
+    "Windchaser": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Winged Owlbear": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        }
+      }
+    },
+    "Zorek": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    }
+  }
+}

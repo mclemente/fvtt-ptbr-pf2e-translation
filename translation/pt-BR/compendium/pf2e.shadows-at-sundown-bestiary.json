@@ -1,1 +1,187 @@
-{}
+{
+  "entries": {
+    "Abridan Ashau": {
+      "items": {
+        "consumable->Scroll of Blindness (Level 3)": {
+          "consumableSpellName": "Cegueira",
+          "consumableSpellTarget": "1 creature"
+        },
+        "consumable->Scroll of Crisis of Faith (Level 3)": {
+          "consumableSpellTarget": "1 creature"
+        },
+        "consumable->Scroll of Heal (Rank 5)": {
+          "consumableSpellName": "Curar",
+          "consumableSpellTarget": "1 willing living creature or 1 undead"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "action->False Faith": {
+          "name": "Fé Falsa"
+        }
+      }
+    },
+    "Acolyte of Pharasma": {
+      "items": {
+        "spell->Disrupt Undead": {
+          "target": "1 undead creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-ranged->Dagger": [
+          {
+            "name": "Adaga"
+          },
+          {
+            "name": "Adaga"
+          }
+        ]
+      }
+    },
+    "Aliriel": {
+      "items": {
+        "spell->Planar Binding": {
+          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
+        },
+        "spell->Shadow Walk": {
+          "target": "you and up to 9 willing creatures touched"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "lore->Thassilon Lore": {
+          "name": "Saber de Tassilônia"
+        }
+      }
+    },
+    "Bishop Keppira D'Bear": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Ibrique": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Ileosa's Shell": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Blood Feast": {
+          "name": "Festa do Sangue"
+        }
+      }
+    },
+    "Loreavor": {
+      "items": {
+        "strike-melee->Touch": {
+          "name": "Toque"
+        },
+        "action->Redact": {
+          "name": "Redigir"
+        }
+      }
+    },
+    "Lorthact": {
+      "items": {
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Staff of Power": {
+          "name": "Cajado do Poder"
+        },
+        "lore->Academia Lore": {
+          "name": "Saber Acadêmico"
+        }
+      }
+    },
+    "Profane Ghoul": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Scarlet Walker": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tentacle": {
+          "name": "Tentáculo"
+        }
+      }
+    },
+    "Strigoi Progenitor": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Planar Binding": {
+          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
+        },
+        "spell->Remove Curse": {
+          "name": "Remover Maldição",
+          "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
+          "target": "1 creature"
+        },
+        "spell->Undetectable Alignment": {
+          "name": "Tendência Indetectável",
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
+          "target": "1 creature or object"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "lore->Thassilon Lore": {
+          "name": "Saber de Tassilônia"
+        }
+      }
+    },
+    "Strigoi Servant": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    },
+    "Yniesse Zenderholm": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    }
+  }
+}
