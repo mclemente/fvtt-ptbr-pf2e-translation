@@ -1,3 +1,709 @@
 {
-  "label": "Diários"
+  "label": "Diários",
+  "entries": {
+    "Ancestries": {
+      "name": "Ancestralidades",
+      "pages": {
+        "Anadi": {
+          "name": "Anadi"
+        },
+        "Android": {
+          "name": "Androide"
+        },
+        "Athamaru": {
+          "name": "Athamaru"
+        },
+        "Automaton": {
+          "name": "Autômato"
+        },
+        "Awakened Animal": {
+          "name": "Animal Despertado"
+        },
+        "Azarketi": {
+          "name": "Azarketi"
+        },
+        "Catfolk": {
+          "name": "Povo-Felino"
+        },
+        "Centaur": {
+          "name": "Centauro"
+        },
+        "Conrasu": {
+          "name": "Conrasu"
+        },
+        "Dwarf": {
+          "name": "Anão"
+        },
+        "Elf": {
+          "name": "Elfo"
+        },
+        "Fetchling": {
+          "name": "Sombriano"
+        },
+        "Fleshwarp": {
+          "name": "Mutacarne"
+        },
+        "Ghoran": {
+          "name": "Ghoran"
+        },
+        "Gnome": {
+          "name": "Gnomo"
+        },
+        "Goblin": {
+          "name": "Goblin"
+        },
+        "Goloma": {
+          "name": "Goloma"
+        },
+        "Halfling": {
+          "name": "Halfling"
+        },
+        "Hobgoblin": {
+          "name": "Hobgoblin"
+        },
+        "Human": {
+          "name": "Humano"
+        },
+        "Kashrishi": {
+          "name": "Kashrishi"
+        },
+        "Kitsune": {
+          "name": "Kitsune"
+        },
+        "Kholo": {
+          "name": "Kholo"
+        },
+        "Kobold": {
+          "name": "Kobold"
+        },
+        "Leshy": {
+          "name": "Leshy"
+        },
+        "Lizardfolk": {
+          "name": "Povo-Lagarto"
+        },
+        "Merfolk": {
+          "name": "Povo-Sereia"
+        },
+        "Minotaur": {
+          "name": "Minotauro"
+        },
+        "Nagaji": {
+          "name": "Nagaji"
+        },
+        "Orc": {
+          "name": "Orc"
+        },
+        "Poppet": {
+          "name": "Poppet"
+        },
+        "Ratfolk": {
+          "name": "Povo-Rato"
+        },
+        "Samsaran": {
+          "name": "Samsaran"
+        },
+        "Shisk": {
+          "name": "Shisk"
+        },
+        "Shoony": {
+          "name": "Shoony"
+        },
+        "Skeleton": {
+          "name": "Esqueleto"
+        },
+        "Sprite": {
+          "name": "Sprite"
+        },
+        "Strix": {
+          "name": "Estrige"
+        },
+        "Surki": {
+          "name": "Surki"
+        },
+        "Tanuki": {
+          "name": "Tanuki"
+        },
+        "Tengu": {
+          "name": "Tengu"
+        },
+        "Tripkee": {
+          "name": "Grippli"
+        },
+        "Vanara": {
+          "name": "Vanara"
+        },
+        "Vishkanya": {
+          "name": "Vishkanya"
+        },
+        "Wayang": {
+          "name": "Wayang"
+        },
+        "Common": {
+          "name": "Comum"
+        },
+        "Uncommon": {
+          "name": "Incomum"
+        },
+        "Rare": {
+          "name": "Raro"
+        }
+      }
+    },
+    "Archetypes": {
+      "name": "Arquétipos",
+      "pages": {
+        "Acrobat": {
+          "name": "Acrobata"
+        },
+        "Aldori Duelist": {
+          "name": "Duelista de Aldori"
+        },
+        "Animal Trainer": {
+          "name": "Adestrador de animais"
+        },
+        "Archaeologist": {
+          "name": "Arqueologista (PFS Guide)"
+        },
+        "Archer": {
+          "name": "Arqueiro"
+        },
+        "Artillerist": {
+          "name": "Técnico de artilharia"
+        },
+        "Assassin": {
+          "name": "Assassino"
+        },
+        "Bastion": {
+          "name": "Bastião"
+        },
+        "Beast Gunner": {
+          "name": "Pistoleiro Bestial"
+        },
+        "Beastmaster": {
+          "name": "Mestre das Feras"
+        },
+        "Bellflower Tiller": {
+          "name": "Semeador da Campânula"
+        },
+        "Blessed One": {
+          "name": "Abençoado"
+        },
+        "Bounty Hunter": {
+          "name": "Caçador de Recompensas"
+        },
+        "Bright Lion": {
+          "name": "Leão Reluzente"
+        },
+        "Bullet Dancer": {
+          "name": "Dançarino das Balas"
+        },
+        "Butterfly Blade": {
+          "name": "Faca Borboleta"
+        },
+        "Captivator": {
+          "name": "Cativante"
+        },
+        "Cathartic Mage": {
+          "name": "Magista Catártico"
+        },
+        "Cavalier": {
+          "name": "Cavaleiro"
+        },
+        "Celebrity": {
+          "name": "Celebridade"
+        },
+        "Crystal Keeper": {
+          "name": "Guardião do Cristal"
+        },
+        "Dandy": {
+          "name": "Dândi"
+        },
+        "Demolitionist": {
+          "name": "Demolidor"
+        },
+        "Dragon Disciple": {
+          "name": "Discípulo do Dragão"
+        },
+        "Dual-Weapon Warrior": {
+          "name": "Combatente de Duas Armas"
+        },
+        "Duelist": {
+          "name": "Duelista"
+        },
+        "Edgewatch Detective": {
+          "name": "Detetive da Guardabeira"
+        },
+        "Eldritch Archer": {
+          "name": "Arqueiro Místico"
+        },
+        "Eldritch Researcher": {
+          "name": "Pesquisado Sobrenatural"
+        },
+        "Elementalist (Class Archetype)": {
+          "name": "Elementalista (Arquétipo de Classe)"
+        },
+        "Exorcist": {
+          "name": "Exorcista"
+        },
+        "Familiar Master": {
+          "name": "Mestre em Familiar"
+        },
+        "Firebrand Braggart": {
+          "name": "Atiçador Fanfarrão"
+        },
+        "Game Hunter": {
+          "name": "Caçador dos Jogos"
+        },
+        "Geomancer": {
+          "name": "Geomante"
+        },
+        "Ghost": {
+          "name": "Fantasma"
+        },
+        "Ghost Eater": {
+          "name": "Devorador de Fantasmas"
+        },
+        "Ghost Hunter": {
+          "name": "Caçador de Fantasmas"
+        },
+        "Ghoul": {
+          "name": "Carniçal"
+        },
+        "Gladiator": {
+          "name": "Gladiador"
+        },
+        "Golden League Xun": {
+          "name": "Xun da Liga Dourada"
+        },
+        "Golem Grafter": {
+          "name": "Enxertador Golem"
+        },
+        "Halcyon Speaker": {
+          "name": "Orador Idílico"
+        },
+        "Hallowed Necromancer": {
+          "name": "Necromante Sagrado"
+        },
+        "Hellknight": {
+          "name": "Cavaleiro Infernal"
+        },
+        "Herbalist": {
+          "name": "Herbalista"
+        },
+        "Investigator": {
+          "name": "Investigador"
+        },
+        "Knight Vigilant": {
+          "name": "Cavaleiro Recuperador"
+        },
+        "Lastwall Sentry": {
+          "name": "Sentinela De Ultimuro"
+        },
+        "Lich": {
+          "name": "Liche"
+        },
+        "Linguist": {
+          "name": "Linguista"
+        },
+        "Lion Blade": {
+          "name": "Lâmina do Leão"
+        },
+        "Living Monolith": {
+          "name": "Monólito Vivo"
+        },
+        "Loremaster": {
+          "name": "Mestre do Saber"
+        },
+        "Magaambyan Attendant": {
+          "name": "Discente Magaambyano"
+        },
+        "Magic Warrior": {
+          "name": "Guerreiro Mágico"
+        },
+        "Marshal": {
+          "name": "Marechal"
+        },
+        "Martial Artist": {
+          "name": "Artista Marcial"
+        },
+        "Nantambu Chime-Ringer": {
+          "name": "Tocador de sinos de Nantambu"
+        },
+        "Oozemorph": {
+          "name": "Lodomorfo"
+        },
+        "Oracle": {
+          "name": "Oráculo"
+        },
+        "Overwatch": {
+          "name": "Supervisor"
+        },
+        "Pactbound Initiate": {
+          "name": "Iniciado sob Pacto"
+        },
+        "Pathfinder Agent": {
+          "name": "Agente Pathfinder"
+        },
+        "Pirate": {
+          "name": "Pirata"
+        },
+        "Poisoner": {
+          "name": "Veneficista"
+        },
+        "Red Mantis Assassin": {
+          "name": "Assassino do Louva-a-deus Vermelho"
+        },
+        "Ritualist": {
+          "name": "Ritualista"
+        },
+        "Runescarred": {
+          "name": "Marcado pelas Runas"
+        },
+        "Scout": {
+          "name": "Patrulhar"
+        },
+        "Scroll Trickster": {
+          "name": "Trapaceiro de Pergaminhos"
+        },
+        "Scrollmaster": {
+          "name": "Mestre dos Escritos"
+        },
+        "Scrounger": {
+          "name": "Escarafunchador"
+        },
+        "Sentinel": {
+          "name": "Sentinela"
+        },
+        "Shadowdancer": {
+          "name": "Dançarino das Sombras"
+        },
+        "Snarecrafter": {
+          "name": "Arapuqueiro"
+        },
+        "Soulforger": {
+          "name": "Forjador de Alma"
+        },
+        "Staff Acrobat": {
+          "name": "Acrobata com Bastão"
+        },
+        "Student of Perfection": {
+          "name": "Estudante da Perfeição"
+        },
+        "Swashbuckler": {
+          "name": "Espadachim"
+        },
+        "Swordmaster": {
+          "name": "Mestre das Espadas"
+        },
+        "Talisman Dabbler": {
+          "name": "Diletante Talismânico"
+        },
+        "Trapsmith": {
+          "name": "Armadilheiro"
+        },
+        "Trick Driver": {
+          "name": "Piloto de Fuga"
+        },
+        "Vigilante": {
+          "name": "Vigilante"
+        },
+        "Viking": {
+          "name": "Viking"
+        },
+        "Weapon Improviser": {
+          "name": "Improvisador de Armas"
+        },
+        "Wellspring Mage (Class Archetype)": {
+          "name": "Magista Manancial (Arquétipo de Classe)"
+        },
+        "Witch": {
+          "name": "Bruxo"
+        },
+        "Mummy": {
+          "name": "Múmia"
+        },
+        "Vampire": {
+          "name": "Vampiro"
+        },
+        "Zombie": {
+          "name": "Zumbi"
+        },
+        "Alchemist": {
+          "name": "Alquimista"
+        },
+        "Barbarian": {
+          "name": "Bárbaro"
+        },
+        "Bard": {
+          "name": "Bardo"
+        },
+        "Champion": {
+          "name": "Campeão"
+        },
+        "Cleric": {
+          "name": "Clérigo"
+        },
+        "Druid": {
+          "name": "Druida"
+        },
+        "Fighter": {
+          "name": "Guerreiro"
+        },
+        "Gunslinger": {
+          "name": "Pistoleiro"
+        },
+        "Inventor": {
+          "name": "Inventor"
+        },
+        "Magus": {
+          "name": "Magus"
+        },
+        "Monk": {
+          "name": "Monge"
+        },
+        "Psychic": {
+          "name": "Psychic"
+        },
+        "Ranger": {
+          "name": "Patrulheiro"
+        },
+        "Rogue": {
+          "name": "Ladino"
+        },
+        "Sorcerer": {
+          "name": "Feiticeiro"
+        },
+        "Summoner": {
+          "name": "Convocador"
+        },
+        "Thaumaturge": {
+          "name": "Taumaturgo"
+        },
+        "Wizard": {
+          "name": "Mago"
+        },
+        "Kineticist": {
+          "name": "Cineticista"
+        },
+        "Werecreature": {
+          "name": "Teriantropo"
+        },
+        "Rules": {
+          "name": "Regras"
+        },
+        "Archetypes": {
+          "name": "Arquétipos"
+        }
+      }
+    },
+    "Classes": {
+      "name": "Classes",
+      "pages": {
+        "Alchemist": {
+          "name": "Alquimista"
+        },
+        "Barbarian": {
+          "name": "Bárbaro"
+        },
+        "Bard": {
+          "name": "Bardo"
+        },
+        "Champion": {
+          "name": "Campeão"
+        },
+        "Cleric": {
+          "name": "Clérigo"
+        },
+        "Druid": {
+          "name": "Druida"
+        },
+        "Fighter": {
+          "name": "Guerreiro"
+        },
+        "Gunslinger": {
+          "name": "Pistoleiro"
+        },
+        "Inventor": {
+          "name": "Inventor"
+        },
+        "Investigator": {
+          "name": "Investigador"
+        },
+        "Kineticist": {
+          "name": "Cineticista"
+        },
+        "Magus": {
+          "name": "Magus"
+        },
+        "Monk": {
+          "name": "Monge"
+        },
+        "Oracle": {
+          "name": "Oráculo"
+        },
+        "Psychic": {
+          "name": "Psychic"
+        },
+        "Ranger": {
+          "name": "Patrulheiro"
+        },
+        "Rogue": {
+          "name": "Ladino"
+        },
+        "Swashbuckler": {
+          "name": "Espadachim"
+        },
+        "Sorcerer": {
+          "name": "Feiticeiro"
+        },
+        "Summoner": {
+          "name": "Convocador"
+        },
+        "Thaumaturge": {
+          "name": "Taumaturgo"
+        },
+        "Witch": {
+          "name": "Bruxo"
+        },
+        "Wizard": {
+          "name": "Mago"
+        }
+      }
+    },
+    "Domains": {
+      "name": "Domínios"
+    },
+    "GM Screen": {
+      "name": "Tela do MJ",
+      "pages": {
+        "Basic Actions": {
+          "name": "Ações Básicas"
+        },
+        "Falling": {
+          "name": "Caindo"
+        },
+        "Treat Wounds": {
+          "name": "Tratar Ferimentos"
+        },
+        "Conditions": {
+          "name": "Condições"
+        },
+        "Light": {
+          "name": "Luz"
+        },
+        "Senses": {
+          "name": "Sentidos"
+        },
+        "Detecting Creatures": {
+          "name": "Detectando Criaturas"
+        },
+        "Travel Speed": {
+          "name": "Velocidade de Viagem"
+        },
+        "Exploration Activities": {
+          "name": "Atividades de Exploração"
+        },
+        "Skill Actions": {
+          "name": "Ações de Perícia"
+        },
+        "GM Screen": {
+          "name": "Tela do MJ"
+        },
+        "Hero Points": {
+          "name": "Pontos de Heroísmo"
+        },
+        "Creature Identification": {
+          "name": "Identificação de Criaturas"
+        },
+        "Environmental Damage": {
+          "name": "Dano Ambiental"
+        },
+        "Encounter Budget": {
+          "name": "Orçamento do Encontro"
+        },
+        "Downtime Events": {
+          "name": "Eventos de Recesso"
+        },
+        "Treasure": {
+          "name": "Tesouro"
+        },
+        "Automatic Bonus Progression": {
+          "name": "Progressão Automática de Bônus"
+        },
+        "Free Archetype": {
+          "name": "Arquétipo Gratuito"
+        },
+        "Gradual Ability Boosts": {
+          "name": "Melhoria de Atributo Gradual"
+        },
+        "Proficiency without Level": {
+          "name": "Proficiência Sem Nível"
+        },
+        "Stamina": {
+          "name": "Estamina"
+        },
+        "Victory Points": {
+          "name": "Pontos de Vitória"
+        },
+        "Influence": {
+          "name": "Influenciar"
+        },
+        "Research": {
+          "name": "Pesquisa"
+        },
+        "Reputation": {
+          "name": "Reputação"
+        },
+        "Leadership": {
+          "name": "Liderança"
+        },
+        "Traits": {
+          "name": "Traços"
+        },
+        "Player Screen": {
+          "name": "Tela do Jogador"
+        }
+      }
+    },
+    "Hero Point Deck": {
+      "pages": {
+        "Battle Cry": {
+          "name": "Brado de Batalha"
+        },
+        "Warding Sign": {
+          "name": "Sinal de Proteção"
+        },
+        "Tumble Through": {
+          "name": "Atravessar Acrobaticamente"
+        },
+        "Shake it Off": {
+          "name": "Livrar-se"
+        }
+      }
+    },
+    "Remaster Changes": {
+      "name": "Alterações da Remasterização",
+      "pages": {
+        "Remaster Changes": {
+          "name": "Alterações da Remasterização"
+        },
+        "Class Features": {
+          "name": "Características de Classe"
+        },
+        "Feats": {
+          "name": "Talentos"
+        },
+        "Spells": {
+          "name": "Magias"
+        },
+        "Equipment": {
+          "name": "Equipamento"
+        },
+        "Rules and Languages": {
+          "name": "Regras e Idiomas"
+        }
+      }
+    }
+  }
 }
