@@ -1,6 +1,14 @@
 {
   "label": "familiar-abilities",
   "entries": {
+    "Absorb Familiar": {
+      "name": "Absorb Familiar",
+      "description": "<p>Your familiar can transform into a mark you carry on your flesh, typically seeming like a birthmark, tattoo, or gem that vaguely resembles its normal form. When transformed, the familiar can't act except to turn back into a familiar. It isn't affected by area effects and must be targeted separately to affect it, which requires knowledge that it's a creature.</p>\n<p>This means you and your allies can heal or assist the familiar while most enemies stay unaware of its true nature. Creatures must attempt a @Check[perception|dc:20] check to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} to realize a it is actually a familiar. Your familiar can still communicate its feelings empathically. Transforming the familiar between forms is a 1-minute activity that has the concentrate trait.</p>"
+    },
+    "Accompanist": {
+      "name": "Accompanist",
+      "description": "<p>Your familiar helps you perform. Whenever you attempt a Performance check, if your familiar is nearby and can act, it accompanies you with chirps, claps, or its own miniature instrument. This grants you a +1 circumstance bonus, or +2 if you're a master in Performance.</p>"
+    },
     "Alchemical Gut": {
       "name": "Alchemical Gut",
       "description": "<p>Your familiar can act as a bomb coagulant alembic by swallowing the bomb to be affected, which takes two Interact actions from it and one from you. Your familiar regurgitates the concentrated item 1 minute later. If your familiar tries to distill a bomb that's level is higher than your own—1, it instead takes damage as though it were successfully struck with the bomb.</p>"
@@ -8,6 +16,10 @@
     "Ambassador": {
       "name": "Ambassador",
       "description": "<p>Your familiar knows how to act cute or focused on cue, helping you make a good impression.</p>\n<p>Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} you on a Diplomacy check to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} (it still has to prepare to help you as normal for the Aid reaction, which requires it to participate throughout the activity).</p>\n<p>It automatically succeeds at its check to Aid you with those skills or automatically critically succeeds if you're a master of the skill in question.</p>"
+    },
+    "Amphibious": {
+      "name": "Amphibious",
+      "description": "<p>It gains the amphibious trait, allowing it to breathe in both air and water, and has both a land Speed and a swim Speed, each equal to its highest land Speed or swim Speed.</p>"
     },
     "Animated": {
       "name": "Animated",
@@ -17,9 +29,45 @@
       "name": "Augury",
       "description": "<p>Your familiar can glimpse the strands of fate to give you a cryptic clue regarding your future. Your familiar can cast @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} once per day using your magical tradition and spell DC. You must be at least 8th level to select this ability.</p>"
     },
+    "Burrower": {
+      "name": "Burrower",
+      "description": "<p>It gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.</p>"
+    },
+    "Cantrip Connection": {
+      "name": "Cantrip Connection",
+      "description": "<p>You can prepare an additional cantrip, or if you have a repertoire, designate a cantrip to add to your repertoire every time you select this ability; you can retrain it but can't otherwise change it. You must be able to prepare cantrips or add them to your repertoire to select this.</p>"
+    },
+    "Climber": {
+      "name": "Climber",
+      "description": "<p>It gains a climb Speed of 25 feet.</p>"
+    },
+    "Construct": {
+      "name": "Construct",
+      "description": "<p>Your familiar has the construct trait instead of the animal trait. The familiar is immune to death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, and void. Your familiar must have the @UUID[Compendium.pf2e.familiar-abilities.Item.Le8UWr5BU8rV3iBf]{Tough} pet ability to select this.</p>"
+    },
+    "Damage Avoidance": {
+      "name": "Damage Avoidance",
+      "description": "<p>Choose one type of save. Your familiar takes no damage when it rolls a success on that type of save; this doesn't prevent effects other than damage.</p>"
+    },
+    "Darkeater": {
+      "name": "Darkeater",
+      "description": "<p>Your familiar naturally recovers in the shadows. After spending 10 consecutive minutes in an area of dim light or darkness, your familiar recovers a number of Hit Points equal to half your level.</p>\n<p>This ability is for a shadow familiar. A shadowcaster, however, can select this ability for any kind of familiar.</p>"
+    },
+    "Darkvision": {
+      "name": "Darkvision",
+      "description": "<p>It gains darkvision.</p>"
+    },
     "Dazzling Show": {
       "name": "Dazzling Show",
       "description": "<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> Your kinnara flashes his brilliant feathers. Each creature within a @Template[type:emanation|distance:30] must attempt a @Check[will|against:class-spell] save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p>"
+    },
+    "Dragon": {
+      "name": "Dragon",
+      "description": "<p>Your familiar has the dragon trait instead of the animal trait.</p>"
+    },
+    "Echolocation": {
+      "name": "Echolocation",
+      "description": "<p>It can use hearing as a precise sense within 20 feet.</p>"
     },
     "Elemental": {
       "name": "Elemental",
@@ -61,6 +109,14 @@
       "name": "Extra Vial",
       "description": "<p>Your familiar accretes alchemical liquids in its body. Once per day, you can Interact when your familiar is adjacent to you to gain a versatile vial. You must have the @UUID[Compendium.pf2e.classfeatures.Item.PBQh0amk1FlomV0r]{Versatile Vials} ability to select this ability.</p>"
     },
+    "Familiar Focus": {
+      "name": "Familiar Focus",
+      "description": "<p>Once per day, your familiar can use 2 actions with the concentrate trait to restore 1 Focus Point to your focus pool, up to your usual maximum. You must have a focus pool to select this.</p>"
+    },
+    "Familiar of Balanced Luck": {
+      "name": "Familiar of Balanced Luck",
+      "description": "<p>Your familiar has a spot on its body that looks like a good luck charm or a bad omen, depending on the angle. When you Cast or Sustain a hex, one creature within 15 feet of your familiar gets your choice of either a +1 status bonus to its AC or a –1 status penalty to its AC until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.0JvxhEv83bAD5PGv]{Effect: Familiar of Balanced Luck}</p>"
+    },
     "Familiar of Bolstering Aid": {
       "name": "Familiar of Bolstering Aid",
       "description": "<p>Your familiar knows all manner of tricks that can help! When you Cast or Sustain a hex, and your familiar is adjacent to an ally, that ally gains a +2 status bonus to the next non-attack skill check that ally attempts before the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.IgLMAwovQ9roTsRN]{Effect: Familiar of Bolstering Aid}</p>"
@@ -69,6 +125,18 @@
       "name": "Familiar of Enticing Negotiation",
       "description": "<p>Your familiar constantly whispers distracting offers of power, wealth, and other temptations to your enemies, even if your familiar normally doesn't have the means of speaking. When you Cast or Sustain a hex and your familiar is within 10 feet of an enemy, the enemy becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn. Your familiar can only distract a single enemy per round in this way.</p>"
     },
+    "Familiar of Flowing Script": {
+      "name": "Familiar of Flowing Script",
+      "description": "<p>Your familiar is covered in a pattern that looks similar to letters in an unknown language, one that seems to draw attention even as it eludes understanding. When you Cast or Sustain a hex, the letters begin to rapidly change, causing a distraction. Until the start of your next turn, your familiar can provide flanking for you and your allies as though it were able to attack and had a reach of 5 feet; this is a visual effect.</p>"
+    },
+    "Familiar of Freezing Rime": {
+      "name": "Familiar of Freezing Rime",
+      "description": "<p>Your familiar is cold to the touch, its breath always visible. When you Cast or Sustain a hex, you can cause ice to form in a @Template[burst|distance:5] centered on a square of your familiar's space. Those squares are difficult terrain until the start of your next turn.</p>"
+    },
+    "Familiar of Keen Senses": {
+      "name": "Familiar of Keen Senses",
+      "description": "<p>Your familiar has glinting eyes, twitching ears, or some other sign of a beast's powerful senses. When you Cast or Sustain a hex, your familiar gains your choice of an imprecise scent, tremorsense, or wavesense, with a range of 60 feet until the start of your next turn, and it can immediately @UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]{Point Out} as a free action.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.4wJM0OA9y2gsBAh7]{Effect: Familiar of Keen Senses}</p>"
+    },
     "Familiar of Nimble Flight": {
       "name": "Familiar of Nimble Flight",
       "description": "<p>Even if your familiar doesn't have wings, it can sometimes move as if carried aloft by the wind. When you Cast or Sustain a hex, your familiar can Fly up to 15 feet; this movement doesn't trigger reactions.</p>"
@@ -76,6 +144,10 @@
     "Familiar of Obscuring Snowfall": {
       "name": "Familiar of Obscuring Snowfall",
       "description": "<p>Your familiar is always covered in a thin layer of snow, which it sheds as needed. When you Cast or Sustain a hex, you can cause clinging snow to fall in a @Template[type:burst|distance:5] centered on a square of your familiar's space. This snowfall remains until the start of your next turn, and enemies that enter these squares during that period are @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.</p>"
+    },
+    "Familiar of Ongoing Misery": {
+      "name": "Familiar of Ongoing Misery",
+      "description": "<p>Your familiar seems hostile to all creatures other than you, hissing at them if they get too near. When you Cast or Sustain a hex, your familiar can curse a creature within 15 feet of it, prolonging the duration of any negative conditions affecting it by 1 round. This is a curse effect. This prolongs only conditions with a timed duration (such as \"1 round\" or \"until the end of your next turn\") and doesn't prevent conditions from being removed by other means.</p>"
     },
     "Familiar of Overwhelming Tides": {
       "name": "Familiar of Overwhelming Tides",
@@ -89,21 +161,57 @@
       "name": "Familiar of Parasitic Might",
       "description": "<p>Your familiar appears gaunt and malnourished or otherwise on the brink of death, even though it's quite healthy. When you Cast or Sustain a hex, your familiar can draw on the waning strength of another to sustain itself. One creature within 15 feet of your familiar with less than half of its maximum Hit Points becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} unless it succeeds at a @Check[fortitude] saving throw against your spell DC.</p>"
     },
+    "Familiar of Restored Spirit": {
+      "name": "Familiar of Restored Spirit",
+      "description": "<p>Your familiar is pleasantly warm and soft, seeming to wash away worries with its mere presence. When you Cast or Sustain a hex, one willing creature within 15 feet of your familiar gains temporary Hit Points equal to 2 + half your level, which last until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.twvhTLrLEfr7dz1m]{Effect: Familiar of Restored Spirit}</p>"
+    },
+    "Familiar of Stalking Night": {
+      "name": "Familiar of Stalking Night",
+      "description": "<p>Your familiar is dark of fur or feather, and light seems to disappear into it. When you Cast or Sustain a hex, and your familiar is adjacent to an enemy to which it's @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, or undetected, the enemy becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+    },
     "Familiar of Swarm's Heart": {
       "name": "Familiar of Swarm's Heart",
       "description": "<p>Your familiar is surrounded by a cloud of harmless insects. When you Cast or Sustain a hex, the insects swarm to protect you and your allies. Until the start of your next turn, your familiar grants concealment to you or any ally while sharing the same space.</p>"
+    },
+    "Fast Movement": {
+      "name": "Fast Movement",
+      "description": "<p>Increase one of your familiar's Speeds from 25 to 40 feet.</p>"
     },
     "Flatten": {
       "name": "Flatten",
       "description": "<p>Your familiar can flatten itself to the width of a sheet of paper, easily fitting through the smallest of cracks and gaps. So long as a door or other obstacle has a gap that can fit a sheet of paper, your familiar can move through it without needing to Squeeze.</p>"
     },
+    "Flier": {
+      "name": "Flier",
+      "description": "<p>It gains a fly Speed of 25 feet.</p>"
+    },
+    "Focused Rejuvenation": {
+      "name": "Focused Rejuvenation",
+      "description": "<p>When you Refocus, you generate magical energy that heals your familiar. Your familiar regains 1 Hit Point per level whenever you Refocus.</p>"
+    },
+    "Fungus": {
+      "name": "Fungus",
+      "description": "<p>Your familiar has the fungus trait instead of the animal trait.</p>"
+    },
     "Gills": {
       "name": "Gills",
       "description": "<p>Your familiar grows a set of gills, allowing it to breathe water in addition to air.</p>"
     },
+    "Grasping Tendrils": {
+      "name": "Grasping Tendrils",
+      "description": "<p><strong>Prerequisites</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Leshy Familiar Secrets}</p>\n<p>Your familiar can extend vines or similar tendrils, increasing its reach to 15 feet.</p>"
+    },
     "Greater Resistance": {
       "name": "Greater Resistance",
       "description": "<p>Your familiar increases the resistance it gains from its resistance familiar ability to 3 + half your level. Your familiar must have the @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{Resistance} ability to select this.</p>"
+    },
+    "Independent": {
+      "name": "Independent",
+      "description": "<p>In an encounter, if you don't Command your familiar, it still gains 1 action each round. Typically, you still decide how it spends that action, but, the GM might determine that your familiar chooses its own tactics rather than performing your preferred action. This doesn't work with @UUID[Compendium.pf2e.familiar-abilities.Item.9PsptrEoCC4QdM23]{Valet} or similar abilities that require a command, if you're capable of riding your familiar, or similar situations.</p>"
+    },
+    "Innate Surge": {
+      "name": "Innate Surge",
+      "description": "<p>Once per day, you can draw upon your familiar's innate magic to replenish your own. You can cast one innate spell gained from an ancestry feat that you have already cast today. You must still Cast the Spell and meet the spell's other requirements.</p>"
     },
     "Item Delivery": {
       "name": "Item Delivery",
@@ -117,9 +225,21 @@
       "name": "Kindling",
       "description": "<p>You can immolate your familiar's body for a surge of power. Once per day as a free action, when you Cast a Spell that has the fire trait, deals damage, and doesn't have a duration, you can sacrifice your familiar to empower the spell. Your familiar is immediately slain, and you gain a status bonus to that spell's damage equal to twice the spell rank.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Pe4qwrE1oU68iW4g]{Effect: Kindling}</p>"
     },
+    "Kinspeech": {
+      "name": "Kinspeech",
+      "description": "<p>It can understand and speak with animals of the same species. To select this, your familiar must be an animal, it must have the speech ability, and you must be at least 6th level.</p>"
+    },
+    "Lab Assistant": {
+      "name": "Lab Assistant",
+      "description": "<p>It can use your @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{Quick Alchemy} action. You must have Quick Alchemy, and your familiar must be in your space. This has the same cost and requirement as if you used it. It must have the @UUID[Compendium.pf2e.familiar-abilities.Item.cT5octWchU4gjrhP]{Manual Dexterity} ability to select this.</p>"
+    },
     "Levitator": {
       "name": "Levitator",
       "description": "<p>Using magnetism, magic, or other forces, your familiar can float up to 3 feet above solid and liquid surfaces while moving at a Speed of 25 feet. This allows it to ignore difficult terrain and damaging effects related to coming into direct contact with the surface. It typically allows the familiar to also avoid triggering the reactions of hazards that require you to step on them or an attached pressure plate.</p>"
+    },
+    "Lifelink": {
+      "name": "Lifelink",
+      "description": "<p>If your familiar would be reduced to 0 HP by damage, as a reaction with the concentrate trait, you can take all the damage, and your familiar takes none. However, special effects that would occur due to that damage (such as snake venom) still apply.</p>"
     },
     "Lightning Armillary": {
       "name": "Lightning Armillary",
@@ -133,17 +253,45 @@
       "name": "Luminous",
       "description": "<p>Your familiar glows with a comforting light. It sheds bright light in a 30-foot radius and dim light for the next 30 feet. It can suppress or resume this light by using an action, which has the concentrate trait.</p>"
     },
+    "Major Resistance": {
+      "name": "Major Resistance",
+      "description": "<p>Your familiar increases the resistance it gains from its @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{Resistance} familiar ability to a value equal to your level. To select this you must be at least 8th level.</p>"
+    },
+    "Manual Dexterity": {
+      "name": "Manual Dexterity",
+      "description": "<p>It can use up to two of its limbs as if they were hands to perform manipulate actions.</p>"
+    },
+    "Mask Freeze": {
+      "name": "Mask Freeze",
+      "description": "<p>When in mask form, your familiar can hide its obvious supernatural qualities to pass as a simple, unassuming mask. It doesn't need to Impersonate to fool a passing glance, and it gains a +4 circumstance bonus to its Deception DC against an active observer Seeking or otherwise studying it.</p>"
+    },
     "Mass-Produced": {
       "name": "Mass-Produced",
       "description": "<p>If your shikigami dies, you can rebind its spirit to another paper doll during your next daily preparations.</p>"
+    },
+    "Master's Form": {
+      "name": "Master's Form",
+      "description": "<p>Your familiar can change shape as a single action, transforming into a humanoid of your ancestry with the same age, gender, and build of its true form, though it always maintains a clearly unnatural remnant of its nature, such as a cat's eyes or a serpent's tongue. This form is always the same each time it uses this ability. This otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Humanoid Form}, except the change is purely cosmetic. It only appears humanoid and gains no new capabilities. Your familiar must have the manual dexterity and speech abilities to select this.</p>"
     },
     "Medic": {
       "name": "Medic",
       "description": "<p>Your familiar can draw upon the power of your deity to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} once per day. The familiar can cast the 1-action version of @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} at a level 2 levels lower than your highest-rank spell slot, which it can cast only on you. You must be able to cast 3rd-rank spells from spell slots to select this ability.</p>"
     },
+    "Partner in Crime": {
+      "name": "Partner in Crime",
+      "description": "<p>Your familiar is your criminal associate. Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to Aid you on a Deception or Thievery skill check (it still has to prepare to help you as normal for the Aid reaction). It automatically succeeds at its check to Aid you with those skills or automatically critically succeeds if you're a master of the skill in question.</p>"
+    },
     "Path of the Tempest": {
       "name": "Path of the Tempest",
       "description": "<p><strong>Frequency</strong> once per 10 minutes;</p>\n<hr />\n<p><strong>Effect</strong> Your familiar summons winds that speed up and protect you. You gain a +10-foot status bonus to your Speed until the end of your turn. When you Stride this turn, you don't trigger reactions. In addition, you don't need to Stride before a @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} this turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.2CJwgnCsYtk4R5sO]{Effect: Path of the Tempest}</p>"
+    },
+    "Plant": {
+      "name": "Plant",
+      "description": "<p>Your familiar has the plant trait instead of the animal trait.</p>"
+    },
+    "Plant Form": {
+      "name": "Plant Form",
+      "description": "<p>Your plant familiar can change shape as a single action, transforming into a Tiny plant of a type roughly similar to the familiar's nature. This otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}. You must have a familiar with the plant trait to select this ability.</p>"
     },
     "Play Dead": {
       "name": "Play Dead",
@@ -157,9 +305,29 @@
       "name": "Pot of Tea",
       "description": "<p>Your tapir sage is trained in the art of herbal medication and can prepare a pot of healing tea. Once per day, your familiar can spend 10 minutes to brew fine tea leaves and herbs. The tapir sage must focus on the tea during this time—if it performs any other action, the tea is ruined, though the tapir sage can start over again. Once the pot of tea is brewed, the tapir sage can serve two cups of tea with each of the below actions; each time, it gives 1 cup to an adjacent ally, and it drinks 1 cup itself. The three infusions must be poured and offered in order (for example, the tapir sage can't serve the second infusion until it has served the first). The tea remains good for 1 hour after brewing; if not drunk by this point, the pot goes cold, and any remaining tea loses its power.</p>\n<ul>\n<li><strong>First Infusion</strong> <span class=\"action-glyph\">2</span> The infusion restores a number of Hit Points equal to 1d8 times half your level (minimum 1d8) and grants a +4 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.</li>\n<li><strong>Second Infusion</strong> <span class=\"action-glyph\">2</span> The infusion restores a number of Hit Points equal to 1d4 times half your level (minimum 1d4) and grants a +2 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.</li>\n<li>\n<p><strong>Third Infusion</strong> <span class=\"action-glyph\">2</span> The infusion grants temporary Hit Points equal to your level for 1 hour.</p>\n</li>\n</ul>"
     },
+    "Purify Air": {
+      "name": "Purify Air",
+      "description": "<p><strong>Prerequisites</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Leshy Familiar Secrets}</p>\n<p>Your familiar recycles air, providing enough oxygen for a Medium creature in areas with stale air, such as a sealed chamber or extradimensional space. If the leshy is within the area of an inhaled poison effect or an effect that relies on smell, creatures within a @Template[emanation|distance:15] from the leshy gain a +2 circumstance bonus to their saving throws against the effect.</p>"
+    },
     "Radiant": {
       "name": "Radiant",
       "description": "<p>Your familiar is filled with a divine radiance that makes it resistant to the forces of evil. Your familiar gains resistance to evil and void damage equal to half your level.</p>\n<p><em>Note: As effects placed on one actor cannot reference data from another actor, the resistance of half the PC level is not automatable. Please update the familiars resistances accordingly.</em></p>"
+    },
+    "Recall Familiar": {
+      "name": "Recall Familiar",
+      "description": "<p>Once per day, you can use a 3-action activity, which has the concentrate trait, to teleport your familiar to your space. Your familiar must be within 1 mile or the attempt to summon it fails. This is a teleportation effect.</p>"
+    },
+    "Resistance": {
+      "name": "Resistance",
+      "description": "<p>Choose two of the following: acid, cold, electricity, fire, poison, or sonic. Your familiar gains resistance equal to half your level (minimum resistance 1) against the chosen damage types.</p>"
+    },
+    "Restorative Familiar": {
+      "name": "Restorative Familiar",
+      "description": "<p>Once per day, your familiar can use 2 actions with the concentrate trait to give up some of its energy and heal you. It must be in your space to do so. You restore a number of Hit Points equal to @Damage[(max(floor(@actor.level/2),1))d8[healing]]{1d8 times half your level} (minimum 1d8).</p>"
+    },
+    "Scent": {
+      "name": "Scent",
+      "description": "<p>It can use scent as an imprecise sense within 30 feet.</p>"
     },
     "Seal-Bearer": {
       "name": "Seal-Bearer",
@@ -173,6 +341,18 @@
       "name": "Shadow Projection",
       "description": "<p>Your makhluk wayang projects its shadow into a larger silhouette of itself, allowing it to grasp things outside of its obvious reach. It increases its reach to 10 feet for the purposes of taking non-hostile Interact actions until the end of your turn.</p>"
     },
+    "Shadow Step": {
+      "name": "Shadow Step",
+      "description": "<p>This ability is for a Shadow Familiar. A @UUID[Compendium.pf2e.feats-srd.Item.ncrNQcwm4gOQRAA3]{Shadowcaster}, however, can select this ability for any kind of familiar. Your familiar gains the @UUID[Compendium.pf2e.actionspf2e.Item.VQ5OxaDKE0lCj8Mr]{Shadow Step} action.</p>\n<p>You must be at least 7th level to select this familiar ability for your familiar.</p>"
+    },
+    "Share Senses": {
+      "name": "Share Senses",
+      "description": "<p>Once every 10 minutes, you can use a single action with the concentrate trait to project your senses into your familiar. When you do, you lose all sensory information from your own body, but can sense through your familiar's body for up to 1 minute. You can Dismiss this effect.</p>"
+    },
+    "Skilled": {
+      "name": "Skilled",
+      "description": "<p>Choose a skill other than Acrobatics or Stealth. Your familiar's modifier for that skill is equal to your level plus your spellcasting attribute modifier, rather than just your level. You can select this ability repeatedly, choosing a different skill each time.</p>"
+    },
     "Snoop": {
       "name": "Snoop",
       "description": "<p>Your familiar keeps its eyes and ears open, ready to relay every snippet of gossip it catches, helping you gather information.</p>\n<p>Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} you on a Diplomacy check to @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Gather Information} (it still has to prepare to help you as normal for the Aid reaction, which requires it to participate throughout the activity).</p>\n<p>It automatically succeeds at its check to Aid you with those skills or automatically critically succeeds if you're a master of the skill in question.</p>"
@@ -184,6 +364,22 @@
     "Soul Sight": {
       "name": "Soul Sight",
       "description": "<p>Your familiar gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{Lifesense} with a range of 30 feet.</p>"
+    },
+    "Speech": {
+      "name": "Speech",
+      "description": "<p>It understands and speaks a language you know.</p>"
+    },
+    "Spell Battery": {
+      "name": "Spell Battery",
+      "description": "<p>You gain one additional spell slot at least 3 ranks lower than your highest-rank spell slot; you must be able to cast 4th-rank spells using spell slots to select this master ability.</p>"
+    },
+    "Spell Delivery": {
+      "name": "Spell Delivery",
+      "description": "<p>If your familiar is in your space, you can cast a spell with a range of touch, transfer its power to your familiar, and command the familiar to deliver the spell. If you do, the familiar uses its 2 actions for the round to move to a target of your choice and touch that target. If it doesn't reach the target to touch it this turn, the spell has no effect.</p>"
+    },
+    "Spellcasting": {
+      "name": "Spellcasting",
+      "description": "<p>Choose a spell in your repertoire or that you prepared today at least 5 ranks lower than your highest-rank spell slot. Your familiar can Cast that Spell once per day using your magical tradition, spell attack modifier, and spell DC. If the spell has a drawback that affects the caster, both you and your familiar are affected. You must be able to cast 6th-rank spells using spell slots to select this.</p>"
     },
     "Spirit Touch": {
       "name": "Spirit Touch",
@@ -205,9 +401,29 @@
       "name": "Threat Display",
       "description": "<p>Your familiar helps you convey wordless threats through body language.</p>\n<p>Whenever you attempt an Intimidation check to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a creature, if your familiar is within 30 feet of your target and can act, it accompanies you with snarls, hisses, or raising its hackles.</p>\n<p>If it can do so, you don't take the normal -4 penalty on the Intimidation check if your target doesn't understand the language you're speaking.</p>"
     },
+    "Toolbearer": {
+      "name": "Toolbearer",
+      "description": "<p>Your familiar can carry a toolkit of up to light Bulk. So long as your familiar is adjacent to you, you can draw and replace the tools as part of the action that uses them as if you were wearing them. Your familiar must have the manual dexterity ability to select this.</p>"
+    },
+    "Touch Telepathy": {
+      "name": "Touch Telepathy",
+      "description": "<p>Your familiar can telepathically communicate with you via touch. If it also has the speech ability, it can telepathically communicate via touch with any creature if they share a language.</p>"
+    },
+    "Tough": {
+      "name": "Tough",
+      "description": "<p>Your familiar's max HP increase by 2 per level.</p>"
+    },
     "Tremorsense": {
       "name": "Tremorsense",
       "description": "<p>Your familiar is keenly aware of any vibrations traveling through a surface. It gains imprecise tremorsense with a range of 30 feet.</p>"
+    },
+    "Valet": {
+      "name": "Valet",
+      "description": "<p>You can command your familiar to deliver you items more efficiently. Your familiar doesn't use its 2 actions immediately upon your command. Instead, up to twice before the end of your turn, you can have your familiar Interact to retrieve an item of light or negligible Bulk you are wearing and place it into one of your free hands. The familiar can't use this ability to retrieve stowed items. If the familiar has a different number of actions, it can retrieve one item for each action it has when commanded this way.</p>"
+    },
+    "Verdant Burst": {
+      "name": "Verdant Burst",
+      "description": "<p><strong>Prerequisites</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{Leshy Familiar Secrets}</p>\n<p>When your familiar dies, it releases its primal energy to cast the 3-action version of @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}, heightened to a rank 1 lower than your highest-rank spell slot. The <em>heal</em> spell gains a status bonus equal to twice the spell's rank to the Hit Points it restores to plants. You must be able to cast 2nd-rank spells using spell slots to select this familiar ability.</p>"
     },
     "Versatile Form": {
       "name": "Versatile Form",

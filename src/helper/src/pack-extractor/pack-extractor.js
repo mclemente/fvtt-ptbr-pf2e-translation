@@ -130,15 +130,6 @@ export function extractPack(
 	}
 
 	for (const entry of pack) {
-		if (
-			!entry.system?.publication?.title || LIVROS_TRADUZIDOS.includes(entry.system.publication.title)
-			// !entry.system?.publication?.title
-			// || LIVROS_TRADUZIDOS.includes(entry.system.publication.title)
-			// || (entry.system.publication.title === "Pathfinder Player Core 2" && ["classes", "classfeatures", "feats"].includes(packName))
-		) {
-			continue;
-		}
-
 		if (limitedEntries && !limitedEntries.includes(entry.name)) {
 			continue;
 		}

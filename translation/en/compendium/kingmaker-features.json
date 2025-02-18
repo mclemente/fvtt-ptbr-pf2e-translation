@@ -172,6 +172,24 @@
       "name": "Distant",
       "description": "<p>An army that has the distant condition has managed to retreat a fair range away from enemy armies, and is potentially poised to make an escape from the field of battle. Armies can attempt ranged Strikes against distant armies, but they take a –5 penalty on that Strike.</p>"
     },
+    "Effect: Guard (Critical Success)": {
+      "name": "Effect: Guard (Critical Success)",
+      "description": "<p>This army gains a +2 item bonus to its AC until the start of its next turn; this bonus applies to all attacks.</p>",
+      "rules": {
+        "0": {
+          "label": "Guarded"
+        }
+      }
+    },
+    "Effect: Guard (Success)": {
+      "name": "Effect: Guard (Success)",
+      "description": "<p>This army gains a +2 item bonus to its AC until the start of your next turn against attacks from the targeted army.</p>",
+      "rules": {
+        "1": {
+          "label": "Guarded"
+        }
+      }
+    },
     "Efficient": {
       "name": "Efficient",
       "description": "<p>The army has performed an Army activity with such speed that it can be used to attempt a second Army activity immediately, but doing so causes it to lose the efficient condition. The second Army activity suffers a –5 penalty on its check, and the result of this second Army activity check cannot grant the efficient condition. If the army doesn't attempt a second Army activity, it instead loses the efficient condition and reduces the value of one condition of its choice by 1.</p>"
@@ -188,6 +206,10 @@
     "Engaged": {
       "name": "Engaged",
       "description": "<p>An army that is in close combat with one or more enemy armies becomes engaged. An army must be engaged in order to attempt melee Strikes. If an army is engaged and attempts a maneuver war action that would cause it to disengage, it provokes reactions from any enemy armies they were engaged with.</p>"
+    },
+    "Engines of War": {
+      "name": "Engines of War",
+      "description": "<p><em><strong>Note</strong>: Basic siege armies know Engines of War automatically, and must 'spend' their first tactic on it.</em></p>\n<hr />\n<p>Siege engines cannot be outfitted with gear. They cannot attack @UUID[Compendium.pf2e.kingmaker-features.Item.2IqM1XHELKwARAx1]{Engaged} armies. They are more difficult to destroy due to their higher hit points than other basic armies. A siege engine can attack and damage fortifications with its ranged attacks as part of the @UUID[Compendium.pf2e.kingmaker-features.Item.qCxyuNhzaaYlYBum]{Battle} or @UUID[Compendium.pf2e.kingmaker-features.Item.HLu1o1RzCZxWjOJJ]{Overwhelming Bombardment} actions.</p>"
     },
     "Envy of the World": {
       "name": "Envy of the World",
@@ -436,6 +458,18 @@
       "name": "Outflanked",
       "description": "<p>The army has enemies coming at it from many directions and must split its forces to deal with threats on every side. The army takes a –2 circumstance penalty to its AC.</p>"
     },
+    "Overrun": {
+      "name": "Overrun",
+      "description": "<p><em><strong>Note</strong>: Basic cavalry armies know Overrun automatically, and must 'spend' their first tactic on it.</em></p>\n<hr />\n<p>Cavalry armies gain a +1 status bonus on weapon attacks against infantry and skirmisher armies, but they suffer a –1 status penalty on Maneuver and Morale saves against area attacks and mental attacks.</p>",
+      "rules": {
+        "0": {
+          "label": "vs Infantry and Skirmisher"
+        },
+        "1": {
+          "label": "vs Area or Mental attacks"
+        }
+      }
+    },
     "Overwhelming Bombardment": {
       "name": "Overwhelming Bombardment",
       "description": "<p><strong>Requirement</strong>@UUID[Compendium.pf2e.kingmaker-features.Item.ZSUPsqeMBDTaX2H4]{Explosive Shot}</p>\n<hr />\n<p>Your siege engines focus all their fire on a fortification. This war action counts as using two ranged Strikes for the purposes of depleting an army's shots. Attempt a ranged Strike against the target fortification's AC.</p>\n<p><strong>Critical Success</strong> You deal 2 points of damage to the fortification. You also deal 1 point of damage to up to two armies of your choice that are within the fortification.</p>\n<p><strong>Success</strong> You deal 1 point of damage to the fortification, and an additional 1 point of damage either to the fortification or to an army within the fortification (your choice of which).</p>\n<p><strong>Failure</strong> You deal 1 damage to the fortification.</p>\n<p><strong>Critical Failure</strong> You deal no damage, and your army becomes @UUID[Compendium.pf2e.kingmaker-features.Item.ibcMcEGRbPRtk9Pu]{Outflanked} until the start of its next turn.</p>"
@@ -515,6 +549,10 @@
     "Recruit Army": {
       "name": "Recruit Army",
       "description": "<p>Note that you pursue this activity during the Leadership step of the Activity phase. Either you recruit an army from your kingdom's citizens, or you secure the allegiance of a specialized army you encountered in the Stolen Lands. If you're recruiting an army from your kingdom's citizens, choose one of the basic armies listed at the start of page 570 and attempt a Warfare check against the army's Recruitment DC. If you're securing a specialized army, you must attempt a Statecraft check against the Recruitment DC; statistics for these armies appear starting on page 571.</p>\n<hr />\n<p><strong>Critical Success</strong> You recruit the army; it becomes efficient.</p>\n<p><strong>Success</strong> You recruit the army.</p>\n<p><strong>Failure</strong> You fail to recruit the army.</p>\n<p><strong>Critical Failure</strong> Many of the individuals in the army you attempted to recruit took offense at the attempt. Gain 1 Unrest, and you cannot attempt to recruit an army again until the next Kingdom turn.</p>"
+    },
+    "Reduced Accuracy": {
+      "name": "Reduced Accuracy",
+      "description": "<p><em><strong>Note</strong>: This effect does not represent an army condition itself but is instead used for automating various buffs, effects, and conditions which reduce the accuracy of an attacker, such as the @UUID[Compendium.pf2e.kingmaker-features.Item.tWS8aMCyeGKcnFh1]{Concealed} army condition.</em></p>"
     },
     "Relocate Capital": {
       "name": "Relocate Capital",

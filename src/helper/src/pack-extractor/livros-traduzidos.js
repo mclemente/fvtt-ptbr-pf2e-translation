@@ -1,6 +1,7 @@
 export const LIVROS_TRADUZIDOS = [
 	// Livros de Regra
 	"Pathfinder Player Core",
+	"Pathfinder Player Core 2",
 	"Pathfinder Core Rulebook",
 	"Pathfinder Gamemastery Guide",
 	"Pathfinder GM Core",

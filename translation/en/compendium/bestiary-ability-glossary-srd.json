@@ -13,12 +13,18 @@
     "At-Will Spells": {
       "name": "At-Will Spells"
     },
+    "Attack of Opportunity": {
+      "name": "Attack of Opportunity"
+    },
     "Aura": {
       "name": "Aura"
     },
     "Buck": {
       "name": "Buck",
       "description": "<p>@Check[reflex|dc:]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+    },
+    "Catch Rock": {
+      "name": "Catch Rock"
     },
     "Change Shape": {
       "name": "Change Shape"
@@ -91,8 +97,15 @@
       "name": "Master's Eye",
       "description": "<p>The master observes the world through the raktavarna's eyes instead of their own, using the raktavarna's Perception and darkvision. This lasts until the end of the master's next turn, but the master can Sustain the activity.</p>\n<p>This ability functions at any range, even on different planes of existence. If the raktavarna dies while their master is using this ability, the master is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 5}.</p>"
     },
+    "Nimble Dodge": {
+      "name": "Nimble Dodge",
+      "description": "<p><strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.</p>\n<p><strong>Requirements</strong> You are not encumbered</p>\n<hr />\n<p>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
+    },
     "Poison": {
       "name": "Poison"
+    },
+    "Power Attack": {
+      "name": "Power Attack"
     },
     "Pull": {
       "name": "Pull"
@@ -109,11 +122,18 @@
     "Rend": {
       "name": "Rend"
     },
+    "Retributive Strike": {
+      "name": "Retributive Strike"
+    },
     "Scent": {
       "name": "Scent"
     },
     "Shield Block": {
       "name": "Shield Block"
+    },
+    "Sneak Attack": {
+      "name": "Sneak Attack",
+      "description": "<p>The creature's Strikes deal an additional 1d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
     },
     "Stench": {
       "name": "Stench",
@@ -128,6 +148,9 @@
     },
     "Telepathy": {
       "name": "Telepathy"
+    },
+    "Thoughtsense": {
+      "name": "Thoughtsense"
     },
     "Throw Rock": {
       "name": "Throw Rock"
