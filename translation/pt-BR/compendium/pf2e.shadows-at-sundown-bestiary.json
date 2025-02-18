@@ -4,10 +4,20 @@
       "items": {
         "consumable->Scroll of Blindness (Level 3)": {
           "consumableSpellName": "Cegueira",
+          "consumableSpellDescription": "<p>Você cega o alvo. O efeito é determinado pelo salvamento de Fortitude do alvo. Após o efeito, o alvo fica temporariamente imune por 1 minuto.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o início do próximo turno dele.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica permanentemente @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego}.</p>",
           "consumableSpellTarget": "1 creature"
         },
         "consumable->Scroll of Crisis of Faith (Level 3)": {
+          "consumableSpellName": "Crise de Fé",
+          "consumableSpellDescription": "<p>Você agride a fé do alvo, impondo dúvida e turbulência mental à criatura, causando 6d6 de dano mental a ela, ou 6d8 de dano mental se ela puder conjurar magias divinas. Os efeitos são determinados pelo salvamento de Vontade dela.</p><p>Para muitas divindades, conjurar esta magia em um seguidor de sua própria divindade sem motivo significativo é um anátema.</p><hr /><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo sofre metade do dano.</p><p><strong>Falha</strong> O alvo sofre o dano inteiro; se o alvo puder conjurar magias divinas, ele fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 rodada.</p><p><strong>Falha Crítica</strong> O alvo sofre o dobro do dano, fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 rodada e não pode conjurar magias divinas por 1 rodada.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6 (ou em 2d8 se o alvo for um conjurador divino).</p>",
           "consumableSpellTarget": "1 creature"
+        },
+        "consumable->Scroll of Flame Strike (Level 5)": {
+          "consumableSpellName": "Chuva de Fogo",
+          "consumableSpellDescription": "<p>Você pode invocar uma chuva de fogo divino que causa 8d6 de dano de fogo. Como a chama é infundida com energia divina, criaturas na área aplicam somente metade de suas resistências a fogo usuais. Criaturas imunes a fogo não recebem o benefício convencional de sua imunidade, mas tratam os resultados de suas jogadas de salvamento como se fossem um grau de sucesso melhor.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
+        },
+        "consumable->Scroll of Sound Burst (Level 4)": {
+          "consumableSpellName": "Explosão Sonora"
         },
         "consumable->Scroll of Heal (Rank 5)": {
           "consumableSpellName": "Curar",

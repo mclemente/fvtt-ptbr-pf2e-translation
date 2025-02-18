@@ -200,6 +200,7 @@
       "items": {
         "consumable->Wand of Fear (Rank 1)": {
           "consumableSpellName": "Medo",
+          "consumableSpellDescription": "<p>Você planta medo no alvo e ele deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 2.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 3 e @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada.</p><p><hr /><strong>Elevada (3º)</strong>  Você pode afetar até cinco criaturas.</p>",
           "consumableSpellTarget": "1 creature"
         },
         "strike-melee->Jaws": {
@@ -260,6 +261,7 @@
       "items": {
         "consumable->Wand of Blindness (Rank 3)": {
           "consumableSpellName": "Cegueira",
+          "consumableSpellDescription": "<p>Você cega o alvo. O efeito é determinado pelo salvamento de Fortitude do alvo. Após o efeito, o alvo fica temporariamente imune por 1 minuto.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o início do próximo turno dele.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica permanentemente @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego}.</p>",
           "consumableSpellTarget": "1 creature"
         },
         "strike-melee->Warhammer": {
@@ -330,6 +332,9 @@
     },
     "Minargul": {
       "items": {
+        "spellcastingEntry->Hexes": {
+          "name": "Sortilégios"
+        },
         "strike-melee->Sickle": {
           "name": "Foice"
         },
@@ -347,6 +352,8 @@
     "Mnoghoth": {
       "items": {
         "consumable->Wand of Telekinetic Maneuver (Rank 2)": {
+          "consumableSpellName": "Manobra Telecinética",
+          "consumableSpellDescription": "<p>Com uma rajada de poder telecinético, você move um adversário ou algo que ele carrega. Você pode tentar Derrubar, Desarmar ou Empurrar o alvo usando uma rolagem de ataque de magia em vez de um teste de Atletismo.</p>",
           "consumableSpellTarget": "1 creature"
         },
         "strike-melee->Bite": {
@@ -504,6 +511,7 @@
     "Vizmivool": {
       "items": {
         "spell->Heroes' Feast": {
+          "primarycheck": "Nature, Religion, or Occultism (expert)",
           "secondarycheck": "Diplomacy or Society"
         },
         "consumable->Wand of Vampiric Feast (Rank 3)": {

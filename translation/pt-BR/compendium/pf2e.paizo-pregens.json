@@ -16,7 +16,12 @@
         "lore->Leshy Lore": {
           "name": "Saber de Leshy"
         },
+        "spell->Goodberry": {
+          "target": "1 ripe berry"
+        },
         "consumable->Scroll of Enlarge (Rank 2)": {
+          "consumableSpellName": "Crescer",
+          "consumableSpellDescription": "<p>Reforçado por poder mágico, o alvo cresce para o tamanho Grande. Os equipamentos dele crescem junto com ele, mas retornam ao tamanho natural se removidos de sua posse. A criatura fica @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Desajeitado} 1. O alcance dela aumenta em 1,5 metros (ou em 3 metros se ela for originalmente Minúscula) e ela recebe +2 de bônus de estado em dano corpo a corpo. Esta magia não surte efeito em uma criatura Grande ou maior.</p>\n<p>@Compendium[pf2e.spell-effects.sPCWrhUHqlbGhYSD]{Spell Effect: Enlarge}</p>\n<hr />\n<p><strong>Elevada (4º)</strong>A criatura cresce para o tamanho Enorme. O bônus de estado em dano corpo a corpo aumenta para +4 e o alcance da criatura aumenta em 3 metros (ou 4,5 metros se ela fosse Minúscula). A magia não surte efeito em uma criatura Enorme ou maior.@Compendium[pf2e.spell-effects.41WThj17MZBXTO2X]{Spell Effect: Enlarge (Heightened 4th)}</p>\n<p><strong>Elevada (6º)</strong> Escolha entre a versão de 2º e 4º nível desta magia e aplique os efeitos dela a até 10 criaturas voluntárias.</p>",
           "consumableSpellTarget": "1 willing creature"
         }
       }
@@ -28,6 +33,9 @@
         },
         "lore->Leshy Lore": {
           "name": "Saber de Leshy"
+        },
+        "spell->Goodberry": {
+          "target": "1 ripe berry"
         }
       }
     },
@@ -58,10 +66,15 @@
           "name": "Saber de Maldições"
         },
         "feat->Dangerous Sorcery": {
-          "name": "Feitiçaria Perigosa"
+          "name": "Feitiçaria Perigosa",
+          "description": "<p>Seu legado lhe concede grande poder destrutivo. Quando Conjurar uma Magia que cause dano e não possua duração usando seus espaços de magia, você recebe um bônus de estado no dano dessa magia igual ao nível dela.</p>"
         },
         "consumable->Scroll of Blur (Level 2)": {
+          "consumableSpellName": "Borrar",
           "consumableSpellTarget": "1 creature"
+        },
+        "consumable->Wand of Illusory Object (Level 1)": {
+          "consumableSpellName": "Objeto Ilusório"
         },
         "consumable->Wand of Mage Armor (Level 1)": {
           "consumableSpellName": "Armadura Mística"
@@ -80,6 +93,9 @@
       "items": {
         "spell->Chill Touch": {
           "target": "1 living or undead creature"
+        },
+        "consumable->Scroll of Faerie Fire (Level 2)": {
+          "consumableSpellName": "Fogo Feérico"
         },
         "consumable->Scroll of Heal (Level 2)": {
           "consumableSpellName": "Curar",
@@ -133,6 +149,7 @@
           "name": "Saber de Guerra"
         },
         "consumable->Scroll of Ray of Enfeeblement (Level 1)": {
+          "consumableSpellName": "Raio de Enfraquecimento",
           "consumableSpellTarget": "1 creature"
         },
         "consumable->Scroll of Mending (Level 1)": {
@@ -161,7 +178,8 @@
           "name": "Saber de Vidência"
         },
         "feat->Dangerous Sorcery": {
-          "name": "Feitiçaria Perigosa"
+          "name": "Feitiçaria Perigosa",
+          "description": "<p>Seu legado lhe concede grande poder destrutivo. Quando Conjurar uma Magia que cause dano e não possua duração usando seus espaços de magia, você recebe um bônus de estado no dano dessa magia igual ao nível dela.</p>"
         },
         "consumable->Scroll of Mage Armor (Level 1)": {
           "consumableSpellName": "Armadura Mística"
@@ -208,7 +226,8 @@
           "name": "Saber de Artes"
         },
         "heritage->Ganzi": {
-          "name": "Ganzi"
+          "name": "Ganzi",
+          "description": "<p>Seu sangue é tocado pelo caos primal. Você ganha o traço ganzi em adição aos traços da sua ancestralidade. Você ganha resistência a um único tipo de dano igual à metade do seu nível; no começo de cada dia, determine aleatoriamente se essa resistência será aplicada a dano ácido, eletricidade ou sônico. Você também ganha um bônus de circunstância de +1 para jogadas de salvamento contra efeitos que fariam você causar a condição @Compendium[pf2e.conditionitems.9qGBRpbX9NEwtAAr]{Controlado}. Você pode escolher os talentos de ganzi e talentos da sua ancestralidade sempre que que ganhar um talento de ancestralidade.</p>"
         },
         "feat->Improved Communal Healing": {
           "name": "Cura Comunal Aprimorada"
@@ -238,12 +257,16 @@
           "name": "Saber de Navegação"
         },
         "consumable->Scroll of Augury (Level 2)": {
-          "consumableSpellName": "Augúrio"
+          "consumableSpellName": "Augúrio",
+          "consumableSpellDescription": "<p>Você obtém um vago vislumbre do futuro. Durante a conjuração desta magia, pergunte sobre os resultados de um curso de ação em particular. A magia pode predizer resultados de até 30 minutos no futuro e revelar a melhor predição do MJ entre os resultados a seguir:</p><ul><li><strong>Prosperidade</strong> Os resultados serão bons.</li><li><strong>Infortúnio</strong> Os resultados serão ruins.</li><li><strong>Prosperidade e Infortúnio</strong> Os resultados serão uma mescla de bons e ruins.</li><li><strong>Nada</strong> Não há resultados particularmente bons ou ruins.</li> </ul><p> O MJ rola secretamente um teste simples CD 6. Em uma falha, o resultado é sempre “nada”. Isto torna impossível dizer se um resultado de “nada” é preciso. Se alguém perguntar sobre o mesmo tópico que a primeira conjuração de augúrio durante uma conjuração adicional, o MJ usa o resultado do teste secreto da primeira conjuração. Porém, se as circunstâncias mudarem, é possível obter um resultado diferente.</p>"
         },
         "consumable->Scroll of Neutralize Poison (Level 3)": {
+          "consumableSpellName": "Neutralizar Veneno",
+          "consumableSpellDescription": "<p>Você canaliza magia curativa sobre o alvo na tentativa de curar um veneno que o aflige. Faça um teste de neutralização contra o veneno.</p>",
           "consumableSpellTarget": "1 creature"
         },
         "consumable->Wand of Sanctuary (Level 1)": {
+          "consumableSpellName": "Santuário",
           "consumableSpellTarget": "1 creature"
         },
         "consumable->Wand of Heal (Level 1)": {
@@ -264,6 +287,12 @@
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "spell->Wilding Word": {
+          "target": "1 animal, fungus, or plant"
+        },
+        "feat->Wild Patron": {
+          "name": "Patrono dos Ermos"
         }
       }
     },
@@ -349,7 +378,8 @@
           "name": "Saber Acadêmico"
         },
         "feat->Tail Whip": {
-          "name": "Chicotada com Cauda"
+          "name": "Chicotada com Cauda",
+          "description": "<p> Por nascimento ou por meio de treinamento, sua cauda é forte o suficiente para ser uma poderosa arma branca. Você recebe um ataque desarmado de cauda que causa 1d6 de dano contundente e possui o traço de amplitude.</span></p> (Tradução não oficial - Lost Omens: Character Guide)"
         },
         "feat->Vision Of Weakness": {
           "description": "<p>You can call upon divine insights to single out your foes’ weak points. You learn the <a class=\"entity-link\" data-pack=\"pf2e.spells-srd\" data-id=\"NhNKzq1DvFxkvTEc\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vision of Weakness</a> revelation spell. Increase the number of Focus Points in your focus pool by 1.</p>"
@@ -431,6 +461,9 @@
         },
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
+        },
+        "feat->Ki Strike": {
+          "name": "Golpe de Ki"
         }
       }
     },
@@ -444,7 +477,8 @@
     "Zane Ikundi": {
       "items": {
         "feat->Dangerous Sorcery": {
-          "name": "Feitiçaria Perigosa"
+          "name": "Feitiçaria Perigosa",
+          "description": "<p>Seu legado lhe concede grande poder destrutivo. Quando Conjurar uma Magia que cause dano e não possua duração usando seus espaços de magia, você recebe um bônus de estado no dano dessa magia igual ao nível dela.</p>"
         },
         "lore->Genealogy Lore": {
           "name": "Saber de Genealogia"
@@ -465,6 +499,9 @@
         },
         "lore->Assassin Lore": {
           "name": "Saber de Assassinos"
+        },
+        "consumable->Scroll of Obscuring Mist (Level 2)": {
+          "consumableSpellName": "Bruma Obscurecente"
         }
       }
     }
