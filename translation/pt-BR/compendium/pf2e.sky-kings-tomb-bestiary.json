@@ -1,1 +1,855 @@
-{}
+{
+  "entries": {
+    "Alchemist Ivy": {
+      "items": {
+        "strike-melee->Vine": {
+          "name": "Vinha"
+        },
+        "strike-ranged->Sap": {
+          "name": "Porrete"
+        },
+        "action->Camouflage": {
+          "name": "Camuflagem"
+        }
+      }
+    },
+    "Algerschmick": {
+      "items": {
+        "spell->Charm (Animals Only)": {
+          "target": "1 animal"
+        },
+        "spell->Command (Animals Only)": {
+          "target": "1 animal"
+        }
+      }
+    },
+    "Anarchic Living Graffiti": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Ansestor Statue": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Ashrin": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Blacknoon Apprentice": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        }
+      }
+    },
+    "Bronwyl Holloward": {
+      "items": {
+        "spell->Invisibility Sphere": {
+          "target": "you and any number of creatures in range"
+        },
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-ranged->Light Hammer": [
+          {
+            "name": "Martelo Leve"
+          },
+          {
+            "name": "Martelo Leve"
+          }
+        ]
+      }
+    },
+    "Caligni Assassin": {
+      "items": {
+        "strike-melee->Spiked Gauntlet": {
+          "name": "Manopla com Cravos"
+        },
+        "strike-ranged->Throwing Knife": {
+          "name": "Faca de Arremesso"
+        },
+        "action->Swift Sneak": {
+          "name": "Esgueirar-se Rapidamente"
+        },
+        "action->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        },
+        "action->Quick Draw": {
+          "name": "Saque Rápido",
+          "description": "<p>Você saca sua arma e ataca com o mesmo movimento. Você Interage para sacar uma arma, e então Golpeia com essa arma.</p>"
+        }
+      }
+    },
+    "Corrupted Blade Spirit": {
+      "items": {
+        "equipment->Amulet": {
+          "name": "Amuleto"
+        },
+        "strike-melee->Clan Dagger": {
+          "name": "Adaga de Clã"
+        },
+        "strike-melee->Spectral Hand": {
+          "name": "Mão Espectral"
+        }
+      }
+    },
+    "Crimson Worm Statue": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Thrash": {
+          "name": "Arrebentar"
+        }
+      }
+    },
+    "Dwarven Monster Hunter": {
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Rage": {
+          "name": "Fúria"
+        },
+        "action->Sudden Charge": {
+          "name": "Investida Súbita"
+        }
+      }
+    },
+    "Enraged Dream": {
+      "items": {
+        "action->+1 Status to All Saves vs. Magic": {
+          "name": " +1 de estado em todos os salvamentos contra magia"
+        }
+      }
+    },
+    "Ether Sprite": {
+      "items": {
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        }
+      }
+    },
+    "Fazil": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Besta Leve"
+        }
+      }
+    },
+    "Flames of Taargick": {
+      "items": {
+        "strike-melee->Tendril": {
+          "name": "Gavinha"
+        },
+        "strike-ranged->Fire Mote": {
+          "name": "Salpico de Fogo"
+        }
+      }
+    },
+    "Four-Tooth": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Spiked Chain": {
+          "name": "Corrente com Cravos"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "lore->Accounting Lore": {
+          "name": "Saber de Contabilidade"
+        }
+      }
+    },
+    "Glacial Worm": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        },
+        "action->Thrash": {
+          "name": "Arrebentar"
+        }
+      }
+    },
+    "Gray Worm": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Stinger": {
+          "name": "Ferrão"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        },
+        "action->Thrash": {
+          "name": "Arrebentar"
+        }
+      }
+    },
+    "Hagegraf Royal Guard": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Guisarme": {
+          "name": "Bisarma"
+        },
+        "strike-ranged->Light Hammer": {
+          "name": "Martelo Leve"
+        },
+        "action->Brutal Beating": {
+          "name": "Surra Brutal"
+        }
+      }
+    },
+    "Heartbroken Dream": {
+      "items": {
+        "action->+1 Status to All Saves vs. Magic": {
+          "name": " +1 de estado em todos os salvamentos contra magia"
+        }
+      }
+    },
+    "Heldin Ulgincamp": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Magic Weapon": {
+          "target": "1 weapon that is unattended or wielded by you or a willing ally"
+        },
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        }
+      }
+    },
+    "Hhrulkaz": {
+      "items": {
+        "strike-melee->Clan Dagger": {
+          "name": "Adaga de Clã"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Hrungul Ironeye": {
+      "items": {
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-melee->Shield Boss": {
+          "name": "Bossa de Escudo"
+        },
+        "strike-ranged->Light Hammer": {
+          "name": "Martelo Leve"
+        },
+        "action->Bravery": {
+          "name": "Bravura"
+        },
+        "action->Double Slice": {
+          "name": "Corte Duplo"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Hryngar Assassin": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Repeating Heavy Crossbow": {
+          "name": "Besta Pesada Repetidora"
+        },
+        "action->Surprise Attack": {
+          "name": "Ataque Surpresa"
+        }
+      }
+    },
+    "Hryngar Battlepriest": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-ranged->Light Hammer": [
+          {
+            "name": "Martelo Leve"
+          },
+          {
+            "name": "Martelo Leve"
+          }
+        ]
+      }
+    },
+    "Hryngar Forgepriest": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Light Hammer": {
+          "name": "Martelo Leve"
+        },
+        "strike-ranged->Light Hammer": {
+          "name": "Martelo Leve"
+        }
+      }
+    },
+    "Hryngar King's Agent": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Bola": {
+          "name": "Boleadeira"
+        },
+        "strike-ranged->Hand Crossbow": {
+          "name": "Besta de Mão"
+        },
+        "action->Lie to Me": {
+          "name": "Mente na Minha Cara"
+        }
+      }
+    },
+    "Hryngar Officer": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Besta Leve"
+        },
+        "action->Bravery": {
+          "name": "Bravura"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Hryngar Rager": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Rage": {
+          "name": "Fúria"
+        },
+        "action->Sudden Charge": {
+          "name": "Investida Súbita"
+        }
+      }
+    },
+    "Hryngar Skull Collector": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "action->Intimidating Strike": {
+          "name": "Golpe Intimidante"
+        },
+        "action->Mark for Death": {
+          "name": "Mark for Death"
+        }
+      }
+    },
+    "Hryngar Veteran": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Sling": {
+          "name": "Funda"
+        },
+        "action->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        },
+        "action->Surprise Attack": {
+          "name": "Ataque Surpresa"
+        },
+        "action->Gang Up": {
+          "name": "Bandear"
+        },
+        "action->Quick Draw": {
+          "name": "Saque Rápido"
+        },
+        "lore->Underworld Lore": {
+          "name": "Saber de Submundo"
+        }
+      }
+    },
+    "Hyphae Tyrant": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Jinkin": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        }
+      }
+    },
+    "Juvenile Cave Worm (Azure)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        }
+      }
+    },
+    "Juvenile Cave Worm (Crimson)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        }
+      }
+    },
+    "Juvenile Cave Worm (Glacial)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        }
+      }
+    },
+    "Juvenile Cave Worm (Gray)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        }
+      }
+    },
+    "Juvenile Cave Worm (Rock)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Body": {
+          "name": "Corpo"
+        }
+      }
+    },
+    "Krohan (Possessed)": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Magic Weapon": {
+          "target": "1 weapon that is unattended or wielded by you or a willing ally"
+        }
+      }
+    },
+    "Krohan Veldollow": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Magic Weapon": {
+          "target": "1 weapon that is unattended or wielded by you or a willing ally"
+        },
+        "strike-melee->Pick": {
+          "name": "Picareta"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        }
+      }
+    },
+    "Lady Shimmersnip": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Mumkuh": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "strike-melee->Club": {
+          "name": "Clava"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Narseigus Wormcaller": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Quickened Casting": {
+          "name": "Conjuração Acelerada"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
+        }
+      }
+    },
+    "Ornery Augdunars": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Plague Zombie": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Slow": {
+          "name": "Lentidão"
+        }
+      }
+    },
+    "Redcap Cavalry": {
+      "items": {
+        "strike-melee->Scythe": {
+          "name": "Segadeira"
+        },
+        "strike-melee->Boot": {
+          "name": "Bota"
+        }
+      }
+    },
+    "Shambler Troop": {
+      "items": {
+        "action->Slow": {
+          "name": "Lentidão"
+        }
+      }
+    },
+    "Skibrellon": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Slime Puppeteer": {
+      "items": {
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-melee->Wing": {
+          "name": "Asa"
+        }
+      }
+    },
+    "Soulbound Doll (Sky King's Tomb)": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Chaotic Evil)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Chaotic Good)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Chaotic Neutral)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Lawful Evil)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Lawful Good)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Lawful Neutral)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Neutral Evil)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Neutral Good)": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Soulbound Mauler (Neutral)": {
+      "items": {
+        "spell->Invisibility Sphere": {
+          "target": "you and any number of creatures in range"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Sporeborn Myceloid": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Sporeborn Sheep": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "action->Slow": {
+          "name": "Lentidão"
+        }
+      }
+    },
+    "Stonemaker": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Stoneriver": {
+      "items": {
+        "spell->Remove Fear (At Will)": {
+          "target": "1 creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Toilforged Sentinel": {
+      "items": {
+        "strike-melee->Hammer": {
+          "name": "Martelo"
+        }
+      }
+    },
+    "Tuom Molgrade": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "equipment->Key": {
+          "name": "Chave"
+        },
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        },
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        }
+      }
+    },
+    "Ulat-Kini Initiate": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Ulat-Kini Mindreaver": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Unfeeling Empath": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Veavieve": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        }
+      }
+    },
+    "Voxnia": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Zivzeb": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        }
+      }
+    },
+    "Zogototaru": {
+      "items": {
+        "action->Thrash": {
+          "name": "Arrebentar"
+        }
+      }
+    }
+  }
+}
