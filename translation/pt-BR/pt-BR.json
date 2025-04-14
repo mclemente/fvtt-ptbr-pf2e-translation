@@ -1823,7 +1823,8 @@
         "Plural": "Biografias"
       },
       "CampaignFeature": {
-        "CampaignLabel": "Campanha"
+        "CampaignLabel": "Campanha",
+        "Plural": "Características de Campanha"
       },
       "CannotAddType": "{type} itens não podem ser adicionados a este ator.",
       "Class": {
@@ -2328,6 +2329,9 @@
             "Label": "Proficiências",
             "NoOptionSelected": "Selecione uma estatística à qual a melhoria será aplicada."
           },
+          "SuppressedFeatures": {
+            "Label": "Característica de classe Suprimidas"
+          },
           "Senses": {
             "Darkvision": {
               "Ancestry": "Concede se a ancestralidade do personagem tiver visão na penumbra.",
@@ -2359,6 +2363,7 @@
         "AncestryNotFound": "O item de ancestralidade referenciado não foi encontrado.",
         "DragAncestryHere": "Arraste um item de ancestralidade para cá para setar o pré-requisito de ancestralidade dessa herança.",
         "NoneVersatile": "Nenhum (Versátil)",
+        "Plural": "Heranças",
         "RemoveAncestry": "Remover a ancestralidade exigida"
       },
       "IconLabel": "Ícone",
@@ -2452,6 +2457,9 @@
         },
         "LevelLabel": "Item {level}",
         "OtherTag": {
+          "AlchemicalFood": "Alimento Alquímico",
+          "AlchemicalTool": "Ferramenta Alquímica",
+          "HandwrapsOfMightyBlows": "Bandagens dos Golpes Poderosos",
           "Herbal": "Herbal",
           "Improvised": "Improvisado",
           "Shoddy": "Má Qualidade"
@@ -2567,6 +2575,7 @@
       "SidebarSummary": "Resumo ({type})",
       "Spell": {
         "Area": "{shape} de {size} {unit}",
+        "BaseValue": "Base: {value}",
         "Cast": "Conj",
         "Cost": "Custo",
         "Counteract": {
@@ -2582,6 +2591,7 @@
           "BasicSave": "Básico",
           "Label": "Defesas"
         },
+        "Heightening": "Elevação",
         "LevelN": "Magia {level}",
         "LineSplit": ";",
         "MeasuredTemplate": {
@@ -2691,6 +2701,7 @@
     "ItemBonus1": "Potência de Arma +1",
     "ItemBonus2": "Potência de Arma +2",
     "ItemBonus3": "Potência de Arma +3",
+    "ItemBonus4": "+4 Potência de Arma",
     "ItemBonusLabel": "Bônus de Item",
     "ItemBonusMinus2": "Má Qualidade (-2)",
     "ItemBonusShortLabel": "Item",
@@ -2824,6 +2835,9 @@
       "Troubleshooting": "Solução de problemas",
       "WorldNotReady": "O mundo de jogo não está pronto: tente novamente em alguns segundos."
     },
+    "ModeOfBeing": {
+      "Living": "Vivo"
+    },
     "ModifierNamePlaceholder": "Nome",
     "ModifierTitle": "Mod.",
     "ModifierType": {
@@ -2863,6 +2877,7 @@
           "Grab": "<p><strong>Exigências</strong> A última ação do monstro foi um golpe bem-sucedido que lista Agarrar em sua listagem de dano, ou está agarrando uma criatura usando esta ação.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente Agarra o alvo até o fim do próximo turno do monstro. A criatura está @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada} por qualquer parte do corpo que o monstro usou para atacar, e este membro não pode ser usado para Golpear criaturas até que o fim da captura. Usar Agarrar estende a duração do agarramento do monstro até o fim do seu próximo turno para todas criaturas seguradas por ela. Uma criatura agarrada pode usar a ação de @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar} para se livrar da captura, e o Agarramento termina para as criaturas agarradas se o monstro se move para longe delas.</p>",
           "GreaterConstrict": "<p> O monstro dá a quantia listada de dano a qualquer número de criaturas @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarradas} ou @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restritas} por ele. Cada uma das criaturas pode tentar um salvamento básico de fortitude com a CD listado. A criatura que falha esse salvamento cai @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Inconsciente}. E a criatura bem-sucedida é então temporariamente imune a inconsciência por Constrição Maior por 1 minuto.</p>",
           "GreaterDarkvision": "<p>Um monstro com visão no escuro maior pode ser perfeitamente bem em áreas de escuridão e luz fraca, embora tal visão seja somente em preto e branco. Uma criatura com visão no escuro maior pode ver até mesmo através de formas de escuridão mágica.</p>",
+          "GolemAntimagic": "<p>Um golem é imunee a magias e habilidades mágicas que não as dele próprio, mas cada tipo de golem é afetado por alguns tipos de magia de maneiras especiais. Estas excessões são listadas de maneira breve na ficha do golem, com as regras totais aparecendo aqui. Se uma entrada lista múltiplos tipos (como \"frio\" e \"água\"), ambos os tipos de magia podem afetar o golem..</p><ul><li><strong>Ferido Por</strong> Qualquer magia deste tipo que tenha o golem como alvo faz com que ele receba a quantidade de dano listado (este dano não possui tipo) em vez do efeito usual. Se o golem começar seu turno em uma área de magia deste tipo ou for afetado por um efeito persistente do tipo apropriado, ele recebe o dano nos parênteses.</li><li><strong>Curado Por</strong> Qualquer magia deste tipo que tenha o golem como alvo, faz com que ele perca a condição de lento e receba PV igual a metade do dano que a magia teria tirado. Se o golem começar seu turno em uma área de magia deste tipo, ele recebe o PV listado nos parênteses.</li><li><strong>Lento Por</strong> Qualquer magia deste tipo que tenha o golem como alvo lhe concede @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for [[/gmr 2d6 #rounds]]{2d6 rounds} em vez do efeito usual. Se o golem começar seu turno em uma área de magia deste tipo, fica Lento 1 por este round..</li><li><strong>Vulnerável A</strong> Cada golem é vulnerável a uma ou mais magias específicas, com os efeitos descritos na ficha do golem.</li></ul>",
           "ImprovedGrab": "<p> O monstro pode usar @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Agarrar} como uma ação livre acionada por um acerto com seu ataque inicial. Um monstro com Captura Melhorada ainda precisa gastar uma ação para estender a duração para criaturas que ele já tem @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado}.</p>",
           "ImprovedKnockdown": "<p> O monstro pode usar o @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Tombar} como uma ação livre acionada por um acerto com seu ataque inicial</p>",
           "ImprovedPush": "<p> O monstro pode usar o @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Impelir} como uma ação livre acionada por um acerto com seu ataque inicial</p>",
@@ -3056,6 +3071,8 @@
     "PreciousMaterialDjezetDescription": "Esse metal vermelho-ferrugem é líquido em temperatura ambiente, tornando-o um desafio a todos, senão os mais habilidosos metalúrgicos para o artesanato e conquistando o nome “Ferrápido” em alguns lugares. Djezet é também extremamente reativo a magia, mesmo em seu estado sólido, em liga com outros metais. Ele brilha quando alvejado por magia, e objetos feitos de ligas de djezet brilham com estrias escarlates, que leva alguns ferreiros a o apelidarem de “ferro tigrado”. Quando alvejado por magias, objetos manufaturados de ligas de djezet exibem essas marcas brilhantes que duram por 1 rodada ou pela duração da magia, o que for maior. Uma massa djezet contém metal suficiente para refiná-lo em até duas doses.",
     "PreciousMaterialDragonhide": "Couro de Dragão",
     "PreciousMaterialDragonhideDescription": "O couro e as escamas de um dragão podem ser usados para Manufaturar qualquer item feito normalmente de couro ou peles. Couro de dragão varia em cor de azul a ouro brilhante, dependendo de a qual dragão pertencia. Devido à resiliência das escamas, ele também pode ser usado para Manufaturar armaduras normalmente feitas de placas de metal (como armadura completa, meia armadura ou placa peitoral), permitindo que estas armaduras sejam feitas sem metal. Objetos de couro de dragão são imunes a um tipo de dano, dependendo do tipo de dragão.",
+    "PreciousMaterialDreamweb": "Teia dos Sonhos",
+    "PreciousMaterialDreamwebDescription": "Feito das teias tecidas do tórax da próprio Tecelã das Teias, a Teia dos Sonhos oferece uma série de benefícios místicos. Itens de tecido e cordas feitos na teia dos sonhos tem Dureza 4 com 12 PV por polegada e uma CD de Quebra 16. Armadura leve feita a partir da Teia dos Sonhos é mais leve do que tecido normal ou couro: o Volume da armadura é reduzida em 1 (reduzido para Volume leve, se o volume normal da armadura for 1, sem efeito em um item que normalmente tem Volume leve). Armadura leve feita da Teia dos Sonhos concede ao usuário resistência a veneno igual a 3 mais o valor de sua runa de potência de armadura.",
     "PreciousMaterialDuskwood": "Madeira Crepuscular",
     "PreciousMaterialDuskwoodDescription": "Madeira crepuscular é uma madeira muito leve encontrada principalmente em florestas antigas no centro-sul de Avistânia; ela é escura como ébano, mas possui um tom levemente púrpura. O Volume de um item de madeira crepuscular é reduzido em 1 (ou para Volume leve se o Volume normal dele for 1; e sem gerar efeito em itens que normalmente possuem Volume leve). O Preço de um item feito deste material é baseado no Volume normal do item, não em seu Volume reduzido por ser feito de madeira crepuscular. Entretanto, reduza o Volume antes de fazer quaisquer ajustes de Volume pelo tamanho do item.",
     "PreciousMaterialGradeLabel": "Qualidade do Material",
@@ -3082,6 +3099,8 @@
     "PreciousMaterialSisterstoneDescription": "Pedrirmã é um termo usado para dois minérios próximos, infundidos pelo escoamento espiritual do Campo das Donzelas, perdirmãs crepusculares ou escarlates. Elas têm as mesmas propriedades físicas, exceto pela cor- pedrirmã crepuscular é laranja-pálida, enquanto a escarlate é laranja-avermelhado. Quando próximas de um objeto feita do outro minério, ambas começam a exalar energia espiritual que repele mortos-vivos.",
     "PreciousMaterialSisterstoneDusk": "Pedrirmã (Crepuscular)",
     "PreciousMaterialSisterstoneScarlet": "Pedrirmã (Escarlate)",
+    "PreciousMaterialSloughstone": "Pedracharco",
+    "PreciousMaterialSloughstoneDescription": "Armas feitas de Pedracharco exploram o ódio de Verex-Que-Era por sua indesejada transformação, virando sua própria carne contra ele. Processar Pedracharco é difícil e desagradável, aumentando a CD para fabricar um item com o material em 4. Estruturas não podem ser feitas de pedracharco.",
     "PreciousMaterialSovereignSteel": "Aço Soberano",
     "PreciousMaterialSovereignSteelDescription": "Criado pelo Soberano Negro Kevoth-Kul, esta liga única de ferro frio e metal-do-céu noqual podem fornecer proteção contra ataques mágicos. O processo de forja-fria de ambos os materiais é bastante complicado e preciso. Personagens em busca de armas e armadura de aço soberano terão quase que viajar até Starfall para adquirir equipamento feito a partir dessa liga rara. Embora alguns acreditem que é possível criar escudos de aço soberano também, em um de seus surtos, Kevoth-Kul gritou que não tinha qualquer utilidade para eles e proibiu a todos de tentar tal coisa. Até agora, os seus ferreiros têm tido demasiado medo de confirmar se isso tratou de uma anedota. Todos os itens de aço soberano (incluindo armas e armaduras abaixo) têm um bônus de +4 em salvamentos contra a magia que o item faça, e concedem seu bônus para salvamentos que o dono faça especificamente para proteger o item da magia (como contra a magia Toque Enferrujante).",
     "PreciousMaterialStandardGrade": "Qualidade Padrão",
@@ -3554,9 +3573,12 @@
         "Hint": "Ativar e configurar regras variantes, como Proficiência Sem Nível ou o sistema de Estamina.",
         "Label": "Habilitar Regras Variantes",
         "Mythic": {
+          "Hint": "Permite a atribuição de chamados, talentos e destinos míticos. Progresso Mítico Alternativo, publicado em Regras Míticas Alternativas, ajusta personagens para avançar independentemente de seu ganho de nível.",
+          "Name": "Regras Míticas",
           "Choices": {
             "disabled": "Desabilitado",
-            "enabled": "Habilitado"
+            "enabled": "Habilitado",
+            "variant-tiers": "Progresso Místico Alternativo"
           }
         },
         "Name": "Regras Variantes",
@@ -3845,6 +3867,7 @@
     "TrainedSkillsLabel": "Perícias Treinadas",
     "TraitAberration": "Aberração",
     "TraitAcid": "Ácido",
+    "TraitAdditive": "Aditivo",
     "TraitAdditive0": "Aditivo 0",
     "TraitAdditive1": "Aditivo 1",
     "TraitAdditive2": "Aditivo 2",
@@ -3900,6 +3923,7 @@
     "TraitAnugobu": "Anugobu",
     "TraitApex": "Apogeu",
     "TraitAphorite": "Aphorite",
+    "TraitApparition": "Aparição",
     "TraitAppliedToANoninjectionMeleePiercingWeapon": "Aplicado a uma arma corpo-a-corpo de não-injeção que dá dano perfurante",
     "TraitAppliedToAWindPoweredVehicle": "Aplicado a um veículo motorizado pelo vento",
     "TraitAppliedToAWeapon": "Aplicado em uma Arma",
@@ -3934,6 +3958,7 @@
     "TraitAttachedToFirearm": "Anexado em uma arma de fogo",
     "TraitAttachedToFirearmFiringMechanism": "Anexado em uma arma de fogo (mecanismo de tiro)",
     "TraitAttachedToFirearmScope": "Anexado em uma arma de fogo (mira)",
+    "TraitAttachedToMeleeWeapon": "Afixado a uma arma corpo a corpo",
     "TraitAttachedToShield": "Anexado em Escudo",
     "TraitAttachedToShipsBow": "Anexado à proa de um navio",
     "TraitAttack": "Ataque",
@@ -3963,6 +3988,7 @@
     "TraitBugbear": "Bugbear",
     "TraitBulwark": "Baluarte",
     "TraitCaligni": "Caligni",
+    "TraitCalling": "Chamado",
     "TraitCantrip": "Truque",
     "TraitCapacity": "Capacidade",
     "TraitCapacity2": "Capacidade 2",
@@ -3984,6 +4010,7 @@
     "TraitClimbing": "Escalada",
     "TraitClockwork": "Clockwork",
     "TraitCobbled": "Improvisado",
+    "TraitCoagulant": "Coagulante",
     "TraitCoda": "Coda",
     "TraitCold": "Frio",
     "TraitColdiron": "Ferro Frio",
@@ -4056,8 +4083,10 @@
     "TraitDescriptionAndroid": "Uma ancestralidade humanoide sintética criada por meios artificiais. Mais comuns em Numeria.",
     "TraitDescriptionAngel": "Essa família de celestiais é composta por mensageiros e guerreiros. A maioria dos anjos são sagrados, têm visão no escuro e possuem fraqueza ao profano.",
     "TraitDescriptionAnimal": "Um animal é uma criatura com inteligência relativamente baixa. Normalmente, ele não tem um modificador de atributo de inteligência superior a -4, não consegue falar idiomas e não pode ser treinado em perícias baseadas em inteligência.",
+    "TraitDescriptionAnimist": "Isso indica habilidades da classe animista.",
     "TraitDescriptionApex": "Quando você investe num item com o traço Ápice ele melhora um de seus atributos ou em +2, ou para um total de 18, escolhendo o que resultar no maior valor. Isso lhe dá todos os benefícios do novo valor de atributo até que a investidura termine. Um item ápice concede este benefício somente na primeira vez que é investido dentro de um período de 24h, e você só pode se beneficiar de um item ápice por vez. Se você tentar investir em um item ápice, já tendo um investido, você não ganha o aumento de atributo, embora ganhe qualquer outro efeito de investir no item.",
     "TraitDescriptionAphorite": "Um tipo de herdeiro planar descendente de um plano de Axis, o Plano da Lei.",
+    "TraitDescriptionApparition": "<p>Aparições são entidades espirituais que geralmente não possuem poder, coesão ou apegos para entrar ou afetar o mundo físico. Diferente de um fantasma, uma aparição não precisa já ter sido uma criatura viva e pode ser a memória espiritual de um local ou evento particularmente significativo. Aparições dependem de animistas para interagir com outras pessoas e outras coisas. e geralmente não podem ser alvos ou afetados por magias e habilidades que não sejam as do animista ao qual estão sintonizadas. Os talentos e habilidades dos animistas que afetam os espíritos só afetam as aparições se disserem especificamente isso.</p><p> Habilidades dos animistas com o traço \"aparição\" envolve uma ou mais de suas aparições agindo ao seu lado. Você precisa estar sintonizado com pelo menos uma aparição para usar uma habilidade de aparição, e algumas habilidades podem indicar em seus requerimentos de forma mais específica a qual aparição você precisa estar sintonizado. Normalmente, é suposto que você esteja sempre sintoniza com suas aparições durante suas preparações diárias, mas em algumas circunstâncias raras ou como resultado de certas habilidades animistas, suas aparições podem ser dispersadas ou separadas de você por um tempo; você não está sintonizado com aparições dispersas.</p>",
     "TraitDescriptionAquadynamic": "Esta armadura é projetada para uso debaixo d'água, com design simplificado e materiais flutuantes usados em lugares estratégicos. Você não aplica a penalidade da armadura para testes acrobatismo ou atletismo em água, ou líquidos similares.",
     "TraitDescriptionAquatic": "As criaturas aquáticas se sentem em casa debaixo d'água. Seus golpes desarmados, contundentes e cortantes não sofrem a penalidade usual de -2 por estarem debaixo d'água. As criaturas aquáticas conseguem respirar na água, mas não na superfície.",
     "TraitDescriptionArcane": "Esta magia vem da tradição arcana, que é construída sobre lógica e racionalidade. Qualquer coisa com este traço é mágica. Uma criatura com este traço é principalmente constituída ou tem uma forte relação com a magia arcana.",
@@ -4090,6 +4119,7 @@
     "TraitDescriptionBugbear": "Uma criatura com este traço é um goblinoide peludo e furtivo. Os bugbear costumam ter visão no escuro.",
     "TraitDescriptionBulwark": "A armadura o cobre tão completamente que fornece benefícios contra alguns efeitos de dano. Em jogadas de Reflexos para evitar um efeito de dano, como contra uma bola de fogo, adicione +3 de modificador em vez de seu modificador de Destreza.",
     "TraitDescriptionCaligni": "Esses povos subterrâneos têm visão no escuro e alguns têm o poder para criar escuridão.",
+    "TraitDescriptionCalling": "O traço de \"chamada\" identifica opções mecânicas que um personagem ganha ao receber poder mítico. Cada opção de chamado concede uma maneira de usar e recuperar Pontos Míticos.",
     "TraitDescriptionCantrip": "Uma magia que você pode conjurar à vontade que é automaticamente elevada para a metade de seu nível arredondada para cima.",
     "TraitDescriptionCapacity": "Armas contendo o traço de Capacidade tipicamente tem múltiplos barris ou câmaras capazes de conter um cartucho de munição. Capacidade é sempre acompanhado de um número indicando a quantidade de barris ou câmaras. Após ser disparada, você pode selecionar o próximo barril ou câmara como uma ação de Interagir que não requer uma mão livre. Cada barril ou câmara pode ser recarregado após o disparo com uma ação de Interagir separada.",
     "TraitDescriptionCatalyst": "Itens com o traço Catalisador são componentes de magia consumíveis que alteram ou amplificam magias específicas. Ativar um catalisador é parte de Conjurar uma Magia. O catalisador pode aumentar o número de ações requeridas para a conjuração, como indicado na listagem de Ativação do catalisador. Adicionalmente, a magia ganha componentes materiais se já não tinham ou adiciona o catalisador aos componentes existentes. Pelo catalisador se tornar parte do componente material, você pode sacá-lo como parte da conjuração.",
@@ -4104,6 +4134,7 @@
     "TraitDescriptionCleric": "Esse traço indica habilidades da classe clérigo.",
     "TraitDescriptionClimbing": "A mão empunhando a arma está disponível para Escalar.",
     "TraitDescriptionClockwork": "Clockworks são constructos complexos e intricados que podem ser programados para executar funções específicas.",
+    "TraitDescriptionCoagulant": "Itens alquímicos de cura com o traço \"coagulante\" perdem eficácia quando muitos são aplicados em um curto período de tempo. Se uma criatura cura Pontos de Vida por um item com o traço coagulante, essa criatura está temporariamente imune a curar Pontos de Vida de itens subsequentes com o traço coagulante por 10 minutos (mas não é imune a quaisquer outros efeitos desses itens).",
     "TraitDescriptionCoatl": "Uma família de serpentes emplumadas sobrenaturais que servem como guardiões e mensageiros no Universo para várias divindades sagradas.",
     "TraitDescriptionCobbled": "Essa arma-de-fogo foi improvisada e é provável que falhe. Não importa o quanto ou quão bem cuide dela, numa rolagem de ataque falha, o ataque erra e você deve rolar um @Check[flat|dc:5]{Teste Simples}. Se você falha esse teste, a arma tem uma falha-de-disparo.",
     "TraitDescriptionCoda": "<p>Instrumentos com o traço Coda funcionam em principalmente como cajados, e tem o traço Cajado. Tem duas diferenças: instrumentos coda são um tipo de instrumento musical, e podem ser preparados somente por bardos. Por não serem fisicamente cajados, não se pode atacar um instrumento coda, tampouco gravá-lo com runas de arma.</p><p> O processo de preparar um instrumento coda envolve tocar porções significantes de músicas relacionadas a magias no instrumento — seja velhos padrões ou as que você criou. Isso deixa reverberações mágicas no instrumento, permitindo que você complete as canções tocando o coda em outra hora.</p>",
@@ -4138,6 +4169,7 @@
     "TraitDescriptionDeflecting": "Este escudo é projetado para bloquear ou desviar certas categorias de ataques, ou armas. Aumente a dureza deste escudo contra os tipos listados de ataque em 2.",
     "TraitDescriptionDemon": "Uma família de demônios, os demônios originam-se ou traçam suas origens das Fendas Exteriores. A maioria é irremediavelmente profana e possui visão no escuro e fraquezas contra ferro frio e sagrado.",
     "TraitDescriptionDero": "Esta família de humanoides são descendentes de criaturas feéricas que caíram na escuridão e confusão após serem abandonadas nas Terras Sombrias. Eles são imunes à confusão e vulneráveis à luz do sol.",
+    "TraitDescriptionDestiny": "O traço \"destino\" indica o primeiro talento em um destino mítico. Você deve ser um personagem mítico de nível 12 para selecionar um destino e não pode pegar talentos subsequentes naquele destino mítico sem primeiro pegar o talento do destino.",
     "TraitDescriptionDetection": "Efeitos com esta traço tentam determinar a presença ou localização de uma pessoa, objeto ou aura.",
     "TraitDescriptionDeviant": "Esse traço descreve habilidades estranhas, paranormais ou sobrenaturais.",
     "TraitDescriptionDevil": "Uma família de demônios do Inferno, a maioria dos diabos é irremediavelmente profana. Eles geralmente possuem visão no escuro superior, imunidade ao fogo, telepatia e fraqueza contra sagrado.",
@@ -4168,6 +4200,7 @@
     "TraitDescriptionEthereal": "Criaturas etéreas são nativas do Plano Etéreo. Elas podem sobreviver aos efeitos ambientais básicos do Plano Etéreo.",
     "TraitDescriptionEvolution": "Talentos com este traço afetam seu eidolon em vez de você, normalmente concedendo a ele capacidades físicas adicionais.",
     "TraitDescriptionExpandable": "Um item com o traço Expansível aumenta para um tamanho específico quando ativado. Exceto se notado o contrário, esse espaço deve ser adjacente a você, no chão, e o item precisa ter este espaço aberto para expandir nele ou a ativação não tem efeito. Quando o efeito termina, o item desintegra se for um consumível ou reverte ao seu tamanho normal caso não seja.",
+    "TraitDescriptionExemplar": "Isso indica habilidades da classe exemplar.",
     "TraitDescriptionExperiment": "Um criptídeo experimental foi alterado propositalmente através de alquimia, engenharia, magia ou ritual para conter algum grau de componentes de construção. Embora poderoso, o processo é volátil e imperfeito.",
     "TraitDescriptionExploration": "Uma atividade com este traço leva mais de um turno para usar e normalmente pode ser usada somente durante o modo de exploração.",
     "TraitDescriptionExtradimensional": "Este efeito ou item cria um espaço extradimensional. Um efeito extradimensional colocado dentro de outro espaço extradimensional para de funcionar até ser removido.",
