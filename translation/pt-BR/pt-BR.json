@@ -77,6 +77,7 @@
         "Label": "Descançar à Noite",
         "Message": {
           "Awakens": "{actor} desperta bem descansado.",
+          "CraftingSlots": "Espaços de Manufatura restaurados.",
           "ConditionReduced": "{condition} reduzido em 1.",
           "ConditionRemoved": "Não está mais {condition}.",
           "FocusPoints": "Pontos de Foco restaurados.",
@@ -85,6 +86,7 @@
           "HitPointsSingle": "{hitPoints} ponto de vida restaurado.",
           "InfusedReagents": "Reagentes infundidos restaurados.",
           "Resolve": "Determinação restaurada.",
+          "Resource": "{name} restaurado.",
           "SpellSlots": "Todos os espaços de magia restaurados.",
           "StaminaPoints": "Pontos de Estamina restaurados.",
           "TemporaryItems": "Itens temporários removidos.",
@@ -138,6 +140,13 @@
       },
       "Attacks": "Ataques",
       "Character": {
+        "ABCPicker": {
+          "SearchPlaceholder": "Search {items}",
+          "Tooltip": {
+            "ConfirmSelection": "Confirmar seleção",
+            "ViewSheet": "Abrir ficha"
+          }
+        },
         "Attribute": {
           "Apex": "Atributo de Apogeu",
           "Boosts": "Melhorias de atributo",
@@ -199,12 +208,25 @@
           "Title": "Configurar Personagem"
         },
         "Crafting": {
+          "Action": {
+            "Hint": "Select an item to craft using {resource} ({value}/{max})",
+            "HintResourceless": "Escolha um item para Manufaturar"
+          },
+          "BatchQuantity": "x{quantity}",
           "Cost": "Custo",
           "Create": "Criar",
           "Daily": {
             "Complete": "Manufatura diária concluída.",
             "Perform": "Executar Manufatura diária"
-          }
+          },
+          "DecreaseQuantity": "Reduzir Quantidade",
+          "FreeCrafting": "Criação Grátis",
+          "FreeCraftingTooltip": "Se ativado, cria itens imediatamente sem gastar ouro",
+          "IncreaseQuantity": "Aumentar Quantidade",
+          "MissingResource": "Você não tem recursos suficientes para concluir o trabalho.",
+          "PrepareHint": "Select the items that you want to prepare ({remaining} restante(s))",
+          "RemainingSlots": "Empty Slot ({remaining} restante(s))",
+          "Search": "Pesquisar Fórmulas"
         },
         "CreateFeat": "Criar Talento",
         "FeatSlot": {
@@ -217,6 +239,12 @@
           "ClassFeaturesHeader": "Características de Classe",
           "DivineIntercessions": "Dádivas/Maldições da Divindade",
           "GeneralHeader": "Talentos Gerais",
+          "MythicCallingPlaceholder": "Chamado Mítico",
+          "MythicCallingShort": "C",
+          "MythicDestinyPlaceholder": "Destino Mítico",
+          "MythicHeader": "Mítico",
+          "MythicFeatPlaceholder": "Talento Mítico",
+          "MythicTier": "Rank",
           "SkillHeader": "Talentos de Perícia"
         },
         "HandsOccupied": "Mãos ocupadas",
@@ -518,6 +546,7 @@
         "Section": {
           "WeaponsAndShields": "Armas & Escudos"
         },
+        "Search": "Pesquisar Inventário",
         "TotalBulk": "Volume Total: {bulk}",
         "UnitTitle": {
           "Bulk": "Volume por Unidade",
@@ -660,8 +689,11 @@
       "Resource": {
         "Focus": "Foco",
         "HeroPoints": "Pontos de Heroísmo",
-        "Resolve": "Determinação (Nível 7)"
+        "Resolve": "Determinação (Nível 7)",
+        "MythicPoints": "Pontos Míticos"
       },
+      "Resources": "Recursos",
+      "ResourceRatio": "{value}/{max} {resource}",
       "Vehicle": {
         "EmitsSound": {
           "Encounter": "Durante Encontros",
@@ -972,8 +1004,10 @@
           "AndLabel": "Todos acima",
           "OrLabel": "Qualquer um dos acima"
         },
+        "FilterSources": "Filtrar Fontes",
         "InventoryTypes": "Tipos de Inventário",
         "Levels": "Níveis",
+        "OrderByLabel": "Ordenar por",
         "ProficiencyRequirements": "Requisitos de Proficiência",
         "Rarities": "Raridades",
         "Sizes": "Tamanhos",
@@ -994,16 +1028,22 @@
         "WeightLabel": "Peso"
       },
       "Settings": {
+        "OpenSettings": "Abrir configurações",
         "PacksLabel": "Pacotes",
         "Saved": "Configurações foram salvas",
-        "SourcesLabel": "Fontes"
+        "SourcesLabel": "Fontes",
+        "Title": "Configurações do Navegador de Compêndios"
       },
       "TabAction": "Ações",
       "TabBestiary": "Bestiários",
       "TabCampaign": "Campanha",
       "TabFeat": "Talentos/Caraterísticas",
       "TakeLabel": "Pegar Item",
-      "Title": "Navegador de Compêndios"
+      "Title": "Navegador de Compêndios",
+      "TraitsComponent": {
+        "Empty": "Sem opções",
+        "NoMatch": "Nenhuma opção correspondente"
+      }
     },
     "CompendiumMigrationStatus": {
       "Document": "Documento",
@@ -1162,7 +1202,10 @@
           "weakness": "Fraco para {type}: {adjustment}"
         },
         "CompositeLabel": {
-          "Simple": "{type} {value}"
+          "Simple": "{type} {value}",
+          "DoubleVs": "{type} {value} (double resistance vs. {doubleVs})",
+          "Exceptions": "{type} {value} (except {exceptions})",
+          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; double resistance vs. {doubleVs})"
         },
         "Type": {
           "abysium": "abysium",
@@ -1202,6 +1245,7 @@
           "fatigued": "fatigado",
           "fear-effects": "efeitos de Medo",
           "fleeing": "fugindo",
+          "fortune-effects": "efeitos da sorte",
           "frightened": "assustado",
           "ghost-touch": "toque Fantasma",
           "glass": "vidro",
@@ -1218,6 +1262,7 @@
           "magical": "mágico",
           "metal": "metal",
           "misfortune-effects": "efeitos de infortúnio",
+          "mythic": "mítico",
           "non-magical": "não-mágico",
           "nonlethal": "não-letal",
           "nonlethal-attacks": "ataques não-Letais",
@@ -1627,6 +1672,7 @@
     "InlineCheck": {
       "BasicWithSave": "{save} Básico",
       "DCWithName": "CD {name}",
+      "DCAdjustment": "Ajuste de CD",
       "Invalid": "Expressão @Check inválida: {message}",
       "Errors": {
         "AdjustmentLengthMismatch": "incompatibilidade entre o número de parâmetros de tipos e de ajuste",
@@ -1660,6 +1706,10 @@
           "Interaction": "Interação",
           "Offensive": "Ofensiva",
           "Familiar": "Habilidade de Familiar"
+        },
+        "CraftedItem": {
+          "Crafted": "{item} foi fabricado.",
+          "CraftedWithoutResources": "Fabricado sem recursos necessários"
         },
         "FIELDS": {
           "deathNote": {
@@ -1768,6 +1818,9 @@
           "Label": "Armadura Mágica Específica"
         },
         "UnequippedHint": "Esta armadura é mais volumosa por não estar equipada."
+      },
+      "Background": {
+        "Plural": "Biografias"
       },
       "CampaignFeature": {
         "CampaignLabel": "Campanha"
@@ -2182,6 +2235,7 @@
           "Hint": "Quase todas as divindades têm uma única arma preferida, mas alguns têm tanto uma arma quanto o ataque desarmado.",
           "Label": "Arma(s) Favorita(s)"
         },
+        "Plural": "Divindades",
         "Sanctification": {
           "Can": {
             "Holy": "pode escolher sagrado",
@@ -2245,6 +2299,7 @@
           "Ancestry": "Talento de Ancestralidade",
           "AncestryFeature": "Característica de Ancestralidade",
           "Bonus": "Talentos Bônus",
+          "Calling": "Chamado Mítico",
           "Class": "Talento de Classe",
           "ClassFeature": "Característica de Classe",
           "Curse": "Maldição",
@@ -4604,6 +4659,7 @@
     "TraitMunavri": "Munavri",
     "TraitMutagen": "Mutagênico",
     "TraitMutant": "Mutante",
+    "TraitMythic": "Mítico",
     "TraitNaari": "Naari",
     "TraitNagaji": "Nagaji",
     "TraitNephilim": "Nefilim",
