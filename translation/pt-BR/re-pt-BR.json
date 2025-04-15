@@ -131,6 +131,7 @@
         "Leaves": "Folhas",
         "Leg": "Perna",
         "LightningLash": "Açoitada Relampejante",
+        "LittleClaw": "Pequenas Garras",
         "Mandibles": "Mandíbulas",
         "MetalShard": "Fragmento de Metal",
         "Moonbeam": "Feixe Lunar",
@@ -140,11 +141,15 @@
         "Pseudopod": "Pseudópode",
         "Quill": "Espinho",
         "Rock": "Rocha",
+        "Root": "Raiz",
+        "SacredArmament": "Armamento Sagrado",
         "Seed": "Semente",
         "Spikes": "Espinhos",
         "Spine": "Espinha",
+        "Spoke": "Dito",
         "Stinger": "Ferrão",
         "StoneBall": "Bola de Pedra",
+        "StrikingSurface": "Superfície Impactante",
         "Sunbeam": "Raio de sol",
         "Tail": "Cauda",
         "Talon": "Unha",
@@ -168,6 +173,11 @@
       "DaemonForm": {
         "Note": {
           "CeustodaemonDamage": "Qualquer Golpe bem-sucedido com as mandíbulas ou presas causa um adicional de @Damage[1d6[untyped] de dano, e você recebe a mesma quantidade de dano"
+        }
+      },
+      "DemonForm": {
+        "Note": {
+          "AbrikandiluCritical": "Em um acerto crítico, o alvo está @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} por 1 minuto."
         }
       },
       "ElementEmbodied": {
@@ -281,7 +291,8 @@
         },
         "Moderate": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (4[splash])[piercing]]]{4 de dano de respingo perfurante} e os repingos criam cristais que são @UUID[Compendium.pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Estrepes} nas superfícies de piso e apoios de mão nas superfícies verticais, concedendo +1 de bônus de item no próximo teste de Atletismo para Escalar."
-        }
+        },
+        "Note": "O alvo recebe 1 de dano de sangramento persistente dos cristais incrustados em sua carne. Enquanto o dano de sangramento persistir, o alvo também recebe uma penalidade de -5 pés (1,50 m) para sua velocidade. @UUID[Compendium.pf2e.equipment-effects.Item.HKC4IZOzbvtjsp77]{Effect: Crystal Shards}"
       },
       "DreadAmpoule": {
         "Greater": {
@@ -466,6 +477,20 @@
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
         }
       },
+      "SkunkBomb": {
+        "Greater": {
+          "success": "<strong>Efeito</strong> Qualquer criatura acertada pela bomba ou em sua área de respingo deve tentar uma salvaguarda de @Check[fortitude|dc:28]. Criaturas na área de respingo tratam o resultado da salvaguarda como um nível de sucesso melhor.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p><strong>Falha</strong> O alvo fica Enjoado 1 e @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} enquanto enjoado.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} por 1 rodada, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, e Lento 1 enquanto Enjoado.</p>"
+        },
+        "Lesser": {
+          "success": "<strong>Efeito</strong> Qualquer criatura acertada pela bomba ou em sua área de respingo deve tentar uma salvaguarda de @Check[fortitude|dc:15]. Criaturas na área de respingo tratam o resultado da salvaguarda como um nível de sucesso melhor.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p><strong>Falha</strong> O alvo fica Enjoado 1 e @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} enquanto enjoado.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} por 1 rodada, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, e Lento 1 enquanto Enjoado.</p>"
+        },
+        "Major": {
+          "success": "<strong>Efeito</strong> Qualquer criatura acertada pela bomba ou em sua área de respingo deve tentar uma salvaguarda de @Check[fortitude|dc:37]. Criaturas na área de respingo tratam o resultado da salvaguarda como um nível de sucesso melhor.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p><strong>Falha</strong> O alvo fica Enjoado 1 e @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} enquanto enjoado.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} por 1 rodada, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, e Lento 1 enquanto Enjoado.</p>"
+        },
+        "Moderate": {
+          "success": "<strong>Efeito</strong> Qualquer criatura acertada pela bomba ou em sua área de respingo deve tentar uma salvaguarda de @Check[fortitude|dc:17]. Criaturas na área de respingo tratam o resultado da salvaguarda como um nível de sucesso melhor.<hr><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><p><strong>Falha</strong> O alvo fica Enjoado 1 e @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} enquanto enjoado.</p><p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} por 1 rodada, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, e Lento 1 enquanto Enjoado.</p>"
+        }
+      },
       "SulfurBomb": {
         "Greater": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(3[splash])[acid]]{3 acid splash damage} e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}.",
@@ -625,6 +650,7 @@
     },
     "FeatDescription": {
       "Frequency": {
+        "OncePerHour": "uma vez por hora",
         "OncePerTurn": "uma vez por turno"
       },
       "Requirements": {
@@ -634,13 +660,30 @@
         "Label": "Especial"
       },
       "Trigger": {
-        "Label": "Gatilho"
+        "Label": "Gatilho",
+        "TargetedByAStrike": "Você é alvo de um Golpe"
       }
     },
     "GenericLabel": {
       "Check": {
+        "Attack": "Rolagem de Ataque",
         "Perception": "Teste de Percepção",
-        "SavingThrow": "Jogadas de Salvamento"
+        "SavingThrow": "Jogadas de Salvamento",
+        "Skill": "Testes de Perícia"
+      },
+      "ItemVs": {
+        "DeathVoid": "{item} vs. efeitos de Morte e Vazio",
+        "Fear": "{item} vs medo"
+      },
+      "PreviousAction": {
+        "ClimbLeapStride": "Sua ação anterior foi para Escalar, Saltar ou Andar"
+      },
+      "Resist": {
+        "ForcedMovement": "vs movimento forçado"
+      },
+      "StrikeCount": {
+        "First": "Primeiro Golpe",
+        "Second": "Segundo Golpe"
       }
     },
     "IWR": {
@@ -657,11 +700,17 @@
         "AttacksDemons": "ataques por demônios",
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
         "BludgeoningPiercingSlashing": "dano contundente, perfurante e cortante",
+        "BludgeoningPiercingSlashingFromFrightenedStrikes": "dano de Golpe contundente, perfurante e cortante de criaturas assustadas",
+        "CalistriasBane": "Ruína da Calistria",
         "ColdIronBludgeoning": "contundente de ferro frio",
         "CrystalHazards": "perigos de cristal",
+        "DamageFromSwornCreatures": "danos do tipo de criatura juramentada",
         "DraconicBreathWeapons": "armas de sopro dracônicas",
+        "EnemyStrikes": "Golpes inimigos",
+        "FallDamage": "dano de queda",
         "HolyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante sagrado",
         "ImpulseFireFrom": "impulso de fogo de {origem}",
+        "IncorporealCreatures": "criaturas incorpóreas",
         "IngestedPoisons": "venenos ingeridos",
         "MagicalBludgeoning": "contundente mágico",
         "MagicalColdIron": "ferro frio mágico",
@@ -685,9 +734,17 @@
       "SanguineMutagen": {
         "DamageNote": "Sempre que você sofre dano perfurante ou cortante, você sofre @Damage[1d6[bleed]]{1d6 de dano persistente de sangramento}.",
         "VariantSaveLabel": "{item} vs Doença, Veneno, Fadiga"
+      },
+      "SereneMutagen": {
+        "PenaltyLabel": "Mutagênico Serene - Executando um feitiço ofensivo."
       }
     },
     "NPCAbility": {
+      "AbstalarZantus": {
+        "CommunalHealingHands": {
+          "Note": "Quando Abstalar executa <em>cura</em> para curar uma única criatura que não seja a si mesmo, ele recupera @Damage[@item.rank[vitality,healing]shortLabel] Pontos de Vida."
+        }
+      },
       "AlchemicalGolem": {
         "Sickness": "Doença"
       },
@@ -701,6 +758,12 @@
           "Spirit": "Espírito"
         },
         "SpectralFlame": "Chama Espectral"
+      },
+      "Asper": {
+        "Aura": {
+          "Fire": "Qualquer criatura a 30 pés que recebe dano de fogo recebe @Damage[2d10[persistent,fire] de dano extra.",
+          "Label": "Aura Elemental do Asper"
+        }
       },
       "BarghestFeed": "Quantas vezes o Barghest se alimentou?",
       "BladeMagus": {
@@ -729,6 +792,9 @@
         }
       },
       "ChangeShape": {
+        "AlterationNotes": {
+          "Unusable": "Esta habilidade não é utilizável na sua forma atual."
+        },
         "Form": {
           "Animal": "Animal",
           "AnimalAerial": "Animal Aéreo",
@@ -744,6 +810,7 @@
           "Boar": "Javali",
           "Cacodaemon": "Cacodaemon",
           "Cassisian": "Cassisiano",
+          "CaveWorm": "Verme das Cavernas",
           "Cobra": "Serpente",
           "Dog": "Cachorro",
           "Dove": "Pombo",
@@ -786,6 +853,7 @@
           },
           "Faydhaan": "Faydhaan",
           "Fish": "Peixe",
+          "Fox": "Raposa",
           "Fungus": "Fungo",
           "Gancanagh": "Gancanagh",
           "Gimmerling": "Gimmerling",
@@ -809,6 +877,7 @@
           "LeshyMob": "Leshy Monstro",
           "Lizard": "Lagarto",
           "Mantis": "Louva-a-deus",
+          "Miastrilek": "Miastrilek",
           "Moose": "Alce",
           "Morrigna": "Morrigna",
           "Mushroom": "Cogumelo",
@@ -822,13 +891,18 @@
           "Plant": "Planta",
           "PorcupineGiant": "Porco-espinho gigante",
           "Pukwudgie": "Pukwudgie",
+          "RacoonDog": "Cachorro-Guaxinim",
           "RajaKrodha": "Raja-Krodha",
           "Raktavarna": "Raktavarna",
           "Rat": "Rato",
           "Scorpion": "Escorpião",
+          "SeaSerpent": "Serpente do Mar",
           "Shark": "Tubarão",
+          "SnappingFlytrap": "Dioneia Abocanhante",
           "Spider": "Aranha",
           "Succubus": "Súcubo",
+          "Tailless": "Sem cauda",
+          "Tiger": "Tigre",
           "Tree": "Árvore",
           "Unicorn": "Unicórnio",
           "Vampire": "Vampiro",
@@ -1071,8 +1145,25 @@
           },
           "RuneOfFlames": {
             "Label": "Runa das Chamas"
+          },
+          "RuneOfSmiting": {
+            "Label": "Runa de Punição",
+            "Text": "Quando a arma acertar, o gigante pode @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Push} o alvo 10 pés (3 m) para trás, ou 20 pés (6 m) em um acerto crítico."
           }
         }
+      },
+      "Scroungefeather": {
+        "GrabDebris": {
+          "BrokenBlade": "Lâmina Quebrada",
+          "MagicBolt": "Virote Mágico"
+        }
+      },
+      "Shell": {
+        "BrokenShell": "Carapaça Quebrada",
+        "CriticalHit": "Carapaça Quebrada por um Acerto Crítico"
+      },
+      "Shieldmarshal": {
+        "LawbringerSpeedLabel": "Legislador - Movendo-se para o alvo"
       },
       "ShockerLizard": {
         "ShockingBurst": {
@@ -1085,6 +1176,10 @@
       "Silene": {
         "LumberjacksBane": "Alvo está empunhando um machado"
       },
+      "SkyDragon": {
+        "DivineLightningGood": "Raio Divino - Dano de Bondade",
+        "DivineLightningPositive": "Raio Divino - Dano de Vitalidade"
+      },
       "SovereignDragon": {
         "InspireEnvoyDragonAdult": "Dragão Soberano Adulto",
         "InspireEnvoyDragonAncient": "Dragão Soberano Ancião",
@@ -1096,7 +1191,14 @@
       },
       "StargutHydra": {
         "SkymetalMetamorphosis": {
+          "Djezet": {
+            "Label": "Metamorfose Metal-Celeste (Djezet)"
+          },
+          "Noqual": {
+            "Label": "Metamorfose Metal-Celeste (Noqual)"
+          },
           "Siccatite": {
+            "Label": "Metamorfose Metal-Celeste (Siccatite)",
             "Superheated": "Superaquecido"
           }
         }
