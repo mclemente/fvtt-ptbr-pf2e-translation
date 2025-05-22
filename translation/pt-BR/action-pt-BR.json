@@ -105,6 +105,7 @@
       "BonMot": {
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Sua brincadeira é abominável. Você sofre a mesma penalidade que um inimigo sofreria se você tivesse obtido sucesso. Este efeito é encerrado após 1 minuto ou se você fizer outro Comentário Maldoso e obtiver sucesso. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{Efeito: Comentário Maldoso}",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> O alvo fica distraído e sofre –3 de penalidade de estado em salvaguardas de Percepção e Vontade por 1 minuto. O alvo pode encerrar o efeito precocemente com uma resposta ao seu Comentário Maldoso. Isto pode ser uma ação única que possui o traço concentração ou uma ação de perícia apropriada à resposta. O MJ determina quais ações de perícia se qualificam, embora elas devam custar ao menos 1 ação. Normalmente a resposta precisa custar uma ação de perícia linguística baseada em Carisma.\n@UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effect: Bon Mot}",
           "success": "<strong>Sucesso</strong> O alvo fica distraído e sofre –2 de penalidade de estado em Percepção e Vontade por 1 minuto. O alvo pode encerrar o efeito antes com uma réplica ao seu Comentário Maldoso. Isto pode ser uma ação única que possui o traço concentração ou uma ação de perícia apropriada que enquadre a réplica. O MJ determina quais ações de perícia se qualificam, embora elas devam usar ao menos 1 ação. Normalmente a réplica precisa usar uma ação de perícia linguística baseada em Carisma.\n@UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{Efeito: Comentário Maldoso}"
         },
         "Title": "Comentário Maldoso"
@@ -291,7 +292,8 @@
         "Description": "<p><strong>Exigências</strong> Você tem pelo menos uma mão livre. Seu alvo não pode ser mais de um tamanho maior que você.</p>\n<hr />\n<p>Você tenta derrubar algo que um oponente esteja segurando. Faça um teste de <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\">Atletismo</span> contra a CD de Reflexos dele.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente.</p>\n<p><strong>Sucesso</strong> Você enfraquece a empunhadura de seu oponente no item. Até o início do turno dessa criatura, tentativas de Desarmar o oponente desse item recebem +2 de bônus de circunstância e o alvo sofre –2 de penalidade de circunstância em ataques com o item ou outros testes que exijam uma empunhadura firme nesse item.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Efeito: Desarmar (Sucesso)}</p>\n<p><strong>Falha Crítica</strong> Você perde o equilíbrio e fica @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} até o início de seu próximo turno.</p>",
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você perde o equilíbrio e fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.",
-          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente."
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você derruba o item da empunhadura do oponente. O item cai no chão no espaço do oponente.",
+          "success": "<strong>Sucesso</strong> Você enfraquecerá a empunhadura do seu alvo sobre o item. Futuras tentativas de desarmar o alvo desse item ganham um bônus de circunstância +2, e o alvo sofre uma penalidade de circunstância -2 para ataques com o item ou outros testes que requeiram uma empunhadura firme do item. A criatura pode terminar o efeito interagindo para mudar sua pegada sobre o item; caso contrário, durará enquanto a criatura segurar o item.<br>@UUID[Compendium.pf2e.other-effects.Item.PuDS0DEq0CnaSIFV]{Effect: Disarm (Success)}"
         },
         "Title": "Desarmar"
       },
@@ -403,7 +405,9 @@
         "Title": "Obter Informação"
       },
       "GrabAnEdge": {
+        "Description": "<p><strong>Gatilho</strong> Você cai de ou passa por uma beirada, ou um apoio para a mão.</p>\n<p><strong>Requerimentos</strong> Suas mãos não estão presas às suas costas ou restringidas de alguma outra forma.</p>\n<hr />\n<p>Quando você cair ou passar por uma beirada, ou outro apoio para as mãos, você pode tentar se agarrar, potencialmente parando sua queda. Você deve obter sucesso em uma salvaguarda de Reflexos ou teste de Acrobacia. A escolha é sua. Normalmente contra a CD de Escalar. Se agarrar a beirada ou apoio, você pode então @UUID[Compendium.pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} utilizando Atletismo.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Você se agarra a uma beirada ou um apoio, quer tenha uma mão livre ou não, normalmente usando um item empunhado adequado para se segurar (prendendo um machado de batalha em uma beirada, por exemplo). Você ainda sofre dano da distância caída até então, mas trata a queda como se fosse 30 pés (9 m) menor.</p>\n<p><strong>Sucesso</strong> Se tiver pelo menos uma mão livre, você agarra a beirada ou apoio para a mão, parando a queda. Você ainda sofre dano da distância caída até então, mas trata a queda como se fosse 20 pés (6 m) menor. Se não tiver nenhuma mão livre, você continua a cair como se tivesse falhado no teste.</p>\n<p><strong>Falha Crítica</strong> Você continua a cair e, se tiver caído 20 pés (6 m) ou mais antes de usar esta reação, você sofre @Damage[10[bludgeoning]|options:fall-damage]] devido ao impacto para cada 20 pés (6 m) caídos.</p>",
         "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Você continua a cair e, se tiver caído 20 pés (6 m) ou mais antes de usar esta reação, você sofre @Damage[10[bludgeoning]|options:fall-damage] de dano devido ao impacto para cada 20 pés (6 m) caídos.",
           "criticalSuccess": "<p><strong>Sucesso Crítico</strong> Você se agarra a uma beirada ou um apoio, quer tenha uma mão livre ou não, normalmente usando um item empunhado adequado para se segurar (prendendo um machado de batalha em uma beirada, por exemplo). Você ainda sofre dano da distância caída até ali, mas trata a queda como se fosse 30 pés (9 m) menor.</p>.",
           "success": "<strong>Sucesso</strong> Se tiver pelo menos uma mão livre, você agarra a beirada ou apoio para a mão, parando a queda. Você ainda sofre dano da distância caída até ali, mas trata a queda como se fosse 20 pés (6 m) menor. Se não tiver nenhuma mão livre, você continua a cair como se tivesse falhado no teste."
         },
@@ -930,10 +934,20 @@
       },
       "TreatDisease": {
         "Description": "<p>Você gasta pelo menos 8 horas cuidando de uma criatura adoecida. Faça um teste de Medicina contra a CD da doença. Após tentar Tratar Doença em uma criatura, você não pode tentar novamente até o próximo salvamento dela contra a doença.</p><p><strong>Sucesso Crítico</strong> Você concede +4 de bônus de circunstância no próximo salvamento da criatura contra a doença.<br><strong>Sucesso</strong> Você concede +2 de bônus de circunstância no próximo salvamento da criatura contra a doença.<br><strong>Falha Crítica</strong> Seus esforços impõem –2 de penalidade de circunstância no próximo salvamento da criatura contra a doença.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Seus esforços causam à criatura receber -2 de penalidade de circunstância na próxima salvaguarda contra a doença.<br/>@UUID[Compendium.pf2e.other-effects.Item.TGGdM7XnjQkkijK7]{Effect: Treat Disease}",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você concede à criatura +4 de bônus de circunstância na próxima salvaguarda contra a doença.<br/>@UUID[Compendium.pf2e.other-effects.Item.TGGdM7XnjQkkijK7]{Effect: Treat Disease}",
+          "success": "<strong>Sucesso</strong> Você concede à criatura +2 de bônus de circunstância na próxima salvaguarda contra a doença.<br/>@UUID[Compendium.pf2e.other-effects.Item.TGGdM7XnjQkkijK7]{Effect: Treat Disease}"
+        },
         "Title": "Tratar Doença"
       },
       "TreatPoison": {
         "Description": "<p>Você trata um paciente para impedir que um veneno se alastre. Faça um teste de Medicina contra a CD do veneno. Após tentar Tratar Veneno em uma criatura, você não pode fazê-lo novamente até o próximo salvamento dessa criatura contra o veneno.</p><p><strong>Sucesso Crítico</strong> Você concede à criatura +4 de bônus de circunstância na próxima jogada de salvamento contra o veneno.<br><strong>Sucesso</strong> Você concede à criatura +2 de bônus de circunstância na próxima jogada de salvamento contra o veneno.<br><strong>Falha Crítica</strong> Seus esforços fazem a criatura sofrer –2 de penalidade de circunstância na próxima jogada de salvamento dela contra o veneno.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>Falha Crítica</strong> Seus esforços causam à criatura receber -2 de penalidade de circunstância na próxima salvaguarda contra o veneno.<br/>@UUID[Compendium.pf2e.other-effects.Item.1FrAlPeNseApVrX3]{Effect: Treat Poison}",
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você concede à criatura +4 de bônus de circunstância na próxima salvaguarda contra o veneno.<br/>@UUID[Compendium.pf2e.other-effects.Item.1FrAlPeNseApVrX3]{Effect: Treat Poison}",
+          "success": "<strong>Sucesso</strong> Você concede à criatura +2 de bônus de circunstância na próxima salvaguarda contra o veneno.<br/>@UUID[Compendium.pf2e.other-effects.Item.1FrAlPeNseApVrX3]{Effect: Treat Poison}"
+        },
         "Title": "Tratar Veneno"
       },
       "TreatWounds": {
@@ -945,6 +959,7 @@
           "Mod": "Modificador de CD",
           "Trained": "Treinado CD 15"
         },
+        "Error": "{name} não é treinado em {skill}.",
         "Feats": {
           "MortalHealing": "Cura Mortal",
           "RiskySurgery": "Cirurgia Arriscada"
