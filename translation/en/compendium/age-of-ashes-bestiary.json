@@ -62,6 +62,7 @@
     },
     "Aiudara Wraith": {
       "name": "Aiudara Wraith",
+      "hpDetails": "void healing",
       "publicNotes": "<p>Dahak's influence in Alseta's Landing created a soul-draining effect that slays unprotected creatures within, transforming them into ghostly creatures known as aiudara wraiths, but these rare undead can rise within modern aiudara portals as well. Each time an individual travels through an aiudara, there's a chance their passage could leave a faint imprint of their subconscious in the network. Normally this imprint simply fades away, but when an aiudara is damaged or the individual is suffering from necromantic contagions, these imprints can accumulate and, in time, coalesce on the Astral Plane or within Alseta's Landing as a full-fledged aiudara wraith. The wraith is forced to live with an incomplete sense of self, always seeking its own memories and swiftly growing violent and vengeful as its quest to reclaim these ephemeral notions constantly meets with failure.</p>",
       "speed": "instantaneous movement",
       "items": {
@@ -145,7 +146,7 @@
         },
         "action->Channel Dragonstorm": {
           "name": "Channel Dragonstorm",
-          "description": "<p>The animated dragonstorm directs a @Template[cone|distance:30] of dragonstorm energy. This deals @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]]{3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 poison damage} to creatures in the cone (@Check[reflex|dc:40|basic] save). The animated dragonstorm can't use Channel Dragonstorm again for [[/gmr 1d4 #Recharge Channel Dragonstorm]]{1d4 rounds}.</p>"
+          "description": "<p>The animated dragonstorm directs a @Template[cone|distance:30] of dragonstorm energy. This deals @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]|options:area-damage]{3d8 acid, 3d8 cold, 3d8 electricity, 3d8 fire, and 3d8 poison damage} to creatures in the cone (@Check[reflex|dc:40|basic|options:area-effect] save). The animated dragonstorm can't use Channel Dragonstorm again for [[/gmr 1d4 #Recharge Channel Dragonstorm]]{1d4 rounds}.</p>"
         },
         "action->Destructive Strikes": {
           "name": "Destructive Strikes",
@@ -284,6 +285,11 @@
         },
         "spell->Burning Hands": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nBurning Hands"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "spell->Ray of Enfeeblement": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
@@ -485,7 +491,7 @@
         },
         "action->Keen Eyes": {
           "name": "Keen Eyes",
-          "description": "<p>Calmont's eyes are sharp, allowing him to make out small details about @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or even @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures that others might miss. He gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of him. When Calmont target an opponent that is concealed from him or hidden from him, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>",
+          "description": "<p>Calmont's eyes are sharp, allowing him to make out small details about @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or even @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures that others might miss. He gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of him. When Calmont target an opponent that is concealed from him or hidden from him, reduce the DC of the flat check to @Check[flat|dc:3] for a concealed target or @Check[flat|dc:9] for a hidden one.</p>",
           "rules": {
             "2": {
               "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, make a @Check[flat|dc:3|traits:target:condition:concealed] check"
@@ -660,6 +666,11 @@
         "spell->Burning Hands": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nBurning Hands"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "spell->Ray of Enfeeblement": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
@@ -687,7 +698,7 @@
         },
         "action->Breath Weapon": {
           "name": "Breath Weapon",
-          "description": "<p>The priest breathes fire that deals @Damage[7d6[fire]] damage in a @Template[cone|distance:30] (@Check[reflex|dc:23|basic] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+          "description": "<p>The priest breathes fire that deals @Damage[7d6[fire]|options:area-damage] damage in a @Template[cone|distance:30] (@Check[reflex|dc:23|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
         },
         "action->Shrieking Frenzy": {
           "name": "Shrieking Frenzy",
@@ -775,7 +786,7 @@
     "Dahak's Shell": {
       "name": "Dahak's Shell",
       "description": "<p>A ring of eight dragon pillar replicas mark the border of a dome of magical prismatic energy that entirely contains the Fortress of Sorrow.</p>",
-      "disable": "<p>Each dragon pillar that is destroyed removes the corresponding color's effect from Dahak's shell; as long as even one color remains active, the pillars marking the shell's border cannot be damaged themselves, but a successful @Check[thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (master) check or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th level; counteract DC 30) against one of the eight pillars can cause a randomly determined active color in the shell defense (below) to become deactivated for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>",
+      "disable": "<p>Each dragon pillar that is destroyed removes the corresponding color's effect from Dahak's shell; as long as even one color remains active, the pillars marking the shell's border cannot be damaged themselves, but a successful @Check[thievery|dc:32|name:Disable Color|traits:magical,trap,hazard] (master) check or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 30) against one of the eight pillars can cause a randomly determined active color in the shell defense (below) to become deactivated for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>",
       "stealth": "<p>or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "strike-ranged->Eye Beam": {
@@ -827,7 +838,7 @@
     "Dahak's Skull": {
       "name": "Dahak's Skull",
       "description": "<p>A pair of magical gems inside the dragon skull's eye sockets act as magical sensors with a 30-foot radius.</p>",
-      "disable": "<p>@Check[thievery|dc:27|name:Pry Out the Embedded Gems|traits:complex,magical,fire,trap,hazard] (expert) two times to pry the gems embedded deep in the skull's eye sockets without triggering the sensor, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level, counteract DC 22) twice to dispel both eyes.</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Pry Out the Embedded Gems|traits:complex,magical,fire,trap,hazard] (expert) two times to pry the gems embedded deep in the skull's eye sockets without triggering the sensor, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank, counteract DC 22) twice to dispel both eyes.</p>",
       "routine": "<p>(2 actions) On its initiative, Dahak's skull fires up to two eye beams; it must target a different creature with each attack. The eye beams can't target creatures directly below the skull.</p>",
       "stealth": "<p>but @Check[perception|dc:24|name:Notice Lights in Eyes|traits:complex,magical,fire,trap,hazard] to notice that the fiery lights within the skull's eye sockets seem to be looking around the room.</p>",
       "items": {
@@ -1026,7 +1037,7 @@
     "Dragon Pillar": {
       "name": "Dragon Pillar",
       "description": "<p>A 10-foot-tall wooden pole topped by a wooden carving of Dahak's head. Each dragon pillar's head has been treated with something to give it a distinct color, as indicated in the specific encounter, but regardless of color, plumes of smoke waft up from the mouth.</p>",
-      "disable": "<p>@Check[athletics|dc:26|name:Push the Pillar Over|traits:complex,magical,trap,hazard] (expert) to push the pillar over, or @Check[thievery|dc:26|name:Erase Magic Runes|traits:complex,magical,trap,hazard] (expert) on the pillar to erase the magic runes that power it, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 22) to dispel the pillar's magic.</p>",
+      "disable": "<p>@Check[athletics|dc:26|name:Push the Pillar Over|traits:complex,magical,trap,hazard] (expert) to push the pillar over, or @Check[thievery|dc:26|name:Erase Magic Runes|traits:complex,magical,trap,hazard] (expert) on the pillar to erase the magic runes that power it, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 22) to dispel the pillar's magic.</p>",
       "reset": "<p>The dragon pillar deactivates and resets as soon as it perceives no appropriate targets in range.</p>",
       "routine": "<p>(1 action) On its initiative, the dragon pillar fires an eye beam at the closest target within 120 feet.</p>",
       "stealth": "<p>or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
@@ -1535,7 +1546,7 @@
           "name": "Monocle"
         },
         "consumable->Black Powder (Keg)": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.3bZcqRUWQcPe2y8M]\n<p>A black powder keg explodes if it takes any fire damage, inflicting @Damage[5d6[fire]] damage on all creatures in a @Template[emanation|distance:20] (@Check[reflex|dc:24|basic|name:Gunpowder Detonation] save).</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.3bZcqRUWQcPe2y8M]\n<p>A black powder keg explodes if it takes any fire damage, inflicting @Damage[5d6[fire]|options:area-damage] damage on all creatures in a @Template[emanation|distance:20] (@Check[reflex|dc:24|basic|options:area-effect|name:Gunpowder Detonation] save).</p>"
         },
         "consumable->Gunpower": {
           "name": "Gunpower"
@@ -1750,6 +1761,11 @@
         "spell->Pass Without Trace": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.zlnXpME1T2uvn8Lr]\nPass Without Trace"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "spell->Tanglefoot": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
         },
@@ -1860,7 +1876,7 @@
       "blurb": "Female kobold researcher",
       "items": {
         "weapon->Staff of Fire (Greater)": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.KcjaeMgrsBGgwUWL]\n<p>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce Flame}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire} @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame} @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</li>\n</ul>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.KcjaeMgrsBGgwUWL]\n<p>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire} @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame} @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</li>\n</ul>"
         },
         "consumable->Antidote (Greater)": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.XWkeL34yJK6t5qUE]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +4 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{Effect: Antidote}</p>"
@@ -1945,7 +1961,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMagic Missile"
         },
         "weapon->Staff of Fire (Major)": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.qx4Cq99vng6GhzEh]\n<p>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce Flame}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire} @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame} @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]{Fire Shield}, @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball} @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball} @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}</li>\n</ul>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.qx4Cq99vng6GhzEh]\n<p>This staff resembles a blackened and burned length of ashen wood. It smells faintly of soot and glows as if lit by embers. You can use an Interact action to touch the tip of this staff to a torch, tinder, or a flammable substance to ignite a flame.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<hr />\n<p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p>\n<p><strong>Craft Requirements</strong> Supply one casting of all listed levels of all listed spells.</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{Breathe Fire} @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame}</li>\n<li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]{Floating Flame} @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball}</li>\n<li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]{Fire Shield}, @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball} @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}</li>\n<li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball} @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}</li>\n</ul>"
         },
         "strike-melee->Dagger": {
           "name": "Dagger"
@@ -2093,7 +2109,7 @@
         },
         "weapon->Frost Vial (Major) [Infused]": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]\nFrost Vial (Major) [Infused]",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +3 item bonus to attack rolls, the bomb deals 4d6 cold damage and 4 cold splash damage, and the target takes a -15-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.4G9qnI0oRyL6eKFQ]{Effect: Frost Vial (Major)}</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +3 item bonus to attack rolls, the bomb deals 4d6 cold damage and 4 cold splash damage, and the target takes a -15-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Frost Vial}</p>"
         },
         "armor->Chain Shirt": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
@@ -2172,7 +2188,7 @@
         },
         "action->Death Throes": {
           "name": "Death Throes",
-          "description": "<p>When one of Ingnovim's assistants dies, it bursts open in a foul-sounding and smelling explosion of toxic viscera and poisonous vapors. All creatures within a @Template[burst|distance:20] must attempt a @Check[fortitude|dc:38] save to resist this blast of poison.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Failure</strong> The creature takes @Damage[7d8[poison]] damage.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[14d8[poison],2d8[persistent,poison]]{14d8 poison damage and 2d8 persistent poison damage}.</p>"
+          "description": "<p>When one of Ingnovim's assistants dies, it bursts open in a foul-sounding and smelling explosion of toxic viscera and poisonous vapors. All creatures within a @Template[burst|distance:20] must attempt a @Check[fortitude|dc:38|options:area-effect,damaging-effect] save to resist this blast of poison.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Failure</strong> The creature takes @Damage[7d8[poison]|options:area-damage] damage.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[14d8[poison],2d8[persistent,poison]|options:area-damage]{14d8 poison damage and 2d8 persistent poison damage}.</p>"
         }
       }
     },
@@ -2676,7 +2692,7 @@
     "Lesser Dragonstorm": {
       "name": "Lesser Dragonstorm",
       "description": "<p>A small-scale version of a dragonstorm-a churning vortex of wind infused with fire, acid, lightning, poison, and ice-fills Alseta's Ring.</p>",
-      "disable": "<p>@Check[religion|dc:40|name:Call for Divine Intervention] (legendary) to call out to a non-evil deity for direct intervention to disperse the lesser dragonstorm (prayers to Apsu allow characters who are masters in Religion to attempt the check as if they were legendary instead), @Check[thievery|dc:42|name:Deactivate Vengegate|traits:action:disable-a-device] (legendary) to deactivate Vengegate while the manifestation is forcing it open, or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (10th level; DC 40) to counteract the lesser dragonstorm.</p>",
+      "disable": "<p>@Check[religion|dc:40|name:Call for Divine Intervention] (legendary) to call out to a non-evil deity for direct intervention to disperse the lesser dragonstorm (prayers to Apsu allow characters who are masters in Religion to attempt the check as if they were legendary instead), @Check[thievery|dc:42|name:Deactivate Vengegate|traits:action:disable-a-device] (legendary) to deactivate Vengegate while the manifestation is forcing it open, or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (10th rank; DC 40) to counteract the lesser dragonstorm.</p>",
       "routine": "<p>(1 action) On its initiative, the lesser dragonstorm reaches out and blasts all creatures within Alseta's Ring. Affected creatures take @Damage[2d8[acid],2d8[cold],2d8[electricity],2d8[fire],2d8[poison]]{10d8 damage} (@Check[reflex|dc:46|basic]), evenly split between acid, cold, fire, electricity, and poison. Creatures that fail their save are pulled 20 feet toward the center of Alseta's Ring (or are knocked prone and pulled 30 feet on a critical failure). After 10 rounds, the lesser dragonstorm is destroyed, but a much greater dragonstorm manifests in the surrounding region-see The Dragonstorm.</p>",
       "stealth": "<p>(legendary)</p>",
       "items": {
@@ -2782,7 +2798,7 @@
     "Luminous Ward": {
       "name": "Luminous Ward",
       "description": "<p>A burst of radiance explodes from the door.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:|traits:action:disable-a-device] (master) to disable the wards or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 38) to counteract the ward</p>",
+      "disable": "<p>@Check[thievery|dc:40|name:|traits:action:disable-a-device] (master) to disable the wards or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 38) to counteract the ward</p>",
       "reset": "<p>The trap resets after 1 hour.</p>",
       "stealth": "<p>(master)</p>",
       "items": {
@@ -2990,7 +3006,7 @@
         },
         "action->Contingency": {
           "name": "Contingency",
-          "description": "<p><strong>Trigger</strong> Mengkare fails a saving throw against a spell.</p>\n<hr />\n<p><strong>Effect</strong> @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th level) attempts to counteract the triggering spell.</p>"
+          "description": "<p><strong>Trigger</strong> Mengkare fails a saving throw against a spell.</p>\n<hr />\n<p><strong>Effect</strong> @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank) attempts to counteract the triggering spell.</p>"
         },
         "action->Extra Reaction": {
           "name": "Extra Reaction",
@@ -3626,7 +3642,7 @@
         },
         "action->Bonds of Iron": {
           "name": "Bonds of Iron",
-          "description": "<p>Once per day, Rusty Mae can cause a cage built of cold iron fingernails to spring out of nothingness at a range of up to 30 feet, attempting an Athletics check to [[/act grapple]] against the target's Fortitude DC; if the target has a weakness to cold iron, Rusty Mae gains a +2 circumstance bonus to this check. Unlike a normal Grapple, Rusty Mae doesn't need to be within reach and can move as she pleases, and a successful attempt lasts until the creature escapes (DC 29), causing the cage to crumble into rust. Any creature can attempt to destroy the cage by attacking it. It has an AC of 25, Hardness 14, and 56 Hit Points.</p>"
+          "description": "<p>Once per day, Rusty Mae can cause a cage built of cold iron fingernails to spring out of nothingness at a range of up to 30 feet, attempting an Athletics check to [[/act grapple]] against the target's Fortitude DC; if the target has a weakness to cold iron, Rusty Mae gains a +2 circumstance bonus to this check. Unlike a normal Grapple, Rusty Mae doesn't need to be within reach and can move as she pleases, and a successful attempt lasts until the creature [[/act escape dc=29]]{Escapes} (DC 29), causing the cage to crumble into rust. Any creature can attempt to destroy the cage by attacking it. It has an AC of 25, Hardness 14, and 56 Hit Points.</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>Rusty Mae can take on the appearance of any Medium female humanoid. This doesn't change her Speed or her attack and damage bonuses with her Strikes but might change the damage type her Strikes deal (typically to bludgeoning).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
@@ -4031,7 +4047,7 @@
     "Seismic Spears Trap": {
       "name": "Seismic Spears Trap",
       "description": "<p>Lines of searing lava lance through the area, causing targets to shake as if caught in an earthquake and potentially become petrified.</p>",
-      "disable": "<p>@Check[thievery|dc:43|name:Disable the Wards|traits:magical,trap] (master) to disable the wards or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 38) to counteract the ward.</p>",
+      "disable": "<p>@Check[thievery|dc:43|name:Disable the Wards|traits:magical,trap] (master) to disable the wards or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 38) to counteract the ward.</p>",
       "reset": "<p>The trap resets after 1 minute.</p>",
       "stealth": "<p>(master)</p>",
       "items": {
@@ -4658,6 +4674,11 @@
         "spell->Burning Hands (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nBurning Hands (At Will)"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
@@ -4702,7 +4723,7 @@
     "Vision of Dahak": {
       "name": "Vision of Dahak",
       "description": "<p>Blasts of fire and smoke pour out of the tunnel walls to coalesce into the burning form of Dahak himself; a PC who succeeds at a @Check[religion|dc:20|name:Recognize Depiction of Dahak|traits:hazard,complex,fire,magical,trap,action:recall-knowledge] check to Recall Knowledge notes that the fiery dragon closely resembles classical depictions of the draconic god of destruction.</p>",
-      "disable": "<p>@Check[religion|dc:26|name:Counteract Dahak With Prayers|traits:complex,fire,magical,trap,hazard] (expert) to utter prayers to a non-evil deity to counteract Dahak's presence (prayers to Apsu allow this check to be made if the character is merely trained in Religion), @Check[thievery|dc:30|name:Divert the Hazard's Energy Back|traits:complex,fire,magical,trap,hazard] (expert) to divert the hazard's energies back upon themselves, or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 26).</p>",
+      "disable": "<p>@Check[religion|dc:26|name:Counteract Dahak With Prayers|traits:complex,fire,magical,trap,hazard] (expert) to utter prayers to a non-evil deity to counteract Dahak's presence (prayers to Apsu allow this check to be made if the character is merely trained in Religion), @Check[thievery|dc:30|name:Divert the Hazard's Energy Back|traits:complex,fire,magical,trap,hazard] (expert) to divert the hazard's energies back upon themselves, or a successful @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26).</p>",
       "reset": "<p>The vision of Dahak deactivates and resets automatically once no creatures remain within the Huntergate way station.</p>",
       "routine": "<p>(2 actions) The vision of Dahak manifests next to the creature that is closest to the center of the way station, then uses its Breath Weapon in a direction that catches the most possible targets in its area.</p>",
       "stealth": "<p>(expert)</p>",
@@ -4908,7 +4929,7 @@
     "Wrath of the Destroyer": {
       "name": "Wrath of the Destroyer",
       "description": "<p>These heavy doors, carved with an image of Dahak, echo with a hatred so powerful that it can kill anyone who comes nearby, manifesting a vision of Dahak's head emerging from the doors to strike at a foe.</p>",
-      "disable": "<p>@Check[thievery|dc:29|name:Disrupt the Divine Magic|traits:complex,magical,trap,hazard] (expert) to disrupt the divine magic, @Check[religion|dc:29|name:Placate Wrathful Energies|traits:complex,magical,trap,hazard] (expert) to placate the wrathful energies, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 26).</p>",
+      "disable": "<p>@Check[thievery|dc:29|name:Disrupt the Divine Magic|traits:complex,magical,trap,hazard] (expert) to disrupt the divine magic, @Check[religion|dc:29|name:Placate Wrathful Energies|traits:complex,magical,trap,hazard] (expert) to placate the wrathful energies, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 26).</p>",
       "reset": "<p>The trap deactivates and resets if 1 minute passes without any creature being in range.</p>",
       "routine": "<p>(1 action) On its initiative, the wrath of the destroyer targets the closest target in area <strong>C6</strong> with Face of the Fatal Divine.</p>",
       "stealth": "<p>(expert) to notice subtle vapors of magical energy seething across the doors</p>",
@@ -5097,7 +5118,7 @@
         },
         "weapon->Frost Vial (Greater) [Infused]": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]\nFrost Vial (Greater) [Infused]",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +2 item bonus to attack rolls, the bomb deals 3d6 cold damage and 3 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nJRoiSyd67eQ1dYj]{Effect: Frost Vial (Greater)}</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +2 item bonus to attack rolls, the bomb deals 3d6 cold damage and 3 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Frost Vial}</p>"
         },
         "weapon->Thunderstone (Greater) [Infused]": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.dsMkvuLgpOOGLWDy]\nThunderstone (Greater) [Infused]",
@@ -5235,5 +5256,13 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Book 1 - Hellknight Hill": "Book 1 - Hellknight Hill",
+    "Book 2 - Cult of Cinders": "Book 2 - Cult of Cinders",
+    "Book 3 - Tomorrow Must Burn": "Book 3 - Tomorrow Must Burn",
+    "Book 4 - Fires of the Haunted City": "Book 4 - Fires of the Haunted City",
+    "Book 5 - Against the Scarlet Triad": "Book 5 - Against the Scarlet Triad",
+    "Book 6 - Broken Promises": "Book 6 - Broken Promises"
   }
 }

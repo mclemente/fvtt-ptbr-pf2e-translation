@@ -260,7 +260,7 @@
         },
         "action->Break Ground": {
           "name": "Break Ground",
-          "description": "<p>The guecubu stomps, and the ground breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]] damage to creatures in the area (@Check[reflex|dc:26|basic] save).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] damage to a creature that moves through it. A guecubu is immune to these effects.</p>\n<p>Ground under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} spell tuned against evil or chaos can't be affected by this ability.</p>"
+          "description": "<p>The guecubu stomps, and the ground breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]|options:area-damage] damage to creatures in the area (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] damage to a creature that moves through it. A guecubu is immune to these effects.</p>\n<p>Ground under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} spell tuned against evil or chaos can't be affected by this ability.</p>"
         },
         "action->Shattering Death": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.v14HanKkdPGQd7Km]\nShattering Death",
@@ -486,7 +486,7 @@
     "Cordon Alarm": {
       "name": "Cordon Alarm",
       "description": "<p>A hempen rope tied between trees emanates an @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}, cylindrical barrier that sounds an alarm when crossed.</p>",
-      "disable": "<p>@Check[thievery|dc:18] (trained) to move the rope without setting of the alarm, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st level; counteract DC 16) to disable the rope's magic</p>",
+      "disable": "<p>@Check[thievery|dc:18] (trained) to move the rope without setting of the alarm, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 16) to disable the rope's magic</p>",
       "reset": "<p>The alarm resets immediately. Multiple breaches can cause the alarm to sound in multiple places at the same time, though the alarm can still be triggered only once per round.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -646,7 +646,7 @@
     "Dream-Poisoned Door": {
       "name": "Dream-Poisoned Door",
       "description": "<p>Eerie shapes manifest within the doorway as it's opened, conjuring a group of four @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Y9SDbANT1DWI1DKU]{Animate Dreams} into being.</p>",
-      "disable": "<p>@Check[occultism|dc:30] (expert) to concentrate on the eldritch energies and diffuse them through meditation, @Check[thievery|dc:35] (master) to scratch warding runes along the door's hinges and block dreams from manifesting, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th level; counteract DC 30) to counteract the trap.</p>",
+      "disable": "<p>@Check[occultism|dc:30] (expert) to concentrate on the eldritch energies and diffuse them through meditation, @Check[thievery|dc:35] (master) to scratch warding runes along the door's hinges and block dreams from manifesting, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 30) to counteract the trap.</p>",
       "stealth": "<p>(master)</p>",
       "items": {
         "action->Manifest Dream Guardians": {
@@ -849,7 +849,7 @@
         },
         "equipment->Formula Book": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.qCEOZ6109Yo34tRx]\nFormula Book",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.qCEOZ6109Yo34tRx]\n<p>A formula book holds the formulas necessary to make items other than the common equipment from this chapter; alchemists typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there's no need for you to copy them into a specific book as long as you can keep them on hand to reference them.</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{Alchemist's Fire (Moderate)}<br />@UUID[Compendium.pf2e.equipment-srd.Item.qpzL9UnTi4cDhy6J]{Cognitive Mutagen (Moderate)}<br />@UUID[Compendium.pf2e.equipment-srd.Item.OcBPjVplvy2GbQ8P]{Comprehension Elixir (Greater)}<br />@UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]{Elixir of Life (Moderate)}<br />@UUID[Compendium.pf2e.equipment-srd.Item.KsAygNRyR2FdwuOm]{Psychic Colors Elixir}<br />@UUID[Compendium.pf2e.equipment-srd.Item.IzniYBi8QYxHnffr]{Vat-Grown Brain}<br />@UUID[Compendium.pf2e.equipment-srd.Item.n9VrmK9Us0viv20P]{Winter Wolf Elixir (Lesser)}</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.qCEOZ6109Yo34tRx]\n<p>A formula book holds the formulas necessary to make items other than the common equipment from this chapter; alchemists typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there's no need for you to copy them into a specific book as long as you can keep them on hand to reference them.</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{Alchemist's Fire (Moderate)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.qpzL9UnTi4cDhy6J]{Cognitive Mutagen (Moderate)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.OcBPjVplvy2GbQ8P]{Comprehension Elixir (Greater)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]{Elixir of Life (Moderate)}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.KsAygNRyR2FdwuOm]{Psychic Colors Elixir}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.IzniYBi8QYxHnffr]{Vat-Grown Brain}</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.n9VrmK9Us0viv20P]{Winter Wolf Elixir (Lesser)}</p>"
         },
         "equipment->Pendant of the Occult (Greater)": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.1bvH8zFQvDYky9tr]\n<p>This amulet is hollow and shaped in the form of an unblinking eye. Its cavity typically holds some fragment of occult text. While wearing the pendant, you gain a +2 item bonus to Occultism checks, and you can cast the @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Guidance} cantrip as an occult innate spell.</p>\n<p>The pendant can be activated.</p>\n<p><strong>Activate</strong> 10 minutes (Cast a Spell)</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{Dream Message} spell.</p>"
@@ -990,7 +990,7 @@
     "Freezing Floor": {
       "name": "Freezing Floor",
       "description": "<p>The white brick floor radiates ice-cold air.</p>",
-      "disable": "<p>@Check[thievery|dc:24] (expert) to erase a rune, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd level; counteract DC 24) to dispel a rune; all three runes must be erased or dispelled to disable the trap.</p>",
+      "disable": "<p>@Check[thievery|dc:24] (expert) to erase a rune, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 24) to dispel a rune; all three runes must be erased or dispelled to disable the trap.</p>",
       "hpDetails": "to destroy the bricks and disable the trap;",
       "reset": "<p>The trap deactivates and resets after 1 minute.</p>",
       "routine": "<p>(3 actions) With each action, the trap attempts a frost jet Strike against any creature standing on the white bricks. The trap loses 1 action per disabled or dispelled rune.</p>",
@@ -1139,7 +1139,7 @@
         },
         "action->Blackfrost Breath": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ydrDZ7lqioLPWRlB]\nBlackfrost Breath",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ydrDZ7lqioLPWRlB]\n<p>Ilakni breathes out a @Template[cone|distance:60] of black wind. All creatures in the area take @Damage[10d6[cold]] damage (@Check[reflex|dc:30|basic]); a creature that fails the save is also exposed to blackfrost. Ilakni can't use Blackfrost Breath again for [[/gmr 1d4 #Recharge Blackfrost Breath]]{1d4 rounds}.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ydrDZ7lqioLPWRlB]\n<p>Ilakni breathes out a @Template[cone|distance:60] of black wind. All creatures in the area take @Damage[10d6[cold]|options:area-damage] damage (@Check[reflex|dc:30|basic|options:area-effect]); a creature that fails the save is also exposed to blackfrost. Ilakni can't use Blackfrost Breath again for [[/gmr 1d4 #Recharge Blackfrost Breath]]{1d4 rounds}.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d8+12)[bludgeoning]], @Check[fortitude|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -1246,7 +1246,7 @@
         },
         "action->Boomstrike": {
           "name": "Boomstrike",
-          "description": "<p>The kareq beats its legs against its reverberation chamber, creating a blast of sound concentrated enough to ignite the air around it. The kareq chooses to affect either a @Template[cone|distance:30] (which deals sonic damage) or a @Template[line|distance:60] (which deals fire damage). Affected creatures must attempt a @Check[fortitude|dc:21] save.</p>\n<hr />\n<p><strong>Success</strong> The creature takes no damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[3d6[fire]] or @Damage[3d6[sonic]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[6d6[fire]] or @Damage[6d6[sonic]] and either is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (if sonic damage) or takes @Damage[1d6[persistent,fire]] (if fire damage).</p>"
+          "description": "<p>The kareq beats its legs against its reverberation chamber, creating a blast of sound concentrated enough to ignite the air around it. The kareq chooses to affect either a @Template[cone|distance:30] (which deals sonic damage) or a @Template[line|distance:60] (which deals fire damage). Affected creatures must attempt a @Check[fortitude|dc:21|options:area-effect,damaging-effect] save.</p>\n<hr />\n<p><strong>Success</strong> The creature takes no damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[3d6[fire]|options:area-damage] or @Damage[3d6[sonic]|options:area-damage].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[6d6[fire]|options:area-damage] or @Damage[6d6[sonic]|options:area-damage] and either is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (if sonic damage) or takes @Damage[1d6[persistent,fire]] (if fire damage).</p>"
         }
       }
     },
@@ -1555,7 +1555,7 @@
         },
         "action->Corner of the Eye": {
           "name": "Corner of the Eye",
-          "description": "<p>The ocluai creates a wave of disturbing illusory images in a @Template[burst|distance:10] centered on a point within 60 feet. Any creature caught in this burst takes @Damage[3d6[mental]] (@Check[will|dc:20|basic]) as their peripheral vision churns with terrifying visions of worm-eaten corpses and monsters ready to pounce.</p>"
+          "description": "<p>The ocluai creates a wave of disturbing illusory images in a @Template[burst|distance:10] centered on a point within 60 feet. Any creature caught in this burst takes @Damage[3d6[mental]|options:area-damage] (@Check[will|dc:20|basic|options:area-effect]) as their peripheral vision churns with terrifying visions of worm-eaten corpses and monsters ready to pounce.</p>"
         }
       }
     },
@@ -1810,7 +1810,7 @@
     "Scholar's Bane": {
       "name": "Scholar's Bane",
       "description": "<p>Illusion magic overwhelms the minds of particularly intelligent creatures, forcing them to relive every intellectual failure and shame they've ever suffered.</p>",
-      "disable": "<p>@Check[thievery|dc:22] (trained) to carve out one eye sensor, @Check[arcana|dc:22] or @Check[occultism|dc:22] (trained) to blank out one's mind (disables trap for self only), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd level; counteract DC 20) to counteract one eye sensor</p>",
+      "disable": "<p>@Check[thievery|dc:22] (trained) to carve out one eye sensor, @Check[arcana|dc:22] or @Check[occultism|dc:22] (trained) to blank out one's mind (disables trap for self only), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2nd rank; counteract DC 20) to counteract one eye sensor</p>",
       "reset": "<p>The trap can function for 10 rounds, which don't need to be consecutive, before it must recharge for 24 hours.</p>",
       "routine": "<p>(4 actions) The trap uses each action to target a creature in the room with an Intelligence score of 10 or greater. A target must succeed at a @Check[will|dc:22] save or take @Damage[(2d8+2)[mental]]. On a critical failure, the creature takes a &ndash;10-foot status penalty to Speed for 1 minute as they stagger under the weight of their failures. The trap loses 1 action for each eye sensor disabled or destroyed.</p>",
       "stealth": "<p>(trained) to notice magical sensors hidden within four of the carvings' eyes</p>",
@@ -1824,7 +1824,7 @@
     "Shadow Guards": {
       "name": "Shadow Guards",
       "description": "<p>Shadowy caricatures of elves peel themselves from the floor and attack everyone in the room.</p>",
-      "disable": "<p>@Check[acrobatics|dc:16] to move through the room without touching any of the runes, followed by @Check[thievery|dc:18] (trained) to carve them out of the wood without triggering them; or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st level; counteract DC 16) to counteract the runes</p>",
+      "disable": "<p>@Check[acrobatics|dc:16] to move through the room without touching any of the runes, followed by @Check[thievery|dc:18] (trained) to carve them out of the wood without triggering them; or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 16) to counteract the runes</p>",
       "reset": "<p>The trap deactivates and resets after 1 minute. The drawings cannot pursue characters out of the room.</p>",
       "routine": "<p>(1 action) The drawings stab at each character in the room with spears drawn from sharp lines.</p>",
       "stealth": "<p>(trained) to notice the runes concealed among the drawings</p>",
@@ -1841,7 +1841,7 @@
     "Shadowshift Field": {
       "name": "Shadowshift Field",
       "description": "<p>Cross-planar seepage from the Oaksteward rebels' ritual causes shadowy warping effects to strain and damage living creatures in the forest clearing.</p>",
-      "disable": "<p>@Check[arcana|dc:17] (trained) to will the Material Plane's hold on the area back into firmness and disable the effect for 1 hour, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st level; counteract DC 15) to end the effect permanently</p>",
+      "disable": "<p>@Check[arcana|dc:17] (trained) to will the Material Plane's hold on the area back into firmness and disable the effect for 1 hour, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (1st rank; counteract DC 15) to end the effect permanently</p>",
       "reset": "<p>This effect continues for 1 day, after which it ends and cannot be triggered again without another ritual.</p>",
       "routine": "<p>(1 action) Each creature in the clearing must attempt a @Check[fortitude|dc:17] save as the planar warping threatens to create microscopic tears inside their body. Fey, plant creatures, and druids are unaffected.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and immune for 24 hours. The land is healed [[/gmr 1d6]] points by the primal magic.</p>\n<p><strong>Success</strong> The creature is unaffected and immune to the effect for 24 hours.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(1d6+3)[force]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(2d6+6)[force]].</p>",
       "stealth": "<p>(trained) to notice the air and plants wavering and shifting</p>",
@@ -1855,7 +1855,7 @@
     "Shroud of Silence": {
       "name": "Shroud of Silence",
       "description": "<p>Sounds become muted in a 20-foot-wide, 100-foot-long segment of this street corridor.</p>",
-      "disable": "<p>@Check[occultism|dc:25] (expert) to twist the magic of the ley line around you, disabling the hazard for only you; or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 23) to disable the hazard permanently</p>",
+      "disable": "<p>@Check[occultism|dc:25] (expert) to twist the magic of the ley line around you, disabling the hazard for only you; or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 23) to disable the hazard permanently</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "action->Hush": {
@@ -2104,6 +2104,9 @@
         "armor->Padded Armor": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]\n<p>This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor or undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep the armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat.</p>"
         },
+        "equipment->Stalk Goggles (Greater)": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.U7UVGM93EaNc6lzY]\n<p>These black leather goggle frames have no lenses. Instead, when a character puts them on and invests them, the wearer's eyes transform and lengthen into snail-like eyestalks. The wobbly eyestalks stretch out through the lens holes and up over the wearer's head on lengthened optic nerves.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> By focusing hard, you can watch for enemies in all directions. You gain all-around vision and a +1 item bonus to Perception checks involving sight for 1 minute; during this time, you can't be flanked.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.g8JS6wsw5sRWOJLg]{Effect: Stalk Goggles}</p>"
+        },
         "equipment->Spellbook": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\nSpellbook",
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.FOWF5f0tCaApv9RE]\n<p>A spellbook holds the written knowledge necessary to learn and prepare various spells, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional spells. Each spellbook can hold up to 100 spells. The Price listed is for a blank spellbook.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Acid Arrow}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Force Barrage}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.r3NeUnsgt9mS03Sn]{Shocking Grasp}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{Telekinetic Hand}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield}</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{Tangle Vine}</p>"
@@ -2167,6 +2170,9 @@
       "publicNotes": "<p>Tales tell of strange humanoids who harvest appendages and organs from other creatures to graft onto their own perpetually decaying bodies. These stories are encountered more often than their subject, however. A reclusive people, umasi live deep in remote jungles, largely isolated from other societies.</p>\n<p>Despite not being undead, umasi can't heal naturally or via magic. Instead, they must harvest appendages and organs from the living to perpetuate their own lives. These modifications require special techniques, obscure rituals, and often the assistance of other umasi. Shorter rituals make quick repairs to wounded flesh-even consuming a nutrient-rich organ of a recently slain creature can provide quick rejuvenation-while more extensive changes require a full day's work.</p>\n<p>Because of the nature of their existences, no one single form remains common to umasi. Many graft any number of arms or legs of various sizes on their bodies, while others are conglomerations of exotic beasts, other humanoids, and whatever creatures they've hunted or scavenged. However, all umasi remain vaguely humanoid in shape. An umasi with additional arms can hold or wield more items at once, while additional legs or other limbs might grant increased Speed or new types of Speed. Concepts such as gender, ethnicity, and even recognizing someone based on their appearance are irrelevant to umasi. Instead, they value age and experience and identify themselves with iconic adornments or speech patterns.</p>\n<p>Despite their morbid nature, umasi are rarely at odds with living creatures. These opportunistic hunters value their self-preservation, but use fast-acting nonlethal poisons to subdue their targets for safe and minimally destructive harvesting. Few umasi harbor malice toward the living, but some possess a streak of self-loathing and search for powerful magics that might break whatever curse binds them to their current state. Rarely, an umasi finds some strange form of acceptance on the fringes of a remote community where their skills at medicine carry more weight than fear of their strange appearances.</p>",
       "saveDetails": "+2 status to all saves vs. poison",
       "items": {
+        "weapon->War Razor": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nOFcCidD5AwVZWTv]\n<p>A war razor is an exaggerated version of the barbers' tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.</p>"
+        },
         "shield->Steel Shield": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>"
         },
@@ -2388,5 +2394,10 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Book 1 - The Seventh Arch": "Book 1 - The Seventh Arch",
+    "Book 2 - They Watched the Stars": "Book 2 - They Watched the Stars",
+    "Book 3 - Dreamers of the Nameless Spires": "Book 3 - Dreamers of the Nameless Spires"
   }
 }
