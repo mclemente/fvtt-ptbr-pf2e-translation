@@ -1,14 +1,14 @@
 {
     "devDependencies": {
-        "@crowdin/crowdin-api-client": "^1.41.2",
+        "@crowdin/cli": "^4.7.0",
+        "@crowdin/crowdin-api-client": "^1.42.0",
         "@prantlf/jsonlint": "^16.0.0",
-        "@zip.js/zip.js": "^2.7.57",
-        "classic-level": "^2.0.0",
+        "@zip.js/zip.js": "^2.7.60",
+        "archiver": "^7.0.1",
+        "classic-level": "^3.0.0",
         "he": "1.2.0",
         "json": "^11.0.0",
-        "path-value": "^0.9.5",
-        "archiver": "^7.0.1",
-        "pdfjs-dist": "4.10.38"
+        "path-value": "^0.10.1"
     },
     "scripts": {
         "build": "node ./src/build/build.js",

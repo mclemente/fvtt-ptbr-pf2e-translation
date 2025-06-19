@@ -23,11 +23,16 @@
     "Aid": {
       "name": "Auxiliar"
     },
+    "Anadi Venom": {
+      "name": "Veneno de Anadi",
+      "selfEffect": "Efeito: Veneno de Anadi"
+    },
     "Anchor": {
       "name": "Âncora"
     },
     "Arcane Cascade": {
-      "name": "Cascata Arcana"
+      "name": "Cascata Arcana",
+      "selfEffect": "Postura: Cascata Arcana"
     },
     "Armor Up!": {
       "name": "Vestir Armadura!",
@@ -36,12 +41,16 @@
     "Arrest a Fall": {
       "name": "Atenuar uma queda"
     },
+    "Assume a Role": {
+      "name": "Assumir uma Função"
+    },
     "Automaton Aim": {
       "name": "Mira de Autômato"
     },
     "Avert Gaze": {
       "name": "Desviar Olhar",
-      "description": "<p>Você desvia seu olhar do perigo. Você recebe +2 de bônus de circunstância em salvamentos contra habilidades visuais que requerem que você olhe para uma criatura ou objeto, como o olhar petrificante de uma medusa. Seu olhar permanece desviado até o início de seu próximo turno.</p>"
+      "description": "<p>Você desvia seu olhar do perigo. Você recebe +2 de bônus de circunstância em salvamentos contra habilidades visuais que requerem que você olhe para uma criatura ou objeto, como o olhar petrificante de uma medusa. Seu olhar permanece desviado até o início de seu próximo turno.</p>",
+      "selfEffect": "Efeito: Desviar o Olhar"
     },
     "Avoid Notice": {
       "name": "Evitar Ser Percebido"
@@ -51,6 +60,9 @@
     },
     "Banshee Cry": {
       "name": "Grito de Banshee"
+    },
+    "Base Kinesis": {
+      "name": "Cinese Básica"
     },
     "Basic Finisher": {
       "name": "Finalização Básica"
@@ -413,7 +425,8 @@
       "name": "Segurar uma Beirada"
     },
     "Grapple": {
-      "name": "Agarrar"
+      "name": "Agarrar",
+      "description": "<p><strong>Exigências</strong> Você tem pelo menos uma mão livre e seu alvo não é mais do que um tamanho maior do que você.</p><hr><p>Você tenta agarrar uma criatura ou objeto com sua mão livre. Faça um teste de Atletismo contra a CD de Fortitude do alvo. Você pode agarrar um alvo que já tenha agarrado ou restringido sem ter uma mão livre.</p><p><strong>Sucesso Crítico</strong> Seu alvo fica @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido} até o final do seu próximo turno, exceto caso você se mova ou que o seu alvo consiga @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar}.<br><strong>Sucesso</strong> Seu alvo fica @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} até o fim do seu próximo turno, exceto caso você se mova ou que seu alvo consiga @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar}.<br><strong>Falha</strong> Você falha em agarrar o seu alvo. Se você já tinha o alvo @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido} usando Agarrar, essas condições those conditions on the target end.<br><strong>Falha Crítica</strong> Se você já tinha o alvo @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Agarrado} ou @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restringido}, ele se solta. Seu alvo pode agarrá-lo, como se tivesse conseguido usar a ação Agarrar contra você com sucesso, ou pode derrubá-lo, deixando-o @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>"
     },
     "Grim Swagger": {
       "name": "Grim Swagger (Guns & Gears)"
