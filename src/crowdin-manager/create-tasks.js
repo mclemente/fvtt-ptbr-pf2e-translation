@@ -25,7 +25,7 @@ localizedLabels.forEach(async (label) => {
             title: labels.find((entry) => entry.id === label).title,
             type: 0,
             fileIds: sourceFiles,
-            languageId: "de",
+            languageId: "pt-BR",
             labelIds: [label],
         });
     } catch (e) {}
