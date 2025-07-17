@@ -1,5 +1,12 @@
 {
   "entries": {
+    "Angoyang": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
     "Anugobu Apprentice": {
       "items": {
         "strike-melee->Hammer": {
@@ -62,6 +69,99 @@
         },
         "strike-melee->Talon": {
           "name": "Unha"
+        }
+      }
+    },
+    "Gumiho": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Hantu Belian": {
+      "items": {
+        "spell->Remove Curse": {
+          "name": "Remover Maldição",
+          "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
+          "target": "1 creature"
+        },
+        "spell->Remove Disease": {
+          "name": "Remover Doença",
+          "description": "<p>Cura mágica purga uma doença do corpo de uma criatura. Você tenta neutralizar uma doença que esteja afligindo o alvo.<p>",
+          "target": "1 creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Beak": {
+          "name": "Bico"
+        }
+      }
+    },
+    "Hantu Denai": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Inmyeonjo": {
+      "items": {
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Jaiban": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "action->Quaking Stomp": {
+          "name": "Pisão do Tremor"
+        }
+      }
+    },
+    "Muckish Creep": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Orochi": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
         }
       }
     },
