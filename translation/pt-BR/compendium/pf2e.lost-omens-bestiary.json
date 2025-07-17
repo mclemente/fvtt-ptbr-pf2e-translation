@@ -1,0 +1,1363 @@
+{
+  "entries": {
+    "Aigamuxa": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Ainamuuren": {
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-melee->Horns": {
+          "name": "Chifres"
+        },
+        "action->Blizzard Evasion": {
+          "name": "Blizzard Evasion (Monster of Myth)"
+        }
+      }
+    },
+    "Anadi Elder": {
+      "items": {
+        "spell->Invisibility Sphere": {
+          "target": "you and any number of creatures in range"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Anadi Venom": {
+          "name": "Veneno de Anadi"
+        }
+      }
+    },
+    "Anadi Hunter": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-ranged->Composite Shortbow": {
+          "name": "Arco Curto Composto"
+        },
+        "action->Anadi Venom": {
+          "name": "Veneno de Anadi"
+        }
+      }
+    },
+    "Anadi Sage": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "action->Anadi Venom": {
+          "name": "Veneno de Anadi"
+        }
+      }
+    },
+    "Animated Bamboo Figurine": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Animated Wine Vessel": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Aoyin": {
+      "items": {
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        },
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Asanbosam": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Drink Blood": {
+          "name": "Drink Blood (Book of the Dead)"
+        }
+      }
+    },
+    "Augdunar": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Aurosrath": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "lore->Mercantile Lore": {
+          "name": "Saber de Mercadores"
+        }
+      }
+    },
+    "Baccali Alpaca": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Beiran": {
+      "items": {
+        "spell->Chilling Spray": {
+          "name": "Borrifo Arrepiante"
+        },
+        "spell->Frostbite": {
+          "name": "Geladura",
+          "description": "<p>Um orbe de frio cortante se aglutina ao redor do alvo, congelando o corpo dele. O alvo sofre 2d4 de dano eversivo, com direito a um salvamento básico de Fortitude. Com uma falha crítica, o alvo também adquire fraqueza contundente 1 até o início do seu próximo turno.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DdqWMj7cuf4S1bgr]{Efeito de Magia: Geladura}</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4 e a fraqueza da falha crítica em 1.</p>",
+          "target": "1 creature"
+        }
+      }
+    },
+    "Benthic Reaver": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Bibliodaemon": {
+      "items": {
+        "spell->Dull Ambition": {
+          "name": "Dull Ambition",
+          "description": "<p>You curse the target to fail in all avenues of its life that require drive and ambition, as it inadvertently undermines its own goals at every turn. The effect is based on the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> For 1 hour, the target rolls twice and uses the lower result on initiative rolls.</p>\n<p><strong>Failure</strong> For 1 day, the target rolls twice and uses the lower result on initiative rolls and any check to determine the success of a downtime activity.</p>\n<p><strong>Critical Failure</strong> As failure, but the duration is unlimited.</p>",
+          "target": "1 creature"
+        },
+        "spell->Crisis of Faith": {
+          "name": "Crise de Fé",
+          "description": "<p>Você agride a fé do alvo, impondo dúvida e turbulência mental à criatura, causando 6d6 de dano mental a ela, ou 6d8 de dano mental se ela puder conjurar magias divinas. Os efeitos são determinados pelo salvamento de Vontade dela.</p><p>Para muitas divindades, conjurar esta magia em um seguidor de sua própria divindade sem motivo significativo é um anátema.</p><hr /><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo sofre metade do dano.</p><p><strong>Falha</strong> O alvo sofre o dano inteiro; se o alvo puder conjurar magias divinas, ele fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 rodada.</p><p><strong>Falha Crítica</strong> O alvo sofre o dobro do dano, fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 rodada e não pode conjurar magias divinas por 1 rodada.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6 (ou em 2d8 se o alvo for um conjurador divino).</p>",
+          "target": "1 creature"
+        },
+        "spell->Dispel Magic": [
+          {
+            "name": "Dissipar Magia",
+            "description": "<p> Você desfaz a magia que está por trás de um efeito. Faça um teste de <a href=\"https://2e.aonprd.com/Rules.aspx?ID=371\">neutralização</a> contra o alvo (página 459). Se obtiver sucesso contra um efeito de magia, você o neutraliza. Se obtiver sucesso contra um item mágico, o item se torna um item mundano do tipo dele por 10 minutos. Isso não altera as propriedades não-mágicas do item. Se o alvo for um artefato ou item similar, você falha automaticamente. </p>",
+            "target": "1 spell effect or unattended magic item"
+          },
+          {
+            "name": "Dissipar Magia",
+            "description": "<p> Você desfaz a magia que está por trás de um efeito. Faça um teste de <a href=\"https://2e.aonprd.com/Rules.aspx?ID=371\">neutralização</a> contra o alvo (página 459). Se obtiver sucesso contra um efeito de magia, você o neutraliza. Se obtiver sucesso contra um item mágico, o item se torna um item mundano do tipo dele por 10 minutos. Isso não altera as propriedades não-mágicas do item. Se o alvo for um artefato ou item similar, você falha automaticamente. </p>",
+            "target": "1 spell effect or unattended magic item"
+          }
+        ],
+        "spell->Silence": {
+          "name": "Silêncio",
+          "description": "<p> O alvo não emite nenhum som, impedindo criaturas de notá-lo usando apenas a audição. O alvo não pode usar ataques sônicos nem ações com o traço auditivo. Isto impede o alvo de conjurar magias que incluam componentes verbais.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.mmJNE57hC7G3SPae]{Spell Effect: Silence}</p>\n<hr />\n<p><strong>Elevada (4º)</strong> O efeito da magia emana da criatura tocada, silenciando todos os sons em uma área afetada de 3 metros de raio e impedindo quaisquer efeitos auditivos ou sônicos dentro dela. Enquanto estiverem dentro da área, criaturas são sujeitas aos mesmos efeitos do alvo. Dependendo da posição do efeito, uma criatura pode perceber a aproximação da falta de sons (que bloqueia o barulho de um grupo, por exemplo).</p>",
+          "target": "1 willing creature"
+        },
+        "spell->Command": {
+          "name": "Comando",
+          "description": "<p>Você emite um comando que é difícil de ignorar. Você pode comandar o alvo a se aproximar de você, correr (como se tivesse a condição @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo}), soltar o que estiver segurando, @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{prostado} ou levantar-se. Ele não pode Adiar ou usar quaisquer reações até ter obedecido ao seu comando. Os efeitos dependem do salvamento de Vontade do alvo.</p><p><hr /><strong>Sucesso</strong>  A criatura não é afetada.</p><p><strong>Falha</strong>  Como a primeira ação no turno dela, a criatura deve usar uma ação única para obedecer ao seu comando.</p><p><strong>Falha Crítica</strong>  O alvo deve usar todas as ações no turno dele para obedecer ao seu comando.</p><p><hr /><strong>Elevada (5º)</strong>  Você pode afetar até 10 criaturas.</p>",
+          "target": "1 creature"
+        },
+        "spell->Detect Magic": {
+          "name": "Detectar Magia",
+          "description": "<p>Você emite um pulso que registra a presença de magia. Você não recebe informação além da presença ou ausência de magia. Você pode escolher ignorar magia à qual tenha ciência da presença, como de itens mágicos e magias contínuas suas e de seus aliados.</p><p> Você detecta alguma ilusão mágica somente se o efeito da ilusão tiver nível inferior ao nível de magia de sua detectar magia. Entretanto, itens que possuem uma aura de ilusão e não são enganosos em aparência (como uma an&nbsp; poção de invisibilidade) geralmente são detectados normalmente.</p> <hr style=\"color: #0f0f0f; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 15px; background-color: #ededed;\"><p><strong> Elevada (3º)</strong> &nbsp; Você descobre a escola de magia para o efeito de maior nível dentro da área detectada pela magia. Se vários efeitos forem igualmente fortes, o MJ determina qual você descobre.<br style=\"color: #0f0f0f; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 15px; background-color: #ededed;\"><strong> Elevada (4º)</strong> Como 3º nível, mas você também aponta a direção da magia de maior nível. Como esse é um sentido impreciso, você não descobre a localização exata, mas pode delimitar a fonte para um cubo a até 1,5 metros (ou o mais próximo se for maior do que isso). </p>"
+        },
+        "spell->Divine Lance": {
+          "name": "Lança Divina",
+          "description": "<p>Você lança um feixe de energia divina. Escolha uma tendência que sua divindade possua (bem, caos, mal ou ordem). Você não pode conjurar esta magia se não tiver uma divindade ou se sua divindade for neutra verdadeira. Esta magia recebe o traço da tendência escolhida. Faça uma rolagem de ataque de magia contra a CA do alvo. Em um acerto, o alvo sofre dano do tipo de tendência escolhido igual a 1d4 + o modificador de seu atributo de conjuração (dobro do dano em um acerto crítico).</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+          "target": "1 creature"
+        },
+        "spell->Enfeeble": {
+          "target": "1 creature"
+        },
+        "spell->Sigil": {
+          "name": "Sigilo",
+          "target": "1 creature or object"
+        },
+        "weapon->Gavel": {
+          "description": "<p>Uma maça leve possui um cabo de madeira ou metal que termina em uma densa cabeça de metal. Usada quase como uma clava, ela desfere golpes contundentes pesados, mas com poder extra vindo das tachas ou espinhos da cabeça de metal.</p>"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Thoughtsense": {
+          "name": "Sentido de pensamentos"
+        },
+        "action->Change Shape": {
+          "name": "Trocar Forma"
+        }
+      }
+    },
+    "Biloko Veteran": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Longspear": {
+          "name": "Lança Longa"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        },
+        "action->Swipe": {
+          "name": "Arrebatar"
+        }
+      }
+    },
+    "Biloko Warrior": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Bul-Gae": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Caterpillar Carriage": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Charau-ka Acolyte of Angazhan": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Charau-ka Butcher": {
+      "items": {
+        "strike-melee->Trident": {
+          "name": "Tridente"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Trident": {
+          "name": "Tridente"
+        },
+        "action->Rage": {
+          "name": "Fúria"
+        }
+      }
+    },
+    "Charau-ka Warrior": {
+      "items": {
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Corbayrant": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Stinger": {
+          "name": "Ferrão"
+        },
+        "strike-ranged->Spine": {
+          "name": "Espinha"
+        },
+        "action->Reactive Strike": {
+          "description": "<p><strong>Gatilho</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
+        },
+        "action->Swallow Whole": {
+          "name": "Engolir Inteiro"
+        }
+      }
+    },
+    "Crystal Xorn": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Cuetzmonquali": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claws": {
+          "name": "Garras"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        }
+      }
+    },
+    "Cursed King": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Desert's Howl": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "lore->Desert Lore": {
+          "name": "Saber de Desertos"
+        }
+      }
+    },
+    "Draft Lizard": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Eloko": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Blowgun": {
+          "name": "Zarabatana"
+        }
+      }
+    },
+    "Fafnheir": {
+      "items": {
+        "spell->Plane Shift (At Will, Only to the First World or the Material Plane)": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Horns": {
+          "name": "Chifres"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Attack of Opportunity": {
+          "name": "Ataque de Oportunidade"
+        }
+      }
+    },
+    "Failed Prophet": {
+      "items": {
+        "spell->Invoke Spirits": {
+          "name": "Invoke Spirits",
+          "description": "<p>Ragged apparitions of the dead rise to stalk the living. They deal 2d4 mental damage and 2d4 negative damage to each living creature in the area, with a basic Will save. Additionally, creatures that critically fail the save are @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2} and are @UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing} for 1 round.</p>\n<p> On subsequent rounds, the first time you Sustain the Spell each round, you can move the area up to 30 feet within the range of the spell. Living creatures in the new area must attempt saves with the same effects as above, except that critically failing doesn't make them flee.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The mental damage and negative damage each increase by 1d4.</p>"
+        },
+        "spell->Shadow Blast": {
+          "name": "Explosão de Sombras",
+          "description": "<p>Você molda a substância quase real do Plano das Sombras em uma explosão. Escolha dano de ácido, contundente, cortante, eletricidade, fogo, força, frio, perfurante ou sônico; e escolha um cone de 9 metros, uma explosão de 4,5 metros a até 36 metros de distância ou uma linha de 15 metros. A explosão causa 5d8 de dano do tipo escolhido a cada criatura na área.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d8.</p>"
+        },
+        "spell->Telekinetic Haul": {
+          "name": "Carga Telecinética",
+          "description": "<p>Você move o alvo até 6 metros, potencialmente suspendendo-o no ar. Quando Sustentar a Magia, você pode movê-lo novamente ou escolher um outro alvo elegível para mover.</p>",
+          "target": "1 unattended object of up to 80 Bulk with no dimension longer than 20 feet"
+        },
+        "spell->Confusion": {
+          "name": "Confusão",
+          "description": "<p>Você confunde seu alvo com impulsos estranhos, fazendo-o agir aleatoriamente. Os efeitos são determinados pelo salvamento de Vontade do alvo. Você pode Dispensar esta magia.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo balbucia incoerentemente e fica @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{atordoado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{confuso} por 1 minuto. Ele pode tentar um novo salvamento ao final de cada um dos turnos dele para encerrar a confusão.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{confuso} por 1 minuto sem salvamento para encerrar o efeito previamente.</p><p><hr /><strong>Elevada (8º)</strong>  Você pode afetar até 10 criaturas.</p>",
+          "target": "1 creature"
+        },
+        "spell->Vision of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Locate": {
+          "name": "Localizar",
+          "description": "<p>Você descobre a direção do alvo (se você selecionar um objeto específico, como “a espada da minha mãe”) ou o alvo mais próximo (se você selecionar um tipo de objeto, como “espadas”). Se o alvo for um objeto específico, você deve ter observado-o diretamente com seus próprios sentidos. Se for um tipo de objeto, você ainda precisa ter uma imagem mental apurada do tipo do objeto. Se houver chumbo ou água corrente entre você e o alvo, esta magia não consegue localizar o objeto. Isto significa que você pode encontrar um tipo de objeto bem mais distante se o mais próximo estiver atrás de chumbo ou água corrente.</p><hr /><p><strong>Elevada (5º)</strong> Você pode afetar uma ancestralidade ou criatura específica em vez de um objeto, mas deve ter encontrado ou visto de perto a criatura ou ancestralidade escolhida.</p>",
+          "target": "1 specific object or type of object"
+        },
+        "spell->Paralyze": {
+          "name": "Paralisar",
+          "description": "<p>Você bloqueia os impulsos motores do alvo antes que eles possam sair da mente dele, ameaçando paralisá-lo. O alvo deve tentar um salvamento de Vontade.</p> <hr /><p><strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica  @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} 1.</p><p><strong>Falha</strong> O alvo fica @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 1 rodada.</p><p><strong>Falha</strong> O alvo fica  @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 4 rodadas. No início de cada um dos turnos dele, o alvo deve tentar um novo salvamento de Vontade para reduzir a duração em 1 rodada, ou encerrá-la inteiramente em um sucesso crítico.</p> <hr /><p><strong>Elevada (7º)</strong> Você pode afetar até 10 criaturas.</p>",
+          "target": "1 creature"
+        },
+        "spell->Paranoia": {
+          "name": "Paranoia",
+          "description": "<p>Você faz o alvo ver todas as outras criaturas como ameaças atrozes. O alvo é acometido por uma paranoia intensa em relação a todas as criaturas ao redor dele e deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Success</strong> O alvo acredita que todo mundo o vê como uma ameaça em potencial. Ele fica @Compendium[pf2e.conditionitems.I1ffBVISxLr2gC4u]{Unfriendly} todas as criaturas para as quais já não esteja hostil, mesmo àquelas que eram previamente aliadas. Ele não trata ninguém como aliado. A magia se encerra após 1 rodada.</p> <p><strong>Falha</strong> Como sucesso, mas o efeito dura 1 minuto.</p> <p><strong>Falha Crítica</strong>  Como falha, exceto que o alvo acredita que todo mundo o vê como um inimigo mortal. Ele usa as reações e ações livres dele contra todos, independentemente de serem previamente aliados, conforme determinado pelo MJ. Apesar disso, ele age racionalmente como normalmente faria e prefere atacar criaturas que estejam o atacando ou prejudicando ativamente em vez daquelas que não estão interagindo com ele.</p> <p><hr /><strong>Elevada (6º)</strong>  Você pode afetar até 5 criaturas.</p>",
+          "target": "1 creature"
+        },
+        "spell->Stupefy": {
+          "target": "1 creature"
+        },
+        "spell->Telekinetic Maneuver": {
+          "name": "Manobra Telecinética",
+          "description": "<p>Com uma rajada de poder telecinético, você move um adversário ou algo que ele carrega. Você pode tentar Derrubar, Desarmar ou Empurrar o alvo usando uma rolagem de ataque de magia em vez de um teste de Atletismo.</p>",
+          "target": "1 creature"
+        },
+        "spell->Daze": {
+          "name": "Pasmar",
+          "description": "<p>Você nubla a mente do alvo e pasma ele com um solavanco mental. O solavanco causa dano mental igual ao modificador de seu atributo de conjuração; o alvo deve tentar um salvamento básico de Vontade. Se falhar criticamente no salvamento, o alvo também fica @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{atordoado} 1.</p><hr /><p><strong>Elevada (+2)</strong> O dano aumenta em 1d6.</p>",
+          "target": "1 creature"
+        },
+        "spell->Force Barrage": {
+          "target": "1 creature"
+        },
+        "spell->Ill Omen": {
+          "name": "Mau Agouro",
+          "description": "<p> O alvo é atingido pela desgraça, o que o desequilibra. O alvo deve fazer um teste de Vontade.  <strong>Sucesso</strong> O alvo não é afetado. <strong>Falha</strong> Na primeira vez em que o alvo realizar uma jogada de ataque ou teste de pericia, ele deve rolar duas vezes e obter o pior resultado. <strong>Falha Crítica</strong> Toda vez, pela duração, que o alvo realizar uma jogada de ataque ou teste de pericia, ele deve rolar duas vezes e obter o pior resultado.&nbsp; </p> (Tradução não oficial - Gods and Magic)",
+          "target": "1 creature"
+        },
+        "spell->Item Facade": {
+          "name": "Item de Fachada",
+          "description": "<p>Você faz o objeto alvo parecer e ser percebido por todos os sentidos como se estivesse em uma condição física muito melhor ou pior. Quando conjurar esta magia, decida se pretende fazer o item parecer decrépito ou perfeito. Um item com aparência decrépita parece @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{quebrado} e de má qualidade. Um item com aparência perfeita parece novíssimo e bastante polido ou bem mantido. Um item @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{quebrado} parece estar intacto e funcional. Itens destruídos não podem ser afetados por esta magia. Uma criatura que Interagir com o item pode tentar desacreditar a ilusão.</p><hr /><p><strong>Elevada (2º)</strong> A duração é de 24 horas.</p><p><strong>Elevada (3°)</strong> A duração é ilimitada.</p>",
+          "target": "1 object no more than 10 feet by 10 feet by 10 feet"
+        },
+        "spell->Shield": {
+          "name": "Escudo",
+          "description": "<p>Você ergue um escudo de força mágica. Isto conta como usar a ação Erguer um Escudo, concedendo-lhe +1 de bônus de circunstância na CA até o início de seu próximo turno, mas ele não requer uma mão para ser usado.</p><p>Enquanto esta magia estiver em efeito, você pode usar a reação Bloqueio com Escudo usando seu escudo mágico. O escudo possui Dureza 5. Após usar Bloqueio com Escudo, a magia é encerrada e você não pode conjurá-la novamente por 10 minutos. Ao contrário de um Bloqueio com Escudo normal, você pode usar a reação desta magia contra a magia mísseis mágicos.</p><p>Elevar a magia aumenta a Dureza do escudo.</p>\n<p>@Compendium[pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O escudo tem Dureza 10.</p><p><strong>Elevada (5º)</strong> O escudo tem Dureza 15.</p><p><strong>Elevada (7º)</strong> O escudo tem Dureza 20.</p><p><strong>Elevada (9º)</strong> O escudo tem Dureza 25.</p>"
+        },
+        "spell->Telekinetic Hand": {
+          "target": "1 unattended object of light Bulk or less"
+        },
+        "spell->Telekinetic Projectile": {
+          "name": "Projétil Telecinético",
+          "description": "<p>Você lança um objeto desapossado solto que esteja dentro da distância e possua Volume 1 ou menor no alvo. Faça um ataque de magia à distância contra o alvo. Se acertar, você causa dano contundente, cortante ou perfurante — conforme apropriado para o objeto arremessado — igual a 1d6 mais o modificador de seu atributo de conjuração. Nenhum traço específico ou propriedade mágica do item arremessado afeta o ataque ou o dano causado.</p><p><hr /><strong>Sucesso Crítico</strong>  Você causa o dobro do dano.</p><p><strong>Sucesso</strong>  Você causa o dano inteiro.</p><p><hr /><strong>Elevada (+1)</strong>  O dano aumenta em 1d6.</p>",
+          "target": "1 creature"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "lore->Mercantile Lore": {
+          "name": "Saber de Mercadores"
+        }
+      }
+    },
+    "Five-Color Orchid Mantis": {
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Leg": {
+          "name": "Perna"
+        }
+      }
+    },
+    "Fleshforged Conformer": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "lore->Fleshwarp Lore": {
+          "name": "Saber de Mutacarne"
+        }
+      }
+    },
+    "Fleshforged Dreadnought": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Gau Cho Rong": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Giant Orchid Mantis": {
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Leg": {
+          "name": "Perna"
+        }
+      }
+    },
+    "Goldpebble": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Grand Defender": {
+      "items": {
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        }
+      }
+    },
+    "Graul": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tentacle": {
+          "name": "Tentáculo"
+        }
+      }
+    },
+    "Grisantian Lion": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Grogrisant": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Grootslang": {
+      "items": {
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "strike-melee->Tusk": {
+          "name": "Presa"
+        }
+      }
+    },
+    "Gunpowder Ooze": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        },
+        "strike-ranged->Blast": {
+          "name": "Explosão"
+        },
+        "action->Motion Sense": {
+          "name": "Sentido de movimento"
+        }
+      }
+    },
+    "Hopping Head": {
+      "items": {
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        }
+      }
+    },
+    "Howling Spawn": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Ijhyeojin": {
+      "items": {
+        "spell->Invisibility (At Will, Self Only)": {
+          "target": "si mesmo"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Imperfect Automaton": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Imugi": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claws": {
+          "name": "Garras"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Inkdrop": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        }
+      }
+    },
+    "Irriseni Owlbear": {
+      "items": {
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "strike-melee->Beak": {
+          "name": "Bico"
+        }
+      }
+    },
+    "Jiidon": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Joseung Saja": {
+      "items": {
+        "spell->Invisibility (At Will, Self Only)": {
+          "target": "si mesmo"
+        },
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "action->Shifting Form": {
+          "name": "Forma Mutável"
+        }
+      }
+    },
+    "K'nonna": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Kaava Stalker": {
+      "items": {
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Kallas Devil": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Coven": {
+          "name": "Coventículo"
+        }
+      }
+    },
+    "Karina": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Claws": {
+          "name": "Garras"
+        }
+      }
+    },
+    "Kashrishi Evaluator": {
+      "items": {
+        "spell->Soothe": {
+          "target": "1 willing living creature"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Kothogaz, Dance Of Disharmony": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Krampus (The Horned Miser)": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Spiked Chain": {
+          "name": "Corrente com Cravos"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        }
+      }
+    },
+    "Krampus Celebrant": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        },
+        "action->Vandal": {
+          "name": "Vândalo"
+        }
+      }
+    },
+    "Kun": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Kuworsys": {
+      "items": {
+        "strike-ranged->Sling": {
+          "name": "Funda"
+        }
+      }
+    },
+    "Lamp Blighter": {
+      "items": {
+        "spell->Blindness": {
+          "name": "Cegueira",
+          "description": "<p>Você cega o alvo. O efeito é determinado pelo salvamento de Fortitude do alvo. Após o efeito, o alvo fica temporariamente imune por 1 minuto.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o início do próximo turno dele.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica permanentemente @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego}.</p>",
+          "target": "1 creature"
+        },
+        "spell->Darkness": [
+          {
+            "name": "Escuridão",
+            "description": "<p>Você cria um manto de escuridão que impede qualquer de entrar ou emanar dentro da área. Nenhuma luz entra na área e quaisquer fontes de iluminação não-mágica, como uma tocha ou lanterna, não emanam luz enquanto estiverem na área, mesmo se seu raio de iluminação se estenderia além da escuridão. Isto também suprime qualquer luz mágica de nível de magia igual ou inferior ao de sua escuridão. A luz não pode atravessar a escuridão, portanto, criaturas na área não conseguem ver o lado de fora. Do lado de fora, a área parece um globo de pura escuridão.</p><hr /><p><strong>Elevada (4º)</strong> Mesmo criaturas com visão no escuro (mas não com visão no escuro maior) mal podem ver através da escuridão. Elas tratam alvos vistos na escuridão como @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{ocultado}.</p>"
+          },
+          {
+            "name": "Escuridão",
+            "description": "<p>Você cria um manto de escuridão que impede qualquer de entrar ou emanar dentro da área. Nenhuma luz entra na área e quaisquer fontes de iluminação não-mágica, como uma tocha ou lanterna, não emanam luz enquanto estiverem na área, mesmo se seu raio de iluminação se estenderia além da escuridão. Isto também suprime qualquer luz mágica de nível de magia igual ou inferior ao de sua escuridão. A luz não pode atravessar a escuridão, portanto, criaturas na área não conseguem ver o lado de fora. Do lado de fora, a área parece um globo de pura escuridão.</p><hr /><p><strong>Elevada (4º)</strong> Mesmo criaturas com visão no escuro (mas não com visão no escuro maior) mal podem ver através da escuridão. Elas tratam alvos vistos na escuridão como @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{ocultado}.</p>"
+          }
+        ],
+        "spell->Dispel Magic": {
+          "name": "Dissipar Magia",
+          "description": "<p> Você desfaz a magia que está por trás de um efeito. Faça um teste de <a href=\"https://2e.aonprd.com/Rules.aspx?ID=371\">neutralização</a> contra o alvo (página 459). Se obtiver sucesso contra um efeito de magia, você o neutraliza. Se obtiver sucesso contra um item mágico, o item se torna um item mundano do tipo dele por 10 minutos. Isso não altera as propriedades não-mágicas do item. Se o alvo for um artefato ou item similar, você falha automaticamente. </p>",
+          "target": "1 spell effect or unattended magic item"
+        },
+        "spell->Detect Magic": {
+          "name": "Detectar Magia",
+          "description": "<p>Você emite um pulso que registra a presença de magia. Você não recebe informação além da presença ou ausência de magia. Você pode escolher ignorar magia à qual tenha ciência da presença, como de itens mágicos e magias contínuas suas e de seus aliados.</p><p> Você detecta alguma ilusão mágica somente se o efeito da ilusão tiver nível inferior ao nível de magia de sua detectar magia. Entretanto, itens que possuem uma aura de ilusão e não são enganosos em aparência (como uma an&nbsp; poção de invisibilidade) geralmente são detectados normalmente.</p> <hr style=\"color: #0f0f0f; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 15px; background-color: #ededed;\"><p><strong> Elevada (3º)</strong> &nbsp; Você descobre a escola de magia para o efeito de maior nível dentro da área detectada pela magia. Se vários efeitos forem igualmente fortes, o MJ determina qual você descobre.<br style=\"color: #0f0f0f; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 15px; background-color: #ededed;\"><strong> Elevada (4º)</strong> Como 3º nível, mas você também aponta a direção da magia de maior nível. Como esse é um sentido impreciso, você não descobre a localização exata, mas pode delimitar a fonte para um cubo a até 1,5 metros (ou o mais próximo se for maior do que isso). </p>"
+        },
+        "spell->Ignition": {
+          "target": "1 creature"
+        },
+        "spell->Prestidigitation": {
+          "name": "Prestidigitação",
+          "target": "1 object (cook, lift, or tidy only)"
+        },
+        "spell->Shield": {
+          "name": "Escudo",
+          "description": "<p>Você ergue um escudo de força mágica. Isto conta como usar a ação Erguer um Escudo, concedendo-lhe +1 de bônus de circunstância na CA até o início de seu próximo turno, mas ele não requer uma mão para ser usado.</p><p>Enquanto esta magia estiver em efeito, você pode usar a reação Bloqueio com Escudo usando seu escudo mágico. O escudo possui Dureza 5. Após usar Bloqueio com Escudo, a magia é encerrada e você não pode conjurá-la novamente por 10 minutos. Ao contrário de um Bloqueio com Escudo normal, você pode usar a reação desta magia contra a magia mísseis mágicos.</p><p>Elevar a magia aumenta a Dureza do escudo.</p>\n<p>@Compendium[pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O escudo tem Dureza 10.</p><p><strong>Elevada (5º)</strong> O escudo tem Dureza 15.</p><p><strong>Elevada (7º)</strong> O escudo tem Dureza 20.</p><p><strong>Elevada (9º)</strong> O escudo tem Dureza 25.</p>"
+        },
+        "weapon->Shortbow": {
+          "name": "Arco Curto",
+          "description": "<p><span class=\"fontstyle0\">Este arco menor é feito de um único pedaço de madeira e é usado por escaramuçadores e cavalaria. </p>"
+        },
+        "consumable->Arrows": {
+          "name": "Flechas",
+          "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        },
+        "action->+1 Status to All Saves vs. Magic": {
+          "name": " +1 de estado em todos os salvamentos contra magia"
+        }
+      }
+    },
+    "Maliadi": {
+      "items": {
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 creature"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        }
+      }
+    },
+    "Mamlambo": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Manananggal": {
+      "items": {
+        "strike-melee->Claws": {
+          "name": "Garras"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Mosquito Witch": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        }
+      }
+    },
+    "Mosquito Witch (The Hemoprophet)": {
+      "items": {
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        }
+      }
+    },
+    "Mosquito Witch (The Legion Leech)": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        }
+      }
+    },
+    "Mosquito Witch (The Swarm Seer)": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        }
+      }
+    },
+    "Mutant Gnoll Hulk": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Pack Attack": {
+          "name": "Pack Attack"
+        }
+      }
+    },
+    "Pagulin": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Peng": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        }
+      }
+    },
+    "Pixiu": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Pygmy Kaava": {
+      "items": {
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "action->Woodland Stride": {
+          "name": "Deslocamento da Floresta"
+        }
+      }
+    },
+    "Quantium Golem (Acid)": {
+      "items": {
+        "strike-melee->Bastard Sword": {
+          "name": "Espada Bastarda"
+        }
+      }
+    },
+    "Quantium Golem (Electricity)": {
+      "items": {
+        "strike-melee->Bastard Sword": {
+          "name": "Espada Bastarda"
+        }
+      }
+    },
+    "Ratajin Mastermind": {
+      "items": {
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    },
+    "Rompo": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claws": {
+          "name": "Garras"
+        },
+        "action->Camouflage": {
+          "name": "Camuflagem"
+        }
+      }
+    },
+    "Sarkorian Wolf": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Pack Attack": {
+          "name": "Pack Attack"
+        }
+      }
+    },
+    "Shroudwing": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        }
+      }
+    },
+    "Sié Goluo": {
+      "items": {
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        }
+      }
+    },
+    "Solar Ibis": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Talon": {
+          "name": "Unha"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        }
+      }
+    },
+    "Somnalu": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Frightful Presence": {
+          "name": "Presença Aterradora"
+        }
+      }
+    },
+    "Somnalu Oculus": {
+      "items": {
+        "spell->Rebounding Barrier": {
+          "requirements": "Você é atingido por um Golpe físico."
+        }
+      }
+    },
+    "Spawn Of Kothogaz": {
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Spectral Devil": {
+      "items": {
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 creature"
+        }
+      }
+    },
+    "Spellscar Fext": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Stone Sister": {
+      "items": {
+        "strike-melee->Scimitar": {
+          "name": "Cimitarra"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Taljjae (The Beast)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Taljjae (The General)": {
+      "items": {
+        "strike-melee->Glaive": {
+          "name": "Glaive"
+        }
+      }
+    },
+    "Taljjae (The Hermit)": {
+      "items": {
+        "spell->Weapon of Judgment (War Only)": {
+          "requirements": "You have a deity."
+        },
+        "spell->Finger of Death": {
+          "target": "1 living creature"
+        },
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 creature"
+        }
+      }
+    },
+    "Taljjae (The Hero)": {
+      "items": {
+        "strike-ranged->Longbow": {
+          "name": "Arco Longo"
+        },
+        "action->Double Shot": {
+          "name": "Tiro Duplo"
+        }
+      }
+    },
+    "Taljjae (The Wanderer)": {
+      "items": {
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        }
+      }
+    },
+    "Tehialai-Thief-of-Ships": {
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        },
+        "lore->Ocean Lore": {
+          "name": "Saber de Oceanos"
+        }
+      }
+    },
+    "The Bloodstorm": {
+      "items": {
+        "strike-melee->Pincer": {
+          "name": "Pinça"
+        }
+      }
+    },
+    "The Great Flood": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Ugvashi": {
+      "items": {
+        "strike-melee->Body": {
+          "name": "Corpo"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Ulgrem-Axaan": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Ulgrem-Lurann": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Swallow Whole": {
+          "name": "Engolir Inteiro"
+        }
+      }
+    },
+    "Ulistul": {
+      "items": {
+        "spell->Resilient Sphere": {
+          "target": "1 Large or smaller creature"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Vorvorak": {
+      "items": {
+        "spell->Control Water": {
+          "name": "Controlar Água",
+          "description": "<p>Ao impor sua vontade sobre a água, você pode erguer ou baixar o nível da água na área escolhida em 3 metros. Criaturas de água na área são sujeitas aos efeitos de @Compendium[pf2e.spells-srd.WsUwpfmhKrKwoIe3]{lentidão}.</p>"
+        },
+        "spell->Hydraulic Torrent": {
+          "name": "Torrente Hidráulica",
+          "description": "<p>Uma torrente rodopiante de água jorra em linha reta, batendo naqueles que estiverem em seu caminho e possivelmente empurrando-os para longe de você. A torrente causa 8d6 de dano contundente. Cada criatura na área deve tentar um salvamento básico de Fortitude. Criaturas que falharem no salvamento também são empurradas 1,5 metros para trás (3 metros em uma falha crítica).</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
+        },
+        "spell->Aqueous Orb": {
+          "name": "Aqueous Orb",
+          "description": "<p>A sphere of water 10 feet in diameter forms in an unoccupied space in range, either on the ground or on the surface of a liquid.</p>\n<p>When you @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell} and each time you @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}, you can roll the orb, moving it up to 10 feet along the ground or the surface of a liquid. You can gain this effect multiple times in the same round by Sustaining the Spell multiple times.</p>\n<p>The orb can move through the spaces of any creatures or obstacles that wouldn't stop the flow of water. It extinguishes non-magical fires it moves through of its size or smaller, and it attempts to counteract any magical fires it moves through. If it fails to counteract a given fire, it can't counteract that fire for the duration of the spell.</p>\n<p>The orb can also collect creatures it moves through. Any Large or smaller creature whose space the orb tries to move through can attempt a Reflex save against your spell DC to avoid being engulfed. If a creature succeeds at this save, it can either let the orb pass (remaining in its space or moving out of the orb's path into a space of the creature's choice) or allow itself to be pushed in front of the orb to the end of the orb's movement. The orb can try to Engulf the same creature only once per turn, even if you roll it onto a creature's space more than once.</p>\n<p>A creature that fails its save is pulled into the orb. It becomes @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, moves along with the orb, and must hold its breath or begin suffocating (unless it can breathe in water). An engulfed Medium or smaller creature and anyone trying to affect that creature follow the normal rules for aquatic battles. An engulfed Large creature is usually big enough that parts of it stick out from the water, and it can reach out of the water. An engulfed creature can get free either by @UUID[Compendium.pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Swimming} with a successful @Check[athletics|dc:10|traits:action:swim] check or by @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escaping} against your spell DC. A creature that critically failed its Reflex save is further stuck and must attempt to Escape instead of Swim. A freed creature exits the orb's space and can immediately breathe. The orb can contain as many creatures as can fit in its space. When the spell ends, all creatures the orb has engulfed are automatically released.</p>"
+        },
+        "spell->Slow": {
+          "name": "Lentidão",
+          "description": "<p>Você dilata o fluxo do tempo ao redor do alvo, tornando as ações dele mais lentas.</p><p><hr /><strong>Suceso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1 por 1 rodada.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 1 por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} 2 por 1 minuto.</p><p><hr /><strong>Elevada (6º)</strong>  Você pode afetar até 10 criaturas.</p>",
+          "target": "1 creature"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Vulture Rat": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Walcofinde": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Sneak Attack": {
+          "name": "Ataque Furtivo"
+        }
+      }
+    },
+    "Whalesteed": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Yeongno": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Young Linnorm": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Zinba": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    }
+  }
+}
