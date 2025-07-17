@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 
 export const CONFIG_FILE = "./buildconfig.json";
 
