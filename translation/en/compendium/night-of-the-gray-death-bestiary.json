@@ -174,7 +174,6 @@
     "Gray Death": {
       "name": "Gray Death",
       "languages": "telepathy 100 feet",
-      "senses": "lifesense 1,000 feet",
       "items": {
         "strike-melee->Hand": {
           "name": "Hand"
@@ -559,14 +558,15 @@
           "description": "<p>The automatons don't have shields or weapons. Their Strike as One ability uses their fists and deals bludgeoning damage instead of slashing damage.</p>"
         },
         "action->Shield Block": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]\n<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]\n<p><strong>Thresholds</strong> 160 (3 segments), 80 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p>Troops are composed of many individuals, and over the course of enough attacks and downed comrades, troops shrink in size. Most troops start with 16 squares (4 by 4), and their Hit Points have two listed thresholds, typically the first is at 2/3 their maximum Hit Points and the second is at 1/3 their maximum Hit Points. Once the troop drops below the first threshold, it loses 4 squares, leaving 12 squares remaining, and the first threshold becomes the troop's new maximum Hit Points. Once the troop falls below the second threshold, it loses another 4 squares, leaving 8 squares remaining, and the second threshold becomes the troop's new maximum Hit Points. In order to restore its size and maximum Hit Points, a troop needs to spend downtime to use long-term treatment on casualties or recruit new members to replace the fallen. At 0 Hit Points, the troop is reduced down to 4 squares, which is too few to sustain the troop, so it disperses entirely, with the few remaining members surrendering, fleeing, or easily dispatched, depending on their nature.</p>\n<p>A damaging single-target effect, such as a Strike, can't force a troop to pass through more than one threshold at once. For instance, if a troop had 60 Hit Points, with thresholds at 40 and 20, a Strike for 50 damage would leave the troop at 21 Hit Points, just above the second threshold. A damaging area effect or multi-target effect can cross multiple thresholds at once and could potentially destroy the entire troop in one shot.</p>\n<p>Non-damaging effects with an area or that target all creatures in a certain proximity affect a troop normally if they affect the entire area occupied by the troop. If an effect has a smaller area or numbers of targets, it typically has no effect on the troop. However, if the effect can target at least four creatures or cover at least four squares in the troop, and if it would prevent its targets from acting, cause them to flee, or otherwise make them unable to function as part of the troop for a round or more, the troop loses loses a number of Hit Points equal to the amount required to bring it to the next threshold, removing 4 squares. If an effect would both deal damage and automatically cross a threshold due to incapacitating some of the creatures in the troop, apply the damage first. If the damage wasn't enough to cross a threshold on its own, then reduce the Hit Points to cross the threshold for the incapacitating effect.</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Thresholds</strong> 160 (3 segments), 80 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Strike as One": {
           "name": "Strike as One",
-          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy within 5 feet (@Check[reflex|dc:30|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[(2d8+2)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]] damage.</p>"
+          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:30|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[(2d8+2)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]] damage.</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -577,7 +577,7 @@
     "Pendulum Pit": {
       "name": "Pendulum Pit",
       "description": "<p>Several swinging pendulums of force cleave through the room across the platforms, knocking people into the pit.</p>",
-      "disable": "<p>@Check[arcana|dc:48|name:Deactivate a Pendulum Blade|traits:complex,magical,mechanical,trap] (legendary), @Check[thievery|dc:44|name:Deactivate a Pendulum Blade|traits:complex,magical,mechanical,trap] (master), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 44) on a platform to deactivate its pendulum blade; once all five platforms have been deactivated, the trap is disabled and the room rotates back into position along the exits. @Check[thievery|dc:48|name:Rotate the Room Open|traits:complex,magical,mechanical,trap] (legendary) from any blocked exit to activate the rotating mechanism and rotate the room back into position before the trap has been disabled.</p>",
+      "disable": "<p>@Check[arcana|dc:48|name:Deactivate a Pendulum Blade|traits:complex,magical,mechanical,trap] (legendary), @Check[thievery|dc:44|name:Deactivate a Pendulum Blade|traits:complex,magical,mechanical,trap] (master), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 44) on a platform to deactivate its pendulum blade; once all five platforms have been deactivated, the trap is disabled and the room rotates back into position along the exits. @Check[thievery|dc:48|name:Rotate the Room Open|traits:complex,magical,mechanical,trap] (legendary) from any blocked exit to activate the rotating mechanism and rotate the room back into position before the trap has been disabled.</p>",
       "reset": "<p>The trap resets after 1 hour. If the @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} throughout the room has been dispelled, the <em>darkness</em> in the room returns when the trap resets.</p>",
       "routine": "<p>(5 actions) For each active platform, the trap uses an action to create a pendulum of force to swing down along a straight line between the platform and one other creature in the room that isn't on the platform (if any). The trap makes a pendulum blade attack against any creature in that line. For each platform deactivated, reduce the number of actions the trap takes in its routine by 1.</p>",
       "stealth": "<p>(legendary) to realize the chamber is a complex rotating trap before it triggers. No check is necessary to notice the platforms and the pit.</p>",
@@ -879,7 +879,6 @@
     },
     "reset": "system.details.reset",
     "routine": "system.details.routine",
-    "senses": "system.perception.details",
     "skillSpecialDeception": {
       "converter": "translateSkillSpecial",
       "path": "system.skills.deception.special"

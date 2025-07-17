@@ -280,7 +280,7 @@
     "Bestial Transformation": {
       "name": "Bestial Transformation",
       "description": "<p>Enchanted carvings of animals transform any creatures who damage the door into the animal they harmed.</p>",
-      "disable": "<p>@Check[nature|dc:26] (expert) to handle the animal carvings or @Check[thievery|dc:33] (master) to scratch out the animal carvings or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 28) to counteract the spell</p>",
+      "disable": "<p>@Check[nature|dc:26] (expert) to handle the animal carvings or @Check[thievery|dc:33] (master) to scratch out the animal carvings or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 28) to counteract the spell</p>",
       "reset": "<p>automatic</p>",
       "stealth": "<p>(master)</p>",
       "items": {
@@ -343,6 +343,11 @@
         },
         "spell->Blood Vendetta": {
           "requirements": "You can bleed"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "spell->True Strike": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]\nTrue Strike"
@@ -535,9 +540,12 @@
     },
     "Cultist Troop": {
       "name": "Cultist Troop",
-      "hpDetails": "(16 squares); Thresholds 60 (12 squares), 30 (8 squares);",
+      "hpDetails": "(16 squares); Thresholds 60 (3 segments), 30 (2 segments);",
       "speed": "troop movement",
       "items": {
+        "action->Troop Defenses": {
+          "name": "Troop Defenses"
+        },
         "action->Troop Movement": {
           "name": "Troop Movement",
           "description": "<p>Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by–20-foot area (minus any missing squares), then moves up to its Speed. See <em>Bestiary 3</em> for further details.</p>"
@@ -594,7 +602,7 @@
     "Electrified Hall": {
       "name": "Electrified Hall",
       "description": "<p>Runes hidden in the door's carvings blast lightning down the hall.</p>",
-      "disable": "<p>@Check[thievery|dc:30] (master) to scratch out the runes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 28) to counteract the runes</p>",
+      "disable": "<p>@Check[thievery|dc:30] (master) to scratch out the runes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 28) to counteract the runes</p>",
       "reset": "<p>automatic</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -1153,7 +1161,7 @@
     "Hryngar Assassin": {
       "name": "Hryngar Assassin",
       "publicNotes": "<p>In secret conclaves around Nar-Voth, hidden in plain sight within hryngar settlements, are the workshops and training grounds for the Darklands' most technologically sophisticated group of killers. Most hryngar assassins train from childhood, having been recruited from orphanages, and are under a life-debt obligation to their guild leader. While on contract, hryngar assassins are on the lookout for new technologies, gadgets, and alchemical creations. They bring what they find back to their guild to be reverse engineered and replicated for other guild assassins. When the opportunity presents itself, they destroy the schematics and formulae that other organizations, inventors, and alchemists have created if they can't steal them.</p>\n<hr />\n<p>Deep under the surface of Golarion, dwarves still dwell in the darkness. Once abandoned by their kin who were obsessed with reaching the surface, these dwarves have found that by working harder than their brethren, they can build a society far greater than anything under the sun. Droskar, Master of the Dark Furnace, teaches them that toiling for their masters, who in turn toil for their masters above, will lead all of them to become stronger than ever. Every hryngar knows that their labor defines them, and brings them glory in the eyes of Droskar and their peers. Exhaustion at the end of the work day is an honor, proof of their worth in society.</p>\n<h2>Bleeding Edge Killing Tech</h2>\n<p>Hryngar assassins use the most advanced gadgets and technology available to them. Their inventors are hard at work reverse engineering any specialized equipment they find so they can provide moderately equivalent designs to the best assassins. Elite assassins gain one consumable gadget (Pathfinder Guns &amp; Gears) of their level or lower, often selected for a specific job.</p>",
-      "saveDetails": " +2 status to all saves vs. magic",
+      "saveDetails": "+2 status to all saves vs. magic",
       "items": {
         "spellcastingEntry->Occult Innate Spells": {
           "name": "Occult Innate Spells"
@@ -1239,7 +1247,7 @@
     },
     "Hryngar Breccia Squad": {
       "name": "Hryngar Breccia Squad",
-      "hpDetails": "Thresholds 100 (12 squares), 50 (8 squares)",
+      "hpDetails": "Thresholds 100 (3 segments), 50 (2 segments)",
       "publicNotes": "<p>A hryngar breccia squad is a group of hryngar martial combatants armed with melee weapons and steel shields. Though more likely to be encountered near large hryngar settlements, these strike forces see wide use throughout the Darklands. Hryngar breccia squads often serve as military units, mercenary companies, city patrols, and caravan guards. Like all warriors, the favored combat methods of a hryngar breccia squad change by location, often due to surrounding environment and popular equipment.</p>\n<hr />\n<p>Deep under the surface of Golarion, dwarves still dwell in the darkness. Once abandoned by their kin who were obsessed with reaching the surface, these dwarves have found that by working harder than their brethren, they can build a society far greater than anything under the sun. Droskar, Master of the Dark Furnace, teaches them that toiling for their masters, who in turn toil for their masters above, will lead all of them to become stronger than ever. Every hryngar knows that their labor defines them, and brings them glory in the eyes of Droskar and their peers. Exhaustion at the end of the work day is an honor, proof of their worth in society.</p>\n<h2>Rift Jumpers</h2>\n<p>Hryngar breccia squads that specialize in spelunking are known as Rift Jumpers, named for their reckless leaps into perilous chasms. They swap their shields and warhammers for light picks and train with their climbing equipment until it serves as an extension of their body. Rift Jumpers lose the Raise Shields, Shield Block, and Push Back actions, and gain a climb Speed of 20 feet.</p>",
       "saveDetails": "+2 status to all saves vs. magic",
       "speed": "troop movement",
@@ -1250,13 +1258,16 @@
         "action->+2 Status to All Saves vs. Magic": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+2 Status to All Saves vs. Magic"
         },
+        "action->Troop Defenses": {
+          "name": "Troop Defenses"
+        },
         "action->Bolt Barrage": {
           "name": "Bolt Barrage",
-          "description": "<p>The hryngar breccia squad draws or reloads its crossbows, then launches a ranged attack in the form of a volley. This volley is a @Template[burst|distance:10] within 120 feet that deals @Damage[4d8[piercing]] damage (@Check[reflex|dc:28|basic] save). When the hryngar breccia squad is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
+          "description": "<p>The hryngar breccia squad draws or reloads its crossbows, then launches a ranged attack in the form of a volley. This volley is a @Template[burst|distance:10] within 120 feet that deals @Damage[4d8[piercing]|options:area-damage] damage (@Check[reflex|dc:28|basic|options:area-effect] save). When the hryngar breccia squad is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
         },
         "action->General Melee": {
           "name": "General Melee",
-          "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy within 5 feet (@Check[reflex|dc:28|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+6)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[bludgeoning]] damage</p>"
+          "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:28|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+6)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[bludgeoning]] damage</p>"
         },
         "action->Raise Shields": {
           "name": "Raise Shields",
@@ -1310,9 +1321,6 @@
         },
         "spell->Blood Vendetta": {
           "requirements": "You can bleed"
-        },
-        "weapon->Bola": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.YUzPv0i8d8p2J9yx]\n<p>This throwing weapon consists of weights tied to the end of long cords, which can be used to entangle foes.</p>"
         },
         "equipment->Manacles Key": {
           "name": "Manacles Key"
@@ -1947,6 +1955,9 @@
       "blurb": "Variant Giant Crab",
       "publicNotes": "<p>Crabs are scavenging crustaceans known for their hard shells and iconic sideways gait. They use their claws to defend themselves, hunt, and fight other crabs for territory. When confronted with threats from outside their species, most crabs prefer to flee, but when retreat isn't possible, they clamp on to their foes as tightly as they can.</p>\n<p>The statistics presented here represent giant crabs that live close to the water's surface. Crabs that live deeper underwater often exhibit more extreme adaptations to their environment. Crabs who live in the depths where little light reaches gain darkvision and cold resistance, and those adapted to the most hostile reaches of the deep sea can detect nearby creatures through subtle shifts in ocean currents.</p>\n<p>These skittering creatures are prized for their delicious meat, but their size makes them dangerous targets for harvesting.</p>",
       "items": {
+        "condition->Clumsy": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]\n<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>"
+        },
         "strike-melee->Claw": {
           "name": "Claw"
         },
@@ -2097,7 +2108,7 @@
       "name": "Mist Projector Trap",
       "description": "<p>Hidden jets expel gas that quickly freezes, causing limited damage to nearby books.</p>",
       "disable": "<p>@Check[thievery|dc:27] (expert) to deactivate the trap without its control key or @Check[crafting|dc:26] to create and apply a chemical that neutralizes the gas.</p>",
-      "hpDetails": " (BT 30)",
+      "hpDetails": "(BT 30)",
       "reset": "<p><span class=\"fontstyle0\">8 hours</span> </p>",
       "stealth": "<p><span class=\"fontstyle0\">(expert)</span> </p>",
       "items": {
@@ -2359,7 +2370,7 @@
       "name": "Rolling Stone Cylinder Trap",
       "description": "<p>A 10-foot-long, 5-foot-thick column of stone thuds to the ground, just in front of the bridge. It immediately starts to roll down the bridge, quickly picking up speed.</p>",
       "disable": "<p>@Check[thievery|dc:25] check to create a wedge to immobilize the column, @Check[athletics|dc:21] check to immobilize the column until the end of the creature's next turn, a creature can Climb over an @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} column with a successful @Check[athletics|dc:18] check.</p>",
-      "hpDetails": " (BT 29)",
+      "hpDetails": "(BT 29)",
       "routine": "<p>(1 action) The rolling stone cylinder trap uses Crushing Roll.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -2390,7 +2401,8 @@
           "description": "<p>A shambler troop is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 60 (12 squares), 30 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Thresholds</strong> 60 (3 segments), 30 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Grave Tide": {
           "name": "Grave Tide",
@@ -3030,6 +3042,11 @@
         "spell->Mage Hand": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]\nMage Hand"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "equipment->Blacksmith Tools (Sterling)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.0QgniSjpzksm5riV]\nBlacksmith Tools (Sterling)",
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.0QgniSjpzksm5riV]\n<p>You need these tools to create items from raw materials with the Craft skill. Sterling artisan's tools give you a +1 item bonus to the check.</p>\n<p>Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them.</p>",
@@ -3172,7 +3189,7 @@
         },
         "action->Cathartic Howl": {
           "name": "Cathartic Howl",
-          "description": "<p><strong>Requirements</strong> The unfeeling empath is under an emotion effect</p>\n<hr />\n<p><strong>Effect</strong> The unfeeling empath attempts to counteract the emotion effect, with a counteract modifier of [[/r 1d20+11 #Counteract]]{+11}. It then howls, projecting those emotions in a @Template[cone|distance:15] (or a @Template[cone|distance:30] if the unfeeling empath successfully counteracted the emotion effect). Creatures in the area take @Damage[2d8[mental]] damage (@Check[will|dc:18|basic] save). A creature that critically fails this saving throw also takes @Damage[1d4[mental,persistent]] damage.</p>"
+          "description": "<p><strong>Requirements</strong> The unfeeling empath is under an emotion effect</p>\n<hr />\n<p><strong>Effect</strong> The unfeeling empath attempts to counteract the emotion effect, with a counteract modifier of [[/r 1d20+11 #Counteract]]{+11}. It then howls, projecting those emotions in a @Template[cone|distance:15] (or a @Template[cone|distance:30] if the unfeeling empath successfully counteracted the emotion effect). Creatures in the area take @Damage[2d8[mental]|options:area-damage] damage (@Check[will|dc:18|basic|options:area-effect] save). A creature that critically fails this saving throw also takes @Damage[1d4[mental,persistent]] damage.</p>"
         },
         "action->Drink Emotions": {
           "name": "Drink Emotions",
@@ -3251,7 +3268,7 @@
     },
     "Xulgath Ravening": {
       "name": "Xulgath Ravening",
-      "hpDetails": "Thresholds 48 (12 squares), 24 (8 squares)",
+      "hpDetails": "Thresholds 48 (3 segments), 24 (2 segments)",
       "publicNotes": "<p>Strength and hunger drive most xulgath societies, reinforced by the tenets of their abyssal patron Zevgavizeb. A powerful leader can seize control of a xulgath community and direct their followers to fight as a unit, but formation fighting isn't something most xulgaths practice. This mob mentality often results in overzealous warriors tripping over or even biting each other. Suitably, these mobs have earned the name \"ravenings,\" a term also used when describing Zevgavizeb's carnivorous rampages and referring to the millennia of xulgath infighting and social decline.</p>\n<h2>The Power of Suggestion</h2>\n<p>Xulgath ravening are most common in clutches controlled by spiritual leaders using some combination of cult behavior, group ritual, and even a little enchantment magic. By convincing participants that they're possessed by Zevgavizeb or a similar force, the leader then identifies a target and hopes for the best. Instilling secular doubt or incapacitating the leader can shatter a ravening's focus, causing its members to scatter or even turn on their leader.</p>",
       "speed": "troop movement",
       "items": {
@@ -3260,7 +3277,8 @@
           "description": "<p>30 feet. A creature that enters the area must attempt a @Check[fortitude|dc:21] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the creature also takes a –5 status penalty to its Speeds for 1 round. While within the aura, the creature takes a –2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths stenches for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Effect: Xulgath Stench}</p>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 48 (12 squares), 24 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Thresholds</strong> 48 (3 segments), 24 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Fang and Claw": {
           "name": "Fang and Claw",
@@ -3386,5 +3404,10 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Book 1 - Mantle of Gold": "Book 1 - Mantle of Gold",
+    "Book 2 - Cult of the Cave Worm": "Book 2 - Cult of the Cave Worm",
+    "Book 3 - Heavy is the Crown": "Book 3 - Heavy is the Crown"
   }
 }

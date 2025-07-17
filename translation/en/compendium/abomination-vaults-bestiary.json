@@ -497,7 +497,7 @@
         },
         "action->Bright Release": {
           "name": "Bright Release",
-          "description": "<p>When a bright walker is reduced to 0 Hit Points, they flash out in a burst of light, obtaining the blazing end they were denied at death. This blaze deals @Damage[10d6[fire]] damage (@Check[reflex|dc:25|basic] save) to creatures within @Template[emanation|distance:20]{20 feet}.</p>\n<p>Creatures who fail this save are also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute (@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute on a critical failure).</p>"
+          "description": "<p>When a bright walker is reduced to 0 Hit Points, they flash out in a burst of light, obtaining the blazing end they were denied at death. This blaze deals @Damage[10d6[fire]|options:area-damage] damage (@Check[reflex|dc:25|basic|options:area-effect] save) to creatures within @Template[emanation|distance:20]{20 feet}.</p>\n<p>Creatures who fail this save are also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute (@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute on a critical failure).</p>"
         },
         "action->Light Aura": {
           "name": "Light Aura",
@@ -595,7 +595,7 @@
         },
         "action->Death Flame": {
           "name": "Death Flame",
-          "description": "<p>When the caligni defender dies, their body combusts in a flash of white-hot flame. All creatures in a @Template[burst|distance:20] take @Damage[6d10[fire]] damage (@Check[reflex|dc:26|basic] save). Their gear and treasure are unaffected by the flames and are left in a pile where they died.</p>"
+          "description": "<p>When the caligni defender dies, their body combusts in a flash of white-hot flame. All creatures in a @Template[burst|distance:20] take @Damage[6d10[fire]|options:area-damage] damage (@Check[reflex|dc:26|basic|options:area-effect] save). Their gear and treasure are unaffected by the flames and are left in a pile where they died.</p>"
         },
         "action->Black Smear Poison": {
           "name": "Black Smear Poison",
@@ -699,7 +699,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nFreedom of Movement"
         },
         "spell->Awaken Portal": {
-          "gmNote": "<p>The DC required to successfully awaken a portal varies based on the strength and distance between its end points. For the portals found in the Abomination Vaults Adventure Path, the DC varies according to the dungeon level on which it is located. Use the @UUID[Compendium.pf2e.journals.JournalEntry.6EdFHrIwUBD1EaBS.JournalEntryPage.pBS3DUjlzVuFgapv]{DCs by Spell Rank section} of Table 10-5 to determine the DC for a portal, using the dungeon level in place of spell rank. Thus, activating the portal on the first level of the Abomination Vaults requires a successful DC 15 check, while activating the portal on the fourth level requires a successful DC 23 check.</p>\n<p>In the Abomination Vaults, the creature conjured depends on the dungeon level where the ritual was attempted, as listed below.</p>\n<ul>\n<li><strong>First Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.NQ6qRvpD9DIwVxt3]{Vampiric Mist}</li>\n<li><strong>Second Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.Nkz8Z5TrEqRePGlk]{Scalathrax}</li>\n<li><strong>Third Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Gibbering Mouther}</li>\n<li><strong>Fourth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db]{Will-o'-Wisp}</li>\n<li><strong>Fifth Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SY8pvLPqc2EgP9Xj]{Soul Eater}</li>\n<li><strong>Sixth Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.ceLvlSQsYNORH8oM]{Voidglutton}</li>\n<li><strong>Seventh Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.ZGEf08j9q4fIPDFd]{Dread Wraith}</li>\n<li><strong>Eighth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.LN7MXD38Zs2bDoW6]{Ghost Mage}</li>\n<li><strong>Ninth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.TwFcW5O5J1SdsYv3]{Gosreg}</li>\n<li><strong>Tenth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{Shining Child}</li>\n</ul>",
+          "gmNote": "<p>The DC required to successfully awaken a portal varies based on the strength and distance between its end points. For the portals found in the Abomination Vaults Adventure Path, the DC varies according to the dungeon level on which it is located. Use the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.pBS3DUjlzVuFgapv]{DCs by Spell Rank section} of Table 10-5 to determine the DC for a portal, using the dungeon level in place of spell rank. Thus, activating the portal on the first level of the Abomination Vaults requires a successful DC 15 check, while activating the portal on the fourth level requires a successful DC 23 check.</p>\n<p>In the Abomination Vaults, the creature conjured depends on the dungeon level where the ritual was attempted, as listed below.</p>\n<ul>\n<li><strong>First Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.NQ6qRvpD9DIwVxt3]{Vampiric Mist}</li>\n<li><strong>Second Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.Nkz8Z5TrEqRePGlk]{Scalathrax}</li>\n<li><strong>Third Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Gibbering Mouther}</li>\n<li><strong>Fourth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db]{Will-o'-Wisp}</li>\n<li><strong>Fifth Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SY8pvLPqc2EgP9Xj]{Soul Eater}</li>\n<li><strong>Sixth Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.ceLvlSQsYNORH8oM]{Voidglutton}</li>\n<li><strong>Seventh Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.ZGEf08j9q4fIPDFd]{Dread Wraith}</li>\n<li><strong>Eighth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.LN7MXD38Zs2bDoW6]{Ghost Mage}</li>\n<li><strong>Ninth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.TwFcW5O5J1SdsYv3]{Gosreg}</li>\n<li><strong>Tenth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{Shining Child}</li>\n</ul>",
           "secondarycaster": "up to 5"
         },
         "spell->Glyph of Warding": {
@@ -854,7 +854,7 @@
         },
         "action->Death Light": {
           "name": "Death Light",
-          "description": "<p><strong>Prerequisites</strong> The corpselight is in a corpse</p>\n<hr />\n<p><strong>Effect</strong> The corpselight emits a sickly blue beam of light from its mouth and eyes in a @Template[cone|distance:20]. All living creatures in this area must attempt a @Check[fortitude|dc:18|traits:damaging-effect] saving throw. If at least 1 creature fails its save, the corpselight regains @Damage[2d6[healing]] Hit Points, gaining any that exceed its maximum as temporary Hit Points that last for 1 minute.</p>\n<p>The corpselight can't use again for [[/gmr 1d4 #Recharge Death Light]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[1d6[void]] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[2d6[void]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[4d6[void]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>"
+          "description": "<p><strong>Prerequisites</strong> The corpselight is in a corpse</p>\n<hr />\n<p><strong>Effect</strong> The corpselight emits a sickly blue beam of light from its mouth and eyes in a @Template[cone|distance:20]. All living creatures in this area must attempt a @Check[fortitude|dc:18|options:area-effect,damaging-effect] saving throw. If at least 1 creature fails its save, the corpselight regains @Damage[2d6[healing]] Hit Points, gaining any that exceed its maximum as temporary Hit Points that last for 1 minute.</p>\n<p>The corpselight can't use again for [[/gmr 1d4 #Recharge Death Light]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[1d6[void]|options:area-damage] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[2d6[void]|options:area-damage] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[4d6[void]|options:area-damage] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>"
         }
       }
     },
@@ -904,7 +904,7 @@
     "Daemonic Fog": {
       "name": "Daemonic Fog",
       "description": "<p>The fog solidifies into tiny, gnawing creatures that devour everyone within before fading back into mist.</p>",
-      "disable": "<p>@Check[survival|dc:28|name:Disrupt the Fog] (expert) to disrupt the fog before the hazard triggers or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 26) to counteract the magic.</p>",
+      "disable": "<p>@Check[survival|dc:28|name:Disrupt the Fog] (expert) to disrupt the fog before the hazard triggers or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 26) to counteract the magic.</p>",
       "reset": "<p>The hazard resets over the course of an hour as the daemonic stain reenergizes the fog.</p>",
       "stealth": "<p>@Check[perception|dc:30|traits:action:seek] (expert)</p>",
       "items": {
@@ -1508,7 +1508,7 @@
         },
         "action->Death Shadows": {
           "name": "Death Shadows",
-          "description": "<p>When Dulac dies, her body is destroyed in a burst of chilling shadows. All creatures in a @Template[burst|distance:20] take @Damage[8d8[cold]] damage (@Check[reflex|dc:28|basic] save).</p>\n<p>Dulac's gear and treasure are unaffected by the shadows and are left in a pile where she died.</p>"
+          "description": "<p>When Dulac dies, her body is destroyed in a burst of chilling shadows. All creatures in a @Template[burst|distance:20] take @Damage[8d8[cold]|options:area-damage] damage (@Check[reflex|dc:28|basic|options:area-effect] save).</p>\n<p>Dulac's gear and treasure are unaffected by the shadows and are left in a pile where she died.</p>"
         },
         "action->Opportune Step": {
           "name": "Opportune Step",
@@ -1583,6 +1583,11 @@
         },
         "spell->Glitterdust": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]\nGlitterdust"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "strike-melee->Fist": {
           "name": "Fist"
@@ -1680,7 +1685,7 @@
         },
         "action->Death Motes": {
           "name": "Death Motes",
-          "description": "<p>When Galudu dies, her body explodes into brilliant motes of magical energy. All creatures in a @Template[burst|distance:20] take @Damage[12d6[force]] damage (@Check[reflex|dc:30|basic] save). Galudu's gear is unaffected by the explosion and is left in a pile where she died.</p>"
+          "description": "<p>When Galudu dies, her body explodes into brilliant motes of magical energy. All creatures in a @Template[burst|distance:20] take @Damage[12d6[force]|options:area-damage] damage (@Check[reflex|dc:30|basic|options:area-effect] save). Galudu's gear is unaffected by the explosion and is left in a pile where she died.</p>"
         },
         "action->Opportune Step": {
           "name": "Opportune Step",
@@ -1886,7 +1891,7 @@
     "Images of Failure": {
       "name": "Images of Failure",
       "description": "<p>Psychically enhanced illusions flood the minds of creatures in the 40-foot-long, 15-foot-wide hallway (the white dotted box on the map) with memories of their past failures.</p>",
-      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images] (master) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 26) to weaken the images; three successes are required to disable the trap</p>",
+      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images] (master) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 26) to weaken the images; three successes are required to disable the trap</p>",
       "reset": "<p>The trap resets immediately and can affect the same creature multiple times on the creature's turn.</p>",
       "stealth": "<p>(expert) to realize the illusory images conceal a magical trap (noticing the images has a DC of 0)</p>",
       "items": {
@@ -1899,7 +1904,7 @@
     "Images of Powerlessness": {
       "name": "Images of Powerlessness",
       "description": "<p>Psychically-enhanced illusions flood the minds of creatures in the 95-foot-long, 15-foot-wide hallway (the white dotted box on the map) with visions of their failures yet to come.</p>",
-      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images] (master) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th level; counteract DC 26) to weaken the images; three successes are required to disable the trap</p>",
+      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images] (master) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 26) to weaken the images; three successes are required to disable the trap</p>",
       "reset": "<p>The trap resets immediately and can affect the same creature multiple times on the creature's turn.</p>",
       "stealth": "<p>(expert) to realize the illusory images conceal a magical trap (noticing the images has a DC of 0)</p>",
       "items": {
@@ -2073,6 +2078,11 @@
         },
         "spell->Magic Fang": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.EE7Q5BHIrfWNCPtT]\nMagic Fang"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "spell->Tanglefoot": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
@@ -2676,7 +2686,7 @@
         },
         "action->Death Flame": {
           "name": "Death Flame",
-          "description": "<p>When Nox dies, their body combusts in a flash of white-hot flame that deals @Damage[5d6[fire]] damage to creatures in a @Template[burst|distance:20] (@Check[reflex|dc:21|basic] save). Nox's gear and treasure are unaffected by the flames and are left in a pile where they died.</p>"
+          "description": "<p>When Nox dies, their body combusts in a flash of white-hot flame that deals @Damage[5d6[fire]|options:area-damage] damage to creatures in a @Template[burst|distance:20] (@Check[reflex|dc:21|basic|options:area-effect] save). Nox's gear and treasure are unaffected by the flames and are left in a pile where they died.</p>"
         },
         "action->Intense Performer": {
           "name": "Intense Performer",
@@ -2868,7 +2878,7 @@
         },
         "action->Death Flame": {
           "name": "Death Flame",
-          "description": "<p>When Padli dies, his body combusts in a flash of white-hot flame. All creatures in a @Template[burst|distance:20] take @Damage[6d10[fire]] damage (@Check[reflex|dc:28|basic] save).</p>\n<p>His gear is unaffected by the flames and is left in a pile where he died.</p>"
+          "description": "<p>When Padli dies, his body combusts in a flash of white-hot flame. All creatures in a @Template[burst|distance:20] take @Damage[6d10[fire]|options:area-damage] damage (@Check[reflex|dc:28|basic|options:area-effect] save).</p>\n<p>His gear is unaffected by the flames and is left in a pile where he died.</p>"
         },
         "action->Occult Ward": {
           "name": "Occult Ward",
@@ -2882,7 +2892,7 @@
     "Painful Suggestion Trap": {
       "name": "Painful Suggestion Trap",
       "description": "<p>A hidden rune on the floor under the filth, just past the threshold, triggers an ersatz ghost.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Remove Rune|traits:magical,trap] (expert) to remove the rune without triggering it, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 26) to dispel the rune</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Remove Rune|traits:magical,trap] (expert) to remove the rune without triggering it, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to dispel the rune</p>",
       "reset": "<p>The trap automatically resets after 1 hour.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -2895,7 +2905,7 @@
     "Paralyzing Light Trap": {
       "name": "Paralyzing Light Trap",
       "description": "<p>When any creature other than a devil enters the light, the magic interwoven in the light holds the creature in place and rings an alarm.</p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Distort or Diffuse the Light|traits:magical,trap] (master) to distort or diffuse the light, keeping the light cone intact but preventing the trap from triggering, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th level; counteract DC 26) to dispel the light, leaving the room in darkness</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Distort or Diffuse the Light|traits:magical,trap] (master) to distort or diffuse the light, keeping the light cone intact but preventing the trap from triggering, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 26) to dispel the light, leaving the room in darkness</p>",
       "reset": "<p>The stasis magic in the light builds up over the course of an hour, after which the trap can trigger again.</p>",
       "routine": "<p>(1 action) All @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} and @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} creatures in the room take @Damage[1d10[mental]] damage (@Check[will|dc:26|basic|traits:magical,trap] save). Creatures who fail also become paralyzed for 1 round but can use a reaction to mentally fight off this stasis; creatures who do so take @Damage[5d10[mental]] damage mental damage but are no longer paralyzed.</p>",
       "stealth": "<p>(expert)</p>",
@@ -4553,5 +4563,11 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Abomination Vaults Hardcover Compilation": "Abomination Vaults Hardcover Compilation",
+    "Book 1 - Ruins of Gauntlight": "Book 1 - Ruins of Gauntlight",
+    "Book 2 - Hands of the Devil": "Book 2 - Hands of the Devil",
+    "Book 3 - Eyes of Empty Death": "Book 3 - Eyes of Empty Death"
   }
 }

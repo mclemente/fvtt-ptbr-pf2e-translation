@@ -2394,7 +2394,7 @@
         },
         "action->Cast Out": {
           "name": "Cast Out",
-          "description": "<p>A @Template[emanation|distance:20] of spiritual energy pushes against intruders, as though trying to drive their souls away. Each creature in the area takes @Damage[8d6[spirit]] damage depending on a @Check[will|dc:29] save.</p>\n<p>The clay effigy can't Cast Out again for [[/gmr 1d4 #Recharge Cast Out]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and @Damage[3d6[persistent,spirit]] damage. The persistent damage ends if the creature moves over 60 feet from the clay effigy or the effigy is destroyed.</p>\n<p><strong>Critical Failure</strong> As failure, except the persistent damage is increased to @Damage[6d6[persistent,spirit]].</p>"
+          "description": "<p>A @Template[emanation|distance:20] of spiritual energy pushes against intruders, as though trying to drive their souls away. Each creature in the area takes @Damage[8d6[spirit]|options:area-damage] damage depending on a @Check[will|dc:29|options:area-effect,damaging-effect] save.</p>\n<p>The clay effigy can't Cast Out again for [[/gmr 1d4 #Recharge Cast Out]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and @Damage[3d6[persistent,spirit]] damage. The persistent damage ends if the creature moves over 60 feet from the clay effigy or the effigy is destroyed.</p>\n<p><strong>Critical Failure</strong> As failure, except the persistent damage is increased to @Damage[6d6[persistent,spirit]].</p>"
         },
         "action->Heavy Stride": {
           "name": "Heavy Stride",
@@ -2466,7 +2466,7 @@
         },
         "action->Despairing Shriek": {
           "name": "Despairing Shriek",
-          "description": "<p>The coarti lets out a terrible cry, dealing @Damage[4d6[sonic]] damage to all creatures in a @Template[emanation|distance:30] with a @Check[will|dc:25|basic] save. Holy creatures that fail this save are also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}; this added effect has the emotion, fear, and mental traits.</p>\n<p>The coarti can't use Despairing Shriek again for [[/gmr 1d4 #Recharge Despairing Shriek]]{1d4 rounds}.</p>"
+          "description": "<p>The coarti lets out a terrible cry, dealing @Damage[4d6[sonic]|options:area-damage] damage to all creatures in a @Template[emanation|distance:30] with a @Check[will|dc:25|basic|options:area-effect] save. Holy creatures that fail this save are also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}; this added effect has the emotion, fear, and mental traits.</p>\n<p>The coarti can't use Despairing Shriek again for [[/gmr 1d4 #Recharge Despairing Shriek]]{1d4 rounds}.</p>"
         },
         "action->Wing Snap": {
           "name": "Wing Snap",
@@ -3316,7 +3316,7 @@
         },
         "action->Vulnerable to Sunlight": {
           "name": "Vulnerable to Sunlight",
-          "description": "<p>A dero magister takes @Damage[10] damage for every hour they're exposed to sunlight.</p>"
+          "description": "<p>A dero magister takes @Damage[10[untyped]] damage for every hour they're exposed to sunlight.</p>"
         },
         "action->Cytillesh Stare": {
           "name": "Cytillesh Stare",
@@ -3350,7 +3350,7 @@
         },
         "action->Vulnerable to Sunlight": {
           "name": "Vulnerable to Sunlight",
-          "description": "<p>A dero stalker takes [[/r {4}]]{4 damage} for every hour they're exposed to sunlight.</p>"
+          "description": "<p>A dero stalker takes @Damage[4[untyped]] damage for every hour they're exposed to sunlight.</p>"
         },
         "action->Dero Medicine": {
           "name": "Dero Medicine",
@@ -3389,7 +3389,7 @@
         },
         "action->Vulnerable to Sunlight": {
           "name": "Vulnerable to Sunlight",
-          "description": "<p>A dero strangler takes [[/r {8}]]{8 damage} for every hour they're exposed to sunlight.</p>"
+          "description": "<p>A dero strangler takes @Damage[8[untyped]] damage for every hour they're exposed to sunlight.</p>"
         },
         "action->Dero Medicine": {
           "name": "Dero Medicine",
@@ -3988,6 +3988,9 @@
       "name": "Dromaar Mountaineer",
       "publicNotes": "<p>Dromaar mountaineers are hardened half-orc scouts who often lead raiding or scouting parties on dangerous expeditions. Dromaar scouts who lead many successful expeditions can rise to positions of prominence within their holds, and those who command enough loyalty may even claim a hold of their own.</p>\n<hr />\n<p>Many orcs are forged in the fires of violence and conflict, often from the moment they're born. As they live lives that are frequently cut brutally short, orcs revel in testing their strength against worthy foes, whether by challenging a higher-ranking member of their community for dominance, taming a powerful beast, or slaying a fearsome monster.</p>\n<p>Tall and powerful, with long arms and thickly muscled legs, many orcs top 7 feet in height. Their heavy limbs and broad, almost bow-legged stances combine with a tendency to slouch forward to create an almost contradictory set of circumstances where an orc can tower over other humanoids while simultaneously staring them in the eye. These features, alongside a tendency to scar easily, can make them seem quite intimidating.</p>\n<p>The half-orc dromaars, most commonly born of unions between orcs and humans, are often tested even more harshly than their full orc kin, but those who endure these tests can rise to positions of authority. \"An orc can have what an orc can hold\" is a saying that not only applies to an individual's ability to secure their own destiny and position, but is also likely the root of orcs referring to their communities as holds.</p>",
       "items": {
+        "weapon->Bola": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.YUzPv0i8d8p2J9yx]\n<p>This throwing weapon consists of weights tied to the end of long cords, which can be used to bludgeon foes or entangle their legs.</p>"
+        },
         "strike-melee->Pick": {
           "name": "Pick"
         },
@@ -5099,7 +5102,7 @@
         },
         "action->Breath Fire": {
           "name": "Breath Fire",
-          "description": "<p>The firewyrm breathes a @Template[cone|distance:30] of fire dealing @Damage[7d6[fire],2d8[persistent,fire]] damage to every creature within the cone (@Check[reflex|dc:28|basic] save).</p>\n<p>The firewyrm can't Breathe Fire again for [[/gmr 1d4 #Recharge Breathe Fire]]{1d4 rounds}.</p>"
+          "description": "<p>The firewyrm breathes a @Template[cone|distance:30] of fire dealing @Damage[7d6[fire],2d8[persistent,fire]|options:area-damage] damage to every creature within the cone (@Check[reflex|dc:28|basic|options:area-effect] save).</p>\n<p>The firewyrm can't Breathe Fire again for [[/gmr 1d4 #Recharge Breathe Fire]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -5569,7 +5572,7 @@
         },
         "action->Chill Breath": {
           "name": "Chill Breath",
-          "description": "<p>The frost giant breathes out a @Template[cone|distance:15] of freezing moisture that quickly condenses into ice, dealing @Damage[4d6[cold]] damage. Each creature in the cone must attempt a @Check[reflex|dc:28|basic] save. A creature that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and takes @Damage[2d6[cold]] damage at the end of each of its turns until it gets free ([[/act escape dc=28]]).</p>\n<p>The giant can't use Chill Breath again for [[/gmr 1d4 #Recharge Chill Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The frost giant breathes out a @Template[cone|distance:15] of freezing moisture that quickly condenses into ice, dealing @Damage[4d6[cold]|options:area-damage] damage. Each creature in the cone must attempt a @Check[reflex|dc:28|basic|options:area-effect] save. A creature that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and takes @Damage[2d6[cold]] damage at the end of each of its turns until it gets free ([[/act escape dc=28]]).</p>\n<p>The giant can't use Chill Breath again for [[/gmr 1d4 #Recharge Chill Breath]]{1d4 rounds}.</p>"
         },
         "action->Ice Stride": {
           "name": "Ice Stride",
@@ -7212,7 +7215,7 @@
         },
         "action->Annihilation Beams": {
           "name": "Annihilation Beams",
-          "description": "<p>A guthallath releases two beams of destruction from its eyes. Each beam is a @Template[line|distance:120]. Everything in either line takes @Damage[13d10[untyped]] damage with a @Check[fortitude|dc:41|basic] save.</p>\n<p>A creature reduced to 0 HP is reduced to a fine powder as the @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate} spell. There is no additional effect on creatures in any area where the beams overlap.</p>\n<p>The guthallath can't use this ability again for [[/gmr 1d4 #Recharge Annihilation Beams]]{1d4 rounds}.</p>"
+          "description": "<p>A guthallath releases two beams of destruction from its eyes. Each beam is a @Template[line|distance:120]. Everything in either line takes @Damage[13d10[untyped]|options:area-damage] damage with a @Check[fortitude|dc:41|basic|options:area-effect] save.</p>\n<p>A creature reduced to 0 HP is reduced to a fine powder as the @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate} spell. There is no additional effect on creatures in any area where the beams overlap.</p>\n<p>The guthallath can't use this ability again for [[/gmr 1d4 #Recharge Annihilation Beams]]{1d4 rounds}.</p>"
         },
         "action->Deadly Throw": {
           "name": "Deadly Throw",
@@ -7305,7 +7308,7 @@
         },
         "action->Keen Eyes": {
           "name": "Keen Eyes",
-          "description": "<p>The halfling gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or undetected creatures within 30 feet of it.</p>\n<p>Whenever the halfling targets a creature that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or hidden from them, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+          "description": "<p>The halfling gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of it.</p>\n<p>Whenever the halfling targets a creature that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or hidden from them, reduce the DC of the flat check to @Check[flat|dc:3] for a concealed target or @Check[flat|dc:9] for a hidden one.</p>"
         }
       }
     },
@@ -7325,7 +7328,7 @@
         },
         "action->Keen Eyes": {
           "name": "Keen Eyes",
-          "description": "<p>The halfling gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or undetected creatures within 30 feet of it.</p>\n<p>Whenever the halfling targets a creature that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or hidden from them, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+          "description": "<p>The halfling gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of it.</p>\n<p>Whenever the halfling targets a creature that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or hidden from them, reduce the DC of the flat check to @Check[flat|dc:3] for a concealed target or @Check[flat|dc:9] for a hidden one.</p>"
         },
         "action->Sneak Attack": {
           "name": "Sneak Attack",
@@ -7489,7 +7492,7 @@
         },
         "action->General's Cry": {
           "name": "General's Cry",
-          "description": "<p>When a hobgoblin general rolls initiative, as long as they can perceive at least one foe, they can yell a mighty battle cry. The hobgoblin general attempts an Intimidate check to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a single foe within 60 feet as a free action. If successful, any ally can, as its first action on its first turn of the combat, Stride up to double its speed as a single action.</p>"
+          "description": "<p>When a hobgoblin general rolls initiative, as long as they can perceive at least one foe, they can yell a mighty battle cry. The hobgoblin general attempts an Intimidate check to [[/act demoralize]] a single foe within 60 feet as a free action. If successful, any ally can, as its first action on its first turn of the combat, Stride up to double its speed as a single action.</p>"
         },
         "action->Formation": {
           "name": "Formation",
@@ -8195,7 +8198,7 @@
           "description": "<p>When the ifrit @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrains} a creature, that creature takes @Damage[2d6[fire]] damage, and takes 2d6 fire damage at the end of each of its turns until freed.</p>"
         },
         "action->Change Shape": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The ifrit transforms into a Small or Medium fire elemental or reptile, such as a snake. This doesn’t affect their statistics but could change the damage type of their Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The ifrit transforms into a Small or Medium fire elemental or reptile, such as a snake. This doesn't affect their statistics but could change the damage type of their Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Combat Grab": {
           "name": "Combat Grab",
@@ -8290,7 +8293,7 @@
         },
         "action->Bonds of Iron": {
           "name": "Bonds of Iron",
-          "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The hag causes a cage built of cold iron fingernails to spring out of nothingness around one creature within 30 feet, attempting an @Check[athletics|defense:fortitude|traits:action:grapple] check to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} against the target's Fortitude DC; if the target has a weakness to cold iron, the iron hag gains a +2 circumstance bonus to this check.</p>\n<p>On a success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the magical fingernails (or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} on a critical success). If the creature successfully [[/act escape dc=24]]{Escapes (DC 24)}, the cage crumbles into rust.</p>\n<p>Any creature can attempt to destroy the cage by attacking it. It has an AC of 19, Hardness 10, and 40 Hit Points.</p>"
+          "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The hag causes a cage built of cold iron fingernails to spring out of nothingness around one creature within 30 feet, attempting an Athletics check to [[/act grapple]] against the target's Fortitude DC; if the target has a weakness to cold iron, the iron hag gains a +2 circumstance bonus to this check.</p>\n<p>On a success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the magical fingernails (or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} on a critical success). If the creature successfully [[/act escape dc=24]]{Escapes} (DC 24), the cage crumbles into rust.</p>\n<p>Any creature can attempt to destroy the cage by attacking it. It has an AC of 19, Hardness 10, and 40 Hit Points.</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The iron hag can take on the appearance of any Medium female humanoid. This doesn't change their Speed or their attack and damage bonuses with their Strikes but might change the damage type their Strikes deal (typically to bludgeoning).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
@@ -9380,7 +9383,7 @@
         },
         "action->Adhesive Mass": {
           "name": "Adhesive Mass",
-          "description": "<p>A weapon that hits the living tar is stuck to the ooze. Removing it requires a successful @Check[athletics|dc:23|action:force-open] check to Break Open. The living tar can have any number of objects or creatures stuck to it at a time.</p>\n<p>It can release a stuck object with an Interact action, and the adhesive dissolves 1 minute after the ooze dies, releasing all stuck objects and creatures.</p>"
+          "description": "<p>A weapon that hits the living tar is stuck to the ooze. Removing it requires a successful @Check[athletics|dc:23|options:action:force-open] check to Break Open. The living tar can have any number of objects or creatures stuck to it at a time.</p>\n<p>It can release a stuck object with an Interact action, and the adhesive dissolves 1 minute after the ooze dies, releasing all stuck objects and creatures.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d8+7)[bludgeoning],1d6[acid]], @Check[fortitude|dc:26|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -10437,7 +10440,7 @@
         },
         "action->Breathe Energy": {
           "name": "Breathe Energy",
-          "description": "<p>The mukradi breathes a blast of energy from one of its three heads; each creature in the area must attempt a @Check[reflex|dc:36|basic] save.</p>\n<p>The mukradi can't Breathe Energy again for [[/gmr 1d4 #Recharge Breathe Energy]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Acid Maw</strong> (acid) 10-foot-wide, @Template[line|distance:60] of acid dealing @Damage[16d6[acid]] damage.</li>\n<li><strong>Flame Maw</strong> (fire) @Template[cone|distance:60] of fire dealing @Damage[16d6[fire]] damage.</li>\n<li><strong>Shock Maw</strong> (electricity) @Template[line|distance:120] of electricity dealing @Damage[16d6[electricity]] damage.\n\n</li>\n</ul>"
+          "description": "<p>The mukradi breathes a blast of energy from one of its three heads; each creature in the area must attempt a @Check[reflex|dc:36|basic|options:area-effect] save.</p>\n<p>The mukradi can't Breathe Energy again for [[/gmr 1d4 #Recharge Breathe Energy]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Acid Maw</strong> (acid) 10-foot-wide, @Template[line|distance:60] of acid dealing @Damage[16d6[acid]|options:area-damage] damage.</li>\n<li><strong>Flame Maw</strong> (fire) @Template[cone|distance:60] of fire dealing @Damage[16d6[fire]|options:area-damage] damage.</li>\n<li><strong>Shock Maw</strong> (electricity) @Template[line|distance:120] of electricity dealing @Damage[16d6[electricity]|options:area-damage] damage.\n\n</li>\n</ul>"
         },
         "action->Pull Apart": {
           "name": "Pull Apart",
@@ -10853,7 +10856,7 @@
         },
         "action->Alchemical Rupture": {
           "name": "Alchemical Rupture",
-          "description": "<p>When a noxious needler takes physical damage from a critical hit or is affected by a shatter spell, one glass chamber within its body shatters, spewing alchemical liquid in a @Template[emanation|distance:5]. Roll on the alchemical chambers list to determine which one shatters—on a roll of 1–5, creatures in the area take 10d6 damage of the appropriate type (DC 28 basic Reflex). On a roll of 6, creatures must instead save against the sickness effect.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>[[/gmr 1d6 #Alchemical Rupture]]</th>\n<th>Alchemical Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>\n<p>@Damage[10d6[acid]] damage @Check[reflex|dc:28|basic|traits:acid]</p>\n</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Damage[10d6[cold]] damage @Check[reflex|dc:28|basic|traits:cold]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Damage[10d6[electricity]] damage @Check[reflex|dc:28|basic|traits:electricity]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Damage[10d6[fire]] damage @Check[reflex|dc:28|basic|traits:fire]</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Damage[10d6[poison]] damage @Check[reflex|dc:28|basic|traits:poison]</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Sickness: @Check[fortitude|dc:26|name:Alchemical Sickness|traits:disease] save or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure)</td>\n</tr>\n</tbody>\n</table>"
+          "description": "<p>When a noxious needler takes physical damage from a critical hit or is affected by a shatter spell, one glass chamber within its body shatters, spewing alchemical liquid in a @Template[emanation|distance:5]. Roll on the alchemical chambers list to determine which one shatters—on a roll of 1–5, creatures in the area take 10d6 damage of the appropriate type (DC 28 basic Reflex). On a roll of 6, creatures must instead save against the sickness effect.</p>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>[[/gmr 1d6 #Alchemical Rupture]]</th>\n<th>Alchemical Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>\n<p>@Damage[10d6[acid]|options:area-damage] damage @Check[reflex|dc:28|basic|options:area-effect|traits:acid]</p>\n</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Damage[10d6[cold]|options:area-damage] damage @Check[reflex|dc:28|basic|options:area-effect|traits:cold]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Damage[10d6[electricity]|options:area-damage] damage @Check[reflex|dc:28|basic|options:area-effect|traits:electricity]</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@Damage[10d6[fire]|options:area-damage] damage @Check[reflex|dc:28|basic|options:area-effect|traits:fire]</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@Damage[10d6[poison]|options:area-damage] damage @Check[reflex|dc:28|basic|options:area-effect|traits:poison]</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Sickness: @Check[fortitude|dc:26|name:Alchemical Sickness|options:area-effect|traits:disease] save or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure)</td>\n</tr>\n</tbody>\n</table>"
         },
         "action->Alchemical Injection": {
           "name": "Alchemical Injection",
@@ -10890,7 +10893,7 @@
         },
         "action->Blight Breath": {
           "name": "Blight Breath",
-          "description": "<p>The nuckelavee breathes a @Template[cone|distance:30] of foulness, dealing @Damage[8d6[void]] damage to living creatures in the area with a @Check[fortitude|dc:28|basic] save. A creature that fails also takes @Damage[2d6[bleed]] damage.</p>\n<p>The nuckelavee can't use Blight Breath again for [[/gmr 1d4 #Recharge Blight Breath]]{1d4 rounds}.</p>"
+          "description": "<p>The nuckelavee breathes a @Template[cone|distance:30] of foulness, dealing @Damage[8d6[void]|options:area-damage] damage to living creatures in the area with a @Check[fortitude|dc:28|basic|options:area-effect] save. A creature that fails also takes @Damage[2d6[bleed]|options:area-damage] damage.</p>\n<p>The nuckelavee can't use Blight Breath again for [[/gmr 1d4 #Recharge Blight Breath]]{1d4 rounds}.</p>"
         },
         "action->Mortasheen": {
           "name": "Mortasheen",
@@ -12787,7 +12790,7 @@
         },
         "action->Caustic Mucus": {
           "name": "Caustic Mucus",
-          "description": "<p>The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a @Template[burst|distance:10]. Creatures within the burst take @Damage[4d6[acid]] damage (@Check[reflex|dc:19|basic] save). Those that fail this save also take @Damage[1d6[persistent,acid]] damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage.</p>\n<p>The river drake can't use Caustic Mucus again for [[/gmr 1d6 #Recharge Caustic Mucus]]{1d6 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.TbmkcfpKIs558skY]{Effect: Caustic Mucus}</p>"
+          "description": "<p>The river drake spits a ball of caustic mucus up to a range of 50 feet that explodes in a @Template[burst|distance:10]. Creatures within the burst take @Damage[4d6[acid]|options:area-damage] damage (@Check[reflex|dc:19|basic|options:area-effect] save). Those that fail this save also take @Damage[1d6[persistent,acid]] damage and take a –5-foot status penalty to their Speed. This Speed reduction ends with the persistent acid damage.</p>\n<p>The river drake can't use Caustic Mucus again for [[/gmr 1d6 #Recharge Caustic Mucus]]{1d6 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.TbmkcfpKIs558skY]{Effect: Caustic Mucus}</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Draconic Frenzy",
@@ -13351,6 +13354,9 @@
       "publicNotes": "<p>The mysterious undead known as shadows lurk in dark places and feed on those who stray too far from the light.</p>",
       "tokenName": "Shadow",
       "items": {
+        "condition->Clumsy": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]\n<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>"
+        },
         "strike-melee->Shadow Hand": {
           "name": "Shadow Hand"
         },
@@ -13651,7 +13657,7 @@
         },
         "action->Sinful Bite": {
           "name": "Sinful Bite",
-          "description": "<p>A creature hit by the jaws of a sinspawn must attempt a @Check[will|dc:18] save as it is assailed by sinful thoughts.</p>\n<hr />\n<p><strong>Critical Success</strong> Unaffected</p>\n<p><strong>Success</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}</p>\n<p><strong>Failure</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}</p>\n<p><strong>Critical Failure</strong> sickened 2 plus -10-foot status penalty to their Speeds for 1 minute</p>"
+          "description": "<p>A creature hit by the jaws of a sinspawn must attempt a @Check[will|dc:18] save as it is assailed by sinful thoughts.</p>\n<hr />\n<p><strong>Critical Success</strong> Unaffected</p>\n<p><strong>Success</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}</p>\n<p><strong>Failure</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}</p>\n<p><strong>Critical Failure</strong> sickened 2 plus -10-foot status penalty to their Speeds for 1 minute</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.9Qyu0HN5j6DO8Izc]{Effect: Sinful Bite}</p>"
         }
       }
     },
@@ -14493,6 +14499,9 @@
       "languages": "plus two others",
       "publicNotes": "<p>Tengu are an adaptable people originally from the continent of Tian Xia, but whose travels have taken them across all of Golarion. As a people in diaspora, tengu are almost always found within larger kingdoms and communities of other peoples, with the exception of their home nation of Kwanlai. As a result, tengu tend to gather in close-knit social groups both with other tengu as well as with other peoples of non-majority ancestries, collecting words and customs from other cultures the way a bird collects trinkets for its nest.</p>\n<p>Although humanoid, tengu have very distinct, birdlike features, and many would say that they resemble crows more than they do humans. They have strong, thick beaks, as well as sharp talons at the ends of their arms and legs. Most of a tengu's body is covered in small feathers that range in color from dark brown and midnight blue to glossy black, with lighter colors being rare but not unheard of. Like many avian creatures, tengu have hollow bones, making them much lighter than other humanoids of their size, and some tengu even possess wings that allow them to fly.</p>\n<p>Tengu have a strong cultural focus on the sky, considering tall mountaintops sacred places and worshipping gods associated with nature and storms, like Gozreh or Hei Feng. They have a long and proud tradition of both martial arts and smithing, and many aspiring Tian heroes have sought out a tengu mentor or swordsmith. Tengu magic revolves around using tengu feathers, bound into a fan, as a medium to command wind and lightning, and some tengu even have the power to \"eat\" misfortune—skills that only help tengu as they continue expanding across Golarion to new lands.</p>",
       "items": {
+        "equipment->Tengu Feather Fan": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.KekfZ6eRzoZVRemw]\n<p><strong>Activate</strong> Interact</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You cast one of the spells contained in your <em>tengu feather fan</em>. Activating the fan takes the spell's normal number of actions. You can also Activate the fan to cast a cantrip you've gained from a heritage or ancestry feat; this activation doesn't count against the fan's uses per day.</p>\n<p>The DC for spells you cast with your <em>tengu feather fan</em> is your class DC or spell DC, whichever is higher.</p>\n<p>You can cast the 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} spell by activating your <em>tengu feather fan</em>. @Check[fortitude|against:class-spell|traits:air]{Fortitude saving throw}</p>"
+        },
         "strike-melee->Beak": {
           "name": "Beak"
         },
@@ -14680,7 +14689,7 @@
         },
         "action->Tooth Tug": {
           "name": "Tooth Tug",
-          "description": "<p><strong>Requirements</strong> The tooth fairy's last action was a successful pliers Strike against a creature with teeth</p>\n<hr />\n<p><strong>Effect</strong> The tooth fairy attempts a @Check[thievery|defense:fortitude] check against the creature's Fortitude DC, dealing @Damage[2[bleed]] damage on any result but a critical failure. On a critical success, it also pulls out one of the target's teeth.</p>\n<p>If the creature loses a tooth, it takes a –1 status penalty to Charisma-based skill checks and must succeed at a @Check[flat|dc:5] to Cast a Spell unless that spell has the subtle trait. These effects last for 1 day, or until the stolen tooth is returned and the target regains at least 1 Hit Point.</p>"
+          "description": "<p><strong>Requirements</strong> The tooth fairy's last action was a successful pliers Strike against a creature with teeth</p>\n<hr />\n<p><strong>Effect</strong> The tooth fairy attempts a @Check[thievery|defense:fortitude] check against the creature's Fortitude DC, dealing @Damage[2[bleed]] damage on any result but a critical failure. On a critical success, it also pulls out one of the target's teeth.</p>\n<p>If the creature loses a tooth, it takes a –1 status penalty to Charisma-based skill checks and must succeed at a @Check[flat|dc:5] to Cast a Spell unless that spell has the subtle trait. These effects last for 1 day, or until the stolen tooth is returned and the target regains at least 1 Hit Point.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.4q8Of8NM9DC8kWyK]{Effect: Tooth Tug}</p>"
         }
       }
     },
@@ -14698,7 +14707,7 @@
         },
         "action->Pry": {
           "name": "Pry",
-          "description": "<p>The tooth fairies try to pry out one of their target's teeth. One enemy in the swarm's space takes @Damage[4d6[bludgeoning]] damage with a @Check[reflex|dc:20|basic] save. On a failed save, the target takes @Damage[2[bleed]] damage and loses a tooth.</p>\n<p>If the creature loses a tooth, it takes a –1 status penalty to Charisma-based skill checks and must succeed at a @Check[flat|dc:5] to Cast a Spell unless that spell has the subtle trait. These effects last for 1 day, or until the stolen tooth is returned and the target regains at least 1 Hit Point.</p>"
+          "description": "<p>The tooth fairies try to pry out one of their target's teeth. One enemy in the swarm's space takes @Damage[4d6[bludgeoning]] damage with a @Check[reflex|dc:20|basic] save. On a failed save, the target takes @Damage[2[bleed]] damage and loses a tooth.</p>\n<p>If the creature loses a tooth, it takes a –1 status penalty to Charisma-based skill checks and must succeed at a @Check[flat|dc:5] to Cast a Spell unless that spell has the subtle trait. These effects last for 1 day, or until the stolen tooth is returned and the target regains at least 1 Hit Point.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.4q8Of8NM9DC8kWyK]{Effect: Tooth Tug}</p>"
         }
       }
     },
@@ -14800,11 +14809,11 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "action->Telepathy 300 feet": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 300 feet"
-        },
         "action->+2 Status to All Saves vs. Magic": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+2 Status to All Saves vs. Magic"
+        },
+        "action->Regeneration 50 (Deactivated by Holy)": {
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]\nRegeneration 50 (Deactivated by Holy)"
         },
         "action->Aura of Corruption": {
           "name": "Aura of Corruption",
@@ -15206,7 +15215,8 @@
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.wqptDG0IW6ExnISC]\n<p>If a creature dies after being reduced to 0 HP by Drink Blood, the vampire can turn this victim into a vampire servitor by donating some of their own blood to the victim and burying the victim in earth for 3 nights.</p>\n<p>A vampiric servitor is compelled to obey its creator, but if a vampire controls too many vampiric servitors at once (as determined by the GM), or if the servitor is a higher level than the vampire that created it, strongwilled servitors can free themselves by succeeding at a @Check[will|defense:will] saving throw against the vampire's Will DC.</p>"
         },
         "action->Dominate": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.AjTkksppymqzCivT]\nDominate"
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.AjTkksppymqzCivT]\nDominate",
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.AjTkksppymqzCivT]\n<p>The vampire can cast @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the visual trait (@Check[will|dc:26]). A creature that succeeds is temporarily immune to that vampire's Dominate for 24 hours.</p>\n<p>Fully destroying the vampire ends the domination, but merely reducing the vampire to 0 HP is insufficient to break the spell.</p>"
         },
         "action->Drain Bonded Item": {
           "name": "Drain Bonded Item",
@@ -15884,17 +15894,11 @@
         "armor->Chain Shirt": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.MPcM4Wt6KmWE2kGL]\n<p>Sometimes called a hauberk, this is a long shirt constructed of the same metal rings as chainmail. However, it is much lighter than chainmail and protects only the torso, upper arms, and upper legs of its wearer.</p>"
         },
-        "strike-melee->Claw": {
-          "name": "Claw"
-        },
         "strike-melee->Greataxe": {
           "name": "Greataxe"
         },
         "strike-melee->Hatchet": {
           "name": "Hatchet"
-        },
-        "strike-melee->Jaws": {
-          "name": "Jaws"
         },
         "strike-ranged->Hatchet": {
           "name": "Hatchet"
@@ -15905,7 +15909,12 @@
         },
         "action->Change Shape": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.08egiRxOvMX97XTc]\nChange Shape",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.08egiRxOvMX97XTc]\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li><strong>Melee</strong> fist +13 <strong>Damage</strong> 1d4+7</li>\n</ul>\n</li>\n<li><strong>Grizzly Bear</strong>\n<ul>\n<li><strong>Speed</strong> 35 feet</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>The werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.</p>\n<p>In humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.</p>\n<p>In animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.08egiRxOvMX97XTc]\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li><strong>Size</strong> Medium</li>\n<li><strong>Melee</strong> fist +13 <strong>Damage</strong> 1d4+7</li>\n</ul>\n</li>\n<li><strong>Grizzly Bear</strong>\n<ul>\n<li><strong>Speed</strong> 35 feet</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>The werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.</p>\n<p>In humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.</p>\n<p>In animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>",
+          "rules": {
+            "5": {
+              "text": "@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
+            }
+          }
         },
         "action->Curse of the Werebear": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\nCurse of the Werebear",
@@ -15936,12 +15945,6 @@
       "items": {
         "strike-melee->Shortsword": {
           "name": "Shortsword"
-        },
-        "strike-melee->Claw": {
-          "name": "Claw"
-        },
-        "strike-melee->Jaws": {
-          "name": "Jaws"
         },
         "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
@@ -15976,12 +15979,6 @@
       "languages": "Tiger Empathy",
       "publicNotes": "<p>These ferocious werecreatures stalk prey with the cunning and skill of a true apex predator. Weretigers typically view all life as a potential meal. Powerful nocturnal hunters with excellent senses that help them ambush prey, weretigers are adaptable to an extreme range of environments. However, weretigers living in densely populated cities (potentially as courtesans, assassins, or guild leaders) often struggle to suppress their killer instincts, becoming overwhelmed by the urge to hunt.</p>\n<hr />\n<p>Werecreatures are humanoids doomed to transform into animals and animalhumanoid hybrids under the light of the full moon. These shapechanging creatures are the result of an ancient primal curse that they can, in turn, transmit through their own bites. Their ability to lurk unseen in the wilds as well as among people, combined with the contagiousness of their condition, makes werecreatures a perennial cause of panicked suspicion.</p>",
       "items": {
-        "strike-melee->Jaws": {
-          "name": "Jaws"
-        },
-        "strike-melee->Claw": {
-          "name": "Claw"
-        },
         "action->Tiger Empathy": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.iAXHLkxuuCUOwqkN]\nTiger Empathy",
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.iAXHLkxuuCUOwqkN]\n<p>The weretiger can communicate with felines.</p>\n<hr />\n<p>The werecreature can ask questions of, receive answers from, and use the Diplomacy skill with animals of its general kind.</p>"
@@ -16018,12 +16015,6 @@
         "strike-melee->Battle Axe": {
           "name": "Battle Axe"
         },
-        "strike-melee->Claw": {
-          "name": "Claw"
-        },
-        "strike-melee->Jaws": {
-          "name": "Jaws"
-        },
         "strike-ranged->Composite Shortbow": {
           "name": "Composite Shortbow"
         },
@@ -16050,6 +16041,9 @@
         "action->Pack Attack": {
           "name": "Pack Attack",
           "description": "<p>The werewolf's Strikes deal 1d6 extra damage to creatures within reach of at least two of the werewolf's allies.</p>"
+        },
+        "action->Knockdown (Animal Shape)": {
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]\nKnockdown (Animal Shape)"
         }
       }
     },
@@ -16235,7 +16229,7 @@
         },
         "action->Void's Embrace": {
           "name": "Void's Embrace",
-          "description": "<p>If the victim succeeds at a saving throw against this curse while in sunlight, the curse ends. While you have this curse, you bypass the resistance of the wraith that cursed you;</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:24]</p>\n<hr />\n<p><strong>Stage 1</strong> the victim is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} in any light (1 hour)</p>\n<p><strong>Stage 2</strong> the victim gains lifesense 30 feet but is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} in any light (1 hour)</p>\n<p><strong>Stage 3</strong> as stage 2, but the creature also has @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x]{Void Healing} (1 hour)</p>\n<p><strong>Stage 4</strong> the victim becomes @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and can't awaken (1 day)</p>\n<p><strong>Stage 5</strong> the creature dies and becomes a wraith, its body crumbling to ash</p>"
+          "description": "<p>If the victim succeeds at a saving throw against this curse while in sunlight, the curse ends. While you have this curse, you bypass the resistance of the wraith that cursed you.</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:24]</p>\n<hr />\n<p><strong>Stage 1</strong> the victim is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} in any light (1 hour)</p>\n<p><strong>Stage 2</strong> the victim gains lifesense 30 feet but is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} in any light (1 hour)</p>\n<p><strong>Stage 3</strong> as stage 2, but the creature also has @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x]{Void Healing} (1 hour)</p>\n<p><strong>Stage 4</strong> the victim becomes @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and can't awaken (1 day)</p>\n<p><strong>Stage 5</strong> the creature dies and becomes a wraith, its body crumbling to ash</p>"
         }
       }
     },
@@ -16471,7 +16465,7 @@
         },
         "action->Beetle Breath": {
           "name": "Beetle Breath",
-          "description": "<p>The yamaraj breathes a blast of beetles in a @Template[cone|distance:50] that deals @Damage[14d8[slashing],4d8[persistent,slashing]]{14d8 slashing damage and 4d8 persistent slashing damage} to creatures in the area with a @Check[reflex|dc:42|traits:damaging-effect] save.</p>\n<p>It can't use Beetle Breath again for [[/gmr 1d4 #Recharge Beetle Breath]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}.</p>"
+          "description": "<p>The yamaraj breathes a blast of beetles in a @Template[cone|distance:50] that deals @Damage[14d8[slashing],4d8[persistent,slashing]|options:area-damage]{14d8 slashing damage and 4d8 persistent slashing damage} to creatures in the area with a @Check[reflex|dc:42|options:area-effect,damaging-effect] save.</p>\n<p>It can't use Beetle Breath again for [[/gmr 1d4 #Recharge Beetle Breath]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}.</p>"
         },
         "action->Final Judgment": {
           "name": "Final Judgment",
@@ -16627,9 +16621,6 @@
       "hpDetails": "void healing",
       "publicNotes": "<p>These towering horrors rise from monstrous, gigantic corpses.</p>\n<hr />\n<p>A zombie's only desire is to consume the living. Unthinking and ever-shambling harbingers of death, zombies stop only when they're destroyed.</p>",
       "items": {
-        "condition->Slowed": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]\n<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
-        },
         "strike-melee->Hunk Of Meat": {
           "name": "Hunk Of Meat"
         },

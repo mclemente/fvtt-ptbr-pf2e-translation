@@ -57,7 +57,7 @@
     },
     "(Blackfrost Dead) Shattering Death": {
       "name": "(Blackfrost Dead) Shattering Death",
-      "description": "<p>When the blackfrost dead is destroyed, its body shatters like brittle ice, filling the air around it with a cloud of frigid, razor-sharp ice shards. Creatures in a @Template[emanation|distance:10] take @Damage[1d8[cold]] per level of the blackfrost dead (minimum 3d8), with a @Check[reflex|dc:|basic] save. Creatures that critically fail this save also take @Damage[1d6[bleed]].</p>"
+      "description": "<p>When the blackfrost dead is destroyed, its body shatters like brittle ice, filling the air around it with a cloud of frigid, razor-sharp ice shards. Creatures in a @Template[emanation|distance:10] take @Damage[1d8[cold]|options:area-damage] per level of the blackfrost dead (minimum 3d8), with a @Check[reflex|dc:|basic|options:area-effect] save. Creatures that critically fail this save also take @Damage[1d6[bleed]].</p>"
     },
     "(Blight) Blight Domination": {
       "name": "(Blight) Blight Domination",
@@ -89,7 +89,7 @@
     },
     "(Clockwork Creature) Malfunction - Backfire": {
       "name": "(Clockwork Creature) Malfunction - Backfire",
-      "description": "<p>The clockwork rolls a @Check[flat|dc:5] at the start of each of its turns. On a failure, it backfires, dealing @Damage[2d6[fire]] damage in a @Template[cone|distance:15], including to itself (@Check[reflex|basic|dc:0] save at the standard DC for its level), and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} this turn.</p>"
+      "description": "<p>The clockwork rolls a @Check[flat|dc:5] at the start of each of its turns. On a failure, it backfires, dealing @Damage[2d6[fire]|options:area-damage] damage in a @Template[cone|distance:15], including to itself (@Check[reflex|basic|dc:0|options:area-effect] save at the standard DC for its level), and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} this turn.</p>"
     },
     "(Clockwork Creature) Malfunction - Damaged Propulsion": {
       "name": "(Clockwork Creature) Malfunction - Damaged Propulsion",
@@ -101,7 +101,7 @@
     },
     "(Clockwork Creature) Wind-Up": {
       "name": "(Clockwork Creature) Wind-Up",
-      "description": "<p>For a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.</p>\n<p>A clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).</p>\n<p>A creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.</p>"
+      "description": "<p>24 hours, [[/act disable-device dc=0]], standy</p>\n<hr />\n<p>For a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.</p>\n<p>A clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).</p>\n<p>A creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.</p>"
     },
     "(Coven) Contribute Spell": {
       "name": "(Coven) Contribute Spell",
@@ -125,7 +125,7 @@
     },
     "(Cryptid, Experimental) Energy Wave": {
       "name": "(Cryptid, Experimental) Energy Wave",
-      "description": "<p>The experimental cryptid unleashes a @Template[line|distance:30] of energy of a type specific to the experimental cryptid (typically electricity or fire). Creatures in the area take @Damage[1d6[damagetype]]{1d6 damage per level of the cryptid} with a @Check[reflex|dc:|basic] save. The experimental cryptid can use this ability once every [[/gmr 1d4 #Recharge Energy Wave]]{1d4 rounds}. This action has the damage type's trait. If the experiments that reshaped the creature were magical, this action also has the evocation trait and the trait matching the magical tradition of the experiments (arcane, divine, occult, or primal).</p>"
+      "description": "<p>The experimental cryptid unleashes a @Template[line|distance:30] of energy of a type specific to the experimental cryptid (typically electricity or fire). Creatures in the area take @Damage[1d6[damagetype]|options:area-damage]{1d6 damage per level of the cryptid} with a @Check[reflex|dc:|basic|options:area-effect] save. The experimental cryptid can use this ability once every [[/gmr 1d4 #Recharge Energy Wave]]{1d4 rounds}. This action has the damage type's trait. If the experiments that reshaped the creature were magical, this action also has the evocation trait and the trait matching the magical tradition of the experiments (arcane, divine, occult, or primal).</p>"
     },
     "(Cryptid, Experimental) Operational Flaw": {
       "name": "(Cryptid, Experimental) Operational Flaw",
@@ -137,7 +137,7 @@
     },
     "(Cryptid, Mutant) Explosive End": {
       "name": "(Cryptid, Mutant) Explosive End",
-      "description": "<p>The mutant cryptid's death reveals one last surprise as it explodes into flame, acid, a pile of toxic goop, or something stranger still. Choose a damage type appropriate for the mutant cryptid. When it dies, it explodes, dealing @Damage[1d6[damagetype]]{1d6 damage of the chosen type} to each creature in a @Template[emanation|distance:10], with a @Check[reflex|dc:|basic] save against a standard DC of the creature's level. The damage increases by 1d6 at 3rd level and every odd level thereafter.</p>"
+      "description": "<p>The mutant cryptid's death reveals one last surprise as it explodes into flame, acid, a pile of toxic goop, or something stranger still. Choose a damage type appropriate for the mutant cryptid. When it dies, it explodes, dealing @Damage[1d6[damagetype]|options:area-damage]{1d6 damage of the chosen type} to each creature in a @Template[emanation|distance:10], with a @Check[reflex|dc:|basic|options:area-effect] save against a standard DC of the creature's level. The damage increases by 1d6 at 3rd level and every odd level thereafter.</p>"
     },
     "(Cryptid, Mutant) Marrowlance": {
       "name": "(Cryptid, Mutant) Marrowlance",
@@ -201,7 +201,7 @@
     },
     "(Divine Warden) Divine Destruction": {
       "name": "(Divine Warden) Divine Destruction",
-      "description": "<p>When the divine warden is reduced to 0 HP, it erupts with divine energy in a @Template[emanation|distance:30], dealing @Damage[1d6[damageType]] damage per level. This damage is either vitality or void, determined by the patron deity's divine font (chosen at the divine warden's creation if the deity offers a choice), and this ability gains the corresponding trait. Each creature in the area must attempt a @Check[will|dc:|traits:damaging-effect] save with the following outcomes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes half damage.</p>\n<p><strong>Success</strong> The creature takes full damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes temporarily cursed by the patron deity. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.</p>\n<p><strong>Critical Failure</strong> As failure, except the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+      "description": "<p>When the divine warden is reduced to 0 HP, it erupts with divine energy in a @Template[emanation|distance:30], dealing @Damage[1d6[damageType]|options:area-damage] damage per level. This damage is either vitality or void, determined by the patron deity's divine font (chosen at the divine warden's creation if the deity offers a choice), and this ability gains the corresponding trait. Each creature in the area must attempt a @Check[will|dc:|options:area-effect,damaging-effect] save with the following outcomes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes half damage.</p>\n<p><strong>Success</strong> The creature takes full damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes temporarily cursed by the patron deity. The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.</p>\n<p><strong>Critical Failure</strong> As failure, except the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
     },
     "(Divine Warden) Divine Domain Spells": {
       "name": "(Divine Warden) Divine Domain Spells",
@@ -227,6 +227,26 @@
       "name": "(Dragon) Change Shape",
       "description": "<p>The dragon takes on the appearance of any Small or Medium humanoid. This doesn't change its Speed or attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal (typically to bludgeoning).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
     },
+    "(Failed Prophet) Broken Mindscape": {
+      "name": "(Failed Prophet) Broken Mindscape",
+      "description": "<p>30 feet.</p>\n<p>A creature entering the aura or starting its turn in the aura must attempt a Will save. Use the moderate spell DC for the failed prophet's level.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and becomes immune to broken mindscape for 1 minute.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} as disjointed visions of the failed prophet's mindscape assail its senses.</p>\n<p><strong>Failure</strong> The creature's mind is pulled into the failed prophet's mindscape. It's @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round. While paralyzed, the creature can take any actions with the mental or spirit traits, or that deal mental or spirit damage, as though those actions were purely mental. Such actions only have line of effect to the originating failed prophet and other creatures currently paralyzed by broken mindscape, though they treat all such creatures as though they were adjacent.</p>\n<p><strong>Critical Failure</strong> As failure, but the duration is 1 minute or until the failed prophet is destroyed, whichever happens first.</p>"
+    },
+    "(Failed Prophet) Greedy Grab": {
+      "name": "(Failed Prophet) Greedy Grab",
+      "description": "<p><strong>Requirements</strong> The failed prophet's last action was a successful fist Strike that dealt damage</p>\n<hr />\n<p><strong>Effect</strong> The failed prophet attempts a Thievery check against the target's Reflex DC. On a success, the failed prophet pilfers coins and gems from the target with a total value as indicated in the table, to a maximum of what the target is carrying. Valuables in unlocked containers on the target's person can be taken just as easily as those carried. On a critical success, the failed prophet steals double that amount. The failed prophet gains a number of temporary Hit Points equal to the value stolen that last for 1 minute.</p>\n<table class=\"pf2e lost-omens\">\n<thead>\n<tr>\n<th>Level</th>\n<th>Value Stolen</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<p>10–12</p>\n</td>\n<td>\n<p>[[/r 5d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>13–15</p>\n</td>\n<td>\n<p>[[/r 6d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>16–18</p>\n</td>\n<td>\n<p>[[/r 7d10]] gp</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>19–20</p>\n</td>\n<td>\n<p>[[/r 8d10]] gp</p>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    "(Failed Prophet) Taboos": {
+      "name": "(Failed Prophet) Taboos",
+      "description": "<p>Despite the failed prophet's transformed body, a lifelong adherence to the strictures of the Prophecies of Kalistrade has ingrained the philosophical prohibitions into their soul. Whenever a failed prophet is critically hit by an unarmed attack, is critically hit by or critically fails a save against a touch spell, or is exposed to a disease or poison effect (even though immune), they take a –2 status penalty to their AC, attack bonuses, DCs, Perception, saving throws, and skill modifiers for 1 minute. Breaking other Kalistocratic taboos can also trigger this penalty at the GM's discretion.</p>"
+    },
+    "(Failed Prophet) This Is My Reality!": {
+      "name": "(Failed Prophet) This Is My Reality!",
+      "description": "<p>The failed prophet exerts control over their crumbling mindscape to inflict harm upon those trapped within. This can take the form of falling debris, natural disasters, or anything else the failed prophet can imagine. No matter the form, each creature currently @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} by the failed prophet's broken mindscape takes spirit damage with a basic Will save. The save DC uses the high spell DC for the failed prophet's level and the unlimited use area damage for the failed prophet's level.</p>"
+    },
+    "(Failed Prophet) Wealthsense": {
+      "name": "(Failed Prophet) Wealthsense",
+      "description": "<p>The failed prophet can detect concentrations of coinage and other valuables as an imprecise sense with a range of 60 feet. The failed prophet detects any creature carrying coins and treasure totaling at least the average cost of a consumable item of the failed prophet's level.</p>"
+    },
     "(Floodslain) Drowning Touch": {
       "name": "(Floodslain) Drowning Touch",
       "description": "<p>When the floodslain creature damages a creature with a non-weapon melee attack, the target's lungs begin to fill with water. The target must attempt a @Check[type:fortitude|against:will] save against the floodslain's Will DC. A target affected by Drowning Touch can spend a single action coughing in an attempt to recover, which immediately lets them attempt a new Fortitude save against the effect. A success improves the previous result by 1 step. A critical success improves the previous result by 2, and a critical failure decreases it by 1.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is slowed 2 and drowning.</p>"
@@ -245,7 +265,7 @@
     },
     "(Floodslain) Vomit Flotsam": {
       "name": "(Floodslain) Vomit Flotsam",
-      "description": "<p>A floodslain creature's body is filled with debris from their horrific death, which they can spew at their enemies. The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any creature in the area takes @Damage[1d8[bludgeoning]] damage per level of the floodslain creature (minimum 1d8) with a @Check[type:reflex|against:fortitude|basic] save against the floodslain's Fortitude DC.</p>"
+      "description": "<p>A floodslain creature's body is filled with debris from their horrific death, which they can spew at their enemies. The floodslain vomits flotsam in a @Template[type:cone|distance:15]. Any creature in the area takes @Damage[1d8[bludgeoning]|options:area-damage] damage per level of the floodslain creature (minimum 1d8) with a @Check[type:reflex|against:fortitude|basic|options:area-effect] save against the floodslain's Fortitude DC.</p>"
     },
     "(Ghast) Consume Flesh": {
       "name": "(Ghast) Consume Flesh",
@@ -345,7 +365,7 @@
     },
     "(Ghost) Telekinetic Assault": {
       "name": "(Ghost) Telekinetic Assault",
-      "description": "<p>The ghost cries out in pain and anguish as small objects and debris fly about in a @Template[emanation|distance:30]. Creatures in this area take @Damage[1d6[bludgeoning]] damage + 1d6 per 2 levels, subject to a @Check[reflex|dc:|basic] save.</p>\n<p>For DCs, use the high spell DC of the ghost's level.</p>"
+      "description": "<p>The ghost cries out in pain and anguish as small objects and debris fly about in a @Template[emanation|distance:30]. Creatures in this area take @Damage[1d6[bludgeoning]|options:area-damage] damage + 1d6 per 2 levels, subject to a @Check[reflex|dc:|basic|options:area-effect] save.</p>\n<p>For DCs, use the high spell DC of the ghost's level.</p>"
     },
     "(Ghoul) Consume Flesh": {
       "name": "(Ghoul) Consume Flesh",
@@ -459,6 +479,10 @@
       "name": "(Greater Barghest) Mutation - Wings",
       "description": "<p>The barghest has malformed wings extending from its back. It gains a fly Speed of 25 feet.</p>"
     },
+    "(Halfling) Keen Eyes": {
+      "name": "(Halfling) Keen Eyes",
+      "description": "<p>The halfling gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or undetected creatures within 30 feet of them. Whenever the halfling targets a creature that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or hidden from them, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+    },
     "(Harrowkin) Defensive Suit": {
       "name": "(Harrowkin) Defensive Suit",
       "description": "<p>When the harrowkin attempts a saving throw connected to its suit—that is, Fortitude (Hammers or Shields), Reflex (Keys or Books), or Will (Stars or Crowns)—if they roll a success, they get a critical success instead.</p>"
@@ -518,6 +542,10 @@
     "(Kuworsys) Smash and Grab": {
       "name": "(Kuworsys) Smash and Grab",
       "description": "<p>Kuworsys Strides up to twice its Speed. At the end of its movement, it can make a melee limb Strike. On a successful Strike, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} until the end of Kuworsys's next turn</p>"
+    },
+    "(Leshy) Verdant Burst": {
+      "name": "(Leshy) Verdant Burst",
+      "description": "<p>When the leshy dies, a burst of primal energy explodes from their body, restoring Hit Points based on the leshy's level to each plant creature in a @Template[type:emanation|distance:30]. This area is filled with plants, becoming difficult terrain. If the terrain is not a viable environment for these plants, they wither after 24 hours.</p>\n<table border=\"1\" class=\"pf2e remaster\">\n<thead>\n<tr style=\"text-align:right\">\n<th>Level</th>\n<th>Healing</th>\n<th>Level</th>\n<th>Healing</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-1—0</td>\n<td>1d4</td>\n<td>10—11</td>\n<td>6d8</td>\n</tr>\n<tr>\n<td>1</td>\n<td>1d8</td>\n<td>12—13</td>\n<td>7d8</td>\n</tr>\n<tr>\n<td>2—3</td>\n<td>2d8</td>\n<td>14—15</td>\n<td>8d8</td>\n</tr>\n<tr>\n<td>4—5</td>\n<td>3d8</td>\n<td>16—17</td>\n<td>9d8</td>\n</tr>\n<tr>\n<td>6—7</td>\n<td>4d8</td>\n<td>18—19</td>\n<td>10d8</td>\n</tr>\n<tr>\n<td>8—9</td>\n<td>5d8</td>\n<td>20+</td>\n<td>11d8</td>\n</tr>\n</tbody>\n</table>"
     },
     "(Lich) Animate Cage": {
       "name": "(Lich) Animate Cage",
@@ -643,17 +671,65 @@
       "name": "(Mana Wastes Mutant) Vengeful Bite",
       "description": "<p><strong>Trigger</strong> A creature critically hits the mutant with a melee unarmed Strike or a non-reach melee Strike</p>\n<hr />\n<p><strong>Effect</strong> The mutant makes a maw Strike against the triggering creature.</p>"
     },
+    "(Martial Artist) Blazing Gate": {
+      "name": "(Martial Artist) Blazing Gate",
+      "description": "<p><strong>Requirements</strong> The grandmaster has a target grappled or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p>\n<hr />\n<p><strong>Effect</strong> The grandmaster tosses their target upwards and electrocutes them with a qi-infused double palm strike as they land. The target becomes @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, loses the grappled or restrained condition, and takes @Damage[(5d6)[bludgeoning],(2d8)[persistent,electricity]]{5d6 bludgeoning and 2d8 persistent electricity damage} (@Check[fortitude|dc:38|basic] save).</p>"
+    },
+    "(Martial Artist) Competitive Taunt": {
+      "name": "(Martial Artist) Competitive Taunt",
+      "description": "<p>The tournament combatant attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a target. On a success, the demoralized creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of their next turn. The tournament combatant gets a +2 circumstance bonus to their damage against a creature made off-guard in this way.</p>"
+    },
+    "(Martial Artist) Constant Feint Stance": {
+      "name": "(Martial Artist) Constant Feint Stance",
+      "description": "<p>This stance option replaces a different Stance Shift option (usually Secure Grapple Stance). +2 to attempts to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}. If the mixed martial artist rolls a critical failure to Feint, they get a failure instead. If they successfully Feint, they can use Stance Shift as a free action. Unlike other stances, in this stance the mixed martial artist can't make Strikes.</p>"
+    },
+    "(Martial Artist) Defensive Side Kick": {
+      "name": "(Martial Artist) Defensive Side Kick",
+      "description": "<p><strong>Trigger</strong> A creature within the black belt's reach uses a move action</p>\n<hr />\n<p><strong>Effect</strong> The black belt makes a fist Strike designed to intercept and create distance. This Strike does not count towards the black belt's multiple attack penalty, and the black belt's multiple attack penalty doesn't apply to this Strike. On a successful hit, the target is pushed 5 feet away.</p>"
+    },
+    "(Martial Artist) Kiai!": {
+      "name": "(Martial Artist) Kiai!",
+      "description": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> The martial student attempts a Strike</p>\n<hr />\n<p><strong>Effect</strong> The martial student shouts to startle their adversary. If the Strike is successful, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+    },
+    "(Martial Artist, Dirty Fighting) Concealed Spikes": {
+      "name": "(Martial Artist, Dirty Fighting) Concealed Spikes",
+      "description": "<p><strong>Trigger</strong> The martial artist critically succeeds on an unarmed Strike</p>\n<hr />\n<p><strong>Effect</strong> Tiny spikes in the martial artist's gloves or footwear deal an additional @Damage[1d6[persistent,bleed]] damage.</p>"
+    },
+    "(Martial Artist, Dirty Fighting) Contraband Substance": {
+      "name": "(Martial Artist, Dirty Fighting) Contraband Substance",
+      "description": "<p>The martial artist pulls out a @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} alchemical vial of mutagen and drinks it to improve their combat prowess. The item is usually a @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]{Juggernaut Mutagen (Lesser)}, or @UUID[Compendium.pf2e.equipment-srd.Item.5MKBwpE401uz4kNN]{Quicksilver Mutagen (Lesser)}. This ability can't be used again until the martial artist has time to acquire and hide a new mutagen. Some martial artists use concealed small vials, but others hide a syringe or soak the alchemical liquid into a garment they can put in their mouth.</p>"
+    },
+    "(Martial Artist, Dirty Fighting) Illegal Bite": {
+      "name": "(Martial Artist, Dirty Fighting) Illegal Bite",
+      "description": "<p>The martial artist makes an @Check[athletics|defense:fortitude] check against a target's Fortitude DC to bite them in a vulnerable area. On a success, the martial artist deals @Damage[2d6[piercing]] damage (or double on a critical success).</p>"
+    },
+    "(Martial Artist, Dirty Fighting) Sand in Your Eye": {
+      "name": "(Martial Artist, Dirty Fighting) Sand in Your Eye",
+      "description": "<p>The martial artist [[/act feint]]{Feints}. On a success, the martial artist tosses sand into the face of one target, @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinding} them for 1 round or until the target Interacts to remove the blinded condition.</p>"
+    },
+    "(Martial Artist, Grandmaster) Life Burn Aura": {
+      "name": "(Martial Artist, Grandmaster) Life Burn Aura",
+      "description": "<p>The grandmaster transmutes their lifespan into an expulsion of qi. For the next minute, the grandmaster is surrounded by a @Template[type:emanation|distance:30] that deals @Damage[3d6[force]|options:area-damage] damage to all creatures who start their turn within the emanation, including the grandmaster themself. While Life Burn Aura is active, the grandmaster's fist Strikes deal 2 additional die of weapon damage. When the aura disappears, the grandmaster is permanently @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}. This condition is cumulative.</p>"
+    },
+    "(Martial Artist, Grandmaster) Solar Surge": {
+      "name": "(Martial Artist, Grandmaster) Solar Surge",
+      "description": "<p>The grandmaster unleashes a qi wave as bright as the sun. All creatures within a 50-foot radius of the grandmaster who can see must attempt a @Check[reflex|dc:38] save, including the grandmaster themself.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p>\n<p><strong>Failure</strong> The creature is blinded for 1 day.</p>\n<p><strong>Critical Failure</strong> The creature is permanently blinded.</p>"
+    },
+    "(Martial Artist, Grandmaster) Super Qi Blast": {
+      "name": "(Martial Artist, Grandmaster) Super Qi Blast",
+      "description": "<p>The grandmaster's body expands as it prepares to exude an unfathomable amount of qi. If the grandmaster's next action is to cast the two-action version of qi blast, the size of the cone increases to 120 feet and the damage increases to 16d6. The grandmaster also becomes one size category larger for the next minute, dealing an additional +9 damage with their melee Strikes. Additionally, the grandmaster is permanently @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. This drained condition is cumulative.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.f1w5p5AVfAajZi9t]{Effect: Super Qi Blast}</p>"
+    },
     "(Melfesh Monster) Burrowing Grasp": {
       "name": "(Melfesh Monster) Burrowing Grasp",
       "description": "<p>The Melfesh Monster Burrows twice. At any point in this movement, it can shed a temporary fungal limb to grasp a creature within 10 feet. The creature must succeed at a @Check[reflex|dc:21|name:Burrowing Grasp] save or be @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round (on a critical failure, 2 rounds) or until it Escapes (DC 21). This ability grants the Melfesh Monster a burrow speed of 15 feet and replaces its fly speed and Envelop.</p>"
     },
     "(Melfesh Monster) Corpse Bomb": {
       "name": "(Melfesh Monster) Corpse Bomb",
-      "description": "<p>The Melfesh Monster injects a creature's corpse with spores over the course of 10 minutes, priming it to explode. These spores last 1 day, and the Melfesh Monster can only have three corpses primed at a time; if it primes another, the oldest corpse bomb deactivates harmlessly. Creatures that succeed at a @Check[perception|dc:21|name:Notice Corpse Bomb|traits:action:seek,action:investigate,secret] check while Seeking or Investigating notice a corpse bomb's explosive nature. Creatures can attempt to disarm a corpse bomb with a @Check[nature|dc:21|name:Disable Corpse Bomb (Nature)|traits:action:disable-a-device], @Check[survival|dc:21|name:Disable Corpse Bomb (Survival)|traits:action:disable-a-device], or @Check[thievery|dc:21|name:Disable Corpse Bomb (Thievery)|traits:action:disable-a-device] check to Disable a Device. A corpse bomb explodes in a @Template[burst|distance:10] if a creature comes within 5 feet or if the Melfesh Monster detonates it as a single action, which it can use once per round. This deals @Damage[2d8[fire],2d8[poison]]{2d8 fire and 2d8 poison damage} (@Check[reflex|dc:21|basic|name:Corpse Bomb] save) and leaves a lingering, 10-foot-radius spore cloud. A creature that enters or begins its turn within the cloud inhales spores, which remain in its body for 1 minute. This ability replaces Spore Cloud.</p>"
+      "description": "<p>The Melfesh Monster injects a creature's corpse with spores over the course of 10 minutes, priming it to explode. These spores last 1 day, and the Melfesh Monster can only have three corpses primed at a time; if it primes another, the oldest corpse bomb deactivates harmlessly. Creatures that succeed at a @Check[perception|dc:21|name:Notice Corpse Bomb|traits:action:seek,action:investigate,secret] check while Seeking or Investigating notice a corpse bomb's explosive nature. Creatures can attempt to disarm a corpse bomb with a @Check[nature|dc:21|name:Disable Corpse Bomb (Nature)|traits:action:disable-a-device], @Check[survival|dc:21|name:Disable Corpse Bomb (Survival)|traits:action:disable-a-device], or @Check[thievery|dc:21|name:Disable Corpse Bomb (Thievery)|traits:action:disable-a-device] check to Disable a Device. A corpse bomb explodes in a @Template[burst|distance:10] if a creature comes within 5 feet or if the Melfesh Monster detonates it as a single action, which it can use once per round. This deals @Damage[2d8[fire],2d8[poison]|options:area-damage]{2d8 fire and 2d8 poison damage} (@Check[reflex|dc:21|basic|name:Corpse Bomb|options:area-effect] save) and leaves a lingering, 10-foot-radius spore cloud. A creature that enters or begins its turn within the cloud inhales spores, which remain in its body for 1 minute. This ability replaces Spore Cloud.</p>"
     },
     "(Melfesh Monster) Death Throes": {
       "name": "(Melfesh Monster) Death Throes",
-      "description": "<p><strong>Trigger</strong> The Melfesh Monster dies</p>\n<hr />\n<p><strong>Effect</strong> The Melfesh Monster explodes in a @Template[burst|distance:30]. Creatures in the area take @Damage[3d8[fire],3d8[poison]]{3d8 fire and 3d8 poison damage} (@Check[reflex|dc:24|basic|name:Death Throes] save). This ability replaces Reactive Growth.</p>"
+      "description": "<p><strong>Trigger</strong> The Melfesh Monster dies</p>\n<hr />\n<p><strong>Effect</strong> The Melfesh Monster explodes in a @Template[burst|distance:30]. Creatures in the area take @Damage[3d8[fire],3d8[poison]|options:area-damage]{3d8 fire and 3d8 poison damage} (@Check[reflex|dc:24|basic|name:Death Throes|options:area-effect] save). This ability replaces Reactive Growth.</p>"
     },
     "(Melfesh Monster) False Synapses": {
       "name": "(Melfesh Monster) False Synapses",
@@ -661,7 +737,7 @@
     },
     "(Melfesh Monster) Flame Lash": {
       "name": "(Melfesh Monster) Flame Lash",
-      "description": "<p>The Melfesh Monster sprays flaming gas in a @Template[cone|distance:15] or a @Template[line|distance:30]. Creatures in the area take @Damage[4d6[fire]] damage (@Check[reflex|dc:21|basic|name:Flame Lash] save). This ability replaces the firelance ranged Strike.</p>"
+      "description": "<p>The Melfesh Monster sprays flaming gas in a @Template[cone|distance:15] or a @Template[line|distance:30]. Creatures in the area take @Damage[4d6[fire]|options:area-damage] damage (@Check[reflex|dc:21|basic|name:Flame Lash|options:area-effect] save). This ability replaces the firelance ranged Strike.</p>"
     },
     "(Melfesh Monster) Mycelial Tomb": {
       "name": "(Melfesh Monster) Mycelial Tomb",
@@ -793,7 +869,7 @@
     },
     "(Nemesis) Explosive Blast": {
       "name": "(Nemesis) Explosive Blast",
-      "description": "<p><strong>Frequency</strong> twice per day</p>\n<hr />\n<p><strong>Effect</strong> Nemesis causes a @Template[burst|distance:20] of explosive energy at a range of up to 200 feet. Choose from acid, cold, electricity, fire, or sonic. Explosive Blast gains that trait, and creatures caught in the area take @Damage[14d6[@item.flags.pf2e.rulesSelections.damage]] damage of that energy type (@Check[reflex|dc:33|basic] save).</p>"
+      "description": "<p><strong>Frequency</strong> twice per day</p>\n<hr />\n<p><strong>Effect</strong> Nemesis causes a @Template[burst|distance:20] of explosive energy at a range of up to 200 feet. Choose from acid, cold, electricity, fire, or sonic. Explosive Blast gains that trait, and creatures caught in the area take @Damage[14d6[@item.flags.pf2e.rulesSelections.damage]|options:area-damage] damage of that energy type (@Check[reflex|dc:33|basic|options:area-effect] save).</p>"
     },
     "(Nemesis) Fast Healing": {
       "name": "(Nemesis) Fast Healing",
@@ -899,6 +975,14 @@
       "name": "(Ravener) Vicious Criticals",
       "description": "<p>The ravener treats an attack roll as a critical hit on a roll of 19 or 20, as long as the attack roll was a success. Additionally, whenever the ravener makes a critical hit with one of their Strikes, the target must succeed on a @Check[fortitude|dc:|name:Vicious Criticals] save or gain the @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} condition. If the target already has a drained value of greater than 0, their drained value instead increases by 1, to a maximum of drained 4.</p>\n<p>Whenever the ravener applies drain to a creature in this way, their soul ward gains 5 Hit Points.</p>"
     },
+    "(Retired) Rusty": {
+      "name": "(Retired) Rusty",
+      "description": "<p>The NPC is out of practice. They take a –1 status penalty to all their rolls and DCs. The NPC also rolls twice on initiative rolls and takes the lower result; this is a misfortune effect.</p>"
+    },
+    "(Retired) Still Got It!": {
+      "name": "(Retired) Still Got It!",
+      "description": "<p><strong>Frequency</strong> once per encounter</p>\n<p><strong>Requirements</strong> The retired creature is in a combat encounter and has either made a critical hit or is in the second round of their encounter</p>\n<hr />\n<p><strong>Effect</strong> The retired creature gains temporary Hit Points equal to its level that last until the end of the encounter. The retired creature also suppresses the effects of being rusty until the end of the encounter.</p>\n<hr />\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EZVgNBwMrJWeKLXp]{Effect: Still Got It!}</p>"
+    },
     "(Risen Nemesis) Euphoric Cackle": {
       "name": "(Risen Nemesis) Euphoric Cackle",
       "description": "<p><strong>Trigger</strong> A creature the Risen Nemesis can observe critically fails an attack or save</p>\n<hr />\n<p><strong>Effect</strong> The Risen Nemesis revels and gains 20 temporary Hit Points that last for 24 hours. They cannot use Euphoric Cackle again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
@@ -989,7 +1073,7 @@
     },
     "(Skeleton) Bone Powder": {
       "name": "(Skeleton) Bone Powder",
-      "description": "<p>When the skeleton takes physical damage from a critical hit, one of its bones is pulverized into a fine powder.</p>\n<p>All creatures in a @Template[emanation|distance:5] that breathe take @Damage[1d6[persistent,poison]] damage (plus an additional 1d6 for every 6 levels the skeleton has).</p>"
+      "description": "<p>When the skeleton takes physical damage from a critical hit, one of its bones is pulverized into a fine powder.</p>\n<p>All creatures in a @Template[emanation|distance:5] that breathe take @Damage[1d6[persistent,poison]|options:area-damage] damage (plus an additional 1d6 for every 6 levels the skeleton has).</p>"
     },
     "(Skeleton) Bone Storm": {
       "name": "(Skeleton) Bone Storm",
@@ -1137,6 +1221,10 @@
       "name": "(Ulgrem-Axaan) Ichor Trail",
       "description": "<p>Any square Ulgrem-Axaan moves into is coated in melting liquids from its body and becomes difficult terrain. After an hour, the ichor dries and the effect ends.</p>"
     },
+    "(Union Organizer) Solidarity": {
+      "name": "(Union Organizer) Solidarity",
+      "description": "<p>10 feet.</p>\n<p>While leading a demonstration, the union organizer grants themself and their allies a +1 circumstance bonus to saving throws against fatigue and mental effects. Greater numbers amplify the effect. The emanation increases to 20 feet if there are at least 5 allies within 10 feet, and to 30 feet if there are at least 10 allies within 20 feet.</p>"
+    },
     "(Valkyrie Tempest) Mounted Troop": {
       "name": "(Valkyrie Tempest) Mounted Troop",
       "description": "<p>Effects that target only animals or only humanoids may not work on the valkyrie tempest, subject to the GM's discretion.</p>"
@@ -1267,7 +1355,7 @@
     },
     "(Vampire, Strigoi) Domain of Dusk": {
       "name": "(Vampire, Strigoi) Domain of Dusk",
-      "description": "<p>With a wave of its hand, the strigoi calls fourth vile ruination from the surrounding shadows, causing coils of darkness and shadowy bats, rats, and wolves to lash out at living targets in a @Template[emanation|distance:30]. Living creatures in this area take @Damage[1d6[void]] damage +1d6 per 2 levels possessed by the strigoi (@Check[fortitude|dc:|basic] save against the DC of the strigoi's level). A creature that fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and then dazzled for 1 round)</p>"
+      "description": "<p>With a wave of its hand, the strigoi calls fourth vile ruination from the surrounding shadows, causing coils of darkness and shadowy bats, rats, and wolves to lash out at living targets in a @Template[emanation|distance:30]. Living creatures in this area take @Damage[1d6[void]|options:area-damage] damage +1d6 per 2 levels possessed by the strigoi (@Check[fortitude|dc:|basic|options:area-effect] save against the DC of the strigoi's level). A creature that fails this save is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and then dazzled for 1 round)</p>"
     },
     "(Vampire, Strigoi) Drink Essence": {
       "name": "(Vampire, Strigoi) Drink Essence",
@@ -1432,7 +1520,7 @@
     },
     "(Woodblessed) Explosive End": {
       "name": "(Woodblessed) Explosive End",
-      "description": "<p>When the woodblessed dies, the planar portal inside of them collapses, causing them to explode in a @Template[burst|distance:20] of vines that deal @Damage[1d6[bludgeoning]] damage per level to all creatures with a @Check[reflex|dc:|basic] save against the woodblessed's spell DC. The woodblessed's body is completely consumed, though their root network and gear remain behind.</p>"
+      "description": "<p>When the woodblessed dies, the planar portal inside of them collapses, causing them to explode in a @Template[burst|distance:20] of vines that deal @Damage[1d6[bludgeoning]|options:area-damage] damage per level to all creatures with a @Check[reflex|dc:|basic|options:area-effect] save against the woodblessed's spell DC. The woodblessed's body is completely consumed, though their root network and gear remain behind.</p>"
     },
     "(Woodblessed) Luminant Aura": {
       "name": "(Woodblessed) Luminant Aura",
@@ -1541,5 +1629,58 @@
       "converter": "translateSource",
       "path": "system.publication.title"
     }
+  },
+  "folders": {
+    "Spring-Heeled Jack": "Spring-Heeled Jack",
+    "Halfling": "Halfling",
+    "Blackfrost Dead": "Blackfrost Dead",
+    "Worm That Walks": "Worm That Walks",
+    "Path Maiden": "Path Maiden",
+    "Bulwark": "Bulwark",
+    "Risen Nemesis": "Risen Nemesis",
+    "Ravener": "Ravener",
+    "Sporeborn": "Sporeborn",
+    "Skeleton": "Skeleton",
+    "Mythic": "Mythic",
+    "Blight": "Blight",
+    "Leshy": "Leshy",
+    "Coven": "Coven",
+    "Golem": "Golem",
+    "Melfesh Monster": "Melfesh Monster",
+    "Divine Warden": "Divine Warden",
+    "Valkyrie Tempest": "Valkyrie Tempest",
+    "Secret Society": "Secret Society",
+    "Ghoul": "Ghoul",
+    "Ghast": "Ghast",
+    "Woodblessed": "Woodblessed",
+    "Lich": "Lich",
+    "Siabrae": "Siabrae",
+    "Ghost": "Ghost",
+    "Stargut Hydra": "Stargut Hydra",
+    "Union Organizer": "Union Organizer",
+    "Zombie": "Zombie",
+    "Vampire": "Vampire",
+    "Nymph Queen": "Nymph Queen",
+    "Ulgrem-Axaan": "Ulgrem-Axaan",
+    "Greater Barghest": "Greater Barghest",
+    "Cryptid": "Cryptid",
+    "Martial Artist": "Martial Artist",
+    "Graveknight": "Graveknight",
+    "Harrowkin": "Harrowkin",
+    "Retired": "Retired",
+    "Mana Wastes Mutant": "Mana Wastes Mutant",
+    "Floodslain": "Floodslain",
+    "Failed Prophet": "Failed Prophet",
+    "Castrovelian": "Castrovelian",
+    "Nemesis": "Nemesis",
+    "Beheaded": "Beheaded",
+    "Visitant": "Visitant",
+    "Kallas Devil": "Kallas Devil",
+    "Clockwork Creature": "Clockwork Creature",
+    "Warden of the Wild": "Warden of the Wild",
+    "Kuworsys": "Kuworsys",
+    "Protean": "Protean",
+    "Dragon": "Dragon",
+    "Werecreature": "Werecreature"
   }
 }

@@ -145,7 +145,7 @@
         },
         "action->Alchemical Torrent": {
           "name": "Alchemical Torrent",
-          "description": "<p>The alchemical horror spews a torrent of alchemical fluids in a @Template[cone|distance:30] that deals @Damage[20d6[acid]] damage to creatures in the area (@Check[reflex|dc:43|basic] save).</p>\n<p>The alchemical horror can't use this ability again for [[/gmr 1d4 #Recharge Alchemical Torrent]]{1d4 rounds}.</p>"
+          "description": "<p>The alchemical horror spews a torrent of alchemical fluids in a @Template[cone|distance:30] that deals @Damage[20d6[acid]|options:area-damage] damage to creatures in the area (@Check[reflex|dc:43|basic|options:area-effect] save).</p>\n<p>The alchemical horror can't use this ability again for [[/gmr 1d4 #Recharge Alchemical Torrent]]{1d4 rounds}.</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[(4d12+18)[bludgeoning]] damage, Rupture 40</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -262,7 +262,7 @@
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 2d6 electricity damage and 2 electricity splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>"
         },
         "weapon->Frost Vial (Moderate)": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{Effect: Frost Vial (Moderate)}</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Frost Vial}</p>"
         },
         "armor->Leather Armor": {
           "name": "Leather Armor",
@@ -336,7 +336,7 @@
     "Arcane Feedback Trap": {
       "name": "Arcane Feedback Trap",
       "description": "<p>A spike of stone bursts from the south wall and quickly retracts.</p>",
-      "disable": "<p>@Check[arcana|dc:33|name:Quell Rippling Stone] (master) to quell the rippling stone or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th level, counteract DC 31) to dispel the magical feedback.</p>",
+      "disable": "<p>@Check[arcana|dc:33|name:Quell Rippling Stone] (master) to quell the rippling stone or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank, counteract DC 31) to dispel the magical feedback.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "action->Stone Spike": {
@@ -684,7 +684,7 @@
         },
         "action->Clobber": {
           "name": "Clobber",
-          "description": "<p>The guard makes a club Strike. On a hit, if the target is off-guard, the target must succeed at a @Check[fortitude|dc:33] save or be stunned 2.</p>"
+          "description": "<p>The guard makes a club Strike. On a hit, if the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, the target must succeed at a @Check[fortitude|dc:33|options:inflicts:stunned] save or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>"
         },
         "action->Hammering Flurry": {
           "name": "Hammering Flurry",
@@ -692,7 +692,7 @@
         },
         "action->Shatter Defenses": {
           "name": "Shatter Defenses",
-          "description": "<p><strong>Requirements</strong> A frightened creature is within melee reach of the Black Whale guard</p>\n<hr />\n<p><strong>Effect</strong> The guard makes a melee Strike against the frightened creature. If they hit and deal damage, the target becomes off-guard as long as it's frightened. If the target is already off-guard, it can't reduce its frightened value below 1 until the start of the guard's next turn.</p>"
+          "description": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} creature is within melee reach of the Black Whale guard</p>\n<hr />\n<p><strong>Effect</strong> The guard makes a melee Strike against the frightened creature. If they hit and deal damage, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} as long as it's frightened. If the target is already off-guard, it can't reduce its frightened value below 1 until the start of the guard's next turn.</p>"
         },
         "lore->Games Lore": {
           "name": "Games Lore"
@@ -737,7 +737,7 @@
         },
         "action->Clobber": {
           "name": "Clobber",
-          "description": "<p>The guard makes a club Strike. On a hit, if the target is off-guard, the target must succeed at a @Check[fortitude|dc:33] save or be stunned 2.</p>"
+          "description": "<p>The guard makes a club Strike. On a hit, if the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, the target must succeed at a @Check[fortitude|dc:33|options:inflicts:stunned] save or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>"
         },
         "action->Hammering Flurry": {
           "name": "Hammering Flurry",
@@ -745,11 +745,11 @@
         },
         "action->Nightmare Assault": {
           "name": "Nightmare Assault",
-          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p>The prison guard makes a club Strike. On a hit, the target must attempt a @Check[will|dc:36] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes immune to this ability for 24 hours.</p>\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is plagued by nightmarish visiona and becomes fatigued.</p>\n<p><strong>Critical Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} until no longer fatigued</p>"
+          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p>The prison guard makes a club Strike. On a hit, the target must attempt a @Check[will|dc:36] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes immune to this ability for 24 hours.</p>\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is plagued by nightmarish visions and becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>\n<p><strong>Critical Failure</strong> The target becomes fatigued and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} until no longer fatigued</p>"
         },
         "action->Shatter Defenses": {
           "name": "Shatter Defenses",
-          "description": "<p><strong>Requirements</strong> A frightened creature is within melee reach of the Black Whale guard</p>\n<hr />\n<p><strong>Effect</strong> The guard makes a melee Strike against the frightened creature. If they hit and deal damage, the target becomes off-guard as long as it's frightened. If the target is already off-guard, it can't reduce its frightened value below 1 until the start of the guard's next turn.</p>"
+          "description": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} creature is within melee reach of the Black Whale guard</p>\n<hr />\n<p><strong>Effect</strong> The guard makes a melee Strike against the frightened creature. If they hit and deal damage, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} as long as it's frightened. If the target is already off-guard, it can't reduce its frightened value below 1 until the start of the guard's next turn.</p>"
         },
         "lore->Games Lore": {
           "name": "Games Lore"
@@ -759,7 +759,7 @@
     "Blackfinger's Prayer": {
       "name": "Blackfinger's Prayer",
       "description": "<p>The trapdoor's metal is infused with a deadly toxin that seeps out when the trap is triggered.</p>",
-      "disable": "<p>@Check[thievery|dc:50|name:Gum Up Trapdoor|traits:action:disable-a-device] (legendary) to gum up the trapdoor's porous metal surface, @Check[crafting|dc:45|name:Render Toxin Inert] (master) to render the toxin inert, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 45) to counteract the trap's magic</p>",
+      "disable": "<p>@Check[thievery|dc:50|name:Gum Up Trapdoor|traits:action:disable-a-device] (legendary) to gum up the trapdoor's porous metal surface, @Check[crafting|dc:45|name:Render Toxin Inert] (master) to render the toxin inert, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 45) to counteract the trap's magic</p>",
       "stealth": "<p>(legendary)</p>",
       "items": {
         "action->Blackfinger's Prayer": {
@@ -1102,7 +1102,7 @@
     "Burning Chandelier Trap": {
       "name": "Burning Chandelier Trap",
       "description": "<p>Four large flaming chandeliers swing wildly around the room.</p>",
-      "disable": "<p>@Check[thievery|dc:36|name:Disable a Chandelier|traits:action:disable-a-device] (master) to disable a chandelier or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th level; counteract DC 33) to permanently drain the magic from a chandelier. Any amount of cold damage that overcomes a chandelier's cold resistance extinguishes its flames and removes its persistent fire damage and flame dart attack. @Check[thievery|dc:41|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (legendary) to disable the entire trap from the hidden control panel in the southeast corner of the room.</p>",
+      "disable": "<p>@Check[thievery|dc:36|name:Disable a Chandelier|traits:action:disable-a-device] (master) to disable a chandelier or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th rank; counteract DC 33) to permanently drain the magic from a chandelier. Any amount of cold damage that overcomes a chandelier's cold resistance extinguishes its flames and removes its persistent fire damage and flame dart attack. @Check[thievery|dc:41|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (legendary) to disable the entire trap from the hidden control panel in the southeast corner of the room.</p>",
       "hpDetails": "<strong>Panel Hardness</strong> 18; <strong>Panel HP</strong> 88 (BT 44); <strong>Resistances</strong> cold 15",
       "reset": "<p>The trap deactivates and resets 1 minute after there are no living creatures remaining in the room.</p>",
       "routine": "<p>(4 actions) For every chandelier disabled, the trap's actions are reduced by 1. For each of the trap's actions, a different chandelier attacks a random creature in the room. A chandelier uses its swinging chandelier attack if it can, but it can't make melee attacks against creatures in the cage, the closet, or the gap between the two double doors leading into the vault. Against a creature it can't reach with a melee attack, it uses a flame dart attack instead. The trap doesn't take multiple attack penalties.</p>",
@@ -1337,7 +1337,7 @@
         },
         "action->Cannon Fusillade": {
           "name": "Cannon Fusillade",
-          "description": "<p>Chaos Gulgamodh unleashes a salvo of explosive blasts in a @Template[cone|distance:30]. Creatures in the area take @Damage[(10d10+20)[fire]] damage (@Check[reflex|dc:43|basic] save).</p>\n<p>On a failed save, a creature is subjected to a @UUID[Compendium.pf2e.rollable-tables.RollTable.yRZwPolTnRdnz42V]{Warpwave} effect. On a critically failed save, a creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p>Chaos Gulgamodh can't use Cannon Fusillade again for [[/gmr 1d4 #Recharge Cannon Fusillade]]{1d4 rounds}.</p>"
+          "description": "<p>Chaos Gulgamodh unleashes a salvo of explosive blasts in a @Template[cone|distance:30]. Creatures in the area take @Damage[(10d10+20)[fire]|options:area-damage] damage (@Check[reflex|dc:43|basic|options:area-effect] save).</p>\n<p>On a failed save, a creature is subjected to a @UUID[Compendium.pf2e.rollable-tables.RollTable.yRZwPolTnRdnz42V]{Warpwave} effect. On a critically failed save, a creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p>Chaos Gulgamodh can't use Cannon Fusillade again for [[/gmr 1d4 #Recharge Cannon Fusillade]]{1d4 rounds}.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, foot, @Check[reflex|dc:43|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -1897,7 +1897,7 @@
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.97QyNEOAyYLdGaYc]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<p>Bottled lightning is packed with volatile reagents that create a blast of electricity when they are exposed to air. Bottled lightning deals 2d6 electricity damage and 2 electricity splash damage. On a hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn. You gain a +1 item bonus to attack rolls.</p>"
         },
         "weapon->Frost Vial (Moderate)": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{Effect: Frost Vial (Moderate)}</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Frost Vial}</p>"
         },
         "weapon->Tanglefoot Bag (Moderate)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\nTanglefoot Bag (Moderate)",
@@ -2095,7 +2095,7 @@
         },
         "action->Blinding Bile": {
           "name": "Blinding Bile",
-          "description": "<p>The excorion paragon projects a mist of burning blood in a @Template[cone|distance:10].</p>\n<p>Creatures in the area take @Damage[10d8[acid]] damage and @Damage[5d8[bludgeoning]] damage (@Check[reflex|dc:37|basic] save).</p>\n<p>On a failed save, an affected creature is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round (or 2 rounds on a critical failure).</p>\n<p>The excorion can't use Blinding Bile again for [[/gmr 1d4 #Recharge Blinding Bile]]{1d4 rounds}.</p>"
+          "description": "<p>The excorion paragon projects a mist of burning blood in a @Template[cone|distance:10].</p>\n<p>Creatures in the area take @Damage[10d8[acid], 5d8[bludgeoning]|options:area-damage]{10d8 acid damage and 5d8 bludgeoning damage} (@Check[reflex|dc:37|basic|options:area-effect] save).</p>\n<p>On a failed save, an affected creature is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round (or 2 rounds on a critical failure).</p>\n<p>The excorion can't use Blinding Bile again for [[/gmr 1d4 #Recharge Blinding Bile]]{1d4 rounds}.</p>"
         },
         "action->Vital Transfusion": {
           "name": "Vital Transfusion",
@@ -2159,7 +2159,7 @@
     "False Door Trap": {
       "name": "False Door Trap",
       "description": "<p>A hidden needle delivers a magical poison to anyone trying to open the door.</p>",
-      "disable": "<p>@Check[thievery|dc:32|name:Jam Needle in Housing|traits:action:disable-a-device] (master) to jam the needle in its housing or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th level, counteract DC 30) to dispel the magical poison.</p>",
+      "disable": "<p>@Check[thievery|dc:32|name:Jam Needle in Housing|traits:action:disable-a-device] (master) to jam the needle in its housing or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank, counteract DC 30) to dispel the magical poison.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "action->Purple Worm Sting": {
@@ -2235,7 +2235,7 @@
     "Field Of Opposition": {
       "name": "Field Of Opposition",
       "description": "<p>A distortion in space spawns an aggressive, malevolent shadow duplicate of any characters who pass between Terimor's faces.</p>",
-      "disable": "<p>@Check[thievery|dc:42|name:Disable Thievery] (legendary) to permanently disable the planar distortion (DC increases by 2 for each duplicate still extant), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (10th level; counteract DC 42) to destroy the planar distortion</p>",
+      "disable": "<p>@Check[thievery|dc:42|name:Disable Thievery] (legendary) to permanently disable the planar distortion (DC increases by 2 for each duplicate still extant), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (10th rank; counteract DC 42) to destroy the planar distortion</p>",
       "items": {
         "action->Spawn Mirror Duplicate": {
           "name": "Spawn Mirror Duplicate",
@@ -2250,7 +2250,7 @@
     "Flying Guillotine": {
       "name": "Flying Guillotine",
       "description": "<p>An invisible magical glyph on the guillotine's blade detects living creatures in the room, which causes the guillotine to fly off its hinges and attack.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Erase Glyph|traits:action:disable-a-device] (trained) to erase the glyph (which requires a successful unarmed attack roll if the blade is already active) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd level; counteract DC 20) to counteract it. The trap has a secret bypass known only to Ralso and Pratchett: as long as the guillotine can see a creature in the room touching thumb and pinky together with an empty hand, it remains dormant.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Erase Glyph|traits:action:disable-a-device] (trained) to erase the glyph (which requires a successful unarmed attack roll if the blade is already active) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 20) to counteract it. The trap has a secret bypass known only to Ralso and Pratchett: as long as the guillotine can see a creature in the room touching thumb and pinky together with an empty hand, it remains dormant.</p>",
       "reset": "<p>After 1 minute, the trap deactivates, though the door remains locked. The trap rearms itself each day at dawn.</p>",
       "routine": "<p>(1 action) The blade @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Flies} up to 20 feet and Strikes any creatures whose squares it passes through. It cannot target the same creature more than once per round. The blade cannot be grappled and doesn't take a multiple attack penalty.</p>",
       "stealth": "<p>(trained) or @Check[perception|dc:23|traits:action:seek] (expert) to spot the glyph</p>",
@@ -2345,7 +2345,7 @@
     "Freezing Alarm": {
       "name": "Freezing Alarm",
       "description": "<p>Miniature snowflake-shaped glyphs on the ground cause a layer of ice to ripple over the floor of the room and sound a silent alarm.</p>",
-      "disable": "<p>@Check[arcana|dc:53|name:Disable Arcana] (legendary) to draw a fiery counteracting glyph over each snowflake, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level, counteract DC 48)</p>",
+      "disable": "<p>@Check[arcana|dc:53|name:Disable Arcana] (legendary) to draw a fiery counteracting glyph over each snowflake, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank, counteract DC 48)</p>",
       "reset": "<p>1 day</p>",
       "stealth": "<p>(master)</p>",
       "items": {
@@ -2817,7 +2817,7 @@
     "Greater Planar Rift": {
       "name": "Greater Planar Rift",
       "description": "<p>A ragged planar rift drags things into its depths and hurls creatures through from its terminal end.</p>",
-      "disable": "<p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 46) to seal the rift</p>",
+      "disable": "<p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 46) to seal the rift</p>",
       "stealth": "<p>(legendary)</p>",
       "items": {
         "action->Greater Planar Rift": {
@@ -3464,7 +3464,7 @@
     "Inky Tendrils": {
       "name": "Inky Tendrils",
       "description": "<p>Six giant tentacles reach up from the ink lake, grabbing any foes in reach and dragging them underwater.</p>",
-      "disable": "<p>@Check[athletics|dc:48|name:Disable Athletics] (legendary) or @Check[athletics|dc:45|name:Disable Acrobatics]{Acrobatics} (master) to tie one tentacle into a knot, rendering it useless, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th level; counteract DC 44) to counteract one tentacle.</p>\n<p>The death of the Daemonic Rumormonger permanently dispels all the inky tendrils.</p>",
+      "disable": "<p>@Check[athletics|dc:48|name:Disable Athletics] (legendary) or @Check[athletics|dc:45|name:Disable Acrobatics]{Acrobatics} (master) to tie one tentacle into a knot, rendering it useless, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th rank; counteract DC 44) to counteract one tentacle.</p>\n<p>The death of the Daemonic Rumormonger permanently dispels all the inky tendrils.</p>",
       "routine": "<p>(6 actions) The hazard loses 1 action for every tentacle that is disabled or destroyed. The tentacles can combine their actions to use the hazard's Inky Imitator ability. A broken tentacle can still Strike, but it can't Grab. This hazard takes no multiple attack penalty.</p>",
       "items": {
         "strike-melee->Tentacle": {
@@ -3573,11 +3573,11 @@
         },
         "action->Scatterbrain Palm": {
           "name": "Scatterbrain Palm",
-          "description": "<p>A creature hit by Ixusoth's fist Strike must attempt a @Check[will|dc:36] save. The creature is then temporarily immune until the start of its next turn.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is stunned 1.</p>\n<p><strong>Failure</strong> The creature is stunned 2.</p>\n<p><strong>Critical Failure</strong> The creature is stunned 3, and the hyakume can use Steal Memories on the target as part of this action.</p>"
+          "description": "<p>A creature hit by Ixusoth's fist Strike must attempt a @Check[will|dc:36|options:inflicts:stunned] save. The creature is then temporarily immune until the start of its next turn.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}, and the hyakume can use Steal Memories on the target as part of this action.</p>"
         },
         "action->Steal Memories": {
           "name": "Steal Memories",
-          "description": "<p>Ixusoth reaches out with her mind and attempts to steal memories from a creature within 30 feet. The target must succeed at a @Check[will|dc:40] saving throw or become stupefied 2 and have some of its memories stolen. When Ixusoth steals memories, she learns some of the creature's memories (chosen by the GM). These memories are then lost to that creature.</p>"
+          "description": "<p>Ixusoth reaches out with her mind and attempts to steal memories from a creature within 30 feet. The target must succeed at a @Check[will|dc:40] saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} and have some of its memories stolen. When Ixusoth steals memories, she learns some of the creature's memories (chosen by the GM). These memories are then lost to that creature.</p>"
         },
         "lore->Bardic Lore": {
           "name": "Bardic Lore"
@@ -3896,7 +3896,7 @@
     "Kharnas's Lesser Glyph": {
       "name": "Kharnas's Lesser Glyph",
       "description": "<p>A hidden glyph suddenly lights up and dominates the mind of any creature not bearing the sigil of Kharnas the Angel-Binder.</p>",
-      "disable": "<p>Disable @Check[thievery|dc:46|name:Destroy Glyph|traits:action:disable-a-device] (legendary) to destroy the glyph, @Check[arcana|dc:42|name:Divert Glyph's Power] (master) to harmlessly divert the glyph's power, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th level; counteract DC 38) to counteract the glyph</p>",
+      "disable": "<p>Disable @Check[thievery|dc:46|name:Destroy Glyph|traits:action:disable-a-device] (legendary) to destroy the glyph, @Check[arcana|dc:42|name:Divert Glyph's Power] (master) to harmlessly divert the glyph's power, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank; counteract DC 38) to counteract the glyph</p>",
       "reset": "<p>The glyph can affect two creatures before it deactivates for 5 minutes and automatically resets.</p>",
       "items": {
         "action->Dominate": {
@@ -4054,7 +4054,7 @@
     "Living Paints": {
       "name": "Living Paints",
       "description": "<p>A mass of brushes use magical paint to convert creatures into art.</p>",
-      "disable": "<p>@Check[crafting|dc:41|name:Crafting Disable] (master) to mix the paints into bland, useless colors, @Check[thievery|dc:41|name:Thievery Disable] (legendary) to dismantle the animated brushes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th level; counteract DC 41) to counteract the magic within the paint.</p>",
+      "disable": "<p>@Check[crafting|dc:41|name:Crafting Disable] (master) to mix the paints into bland, useless colors, @Check[thievery|dc:41|name:Thievery Disable] (legendary) to dismantle the animated brushes, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th rank; counteract DC 41) to counteract the magic within the paint.</p>",
       "stealth": "<p>(Master)</p>",
       "items": {
         "action->Capture Subject": {
@@ -4606,7 +4606,7 @@
         },
         "action->Painful Light": {
           "name": "Painful Light",
-          "description": "<p>When attempting a save against a light effect, a myrucarx gets a result one degree of success lower than it rolled. A myrucarx caught in sunlight is stunned 2 and clumsy 2.</p>"
+          "description": "<p>When attempting a save against a light effect, a myrucarx gets a result one degree of success lower than it rolled. A myrucarx caught in sunlight is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}.</p>"
         },
         "action->Illusory Persona": {
           "name": "Illusory Persona",
@@ -5842,6 +5842,9 @@
         "weapon->+1 Shortsword": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp]\n+1 Shortsword"
         },
+        "weapon->War Razor": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nOFcCidD5AwVZWTv]\n<p>A war razor is an exaggerated version of the barbers' tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.</p>"
+        },
         "equipment->Religious Symbol (Silver) of Norgorber": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.upzjwQ96cZG0Xlmx]\nReligious Symbol (Silver) of Norgorber",
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.upzjwQ96cZG0Xlmx]\n<p>This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some spells. A religious symbol must be held in one hand to use it.</p>"
@@ -5877,6 +5880,9 @@
       "items": {
         "weapon->+1 Striking Shortsword": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp]\n+1 Striking Shortsword"
+        },
+        "weapon->War Razor": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nOFcCidD5AwVZWTv]\n<p>A war razor is an exaggerated version of the barbers' tool. It is a brittle but extremely sharp weapon that is very easy to slip into a pocket or sleeve.</p>"
         },
         "equipment->Assorted Rags and Textiles": {
           "name": "Assorted Rags and Textiles"
@@ -6148,7 +6154,7 @@
     "Summoning Rune (Barbazu Devil)": {
       "name": "Summoning Rune (Barbazu Devil)",
       "description": "<p>A summoning circle inlaid into the room's floor detects living creatures and summons a violent devil.</p>",
-      "disable": "<p>@Check[perception|dc:18|name:Notice the Trap's Magic|traits:action:seek] to notice the trap's magic and avoid stepping on the floor outside the circle, followed by @Check[thievery|dc:21|name:Break Summoning Circle|traits:action:disable-a-device] (trained) to break the circle or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd level; counteract DC 23) to counteract the rune</p>",
+      "disable": "<p>@Check[perception|dc:18|name:Notice the Trap's Magic|traits:action:seek] to notice the trap's magic and avoid stepping on the floor outside the circle, followed by @Check[thievery|dc:21|name:Break Summoning Circle|traits:action:disable-a-device] (trained) to break the circle or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 23) to counteract the rune</p>",
       "reset": "<p>The trap resets each day at dawn.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -6161,7 +6167,7 @@
     "Summoning Rune (Cinder Rat)": {
       "name": "Summoning Rune (Cinder Rat)",
       "description": "<p>An invisible cloud of magical sensors detects living creatures in the room and summons fire elementals to slay the creatures.</p>",
-      "disable": "<p>@Check[acrobatics|dc:22|name:Approach Rune] (trained) to approach without triggering the trap, followed by @Check[thievery|dc:22|name:Erase Summoning Rune|traits:action:disable-a-device] (trained) to erase the rune or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd level; counteract DC 20) to counteract the rune</p>",
+      "disable": "<p>@Check[acrobatics|dc:22|name:Approach Rune] (trained) to approach without triggering the trap, followed by @Check[thievery|dc:22|name:Erase Summoning Rune|traits:action:disable-a-device] (trained) to erase the rune or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 20) to counteract the rune</p>",
       "reset": "<p>The trap resets each day at dawn.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -6174,7 +6180,7 @@
     "Supplicant Statues": {
       "name": "Supplicant Statues",
       "description": "<p>Six statues rapidly slide around the room on rollers, slowing down intruders and striking at them with spring-loaded sword arms.</p>",
-      "disable": "<p>@Check[thievery|dc:34|name:Disable Statue Rollers|traits:action:disable-a-device] (master) to disable a specific statue's rollers, or @Check[thievery|dc:39|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (master) on the control panel in <strong>A4</strong> deactivates the whole trap. For each statue disabled, the trap loses 1 action from its routine and the DC for its predictive impediment ability decreases by 4. @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th level, counteract DC 32) doesn't harm the statues but removes the predictive impediment ability. Breaking the control panel prevents the trap from resetting.</p>",
+      "disable": "<p>@Check[thievery|dc:34|name:Disable Statue Rollers|traits:action:disable-a-device] (master) to disable a specific statue's rollers, or @Check[thievery|dc:39|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (master) on the control panel in <strong>A4</strong> deactivates the whole trap. For each statue disabled, the trap loses 1 action from its routine and the DC for its predictive impediment ability decreases by 4. @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (7th rank, counteract DC 32) doesn't harm the statues but removes the predictive impediment ability. Breaking the control panel prevents the trap from resetting.</p>",
       "hpDetails": "<strong>Control Panel Hardness</strong> 10; <strong>Control Panel HP</strong> 20 (BT 10)",
       "reset": "<p>The trap deactivates and resets one minute after the room is empty.</p>",
       "routine": "<p>(6 actions) On the trap's initiative, each functioning statue slides up to 40 feet around the room and makes a statue shortsword Strike against an adjacent creature. The trap doesn't take a multiple attack penalty, and the statues' movements don't trigger reactions.</p>",
@@ -6203,6 +6209,11 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]\nChill Touch",
           "target": "1 living or undead creature"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "spell->Ray of Enfeeblement": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
@@ -6230,7 +6241,7 @@
         },
         "action->Spell-Imbued Blade": {
           "name": "Spell-Imbued Blade",
-          "description": "<p>The svartalfar killer chooses @UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]{Acid Splash}, @UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce Flame}, @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]{Enfeeble}, or @UUID[Compendium.pf2e.spells-srd.Item.r3NeUnsgt9mS03Sn]{Shocking Grasp} and makes a melee Strike.</p>\n<p>If the svartalfar killer hits, they cast the chosen spell through the weapon at the same target. The spell's attack roll is the same result as the Strike.</p>"
+          "description": "<p>The svartalfar killer chooses @UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]{Acid Splash}, @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}, @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]{Enfeeble}, or @UUID[Compendium.pf2e.spells-srd.Item.r3NeUnsgt9mS03Sn]{Shocking Grasp} and makes a melee Strike.</p>\n<p>If the svartalfar killer hits, they cast the chosen spell through the weapon at the same target. The spell's attack roll is the same result as the Strike.</p>"
         }
       }
     },
@@ -6381,7 +6392,7 @@
     "The Laughing Fiend's Greeting": {
       "name": "The Laughing Fiend's Greeting",
       "description": "<p>Subtle but deadly magical runes link this mural to Kharnas's master. Good- or neutral-aligned creatures who examine the mural witness the castle's drawbridge silently descend, revealing an endless darkness.</p>",
-      "disable": "<p>@Check[thievery|dc:44|name:Disable Thievery] (legendary) to obscure or mar the magical runes set into the mural, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th level; counteract DC 42) to counteract the mural</p>",
+      "disable": "<p>@Check[thievery|dc:44|name:Disable Thievery] (legendary) to obscure or mar the magical runes set into the mural, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 42) to counteract the mural</p>",
       "reset": "<p>1 week</p>",
       "stealth": "<p>(legendary)</p>",
       "items": {
@@ -7141,7 +7152,7 @@
         },
         "action->Consume Flesh": {
           "name": "Consume Flesh",
-          "description": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of an evil or chaotic creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains [[/r 6d6]] Hit Points. It can regain Hit Points from any given corpse only once.</p>"
+          "description": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of an evil or chaotic creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains @Damage[6d6[healing]] Hit Points. It can regain Hit Points from any given corpse only once.</p>"
         },
         "action->Ghoul Fever": {
           "name": "Ghoul Fever",
@@ -7292,5 +7303,13 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Book 1 - Devil at the Dreaming Palace": "Book 1 - Devil at the Dreaming Palace",
+    "Book 2 - Sixty Feet Under": "Book 2 - Sixty Feet Under",
+    "Book 3 - All or Nothing": "Book 3 - All or Nothing",
+    "Book 4 - Assault on Hunting Lodge Seven": "Book 4 - Assault on Hunting Lodge Seven",
+    "Book 5 - Belly of the Black Whale": "Book 5 - Belly of the Black Whale",
+    "Book 6 - Ruins of the Radiant Siege": "Book 6 - Ruins of the Radiant Siege"
   }
 }

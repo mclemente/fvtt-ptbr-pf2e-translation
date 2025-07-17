@@ -101,7 +101,7 @@
         },
         "action->Acid Breath": {
           "name": "Acid Breath",
-          "description": "<p>The wolf unleashes a stream of bright green acid from its mouth, coating all creatures in a @Template[line|distance:30]. All creatures in the line take @Damage[3d6[acid]] damage (@Check[reflex|dc:16|basic] save).</p>\n<p>The caustic wolf cannot use this ability again for 1 minute.</p>"
+          "description": "<p>The wolf unleashes a stream of bright green acid from its mouth, coating all creatures in a @Template[line|distance:30]. All creatures in the line take @Damage[3d6[acid]|options:area-damage] damage (@Check[reflex|dc:16|basic|options:area-effect] save).</p>\n<p>The caustic wolf cannot use this ability again for 1 minute.</p>"
         },
         "action->Howl": {
           "name": "Howl",
@@ -444,7 +444,7 @@
         },
         "weapon->Frost Vial (Moderate, Infused)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\nFrost Vial (Moderate, Infused)",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{Effect: Frost Vial (Moderate)}</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.nVvH1ZcM7OwIVIs8]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>The liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals the listed cold damage and cold splash damage. On a hit, the target takes a status penalty to its Speeds until the end of its next turn. Many types of frost vial also grant an item bonus to attack rolls.</p>\n<p>You gain a +1 item bonus to attack rolls, the bomb deals 2d6 cold damage and 2 cold splash damage, and the target takes a -10-foot penalty.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{Effect: Frost Vial}</p>"
         },
         "equipment->Crafter's Eyepiece": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.RgNBGpBc9G2yw1C2]\n<p>This rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts.</p>\n<p>While worn, this eyepiece gives you a +1 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored by 15 per proficiency rank instead of 10.</p>"
@@ -514,6 +514,9 @@
         },
         "consumable->Juggernaut Mutagen (Lesser)": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>After you drink this mutagen, your body becomes thick and sturdy. You exhibit a healthy glow, though you tend to be ponderous and unobservant.</p>\n<p><strong>Benefit</strong> You gain a +1 item bonus to Fortitude saves and 5 temporary Hit Points. Whenever you are at maximum Hit Points for at least 1 full minute, you regain the temporary Hit Points.</p>\n<p><strong>Drawback</strong> You take a -2 penalty to Will saves, Perception checks and initiative rolls.</p>\n<p><strong>Duration</strong> 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1l139A2Qik4lBHKO]{Effect: Juggernaut Mutagen (Lesser)}</p>"
+        },
+        "consumable->Stone Body Mutagen (Lesser)": {
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.5ftFTiKY0BMvhzL9]\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Interact</p>\n<hr />\n<p>This mutagen calcifies your body making it as hard as stone.</p>\n<p><strong>Benefit</strong> You gain resistance 5 to physical damage (except bludgeoning).</p>\n<p><strong>Drawback</strong> Your speeds are reduced by 10 feet (minimum 5 feet) and you take a -2 penalty to Reflex saves.</p>\n<p><strong>Duration</strong> 10 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PEPOd38VfVzQMKG5]{Effect: Stone Body Mutagen (Lesser)}</p>"
         },
         "consumable->Acid Energy Mutagen (Lesser)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.mbrwudO35tItsldq]\nAcid Energy Mutagen (Lesser)",
