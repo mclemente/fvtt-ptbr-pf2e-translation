@@ -107,6 +107,9 @@
       "description": "<p>You meld the targets' matter and life force into one and then, in an instant, sift them back out into their component selves. When you separate the targets back into themselves, you can choose to switch the positions of any number of targets with the positions of other targets. Additionally, you can modulate the share of vital essence to share the burden of pain. Distribute the Hit Points of all targets however you choose, except that no target can receive fewer than 1 Hit Point or more than their maximum Hit Points.</p>",
       "target": "You and up to 10 willing living allies"
     },
+    "All-Encompassing Hunger": {
+      "target": "1 living creature"
+    },
     "Allegro": {
       "name": "Allegro",
       "description": "<p>Você performa rapidamente, acelerando seu aliado. O aliado fica @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Acelerado} e pode usar a ação adicional para Andar, Dar um Passo ou Golpear.</p>",
@@ -297,6 +300,9 @@
       "primarycheck": "Nature or Religion (expert)",
       "secondarycheck": "Nature or Religion (whichever is used for the primary check)",
       "target": "another creature of up to 8th level who is a worshipper of the same deity or philosophy as you"
+    },
+    "Attacked from Within": {
+      "target": "1 creature"
     },
     "Augury": {
       "name": "Augúrio",
@@ -642,6 +648,9 @@
     "Buoyant Bubbles": {
       "target": "1 creature"
     },
+    "Burglar's Blind": {
+      "target": "1 willing creature"
+    },
     "Burning Blossoms": {
       "name": "Burning Blossoms",
       "description": "<p><strong>Area</strong> 30-foot radius, 100-foot tall cylinder</p>\n<hr />\n<p>An intangible hollow tree sprouts from the ground and grows to towering height, radiating a fiery passion and fascinating viewers. The base of the tree takes up a single square and grows 100 feet upwards, while its branches extend outwards 30 feet, forming the spell's cylindrical area. The tree then blossoms, growing delicate white flowers that burn with white-hot fire. As the tree's branches gently rustle in the wind, flower petals drift to the ground in a shower of flame. Any creature that ends its turn under the tree's branches takes 6d6 fire damage from the burning petals. Any enemy that can see the tree, even if the enemy is outside the spell's area, must attempt a will save. This is an emotion, mental, and visual effect. Creatures fascinated with the tree must use at least one of their actions on each of their turns to move toward the tree.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The creature is unaffected, but it must attempt a new save at the end of its turn if it can still see the tree.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with the tree until the end of its next turn. If it can still see the tree then, it must attempt a save again.</p>\n<p><strong>Critical Failure</strong> The creature is fascinated with the tree until the spell ends. The tree's fire damage doesn't end the fascination; other hostile actions end it, as normal. If the fascination ends, the creature must attempt a new save at the end of its turn if it can still see the tree.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6</p>"
@@ -721,6 +730,9 @@
     },
     "Celestial Brand": {
       "name": "Marca Celestial"
+    },
+    "Censure Falsehoods": {
+      "target": "1 creature"
     },
     "Chain Lightning": {
       "name": "Corrente de Relâmpagos",
@@ -1232,6 +1244,9 @@
       "name": "Deceiver's Cloak",
       "description": "<p>You wrap yourself in a cloak of illusion, appearing as another creature of the same body shape with roughly similar height and weight as yourself. This has the effects of a 3rd-level <em>@UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Illusory Disguise}</em>.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can appear as any creature of the same size, even with a completely different body shape.</p>"
     },
+    "Defended by Spirits": {
+      "target": "1 ally and 1 enemy"
+    },
     "Deity's Strike": {
       "name": "Deity's Strike",
       "requirements": "You have a deity.",
@@ -1326,6 +1341,9 @@
     "Dimensional Assault": {
       "name": "Dimensional Assault",
       "description": "<p>You tumble through space, making a short dimensional hop to better position yourself for an attack. Teleport to any square in range that's within reach of a creature, and then make a melee Strike against one creature within your reach.</p>\n<p data-visibility=\"owner\"><em>Note: Conflux spells refresh Spellstrike.</em></p>"
+    },
+    "Dimensional Excision": {
+      "target": "1 creature"
     },
     "Dimensional Steps": {
       "name": "Passos Dimensionais",
@@ -1449,6 +1467,9 @@
       "description": "<p>Você assume o comando do alvo, forçando-o a obedecer às suas ordens. Se emitir uma ordem obviamente autodestrutiva, o alvo não age até você emitir uma nova ordem. O efeito depende do salvamento de Vontade dele.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{atordoado} 1 enquanto luta contra seus comandos.</p><p><strong>Falha</strong>  O alvo segue suas ordens, mas pode tentar um salvamento de Vontade ao final de cada um dos turnos dele. Em um sucesso, a magia é encerrada.</p><p><strong>Falha Crítica</strong>  Como falha, mas o alvo recebe um novo salvamento somente se você emitir uma nova ordem que seja contra a natureza dele, como matar os aliados que ele tiver.</p><p><hr /><strong>Elevada (10º)</strong>  A duração é ilimitada.</p>",
       "target": "1 creature"
     },
+    "Domora's Defense": {
+      "target": "up to 3 creatures"
+    },
     "Door to Beyond": {
       "name": "Porta para o Além",
       "description": "<p> Golpeando no ar, você cria rachaduras em um espaço adjacente desocupado que leva a algum lugar fora da realidade. O ar corre pelas fendas, atraindo criaturas grandes ou menores e objetos de massa leve ou menos em direção ao centro. Criaturas grandes ou menores na área devem tentar um teste de Fortitude no início do turno; criaturas que se movem para a área devem fazer o teste ao entrar.  </p><p> As rachaduras da porta do lado de fora são muito finas para que qualquer coisa deslize completamente, mas efeitos descompressivos causam 4d6 de dano cortante a qualquer criatura ou objeto que termina sua vez no espaço da porta. Você não é afetado por sua própria <em>porta para o além</em>. Você pode Dissipar a magia.  </p><p> <strong>Sucesso</strong> A criatura não é afetada.  <strong>Falha</strong> A criatura é puxada 3 metros em direção à porta.  <strong>Falha Crítica</strong> A criatura é puxada 6 metros em direção à porta. </p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>"
@@ -1570,11 +1591,6 @@
     "Ectoplasmic Interstice": {
       "name": "Interstício Ectoplasmático",
       "description": "<p> Você força os planos material e etéreo a se sobreporem parcialmente, criando uma zona que faz com que entidades incorpóreas e espirituais assumam muitos dos aspectos das criaturas corporais. Dentro do interstício ectoplasmático, criaturas <a href=\"https://2e.aonprd.com/Traits.aspx?ID=222\">incorpóreas</a> creatures não podem passar por objetos sólidos ou criaturas corporais e podem manipular e tentar testes baseados em Força contra criaturas e objetos físicos. Um PJ incorpóreo ou outra criatura com um modificador de Força normal simplesmente usa esse modificador, mas se a criatura tiver um modificador de Força de –5, como a maioria dos monstros incorpóreos, usa um modificador de +4, aumentando seu modificador de <a href=\"https://2e.aonprd.com/Skills.aspx?ID=3\">Atletismo</a> para 9 adequadamente. Ataques contra criaturas que estão dentro do interstício superam as resistências como se fossem armas com a runa <a href=\"https://2e.aonprd.com/Equipment.aspx?ID=297\"><em>toque fantasma</em></a>. </p>"
-    },
-    "Efficient Apport": {
-      "name": "Efficient Apport",
-      "description": "<p>Walking over to an item to pick it up is so much effort. Whether it's your spellbook, a reagent, or a glass of wine, it's simply more efficient to call it to your hand. You teleport the target into your open hand. If you don't have a hand free, it falls to the ground at your feet.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less</p>\n<p><strong>Heightened (5th)</strong> The range increases to 120 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 120 feet, and you can target an unattended object with a Bulk of 2 or less.</p>",
-      "target": "1 unattended object of light Bulk or less"
     },
     "Eidolon's Wrath": {
       "name": "Eidolon's Wrath",
@@ -1910,6 +1926,9 @@
       "name": "Far Sight",
       "description": "<p>You can see distant objects as if they were closer. You can view creatures, objects, and terrain features that are more than 30 feet away and up to 300 feet away as though they were only 30 feet away. You can view creatures, objects, and terrain features that are 300 feet away or more as though they were only one-tenth as far away. This spell only affects your ability to discern visual details; it doesn't let you treat the objects as actually closer for the purposes of spells, ranged attacks, or otherwise. This spell doesn't affect the range of other visual senses you might have, so if you have a visual sense that extends to only 60 feet, you still can't use it to see things beyond that range, even if they would appear closer with this spell.</p>"
     },
+    "Far-Flung Fetch": {
+      "target": "1 unattended object of light Bulk or less"
+    },
     "Fashionista": {
       "target": "1 willing creature"
     },
@@ -2153,6 +2172,9 @@
       "description": "<p>You shoot out ephemeral, telekinetic strands that drag each target directly toward you, stopping in the closest unoccupied space to you in this path. This is forced movement.</p>",
       "target": "1 or 2 willing creatures"
     },
+    "Friendly Push": {
+      "target": "1 willing creature"
+    },
     "Frigid Flurry": {
       "name": "Frigid Flurry",
       "description": "<p>You place a palm to your lips and exhale a cold breath, whipping up a gust of wind that freezes the air's ambient moisture into a flurry of jagged shards. The flurry deals 9d6 cold damage and 9d6 slashing damage to all foes, with a basic Reflex save, but the gust flows harmlessly around your allies. The wind then picks you up and carries you to the other end of the area; though your movement within the gust can still trigger reactions, the storm of ice crystals prevents you from being affected by any effects, except for those that would counteract the spell's magic or that the GM decides would affect snow.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The cold and slashing damage each increase by 1d6.</p>"
@@ -2364,6 +2386,9 @@
       "name": "Halcyon Infusion",
       "description": "<p>You infuse magical energy into your target, opening up their mind to the pathways of magic and granting them the ability to use magic to affect the world around them.</p>\n<p>Choose a 1st-level spell you prepared today or that's in your repertoire, of the same tradition you used to cast halcyon infusion. The spell must be one that has a listed range. If the target is at least 3rd level, you can choose a 2nd-level spell instead of a 1st-level spell; and if the target is at least 5th level, you can choose a 3rd-level spell. The target can Cast the Spell once per day as an innate spell of the tradition you used to cast halcyon infusion. If they are untrained in the appropriate magical tradition, their spell attack bonus is 2 + their level + their highest mental ability modifier, and their spell DC is 12 + their level + their highest mental ability modifier.</p>\n<p>Unlike most abilities that can only be used once per day, the target refreshes their use of the granted innate spell each day only after you make your daily preparations and choose to extend halcyon infusion's duration by either refraining from preparing a spell in the slot (if you're a prepared spellcaster) or expending another spell slot (if you're a spontaneous spellcaster).</p>\n<hr />\n<p><strong>Heightened (8th)</strong> If the target is at least 7th level, you can choose a 4th-level spell.</p>\n<p><strong>Heightened (10th)</strong> As 8th, and if the target is at least 9th level, you can choose a 5th-level spell.</p>",
       "target": "one willing creature of lower level than you"
+    },
+    "Halcyon Mists": {
+      "target": "1 willing living creature"
     },
     "Hallowed Ground": {
       "name": "Hallowed Ground",
@@ -2706,6 +2731,9 @@
       "name": "Infectious Melody",
       "target": "enemies in the area"
     },
+    "Information Overload": {
+      "target": "1 creature"
+    },
     "Inner Radiance Torrent": {
       "name": "Inner Radiance Torrent"
     },
@@ -2809,6 +2837,9 @@
       "description": "<p>You transform your companion into its juvenile form, such as a cub, foal, kitten, puppy, or piglet, making the target appear harmless. It becomes Tiny (if it was larger), and its reach is reduced to 0 feet. All of its Speeds are halved (to a minimum Speed of 5 feet), and it gains weakness 5 to physical damage. In all other ways, its abilities and statistics are unchanged.</p>\n<p>If your companion uses a hostile action, <em>juvenile companion</em> ends. This spell has no effect on a companion that doesn't have a juvenile form.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.0bfqYkNaWsdTmtrc]{Spell Effect: Juvenile Companion}</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The duration increases to 1 hour.</p>",
       "target": "your companion"
     },
+    "Kgalaserke's Axes": {
+      "target": "1 creature"
+    },
     "Ki Cutting Sight": {
       "target": "1 creature"
     },
@@ -2823,6 +2854,9 @@
         }
       },
       "target": "1 or more creatures"
+    },
+    "King's Castle": {
+      "target": "1 willing creature"
     },
     "Knock": {
       "name": "Arrombar",
@@ -3052,6 +3086,9 @@
       "description": "<p>Você embute uma semente de energia negativa em um morto-vivo, restaurando o vigor sobrenatural dele. O alvo recebe cura acelerada 7. Esta cura surge de energia negativa, portanto, ela cura os mortos-vivos em vez de causar dano a eles.</p>\n<p>@Compendium[pf2e.spell-effects.tjC6JeZgLDPIMHjG]{Spell Effect: Malignant Sustenance}</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A cura acelerada aumenta em 2 pontos.</p>",
       "target": "1 willing undead creature"
     },
+    "Manifestation of Spirits": {
+      "target": "1 creature"
+    },
     "Manifold Lives": {
       "name": "Manifold Lives",
       "description": "<p>You cast a creature's mind back through time, forcing them to take other paths and make other choices, experiencing countless alternate lives in an instant. The creature becomes overwhelmed with regret over paths untraveled, lives unlived, and times unrealized. The creature takes [[/r 6d6[mental]]] damage and must attempt a Will save. After the effect is resolved, the target is then temporarily immune for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p>\n<p><strong>Failure</strong> The creature takes full damage and is stupefied 2 for 1 minute. While affected, the creature must attempt another save at the start of its turn; on a failure, it's @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for that turn as it sobs uncontrollably.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and for 1 minute, it's @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 4} and slowed 1 as it sobs uncontrollably.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The mental damage increases by [[/r 1d6]]{1d6}.</p>",
@@ -3108,6 +3145,9 @@
     "Mending": {
       "name": "Emendar",
       "target": "non-magical object of light Bulk or less"
+    },
+    "Mental Map": {
+      "target": "1 creature"
     },
     "Message": {
       "name": "Mensagem",
@@ -3432,6 +3472,9 @@
       "description": "<p>Enormes quantidades de comida e bebida enchem o alvo. Ele recebe uma refeição completamente nutritiva e deve tentar um salvamento de Fortitude.</p><p>Um alvo  @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} por esta magia sofre –3 metros de penalidade de estado na Velocidade dele até que não esteja mais @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}.</p> <hr /><p> <strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} 1, mas se gastar uma ação para encerrar a condição, ele obtém sucesso automaticamente.</p><p><strong>Failure</strong> O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} 1.</p> <p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} 2.</p>",
       "target": "1 living creature"
     },
+    "Overwhelming Memory": {
+      "target": "1 creature"
+    },
     "Overwhelming Presence": {
       "name": "Presença Avassaladora",
       "description": "<p>Você se envolve com um esplendor sobrenatural, parecendo ser um deus ou ser similarmente majestoso. Você escolhe os aspectos de sua nova aparência majestosa. Isto força os alvos prestarem tributo a você curvando-se ou usando alguma outra ação condizente com sua aparência. A quantidade de vezes que um alvo deve fazer isto depende do resultado do salvamento de Vontade dele.</p><p>Prestar tributo é uma ação de manuseio ou uma ação de movimento, conforme escolhido pela criatura prestando o tributo. Uma criatura sob este efeito deve prestar tributo a você pelo menos uma vez em cada um dos turnos dela se possível. Enquanto estiver afetada por esta magia, a criatura fica @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} por você e não pode usar ações hostis contra você. O alvo fica temporariamente imune por 1 minuto.</p> <hr /><p><strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo deve prestar tributo duas vezes.</p> <p><strong>Falha</strong> O alvo deve prestar tributo seis vezes.</p> <p><strong>Falha Crítica</strong>  Como falha, e o alvo deve gastar todas as ações dele prestando tributo se possível.</p>",
@@ -3742,11 +3785,6 @@
       "description": "<p>The racoon-like visage of a sagacious procyal appears, dispensing helpful advice. The image appears floating next to the target. The image is just a floating magical manifestation and doesn't occupy any space. The procyal offers helpful suggestions, preparing to Aid the target as though the procyal had its own reaction. The procyal uses a bonus equal to your spell DC - 10 for its rolls to Aid.</p>\n<p> On each of your turns, the procyal prepares to Aid its target again. You can use a free action, which has the concentrate trait, to redirect the procyal image to a different creature, changing the target of the spell. Otherwise, the procyal keeps aiding the same creature for the duration of the spell.</p>",
       "target": "1 creature"
     },
-    "Produce Flame": {
-      "name": "Produzir Chama",
-      "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
-      "target": "1 creature"
-    },
     "Project Image": {
       "name": "Projetar Imagem",
       "description": "<p>Você projeta uma imagem ilusória sua. Você deve permanecer na distância da imagem e, se a qualquer momento não puder ver a imagem, a magia acaba. Sempre que Conjurar uma Magia que não possua uma área de emanação, você pode fazer o efeito da magia originar de si mesmo ou da imagem. Como a imagem é uma ilusão, ela não pode se beneficiar de magias, embora manifestações visuais ainda apareçam. A imagem possui a mesma CA e salvamentos que você. Se ela for atingida por um ataque ou falhar em um salvamento, a magia é encerrada.s.</p><hr /><p><strong>Elevada (+2)</strong> A duração máxima que você pode Sustentar a Magia aumenta para 10 minutos.</p>"
@@ -3885,6 +3923,9 @@
     "Rallying Banner": {
       "target": "1 willing creature"
     },
+    "Ranage's Circle": {
+      "target": "1 creature"
+    },
     "Ranger's Bramble": {
       "name": "Ranger's Bramble",
       "description": "<p>You cause plants in the area to entangle your foes, with the effects of <em>@UUID[Compendium.pf2e.spells-srd.J6vNvrUT3b1hx2iA]{Entangle}</em>.</p>\n<p>A creature that critically fails the save takes @Localize[PF2E.PersistentDamage.Bleed2d4.success] in addition to being @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}. @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escaping} your bramble doesn't end the bleed damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The bleed damage on a critical failure increases by @Localize[PF2E.PersistentDamage.Bleed1d4.success].</p>"
@@ -3951,12 +3992,18 @@
       },
       "target": "1 living creature per action spent to cast this spell"
     },
+    "Recall Legacy": {
+      "target": "1 willing creature"
+    },
     "Recall Past Life": {
       "name": "Recall Past Life",
       "description": "<p>You and the secondary casters spend 2 days drawing sigils on one another. At the end of the second day, the secondary caster responsible for the Crafting check carefully mixes the wine with the herbs and a small amount of saliva or blood from the target. The target then drinks the concoction, entering a state of metaphorical death and rebirth, their body becoming comatose for the final day of the ritual. During this time, you and the other secondary caster bathe the body in dirt, symbolizing a grave, and sprinkle the remainder of the wine around the body. If done properly, swaddled baby orchids grow around the area, enveloping the body in a bed of flowers.</p>\n<p> On the final hour, the target returns to life, waking up temporarily possessed by an incarnation from one of their past lives. Though they retain the memories from their current life, their demeanor and personality are different for the remaining duration of the ritual, and they also remember vivid details from their past life. Unfortunately, it's impossible to choose a particular past self or to know whether a given former incarnation has good or bad intentions.</p>\n<hr />\n<p><strong>Critical Success</strong> The target's personality reverts to a previous incarnation, determined by the GM. Normally they keep their abilities, but in rare cases, the GM might determine that the past incarnation has a different set of abilities based on their previous life. The lingering knowledge of the past incarnation is powerful and sticks with the target, allowing them to retrain one of their skills increases into a skill in which the past incarnation was particularly talented; the list of possible skills depends on the nature of the past incarnation and is determined by the GM.</p>\n<p><strong>Success</strong> As critical success, except there's no lingering knowledge, and the target isn't able to retrain a skill increase.</p>\n<p><strong>Failure</strong> Nothing happens, though the target's @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} state is disturbing, and they wake up @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} as well as likely hungry and thirsty.</p>\n<p><strong>Critical Failure</strong> The sigils are drawn improperly, or the wine was tainted. The swaddled baby orchids that grow around the body scream at the moment when the target would've awakened. The target dies and immediately animates as a malevolent zombie that carries the rot with them and seeks to destroy their former allies. Use the statistics for a husk zombie (Book of the Dead 170), or another zombie as appropriate for the target's ancestry.</p>",
       "primarycheck": "Occultism (master) or Religion (master)",
       "secondarycheck": "Manufatura",
       "target": "the secondary caster who doesn't perform the Crafting check"
+    },
+    "Reclined Apport": {
+      "target": "1 unattended object of light Bulk or less"
     },
     "Redact": {
       "name": "Redigir",
@@ -4640,6 +4687,9 @@
       "name": "Spirit Veil",
       "description": "<p>You draw an occluding veil of spirits around yourself, blocking yourself especially well from undead eyes. You become @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} to all creatures, and you are @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from undead creatures regardless of what precise senses they have; this grants the effects of <em>@UUID[Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Invisibility}</em>, but against all the undead creature's precise senses. If you physically @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} with an undead creature or use a hostile action, the spell ends.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> You can target one additional willing creature within 30 feet. The spell ends if any target physically Interacts with an undead creature or uses a hostile action.</p>"
     },
+    "Spirit Ward": {
+      "target": "1 creature"
+    },
     "Spirit of the Beast": {
       "target": "your animal companion"
     },
@@ -4662,6 +4712,9 @@
     "Spiritual Guardian": {
       "name": "Guardião Espiritual",
       "description": "<p> Um guardião Médio feito de força mágica aparece e ataca adversários que você designar na distância. O guardião espiritual é translúcido e parece estar segurando a arma favorita de sua divindade.  </p><p> Quando você Conjurar a Magia, o guardião espiritual aparece em um espaço desocupado próximo a um adversário escolhido na distância desta magia e desfere um Golpe contra ele. Cada vez que Sustentar a Magia, você pode mover o guardião espiritual para um espaço desocupado próximo a um alvo na distância da magia (se necessário) e desferir um Golpe com ele. O guardião sofre e contribui para sua penalidade por ataques múltiplos. Alternativamente, quando Sustentar a Magia, você pode fazer o guardião se mover adjacente a um aliado e protegê-lo. Se fizer isso, cada vez que o aliado sofreria dano, o guardião sofre os primeiros 10 pontos de dano em vez de seu aliado. Ele continua a fazê-lo até você mover o guardião para atacar um inimigo ou defender um aliado diferente, ou até o guardião ser destruído (ele possui 50 pontos de Vida e não pode recuperar Pontos de Vida por quaisquer meios). O guardião normalmente não pode sofrer dano exceto ao proteger um aliado, embora <em>desintregar</em> automaticamente o destrua se acertar a CA 25 do guardião espiritual.  </p><p> Os Golpes do guardião são ataques de magia corpo a corpo. Independentemente da aparência da arma do guardião, ele causa dano de força igual a 2d8 mais o modificador de seu atributo de conjuração, mas você pode causar dano do tipo normalmente causado pela arma que ele porta em vez de dano de força (ou qualquer tipo de dano disponível para uma arma versátil). Nenhum outro traço ou estatística da arma se aplica, e mesmo um ataque com uma arma à distância ataca somente criaturas adjacentes. Apesar de realizar um ataque de magia, a arma do guardião espiritual é considerada uma arma para os propósitos de acionamentos, resistências e outras regras similares.  </p><p> O guardião ocupa um espaço e aliados podem considerá-lo quando flanquearem, mas ele não possui quaisquer outras características que uma criatura normalmente teria além de Pontos de Vida, e outras criaturas podem mover-se através do espaço dele sem impedimento. O guardião não pode realizar qualquer ataque além do Golpe dele, e talentos ou magias que afetem armas ou reforcem aliados não se aplicam a ele. </p><hr /><p><strong>Elevada (+2)</strong> O dano do guardião aumenta em 1d8 e os Pontos de Vida dele aumentam em 20.</p>"
+    },
+    "Spiritual Renewal": {
+      "target": "1 living creature"
     },
     "Spiritual Weapon": {
       "name": "Arma Espiritual",
@@ -4814,6 +4867,9 @@
     "Sudden Shift": {
       "name": "Mudança Súbita",
       "description": "<p><strong>Gatilho</strong>Um inimigo erra você com um ataque corpo a corpo.</p><hr /><p>Você se afasta rapidamente de um lugar perigoso e se cobre. Você Dá um Passo e fica @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{ocultado}.</p>"
+    },
+    "Sudden Transposition": {
+      "target": "up to 2 creatures"
     },
     "Suffocate": {
       "heightening": {
@@ -5175,6 +5231,12 @@
       "description": "<p> Você usa correntes mágicas, trepadeiras ou outras amarras para prender seu alvo a você. A criatura ainda pode tentar  @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapar}, e ele ou outros podem quebrar as amarras, atacando-as (as amarras têm CA 15 e 10 Pontos de Vida). Você deve permanecer a 9 metros do alvo enquanto ele estiver amarrado; afastar-se a mais de 9 metros do alvo termina a magia. O alvo deve tentar um teste de Reflexo.   <strong>Sucesso Crítico</strong> O alvo não é afetado. <strong>Sucesso</strong> O alvo sofre uma penalidade de circunstância de 1,5 metros à sua Velocidade, desde que esteja a 9 metros de você. <strong>Falha</strong> O alvo sofre uma penalidade de circunstância de 3 metros à sua Velocidade e não pode se mover a mais de 9 metros de você até que ele Escape ou a magia termine.  <strong>Falha Crítica</strong> O alvo fica @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{imobilizado} até que ele Escape ou a magia termine. </p><hr /><p><strong>Elevada (+1)</strong> A CA das amarras aumenta em 3 e seus pontos de vida aumentam em 10.</p>",
       "target": "1 creature"
     },
+    "The Four Hunters": {
+      "target": "1 or more creatures"
+    },
+    "The Parrot's Whisper": {
+      "target": "1 creature"
+    },
     "The World's a Stage": {
       "name": "The World's a Stage",
       "description": "<p>This famous ritual is a sophisticated example of symbolic magic, binding fate and fortune to follow a prepared script. To conduct the ritual, you and the secondary casters must put on a long-form, multi-person, plot-based performance that's usually a play or opera, though more unusual performances have been known. You take the role of the director, while the secondary casters are either actors (Performance) or significant backstage figures, such as set or costume designers (Crafting). The casting time of the ritual includes both preparations and rehearsals of various sorts and the actual performance, which must be at least an hour long.</p>\n<p>The performance presents current events and offers a particular vision on how they resolve, often in metaphorical or allegorical format (proposing the overthrow of a tyrant by referring to a different, legendary tyrant who was overthrown, or suggesting that a murderous secret might be uncovered by presenting an allegory of truth defeating murder). This performance must be presented to an audience of at least a hundred people, a majority of whom must both be connected, at least peripherally, to the events in question (the people of the tyrant's city, or the residents of the village where the murder occurred) and who must understand what the metaphor or allegory actually refers to. For the magic to spark, the performance must declare its purpose loudly and clearly to the parties most concerned. If a major antagonist featured in the performance is in the audience and the ritual is a success, you get a critical success instead.</p>\n<hr />\n<p><strong>Critical Success</strong> Something sublime sparks between performance and audience, and destiny conspires to push events in the right direction. You and each secondary caster can reroll up to three skill checks at any point during the duration of the ritual after determining the results, as long as the skill check is connected to ensuring the topic of the performance comes true (to sneak past the tyrant's guards or find the murder weapon, for instance).</p>\n<p><strong>Success</strong> As critical success except the sparks of destiny are weaker, so each caster can reroll only a single skill check.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> The performance is a dramatic and horrendous botch, and fate strikes out at the casters. You and each secondary caster are @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed 1} for the next month, and this condition can't be removed by anything less than a wish or similarly powerful magic.</p>",
@@ -5196,6 +5258,9 @@
     },
     "Threefold Aspect": {
       "name": "Threefold Aspect"
+    },
+    "Threefold Limb": {
+      "target": "1 creature"
     },
     "Thunderburst": {
       "name": "Thunderburst"
@@ -5382,6 +5447,9 @@
       "description": "<p><strong>Trigger</strong> You are targeted with an enemy's Strike.</p>\n<hr />\n<p>When attacked, you attempt to quickly swap your own position with that of another creature. A creature that is unwilling to swap places with you must attempt a Will save. Willing creatures automatically fail. If you successfully switch places with the target, the triggering attack is resolved against that creature as if it had been the original target of the attack. After the swap, you and the target are both temporarily immune to unexpected transposition spells for 1 minute. You automatically switch places if the target is willing. If it's unwilling, it can attempt a Will save. Neither of you teleports if the target succeeds at its save.</p>",
       "target": "1 creature other than the triggering enemy"
     },
+    "Unexpected Windfall": {
+      "target": "1 creature"
+    },
     "Unfathomable Song": {
       "name": "Canção Incomensurável",
       "target": "up to 5 creatures"
@@ -5419,6 +5487,9 @@
       "description": "<p>Você forma uma defesa unificada. Cada aliado pode usar seu modificador de jogada de salvamento em vez do próprio modificador contra a magia acionadora. Cada aliado decide individualmente qual modificador usar.</p>",
       "target": "each ally targeted by the triggering spell"
     },
+    "Unravel Knowledge": {
+      "target": "1 creature"
+    },
     "Unraveling Blast": {
       "target": "1 creature"
     },
@@ -5434,6 +5505,9 @@
     "Unseen Heralds": {
       "primarycheck": "Arcana or Occultism (expert)",
       "secondarycheck": "Arcana or Occultism (whichever isn't used for the primary check), Diplomacy"
+    },
+    "Unsettling Knowledge": {
+      "target": "1 creature"
     },
     "Unspeakable Shadow": {
       "name": "Unspeakable Shadow",
@@ -5840,5 +5914,10 @@
     },
     "secondarycheck": "system.secondarycheck.value",
     "target": "system.target.value"
+  },
+  "folders": {
+    "Cantrip": "Truque",
+    "Focus": "Foco",
+    "Ritual": "Ritual"
   }
 }
