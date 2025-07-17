@@ -28,6 +28,9 @@ jobs:
 
             - name: Sync packs and Commit Changes
               run: |
+                  git submodule init
+                  git submodule update
+                  npm ci
                   git config user.email "action@github.com"
                   git config user.name "Github Action"
                   npm run pack-extractor
