@@ -17,61 +17,6 @@
         }
       }
     },
-    "Acrobat": {
-      "name": "Acrobata",
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-melee->Foot": {
-          "name": "Pé"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        },
-        "action->Steady Balance": {
-          "name": "Equilíbrio Estável"
-        },
-        "action->Cat Fall": {
-          "name": "Queda do Gato"
-        },
-        "lore->Circus Lore": {
-          "name": "Saber de Circo"
-        }
-      }
-    },
-    "Adept": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "lore->Scribing Lore": {
-          "name": "Saber Escrita"
-        }
-      }
-    },
-    "Advisor": {
-      "items": {
-        "spell->Touch of Idiocy": {
-          "target": "1 living creature"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
-        "spell->Soothe": {
-          "target": "1 willing living creature"
-        },
-        "strike-melee->Whip": {
-          "name": "Chicote"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        }
-      }
-    },
     "Antipaladin": {
       "name": "Antipaladino",
       "items": {
@@ -86,72 +31,6 @@
         },
         "action->Intimidating Strike": {
           "name": "Golpe Intimidante"
-        }
-      }
-    },
-    "Apothecary": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        }
-      }
-    },
-    "Apprentice": {
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        }
-      }
-    },
-    "Archer Sentry": {
-      "items": {
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-ranged->Composite Longbow": {
-          "name": "Arco Longo Composto"
-        }
-      }
-    },
-    "Assassin": {
-      "name": "Assassino",
-      "items": {
-        "strike-melee->Rapier": {
-          "name": "Rapieira"
-        },
-        "strike-ranged->Composite Shortbow": {
-          "name": "Arco Curto Composto"
-        },
-        "action->Swift Sneak": {
-          "name": "Esgueirar-se Rapidamente"
-        },
-        "action->Deny Advantage": {
-          "name": "Negar vantagem (Nível 3)"
-        },
-        "action->Poison Weapon": {
-          "name": "Envenenar Arma"
-        },
-        "action->Quick Draw": {
-          "name": "Saque Rápido"
-        },
-        "action->Surprise Attack": {
-          "name": "Ataque Surpresa"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Astronomer": {
-      "items": {
-        "equipment->Spell Component Pouch": {
-          "description": "<p>Esta bolsa contém componentes materiais para magias que os requerem. Embora os componentes sejam usados com o tempo, você pode reabastecê-los durante suas preparações diárias.</p>"
-        },
-        "strike-melee->Staff": {
-          "name": "Cajado"
         }
       }
     },
@@ -171,29 +50,6 @@
         }
       }
     },
-    "Bandit": {
-      "name": "Bandido",
-      "items": {
-        "strike-melee->Hatchet": {
-          "name": "Machadinha"
-        },
-        "strike-ranged->Hatchet": {
-          "name": "Machadinha"
-        },
-        "strike-ranged->Sling": {
-          "name": "Funda"
-        },
-        "action->Dread Striker": {
-          "name": "Golpeador Pavoroso"
-        },
-        "action->Favored Terrain": {
-          "name": "Terreno Predileto"
-        },
-        "lore->Forest Lore": {
-          "name": "Saber de Florestas"
-        }
-      }
-    },
     "Barkeep": {
       "name": "Taverneiro",
       "items": {
@@ -208,159 +64,22 @@
         }
       }
     },
-    "Barrister": {
-      "name": "Advogado",
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        }
-      }
-    },
-    "Beast Tamer": {
-      "items": {
-        "spell->Dancing Lights": {
-          "name": "Luzes Dançantes",
-          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "spell->Heal Animal": {
-          "target": "1 willing living animal creature"
-        },
-        "strike-melee->Whip": {
-          "name": "Chicote"
-        },
-        "action->Wild Empathy": {
-          "name": "Empatia Selvagem"
-        },
-        "lore->Circus Lore": {
-          "name": "Saber de Circo"
-        }
-      }
-    },
-    "Beggar": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-ranged->Rock": {
-          "name": "Rocha"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Bodyguard": {
-      "items": {
-        "strike-melee->Greatclub": {
-          "name": "Clava Pesada"
-        },
-        "strike-melee->Sap": {
-          "name": "Porrete"
-        }
-      }
-    },
-    "Bosun": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "lore->Sailing Lore": {
-          "name": "Saber de Navegação"
-        }
-      }
-    },
-    "Bounty Hunter": {
-      "name": "Caçador de Recompensas",
-      "items": {
-        "strike-melee->Falchion": {
-          "name": "Bracamante"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "action->Hunt Prey": {
-          "name": "Caçar Presa"
-        },
-        "action->Running Reload": {
-          "name": "Recarga em Movimento"
-        }
-      }
-    },
-    "Burglar": {
-      "items": {
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-melee->Sap": {
-          "name": "Porrete"
-        },
-        "strike-ranged->Composite Shortbow": {
-          "name": "Arco Curto Composto"
-        },
-        "action->Deny Advantage": {
-          "name": "Negar vantagem (Nível 3)"
-        },
-        "action->Mobility": {
-          "name": "Mobilidade"
-        },
-        "action->Surprise Attack": {
-          "name": "Ataque Surpresa"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Captain Of The Guard": {
-      "items": {
-        "strike-melee->Longsword": {
-          "name": "Espada Longa"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "action->Bravery": {
-          "name": "Bravura"
-        },
-        "lore->Warfare Lore": {
-          "name": "Saber de Guerra"
-        }
-      }
-    },
     "Changeling Hellknight": {
       "items": {
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
         },
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "strike-melee->Halberd": {
           "name": "Alabarda"
-        }
-      }
-    },
-    "Charlatan": {
-      "name": "Charlatão",
-      "items": {
-        "spell->Magic Aura": {
-          "target": "1 object of 3 bulk or less"
-        },
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-melee->Sap": {
-          "name": "Porrete"
-        },
-        "action->Versatile Performance": {
-          "name": "Performance Versátil"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
         }
       }
     },
@@ -380,306 +99,10 @@
         }
       }
     },
-    "Chronicler": {
-      "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
-        "consumable->Scroll of Acid Arrow (Level 2)": {
-          "consumableSpellName": "Flecha Ácida",
-          "consumableSpellTarget": "1 creature"
-        },
-        "consumable->Scroll of Heal (Level 1)": {
-          "consumableSpellName": "Curar",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-melee->Staff": {
-          "name": "Cajado"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "lore->Scribing Lore": {
-          "name": "Saber Escrita"
-        }
-      }
-    },
-    "Commoner": {
-      "items": {
-        "strike-melee->Sickle": {
-          "name": "Foice"
-        },
-        "strike-ranged->Rock": {
-          "name": "Rocha"
-        }
-      }
-    },
-    "Cult Leader": {
-      "items": {
-        "spell->Touch of Idiocy": {
-          "target": "1 living creature"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "strike-melee->Staff": {
-          "name": "Cajado"
-        }
-      }
-    },
-    "Cultist": {
-      "name": "Cultista",
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        }
-      }
-    },
-    "Dancer": {
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-melee->Foot": {
-          "name": "Pé"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        }
-      }
-    },
-    "Demonologist": {
-      "items": {
-        "spell->Resilient Sphere": {
-          "target": "1 Large or smaller creature"
-        },
-        "spell->Glyph of Warding": {
-          "name": "Glifo de Guarda",
-          "target": "1 container or a 10-foot-by-10-foot area"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
-        "equipment->Spell Component Pouch": {
-          "description": "<p>Esta bolsa contém componentes materiais para magias que os requerem. Embora os componentes sejam usados com o tempo, você pode reabastecê-los durante suas preparações diárias.</p>"
-        },
-        "strike-melee->Longspear": {
-          "name": "Lança Longa"
-        },
-        "lore->Academia Lore": {
-          "name": "Saber Acadêmico"
-        },
-        "lore->Demon Lore": {
-          "name": "Saber de Demônios"
-        }
-      }
-    },
-    "Despot": {
-      "items": {
-        "spell->Undetectable Alignment": {
-          "name": "Tendência Indetectável",
-          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
-          "target": "1 creature or object"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "strike-melee->Spiked Gauntlet": {
-          "name": "Manopla com Cravos"
-        },
-        "action->Dangerous Sorcery": {
-          "name": "Feitiçaria Perigosa"
-        },
-        "lore->Warfare Lore": {
-          "name": "Saber de Guerra"
-        }
-      }
-    },
-    "Dockhand": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "lore->Labor Lore": {
-          "name": "Saber de Trabalho"
-        }
-      }
-    },
-    "Drunkard": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "lore->Alcohol Lore": {
-          "name": "Saber de Álcool"
-        }
-      }
-    },
     "Ethereal Sailor": {
       "items": {
         "lore->Sailing Lore": {
           "name": "Saber de Navegação"
-        }
-      }
-    },
-    "Executioner": {
-      "items": {
-        "strike-melee->Greataxe": {
-          "name": "Machado Longo"
-        },
-        "action->Intimidating Strike": {
-          "name": "Golpe Intimidante"
-        },
-        "action->Mark for Death": {
-          "name": "Mark for Death"
-        }
-      }
-    },
-    "False Priest": {
-      "items": {
-        "strike-melee->Rapier": {
-          "name": "Rapieira"
-        },
-        "strike-ranged->Hand Crossbow": {
-          "name": "Besta de Mão"
-        }
-      }
-    },
-    "Farmer": {
-      "items": {
-        "lore->Farming Lore": {
-          "name": "Saber de Agricultura"
-        }
-      }
-    },
-    "Fence": {
-      "items": {
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        },
-        "lore->Accounting Lore": {
-          "name": "Saber de Contabilidade"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Gang Leader": {
-      "items": {
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-ranged->Sling": {
-          "name": "Funda"
-        },
-        "action->Deny Advantage": {
-          "name": "Negar vantagem (Nível 3)"
-        },
-        "action->Evasion": {
-          "name": "Evasão (Nível 7)"
-        },
-        "action->Surprise Attack": {
-          "name": "Ataque Surpresa"
-        },
-        "action->Gang Up": {
-          "name": "Bandear"
-        },
-        "action->Quick Draw": {
-          "name": "Saque Rápido"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Grave Robber": {
-      "name": "Grave Robber (Book of the Dead)",
-      "items": {
-        "strike-ranged->Holy Water": {
-          "name": "Água Benta"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Guard": {
-      "name": "Guarda",
-      "items": {
-        "strike-melee->Club": {
-          "name": "Clava"
-        },
-        "strike-melee->Sap": {
-          "name": "Porrete"
-        },
-        "strike-ranged->Club": {
-          "name": "Clava"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        }
-      }
-    },
-    "Guide": {
-      "name": "Guia",
-      "items": {
-        "strike-melee->Greataxe": {
-          "name": "Machado Longo"
-        },
-        "strike-ranged->Composite Shortbow": {
-          "name": "Arco Curto Composto"
-        }
-      }
-    },
-    "Guildmaster": {
-      "items": {
-        "strike-melee->Light Hammer": {
-          "name": "Martelo Leve"
-        },
-        "strike-ranged->Light Hammer": {
-          "name": "Martelo Leve"
-        },
-        "lore->Architecture Lore": {
-          "name": "Saber de Arquitetura"
-        }
-      }
-    },
-    "Harbormaster": {
-      "items": {
-        "strike-melee->Hatchet": {
-          "name": "Machadinha"
-        },
-        "strike-ranged->Hatchet": {
-          "name": "Machadinha"
-        },
-        "action->Steady Balance": {
-          "name": "Equilíbrio Estável"
-        },
-        "lore->Sailing Lore": {
-          "name": "Saber de Navegação"
-        }
-      }
-    },
-    "Harrow Reader": {
-      "items": {
-        "strike-melee->Sickle": {
-          "name": "Foice"
-        },
-        "lore->Fortune-Telling Lore": {
-          "name": "Saber de Vidência"
         }
       }
     },
@@ -704,6 +127,11 @@
         "spell->Light": {
           "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Morningstar": {
           "name": "Maça-estrela"
         },
@@ -715,198 +143,6 @@
         }
       }
     },
-    "Hunter": {
-      "name": "Caçador",
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-ranged->Composite Longbow": {
-          "name": "Arco Longo Composto"
-        },
-        "action->Forager": {
-          "name": "Forrageador"
-        },
-        "action->Hunt Prey": {
-          "name": "Caçar Presa",
-          "rules": {
-            "4": {
-              "label": "Primeiro ataque à presa caçada na rodada"
-            }
-          }
-        },
-        "lore->Forest Lore": {
-          "name": "Saber de Florestas"
-        }
-      }
-    },
-    "Innkeeper": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "lore->Accounting Lore": {
-          "name": "Saber de Contabilidade"
-        },
-        "lore->Cooking Lore": {
-          "name": "Saber de Culinária"
-        }
-      }
-    },
-    "Jailer": {
-      "items": {
-        "strike-melee->Club": {
-          "name": "Clava"
-        },
-        "strike-ranged->Club": {
-          "name": "Clava"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "action->Intimidating Strike": {
-          "name": "Golpe Intimidante"
-        }
-      }
-    },
-    "Judge": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "action->Group Impression": {
-          "name": "Impressionar Grupo"
-        }
-      }
-    },
-    "Librarian": {
-      "items": {
-        "strike-melee->Book": {
-          "name": "Livro"
-        },
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-ranged->Book": {
-          "name": "Livro"
-        },
-        "lore->Academia Lore": {
-          "name": "Saber Acadêmico"
-        },
-        "lore->Library Lore": {
-          "name": "Saber Biblioteconomia"
-        }
-      }
-    },
-    "Mage For Hire": {
-      "items": {
-        "spell->Dancing Lights": {
-          "name": "Luzes Dançantes",
-          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "strike-melee->Staff": {
-          "name": "Cajado"
-        }
-      }
-    },
-    "Mastermind": {
-      "name": "Mandante",
-      "items": {
-        "strike-melee->Shortsword": {
-          "name": "Espada Curta"
-        },
-        "strike-ranged->Hand Crossbow": {
-          "name": "Besta de Mão"
-        },
-        "action->Versatile Performance": {
-          "name": "Performance Versátil"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Merchant": {
-      "name": "Mercador",
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "lore->Mercantile Lore": {
-          "name": "Saber de Mercadores"
-        }
-      }
-    },
-    "Miner": {
-      "items": {
-        "strike-melee->Pick": {
-          "name": "Picareta"
-        }
-      }
-    },
-    "Monster Hunter": {
-      "name": "Caçador de Monstros",
-      "items": {
-        "strike-melee->Greataxe": {
-          "name": "Machado Longo"
-        },
-        "strike-ranged->Composite Longbow": {
-          "name": "Arco Longo Composto"
-        },
-        "action->Rage": {
-          "name": "Fúria"
-        },
-        "action->Sudden Charge": {
-          "name": "Investida Súbita"
-        }
-      }
-    },
-    "Navigator": {
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        },
-        "lore->Sailing Lore": {
-          "name": "Saber de Navegação"
-        }
-      }
-    },
-    "Necromancer": {
-      "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "consumable->Scroll of Spectral Hand (Level 2)": {
-          "consumableSpellName": "Mão Espectral",
-          "consumableSpellDescription": "<p>Você cria a partir de sua essência uma mão semi-corpórea que transmite magias de toque. Sempre que Conjurar uma Magia com distância de toque, você pode fazer a mão rastejar pelo chão até um alvo na distância, tocá-lo e então rastejar de volta para você. Quando fizer um ataque de magia corpo a corpo com a mão, você utiliza seus bônus normais. A mão pode se mover tão longe quanto precisar dentro da distância da magia. A mão utiliza a sua CA e salvamentos, mas qualquer dano que ela sofrer a destrói e faz você sofrer 1d6 de dano.</p>"
-        },
-        "strike-melee->Light Mace": {
-          "name": "Maça Leve"
-        },
-        "action->Drain Bonded Item": {
-          "name": "Drenar Item Ligado"
-        }
-      }
-    },
-    "Noble": {
-      "items": {
-        "strike-melee->Rapier": {
-          "name": "Rapieira"
-        },
-        "strike-melee->Fist": {
-          "name": "Punho"
-        }
-      }
-    },
     "Nyctessa": {
       "items": {
         "spell->Blood Vendetta": {
@@ -914,16 +150,6 @@
         },
         "strike-melee->Fangs": {
           "name": "Presas"
-        }
-      }
-    },
-    "Palace Guard": {
-      "items": {
-        "strike-melee->Halberd": {
-          "name": "Alabarda"
-        },
-        "strike-melee->Fist": {
-          "name": "Punho"
         }
       }
     },
@@ -977,87 +203,6 @@
         }
       }
     },
-    "Physician": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        }
-      }
-    },
-    "Pirate": {
-      "name": "Pirata",
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        },
-        "action->Bravery": {
-          "name": "Bravura"
-        },
-        "lore->Sailing Lore": {
-          "name": "Saber de Navegação"
-        }
-      }
-    },
-    "Plague Doctor": {
-      "items": {
-        "spell->Neutralize Poison": {
-          "target": "1 creature"
-        },
-        "spell->Remove Disease": {
-          "name": "Remover Doença",
-          "description": "<p>Cura mágica purga uma doença do corpo de uma criatura. Você tenta neutralizar uma doença que esteja afligindo o alvo.<p>",
-          "target": "1 creature"
-        },
-        "spell->Remove Fear": {
-          "target": "1 creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
-        "spell->Purify Food and Drink": {
-          "target": "1 cubic foot of contaminated food or water"
-        },
-        "strike-melee->Staff": {
-          "name": "Cajado"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "action->Healing Hands": {
-          "name": "Mãos Curandeiras"
-        },
-        "action->Improved Communal Healing": {
-          "name": "Cura Comunal Aprimorada"
-        }
-      }
-    },
-    "Poacher": {
-      "items": {
-        "strike-melee->Club": {
-          "name": "Clava"
-        },
-        "strike-ranged->Composite Shortbow": {
-          "name": "Arco Curto Composto"
-        },
-        "action->Forager": {
-          "name": "Forrageador"
-        },
-        "action->Snare Crafting": {
-          "name": "Manufatura de Arapuca"
-        },
-        "action->Hunt Prey": {
-          "name": "Caçar Presa",
-          "rules": {
-            "4": {
-              "label": "Primeiro ataque à presa caçada na rodada"
-            }
-          }
-        }
-      }
-    },
     "Priest of Pharasma": {
       "items": {
         "spell->Disrupt Undead": {
@@ -1080,19 +225,6 @@
         },
         "action->Steady Spellcasting": {
           "name": "Conjuração Consistente"
-        }
-      }
-    },
-    "Prisoner": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "action->Surprise Attack": {
-          "name": "Ataque Surpresa"
-        },
-        "action->You're Next": {
-          "name": "Você é o Próximo"
         }
       }
     },
@@ -1123,22 +255,6 @@
         }
       }
     },
-    "Prophet": {
-      "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
-        "strike-melee->Flail": {
-          "name": "Mangual"
-        },
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-ranged->Rock": {
-          "name": "Rocha"
-        }
-      }
-    },
     "Rain-Scribe": {
       "items": {
         "spell->Light": {
@@ -1156,130 +272,10 @@
         }
       }
     },
-    "Reckless Scientist": {
-      "items": {
-        "equipment->Bandolier": {
-          "name": "Bandoleira"
-        },
-        "strike-melee->Sickle": {
-          "name": "Foice"
-        },
-        "action->Quick Bomber": {
-          "name": "Bombardeiro Rápido"
-        },
-        "lore->Engineering Lore": {
-          "name": "Saber de Engenharia"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Ruffian": {
-      "name": "Esquema de Rufião",
-      "items": {
-        "strike-melee->Club": {
-          "name": "Clava"
-        },
-        "strike-ranged->Club": {
-          "name": "Clava"
-        },
-        "strike-ranged->Sling": {
-          "name": "Funda"
-        },
-        "action->Brutal Beating": {
-          "name": "Surra Brutal"
-        },
-        "action->Snagging Strike": {
-          "name": "Ataque Fisgador"
-        }
-      }
-    },
-    "Saboteur": {
-      "name": "Saboteur",
-      "items": {
-        "strike-melee->Sap": {
-          "name": "Porrete"
-        },
-        "strike-ranged->Hand Crossbow": {
-          "name": "Besta de Mão"
-        },
-        "action->Snare Crafting": {
-          "name": "Manufatura de Arapuca"
-        },
-        "lore->Engineering Lore": {
-          "name": "Saber de Engenharia"
-        },
-        "lore->Underworld Lore": {
-          "name": "Saber de Submundo"
-        }
-      }
-    },
-    "Sage": {
-      "items": {
-        "strike-melee->Staff": {
-          "name": "Cajado"
-        }
-      }
-    },
-    "Servant": {
-      "name": "Servo",
-      "items": {
-        "action->Raise a Shield": {
-          "name": "Erguer um Escudo"
-        }
-      }
-    },
     "Server": {
       "items": {
         "strike-melee->Fist": {
           "name": "Punho"
-        }
-      }
-    },
-    "Ship Captain": {
-      "items": {
-        "strike-melee->Rapier": {
-          "name": "Rapieira"
-        },
-        "strike-melee->Main-Gauche": {
-          "name": "Adaga de Aparar"
-        },
-        "strike-ranged->Hand Crossbow": {
-          "name": "Besta de Mão"
-        },
-        "action->Bravery": {
-          "name": "Bravura"
-        },
-        "lore->Sailing Lore": {
-          "name": "Saber de Navegação"
-        }
-      }
-    },
-    "Smith": {
-      "items": {
-        "strike-melee->Light Hammer": {
-          "name": "Martelo Leve"
-        },
-        "strike-ranged->Light Hammer": {
-          "name": "Martelo Leve"
-        }
-      }
-    },
-    "Spy": {
-      "items": {
-        "strike-melee->Rapier": {
-          "name": "Rapieira"
-        },
-        "strike-ranged->Dagger": {
-          "name": "Adaga"
-        },
-        "action->Noble's Ally": {
-          "rules": {
-            "1": {
-              "label": "Para Impressionar"
-            }
-          }
         }
       }
     },
@@ -1293,35 +289,15 @@
         }
       }
     },
-    "Tax Collector": {
-      "name": "Coletor de Impostos",
-      "items": {
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "lore->Mercantile Lore": {
-          "name": "Saber de Mercadores"
-        }
-      }
-    },
-    "Teacher": {
-      "name": "Professor",
-      "items": {
-        "action->Font of Knowledge": {
-          "name": "Fonte de Conhecimento"
-        },
-        "lore->Academia Lore": {
-          "name": "Saber Acadêmico"
-        }
-      }
-    },
     "Tempest-Sun Mage": {
       "items": {
         "spell->Light": {
           "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 creature"
         },
         "weapon->Staff of Abjuration": {
           "name": "Cajado da Abjuração"
@@ -1331,97 +307,6 @@
         },
         "action->Reach Spell": {
           "name": "Magia de Alcance"
-        }
-      }
-    },
-    "Tomb Raider": {
-      "items": {
-        "strike-melee->Kukri": {
-          "name": "Kukri"
-        },
-        "strike-ranged->Hand Crossbow": {
-          "name": "Besta de Mão"
-        },
-        "lore->Architecture Lore": {
-          "name": "Saber de Arquitetura"
-        },
-        "lore->Engineering Lore": {
-          "name": "Saber de Engenharia"
-        }
-      }
-    },
-    "Torchbearer": {
-      "items": {
-        "strike-melee->Torch": {
-          "name": "Tocha"
-        },
-        "strike-melee->Dagger": {
-          "name": "Adaga"
-        },
-        "strike-ranged->Hand Crossbow": {
-          "name": "Besta de Mão"
-        },
-        "lore->Architecture Lore": {
-          "name": "Saber de Arquitetura"
-        }
-      }
-    },
-    "Tracker": {
-      "items": {
-        "strike-melee->Staff": {
-          "name": "Cajado"
-        },
-        "strike-ranged->Composite Longbow": {
-          "name": "Arco Longo Composto"
-        },
-        "action->Forager": {
-          "name": "Forrageador"
-        },
-        "action->Hunt Prey": {
-          "name": "Caçar Presa",
-          "rules": {
-            "4": {
-              "label": "Primeiro ataque à presa caçada na rodada"
-            }
-          }
-        },
-        "lore->Forest Lore": {
-          "name": "Saber de Florestas"
-        }
-      }
-    },
-    "Troubadour": {
-      "items": {
-        "spell->Magic Mouth": {
-          "target": "1 creature or object"
-        },
-        "spell->Soothe": {
-          "target": "1 willing living creature"
-        },
-        "strike-melee->Rapier": {
-          "name": "Rapieira"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "action->Bardic Lore": {
-          "name": "Saber Bárdico"
-        },
-        "lore->Bardic Lore": {
-          "name": "Saber Bárdico"
-        }
-      }
-    },
-    "Urchin": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-ranged->Rock": {
-          "name": "Rocha"
-        },
-        "action->Pickpocket": {
-          "name": "Punga"
         }
       }
     },
@@ -1454,52 +339,6 @@
         },
         "strike-ranged->Composite Longbow": {
           "name": "Arco Longo Composto"
-        }
-      }
-    },
-    "Warden": {
-      "name": "Guardião",
-      "items": {
-        "strike-melee->Bastard Sword": {
-          "name": "Espada Bastarda"
-        },
-        "strike-ranged->Composite Longbow": {
-          "name": "Arco Longo Composto"
-        }
-      }
-    },
-    "Watch Officer": {
-      "items": {
-        "strike-melee->Warhammer": {
-          "name": "Martelo de Guerra"
-        },
-        "strike-ranged->Crossbow": {
-          "name": "Besta Leve"
-        },
-        "action->Bravery": {
-          "name": "Bravura"
-        },
-        "action->Sudden Charge": {
-          "name": "Investida Súbita"
-        }
-      }
-    },
-    "Zealot of Asmodeus": {
-      "items": {
-        "spell->Magic Weapon": {
-          "target": "1 weapon that is unattended or wielded by you or a willing ally"
-        },
-        "strike-melee->Mace": {
-          "name": "Maça"
-        },
-        "strike-ranged->Composite Shortbow": {
-          "name": "Arco Curto Composto"
-        },
-        "action->Channel Smite": {
-          "name": "Canalizar Punição"
-        },
-        "action->Deadly Simplicity": {
-          "name": "Simplicidade Mortal"
         }
       }
     }
