@@ -2,7 +2,7 @@ import { CompendiumMapping } from "../../../babele/script/compendium-mapping.js"
 
 // Create Translator instance and register settings
 Hooks.once("init", () => {
-    game.pathfinder-2e-pt-br = Translator.get();
+    game["pathfinder-2e-pt-br"] = Translator.get();
 
     // Register token setting
     game.settings.register("pathfinder-2e-pt-br", "token", {

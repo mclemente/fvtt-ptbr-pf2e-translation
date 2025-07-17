@@ -3,8 +3,8 @@
 	"title": "Brazilian Portuguese [Pathfinder 2e] - Tradução PT-BR",
 	"description": "Adiciona o idioma Português (Brasil) para o sistema de jogo Pathfinder 2E.",
 	"compatibility": {
-		"minimum": "12",
-		"verified": "12"
+		"minimum": "13",
+		"verified": "13"
 	},
 	"relationships": {
 		"systems": [
@@ -12,8 +12,8 @@
 				"id": "pf2e",
 				"type": "system",
 				"compatibility": {
-					"minimum": "6.9.0",
-					"verified": "6.9.0"
+					"minimum": "7.2.3",
+					"verified": "7.2.3"
 				}
 			}
 		],
@@ -22,8 +22,8 @@
 				"id": "babele",
 				"type": "module",
 				"compatibility": {
-					"minimum": "2.6.1",
-					"verified": "2.6.1"
+					"minimum": "2.7.5",
+					"verified": "2.7.5"
 				}
 			}
 		]
@@ -55,7 +55,7 @@
 			"path": "translation/pt-BR/kingmaker-pt-BR.json"
 		}
 	],
-	"esmodules": ["src/babele-register.js"],
+	"esmodules": ["src/babele-register.js", "src/translator/translator.js"],
 	"url": "This is auto replaced",
 	"version": "This is auto replaced",
 	"manifest": "This is auto replaced",

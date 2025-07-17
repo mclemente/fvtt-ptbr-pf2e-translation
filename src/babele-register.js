@@ -108,91 +108,91 @@ Hooks.once("babele.init", () => {
 
         game.babele.registerConverters({
             normalizeName: (_data, translation) => {
-                return game.pathfinder-2e-pt-br.normalizeName(translation);
+                return game["pathfinder-2e-pt-br"].normalizeName(translation);
             },
             translateAdventureActorItems: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateItems(data, translation, true, false);
+                return game["pathfinder-2e-pt-br"].translateItems(data, translation, true, false);
             },
             translateActorDescription: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateActorDescription(data, translation);
+                return game["pathfinder-2e-pt-br"].translateActorDescription(data, translation);
             },
             translateActorItems: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateItems(data, translation, true);
+                return game["pathfinder-2e-pt-br"].translateItems(data, translation, true);
             },
             translateAdventureActors: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateArrayOfObjects(data, translation, "adventureActor");
+                return game["pathfinder-2e-pt-br"].translateArrayOfObjects(data, translation, "adventureActor");
             },
             translateAdventureItems: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateItems(data, translation, false, false);
+                return game["pathfinder-2e-pt-br"].translateItems(data, translation, false, false);
             },
             translateAdventureJournals: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateArrayOfObjects(data, translation, "adventureJournal");
+                return game["pathfinder-2e-pt-br"].translateArrayOfObjects(data, translation, "adventureJournal");
             },
             translateAdventureJournalPages: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateArrayOfObjects(data, translation, "adventureJournalPage");
+                return game["pathfinder-2e-pt-br"].translateArrayOfObjects(data, translation, "adventureJournalPage");
             },
             translateAdventureScenes: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateArrayOfObjects(data, translation, "adventureScene");
+                return game["pathfinder-2e-pt-br"].translateArrayOfObjects(data, translation, "adventureScene");
             },
             translateAdventureTables: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateArrayOfObjects(data, translation, "adventureTable");
+                return game["pathfinder-2e-pt-br"].translateArrayOfObjects(data, translation, "adventureTable");
             },
             translateDualLanguage: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateDualLanguage(data, translation);
+                return game["pathfinder-2e-pt-br"].translateDualLanguage(data, translation);
             },
             translateDuration: (data) => {
-                return game.pathfinder-2e-pt-br.translateValue("duration", data);
+                return game["pathfinder-2e-pt-br"].translateValue("duration", data);
             },
             translateHeightening: (data, translation) => {
-                return game.pathfinder-2e-pt-br.dynamicObjectListMerge(
+                return game["pathfinder-2e-pt-br"].dynamicObjectListMerge(
                     data,
                     translation,
-                    game.pathfinder-2e-pt-br.getMapping("heightening", true)
+                    game["pathfinder-2e-pt-br"].getMapping("heightening", true)
                 );
             },
             translateRange: (data) => {
-                return game.pathfinder-2e-pt-br.translateValue("range", data);
+                return game["pathfinder-2e-pt-br"].translateValue("range", data);
             },
             translateRules: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateRules(data, translation);
+                return game["pathfinder-2e-pt-br"].translateRules(data, translation);
             },
             translateSkillSpecial: (data, translation) => {
-                return game.pathfinder-2e-pt-br.dynamicArrayMerge(
+                return game["pathfinder-2e-pt-br"].dynamicArrayMerge(
                     data,
                     translation,
-                    game.pathfinder-2e-pt-br.getMapping("skillSpecial", true)
+                    game["pathfinder-2e-pt-br"].getMapping("skillSpecial", true)
                 );
             },
             translateSource: (data) => {
-                return game.pathfinder-2e-pt-br.translateValue("source", data);
+                return game["pathfinder-2e-pt-br"].translateValue("source", data);
             },
             translateSpellVariant: (data, translation) => {
-                return game.pathfinder-2e-pt-br.dynamicObjectListMerge(
+                return game["pathfinder-2e-pt-br"].dynamicObjectListMerge(
                     data,
                     translation,
-                    game.pathfinder-2e-pt-br.getMapping("item", true)
+                    game["pathfinder-2e-pt-br"].getMapping("item", true)
                 );
             },
             translateTableResults: (data, translation) => {
-                return game.pathfinder-2e-pt-br.translateTableResults(data, translation);
+                return game["pathfinder-2e-pt-br"].translateTableResults(data, translation);
             },
             translateTiles: (data, translation) => {
-                return game.pathfinder-2e-pt-br.dynamicArrayMerge(data, translation, game.pathfinder-2e-pt-br.getMapping("tile", true));
+                return game["pathfinder-2e-pt-br"].dynamicArrayMerge(data, translation, game["pathfinder-2e-pt-br"].getMapping("tile", true));
             },
             translateTime: (data) => {
-                return game.pathfinder-2e-pt-br.translateValue("time", data);
+                return game["pathfinder-2e-pt-br"].translateValue("time", data);
             },
             translateTokens: (data, translation, _dataObject, _translatedCompendium) => {
-                return game.pathfinder-2e-pt-br.translateArrayOfObjects(data, translation, "token");
+                return game["pathfinder-2e-pt-br"].translateArrayOfObjects(data, translation, "token");
             },
             translateTokenName: (data, translation, _dataObject, _translatedCompendium, translationObject) => {
-                return game.pathfinder-2e-pt-br.translateTokenName(data, translation, translationObject);
+                return game["pathfinder-2e-pt-br"].translateTokenName(data, translation, translationObject);
             },
             updateActorImage: (data, _translations, dataObject, translatedCompendium) => {
-                return game.pathfinder-2e-pt-br.updateImage("portrait", data, dataObject, translatedCompendium);
+                return game["pathfinder-2e-pt-br"].updateImage("portrait", data, dataObject, translatedCompendium);
             },
             updateTokenImage: (data, _translations, dataObject, translatedCompendium) => {
-                return game.pathfinder-2e-pt-br.updateImage("token", data, dataObject, translatedCompendium);
+                return game["pathfinder-2e-pt-br"].updateImage("token", data, dataObject, translatedCompendium);
             },
         });
 
