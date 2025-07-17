@@ -2,12 +2,12 @@ import { CompendiumMapping } from "../../../babele/script/compendium-mapping.js"
 
 // Create Translator instance and register settings
 Hooks.once("init", () => {
-    game.langDePf2e = Translator.get();
+    game.pathfinder-2e-pt-br = Translator.get();
 
     // Register token setting
-    game.settings.register("lang-de-pf2e", "token", {
-        name: "Portraitbild als Token",
-        hint: "Soll beim Import eines übersetzten NSCs aus einem Kompendium das Portraitbild als Token genutzt werden statt des regulären Token-Bilds?",
+    game.settings.register("pathfinder-2e-pt-br", "token", {
+        name: "Retrato como Token",
+        hint: "Ao importar um PNJ traduzido de um compêndio, a imagem do retrato deve ser usada como um token em vez da imagem normal do token?",
         scope: "world",
         type: Boolean,
         config: true,
@@ -28,10 +28,10 @@ class Translator {
     async initialize() {
         // Read config file
         const config = await Promise.all([
-            fetch("modules/lang-de-pf2e/src/translator/translator-config.json")
+            fetch("modules/pathfinder-2e-pt-br/src/translator/translator-config.json")
                 .then((r) => r.json())
                 .catch((_e) => {
-                    console.error("lang-de-pf2e: Couldn't find translator config file.");
+                    console.error("pathfinder-2e-pt-br: Couldn't find translator config file.");
                 }),
         ]);
 
@@ -50,7 +50,7 @@ class Translator {
             ]);
             this.dictionary = dict[0];
         } else {
-            console.error("lang-de-pf2e: Dictionary not available");
+            console.error("pathfinder-2e-pt-br: Dictionary not available");
         }
 
         // Create list of icons
@@ -63,7 +63,7 @@ class Translator {
         this.mappings = config[0]?.mappings ?? {};
 
         // Signalize translator is ready
-        Hooks.callAll("langDePf2e.ready");
+        Hooks.callAll("pathfinder-2e-pt-br.ready");
     }
 
     constructor() {
@@ -73,7 +73,7 @@ class Translator {
     // Register a madia path for a compendium containing portrait and token images
     addMediaPath(compendium, path) {
         ["portraits", "tokens"].forEach(async (imageType) => {
-            const imagePath = game.settings.get("lang-de-pf2e", "token")
+            const imagePath = game.settings.get("pathfinder-2e-pt-br", "token")
                 ? path.concat(`/portraits/`)
                 : path.concat(`/${imageType}/`);
             const images = {};
@@ -176,7 +176,7 @@ class Translator {
                 dir: compendiumDirectory,
             });
         } else {
-            console.error("lang-de-pf2e: Required module Babele not active");
+            console.error("pathfinder-2e-pt-br: Required module Babele not active");
         }
 
         // Register imageDirectory if provided
@@ -263,7 +263,7 @@ class Translator {
     translateDualLanguage(data, translation) {
         if (!translation || data === translation) {
             return data;
-        } else if (game.settings.get("lang-de-pf2e", "dual-language-names")) {
+        } else if (game.settings.get("pathfinder-2e-pt-br", "dual-language-names")) {
             return this.normalizeName(translation) + "/" + data;
         } else {
             return this.normalizeName(translation);
