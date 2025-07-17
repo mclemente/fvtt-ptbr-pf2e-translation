@@ -219,6 +219,13 @@
         }
       ]
     },
+    "Adept Storyteller": {
+      "prerequisites": [
+        {
+          "value": "Narração Uzunjati"
+        }
+      ]
+    },
     "Adhyabhau": {
       "name": "Adhyabhau",
       "description": "<p>Você descende dos raros vampiros psíquicos conhecidos como vetalaranas. Seus ancestrais sobreviviam da energia mental e emocional de criaturas vivas, que se\nmanifesta em você como uma poderosa resistência a esses efeitos.</p>\n<p>Você recebe +1 de bônus de circunstância em salvamentos de Vontade contra efeitos com o traço emoção, e quando rolar um sucesso em um salvamento contra um efeito desses, trate o resultado como um sucesso crítico</p>",
@@ -1578,6 +1585,13 @@
         }
       ]
     },
+    "Beautiful Knifework": {
+      "prerequisites": {
+        "1": {
+          "value": "mestre em Medicina"
+        }
+      }
+    },
     "Become Thought": {
       "description": "<p>You shed some of your material form, becoming a being of pure thought. This has the following effects.</p>\n<ul>\n<li>You gain resistance 10 to physical damage but weakness 5 to mental damage and weakness 10 to any effect that deals damage by targeting the spirit, such as <em>@UUID[Compendium.pf2e.spells-srd.PHVHBbdHeQRfjLmE]{Spirit Blast}</em>.</li>\n<li>You can change your appearance on a whim. This takes a single action, which has the concentrate trait, has the effects of <em>@UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Illusory Disguise}</em>, and lasts until you change your appearance again.</li>\n<li> Once per year, when you die, you automatically return to life the next day as long as one living sentient creature on your plane remembers you; the memories enable you to reconstruct yourself from their thoughts. You appear in the vicinity of the creature that remembers you most strongly.</li>\n</ul>"
     },
@@ -2133,6 +2147,13 @@
         }
       ]
     },
+    "Cautious Word": {
+      "prerequisites": [
+        {
+          "value": "Narração Uzunjati"
+        }
+      ]
+    },
     "Cavalier Dedication": {
       "name": "Dedicação de Cavaleiro"
     },
@@ -2188,6 +2209,13 @@
     },
     "Celestial Strikes": {
       "description": "<p>Your connection to good arms all your attacks against forces of evil. All your weapon and unarmed @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strikes} deal [[/r 1 #good]] additional good damage and have the good and magical traits.</p>"
+    },
+    "Cenotaph Stance": {
+      "prerequisites": [
+        {
+          "value": "Guardião de Ultimuro"
+        }
+      ]
     },
     "Ceremonial Knife": {
       "name": "Faca Cerimonial"
@@ -2562,6 +2590,13 @@
         }
       ]
     },
+    "Convergent Tides": {
+      "prerequisites": [
+        {
+          "value": "Cascata Arcana"
+        }
+      ]
+    },
     "Convincing Illusion": {
       "name": "Ilusão Convicta",
       "description": "<p><strong>Acionamento</strong> Uma criatura obteve sucesso, mas não obteve sucesso crítico, em um teste de Percepção ou salvamento de Vontade para desacreditar uma ilusão de uma magia que você conjurou.</p>\n<p><strong>Requerimentos</strong> Você está dentro de 30 pés do observador e da ilusão.</p>\n<hr />\n<p>Você usa suas perícias de dissimulação para fazer suas ilusões parecerem ainda mais reais. Tente um @Teste[dissimulação|defesa:percepção] contra a CD de Percepção do alvo. Se tiver sucesso, o alvo falha em desacreditar a ilusão.</p>"
@@ -2572,12 +2607,7 @@
     },
     "Cooperative Soul": {
       "name": "Alma Cooperativa",
-      "description": "<p>Você desenvolveu um vínculo profundo com seus camaradas e mantém um grau ainda maior de cooperação com eles. Se você for pelo menos um especialista na perícia em que está Auxiliando, quando você rolar uma falha ou falha crítica para Auxiliar em uma verificação de perícia, você obtém um sucesso em vez disso.</p>",
-      "prerequisites": [
-        {
-          "value": "Natureza Cooperativa"
-        }
-      ]
+      "description": "<p>Você desenvolveu um vínculo profundo com seus camaradas e mantém um grau ainda maior de cooperação com eles. Se você for pelo menos um especialista na perícia em que está Auxiliando, quando você rolar uma falha ou falha crítica para Auxiliar em uma verificação de perícia, você obtém um sucesso em vez disso.</p>"
     },
     "Coordinated Charge": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.MYzRfNExDYp25rro]{Marshal Dedication}</p> <hr> <p>You heroically dash into the fray, inspiring your allies to follow. You @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Stride} up to your Speed and make a melee @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If your Strike hits and damages an enemy, each ally within 60 feet who saw you hit can use a reaction to Stride, but they each must end their Stride closer to the creature you hit than where they started.</p>",
@@ -2772,6 +2802,13 @@
         }
       ]
     },
+    "Crusader's Masquerade": {
+      "prerequisites": [
+        {
+          "value": "Máscara Familiar"
+        }
+      ]
+    },
     "Crushing Grab": {
       "name": "Agarrão Esmagador"
     },
@@ -2820,6 +2857,13 @@
       "prerequisites": [
         {
           "value": "Dedicação da Campânula"
+        }
+      ]
+    },
+    "Cut them Down, Burn them Out": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Cavaleiro Recuperador"
         }
       ]
     },
@@ -3345,15 +3389,6 @@
     },
     "Disturbing Defense": {
       "description": "<p><strong>Prerequisites</strong> <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"20jNBiIIxaiOVyi0\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Oozemorph Dedication</a></p> <hr> <p>Your internal organs and blood vessels have shifted and changed, and even you don’t know precisely where in your body they are. You gain resistance to precision damage equal to 2 + your number of class feats from the oozemorph archetype. The DC of your flat checks to recover from persistent bleed damage is 13, rather than 15.</p>"
-    },
-    "Diverse Armor Expert": {
-      "name": "Especialista em Armaduras Diversas",
-      "description": "<p><strong>Pré-requisitos</strong> especialista em defesa sem armadura ou em um pelo menos um tipo de armadura, Dedicação de Campeão</p> <hr> <p>Suas graduações de proficiência em armaduras leves, médias e pesadas, assim como em defesa sem armadura, aumentam para especialista.</p>",
-      "prerequisites": [
-        {
-          "value": "Dedicação de Campeão"
-        }
-      ]
     },
     "Diverse Recognition": {
       "prerequisites": [
@@ -4511,6 +4546,13 @@
         }
       ]
     },
+    "Faith in the Fallen": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assistente Magaambyano"
+        }
+      ]
+    },
     "Fake Out": {
       "description": "<p><strong>Trigger</strong> An ally is about to use an action that requires an attack roll, targeting a creature within your weapon's first range increment.</p>\n<p><strong>Requirements</strong> You're wielding a loaded firearm or crossbow.</p>\n<hr />\n<p>With a skilled flourish of your weapon, you force an enemy to acknowledge you as a threat. Make an attack roll to @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} the triggering attack. If you dealt damage to that enemy with the same weapon since the start of your last turn, you gain a +1 circumstance bonus to this roll.</p>"
     },
@@ -4587,10 +4629,6 @@
     "Fast Channel": {
       "name": "Canalização Rápida",
       "description": "<p>O poder divino está sempre ao seu alcance, respondendo rapidamente ao seu chamado. Quando você conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} gastando 2 ações, você pode obter os efeitos da versão de 3 ações em vez da versão de 2 ações.</p>\n<p>Você pode fazer isso com <em>ferir</em> se tiver a fonte prejudicial ou <em>curar</em> se tiver a fonte de cura (ou ambos se tiver Fonte Versátil).</p>"
-    },
-    "Fast Movement": {
-      "name": "Movimento Veloz",
-      "description": "<p>Sua fúria é um frenesi de movimentos rápidos. Enquanto estiver em fúria, você recebe +3 metros de bônus de estado em sua Velocidade.</p>"
     },
     "Fast Recovery": {
       "name": "Recuperação Rápida",
@@ -4833,8 +4871,7 @@
       "name": "Conjuração Halcyon Flexível",
       "description": "<p> <strong>Pré-requisitos</strong> Iniciado em Conjuração Halcyon </span></p> <hr> <p>Você amplia sua capacidade de canalizar seu poder para a magia halcyon. Você ganha mais uma magia halcyon comum de cada nível de magia halcyon que pode conjurar além do seu valor mais alto (você não ganha um truque mágico adicional). Você também ganha um espaço adicional de magia halcyon para cada nível de magia halcyon que pode conjurar, diferente do mais alto.</p> (Tradução não oficial - Lost Omens: Character Guide)"
     },
-    "Flicker": {
-      "name": "Tremular",
+    "Flickering Twirl": {
       "prerequisites": [
         {
           "value": "Dedicação de Lâmina do Leão"
@@ -5402,6 +5439,13 @@
     },
     "Grave Strength": {
       "description": "<p>The flesh you've consumed over the course of your existence as a ghoul has made you stronger, gifting you with strange insights from the minds of the sapient creatures you've devoured and bringing you closer to a state of undead perfection. You gain the @UUID[Compendium.pf2e.ancestryfeatures.YGk41WV42aTM7CQV]{Advanced Undead Benefits}. In addition, you gain a +5-foot status bonus to your Speed while you're satiated.</p>"
+    },
+    "Grave Threat": {
+      "prerequisites": [
+        {
+          "value": "Ceifador do Repouso"
+        }
+      ]
     },
     "Gravelands Herbalist": {
       "description": "<p><strong>Access</strong> Knights of Lastwall have access to this feat.</p>\n<hr />\n<p>Your time with the Knights of Lastwall has taught you the secrets of creating and improving upon @Compendium[pf2e.equipment-srd.VeCNWhvEr82ZNoSV]{Lastwall Soup}. Add Lastwall soup to your list of herbal items. At 10th level, you can make @Compendium[pf2e.equipment-srd.VcEd9Bh4q5vQfpLv]{Lastwall Soup (Improved)} that grants a +3 item bonus. At 18th level, you can make @Compendium[pf2e.equipment-srd.ed8gAxli6Of58kAM]{Lastwall Soup (Greater)} that grants a +4 item bonus, and its nourishing properties grant you 10 temporary Hit Points that last up to 10 minutes after eating it.</p>"
@@ -6031,6 +6075,13 @@
       "name": "Hino da Cura",
       "description": "<p>Você aprende a magia de composição @UUID[Compendium.pf2e.spells-srd.Item.gSUQlTDYoLDGAsCP]{Hino de Cura}, que imbuí sua música com ricas melodias que ajudam seus aliados a se recuperarem de ferir.</p>"
     },
+    "I Knew the Heroes": {
+      "prerequisites": [
+        {
+          "value": "Recordação Uzunjati"
+        }
+      ]
+    },
     "Ice Crafter": {
       "description": "<p>The ancient ice-crafting techniques of the saumen kar awaken within you. You become trained in Crafting, or become an expert if you were already trained. You gain the @UUID[Compendium.pf2e.feats-srd.xWY5omyIcILNR7y1]{Magical Crafting} skill feat. You can craft permanent items out of ice instead of metal or wood; these items are a translucent crystal-blue in color, resemble icicles and glacier ice, and have the same statistics and properties as cold iron, including the price and the ability to deal additional damage to certain kinds of creatures. Any creature who wields or wears a piece of ice-crafted equipment takes 1 cold damage each round from contact with the primal cold of the crafted ice.</p>"
     },
@@ -6146,13 +6197,6 @@
     "Impossible Volley": {
       "name": "Saraivada Impossível",
       "description": "<p><strong>Requerimento</strong> Você está empunhando uma arma de longa distância com o traço saraivada e recarga 0.</p>\n<hr />\n<p>Você dispara uma saraivada em todos os inimigos em uma área. Faça um ataque com uma penalidade de –2 contra cada inimigo dentro de um @Template[burst|distance:10] centrado em ou além da distância de saraivada da sua arma. Role o dano apenas uma vez para todos os alvos.</p>\n<p>Cada ataque conta para sua penalidade por ataques múltiplos, mas não aumente sua penalidade até que você tenha feito todos os seus ataques.</p>",
-      "rules": {
-        "0": {
-          "label": "Saraivada Impossível"
-        }
-      }
-    },
-    "Impossible Volley (Eldritch Archer)": {
       "rules": {
         "0": {
           "label": "Saraivada Impossível"
@@ -6377,6 +6421,13 @@
       "name": "Possibilidades Infinitas",
       "description": "<p>Você pode preparar um espaço de magia que exista em sua mente como muitas possibilidades diferentes ao mesmo tempo. Uma vez durante suas preparações diárias, você pode usar um espaço de magia para segurar esse potencial infinito, ao invés de usá-lo para preparar uma magia. Você pode usar este espaço de magia para lançar qualquer magia de seu grimório que seja pelo menos 2 níveis menor do que o espaço que você designar; a magia age em todos os aspectos como uma magia 2 níveis menor. Você não tem nenhuma magia em particular preparada nesse espaço até lançá-la.</p>"
     },
+    "Inflame Crowd": {
+      "prerequisites": {
+        "1": {
+          "value": "Performance Impressionante"
+        }
+      }
+    },
     "Influence Nature": {
       "description": "<p><strong>Prerequisites</strong> master in Nature</p> <hr> <p>With patience and time, you can make bird calls, leave game trails, and ultimately influence the behavior of a certain type of animals in the region to favor and even aid you in the days to come.</p> <p>The GM determines the DC of any check required and the amount of time your work requires (usually at least a day or two of downtime). While you can’t directly control how you’ve influenced nature, you can hope for certain effects, such as easier hunts or birds falling silent whenever danger is approaching.</p> <p>If you’re legendary in Nature, you can elicit these same adjustments to animal behavior in the area by spending only 10 minutes.</p>"
     },
@@ -6435,6 +6486,13 @@
         }
       ]
     },
+    "Inspiring Recitation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lâmina do Leão"
+        }
+      ]
+    },
     "Inspiring Resilience": {
       "description": "<p><strong>Trigger</strong> You and at least one other creature become the target of a spell or effect with the emotion, fear, or mental trait that allows a saving throw, and you haven't rolled the save yet.</p>\n<hr />\n<p>You show defiance in times of hardship and inspire your companions to persevere. Allies within 30 feet of you gain a +1 circumstance bonus to their Will save against the triggering effect, or a +2 circumstance bonus if the effect originated from an undead.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.qM4bQfcwZ0EOS2M9]{Effect: Inspiring Resilience}</p>"
     },
@@ -6479,6 +6537,13 @@
     },
     "Internal Compartment": {
       "description": "<p>You can hide a small object of up to light Bulk inside a hollow cavity on one of your forearms. It takes three @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} actions to store an object in this way.</p>\n<p>You gain a +4 circumstance bonus to the DCs of checks for others to @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Seek} or @UUID[Compendium.pf2e.actionspf2e.RDXXE7wMrSPCLv5k]{Steal} objects stored inside your arm.</p>\n<p>If you store a weapon in your arm, you can use a single action to Interact to draw the weapon into the hand corresponding to your internal cavity, then Strike with the weapon.</p>"
+    },
+    "Interposing Crowd": {
+      "prerequisites": [
+        {
+          "value": "Perdido na Multidão"
+        }
+      ]
     },
     "Interweave Dispel": {
       "name": "Entrelaçar Dissipação"
@@ -7025,6 +7090,13 @@
     },
     "Lion's Fury": {
       "description": "<p>You gain access to the @Compendium[pf2e.equipment-srd.Ak3oHoPDJoMR14yg]{Lion Scythe's} and @Compendium[pf2e.equipment-srd.zWp7Kcn7mhKyGFxW]{Sun Sling's} critical specialization effects.</p>"
+    },
+    "Lion's Magic": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lâmina do Leão"
+        }
+      ]
     },
     "Lion's Might": {
       "description": "<p>You've trained with the weapons of the Bright Lions. You gain access to @Compendium[pf2e.equipment-srd.Ak3oHoPDJoMR14yg]{Lion Scythes} and @Compendium[pf2e.equipment-srd.zWp7Kcn7mhKyGFxW]{Sun Slings}. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank with lion scythes and sun slings.</p>"
@@ -8965,6 +9037,13 @@
       "name": "Projeto Persona",
       "description": "<p>Onde outros gravam suas armaduras para servir de canal para suas imaginações, sua mente vívida e personalidade ousada permitem que você projete uma persona mais adequada sobre sua armadura sem brilho. Você muda a forma e a aparência de sua armadura para parecer como roupas ordinárias ou finas de sua imaginação. As estatísticas da armadura não mudam. Esse efeito dura enquanto você permanecer consciente e estiver vestindo a armadura. Uma criatura pode desacreditar a ilusão procurando ou tocando sua armadura. O DC é igual ao seu @Check[will|against:will]{Will DC}.</p>"
     },
+    "Prophet of Kalistrade Dedication": {
+      "prerequisites": {
+        "1": {
+          "value": "Carisma +2"
+        }
+      }
+    },
     "Protect Ally": {
       "prerequisites": [
         {
@@ -9251,7 +9330,7 @@
     "Rallying Anthem": {
       "description": "<p>Você aprende o @UUID[Compendium.pf2e.spells-srd.Item.bH0kPuf7UKxRvi2P]{Rallying Anthem} truque mágico de composição, que protege você e aliados.</p>"
     },
-    "Rallying Charge": {
+    "Rallying Charge (Marshal)": {
       "prerequisites": [
         {
           "value": "Dedicação de Marechal"
@@ -10375,6 +10454,23 @@
     "Shatter Space": {
       "description": "<p>The sheer power of your magic fractures reality. Use this amp in place of a psi cantrip's normal amp entry. The cantrip must be one that takes 2 or more actions to cast.</p>\n<hr />\n<p><strong>Amp</strong> You or one target of the spell are surrounded by a spiral of torn space. This is an aura, and you choose the radius of the emanation, up to 20 feet. A creature that starts its turn in the aura or enters the aura during its turn takes [[/r 1d6[slashing]]] damage for every level of the amped psi cantrip, with a basic Reflex save against your spell DC. If the creature critically fails, the torn space throws it off balance and it falls @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}. The aura lasts until the beginning of your next turn. You can choose whether the aura affects the creature emitting it.</p>"
     },
+    "Shattered Sacrament": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Orador Halcyon"
+        },
+        {
+          "value": "Conjuração do Portador de Cascata"
+        }
+      ]
+    },
+    "Shattering Spellstrike": {
+      "prerequisites": {
+        "1": {
+          "value": "Golpe de Magia"
+        }
+      }
+    },
     "Shattering Strike (Monk)": {
       "description": "<p>The force of your considered blow shatters objects and defenses alike. Make an unarmed Strike. It bypasses the target’s resistances. If the target has Hardness, the Strike treats the Hardness as if it were half its value.</p>"
     },
@@ -10739,6 +10835,13 @@
     "Slither": {
       "description": "<p>You are an expert at moving through extremely tight spaces. You gain the @UUID[Compendium.pf2e.feats-srd.3G8xUlgCjRmRJNfP]{Quick Squeeze} skill feat, even if you're not trained in Acrobatics. When you roll a success on an Acrobatics check to Squeeze, you get a critical success instead.</p>"
     },
+    "Slowing Strike": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lâmina do Leão"
+        }
+      ]
+    },
     "Sly Disarm": {
       "name": "Desarmar Astuto",
       "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Desarmar} uma criatura através de um truque de mãos em vez de força bruta. Você pode usar <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\" data-pf2-skill=\"thievery\">Ladinagem</span> em vez de Atletismo quando tentar desarmar. Quando você usa Ladinagem para tentar desarmar e tem sucesso, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra o próximo ataque que você fizer antes do final do seu turno.</p>"
@@ -10949,6 +11052,13 @@
     "Spark of Independence": {
       "description": "<p>You touch a creature with the minion trait and share the heightened sense of autonomy you've discovered. The minion is @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round and is then temporarily immune for 10 minutes. It can use this extra action to Step, Stride, or Strike.</p>"
     },
+    "Speak for the Gravelands": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Orador Halcyon"
+        }
+      ]
+    },
     "Speak with Kindred": {
       "name": "Falar com Kindred",
       "description": "<p>Você tem uma conexão com criaturas que compartilham sua fisiologia. Você pode fazer perguntas, receber respostas e usar a perícia Diplomacia com plantas e fungos. Você ganha um bônus de circunstância de +2 em testes de Diplomacia com plantas ou fungos do seu tipo. Geralmente, leshys de fungos recebem esse bônus com cogumelos e fungos; leshys de cabaças com abóboras, melões e plantas frutíferas semelhantes; leshys da folha com árvores decíduas; e leshys de videira com videiras e plantas escaladoras.</p>"
@@ -10977,9 +11087,6 @@
     },
     "Speech of the Mammoth Lords": {
       "description": "<p>You've learned the ancient tongue spoken by the creatures of the far north. You can ask questions of, receive answers from, use the Diplomacy skill with, and @UUID[Compendium.pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Coerce} megafauna. In most cases, megafauna of the Realm of the Mammoth Lords will hear you out.</p>"
-    },
-    "Speedy Rituals": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.jYKKnr41OqQrf7hv]{Efficient Rituals}</p> <hr> <p>You can perform rituals in only a fraction of the usual time. If a ritual has a casting time measured in days, you can cast it in an equal number of hours. If this results in a ritual longer than 8 hours, you split the ritual between multiple days, as normal for a ritual.</p>"
     },
     "Spell Combination": {
       "name": "Combinação de Magia",
@@ -11207,6 +11314,13 @@
     },
     "Stalwart Standard": {
       "description": "<p>Your banner makes it harder for your foes to push your allies around and encourages your allies to protect the innocent. Allies benefiting from your Cavalier's Banner feat also gain a +1 circumstance bonus to their Fortitude and Reflex DCs against attempts to @UUID[Compendium.pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, and @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}. Each benefited ally also gains a +1 status bonus to attack rolls against any creature that has dealt damage to an innocent of a lower level than that ally within the last round; summoned creatures, companions, or any creatures you or your allies put into danger on purpose to attempt to gain this bonus don't count.</p>"
+    },
+    "Stand Back, I'm A Doctor!": {
+      "prerequisites": {
+        "1": {
+          "value": "mestre em Medicina"
+        }
+      }
     },
     "Stand Still": {
       "description": "<p><strong>Acionamento</strong> Uma criatura em seu alcance usa uma ação de movimento ou deixa um quadrado durante uma ação de movimento que ela está usando.</p> <hr> <p>Você golpeia quando seu adversário tenta fugir. Faça um Golpe corpo a corpo contra a criatura acionadora. Se o ataque for um acerto crítico e o acionamento for uma ação de movimento, você interrompe essa ação.</p>"
@@ -11495,6 +11609,13 @@
       "prerequisites": [
         {
           "value": "Rajada de Golpes"
+        }
+      ]
+    },
+    "Stunning Surprise": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lâmina do Leão"
         }
       ]
     },
@@ -11819,6 +11940,13 @@
       "prerequisites": {
         "1": {
           "value": "Cauda Dura"
+        }
+      }
+    },
+    "Talent Envy": {
+      "prerequisites": {
+        "1": {
+          "value": "Artista Virtuoso"
         }
       }
     },
@@ -12246,6 +12374,13 @@
     "Trickster's Ace": {
       "name": "Ás do Trapaceiro"
     },
+    "Tripartite Omen": {
+      "prerequisites": [
+        {
+          "value": "Sinergia Dualista"
+        }
+      ]
+    },
     "Triple Shot": {
       "name": "Tiro Triplo",
       "description": "<p>Você pode rapidamente disparar vários tiros com maior controle. Quando você usa @UUID[Compendium.pf2e.feats-srd.Item.PwcmmJOLY8C9JHau]{Tiro Duplo}, você pode fazer os ataques contra o mesmo alvo. Você pode adicionar uma ação adicional ao Tiro Duplo para fazer três Golpes à distância em vez de dois. Se fizer isso, a penalidade é –4. Todos os ataques contam para sua penalidade por ataques múltiplos, mas a penalidade não aumenta até que você tenha feito todos eles.</p>",
@@ -12458,6 +12593,13 @@
     },
     "Uncanny Suction": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.20jNBiIIxaiOVyi0]{Oozemorph Dedication}</p> <hr> <p>Your limbs produce strange, sucker-like growths that allow you to adhere to walls, objects, and most other surfaces. You gain a @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} Speed equal to your half your land Speed (minimum 5 feet). If you have the @Compendium[pf2e.feats-srd.P04Hw8E6WAWARKHP]{Quick Climb}&nbsp;feat, your climb Speed is equal to your land Speed. In addition, you gain a +2 circumstance bonus to your Reflex DC to avoid being @Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Disarmed}.</p>"
+    },
+    "Uncanny Vitae": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Sentinela de Ultimuro"
+        }
+      ]
     },
     "Unconventional Expertise": {
       "name": "Especialidade Não Convencional",
@@ -12686,6 +12828,13 @@
       "name": "Vândalo",
       "description": "<p>Você tem um talento para quebrar e desmontar coisas. Colocá-las de volta juntas é a parte chata, então você geralmente não se importa com isso. Você se torna treinado em Roubo. Se você automaticamente se tornaria treinado em Roubo (da sua biografia ou classe, por exemplo), você se torna treinado em uma perícia de sua escolha.</p>\n<p>Além disso, sempre que você acerta com um Golpear contra uma armadilha ou um objeto desassistido, você ignora os primeiros 5 pontos de Dureza do objeto.</p>"
     },
+    "Vanish Into the Land": {
+      "prerequisites": {
+        "2": {
+          "value": "Esgueirador de Terreno"
+        }
+      }
+    },
     "Vehicle Mechanic Dedication": {
       "prerequisites": [
         {
@@ -12695,6 +12844,13 @@
     },
     "Veil May": {
       "description": "<p>Born of a blood hag, a fiery blood drinker hidden behind a false skin, you have one blood-red eye and the ability to slough off your appearance in an instant.</p>\n<p>You gain the @UUID[Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat, and you can shed a disguise quickly by peeling off the outer layer of your skin.</p>\n<p>Changing from a disguise used to @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} back to your true appearance is a 3-action activity for you; if you're an expert in Deception, it's a 2-action activity, and if you're legendary in Deception, it takes only a single action. This doesn't allow you to don or remove armor or other equipment any faster, but your physical appearance otherwise returns to its normal state.</p>"
+    },
+    "Vellumis Excision": {
+      "prerequisites": [
+        {
+          "value": "Adepto em Conjuração Halcyon"
+        }
+      ]
     },
     "Velstrac Magic": {
       "description": "<p>You know there's so much more to sensation than whips and chains—but whips and chains also have their place. You can cast <em>@UUID[Compendium.pf2e.spells-srd.mrDi3v933gsmnw25]{Telekinetic Maneuver}</em> and <em>@UUID[Compendium.pf2e.spells-srd.9s5tqqXNzcoKamWx]{Web}</em> once per day each as 2nd-level divine innate spells; in both cases, the spells manifest shadowy chains rather than their usual visual signifiers.</p>"
@@ -12710,6 +12866,13 @@
           "value": "Venha me Pegar"
         }
       ]
+    },
+    "Venture-Gossip Dedication": {
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Agente Pathfinder"
+        }
+      }
     },
     "Verdant Metamorphosis": {
       "name": "Metamorfose Verdejante",
@@ -12824,6 +12987,13 @@
       "name": "Vigor Vitorioso",
       "description": "<p><strong>Gatilho</strong>Você reduz um adversário a 0 Pontos de Vida</p> <hr> <p>Suas vitórias em batalha lhe enchem de orgulho e o carregam com a energia para lutar apesar de seus ferimentos. Você recebe Pontos de Vida temporários igual ao seu modificador de Constituição até o final de seu próximo turno.</p>"
     },
+    "Vigil's Palisades": {
+      "prerequisites": [
+        {
+          "value": "Criação Persistente"
+        }
+      ]
+    },
     "Vigil's Walls Rise Anew": {
       "description": "<p><strong>Prerequisites</strong> <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"1YFrl8I6ZGo7BIM9\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Knight Vigilant Dedication</a> (Lost Omens Character Guide 94), <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"jM72TjJ965jocBV8\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Shield Block</a></p> <hr> <p>As part of daily preparation, you can drill with a number of allies up to your Charisma modifier. These allies must be present and listening during this time, but this does not otherwise impede their own preparation. When you use this feat’s benefit, you and all drilled companions within 30 feet who are wielding shields <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"xjGwis0uaC2305pm\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Raise a Shield</a>. Allies who Raise their Shields keep them raised until the start of their next turn, as normal.</p>",
       "prerequisites": {
@@ -12851,6 +13021,13 @@
     },
     "Viking Weapon Familiarity": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.JuEUNrvsxOYdXeYL]{Viking Dedication}</p> <hr> <p>From childhood, you have been exposed to traditional viking weapons, and you soon learned to handle them in battle. Now, you can raid proudly alongside your fellows.</p> <p>You are trained with the @Compendium[pf2e.equipment-srd.War0uyLBx1jA0Ge7]{Battle Axe}, @Compendium[pf2e.equipment-srd.LGgvev6AV0So8tP9]{Hatchet}, @Compendium[pf2e.equipment-srd.LJdbVTOZog39EEbi]{Longsword}, and @Compendium[pf2e.equipment-srd.7tKkkF8eZ4iCLJtp]{Shortsword}. In addition, you gain the @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} reaction.</p>"
+    },
+    "Vindicator's Judgment": {
+      "prerequisites": {
+        "1": {
+          "value": "magias de protetor"
+        }
+      }
     },
     "Virga May": {
       "description": "<p>Born of a storm hag, you have one crystal-blue or rain-gray eye. You share your mother's power over wind and storm. You can cast <em>@UUID[Compendium.pf2e.spells-srd.kBhaPuzLUSwS6vVf]{Electric Arc}</em> as an occult innate cantrip. As normal, a cantrip is heightened to a spell level equal to half your level rounded up.</p>"
@@ -13035,6 +13212,13 @@
     "Water Step": {
       "name": "Passo na Água",
       "description": "<p>Você pode Andar sobre líquidos e superfícies que não suportem seu peso. Este benefício dura somente durante seu movimento. Se encerrar seu movimento em uma superfície incapaz de suportá-lo, você cai ou ela colapsa normalmente.</p>"
+    },
+    "Waterfowl Stance": {
+      "prerequisites": [
+        {
+          "value": "Arsenal Monástico"
+        }
+      ]
     },
     "Wave Spiral": {
       "description": "<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Requirements</strong> You're in Reflective Ripple Stance.</p>\n<hr />\n<p>You dip and spin, unleashing a wide whirlpool of water. Make an Athletics check to @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} each creature standing on the ground in a @Template[type:emanation|distance:10].</p>\n<p>These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks.</p>"
@@ -13361,5 +13545,190 @@
     "Zombie Dedication": {
       "description": "<p>Despite your death and subsequent reanimation as a rotting corpse, you retain most of your mind and identity. Yet, it's always there: the hunger for the flesh and organs of the living. You gain the undead and zombie traits, and the basic undead benefits. Unlike a typical zombie, you're not mindless. Reduce all your Speeds by 5 feet. Your fist loses the nonlethal trait.</p>\n<p>Because of its progressing state of decay, your body requires continual maintenance to remain at its best. Each day after your rest period, your body is @UUID[Compendium.pf2e.feat-effects.94MzLpLykQIWKcA1]{Deteriorated} due to natural decay. Additionally, some zombie abilities allow you to push for a greater effect in exchange for a chance of deteriorating your body.</p>\n<p>While your body is deteriorated, you're @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. You can spend 10 minutes checking and repairing your joints and other weak parts of your body to recover from deterioration. You can perform these repairs as part of your daily preparations. Because it's a natural result of your body's functions, you can't remove the slowed condition from deterioration through any other means.</p>\n<p>You crave the flesh of the living. You gain a jaws unarmed attack that deals 1d8 piercing damage. Your jaws are in the brawling group and have the unarmed trait. You can use your jaws Strike only against a creature that's @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} by you.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.G38usCLuTDmFYw7V]{Zombie} archetype.</p>"
     }
+  },
+  "folders": {
+    "Suli": "Suli",
+    "Aftermath": "Arremate",
+    "Deviant": "Divergente",
+    "Reincarnated": "Reencarnado",
+    "Variant Rules": "Regras Variantes",
+    "Wayang": "Wayang",
+    "Aiuvarin": "Aiuvarin",
+    "Archetype": "Arquétipo",
+    "Wizard": "Mago",
+    "Anadi": "Anadi",
+    "Ardande": "Ardande",
+    "Monk": "Monge",
+    "Poisoner": "Veneficista",
+    "Ancestry": "Ancestralidade",
+    "Android": "Androide",
+    "Dromaar": "Dromaar",
+    "Geomancer": "Geomante",
+    "Thaumaturge": "Taumaturgo",
+    "Changeling": "Cambiante",
+    "Hellknight": "Cavaleiro Infernal",
+    "Kineticist": "Cineticista",
+    "Kobold": "Kobold",
+    "Beastkin": "Beastkin",
+    "Reflection": "Reflexão",
+    "Nephilim": "Nefilim",
+    "Dhampir": "Dampiro",
+    "Human": "Humano",
+    "Summoner": "Convocador",
+    "Barbarian": "Bárbaro",
+    "Dragonblood": "Draconato",
+    "Lizardfolk": "Povo-Lagarto",
+    "Undine": "Undine",
+    "Druid": "Druida",
+    "Duskwalker": "Crepusculante",
+    "Gunslinger": "Pistoleiro",
+    "Kitsune": "Kitsune",
+    "Talos": "Talos",
+    "Captivator": "Cativante",
+    "Grippli": "Grippli",
+    "Naari": "Naari",
+    "Ranger": "Patrulheiro",
+    "Sylph": "Sylph",
+    "Cavalier": "Cavaleiro",
+    "Class": "Classe",
+    "Gnome": "Gnomo",
+    "Inventor": "Inventor",
+    "Oread": "Oread",
+    "Game Hunter": "Caçador dos Jogos",
+    "Ratfolk": "Povo-Rato",
+    "Swashbuckler": "Espadachim",
+    "Nagaji": "Nagaji",
+    "Psychic": "Psychic",
+    "Trapsmith": "Armadilheiro",
+    "Investigator": "Investigador",
+    "Merfolk": "Povo-Sereia",
+    "Sorcerer": "Feiticeiro",
+    "Surki": "Surki",
+    "Rogue": "Ladino",
+    "Skeleton": "Esqueleto",
+    "Sprite": "Sprite",
+    "Cleric": "Clérigo",
+    "Shisk": "Shisk",
+    "Samsaran": "Samsaran",
+    "Shadowdancer": "Dançarino das Sombras",
+    "Witch": "Bruxo",
+    "Vishkanya": "Vishkanya",
+    "Vanara": "Vanara",
+    "Ghost Hunter": "Caçador de Fantasmas",
+    "Tengu": "Tengu",
+    "Champion": "Campeão",
+    "Pactbound Initiate": "Iniciado sob Pacto",
+    "Tanuki": "Tanuki",
+    "Bard": "Bardo",
+    "Strix": "Estrige",
+    "Fighter": "Guerreiro",
+    "Shoony": "Shoony",
+    "Alchemist": "Alquimista",
+    "Linguist": "Linguista",
+    "General": "Geral",
+    "Orc": "Orc",
+    "Mythic": "Mítico",
+    "Oracle": "Oráculo",
+    "Poppet": "Poppet",
+    "Runescarred": "Marcado pelas Runas",
+    "Minotaur": "Minotauro",
+    "Skill": "Perícia",
+    "Student of Perfection": "Estudante da Perfeição",
+    "Leshy": "Leshy",
+    "Magus": "Magus",
+    "Kashrishi": "Kashrishi",
+    "Halfling": "Halfling",
+    "Staff Acrobat": "Acrobata com Bastão",
+    "Hobgoblin": "Hobgoblin",
+    "Goblin": "Goblin",
+    "Spellshot": "Magiarma",
+    "Ghoran": "Ghoran",
+    "Dwarf": "Anão",
+    "Ghost": "Fantasma",
+    "Catfolk": "Povo-Felino",
+    "Fetchling": "Sombriano",
+    "Centaur": "Centauro",
+    "Awakened Animal": "Animal Despertado",
+    "Dual-Weapon Warrior": "Combatente de Duas Armas",
+    "Goloma": "Goloma",
+    "Beast Gunner": "Pistoleiro Bestial",
+    "Gnoll": "Kholo",
+    "Fleshwarp": "Mutacarne",
+    "Trick Driver": "Piloto de Fuga",
+    "Elf": "Elfo",
+    "Conrasu": "Conrasu",
+    "Azarketi": "Azarketi",
+    "Athamaru": "Athamaru",
+    "Automaton": "Autômato",
+    "Crystal Keeper": "Guardião do Cristal",
+    "Mummy": "Múmia",
+    "Bastion": "Bastião",
+    "Lich": "Liche",
+    "Martial Artist": "Artista Marcial",
+    "Firebrand Braggart": "Atiçador Fanfarrão",
+    "Dandy": "Dândi",
+    "Knight Vigilant": "Cavaleiro Recuperador",
+    "Werecreature": "Teriantropo",
+    "Celebrity": "Celebridade",
+    "Bounty Hunter": "Caçador de Recompensas",
+    "Aldori Duelist": "Duelista de Aldori",
+    "Marshal": "Marechal",
+    "Swordmaster": "Mestre das Espadas",
+    "Bright Lion": "Leão Reluzente",
+    "Soulforger": "Forjador de Alma",
+    "Animal Trainer": "Adestrador de animais",
+    "Artillerist": "Técnico de artilharia",
+    "Herbalist": "Herbalista",
+    "Bellflower Tiller": "Semeador da Campânula",
+    "Pirate": "Pirata",
+    "Blessed One": "Abençoado",
+    "Bullet Dancer": "Dançarino das Balas",
+    "Lastwall Sentry": "Sentinela De Ultimuro",
+    "Talisman Dabbler": "Diletante Talismânico",
+    "Ghoul": "Carniçal",
+    "Loremaster": "Mestre do Saber",
+    "Ritualist": "Ritualista",
+    "Scrounger": "Escarafunchador",
+    "Demolitionist": "Demolidor",
+    "Beastmaster": "Mestre das Feras",
+    "Lion Blade": "Lâmina do Leão",
+    "Overwatch": "Supervisor",
+    "Cathartic Mage": "Magista Catártico",
+    "Butterfly Blade": "Faca Borboleta",
+    "Magic Warrior": "Guerreiro Mágico",
+    "Scroll Trickster": "Trapaceiro de Pergaminhos",
+    "Scout": "Patrulhar",
+    "Zombie": "Zumbi",
+    "Snarecrafter": "Arapuqueiro",
+    "Scrollmaster": "Mestre dos Escritos",
+    "Dragon Disciple": "Discípulo do Dragão",
+    "Oozemorph": "Lodomorfo",
+    "Vigilante": "Vigilante",
+    "Acrobat": "Acrobata",
+    "Edgewatch Detective": "Detetive da Guardabeira",
+    "Living Monolith": "Monólito Vivo",
+    "Viking": "Viking",
+    "Familiar Master": "Mestre em Familiar",
+    "Archer": "Arqueiro",
+    "Ghost Eater": "Devorador de Fantasmas",
+    "Red Mantis Assassin": "Assassino do Louva-a-deus Vermelho",
+    "Golden League Xun": "Xun da Liga Dourada",
+    "Eldritch Researcher": "Pesquisado Sobrenatural",
+    "Sentinel": "Sentinela",
+    "Archaeologist": "Arqueologista (PFS Guide)",
+    "Golem Grafter": "Enxertador Golem",
+    "Eldritch Archer": "Arqueiro Místico",
+    "Assassin": "Assassino",
+    "Exorcist": "Exorcista",
+    "Pathfinder Agent": "Agente Pathfinder",
+    "Weapon Improviser": "Improvisador de Armas",
+    "Nantambu Chime-Ringer": "Tocador de sinos de Nantambu",
+    "Halcyon Speaker": "Orador Idílico",
+    "Gladiator": "Gladiador",
+    "Duelist": "Duelista",
+    "Hallowed Necromancer": "Necromante Sagrado",
+    "Magaambyan Attendant": "Discente Magaambyano",
+    "Vampire": "Vampiro",
+    "Runelord": "Lorde Rúnico"
   }
 }
