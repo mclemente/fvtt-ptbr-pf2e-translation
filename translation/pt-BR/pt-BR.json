@@ -419,7 +419,7 @@
           "vanara": "Vanara",
           "varisian": "Varisiano",
           "varki": "Varki",
-          "vishkanyan": "Vishkanyan",
+          "vishkanyan": "Vishkanya",
           "vudrani": "Vudrani",
           "wildsong": "Canção Selvagem",
           "wyrwood": "Wyrwood",
@@ -1619,7 +1619,10 @@
         "15": "15 pés",
         "20": "20 pés",
         "25": "25 pés",
-        "30": "30 pés"
+        "30": "30 pés",
+        "40": "Cone 12 metros",
+        "50": "50 pés",
+        "60": "60 pés"
       }
     },
     "FormulaKnownTitle": "Fórmulas Conhecidas",
@@ -1738,6 +1741,7 @@
         "Cast": "Conjurar uma Magia",
         "Command": "comandar",
         "CommandSheetLabel": "Comando",
+        "Effect": "Efeito",
         "Envision": "visualizar",
         "EnvisionSheetLabel": "Visualizar",
         "Interact": "Interagir",
@@ -1828,6 +1832,61 @@
       },
       "CannotAddType": "{type} itens não podem ser adicionados a este ator.",
       "Class": {
+        "FIELDS": {
+          "hp": {
+            "label": "Pontos de Vida"
+          },
+          "perception": {
+            "label": "Percepção"
+          },
+          "savingThrows": {
+            "fortitude": {
+              "label": "Fortitude"
+            },
+            "reflex": {
+              "label": "Reflexos"
+            },
+            "will": {
+              "label": "Vontade"
+            }
+          },
+          "attacks": {
+            "simple": {
+              "label": "Armas Simples"
+            },
+            "martial": {
+              "label": "Armas Marciais"
+            },
+            "advanced": {
+              "label": "Armas Avançadas"
+            },
+            "unarmed": {
+              "label": "Ataques desarmados"
+            }
+          },
+          "defenses": {
+            "light": {
+              "label": "Armadura Leve"
+            },
+            "medium": {
+              "label": "Armadura Média"
+            },
+            "heavy": {
+              "label": "Armadura Pesada"
+            },
+            "unarmored": {
+              "label": "Defesa sem armadura"
+            }
+          },
+          "spellcasting": {
+            "label": "Modificadores de Ataque de Magia & CDs"
+          },
+          "trainedSkills": {
+            "additional": {
+              "label": "Perícias Adicionais"
+            }
+          }
+        },
         "Plural": "Classes"
       },
       "Condition": {
@@ -1843,6 +1902,9 @@
           },
           "Dialog": {
             "Add": "Adicionar Dano Persistente",
+            "DamageType": "Tipo de Dano",
+            "DC": "CD",
+            "Formula": "Fórmula",
             "Invalid": "A fórmula é inválida.",
             "Remove": "Remover dano persistente",
             "Title": "Dano Persistente ({actor})"
@@ -3295,10 +3357,6 @@
           "Hint": "Aplicar automaticamente a condição Sobrecarregado a criaturas carregando mais do que seus respectivos limites.",
           "Name": "Sobrecarga"
         },
-        "EffectExpiration": {
-          "Hint": "Os efeitos desabilitam automaticamente os elementos de regra anexados quando a duração expira.",
-          "Name": "Efeitos expiram automaticamente"
-        },
         "FlankingDetection": {
           "Hint": "Arranjos de flanqueamento e habilidades que o predicam são gerenciados pelo sistema.",
           "Name": "Detecção de Flanqueamento"
@@ -3594,49 +3652,49 @@
         "Title": "Regras Variantes"
       },
       "WorldClock": {
-        "DateTheme": {
+        "DateThemes": {
           "AD": "Terra (Calendário Gregoriano)",
           "AR": "Golarion (Cômputo de Absalom)",
           "CE": "Sem Tema (Calendário Gregoriano)",
-          "Hint": "Definir o tema da aplicação do Relógio do Mundo.",
-          "IC": "Golarion (Calendário Imperial)",
-          "Name": "Tema da Data"
+          "IC": "Golarion (Calendário Imperial)"
         },
         "Hint": "Configurar a aparência da aplicação do Relógio do Mundo.",
         "Label": "Configurar Relógio do Mundo",
         "Name": "Relógio do Mundo",
-        "PlayersCanView": {
-          "Hint": "Definir se os jogadores podem ver o Relógio do Mundo.",
-          "Name": "Acesso do Jogador"
-        },
         "ResetWorldTime": {
-          "Button": "Reajuste",
           "Confirm": {
             "Question": "Tem certeza que deseja redefinir o tempo decorrido deste mundo?",
             "Warning1": "Os efeitos de jogo que dependem do tempo podem ser afetados.",
             "Warning2": "Esta ação não pode ser desfeita."
           },
           "Hint": "Redefine o tempo decorrido deste mundo para zero.",
-          "Name": "Redefinir a Data/Hora do Mundo"
+          "Label": "Redefinir a Data/Hora do Mundo"
         },
-        "ShowClockButton": {
-          "Hint": "Define se deseja mostrar o botão do relógio para todos (exige recarregamento).",
-          "Name": "Mostrar o botão do relógio"
+        "TimeConventions": {
+          "12": "12 Horas",
+          "24": "24 Horas"
         },
-        "SyncDarkness": {
-          "Hint": "Define se o nível de escuridão de qualquer cena refletirá a hora do dia.",
-          "Name": "Sincronizar Escuridão (Padrão do Mundo)"
-        },
-        "SyncDarknessScene": {
-          "Hint": "Defina se o Nível das Trevas desta cena refletirá a hora do dia.",
-          "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>.",
-          "Name": "Sincronizar Escuridão (Cena Atual)"
-        },
-        "TimeConvention": {
-          "Hint": "Exibe um relógio de 24 horas ou de 12 horas.",
-          "Name": "Conversão do Tempo",
-          "Twelve": "12 Horas",
-          "TwentyFour": "24 Horas"
+        "FIELDS": {
+          "dateTheme": {
+            "hint": "Definir o tema da aplicação do Relógio do Mundo.",
+            "label": "Tema da Data"
+          },
+          "playersCanView": {
+            "hint": "Definir se os jogadores podem ver o Relógio do Mundo.",
+            "label": "Acesso do Jogador"
+          },
+          "showClockButton": {
+            "hint": "Define se deseja mostrar o botão do relógio para todos (exige recarregamento).",
+            "label": "Mostrar o botão do relógio"
+          },
+          "syncDarkness": {
+            "hint": "Define se o nível de escuridão de qualquer cena refletirá a hora do dia.",
+            "label": "Sincronizar Escuridão"
+          },
+          "timeConvention": {
+            "hint": "Exibe um relógio de 24 horas ou de 12 horas.",
+            "label": "Conversão do Tempo"
+          }
         }
       },
       "WorldSchemaVersion": {
@@ -3678,7 +3736,7 @@
       "HearingRange": {
         "Caveat": "*Por questões de desempenho, o raio é uma medida real e não baseada na grade.",
         "Hint": "Limita o alcance* que as criaturas podem ouvir nesta cena como uma representação de “um ambiente que confunde os sentidos, como em uma sala barulhenta” (Livro Básico pág. 465). Requer que a visão baseada em regras esteja habilitada.",
-        "Name": "Alcance de Audição (pés)",
+        "Label": "Alcance de Audição (pés)",
         "Unlimited": "Ilimitado"
       }
     },
@@ -4449,7 +4507,6 @@
     "TraitDescriptionThaumaturge": "Indica habilidades da classe taumaturgo.",
     "TraitDescriptionThrown": "Você pode arremessar esta arma como um ataque a distância. Uma arma de arremesso adiciona seu modificador de Força ao dano da mesma forma que com uma arma corpo a corpo. Quando este traço aparecer em uma arma corpo a corpo, ele também incluirá o incremento de distância.",
     "TraitDescriptionTraining": "Uma arma de Treinamento é projetada para ser usada quando Treinar um Animal para participar em combate, identificando o alvo para o animal atacar. Golpear uma criatura com armas de treinamento dá a seu companheiro animal ou animal com elo, bônus de circunstância +1 para seu próximo ataque contra esta criatura.",
-    "TraitDescriptionTranscendence": "A transcendência canaliza o poder de uma faísca divina do exemplar através de um de seus ikones para ultrapassar o mortal e executar um feito milagroso. Cada ikone tem uma ação com o traço de \"transcendência\" e usá-la se chama Despertar Transcendência. Para usar a ação, a sua faísca divina deve estar a fortalecendo aquele ikone e você deve ter o ikone pronto para usar (normalmente segurando uma arma ikone ou usando um ikone vestido). Imediatamente depois de você Despertar Transcendência sua faísca divina é expelidadaquele ikone, vindo a descansar em outro ikone à sua escolha. Você só poderá Despertar Transcendência uma vez por rodada. Como vem da sua faísca divina, uma ação de transcendência tem o traço \"divino\".",
     "TraitDescriptionTrap": "Um perigo ou item com este traço é construído para frustrar intrusos.",
     "TraitDescriptionTrip": "Você pode usar esta arma para Derrubar com a perícia Atletismo mesmo se não tiver uma mão livre. Isto utiliza o alcance da arma (se for diferente do seu) e adiciona o bônus de item dela que é aplicado a rolagens de ataque (se houver) como um bônus de item aplicado ao seu teste de Atletismo. Se obtiver uma falha crítica no teste para Derrubar enquanto usar essa arma, você pode escolher soltá-la para sofrer os efeitos de uma falha em vez dos efeitos de uma falha crítica.",
     "TraitDescriptionTroll": "Trolls são criaturas gigantes e brutais, bem conhecidas por se transformarem em materiais inanimados.",
@@ -4720,6 +4777,7 @@
     "TraitOracle": "Oráculo",
     "TraitOrc": "Orc",
     "TraitOread": "Oread",
+    "TraitOther": "Outro",
     "TraitOverflow": "Transbordamento",
     "TraitPaaridar": "Paaridar",
     "TraitPalinthanos": "Palinthanos",
@@ -5433,9 +5491,6 @@
     "WeaponBaseDamageTitle": "Esta seção configura o dano base da arma. Dados adicionais da runa Impactante não deve ser adicionado aqui, mas sim configurados na seção Runas de Arma acima.",
     "WeaponBaseLabel": "Base",
     "WeaponBonusAttackLabel": "Bônus de Ataque",
-    "WeaponBonusDamageLabel": "Bônus de Dano",
-    "WeaponCustomDamageLabel": "Dano Adicional Customizado",
-    "WeaponCustomDamageTitle": "Esta seção adiciona qualquer dano personalizado que não seja coberto pelo sistema de Runa. Os atributos dos Efeitos de Golpe e Efeito Crítico não são usados atualmente no sistema e são apenas informativos.",
     "WeaponDamageLabel": "Dano Base",
     "WeaponGroupAxe": "Machado",
     "WeaponGroupBomb": "Bomba",
@@ -5459,14 +5514,10 @@
     "WeaponHands1": "Uma",
     "WeaponHands1Plus": "Uma+",
     "WeaponHands2": "Duas",
-    "WeaponMAPDefaultOption": "Padrão (usar traço Ágil se presente)",
-    "WeaponMAPLabel": "Penalidade de Ataques Múltiplos",
     "WeaponPotencyRune1": "Potência de Arma (+1)",
     "WeaponPotencyRune2": "Potência de Arma (+2)",
     "WeaponPotencyRune3": "Potência de Arma (+3)",
     "WeaponPotencyRune4": "Potência de Arma (+4)",
-    "WeaponPropertyCriticalDamageLabel": "Dano Crítico",
-    "WeaponPropertyCriticalEffectLabel": "Efeito Crítico",
     "WeaponPropertyRune": {
       "ancestralEchoing": {
         "Name": "Eco Ancestral"
@@ -5861,8 +5912,6 @@
         "Name": "Sanguinária"
       }
     },
-    "WeaponPropertyStrikeDamageLabel": "Dano de Golpe",
-    "WeaponPropertyStrikeEffectLabel": "Efeito de Golpe",
     "WeaponRange10": "10 pés",
     "WeaponRange100": "100 pés",
     "WeaponRange120": "120 pés",
