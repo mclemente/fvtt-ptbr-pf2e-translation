@@ -11,6 +11,10 @@ export const PF2_DEFAULT_MAPPING = {
             converter: "translateActorDescription",
         },
         blurb: { path: "system.details.blurb", extractOptions: { extractOnAdventureActor: true } },
+        compendiumSource: {
+            path: "_stats.compendiumSource",
+            extractOptions: { specialExtraction: "compendiumSource", extractOnAdventureActor: true },
+        },
         crew: { path: "system.details.crew" },
         description: {
             path: "system.details.description",
@@ -170,7 +174,7 @@ export const PF2_DEFAULT_MAPPING = {
         },
         tables: {
             path: "tables",
-            converter: "tableResultsCollection",
+            converter: "translateAdventureTables",
             extractOptions: { subMapping: "rollableTable", specialExtraction: "nameAsKey" },
         },
         macros: {
@@ -343,6 +347,7 @@ export const PF2_DEFAULT_MAPPING = {
             extractOptions: { extractOnActorItem: false, convertArray: false },
         },
         unidentifiedName: { path: "system.identification.unidentified.name" },
+        unidentifiedDescription: { path: "system.identification.unidentified.data.description.value" },
     },
     journal: {
         name: { path: "name" },
@@ -379,7 +384,7 @@ export const PF2_DEFAULT_MAPPING = {
         description: { path: "description" },
         results: {
             path: "results",
-            converter: "tableResults",
+            converter: "translateTableResults",
             extractOptions: {
                 subMapping: "tableResults",
                 specialExtraction: "tableResults",
@@ -436,6 +441,8 @@ export const PF2_DEFAULT_MAPPING = {
     },
     tableResults: {
         text: { path: "text", extractOptions: { addToMapping: false } },
+        name: { path: "name", extractOptions: { addToMapping: false } },
+        description: { path: "description", extractOptions: { addToMapping: false } },
     },
     text: {
         text: { path: "text", extractOptions: { addToMapping: false } },
@@ -2318,5 +2325,25 @@ export const ACTOR_REDIRECTS = [
         name: "Alchemical Golem",
         linkOld: "Compendium.pf2e.the-slithering-bestiary.Actor.idj4GBmsLUNUbk9r",
         linkNew: "Compendium.pf2e.pathfinder-bestiary.Actor.Tpuqwt6Af29EMtqX",
+    },
+    {
+        name: "Quetzalcoatlus",
+        linkOld: "Compendium.pf2e.pathfinder-bestiary.Actor.8JvzSTwQWtOsxRfL",
+        linkNew: "Compendium.pf2e.pathfinder-monster-core.Actor.a4LgD3NrgkiINvru",
+    },
+    {
+        name: "City Guard Squadron",
+        linkOld: "Compendium.pf2e.pathfinder-bestiary-3.Actor.SQKdvPIhWkrHlkbn",
+        linkNew: "Compendium.pf2e.pathfinder-npc-core.Actor.jAdRgBHut1h1et10",
+    },
+    {
+        name: "Hellknight Cavalry Brigade",
+        linkOld: "Compendium.pf2e.pathfinder-bestiary-3.Actor.CXCdPqMRX58sBQ9G",
+        linkNew: "Compendium.pf2e.pathfinder-npc-core.Actor.02AGznZTv5jjcnOg",
+    },
+    {
+        name: "Rancorous Priesthood",
+        linkOld: "Compendium.pf2e.pathfinder-bestiary-3.Actor.vOTFqODTDDC2BDLx",
+        linkNew: "Compendium.pf2e.pathfinder-npc-core.Actor.uFQsIRC0zz3sNNIW",
     },
 ];
