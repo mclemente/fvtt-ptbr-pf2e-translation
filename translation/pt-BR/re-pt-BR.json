@@ -306,6 +306,10 @@
         },
         "Moderate": {
           "success": "<strong>Efeito</strong> A bomba também causa [[/r (3[splash])[mental]]]{3 de dano de respingo mental} e o alvo fica @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 1} (@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustado 2} em um crítico)."
+        },
+        "Note": {
+          "criticalSuccess": "Em um acerto, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 2}",
+          "success": "Em um acerto, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}"
         }
       },
       "DwarvenDaisy": {
@@ -755,11 +759,15 @@
           "Defensive": "Defensiva",
           "DefensiveResistance": "Ressonância Defensiva",
           "Illumination": "Iluminação",
-          "IlluminationColor": "Ressonância de Iluminação"
+          "IlluminationColor": "Ressonância de Iluminação",
+          "Subterfuge": "Subterfúgio"
         }
       },
       "AlchemicalGolem": {
         "Sickness": "Doença"
+      },
+      "AlchemicalGrenades": {
+        "Label": "Granada Alquímica"
       },
       "AncientWisp": {
         "PinpointLight": "Ponto de Luz"
@@ -999,6 +1007,9 @@
       "Falrok": {
         "LazuriteTerrainSwitch": "Em terrenos infundidos com lazurita"
       },
+      "FatedDoom": {
+        "RollOptionLabel": "Primeiro encontro do dia"
+      },
       "FiveColorOrchidMantis": {
         "ColorShift": {
           "Black": "Preto - Água",
@@ -1053,12 +1064,25 @@
       "Hryngar": {
         "AlchemicalGrenade": "Tipo de Dano da Granada Alquímica"
       },
+      "Inizkar": {
+        "AlignTheStars": {
+          "Prompt": "Isto é um aliado de Inizkar?"
+        }
+      },
       "IoseffXarwin": {
         "FulviasRing": {
           "SavePossess": "Salvamento contra alvo em posse de um Anel de Fulvia",
           "SaveWear": "Salvamento contra alvo usando um Anel de Fulvia",
           "TargetPossess": "O alvo possui um Anel de Fulvia",
           "TargetWear": "O alvo está usando um Anel de Fulvia"
+        }
+      },
+      "IruxiMaskedMummer": {
+        "DonMask": {
+          "Akkarok": "Akkarok Flamejante",
+          "KingOfStorms": "Rei das Tempestades",
+          "Nessek": "Nessek, o Dançarino das Ondas",
+          "Prompt": "Selecione um espírito ancestral."
         }
       },
       "Ivarsa": {
