@@ -3999,6 +3999,7 @@
     "TraitAndroid": "Androide",
     "TraitAngel": "Anjo",
     "TraitAnimal": "Animal",
+    "TraitAnimist": "Animista",
     "TraitAnugobu": "Anugobu",
     "TraitApex": "Apogeu",
     "TraitAphorite": "Aphorite",
@@ -4622,6 +4623,7 @@
     "TraitEthereal": "Etérea",
     "TraitEvolution": "Evolução",
     "TraitExpandable": "Expansível",
+    "TraitExemplar": "Exemplar",
     "TraitExperiment": "Experimento",
     "TraitExploration": "Exploração",
     "TraitExtradimensional": "Extradimensional",
@@ -6051,6 +6053,7 @@
       },
       "confused": {
         "name": "Confuso",
+        "note": "Sempre que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|showDC:all|dc:11] para se recuperar da confusão e encerrar esta condição.",
         "rules": "<p>Você não tem certeza sobre as coisas, e ataca selvagemente. Você está desprevenido, não trata ninguém como aliado (embora seus aliados ainda possam tratá-lo como um aliado deles) e não pode Adiar, Preparar ou usar reações.<p></p>Você usa todas suas ações para Golpear ou conjurar truques mágicos ofensivos, embora o MJ possa fazer você usar outras ações para facilitar o ataque, como sacar uma arma, mover-se para que um alvo esteja ao alcance e assim por diante. Seus alvos são determinados aleatoriamente pelo MJ. Se não tiver outros alvos viáveis, você acerta a si mesmo, acertando-se automaticamente, mas sem causar um acerto crítico. Se for impossível atacar ou conjurar magias, você balbucia incoerentemente, desperdiçando suas ações.</p>\n<p>Cada vez que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|dc:11]{Teste Simples} para recuperar-se de sua confusão e encerrar a condição.</p>",
         "summary": "Você ataca indiscriminadamente."
       },
@@ -6066,6 +6069,7 @@
       },
       "deafened": {
         "name": "Surdo",
+        "note": "Se usar uma ação com o traço auditivo, você deve ser bem-sucedido em um @Check[flat|dc:5|showDC:all] ou a ação é perdida.",
         "rules": "<p>Você não pode ouvir. Você automaticamente falha criticamente em testes de Percepção que requeiram que você seja capaz de ouvir. Você sofre -2 de penalidade de circunstância em testes de Percepção para iniciativa e testes que envolvam som e também utilizem de outros sentidos. Se realizar uma ação com o traço auditivo, você deve obter sucesso em um @Check[flat|dc:5]{Teste Simples} ou a ação é perdida; faça o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados. Você fica imune a efeitos auditivos.</p>",
         "summary": "Você é incapaz de ouvir."
       },
@@ -6126,6 +6130,7 @@
       },
       "grabbed": {
         "name": "Agarrado",
+        "note": "Se usar uma ação com o traço manuseio, você deve ser bem-sucedido em um @Check[flat|dc:5|showDC:all] ou a ação é perdida.",
         "rules": "<p>Você é mantido no lugar por outra criatura, impondo-lhe as condições desprevenido e imobilizado. Se tentar uma ação de manuseio enquanto estiver agarrado, você deve obter sucesso em um teste simples @Check[flat|dc:5]{Teste Simples} ou ela é perdida; role o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados.</p>",
         "summary": "Uma criatura, objeto ou magia o segura no lugar."
       },
@@ -6197,11 +6202,13 @@
       },
       "restrained": {
         "name": "Restringido",
+        "note": "Você não pode atacar ou usar ações de manuseio, exceto para tentar Escapar ou Forçar suas amarras.",
         "rules": "<p>Você está amarrado e mal pode se mover, ou uma criatura lhe prendeu. Você sofre as condições desprevenido e imobilizado e não pode usar quaisquer ações com os traços ataque ou manuseio exceto para tentar Escapar ou Forçar suas amarras. Restringido sobrepõe agarrado.</p>",
         "summary": "Você está amarrado e não pode se mover, ou uma criatura lhe agarrando o prendeu."
       },
       "sickened": {
         "name": "Enjoado",
+        "note": "Você não pode ingerir nada voluntariamente — incluindo elixires e poções — enquanto estiver enjoado.",
         "rules": "<p>Você se sente mal. Enjoado sempre inclui um valor. Você sofre uma penalidade de estado igual ao valor desta condição em todos os seus testes e CDs. Você não pode ingerir nada voluntariamente — incluindo elixires e venenos — enquanto estiver enjoado.</p>\n<p>Você pode gastar uma ação única regurgitando para se recuperar, tentando imediatamente um salvamento de Fortitude contra a CD do efeito que lhe deixou enjoado. Em um sucesso, você reduz seu valor de enjoado em 1 (ou em 2 em um sucesso crítico).</p>",
         "summary": "Você está sentindo dor no estômago."
       },
