@@ -985,22 +985,6 @@
       "description": "<p><strong>Frequência</strong> uma vez por minuto</p>\n<p>Seu eidolon concentra o poder dos mais poderosos dos anciões para tornar o Sopro dele mais espetacular. Se a próxima ação de seu eidolon for usar Sopro, a quantidade de dados de dano e a área do Sopro são dobrados.</p>"
     }
   },
-  "mapping": {
-    "description": "system.description.value",
-    "name": {
-      "converter": "translateDualLanguage",
-      "path": "name"
-    },
-    "rules": {
-      "converter": "translateRules",
-      "path": "system.rules"
-    },
-    "selfEffect": "system.selfEffect.name",
-    "source": {
-      "converter": "translateSource",
-      "path": "system.publication.title"
-    }
-  },
   "folders": {
     "Basic Actions": "Ações Básicas",
     "Skill Actions": "Ações de Perícia"
