@@ -1,1 +1,212 @@
-{"label":"Rusthenge","entries":{"Clockwork Belimarius":{"items":{"strike-melee->Halberd":{"name":"Alabarda"}}},"Dretch":{"items":{"strike-melee->Jaws":{"name":"Mandíbulas"},"strike-melee->Claw":{"name":"Garra"}}},"Fallen Acolyte":{"items":{"strike-melee->Sickle":{"name":"Foice"},"lore->Warfare Lore":{"name":"Saber de Guerra"}}},"Glutu":{"items":{"spell->Chill Touch":{"target":"1 living or undead creature"},"strike-melee->Whip":{"name":"Chicote"},"strike-melee->Tongue":{"name":"Língua"}}},"Knurr Ragnulf":{"items":{"strike-melee->Warhammer":{"name":"Martelo de Guerra"},"action->Intimidating Strike":{"name":"Golpe Intimidante"}}},"Meitremar":{"items":{"spell->Inveigle":{"target":"1 creature of a level no greater than double the inveigle ritual's level"},"equipment->Key":{"name":"Chave"},"consumable->Wand of Restoration (Level 2)":{"consumableSpellTarget":"1 creature"},"strike-melee->Pick":{"name":"Picareta"},"action->Reach Spell":{"name":"Magia de Alcance"}}},"Ordwi":{"items":{"strike-melee->Rapier":{"name":"Rapieira"},"action->Divine Font":{"name":"Fonte Divina"},"action->Healing Hands":{"name":"Mãos Curandeiras"}}},"Primordial Envy":{"items":{"strike-melee->Pseudopod":{"name":"Pseudópode"},"action->Magic Sense":{"name":"Sentido Mágico"}}},"Rust Zombie":{"items":{"strike-melee->Fist":{"name":"Punho"},"strike-melee->Jaws":{"name":"Mandíbulas"},"action->Slow":{"name":"Lentidão"}}},"Rustsworn Initiate":{"items":{"strike-melee->Dagger":{"name":"Adaga"},"strike-ranged->Dagger":{"name":"Adaga"},"action->Gang Up":{"name":"Bandear"}}},"Severed Head":{"items":{"strike-melee->Jaws":{"name":"Mandíbulas"}}},"Starving Werebat":{"items":{"strike-melee->Fangs":{"name":"Presas"},"strike-melee->Wing":{"name":"Asa"},"strike-melee->Dagger":{"name":"Adaga"},"strike-ranged->Dagger":{"name":"Adaga"}}},"Theiltemar":{"items":{"spell->Blood Vendetta":{"requirements":"You can bleed"},"strike-melee->Claw":{"name":"Garra"}}},"Trygve":{"items":{"equipment->Key":{"name":"Chave"},"strike-melee->Light Hammer":{"name":"Martelo Leve"},"strike-ranged->Light Hammer":{"name":"Martelo Leve"}}},"Vanda":{"items":{"strike-melee->Greatsword":{"name":"Montante"},"lore->Warfare Lore":{"name":"Saber de Guerra"}}},"Vloriak":{"items":{"strike-melee->Claw":{"name":"Garra"},"strike-melee->Tongue":{"name":"Língua"}}},"Vlorian Cythnigot":{"items":{"strike-melee->Bite":{"name":"Mordida"}}},"Zaiox":{"items":{"spell->Chill Touch":{"target":"1 living or undead creature"},"spell->Dancing Lights":{"name":"Luzes Dançantes","description":"<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"},"strike-melee->Aklys":{"name":"Aklys"},"strike-ranged->Aklys":{"name":"Aklys"}}}}}
+{
+  "label": "Rusthenge",
+  "entries": {
+    "Clockwork Belimarius": {
+      "items": {
+        "strike-melee->Halberd": {
+          "name": "Alabarda"
+        }
+      }
+    },
+    "Dretch": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Fallen Acolyte": {
+      "items": {
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Glutu": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "strike-melee->Whip": {
+          "name": "Chicote"
+        },
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        }
+      }
+    },
+    "Knurr Ragnulf": {
+      "items": {
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        },
+        "action->Intimidating Strike": {
+          "name": "Golpe Intimidante"
+        }
+      }
+    },
+    "Meitremar": {
+      "items": {
+        "spell->Inveigle": {
+          "target": "1 creature of a level no greater than double the inveigle ritual's level"
+        },
+        "equipment->Key": {
+          "name": "Chave"
+        },
+        "consumable->Wand of Create Food (Level 2)": {
+          "consumableSpellName": "Criar Comida",
+          "consumableSpellDescription": "<p>Você cria comida o suficiente para alimentar seis criaturas Médias por um dia. Esta comida é insípida e desagradável, mas é nutritiva. Após 1 dia, se ninguém a tiver comido, ela apodrece e deixa de ser comestível. A maioria das criaturas Pequenas come um quarto do que comeria uma criatura Média (um dezesseis avos no caso da maioria das criaturas Minúsculas), e a maioria das criaturas Grandes come 10 vezes do que comeria uma criatura Média (100 vezes no caso da maioria das criaturas Enormes e assim por diante).</p><hr /><p><strong>Elevada (4º)</strong> Você pode alimentar 12 criaturas Médias.</p><p><strong>Elevada (6º)</strong> Você pode alimentar 50 criaturas Médias.</p><p><strong>Elevada (8º)</strong> Você pode alimentar 200 criaturas Médias.</p>"
+        },
+        "consumable->Wand of Restoration (Level 2)": {
+          "consumableSpellName": "Restauração",
+          "consumableSpellTarget": "1 creature"
+        },
+        "strike-melee->Pick": {
+          "name": "Picareta"
+        },
+        "action->Reach Spell": {
+          "name": "Magia de Alcance"
+        }
+      }
+    },
+    "Ordwi": {
+      "items": {
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "action->Divine Font": {
+          "name": "Fonte Divina"
+        },
+        "action->Healing Hands": {
+          "name": "Mãos Curandeiras"
+        }
+      }
+    },
+    "Primordial Envy": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        },
+        "action->Magic Sense": {
+          "name": "Sentido Mágico"
+        }
+      }
+    },
+    "Rust Zombie": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "action->Slow": {
+          "name": "Lentidão"
+        }
+      }
+    },
+    "Rustsworn Initiate": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "action->Gang Up": {
+          "name": "Bandear"
+        }
+      }
+    },
+    "Severed Head": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Starving Werebat": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Theiltemar": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Trygve": {
+      "items": {
+        "equipment->Key": {
+          "name": "Chave"
+        },
+        "strike-melee->Light Hammer": {
+          "name": "Martelo Leve"
+        },
+        "strike-ranged->Light Hammer": {
+          "name": "Martelo Leve"
+        }
+      }
+    },
+    "Vanda": {
+      "items": {
+        "strike-melee->Greatsword": {
+          "name": "Montante"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Vloriak": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tongue": {
+          "name": "Língua"
+        }
+      }
+    },
+    "Vlorian Cythnigot": {
+      "items": {
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        }
+      }
+    },
+    "Zaiox": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Aklys": {
+          "name": "Aklys"
+        },
+        "strike-ranged->Aklys": {
+          "name": "Aklys"
+        }
+      }
+    }
+  }
+}

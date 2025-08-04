@@ -1,1 +1,442 @@
-{"PF2E.Kingmaker":{"Abilities":{"culture":"Cultura","economy":"Economia","loyalty":"Lealdade","stability":"Estabilidade"},"AbilityScores":"Valores de Atributos","Army":{"Adjustment":"Ajuste","Alliance":{"Enemy":"Inimigo","Kingdom":"Reino","Info":"A aliança atual do exército. Isso é controlado pelo fato de o exército ter um dono de jogador.","Linked":"Os tokens deste exército estão atualmente vinculados e as atualizações devem persistir adequadamente","LinkError":"Este exército não pode ser vinculado a partir de um token. Faça isso na barra lateral do ator e arraste uma nova cópia.","UnlinkedError":"Exércitos do Reino devem ter dados de ator vinculados para funcionar corretamente. Clique aqui para habilitá-lo."},"Ammunition":"Munição","Armor":"Armadura","BasicWarActions":"Ações Básicas de Guerra","Condition":{"concealed":{"name":"Ocultado"}},"Description":"Descrição","Error":{"InvalidTacticType":"A tática {name} não é suportada por exércitos {type}"},"Gear":{"GearInfo":"Mostrar informações do equipamento","ItemLevel":"Item {level}","Label":"Equipamento","LevelLabel":"Nível {level}","AdditionalWeapon":{"Name":"Arma Adicional","Description":"A maioria dos exércitos têm apenas uma arma – uma arma corpo a corpo ou à distância. Este equipamento equipa um exército com uma arma adicional do outro tipo. O exército ganha um ataque corpo a corpo ou à distância (conforme apropriado) no modificador básico de seu nível."},"MagicWeapons":{"Name":"Armas Mágicas ({type})","Description":"As armas do exército são mágicas. Se o exército tiver armas corpo a corpo e à distância, escolha qual delas se tornará mágica quando este equipamento for comprado. Você pode comprar este equipamento duas vezes – uma para armas corpo a corpo e outra para armas à distância. Se você comprar uma versão mais poderosa, ela substituirá a versão anterior, e o custo de RP da versão mais poderosa será reduzido pelo custo de RP das armas substituídas.","rank1":{"Name":"Armas Mágicas","Description":"Essas armas aumentam o Golpe do exército com aquela arma em 1."},"rank2":{"Name":"Armas Mágicas Maiores","Description":"Essas armas aumentam o Golpe do exército com aquela arma em 2."},"rank3":{"Name":"Armas Mágicas Superiores","Description":"Essas armas aumentam o Golpe do exército com aquela arma em 3."}},"Potions":{"Name":"Poções de Cura","Description":"Um exército equipado com poções de cura (essas regras são as mesmas se você fornecer ao exército elixires de cura alquímicos) pode usar uma única dose como parte de qualquer ação de Manobra. Quando um exército usa uma dose de poções de cura, ele recupera 1 PV. Um exército pode ser equipado com até 3 doses de poções de cura por vez; ao contrário dos tiros de ataque à distância, as doses de poções de cura não são reabastecidas automaticamente após um encontro de guerra – novas doses devem ser compradas."},"Armor":{"Name":"Armadura Mágica","Description":"Armadura mágica é encantada magicamente para reforçar a proteção que oferece aos soldados.","rank1":{"Name":"Armadura Mágica","Description":"Esta armadura aumenta a CA do exército em 1."},"rank2":{"Name":"Armadura Mágica Maior","Description":"Esta armadura aumenta a CA do exército em 2."},"rank3":{"Name":"Armadura Mágica Superior","Description":"Esta armadura aumenta a CA do exército em 3."}}},"Label":"Exército","NamePlaceholder":"Nome do Exército","Potency":"Potência","Potions":{"FullHP":"PV do Exército já está cheio","Label":"Poções","OutOfPotions":"Não há mais poções disponíveis","UsePotion":"Usar Poção (+1 PV)","UsedPotionHeader":"Poção Consumida","UsedPotionContent":"Exército ganhou +1 PV. Pode ser usado durante ações de manobra."},"RecruitmentDC":"CD de Recrutamento","RoutedDescription":"PV do Exército está abaixo do Limiar de Derrota!","RoutThreshold":"Limiar de Derrota","Save":{"maneuver":"Manobra","morale":"Moral"},"Scouting":"Patrulhando","Stats":"Estatísticas","Strikes":{"CurrentAmmo":"{current} / {max} Tiros<br/>Restaurados no final de um encontro de guerra","None":"Este exército não tem armas: adicione uma na seção de equipamentos.","Label":"Golpes","OutOfAmmo":"Nenhum tiro permanece neste encontro de guerra","RestoreAmmunition":"Restaurar Munição","proficiency":"Proficiência","melee":"Corpo-a-Corpo","ranged":"À Distância"},"Tactics":"Táticas","TacticsFree":"Táticas (Livres)","Toggles":{"LiveOffTheLand":"Em hexágono sem assentamento","KeepUpThePressure":"Atacando o mesmo alvo"},"TacticalWarActions":"Ações Táticas de Guerra"},"Confirm":"Confirmar","Consumption":{"Base":"Base","Label":"Consumo","Reduction":"Redução"},"Event":{"Details":"Detalhes do evento em andamento","Random":"Evento aleatório"},"GrantedBy":"Este recurso foi concedido por {granter} e não pode ser excluído","KingdomBuilder":{"ActivationMessage":"Iniciar o processo de Criação do Reino? Certifique-se de que seus jogadores estejam prontos antes de prosseguir.","Aspiration":"Aspiração","AssignBoostsHeader":"Atribua suas melhorias","Boost":"Melhoria","BoostsLabel":"Melhorias de Atributo","Builder":"Construtor","CancelCreation":"Cancelar criação","Complete":"Completar","Feat":"Talento de Reino","FinalizeHeader":"Finalizar Reino","Flaw":"Defeito","FlawLabel":"Falha de Atributo","Free":"Livre","Skills":"Perícias de Reino","ManualToggle":"Use modificadores manuais","Missing":{"Charter":"Escolha uma carta para selecionar melhorias.","Heartland":"Escolha uma área central para selecionar melhorias.","Government":"Escolha um governo para selecionar melhorias."},"None":"Nenhuma","NotSelected":"Não Selecionado","SaveAndContinue":"Salvar e continuar","Tabs":{"Charter":"Carta","Heartland":"Terra Central","Government":"Governo","AbilityScores":"Valores de Atributos"},"Title":"Construa seu Reino"},"Kingdom":{"Activities":"Atividades de Reino","ArmyConsumption":"Consumo do Exército","Aspiration":{"fame":"Fama","infamy":"Infâmia"},"BuildHeader":"Construção do Reino","BuildElement":{"Charter":"Carta","Heartland":"Terra Central","Government":"Governo"},"Capital":"Capital","CapitalPlaceholder":"Nome da Cidade","CollectDialog":{"Title":"Coletar Recursos","Header":"Manutenção: Coleta de Recursos","Description":"Rolar {dice} dados de recursos e gerar o próximo?","Disclaimer":"Isso substituirá seus pontos de recursos atuais (que deveriam ter sido convertidos em pontos de experiência). O excesso de mercadorias será perdido. Somente o mestre do jogo pode coletar recursos."},"Commodity":{"food":"Comida","lumber":"Madeira","luxuries":"Luxos","ore":"Minério","stone":"Pedra"},"ControlDC":"CD de Controle","Invested":"Investido","InvestedBonus":"Bônus de estado para {ability}","ImportDialog":{"Title":"Importar Atividades"},"FeatSlot":{"Bonus":"Talentos Bônus"},"Leaders":"Líderes","LeaderMissing":"Nenhum (arraste um novo ator)","LeadershipRole":{"ruler":"Governante","counselor":"Conselheiro","general":"Geral","emissary":"Emissário","magister":"Magistro","treasurer":"Tesoureiro","viceroy":"Vice-rei","warden":"Guardião"},"NamePlaceholder":"Nome do Reino","NationType":{"territory":"Território","province":"Província","state":"Estado","country":"País","dominion":"Domínio"},"Phases":{"commerce":{"Header":"Fase Comercial","Description":"Quando o reino gera receitas ou faz acordos comerciais.","Step1":"<strong>Coletar Impostos:</strong> Pode ser realizada uma vez por turno do Reino. Se você não tentar Coletar Impostos, você pode tentar um teste simples CD 11; em caso de sucesso, reduza a Agitação em 1","Step2":"<strong>Aprovar Despesas:</strong> você pode sacar fundos para tentar a atividade Melhorar Estilo de Vida ou pode tentar uma retirada usando a atividade Mexer no Tesouro.","Step3":"<strong>Mexer nas Mercadorias:</strong> Se o seu reino tiver algum estoque de Mercadorias, você pode tentar a atividade Negociar Mercadorias para aumentar seu PR naquele turno.","Step4":"<strong>Gerenciar Acordos Comerciais:</strong> Se você estabeleceu acordos comerciais, você pode tentar Gerenciar Acordos Comerciais."},"leadership":{"Header":"Fase de Atividade: Atividades de Liderança","Description":"Se a capital do seu reino tiver um Castelo, Palácio ou Câmara Municipal, cada PJ em função de liderança pode tentar até três atividades de Liderança. Se sua capital não tiver nenhuma dessas estruturas, cada PJ não poderá realizar mais do que duas atividades de Liderança durante esta etapa. A menos que uma atividade indique o contrário, um líder não pode tentar a mesma atividade de Liderança mais de uma vez por turno do Reino."},"region":{"Header":"Fase de Atividade: Atividades Regionais","Description":"Os líderes PJs podem tentar coletivamente até três atividades regionais."},"civic":{"Header":"Fase de Atividade: Atividades Cívicas","Description":"O grupo pode tentar uma atividade Cívica para cada um dos assentamentos do reino."},"army":{"Header":"Atividades do Exército","Description":"Após os PJs completarem a etapa de Atividades Cívicas de um turno do Reino, eles podem realizar uma etapa de Atividades do Exército, na qual cada exército atualmente mantido pelo reino pode realizar uma única atividade do Exército."}},"Resources":{"Collect":"Coletar","Dice":"Dados de Recursos","Header":"Recursos e Mercadorias","Points":"Pontos de Recursos","RP":"PR"},"Ruin":{"corruption":"Corrupção","crime":"Crime","decay":"Decadência","strife":"Conflito"},"Size":"Tamanho","Storage":"Estoque","Tabs":{"Main":"Principal","Activities":"Atividades","World":"Mundo","Features":"Características","Ongoing":"Em andamento"},"Unrest":"Agitação","VacancyPenalty":{"ruler":"-1 em todos os testes (isso se acumula com qualquer outra penalidade de vaga); Ganhe 1d4 de Agitação no início do turno do Reino; CD de controle aumenta em 2","counselor":"-1 para todas os testes baseados em Cultura","general":"-4 para atividades de Guerra","emissary":"-1 para todos os testes baseados em Lealdade","magister":"-4 para atividades de Guerra","treasurer":"-1 para todos os testes baseados na Economia","viceroy":"-1 para testes baseados em Estabilidade","warden":"-4 para atividades de Região"},"Vacant":"Vago","VacantRole":"Vago ({role})"},"Feature":{"Categories":{"army-tactic":"Tática do Exército","army-war-action":"Ação de Guerra do Exército","kingdom-activity":"Atividade do Reino","kingdom-feat":"Talento de Reino","kingdom-feature":"Característica do Reino"},"Tactic":"Tática"},"Penalty":"Penalidade","Settlement":{"Blocks":"Blocos","Details":"Detalhes do Assentamento","Header":"Assentamentos do Reino","Label":"Assentamento","LevelRange":"Faixa de Nível","Name":"Nome do Assentamento","Overcrowded":"Superlotado","Population":"População","Type":{"village":"Vila","town":"Município","city":"Cidade","metropolis":"Metrópole"},"TypeLabel":"Tipo"},"Skills":{"agriculture":"Agricultura","arts":"Artes","boating":"Navegação","defense":"Defesas","engineering":"Engenharia","exploration":"Exploração","folklore":"Folclore","industry":"Indústria","intrigue":"Intriga","magic":"Magia","politics":"Política","scholarship":"Estudos","statecraft":"Estadismo","trade":"Comércio","warfare":"Guerra","wilderness":"Ermos"},"WorkSites":{"food":{"Name":"Terras Agrícolas","Description":"Reduz o consumo durante a fase de Manutenção. Os alimentos precisam ser coletados durante a fase de região usando Colheita, Pesca ou Coleta de Gado. Criado usando Estabelecer Terras Agrícolas."},"lumber":{"Name":"Campos Madeireiros","Description":"Aumenta a Madeira obtida durante a fase de Manutenção. Criado usando Estabelecer Local de Trabalho."},"luxuries":{"Name":"Minas (gema)","Description":"Local de trabalho muito raro. Concede luxos durante a fase de Manutenção."},"ore":{"Name":"Minas","Description":"Aumenta o Minério ganho durante a fase de Manutenção. Criado usando Estabelecer Local de Trabalho."},"stone":{"Name":"Pedreiras","Description":"Aumenta a Pedra ganha durante a fase de Manutenção. Criado usando Estabelecer Local de Trabalho."},"Label":"Locais de Trabalho","Resource":"Se um local de trabalho foi construído sobre uma fonte densa ou lucrativa para esse material, marque-o aqui. Eles produzem o dobro da quantidade normal."},"Charter":{"conquest":{"Name":"Conquista","Description":"Os seus patrocinadores conquistaram uma área e os seus antigos líderes foram derrotados ou até mesmo mortos. Esta carta coloca você no comando de alguma parte deste território conquistado (ou terra abandonada pelo inimigo derrotado) e ordena que você o mantenha e pacifique em nome de seu patrono. As pessoas são particularmente devotadas e apoiam o seu governo (embora parcialmente por medo), mas a ameaça constante de uma guerra potencial prejudica as artes e torna difícil para os cidadãos relaxarem verdadeiramente. Se você optar por esta carta, você será solicitado a estabelecer seu reino contra Pitax"},"expansion":{"Name":"Expansão","Description":"Seu patrono coloca você no comando de um domínio adjacente a terras já colonizadas com a expectativa de que sua nação continuará sendo uma forte aliada. O maior apoio da nação do seu patrono ajuda a fortalecer a sociedade do seu próprio reino, mas esta maior confiança significa que as flutuações na sorte do seu aliado podem impedir a segurança do seu próprio reino. Se você selecionar esta carta, Lady Jamandi espera que você continue sendo um forte aliado de Restov."},"exploration":{"Name":"Exploração","Description":"Seu patrocinador deseja que você explore, limpe e colonize uma área selvagem ao longo da fronteira do território do próprio patrocinador. Sua cartar ajuda a garantir estruturas iniciais (ou suprimentos para criá-las), ao custo de incorrer em dívidas financeiras."},"grant":{"Name":"Concessão","Description":"Seu patrono concede uma grande quantidade de financiamento e outros recursos sem restrições à natureza do desenvolvimento do seu reino, mas exige que você empregue muitos de seus cidadãos e aliados. A riqueza e os suprimentos da sua nação estão seguros, mas uma parte dos residentes do seu reino dividiu alianças entre a sua nação e a do seu patrocinador."},"open":{"Name":"Aberta","Description":"Se você preferir ser um agente verdadeiramente livre e pioneiro reivindicando suas próprias reivindicações, você pode simplesmente escolher uma carta aberta, sem restrições e sem suporte direto. Neste caso, Lady Jamandi aplaude sua bravura e autoconfiança, mas avisa que estabelecer um reino não é uma tarefa fácil. Uma carta aberta concede um único aumento de habilidade para qualquer valor de habilidade, e a nova nação não tem nenhuma falha de habilidade embutida."}},"Heartland":{"forestOrSwamp":{"Name":"Floresta ou Pântano","Description":"Sua nação começa em florestas ou pântanos, então não há escassez de recursos naturais ou maravilhas para estimular a imaginação e o humor de seus cidadãos."},"hillOrPlain":{"Name":"Colina ou Planície","Description":"Sua nação começa em uma área fácil de atravessar. Isso se reflete no temperamento dos seus cidadãos; eles apreciam que sua escolha torna suas vidas um pouco mais fáceis."},"lakeOrRiver":{"Name":"Lago ou Rio","Description":"Ao estabelecer a sua nação às margens de um lago ou rio, você garante um mecanismo integrado para o comércio. Mesmo antes de uma estrada ser construída, comerciantes e viajantes podem chegar ao seu assentamento com relativa facilidade de barco."},"mountainOrRuins":{"Name":"Montanha ou Ruínas","Description":"Sua nação é fundada nas montanhas ou inclui um local significativo em ruínas e usa esses recursos naturais ou artificiais para reforçar a defesa. Seus cidadãos tendem a ser fortes e resistentes, se não teimosos ao extremo."}},"Government":{"despotism":{"Name":"Despotismo","Description":"O governo da sua nação está centrado em torno de um único indivíduo que assumiu ou herdou o comando e cuja autoridade é absoluta. O governante deste reino ainda mantém conselheiros e assistentes, mas apenas quando estes obedecem aos caprichos do governante."},"feudalism":{"Name":"Feudalismo","Description":"O governo da sua nação pertence a uma família real dinástica, embora grande parte do poder real seja distribuído entre seus vassalos e feudos."},"oligarchy":{"Name":"Oligarquia","Description":"O governo da sua nação é determinado por um conselho de líderes influentes que tomam decisões por todos os outros."},"republic":{"Name":"República","Description":"A sua nação tira a sua liderança dos seus próprios cidadãos. Os representantes eleitos reúnem-se em órgãos parlamentares para orientar a nação."},"thaumocracy":{"Name":"Taumocracia","Description":"Sua nação é governada pelos mais habilidosos em magia, usando seu conhecimento e poder para determinar as melhores formas de governar. Embora o tipo de magia exercida pelos governantes da nação possa ajustar seus temas (ou até mesmo seu nome - uma taumocracia dirigida por feiticeiros divinos seria uma teocracia, por exemplo), os detalhes abaixo permanecem os mesmos, seja arcano, divino, oculto, primal, ou qualquer combinação dos quatro."},"yeomanry":{"Name":"Yeomanria","Description":"A sua nação é descentralizada e depende de líderes locais e cidadãos para lidar com questões governamentais, enviando representantes uns aos outros conforme necessário para lidar com questões que dizem respeito a mais de uma localidade."}},"SIDEBAR":{"CreateKingdom":"Criar Reino","OpenSheet":"Abrir Ficha do Reino"},"Trait":{"army":"Exército","cavalry":"Cavalaria","civic":"Cívico","commerce":"Comércio","infantry":"Infantaria","kingdom":"Reino","leadership":"Liderança","maneuver":"Manobra","morale":"Moral","region":"Região","siege":"Cerco","skirmisher":"Escaramuçador","upkeep":"Manutenção"},"TraitDescription":{"cavalry":"Cavalaria consiste em unidades de combate montadas.","infantry":"Infantaria consiste em soldados ou criaturas que se movem a pé.","siege":"Exércitos de cerco concentram-se na implantação de máquinas de cerco em vez de no combate pessoal.","skirmisher":"Escaramuçadores consistem em um pequeno número de unidades altamente móveis."}}}
+{
+  "PF2E.Kingmaker": {
+    "Abilities": {
+      "culture": "Cultura",
+      "economy": "Economia",
+      "loyalty": "Lealdade",
+      "stability": "Estabilidade"
+    },
+    "AbilityScores": "Valores de Atributos",
+    "Army": {
+      "Adjustment": "Ajuste",
+      "Alliance": {
+        "Enemy": "Inimigo",
+        "Kingdom": "Reino",
+        "Info": "A aliança atual do exército. Isso é controlado pelo fato de o exército ter um dono de jogador.",
+        "Linked": "Os tokens deste exército estão atualmente vinculados e as atualizações devem persistir adequadamente",
+        "LinkError": "Este exército não pode ser vinculado a partir de um token. Faça isso na barra lateral do ator e arraste uma nova cópia.",
+        "UnlinkedError": "Exércitos do Reino devem ter dados de ator vinculados para funcionar corretamente. Clique aqui para habilitá-lo."
+      },
+      "Ammunition": "Munição",
+      "Armor": "Armadura",
+      "BasicWarActions": "Ações Básicas de Guerra",
+      "Condition": {
+        "concealed": {
+          "name": "Ocultado"
+        }
+      },
+      "Description": "Descrição",
+      "Error": {
+        "InvalidTacticType": "A tática {name} não é suportada por exércitos {type}"
+      },
+      "Gear": {
+        "GearInfo": "Mostrar informações do equipamento",
+        "ItemLevel": "Item {level}",
+        "Label": "Equipamento",
+        "LevelLabel": "Nível {level}",
+        "AdditionalWeapon": {
+          "Name": "Arma Adicional",
+          "Description": "A maioria dos exércitos têm apenas uma arma – uma arma corpo a corpo ou à distância. Este equipamento equipa um exército com uma arma adicional do outro tipo. O exército ganha um ataque corpo a corpo ou à distância (conforme apropriado) no modificador básico de seu nível."
+        },
+        "MagicWeapons": {
+          "Name": "Armas Mágicas ({type})",
+          "Description": "As armas do exército são mágicas. Se o exército tiver armas corpo a corpo e à distância, escolha qual delas se tornará mágica quando este equipamento for comprado. Você pode comprar este equipamento duas vezes – uma para armas corpo a corpo e outra para armas à distância. Se você comprar uma versão mais poderosa, ela substituirá a versão anterior, e o custo de RP da versão mais poderosa será reduzido pelo custo de RP das armas substituídas.",
+          "rank1": {
+            "Name": "Armas Mágicas",
+            "Description": "Essas armas aumentam o Golpe do exército com aquela arma em 1."
+          },
+          "rank2": {
+            "Name": "Armas Mágicas Maiores",
+            "Description": "Essas armas aumentam o Golpe do exército com aquela arma em 2."
+          },
+          "rank3": {
+            "Name": "Armas Mágicas Superiores",
+            "Description": "Essas armas aumentam o Golpe do exército com aquela arma em 3."
+          }
+        },
+        "Potions": {
+          "Name": "Poções de Cura",
+          "Description": "Um exército equipado com poções de cura (essas regras são as mesmas se você fornecer ao exército elixires de cura alquímicos) pode usar uma única dose como parte de qualquer ação de Manobra. Quando um exército usa uma dose de poções de cura, ele recupera 1 PV. Um exército pode ser equipado com até 3 doses de poções de cura por vez; ao contrário dos tiros de ataque à distância, as doses de poções de cura não são reabastecidas automaticamente após um encontro de guerra – novas doses devem ser compradas."
+        },
+        "Armor": {
+          "Name": "Armadura Mágica",
+          "Description": "Armadura mágica é encantada magicamente para reforçar a proteção que oferece aos soldados.",
+          "rank1": {
+            "Name": "Armadura Mágica",
+            "Description": "Esta armadura aumenta a CA do exército em 1."
+          },
+          "rank2": {
+            "Name": "Armadura Mágica Maior",
+            "Description": "Esta armadura aumenta a CA do exército em 2."
+          },
+          "rank3": {
+            "Name": "Armadura Mágica Superior",
+            "Description": "Esta armadura aumenta a CA do exército em 3."
+          }
+        }
+      },
+      "Label": "Exército",
+      "NamePlaceholder": "Nome do Exército",
+      "Potency": "Potência",
+      "Potions": {
+        "FullHP": "PV do Exército já está cheio",
+        "Label": "Poções",
+        "OutOfPotions": "Não há mais poções disponíveis",
+        "UsePotion": "Usar Poção (+1 PV)",
+        "UsedPotionHeader": "Poção Consumida",
+        "UsedPotionContent": "Exército ganhou +1 PV. Pode ser usado durante ações de manobra."
+      },
+      "RecruitmentDC": "CD de Recrutamento",
+      "RoutedDescription": "PV do Exército está abaixo do Limiar de Derrota!",
+      "RoutThreshold": "Limiar de Derrota",
+      "Save": {
+        "maneuver": "Manobra",
+        "morale": "Moral"
+      },
+      "Scouting": "Patrulhando",
+      "SendToChat": "Enviar para o chat",
+      "Stats": "Estatísticas",
+      "Strikes": {
+        "CurrentAmmo": "{current} / {max} Tiros<br/>Restaurados no final de um encontro de guerra",
+        "None": "Este exército não tem armas: adicione uma na seção de equipamentos.",
+        "Label": "Golpes",
+        "OutOfAmmo": "Nenhum tiro permanece neste encontro de guerra",
+        "RestoreAmmunition": "Restaurar Munição",
+        "proficiency": "Proficiência",
+        "melee": "Corpo-a-Corpo",
+        "ranged": "À Distância"
+      },
+      "Tactics": "Táticas",
+      "TacticsFree": "Táticas (Livres)",
+      "Toggles": {
+        "LiveOffTheLand": "Em hexágono sem assentamento",
+        "KeepUpThePressure": "Atacando o mesmo alvo"
+      },
+      "TacticalWarActions": "Ações Táticas de Guerra"
+    },
+    "Confirm": "Confirmar",
+    "Consumption": {
+      "Base": "Base",
+      "Label": "Consumo",
+      "Reduction": "Redução"
+    },
+    "Event": {
+      "Details": "Detalhes do evento em andamento",
+      "Random": "Evento aleatório"
+    },
+    "GrantedBy": "Este recurso foi concedido por {granter} e não pode ser excluído",
+    "KingdomBuilder": {
+      "ActivationMessage": "Iniciar o processo de Criação do Reino? Certifique-se de que seus jogadores estejam prontos antes de prosseguir.",
+      "Aspiration": "Aspiração",
+      "AssignBoostsHeader": "Atribua suas melhorias",
+      "Boost": "Melhoria",
+      "BoostsLabel": "Melhorias de Atributo",
+      "Builder": "Construtor",
+      "CancelCreation": "Cancelar criação",
+      "Complete": "Completar",
+      "Feat": "Talento de Reino",
+      "FinalizeHeader": "Finalizar Reino",
+      "Flaw": "Defeito",
+      "FlawLabel": "Falha de Atributo",
+      "Free": "Livre",
+      "Skills": "Perícias de Reino",
+      "ManualToggle": "Use modificadores manuais",
+      "Missing": {
+        "Charter": "Escolha uma carta para selecionar melhorias.",
+        "Heartland": "Escolha uma área central para selecionar melhorias.",
+        "Government": "Escolha um governo para selecionar melhorias."
+      },
+      "None": "Nenhuma",
+      "NotSelected": "Não Selecionado",
+      "SaveAndContinue": "Salvar e continuar",
+      "Tabs": {
+        "Charter": "Carta",
+        "Heartland": "Terra Central",
+        "Government": "Governo",
+        "AbilityScores": "Valores de Atributos"
+      },
+      "Title": "Construa seu Reino"
+    },
+    "Kingdom": {
+      "Activities": "Atividades de Reino",
+      "ArmyConsumption": "Consumo do Exército",
+      "Aspiration": {
+        "fame": "Fama",
+        "infamy": "Infâmia"
+      },
+      "BuildHeader": "Construção do Reino",
+      "BuildElement": {
+        "Charter": "Carta",
+        "Heartland": "Terra Central",
+        "Government": "Governo"
+      },
+      "Capital": "Capital",
+      "CapitalPlaceholder": "Nome da Cidade",
+      "CollectDialog": {
+        "Title": "Coletar Recursos",
+        "Header": "Manutenção: Coleta de Recursos",
+        "Description": "Rolar {dice} dados de recursos e gerar o próximo?",
+        "Disclaimer": "Isso substituirá seus pontos de recursos atuais (que deveriam ter sido convertidos em pontos de experiência). O excesso de mercadorias será perdido. Somente o mestre do jogo pode coletar recursos."
+      },
+      "Commodity": {
+        "food": "Comida",
+        "lumber": "Madeira",
+        "luxuries": "Luxos",
+        "ore": "Minério",
+        "stone": "Pedra"
+      },
+      "ControlDC": "CD de Controle",
+      "Invested": "Investido",
+      "InvestedBonus": "Bônus de estado para {ability}",
+      "ImportDialog": {
+        "Title": "Importar Atividades",
+        "Content": "{added} activities will be added and {updated} atividades serão atualizadas está tudo certo?"
+      },
+      "FeatSlot": {
+        "Bonus": "Talentos Bônus"
+      },
+      "Leaders": "Líderes",
+      "LeaderMissing": "Nenhum (arraste um novo ator)",
+      "LeadershipRole": {
+        "ruler": "Governante",
+        "counselor": "Conselheiro",
+        "general": "Geral",
+        "emissary": "Emissário",
+        "magister": "Magistro",
+        "treasurer": "Tesoureiro",
+        "viceroy": "Vice-rei",
+        "warden": "Guardião"
+      },
+      "NamePlaceholder": "Nome do Reino",
+      "NationType": {
+        "territory": "Território",
+        "province": "Província",
+        "state": "Estado",
+        "country": "País",
+        "dominion": "Domínio"
+      },
+      "Phases": {
+        "commerce": {
+          "Header": "Fase Comercial",
+          "Description": "Quando o reino gera receitas ou faz acordos comerciais.",
+          "Step1": "<strong>Coletar Impostos:</strong> Pode ser realizada uma vez por turno do Reino. Se você não tentar Coletar Impostos, você pode tentar um teste simples CD 11; em caso de sucesso, reduza a Agitação em 1",
+          "Step2": "<strong>Aprovar Despesas:</strong> você pode sacar fundos para tentar a atividade Melhorar Estilo de Vida ou pode tentar uma retirada usando a atividade Mexer no Tesouro.",
+          "Step3": "<strong>Mexer nas Mercadorias:</strong> Se o seu reino tiver algum estoque de Mercadorias, você pode tentar a atividade Negociar Mercadorias para aumentar seu PR naquele turno.",
+          "Step4": "<strong>Gerenciar Acordos Comerciais:</strong> Se você estabeleceu acordos comerciais, você pode tentar Gerenciar Acordos Comerciais."
+        },
+        "leadership": {
+          "Header": "Fase de Atividade: Atividades de Liderança",
+          "Description": "Se a capital do seu reino tiver um Castelo, Palácio ou Câmara Municipal, cada PJ em função de liderança pode tentar até três atividades de Liderança. Se sua capital não tiver nenhuma dessas estruturas, cada PJ não poderá realizar mais do que duas atividades de Liderança durante esta etapa. A menos que uma atividade indique o contrário, um líder não pode tentar a mesma atividade de Liderança mais de uma vez por turno do Reino."
+        },
+        "region": {
+          "Header": "Fase de Atividade: Atividades Regionais",
+          "Description": "Os líderes PJs podem tentar coletivamente até três atividades regionais."
+        },
+        "civic": {
+          "Header": "Fase de Atividade: Atividades Cívicas",
+          "Description": "O grupo pode tentar uma atividade Cívica para cada um dos assentamentos do reino."
+        },
+        "army": {
+          "Header": "Atividades do Exército",
+          "Description": "Após os PJs completarem a etapa de Atividades Cívicas de um turno do Reino, eles podem realizar uma etapa de Atividades do Exército, na qual cada exército atualmente mantido pelo reino pode realizar uma única atividade do Exército."
+        }
+      },
+      "Resources": {
+        "Collect": "Coletar",
+        "Dice": "Dados de Recursos",
+        "Header": "Recursos e Mercadorias",
+        "Points": "Pontos de Recursos",
+        "RP": "PR"
+      },
+      "Ruin": {
+        "corruption": "Corrupção",
+        "crime": "Crime",
+        "decay": "Decadência",
+        "strife": "Conflito"
+      },
+      "Size": "Tamanho",
+      "Storage": "Estoque",
+      "Tabs": {
+        "Main": "Principal",
+        "Activities": "Atividades",
+        "World": "Mundo",
+        "Features": "Características",
+        "Ongoing": "Em andamento"
+      },
+      "Unrest": "Agitação",
+      "VacancyPenalty": {
+        "ruler": "-1 em todos os testes (isso se acumula com qualquer outra penalidade de vaga); Ganhe 1d4 de Agitação no início do turno do Reino; CD de controle aumenta em 2",
+        "counselor": "-1 para todas os testes baseados em Cultura",
+        "general": "-4 para atividades de Guerra",
+        "emissary": "-1 para todos os testes baseados em Lealdade",
+        "magister": "-4 para atividades de Guerra",
+        "treasurer": "-1 para todos os testes baseados na Economia",
+        "viceroy": "-1 para testes baseados em Estabilidade",
+        "warden": "-4 para atividades de Região"
+      },
+      "Vacant": "Vago",
+      "VacantRole": "Vago ({role})"
+    },
+    "Feature": {
+      "Categories": {
+        "army-tactic": "Tática do Exército",
+        "army-war-action": "Ação de Guerra do Exército",
+        "kingdom-activity": "Atividade do Reino",
+        "kingdom-feat": "Talento de Reino",
+        "kingdom-feature": "Característica do Reino"
+      },
+      "Tactic": "Tática"
+    },
+    "Penalty": "Penalidade",
+    "Settlement": {
+      "Blocks": "Blocos",
+      "Details": "Detalhes do Assentamento",
+      "Header": "Assentamentos do Reino",
+      "Label": "Assentamento",
+      "LevelRange": "Faixa de Nível",
+      "Name": "Nome do Assentamento",
+      "Overcrowded": "Superlotado",
+      "Population": "População",
+      "Type": {
+        "village": "Vila",
+        "town": "Município",
+        "city": "Cidade",
+        "metropolis": "Metrópole"
+      },
+      "TypeLabel": "Tipo"
+    },
+    "Skills": {
+      "agriculture": "Agricultura",
+      "arts": "Artes",
+      "boating": "Navegação",
+      "defense": "Defesas",
+      "engineering": "Engenharia",
+      "exploration": "Exploração",
+      "folklore": "Folclore",
+      "industry": "Indústria",
+      "intrigue": "Intriga",
+      "magic": "Magia",
+      "politics": "Política",
+      "scholarship": "Estudos",
+      "statecraft": "Estadismo",
+      "trade": "Comércio",
+      "warfare": "Guerra",
+      "wilderness": "Ermos"
+    },
+    "WorkSites": {
+      "food": {
+        "Name": "Terras Agrícolas",
+        "Description": "Reduz o consumo durante a fase de Manutenção. Os alimentos precisam ser coletados durante a fase de região usando Colheita, Pesca ou Coleta de Gado. Criado usando Estabelecer Terras Agrícolas."
+      },
+      "lumber": {
+        "Name": "Campos Madeireiros",
+        "Description": "Aumenta a Madeira obtida durante a fase de Manutenção. Criado usando Estabelecer Local de Trabalho."
+      },
+      "luxuries": {
+        "Name": "Minas (gema)",
+        "Description": "Local de trabalho muito raro. Concede luxos durante a fase de Manutenção."
+      },
+      "ore": {
+        "Name": "Minas",
+        "Description": "Aumenta o Minério ganho durante a fase de Manutenção. Criado usando Estabelecer Local de Trabalho."
+      },
+      "stone": {
+        "Name": "Pedreiras",
+        "Description": "Aumenta a Pedra ganha durante a fase de Manutenção. Criado usando Estabelecer Local de Trabalho."
+      },
+      "Label": "Locais de Trabalho",
+      "Resource": "Se um local de trabalho foi construído sobre uma fonte densa ou lucrativa para esse material, marque-o aqui. Eles produzem o dobro da quantidade normal."
+    },
+    "Charter": {
+      "conquest": {
+        "Name": "Conquista",
+        "Description": "Os seus patrocinadores conquistaram uma área e os seus antigos líderes foram derrotados ou até mesmo mortos. Esta carta coloca você no comando de alguma parte deste território conquistado (ou terra abandonada pelo inimigo derrotado) e ordena que você o mantenha e pacifique em nome de seu patrono. As pessoas são particularmente devotadas e apoiam o seu governo (embora parcialmente por medo), mas a ameaça constante de uma guerra potencial prejudica as artes e torna difícil para os cidadãos relaxarem verdadeiramente. Se você optar por esta carta, você será solicitado a estabelecer seu reino contra Pitax"
+      },
+      "expansion": {
+        "Name": "Expansão",
+        "Description": "Seu patrono coloca você no comando de um domínio adjacente a terras já colonizadas com a expectativa de que sua nação continuará sendo uma forte aliada. O maior apoio da nação do seu patrono ajuda a fortalecer a sociedade do seu próprio reino, mas esta maior confiança significa que as flutuações na sorte do seu aliado podem impedir a segurança do seu próprio reino. Se você selecionar esta carta, Lady Jamandi espera que você continue sendo um forte aliado de Restov."
+      },
+      "exploration": {
+        "Name": "Exploração",
+        "Description": "Seu patrocinador deseja que você explore, limpe e colonize uma área selvagem ao longo da fronteira do território do próprio patrocinador. Sua cartar ajuda a garantir estruturas iniciais (ou suprimentos para criá-las), ao custo de incorrer em dívidas financeiras."
+      },
+      "grant": {
+        "Name": "Concessão",
+        "Description": "Seu patrono concede uma grande quantidade de financiamento e outros recursos sem restrições à natureza do desenvolvimento do seu reino, mas exige que você empregue muitos de seus cidadãos e aliados. A riqueza e os suprimentos da sua nação estão seguros, mas uma parte dos residentes do seu reino dividiu alianças entre a sua nação e a do seu patrocinador."
+      },
+      "open": {
+        "Name": "Aberta",
+        "Description": "Se você preferir ser um agente verdadeiramente livre e pioneiro reivindicando suas próprias reivindicações, você pode simplesmente escolher uma carta aberta, sem restrições e sem suporte direto. Neste caso, Lady Jamandi aplaude sua bravura e autoconfiança, mas avisa que estabelecer um reino não é uma tarefa fácil. Uma carta aberta concede um único aumento de habilidade para qualquer valor de habilidade, e a nova nação não tem nenhuma falha de habilidade embutida."
+      }
+    },
+    "Heartland": {
+      "forestOrSwamp": {
+        "Name": "Floresta ou Pântano",
+        "Description": "Sua nação começa em florestas ou pântanos, então não há escassez de recursos naturais ou maravilhas para estimular a imaginação e o humor de seus cidadãos."
+      },
+      "hillOrPlain": {
+        "Name": "Colina ou Planície",
+        "Description": "Sua nação começa em uma área fácil de atravessar. Isso se reflete no temperamento dos seus cidadãos; eles apreciam que sua escolha torna suas vidas um pouco mais fáceis."
+      },
+      "lakeOrRiver": {
+        "Name": "Lago ou Rio",
+        "Description": "Ao estabelecer a sua nação às margens de um lago ou rio, você garante um mecanismo integrado para o comércio. Mesmo antes de uma estrada ser construída, comerciantes e viajantes podem chegar ao seu assentamento com relativa facilidade de barco."
+      },
+      "mountainOrRuins": {
+        "Name": "Montanha ou Ruínas",
+        "Description": "Sua nação é fundada nas montanhas ou inclui um local significativo em ruínas e usa esses recursos naturais ou artificiais para reforçar a defesa. Seus cidadãos tendem a ser fortes e resistentes, se não teimosos ao extremo."
+      }
+    },
+    "Government": {
+      "despotism": {
+        "Name": "Despotismo",
+        "Description": "O governo da sua nação está centrado em torno de um único indivíduo que assumiu ou herdou o comando e cuja autoridade é absoluta. O governante deste reino ainda mantém conselheiros e assistentes, mas apenas quando estes obedecem aos caprichos do governante."
+      },
+      "feudalism": {
+        "Name": "Feudalismo",
+        "Description": "O governo da sua nação pertence a uma família real dinástica, embora grande parte do poder real seja distribuído entre seus vassalos e feudos."
+      },
+      "oligarchy": {
+        "Name": "Oligarquia",
+        "Description": "O governo da sua nação é determinado por um conselho de líderes influentes que tomam decisões por todos os outros."
+      },
+      "republic": {
+        "Name": "República",
+        "Description": "A sua nação tira a sua liderança dos seus próprios cidadãos. Os representantes eleitos reúnem-se em órgãos parlamentares para orientar a nação."
+      },
+      "thaumocracy": {
+        "Name": "Taumocracia",
+        "Description": "Sua nação é governada pelos mais habilidosos em magia, usando seu conhecimento e poder para determinar as melhores formas de governar. Embora o tipo de magia exercida pelos governantes da nação possa ajustar seus temas (ou até mesmo seu nome - uma taumocracia dirigida por feiticeiros divinos seria uma teocracia, por exemplo), os detalhes abaixo permanecem os mesmos, seja arcano, divino, oculto, primal, ou qualquer combinação dos quatro."
+      },
+      "yeomanry": {
+        "Name": "Yeomanria",
+        "Description": "A sua nação é descentralizada e depende de líderes locais e cidadãos para lidar com questões governamentais, enviando representantes uns aos outros conforme necessário para lidar com questões que dizem respeito a mais de uma localidade."
+      }
+    },
+    "SIDEBAR": {
+      "CreateKingdom": "Criar Reino",
+      "OpenSheet": "Abrir Ficha do Reino"
+    },
+    "Trait": {
+      "army": "Exército",
+      "cavalry": "Cavalaria",
+      "civic": "Cívico",
+      "commerce": "Comércio",
+      "infantry": "Infantaria",
+      "kingdom": "Reino",
+      "leadership": "Liderança",
+      "maneuver": "Manobra",
+      "morale": "Moral",
+      "region": "Região",
+      "siege": "Cerco",
+      "skirmisher": "Escaramuçador",
+      "upkeep": "Manutenção"
+    },
+    "TraitDescription": {
+      "cavalry": "Cavalaria consiste em unidades de combate montadas.",
+      "infantry": "Infantaria consiste em soldados ou criaturas que se movem a pé.",
+      "siege": "Exércitos de cerco concentram-se na implantação de máquinas de cerco em vez de no combate pessoal.",
+      "skirmisher": "Escaramuçadores consistem em um pequeno número de unidades altamente móveis."
+    }
+  }
+}
