@@ -656,6 +656,7 @@
         },
         "Languages": "Idiomas do Grupo",
         "MembersLabel": "Membros: ",
+        "NewName": "Novo Grupo",
         "NoMembers": "Nenhum membro",
         "NoSpecialSenses": "Sem sentidos especiais",
         "RemoveMember": {
@@ -903,7 +904,7 @@
       "worn": "Vestido",
       "worn-in-slot": "Vestido (no Espaço)"
     },
-    "CastLabel": "Conj",
+    "CastLabel": "Conjuração",
     "CastingItemCreateDialog": {
       "10thLevelWand": "Varinhas de 10º nível não existem",
       "cantripDeck5": "Baralho de truque mágico (conjunto com 5 cartas)",
@@ -922,7 +923,11 @@
     "CharacterTraits": "Traços do Personagem",
     "CharacterTraitsHeader": "Traços e Outros Detalhes",
     "ChatRollDetails": {
+      "ContextualOptions": {
+        "postRoll": "Postar Opções de Rolagem"
+      },
       "DiceAndModifiers": "Dados e modificadores",
+      "DiceRollOptionsHint": "Opções de dados e de modificadores de rolagem serão usados para predicar elementos de regra de DamageAlteration.",
       "FlatCheckNoModifiers": "Testes Simples nunca incluem quaisquer modificadores, bônus ou penalidades.",
       "RollOptions": "Opções de Rolagem",
       "Select": "Inspecionar Rolagem",
@@ -2397,7 +2402,8 @@
             "NoOptionSelected": "Selecione uma estatística à qual a melhoria será aplicada."
           },
           "SuppressedFeatures": {
-            "Label": "Característica de classe Suprimidas"
+            "Label": "Característica de classe Suprimidas",
+            "Hint": "Para remover uma característica da preparação de dados e da aba de Talentos, arraste e solte-a nesta ficha."
           },
           "Senses": {
             "Darkvision": {
@@ -2643,7 +2649,7 @@
       "Spell": {
         "Area": "{shape} de {size} {unit}",
         "BaseValue": "Base: {value}",
-        "Cast": "Conj",
+        "Cast": "Conjuração",
         "Cost": "Custo",
         "Counteract": {
           "Hint": "Se você estiver neutralizando uma aflição, a CD estará no bloco de estatísticas da aflição. Se for uma magia, use a CD do conjurador. O MJ também pode calcular uma CD com base no nível do efeito-alvo.",
@@ -5398,6 +5404,7 @@
         "mithral-tree": "Mithral Tree",
         "monkeys-fist": "Monkey's Fist",
         "morningstar": "Maça-estrela",
+        "nails": "Unhas",
         "naginata": "Naginata",
         "nightstick": "Nightstick",
         "nodachi": "Nodachi",
@@ -6305,6 +6312,7 @@
       "LootDescription": "Permitir a distribuição de moedas entre os jogadores",
       "LootLabel": "Espólio",
       "LootMessage": "{looter} pega {quantity} × {item} do(a) {corpse}.",
+      "LootUnknownNPCMessage": "uma criatura não identificada",
       "LootNPCsLabel": "Saquear tokens selecionados",
       "LootNPCsPopupHeader": "Escolha os tokens para saquear",
       "LootNamePlaceholder": "Espólio",
@@ -6324,6 +6332,7 @@
       "Quantity": "Quantidade",
       "SellMessage": "{seller} vende {quantity} × {item} para {buyer}.",
       "SellSubtitle": "Vender item",
+      "SendToPartyStash": "Enviar para o Tesouro do Grupo",
       "SheetType": "Tipo de Ficha",
       "SplitCoinsLabel": "Distribuir moedas",
       "SplitCoinsPopupHeader": "Escolha os atores para receberam uma partilha",
