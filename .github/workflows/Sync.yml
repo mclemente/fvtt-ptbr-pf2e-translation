@@ -1,7 +1,7 @@
 name: Sync
 
 env:
-    node_version: 18
+    node_version: 22
 
 on:
     workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [22.x]
 
         steps:
             - name: Checkout
@@ -28,6 +28,9 @@ jobs:
 
             - name: Sync packs and Commit Changes
               run: |
+                  git submodule init
+                  git submodule update
+                  npm ci
                   git config user.email "action@github.com"
                   git config user.name "Github Action"
                   npm run pack-extractor

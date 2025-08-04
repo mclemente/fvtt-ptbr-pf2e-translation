@@ -11,7 +11,7 @@
     },
     "Alchemical Gut": {
       "name": "Alchemical Gut",
-      "description": "<p>Your familiar can act as a bomb coagulant alembic by swallowing the bomb to be affected, which takes two Interact actions from it and one from you. Your familiar regurgitates the concentrated item 1 minute later. If your familiar tries to distill a bomb that's level is higher than your own—1, it instead takes damage as though it were successfully struck with the bomb.</p>"
+      "description": "<p>Your familiar can act as a @UUID[Compendium.pf2e.equipment-srd.Item.B4wxZ7mvBDJPWPvZ]{Bomb Coagulant Alembic} by swallowing the bomb to be affected, which takes two Interact actions from it and one from you. Your familiar regurgitates the concentrated item 1 minute later. If your familiar tries to distill a bomb that's level is higher than your own –1, it instead takes damage as though it were successfully struck with the bomb.</p>"
     },
     "Ambassador": {
       "name": "Ambassador",
@@ -133,6 +133,10 @@
       "name": "Familiar of Freezing Rime",
       "description": "<p>Your familiar is cold to the touch, its breath always visible. When you Cast or Sustain a hex, you can cause ice to form in a @Template[burst|distance:5] centered on a square of your familiar's space. Those squares are difficult terrain until the start of your next turn.</p>"
     },
+    "Familiar of Insightful Observation": {
+      "name": "Familiar of Insightful Observation",
+      "description": "<p>Your familiar boasts a third eye upon their head or body, resembling the one set in Cobyslarni's forehead. When you Cast or Sustain a hex, your familiar can attempt a check to Recall Knowledge as a free action with any skill in which you are trained or better, using your bonus, and psychically transmit the information to you.</p>"
+    },
     "Familiar of Keen Senses": {
       "name": "Familiar of Keen Senses",
       "description": "<p>Your familiar has glinting eyes, twitching ears, or some other sign of a beast's powerful senses. When you Cast or Sustain a hex, your familiar gains your choice of an imprecise scent, tremorsense, or wavesense, with a range of 60 feet until the start of your next turn, and it can immediately @UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]{Point Out} as a free action.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.4wJM0OA9y2gsBAh7]{Effect: Familiar of Keen Senses}</p>"
@@ -143,7 +147,7 @@
     },
     "Familiar of Obscuring Snowfall": {
       "name": "Familiar of Obscuring Snowfall",
-      "description": "<p>Your familiar is always covered in a thin layer of snow, which it sheds as needed. When you Cast or Sustain a hex, you can cause clinging snow to fall in a @Template[type:burst|distance:5] centered on a square of your familiar's space. This snowfall remains until the start of your next turn, and enemies that enter these squares during that period are @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.</p>"
+      "description": "<p>Your familiar is always covered in a thin layer of snow, which it sheds as needed. When you Cast or Sustain a hex, you can cause clinging snow to fall in a @Template[type:burst|distance:5] centered on a square of your familiar's space. This snowfall remains until the start of your next turn, and enemies that enter these squares during that period are @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.</p>\n<hr />\n<p><em>PFS Note:</em> For this ability, choose a corner of the familiar's square for the center of the burst.</p>"
     },
     "Familiar of Ongoing Misery": {
       "name": "Familiar of Ongoing Misery",
@@ -221,6 +225,10 @@
       "name": "Jet",
       "description": "<p>Your familiar can use bursts of elemental energy or magic to @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} up to 30 feet in any direction, even if that would exceed its normal maximum distance for leaping. The Leap must begin and end on a solid surface capable of supporting the familiar.</p>"
     },
+    "Kick Up Dust": {
+      "name": "Kick Up Dust",
+      "description": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Your dust bunny shakes and kicks to stir up dust in a @Template[type:emanation|distance:5]. Each creature in the area must attempt a Fortitude save against the higher of your class DC or spell DC. A creature that fails its save begins sneezing uncontrollably and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and cannot take reactions for 1 round; on a critical failure they are @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>"
+    },
     "Kindling": {
       "name": "Kindling",
       "description": "<p>You can immolate your familiar's body for a surge of power. Once per day as a free action, when you Cast a Spell that has the fire trait, deals damage, and doesn't have a duration, you can sacrifice your familiar to empower the spell. Your familiar is immediately slain, and you gain a status bonus to that spell's damage equal to twice the spell rank.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Pe4qwrE1oU68iW4g]{Effect: Kindling}</p>"
@@ -247,7 +255,7 @@
     },
     "Lightning Needles": {
       "name": "Lightning Needles",
-      "description": "<p><strong>Requirements</strong> You Cast a Spell that had the air or electricity traits this turn;</p>\n<hr />\n<p><strong>Effect</strong> Your familiar absorbs excess electrical charge and unleashes a @Template[type:emanation|distance:5] of static electricity that flows into creatures' meridians. Creatures in the emanation that fail a @Check[fortitude] save against your spell DC become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of their next turn. If a creature is soaked or standing over or in water inside the emanation, it also takes @Damage[1d4[persistent,electricity]] damage on a failed save.</p>"
+      "description": "<p><strong>Requirements</strong> You Cast a Spell that had the air or electricity traits this turn;</p>\n<hr />\n<p><strong>Effect</strong> Your familiar absorbs excess electrical charge and unleashes a @Template[type:emanation|distance:5] of static electricity that flows into creatures' meridians. Creatures in the emanation that fail a @Check[fortitude|options:area-effect,damaging-effect] save against your spell DC become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of their next turn. If a creature is soaked or standing over or in water inside the emanation, it also takes @Damage[1d4[persistent,electricity]|options:area-damage] damage on a failed save.</p>"
     },
     "Luminous": {
       "name": "Luminous",

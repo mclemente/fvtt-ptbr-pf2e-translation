@@ -1107,5 +1107,79 @@
         }
       }
     }
+  },
+	"mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "system.details.description"
+    },
+    "disable": "system.details.disable",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "privateNotes": "system.details.privateNotes",
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialAcrobatics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.acrobatics.special"
+    },
+    "skillSpecialAthletics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.athletics.special"
+    },
+    "skillSpecialCrafting": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.crafting.special"
+    },
+    "skillSpecialDiplomacy": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.diplomacy.special"
+    },
+    "skillSpecialOccultism": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.occultism.special"
+    },
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "skillSpecialSurvival": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.survival.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
   }
 }

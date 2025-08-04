@@ -241,7 +241,7 @@
         },
         "action->Resonance": {
           "name": "Resonance",
-          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the air trait; a creature with the elemental and air traits gains this bonus to all attack and damage rolls.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1dwMVgBHfT4qO4OS]{Effect: Resonance}</p>"
+          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the air trait; a creature with the elemental and air traits gains this bonus to all attack and damage rolls.</p>"
         },
         "action->In Concert": {
           "name": "In Concert",
@@ -588,7 +588,7 @@
         },
         "action->Abeyance Rift": {
           "name": "Abeyance Rift",
-          "description": "<p>If an arboreal archive dies unexpectedly before passing on their knowledge in a succession ritual, the amassed lore within their roots and boughs explodes out in a shock wave that deals @Damage[8d10[mental]] damage to creatures within @Template[emanation|distance:30]{30 feet} (@Check[will|dc:32|basic] save) before dissipating; those who fail also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p>If an arboreal archive dies unexpectedly before passing on their knowledge in a succession ritual, the amassed lore within their roots and boughs explodes out in a shock wave that deals @Damage[8d10[mental]|options:area-damage] damage to creatures within @Template[emanation|distance:30]{30 feet} (@Check[will|dc:32|basic|options:area-effect] save) before dissipating; those who fail also fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "action->Axe Vulnerability": {
           "name": "Axe Vulnerability",
@@ -596,7 +596,7 @@
         },
         "action->Memory Maelstrom": {
           "name": "Memory Maelstrom",
-          "description": "<p>The arboreal archive tries to overwhelm foes with a surge of information it has absorbed over its long life. This surge deals @Damage[5d6[mental]] damage to each enemy within @Template[emanation|distance:40]{40 feet}, who must attempt a @Check[will|dc:32|traits:damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature maintains its composure, takes no damage, and is temporarily immune to Memory Maelstrom for 1 minute.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for [[/br 2d4 #Duration Confusion]]{2d4 rounds}, and is stunned 3.</p>"
+          "description": "<p>The arboreal archive tries to overwhelm foes with a surge of information it has absorbed over its long life. This surge deals @Damage[5d6[mental]|options:area-damage] damage to each enemy within @Template[emanation|distance:40]{40 feet}, who must attempt a @Check[will|dc:32|options:area-effect,damaging-effect] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature maintains its composure, takes no damage, and is temporarily immune to Memory Maelstrom for 1 minute.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for [[/gmr 2d4 #Confusion Duration]]{2d4 rounds}, and is stunned 3.</p>"
         },
         "lore->Forest Lore (applies to the arboreal archive's territory)": {
           "name": "Forest Lore (applies to the arboreal archive's territory)"
@@ -866,7 +866,7 @@
         },
         "action->Assume Fiery Form": {
           "name": "Assume Fiery Form",
-          "description": "<p>The blood hag removes her borrowed skin and transforms into a brilliant ball of fire.</p>\n<p>She becomes amorphous, gains the fire trait and a fly Speed of 60 feet, becomes immune to fire, and emits light as a torch. She loses her melee Strikes and can't Drain Blood, but she deals @Damage[3d10[fire]] damage (@Check[reflex|dc:26|basic] save) to each creature that touches her, as well as to each creature that succeeds at a melee Strike against her with an unarmed attack or from an adjacent space.</p>\n<p>If her skin is intact, she can return to her normal form by spending a single action that has the manipulate trait while adjacent to the skin.</p>\n<p>The hag can instead Assume Fiery Form as a single action, bursting through her skin in a blast of flames. Doing so destroys her borrowed skin and deals @Damage[9d6[fire]] damage (@Check[reflex|dc:26|basic] save) in a @Template[emanation|distance:20].</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.H99PJXU5cvJ4Oycm]{Effect: Fiery Form}</p>"
+          "description": "<p>The blood hag removes her borrowed skin and transforms into a brilliant ball of fire.</p>\n<p>She becomes amorphous, gains the fire trait and a fly Speed of 60 feet, becomes immune to fire, and emits light as a torch. She loses her melee Strikes and can't Drain Blood, but she deals @Damage[3d10[fire]] damage (@Check[reflex|dc:26|basic] save) to each creature that touches her, as well as to each creature that succeeds at a melee Strike against her with an unarmed attack or from an adjacent space.</p>\n<p>If her skin is intact, she can return to her normal form by spending a single action that has the manipulate trait while adjacent to the skin.</p>\n<p>The hag can instead Assume Fiery Form as a single action, bursting through her skin in a blast of flames. Doing so destroys her borrowed skin and deals @Damage[9d6[fire]|options:area-damage] damage (@Check[reflex|dc:26|basic|options:area-effect] save) in a @Template[emanation|distance:20].</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.H99PJXU5cvJ4Oycm]{Effect: Fiery Form}</p>"
         },
         "action->Drain Blood": {
           "name": "Drain Blood",
@@ -1119,7 +1119,7 @@
         },
         "action->Death Blaze": {
           "name": "Death Blaze",
-          "description": "<p>When the vanguard dies, their body combusts in a blaze of fire and armor shrapnel.</p>\n<p>All creatures within a @Template[emanation|distance:10] take @Damage[3d6[fire],3d6[piercing]]{3d6 fire damage and 3d6 piercing damage} (@Check[reflex|dc:19|basic] save).</p>\n<p>The vanguard's armor is destroyed in the blaze, but their other gear is unaffected and left in a pile where they died.</p>"
+          "description": "<p>When the vanguard dies, their body combusts in a blaze of fire and armor shrapnel.</p>\n<p>All creatures within a @Template[emanation|distance:10] take @Damage[3d6[fire],3d6[piercing]|options:area-damage]{3d6 fire damage and 3d6 piercing damage} (@Check[reflex|dc:19|basic|options:area-effect] save).</p>\n<p>The vanguard's armor is destroyed in the blaze, but their other gear is unaffected and left in a pile where they died.</p>"
         },
         "action->Call to Arms": {
           "name": "Call to Arms",
@@ -1296,7 +1296,7 @@
         },
         "action->Hurl Net": {
           "name": "Hurl Net",
-          "description": "<p><strong>Requirements</strong> The cecaelia is holding a net in two appendages.</p>\n<hr />\n<p><strong>Effect</strong> The cecaelia hurls their net, attempting to hamper a foe. The cecaelia makes a ranged Strike (with a [[/r 1d20+15 #Hurl Net]]{+15} modifier) against a Medium or smaller creature within 20 feet.</p>\n<p>On a hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and takes a -10-foot circumstance penalty to its Speeds. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}. The DC to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} the net is 16. A creature adjacent to the target can Interact with the net to remove it from the target.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.q2D1QBalqBQfKzTc]{Effect: Hurl Net}</p>"
+          "description": "<p><strong>Requirements</strong> The cecaelia is holding a net in two appendages.</p>\n<hr />\n<p><strong>Effect</strong> The cecaelia hurls their net, attempting to hamper a foe. The cecaelia makes a ranged Strike (with a [[/r 1d20+15 #Hurl Net]]{+15} modifier) against a Medium or smaller creature within 20 feet.</p>\n<p>On a hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and takes a -10-foot circumstance penalty to its Speeds. On a critical hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}. The DC to [[/act escape dc=16]]{Escape} the net is 16. A creature adjacent to the target can Interact with the net to remove it from the target.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.q2D1QBalqBQfKzTc]{Effect: Hurl Net}</p>"
         },
         "action->Ink Cloud": {
           "name": "Ink Cloud",
@@ -1362,40 +1362,6 @@
         }
       }
     },
-    "City Guard Squadron": {
-      "name": "City Guard Squadron",
-      "hpDetails": "troop defenses",
-      "publicNotes": "<p>Most towns and cities on Golarion have a garrison of professional guards whose duties include patrolling the streets, assisting citizenry in need, and acting as a quick military response in times of crisis. Guards usually operate in pairs or small groups, but when a serious emergency threatens, guards muster at the nearest keep, watch station, or other rallying point and then move out in search of their quarry.Alternatively, guard troops might be stationed at important locations in the city, such as the front gates, the main prison, or the entrance to the ruler's castle.</p>\n<p>Individual guards may not be particularly well trained or experienced, but in large numbers they can defeat bandits, wild creatures that have slipped past the city gates, or the occasional drunken ogre. A group of city guards is usually accompanied and commanded by a single captain, who does most of the talking and gives individual guards their orders. The members of this city guard squadron have trained together to perform simple tactics but not advanced maneuvers.</p>",
-      "speed": "troop movement",
-      "items": {
-        "action->Seek Quarry": {
-          "name": "Seek Quarry",
-          "description": "<p>City guards can spend 1 minute to designate a single creature for whom they have a physical description as their quarry. They gain a +2 circumstance bonus to Perception against their quarry.</p>"
-        },
-        "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 50 (12 squares), 25 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
-        },
-        "action->Fire Crossbows!": {
-          "name": "Fire Crossbows!",
-          "description": "<p>The city guards draw or reload their crossbows, then launch a ranged attack in the form of a volley.</p>\n<p>This volley is a @Template[burst|distance:10] within 120 feet that deals @Damage[3d8[piercing]] damage (@Check[reflex|dc:19|basic] save). When the city guards are reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
-        },
-        "action->Lower Halberds!": {
-          "name": "Lower Halberds!",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round.</p>\n<hr />\n<p><strong>Effect</strong> The city guards engage in a coordinated melee attack against each enemy within @Template[emanation|distance:10]{10 feet}, with a @Check[reflex|dc:19|basic] save. The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d10[piercing]] damage or @Damage[1d10[slashing]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d10+7)[piercing]] damage or @Damage[(1d10+7)[slashing]] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(1d10+10)[piercing]] damage or @Damage[(1d10+10)[slashing]] damage</p>"
-        },
-        "action->Troop Movement": {
-          "name": "Troop Movement",
-          "description": "<p>Whenever the city guards Stride, they first @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX]{Form Up} as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed.</p>\n<p>This works just like a Gargantuan creature moving; for instance, if any square of the guards enters difficult terrain, the extra movement cost applies to all the guards.</p>"
-        },
-        "action->Urban Chasers": {
-          "name": "Urban Chasers",
-          "description": "<p>City guards ignore difficult terrain (but not greater difficult terrain) caused by crowds or from movement through narrow spaces such as alleyways.</p>"
-        },
-        "lore->Settlement Lore": {
-          "name": "Settlement Lore"
-        }
-      }
-    },
     "Clacking Sea Skull Swarm": {
       "name": "Clacking Sea Skull Swarm",
       "hpDetails": "void healing",
@@ -1403,7 +1369,7 @@
       "items": {
         "action->Boneshard Burst": {
           "name": "Boneshard Burst",
-          "description": "<p>When a clacking skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[2d12[piercing],2d12[void]]{2d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:29|basic] save).</p>"
+          "description": "<p>When a clacking skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[2d12[piercing],2d12[void]|options:area-damage]{2d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:29|basic|options:area-effect] save).</p>"
         },
         "action->Chattering Teeth": {
           "name": "Chattering Teeth",
@@ -1426,7 +1392,7 @@
       "items": {
         "action->Boneshard Burst": {
           "name": "Boneshard Burst",
-          "description": "<p>When a clacking skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[2d12[piercing],2d12[void]]{2d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:29|basic] save).</p>"
+          "description": "<p>When a clacking skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[2d12[piercing],2d12[void]|options:area-damage]{2d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:29|basic|options:area-effect] save).</p>"
         },
         "action->Chattering Teeth": {
           "name": "Chattering Teeth",
@@ -2465,7 +2431,7 @@
         },
         "action->Resonance": {
           "name": "Resonance",
-          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the earth trait; a creature with the elemental and earth traits gains this bonus to all attack and damage rolls.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1dwMVgBHfT4qO4OS]{Effect: Resonance}</p>"
+          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the earth trait; a creature with the elemental and earth traits gains this bonus to all attack and damage rolls.</p>"
         },
         "action->In Concert": {
           "name": "In Concert",
@@ -2659,7 +2625,7 @@
         },
         "action->Consume Souls": {
           "name": "Consume Souls",
-          "description": "<p>The elder wyrmwraith inhales sharply, sucking in the souls of nearby creatures. Each creature in a @Template[cone|distance:60] must attempt a @Check[will|dc:46|traits:damaging-effect] save.</p>\n<p>The elder wyrmwraith can't Consume Souls again for [[/gmr 1d4 #Recharge Consume Souls]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p>\n<p><strong>Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} and takes @Damage[100[void]] damage.</p>\n<p><strong>Critical Failure</strong> The creature is slain. As long as the wyrmwraith still exists, the slain creature can't be returned to life through any means.</p>"
+          "description": "<p>The elder wyrmwraith inhales sharply, sucking in the souls of nearby creatures. Each creature in a @Template[cone|distance:60] must attempt a @Check[will|dc:46|options:area-effect,damaging-effect] save.</p>\n<p>The elder wyrmwraith can't Consume Souls again for [[/gmr 1d4 #Recharge Consume Souls]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p>\n<p><strong>Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} and takes @Damage[100[void]|options:area-damage] damage.</p>\n<p><strong>Critical Failure</strong> The creature is slain. As long as the wyrmwraith still exists, the slain creature can't be returned to life through any means.</p>"
         },
         "action->Divine Dispelling": {
           "name": "Divine Dispelling",
@@ -2675,7 +2641,8 @@
         },
         "action->Ectoplasmic Form": {
           "name": "Ectoplasmic Form",
-          "description": "<p>An elder wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The elder wyrmwraith loses the incorporeal trait for [[/gmr 1d4 #Duration Physical Form]]{1d4 rounds}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the elder wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 rounds}. While in their ectoplasmic form, the elder wyrmwraith's AC increases to 52 and they gain [[/r 125 #Temporary Hit Points]]{125 temporary Hit Points}. They lose their immunity to precision damage and all of their resistances. Their melee Strikes deal slashing and piercing damage, respectively, instead of void damage.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QMcmhifNQOPguv2t]{Effect: Ectoplasmic Form (Physical)}</p>"
+          "description": "<p>An elder wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The elder wyrmwraith loses the incorporeal trait for [[/gmr 1d4 #Duration Physical Form]]{1d4 rounds}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the elder wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 rounds}. While in their ectoplasmic form, the elder wyrmwraith's AC increases to 52 and they gain 125 temporary Hit Points. They lose their immunity to precision damage and all of their resistances. Their melee Strikes deal slashing and piercing damage, respectively, instead of void damage.</p>",
+          "selfEffect": "Effect: Ectoplasmic Form (Physical)"
         },
         "action->Phase Lurch": {
           "name": "Phase Lurch",
@@ -3126,7 +3093,7 @@
         },
         "action->Boneshard Burst": {
           "name": "Boneshard Burst",
-          "description": "<p>When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],2d12[void]]{3d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:32|basic] save).</p>"
+          "description": "<p>When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],2d12[void]|options:area-damage]{3d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:32|basic|options:area-effect] save).</p>"
         },
         "action->Feral Gnaw": {
           "name": "Feral Gnaw",
@@ -3149,7 +3116,7 @@
         },
         "action->Boneshard Burst": {
           "name": "Boneshard Burst",
-          "description": "<p>When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],2d12[void]]{3d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:32|basic] save).</p>"
+          "description": "<p>When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],2d12[void]|options:area-damage]{3d12 piercing damage and 2d12 void damage} (@Check[reflex|dc:32|basic|options:area-effect] save).</p>"
         },
         "action->Feral Gnaw": {
           "name": "Feral Gnaw",
@@ -3204,7 +3171,7 @@
         },
         "action->Resonance": {
           "name": "Resonance",
-          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the fire trait; a creature with the elemental and fire traits gains this bonus to all attack and damage rolls.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1dwMVgBHfT4qO4OS]{Effect: Resonance}</p>"
+          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the fire trait; a creature with the elemental and fire traits gains this bonus to all attack and damage rolls.</p>"
         },
         "action->In Concert": {
           "name": "In Concert",
@@ -4604,7 +4571,7 @@
         },
         "action->Break Ground": {
           "name": "Break Ground",
-          "description": "<p>The guecubu stomps, and the ground breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]] damage to creatures in the area (@Check[reflex|dc:26|basic] save).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] damage to a creature that moves through it. A guecubu is immune to these effects.</p>\n<p>Ground under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} spell tuned against evil or chaos can't be affected by this ability.</p>"
+          "description": "<p>The guecubu stomps, and the ground breaks and ripples in a @Template[emanation|distance:30], erupting in razor-sharp, crisscrossing spikes of rock that deal @Damage[3d8[piercing]|options:area-damage] damage to creatures in the area (@Check[reflex|dc:26|basic|options:area-effect] save).</p>\n<p>The area becomes difficult terrain and hazardous terrain, with each square dealing @Damage[3[piercing]] damage to a creature that moves through it. A guecubu is immune to these effects.</p>\n<p>Ground under the effects of a @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN]{Consecrate} ritual or a @UUID[Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs]{Circle of Protection} spell tuned against evil or chaos can't be affected by this ability.</p>"
         },
         "action->Earth Glide": {
           "name": "Earth Glide",
@@ -4932,44 +4899,6 @@
         }
       }
     },
-    "Hellknight Cavalry Brigade": {
-      "name": "Hellknight Cavalry Brigade",
-      "hpDetails": "troop defenses",
-      "publicNotes": "<p>A cavalry brigade consists of several Hellknights and a single field-maralictor, in the distinctive armor of their order and bearing lances; the maralictor speaks for the brigade, questioning travelers the brigade encounters and barking orders.</p>\n<p>A Hellknight brigade is typically based at a keep or other fortification controlling an area measured by a day's ride in every direction-about 25 miles. Farther-ranging missions are possible but require substantial logistical support.</p>",
-      "speed": "troop movement",
-      "items": {
-        "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 90 (12 squares), 45 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
-        },
-        "action->Arrow Volley": {
-          "name": "Arrow Volley",
-          "description": "<p>The Hellknights draw or reload their longbows, then launch a ranged attack in the form of a volley. This volley is a @Template[burst|distance:10] within 100 feet that deals @Damage[4d8[piercing]] damage (@Check[reflex|dc:23|basic] save).</p>\n<p>When the troop is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
-        },
-        "action->Lance Charge": {
-          "name": "Lance Charge",
-          "description": "<p>The brigade Forms Up, then Strides twice with a +10-foot circumstance bonus to its Speed.</p>\n<p>If it moves at least 10 feet, the brigade deals @Damage[(3d8+13)[piercing]] damage (@Check[reflex|dc:26|basic] save) to each enemy within @Template[emanation|distance:10]{10 feet} of the brigade at the end of its movement.</p>"
-        },
-        "action->Mounted Troop": {
-          "name": "Mounted Troop",
-          "description": "<p>Effects that target only animals or only humanoids may not work on the cavalry brigade, subject to the GM's discretion.</p>"
-        },
-        "action->Swing from the Saddle": {
-          "name": "Swing from the Saddle",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round.</p>\n<hr />\n<p><strong>Effect</strong> The brigade engages in a coordinated melee attack against each enemy within @Template[emanation|distance:10]{10 feet} (@Check[reflex|dc:23|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d6[slashing]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+10)[slashing]] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+13)[slashing]] damage</p>"
-        },
-        "action->Trailblazing Stride": {
-          "name": "Trailblazing Stride",
-          "description": "<p>While moving on land, the Hellknight cavalry brigade ignores the effects of non-magical difficult terrain.</p>"
-        },
-        "action->Troop Movement": {
-          "name": "Troop Movement",
-          "description": "<p>Whenever the cavalry brigade Strides, the brigade first @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX]{Forms Up} as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves. This works just like a Gargantuan creature moving; for instance, if any square of the brigade enters difficult terrain, the extra movement cost applies to the whole brigade.</p>"
-        },
-        "lore->Hell Lore": {
-          "name": "Hell Lore"
-        }
-      }
-    },
     "Hellwasp Swarm": {
       "name": "Hellwasp Swarm",
       "languages": "(can't speak any language)",
@@ -5262,7 +5191,7 @@
         },
         "action->Scatterbrain Palm": {
           "name": "Scatterbrain Palm",
-          "description": "<p>A creature hit by the hyakume's fist Strike must attempt a @Check[will|dc:36] save. The creature is then temporarily immune until start of its next turn.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} and the hyakume can use Steal Memories on the target as part of this action.</p>"
+          "description": "<p>A creature hit by the hyakume's fist Strike must attempt a @Check[will|dc:36|options:inflicts:stunned] save. The creature is then temporarily immune until start of its next turn.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} and the hyakume can use Steal Memories on the target as part of this action.</p>"
         },
         "action->Steal Memories": {
           "name": "Steal Memories",
@@ -5729,6 +5658,11 @@
         },
         "spell->Magic Fang": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.EE7Q5BHIrfWNCPtT]\nMagic Fang"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "spell->Tanglefoot": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]\nTanglefoot"
@@ -7278,6 +7212,11 @@
         "spell->Light": {
           "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
@@ -7848,11 +7787,12 @@
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:31]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Thresholds</strong> 160 (3 segments), 80 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Blazing Admonition": {
           "name": "Blazing Admonition",
-          "description": "<p>Heat scorches those who lay eyes on the nightmarchers. All creatures in a @Template[cone|distance:60] take @Damage[15d6[fire]] damage (@Check[reflex|dc:34|basic] save).</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} creatures and the nightmarchers' kin are unaffected as long as they have not taken a hostile action against the nightmarchers.</p>\n<p>The nightmarchers can't use Blazing Admonition for [[/gmr 1d4 #Recharge Blazing Admonition]]{1d4 rounds}.</p>"
+          "description": "<p>Heat scorches those who lay eyes on the nightmarchers. All creatures in a @Template[cone|distance:60] take @Damage[15d6[fire]|options:area-damage] damage (@Check[reflex|dc:34|basic|options:area-effect] save).</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} creatures and the nightmarchers' kin are unaffected as long as they have not taken a hostile action against the nightmarchers.</p>\n<p>The nightmarchers can't use Blazing Admonition for [[/gmr 1d4 #Recharge Blazing Admonition]]{1d4 rounds}.</p>"
         },
         "action->Missile Volley": {
           "name": "Missile Volley",
@@ -8262,6 +8202,11 @@
         "spell->Burning Hands": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nBurning Hands"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "spell->Purify Food and Drink (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.qXTB7Ec9yYh5JPPV]\nPurify Food and Drink (At Will)",
           "target": "1 cubic foot of contaminated food or water"
@@ -8585,6 +8530,11 @@
         "spell->Humanoid Form (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]\nHumanoid Form (At Will)"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Scimitar": {
           "name": "Scimitar"
         },
@@ -8894,38 +8844,6 @@
         }
       }
     },
-    "Rancorous Priesthood": {
-      "name": "Rancorous Priesthood",
-      "hpDetails": "troop defenses",
-      "publicNotes": "<p>Followers of Rovagug must usually conceal their devotion to the Rough Beast, hiding in remote cave complexes or abandoned ruins; but they emerge from these strongholds when they sense weakness, gathering together into a destructive, homicidal mob to hunt down high-ranking priests of rival deities or slaughter entire towns. Alternatively, if their hidden bolthole is compromised, a mob of Rovagug's faithful might emerge-not hoping to save themselves, but intent only on taking their enemies with them as they die.</p>",
-      "speed": "troop movement",
-      "items": {
-        "spellcastingEntry->Divine Spontaneous Spells": {
-          "name": "Divine Spontaneous Spells"
-        },
-        "spell->Blight (Doesn't Require Secondary Casters)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHhxD]\nBlight (Doesn't Require Secondary Casters)"
-        },
-        "spell->Burning Hands": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nBurning Hands"
-        },
-        "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 130 (12 squares), 65 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
-        },
-        "action->Troop Movement": {
-          "name": "Troop Movement",
-          "description": "<p>Whenever the troop Strides, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to their Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop.</p>"
-        },
-        "action->Troop Spellcasting": {
-          "name": "Troop Spellcasting",
-          "description": "<p>When the rancorous priesthood Casts a Spell, their constituent members combine their efforts into casting a more powerful version of the spell than any one member could achieve alone.</p>\n<p>When Casting a Spell that has an area of a burst, cone, or line and doesn't have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.</p>"
-        },
-        "action->Wild Swing": {
-          "name": "Wild Swing",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The members of the mob wildly swing their weapons-primarily greataxes-in a chaotic attack at each enemy adjacent to the troop (@Check[reflex|dc:27|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d12+2)[slashing]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d12+9)[slashing]] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+9)[slashing]] damage</p>"
-        }
-      }
-    },
     "Rat Snake Swarm": {
       "name": "Rat Snake Swarm",
       "publicNotes": "<p>A solitary snake might be no cause for alarm, but a hissing mass of frenzied snakes can make even seasoned adventurers shudder. Rat snakes can reach lengths of up to 10 feet, and they gather en masse to hibernate as well as to breed. Though nonvenomous, these territorial snakes will strike anything that threatens them.</p>\n<hr />\n<p>While normally solitary creatures, snakes sometimes congregate in large masses. Whether gathered in the depths of a cave for warmth, a craggy mountainside for breeding, or through magical means for inscrutable purposes, these slithering swarms shouldn't be underestimated.</p>",
@@ -9043,6 +8961,11 @@
         },
         "spell->Flaming Sphere (At Will) (See Unstable Magic)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.2ZdHjnpEQJuqOYSG]\nFlaming Sphere (At Will) (See Unstable Magic)"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "strike-melee->Arcane Tendril": {
           "name": "Arcane Tendril"
@@ -10012,7 +9935,8 @@
           "description": "<p>A shambler troop is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 60 (12 squares), 30 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Thresholds</strong> 60 (3 segments), 30 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Grave Tide": {
           "name": "Grave Tide",
@@ -10268,11 +10192,12 @@
           "description": "<p>Many of the skeletons raise their shields to protect others. The infantry gain a +2 circumstance bonus to AC until the start of their next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.l62iAFL3EO7wSsLL]{Effect: Form a Phalanx}</p>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Threshold</strong> 120 (12 squares), 60 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Threshold</strong> 120 (3 segments), 60 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Hurl Javelins!": {
           "name": "Hurl Javelins!",
-          "description": "<p>The troop's members throw a volley of javelins. Each creature in a @Template[burst|distance:10] within 30 feet of the troop takes @Damage[(2d6+10)[piercing]] damage (@Check[reflex|dc:26|basic] save).</p>\n<p>When the troop is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
+          "description": "<p>The troop's members throw a volley of javelins. Each creature in a @Template[burst|distance:10] within 30 feet of the troop takes @Damage[(2d6+10)[piercing]] damage (@Check[reflex|dc:26|basic] save).</p>\n<p>When the troop is reduced to 2 or fewer segments, this area decreases to a @Template[burst|distance:5].</p>"
         },
         "action->Lower Spears!": {
           "name": "Lower Spears!",
@@ -10825,7 +10750,7 @@
         },
         "action->Boneshard Burst": {
           "name": "Boneshard Burst",
-          "description": "<p>When a sorcerous skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],3d12[void]]{3d12 piercing damage and 3d12 void damage} (@Check[reflex|dc:34|basic] save).</p>"
+          "description": "<p>When a sorcerous skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],3d12[void]|options:area-damage]{3d12 piercing damage and 3d12 void damage} (@Check[reflex|dc:34|basic|options:area-effect] save).</p>"
         },
         "action->Consume Spell": {
           "name": "Consume Spell",
@@ -10861,7 +10786,7 @@
         },
         "action->Boneshard Burst": {
           "name": "Boneshard Burst",
-          "description": "<p>When a sorcerous skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],3d12[void]]{3d12 piercing damage and 3d12 void damage} (@Check[reflex|dc:34|basic] save).</p>"
+          "description": "<p>When a sorcerous skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing @Damage[3d12[piercing],3d12[void]|options:area-damage]{3d12 piercing damage and 3d12 void damage} (@Check[reflex|dc:34|basic|options:area-effect] save).</p>"
         },
         "action->Consume Spell": {
           "name": "Consume Spell",
@@ -11697,7 +11622,7 @@
         },
         "action->Death Throes": {
           "name": "Death Throes",
-          "description": "<p>When a sulfur zombie dies, its body explodes in a @Template[burst|distance:30] of fire and debris that deals @Damage[2d10[bludgeoning],2d10[fire]]{2d10 bludgeoning damage and 2d10 fire damage} to each creature in the area (@Check[reflex|dc:21|basic] save).</p>"
+          "description": "<p>When a sulfur zombie dies, its body explodes in a @Template[burst|distance:30] of fire and debris that deals @Damage[2d10[bludgeoning],2d10[fire]|options:area-damage]{2d10 bludgeoning damage and 2d10 fire damage} to each creature in the area (@Check[reflex|dc:21|basic|options:area-effect] save).</p>"
         },
         "action->Blinding Sulfur": {
           "name": "Blinding Sulfur",
@@ -11763,7 +11688,7 @@
         },
         "action->Colossal Echo": {
           "name": "Colossal Echo",
-          "description": "<p><strong>Requirements</strong> The swordkeeper has a central weapon</p>\n<hr />\n<p><strong>Effect</strong> The swordkeeper projects a massive echoblade held in all four hands, dealing @Damage[9d8[force]] damage to all creatures in a @Template[line|distance:30] (@Check[reflex|dc:30|basic] save).</p>\n<p>It can't use Colossal Echo again for [[/gmr 1d4 #Recharge Colossal Echo]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requirements</strong> The swordkeeper has a central weapon</p>\n<hr />\n<p><strong>Effect</strong> The swordkeeper projects a massive echoblade held in all four hands, dealing @Damage[9d8[force]|options:area-damage] damage to all creatures in a @Template[line|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>It can't use Colossal Echo again for [[/gmr 1d4 #Recharge Colossal Echo]]{1d4 rounds}.</p>"
         },
         "action->Echoblade Flurry": {
           "name": "Echoblade Flurry",
@@ -11816,11 +11741,12 @@
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]\n<p>Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hardness</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5</td>\n<td>20</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>"
         },
         "action->Troop Defenses": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A]\n<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "Troop Defenses",
+          "description": "<p><strong>Thresholds</strong> 160 (3 segments), 80 (2 segments)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "action->Aim as One": {
           "name": "Aim as One",
-          "description": "<p>The troop launches a ranged attack in the form of a @Template[burst|distance:10] within 100 feet that deals @Damage[(3d8+11)[piercing]] damage (@Check[reflex|dc:25|basic] save). When the garrison is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
+          "description": "<p>The troop launches a ranged attack in the form of a @Template[burst|distance:10] within 100 feet that deals @Damage[(3d8+11)[piercing]|options:area-damage] damage (@Check[reflex|dc:25|basic|options:area-effect] save). When the garrison is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5].</p>"
         },
         "action->Raise Shields": {
           "name": "Raise Shields",
@@ -11828,7 +11754,7 @@
         },
         "action->Strike as One": {
           "name": "Strike as One",
-          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy within 5 feet (@Check[reflex|dc:30|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[2d8[slashing]] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+10)[slashing]] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+13)[slashing]] damage.</p>"
+          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:30|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[2d8[slashing]] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+10)[slashing]] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+13)[slashing]] damage.</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -11875,7 +11801,7 @@
         },
         "action->Tearing Clutch": {
           "name": "Tearing Clutch",
-          "description": "<p>The terror bird's powerful beak can tear through flesh. On a successful beak Strike, the target takes @Damage[1[bleed]] damage. This bleed damage increases to @Damage[1d4[bleed]] on a critical hit.</p>"
+          "description": "<p>The terror bird's powerful beak can tear through flesh. On a successful beak Strike, the target takes 1 bleed damage. This bleed damage increases to 1d4 bleed on a critical hit.</p>"
         }
       }
     },
@@ -12020,7 +11946,7 @@
         },
         "action->Deluge": {
           "name": "Deluge",
-          "description": "<p>A creature can provoke a waterlogged tiddalik into laughing and releasing its stored water with a successful check to @Check[performance|dc:25] a joke or funny story. The tiddalik also disgorges its water automatically if it dies while waterlogged, or can voluntarily Deluge as a three-action activity that has the concentrate trait. The mass of stored water swamps a @Template[emanation|distance:10], dealing @Damage[8d6[bludgeoning]] damage to creatures in the area (@Check[reflex|dc:25|basic] save) and making the area difficult terrain for 1 day. The tiddalik can't use its spit Strike or Expel Wave until it next Drinks in Abundance.</p>"
+          "description": "<p>A creature can provoke a waterlogged tiddalik into laughing and releasing its stored water with a successful check to @Check[performance|dc:25] a joke or funny story. The tiddalik also disgorges its water automatically if it dies while waterlogged, or can voluntarily Deluge as a three-action activity that has the concentrate trait. The mass of stored water swamps a @Template[emanation|distance:10], dealing @Damage[8d6[bludgeoning]|options:area-damage] damage to creatures in the area (@Check[reflex|dc:25|basic|options:area-effect] save) and making the area difficult terrain for 1 day. The tiddalik can't use its spit Strike or Expel Wave until it next Drinks in Abundance.</p>"
         },
         "action->Drink Abundance": {
           "name": "Drink Abundance",
@@ -12655,6 +12581,11 @@
         "spell->Magic Missile": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMagic Missile"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "spell->Ray of Enfeeblement": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
@@ -12816,6 +12747,11 @@
         "spell->Magic Missile": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMagic Missile"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "spell->Ray of Enfeeblement": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
         },
@@ -12952,6 +12888,11 @@
         },
         "spell->Magic Missile": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]\nMagic Missile"
+        },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
         },
         "spell->Ray of Enfeeblement": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]\nRay of Enfeeblement"
@@ -13234,7 +13175,7 @@
         },
         "action->Resonance": {
           "name": "Resonance",
-          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the water trait; a creature with the elemental and water traits gains this bonus to all attack and damage rolls.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1dwMVgBHfT4qO4OS]{Effect: Resonance}</p>"
+          "description": "<p>30 feet. All wisps vibrate at a frequency attuned to their element, resonating with and empowering all creatures and effects sharing that trait.</p>\n<p>A creature in the area gains a +1 status bonus to attack and damage rolls for effects with the water trait; a creature with the elemental and water traits gains this bonus to all attack and damage rolls.</p>"
         },
         "action->Drench": {
           "name": "Drench",
@@ -13298,12 +13239,6 @@
       "languages": "bat empathy",
       "publicNotes": "<p>Werebats form organized colonies of opportunistic hunters. They aren't shy about transforming creatures to add to their colony, whom they initiate with elaborate social ceremonies and bloody hazing. The curse of the werebat gives them a strong urge to prey upon on weaker, lonely creatures. True werebats are often unusually tall and thin, with angular features. In combat, werebats favor their unarmed attacks because they can't fly while wielding weapons in their wings.</p>\n<hr />\n<p>Werecreatures are humanoids who transform into animals and animal-humanoid hybrids under the light of the full moon. The fate of these shapechanging creatures derives from an ancient primal curse that they can, in turn, transmit through their own bites. The stat blocks in this section reflect werecreatures in their hybrid forms.</p>",
       "items": {
-        "strike-melee->Fangs": {
-          "name": "Fangs"
-        },
-        "strike-melee->Wing": {
-          "name": "Wing"
-        },
         "strike-melee->Dagger": {
           "name": "Dagger"
         },
@@ -13324,7 +13259,7 @@
         },
         "action->Change Shape": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.08egiRxOvMX97XTc]\nChange Shape",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.08egiRxOvMX97XTc]\n<ul>\n<li><strong>Human</strong>\n<ul>\n<li><strong>Melee</strong> fist [[/r 1d20+10 #Fist]]{+10}/[[/r 1d20+6 #Fist]]{+6}/[[/r 1d20+2 #Fist]]{+2} (agile, nonlethal), <strong>Damage</strong> @Damage[(1d4+2)[bludgeoning]] damage</li>\n<li><strong>Speed</strong> 25 feet</li>\n</ul>\n</li>\n<li><strong>Giant Bat</strong>\n<ul>\n<li><strong>Speed</strong> 15 feet, fly 30 feet</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>The werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.</p>\n<p>In humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.</p>\n<p>In animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.08egiRxOvMX97XTc]\n<ul>\n<li>\n<p><strong>Human</strong></p>\n<ul>\n<li><strong>Melee</strong> fist +10 <strong>Damage</strong> 1d4+2 </li>\n<li>no fly Speed</li>\n</ul>\n</li>\n<li>\n<p><strong>Giant Bat</strong></p>\n<ul>\n<li><strong>Speed</strong> 15 feet, fly 30 feet</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>The werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.</p>\n<p>In humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.</p>\n<p>In animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Curse of the Werebat": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ICnpftxZEilrYjn0]\nCurse of the Werebat",
@@ -13759,7 +13694,8 @@
         },
         "action->Ectoplasmic Form": {
           "name": "Ectoplasmic Form",
-          "description": "<p>A wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The wyrmwraith loses the incorporeal trait for [[/gmr 1d4 #Duration Physical Form]]{1d4 rounds}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 rounds}. While in their ectoplasmic form, the wyrmwraith's AC increases to 43 and they gain [[/r 100 #Temporary Hit Points]]{100 temporary Hit Points}. They lose their immunity to precision damage and all of their resistances. Their melee Strikes deal slashing and piercing damage, respectively, instead of void damage.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QMcmhifNQOPguv2t]{Effect: Ectoplasmic Form (Physical)}</p>"
+          "description": "<p>A wyrmwraith can push through the ectoplasmic veil to temporarily assume a physical form made of ectoplasm. The wyrmwraith loses the incorporeal trait for [[/gmr 1d4 #Duration Physical Form]]{1d4 rounds}, though they can return to their incorporeal form as a free action before then. Once this ability ends, the wyrmwraith can't use this ability again for [[/gmr 1d4 #Recharge Ectoplasmatic Form]]{1d4 rounds}. While in their ectoplasmic form, the wyrmwraith's AC increases to 43 and they gain 100 temporary Hit Points. They lose their immunity to precision damage and all of their resistances. Their melee Strikes deal slashing and piercing damage, respectively, instead of void damage.</p>",
+          "selfEffect": "Effect: Ectoplasmic Form (Physical)"
         },
         "action->Phase Lurch": {
           "name": "Phase Lurch",

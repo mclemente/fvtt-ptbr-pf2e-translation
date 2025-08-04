@@ -246,6 +246,11 @@
         "spell->Fear (At-Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]\nFear (At-Will)"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
@@ -537,6 +542,11 @@
         "spell->Fear (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]\nFear (At Will)"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
@@ -655,7 +665,7 @@
         },
         "action->Acidic Effluence": {
           "name": "Acidic Effluence",
-          "description": "<p>The giant aukashungi releases an acidic gas from its ventral glands in a @Template[burst|distance:30]. Each creature that starts its turn in the area takes @Damage[10d8[acid],2d8[persistent,acid]]{10d8 acid damage plus 2d8 persistent acid damage} (@Check[fortitude|dc:32|basic] save). The gas moves 10 feet away from the giant aukashungi each round and lasts for 1 minute. The giant aukashungi can't use Acidic Effluence again for 1 minute.</p>"
+          "description": "<p>The giant aukashungi releases an acidic gas from its ventral glands in a @Template[burst|distance:30]. Each creature that starts its turn in the area takes @Damage[10d8[acid],2d8[persistent,acid]|options:area-damage]{10d8 acid damage plus 2d8 persistent acid damage} (@Check[fortitude|dc:32|basic|options:area-effect] save). The gas moves 10 feet away from the giant aukashungi each round and lasts for 1 minute. The giant aukashungi can't use Acidic Effluence again for 1 minute.</p>"
         },
         "action->Roll Up": {
           "name": "Roll Up",
@@ -1083,7 +1093,7 @@
         },
         "action->Boneshaking Roar": {
           "name": "Boneshaking Roar",
-          "description": "<p>The saurian warmonger bellows, evoking the power of the primordial world.</p>\n<p>Non-dinosaur creatures within @Template[emanation|distance:30]{30 feet} take @Damage[10d6[sonic]] damage (@Check[fortitude|dc:34|basic] save). On a failed save, a creature is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} [[/r 1d4 #Stunned Value]]{1d4} on a critical failure).</p>\n<p>The saurian can't use Boneshaking Roar again for [[/gmr 1d4 #Recharge Boneshaking Roar]]{1d4 rounds}.</p>"
+          "description": "<p>The saurian warmonger bellows, evoking the power of the primordial world.</p>\n<p>Non-dinosaur creatures within @Template[emanation|distance:30]{30 feet} take @Damage[10d6[sonic]|options:area-damage] damage (@Check[fortitude|dc:34|basic|options:area-effect] save). On a failed save, a creature is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} [[/r 1d4 #Stunned Value]]{1d4} on a critical failure).</p>\n<p>The saurian can't use Boneshaking Roar again for [[/gmr 1d4 #Recharge Boneshaking Roar]]{1d4 rounds}.</p>"
         },
         "action->Primordial Balance": {
           "name": "Primordial Balance",
@@ -1137,7 +1147,7 @@
         },
         "action->Boneshaking Roar": {
           "name": "Boneshaking Roar",
-          "description": "<p>The saurian worldwatcher bellows, evoking the power of the primordial world.</p>\n<p>Non-dinosaur creatures within @Template[emanation|distance:30]{30 feet} take @Damage[10d6[sonic]] damage (@Check[fortitude|dc:38|basic] save). On a failed save, a creature is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} [[/r 1d4 #Stunned Value]]{1d4} on a critical failure).</p>\n<p>The saurian can't use Boneshaking Roar again for [[/gmr 1d4 #Recharge Boneshaking Roar]]{1d4 rounds}.</p>"
+          "description": "<p>The saurian worldwatcher bellows, evoking the power of the primordial world.</p>\n<p>Non-dinosaur creatures within @Template[emanation|distance:30]{30 feet} take @Damage[10d6[sonic]|options:area-damage] damage (@Check[fortitude|dc:38|basic|options:area-effect] save). On a failed save, a creature is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} [[/r 1d4 #Stunned Value]]{1d4} on a critical failure).</p>\n<p>The saurian can't use Boneshaking Roar again for [[/gmr 1d4 #Recharge Boneshaking Roar]]{1d4 rounds}.</p>"
         },
         "action->Stunning Blow": {
           "name": "Stunning Blow",
@@ -1932,6 +1942,11 @@
         "spell->Burning Hands": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]\nBurning Hands"
         },
+        "spell->Produce Flame": {
+          "name": "Produce Flame",
+          "description": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 2d4 fire damage. On a critical success, the target takes double damage and @Damage[(@item.level)d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the persistent damage on a critical hit by 1d4.</p>",
+          "target": "1 creature"
+        },
         "strike-melee->Candle Fingers": {
           "name": "Candle Fingers"
         },
@@ -1944,7 +1959,7 @@
         },
         "action->Vulnerability to Extinguishing": {
           "name": "Vulnerability to Extinguishing",
-          "description": "<p>A yaganty who is doused with water or otherwise has their candle fingers extinguished takes @Damage[3d6[persistent,mental]], becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1}, and screams in agony until they reignite their candles (typically by casting @UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{Produce Flame} and lighting their fingers with an Interact action).</p>"
+          "description": "<p>A yaganty who is doused with water or otherwise has their candle fingers extinguished takes @Damage[3d6[persistent,mental]], becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1}, and screams in agony until they reignite their candles (typically by casting @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition} and lighting their fingers with an Interact action).</p>"
         },
         "action->Fling Wax": {
           "name": "Fling Wax",
@@ -2030,5 +2045,13 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Book 1 - The Show Must Go On": "Book 1 - The Show Must Go On",
+    "Book 2 - Legacy of the Lost God": "Book 2 - Legacy of the Lost God",
+    "Book 3 - Life's Long Shadows": "Book 3 - Life's Long Shadows",
+    "Book 4 - Siege of the Dinosaurs": "Book 4 - Siege of the Dinosaurs",
+    "Book 5 - Lord of the Black Sands": "Book 5 - Lord of the Black Sands",
+    "Book 6 - The Apocalypse Prophet": "Book 6 - The Apocalypse Prophet"
   }
 }

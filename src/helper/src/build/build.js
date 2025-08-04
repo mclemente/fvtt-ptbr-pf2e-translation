@@ -1,16 +1,16 @@
-import archiver from "archiver";
 import {
-    accessSync,
-    cpSync,
-    createWriteStream,
-    existsSync,
     mkdirSync,
+    accessSync,
     readdirSync,
     rmSync,
+    cpSync,
     statSync,
     writeFileSync,
+    existsSync,
+    createWriteStream,
 } from "fs";
-import { CONFIG_FILE, readJSONFile } from "./config-helper.js";
+import { readJSONFile, CONFIG_FILE } from "./config-helper.js";
+import archiver from "archiver";
 
 export const build = (paths, targetFolder, extraConverters) => {
     const configData = readJSONFile(CONFIG_FILE);

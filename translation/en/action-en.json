@@ -161,7 +161,7 @@
         "Title": "Conceal an Object"
       },
       "CoverTracks": {
-        "Description": "<p>You cover your tracks, moving up to half your travel Speed, using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.YVLMgNxXTUQuDJgp]{Travel Speed} rules. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track.</p><p>In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait.</p>",
+        "Description": "<p>You cover your tracks, moving up to half your travel Speed, using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.DUOb8QrlC5t0adkL]{Travel Speed} rules. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track.</p><p>In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait.</p>",
         "Title": "Cover Tracks"
       },
       "Craft": {
@@ -590,6 +590,11 @@
         },
         "Title": "Palm an Object"
       },
+      "Parry": {
+        "ShortTitle": "Parry",
+        "Content": "{actor} begins to parry.",
+        "Title": "Parry"
+      },
       "Perform": {
         "Description": "<p>When making a brief performance - one song, a quick dance, or a few jokes - you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers, or even change their attitudes if the GM sees fit.</p><p><strong>Critical Success</strong> Your performance impresses the observers, and they're likely to share stories of your ability.<br><strong>Success</strong> You prove yourself, and observers appreciate the quality of your performance.<br><strong>Failure</strong> Your performance falls flat.<br><strong>Critical Failure</strong> You demonstrate only incompetence.</p>",
         "Notes": {
@@ -917,7 +922,7 @@
         "Title": "Tamper"
       },
       "Track": {
-        "Description": "<p>You follow tracks, moving at up to half your travel Speed, using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.YVLMgNxXTUQuDJgp]{Travel Speed} rules. After a successful check to Track, you can continue following the tracks at half your Speed without attempting additional checks for up to 1 hour.</p><p>In some cases, you might Track in an encounter. In this case, Track is a single action and doesn't have the exploration trait, but you might need to roll more often because you're in a tense situation. The GM determines how often you must attempt this check.</p><p>You attempt your Survival check when you start Tracking, once every hour you continue tracking, and any time something significant changes in the trail. The GM determines the DCs for such checks, depending on the freshness of the trail, the weather, and the type of ground.</p><p><strong>Success</strong> You find the trail or continue to follow the one you're already following.</p><p><strong>Failure</strong> You lose the trail but can try again after a 1-hour delay.</p><p><strong>Critical Failure</strong> You lose the trail and can't try again for 24 hours.</p>",
+        "Description": "<p>You follow tracks, moving at up to half your travel Speed, using the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.DUOb8QrlC5t0adkL]{Travel Speed} rules. After a successful check to Track, you can continue following the tracks at half your Speed without attempting additional checks for up to 1 hour.</p><p>In some cases, you might Track in an encounter. In this case, Track is a single action and doesn't have the exploration trait, but you might need to roll more often because you're in a tense situation. The GM determines how often you must attempt this check.</p><p>You attempt your Survival check when you start Tracking, once every hour you continue tracking, and any time something significant changes in the trail. The GM determines the DCs for such checks, depending on the freshness of the trail, the weather, and the type of ground.</p><p><strong>Success</strong> You find the trail or continue to follow the one you're already following.</p><p><strong>Failure</strong> You lose the trail but can try again after a 1-hour delay.</p><p><strong>Critical Failure</strong> You lose the trail and can't try again for 24 hours.</p>",
         "Notes": {
           "criticalFailure": "<strong>Critical Failure</strong> You lose the trail and can't try again for 24 hours.",
           "failure": "<strong>Failure</strong> You lose the trail but can try again after a 1-hour delay.",
@@ -992,9 +997,9 @@
       "WhirlingThrow": {
         "Notes": {
           "criticalFailure": "<strong>Critical Failure</strong> You don't throw the creature, and it's no longer @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by you.",
-          "criticalSuccess": "<strong>Critical Success</strong> You throw the creature the desired distance and it lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.",
+          "criticalSuccess": "<strong>Critical Success</strong> You throw the creature [[/r 10+(5*@actor.abilities.str.mod)]] feet, dealing @Damage[((floor((10+(5*@actor.abilities.str.mod))/10))d6 + @actor.abilities.str.mod)[bludgeoning]] damage, and it lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.",
           "failure": "<strong>Failure</strong> You don't throw the creature.",
-          "success": "<strong>Success</strong> You throw the creature the desired distance."
+          "success": "<strong>Success</strong> You throw the creature [[/r 10+(5*@actor.abilities.str.mod)]] feet and deal @Damage[((floor((10+(5*@actor.abilities.str.mod))/10))d6 + @actor.abilities.str.mod)[bludgeoning]] damage."
         },
         "Title": "Whirling Throw"
       }
