@@ -52,9 +52,28 @@ const readSystemMap = (filename) => {
 			continue;
 		}
 		for (const grandchild of readdirSync(folderPath + "/" + child)) {
-			const featData = readJSONFile(folderPath + "/" + child + "/" + grandchild);
-			result.set(featData.name.toLowerCase().trim(), featData);
-			continue;
+			if (grandchild.includes(".json")) {
+				const featData = readJSONFile(folderPath + "/" + child + "/" + grandchild);
+				result.set(featData.name.toLowerCase().trim(), featData);
+				continue;
+			}
+			for (const grandgrandchild of readdirSync(folderPath + "/" + child + "/" + grandchild)) {
+				if (grandgrandchild.includes(".json")) {
+					const featData = readJSONFile(folderPath + "/" + child + "/" + grandchild + "/" + grandgrandchild);
+					result.set(featData.name.toLowerCase().trim(), featData);
+					continue;
+				}
+
+				for (const grandgrandgrandchild of readdirSync(
+					folderPath + "/" + child + "/" + grandchild + "/" + grandgrandchild
+				)) {
+					const featData = readJSONFile(
+						folderPath + "/" + child + "/" + grandchild + "/" + grandgrandchild + "/" + grandgrandgrandchild
+					);
+					result.set(featData.name.toLowerCase().trim(), featData);
+					continue;
+				}
+			}
 		}
 	}
 	return result;
@@ -289,11 +308,11 @@ export const convertDeities = (deitiesTranslated) => {
 	);
 
 	// Get the Ids for all spells in the compendium
-    const spellIds = {};
-    spellsMap.forEach(
-        (spell) =>
-            (spellIds[`Compendium.pf2e.spells-srd.Item.${spell.name}`] = `Compendium.pf2e.spells-srd.Item.${spell._id}`)
-    );
+	const spellIds = {};
+	spellsMap.forEach(
+		(spell) =>
+			(spellIds[`Compendium.pf2e.spells-srd.Item.${spell.name}`] = `Compendium.pf2e.spells-srd.Item.${spell._id}`)
+	);
 	// Loop through translated deity description entries and add details section
 	Object.keys(deitiesTranslated.entries).forEach((deityName) => {
 		const deityAttributes = deitiesMap.get(deityName.toLowerCase()).system.attribute;
@@ -319,8 +338,8 @@ export const convertDeities = (deitiesTranslated) => {
 			textTitle = "Magias de clérigo";
 			textAdditions[textTitle] = [];
 			Object.keys(deitySpells).forEach((deitySpell) => {
-                if (Object.keys(spellIds).includes(deitySpells[deitySpell])) {
-                    textAdditions[textTitle].push(`${deitySpell}. @UUID[${spellIds[deitySpells[deitySpell]]}]`);
+				if (Object.keys(spellIds).includes(deitySpells[deitySpell])) {
+					textAdditions[textTitle].push(`${deitySpell}. @UUID[${spellIds[deitySpells[deitySpell]]}]`);
 				} else {
 					console.warn(`Spell @UUID[${deitySpells[deitySpell]}] missing in ${deityName}`);
 				}
@@ -353,7 +372,7 @@ export const convertDeities = (deitiesTranslated) => {
 			if (deitySanctification.modal === "can") {
 				textAdditions[textTitle] = [`Pode ser ${multiOptions}${sanctificationOption.join(" ou ")}`];
 			} else {
-                textAdditions[textTitle] = [`${sanctificationOption.join(" ou ")}`];
+				textAdditions[textTitle] = [`${sanctificationOption.join(" ou ")}`];
 			}
 		} else {
 			textAdditions[textTitle] = ["nenhuma"];
