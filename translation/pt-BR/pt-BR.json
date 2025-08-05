@@ -141,7 +141,7 @@
       "Attacks": "Ataques",
       "Character": {
         "ABCPicker": {
-          "SearchPlaceholder": "Search {items}",
+          "SearchPlaceholder": "Procurar {items}",
           "Title": "Seleção de {type}",
           "Tooltip": {
             "ConfirmSelection": "Confirmar seleção",
@@ -210,7 +210,7 @@
         },
         "Crafting": {
           "Action": {
-            "Hint": "Select an item to craft using {resource} ({value}/{max})",
+            "Hint": "Selecione um item para manufaturar usando {resource} ({value}/{max})",
             "HintResourceless": "Escolha um item para Manufaturar"
           },
           "BatchQuantity": "x{quantity}",
@@ -1056,6 +1056,7 @@
       "Foundry": "Foundry",
       "FoundryOld": "0.7 ou mais velho",
       "Invalid": "Inválido",
+      "LockedTooltip": "Não é possível migrar — o compêndio está bloqueado",
       "MigrateCompendium": "Migrar Compêndio",
       "Schema": "Esquema",
       "Size": "Tamanho",
@@ -1208,9 +1209,9 @@
         },
         "CompositeLabel": {
           "Simple": "{type} {value}",
-          "DoubleVs": "{type} {value} (double resistance vs. {doubleVs})",
-          "Exceptions": "{type} {value} (except {exceptions})",
-          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; double resistance vs. {doubleVs})"
+          "DoubleVs": "{type} {value} (resistência dobrada vs. {doubleVs})",
+          "Exceptions": "{type} {value} (exceto {exceptions})",
+          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; resistência dobrada vs. {doubleVs})"
         },
         "Type": {
           "abysium": "abysium",
@@ -1250,7 +1251,7 @@
           "fatigued": "fatigado",
           "fear-effects": "efeitos de Medo",
           "fleeing": "fugindo",
-          "fortune-effects": "efeitos da sorte",
+          "fortune-effects": "efeitos de fortuna",
           "frightened": "assustado",
           "ghost-touch": "toque Fantasma",
           "glass": "vidro",
@@ -3306,7 +3307,8 @@
         "higher": "Rerrolou e manteve o maior resultado",
         "new": "Rerrolar e manter o novo resultado",
         "lower": "Rerrolou e manteve o menor resultado"
-      }
+      },
+      "WarnNoResource": "{name} não tem {resource}"
     },
     "ResistancesLabel": "Resistências",
     "RestoreSpellTitle": "Restaurar Magia",
@@ -5495,7 +5497,7 @@
         "visap": "Visap",
         "wakizashi": "Wakizashi",
         "war-flail": "Mangual de Guerra",
-        "war-lance": "War Lance",
+        "war-lance": "Lança de Guerra",
         "war-razor": "Navalha de Guerra",
         "warhammer": "Martelo de Guerra",
         "wheel-blades": "Lâminas de Roda",
