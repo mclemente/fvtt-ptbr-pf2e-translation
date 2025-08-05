@@ -142,7 +142,7 @@
       "Character": {
         "ABCPicker": {
           "SearchPlaceholder": "Search {items}",
-          "Title": "Seleção {type}",
+          "Title": "Seleção de {type}",
           "Tooltip": {
             "ConfirmSelection": "Confirmar seleção",
             "ViewSheet": "Abrir ficha"
@@ -2666,7 +2666,8 @@
         "LineSplit": ";",
         "MeasuredTemplate": {
           "Clear": "Limpar gabaritos colocados",
-          "Place": "Colocar {area}"
+          "Place": "Colocar {area}",
+          "PlacementTooltip": "<strong>Clique</strong> para travar a posição no mapa e habilitar a rotação. Clique novamente para posicionar.<br><strong>Clique direito</strong> para destravar ou cancelar.<br>Segure <strong>Shift</strong> para posicionar diretamente sem a rotação.<br>Segure <strong>Ctrl</strong> para desabilitar o encaixe automático da grade ao rotacionar."
         },
         "Plural": "Magias",
         "Rank": {
@@ -2702,7 +2703,8 @@
       "Weapon": {
         "FIELDS": {
           "expend": {
-            "label": "Investir"
+            "hint": "Isso indica quanta munição é consumida com cada Golpe à distância que você faz com a arma. Outras habilidades podem citar o uso de Gasto como a quantidade de munição necessária para concluir a ação.",
+            "label": "Gasto"
           }
         },
         "CanBeAmmo": {
@@ -2837,6 +2839,7 @@
     "Level9": "Nível 9",
     "LevelLabel": "Nível",
     "LevelN": "Nível {level}",
+    "LevelRange": "Níveis {minLevel} — {level}",
     "LicenseViewer": {
       "Label": "Aviso Legal",
       "LandingPageText": "Use as abas acima para ler as informações legais"
@@ -4572,7 +4575,7 @@
     "TraitDoubleBarrel": "Barril Duplo",
     "TraitDowntime": "Recesso",
     "TraitDragon": "Dragão",
-    "TraitDragonblood": "Draconato",
+    "TraitDragonblood": "Sangue Dracônico",
     "TraitDream": "Sonho",
     "TraitDromaar": "Dromaar",
     "TraitDrow": "Drow",
@@ -5034,7 +5037,7 @@
     "TraitThrown200": "Arremessável 200 pés",
     "TraitThrown30": "Arremesso 30 pés",
     "TraitThrown40": "Arremesso 40 pés",
-    "TraitThrown50": "Arremesso 50 pés.",
+    "TraitThrown50": "Arremesso 50 pés",
     "TraitThrown60": "Arremesso 60 pés",
     "TraitThrown80": "Arremesso 80 pés",
     "TraitTime": "Tempo",
