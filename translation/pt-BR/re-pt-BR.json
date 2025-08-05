@@ -459,11 +459,11 @@
       },
       "RedpitchBomb": {
         "Greater": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
-          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 de dano de respingo de fogo}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 de dano de respingo de fogo}."
         },
         "Lesser": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]] e @Damage[(1[splash])[fire]]{1 de dano de respingo de fogo}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
         },
         "Major": {
@@ -510,7 +510,7 @@
       "TallowBomb": {
         "Greater": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]], @Damage[(3[splash])[fire]]{3 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
-          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 de dano de respingo de fogo}."
         },
         "Lesser": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]], @Damage[(1[splash])[fire]]{1 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
@@ -765,7 +765,7 @@
       "BarghestFeed": "Quantas vezes o Barghest se alimentou?",
       "BladeMagus": {
         "ArcaneCascade": {
-          "Note": "Enquanto nesta postura, os ataques corpo a corpo do Magus da Lâmina causam @Damage[(4[splash])[fire]]{4 splash force} em inimigos adjacentes a seu alvo."
+          "Note": "Enquanto nesta postura, os ataques corporais do magus da Lâmina causam @Damage[(4[splash])[force]]{4 de dano de respingo de energia} em inimigos adjacentes a seu alvo."
         }
       },
       "BrainCollector": {
@@ -907,7 +907,7 @@
           "Vampire": "Vampiro",
           "Vidileth": "Vidileth",
           "Vilderavn": "Vilderavn",
-          "Voidworm": "Verne Nulo",
+          "Voidworm": "Verme do Vazio",
           "Wasp": "Vespa",
           "WingedHumanoid": "Humanóide Alado",
           "Wolf": "Lobo",
@@ -950,7 +950,7 @@
         "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
       "CyclopsBully": {
-        "TerrorizingSwing": "Se a criatura está @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada} e recebe dano, isso causa um dano adicional de 2d10 e ela é derrubada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}."
+        "TerrorizingSwing": "Se a criatura está @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada} e recebe dano, isso causa um dano adicional de 2d10 e ela é fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}."
       },
       "DeadFaine": {
         "TargetFeintOrTraitorousBetrayal": "Alvo desprevenido devido à Finta ou Traição Traiçoeira"
@@ -969,7 +969,7 @@
         "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
       },
       "DuskwalkerHuntPrey": {
-        "AC": "Presa Designada ataca ao Crepuscular",
+        "AC": "Presa Designada ataca o Crepuscular",
         "Checks": "Crepuscular rola teste contra a sua Presa Designada"
       },
       "Elemental": {
@@ -1011,12 +1011,12 @@
         }
       },
       "GrimReaper": {
-        "InfuseWeapon": "Se o Ceifador atingir uma criatura com uma fraqueza a qualquer tipo específico de dano, o dano da foice conta como esse tipo de dano, para além do dano cortante."
+        "InfuseWeapon": "Se o Ceifador Golpeia uma criatura com uma fraqueza a qualquer tipo específico de dano, o dano da foice conta como esse tipo de dano, além de cortante."
       },
       "HehShanBao": {
         "UrbanLegend": {
-          "DisbelieveResistance": "A Resistência Física é Desacreditada.",
-          "DisbelieveSlashing": "O Dano Cortante é Desacreditado."
+          "DisbelieveResistance": "Resistência Física é Desacreditada.",
+          "DisbelieveSlashing": "Dano Cortante é Desacreditado."
         }
       },
       "HellboundAttorney": {
@@ -1052,14 +1052,14 @@
       },
       "Ivarsa": {
         "ArcaneCascade": {
-          "Note": "Enquanto nesta postura, os ataques corpo a corpo de Ivarsa causam @Damage[(4[splash])[fire]]{4 splash fire} em inimigos adjacentes a seu alvo."
+          "Note": "Enquanto nesta postura, os ataques corpo a corpo de Ivarsa causam @Damage[(4[splash])[fire]]{4 de dano de fogo de respingo} em inimigos adjacentes a seu alvo."
         }
       },
       "KallasDevil": {
         "DisguisedAsChild": "Disfarçado como uma Criança",
         "LyingAboutLoathsomeStench": "Mentir sobre Fedor Repugnante"
       },
-      "KrampusPunishTheNaughty": "O Krampus rola um teste contra um alvo Travesso",
+      "KrampusPunishTheNaughty": "Krampus rola um teste contra um alvo Travesso",
       "LemureSubservience": {
         "Defend": "Defender",
         "Fetch": "Pegar",
@@ -1083,7 +1083,7 @@
         "Survival": "Para Evitar se Perder"
       },
       "Necrohulk": {
-        "AlchemicalCartridgeRuptured": "Cartucho Alquímico Rebentado"
+        "AlchemicalCartridgeRuptured": "Cartucho Alquímico Arrebentado"
       },
       "Nindoru": {
         "Meokdan": {
@@ -1109,17 +1109,17 @@
         }
       },
       "PaleStranger": {
-        "TargetMurderedPaleStranger": "O Alvo Assassinou o Forasteiro Esquálido (Pale Stranger)",
-        "TargetNeverKilled": "O Alvo Nunca Assassinou"
+        "TargetMurderedPaleStranger": "Alvo Assassinou o Forasteiro Esquálido",
+        "TargetNeverKilled": "Alvo Nunca Assassinou"
       },
       "PlanarScion": {
         "Duskwalker": {
           "HuntPrey": {
-            "AC": "Presa Designada ataca ao Crepuscular",
+            "AC": "Presa Designada ataca o Crepuscular",
             "Checks": "Crepuscular rola teste contra a sua Presa Designada"
           },
           "Immunity": "efeitos que transformariam seu corpo ou alma em mortos-vivos",
-          "SpiritHunter": "O alvo é indicado pelo Caçador de Espíritos"
+          "SpiritHunter": "Alvo é indicado pelo Caçador de Espíritos"
         }
       },
       "PoltergeistTelekineticStorm": {
