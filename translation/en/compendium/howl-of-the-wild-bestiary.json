@@ -22,7 +22,7 @@
         },
         "action->Wild Empathy": {
           "name": "Wild Empathy",
-          "description": "<p>The alicorn has an empathic connection to the creatures of the natural world that. The alicorn can use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on animals and to make very simple @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Requests} of them.</p>"
+          "description": "<p>The alicorn has an empathic connection to the creatures of the natural world that. The alicorn can use Diplomacy to [[/act make-an-impression]] on animals and to make very simple [[/act request]]{Requests} of them.</p>"
         },
         "action->Draw in Magic": {
           "name": "Draw in Magic",
@@ -287,7 +287,7 @@
         },
         "action->Dive-bomb": {
           "name": "Dive-bomb",
-          "description": "<p><strong>Requirements</strong> The chaos falcon is Flying</p>\n<hr />\n<p><strong>Effect</strong> The chaos falcon Flies twice straight down. If they reach the ground or a similarly solid object at the end of this movement, their landing shatters that surface into sharp shards and droplets of molten stone deal @Damage[4d6[fire],3d8[piercing]]{4d6 fire and 3d8 piercing} damage (@Check[reflex|dc:26|basic] save) to all other creatures within @Template[emanation|distance:20]{20 feet}.</p>"
+          "description": "<p><strong>Requirements</strong> The chaos falcon is Flying</p>\n<hr />\n<p><strong>Effect</strong> The chaos falcon Flies twice straight down. If they reach the ground or a similarly solid object at the end of this movement, their landing shatters that surface into sharp shards and droplets of molten stone deal @Damage[4d6[fire],3d8[piercing]|options:area-damage]{4d6 fire and 3d8 piercing} damage (@Check[reflex|dc:26|basic|options:area-effect] save) to all other creatures within @Template[emanation|distance:20]{20 feet}.</p>"
         },
         "action->Flash Storm": {
           "name": "Flash Storm",
@@ -476,9 +476,6 @@
       "name": "Flynkett",
       "publicNotes": "<p>The piercing whistle of the flynkett can often be heard over the harsh jungle rains, shrieking dissonantly when its cries combine with others of its pack. Although generally effective as a warning to nearby predators, these sharp cries also serve as a lure for reckless alchemists eager to study the creature's potent enzymes.</p>\n<p>Flynketts' name, most theorize, is a corruption of \"flinging kettle\" or \"flying kettle.\" They can't truly fly, instead using their skin flaps to glide in a manner similar to flying squirrels. However, the primary use of their skin flaps isn't for movement, but digestion. When it rains, flynketts roll up their loose skin, creating a crude sort of kettle in which to catch precipitation. The remarkable creatures' acid combines with the falling water to break down wood, soil, or even rocks into a nutritional stew. Therefore, the flynkett can flourish when introduced to any environment with frequent rain, something solid to stand on, and a lack of natural predators.</p>\n<p>Although their acid can be harvested without harming a flynkett, the creatures rarely cooperate. If disturbed, particularly in the middle of feeding, they release clouds of acidic steam. They're also capable of spitting the fluid with deadly accuracy. Thankfully for those who run afoul of them, flynketts have no use for corpses and will generally break off pursuit when the interloper leaves their territory.</p>\n<p>Several organizations and individual scholars have desperately sought to domesticate flynketts for use in alchemical production. To date, none of these efforts have been successful, though several abandoned labs still contain aggressive packs of flynketts who protect their new territory with ferocious tenacity.</p>",
       "items": {
-        "strike-melee->Claw": {
-          "name": "Claw"
-        },
         "strike-ranged->Acid Spit": {
           "name": "Acid Spit"
         },
@@ -488,11 +485,16 @@
         },
         "action->Kettle Up": {
           "name": "Kettle Up",
-          "description": "<p>The flynkett uses its skin flaps to form a crude kettle. While Kettled Up, the flynkett can't use its claw Strike or take move actions. If the flynkett has been Kettled Up for 1 minute or longer, and its kettle is full of water (usually due to the flynkett being in the rain), the flynkett's kettle begins to boil, emitting a piercing whistle that causes all creatures within 30 feet to take a –2 penalty to Perception checks to hear sources other than the flynkett; this is an auditory effect. The flynkett can stop Kettling Up as a free action.</p>"
+          "description": "<p>The flynkett uses its skin flaps to form a crude kettle. While Kettled Up, the flynkett can't use its claw Strike or take move actions. If the flynkett has been Kettled Up for 1 minute or longer, and its kettle is full of water (usually due to the flynkett being in the rain), the flynkett's kettle begins to boil, emitting a piercing whistle that causes all creatures within 30 feet to take a –2 penalty to Perception checks to hear sources other than the flynkett; this is an auditory effect. The flynkett can stop Kettling Up as a free action.</p>",
+          "rules": {
+            "1": {
+              "label": "Kettle Up - Boiling"
+            }
+          }
         },
         "action->Spill": {
           "name": "Spill",
-          "description": "<p><strong>Requirements</strong> The flynkett is Kettled Up</p>\n<p><strong>Trigger</strong> The flynkett takes physical damage or is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}</p>\n<hr />\n<p><strong>Effect</strong> The flynkett spills the contents of its full skin flaps, releasing its digestive juices in a cloud of acidic vapor that deals @Damage[2d8[acid]] damage to all non-flynkett creatures within @Template[emanation|distance:20]{20 feet} (@Check[fortitude|dc:18|basic] save). If the flynkett was boiling, the damage is increased to @Damage[4d8[acid]].</p>"
+          "description": "<p><strong>Requirements</strong> The flynkett is Kettled Up</p>\n<p><strong>Trigger</strong> The flynkett takes physical damage or is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}</p>\n<hr />\n<p><strong>Effect</strong> The flynkett spills the contents of its full skin flaps, releasing its digestive juices in a cloud of acidic vapor that deals @Damage[2d8[acid]|options:area-damage] damage to all non-flynkett creatures within @Template[emanation|distance:20]{20 feet} (@Check[fortitude|dc:18|basic|options:area-effect] save). If the flynkett was boiling, the damage is increased to 4d8.</p>"
         }
       }
     },
@@ -546,7 +548,7 @@
         },
         "action->Venomous Spit": {
           "name": "Venomous Spit",
-          "description": "<p>The coppermouth unleashes a stream of electrified venom in a @Template[line|distance:30]. The venom deals @Damage[8d6[electricity]] damage (@Check[reflex|dc:22|basic]) and creatures that take damage from the venom are immediately exposed to coppermouth venom. The copper mouth can't use Venomous Spit again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The coppermouth unleashes a stream of electrified venom in a @Template[line|distance:30]. The venom deals @Damage[8d6[electricity]|options:area-damage] damage (@Check[reflex|dc:22|basic|options:area-effect]) and creatures that take damage from the venom are immediately exposed to coppermouth venom. The copper mouth can't use Venomous Spit again for [[/gmr 1d4 #Recharge Venomous Spit]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -741,7 +743,7 @@
         },
         "action->Hexdust Wind": {
           "name": "Hexdust Wind",
-          "description": "<p>With a few fierce wingbeats, the hexmoth expels magical scale dust in a @Template[cone|distance:30]. This deals @Damage[10d6[untyped]] damage of the type to which the hexmoth is immune (@Check[fortitude|dc:23|basic] save). It can't use Hexdust Wind again for [[/gmr 1d4 #Recharge Hexdust Wind]]{1d4 rounds}.</p>"
+          "description": "<p>With a few fierce wingbeats, the hexmoth expels magical scale dust in a @Template[cone|distance:30]. This deals @Damage[10d6[untyped]|options:area-damage] damage of the type to which the hexmoth is immune (@Check[fortitude|dc:23|basic|options:area-effect] save). It can't use Hexdust Wind again for [[/gmr 1d4 #Recharge Hexdust Wind]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -981,7 +983,7 @@
         },
         "action->Launch Metal": {
           "name": "Launch Metal",
-          "description": "<p>The gecko repulses the metal attached to its body in all directions, dealing @Damage[2d6[bludgeoning]] damage (@Check[reflex|dc:17|basic] save) to all creatures in a @Template[emanation|distance:10]. The gecko can't use Launch Metal again for [[/gmr 1d4 #Recharge Launch Metal]]{1d4 rounds}.</p>"
+          "description": "<p>The gecko repulses the metal attached to its body in all directions, dealing @Damage[2d6[bludgeoning]|options:area-damage] damage (@Check[reflex|dc:17|basic|options:area-effect] save) to all creatures in a @Template[emanation|distance:10]. The gecko can't use Launch Metal again for [[/gmr 1d4 #Recharge Launch Metal]]{1d4 rounds}.</p>"
         },
         "action->Repel": {
           "name": "Repel",
@@ -1231,7 +1233,7 @@
         },
         "action->Petty Whispers": {
           "name": "Petty Whispers",
-          "description": "<p>The mocking chorus adopts the voices of its enemies, spreading lies and jeers among would-be allies and tearing apart trusted friends. Creatures in a @Template[emanation|distance:60] of the mocking chorus must attempt a @Check[will|dc:37] save. The mocking chorus can't use petty whispers again for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 1 day.</p>\n<p><strong>Success</strong> As failure, but the creature takes half damage and is not @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}.</p>\n<p><strong>Failure</strong> The creature takes @Damage[12d10[mental]] damage and is confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[15d10[mental]] damage and is confused for 1 minute, with no save to end early.</p>"
+          "description": "<p>The mocking chorus adopts the voices of its enemies, spreading lies and jeers among would-be allies and tearing apart trusted friends. Creatures in a @Template[emanation|distance:60] of the mocking chorus must attempt a @Check[will|dc:37|options:area-effect,damaging-effect] save. The mocking chorus can't use petty whispers again for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and is temporarily immune for 1 day.</p>\n<p><strong>Success</strong> As failure, but the creature takes half damage and is not @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}.</p>\n<p><strong>Failure</strong> The creature takes @Damage[12d10[mental]|options:area-damage] damage and is confused for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[15d10[mental]|options:area-damage] damage and is confused for 1 minute, with no save to end early.</p>"
         }
       }
     },
@@ -1462,7 +1464,7 @@
         },
         "action->Stone-Hewing Spit": {
           "name": "Stone-Hewing Spit",
-          "description": "<p>The royal basilisk spits its poison with immense force, dealing @Damage[5d10[acid],5d8[piercing]]{5d10 acid and 5d8 piercing} damage (@Check[reflex|dc:32|basic] save) to creatures in a @Template[line|distance:240] and exposing each creature that took damage to royal basilisk venom. The line penetrates barriers with Hardness of less than 20, ignoring any bonuses they'd provide from cover. The royal basilisk can't use Stone-Hewing Spit again for [[/gmr 1d4 #Recharge Stone-Hewing Spit]]{1d4 rounds}.</p>"
+          "description": "<p>The royal basilisk spits its poison with immense force, dealing @Damage[5d10[acid],5d8[piercing]|options:area-damage]{5d10 acid and 5d8 piercing} damage (@Check[reflex|dc:32|basic|options:area-effect] save) to creatures in a @Template[line|distance:240] and exposing each creature that took damage to royal basilisk venom. The line penetrates barriers with Hardness of less than 20, ignoring any bonuses they'd provide from cover. The royal basilisk can't use Stone-Hewing Spit again for [[/gmr 1d4 #Recharge Stone-Hewing Spit]]{1d4 rounds}.</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Large, @Damage[(5d10)[acid]], Rupture 30</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -1591,7 +1593,7 @@
         },
         "action->Enzymic Vent": {
           "name": "Enzymic Vent",
-          "description": "<p>The sky fisher vents flesh-eating enzymes into the air, dealing @Damage[3d6[persistent,acid],3d6[bleed]]{3d6 persistent acid damage and 3d6 persistent bleed damage} in a @Template[emanation|distance:20] (@Check[reflex|dc:25|basic] save). It can't use Enzymic Vent again for [[/gmr 1d4 #Recharge Enzymic Vent]]{1d4 rounds}.</p>"
+          "description": "<p>The sky fisher vents flesh-eating enzymes into the air, dealing @Damage[3d6[persistent,acid],3d6[bleed]|options:area-damage]{3d6 persistent acid damage and 3d6 persistent bleed damage} in a @Template[emanation|distance:20] (@Check[reflex|dc:25|basic|options:area-effect] save). It can't use Enzymic Vent again for [[/gmr 1d4 #Recharge Enzymic Vent]]{1d4 rounds}.</p>"
         },
         "action->Jet": {
           "name": "Jet",
@@ -1635,7 +1637,7 @@
         },
         "action->Shattering Scream": {
           "name": "Shattering Scream",
-          "description": "<p>The soniphak can focus its screech at a stone or rock surface within 60 feet to create an explosion in a @Template[burst|distance:15] from the point of impact. Creatures in the area take @Damage[5d6[piercing]] damage (@Check[reflex|dc:28|basic] save), and the area becomes difficult terrain due to fragments of loose stone.</p>"
+          "description": "<p>The soniphak can focus its screech at a stone or rock surface within 60 feet to create an explosion in a @Template[burst|distance:15] from the point of impact. Creatures in the area take @Damage[5d6[piercing]|options:area-damage] damage (@Check[reflex|dc:28|basic|options:area-effect] save), and the area becomes difficult terrain due to fragments of loose stone.</p>"
         }
       }
     },
@@ -1695,7 +1697,7 @@
         },
         "action->Vomit Meteorites": {
           "name": "Vomit Meteorites",
-          "description": "<p>The stargut hydra lurches its entire body, spewing forth chunks of meteorite in a @Template[cone|distance:30] that deal @Damage[5d6[bludgeoning]] damage to all creatures in the area (@Check[reflex|dc:25|basic]). The area becomes difficult terrain for 1 minute, though a creature can use an Interact action to clear one square of the rubble. The stargut hydra can't Vomit Meteorites for [[/gmr 1d4 #Recharge Vomit Meteorites]]{1d4 rounds}.</p>"
+          "description": "<p>The stargut hydra lurches its entire body, spewing forth chunks of meteorite in a @Template[cone|distance:30] that deal @Damage[5d6[bludgeoning]|options:area-damage] damage to all creatures in the area (@Check[reflex|dc:25|basic|options:area-effect]). The area becomes difficult terrain for 1 minute, though a creature can use an Interact action to clear one square of the rubble. The stargut hydra can't Vomit Meteorites for [[/gmr 1d4 #Recharge Vomit Meteorites]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -1762,7 +1764,7 @@
         },
         "action->Petrify Vapor": {
           "name": "Petrify Vapor",
-          "description": "<p>The stony bat breathes petrifying gas in a @Template[cone|distance:15], too thin to harm creatures in the area. However, it petrifies ambient moisture, raining down a cascade of tiny stones onto any creatures in the space directly below the cone. The falling rocks deal @Damage[4d6[bludgeoning]] damage (@Check[reflex|dc:20|basic]). The stony bat can't use Petrify Vapor again for [[/gmr 1d4 #Recharge Petrify Vapor]]{1d4 rounds}.</p>"
+          "description": "<p>The stony bat breathes petrifying gas in a @Template[cone|distance:15], too thin to harm creatures in the area. However, it petrifies ambient moisture, raining down a cascade of tiny stones onto any creatures in the space directly below the cone. The falling rocks deal @Damage[4d6[bludgeoning]|options:area-damage] damage (@Check[reflex|dc:20|basic|options:area-effect]). The stony bat can't use Petrify Vapor again for [[/gmr 1d4 #Recharge Petrify Vapor]]{1d4 rounds}.</p>"
         },
         "action->Stone Feast": {
           "name": "Stone Feast",
@@ -1835,7 +1837,7 @@
         },
         "action->Static Field": {
           "name": "Static Field",
-          "description": "<p>The storm snake gathers all static electricity in the area before releasing it in a @Template[emanation|distance:30] that deals @Damage[3d12[electricity]] damage to all non-plant creatures (@Check[reflex|dc:19] save) and grants plant creatures 5 temporary Hit Points that last for 1 minute. Plant life in the area begins to grow significantly faster than the average for plants of their genus; in forests, fields, or otherwise floral locations, this immediately transforms the area into non-magical difficult terrain. The storm snake can't use Static field again for [[/gmr 1d4 #Recharge Static Field]]{1d4 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.MGlENdqYCAwBkyXt]{Effect: Static Field}</p>"
+          "description": "<p>The storm snake gathers all static electricity in the area before releasing it in a @Template[emanation|distance:30] that deals @Damage[3d12[electricity]|options:area-damage] damage to all non-plant creatures (@Check[reflex|dc:19|options:area-effect,damaging-effect] save) and grants plant creatures 5 temporary Hit Points that last for 1 minute. Plant life in the area begins to grow significantly faster than the average for plants of their genus; in forests, fields, or otherwise floral locations, this immediately transforms the area into non-magical difficult terrain. The storm snake can't use Static field again for [[/gmr 1d4 #Recharge Static Field]]{1d4 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.MGlENdqYCAwBkyXt]{Effect: Static Field}</p>"
         }
       }
     },
@@ -1879,7 +1881,7 @@
         },
         "action->Unleash the Sun": {
           "name": "Unleash the Sun",
-          "description": "<p><strong>Requirements</strong> The sunscale serpent is flying</p>\n<hr />\n<p><strong>Effect</strong> The sunscale serpent Flies up to its fly Speed, then crashes to the ground, releasing a wave of heat dealing @Damage[5d10[fire]] damage to all creatures within a @Template[burst|distance:60] and searing their eyes with the erupting glory of its scales. Each creature in the area must attempt a @Check[reflex|dc:31] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage, is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, and dazzled for 1 minute.</p>"
+          "description": "<p><strong>Requirements</strong> The sunscale serpent is flying</p>\n<hr />\n<p><strong>Effect</strong> The sunscale serpent Flies up to its fly Speed, then crashes to the ground, releasing a wave of heat dealing @Damage[5d10[fire]|options:area-damage] damage to all creatures within a @Template[burst|distance:60] and searing their eyes with the erupting glory of its scales. Each creature in the area must attempt a @Check[reflex|dc:31|options:area-effect,damaging-effect,inflicts:blinded,inflicts:dazzled] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage, is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, and dazzled for 1 minute.</p>"
         }
       }
     },
@@ -1935,7 +1937,7 @@
         },
         "action->Screaming Force": {
           "name": "Screaming Force",
-          "description": "<p>The cave squirrel lets out a terrible scream. Non–cave squirrel creatures within @Template[emanation|distance:30]{30 feet} must succeed at a @Check[fortitude|dc:22] save or take @Damage[2d10[sonic]] damage. On a critical failure, a creature is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute. The cave squirrel can't use Screaming Force again for [[/gmr 1d4 #Recharge Screaming Force]]{1d4 rounds}.</p>"
+          "description": "<p>The cave squirrel lets out a terrible scream. Non–cave squirrel creatures within @Template[emanation|distance:30]{30 feet} must succeed at a @Check[fortitude|dc:22|options:area-effect,damaging-effect,inflicts:deafened] save or take @Damage[2d10[sonic]|options:area-damage] damage. On a critical failure, a creature is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute. The cave squirrel can't use Screaming Force again for [[/gmr 1d4 #Recharge Screaming Force]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -1998,7 +2000,7 @@
         },
         "action->Hellfire Blast": {
           "name": "Hellfire Blast",
-          "description": "<p>The thruneosaurus channels sulfurous hellfire in one of three ways. The thruneosaurus chooses the effect, but it can't make the same choice in two consecutive rounds.</p>\n<ul>\n<li><strong>Blistering Sun</strong> (divine, fire, unholy) The thruneosaurus ignites an orb of hellfire between its horns that radiates heat in a @Template[emanation|distance:30], dealing @Damage[2d8[persistent,fire]] damage.</li>\n<li><strong>Choking Fumes</strong> (divine, poison, unholy) The thruneosaurus exhales a @Template[cone|distance:60] of sulfurous smoke that deals @Damage[6d8[poison]] damage (@Check[fortitude|dc:38|traits:divine,poison,unholy|basic] save). Creatures that fail their saves are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</li>\n<li><strong>Fiery Beam</strong> (divine, fire, unholy) A @Template[line|distance:120] of hellish flame erupts from the thruneosaurus's eyes, dealing @Damage[6d10[fire]] damage (@Check[reflex|dc:38|traits:divine,fire,unholy|basic] save).</li>\n</ul>"
+          "description": "<p>The thruneosaurus channels sulfurous hellfire in one of three ways. The thruneosaurus chooses the effect, but it can't make the same choice in two consecutive rounds.</p>\n<ul>\n<li><strong>Blistering Sun</strong> (divine, fire, unholy) The thruneosaurus ignites an orb of hellfire between its horns that radiates heat in a @Template[emanation|distance:30], dealing @Damage[2d8[persistent,fire]] damage.</li>\n<li><strong>Choking Fumes</strong> (divine, poison, unholy) The thruneosaurus exhales a @Template[cone|distance:60] of sulfurous smoke that deals @Damage[6d8[poison]|options:area-damage] damage (@Check[fortitude|dc:38|traits:divine,poison,unholy|basic|options:area-effect] save). Creatures that fail their saves are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</li>\n<li><strong>Fiery Beam</strong> (divine, fire, unholy) A @Template[line|distance:120] of hellish flame erupts from the thruneosaurus's eyes, dealing @Damage[6d10[fire]|options:area-damage] damage (@Check[reflex|dc:38|traits:divine,fire,unholy|basic|options:area-effect] save).</li>\n</ul>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Huge, @Damage[(3d12+10)[bludgeoning]], Rupture 40</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -2028,7 +2030,7 @@
         },
         "action->Sweeping Tail": {
           "name": "Sweeping Tail",
-          "description": "<p>The titanosaur lashes its tail in a @Template[cone|distance:30]. Creatures in the area take @Damage[8d10[bludgeoning]] damage (@Check[reflex|dc:38|basic] save). The momentum of the titanosaur's swing then makes it @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of its next turn.</p>"
+          "description": "<p>The titanosaur lashes its tail in a @Template[cone|distance:30]. Creatures in the area take @Damage[8d10[bludgeoning]|options:area-damage] damage (@Check[reflex|dc:38|basic|options:area-effect] save). The momentum of the titanosaur's swing then makes it @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of its next turn.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Huge or smaller, foot, @Check[reflex|dc:38|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -2086,7 +2088,7 @@
         },
         "action->Noxious Exhalation": {
           "name": "Noxious Exhalation",
-          "description": "<p>The tyrafdir breathes out a noxious mist from all of its mouths, spreading in a @Template[emanation|distance:20] that deals @Damage[4d10[poison]] damage to creatures within the area (@Check[reflex|dc:24|basic] save). Any creature that fails its save must attempt a @Check[will|dc:24] save or gain weakness to mental 10 and a –1 status penalty to Will saves for 24 hours. The tyrafdir can't use Noxious Exhalation again for [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.G1pvduwOVRz4YFUF]{Effect: Noxious Exhalation}</p>"
+          "description": "<p>The tyrafdir breathes out a noxious mist from all of its mouths, spreading in a @Template[emanation|distance:20] that deals @Damage[4d10[poison]|options:area-damage] damage to creatures within the area (@Check[reflex|dc:24|basic|options:area-effect] save). Any creature that fails its save must attempt a @Check[will|dc:24] save or gain weakness to mental 10 and a –1 status penalty to Will saves for 24 hours. The tyrafdir can't use Noxious Exhalation again for [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 rounds}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.G1pvduwOVRz4YFUF]{Effect: Noxious Exhalation}</p>"
         }
       }
     },
@@ -2105,7 +2107,7 @@
         },
         "action->Focused Reflection": {
           "name": "Focused Reflection",
-          "description": "<p><strong>Requirements</strong> The vibrant pup swarm is in bright light</p>\n<hr />\n<p><strong>Effect</strong> The swarm simultaneously turns to focus the light in an arcing beam, dealing @Damage[(6d12)[fire]] damage to all creatures in a @Template[cone|distance:30] (@Check[reflex|dc:30|basic] save). A creature that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round (or 1 minute on a critical failure). The swarm can't use Focused Reflection again for [[/gmr 1d4 #Recharge Focused Reflection]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Requirements</strong> The vibrant pup swarm is in bright light</p>\n<hr />\n<p><strong>Effect</strong> The swarm simultaneously turns to focus the light in an arcing beam, dealing @Damage[(6d12)[fire]|options:area-damage] damage to all creatures in a @Template[cone|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] save). A creature that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round (or 1 minute on a critical failure). The swarm can't use Focused Reflection again for [[/gmr 1d4 #Recharge Focused Reflection]]{1d4 rounds}.</p>"
         },
         "action->Swarming Bites": {
           "name": "Swarming Bites",
@@ -2193,7 +2195,7 @@
         },
         "action->Erupting Jump": {
           "name": "Erupting Jump",
-          "description": "<p>The warden draws out a stream of lava, then jumps off the solidifying mass as it cools. The warden @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leaps} up to twice their Speed. When they land, the force of the impact deals @Damage[6d12[bludgeoning]] damage to all creatures within a @Template[emanation|distance:15] with a @Check[fortitude|dc:42|basic] save. On a critical failure, the creature is also pushed 10 feet away from the warden.</p>"
+          "description": "<p>The warden draws out a stream of lava, then jumps off the solidifying mass as it cools. The warden @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leaps} up to twice their Speed. When they land, the force of the impact deals @Damage[6d12[bludgeoning]|options:area-damage] damage to all creatures within a @Template[emanation|distance:15] with a @Check[fortitude|dc:42|basic|options:area-effect] save. On a critical failure, the creature is also pushed 10 feet away from the warden.</p>"
         },
         "action->Obsidian Cage": {
           "name": "Obsidian Cage",
@@ -2331,7 +2333,7 @@
         },
         "action->I Am The Tide": {
           "name": "I Am The Tide",
-          "description": "<p>The warden creates three lines of rushing water, each @Template[line|distance:120|width:10]{10 feet wide and 120 feet long}. Creatures in the area take @Damage[18d8[bludgeoning]] damage (@Check[fortitude|dc:45|basic] save). The warden can either push or pull, and all creatures that fail this save move up to 40 feet in the direction chosen. The warden can't use I Am The Tide again for [[/gmr 1d4 #Recharge I Am The Tide]]{1d4 rounds}.</p>"
+          "description": "<p>The warden creates three lines of rushing water, each @Template[line|distance:120|width:10]{10 feet wide and 120 feet long}. Creatures in the area take @Damage[18d8[bludgeoning]|options:area-damage] damage (@Check[fortitude|dc:45|basic|options:area-effect] save). The warden can either push or pull, and all creatures that fail this save move up to 40 feet in the direction chosen. The warden can't use I Am The Tide again for [[/gmr 1d4 #Recharge I Am The Tide]]{1d4 rounds}.</p>"
         },
         "action->What Lurks Beneath": {
           "name": "What Lurks Beneath",
@@ -2392,7 +2394,7 @@
         },
         "action->Tempest Downdrafts": {
           "name": "Tempest Downdrafts",
-          "description": "<p><strong>Trigger</strong> The warden Flies</p>\n<hr />\n<p><strong>Effect</strong> s The warden's flapping wings generate powerful gusts that blow smaller creatures off course. A @Template[emanation|distance:60], centered on the warden, fills with lightning-pierced winds until the beginning of the warden's next turn. Creatures must succeed at a @Check[reflex|dc:42] save to take any move action within the winds; flying creatures use the outcome one degree of success worse than what they roll. Creatures who critically fail are blown 30 feet away from the warden, knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and take @Damage[4d6[electricity]] damage.</p>"
+          "description": "<p><strong>Trigger</strong> The warden Flies</p>\n<hr />\n<p><strong>Effects</strong> The warden's flapping wings generate powerful gusts that blow smaller creatures off course. A @Template[emanation|distance:60], centered on the warden, fills with lightning-pierced winds until the beginning of the warden's next turn. Creatures must succeed at a @Check[reflex|dc:42|options:area-effect,damaging-effect,inflicts:prone] save to take any move action within the winds; flying creatures use the outcome one degree of success worse than what they roll. Creatures who critically fail are blown 30 feet away from the warden, knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and take @Damage[4d6[electricity]|options:area-damage] damage.</p>"
         },
         "lore->Bird Lore": {
           "name": "Bird Lore"
@@ -2417,9 +2419,6 @@
         },
         "strike-melee->Hatchet": {
           "name": "Hatchet"
-        },
-        "strike-melee->Antler": {
-          "name": "Antler"
         },
         "strike-ranged->Hatchet": {
           "name": "Hatchet"
@@ -2463,9 +2462,6 @@
         "strike-melee->Trident": {
           "name": "Trident"
         },
-        "strike-melee->Jaws": {
-          "name": "Jaws"
-        },
         "strike-ranged->Trident": {
           "name": "Trident"
         },
@@ -2486,7 +2482,7 @@
         },
         "action->Fish Fork": {
           "name": "Fish Fork",
-          "description": "<p><strong>Requirements</strong> The wereshark critically hit with a trident Strike on their most recent action this turn</p>\n<hr />\n<p><strong>Effect</strong> The wereshark digs their trident deep within their target, skewering it before taking a massive bite. The target of the Strike becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 18) and takes @Damage[1d4[bleed]] damage, and the wereshark attempts a jaws Strike against it. The wereshark can't use their trident while they have a creature grabbed with it, but they can pull the trident free with a single action that has the manipulate trait.</p>"
+          "description": "<p><strong>Requirements</strong> The wereshark critically hit with a trident Strike on their most recent action this turn</p>\n<hr />\n<p><strong>Effect</strong> The wereshark digs their trident deep within their target, skewering it before taking a massive bite. The target of the Strike becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} ([[/act escape dc=18]]) and takes @Damage[1d4[bleed]] damage, and the wereshark attempts a jaws Strike against it. The wereshark can't use their trident while they have a creature grabbed with it, but they can pull the trident free with a single action that has the manipulate trait.</p>"
         },
         "action->Moon Frenzy": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FA0ri2fAcMa1HgZe]\nMoon Frenzy"

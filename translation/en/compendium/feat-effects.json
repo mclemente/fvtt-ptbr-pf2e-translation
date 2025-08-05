@@ -46,9 +46,26 @@
       "name": "Effect: Aegis for the Innocent",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.oLTAAXumySFUPwND]{Aegis for the Innocent}</p>\n<p>You gain a +1 status bonus to AC.</p>"
     },
+    "Effect: Aesir Blood Magic": {
+      "name": "Effect: Aesir Blood Magic",
+      "description": "<p>Granted by Bloodline: Aesir</p>\n<p>You gain a +2 status bonus to Reflex saving throws.</p>"
+    },
     "Effect: Aldori Parry": {
       "name": "Effect: Aldori Parry",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.NZgjqVV2HYzLCvvA]{Aldori Parry}</p>\n<p>You gain a +2 circumstance bonus to AC.</p>"
+    },
+    "Effect: Aldori Swordlord (Tempory Hit Points)": {
+      "name": "Effect: Aldori Swordlord (Tempory Hit Points)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.BEgz2GnG2MKmmaZX]{Aldori Swordlord}</p>\n<p>You gain temporary Hit Points.</p>"
+    },
+    "Effect: All-Consuming Hunger": {
+      "name": "Effect: All-Consuming Hunger",
+      "badges": [
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.hWzk8C4Kujel050h]{All-Consuming Hunger}</p>\n<p>The emptiness within you is a hunger that pushes at your mind to fill it, causing you to fixate powerfully on a potential source of energy near you.</p>\n<p><strong>Mild Backlash</strong> You glimpse the thrum of energy—the heat of a body, the flickering of synapses, the light of a soul—in a beautiful, captivating dance. You become @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} with one creature you just affected with your deviant ability; if multiple creatures would qualify, the GM chooses. This fascination lasts for 1 minute or until the target uses a hostile action against you or your allies, as normal.</p>\n<p><strong>Moderate Backlash</strong> Your fascination with the target causes you to forget your allies. As mild backlash, but you don't treat anyone as your ally (though they might still treat you as theirs), meaning that the fascination ends only if your target uses a hostile action against you.</p>\n<p><strong>Severe Backlash</strong> Your mind is filled with the single, all-consuming desire to feed upon the target. You become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, except that your target is always the creature affected by your deviant ability, as long as you can perceive them.</p>"
     },
     "Effect: Alloy Flesh and Steel": {
       "name": "Effect: Alloy Flesh and Steel",
@@ -64,7 +81,7 @@
     },
     "Effect: Anadi Venom": {
       "name": "Effect: Anadi Venom",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.8aIe57gXJ94mPpW4]{Anadi Venom}</p>\n<p>If the next fangs Strike you make before the end of your turn hits and deals damage, the Strike deals an additional 1d6 poison damage. On a critical failure, the poison is wasted as normal. At 12th level, this poison damage increases to 2d6.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.8aIe57gXJ94mPpW4]{Anadi Venom}</p>\n<p>Your fangs Strike deals 1d6 poison damage. At 12th level, this poison damage increases to 2d6.</p>"
     },
     "Effect: Ancestral Influence": {
       "name": "Effect: Ancestral Influence",
@@ -104,6 +121,10 @@
       "name": "Effect: Arcane Propulsion",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.YgytD4HGjWNFwiev]{Arcane Propulsion}</p>\n<p>You gain a fly Speed equal to your Speed.</p>"
     },
+    "Effect: Area Armor": {
+      "name": "Effect: Area Armor",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.hzJl9iJzKvPcvZcI]{Area Armor}</p>\n<p>You gain a +1 circumstance bonus to Reflex saves against area effects. If the origin is a master in their armor, the bonus is +2 instead.</p>"
+    },
     "Effect: Armor Tampered With (Critical Success)": {
       "name": "Effect: Armor Tampered With (Critical Success)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.SheifYobjKqyK3Fv]{Tamper}</p>\n<p>You are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and take a -10-foot penalty to your Speeds.</p>"
@@ -111,6 +132,10 @@
     "Effect: Armor Tampered With (Success)": {
       "name": "Effect: Armor Tampered With (Success)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.SheifYobjKqyK3Fv]{Tamper}</p>\n<p>You are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and take a -10-foot penalty to your Speeds.</p>"
+    },
+    "Effect: Armored Courage": {
+      "name": "Effect: Armored Courage",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.eje2BkIpxCrf39E9]{Armored Courage}</p>\n<p>You gain a number of temporary Hit Points equal to your level.</p>"
     },
     "Effect: Ascend": {
       "name": "Effect: Ascend",
@@ -217,6 +242,10 @@
       "name": "Effect: Blade of the Heart",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.GrKurXVdm5lJkE2q]{Blade of the Heart}</p>\n<p>Your transformed weapon gains one of the following weapon property runes on your weapon: corrosive, flaming, frost, shock, thundering, or vitalizing.</p>\n<p>At 16th level, you draw the greater version of the rune instead.</p>"
     },
+    "Effect: Blanket Defense": {
+      "name": "Effect: Blanket Defense",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.wbKzD4D3VHbD6OiL]{Blanket Defense}</p>\n<p>You gain the origin's shield circumstance bonus to AC.</p>"
+    },
     "Effect: Bless Ally": {
       "name": "Effect: Bless Ally",
       "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.scCEnY6IhU59uekX]{Bless Ally}</p>\n<p>You can roll twice and use the higher result for your next Will save.</p>"
@@ -288,6 +317,14 @@
     "Effect: Calculate Threats": {
       "name": "Effect: Calculate Threats",
       "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.Fha8jFmfkOPxAsrZ]{Calculate Threats}.</p>\n<p>You gain a +2 circumstance bonus to AC and Reflex saves until the beginning of your next turn.</p>"
+    },
+    "Effect: Called Shot": {
+      "name": "Effect: Called Shot",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.b7KZ7Fg5u5z2gqvt]{Called Shot}</p>\n<p>You gain an effect based on the selected body part.</p>\n<ul>\n<li><strong>Arm (or another limb used for attacks, such as a tentacle)</strong> You are enfeebled 2.</li>\n<li><strong>Head</strong> You are stupefied 2.</li>\n<li><strong>Legs</strong> You take a –10-foot status penalty to your Speeds.</li>\n</ul>"
+    },
+    "Effect: Called Shot (Critical)": {
+      "name": "Effect: Called Shot (Critical)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.b7KZ7Fg5u5z2gqvt]{Called Shot}</p>\n<p>You gain an effect based on the selected body part.</p>\n<ul>\n<li><strong>Arm (or another limb used for attacks, such as a tentacle)</strong> You are enfeebled 1.</li>\n<li><strong>Head</strong> You are stupefied 1.</li>\n<li><strong>Legs</strong> You take a –5-foot status penalty to your Speeds.</li>\n</ul>"
     },
     "Effect: Can't Fall Here": {
       "name": "Effect: Can't Fall Here",
@@ -374,6 +411,10 @@
       "name": "Effect: Channeling Block",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.75Y1Lk9JE3q1vDA2]{Channeling Block}</p>\n<p>Roll 1d8 for each rank of the @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} or @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} spell, and increase the shield's Hardness by the total for this block.</p>"
     },
+    "Effect: Chaotic Spell": {
+      "name": "Effect: Chaotic Spell",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.5uny1fH9ybbO6ytR]{Chaotic Spell}</p>\n<p>You take a –10-foot penalty to all Speeds.</p>"
+    },
     "Effect: Chosen Ward": {
       "name": "Effect: Chosen Ward",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.kTl67PlYRIOz5ptI]{Chosen Ward}</p>\n<p>While either the origin or their united companion are adjacent to you, you gain a +1 circumstance bonus to your AC and Reflex saves.</p>"
@@ -405,6 +446,10 @@
     "Effect: Command Attention": {
       "name": "Effect: Command Attention",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.N0gJ4Q69nslbdXHg]{Command Attention}</p>\n<p>When you attempt saving throws against visual effects, you use the outcome for one degree of success better than the result you rolled.</p>"
+    },
+    "Effect: Commander's Banner": {
+      "name": "Effect: Commander's Banner",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.8NtRuNYGiU2iTwgL]{Commander's Banner}</p>\n<p>You gain a +1 status bonus to Will saves and DCs against fear effects.</p>"
     },
     "Effect: Conductive Sphere": {
       "name": "Effect: Conductive Sphere",
@@ -629,11 +674,11 @@
     },
     "Effect: Debilitating Bomb": {
       "name": "Effect: Debilitating Bomb",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{Debilitating Bomb}</p>\n<p>You are dazzled, deafened, off-guard, or take a -5 foot status penalty to Speeds.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.sv4LeEbkOJyLen10]{Debilitating Bomb}</p>\n<p>You are dazzled, deafened, off-guard, or take a –5-foot status penalty to Speeds.</p>\n<p>If the origin has Greater Debilitating Bomb, add clumsy 1, enfeebled 1 and stupefied 1 to the list, and the status penalty to Speeds increases to –10.</p>\n<p>If the origin has True Debilitating Bomb, the value of the enfeebled and stupefied conditions increase to 2, and the status penalty to Speeds increases to –15.</p>"
     },
     "Effect: Debilitating Strike": {
       "name": "Effect: Debilitating Strike",
-      "description": "<p>The target has been affected by a rogue's @UUID[Compendium.pf2e.actionspf2e.Item.bp0Up04x3dzGK5bB]{Debilitating Strike}.</p>\n<p><em>Note: this effect only tracks the duration of the debilitation. You need to manually apply the specific penalties the rogue chose to apply.</em></p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.bp0Up04x3dzGK5bB]{Debilitating Strike}</p>\n<p>You take a -10 status penalty to all Speeds.</p>"
     },
     "Effect: Declare Anathema": {
       "name": "Effect: Declare Anathema",
@@ -675,6 +720,10 @@
       "name": "Effect: Demonic Blood Magic",
       "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.w5koctOVrEcpxTIq]{Bloodline: Demonic}</p>\n<p>Either a target takes a -1 status penalty to AC for 1 round, or you gain a +2 status bonus to Intimidation checks.</p>"
     },
+    "Effect: Demoralizing Charge": {
+      "name": "Effect: Demoralizing Charge",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.q1dvlKJI2Kfegc4Y]{Demoralizing Charge}</p>\n<p>You take a circumstance penalty to your Will save.</p>"
+    },
     "Effect: Designate Ally": {
       "name": "Effect: Designate Ally",
       "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.JmCuw6Rhwfwo90ed]{Designate Ally}</p>\n<p>You gain a +2 circumstance bonus to AC and Reflex saving throws.</p>"
@@ -687,13 +736,22 @@
       "name": "Effect: Destined Victory (Note)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Q0A9V0zoY7MMXEqE]{Destined Victory} via Ephemeral Effect</p>"
     },
+    "Effect: Desynchronized Motions": {
+      "name": "Effect: Desynchronized Motions",
+      "badges": [
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.ZhYJhcOeZlh96wFh]{Desynchronized Motions}</p>\n<p>As your body speeds faster and faster, you risk falling out of sync with reality, as the world slows around you to the point that your interactions with it become strange and unpredictable.</p>\n<p><strong>Mild Backlash</strong> The friction of your motion through a slower world sets you alight. You take @Damage[(2+floor(@actor.level/5))d4[persistent,fire]] damage. At 5th level, and every 5 levels after, the persistent fire damage increases by 1d4. You take this persistent fire damage even if in a liquid environment, such as underwater, as your motion simply surrounds you in boiling water.</p>\n<p><strong>Moderate Backlash</strong> You fall out of phase with nearby matter, becoming trapped in the process. You take the mild backlash effects, catching on fire, and your legs also partially phase into the ground, making you @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}. You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your deviation DC, or you can slowly extract yourself without attempting a check over the course of 1 minute.</p>\n<p><strong>Severe Backlash</strong> Your body accelerates to such a degree that your senses and impulses cannot keep up. You become trapped in your own mind for what seems like an eternity, taking 1d4 nonlethal mental damage for each level you have (@Damage[(@actor.level)d4[mental]]). When you return, you are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} for 10 minutes, and then @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until your next daily preparation. Your body ages one year during this time.</p>"
+    },
     "Effect: Deteriorated": {
       "name": "Effect: Deteriorated",
       "description": "<p>Associated with @UUID[Compendium.pf2e.feats-srd.Item.ZR5Buon23cDQ1ryB]{Zombie Dedication}</p>\n<p>You are slowed 1.</p>"
     },
     "Effect: Devise a Stratagem": {
       "name": "Effect: Devise a Stratagem",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.m0f2B7G9eaaTmhFL]{Devise a Stratagem}</p>\n<p>You assess a foe's weaknesses in combat and use them to formulate a plan of attack against your enemy. Choose a creature you can see, and roll a d20. If you Strike the chosen creature later this round, you must use the result of the roll you made to Devise a Stratagem for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent attacks.</p>\n<p>When you make this substitution, you can also add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier, provided your Strike uses an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon (which must be agile or finesse if it's a melee weapon with the thrown trait) or @UUID[Compendium.pf2e.equipment-srd.Item.TLQErnOpM9Luy7rL]{Sap}.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.m0f2B7G9eaaTmhFL]{Devise a Stratagem}</p>\n<p>Choose a creature you can see, and roll a d20. If you Strike the chosen creature, you use the result of the roll you made to Devise a Stratagem for your Strike's attack roll instead of rolling.</p>\n<p>When you make this substitution, you can also add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier, provided your Strike uses an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon (which must be agile or finesse if it's a melee weapon with the thrown trait) or sap.</p>"
     },
     "Effect: Devrin's Cunning Stance": {
       "name": "Effect: Devrin's Cunning Stance",
@@ -710,6 +768,10 @@
     "Effect: Discordant Voice": {
       "name": "Effect: Discordant Voice",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.8JMOgtB3XG7o6ffW]{Discordant Voice}, while you are affected by Inspire Courage.</p>"
+    },
+    "Effect: Dismal Harvest": {
+      "name": "Effect: Dismal Harvest",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.uaUbQsdBIqCvJc2G]{Dismal Harvest}</p>\n<p>You gain temporary Hit Points.</p>"
     },
     "Effect: Disrupting Strikes": {
       "name": "Effect: Disrupting Strikes",
@@ -899,7 +961,7 @@
     },
     "Effect: Enduring Debilitating Strike": {
       "name": "Effect: Enduring Debilitating Strike",
-      "description": "<p>The target has been affected by a rogue's @UUID[Compendium.pf2e.actionspf2e.Item.bp0Up04x3dzGK5bB]{Debilitating Strike} if the rogue also has @UUID[Compendium.pf2e.feats-srd.Item.RzfWrOqHL2GcK0rr]{Enduring Debilitation}.</p>\n<p><em>Note: this effect only tracks the duration of the debilitation. You need to manually apply the specific penalties the rogue chose to apply.</em></p>"
+      "description": "<p>The target has been affected by a rogue's @UUID[Compendium.pf2e.actionspf2e.Item.bp0Up04x3dzGK5bB]{Debilitating Strike} if the rogue also has @UUID[Compendium.pf2e.feats-srd.Item.RzfWrOqHL2GcK0rr]{Enduring Debilitation}.</p>"
     },
     "Effect: Energetic Meltdown": {
       "name": "Effect: Energetic Meltdown",
@@ -1133,6 +1195,10 @@
       ],
       "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.ZYAn8X0IjA6i38qU]{Fungal Rot}</p>\n<p><strong>Mild Backlash</strong> You take damage equal to your level as your body decays.</p>\n<p><strong>Moderate Backlash</strong> You take damage equal to your level and become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Severe Backlash</strong> You take damage equal to twice your level and become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4}. You can't reduce the value of your sickened condition below 1 for 1 hour.</p>"
     },
+    "Effect: Furious Finish": {
+      "name": "Effect: Furious Finish",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.5gnBhockV7O32jTR]{Furious Finish}</p>\n<p>You gain a circumstance bonus to damage equal to the number of rounds remaining in your Rage.</p>"
+    },
     "Effect: Furnace Form": {
       "name": "Effect: Furnace Form",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.6vHkvQv0j56nZuR3]{Furnace Form}</p>\n<p>You gain fire immunity, resistance 10 to precision damage, weakness 5 to cold and to water, and a fly Speed of 40 feet. Any creature that touches you or damages you with an unarmed attack or non-reach melee weapon takes @Damage[3d6[fire]] damage.</p>\n<p>Your unarmed attacks deal 1d4 additional fire damage, and your fire spells deal one additional die of fire damage (of the same damage die the spell uses). Your fire Elemental Blasts deal an additional die of damage.</p>"
@@ -1184,6 +1250,10 @@
     "Effect: Gird Champion (Hierophant)": {
       "name": "Effect: Gird Champion (Hierophant)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.pGIJ6iXyg2CRzQxb]{Gird Champion}</p>\n<p>You treat the origin's favored weapon as a simple weapon for the purposes of proficiency, you gain the critical specialization effect of that weapon and deal 1d6 additional damage with Strikes made with it.</p>"
+    },
+    "Effect: Gladiator Dedication": {
+      "name": "Effect: Gladiator Dedication",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Dm0YMEvSY0qg0jA0]{Gladiator Dedication}</p>\n<p>You gain temporary hit points equal to your level.</p>"
     },
     "Effect: Glimpse Vulnerability": {
       "name": "Effect: Glimpse Vulnerability",
@@ -1309,6 +1379,10 @@
       "name": "Effect: Helpful Tinkering",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.qUSWPWxYF8gfhfHM]{Helpful Tinkering}</p>\n<p>Your strikes with the chosen weapon gain the same offensive boost your inventor ally's innovation has.</p>"
     },
+    "Effect: Helt's Spelldance": {
+      "name": "Effect: Helt's Spelldance",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.9tXGk4h9Bw3Wcnra]{Helt's Spelldance}</p>\n<p>You take a –1 circumstance penalty to your saving throws against any spell the origin casts.</p>"
+    },
     "Effect: Herald's Weapon": {
       "name": "Effect: Herald's Weapon",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.5ELeiNtEDgXfBcwt]{Herald's Weapon}</p>\n<p>Your chosen weapon or unarmed attack deals spirit damage instead of its regular damage, it gains the sanctified trait, and deals an additional 2d4 spirit damage.</p>"
@@ -1414,7 +1488,11 @@
     },
     "Effect: Inertial Barrier": {
       "name": "Effect: Inertial Barrier",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Nm4yeoJVXRy0Wyth]{Inertial Barrier}</p>\n<p>You or one target of the spell gains resistance to physical damage equal to 2 + the spell's rank until the start of your next turn.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Nm4yeoJVXRy0Wyth]{Inertial Barrier}</p>\n<p>You gain resistance to physical damage equal to 2 + the spell's rank.</p>"
+    },
+    "Effect: Inescapable Grasp": {
+      "name": "Effect: Inescapable Grasp",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.UxjAszOYAhUvCDt2]{Inescapable Grasp}</p>\n<p>If you attempt to use a teleportation spell or effect while grabbed, you must succeed at a DC 15 flat check or the spell fails.</p>"
     },
     "Effect: Infused with Belkzen's Might": {
       "name": "Effect: Infused with Belkzen's Might",
@@ -1444,6 +1522,10 @@
       "name": "Effect: Instrument of Death",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.d2InKGKNEdVnPfNf]{Instrument of Death}</p>\n<p>Choose one:</p>\n<ul>\n<li>\n<p>You can't benefit from circumstance or status bonuses.</p>\n</li>\n<li>\n<p>You gain weakness 10 to spirit damage.</p>\n</li>\n</ul>"
     },
+    "Effect: Invented Vulnerability": {
+      "name": "Effect: Invented Vulnerability",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.0bFXHrLuMKcuz9DD]{Invented Vulnerability}</p>\n<p>You gain weakness to the selected damage type.</p>"
+    },
     "Effect: Inventive Offensive": {
       "name": "Effect: Inventive Offensive",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.SrSYEHqOLXWuj65e]{Inventive Offensive}</p>\n<p>When you use this ability, add one of the following weapon traits to a melee weapon you wield: deadly d6, disarm, nonlethal, shove, trip, versatile B, versatile P, or versatile S. You cannot add a trait that the weapon already has. The weapon retains this trait until you a successfully hit and deal damage with the weapon. The weapon retains this trait only while you wield it, and you can have only one weapon modified in this way at any time.</p>\n<p>If you have legendary proficiency in Crafting, you can apply two weapon traits from the list when using this feat.</p>"
@@ -1455,6 +1537,15 @@
     "Effect: Invigorating Surge": {
       "name": "Effect: Invigorating Surge",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.mMboqxWsQmwUTQ6m]{Invigorating Surge}</p>\n<p>You gain temporary Hit Points.</p>"
+    },
+    "Effect: Invincible Army": {
+      "name": "Effect: Invincible Army",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.2zxF682cNhgLMu26]{Invincible Army}</p>\n<p>You gain resistance 5 to bludgeoning, piercing, or slashing damage if the check was against the hard DC. if the check is against a very hard DC, then you gain resistance to two damage types, adding acid, fire, cold, electricity, and sonic to the damage types.</p>",
+      "rules": {
+        "0": {
+          "prompt": "Select an adjustment"
+        }
+      }
     },
     "Effect: Invoke Defense": {
       "name": "Effect: Invoke Defense",
@@ -1471,6 +1562,10 @@
     "Effect: Juvenile Flight": {
       "name": "Effect: Juvenile Flight",
       "description": "<p>You gain a fly Speed equal to your land Speed while your wings are unfurled.</p>\n<p>If you have @UUID[Compendium.pf2e.feats-srd.Item.UuVz1QY7QXD5cnLu]{Fledgling Flight}, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one.</p>"
+    },
+    "Effect: Keep Up the Good Fight": {
+      "name": "Effect: Keep Up the Good Fight",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.DYayudEG8sZRB3Ot]{Keep Up the Good Fight}</p>\n<p>You gain temporary Hit Points equal to your level.</p>"
     },
     "Effect: Kindle Inner Flames": {
       "name": "Effect: Kindle Inner Flames",
@@ -1492,9 +1587,9 @@
       "name": "Effect: Kneecap",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.1muxLx8Vacn2SLHc]{Kneecap}</p>\n<p>The target takes a status penalty to its Speed.</p>"
     },
-    "Effect: Known Weakness": {
-      "name": "Effect: Known Weakness",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.iWvpq3uDZcXvBJj8]{Known Weaknesses}.</p>\n<p>Your ally gains a +1 circumstance bonus to their next attack roll against the subject of known weakness, as long as their attack is made before the beginning of your next turn.</p>"
+    "Effect: Known Weaknesses": {
+      "name": "Effect: Known Weaknesses",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.iWvpq3uDZcXvBJj8]{Known Weaknesses}.</p>\n<p>You gain a +1 circumstance bonus to your next attack roll against the marked creature.</p>"
     },
     "Effect: Lantern": {
       "name": "Effect: Lantern",
@@ -1544,6 +1639,14 @@
     "Effect: Lepidstadt Surgeon Dedication (Stop Bleeding)": {
       "name": "Effect: Lepidstadt Surgeon Dedication (Stop Bleeding)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.8KxcNpQhmUOj3vuV]{Lepidstadt Surgeon Dedication}</p>\n<p>You roll your flat check to recover from persistent bleed damage twice and take the better result.</p>"
+    },
+    "Effect: Lesson of the Broken Wing": {
+      "name": "Effect: Lesson of the Broken Wing",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.CyvXimmSlpbOlBhX]{Lesson of the Broken Wing}</p>\n<p>If you're the origin, you take a –1 penalty to your AC against the marked creature's Strikes. Otherwise, you gain a +1 circumstance bonus to your Strikes against the creature.</p>"
+    },
+    "Effect: Lesson of the Splintered Aegis": {
+      "name": "Effect: Lesson of the Splintered Aegis",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Ry8NYQwxPagKnLKW]{Lesson of the Splintered Aegis}</p>\n<p>You can roll your next Strike or spell attack roll against the target twice and take the better result.</p>"
     },
     "Effect: Liberating Step (vs. Aberration)": {
       "name": "Effect: Liberating Step (vs. Aberration)",
@@ -1732,6 +1835,10 @@
       "name": "Effect: Mirrored Aegis",
       "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.lJAQPRT2t8IABR4v]{Mirrored Aegis}</p>\n<p>You gain a +1 status bonus to AC.</p>"
     },
+    "Effect: Mirrored Wall": {
+      "name": "Effect: Mirrored Wall",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.EKEZGfOBKTNWTFDe]{Mirrored Wall}</p>\n<p>You take a circumstance penalty to your Fortitude save.</p>"
+    },
     "Effect: Moisture Bath": {
       "name": "Effect: Moisture Bath",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.IwETJ7fhszmlNo7X]{Moisture Bath}</p>\n<p>You gain fire and cold resistance equal to half your level.</p>"
@@ -1766,6 +1873,10 @@
       "name": "Effect: Mountain Stronghold",
       "description": "<p>You focus on your connection to the earth and call upon the mountain to block attacks against you. You gain a +2 circumstance bonus to AC until the beginning of your next turn.</p>"
     },
+    "Effect: Mountaineering Training": {
+      "name": "Effect: Mountaineering Training",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.bAXkEXAlnBx78S7t]{Mountaineering Training}</p>\n<p>You gain a climb Speed of 20 feet.</p>"
+    },
     "Effect: Multifaceted Will": {
       "name": "Effect: Multifaceted Will",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.LBfLDfLnCFn1iy5h]{Multifaceted Will}</p>\n<p>You gain a +1 status bonus to saves against spells with the chosen tradition trait.</p>"
@@ -1793,6 +1904,10 @@
     "Effect: Nanite Surge (Bonus)": {
       "name": "Effect: Nanite Surge (Bonus)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.JS24EjgLYcHB9E3T]{Nanite Surge}.</p>\n<p>You gain a +2 status bonus to the triggering skill check.</p>"
+    },
+    "Effect: Naval Training": {
+      "name": "Effect: Naval Training",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.zuTNF3UEr0ZNleqR]{Naval Training}</p>\n<p>You gain a swim Speed of 20 feet.</p>"
     },
     "Effect: Nothing Personal": {
       "name": "Effect: Nothing Personal",
@@ -1850,6 +1965,10 @@
       "name": "Effect: Orchard's Endurance",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.cbEodcnBKzx5ii3B]{Orchard's Endurance}</p>\n<p>You gain resistance to bludgeoning and piercing damage. In addition, you roll flat checks to recover from persistent damage twice and take the higher result; this is a fortune effect.</p>"
     },
+    "Effect: Overclock Senses": {
+      "name": "Effect: Overclock Senses",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.xCi23uEFef9jhtlM]{Overclock Senses}</p>\n<p>You gain a +2 circumstance bonus to your AC against ranged attacks and to Reflex saving throws.</p>"
+    },
     "Effect: Overdrive": {
       "name": "Effect: Overdrive",
       "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.3D9kGfwg4LUZBR9A]{Overdrive}</p>\n<p>Your Strikes deal additional damage equal to your Intelligence modifier on a critical success, or half your Intelligence modifier on a success. On a failure, your Strikes deal 1 additional fire damage instead.</p>"
@@ -1865,6 +1984,10 @@
     "Effect: Overextending Feint": {
       "name": "Effect: Overextending Feint",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.9CaaU5szcf3mtJXD]{Overextending Feint}</p>\n<p>You take a –2 circumstance penalty to attack rolls against the opponent.</p>"
+    },
+    "Effect: Oversized Throw": {
+      "name": "Effect: Oversized Throw",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.tIE2umG4rQOxm8D8]{Oversized Throw}</p>\n<p>You gain a ranged Strike. It is a simple ranged weapon that deals 1d10 bludgeoning damage, has a range increment of 20 feet, and has the thrown weapon trait. The damage increases to 2d10 bludgeoning damage if you have weapon specialization in simple weapons, or 3d10 bludgeoning if you have greater weapon specialization.</p>"
     },
     "Effect: Overwatch Field": {
       "name": "Effect: Overwatch Field",
@@ -1894,6 +2017,18 @@
       "name": "Effect: Path of the Tempest",
       "description": "<p>Granted by @UUID[Compendium.pf2e.familiar-abilities.Item.O0XJIvMGK36yg9TJ]{Path of the Tempest}</p>\n<p>Your familiar summons winds that speed up and protect you. You gain a +10-foot status bonus to your Speed until the end of your turn. When you Stride this turn, you don't trigger reactions. In addition, you don't need to Stride before a @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} this turn.</p>"
     },
+    "Effect: Perfect Protection": {
+      "name": "Effect: Perfect Protection",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.oYzkopbXguiwfNTx]{Perfect Protection}</p>\n<p>When you critically hit the origin, they roll a DC 14 flat check. On a success, it becomes a normal hit. If the origin's armor has a fortification rune, they roll only one flat check, but the DC is 12 (or 10 if it's a greater fortification rune).</p>",
+      "rules": {
+        "1": {
+          "text": "@Localize[PF2E.SpecificRule.FortificationLikeEffect.Twelve]\n@Localize[PF2E.SpecificRule.FortificationLikeEffect.Fortification]"
+        },
+        "2": {
+          "text": "@Localize[PF2E.SpecificRule.FortificationLikeEffect.Ten]\n@Localize[PF2E.SpecificRule.FortificationLikeEffect.Fortification]"
+        }
+      }
+    },
     "Effect: Perfect Resistance": {
       "name": "Effect: Perfect Resistance",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.QN55ToyJIjxgPmhs]{Perfect Resistance}</p>\n<p>After using a Student of Perfection ki spell, the resistance increases to be equal to your level for 1 round.</p>"
@@ -1917,6 +2052,26 @@
     "Effect: Pistolero's Challenge": {
       "name": "Effect: Pistolero's Challenge",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.yOyMlFGAgLfRas8m]{Pistolero's Challenge}</p>\n<p>Both you and the opponent gain a +2 status bonus to damage rolls with Strikes made against each other. If you're a master in the skill you used for the check, the status bonus to damage rolls increases to +3, and if you're legendary, it increases to +4.</p>"
+    },
+    "Effect: Plant Banner": {
+      "name": "Effect: Plant Banner",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.xEeCaJsQeDtRAVk1]{Plant Banner}</p>\n<p>You gain 4 temporary Hit Points, plus an additional 4 temporary Hit Points if the origin is 4th level and every 4 levels thereafter.</p>"
+    },
+    "Effect: Play to the Crowd (AC Bonus)": {
+      "name": "Effect: Play to the Crowd (AC Bonus)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.KrYvJ5n06yHCipCZ]{Play to the Crowd}</p>\n<p>You gain a +1 circumstance bonus to AC.</p>"
+    },
+    "Effect: Play to the Crowd (Attack Roll Bonus)": {
+      "name": "Effect: Play to the Crowd (Attack Roll Bonus)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.KrYvJ5n06yHCipCZ]{Play to the Crowd}</p>\n<p>You gain a +1 circumstance bonus to your next attack roll.</p>"
+    },
+    "Effect: Play to the Crowd (Temporary Hit Points)": {
+      "name": "Effect: Play to the Crowd (Temporary Hit Points)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.KrYvJ5n06yHCipCZ]{Play to the Crowd}</p>\n<p>You gain temporary Hit Points equal to your character level.</p>"
+    },
+    "Effect: Pointed Question": {
+      "name": "Effect: Pointed Question",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.xccOiNL2W1EtfUYl]{Pointed Question}</p>\n<p>You gain a circumstance bonus to your Perception DC if the marked creature attempts to Lie to you, and the marked creature is off-guard to the Strike you make against it using Devise a Stratagem.</p>"
     },
     "Effect: Poison Weapon": {
       "name": "Effect: Poison Weapon",
@@ -2006,7 +2161,7 @@
     },
     "Effect: Psi Strikes": {
       "name": "Effect: Psi Strikes",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.uisI6b7Ua5zSHDwj]{Psi Strikes}</p>\n<p>The attack deals an extra 1d6 force damage.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.uisI6b7Ua5zSHDwj]{Psi Strikes}</p>\n<p>Your chosen attack deals an extra 1d6 force damage.</p>"
     },
     "Effect: Psychic Rapport": {
       "name": "Effect: Psychic Rapport",
@@ -2122,7 +2277,7 @@
     },
     "Effect: Resounding Bravery": {
       "name": "Effect: Resounding Bravery",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.dTO1ShJovbzrKUY4]{Resounding Bravery}</p>\n<p>You gain a +1 status bonus to saves and a number of temporary Hit Points equal to half your level. On a Critical Success, you gain a +2 status bonus to saves and a number of temporary Hit Points equal to your level.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.dTO1ShJovbzrKUY4]{Resounding Bravery}</p>\n<p>You gain a +1 status bonus to saves and a number of temporary Hit Points equal to half your level. These benefits are doubled if you critically succeed against a fear effect.</p>"
     },
     "Effect: Resounding Finale": {
       "name": "Effect: Resounding Finale",
@@ -2171,6 +2326,10 @@
     "Effect: Sanctify Armament": {
       "name": "Effect: Sanctify Armament",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.xtXWw3cUnVB25XSV]{Sanctify Armament}</p>\n<p>The weapon gains your holy or unholy trait. It also deals an additional 2d6 spirit damage to creatures of the opposed trait.</p>"
+    },
+    "Effect: Sanguine Revitalization": {
+      "name": "Effect: Sanguine Revitalization",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.ZI7TLmmUu7fYLrP0]{Sanguine Revitalization}</p>\n<p>You take a circumstance penalty to your Fortitude save.</p>"
     },
     "Effect: Saoc Astrology": {
       "name": "Effect: Saoc Astrology",
@@ -2229,6 +2388,10 @@
       "name": "Effect: Shared Clarity",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.ybrx1nsg5J0L8d3j]{Shared Clarity}</p>\n<p>You can reroll the failed saving throw against the mental effect with a +2 circumstance bonus.</p>"
     },
+    "Effect: Shared Sight": {
+      "name": "Effect: Shared Sight",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.vFa9crHKkNkPUjFl]{Shared Sight}</p>\n<p>You gain spiritsense.</p>"
+    },
     "Effect: Shattershields": {
       "name": "Effect: Shattershields",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.QOnyOjncnw4tkTQp]{Shattershields}</p>\n<p>You gain a +1 circumstance bonus to AC.</p>"
@@ -2244,6 +2407,18 @@
     "Effect: Shield Ally": {
       "name": "Effect: Shield Ally",
       "description": "<p>The hardness of your equipped shield increases by 2.</p>"
+    },
+    "Effect: Shield Paragon Benefit": {
+      "name": "Effect: Shield Paragon Benefit",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.Swy3rjQsdO0wu2kU]{Paragon Benefit (Shield)}</p>\n<p>You gain the origin's shield circumstance bonus to AC.</p>"
+    },
+    "Effect: Shield Your Eyes": {
+      "name": "Effect: Shield Your Eyes",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.3SiZ4hrNi8aWjP8J]{Shield Your Eyes}</p>\n<p>If you critically succeed against the origin's DC with a light or visual trait, it's a success instead.</p>"
+    },
+    "Effect: Shield from Arrows": {
+      "name": "Effect: Shield from Arrows",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.wzJnJI6d2PaoTZIZ]{Shield from Arrows}</p>\n<p>You gain a +4 circumstance bonus to AC.</p>"
     },
     "Effect: Shield of Faith": {
       "name": "Effect: Shield of Faith",
@@ -2352,11 +2527,15 @@
     },
     "Effect: Spirit Guide Form": {
       "name": "Effect: Spirit Guide Form",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.WKRSBu7H9miAwUaR]{Spirit Guide Form}</p>\n<p>You fuse with your spirit guide, becoming a hybrid being with enhanced physical and spiritual power. This effect lasts 1 minute; you can end it early as a free action. During this time, you can't use any other actions granted by this archetype. You gain the following statistics and abilities, regardless of your type of spirit guide.</p>\n<ul>\n<li>You become incorporeal.</li>\n<li>You gain resistance 10 to all damage (except force, ghost touch, or vitality; double resistance vs. non-magical).</li>\n<li>Darkvision.</li>\n<li>An unarmed melee attack of the same type as your spirit guide (either claws or jaws), which is the only attack you can Strike with. You're trained with this attack. Your attack modifier is +29 or your normal unarmed attack modifier, whichever is higher. You use the listed statistics for the unarmed attack type:\n<ul>\n<li><strong>Claws</strong> (agile, backstabber, finesse) <span class=\"action-glyph\">1</span>, <strong>Damage</strong> 3d6+5 slashing plus 1d6 force;</li>\n<li><strong>Jaws</strong> (forceful) <span class=\"action-glyph\">1</span>, <strong>Damage</strong> 3d10+5 piercing plus 1d6 force.</li>\n</ul>\n</li>\n</ul>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.WKRSBu7H9miAwUaR]{Spirit Guide Form}</p>\n<p>You fuse with your spirit guide, becoming a hybrid being with enhanced physical and spiritual power. This effect lasts 1 minute; you can end it early as a free action. During this time, you can't use any other actions granted by this archetype. You gain the following statistics and abilities, regardless of your type of spirit guide.</p>\n<ul>\n<li>You become incorporeal.</li>\n<li>You gain resistance 10 to all damage (except force, <em>ghost touch</em>, or spirit; double resistance vs. non-magical).</li>\n<li>Darkvision.</li>\n<li>\n<p>An unarmed melee attack of the same type as your spirit guide (either claws or jaws), which is the only attack you can Strike with. You're trained with this attack. Your attack modifier is +29 or your normal unarmed attack modifier, whichever is higher. You use the listed statistics for the unarmed attack type:</p>\n<ul>\n<li><strong>Claws</strong> (agile, backstabber, finesse) <span class=\"action-glyph\">1</span>, <strong>Damage</strong> 3d6+5 slashing plus 1d6 force;</li>\n<li><strong>Jaws</strong> (forceful) <span class=\"action-glyph\">1</span>, <strong>Damage</strong> 3d10+5 piercing plus 1d6 force.</li>\n</ul>\n</li>\n</ul>"
     },
     "Effect: Spirit's Mercy": {
       "name": "Effect: Spirit's Mercy",
       "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.SPtzUNatWJvTK61y]{Spirit's Mercy}</p>\n<p>You gain resistance to vitality and void damage (or resistance to all damage if caused by a haunt or incorporeal undead) against the triggering effect. If you expend a spirit wisp, the resistance is equal to twice your level. If you expend a spirit remnant, the resistance is equal to three times the level of the incorporeal undead or haunt from which you gained the remnant.</p>"
+    },
+    "Effect: Spirits' Interference": {
+      "name": "Effect: Spirits' Interference",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.hjApw8AvYVuqQk2W]{Spirits' Interference} via Ephemeral Effect.</p>\n<p>You must succeed at a DC 5 flat check or your attack against the origin misses with no effect.</p>"
     },
     "Effect: Staggering Fire": {
       "name": "Effect: Staggering Fire",
@@ -2392,7 +2571,7 @@
     },
     "Effect: Strain Mind": {
       "name": "Effect: Strain Mind",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.u8YnTCS2EGoJl90W]{Strain Mind}</p>\n<p>You add an amp that costs 1 Focus Point to the spell. Instead of paying the normal Focus Point cost, you lose Hit Points equal to four times the spell rank of the amped psi cantrip as you bleed from your nose or suffer some other visible sign of strain.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.u8YnTCS2EGoJl90W]{Strain Mind}</p>\n<p>You lose Hit Points equal to four times the spell rank of the amped psi cantrip.</p>"
     },
     "Effect: Strained Metabolism": {
       "name": "Effect: Strained Metabolism",
@@ -2435,6 +2614,10 @@
       "name": "Effect: Sword Practice",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.AmFv3ClkAVRowHLI]{Tengu Weapon Familiarity}</p>\n<p>During your daily preparations, you can practice with a weapon from the sword group that's in your possession. You gain familiarity with that weapon as well. This lasts until you practice with a different sword in the same way.</p>"
     },
+    "Effect: Sympathetic Strike": {
+      "name": "Effect: Sympathetic Strike",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.VOgAiCqC5kpIpLaf]{Sympathetic Strike}</p>\n<p>You take –1 circumstance penalty to your saves against the origin's hexes, or a –2 penalty if the triggering Strike was a critical hit.</p>"
+    },
     "Effect: Tactical Debilitations (No Flanking)": {
       "name": "Effect: Tactical Debilitations (No Flanking)",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Xdmz09kzLjIxWz9C]{Tactical Debilitations}</p>\n<p>The target can't flank or contribute to allies' flanking.</p>"
@@ -2446,6 +2629,18 @@
     "Effect: Tap the Past": {
       "name": "Effect: Tap the Past",
       "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.jsEBrm8SPcsokJLw]{Tap the Past}</p>\n<p>You roll a second time and use the higher result. If you roll a critical failure, you get a failure instead. If you roll a success, you get a critical success instead.</p>"
+    },
+    "Effect: Targeting Finisher": {
+      "name": "Effect: Targeting Finisher",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.DLkMoVb8qb4qxnx3]{Targeting Finisher}</p>\n<p>You gain an effect based on the selected body part.</p>\n<ul>\n<li><strong>Arm (or another limb used for attacks, such as a tentacle)</strong> You are enfeebled 2.</li>\n<li><strong>Head</strong> You are stupefied 2.</li>\n<li><strong>Legs</strong> You take a –10-foot status penalty to your Speeds.</li>\n</ul>"
+    },
+    "Effect: Targeting Finisher (Critical)": {
+      "name": "Effect: Targeting Finisher (Critical)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.DLkMoVb8qb4qxnx3]{Targeting Finisher}</p>\n<p>You gain an effect based on the selected body part.</p>\n<ul>\n<li><strong>Arm (or another limb used for attacks, such as a tentacle)</strong> You are enfeebled 1.</li>\n<li><strong>Head</strong> You are stupefied 1.</li>\n<li><strong>Legs</strong> You take a –5-foot status penalty to your Speeds.</li>\n</ul>"
+    },
+    "Effect: Taunt": {
+      "name": "Effect: Taunt",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.4DYFJ4TUsNkgFBDb]{Taunt}</p>\n<p>You take a –1 circumstance penalty to attack rolls and DCs that don't target the origin. If you take a hostile action that doesn't target the origin, you also become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>"
     },
     "Effect: Terrain Attunement (Aquatic)": {
       "name": "Effect: Terrain Attunement (Aquatic)",
@@ -2483,9 +2678,17 @@
       "name": "Effect: The Bigger They Are",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.azF1RvMTwCPaJr1F]{The Bigger They Are}</p>\n<p>You gain weakness to the origin's precision damage.</p>"
     },
+    "Effect: The Bigger They Are (Commander)": {
+      "name": "Effect: The Bigger They Are (Commander)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.Czcdh3pPzQ7y1cV7]{The Bigger They Are}</p>\n<p>You gain a circumstance bonus to your check to Reposition, Shove, or Trip.</p>"
+    },
     "Effect: The Proud": {
       "name": "Effect: The Proud",
       "description": "<p>Granted by @UUID[Compendium.pf2e.classfeatures.Item.GF9uIGA947DiC2dR]{The Proud}</p>\n<p>You take a –1 status penalty to attack rolls, damage rolls, and skill checks against creatures other than the exemplar, and a +1 status bonus to these rolls when targeting the exemplar.</p>"
+    },
+    "Effect: The Truth As I See It": {
+      "name": "Effect: The Truth As I See It",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.KobkrExhlNeFaNR5]{The Truth As I See It}</p>\n<p>When using Deception to Lie, you can roll twice and take the better result.</p>"
     },
     "Effect: Thermal Nimbus": {
       "name": "Effect: Thermal Nimbus",
@@ -2493,7 +2696,7 @@
     },
     "Effect: Thoughtform Summoning": {
       "name": "Effect: Thoughtform Summoning",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.pqVG9mRKcXg5Rsjc]{Thoughtform Summoning}</p>\n<p>You gain resistance to physical damage equal to half its level and weakness 5 to force and mental damage.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.pqVG9mRKcXg5Rsjc]{Thoughtform Summoning}</p>\n<p>You gain resistance to physical damage equal to half your level and weakness 5 to force and mental damage.</p>"
     },
     "Effect: Tidal Shield": {
       "name": "Effect: Tidal Shield",
@@ -2522,6 +2725,10 @@
     "Effect: Topple Giants": {
       "name": "Effect: Topple Giants",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.RHEdvEFz3QKiRKlr]{Topple Giants}</p>\n<p>When an ally within your overwatch field attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} an opponent within your overwatch field and fails, you coordinate efforts to provide a +2 circumstance bonus to the next Athletics check rolled by a different ally to attempt the same action on the same target before that target's next turn.</p>"
+    },
+    "Effect: Tough Cookie": {
+      "name": "Effect: Tough Cookie",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.RNBr91uB7lX9DldN]{Tough Cookie}</p>\n<p>You gain a number of temporary Hit Points equal to half your maximum Hit Points that last for 1 minute.</p>"
     },
     "Effect: Towering Presence": {
       "name": "Effect: Towering Presence",
@@ -2746,7 +2953,7 @@
     },
     "Stance: Assume Earth's Mantle": {
       "name": "Stance: Assume Earth's Mantle",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.vV0nW9OIJ0VdeVjy]{Assume Earth's Mantle}</p>\n<ul>\n<li>You become Large if you were smaller. This increases your reach by 5 feet (or by 10 feet if you started out Tiny).</li>\n<li>You gain a climb Speed equal to your land Speed, but you can use it only to climb surfaces of earthen matter.</li>\n<li>The armor grants you a +1 circumstance bonus to your Fortitude saves and a +2 circumstance bonus to your Fortitude or Reflex DCs against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} you, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} you, or knock you @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</li>\n<li>If your Strength is below +4, this armor raises your Strength to +4. If your Strength is +4 or higher, this armor grants you a +1 item bonus to your Strength.</li>\n<li>If you have the Armor in Earth impulse, you can add its effects to Assume Earth's Mantle.</li>\n</ul>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.vV0nW9OIJ0VdeVjy]{Assume Earth's Mantle}</p>\n<ul>\n<li>You become Large if you were smaller. This increases your reach by 5 feet (or by 10 feet if you started out Tiny).</li>\n<li>You gain a climb Speed equal to your land Speed, but you can use it only to climb surfaces of earthen matter.</li>\n<li>You gain a +1 circumstance bonus to your Fortitude saves and a +2 circumstance bonus to your Fortitude or Reflex DCs against attempts to Shove you, Trip you, or knock you Prone.</li>\n<li>If your Strength is below +4, this armor raises your Strength to +4. If your Strength is +4 or higher, this armor grants you a +1 item bonus to your Strength.</li>\n</ul>"
     },
     "Stance: Buckler Dance": {
       "name": "Stance: Buckler Dance",
@@ -2830,6 +3037,10 @@
         }
       }
     },
+    "Stance: Duelist's Form": {
+      "name": "Stance: Duelist's Form",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.MXn2g1OrOOr2qqpJ]{Duelist's Form}</p>\n<p>You are Quickened while in this stance.You can use this extra action only to Step or use a single-action activity gained from the Aldori duelist archetype. If you use your free hand for anything, this stance ends. When this stance ends, you become fatigued until you rest for at least 10 minutes.</p>"
+    },
     "Stance: Everstand Stance": {
       "name": "Stance: Everstand Stance",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.6GN1zh3RcnZhrzxP]{Everstand Stance}</p>\n<p>You wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield's boss or spikes by one step, and increase the shield's Hardness by 2 when using the Shield Block reaction.</p>"
@@ -2890,6 +3101,10 @@
     "Stance: Jellyfish Stance": {
       "name": "Stance: Jellyfish Stance",
       "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.Jwq5o13uZF3ooln1]{Jellyfish Stance}</p>\n<p>You can make stinging lash attacks that deal 1d6 slashing damage. These attacks are in the brawling group, and have the finesse, nonlethal, reach, and unarmed traits.</p>\n<p>You gain a +2 circumstance bonus to Reflex saves and on checks to Escape and Squeeze.</p>"
+    },
+    "Stance: Jotun's Battle Stance": {
+      "name": "Stance: Jotun's Battle Stance",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.ein1K7P51cs3Qusw]{Jotun's Battle Stance}</p>\n<p>When you wield a melee weapon that requires two hands and doesn't have reach, the weapon gains a reach of 10 feet.</p>"
     },
     "Stance: Kaiju Stance": {
       "name": "Stance: Kaiju Stance",
