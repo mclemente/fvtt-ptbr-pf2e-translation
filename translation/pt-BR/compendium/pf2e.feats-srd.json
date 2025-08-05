@@ -568,6 +568,20 @@
         }
       ]
     },
+    "Aldori Swordlord": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
+    "Aldori's Retort": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
     "Alkenstar Agent Dedication": {
       "description": "<p><strong>Access</strong> You have been initiated by the grand duchess of Alkenstar or one of her agents.</p>\n<hr />\n<p>You put on the persona of a rough and tumble outlaw, but your real goals are to report threats to Alkenstar back to the grand duchess. You become an expert in Deception and trained in your choice of Underworld Lore or Legal Lore; if you were already trained, you become an expert instead. You gain the @UUID[Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.ttkG4geKXTao5pku]{Alkenstar Agent} archetype.</p>"
     },
@@ -800,6 +814,13 @@
     },
     "Aquatic Eyes": {
       "description": "<p>As your connection to water grows, you can see more easily in places with less light, such as the depths of the ocean. You gain @UUID[Compendium.pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision.</p>\n<hr />\n<p><strong>Special</strong> If your ancestry has neither low-light vision nor darkvision, you can take this ancestry feat a second time to gain darkvision. You can't retrain out of this feat.</p>"
+    },
+    "Arcana of Iron": {
+      "prerequisites": {
+        "1": {
+          "value": "Golpeia Bespells"
+        }
+      }
     },
     "Arcane Breadth": {
       "name": "Amplitude Arcana",
@@ -1541,6 +1562,13 @@
       "name": "Prece de Batalha",
       "description": "<p> <strong>Pré-requisitos</strong> mestre em Religião, você segue uma divindade </span></p> <hr> <p>Chamando a sua divindade, você recita as escrituras para prejudicar um inimigo. Quando você selecionar esse talento, escolha <a href=\"https://2e.aonprd.com/Traits.aspx?ID=25\">caos</a>, <a href=\"https://2e.aonprd.com/Traits.aspx?ID=64\">maligno</a>, <a href=\"https://2e.aonprd.com/Traits.aspx?ID=83\">bondoso</a>, ou <a href=\"https://2e.aonprd.com/Traits.aspx?ID=99\">leal</a>. Sua escolha deve corresponder a um dos componentes de alinhamento de sua divindade. Esta ação tem o traço correspondente ao alinhamento escolhido.  Faça um teste de <a href=\"https://2e.aonprd.com/Skills.aspx?ID=13\">Religião</a> contra a CD de vontade de um inimigo a 9 metros. O inimigo fica temporariamente imune às Preces de Batalha da sua divindade por 1 dia.  <strong>Sucesso Crítico</strong> Você causa 2d6 de dano do tipo de alinhamento escolhido ou 6d6 de dano se tiver proficiência lendária em Religião. <strong>Sucesso</strong> Você causa 1d6 de dano do tipo de alinhamento escolhido ou 3d6 se tiver proficiência lendária em Religião. <strong>Falha</strong> Não tem efeito. <strong>Falha Crítica</strong> A reação da vontade de seu inimigo contra sua prece impede que você use a Prece de Batalha novamente por 10 minutos.</p> (Tradução não oficial - Gods and Magic)"
     },
+    "Battlefield Arcana": {
+      "prerequisites": [
+        {
+          "value": "Conjuração Consistente"
+        }
+      ]
+    },
     "Battleforger": {
       "name": "Forjador de Batalha",
       "description": "<p> <strong>Pré-requisitos</strong> mestre em Manufatura </span></p> <hr> <p>Você pode afiar armas, polir armaduras e aplicar técnicas especiais para obter temporariamente melhores efeitos de seus armamentos. Ao passar 1 hora trabalhando em uma arma ou armadura, você pode conceder os efeitos de uma runa de <em>potência +1 </em> até seus próximos preparativos diários, ganhando um bônus de item +1 nas jogadas de ataque de uma arma ou aumentando em 1 o bônus de item da armadura em CA. Isso não tem efeito se a arma ou armadura já tiver uma runa de <em>potência</em>.</p> (Tradução não oficial - Lost Omens: Character Guide)"
@@ -2039,6 +2067,13 @@
       "name": "Expansão de Truque Mágico",
       "description": "<p><strong>Bardo, Oráculo, Feiticeiro</strong> O estudo amplia sua gama de magias simples.</p>\n<p><strong>Clérigo</strong> Você estuda uma gama mais ampla de magias simples.</p>\n<p><strong>Mago, Mago</strong> O estudo dedicado permite que você prepare uma gama mais ampla de magias simples para cada situação.</p>\n<p><strong>Psiônico</strong> Você expande o que sua mente pode realizar.</p>\n<p><strong>Bruxo</strong> Seu patrono reconhece sua necessidade de flexibilidade e versatilidade, e concede a você o poder de preparar uma gama mais ampla de magias simples.</p>\n<hr />\n<p><strong>Preparado</strong> Você pode preparar dois truques mágicos adicionais todos os dias.</p>\n<p><strong>Espontâneo</strong> Adicione dois truques mágicos adicionais de sua lista de magias ao seu repertório.</p>"
     },
+    "Captain Dedication": {
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
+    },
     "Captivating Curiosity": {
       "description": "<p>You can snare the attentions of onlookers with your unique appearance. You can cast <em>@UUID[Compendium.pf2e.spells-srd.IihxWhRfpsBgQ5jS]{Enthrall}</em> as a 3rd-level occult innate spell once per day.</p>"
     },
@@ -2511,6 +2546,13 @@
       "name": "Comandar Mortos-Vivos",
       "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna</p> <hr> <p>Você prende a força interna que anima um morto-vivo e o faz curvar-se à sua vontade. Se a sua próxima ação for conjurar @Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Ferir} mirando um morto-vivo, você altera os efeitos da magia Ferir. Em vez dos efeitos normais de ferir, o alvo fica controlado por você se o nível dele for igual ou menor ao seu nível – 3. Ele pode tentar uma jogada de salvamento de Vontade para resistir a ser controlado por você. Se o alvo já estiver sob o controle de outra criatura, essa outra criatura também rola uma jogada de salvamento, e o morto-vivo usa o melhor resultado.</p> <p><strong>Successo Crítico</strong> O alvo não é afetado e fica temporariamente imune a esse efeito por 24 horas..</p> <p><strong>Successo</strong> O alvo não é afetado.</p> <p><strong>Falha</strong> O morto-vivo se torna um lacaio sob seu controle. A magia recebe uma duração de 1 minuto, mas é dispensada se você ou um aliado atacar o morto-vivo lacaio..</p> <p><strong>Falha Crítica</strong> Como falha, mas a duração é de 1 hora.</p>"
     },
+    "Commander Dedication": {
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
+    },
     "Communal Crafting": {
       "name": "Manufatura Comunal",
       "description": "<p>Você pode ter outros PJs ajudando-o a Manufaturar um item, sob sua direção. Um PJ auxiliar faz um teste com uma períca na qual eles sejam treinados. A perícia deve ser Manufaturar ou outra perícia relevante para o item, conforme determinado pelo GM. Por exemplo, um PJ pode usar a Religião para ajudá-lo a Manufaturar um item com o traço divino ou Conhecimento de Guerra para ajudá-lo a Manufaturar uma arma. Seu teste ainda determina se você cria com sucesso o item. O teste do auxiliar contribui para reduzir o custo dos materiais brutos usando os números da tabela de Ganhar Renda; isso usa o nível de proficiência do PJ aliado na perícia e seu nível - 1 para o nível deles. Os PJs ajudantes devem acompanhá-lo durante a atividade de Manufaturar (impedindo que eles realizem outras atividades de inatividade) ou o benefício é perdido. O GM pode determinar que apenas um certo número de PJs possa ajudar, dependendo das circunstâncias. A Manufatura Comunitária também permite que você atue como auxiliar quando outra pessoa está manufaturando, desde que aceitem sua ajuda.</p>"
@@ -2775,6 +2817,13 @@
       "name": "Ás com Besta",
       "description": "<p><strong>Requerimentos</strong> Você está empunhando uma besta com recarga 1 ou superior.</p>\n<hr />\n<p>Sua profunda compreensão da besta permite que você recarregue eficientemente enquanto se movimenta para fora da linha de fogo de retorno. Ou você @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Criar uma Distração} ou @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Tomar Cobertura}, então Interagir para recarregar. Normalmente, você deve atender aos requerimentos para Tomar Cobertura; você deve estar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}, se beneficiando de cobertura, ou perto de uma característica que permita que você Tome Cobertura.</p>"
     },
+    "Crossbow Infiltrator Dedication": {
+      "prerequisites": [
+        {
+          "value": "treinado em Furtividade"
+        }
+      ]
+    },
     "Crossbow Terror": {
       "prerequisites": [
         {
@@ -2848,6 +2897,13 @@
     "Current Spell": {
       "name": "Magia Atual"
     },
+    "Cushion Landing": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Cut From the Air": {
       "description": "<p><strong>Acionamento</strong> Você é o alvo de um Ataque à Distância físico.</p>\n<p><strong>Requerimentos</strong> Você está ciente do ataque, não está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ele, e tem uma mão livre ou está empunhando uma arma corpo a corpo.</p>\n<hr />\n<p>Você pode arrombar ataques à distância. Você ganha um bônus de circunstância de +4 na CA contra o ataque desencadeante. Se o ataque errar, você arremessou ou cortou ele do ar.</p>"
     },
@@ -2917,6 +2973,13 @@
       "prerequisites": [
         {
           "value": "Vidente Sombrio"
+        }
+      ]
+    },
+    "Dashing Pickup": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
         }
       ]
     },
@@ -3137,6 +3200,13 @@
       "name": "Finalização Desesperada",
       "description": "<p><strong>Acionamento</strong> Você completa a última ação em seu turno e seu turno ainda não terminou.</p>\n<hr />\n<p>You throw everything you have into one last, reckless press. Use a single action that you know with the press trait. You forgo the ability to use reactions until the start of your next turn. This press uses your multiple attack penalty, as normal.</p>"
     },
+    "Desperate Resuscitation": {
+      "prerequisites": [
+        {
+          "value": "mestre em Medicina"
+        }
+      ]
+    },
     "Destructive Block": {
       "prerequisites": [
         {
@@ -3155,6 +3225,13 @@
       "prerequisites": [
         {
           "value": "Buscador do Saber"
+        }
+      ]
+    },
+    "Devastating Duelist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
         }
       ]
     },
@@ -3675,9 +3752,6 @@
         }
       ]
     },
-    "Drow Shootist Dedication": {
-      "description": "<p>Every chance you get, you practice with the hand crossbow to increase your draw speed and accuracy. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the hand crossbow. If you're at least an expert in a hand crossbow you're using, you gain access to its critical specialization effect. You also gain the @UUID[Compendium.pf2e.adventure-specific-actions.Bh1Qnh8JP4CMysRK]{Shootist's Draw} action.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.JzUDumJ3Dlyame4z]{Drow Shootist} archetype.</p>"
-    },
     "Druid Dedication": {
       "name": "Dedicação de Druida",
       "description": "<p>Você conjura magias como um druida. Você ganha a atividade Conjurar uma Magia. Você pode preparar dois truques mágicos comuns a cada dia da lista de magias primais ou quaisquer outros truques mágicos primais que você aprenda ou descubra. Você é treinado nos modificadores de ataque mágico e CD da estatística de magia. Seu atributo-chave para as magias do arquétipo de druida é Sabedoria, e elas são magias de druida primais. Você aprende o idioma Wildsong e está sujeito ao anátema do druida. Escolha uma ordem druídica. Você se torna membro dessa ordem e também está sujeito ao anátema específico dela, permitindo que você adquira os talentos da ordem. Você se torna treinado em Natureza e na perícia associada à sua ordem; para cada uma dessas perícias em que você já estava treinado, você se torna treinando em uma perícia de sua escolha. Você não ganha outras perícias da sua escolha de ordem.</p>\n<hr />\n<p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter ganho outros dois talentos do arquétipo de @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.gbBf6x89m4SEFpsL]{Druida}.</p>",
@@ -3712,6 +3786,13 @@
     "Dubious Knowledge": {
       "name": "Conhecimento Duvidoso"
     },
+    "Dueling Acumen": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
     "Dueling Dance (Fighter)": {
       "name": "Dança de Duelo (Guerreiro)",
       "description": "<p><strong>Requerimentos</strong> Você está empunhando uma única arma corpo a corpo de uma mão e não segura mais nada em suas mãos.</p>\n<hr />\n<p>Usando uma mão livre como pivô e equilíbrio, você ataca e se defende com sua arma. Enquanto estiver nessa postura, você constantemente tem os benefícios de @UUID[Compendium.pf2e.feats-srd.Item.n7nQQR940OvFbw7T]{Esgrima Defensiva}.</p>"
@@ -3729,6 +3810,13 @@
     "Duelist's Edge": {
       "name": "Excelência do Duelista",
       "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Duelista Aldori <strong>Gatilho</strong> Você rola iniciativa e pode observar pelo menos um oponente. </span></p> <hr> <p>Você aprimora seu tempo de reação através de duelos e aprende a sacar sua arma intuitivamente quando começa uma luta. Você recebe +2 de bônus de circunstância na rolagem de iniciativa acionadora e pode imediatamente Interagir para sacar sua @Compendium[pf2e.equipment-srd.iSceAVMkVv1uKK7t]{Espada de Duelo Aldori}. </p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
+    "Duelist's Form": {
       "prerequisites": [
         {
           "value": "Dedicação do Duelista Aldori"
@@ -4762,6 +4850,13 @@
     "Fey's Trickery": {
       "description": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>You connect with the fey trickster within yourself to create whimsical illusory duplicates that distract your foes. This has the effects of <em>@UUID[Compendium.pf2e.spells-srd.j8vIoIEWElvpwkcI]{Mirror Image}</em>.</p>"
     },
+    "Field Propagandist Dedication": {
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
+    },
     "Fiendish Form": {
       "prerequisites": [
         {
@@ -5615,6 +5710,16 @@
     "Guarded Movement": {
       "name": "Movimento Cauteloso",
       "description": "<p>Você mantém sua guarda alta, mesmo enquanto se move. Você recebe +4 de bônus de circunstância na CA contra reações acionadas pelo seu movimento.</p>"
+    },
+    "Guardian Dedication": {
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        },
+        {
+          "value": "Constituição +2"
+        }
+      ]
     },
     "Guardian Ghosts": {
       "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You would take damage from a Strike while one of your undead companions is adjacent to you.</p>\n<hr />\n<p>You magically divert some of the harm from an incoming attack away from yourself, forcing your undead companion to take it in your stead. Reduce the damage you take from the triggering Strike by 2 + your level. Your adjacent undead companion loses a number of Hit Points equal to the amount of damage reduced. If you have more than one adjacent undead companion, you choose which one loses Hit Points. You can't divert the damage to a temporary fragment from @UUID[Compendium.pf2e.feats-srd.VS28L98uFhr3j1HC]{Their Master's Call}.</p>"
@@ -6663,6 +6768,9 @@
         }
       ]
     },
+    "Ironclad Fortitude": {
+      "description": "<p><strong>Pré-requisitos</strong> especialista em salvamentos de Fortitude, Dedicação de Bárbaro</p> <hr> <p>Sua graduação de proficiência em salvamentos de Fortitude aumenta para mestre.</p>"
+    },
     "Irrepressible (Halfling)": {
       "name": "Irreprimível (Halfling)",
       "description": "<p>Você é capaz de afastar facilmente tentativas de manipular seus medos e emoções. Quando você obtém sucesso em um teste de resistência contra um efeito de emoção, você obtém um sucesso crítico em vez disso. Se sua herança é Halfling Intrépido, quando você obtém uma falha crítica em um teste de resistência contra um efeito de emoção, você obtém uma falha em vez disso.</p>"
@@ -7231,6 +7339,13 @@
     "Magaambyan Attendant Dedication": {
       "name": "Dedicação de Assistente Magaambyano",
       "description": "<div><strong>Arquétipo </strong>@Compendium[pf2e.archetypes.yvb2pY3Qb7Jl35hk]{Assistente Magaambyano}</div> <div> <strong>Pré-requisitos</strong> treinado em Arcanismo ou Natureza, membro da Magaambya de classificação de atendente </span></div> <hr> <p>Você dedica grande parte do seu estudo à magia halcyon. Você ganha a perícia de conjurar um único truque mágico arcana ou primal de sua escolha (como é normal para truques mágicos, ele é aumentado para um nível de magia igual à metade do seu nível, arredondado para cima). Se você ainda não era, você se torna treinado na CD de magia e nas rolagens de ataque de magia dessa tradição, com Inteligência como sua perícia de conjuração se você escolher arcana ou Sabedoria como sua perícia de conjuração, se você escolher primal.</p> <p>Independentemente de você escolher um truque mágico arcano ou primal, você também é treinado em Arcanismo ou Natureza, ou especialista em uma dessas perícias nas qual você já for treinado.</p> <p>Quando você conseguir esse talento, escolha se associar aos Cascade Bearers, Emerald Boughs, Rain-Scribes, Tempest-Sun Mages ou Uzunjati. Isso concede talentos adicionais disponíveis apenas para esse ramo.</p> <div><strong>Especial</strong> Você não pode selecionar outro talento de dedicação que não seja da @Compendium[pf2e.feats-srd.7fU6e3HIT4NvwLYa]{Dedicação de Orador Halcyon} até que você tenha ganho dois outros talentos de Assistente Magaambyano ou do arquétipo de @Compendium[pf2e.archetypes.Qsmzm6w1ZNpHX7GD]{Orador Halcyon}.</div> (Tradução não oficial - Lost Omens: Character Guide)"
+    },
+    "Mage's Field Dressing": {
+      "prerequisites": {
+        "1": {
+          "value": "Medicina de Batalha"
+        }
+      }
     },
     "Magic Ammunition": {
       "prerequisites": [
@@ -7941,6 +8056,13 @@
         }
       ]
     },
+    "Mounting Leap": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Mug": {
       "name": "Caneca",
       "description": "<p>Você realiza um ataque ativo e rouba seu inimigo no processo. Faça um Golpear corpo a corpo contra um inimigo adjacente. Se você acertar e causar dano de ataque furtivo, você também pode tentar @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Roubar} do alvo, mesmo se o alvo estiver em combate.</p>"
@@ -8205,6 +8327,13 @@
         }
       ]
     },
+    "Observational Analysis": {
+      "prerequisites": [
+        {
+          "value": "Avaliação de Combate"
+        }
+      ]
+    },
     "Occult Breadth": {
       "name": "Amplitude Ocultista",
       "description": "<p>Seu repertório se expande e você pode lançar mais magias ocultistas por dia. Aumente o número de magias em seu repertório e o número de espaços de magia que você ganha dos talentos de arquétipo de bardo em 1 para cada nível de magia que não seja seus dois mais altos espaços de magia.</p>",
@@ -8238,6 +8367,13 @@
     },
     "One-Inch Punch": {
       "description": "<p><strong>Prerequisites </strong>expert strikes</p> <hr> <p>You put all your force into a single mighty, carefully controlled blow. Make an unarmed @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If you spend two actions and this Strike hits, you deal an extra die of weapon damage. You can instead spend 3 actions to perform an even more powerful attack, dealing a second additional die of weapon damage on a hit.</p> <p>If you’re at least 10th level, the number of additional dice you add from this feat doubles, for a total of 2 additional dice if you spend 2 actions or 4 additional dice if you spend 3 actions. If you’re at least 18th level, the number of additional dice you add from this feat triples, for a total of 3 additional dice if you spend 2 actions or 6 additional dice if you spend 3 actions.</p>"
+    },
+    "One-On-One": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
     },
     "Ongoing Investigation": {
       "description": "<p>You’re always investigating what’s around you, even as you perform other activities. You can move at full Speed while using the <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"EwgTZBWsc8qKaViP\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Investigate</a> exploration activity, and you can use another exploration activity while Investigating.</p>"
@@ -9476,6 +9612,13 @@
         }
       ]
     },
+    "Rearing Display": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Reason Rapidly": {
       "description": "<p>Your mind works through clues at an unbelievable speed. You instantly use up to five <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"KygTSeDvsFoSO6HW\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Recall Knowledge</a> actions. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can’t use them for these actions.</p>"
     },
@@ -9687,6 +9830,13 @@
     "Replicate": {
       "name": "Replicate",
       "description": "<p>You've learned to reshape your malleable form. You can cast <em>@UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Illusory Disguise}</em> once per day as an innate occult spell. This is a transmutation and morph effect, as your body physically transforms, rather than an illusion effect.</p>"
+    },
+    "Repositioning Block": {
+      "prerequisites": [
+        {
+          "value": "Bloqueio com Escudo"
+        }
+      ]
     },
     "Reprepare Spell": {
       "name": "Repreparar Magia",
@@ -10499,13 +10649,6 @@
     },
     "Shield Paragon": {
       "name": "Escudeiro Exemplar"
-    },
-    "Shield Salvation": {
-      "prerequisites": [
-        {
-          "value": "Dedicação de Bastião"
-        }
-      ]
     },
     "Shield Wall": {
       "description": "<p><strong>Trigger</strong> Your shield is raised and an adjacent ally Raises a Shield.</p>\n<hr />\n<p>You use your shield in tandem with an ally's, forming a barricade. Both you and the triggering creature have @UUID[Compendium.pf2e.other-effects.I9lfZUiCwMiGogVi]{Standard Cover} as long as you remain adjacent to each other and you both have your shields raised; when this is no longer the case, the effect ends. You and your ally can't use this cover to @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, as it's obvious you're standing there holding your shields, but you and your ally can use it to @UUID[Compendium.pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover}. Normally, if you and your ally don't move, Shield Wall lasts until the beginning of your next turn, when your shield is no longer raised.</p>"
@@ -11862,6 +12005,13 @@
     "Sword and Pistol": {
       "description": "<p>You're comfortable wielding a firearm or crossbow in one hand and a melee weapon in the other, combining melee attacks with shots from the firearm. When you make a successful ranged Strike against an enemy within your reach with your one-handed firearm or one-handed crossbow, that enemy is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against your next melee attack with a one-handed melee weapon.</p>\n<p>When you make a successful melee Strike against an enemy with your one-handed melee weapon, the next ranged Strike you make against that enemy with a one-handed firearm or one-handed crossbow doesn't trigger reactions that would trigger on a ranged attack but not a melee attack, such as Attack of Opportunity. Either of these benefits is lost if not used by the end of your next turn.</p>"
     },
+    "Swordlord Exile": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
     "Swordmaster Dedication": {
       "name": "Dedicação de Mestre da Espada",
       "description": "<div><strong>Arquétipo </strong>@Compendium[pf2e.archetypes.bi1SeBS7Af3ZisIA]{Mestre da Espada}</div> <div> <strong>Pré-requisitos</strong> Força, Destreza, ou Constituição 14; membro da Sociedade Pathfinder afiliado com a Escola das Espadas </span></div> <hr> <p>Seu treinamento em espadas ensinou você a nunca perder a sua arma. Você ganha +2 de bônus de circunstância na sua CD de Reflexo quando os inimigos tentam @Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{desarmá-lo}. Se você tiver o talento @Compendium[pf2e.feats-srd.8pmd9gMl3TamFx3u]{Cooperação Hábil} e tiver sucesso crítico em um teste para @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Auxiliar} a jogada de ataque ou teste de perícia de um aliado, você ganha um bônus de circunstância +2 na Cooperação Hábil (em vez de um bônus de +1) na primeira vez que tentar um teste de ataque ou tentar um teste de perícia onde o bônus se aplicaria.</p> <p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ganhar dois outros talentos do arquétipo do Mestre da Espada.</p> (Tradução não oficial - Lost Omens: Character Guide)"
@@ -12010,6 +12160,13 @@
       "prerequisites": [
         {
           "value": "Redirecionamento da Tempestade do Sol"
+        }
+      ]
+    },
+    "Tempo Duelist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
         }
       ]
     },
@@ -12835,6 +12992,13 @@
         }
       }
     },
+    "Vaulting Gallop": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Vehicle Mechanic Dedication": {
       "prerequisites": [
         {
@@ -13549,119 +13713,136 @@
   "folders": {
     "Suli": "Suli",
     "Aftermath": "Arremate",
+    "Commander": "Comandante",
     "Deviant": "Divergente",
+    "Level 10": "Nível 10",
+    "Level 12": "Nível 12",
+    "Level 14": "Nível 14",
+    "Level 15": "Nível 15",
+    "Level 16": "Nível 16",
+    "Level 18": "Nível 18",
+    "Level 2": "Nível 2",
+    "Level 20": "Nível 20",
+    "Level 4": "Nível 4",
+    "Level 6": "Nível 6",
+    "Level 8": "Nível 8",
     "Reincarnated": "Reencarnado",
     "Variant Rules": "Regras Variantes",
     "Wayang": "Wayang",
     "Aiuvarin": "Aiuvarin",
     "Archetype": "Arquétipo",
+    "Level 1": "Nível 1",
     "Wizard": "Mago",
     "Anadi": "Anadi",
     "Ardande": "Ardande",
+    "Level 5": "Nível 5",
     "Monk": "Monge",
-    "Poisoner": "Veneficista",
     "Ancestry": "Ancestralidade",
     "Android": "Androide",
     "Dromaar": "Dromaar",
-    "Geomancer": "Geomante",
+    "Level 9": "Nível 9",
     "Thaumaturge": "Taumaturgo",
+    "Level 13": "Nível 13",
     "Changeling": "Cambiante",
-    "Hellknight": "Cavaleiro Infernal",
     "Kineticist": "Cineticista",
     "Kobold": "Kobold",
+    "Level 17": "Nível 17",
     "Beastkin": "Beastkin",
     "Reflection": "Reflexão",
     "Nephilim": "Nefilim",
     "Dhampir": "Dampiro",
     "Human": "Humano",
+    "Poisoner": "Veneficista",
     "Summoner": "Convocador",
     "Barbarian": "Bárbaro",
     "Dragonblood": "Draconato",
+    "Geomancer": "Geomante",
     "Lizardfolk": "Povo-Lagarto",
     "Undine": "Undine",
-    "Druid": "Druida",
     "Duskwalker": "Crepusculante",
     "Gunslinger": "Pistoleiro",
     "Kitsune": "Kitsune",
     "Talos": "Talos",
-    "Captivator": "Cativante",
     "Grippli": "Grippli",
+    "Hellknight": "Cavaleiro Infernal",
     "Naari": "Naari",
     "Ranger": "Patrulheiro",
     "Sylph": "Sylph",
-    "Cavalier": "Cavaleiro",
     "Class": "Classe",
     "Gnome": "Gnomo",
     "Inventor": "Inventor",
     "Oread": "Oread",
-    "Game Hunter": "Caçador dos Jogos",
     "Ratfolk": "Povo-Rato",
     "Swashbuckler": "Espadachim",
     "Nagaji": "Nagaji",
     "Psychic": "Psychic",
-    "Trapsmith": "Armadilheiro",
     "Investigator": "Investigador",
     "Merfolk": "Povo-Sereia",
     "Sorcerer": "Feiticeiro",
     "Surki": "Surki",
+    "Druid": "Druida",
     "Rogue": "Ladino",
     "Skeleton": "Esqueleto",
+    "Captivator": "Cativante",
     "Exemplar": "Exemplar",
     "Sprite": "Sprite",
+    "Cavalier": "Cavaleiro",
     "Cleric": "Clérigo",
     "Shisk": "Shisk",
+    "Game Hunter": "Caçador dos Jogos",
     "Samsaran": "Samsaran",
-    "Shadowdancer": "Dançarino das Sombras",
     "Witch": "Bruxo",
     "Vishkanya": "Vishkanya",
     "Vanara": "Vanara",
-    "Ghost Hunter": "Caçador de Fantasmas",
     "Tengu": "Tengu",
+    "Trapsmith": "Armadilheiro",
     "Champion": "Campeão",
-    "Pactbound Initiate": "Iniciado sob Pacto",
     "Tanuki": "Tanuki",
     "Bard": "Bardo",
     "Strix": "Estrige",
     "Fighter": "Guerreiro",
     "Shoony": "Shoony",
     "Alchemist": "Alquimista",
-    "Linguist": "Linguista",
     "General": "Geral",
     "Orc": "Orc",
     "Mythic": "Mítico",
     "Oracle": "Oráculo",
     "Poppet": "Poppet",
-    "Runescarred": "Marcado pelas Runas",
+    "Shadowdancer": "Dançarino das Sombras",
     "Animist": "Animista",
+    "Ghost Hunter": "Caçador de Fantasmas",
     "Minotaur": "Minotauro",
     "Skill": "Perícia",
-    "Student of Perfection": "Estudante da Perfeição",
     "Leshy": "Leshy",
     "Magus": "Magus",
+    "Pactbound Initiate": "Iniciado sob Pacto",
     "Kashrishi": "Kashrishi",
     "Halfling": "Halfling",
-    "Staff Acrobat": "Acrobata com Bastão",
     "Hobgoblin": "Hobgoblin",
+    "Linguist": "Linguista",
     "Goblin": "Goblin",
-    "Spellshot": "Magiarma",
     "Ghoran": "Ghoran",
+    "Runescarred": "Marcado pelas Runas",
     "Dwarf": "Anão",
-    "Ghost": "Fantasma",
+    "Student of Perfection": "Estudante da Perfeição",
     "Catfolk": "Povo-Felino",
     "Fetchling": "Sombriano",
     "Centaur": "Centauro",
+    "Staff Acrobat": "Acrobata com Bastão",
     "Awakened Animal": "Animal Despertado",
-    "Dual-Weapon Warrior": "Combatente de Duas Armas",
     "Goloma": "Goloma",
-    "Beast Gunner": "Pistoleiro Bestial",
     "Gnoll": "Kholo",
+    "Spellshot": "Magiarma",
     "Fleshwarp": "Mutacarne",
-    "Trick Driver": "Piloto de Fuga",
     "Elf": "Elfo",
+    "Ghost": "Fantasma",
     "Conrasu": "Conrasu",
     "Azarketi": "Azarketi",
     "Athamaru": "Athamaru",
     "Automaton": "Autômato",
+    "Dual-Weapon Warrior": "Combatente de Duas Armas",
+    "Beast Gunner": "Pistoleiro Bestial",
+    "Trick Driver": "Piloto de Fuga",
     "Crystal Keeper": "Guardião do Cristal",
     "Mummy": "Múmia",
     "Bastion": "Bastião",
