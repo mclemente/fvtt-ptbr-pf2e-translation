@@ -212,6 +212,280 @@
         }
       }
     },
+    "Grimmyr (Level 1)": {
+      "items": {
+        "class->Guardian": {
+          "name": "Guardião"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          },
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p><strong>Acionamento</strong> Enquanto você estiver com seu escudo levantado, você receberia dano físico (contusão, perfuração ou corte) de um ataque.</p>\n<hr />\n<p>Você move seu escudo para se proteger de um golpe. Seu escudo evita que você receba uma quantidade de dano até a dureza do escudo. Você e o escudo recebem qualquer dano remanescente, possivelmente quebrando ou destruindo o escudo.</p>"
+          }
+        ],
+        "background->Nomad": {
+          "name": "Nômade",
+          "description": "<p>Viajando por toda parte, você aprendeu as táticas básicas para sobreviver na estrada e em terras desconhecidas, se virando com poucos suprimentos e ainda menos confortos. Como um aventureiro você continua viajando, frequentemente para lugares ainda mais perigosos.</p>\n<p>Escolha duas melhorias de atributo. Uma deve ser aplicada em <strong>Constituição</strong> ou <strong>Sabedoria</strong>, e a outra é uma melhoria de atributo livre.</p>\n<p>Você é treinado nas perícias Sobrevivência e no Saber relacionado a um terreno para o qual tenha viajado com frequência (como Saber de Desertos ou Saber de Pântanos). Você recebe o talento de perícia @UUID[Compendium.pf2e.feats-srd.W6Gl9ePmItfDHji0] para Sobrevivência.</p>"
+        },
+        "feat->Assurance (Survival)": {
+          "description": "<p>Mesmo nas piores circunstâncias, você pode performar tarefas básicas. Escolha uma períca na qual você é proficiente. Você pode abrir mão de rolar um teste de perícia para essa perícia e, em vez disso, receber um resultado de 10 + seu bônus de proficiência (não aplique nenhum outro bônus, penalidades ou modificadores).</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes. Cada vez, escolha uma perícia diferente e obtenha os benefícios para essa perícia..</p>"
+        },
+        "feat->Survey Wildlife": {
+          "name": "Procurar Vida Selvagem",
+          "description": "<p>Você pode estudar detalhes na natureza para determinar a presença de criaturas próximas. Você pode gastar 10 minutos avaliando a área ao seu redor para descobrir quais criaturas estão por perto, com base em ninhos, fezes e marcas na vegetação. Tente um teste de Sobrevivência contra um CD determinado pelo GM com base em quão óbvios são os sinais. Em caso de sucesso, você pode tentar um teste de Recordar Conhecimento com uma penalidade de –2 para aprender mais sobre as criaturas apenas a partir desses sinais. Se você for um mestre em Sobrevivência, não sofre a penalidade.</p>"
+        },
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Gauntlet": {
+          "name": "Manopla",
+          "description": "<p>Armaduras completas, meia armaduras e cotas de talas vêm com um par destas luvas de metal; mas elas também podem ser compradas separadamente e usadas com outros tipos de armadura. Elas não apenas protegem suas mãos como também transformam suas mãos em armas letais</p>"
+        },
+        "weapon->War Flail": {
+          "name": "Mangual de Guerra",
+          "description": "Este mangual grande possui um cabo longo conectado a um pedaço menor de madeira resistente ou metal que às vezes é crivado de espinhos"
+        },
+        "armor->Breastplate": {
+          "name": "Placa Peitoral",
+          "description": "<p><span class=\"fontstyle0\">Embora chamada de placa peitoral, este tipo de armadura consiste de várias placas de armadura completa ou meia armadura (página 276) que protegem o torso, peito, pescoço e às vezes o quadril e as pernas. Ela estrategicamente concede parte da proteção da armadura completa enquanto permite maior flexibilidade e velocidade. </p>"
+        },
+        "treasure->Gold Pieces": {
+          "name": "Peças de Ouro"
+        },
+        "backpack->Backpack": {
+          "name": "Mochila",
+          "description": "<p>Uma mochila comporta até 4 Volumes de itens. Se estiver carregando ou arrumando a mochila em vez de usando-a nas costas, o Volume dela é leve em vez de desprezível. Os primeiros 2 Volumes de itens em sua mochila não contam contra seu limite de Volume.</p>"
+        },
+        "equipment->Rope": {
+          "name": "Corda",
+          "description": "<p>10 metros de corda.</p>"
+        },
+        "equipment->Waterskin": {
+          "name": "Cantil",
+          "description": "<p><span class=\"fontstyle0\">Esteja cheio ou vazio, um cantil possui Volume leve e é capaz de conter até 1 dia de água para uma criatura Pequena ou Média.  </p>"
+        },
+        "consumable->Chalk": {
+          "name": "Giz"
+        },
+        "equipment->Flint and Steel": {
+          "name": "Pederneira e Isqueiro",
+          "description": "<p><span class=\"fontstyle0\">Pederneira e isqueiro são usados para criar fogo em situações onde você tenha tempo o suficiente para bater um no outro e gerar uma faísca — algo demorado e pouco prático para realizar durante um encontro. Mesmo em condições ideais, usar pederneira e isqueiro para acender uma chama requer o uso de pelo menos 3 ações, e frequentemente mais ações que isso. </p>"
+        },
+        "consumable->Rations": {
+          "name": "Rações"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
+        "equipment->Bedroll": {
+          "name": "Esteira de Dormir",
+          "description": "Uma cama enrolada"
+        },
+        "equipment->Soap": {
+          "name": "Sabão",
+          "description": "<p>Uma barra de sabão.</p>"
+        }
+      }
+    },
+    "Grimmyr (Level 3)": {
+      "items": {
+        "class->Guardian": {
+          "name": "Guardião"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          },
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p><strong>Acionamento</strong> Enquanto você estiver com seu escudo levantado, você receberia dano físico (contusão, perfuração ou corte) de um ataque.</p>\n<hr />\n<p>Você move seu escudo para se proteger de um golpe. Seu escudo evita que você receba uma quantidade de dano até a dureza do escudo. Você e o escudo recebem qualquer dano remanescente, possivelmente quebrando ou destruindo o escudo.</p>"
+          }
+        ],
+        "background->Nomad": {
+          "name": "Nômade",
+          "description": "<p>Viajando por toda parte, você aprendeu as táticas básicas para sobreviver na estrada e em terras desconhecidas, se virando com poucos suprimentos e ainda menos confortos. Como um aventureiro você continua viajando, frequentemente para lugares ainda mais perigosos.</p>\n<p>Escolha duas melhorias de atributo. Uma deve ser aplicada em <strong>Constituição</strong> ou <strong>Sabedoria</strong>, e a outra é uma melhoria de atributo livre.</p>\n<p>Você é treinado nas perícias Sobrevivência e no Saber relacionado a um terreno para o qual tenha viajado com frequência (como Saber de Desertos ou Saber de Pântanos). Você recebe o talento de perícia @UUID[Compendium.pf2e.feats-srd.W6Gl9ePmItfDHji0] para Sobrevivência.</p>"
+        },
+        "feat->Assurance (Survival)": {
+          "description": "<p>Mesmo nas piores circunstâncias, você pode performar tarefas básicas. Escolha uma períca na qual você é proficiente. Você pode abrir mão de rolar um teste de perícia para essa perícia e, em vez disso, receber um resultado de 10 + seu bônus de proficiência (não aplique nenhum outro bônus, penalidades ou modificadores).</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes. Cada vez, escolha uma perícia diferente e obtenha os benefícios para essa perícia..</p>"
+        },
+        "feat->Survey Wildlife": {
+          "name": "Procurar Vida Selvagem",
+          "description": "<p>Você pode estudar detalhes na natureza para determinar a presença de criaturas próximas. Você pode gastar 10 minutos avaliando a área ao seu redor para descobrir quais criaturas estão por perto, com base em ninhos, fezes e marcas na vegetação. Tente um teste de Sobrevivência contra um CD determinado pelo GM com base em quão óbvios são os sinais. Em caso de sucesso, você pode tentar um teste de Recordar Conhecimento com uma penalidade de –2 para aprender mais sobre as criaturas apenas a partir desses sinais. Se você for um mestre em Sobrevivência, não sofre a penalidade.</p>"
+        },
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Gauntlet": {
+          "name": "Manopla",
+          "description": "<p>Armaduras completas, meia armaduras e cotas de talas vêm com um par destas luvas de metal; mas elas também podem ser compradas separadamente e usadas com outros tipos de armadura. Elas não apenas protegem suas mãos como também transformam suas mãos em armas letais</p>"
+        },
+        "weapon->War Flail": {
+          "name": "Mangual de Guerra",
+          "description": "Este mangual grande possui um cabo longo conectado a um pedaço menor de madeira resistente ou metal que às vezes é crivado de espinhos"
+        },
+        "treasure->Gold Pieces": {
+          "name": "Peças de Ouro"
+        },
+        "backpack->Backpack": {
+          "name": "Mochila",
+          "description": "<p>Uma mochila comporta até 4 Volumes de itens. Se estiver carregando ou arrumando a mochila em vez de usando-a nas costas, o Volume dela é leve em vez de desprezível. Os primeiros 2 Volumes de itens em sua mochila não contam contra seu limite de Volume.</p>"
+        },
+        "equipment->Rope": {
+          "name": "Corda",
+          "description": "<p>10 metros de corda.</p>"
+        },
+        "equipment->Waterskin": {
+          "name": "Cantil",
+          "description": "<p><span class=\"fontstyle0\">Esteja cheio ou vazio, um cantil possui Volume leve e é capaz de conter até 1 dia de água para uma criatura Pequena ou Média.  </p>"
+        },
+        "consumable->Chalk": {
+          "name": "Giz"
+        },
+        "equipment->Flint and Steel": {
+          "name": "Pederneira e Isqueiro",
+          "description": "<p><span class=\"fontstyle0\">Pederneira e isqueiro são usados para criar fogo em situações onde você tenha tempo o suficiente para bater um no outro e gerar uma faísca — algo demorado e pouco prático para realizar durante um encontro. Mesmo em condições ideais, usar pederneira e isqueiro para acender uma chama requer o uso de pelo menos 3 ações, e frequentemente mais ações que isso. </p>"
+        },
+        "consumable->Rations": {
+          "name": "Rações"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
+        "equipment->Bedroll": {
+          "name": "Esteira de Dormir",
+          "description": "Uma cama enrolada"
+        },
+        "equipment->Soap": {
+          "name": "Sabão",
+          "description": "<p>Uma barra de sabão.</p>"
+        },
+        "feat->Diehard": {
+          "name": "Duro de Matar",
+          "description": "<p>Leva mais tempo para te matar do que a maioria. Você morre da condição @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{morrendo} em morrendo 5, ao invés de morrendo 4.</p>"
+        },
+        "armor->Full Plate": {
+          "name": "Armadura Completa",
+          "description": "<p><span class=\"fontstyle0\">Uma armadura completa consiste de placas interconectadas que cobrem o corpo quase inteiro em uma carapaça de aço. Ela é cara e pesada e o usuário  frequentemente precisa de ajuda para vesti-la corretamente, mas fornece uma das melhores defesas que uma armadura pode fornecer. Esta armadura vem com uma subcamada de@Compendium[pf2e.equipment-srd.zBYEU9E7034ENCmh]{camisão de malha} e um par de @Compendium[pf2e.equipment-srd.Ix2vicchE79d6Cl3]{manoplas}   </p>"
+        },
+        "feat->Toughness": {
+          "name": "Vitalidade",
+          "description": "<p>Seu corpo pode suportar mais punição do que a maioria antes de sucumbir. Aumente seus Pontos de Vida máximos pelo seu nível. Você reduz o CD dos testes de recuperação em 1.</p>"
+        },
+        "feat->Titan Wrestler": {
+          "name": "Lutador Titânico",
+          "description": "<p>Você pode tentar @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Desarmar}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Agarrar}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar} ou @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derrubar} criaturas até dois tamanhos maiores que você, ou até três tamanhos maiores que você se for lendário em Atletismo.</p>"
+        }
+      }
+    },
+    "Grimmyr (Level 5)": {
+      "items": {
+        "class->Guardian": {
+          "name": "Guardião"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          },
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p><strong>Acionamento</strong> Enquanto você estiver com seu escudo levantado, você receberia dano físico (contusão, perfuração ou corte) de um ataque.</p>\n<hr />\n<p>Você move seu escudo para se proteger de um golpe. Seu escudo evita que você receba uma quantidade de dano até a dureza do escudo. Você e o escudo recebem qualquer dano remanescente, possivelmente quebrando ou destruindo o escudo.</p>"
+          }
+        ],
+        "background->Nomad": {
+          "name": "Nômade",
+          "description": "<p>Viajando por toda parte, você aprendeu as táticas básicas para sobreviver na estrada e em terras desconhecidas, se virando com poucos suprimentos e ainda menos confortos. Como um aventureiro você continua viajando, frequentemente para lugares ainda mais perigosos.</p>\n<p>Escolha duas melhorias de atributo. Uma deve ser aplicada em <strong>Constituição</strong> ou <strong>Sabedoria</strong>, e a outra é uma melhoria de atributo livre.</p>\n<p>Você é treinado nas perícias Sobrevivência e no Saber relacionado a um terreno para o qual tenha viajado com frequência (como Saber de Desertos ou Saber de Pântanos). Você recebe o talento de perícia @UUID[Compendium.pf2e.feats-srd.W6Gl9ePmItfDHji0] para Sobrevivência.</p>"
+        },
+        "feat->Assurance (Survival)": {
+          "description": "<p>Mesmo nas piores circunstâncias, você pode performar tarefas básicas. Escolha uma períca na qual você é proficiente. Você pode abrir mão de rolar um teste de perícia para essa perícia e, em vez disso, receber um resultado de 10 + seu bônus de proficiência (não aplique nenhum outro bônus, penalidades ou modificadores).</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes. Cada vez, escolha uma perícia diferente e obtenha os benefícios para essa perícia..</p>"
+        },
+        "feat->Survey Wildlife": {
+          "name": "Procurar Vida Selvagem",
+          "description": "<p>Você pode estudar detalhes na natureza para determinar a presença de criaturas próximas. Você pode gastar 10 minutos avaliando a área ao seu redor para descobrir quais criaturas estão por perto, com base em ninhos, fezes e marcas na vegetação. Tente um teste de Sobrevivência contra um CD determinado pelo GM com base em quão óbvios são os sinais. Em caso de sucesso, você pode tentar um teste de Recordar Conhecimento com uma penalidade de –2 para aprender mais sobre as criaturas apenas a partir desses sinais. Se você for um mestre em Sobrevivência, não sofre a penalidade.</p>"
+        },
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Gauntlet": {
+          "name": "Manopla",
+          "description": "<p>Armaduras completas, meia armaduras e cotas de talas vêm com um par destas luvas de metal; mas elas também podem ser compradas separadamente e usadas com outros tipos de armadura. Elas não apenas protegem suas mãos como também transformam suas mãos em armas letais</p>"
+        },
+        "weapon->War Flail": {
+          "name": "Mangual de Guerra",
+          "description": "Este mangual grande possui um cabo longo conectado a um pedaço menor de madeira resistente ou metal que às vezes é crivado de espinhos"
+        },
+        "treasure->Gold Pieces": {
+          "name": "Peças de Ouro"
+        },
+        "backpack->Backpack": {
+          "name": "Mochila",
+          "description": "<p>Uma mochila comporta até 4 Volumes de itens. Se estiver carregando ou arrumando a mochila em vez de usando-a nas costas, o Volume dela é leve em vez de desprezível. Os primeiros 2 Volumes de itens em sua mochila não contam contra seu limite de Volume.</p>"
+        },
+        "equipment->Rope": {
+          "name": "Corda",
+          "description": "<p>10 metros de corda.</p>"
+        },
+        "equipment->Waterskin": {
+          "name": "Cantil",
+          "description": "<p><span class=\"fontstyle0\">Esteja cheio ou vazio, um cantil possui Volume leve e é capaz de conter até 1 dia de água para uma criatura Pequena ou Média.  </p>"
+        },
+        "consumable->Chalk": {
+          "name": "Giz"
+        },
+        "equipment->Flint and Steel": {
+          "name": "Pederneira e Isqueiro",
+          "description": "<p><span class=\"fontstyle0\">Pederneira e isqueiro são usados para criar fogo em situações onde você tenha tempo o suficiente para bater um no outro e gerar uma faísca — algo demorado e pouco prático para realizar durante um encontro. Mesmo em condições ideais, usar pederneira e isqueiro para acender uma chama requer o uso de pelo menos 3 ações, e frequentemente mais ações que isso. </p>"
+        },
+        "consumable->Rations": {
+          "name": "Rações"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
+        "equipment->Bedroll": {
+          "name": "Esteira de Dormir",
+          "description": "Uma cama enrolada"
+        },
+        "equipment->Soap": {
+          "name": "Sabão",
+          "description": "<p>Uma barra de sabão.</p>"
+        },
+        "feat->Diehard": {
+          "name": "Duro de Matar",
+          "description": "<p>Leva mais tempo para te matar do que a maioria. Você morre da condição @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{morrendo} em morrendo 5, ao invés de morrendo 4.</p>"
+        },
+        "armor->Full Plate": {
+          "name": "Armadura Completa",
+          "description": "<p><span class=\"fontstyle0\">Uma armadura completa consiste de placas interconectadas que cobrem o corpo quase inteiro em uma carapaça de aço. Ela é cara e pesada e o usuário  frequentemente precisa de ajuda para vesti-la corretamente, mas fornece uma das melhores defesas que uma armadura pode fornecer. Esta armadura vem com uma subcamada de@Compendium[pf2e.equipment-srd.zBYEU9E7034ENCmh]{camisão de malha} e um par de @Compendium[pf2e.equipment-srd.Ix2vicchE79d6Cl3]{manoplas}   </p>"
+        },
+        "feat->Toughness": {
+          "name": "Vitalidade",
+          "description": "<p>Seu corpo pode suportar mais punição do que a maioria antes de sucumbir. Aumente seus Pontos de Vida máximos pelo seu nível. Você reduz o CD dos testes de recuperação em 1.</p>"
+        },
+        "feat->Titan Wrestler": {
+          "name": "Lutador Titânico",
+          "description": "<p>Você pode tentar @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Desarmar}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Agarrar}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar} ou @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derrubar} criaturas até dois tamanhos maiores que você, ou até três tamanhos maiores que você se for lendário em Atletismo.</p>"
+        },
+        "feat->Weapon Expertise": {
+          "name": "Especialidade em Armas de Patrulheiro (Nível 5)"
+        },
+        "feat->Powerful Leap": {
+          "name": "Salto Poderoso",
+          "description": "<p>Você pode saltar 5 pés para cima com um @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Saltar} vertical sem fazer um @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Salto em Altura}. Você também aumenta a distância horizontal quando você Saltar, incluindo como parte de um Salto em Altura ou @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Salto em Distância}, em 5 pés.</p>"
+        }
+      }
+    },
     "Harsk (Level 1)": {
       "items": {
         "lore->Forest Lore": {
@@ -755,6 +1029,7 @@
           "name": "Magias de Foco"
         },
         "feat->Divine Grace": {
+          "name": "Graça Divina",
           "rules": {
             "0": {
               "label": "Graça Divina"
@@ -777,6 +1052,349 @@
               "label": "Graça Divina"
             }
           }
+        }
+      }
+    },
+    "Ulka (Level 1)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        },
+        "ancestry->Orc": {
+          "name": "Orc",
+          "description": "<p><em> Orcs são forjados nas chamas da violência e do conflito, usualmente a partir do momento em que nascem. Como vivem vidas que são frequentemente encurtadas de maneira brutal, orcs se regozijam em testar sua força contra adversários valorosos, seja desafiando um membro de maior patente da sua comunidade por dominância ou saqueando um assentamento vizinho. Muitos orcs buscam a glória tão logo são capazes de andar e carregar uma lâmina ou uma clava, domando bestas selvagens ou caçando monstros mortais.</em></p>\n<hr />\n<p> Orcs frequentemente sofrem para serem aceitos entre outras comunidades, que normalmente os veem como brutos. Contudo, aqueles que ganham a lealdade de um amigo orc rapidamente aprendem que a fidelidade e honestidade de um orc é inigualável. Orcs bárbaros, guerreiros e patrulheiros são estimados como gladiadores e mercenários. Embora alguns assentamentos humanos possam hesitar em aceitar uma comunidade órquica inteira entre os seus, um pequeno punhado de orcs mercenários pode fazer o trabalho de um esquadrão inteiro de recrutas humanos — conquanto os orcs sejam bem alimentados e bem pagos. Embora a crença de que orcs são adequados apenas para a batalha seja difundida entre outros humanoides, a severa mentalidade órquica descende de uma longa história de conflitos em vez da falta de habilidade em outras áreas.</p>\n<p>Culturas órquicas ensinam que eles são moldados pelos desafios aos quais sobrevivem, e os mais valorosos sobrevivem às maiores dificuldades. Orcs que alcançam uma vida longa e grandes triunfos comandam um imenso respeito.</p>\n<p>Se quiser um personagem que seja tenaz, temível e habilidoso em feitos de proeza física, você deve jogar com um orc.</p>\n<h2>Você Pode...</h2>\n<ul>\n<li>Ansiar encontrar qualquer chance de provar sua força em uma disputa física.</li>\n<li>Acreditar que mentiras e traição são para aqueles que não possuem força para conseguir o que querem.</li>\n<li>Preferir uma gloriosa morte em combate a uma morte mundana por idade avançada ou algum padecimento.</li>\n</ul>\n<h2> Outros Provavelmente...</h2>\n<ul>\n<li> O veem como violento ou indisciplinado.</li>\n<li>Subestimam seu intelecto, astúcia e conhecimento.</li>\n<li>Admiram sua franqueza e honestidade.</li>\n</ul>\n<h2>Descrição Física</h2>\n<p> Orcs são altos e possuem corpos poderosos, com braços longos e pernas robustas. Muitos orcs medem 2,1 metros de altura, embora tendam a manter posturas largas, com pernas quase arqueadas e ombros jogados para a frente. A combinação garante uma contradição visível, compartilhando a altura da visão com a maioria dos humanoides enquanto simultaneamente parecem sobressaírem-se a eles. Orcs possuem pele grossa, ossos largos e músculos rígidos como rochas, o que os torna adequados para a guerra e outras tarefas fisicamente exigentes. Apesar da aspereza de suas peles, orcs manifestam cicatrizes facilmente, e a maioria deles se orgulha bastante das cicatrizes que acumulam. Normalmente suas peles são verdes e ocasionalmente cinzas, embora alguns orcs possuam peles com coloração diferente e que refletem sua adaptação ao ambiente onde estão inseridos.</p>\n<p> Orcs consideram corpos poderosos e peles com muitas cicatrizes atraente, independentemente do gênero. Um orc poderoso é ainda mais cobiçado, pois cicatrizes são sinais de vitórias obtidas ou dificuldades superadas. Similarmente, muitos orcs consideram presas grandes e protuberantes mais atrativas do que dentes menores, já que as maiores são armas mais efetivas. Muitos orcs também são atraídos por tatuagens, particularmente aquelas grandes e dolorosas de tatuar que cobrem porções significativas de pele.</p>\n<h2>Sociedade</h2>\n<p>A maioria das comunidades órquicas se definem através de duas coisas: dor e glória. Cada uma garante respeito em igual medida, desde que a dor seja suportada com estoicismo. Um orc com muitas cicatrizes que anda com uma perna quebrada sem reclamar atrai tanta admiração quanto um que conquista uma grande vitória no campo de batalha.</p>\n<p> O poder em um domínio órquico vem da força ou da linhagem familiar. A estrutura tende a ser feudal, com orcs mais fracos trabalhando a favor dos mais fortes. O Domínio de Belkzen é a maior dessas sociedades, e lá o poder troca de mãos rapidamente. A morte de um orc poderoso em batalha pode abalar toda uma estrutura de poder, levando a disputas e duelos para definir o controle. Muitos orcs que se cansam da subserviência desertam para formarem seus próprios bandos de guerra, viajando para novos territórios.</p>\n<p> Orcs jovens normalmente são criados por toda a comunidade. Na verdade, seria praticamente impossível educar as crianças de qualquer outra maneira, já que gêmeos, trigêmeos e até mesmo quadrigêmeos são bastante comuns em famílias órquicas, tanto quanto a morte na tenra idade. Muitos domínios orcs conduzem cerimônias quando um orc jovem alcança uma determinada idade, normalmente por volta do seu décimo ou décimo primeiro aniversário, durante o qual os novos adultos são imbuídos de seu papel na sociedade. Para comunidades que praticam rituais de escarificação ou tatuagens, é geralmente neste momento que os jovens orcs recebem sua primeira cicatriz ou tatuagem.</p>\n<p> Orcs temem poucas coisas, mas a maioria desconfia da magia. A magia é vista como uma ferramenta que ultrapassa o físico e permite os fracos rivalizarem com os fortes, uma crença que existe em desacordo com os valores órquicos. Embora respeitem o poderio físico de capelães da guerra gorumitas e até mesmo de druidas que assumem as formas de grandes bestas, no melhor dos casos eles acham a magia arcana e ocultista totalmente questionável e antiética. Exceto pelas comunidades órquicas mais depravadas, eles veem a necromancia como uma arte temível que rouba a glória dos mortos, e suas lutas cada vez mais frequentes contra os mortos-vivos têm lhes garantido uma recém-descoberta afinidade com seus vizinhos humanoides.</p>\n<h2>Tendência e Religião</h2>\n<p>Um ditado órquico comum é: “Suas cicatrizes fazem quem você é”. Vidas violentas e caóticas em terras violentas e caóticas significam que a maioria dos orcs está fortemente propensa a assumir tendências caóticas. Gorum, Lamashtu e Rovagug são comumente adorados entre comunidades órquicas, embora domínios menos violentos adorem divindades da natureza como Gozreh ou deuses como Sarenrae, cujos princípios do fogo, redenção e glória são apelativos às sensibilidades órquicas.</p>\n<p>Embora haja divindades órquicas, sua adoração é surpreendentemente incomum entre os membros desta ancestralidade. Orcs acreditam que, se alguém possui um nome e um rosto, pode ser morto, portanto, suas próprias divindades são alvos em vez de objeto de reverência. Alguns domínios órquicos ensinam que os membros mais grandiosos do domínio podem ganham uma chance de desafiar as divindades órquicas por um lugar no panteão. A maioria dos orcs não desperdiça seus momentos finais orando ao divino ou por um lugar no pós-vida, mas sim vociferando advertências sanguinolentas contra suas divindades, prometendo um novo desafiante em um rilhar de dentes.</p>\n<h2> Orcs Aventureiros</h2>\n<p>A necessidade dos orcs de superar desafios e de se provar leva muitos deles a se tornarem aventureiros, embora seja mais comum orcs andarem sozinhos ou com outros orcs do que com aventureiros de outras ancestralidades.</p>\n<p>Biografias típicas para um orc incluem artista marcial, caçador, gladiador, nômade e soldado, além de bandido, refugiado e precursor. Orcs prosperam em classes marciais como bárbaro e guerreiro.</p>\n<h2>Nomes</h2>\n<p> Orcs possuem um idioma rude e gutural, e suas convenções para nomes não são exceção. Muitos nomes de orcs são simplesmente a palavra em Órquico para um traço particularmente desejável, como grande força, altura ou ferocidade. Orcs comumente usam o nome de seu domínio ou um nome referenciando um feito particularmente memorável como seus sobrenomes.</p>\n<h3><span style=\"text-decoration: underline;\">Exemplos de Nomes</span></h3>\n<p>Arkus, Ausk, Durra, Grask, Grillgiss, Krugga, Mahja, Murdut, Ollak, Onyat, Thurk, Uirch, Unach</p>\n<h2 style=\"border-bottom: 1px solid var(--color-underline-header);\">Mecânicas dos Orcs</h2>\n<p><strong>Pontos de Vida</strong> 10</p>\n<p><strong>Tamanho</strong> Médio</p>\n<p><strong>Velocidade</strong> 7,5 metros</p>\n<p><strong>Melhorias de Atributos</strong> Força, Livre</p>\n<p><strong>Idiomas</strong> Comum, Órquico</p>\n<p><strong>Idiomas Adicionais</strong> iguais a seu modificador de Inteligência (se positivo). Escolha entre Goblin, Jotun, Terran, Subterrâneo e quaisquer outros idiomas aos quais você tenha acesso (como os idiomas prevalentes em sua região).</p>\n<p><strong>Sentido</strong> Visão no Escuro</p>"
+        },
+        "background->Warrior": {
+          "name": "Soldado",
+          "description": "<p>In your younger days, you waded into battle as a mercenary, a warrior defending a nomadic people, or a member of a militia or army. You might have wanted to break out from the regimented structure of these forces, or you could have always been as independent a warrior as you are now.</p>\n<p>Choose two ability boosts. One must be to <strong>Strength</strong> or <strong>Constitution</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Intimidation skill, and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.xQMz6eDgX75WX2ce] skill feat.</p>"
+        },
+        "feat->Intimidating Glare": {
+          "name": "Olhar Intimidante",
+          "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoralizar} apenas com um olhar feroz. Quando o fizer, Desmoralizar perde o traço auditivo e ganha o traço visual, e você não sofre penalidade se a criatura não entender seus idiomas.</p>"
+        },
+        "class->Commander": {
+          "name": "Comandante"
+        },
+        "feat->Tactics": {
+          "name": "Táticas"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          },
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p><strong>Acionamento</strong> Enquanto você estiver com seu escudo levantado, você receberia dano físico (contusão, perfuração ou corte) de um ataque.</p>\n<hr />\n<p>Você move seu escudo para se proteger de um golpe. Seu escudo evita que você receba uma quantidade de dano até a dureza do escudo. Você e o escudo recebem qualquer dano remanescente, possivelmente quebrando ou destruindo o escudo.</p>"
+          }
+        ],
+        "feat->Combat Assessment": {
+          "name": "Avaliação de Combate",
+          "description": "<p>Você faz um ataque telegrafado para aprender sobre seu inimigo. Realize um Golpear corpo a corpo. Em caso de acerto, você pode imediatamente tentar um teste para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar Conhecimento} sobre o alvo. Em caso de acerto crítico, você ganha um bônus de circunstância de +2 no teste para Recordar Conhecimento. O alvo fica temporariamente imune à Avaliação de Combate por 1 dia.</p>"
+        },
+        "feat->Orc Ferocity": {
+          "name": "Ferocidade Órquica",
+          "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<p><strong>Acionamento</strong> Você seria reduzido a 0 Pontos de Vida mas não seria morto imediatamente.</p>\n<hr />\n<p>A ferocidade na batalha corre em seu sangue, e você se recusa a cair por seus ferimentos, não importa quão terríveis possam ser. Você evita ser nocauteado e permanece com 1 Ponto de Vida, e sua condição @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ferido} aumenta em 1.</p>"
+        },
+        "heritage->Hold-Scarred Orc": {
+          "name": "Orc Sarjado",
+          "description": "<p>Você é parte de uma comunidade órquica que participa de rituais de escarificação ou tatuagens. As marcas em sua pele mostram sua robustez e vitalidade excepcionais. Você recebe 12 Pontos de Vida de sua ancestralidade em vez de 10. Você também recebe o talento @Compendium[pf2e.feats-srd.I0BhPWqYf1bbzEYg]{Duro de Matar}.</p>"
+        },
+        "feat->Diehard": {
+          "name": "Duro de Matar",
+          "description": "<p>Leva mais tempo para te matar do que a maioria. Você morre da condição @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{morrendo} em morrendo 5, ao invés de morrendo 4.</p>"
+        },
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Halberd": {
+          "name": "Alabarda",
+          "description": "<p>Esta arma de haste possui um cabo relativamente curto de 1,5 metros. Em sua ponta fica um cravo longo com uma lâmina de machado anexada.</p>"
+        },
+        "armor->Breastplate": {
+          "name": "Placa Peitoral",
+          "description": "<p><span class=\"fontstyle0\">Embora chamada de placa peitoral, este tipo de armadura consiste de várias placas de armadura completa ou meia armadura (página 276) que protegem o torso, peito, pescoço e às vezes o quadril e as pernas. Ela estrategicamente concede parte da proteção da armadura completa enquanto permite maior flexibilidade e velocidade. </p>"
+        },
+        "treasure->Gold Pieces": {
+          "name": "Peças de Ouro"
+        },
+        "backpack->Backpack": {
+          "name": "Mochila",
+          "description": "<p>Uma mochila comporta até 4 Volumes de itens. Se estiver carregando ou arrumando a mochila em vez de usando-a nas costas, o Volume dela é leve em vez de desprezível. Os primeiros 2 Volumes de itens em sua mochila não contam contra seu limite de Volume.</p>"
+        },
+        "equipment->Rope": {
+          "name": "Corda",
+          "description": "<p>10 metros de corda.</p>"
+        },
+        "equipment->Waterskin": {
+          "name": "Cantil",
+          "description": "<p><span class=\"fontstyle0\">Esteja cheio ou vazio, um cantil possui Volume leve e é capaz de conter até 1 dia de água para uma criatura Pequena ou Média.  </p>"
+        },
+        "consumable->Chalk": {
+          "name": "Giz"
+        },
+        "equipment->Flint and Steel": {
+          "name": "Pederneira e Isqueiro",
+          "description": "<p><span class=\"fontstyle0\">Pederneira e isqueiro são usados para criar fogo em situações onde você tenha tempo o suficiente para bater um no outro e gerar uma faísca — algo demorado e pouco prático para realizar durante um encontro. Mesmo em condições ideais, usar pederneira e isqueiro para acender uma chama requer o uso de pelo menos 3 ações, e frequentemente mais ações que isso. </p>"
+        },
+        "consumable->Rations": {
+          "name": "Rações"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
+        "equipment->Bedroll": {
+          "name": "Esteira de Dormir",
+          "description": "Uma cama enrolada"
+        },
+        "equipment->Soap": {
+          "name": "Sabão",
+          "description": "<p>Uma barra de sabão.</p>"
+        }
+      }
+    },
+    "Ulka (Level 3)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        },
+        "ancestry->Orc": {
+          "name": "Orc",
+          "description": "<p><em> Orcs são forjados nas chamas da violência e do conflito, usualmente a partir do momento em que nascem. Como vivem vidas que são frequentemente encurtadas de maneira brutal, orcs se regozijam em testar sua força contra adversários valorosos, seja desafiando um membro de maior patente da sua comunidade por dominância ou saqueando um assentamento vizinho. Muitos orcs buscam a glória tão logo são capazes de andar e carregar uma lâmina ou uma clava, domando bestas selvagens ou caçando monstros mortais.</em></p>\n<hr />\n<p> Orcs frequentemente sofrem para serem aceitos entre outras comunidades, que normalmente os veem como brutos. Contudo, aqueles que ganham a lealdade de um amigo orc rapidamente aprendem que a fidelidade e honestidade de um orc é inigualável. Orcs bárbaros, guerreiros e patrulheiros são estimados como gladiadores e mercenários. Embora alguns assentamentos humanos possam hesitar em aceitar uma comunidade órquica inteira entre os seus, um pequeno punhado de orcs mercenários pode fazer o trabalho de um esquadrão inteiro de recrutas humanos — conquanto os orcs sejam bem alimentados e bem pagos. Embora a crença de que orcs são adequados apenas para a batalha seja difundida entre outros humanoides, a severa mentalidade órquica descende de uma longa história de conflitos em vez da falta de habilidade em outras áreas.</p>\n<p>Culturas órquicas ensinam que eles são moldados pelos desafios aos quais sobrevivem, e os mais valorosos sobrevivem às maiores dificuldades. Orcs que alcançam uma vida longa e grandes triunfos comandam um imenso respeito.</p>\n<p>Se quiser um personagem que seja tenaz, temível e habilidoso em feitos de proeza física, você deve jogar com um orc.</p>\n<h2>Você Pode...</h2>\n<ul>\n<li>Ansiar encontrar qualquer chance de provar sua força em uma disputa física.</li>\n<li>Acreditar que mentiras e traição são para aqueles que não possuem força para conseguir o que querem.</li>\n<li>Preferir uma gloriosa morte em combate a uma morte mundana por idade avançada ou algum padecimento.</li>\n</ul>\n<h2> Outros Provavelmente...</h2>\n<ul>\n<li> O veem como violento ou indisciplinado.</li>\n<li>Subestimam seu intelecto, astúcia e conhecimento.</li>\n<li>Admiram sua franqueza e honestidade.</li>\n</ul>\n<h2>Descrição Física</h2>\n<p> Orcs são altos e possuem corpos poderosos, com braços longos e pernas robustas. Muitos orcs medem 2,1 metros de altura, embora tendam a manter posturas largas, com pernas quase arqueadas e ombros jogados para a frente. A combinação garante uma contradição visível, compartilhando a altura da visão com a maioria dos humanoides enquanto simultaneamente parecem sobressaírem-se a eles. Orcs possuem pele grossa, ossos largos e músculos rígidos como rochas, o que os torna adequados para a guerra e outras tarefas fisicamente exigentes. Apesar da aspereza de suas peles, orcs manifestam cicatrizes facilmente, e a maioria deles se orgulha bastante das cicatrizes que acumulam. Normalmente suas peles são verdes e ocasionalmente cinzas, embora alguns orcs possuam peles com coloração diferente e que refletem sua adaptação ao ambiente onde estão inseridos.</p>\n<p> Orcs consideram corpos poderosos e peles com muitas cicatrizes atraente, independentemente do gênero. Um orc poderoso é ainda mais cobiçado, pois cicatrizes são sinais de vitórias obtidas ou dificuldades superadas. Similarmente, muitos orcs consideram presas grandes e protuberantes mais atrativas do que dentes menores, já que as maiores são armas mais efetivas. Muitos orcs também são atraídos por tatuagens, particularmente aquelas grandes e dolorosas de tatuar que cobrem porções significativas de pele.</p>\n<h2>Sociedade</h2>\n<p>A maioria das comunidades órquicas se definem através de duas coisas: dor e glória. Cada uma garante respeito em igual medida, desde que a dor seja suportada com estoicismo. Um orc com muitas cicatrizes que anda com uma perna quebrada sem reclamar atrai tanta admiração quanto um que conquista uma grande vitória no campo de batalha.</p>\n<p> O poder em um domínio órquico vem da força ou da linhagem familiar. A estrutura tende a ser feudal, com orcs mais fracos trabalhando a favor dos mais fortes. O Domínio de Belkzen é a maior dessas sociedades, e lá o poder troca de mãos rapidamente. A morte de um orc poderoso em batalha pode abalar toda uma estrutura de poder, levando a disputas e duelos para definir o controle. Muitos orcs que se cansam da subserviência desertam para formarem seus próprios bandos de guerra, viajando para novos territórios.</p>\n<p> Orcs jovens normalmente são criados por toda a comunidade. Na verdade, seria praticamente impossível educar as crianças de qualquer outra maneira, já que gêmeos, trigêmeos e até mesmo quadrigêmeos são bastante comuns em famílias órquicas, tanto quanto a morte na tenra idade. Muitos domínios orcs conduzem cerimônias quando um orc jovem alcança uma determinada idade, normalmente por volta do seu décimo ou décimo primeiro aniversário, durante o qual os novos adultos são imbuídos de seu papel na sociedade. Para comunidades que praticam rituais de escarificação ou tatuagens, é geralmente neste momento que os jovens orcs recebem sua primeira cicatriz ou tatuagem.</p>\n<p> Orcs temem poucas coisas, mas a maioria desconfia da magia. A magia é vista como uma ferramenta que ultrapassa o físico e permite os fracos rivalizarem com os fortes, uma crença que existe em desacordo com os valores órquicos. Embora respeitem o poderio físico de capelães da guerra gorumitas e até mesmo de druidas que assumem as formas de grandes bestas, no melhor dos casos eles acham a magia arcana e ocultista totalmente questionável e antiética. Exceto pelas comunidades órquicas mais depravadas, eles veem a necromancia como uma arte temível que rouba a glória dos mortos, e suas lutas cada vez mais frequentes contra os mortos-vivos têm lhes garantido uma recém-descoberta afinidade com seus vizinhos humanoides.</p>\n<h2>Tendência e Religião</h2>\n<p>Um ditado órquico comum é: “Suas cicatrizes fazem quem você é”. Vidas violentas e caóticas em terras violentas e caóticas significam que a maioria dos orcs está fortemente propensa a assumir tendências caóticas. Gorum, Lamashtu e Rovagug são comumente adorados entre comunidades órquicas, embora domínios menos violentos adorem divindades da natureza como Gozreh ou deuses como Sarenrae, cujos princípios do fogo, redenção e glória são apelativos às sensibilidades órquicas.</p>\n<p>Embora haja divindades órquicas, sua adoração é surpreendentemente incomum entre os membros desta ancestralidade. Orcs acreditam que, se alguém possui um nome e um rosto, pode ser morto, portanto, suas próprias divindades são alvos em vez de objeto de reverência. Alguns domínios órquicos ensinam que os membros mais grandiosos do domínio podem ganham uma chance de desafiar as divindades órquicas por um lugar no panteão. A maioria dos orcs não desperdiça seus momentos finais orando ao divino ou por um lugar no pós-vida, mas sim vociferando advertências sanguinolentas contra suas divindades, prometendo um novo desafiante em um rilhar de dentes.</p>\n<h2> Orcs Aventureiros</h2>\n<p>A necessidade dos orcs de superar desafios e de se provar leva muitos deles a se tornarem aventureiros, embora seja mais comum orcs andarem sozinhos ou com outros orcs do que com aventureiros de outras ancestralidades.</p>\n<p>Biografias típicas para um orc incluem artista marcial, caçador, gladiador, nômade e soldado, além de bandido, refugiado e precursor. Orcs prosperam em classes marciais como bárbaro e guerreiro.</p>\n<h2>Nomes</h2>\n<p> Orcs possuem um idioma rude e gutural, e suas convenções para nomes não são exceção. Muitos nomes de orcs são simplesmente a palavra em Órquico para um traço particularmente desejável, como grande força, altura ou ferocidade. Orcs comumente usam o nome de seu domínio ou um nome referenciando um feito particularmente memorável como seus sobrenomes.</p>\n<h3><span style=\"text-decoration: underline;\">Exemplos de Nomes</span></h3>\n<p>Arkus, Ausk, Durra, Grask, Grillgiss, Krugga, Mahja, Murdut, Ollak, Onyat, Thurk, Uirch, Unach</p>\n<h2 style=\"border-bottom: 1px solid var(--color-underline-header);\">Mecânicas dos Orcs</h2>\n<p><strong>Pontos de Vida</strong> 10</p>\n<p><strong>Tamanho</strong> Médio</p>\n<p><strong>Velocidade</strong> 7,5 metros</p>\n<p><strong>Melhorias de Atributos</strong> Força, Livre</p>\n<p><strong>Idiomas</strong> Comum, Órquico</p>\n<p><strong>Idiomas Adicionais</strong> iguais a seu modificador de Inteligência (se positivo). Escolha entre Goblin, Jotun, Terran, Subterrâneo e quaisquer outros idiomas aos quais você tenha acesso (como os idiomas prevalentes em sua região).</p>\n<p><strong>Sentido</strong> Visão no Escuro</p>"
+        },
+        "background->Warrior": {
+          "name": "Soldado",
+          "description": "<p>In your younger days, you waded into battle as a mercenary, a warrior defending a nomadic people, or a member of a militia or army. You might have wanted to break out from the regimented structure of these forces, or you could have always been as independent a warrior as you are now.</p>\n<p>Choose two ability boosts. One must be to <strong>Strength</strong> or <strong>Constitution</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Intimidation skill, and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.xQMz6eDgX75WX2ce] skill feat.</p>"
+        },
+        "feat->Intimidating Glare": {
+          "name": "Olhar Intimidante",
+          "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoralizar} apenas com um olhar feroz. Quando o fizer, Desmoralizar perde o traço auditivo e ganha o traço visual, e você não sofre penalidade se a criatura não entender seus idiomas.</p>"
+        },
+        "class->Commander": {
+          "name": "Comandante"
+        },
+        "feat->Tactics": {
+          "name": "Táticas"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          },
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p><strong>Acionamento</strong> Enquanto você estiver com seu escudo levantado, você receberia dano físico (contusão, perfuração ou corte) de um ataque.</p>\n<hr />\n<p>Você move seu escudo para se proteger de um golpe. Seu escudo evita que você receba uma quantidade de dano até a dureza do escudo. Você e o escudo recebem qualquer dano remanescente, possivelmente quebrando ou destruindo o escudo.</p>"
+          }
+        ],
+        "feat->Combat Assessment": {
+          "name": "Avaliação de Combate",
+          "description": "<p>Você faz um ataque telegrafado para aprender sobre seu inimigo. Realize um Golpear corpo a corpo. Em caso de acerto, você pode imediatamente tentar um teste para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar Conhecimento} sobre o alvo. Em caso de acerto crítico, você ganha um bônus de circunstância de +2 no teste para Recordar Conhecimento. O alvo fica temporariamente imune à Avaliação de Combate por 1 dia.</p>"
+        },
+        "feat->Orc Ferocity": {
+          "name": "Ferocidade Órquica",
+          "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<p><strong>Acionamento</strong> Você seria reduzido a 0 Pontos de Vida mas não seria morto imediatamente.</p>\n<hr />\n<p>A ferocidade na batalha corre em seu sangue, e você se recusa a cair por seus ferimentos, não importa quão terríveis possam ser. Você evita ser nocauteado e permanece com 1 Ponto de Vida, e sua condição @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ferido} aumenta em 1.</p>"
+        },
+        "heritage->Hold-Scarred Orc": {
+          "name": "Orc Sarjado",
+          "description": "<p>Você é parte de uma comunidade órquica que participa de rituais de escarificação ou tatuagens. As marcas em sua pele mostram sua robustez e vitalidade excepcionais. Você recebe 12 Pontos de Vida de sua ancestralidade em vez de 10. Você também recebe o talento @Compendium[pf2e.feats-srd.I0BhPWqYf1bbzEYg]{Duro de Matar}.</p>"
+        },
+        "feat->Diehard": {
+          "name": "Duro de Matar",
+          "description": "<p>Leva mais tempo para te matar do que a maioria. Você morre da condição @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{morrendo} em morrendo 5, ao invés de morrendo 4.</p>"
+        },
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Halberd": {
+          "name": "Alabarda",
+          "description": "<p>Esta arma de haste possui um cabo relativamente curto de 1,5 metros. Em sua ponta fica um cravo longo com uma lâmina de machado anexada.</p>"
+        },
+        "treasure->Gold Pieces": {
+          "name": "Peças de Ouro"
+        },
+        "backpack->Backpack": {
+          "name": "Mochila",
+          "description": "<p>Uma mochila comporta até 4 Volumes de itens. Se estiver carregando ou arrumando a mochila em vez de usando-a nas costas, o Volume dela é leve em vez de desprezível. Os primeiros 2 Volumes de itens em sua mochila não contam contra seu limite de Volume.</p>"
+        },
+        "equipment->Rope": {
+          "name": "Corda",
+          "description": "<p>10 metros de corda.</p>"
+        },
+        "equipment->Waterskin": {
+          "name": "Cantil",
+          "description": "<p><span class=\"fontstyle0\">Esteja cheio ou vazio, um cantil possui Volume leve e é capaz de conter até 1 dia de água para uma criatura Pequena ou Média.  </p>"
+        },
+        "consumable->Chalk": {
+          "name": "Giz"
+        },
+        "equipment->Flint and Steel": {
+          "name": "Pederneira e Isqueiro",
+          "description": "<p><span class=\"fontstyle0\">Pederneira e isqueiro são usados para criar fogo em situações onde você tenha tempo o suficiente para bater um no outro e gerar uma faísca — algo demorado e pouco prático para realizar durante um encontro. Mesmo em condições ideais, usar pederneira e isqueiro para acender uma chama requer o uso de pelo menos 3 ações, e frequentemente mais ações que isso. </p>"
+        },
+        "consumable->Rations": {
+          "name": "Rações"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
+        "equipment->Bedroll": {
+          "name": "Esteira de Dormir",
+          "description": "Uma cama enrolada"
+        },
+        "equipment->Soap": {
+          "name": "Sabão",
+          "description": "<p>Uma barra de sabão.</p>"
+        },
+        "feat->Incredible Initiative": {
+          "name": "Iniciativa Incrível",
+          "description": "<p>Você reage mais rapidamente do que os outros. Você ganha um bônus de circunstância de +2 em rolagens de iniciativa.</p>"
+        },
+        "feat->Combat Climber": {
+          "name": "Escalador de Combate",
+          "description": "<p>As suas técnicas permitem que lute enquanto escala. Você não está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} ao escalar e pode escalar com uma mão ocupada. Ainda assim, você precisa usar outra mão e ambas as pernas para escalar.</p>"
+        },
+        "consumable->Oil of Potency": {
+          "name": "Óleo de Potência",
+          "description": "<p><span>Quando este óleo grosso e viscoso é aplicado em uma arma ou armadura não-mágica, o item se torna magicamente potente. Se for uma arma, ela temporariamente se torna uma arma  <em>+1 impactante</em>, e, se for uma armadura, ela temporariamente se torna uma armadura <em>+1 resiliente.</em>. Este efeito dura 1 minuto..  </p> <p><span><strong>Ativação</strong> <span class=\"pf2-icon\">A</span> Interagir </p>"
+        },
+        "armor->Breastplate": {
+          "name": "Placa Peitoral",
+          "description": "<p><span class=\"fontstyle0\">Embora chamada de placa peitoral, este tipo de armadura consiste de várias placas de armadura completa ou meia armadura (página 276) que protegem o torso, peito, pescoço e às vezes o quadril e as pernas. Ela estrategicamente concede parte da proteção da armadura completa enquanto permite maior flexibilidade e velocidade. </p>"
+        }
+      }
+    },
+    "Ulka (Level 5)": {
+      "items": {
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        },
+        "ancestry->Orc": {
+          "name": "Orc",
+          "description": "<p><em> Orcs são forjados nas chamas da violência e do conflito, usualmente a partir do momento em que nascem. Como vivem vidas que são frequentemente encurtadas de maneira brutal, orcs se regozijam em testar sua força contra adversários valorosos, seja desafiando um membro de maior patente da sua comunidade por dominância ou saqueando um assentamento vizinho. Muitos orcs buscam a glória tão logo são capazes de andar e carregar uma lâmina ou uma clava, domando bestas selvagens ou caçando monstros mortais.</em></p>\n<hr />\n<p> Orcs frequentemente sofrem para serem aceitos entre outras comunidades, que normalmente os veem como brutos. Contudo, aqueles que ganham a lealdade de um amigo orc rapidamente aprendem que a fidelidade e honestidade de um orc é inigualável. Orcs bárbaros, guerreiros e patrulheiros são estimados como gladiadores e mercenários. Embora alguns assentamentos humanos possam hesitar em aceitar uma comunidade órquica inteira entre os seus, um pequeno punhado de orcs mercenários pode fazer o trabalho de um esquadrão inteiro de recrutas humanos — conquanto os orcs sejam bem alimentados e bem pagos. Embora a crença de que orcs são adequados apenas para a batalha seja difundida entre outros humanoides, a severa mentalidade órquica descende de uma longa história de conflitos em vez da falta de habilidade em outras áreas.</p>\n<p>Culturas órquicas ensinam que eles são moldados pelos desafios aos quais sobrevivem, e os mais valorosos sobrevivem às maiores dificuldades. Orcs que alcançam uma vida longa e grandes triunfos comandam um imenso respeito.</p>\n<p>Se quiser um personagem que seja tenaz, temível e habilidoso em feitos de proeza física, você deve jogar com um orc.</p>\n<h2>Você Pode...</h2>\n<ul>\n<li>Ansiar encontrar qualquer chance de provar sua força em uma disputa física.</li>\n<li>Acreditar que mentiras e traição são para aqueles que não possuem força para conseguir o que querem.</li>\n<li>Preferir uma gloriosa morte em combate a uma morte mundana por idade avançada ou algum padecimento.</li>\n</ul>\n<h2> Outros Provavelmente...</h2>\n<ul>\n<li> O veem como violento ou indisciplinado.</li>\n<li>Subestimam seu intelecto, astúcia e conhecimento.</li>\n<li>Admiram sua franqueza e honestidade.</li>\n</ul>\n<h2>Descrição Física</h2>\n<p> Orcs são altos e possuem corpos poderosos, com braços longos e pernas robustas. Muitos orcs medem 2,1 metros de altura, embora tendam a manter posturas largas, com pernas quase arqueadas e ombros jogados para a frente. A combinação garante uma contradição visível, compartilhando a altura da visão com a maioria dos humanoides enquanto simultaneamente parecem sobressaírem-se a eles. Orcs possuem pele grossa, ossos largos e músculos rígidos como rochas, o que os torna adequados para a guerra e outras tarefas fisicamente exigentes. Apesar da aspereza de suas peles, orcs manifestam cicatrizes facilmente, e a maioria deles se orgulha bastante das cicatrizes que acumulam. Normalmente suas peles são verdes e ocasionalmente cinzas, embora alguns orcs possuam peles com coloração diferente e que refletem sua adaptação ao ambiente onde estão inseridos.</p>\n<p> Orcs consideram corpos poderosos e peles com muitas cicatrizes atraente, independentemente do gênero. Um orc poderoso é ainda mais cobiçado, pois cicatrizes são sinais de vitórias obtidas ou dificuldades superadas. Similarmente, muitos orcs consideram presas grandes e protuberantes mais atrativas do que dentes menores, já que as maiores são armas mais efetivas. Muitos orcs também são atraídos por tatuagens, particularmente aquelas grandes e dolorosas de tatuar que cobrem porções significativas de pele.</p>\n<h2>Sociedade</h2>\n<p>A maioria das comunidades órquicas se definem através de duas coisas: dor e glória. Cada uma garante respeito em igual medida, desde que a dor seja suportada com estoicismo. Um orc com muitas cicatrizes que anda com uma perna quebrada sem reclamar atrai tanta admiração quanto um que conquista uma grande vitória no campo de batalha.</p>\n<p> O poder em um domínio órquico vem da força ou da linhagem familiar. A estrutura tende a ser feudal, com orcs mais fracos trabalhando a favor dos mais fortes. O Domínio de Belkzen é a maior dessas sociedades, e lá o poder troca de mãos rapidamente. A morte de um orc poderoso em batalha pode abalar toda uma estrutura de poder, levando a disputas e duelos para definir o controle. Muitos orcs que se cansam da subserviência desertam para formarem seus próprios bandos de guerra, viajando para novos territórios.</p>\n<p> Orcs jovens normalmente são criados por toda a comunidade. Na verdade, seria praticamente impossível educar as crianças de qualquer outra maneira, já que gêmeos, trigêmeos e até mesmo quadrigêmeos são bastante comuns em famílias órquicas, tanto quanto a morte na tenra idade. Muitos domínios orcs conduzem cerimônias quando um orc jovem alcança uma determinada idade, normalmente por volta do seu décimo ou décimo primeiro aniversário, durante o qual os novos adultos são imbuídos de seu papel na sociedade. Para comunidades que praticam rituais de escarificação ou tatuagens, é geralmente neste momento que os jovens orcs recebem sua primeira cicatriz ou tatuagem.</p>\n<p> Orcs temem poucas coisas, mas a maioria desconfia da magia. A magia é vista como uma ferramenta que ultrapassa o físico e permite os fracos rivalizarem com os fortes, uma crença que existe em desacordo com os valores órquicos. Embora respeitem o poderio físico de capelães da guerra gorumitas e até mesmo de druidas que assumem as formas de grandes bestas, no melhor dos casos eles acham a magia arcana e ocultista totalmente questionável e antiética. Exceto pelas comunidades órquicas mais depravadas, eles veem a necromancia como uma arte temível que rouba a glória dos mortos, e suas lutas cada vez mais frequentes contra os mortos-vivos têm lhes garantido uma recém-descoberta afinidade com seus vizinhos humanoides.</p>\n<h2>Tendência e Religião</h2>\n<p>Um ditado órquico comum é: “Suas cicatrizes fazem quem você é”. Vidas violentas e caóticas em terras violentas e caóticas significam que a maioria dos orcs está fortemente propensa a assumir tendências caóticas. Gorum, Lamashtu e Rovagug são comumente adorados entre comunidades órquicas, embora domínios menos violentos adorem divindades da natureza como Gozreh ou deuses como Sarenrae, cujos princípios do fogo, redenção e glória são apelativos às sensibilidades órquicas.</p>\n<p>Embora haja divindades órquicas, sua adoração é surpreendentemente incomum entre os membros desta ancestralidade. Orcs acreditam que, se alguém possui um nome e um rosto, pode ser morto, portanto, suas próprias divindades são alvos em vez de objeto de reverência. Alguns domínios órquicos ensinam que os membros mais grandiosos do domínio podem ganham uma chance de desafiar as divindades órquicas por um lugar no panteão. A maioria dos orcs não desperdiça seus momentos finais orando ao divino ou por um lugar no pós-vida, mas sim vociferando advertências sanguinolentas contra suas divindades, prometendo um novo desafiante em um rilhar de dentes.</p>\n<h2> Orcs Aventureiros</h2>\n<p>A necessidade dos orcs de superar desafios e de se provar leva muitos deles a se tornarem aventureiros, embora seja mais comum orcs andarem sozinhos ou com outros orcs do que com aventureiros de outras ancestralidades.</p>\n<p>Biografias típicas para um orc incluem artista marcial, caçador, gladiador, nômade e soldado, além de bandido, refugiado e precursor. Orcs prosperam em classes marciais como bárbaro e guerreiro.</p>\n<h2>Nomes</h2>\n<p> Orcs possuem um idioma rude e gutural, e suas convenções para nomes não são exceção. Muitos nomes de orcs são simplesmente a palavra em Órquico para um traço particularmente desejável, como grande força, altura ou ferocidade. Orcs comumente usam o nome de seu domínio ou um nome referenciando um feito particularmente memorável como seus sobrenomes.</p>\n<h3><span style=\"text-decoration: underline;\">Exemplos de Nomes</span></h3>\n<p>Arkus, Ausk, Durra, Grask, Grillgiss, Krugga, Mahja, Murdut, Ollak, Onyat, Thurk, Uirch, Unach</p>\n<h2 style=\"border-bottom: 1px solid var(--color-underline-header);\">Mecânicas dos Orcs</h2>\n<p><strong>Pontos de Vida</strong> 10</p>\n<p><strong>Tamanho</strong> Médio</p>\n<p><strong>Velocidade</strong> 7,5 metros</p>\n<p><strong>Melhorias de Atributos</strong> Força, Livre</p>\n<p><strong>Idiomas</strong> Comum, Órquico</p>\n<p><strong>Idiomas Adicionais</strong> iguais a seu modificador de Inteligência (se positivo). Escolha entre Goblin, Jotun, Terran, Subterrâneo e quaisquer outros idiomas aos quais você tenha acesso (como os idiomas prevalentes em sua região).</p>\n<p><strong>Sentido</strong> Visão no Escuro</p>"
+        },
+        "background->Warrior": {
+          "name": "Soldado",
+          "description": "<p>In your younger days, you waded into battle as a mercenary, a warrior defending a nomadic people, or a member of a militia or army. You might have wanted to break out from the regimented structure of these forces, or you could have always been as independent a warrior as you are now.</p>\n<p>Choose two ability boosts. One must be to <strong>Strength</strong> or <strong>Constitution</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Intimidation skill, and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.xQMz6eDgX75WX2ce] skill feat.</p>"
+        },
+        "feat->Intimidating Glare": {
+          "name": "Olhar Intimidante",
+          "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoralizar} apenas com um olhar feroz. Quando o fizer, Desmoralizar perde o traço auditivo e ganha o traço visual, e você não sofre penalidade se a criatura não entender seus idiomas.</p>"
+        },
+        "class->Commander": {
+          "name": "Comandante"
+        },
+        "feat->Tactics": {
+          "name": "Táticas"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          },
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p><strong>Acionamento</strong> Enquanto você estiver com seu escudo levantado, você receberia dano físico (contusão, perfuração ou corte) de um ataque.</p>\n<hr />\n<p>Você move seu escudo para se proteger de um golpe. Seu escudo evita que você receba uma quantidade de dano até a dureza do escudo. Você e o escudo recebem qualquer dano remanescente, possivelmente quebrando ou destruindo o escudo.</p>"
+          }
+        ],
+        "feat->Combat Assessment": {
+          "name": "Avaliação de Combate",
+          "description": "<p>Você faz um ataque telegrafado para aprender sobre seu inimigo. Realize um Golpear corpo a corpo. Em caso de acerto, você pode imediatamente tentar um teste para @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar Conhecimento} sobre o alvo. Em caso de acerto crítico, você ganha um bônus de circunstância de +2 no teste para Recordar Conhecimento. O alvo fica temporariamente imune à Avaliação de Combate por 1 dia.</p>"
+        },
+        "feat->Orc Ferocity": {
+          "name": "Ferocidade Órquica",
+          "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<p><strong>Acionamento</strong> Você seria reduzido a 0 Pontos de Vida mas não seria morto imediatamente.</p>\n<hr />\n<p>A ferocidade na batalha corre em seu sangue, e você se recusa a cair por seus ferimentos, não importa quão terríveis possam ser. Você evita ser nocauteado e permanece com 1 Ponto de Vida, e sua condição @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ferido} aumenta em 1.</p>"
+        },
+        "heritage->Hold-Scarred Orc": {
+          "name": "Orc Sarjado",
+          "description": "<p>Você é parte de uma comunidade órquica que participa de rituais de escarificação ou tatuagens. As marcas em sua pele mostram sua robustez e vitalidade excepcionais. Você recebe 12 Pontos de Vida de sua ancestralidade em vez de 10. Você também recebe o talento @Compendium[pf2e.feats-srd.I0BhPWqYf1bbzEYg]{Duro de Matar}.</p>"
+        },
+        "feat->Diehard": {
+          "name": "Duro de Matar",
+          "description": "<p>Leva mais tempo para te matar do que a maioria. Você morre da condição @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{morrendo} em morrendo 5, ao invés de morrendo 4.</p>"
+        },
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Halberd": {
+          "name": "Alabarda",
+          "description": "<p>Esta arma de haste possui um cabo relativamente curto de 1,5 metros. Em sua ponta fica um cravo longo com uma lâmina de machado anexada.</p>"
+        },
+        "treasure->Gold Pieces": {
+          "name": "Peças de Ouro"
+        },
+        "backpack->Backpack": {
+          "name": "Mochila",
+          "description": "<p>Uma mochila comporta até 4 Volumes de itens. Se estiver carregando ou arrumando a mochila em vez de usando-a nas costas, o Volume dela é leve em vez de desprezível. Os primeiros 2 Volumes de itens em sua mochila não contam contra seu limite de Volume.</p>"
+        },
+        "equipment->Rope": {
+          "name": "Corda",
+          "description": "<p>10 metros de corda.</p>"
+        },
+        "equipment->Waterskin": {
+          "name": "Cantil",
+          "description": "<p><span class=\"fontstyle0\">Esteja cheio ou vazio, um cantil possui Volume leve e é capaz de conter até 1 dia de água para uma criatura Pequena ou Média.  </p>"
+        },
+        "consumable->Chalk": {
+          "name": "Giz"
+        },
+        "equipment->Flint and Steel": {
+          "name": "Pederneira e Isqueiro",
+          "description": "<p><span class=\"fontstyle0\">Pederneira e isqueiro são usados para criar fogo em situações onde você tenha tempo o suficiente para bater um no outro e gerar uma faísca — algo demorado e pouco prático para realizar durante um encontro. Mesmo em condições ideais, usar pederneira e isqueiro para acender uma chama requer o uso de pelo menos 3 ações, e frequentemente mais ações que isso. </p>"
+        },
+        "consumable->Rations": {
+          "name": "Rações"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
+        "equipment->Bedroll": {
+          "name": "Esteira de Dormir",
+          "description": "Uma cama enrolada"
+        },
+        "equipment->Soap": {
+          "name": "Sabão",
+          "description": "<p>Uma barra de sabão.</p>"
+        },
+        "feat->Incredible Initiative": {
+          "name": "Iniciativa Incrível",
+          "description": "<p>Você reage mais rapidamente do que os outros. Você ganha um bônus de circunstância de +2 em rolagens de iniciativa.</p>"
+        },
+        "feat->Combat Climber": {
+          "name": "Escalador de Combate",
+          "description": "<p>As suas técnicas permitem que lute enquanto escala. Você não está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} ao escalar e pode escalar com uma mão ocupada. Ainda assim, você precisa usar outra mão e ambas as pernas para escalar.</p>"
+        },
+        "consumable->Oil of Potency": {
+          "name": "Óleo de Potência",
+          "description": "<p><span>Quando este óleo grosso e viscoso é aplicado em uma arma ou armadura não-mágica, o item se torna magicamente potente. Se for uma arma, ela temporariamente se torna uma arma  <em>+1 impactante</em>, e, se for uma armadura, ela temporariamente se torna uma armadura <em>+1 resiliente.</em>. Este efeito dura 1 minuto..  </p> <p><span><strong>Ativação</strong> <span class=\"pf2-icon\">A</span> Interagir </p>"
+        },
+        "armor->Breastplate": {
+          "name": "Placa Peitoral",
+          "description": "<p><span class=\"fontstyle0\">Embora chamada de placa peitoral, este tipo de armadura consiste de várias placas de armadura completa ou meia armadura (página 276) que protegem o torso, peito, pescoço e às vezes o quadril e as pernas. Ela estrategicamente concede parte da proteção da armadura completa enquanto permite maior flexibilidade e velocidade. </p>"
+        },
+        "equipment->Bracelet of Dashing": {
+          "description": "<p>This jangling, silvery bracelet makes you lighter on your feet, giving you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate</strong> <span class=\"pf2-icon\">A  command</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> You gain a +10-foot status bonus to Speed for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.lLP56tbG689TNKW5]{Effect: Bracelet of Dashing}</p>"
+        },
+        "equipment->Bracers of Missile Deflection": {
+          "name": "Braçadeiras de Deflexão de Projéteis",
+          "description": "<p><span>Estas braçadeiras são feitas de placas de mithral durável e brilham como o sol do verão.  </p> <p><span><strong>Ativação</strong>  <span class=\"pf2-icon\">R</span>ion\"> Interagir; <strong>Frequência</strong> uma vez por dia; <strong>Gatilho</strong> Um ataque de arma à distância acerta você, mas não é um acerto crítico; <strong>Exigências</strong> Você está ciente do ataque e não está desprevenido;; <strong>Effect</strong> As braçadeiras desviam o projétil de seu curso. Você recebe +2 de bônus de circunstância na CA contra o ataque acionador. Se isto tornaria o ataque uma falha, o ataque erra. </p>"
+        },
+        "consumable->Healing Potion (Lesser)": {
+          "name": "Poção de Cura (Menor)",
+          "description": "<p>Uma poção de cura é um frasco de líquido vermelho-rubi que causa uma sensação de formigamento enquanto cura rapidamente os ferimentos de quem a bebe. Quando bebe uma poção de cura, você recupera a quantidade listada de Pontos de Vida.</p> <p>A poção restaura 2d8+5 Pontos de Vida.</p>"
+        },
+        "feat->Defy Death": {
+          "name": "Desafiar a Morte",
+          "description": "<p>Você é excepcionalmente difícil de matar. O CD dos seus testes de recuperação é igual a 9 + seu valor de morrendo, ou 8 + seu valor de morrendo se você tiver o talento geral @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{Resistência}. Além disso, sempre que alguém o traz de volta à vida usando magia que normalmente o deixaria debilitado por uma semana (como @UUID[Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG]{Ressuscitar Mortos} ou o ritual de ressurreição), você não sofre essa condição.</p>"
+        },
+        "feat->Intimidating Prowess": {
+          "name": "Intrepidez Intimidante",
+          "description": "<p>Em situações em que você pode ameaçar fisicamente o alvo quando você @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coagir} ou @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Atemorizar}, você ganha um bônus de circunstância de +1 no seu teste de Intimidação e ignora a penalidade por não compartilhar um idioma. Se o seu modificador de Força for +5 ou maior e você for um mestre em Intimidação, este bônus aumenta para +2.</p>"
         }
       }
     },

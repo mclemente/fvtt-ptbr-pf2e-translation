@@ -1,12 +1,5 @@
 {
   "entries": {
-    "Abyssal Muckrager": {
-      "items": {
-        "strike-melee->Hoof": {
-          "name": "Casco"
-        }
-      }
-    },
     "Ainamuuren": {
       "items": {
         "strike-melee->Tentacle": {
@@ -38,22 +31,15 @@
         }
       }
     },
+    "Arctic Bloom": {
+      "items": {
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        }
+      }
+    },
     "Aspect of Ruun": {
       "items": {
-        "spell->Remove Disease": {
-          "name": "Remover Doença",
-          "description": "<p>Cura mágica purga uma doença do corpo de uma criatura. Você tenta neutralizar uma doença que esteja afligindo o alvo.<p>",
-          "target": "1 creature"
-        },
-        "spell->Remove Fear": {
-          "target": "1 creature"
-        },
-        "spell->Restore Senses": {
-          "target": "1 creature"
-        },
-        "spell->Purify Food and Drink": {
-          "target": "1 cubic foot of contaminated food or water"
-        },
         "strike-melee->Talon": {
           "name": "Unha"
         }
@@ -88,9 +74,6 @@
     },
     "Bolan Nogasso": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         }
@@ -142,19 +125,30 @@
         }
       }
     },
+    "Creeping Evil": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        },
+        "action->Motion Sense": {
+          "name": "Sentido de movimento"
+        }
+      }
+    },
     "Delphon": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         },
         "strike-ranged->Acid Flask (Lesser)": {
           "name": "Frasco de Ácido (Menor)"
-        },
-        "action->Wild Shape": {
-          "name": "Aspecto Selvagem"
+        }
+      }
+    },
+    "Demonic Muckrager": {
+      "items": {
+        "strike-melee->Hoof": {
+          "name": "Casco"
         }
       }
     },
@@ -162,6 +156,25 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        }
+      }
+    },
+    "Deniigi": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "lore->Hunting Lore": {
+          "name": "Saber de Caça"
         }
       }
     },
@@ -206,9 +219,6 @@
     },
     "Etward Ritalson": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "consumable->Scroll of Black Tentacles (Level 5)": {
           "consumableSpellName": "Tentáculos Negros",
           "consumableSpellDescription": "<p>Tentáculos negros oleosos se erguem e tentam Agarrar cada criatura na área. Faça rolagens de ataque de magia contra a CD de Fortitude de cada criatura na área. Qualquer criatura contra a qual você obtiver sucesso fica @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado} e sofre 3d6 de dano contundente. Sempre que uma criatura encerrar o turno dela na área, os tentáculos tentam agarrar essa criatura se ainda não tiverem feito isso, e causam 1d6 de dano contundente a qualquer criatura @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado}.</p><p>A CD de Escapar dos tentáculos é igual à sua CD de magia. Uma criatura pode atacar um tentáculo na tentativa de libertar-se. A CA dele é igual à sua CD de magia e ele é destruído se sofrer 12 ou mais de dano. Mesmo se destruído, tentáculos adicionais continuam a crescer na área até a duração encerrar. Você pode Dispensar esta magia.</p>"
@@ -281,6 +291,16 @@
         }
       }
     },
+    "Gokeki": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Harpoon": {
+          "name": "Arpão"
+        }
+      }
+    },
     "Green Monkey": {
       "items": {
         "strike-melee->Jaws": {
@@ -320,6 +340,29 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        }
+      }
+    },
+    "Innumma": {
+      "items": {
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "lore->Weather Lore": {
+          "name": "Saber de Clima"
+        }
+      }
+    },
+    "Jarvs": {
+      "items": {
+        "lore->Library Lore": {
+          "name": "Saber Biblioteconomia"
+        },
+        "lore->Scribing Lore": {
+          "name": "Saber Escrita"
         }
       }
     },
@@ -376,6 +419,16 @@
         }
       }
     },
+    "Leiko": {
+      "items": {
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
     "Mindmoppet": {
       "items": {
         "action->Shell": {
@@ -401,9 +454,6 @@
     },
     "Oaksteward Enforcer": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         },
@@ -412,25 +462,16 @@
         },
         "strike-ranged->Dagger": {
           "name": "Adaga"
-        },
-        "action->Wild Shape": {
-          "name": "Aspecto Selvagem"
         }
       }
     },
     "Oaksteward Enforcer (Gatehouse)": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         },
         "strike-ranged->Heavy Crossbow": {
           "name": "Besta Pesada"
-        },
-        "action->Wild Shape": {
-          "name": "Aspecto Selvagem"
         }
       }
     },
@@ -438,13 +479,6 @@
       "items": {
         "strike-melee->Talon": {
           "name": "Unha"
-        }
-      }
-    },
-    "Ogmunzorius": {
-      "items": {
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
         }
       }
     },
@@ -461,13 +495,6 @@
         }
       }
     },
-    "Protosoul": {
-      "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        }
-      }
-    },
     "Quarry Construct": {
       "items": {
         "strike-melee->Warhammer": {
@@ -477,9 +504,6 @@
     },
     "Sakuachi": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Spear": {
           "name": "Lança"
         },
@@ -500,12 +524,6 @@
     },
     "Snowy Owl": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
         },
@@ -516,20 +534,6 @@
     },
     "Stone-Breasted Owl": {
       "items": {
-        "spell->Remove Disease": {
-          "name": "Remover Doença",
-          "description": "<p>Cura mágica purga uma doença do corpo de uma criatura. Você tenta neutralizar uma doença que esteja afligindo o alvo.<p>",
-          "target": "1 creature"
-        },
-        "spell->Remove Fear": {
-          "target": "1 creature"
-        },
-        "spell->Restore Senses": {
-          "target": "1 creature"
-        },
-        "spell->Purify Food and Drink": {
-          "target": "1 cubic foot of contaminated food or water"
-        },
         "strike-melee->Talon": {
           "name": "Unha"
         }
@@ -567,13 +571,19 @@
         }
       }
     },
-    "Tree Fisher": {
+    "Ulikuq": {
       "items": {
-        "strike-melee->Claw": {
-          "name": "Garra"
+        "strike-ranged->Spear": {
+          "name": "Lança"
         },
-        "strike-ranged->Harpoon": {
-          "name": "Arpão"
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "lore->Fortune-Telling Lore": {
+          "name": "Saber de Vidência"
+        },
+        "lore->Sailing Lore": {
+          "name": "Saber de Navegação"
         }
       }
     },
@@ -587,9 +597,6 @@
         },
         "strike-melee->War Razor": {
           "name": "Navalha de Guerra"
-        },
-        "strike-ranged->Blowgun": {
-          "name": "Zarabatana"
         }
       }
     },

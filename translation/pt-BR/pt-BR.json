@@ -141,8 +141,8 @@
       "Attacks": "Ataques",
       "Character": {
         "ABCPicker": {
-          "SearchPlaceholder": "Search {items}",
-          "Title": "Seleção {type}",
+          "SearchPlaceholder": "Procurar {items}",
+          "Title": "Seleção de {type}",
           "Tooltip": {
             "ConfirmSelection": "Confirmar seleção",
             "ViewSheet": "Abrir ficha"
@@ -210,7 +210,7 @@
         },
         "Crafting": {
           "Action": {
-            "Hint": "Select an item to craft using {resource} ({value}/{max})",
+            "Hint": "Selecione um item para manufaturar usando {resource} ({value}/{max})",
             "HintResourceless": "Escolha um item para Manufaturar"
           },
           "BatchQuantity": "x{quantity}",
@@ -353,7 +353,6 @@
           "halfling": "Halfling",
           "hallit": "Hallita",
           "hwan": "Hwan",
-          "iblydan": "Iblydan",
           "ikeshti": "Ikeshti",
           "immolis": "Immolis",
           "iruxi": "Iruxi",
@@ -596,12 +595,10 @@
         },
         "Identification": {
           "Skills": {
-            "Label": "{skills}: CD {dc} ({adjustment})",
-            "Tooltip": "\"A perícia utilizada para identificar uma criatura normalmente depende dos traços que ela possui, conforme mostrado na Tabela 10–7 (mas você tem uma grande margem para decidir qual perícia se aplica).\" – Livro Básico pág. 506"
+            "Label": "{skills}: CD {dc} ({adjustment})"
           },
           "Lore": {
-            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})",
-            "Tooltip": "\"Utilizar o Saber aplicável normalmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" – Livro Básico pág. 506"
+            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})"
           }
         },
         "LevelN": "Criatura {level}",
@@ -900,6 +897,7 @@
       "dropped": "Largado",
       "held1": "Segurado 1M",
       "held2": "Segurado 2M",
+      "implanted": "Implantado",
       "stowed": "Armazenado",
       "worn": "Vestido",
       "worn-in-slot": "Vestido (no Espaço)"
@@ -1058,7 +1056,7 @@
       "Foundry": "Foundry",
       "FoundryOld": "0.7 ou mais velho",
       "Invalid": "Inválido",
-      "LockedTooltip": "Não é possível migrar – o compêndio está bloqueado",
+      "LockedTooltip": "Não é possível migrar — o compêndio está bloqueado",
       "MigrateCompendium": "Migrar Compêndio",
       "Schema": "Esquema",
       "Size": "Tamanho",
@@ -1211,9 +1209,9 @@
         },
         "CompositeLabel": {
           "Simple": "{type} {value}",
-          "DoubleVs": "{type} {value} (double resistance vs. {doubleVs})",
-          "Exceptions": "{type} {value} (except {exceptions})",
-          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; double resistance vs. {doubleVs})"
+          "DoubleVs": "{type} {value} (resistência dobrada vs. {doubleVs})",
+          "Exceptions": "{type} {value} (exceto {exceptions})",
+          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; resistência dobrada vs. {doubleVs})"
         },
         "Type": {
           "abysium": "abysium",
@@ -1253,7 +1251,7 @@
           "fatigued": "fatigado",
           "fear-effects": "efeitos de Medo",
           "fleeing": "fugindo",
-          "fortune-effects": "efeitos da sorte",
+          "fortune-effects": "efeitos de fortuna",
           "frightened": "assustado",
           "ghost-touch": "toque Fantasma",
           "glass": "vidro",
@@ -2669,7 +2667,8 @@
         "LineSplit": ";",
         "MeasuredTemplate": {
           "Clear": "Limpar gabaritos colocados",
-          "Place": "Colocar {area}"
+          "Place": "Colocar {area}",
+          "PlacementTooltip": "<strong>Clique</strong> para travar a posição no mapa e habilitar a rotação. Clique novamente para posicionar.<br><strong>Clique direito</strong> para destravar ou cancelar.<br>Segure <strong>Shift</strong> para posicionar diretamente sem a rotação.<br>Segure <strong>Ctrl</strong> para desabilitar o encaixe automático da grade ao rotacionar."
         },
         "Plural": "Magias",
         "Rank": {
@@ -2705,7 +2704,8 @@
       "Weapon": {
         "FIELDS": {
           "expend": {
-            "label": "Investir"
+            "hint": "Isso indica quanta munição é consumida com cada Golpe à distância que você faz com a arma. Outras habilidades podem citar o uso de Gasto como a quantidade de munição necessária para concluir a ação.",
+            "label": "Gasto"
           }
         },
         "CanBeAmmo": {
@@ -2840,7 +2840,7 @@
     "Level9": "Nível 9",
     "LevelLabel": "Nível",
     "LevelN": "Nível {level}",
-    "LevelRange": "Nível{minLevel} - {level}",
+    "LevelRange": "Níveis {minLevel} — {level}",
     "LicenseViewer": {
       "Label": "Aviso Legal",
       "LandingPageText": "Use as abas acima para ler as informações legais"
@@ -3302,13 +3302,13 @@
       "KeepHigher": "Rerrolar e manter o maior resultado",
       "KeepNew": "Rerrolar e manter o novo resultado",
       "KeepLower": "Rerrolar e manter o menor resultado",
-      "MessageHeroPoint": "Rerrolar usando um Ponto de Heroísmo",
+      "MessageHeroPoints": "Rerrolar usando um Ponto de Heroísmo",
       "MessageKeep": {
         "higher": "Rerrolou e manteve o maior resultado",
         "new": "Rerrolar e manter o novo resultado",
         "lower": "Rerrolou e manteve o menor resultado"
       },
-      "WarnNoHeroPoint": "{name} não possui Pontos de Heroísmo"
+      "WarnNoResource": "{name} não tem {resource}"
     },
     "ResistancesLabel": "Resistências",
     "RestoreSpellTitle": "Restaurar Magia",
@@ -3756,7 +3756,8 @@
         "Unlimited": "Ilimitado"
       },
       "SyncDarkness": {
-        "Label": "Sincronizar Escuridão com o Tempo"
+        "Label": "Sincronizar Escuridão com o Tempo",
+        "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>."
       }
     },
     "ScoreTitle": "Valor",
@@ -4094,6 +4095,7 @@
     "TraitCoda": "Coda",
     "TraitCold": "Frio",
     "TraitColdiron": "Ferro Frio",
+    "TraitCommander": "Comandante",
     "TraitCombination": "Combinação",
     "TraitComfort": "Confortável",
     "TraitCommon": "Comum",
@@ -4179,7 +4181,6 @@
     "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[crafting|dc:10]{Manutafura}; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
     "TraitDescriptionAttack": "Uma habilidade com esse traço envolve um ataque. Para cada ataque que você fizer após o primeiro em seu turno, você sofre uma penalidade de ataques múltiplos.",
     "TraitDescriptionAuditory": "Ações e efeitos auditivos se baseiam em som. Uma ação com o traço auditivo pode ser executada com sucesso somente se a criatura usando a ação puder falar ou de outra forma produzir os sons requeridos. Uma magia ou efeito com o traço auditivo surte efeito somente se o alvo puder ouvi-los. Isto se aplica somente às partes do efeito baseadas em som, conforme determinado pelo MJ. Isto é diferente de um efeito sônico, que ainda afeta alvos incapazes de ouvi-lo (como alvos surdos) desde que o efeito emita um som.",
-    "TraitDescriptionAura": "Uma aura é uma emanação que exala continuamente de você, afetando criaturas dentro de um determinado raio. Aura também pode se referir à assinatura mágica de um item ou de uma criatura com uma tendência forte.",
     "TraitDescriptionAutomaton": "Uma criatura com este traço é membro da ancestralidade automata.",
     "TraitDescriptionAwakenedAnimal": "Os animais despertados já foram criaturas normais antes de ganharem sapiência.",
     "TraitDescriptionAzarketi": "Humanoides anfíbios que vivem entre os mares da região do Mar Interior, dizem ser descendentes do povo de Azlant. Às vezes conhecidos como Homens-guelra ou Baixos Azlanti. Azarketi são uma ramificação de humanos adaptados para viver em comunidades aquáticas. Eles têm guelras, dedos palmados e pequenas nadadeiras e podem sobreviver dentro ou fora da água.",
@@ -4245,7 +4246,6 @@
     "TraitDescriptionDarvakka": "Criaturas mortos-vivos entrópicos, distorcidos pelo Plano das Sombras e Plano da Energia Negativa.",
     "TraitDescriptionDeadly": "Em um acerto crítico, a arma adiciona um dado de dano de arma do tamanho listado. Role este dado depois de dobrar o dano da arma. Este dado extra aumenta para dois dados se a arma possuir uma runa impactante maior e para três dados se a arma possuir uma runa impactante superior. Por exemplo, uma rapieira com uma runa impactante maior causa 2d8 extras de dano perfurante em um acerto crítico. Uma habilidade que alterar o tamanho do dado de dano normal da arma não altera o tamanho do dado mortal dela.",
     "TraitDescriptionDeath": "Um efeito com o traço morte lhe mata imediatamente se reduzi-lo a 0 PV. Alguns efeitos de morte podem deixá-lo mais perto da morte ou matá-lo imediatamente mesmo sem reduzi-lo a 0 PV.",
-    "TraitDescriptionDedication": "Você deve selecionar um talento com este traço para aplicar um arquétipo ao seu personagem.",
     "TraitDescriptionDeflecting": "Este escudo é projetado para bloquear ou desviar certas categorias de ataques, ou armas. Aumente a dureza deste escudo contra os tipos listados de ataque em 2.",
     "TraitDescriptionDemon": "Uma família de demônios, os demônios originam-se ou traçam suas origens das Fendas Exteriores. A maioria é irremediavelmente profana e possui visão no escuro e fraquezas contra ferro frio e sagrado.",
     "TraitDescriptionDero": "Esta família de humanoides são descendentes de criaturas feéricas que caíram na escuridão e confusão após serem abandonadas nas Terras Sombrias. Eles são imunes à confusão e vulneráveis à luz do sol.",
@@ -4275,7 +4275,7 @@
     "TraitDescriptionElixir": "Elixires são líquidos alquímicos que são usados ao serem bebidos.",
     "TraitDescriptionEmotion": "Este efeito altera as emoções de uma criatura. Efeitos com este traço sempre possuem também o traço mental. Criaturas com treinamento especial ou que possuem inteligência artificial ou mecânica são imunes a efeitos de emoção.",
     "TraitDescriptionEntrench": "Você pode se posicionar na armadura ou reposicionar suas peças articuladas para melhor proteger-lhe de certos ataques. Se você é treinado nessa armadura, enquanto a usa, pode gastar uma única ação para ganhar bônus de circunstância +1 para CA contra certos tipos de ataques até o fim do seu próximo turno. O traço Entrincheirar lista os tipos de ataque para qual este bônus se aplica, tipicamente Entrincheirar Corpo-a-Corpo ou Entrincheirar Alcance.",
-    "TraitDescriptionEnvironment": "Um perigo com este traço é algo perigoso que faz parte do mundo natural, como areia movediça ou bolor nocivo.",
+    "TraitDescriptionEnvironmental": "Um perigo com este traço é algo perigoso que faz parte do mundo natural, como areia movediça ou bolor nocivo.",
     "TraitDescriptionEsoterica": "O traço esotérica está presente em muitos talentos taumaturgos e características de classe que incorporam vários talismãs, badulaques sobrenaturais e outros objetos que carregue com você. Habilidades com este traço requerem que você esteja na possessão de sua esotérica para usá-las. Normalmente, é assumido que você sempre esteja com sua esotérica, mas em algumas raras circunstâncias, você pode não te-las em mãos ou ter seu equipamento removido de você.",
     "TraitDescriptionEthereal": "Criaturas etéreas são nativas do Plano Etéreo. Elas podem sobreviver aos efeitos ambientais básicos do Plano Etéreo.",
     "TraitDescriptionEvolution": "Talentos com este traço afetam seu eidolon em vez de você, normalmente concedendo a ele capacidades físicas adicionais.",
@@ -4577,7 +4577,7 @@
     "TraitDoubleBarrel": "Barril Duplo",
     "TraitDowntime": "Recesso",
     "TraitDragon": "Dragão",
-    "TraitDragonblood": "Draconato",
+    "TraitDragonblood": "Sangue Dracônico",
     "TraitDream": "Sonho",
     "TraitDromaar": "Dromaar",
     "TraitDrow": "Drow",
@@ -4679,6 +4679,7 @@
     "TraitGrimoire": "Grimório",
     "TraitGrioth": "Grioth",
     "TraitGrippli": "Grippli",
+    "TraitGuardian": "Guardião",
     "TraitGunslinger": "Pistoleiro",
     "TraitHag": "Estriga",
     "TraitHalcyon": "Idílico",
@@ -5014,6 +5015,7 @@
     "TraitSwashbuckler": "Espadachim",
     "TraitSweep": "Amplitude",
     "TraitSylph": "Sylph",
+    "TraitTactic": "Tática",
     "TraitTalisman": "Talismã",
     "TraitTalos": "Talos",
     "TraitTandem": "Sintonia",
@@ -5038,7 +5040,7 @@
     "TraitThrown200": "Arremessável 200 pés",
     "TraitThrown30": "Arremesso 30 pés",
     "TraitThrown40": "Arremesso 40 pés",
-    "TraitThrown50": "Arremesso 50 pés.",
+    "TraitThrown50": "Arremesso 50 pés",
     "TraitThrown60": "Arremesso 60 pés",
     "TraitThrown80": "Arremesso 80 pés",
     "TraitTime": "Tempo",
@@ -5223,7 +5225,6 @@
     },
     "UnitedPaizoWorkers": {
       "PFSNote": "Nota para jogadores da Sociedade Pathfinder: Em apoio ao UPW, A mercadoria comprada na loja da união contará na região PFS online para os <span class=\"hover\" title=\"When you use a Hero Point to reroll a check, add a +1 cirumstance bonus to the reroll\">Vestimentos</a> promocionais.",
-      "ReleaseIntro": "Redmond, WA (14 de outubro, 2021) — Hoje, os colaboradores da Paizo, Inc - publicadores dos jogos de interpretação de Pathfinder e de Starfinder - estão anunciando a sua formação da união do United Paizo Workers union (UPW), com os Communication Workers of America's CODE-CWA. Esta união é a primeira do seu gênero na indústria de jogos de interpretação.",
       "Title": "Anúncio: United Paizo Workers"
     },
     "UnprepareItemTitle": "Despreparar Item",
@@ -5496,7 +5497,7 @@
         "visap": "Visap",
         "wakizashi": "Wakizashi",
         "war-flail": "Mangual de Guerra",
-        "war-lance": "War Lance",
+        "war-lance": "Lança de Guerra",
         "war-razor": "Navalha de Guerra",
         "warhammer": "Martelo de Guerra",
         "wheel-blades": "Lâminas de Roda",
@@ -6048,13 +6049,10 @@
       },
       "concealed": {
         "name": "Ocultado",
-        "rules": "<p>Enquanto estiver ocultado para uma criatura, como em uma névoa espessa, você é difícil de ser visto por essa criatura. Você ainda pode ser Observado, mas é um alvo mais difícil. Uma criatura para a qual você esteja ocultado deve obter sucesso em um teste simples @Check[flat|dc:5]{Teste Simples} quando mirá-lo com um ataque, magia ou outro efeito.</p>\n<p>Efeitos de área não são sujeitos a este teste simples. Se o teste falhar, o ataque, magia ou efeito não o afeta.</p>",
         "summary": "Névoa ou obscurecimento similar o torna difícil de ser visto e mirado."
       },
       "confused": {
         "name": "Confuso",
-        "note": "Sempre que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|showDC:all|dc:11] para se recuperar da confusão e encerrar esta condição.",
-        "rules": "<p>Você não tem certeza sobre as coisas, e ataca selvagemente. Você está desprevenido, não trata ninguém como aliado (embora seus aliados ainda possam tratá-lo como um aliado deles) e não pode Adiar, Preparar ou usar reações.<p></p>Você usa todas suas ações para Golpear ou conjurar truques mágicos ofensivos, embora o MJ possa fazer você usar outras ações para facilitar o ataque, como sacar uma arma, mover-se para que um alvo esteja ao alcance e assim por diante. Seus alvos são determinados aleatoriamente pelo MJ. Se não tiver outros alvos viáveis, você acerta a si mesmo, acertando-se automaticamente, mas sem causar um acerto crítico. Se for impossível atacar ou conjurar magias, você balbucia incoerentemente, desperdiçando suas ações.</p>\n<p>Cada vez que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|dc:11]{Teste Simples} para recuperar-se de sua confusão e encerrar a condição.</p>",
         "summary": "Você ataca indiscriminadamente."
       },
       "controlled": {
@@ -6069,8 +6067,6 @@
       },
       "deafened": {
         "name": "Surdo",
-        "note": "Se usar uma ação com o traço auditivo, você deve ser bem-sucedido em um @Check[flat|dc:5|showDC:all] ou a ação é perdida.",
-        "rules": "<p>Você não pode ouvir. Você automaticamente falha criticamente em testes de Percepção que requeiram que você seja capaz de ouvir. Você sofre -2 de penalidade de circunstância em testes de Percepção para iniciativa e testes que envolvam som e também utilizem de outros sentidos. Se realizar uma ação com o traço auditivo, você deve obter sucesso em um @Check[flat|dc:5]{Teste Simples} ou a ação é perdida; faça o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados. Você fica imune a efeitos auditivos.</p>",
         "summary": "Você é incapaz de ouvir."
       },
       "doomed": {
@@ -6130,8 +6126,6 @@
       },
       "grabbed": {
         "name": "Agarrado",
-        "note": "Se usar uma ação com o traço manuseio, você deve ser bem-sucedido em um @Check[flat|dc:5|showDC:all] ou a ação é perdida.",
-        "rules": "<p>Você é mantido no lugar por outra criatura, impondo-lhe as condições desprevenido e imobilizado. Se tentar uma ação de manuseio enquanto estiver agarrado, você deve obter sucesso em um teste simples @Check[flat|dc:5]{Teste Simples} ou ela é perdida; role o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados.</p>",
         "summary": "Uma criatura, objeto ou magia o segura no lugar."
       },
       "group": {
@@ -6147,7 +6141,6 @@
       },
       "hidden": {
         "name": "Escondido",
-        "rules": "<p>Enquanto estiver escondido para uma criatura, essa criatura sabe o espaço em que você está, mas é incapaz de determinar a sua localização precisa. Você normalmente fica escondido ao utilizar Furtividade para se Esconder. Quando Buscar uma criatura utilizando somente sentidos imprecisos, ela continua escondida em vez de observada. Uma criatura para a qual você estiver escondido fica Desprevenida para você e deve obter sucesso em um teste simples @Check[flat|dc:11]{Teste Simples} quando mirá-lo com um ataque, magia ou outro efeito, ou falha em afetá-lo. Efeitos de área não são sujeitos a este teste simples.</p><p>Uma criatura pode ser capaz de usar a ação Buscar para tentar observá-lo.</p>",
         "summary": "Uma criatura da qual você está escondido(a) sabe sua localização mas não pode te ver."
       },
       "hostile": {
@@ -6224,7 +6217,6 @@
       },
       "stupefied": {
         "name": "Estupefato",
-        "note": "A qualquer momento que você tentar @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} enquanto estupefato, a magia é interrompida, a menos que você obtenha sucesso em um @Check[flat|showDC:all|dc:resolve(5+@actor.conditions.stupefied.value)].",
         "rules": "<p>Seus pensamentos e instintos ficam nublados. Estupefato sempre inclui um valor. Você sofre uma penalidade de estado igual ao valor desta condição em testes e CDs baseadas em Inteligência, Sabedoria e Carisma, incluindo jogadas de salvamento de Vontade, rolagens de ataque de magia, CDs de magia e testes de perícias que utilizem estes atributos. A qualquer momento em que você tentar Conjurar uma Magia enquanto estiver estupefato, a magia é interrompida a menos que você obtenha sucesso em um teste simples com CD igual a 5 + seu valor de estupefato.</p>",
         "summary": "Você não pode acessar suas faculdades mentais completas e tem problema em conjurar magias."
       },
@@ -6235,7 +6227,6 @@
       },
       "undetected": {
         "name": "Indetectado",
-        "rules": "<p>Quando estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem ideia do espaço que você ocupa e não pode mirá-lo — embora você ainda possa ser afetado por habilidades que mirem uma área. Quando estiver indetectado por uma criatura, essa criatura fica Desprevenida para você.</p><p>Uma criatura para a qual você está indetectado pode tentar descobrir onde você está para tentar mirá-lo. Ela deve escolher um quadrado e fazer um ataque. Isto funciona como mirar uma criatura escondida (requerendo um @Check[flat|dc:11]{Teste Simples}), mas o teste simples e rolagem de ataque são feitos em segredo pelo MJ — que não revela se o ataque errou por falhar no teste simples, por falhar na rolagem de ataque ou por escolher o quadrado errado.</p><p>Uma criatura pode usar a ação Buscar para tentar encontrá-lo.</p>",
         "summary": "Uma criatura para a qual você está indetectado não sabe onde você está."
       },
       "unfriendly": {
