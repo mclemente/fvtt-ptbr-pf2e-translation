@@ -371,6 +371,9 @@
       },
       "target": "1 creature that isn't on its home plane"
     },
+    "Barbed Spear": {
+      "target": "1 creature"
+    },
     "Bathe in Blood": {
       "name": "Bathe in Blood",
       "cost": "ervas e componentes alquímicos num total de 1.000 po × o nível do alvo",
@@ -1135,6 +1138,9 @@
     "Curse of Lost Time": {
       "target": "1 Large or smaller object, construct, or living creature"
     },
+    "Curse of Recoil": {
+      "target": "1 creature"
+    },
     "Curse of the Spirit Orchestra": {
       "target": "1 creature"
     },
@@ -1703,6 +1709,9 @@
       "name": "Empty Pack",
       "description": "<p>You render every item inside the container you touch @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}, although the container itself remains visible. The items within are undetected to all creatures, though a creature can attempt to find an item by reaching into the bag, making an item @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to them instead if they succeed. Additionally, the spell doesn't prevent the items from making protrusions in the bag, adding weight, making noise when jostling around, and so on. However, the spell prevents anything within the container from falling out if it's upended. Any object removed from the container becomes visible and remains visible even if returned to the container.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The duration is until the next time you make your daily preparations.</p>",
       "target": "1 container of 2 Bulk or less"
+    },
+    "Encroaching Woods": {
+      "primarycheck": "Nature (master)"
     },
     "Endure": {
       "name": "Suportar",
@@ -2492,6 +2501,9 @@
     },
     "Hellfire Plume": {
       "name": "Erupção de Fogo Infernal"
+    },
+    "Helpful Reload": {
+      "target": "the triggering creature"
     },
     "Hero's Defiance": {
       "name": "Desafio do Herói"
@@ -3659,6 +3671,9 @@
     "Pinpoint": {
       "target": "1 creature or object"
     },
+    "Plague Shot": {
+      "secondarycheck": "Saber de Guerra"
+    },
     "Planar Servitor": {
       "primarycheck": "Religion (expert)",
       "secondarycheck": "Diplomacia"
@@ -4289,6 +4304,9 @@
       "description": "<p>Você muda o texto escrito no alvo para um texto inteiramente diferente. Se o texto for um grimório ou pergaminho, você pode mudá-lo para mostrar uma magia que você conhece do nível da página secreta ou inferior. Você também pode transformar o texto em algum outro texto que você tenha escrito ou ao qual tenha acesso. Você pode especificar uma senha que permite que uma criatura toque a página para alternar o texto entre o antigo e o novo. Você deve escolher o texto de substituição e a senha, se houver, quando Conjurar a Magia.</p>",
       "target": "1 page up to 3 square feet in size"
     },
+    "Secure Siege Weapons": {
+      "secondarycheck": "Saber de Engenharia"
+    },
     "See the Unseen": {
       "name": "Ver o Invisível"
     },
@@ -4776,6 +4794,9 @@
       "name": "Steal the Sky",
       "description": "<p><strong>Trigger</strong> You make a successful unarmed Strike against a flying creature.</p>\n<hr />\n<p>You deny a flying creature the support of the air.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target descends 60 feet. If it hits a surface, it takes bludgeoning damage as if it had fallen.</p>\n<p><strong>Failure</strong> As success; if the target hits a surface, it falls @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} and can't Fly, levitate, or otherwise leave the ground for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature takes double damage from hitting a surface.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the distance the creature must descend by 20 feet.</p>",
       "target": "the creature you hit"
+    },
+    "Sticky Fire": {
+      "target": "1 creature"
     },
     "Sting of the Sea": {
       "target": "1 creature"
