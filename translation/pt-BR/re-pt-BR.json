@@ -170,9 +170,22 @@
         }
       },
       "DemonForm": {
+        "ChoiceSet": {
+          "Abrikandilu": "Abrikandilu",
+          "Brimorak": "Brimorak"
+        },
         "Note": {
           "AbrikandiluCritical": "Em um acerto crítico, o alvo está @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} por 1 minuto."
-        }
+        },
+        "Prompt": "Escolha um demônio."
+      },
+      "DevilForm": {
+        "ChoiceSet": {
+          "Coarti": "Coarti",
+          "Levaloch": "Levaloch",
+          "Vordine": "Vordine"
+        },
+        "Prompt": "Escolha um diabo."
       },
       "ElementEmbodied": {
         "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
@@ -682,6 +695,7 @@
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
         "BludgeoningPiercingSlashing": "dano contundente, perfurante e cortante",
         "BludgeoningPiercingSlashingFromFrightenedStrikes": "dano de Golpe contundente, perfurante e cortante de criaturas assustadas",
+        "Bronze": "bronze",
         "CalistriasBane": "Ruína da Calistria",
         "ColdIronBludgeoning": "contundente de ferro frio",
         "CrystalHazards": "perigos de cristal",
@@ -707,6 +721,7 @@
         "PhysicalRangedAttacks": "ataques físicos à distância",
         "PhysicalWeaponsOnly": "físico (somente armas)",
         "RangedWeaponAttacks": "ataques à distância com armas",
+        "SpellsFromAllTraditions": "magias de todas as tradições",
         "Spirits": "espíritos",
         "UnholyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante profano",
         "VoidZonKuthonFollowers": "vazio de seguidores de Zon-Kuthon"
@@ -736,6 +751,7 @@
           "DefensiveResistance": "Ressonância Defensiva",
           "Illumination": "Iluminação",
           "IlluminationColor": "Ressonância de Iluminação",
+          "Sensory": "Sensorial",
           "Subterfuge": "Subterfúgio"
         }
       },
@@ -809,6 +825,7 @@
           "Cassisian": "Cassisiano",
           "CaveWorm": "Verme das Cavernas",
           "Cobra": "Serpente",
+          "Coyote": "Coiote",
           "Dog": "Cachorro",
           "Dove": "Pombo",
           "Dragon": "Dragão",
@@ -893,6 +910,7 @@
           "RajaKrodha": "Raja-Krodha",
           "Raktavarna": "Raktavarna",
           "Rat": "Rato",
+          "Raven": "Corvo",
           "Scorpion": "Escorpião",
           "SeaSerpent": "Serpente do Mar",
           "Shark": "Tubarão",
@@ -988,7 +1006,12 @@
       },
       "FiveColorOrchidMantis": {
         "ColorShift": {
-          "None": "Nenhuma Cor Selecionada"
+          "Black": "Preto — Água",
+          "Green": "Verde — Madeira",
+          "None": "Nenhuma Cor Selecionada",
+          "Red": "Vermelho — Fogo",
+          "White": "Branco — Metal",
+          "Yellow": "Amarelo — Terra"
         }
       },
       "GangUp": {
@@ -1135,7 +1158,19 @@
           "Label": "Ínfero"
         },
         "Poisoner": {
-          "Label": "Veneficista"
+          "Label": "Veneficista",
+          "StrikeLabel": "Siringa Pequena"
+        },
+        "Smart": {
+          "Label": "Inteligente"
+        },
+        "Strong": {
+          "Label": "Forte",
+          "Shield": "Escudo Pequeno",
+          "StrikeLabel": "Espada Pequena"
+        },
+        "Swift": {
+          "StrikeLabel": "Adaga Pequena"
         },
         "Undead": {
           "Label": "Morto-Vivo"
@@ -1246,6 +1281,21 @@
         "TridentOfDis": {
           "NoAlly": "Nenhum Aliado",
           "UnholyAlly": "Aliado Profano"
+        }
+      },
+      "Vrock": {
+        "DanceOfRuin": {
+          "Four": "Quatro Vrocks",
+          "One": "Um Vrock",
+          "Round": "Dança da Ruína — Rodadas",
+          "Three": "Três Vrocks",
+          "Two": "Dois Vrocks"
+        }
+      },
+      "Warsworn": {
+        "AnimatedWeapon": {
+          "DamageType": "Arma Animada — Tipo de Dano",
+          "DieSize": "Arma Animada — Tamanho do Dado"
         }
       },
       "YetiNightmareGuardianRage": "Fúria do Guardião dos Pesadelos",
@@ -1958,6 +2008,10 @@
           }
         }
       },
+      "AllowedDrops": {
+        "OneHandedWeapon": "arma de uma mão",
+        "ShieldOneBulk": "escudo de Volume 1 ou menos"
+      },
       "Anadi": {
         "SpiderOrHybridForm": "Em forma de Aranha ou Híbrida"
       },
@@ -1975,8 +2029,12 @@
         "Canine": "Canídeo",
         "Cat": "Felino",
         "Centipede": "Centopéia",
+        "Crab": "Caranguejo",
+        "Crocodile": "Crocodilo",
         "Deer": "Veado",
         "Frog": "Sapo",
+        "Orca": "Orca",
+        "Seal": "Foca",
         "Shark": "Tubarão",
         "Snake": "Serpente",
         "Toad": "Rã",
@@ -2024,10 +2082,14 @@
           "Brontosaurus": "Brontossauro",
           "Bull": "Touro",
           "Cat": "Felino",
+          "Crab": "Caranguejo",
+          "Crocodile": "Crocodilo",
           "Deer": "Veado",
           "Frog": "Sapo",
+          "Orca": "Orca",
           "Prompt": "Escolha um animal.",
           "Scorpion": "Escorpião",
+          "Seal": "Foca",
           "Shark": "Tubarão",
           "Snake": "Serpente",
           "Spider": "Aranha",
