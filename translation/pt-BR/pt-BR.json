@@ -2734,7 +2734,7 @@
           "Second": "2° Ataque Enérgico",
           "Third": "3°+ Ataque Enérgico"
         },
-        "FromABP": "Progressão automática de bônus ajustou essa arma {property} para {value}.",
+        "FromABP": "Progressão automática de bônus ajustou o {property} dessa arma para {value}.",
         "FromMaterialAndRunes": "De material e runas: {value}",
         "HandsLabel": "Mãos",
         "MandatoryMelee": "Esta arma possui um traço que apenas pode ser utilizado com armas corpo a corpo.",
@@ -3633,11 +3633,11 @@
         },
         "AutomaticBonus": {
           "Choices": {
-            "ABPFundamentalPotency": "Considerar progressão de bônus como runas fundamentais",
-            "ABPRulesAsWritten": "Usar regras variantes conforme escritas",
-            "noABP": "Usar regras padrão"
+            "ABPFundamentalPotency": "Usar regra, mas permitir Runas de Propriedade",
+            "ABPRulesAsWritten": "Usar regra",
+            "noABP": "Desabilitada"
           },
-          "Hint": "Recarregamento Requerido: Suporte para as regras variantes de Progressão Automática de Bônus, exceto para perícias/apogeu de atributos.",
+          "Hint": "Suporte para a regra de Progressão Automática de Bônus. Potência de Perícias precisa ser gerenciada manualmente.",
           "Name": "Progressão Automática de Bônus"
         },
         "FreeArchetype": {
