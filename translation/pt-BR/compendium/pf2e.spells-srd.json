@@ -2449,6 +2449,15 @@
     },
     "Heal": {
       "name": "Curar",
+      "description": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>",
+      "spellVariants": {
+        "37gy7l19tik74o4s": {
+          "name": "Curar (contra Vivos)"
+        },
+        "lfxcoz2d3f8j2zq1": {
+          "name": "Curar (contra Mortos-vivos)"
+        }
+      },
       "target": "1 willing living creature or 1 undead"
     },
     "Heal Animal": {
@@ -4203,11 +4212,13 @@
       "secondarycheck": "Manufatura"
     },
     "Runic Body": {
+      "name": "Corpo Rúnico",
+      "description": "<p>Runas brilhantes surgem no corpo do alvo. Todos os ataques desarmados dele tornam-se ataques desarmados <em>+1 impactantes</em>, recebendo +1 de bônus de item nos testes de ataque e aumentando a quantidade de dados de dano para dois.</p>\n<hr />\n<p><strong>Elevada (6°)</strong> Os ataques desarmados são <em>+2 impactantes maior.</em></p>\n<p><strong>Elevada (9°)</strong> Os ataques desarmados são <em>+3 impactantes superior.</em></p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.MqZ6FScbfGtXB8tt]{Efeito de Magia: Corpo Rúnico}</p>",
       "target": "1 willing creature"
     },
-    "Runic Impression": {
-      "name": "Runic Impression",
-      "target": "you or one weapon you're wielding"
+    "Runic Weapon": {
+      "name": "Arma Rúnica",
+      "description": "<p>A arma brilha com magia enquanto runas temporárias surgem nela. O alvo torna-se uma arma <em>+1 impactante</em>, recebendo +1 de bônus de item nos testes de ataque e aumentando a quantidade de dados de dano para dois.</p>\n<hr />\n<p><strong>Elevada (6°)</strong> A arma é <em>+2 impactante maior</em>.</p>\n<p><strong>Elevada (9°)</strong> A arma é <em>+3 impactante superior</em>.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GnWkI3T3LYRlm3X8]{Efeito de Magia: Arma Rúnica}</p>"
     },
     "Rusting Grasp": {
       "name": "Rusting Grasp",
