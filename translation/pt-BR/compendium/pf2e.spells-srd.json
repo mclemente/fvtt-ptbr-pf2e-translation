@@ -902,6 +902,20 @@
     "Collective Transposition": {
       "name": "Transposição Coletiva",
       "description": "<p>Você teleporta os alvos para novas posições dentro da área. Cada uma das criaturas deve ser capaz de caber em seu novo espaço, e suas posições devem estar desocupadas, inteiramente dentro da área e em sua linha de visão. Criaturas involuntárias podem tentar um salvamento de Vontade.</p> <hr /> <p><strong>Sucesso Crítico</strong>  O alvo pode teleportar se quiser, mas escolhe o destino dentro da área.</p><p><strong>Sucesso</strong>  O alvo não é afetado.</p><p><strong>Falha</strong>  Você teleporta o alvo e escolhe o destino dele.</p> <hr /> <p><strong>Elevada (+1)</strong>  A quantidade de alvos aumenta em 1.</p>",
+      "heightening": {
+        "7": {
+          "target": "up to 3 creatures"
+        },
+        "8": {
+          "target": "up to 4 creatures"
+        },
+        "9": {
+          "target": "up to 5 creatures"
+        },
+        "10": {
+          "target": "up to 6 creatures"
+        }
+      },
       "target": "up to 2 creatures"
     },
     "Combustion": {
