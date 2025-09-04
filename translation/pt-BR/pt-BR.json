@@ -3253,6 +3253,9 @@
       "success": "Reduz seu valor de Morrendo em 1."
     },
     "Region": {
+      "DifficultTerrain": {
+        "DifficultTerrain": "Terreno Difícil"
+      },
       "Environment": {
         "Mode": {
           "Add": {
@@ -3393,6 +3396,9 @@
           "Name": "PdMs são saqueáveis"
         },
         "Name": "Automação",
+        "ReachEnforcement": {
+          "Loot": "Espólio"
+        },
         "RemoveExpiredEffects": {
           "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que O mestre esteja logado).",
           "Name": "Remover os efeitos expirados"
@@ -5771,10 +5777,7 @@
         }
       },
       "greaterRooting": {
-        "Name": "Enraizadora Maior",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"28\">Escapar CD 28</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Maior"
       },
       "greaterShock": {
         "Name": "Chocante Maior",
@@ -5848,10 +5851,7 @@
         "Name": "Protege-Parente"
       },
       "majorRooting": {
-        "Name": "Enraizadora Superior",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">Escapar CD 34</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Superior"
       },
       "merciful": {
         "Name": "Piedosa"
@@ -5877,10 +5877,7 @@
         "Note": "<strong>Runa Retornante</strong> Quando você faz um Golpe de arremesso com esta arma, ele voa de volta para sua mão depois que o ataque estiver completo. Se suas mãos estiverem ocupadas quando a arma retornar, ela cai no chão em seu espaço."
       },
       "rooting": {
-        "Name": "Enraizadora",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">Escapar CD 23</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora"
       },
       "serrating": {
         "Name": "Serrada"
@@ -5911,10 +5908,7 @@
         }
       },
       "trueRooting": {
-        "Name": "Enraizadora Verdadeira",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"41\">Escapar CD 41</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Verdadeira"
       },
       "underwater": {
         "Name": "Subaquática"
@@ -6418,6 +6412,9 @@
       "spellcastingEntry": "Registro de Conjuração",
       "treasure": "Tesouro",
       "weapon": "Arma"
+    },
+    "RegionBehavior": {
+      "modifyMovementCost": "Terreno Difícil"
     }
   }
 }
