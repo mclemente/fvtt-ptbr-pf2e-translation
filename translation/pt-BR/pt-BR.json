@@ -2526,6 +2526,9 @@
           "TwoProperties": "{base} {property1} {property2}",
           "TwoPropertiesMaterial": "{base} de {material} {property1} {property2}"
         },
+        "Grade": {
+          "elite": "Elite"
+        },
         "LevelLabel": "Item {level}",
         "OtherTag": {
           "AlchemicalFood": "Alimento Alquímico",
@@ -2804,6 +2807,9 @@
         "Hint": "Coloca uma parada enquanto usa a medição de arraste.",
         "Label": "Criar Parada (Medição de Arraste)"
       },
+      "OpenCompendiumBrowser": {
+        "Label": "Alternar Navegador de Compêndios"
+      },
       "TogglePartySheet": {
         "Hint": "Abre ou fecha a ficha do grupo ativo ou, se for um jogador, grupo designado.",
         "Label": "Alternar Ficha do Grupo"
@@ -2813,6 +2819,9 @@
     "KitWorldItem": "Este item não foi encontrado em um compêndio e não funcionará em outros mundos",
     "LackCastConsumableCapability": "{actor} não tem a proficiêcia para usar {spell} e não tem o talento Enganar Item Mágico.",
     "LanguagesAdditional": "Idiomas Adicionais",
+    "LegalNotice": {
+      "Title": "Aviso Legal"
+    },
     "Level1": "Nível 1",
     "Level10": "Nível 10",
     "Level11": "Nível 11",
@@ -2841,10 +2850,6 @@
     "LevelLabel": "Nível",
     "LevelN": "Nível {level}",
     "LevelRange": "Níveis {minLevel} — {level}",
-    "LicenseViewer": {
-      "Label": "Aviso Legal",
-      "LandingPageText": "Use as abas acima para ler as informações legais"
-    },
     "ListPartsAnd": {
       "end": "{first}, e {second}",
       "middle": "{first}, {second}",
@@ -3248,6 +3253,9 @@
       "success": "Reduz seu valor de Morrendo em 1."
     },
     "Region": {
+      "DifficultTerrain": {
+        "DifficultTerrain": "Terreno Difícil"
+      },
       "Environment": {
         "Mode": {
           "Add": {
@@ -3388,6 +3396,9 @@
           "Name": "PdMs são saqueáveis"
         },
         "Name": "Automação",
+        "ReachEnforcement": {
+          "Loot": "Espólio"
+        },
         "RemoveExpiredEffects": {
           "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que O mestre esteja logado).",
           "Name": "Remover os efeitos expirados"
@@ -4178,7 +4189,6 @@
     "TraitDescriptionArtifact": "Itens com este traço são artefatos. Estes itens mágicos não podem ser fabricados por meios normais, e eles não podem ser danificados por meios normais. Artefatos são sempre raros ou únicos.",
     "TraitDescriptionAstral": "As criaturas astrais são nativas do Plano Astral. Elas podem sobreviver aos efeitos ambientais básicos do Plano Astral.",
     "TraitDescriptionAthamaru": "Os Athamarus são humanoides aquáticos com aspecto de peixe.",
-    "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[crafting|dc:10]{Manutafura}; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
     "TraitDescriptionAttack": "Uma habilidade com esse traço envolve um ataque. Para cada ataque que você fizer após o primeiro em seu turno, você sofre uma penalidade de ataques múltiplos.",
     "TraitDescriptionAuditory": "Ações e efeitos auditivos se baseiam em som. Uma ação com o traço auditivo pode ser executada com sucesso somente se a criatura usando a ação puder falar ou de outra forma produzir os sons requeridos. Uma magia ou efeito com o traço auditivo surte efeito somente se o alvo puder ouvi-los. Isto se aplica somente às partes do efeito baseadas em som, conforme determinado pelo MJ. Isto é diferente de um efeito sônico, que ainda afeta alvos incapazes de ouvi-lo (como alvos surdos) desde que o efeito emita um som.",
     "TraitDescriptionAutomaton": "Uma criatura com este traço é membro da ancestralidade automata.",
@@ -4521,7 +4531,6 @@
     "TraitDescriptionTattoo": "Uma tatuagem é um tipo de item que é cortada ou desenhada na pele de uma criatura, normalmente formando imagens ou símbolos.",
     "TraitDescriptionTea": "<p>Chá mágico é um tipo de poção. Ele é ativado quando você bebe, que o usa. O chá mágico tem os traços poção e chá. Quando você fabrica uma dose de chá mágico, os materiais que você fornece têm a forma de folhas de chá excepcionais e caras. O processo de criação de chá mágico inclui infundir as folhas com reagentes mágicos, purificando a água e macerando o chá na água, resultando no que, essencialmente, é uma poção particularmente saborosa. Você pode ativar o chá mágico com uma ação de Interagir conforme a bebe ou faz outra criatura bebê-la, como se fosse uma poção. Você também pode ativar o chá mágico com uma atividade de 10 minutos que requer o uso de chá esterlino (as ferramentas destes artesãos podem ser compartilhadas por até quatro pessoas que realizam esta atividade simultaneamente) para preparar o chá e consumi-lo ou apresentar a alguém durante uma breve cerimônia de chá, após a qual os efeitos do chá mágico começam; ativar o chá mágico desta forma aumenta seu efeito, conforme detalhado em cada registro de Cerimônia de Chá.</p><p>Uma vez que você beber uma dose de chá mágica, você estará temporariamente imune a esse tipo específico de chá mágico por 24 horas.</p>",
     "TraitDescriptionTearing": "Esta arma tem bordas com dentes curvados que deixam feridas abertas. Quando você acerta uma criatura com essa arma, ela causa 1 dano persistente de sangramentp adicional. Isso aumenta para 2 dano de sangramento persistente se a arma tiver uma runa de golpe maior.",
-    "TraitDescriptionTech": "Itens com este traço estão associados à tecnologia de Numeria.",
     "TraitDescriptionTelepathy": "Uma criatura com telepatia é capaz de se comunicar mentalmente com criaturas. Isto não concede qualquer acesso especial aos pensamentos delas e não permite comunicar mais informações que fala convencional.",
     "TraitDescriptionTeleportation": "Efeitos de teleportação permitem você se mover instantaneamente de um local para outro. Teleportação normalmente não aciona reações baseadas em movimento.",
     "TraitDescriptionTengu": "Uma criatura com este traço é membro da ancestralidade tengu. Tengus são humanoides que se assemelham a corvos. Uma habilidade com este traço pode ser usada apenas pelo tengus. Um item com esta característica é criado e usado pelo tengus.",
@@ -4620,7 +4629,7 @@
     "TraitEtchedOntoMedHeavyArmor": "Entalhado em Armadura Média ou Pesada",
     "TraitEtchedOntoMediumHeavyMetalArmor": "Gravado em Armadura de metal Média ou Pesada",
     "TraitEtchedOntoMetalArmor": "Entalhado em Armadura de Metal",
-    "TraitEthereal": "Etérea",
+    "TraitEthereal": "Etéreo",
     "TraitEvolution": "Evolução",
     "TraitExpandable": "Expansível",
     "TraitExemplar": "Exemplar",
@@ -5768,10 +5777,7 @@
         }
       },
       "greaterRooting": {
-        "Name": "Enraizadora Maior",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"28\">Escapar CD 28</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Maior"
       },
       "greaterShock": {
         "Name": "Chocante Maior",
@@ -5845,10 +5851,7 @@
         "Name": "Protege-Parente"
       },
       "majorRooting": {
-        "Name": "Enraizadora Superior",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">Escapar CD 34</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Superior"
       },
       "merciful": {
         "Name": "Piedosa"
@@ -5874,10 +5877,7 @@
         "Note": "<strong>Runa Retornante</strong> Quando você faz um Golpe de arremesso com esta arma, ele voa de volta para sua mão depois que o ataque estiver completo. Se suas mãos estiverem ocupadas quando a arma retornar, ela cai no chão em seu espaço."
       },
       "rooting": {
-        "Name": "Enraizadora",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">Escapar CD 23</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora"
       },
       "serrating": {
         "Name": "Serrada"
@@ -5908,10 +5908,7 @@
         }
       },
       "trueRooting": {
-        "Name": "Enraizadora Verdadeira",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"41\">Escapar CD 41</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Verdadeira"
       },
       "underwater": {
         "Name": "Subaquática"
@@ -6415,6 +6412,9 @@
       "spellcastingEntry": "Registro de Conjuração",
       "treasure": "Tesouro",
       "weapon": "Arma"
+    },
+    "RegionBehavior": {
+      "modifyMovementCost": "Terreno Difícil"
     }
   }
 }

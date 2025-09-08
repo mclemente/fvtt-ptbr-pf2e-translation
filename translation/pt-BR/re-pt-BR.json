@@ -161,7 +161,9 @@
         "Wing": "Asa"
       },
       "CosmicForm": {
+        "Moon": "Lua",
         "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
+        "Sun": "Sol",
         "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
       },
       "DaemonForm": {
@@ -191,10 +193,20 @@
         "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
         "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
       },
+      "FeyForm": {
+        "ChoiceSet": {
+          "Dryad": "Dríade",
+          "Unicorn": "Unicórnio"
+        }
+      },
       "InsectForm": {
         "SpiderWebNote": "Um ataque de teia bem-sucedido envolve o alvo por 1 rodada, mas não causa dano"
       },
       "MonstrosityForm": {
+        "ChoiceSet": {
+          "CaveWorm": "Verme das Cavernas",
+          "SeaSerpent": "Serpente do Mar"
+        },
         "ShroudOfFlame": "Manto de Chamas"
       },
       "NatureIncarnate": {
@@ -2560,9 +2572,7 @@
       "HuntPrey": {
         "FirstHitDamage": "Primeiro acerto à Presa Caçada",
         "FirstHitSwitch": "Acertando Presa Caçada pela primeira vez na rodada",
-        "SeekHuntedPrey": "Para Buscar presa caçada",
-        "TargetHuntedPrey": "Alvo é sua Presa Caçada",
-        "TrackHuntedPrey": "Para Rastrear presa caçada"
+        "TargetHuntedPrey": "Alvo é sua Presa Caçada"
       },
       "InCombat": {
         "ToggleLabel": "Em Combate"
@@ -2818,7 +2828,19 @@
         },
         "HuntersEdge": {
           "FirstAttack": "Primeiro ataque à presa caçada na rodada",
+          "Flurry": {
+            "Label": "Excelência de Caçador: Rajada"
+          },
+          "Outwit": {
+            "Label": "Excelência de Caçador: Despiste"
+          },
+          "Precision": {
+            "Label": "Precisão"
+          },
           "Prompt": "Selecione uma excelência de caçador."
+        },
+        "MasterfulHunter": {
+          "Label": "Caçador Magistral"
         }
       },
       "Rogue": {

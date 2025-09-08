@@ -328,8 +328,9 @@
         "spell->Light": {
           "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
-        "consumable->Scroll of Monstrosity Form (Level 8)": {
-          "consumableSpellName": "Forma de Monstruosidade"
+        "consumable->Scroll of Monstrosity Form (Rank 8)": {
+          "consumableSpellName": "Forma de Monstruosidade",
+          "consumableSpellDescription": "<p>Você se transforma no aspecto de um monstro lendário, assumindo a forma de batalha de um animal Enorme. Você deve ter espaço suficiente para se expandir ou a magia é perdida. Quando conjurar esta magia, escolha fênix, serpente marinha ou vorme púrpura. Enquanto estiver nesta forma, você adquire o traço besta (para fênix) ou animal (para serpente marinha ou vorme púrpura). Você pode Dispensar esta magia.</p><p>Você recebe as estatísticas e habilidades a seguir independentemente de qual forma de batalha escolher:</p><ul><li>CA = 20 + seu nível. Ignore a penalidade em testes e redução de Velocidade de sua armadura.</li><li>20 Pontos de Vida temporários.</li><li>Visão no escuro.</li><li>Um ou mais ataques desarmados corpo a corpo específicos para a forma de batalha escolhida, que são os únicos ataques que pode usar. Você é treinado com eles. Seu modificador de ataque é +28 e você causa o dano listado. Estes ataques são baseados em Força (para o propósito da condição @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}, por exemplo). Se seu modificador de ataque para ataques desarmados for maior, você pode utilizá-lo em vez do modificador concedido pela magia.</li><li>+30 de modificador de Atletismo, exceto se o seu próprio modificador for maior.</li> </ul><p>Você também recebe habilidades específicas baseadas na forma escolhida:</p><ul><li><strong>Fênix</strong>Velocidade 9 metros, Velocidade de voo 27 metros; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> bico (alcance 4,5 metros), <strong>Dano</strong> 2d6+12 mais 2d4 de fogo e 2d4 persistente de fogo; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> unha (ágil, alcance de 4,5 metros), <strong>Dano</strong>2d8+12 cortante;<strong>Manto de Chamas</strong> (aura, evocação, fogo, primal) 6 metros. Você adquire uma aura de fogo que se estende a partir de você. Uma criatura que entrar ou encerrar o turno dela dentro da aura sofre 2d6 de dano de fogo. Uma criatura pode sofrer este dano somente uma vez por turno. Você pode usar uma ação única que possui o traço concentração para ativar ou desativar esta aura.</li><li><strong>Serpente Marinha</strong>Velocidade 6 metros, Velocidade de natação 27 metros; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> mandíbulas (alcance 4,5 metros), <strong>Dano</strong> 2d12+20 perfurante; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> cauda (alcance 7,5 metros), <strong>Dano</strong> 2d8+20 contundente;  <strong>Rasgar com Espinhos</strong> <img class=\"actiondark\"style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/TwoActions.png\"alt=\"Two Actions\">   (movimento) Você estende seus espinhos e Anda ou Nada. Cada criatura que estiver adjacente a você a qualquer momento durante o seu movimento sofre 4d8+10 de dano cortante (salvamento básico de Reflexos contra sua CD de magia).</li><li><strong>Vorme Púrpura</strong> Velocidade 12 metros, Velocidade de escavação 9 metros, Velocidade de natação 6 metros;<strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\">mandíbulas (alcance 3 metros), <strong>Dano</strong> 2d12+20 perfurante; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\">ferrão (ágil, alcance de 3metros), <strong>Dano</strong> 2d8+15 perfurante mais 2d6 persistente de veneno; <strong>Corpo a Corpo</strong><span class=\"pf2-icon\">a</span>lt=\"Single Action\">  corpo (alcance de 3 metros),<strong>Dando</strong>2d8+20 contundente;<strong>Inexorável</strong>Você automaticamente se recupera das condições @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado}, @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed}, and @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} ao final de cada um dos seus turnos. Você também fica imune a ser @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized] ignora terreno difícil e terreno difícil maior.</li> </ul><hr /><p><strong>Heightened (9th)</strong> Você recebe CA = 22 + seu nível, 25 PV temporários, +31 de modificador de ataque, aumenta o dano em um dado de dano e recebe +33 de Atletismo em vez dos valores iniciais.</p>"
         },
         "strike-melee->Rapier": {
           "name": "Rapieira"
@@ -955,9 +956,6 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
-        },
-        "action->Protean Anatomy": {
-          "name": "Anatomia Proteana"
         }
       }
     },
@@ -1464,9 +1462,6 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
-        },
-        "action->Protean Anatomy": {
-          "name": "Anatomia Proteana"
         }
       }
     },
