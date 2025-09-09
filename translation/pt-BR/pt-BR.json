@@ -595,10 +595,12 @@
         },
         "Identification": {
           "Skills": {
-            "Label": "{skills}: CD {dc} ({adjustment})"
+            "Label": "{skills}: CD {dc} ({adjustment})",
+            "Tooltip": "\"A perícia usada para identificar uma criatura geralmente depende do traço da criatura, como mostrado na tabela de Perícia de Identificação de Criatura, mas você tem liberdade na escolha da perícia aplicada.\" — Pathfinder GM Core pg. 54-55"
           },
           "Lore": {
-            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})"
+            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})",
+            "Tooltip": "\"Usar o Saber aplicável geralmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" — Pathfinder GM Core pg. 54"
           }
         },
         "LevelN": "Criatura {level}",
@@ -1305,6 +1307,7 @@
           "stupefied": "estupefato",
           "swarm-attacks": "ataques de enxame",
           "swarm-mind": "mente de enxame",
+          "time": "tempo",
           "trip": "derrubar",
           "unarmed-attacks": "ataques desarmados",
           "unconscious": "inconsciente",
@@ -1751,7 +1754,10 @@
         "Envision": "visualizar",
         "EnvisionSheetLabel": "Visualizar",
         "Interact": "Interagir",
-        "Label": "Ativação"
+        "Label": "Ativação",
+        "Warning": {
+          "ItemDoesNotExist": "Item a ser ativado não existe"
+        }
       },
       "Affliction": {
         "AddStage": "Adicionar etapa",
@@ -1819,6 +1825,7 @@
           "heavy-barding": "Armadura de Animal Pesada",
           "light-barding": "Armadura de Animal Leve"
         },
+        "GradeOption": "{grade} (+{bonus}; resiliente +{resilient}",
         "Rune": {
           "Resilient": {
             "Label": "Runa Resiliente"
@@ -2484,6 +2491,11 @@
           "NLight": "{light}L",
           "WithLight": "{bulk}, {light}L"
         },
+        "ChangeEquipmentSystem": {
+          "Title": "Alterar Sistema",
+          "ToPathfinder": "Remover o traço {removedTrait} alterará este {type} do Starfinder para o Pathfinder. Seu grau será perdido. Você tem certeza? Alternativamente, você pode trocá-lo para {otherTrait}.",
+          "ToStarfinder": "Adicionar o traço {newTrait} alterará este {type} do Pathfinder para o Starfinder. Todas as runas serão perdidas. Você tem certeza?"
+        },
         "Destroyed": "Destruído",
         "FromSpell": {
           "CantripDeck5": "Baralho de truque mágico de {name} (conjunto com 5 cartas)",
@@ -2499,6 +2511,7 @@
           "Material": "{base} de {material}",
           "OneProperty": "{base} {property1}",
           "OnePropertyMaterial": "{base} de {material} {property1}",
+          "Grade": "{base} {grade}",
           "GradeMaterial": "{base} {grade} {material}",
           "Potency": "{base} +{potency}",
           "PotencyFourProperties": "{base} +{potency} {property1} {property2} {property3} {property4}",
@@ -4035,6 +4048,7 @@
     "TraitAmp": "Amp",
     "TraitAmphibious": "Anfíbio",
     "TraitAnadi": "Anadi",
+    "TraitAnalog": "Analógico",
     "TraitAndroid": "Androide",
     "TraitAngel": "Anjo",
     "TraitAnimal": "Animal",
@@ -4450,7 +4464,7 @@
     "TraitDescriptionOath": "Juramentos adicionam novos princípios ao seu código. Normalmente, você só pode ter um talento com esse traço.",
     "TraitDescriptionOccult": "Esta magia vem da tradição oculta, invocando mistérios bizarros e efêmeros. Qualquer coisa com este traço é mágica. Uma criatura com este traço é principalmente constituída ou tem uma forte conexão com a magia oculta.",
     "TraitDescriptionOil": "Óleos são géis, pastas, pomadas ou unguentos mágicos que normalmente são aplicados a um objeto e consumidos no processo.",
-    "TraitDescriptionOlfactory": "Um efeito olfativo apenas pode afetar criaturas que possam farejá-lo. Isso se aplica apenas para as partes olfativas do efeito, conforme determinado pelo MJ.",
+    "TraitDescriptionOlfactory": "Um efeito olfativo apenas pode afetar criaturas que possam farejá-lo. Isso se aplica apenas para as partes olfativas do efeito, conforme determinado pelo mestre.",
     "TraitDescriptionOni": "Oni são uma família de gigantes brutais e metamorfos que outrora foram kami.",
     "TraitDescriptionOoze": "Limos são criaturas com anatomias simples. Elas tendem a ter modificadores baixos de atributos mentais e imunidade a efeitos mentais e dano de precisão.",
     "TraitDescriptionOracle": "Esse traço indica habilidades da classe oráculo.",
@@ -6251,6 +6265,7 @@
       },
       "undetected": {
         "name": "Indetectado",
+        "rules": "<p>Se você estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem noção do espaço que você está ocupando e não pode visá-lo, embora você ainda possa ser afetado por habilidades de área. Criaturas contra a qual você estiver indetectado ficam desprevenidas contra você.</p>\n<p>Essas criaturas podem tentar adivinhar em qual quadrado você está para tentar visá-lo. Elas devem escolher um quadrado e fazer um ataque. Isso funciona como visar uma criatura escondida (exigindo um @Check[flat|dc:11|name:Undetected|traits:secret|showDC:all]), mas o teste simples e o de ataque são jogados em segredo pelo mestre, que não revela se o ataque errou devido a uma falha no teste simples, no teste de ataque ou se você escolheu o quadrado errado.</p>\n<p>Essas criaturas podem tentar encontrá-lo usando a ação Buscar.</p>",
         "summary": "Uma criatura para a qual você está indetectado não sabe onde você está."
       },
       "unfriendly": {
