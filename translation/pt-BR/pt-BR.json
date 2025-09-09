@@ -922,7 +922,7 @@
     "CharacterTraitsHeader": "Traços e Outros Detalhes",
     "ChatRollDetails": {
       "ContextualOptions": {
-        "postRoll": "Postar Opções de Rolagem"
+        "postRoll": "Opções Pós-rolagem"
       },
       "DiceAndModifiers": "Dados e modificadores",
       "DiceRollOptionsHint": "Opções de dados e de modificadores de rolagem serão usados para predicar elementos de regra de DamageAlteration.",
@@ -2499,6 +2499,7 @@
           "Material": "{base} de {material}",
           "OneProperty": "{base} {property1}",
           "OnePropertyMaterial": "{base} de {material} {property1}",
+          "GradeMaterial": "{base} {grade} {material}",
           "Potency": "{base} +{potency}",
           "PotencyFourProperties": "{base} +{potency} {property1} {property2} {property3} {property4}",
           "PotencyFourPropertiesMaterial": "{base} de {material} +{potency} {property1} {property2} {property3} {property4}",
@@ -2527,7 +2528,12 @@
           "TwoPropertiesMaterial": "{base} de {material} {property1} {property2}"
         },
         "Grade": {
-          "elite": "Elite"
+          "commercial": "Comercial",
+          "tactical": "Tático",
+          "advanced": "Avançado",
+          "superior": "Superior",
+          "elite": "Elite",
+          "paragon": "Paradigma"
         },
         "LevelLabel": "Item {level}",
         "OtherTag": {
@@ -2739,6 +2745,7 @@
         },
         "FromABP": "Progressão automática de bônus ajustou o {property} dessa arma para {value}.",
         "FromMaterialAndRunes": "De material e runas: {value}",
+        "GradeOption": "{grade} (+{tracking}; {dice} dados de dano)",
         "HandsLabel": "Mãos",
         "MandatoryMelee": "Esta arma possui um traço que apenas pode ser utilizado com armas corpo a corpo.",
         "MaterialAndRunes": {
@@ -2808,6 +2815,7 @@
         "Label": "Criar Parada (Medição de Arraste)"
       },
       "OpenCompendiumBrowser": {
+        "Hint": "Abre ou fecha o Navegador de Compêndios.",
         "Label": "Alternar Navegador de Compêndios"
       },
       "TogglePartySheet": {
@@ -3254,7 +3262,8 @@
     },
     "Region": {
       "DifficultTerrain": {
-        "DifficultTerrain": "Terreno Difícil"
+        "DifficultTerrain": "Terreno Difícil",
+        "GreaterDifficultTerrain": "Terreno Difícil Maior"
       },
       "Environment": {
         "Mode": {
@@ -3316,6 +3325,8 @@
         "new": "Rerrolar e manter o novo resultado",
         "lower": "Rerrolou e manteve o menor resultado"
       },
+      "MessageMythicPoints": "Rerrolou usando um Ponto Mítico",
+      "MythicPoint": "Rerrolar usando um Ponto Mítico",
       "WarnNoResource": "{name} não tem {resource}"
     },
     "ResistancesLabel": "Resistências",
@@ -3397,7 +3408,12 @@
         },
         "Name": "Automação",
         "ReachEnforcement": {
-          "Loot": "Espólio"
+          "Corpses": "Cadáveres",
+          "Doors": "Portas",
+          "Hint": "Seguir a regra de alcance quando jogadores tentarem interagir com certos objetos no mapa.",
+          "Loot": "Espólio",
+          "Merchants": "Vendedores",
+          "Name": "Seguir Regra de Alcance"
         },
         "RemoveExpiredEffects": {
           "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que O mestre esteja logado).",
@@ -3480,6 +3496,10 @@
         "ConfirmDelete": {
           "Message": "Deletar elemento Caseiro <strong>{element}</strong>?",
           "Title": "Deletar Elemento Caseiro?"
+        },
+        "ClassTraits": {
+          "Hint": "Traços que se referem a classes individuais",
+          "Name": "Traços de Classe"
         },
         "CreatureTraits": {
           "Hint": "Traços que poder ser aplicados a qualquer criatura em alguns tipos de itens (ex: Dragão, Gnomo)",
@@ -3768,7 +3788,8 @@
       },
       "SyncDarkness": {
         "Label": "Sincronizar Escuridão com o Tempo",
-        "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>."
+        "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>.",
+        "Hint": "Quando a hora do dia muda nesta cena, ajuste automaticamente o nível de escuridão para combinar (mais escuro durante a noite, mais claro durante o dia)."
       }
     },
     "ScoreTitle": "Valor",
@@ -3936,7 +3957,13 @@
     "Token": {
       "ActorLinkForced": "Atores {type} não podem ser desconectados.",
       "Appearance": "Aparência",
+      "Distance": "Distância: {distance} {unit}",
       "Flanking": "Flanqueando",
+      "Mystified": {
+        "TheCreature": "A criatura",
+        "TheObject": "O objeto"
+      },
+      "OutOfReach": "{token} está fora do alcance.",
       "SecretDisposition": {
         "Label": "Disposição Secreta",
         "Hint": "Ative a disposição \"secreta\", que exibe uma borda roxa para os proprietários e nenhuma borda ou mudança de cursor para todos os outros."
