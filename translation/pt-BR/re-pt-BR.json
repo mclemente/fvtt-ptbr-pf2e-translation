@@ -196,8 +196,11 @@
       "FeyForm": {
         "ChoiceSet": {
           "Dryad": "Dríade",
+          "Naiad": "Náiade",
+          "Redcap": "Barrete Vermelho",
           "Unicorn": "Unicórnio"
-        }
+        },
+        "Prompt": "Selecione uma fada."
       },
       "InsectForm": {
         "SpiderWebNote": "Um ataque de teia bem-sucedido envolve o alvo por 1 rodada, mas não causa dano"
@@ -205,6 +208,7 @@
       "MonstrosityForm": {
         "ChoiceSet": {
           "CaveWorm": "Verme das Cavernas",
+          "Phoenix": "Fênix",
           "SeaSerpent": "Serpente do Mar"
         },
         "ShroudOfFlame": "Manto de Chamas"
@@ -222,6 +226,11 @@
         "Shove": "Você pode gastar uma ação imediatamente após um acerto para empurrar o alvo por uma distância de 5 pés com os efeitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar}"
       },
       "OozeForm": {
+        "ChoiceSet": {
+          "BlackPudding": "Pudim Negro",
+          "GrayOoze": "Limo Cinza",
+          "OchreJelly": "Geleia Ocre"
+        },
         "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
       },
       "WormForm": {

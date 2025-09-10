@@ -380,6 +380,7 @@
           "necril": "Necril",
           "ocotan": "Ocotan",
           "okaiyan": "Okaiyan",
+          "old-keleshite": "Keleshita Antigo",
           "orcish": "Órquico",
           "orvian": "Orviano",
           "osiriani": "Osiriano",
@@ -595,10 +596,12 @@
         },
         "Identification": {
           "Skills": {
-            "Label": "{skills}: CD {dc} ({adjustment})"
+            "Label": "{skills}: CD {dc} ({adjustment})",
+            "Tooltip": "\"A perícia usada para identificar uma criatura geralmente depende do traço da criatura, como mostrado na tabela de Perícia de Identificação de Criatura, mas você tem liberdade na escolha da perícia aplicada.\" — Pathfinder GM Core pg. 54-55"
           },
           "Lore": {
-            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})"
+            "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})",
+            "Tooltip": "\"Usar o Saber aplicável geralmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" — Pathfinder GM Core pg. 54"
           }
         },
         "LevelN": "Criatura {level}",
@@ -922,7 +925,7 @@
     "CharacterTraitsHeader": "Traços e Outros Detalhes",
     "ChatRollDetails": {
       "ContextualOptions": {
-        "postRoll": "Postar Opções de Rolagem"
+        "postRoll": "Opções Pós-rolagem"
       },
       "DiceAndModifiers": "Dados e modificadores",
       "DiceRollOptionsHint": "Opções de dados e de modificadores de rolagem serão usados para predicar elementos de regra de DamageAlteration.",
@@ -1305,6 +1308,7 @@
           "stupefied": "estupefato",
           "swarm-attacks": "ataques de enxame",
           "swarm-mind": "mente de enxame",
+          "time": "tempo",
           "trip": "derrubar",
           "unarmed-attacks": "ataques desarmados",
           "unconscious": "inconsciente",
@@ -1751,7 +1755,10 @@
         "Envision": "visualizar",
         "EnvisionSheetLabel": "Visualizar",
         "Interact": "Interagir",
-        "Label": "Ativação"
+        "Label": "Ativação",
+        "Warning": {
+          "ItemDoesNotExist": "Item a ser ativado não existe"
+        }
       },
       "Affliction": {
         "AddStage": "Adicionar etapa",
@@ -1819,6 +1826,7 @@
           "heavy-barding": "Armadura de Animal Pesada",
           "light-barding": "Armadura de Animal Leve"
         },
+        "GradeOption": "{grade} (+{bonus}; resiliente +{resilient}",
         "Rune": {
           "Resilient": {
             "Label": "Runa Resiliente"
@@ -2484,6 +2492,11 @@
           "NLight": "{light}L",
           "WithLight": "{bulk}, {light}L"
         },
+        "ChangeEquipmentSystem": {
+          "Title": "Alterar Sistema",
+          "ToPathfinder": "Remover o traço {removedTrait} alterará este {type} do Starfinder para o Pathfinder. Seu grau será perdido. Você tem certeza? Alternativamente, você pode trocá-lo para {otherTrait}.",
+          "ToStarfinder": "Adicionar o traço {newTrait} alterará este {type} do Pathfinder para o Starfinder. Todas as runas serão perdidas. Você tem certeza?"
+        },
         "Destroyed": "Destruído",
         "FromSpell": {
           "CantripDeck5": "Baralho de truque mágico de {name} (conjunto com 5 cartas)",
@@ -2499,6 +2512,8 @@
           "Material": "{base} de {material}",
           "OneProperty": "{base} {property1}",
           "OnePropertyMaterial": "{base} de {material} {property1}",
+          "Grade": "{base} {grade}",
+          "GradeMaterial": "{base} {grade} {material}",
           "Potency": "{base} +{potency}",
           "PotencyFourProperties": "{base} +{potency} {property1} {property2} {property3} {property4}",
           "PotencyFourPropertiesMaterial": "{base} de {material} +{potency} {property1} {property2} {property3} {property4}",
@@ -2527,7 +2542,12 @@
           "TwoPropertiesMaterial": "{base} de {material} {property1} {property2}"
         },
         "Grade": {
-          "elite": "Elite"
+          "commercial": "Comercial",
+          "tactical": "Tático",
+          "advanced": "Avançado",
+          "superior": "Superior",
+          "elite": "Elite",
+          "paragon": "Paradigma"
         },
         "LevelLabel": "Item {level}",
         "OtherTag": {
@@ -2739,6 +2759,7 @@
         },
         "FromABP": "Progressão automática de bônus ajustou o {property} dessa arma para {value}.",
         "FromMaterialAndRunes": "De material e runas: {value}",
+        "GradeOption": "{grade} (+{tracking}; {dice} dados de dano)",
         "HandsLabel": "Mãos",
         "MandatoryMelee": "Esta arma possui um traço que apenas pode ser utilizado com armas corpo a corpo.",
         "MaterialAndRunes": {
@@ -2808,6 +2829,7 @@
         "Label": "Criar Parada (Medição de Arraste)"
       },
       "OpenCompendiumBrowser": {
+        "Hint": "Abre ou fecha o Navegador de Compêndios.",
         "Label": "Alternar Navegador de Compêndios"
       },
       "TogglePartySheet": {
@@ -3254,7 +3276,8 @@
     },
     "Region": {
       "DifficultTerrain": {
-        "DifficultTerrain": "Terreno Difícil"
+        "DifficultTerrain": "Terreno Difícil",
+        "GreaterDifficultTerrain": "Terreno Difícil Maior"
       },
       "Environment": {
         "Mode": {
@@ -3316,6 +3339,8 @@
         "new": "Rerrolar e manter o novo resultado",
         "lower": "Rerrolou e manteve o menor resultado"
       },
+      "MessageMythicPoints": "Rerrolou usando um Ponto Mítico",
+      "MythicPoint": "Rerrolar usando um Ponto Mítico",
       "WarnNoResource": "{name} não tem {resource}"
     },
     "ResistancesLabel": "Resistências",
@@ -3397,7 +3422,12 @@
         },
         "Name": "Automação",
         "ReachEnforcement": {
-          "Loot": "Espólio"
+          "Corpses": "Cadáveres",
+          "Doors": "Portas",
+          "Hint": "Seguir a regra de alcance quando jogadores tentarem interagir com certos objetos no mapa.",
+          "Loot": "Espólio",
+          "Merchants": "Vendedores",
+          "Name": "Seguir Regra de Alcance"
         },
         "RemoveExpiredEffects": {
           "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que O mestre esteja logado).",
@@ -3480,6 +3510,10 @@
         "ConfirmDelete": {
           "Message": "Deletar elemento Caseiro <strong>{element}</strong>?",
           "Title": "Deletar Elemento Caseiro?"
+        },
+        "ClassTraits": {
+          "Hint": "Traços que se referem a classes individuais",
+          "Name": "Traços de Classe"
         },
         "CreatureTraits": {
           "Hint": "Traços que poder ser aplicados a qualquer criatura em alguns tipos de itens (ex: Dragão, Gnomo)",
@@ -3768,7 +3802,8 @@
       },
       "SyncDarkness": {
         "Label": "Sincronizar Escuridão com o Tempo",
-        "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>."
+        "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>.",
+        "Hint": "Quando a hora do dia muda nesta cena, ajuste automaticamente o nível de escuridão para combinar (mais escuro durante a noite, mais claro durante o dia)."
       }
     },
     "ScoreTitle": "Valor",
@@ -3936,7 +3971,13 @@
     "Token": {
       "ActorLinkForced": "Atores {type} não podem ser desconectados.",
       "Appearance": "Aparência",
+      "Distance": "Distância: {distance} {unit}",
       "Flanking": "Flanqueando",
+      "Mystified": {
+        "TheCreature": "A criatura",
+        "TheObject": "O objeto"
+      },
+      "OutOfReach": "{token} está fora do alcance.",
       "SecretDisposition": {
         "Label": "Disposição Secreta",
         "Hint": "Ative a disposição \"secreta\", que exibe uma borda roxa para os proprietários e nenhuma borda ou mudança de cursor para todos os outros."
@@ -4008,6 +4049,7 @@
     "TraitAmp": "Amp",
     "TraitAmphibious": "Anfíbio",
     "TraitAnadi": "Anadi",
+    "TraitAnalog": "Analógico",
     "TraitAndroid": "Androide",
     "TraitAngel": "Anjo",
     "TraitAnimal": "Animal",
@@ -4423,7 +4465,7 @@
     "TraitDescriptionOath": "Juramentos adicionam novos princípios ao seu código. Normalmente, você só pode ter um talento com esse traço.",
     "TraitDescriptionOccult": "Esta magia vem da tradição oculta, invocando mistérios bizarros e efêmeros. Qualquer coisa com este traço é mágica. Uma criatura com este traço é principalmente constituída ou tem uma forte conexão com a magia oculta.",
     "TraitDescriptionOil": "Óleos são géis, pastas, pomadas ou unguentos mágicos que normalmente são aplicados a um objeto e consumidos no processo.",
-    "TraitDescriptionOlfactory": "Um efeito olfativo apenas pode afetar criaturas que possam farejá-lo. Isso se aplica apenas para as partes olfativas do efeito, conforme determinado pelo MJ.",
+    "TraitDescriptionOlfactory": "Um efeito olfativo apenas pode afetar criaturas que possam farejá-lo. Isso se aplica apenas para as partes olfativas do efeito, conforme determinado pelo mestre.",
     "TraitDescriptionOni": "Oni são uma família de gigantes brutais e metamorfos que outrora foram kami.",
     "TraitDescriptionOoze": "Limos são criaturas com anatomias simples. Elas tendem a ter modificadores baixos de atributos mentais e imunidade a efeitos mentais e dano de precisão.",
     "TraitDescriptionOracle": "Esse traço indica habilidades da classe oráculo.",
@@ -5246,6 +5288,11 @@
       }
     },
     "ValueLabel": "Valor",
+    "Wall": {
+      "Door": {
+        "OutOfReach": "A porta está fora de alcance."
+      }
+    },
     "WeaknessesLabel": "Fraquezas",
     "Weapon": {
       "Base": {
@@ -6224,6 +6271,7 @@
       },
       "undetected": {
         "name": "Indetectado",
+        "rules": "<p>Se você estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem noção do espaço que você está ocupando e não pode visá-lo, embora você ainda possa ser afetado por habilidades de área. Criaturas contra a qual você estiver indetectado ficam desprevenidas contra você.</p>\n<p>Essas criaturas podem tentar adivinhar em qual quadrado você está para tentar visá-lo. Elas devem escolher um quadrado e fazer um ataque. Isso funciona como visar uma criatura escondida (exigindo um @Check[flat|dc:11|name:Undetected|traits:secret|showDC:all]), mas o teste simples e o de ataque são jogados em segredo pelo mestre, que não revela se o ataque errou devido a uma falha no teste simples, no teste de ataque ou se você escolheu o quadrado errado.</p>\n<p>Essas criaturas podem tentar encontrá-lo usando a ação Buscar.</p>",
         "summary": "Uma criatura para a qual você está indetectado não sabe onde você está."
       },
       "unfriendly": {
