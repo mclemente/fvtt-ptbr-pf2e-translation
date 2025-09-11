@@ -1077,7 +1077,7 @@
       "RemovableLabel": "Removível",
       "ValueLabel": "Valor"
     },
-    "ConditionTypeBlinded": "Cego",
+    "ConditionTypeBlinded": "Cegado",
     "ConditionTypeBroken": "Quebrado",
     "ConditionTypeClumsy": "Desajeitado",
     "ConditionTypeConcealed": "Ocultado",
@@ -1115,7 +1115,7 @@
     "ConditionTypeQuickened": "Acelerado",
     "ConditionTypeRestrained": "Restringido",
     "ConditionTypeSickened": "Enjoado",
-    "ConditionTypeSlowed": "Lento",
+    "ConditionTypeSlowed": "Desacelerado",
     "ConditionTypeStunned": "Atordoado",
     "ConditionTypeStupefied": "Estupefato",
     "ConditionTypeUnconscious": "Inconsciente",
@@ -1227,7 +1227,7 @@
           "auditory": "auditivo",
           "axe-vulnerability": "vulnerabilidade a Machado",
           "axes": "machados",
-          "blinded": "cego",
+          "blinded": "cegado",
           "broken": "quebrado",
           "clumsy": "desajeitado",
           "cold-iron": "ferro frio",
@@ -1300,7 +1300,7 @@
           "sickened": "enjoado",
           "silver": "prata",
           "sleep": "sono",
-          "slowed": "lento",
+          "slowed": "desacelerado",
           "spell-deflection": "deflexão de Magia",
           "spells": "Magias",
           "splash-damage": "dano de respingo",
@@ -2739,7 +2739,7 @@
           "axe": "Escolha uma criatura adjacente ao alvo inicial e dentro do alcance. Se a CA dele for menor que o resultado da rolagem de ataque do acerto crítico, você causa dano a essa criatura igual ao resultado do dado de dano rolado da arma (incluindo dados extras por sua runa de potência, se houver). Esta quantia não é dobrada, e nenhum bônus ou outros dados adicionais se aplicam a este dano.",
           "bomb": "Aumenta o raio do dano de respingo da bomba (se houver) para 10 pés",
           "bow": "Se o alvo de um acerto crítico estiver adjacente a uma superfície, ele fica preso nessa superfície pelo projétil. O alvo fica @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} e deve gastar uma ação de Interagir para fazer um teste de @Check[athletics|dc:10|name:Soltar O Projétil|showDC:all]{Atletismo} para soltar o projétil; ele não pode sair de seu espaço até que obtenha sucesso. A criatura não fica presa se for incorpórea, líquida (como um elemental da água ou alguns limos) ou se de alguma forma puder escapar sem esforço",
-          "brawling": "O alvo deve obter sucesso em uma jogada de @Check[fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Pugilato|showDC:all] contra sua CD de classe ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno.",
+          "brawling": "O alvo deve obter sucesso em uma jogada de @Check[fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Pugilato|showDC:all] contra sua CD de classe ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Desacelerado 1} até o final do seu próximo turno.",
           "club": "Você empurra o alvo para longe de você até 10 pés (você escolhe a distância). Esse é um movimento forçado.",
           "firearm": "O alvo deve obter sucesso em uma jogada de @Check[fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Arma de Fogo|showDC:all] ou fica @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
           "flail": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}, a não ser que ele obtenha sucesso em uma jogada de @Check[reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Mangual]{Reflexos} contra a sua CD de classe.",
@@ -6077,7 +6077,7 @@
     },
     "condition": {
       "blinded": {
-        "name": "Cego",
+        "name": "Cegado",
         "rules": "<p>Você não pode enxergar. Todo terreno normal é terreno difícil para você. Você é incapaz de detectar qualquer coisa utilizando a visão. Você automaticamente falha criticamente em testes de Percepção que requerem que você seja capaz de enxergar, e se visão for seu único seu sentido preciso, você sofre -4 de penalidade de estado em testes de Percepção. Você fica imune a efeitos visuais. Cego sobrepõe ofuscado.</p>",
         "summary": "Você é incapaz de enxergar."
       },
@@ -6250,8 +6250,8 @@
         "summary": "Você está sentindo dor no estômago."
       },
       "slowed": {
-        "name": "Lento",
-        "rules": "<p>Você possui menos ações. Lento sempre inclui um valor. Quando recuperar suas ações no início de seu turno, reduza a quantidade de ações recuperadas pelo seu valor de lento. Como o efeito de lento ocorre no início de seu turno, você não perde ações imediatamente se ficar lento durante seu turno.</p>",
+        "name": "Desacelerado",
+        "rules": "<p>Você possui menos ações. Desacelerado sempre inclui um valor. Quando recuperar suas ações no início de seu turno, reduza a quantidade de ações recuperadas pelo seu valor de desacelerado. Como o efeito de desacelerado ocorre no início de seu turno, você não perde ações imediatamente se ficar desacelerado durante seu turno.</p>",
         "summary": "Você perde ações a cada turno."
       },
       "stunned": {
