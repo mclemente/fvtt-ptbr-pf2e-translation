@@ -484,6 +484,15 @@
           "Description": "{actor} saca {weapon}.",
           "Title": "Sacar (2M)"
         },
+        "ExchangeItems": {
+          "Description": "{actor} e {other} trocam itens.",
+          "Title": "Trocar Itens"
+        },
+        "GiveItem": {
+          "AnItem": "um item",
+          "Description": "{actor} dá {item} a {other}.",
+          "Title": "Dar Item"
+        },
         "Grip": {
           "Description": "{actor} empunhe {weapon} com as duas mãos.",
           "Title": "Trocar Empunhadura (2M)"
@@ -604,11 +613,11 @@
           "success": "<strong>Sucesso</strong> Você se prova, e observadores apreciam a qualidade de sua performance."
         },
         "SampleTasks": {
-          "Untrained": " audiência de plebeus",
-          "Trained": "audiência de artesãos",
-          "Expert": "audiência de mercadores ou baixa nobreza",
-          "Master": "audiência de alta nobreza ou baixa realeza",
-          "Legendary": "audiência de alta realeza ou seres de outros mundos"
+          "Untrained": "plateia de plebeus",
+          "Trained": "plateia de artesãos",
+          "Expert": "plateia de mercadores ou baixa nobreza",
+          "Master": "plateia de alta nobreza ou baixa realeza",
+          "Legendary": "plateia de alta realeza ou seres de outros mundos"
         },
         "Acting": {
           "Title": "Atuação"
@@ -643,11 +652,11 @@
         }
       },
       "PickALock": {
-        "Description": "<p>Abrir uma fechadura sem uma chave é muito similar a Desabilitar um Dispositivo, mas a CD do teste de Ladroagem é determinada pela complexidade e construção da fechadura que estiver tentando abrir (trancas e suas CDs são encontradas em suas descrições). Fechaduras de qualidades superiores podem requerer vários sucessos para destrancá-las, afinal, se não fosse isso, até mesmo um ladrão incompetente poderia facilmente abrir a fechadura fazendo o teste várias vezes até rolar um 20 natural. Se você não possuir as ferramentas apropriadas, O mestre pode permitir o uso de ferramentas improvisadas, que são tratadas como ferramentas de má qualidade.</p><p><strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.</p><p><strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa.</p><p><strong>Falha Crítica</strong> Você quebra suas ferramentas. Consertá-las requer usar Manufatura para @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repará-las} ou providenciar @Compendium[pf2e.equipment-srd.Sw7MBLASN3xK4Y44]{Apetrechos de Reposição}</p>",
+        "Description": "<p>Abrir uma fechadura sem ter a chave é um processo parecido com Desabilitar um Dispositivo, porém a CD do teste é determinada pela complexidade e estrutura da fechadura que você está tentando abrir. Fechaduras de qualidade maior podem exigir múltiplos sucessos\npara serem abertas. Se você não tiver as ferramentas adequadas, o Mestre pode permitir que você use gazuas improvisadas, tratando-as como ferramentas de ladrão de baixa qualidade.</p><p><strong>Sucesso Crítico</strong> Você destranca a fechadura, ou obtém dois sucessos para abrir uma fechadura que exija mais de um sucesso. Você não deixa quaisquer vestígios da adulteração.</p><p><strong>Sucesso</strong> Você abre a fechadura, ou obtém um sucesso para abrir uma fechadura que exija mais de um sucesso. Você danifica levemente a fechadura, e quem inspecioná-la de perto perceberá que foi aberta à força.</p><p><strong>Falha crítica</strong> Você quebra as ferramentas e deixa evidências claras de dano na fechadura. @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Reparar} ferramentas quebradas exige o uso de Manufatura para Repará-las, ou substituir as @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Gazuas de Reposição}.</p>",
         "Notes": {
-          "criticalFailure": "<strong>Falha Crítica</strong> Você quebra suas ferramentas e deixa evidências claras de dano na fechadura. @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Consertar} ferramentas quebradas exige o uso de Manufatura para Consertá-las, ou substituir as @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Gazuas de Reposição}.",
+          "criticalFailure": "<strong>Critical Failure</strong> You break your toolkit and leave behind obvious damage. Fixing a broken toolkit requires using Crafting to @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} it or else swapping in @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{replacement picks}.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você destranca a fechadura ou obtém dois sucessos para abrir uma fechadura complexa. Você não deixa traços de sua interferência.",
-          "success": "<strong>Sucesso</strong> Você destranca a fechadura ou obtém um sucesso para abrir uma fechadura complexa."
+          "success": "<strong>Sucesso</strong> Você abre a fechadura, ou obtém um sucesso para abrir uma fechadura que exija mais de um sucesso. Você danifica levemente a fechadura, e quem inspecioná-la de perto perceberá que foi aberta à força."
         },
         "Title": "Abrir uma Fechadura"
       },

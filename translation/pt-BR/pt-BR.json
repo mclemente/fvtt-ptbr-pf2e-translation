@@ -561,7 +561,7 @@
         "Type": "Tipo"
       },
       "Speed": {
-        "BaseLabel": "Velocidade {type} Base",
+        "BaseLabel": "Velocidade {type} de {value} pés",
         "Plural": "Velocidades",
         "Label": "Velocidade",
         "LabelFeet": "Velocidade (pés)",
@@ -1043,10 +1043,13 @@
         "SourcesLabel": "Fontes",
         "Title": "Configurações do Navegador de Compêndios"
       },
-      "TabAction": "Ações",
+      "TabAbilities": "Ações & Habilidades",
       "TabBestiary": "Bestiários",
       "TabCampaign": "Campanha",
+      "TabEquipment": "Equipamento",
       "TabFeat": "Talentos & Caraterísticas",
+      "TabHazard": "Perigos",
+      "TabSpell": "Magias",
       "TakeLabel": "Pegar Item",
       "Title": "Navegador de Compêndios",
       "TraitsComponent": {
@@ -1254,7 +1257,7 @@
           "fatigued": "fatigado",
           "fear-effects": "efeitos de Medo",
           "fleeing": "fugindo",
-          "fortune-effects": "efeitos de fortuna",
+          "fortune-effects": "efeitos de fortúnio",
           "frightened": "assustado",
           "ghost-touch": "toque Fantasma",
           "glass": "vidro",
@@ -2670,7 +2673,10 @@
       "Spell": {
         "Area": "{shape} de {size} {unit}",
         "BaseValue": "Base: {value}",
-        "Cast": "Conjuração",
+        "Cast": {
+          "Noun": "Conjuração",
+          "Verb": "Conjurar"
+        },
         "Cost": "Custo",
         "Counteract": {
           "Hint": "Se você estiver neutralizando uma aflição, a CD estará no bloco de estatísticas da aflição. Se for uma magia, use a CD do conjurador. O mestre também pode calcular uma CD com base no nível do efeito-alvo.",
@@ -2814,6 +2820,23 @@
     "ItemNotSupportedOnActor": "Item não suportado no ator",
     "ItemRemoveRuleElement": "Remover Elemento de Regra",
     "ItemTitle": "Item",
+    "ItemTransferDialog": {
+      "Button": {
+        "gift": "Dar",
+        "move": "Transferir",
+        "purchase": "Comprar"
+      },
+      "Prompt": {
+        "gift": "Dar este item para {actor}?",
+        "move": "Transferir este item para {actor}?",
+        "purchase": "{actor} deseja comprar este item?"
+      },
+      "Title": {
+        "gift": "Dar {item}",
+        "move": "Transferir {item}",
+        "purchase": "Comprar {item}"
+      }
+    },
     "ItemsLabel": "Itens",
     "Keybinding": {
       "CycleTokenStack": {
@@ -3375,8 +3398,8 @@
         "ShowDefault": "Mostrar sempre",
         "ShowDefaultHint": "Se ativado, esta caixa de diálogo sempre será exibida, a não ser que você segurar Shift. Se desativado, você pode abrir esta caixa de diálogo segurando Shift."
       },
-      "Fortune": "Fortuna",
-      "FortuneTitle": "{title} Fortuna",
+      "Fortune": "Fortúnio",
+      "FortuneTitle": "{title} Fortúnio",
       "KeepHigher": "Manter Mais Alto",
       "KeepLower": "Manter Mais Baixo",
       "Misfortune": "Infortúnio",
@@ -3422,11 +3445,11 @@
         },
         "Name": "Automação",
         "ReachEnforcement": {
-          "Corpses": "Cadáveres",
-          "Doors": "Portas",
+          "corpses": "Cadáveres",
+          "doors": "Portas",
           "Hint": "Seguir a regra de alcance quando jogadores tentarem interagir com certos objetos no mapa.",
-          "Loot": "Espólio",
-          "Merchants": "Vendedores",
+          "loot": "Espólio",
+          "merchants": "Comerciantes",
           "Name": "Seguir Regra de Alcance"
         },
         "RemoveExpiredEffects": {
@@ -3482,12 +3505,12 @@
         "Hint": "Setar o ícone sobreposto usado para marcar atores mortos.",
         "Name": "Ícone de Morte"
       },
-      "DragMeasurement": {
-        "Always": "Sempre",
-        "Encounters": "Durante Encontros",
-        "Hint": "Mede a distância viajada enquanto arrasta um token sem a necessidade de segurar nenhum outro botão. Paradas podem ser colocadas ao pressionar \"{key}\" e removidas pelo clique-direito.",
-        "Name": "Medição de Arraste",
-        "Never": "Nunca"
+      "DistanceDisplay": {
+        "Hint": "Exibe a distância entre o token controlado e o token cujo mouse esteja por cima.",
+        "Name": "Exibir Distância de Token",
+        "always": "Sempre",
+        "encounters": "Durante Encontros",
+        "never": "Nunca"
       },
       "EnabledDisabled": {
         "Enabled": "Habilitado",
@@ -3994,6 +4017,60 @@
     "TotalCoinage": "Moedas Totais",
     "TotalTreasure": "Tesouro Total",
     "TotalWealth": "Riqueza Total",
+    "TradeDialog": {
+      "Aborted": "{user} finalizou a troca: nenhum item foi trocado.",
+      "Acceptance": {
+        "Accepted": "{user} aceitou sua oferta.",
+        "Accept": "Aceitar Oferta",
+        "NotAccepted": "{user} não aceitou a sua oferta.",
+        "Rescind": "Rescindir Aceitação"
+      },
+      "Error": {
+        "Engaged": "{user} está envolvido em uma troca no momento.",
+        "LoggedOut": "Finalizando troca: {user} não está mais logado.",
+        "NotTrading": "Finalizando troca: {user} não está mais trocando.",
+        "OutOfReach": "{self} e {trader} não está dentro do alcance um do outro.",
+        "SelectToken": "Selecione exatamente um token associado com um PJ ou PDM para representar você em uma troca.",
+        "Timeout": "Finalizando troca: não houve resposta do {user} após {timeout} segundos",
+        "Unavailable": "Finalizando troca: {user} se tornou indisponível."
+      },
+      "Gift": {
+        "Accepted": "{trader} recebeu seu item.",
+        "Declined": "{trader} recusou seu item.",
+        "Prompt": {
+          "Content": "{trader} ({user}) quer dar {quantity}x {item} para {self}.",
+          "Title": "Receber Itens?"
+        },
+        "Received": "{self} recebeu o item de {trader}."
+      },
+      "ImgAlt": {
+        "Actor": "Retrato de {actor}, representando {user}",
+        "Item": "Ícone de {item}"
+      },
+      "Quantity": {
+        "Decrement": "Diminuir Quantidade do Item",
+        "Increment": "Aumentar Quantidade do Item",
+        "Label": "Quantidade de {item}"
+      },
+      "Receiving": "Recebendo: {list}",
+      "Request": {
+        "Declined": "{trader} ({user}) recusou seu pedido de troca.",
+        "Requesting": "Pedindo para trocar com {trader} ...",
+        "Prompt": {
+          "Content": "{trader} ({user}) quer trocar com {self}.",
+          "Title": "Trocar com {trader}?"
+        },
+        "MenuLabel": "Pedir Troca",
+        "Timeout": "Não house resposta de {user} para seu pedido de troca após 30 segundos."
+      },
+      "Sending": "Enviando: {list}",
+      "Success": {
+        "Finished": "{Self} terminou de trocar com {trader}.",
+        "NoItems": "A troca foi concluída, mas nenhum item foi trocado."
+      },
+      "Title": "Trocando com {trader}",
+      "You": "Você"
+    },
     "TrainedSkillsLabel": "Perícias Treinadas",
     "TraitAberration": "Aberração",
     "TraitAcid": "Ácido",
@@ -4036,7 +4113,7 @@
     "TraitAffixedToMetalWeapon": "Afixado a uma arma de metal",
     "TraitAffixedToObjectOrStructure": "Afixado num Objeto ou Estrutura",
     "TraitAffixedToStructureObjectOrCreature": "Afixado numa Estrutura, Objeto, ou Criatura",
-    "TraitAffixedToThrownWeapon": "Afixado a Arma Arremessável",
+    "TraitAffixedToThrownWeapon": "Afixado a Arma de Arremesso",
     "TraitAffixedToUnarmoredItem": "Afixado a Item de Defesa sem Armadura",
     "TraitAffixedToWeapon": "Fixado em uma Arma",
     "TraitAftermath": "Arremate",
@@ -4085,7 +4162,7 @@
     "TraitAsura": "Asura",
     "TraitAthamaru": "Athamaru",
     "TraitAttached": "Anexado",
-    "TraitAttachedToAThrownWeapon": "Anexado à Arma Arremessável",
+    "TraitAttachedToAThrownWeapon": "Anexado à Arma de Arremesso",
     "TraitAttachedToCrossbowOrFirearm": "Anexado em uma besta ou arma de fogo",
     "TraitAttachedToCrossbowOrFirearmFiringMechanism": "Anexado em uma besta ou arma de fogo (mecanismo de tiro)",
     "TraitAttachedToCrossbowOrFirearmScope": "Anexado em uma besta ou arma de fogo (mira)",
@@ -5083,12 +5160,12 @@
     "TraitTengu": "Tengu",
     "TraitTethered": "Amarrada",
     "TraitThaumaturge": "Taumaturgo",
-    "TraitThrown": "Arremessável",
+    "TraitThrown": "Arremesso",
     "TraitThrown10": "Arremesso 10 pés",
     "TraitThrown100": "Arremesso 100 pés",
     "TraitThrown15": "Arremesso 15 pés",
     "TraitThrown20": "Arremesso 20 pés",
-    "TraitThrown200": "Arremessável 200 pés",
+    "TraitThrown200": "Arremesso 200 pés",
     "TraitThrown30": "Arremesso 30 pés",
     "TraitThrown40": "Arremesso 40 pés",
     "TraitThrown50": "Arremesso 50 pés",
@@ -5275,7 +5352,6 @@
       "SourceId": "ID de Origem"
     },
     "UnitedPaizoWorkers": {
-      "PFSNote": "Nota para jogadores da Sociedade Pathfinder: Em apoio ao UPW, A mercadoria comprada na loja da união contará na região PFS online para os <span class=\"hover\" title=\"When you use a Hero Point to reroll a check, add a +1 cirumstance bonus to the reroll\">Vestimentos</a> promocionais.",
       "Title": "Anúncio: United Paizo Workers"
     },
     "UnprepareItemTitle": "Despreparar Item",
@@ -5399,6 +5475,7 @@
         "gauntlet": "Manopla",
         "gauntlet-bow": "Arco de Manopla",
         "gill-hook": "Gill Hook",
+        "gladius": "Gládio",
         "glaive": "Glaive",
         "gnome-amalgam-musket": "Gnome Amalgam Musket",
         "gnome-flickmace": "Maça-Chicote Gnômica",
@@ -5553,6 +5630,7 @@
         "visap": "Visap",
         "wakizashi": "Wakizashi",
         "war-flail": "Mangual de Guerra",
+        "war-javelin": "Azagaia de Guerra",
         "war-lance": "Lança de Guerra",
         "war-razor": "Navalha de Guerra",
         "warhammer": "Martelo de Guerra",
@@ -6104,6 +6182,9 @@
         "rules": "<p>Alguém está tomando suas decisões por você, normalmente porque você está sendo comandado ou dominado magicamente. O controlador dita como você age e pode fazê-lo usar qualquer uma de suas ações, incluindo ataques, reações ou até mesmo Adiar. O controlador normalmente não precisa gastar as ações dele quando lhe controlar.</p>",
         "summary": "Outra criatura determina suas ações."
       },
+      "cursebound": {
+        "name": "Ominoso"
+      },
       "dazzled": {
         "name": "Ofuscado",
         "rules": "<p>Seus olhos estão superestimulados. Se visão for seu único sentido preciso, todas as criaturas e objetos ficam ocultados para você.</p>",
@@ -6343,9 +6424,7 @@
       "DepositSubtitle": "Depositar item",
       "EditLootLabel": "Configurar Espólio?",
       "GMSupervisionError": "Um mestre precisa estar online para poder interagir com {loot}.",
-      "Give": "Dar",
       "GiveMessage": "{giver} deposita {quantity} × {item} em {recipient}.",
-      "GiveSubtitle": "Dar item",
       "HiddenWhenEmpty": {
         "Hint": "Esconder o token deste ator quando seu inventário estiver vazio",
         "Label": "Esconder quando vazio"
@@ -6361,16 +6440,13 @@
       "LootNamePlaceholder": "Espólio",
       "LootSubtitle": "Saquear item",
       "MerchantDescription": "Permite que os jogadores comprem itens diretamente da ficha.",
-      "MerchantLabel": "Mercador",
+      "MerchantLabel": "Comerciante",
       "MoveLoot": "Mover itens",
-      "MoveLootMessage": "Quantos itens você deseja mover?",
       "MoveLootPopupTitle": "Quantidade do item",
       "PartyStash": "o estoque do grupo",
       "PermissionError": "Um mestre deve estar online para saquear ou guardar um item.",
       "PlantMessage": "{planter} deposita {quantity} × {item} do(a) {corpse}.",
       "PlantSubtitle": "Depositar Item",
-      "Purchase": "Comprar",
-      "PurchaseLootPrompt": "Gostaria de comprar esse item para {comprador}?",
       "PurchasePrice": "Preço de compra",
       "Quantity": "Quantidade",
       "SellMessage": "{seller} vende {quantity} × {item} para {buyer}.",
@@ -6422,6 +6498,27 @@
   },
   "SIDEBAR": {
     "TabCombat": "Rastreador de Encontro"
+  },
+  "TOKEN": {
+    "MOVEMENT": {
+      "ACTIONS": {
+        "drive": {
+          "label": "Conduzir"
+        },
+        "jump": {
+          "label": "Saltar"
+        },
+        "travel": {
+          "label": "Viagem"
+        },
+        "walk": {
+          "label": "Andar"
+        },
+        "blink": {
+          "label": "Teleporte"
+        }
+      }
+    }
   },
   "TYPES": {
     "Actor": {
