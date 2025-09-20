@@ -561,6 +561,7 @@
         "Type": "Tipo"
       },
       "Speed": {
+        "BaseLabel": "Velocidade {type} de {value} pés",
         "Plural": "Velocidades",
         "Label": "Velocidade",
         "LabelFeet": "Velocidade (pés)",
@@ -1042,7 +1043,7 @@
         "SourcesLabel": "Fontes",
         "Title": "Configurações do Navegador de Compêndios"
       },
-      "TabAbilities": "Habilidades",
+      "TabAbilities": "Ações & Habilidades",
       "TabBestiary": "Bestiários",
       "TabCampaign": "Campanha",
       "TabEquipment": "Equipamento",
@@ -1256,7 +1257,7 @@
           "fatigued": "fatigado",
           "fear-effects": "efeitos de Medo",
           "fleeing": "fugindo",
-          "fortune-effects": "efeitos de fortuna",
+          "fortune-effects": "efeitos de fortúnio",
           "frightened": "assustado",
           "ghost-touch": "toque Fantasma",
           "glass": "vidro",
@@ -2674,7 +2675,7 @@
         "BaseValue": "Base: {value}",
         "Cast": {
           "Noun": "Conjuração",
-          "Verb": "Conjuração"
+          "Verb": "Conjurar"
         },
         "Cost": "Custo",
         "Counteract": {
@@ -3397,8 +3398,8 @@
         "ShowDefault": "Mostrar sempre",
         "ShowDefaultHint": "Se ativado, esta caixa de diálogo sempre será exibida, a não ser que você segurar Shift. Se desativado, você pode abrir esta caixa de diálogo segurando Shift."
       },
-      "Fortune": "Fortuna",
-      "FortuneTitle": "{title} Fortuna",
+      "Fortune": "Fortúnio",
+      "FortuneTitle": "{title} Fortúnio",
       "KeepHigher": "Manter Mais Alto",
       "KeepLower": "Manter Mais Baixo",
       "Misfortune": "Infortúnio",
@@ -4112,7 +4113,7 @@
     "TraitAffixedToMetalWeapon": "Afixado a uma arma de metal",
     "TraitAffixedToObjectOrStructure": "Afixado num Objeto ou Estrutura",
     "TraitAffixedToStructureObjectOrCreature": "Afixado numa Estrutura, Objeto, ou Criatura",
-    "TraitAffixedToThrownWeapon": "Afixado a Arma Arremessável",
+    "TraitAffixedToThrownWeapon": "Afixado a Arma de Arremesso",
     "TraitAffixedToUnarmoredItem": "Afixado a Item de Defesa sem Armadura",
     "TraitAffixedToWeapon": "Fixado em uma Arma",
     "TraitAftermath": "Arremate",
@@ -4161,7 +4162,7 @@
     "TraitAsura": "Asura",
     "TraitAthamaru": "Athamaru",
     "TraitAttached": "Anexado",
-    "TraitAttachedToAThrownWeapon": "Anexado à Arma Arremessável",
+    "TraitAttachedToAThrownWeapon": "Anexado à Arma de Arremesso",
     "TraitAttachedToCrossbowOrFirearm": "Anexado em uma besta ou arma de fogo",
     "TraitAttachedToCrossbowOrFirearmFiringMechanism": "Anexado em uma besta ou arma de fogo (mecanismo de tiro)",
     "TraitAttachedToCrossbowOrFirearmScope": "Anexado em uma besta ou arma de fogo (mira)",
@@ -5159,12 +5160,12 @@
     "TraitTengu": "Tengu",
     "TraitTethered": "Amarrada",
     "TraitThaumaturge": "Taumaturgo",
-    "TraitThrown": "Arremessável",
+    "TraitThrown": "Arremesso",
     "TraitThrown10": "Arremesso 10 pés",
     "TraitThrown100": "Arremesso 100 pés",
     "TraitThrown15": "Arremesso 15 pés",
     "TraitThrown20": "Arremesso 20 pés",
-    "TraitThrown200": "Arremessável 200 pés",
+    "TraitThrown200": "Arremesso 200 pés",
     "TraitThrown30": "Arremesso 30 pés",
     "TraitThrown40": "Arremesso 40 pés",
     "TraitThrown50": "Arremesso 50 pés",
@@ -5351,7 +5352,6 @@
       "SourceId": "ID de Origem"
     },
     "UnitedPaizoWorkers": {
-      "PFSNote": "Nota para jogadores da Sociedade Pathfinder: Em apoio ao UPW, A mercadoria comprada na loja da união contará na região PFS online para os <span class=\"hover\" title=\"When you use a Hero Point to reroll a check, add a +1 cirumstance bonus to the reroll\">Vestimentos</a> promocionais.",
       "Title": "Anúncio: United Paizo Workers"
     },
     "UnprepareItemTitle": "Despreparar Item",
@@ -5475,6 +5475,7 @@
         "gauntlet": "Manopla",
         "gauntlet-bow": "Arco de Manopla",
         "gill-hook": "Gill Hook",
+        "gladius": "Gládio",
         "glaive": "Glaive",
         "gnome-amalgam-musket": "Gnome Amalgam Musket",
         "gnome-flickmace": "Maça-Chicote Gnômica",
@@ -5629,6 +5630,7 @@
         "visap": "Visap",
         "wakizashi": "Wakizashi",
         "war-flail": "Mangual de Guerra",
+        "war-javelin": "Azagaia de Guerra",
         "war-lance": "Lança de Guerra",
         "war-razor": "Navalha de Guerra",
         "warhammer": "Martelo de Guerra",
@@ -6438,7 +6440,7 @@
       "LootNamePlaceholder": "Espólio",
       "LootSubtitle": "Saquear item",
       "MerchantDescription": "Permite que os jogadores comprem itens diretamente da ficha.",
-      "MerchantLabel": "Mercador",
+      "MerchantLabel": "Comerciante",
       "MoveLoot": "Mover itens",
       "MoveLootPopupTitle": "Quantidade do item",
       "PartyStash": "o estoque do grupo",
