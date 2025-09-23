@@ -1423,6 +1423,11 @@
     "Distracting Chatter": {
       "name": "Distracting Chatter",
       "description": "<p>You bombard a target with distracting auditory illusions, surrounding them with a tumultuous cacophony of overlapping speech, whispers, screams, and muttering. The target is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}, takes a -2 status penalty to purely auditory Perception checks, and must succeed at a @Check[flat|dc:5] to use auditory abilities or verbal spell components. Similarly, a creature who attempts to affect the target with an auditory effect must succeed at a @Check[flat|dc:5] or the attempt fails. The duration depends on the target's Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The duration is 1 round.</p>\n<p><strong>Failure</strong> The duration is 3 rounds.</p>\n<p><strong>Critical Failure</strong> The duration is 1 minute.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to five creatures.</p>",
+      "heightening": {
+        "7": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Distracting Decoy": {
@@ -1457,7 +1462,7 @@
     },
     "Divine Lance": {
       "name": "Lança Divina",
-      "description": "<p>Você lança um feixe de energia divina. Escolha uma tendência que sua divindade possua (bem, caos, mal ou ordem). Você não pode conjurar esta magia se não tiver uma divindade ou se sua divindade for neutra verdadeira. Esta magia recebe o traço da tendência escolhida. Faça uma rolagem de ataque de magia contra a CA do alvo. Em um acerto, o alvo sofre dano do tipo de tendência escolhido igual a 1d4 + o modificador de seu atributo de conjuração (dobro do dano em um acerto crítico).</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+      "description": "<p>Você libera um feixe de energia divina. Faça um teste de ataque com magia à distância contra a CA do alvo. Se acertar, o alvo sofre 2d4 de dano espiritual (o dobro, no caso de acerto crítico).</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
       "target": "1 creature"
     },
     "Divine Plagues": {
@@ -1979,6 +1984,11 @@
     "Fear": {
       "name": "Medo",
       "description": "<p>Você planta medo no alvo e ele deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 2.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 3 e @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada.</p><p><hr /><strong>Elevada (3º)</strong>  Você pode afetar até cinco criaturas.</p>",
+      "heightening": {
+        "3": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Fear the Sun": {
@@ -2349,6 +2359,11 @@
     "Gravitational Pull": {
       "name": "Gravitational Pull",
       "description": "<p>By suddenly altering gravity, you pull the target toward you. The target is pulled 10 feet closer to you unless it succeeds at a Fortitude save. On a critical failure, it's also knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}. The effects of this spell change depending on the number of actions you spend when you Cast this Spell.</p>\n<p><span class=\"pf2-icon\">1  <strong>(somatic)</strong> The spell targets one creature.</p>\n<p><span class=\"pf2-icon\">2  <strong>(somatic, verbal)</strong> The spell targets one creature and pulls the target 20 feet instead of 10.</p>\n<p><span class=\"pf2-icon\">3  <strong>(material, somatic, verbal)</strong> The spell targets up to 5 creatures.</p>",
+      "spellVariants": {
+        "xo6fc5njtz8vowkk": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Gravity Weapon": {
@@ -3559,6 +3574,11 @@
     "Paranoia": {
       "name": "Paranoia",
       "description": "<p>Você faz o alvo ver todas as outras criaturas como ameaças atrozes. O alvo é acometido por uma paranoia intensa em relação a todas as criaturas ao redor dele e deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Success</strong> O alvo acredita que todo mundo o vê como uma ameaça em potencial. Ele fica @Compendium[pf2e.conditionitems.I1ffBVISxLr2gC4u]{Unfriendly} todas as criaturas para as quais já não esteja hostil, mesmo àquelas que eram previamente aliadas. Ele não trata ninguém como aliado. A magia se encerra após 1 rodada.</p> <p><strong>Falha</strong> Como sucesso, mas o efeito dura 1 minuto.</p> <p><strong>Falha Crítica</strong>  Como falha, exceto que o alvo acredita que todo mundo o vê como um inimigo mortal. Ele usa as reações e ações livres dele contra todos, independentemente de serem previamente aliados, conforme determinado pelo mestre. Apesar disso, ele age racionalmente como normalmente faria e prefere atacar criaturas que estejam o atacando ou prejudicando ativamente em vez daquelas que não estão interagindo com ele.</p> <p><hr /><strong>Elevada (6º)</strong>  Você pode afetar até 5 criaturas.</p>",
+      "heightening": {
+        "6": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Parch": {
@@ -3665,6 +3685,11 @@
     "Phantom Prison": {
       "name": "Phantom Prison",
       "description": "<p>You completely surround a Large or smaller creature in immobile illusory walls, trapping it inside a false prison it can't escape. No other creatures see or feel these walls, and the target can't see anything outside of the illusory walls. The target can attempt a Will save when the spell is cast, each time it attempts to interact with or escape the walls, and each time something from outside the walls affects the target. On a success, it disbelieves the illusion and the spell ends.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 5 creatures.</p>",
+      "heightening": {
+        "8": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Phantom Ship": {
@@ -4104,6 +4129,11 @@
     },
     "Resist Energy": {
       "name": "Resistir a Energia",
+      "heightening": {
+        "7": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Resplendent Mansion": {
@@ -5121,6 +5151,11 @@
     },
     "Synesthesia": {
       "name": "Sinestesia",
+      "heightening": {
+        "9": {
+          "target": "5 criaturas"
+        }
+      },
       "target": "1 creature"
     },
     "Tailwind": {
