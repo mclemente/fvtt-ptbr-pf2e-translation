@@ -23,7 +23,7 @@
     "Achaekek's Clutch": {
       "name": "Achaekek's Clutch",
       "description": "<p>You mark the holy symbol of Achaekek in a visible location on the target's body.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is marked by Achaekek's symbol. For 1 minute, the first time per round that the target gains @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}, they immediately take that amount of slashing damage as the mantis claws grow off the symbol and rake them.</p>\n<p><strong>Failure</strong> As success, but the curse has an unlimited duration.</p>\n<p><strong>Critical Failure</strong> As failure, but the DC on the target's flat check to remove persistent bleed damage increases to 20 (15 with particularly effective assistance).</p>",
-      "target": "1 Criatura"
+      "target": "1 criatura"
     },
     "Acid Arrow": {
       "name": "Flecha Ácida",
@@ -2209,8 +2209,7 @@
       "target": "1 criatura voluntária"
     },
     "Frigid Flurry": {
-      "name": "Frigid Flurry",
-      "description": "<p>You place a palm to your lips and exhale a cold breath, whipping up a gust of wind that freezes the air's ambient moisture into a flurry of jagged shards. The flurry deals 9d6 cold damage and 9d6 slashing damage to all foes, with a basic Reflex save, but the gust flows harmlessly around your allies. The wind then picks you up and carries you to the other end of the area; though your movement within the gust can still trigger reactions, the storm of ice crystals prevents you from being affected by any effects, except for those that would counteract the spell's magic or that the GM decides would affect snow.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The cold and slashing damage each increase by 1d6.</p>"
+      "name": "Frigid Flurry"
     },
     "Frog Tongue": {
       "target": "1 criatura"
@@ -2414,7 +2413,7 @@
     },
     "Gust of Wind": {
       "name": "Lufada de Vento",
-      "description": "<p>Um vento violento surge da palma de sua mão, soprando do ponto onde você está quando conjura a magia até o lado oposto da linha. O vento extingue qualquer fogo não-mágico, dispersa névoa e bruma, sopra objetos de Volume leve ou menor e empurra objetos maiores. Criaturas Grandes ou menores na área devem tentar um salvamento de Fortitude. Criaturas Grandes ou menores que se moverem para dentro da lufada devem tentar um salvamento assim que o fizerem.<p><p><strong>Sucesso Crítico <strong>A criatura não é afetada.<p><p><strong>Sucesso<strong> A criatura não pode mover-se contra o vento.<p><p><strong>Falha<strong> A criatura é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{prostrado}. Se estiver voando, ela sofre os efeitos de falha crítica.<p><p><strong>Falha Crítica<strong> A criatura é empurrada 9 metros na direção do vento, é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{prostrado} e sofre 2d6 de dano contundente.<p>"
+      "description": "<p>Um vendaval violento sai de sua palma, soprando do ponto de onde você estava quando Conjurou esta Magia até a extremidade oposta da linha. O vento extingue pequenas chamas mundanas, dispersa neblina e névoa, leva embora objetos de Volume leve ou menor e empurra objetos maiores. Todas as criaturas Grandes ou menores que estiverem na área precisam fazer um salvamento de Fortitude. Criaturas Grandes ou menores que se moverem para a área da lufada precisam fazer esse teste ao entrar.<p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura não pode se mover contra o vento.</p>\n<p><strong>Falha</strong> A criatura cai @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada}. Se estiver voando, sofre os efeitos de uma falha crítica.</p>\n<p><strong>Falha crítica</strong> A criatura é empurrada 9 metros na direção do vento, é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada} e sofre 2d6 de dano contundente.</p>"
     },
     "Hag's Fruit": {
       "name": "Hag's Fruit",
@@ -2669,7 +2668,7 @@
     },
     "Illusory Disguise": {
       "name": "Disfarce Ilusório",
-      "description": "<p>Você cria uma ilusão que faz você parecer outra criatura do mesmo formato corporal e com altura e peso mais ou menos similares aos seus (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce normalmente é bom o suficiente para esconder sua identidade, mas não para personificar um indivíduo específico. A magia não muda sua voz, odor ou maneirismos. Você pode mudar a aparência de suas roupas e itens vestidos, como fazer sua armadura parecer um vestido. Itens segurados não são afetados, e qualquer item vestido que você remover retorna à aparência real dele.</p>\n<p>Conjurar disfarce ilusório cria um disfarce para o uso de Dissimulação para @Compendium[pf2e.action-macros.k5nW4jGyXD0Oq9LR]{Personificar}; ela ignora qualquer penalidade de circunstância sofrida por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que você adicione seu nível ao teste mesmo se for destreinado. Você pode Dispensar esta magia.</p>\n<hr />\n<p><strong>Elevada (2º)</strong>traço A magia também disfarça sua voz e cheiro, além de receber o traço auditivo.</p>\n<p><strong>Elevada (3º) </strong>Você pode parecer qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto um indivíduo para assumir a aparência dele. A magia também disfarça sua voz e odor, além de receber o traço auditivo</p>\n<p>@Compendium[pf2e.spell-effects.3Ktyd5F9lOPo4myk]{Spell Effect: Illusory Disguise}</p>",
+      "description": "<p>Você cria uma ilusão que faz com que o alvo pareça outra criatura com o mesmo formato corporal e com altura e peso semelhante ao seu (diferença de até 15 centímetros e 25 kg). O disfarce normalmente é bom o suficiente para esconder sua identidade, mas não para personificar um indivíduo específico. A magia muda sua aparência e voz, mas não seus maneirismos. Você pode alterar a aparência das suas roupas e itens equipados, como fazer com que sua armadura pareça um vestido. Itens segurados não são afetados e qualquer item equipado removido da criatura retorna à sua aparência verdadeira.</p>\n<p>Conjurar <em>disfarce ilusório</em> conta como criar um disfarce para os propósitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]Personificar}; ele ignora as penalidades de circunstância que o alvo pode ter por se disfarçar de uma criatura diferente dele, concedendo +4 de bônus de estado em testes de Dissimulação para impedir que outras pessoas vejam através do disfarce, permitindo que o alvo adicione seu nível ao teste, mesmo que seja destreinado. Você pode Dispensar esta magia.</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O alvo pode aparecer como qualquer criatura do mesmo tamanho, até mesmo um indivíduo específico. Você precisa ter visto um indivíduo para replicar a aparência dele e ouvido a voz para poder replicá-la.</p>\n<p><strong>Elevada (4º)</strong> Você pode visar até 10 criaturas voluntárias. Se esta magia for usada em mais de uma criatura, é possível escolher um disfarce diferente para cada alvo, mas nenhum poderá per- sonificar um indivíduo específico. Você pode Dispensar cada dis- farce individualmente ou todos de uma vez.</p>\n<p><strong>Elevada (7º)</strong> Como no 4º ranque, mas você pode escolher disfarces que personifiquem indivíduos específicos. Você precisa ter visto um indivíduo para replicar a aparência dele e ouvido a voz para poder replicá-la.</p>\n<p>@Compendium[pf2e.spell-effects.3Ktyd5F9lOPo4myk]{Efeito de Magia: Disfarce Ilusório}</p>",
       "target": "1 criatura voluntária"
     },
     "Illusory Object": {
@@ -3359,6 +3358,10 @@
     },
     "Mycological Malady": {
       "target": "1 criatura"
+    },
+    "Mystic Armor": {
+      "name": "Armadura Mística",
+      "description": "<p>Você se protege com uma energia mágica cintilante, recebendo +1 de bônus de item na CA e um modificador máximo de Destreza de +5. Enquanto estiver equipado com <em>armadura mística</em>, você usa sua proficiência sem armadura para calcular a CA.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qkwb5DD3zmKwvbk0]{Efeito de Magia: Armadura Mística}</p>\n<hr />\n<p><strong>Elevada (4º)</strong> Você recebe +1 de bônus de item em testes de salvamento.</p>\n<p><strong>Elevada (6º)</strong> O bônus de item na CA aumenta para +2 e você recebe +1 de bônus de item em testes de salvamento.</p>\n<p><strong>Elevada (8º)</strong> O bônus de item na CA aumenta para +2 e você recebe +2 de bônus de item em testes de salvamento.</p>\n<p><strong>Elevada (10º)</strong> O bônus de item na CA aumenta para +3 e você recebe +3 de bônus de item em testes de salvamento.</p>"
     },
     "Mystic Beacon": {
       "name": "Farol Místico",
