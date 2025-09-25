@@ -562,6 +562,7 @@
       },
       "Speed": {
         "BaseLabel": "Velocidade de {type} de {value} pés",
+        "BaseWithSource": "Velocidade de {type} de {value} pés ({source})",
         "Plural": "Velocidades",
         "Label": "Velocidade",
         "LabelFeet": "Velocidade (pés)",
@@ -1624,6 +1625,7 @@
       "pointLabel": "Pontos"
     },
     "Foot": {
+      "Abbreviation": "pés",
       "Label": "pés",
       "Plural": "pés",
       "Preformatted": {
@@ -1780,6 +1782,17 @@
       },
       "Ancestry": {
         "DropFeatures": "Solte as características de ancestralidade aqui.",
+        "FIELDS": {
+          "hands": {
+            "label": "Mãos"
+          },
+          "reach": {
+            "label": "Alcance"
+          },
+          "speed": {
+            "label": "Velocidade"
+          }
+        },
         "Plural": "Ancestralidades",
         "Vision": {
           "Label": "Visão",
@@ -3236,7 +3249,9 @@
     "PreciousMaterialWarpglassDescription": "Essa bizarra substancia é formada pela bruta e caótica quintessência do Maelstrom. Ela pode ser moldada em armas e itens, mas é muito instável para fazer escudos ou armaduras úteis. Vidro-Torcido é um material vítreo opalescente com força surpreendente. Quando manuseado, muda sua aparência-mas não suas propriedades-para parecer estrias de outros metais ou tipos de pedras.",
     "PreparationTypeInnate": "Inatas",
     "PreparationTypeItems": "Somente Itens",
+    "PreparationTypeFocus": "de Foco",
     "PreparationTypePrepared": "Preparadas",
+    "PreparationTypeRitual": "Ritual",
     "PreparationTypeSpontaneous": "Espontâneas",
     "Prerequisite1": "Pré-requisito 1",
     "Prerequisite2": "Pré-requisito 2",
@@ -4609,7 +4624,6 @@
     "TraitDescriptionSedacthy": "Humanoides que habitam o oceano e se comunicam com a vida marinha, geralmente possuem visão no escuro e sentido das ondas.",
     "TraitDescriptionSerpentfolk": "Povo-serpente é uma família de humanoides serpentinos.",
     "TraitDescriptionShadow": "Esta magia envolve sombras ou a energia do Plano das Sombras.",
-    "TraitDescriptionShieldThrow": "Um escudo com este traço foi projetado para ser jogado como um ataque à distância.",
     "TraitDescriptionShisk": "Humanoides reservados e secretos, cobertos de plumas ossudas e que residem no subsolo.",
     "TraitDescriptionShoony": "Uma criatura com este traço é membro da ancestralidade shoony.",
     "TraitDescriptionShove": "Você pode usar esta arma para Empurrar com a perícia Atletismo mesmo se não tiver uma mão livre. Isto utiliza o alcance da arma (se for diferente do seu) e adiciona o bônus de item dela que é aplicado a rolagens de ataque (se houver) como um bônus de item aplicado ao seu teste de Atletismo. Se obtiver uma falha crítica no teste para Empurrar enquanto usar essa arma, você pode escolher soltá-la para sofrer os efeitos de uma falha em vez dos efeitos de uma falha crítica.",
@@ -6183,7 +6197,8 @@
         "summary": "Outra criatura determina suas ações."
       },
       "cursebound": {
-        "name": "Ominoso"
+        "name": "Ominoso",
+        "rules": "<p>Sua maldição oracular se intensifica enquanto você recebe punição divina por ter se aprofundado demais nos poderes do seu mistério. Ominoso é uma condição que afeta apenas criaturas com uma maldição oracular, e ominoso sempre inclui um valor. Sua maldição oracular impõe efeitos negativos únicos dependendo do valor da sua condição ominosa. Você só pode remover a condição ominosa se Refocar.</p>"
       },
       "dazzled": {
         "name": "Ofuscado",
