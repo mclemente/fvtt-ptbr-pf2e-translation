@@ -255,6 +255,7 @@
           "name": "Espinha"
         },
         "action->Reactive Strike": {
+          "name": "Golpe Reativo",
           "description": "<p><strong>Gatilho</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
         },
         "action->Swallow Whole": {
@@ -1042,6 +1043,13 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        }
+      }
+    },
+    "Torn Quartet": {
+      "items": {
+        "action->Reactive Strike": {
+          "name": "Golpe Reativo"
         }
       }
     },
