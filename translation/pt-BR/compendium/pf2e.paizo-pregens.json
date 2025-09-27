@@ -358,6 +358,10 @@
           "name": "Guerreiro",
           "description": "<p><em>Lutando por honra, ganância, lealdade ou simplesmente pela emoção da batalha, você é um mestre incontestável de armas e técnicas de combate. Você combate usando combinações inteligentes de movimentos de abertura, golpes de finalização e contra-ataques sempre que seus adversários agem imprudentemente e baixam a guarda. Seja um cavaleiro, mercenário, atirador ou mestre da lâmina, você aprimorou suas habilidades marciais como uma forma de arte e desfere ataques críticos e devastadores em seus inimigos.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.HZbrRRVzW7w17L2W]{Guerreiro}</em></p>"
         },
+        "feat->Reactive Strike": {
+          "name": "Golpe Reativo",
+          "description": "<p>Sempre atento a fraquezas, você consegue atacar bem rápido os inimigos que baixam a guarda. Você adquire a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe Reativo}.</p>"
+        },
         "feat->Shield Block": [
           {
             "name": "Bloqueio com Escudo",
@@ -369,6 +373,7 @@
           }
         ],
         "action->Reactive Strike": {
+          "name": "Golpe Reativo",
           "description": "<p><strong>Gatilho</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
         },
         "feat->Bravery": {
@@ -647,6 +652,9 @@
         },
         "feat->Domain Initiate (Family)": {
           "description": "<p>Sua divindade concede uma magia especial relacionado aos seus poderes. Selecione um domínio—um assunto de particular interesse para você dentro de sua religião—da lista de sua divindade. Você ganha uma magia de domínio inicial para esse domínio, uma magia único do domínio e não disponível para outros clérigos.</p>\n<p>magias de domínio são um tipo de magia de foco. Custa 1 Ponto de Foco para lançar uma magia de foco, e você começa com um reservatório de foco de 1 Ponto de Foco. Você recarrega seu reservatório de foco durante suas preparações diárias, e pode recuperar 1 Ponto de Foco ao passar 10 minutos usando a atividade Reforçar para rezar para sua divindade ou prestar serviço às suas causas.</p>\n<p>Os magias de foco são automaticamente aumentados para a metade do seu nível arredondado para cima, assim como truques mágicos. magias de foco não requerem espaços de magia e não podem ser lançados usando espaços de magia. Seu reservatório de foco pode ter um Ponto de Foco para cada magia de foco que você tiver, até 3 pontos.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, selecionando um domínio diferente a cada vez e ganhando o magia de domínio dele.</p>"
+        },
+        "feat->Cleric Spellcasting": {
+          "name": "Conjuração de Clérigo"
         },
         "feat->Second Doctrine": {
           "name": "Segunda Doutrina",
