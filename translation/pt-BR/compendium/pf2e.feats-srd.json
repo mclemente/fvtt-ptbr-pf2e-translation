@@ -2144,7 +2144,12 @@
     },
     "Cast Down": {
       "name": "Jogar ao Chão",
-      "description": "<p>A pura força da sua fé pode fazer um inimigo desabar. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} para causar dano a uma criatura, o alvo é arremessado ao @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Chão} se sofrer qualquer dano do magia. Se o alvo falhar criticamente em seu teste contra o magia, ele também sofre uma penalidade de -10 pés em sua Velocidade por 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Ve1CRFI8ikL6dqcL]{Efeito: Jogar ao Chão}</p>"
+      "description": "<p>A pura força da sua fé pode fazer um inimigo desabar. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} para causar dano a uma criatura, o alvo é arremessado ao @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Chão} se sofrer qualquer dano do magia. Se o alvo falhar criticamente em seu teste contra o magia, ele também sofre uma penalidade de -10 pés em sua Velocidade por 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Ve1CRFI8ikL6dqcL]{Efeito: Jogar ao Chão}</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Castigating Weapon": {
       "name": "Arma Castigante",
@@ -2545,7 +2550,12 @@
     },
     "Command Undead": {
       "name": "Comandar Mortos-Vivos",
-      "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna</p> <hr> <p>Você prende a força interna que anima um morto-vivo e o faz curvar-se à sua vontade. Se a sua próxima ação for conjurar @Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Ferir} mirando um morto-vivo, você altera os efeitos da magia Ferir. Em vez dos efeitos normais de ferir, o alvo fica controlado por você se o nível dele for igual ou menor ao seu nível – 3. Ele pode tentar uma jogada de salvamento de Vontade para resistir a ser controlado por você. Se o alvo já estiver sob o controle de outra criatura, essa outra criatura também rola uma jogada de salvamento, e o morto-vivo usa o melhor resultado.</p> <p><strong>Successo Crítico</strong> O alvo não é afetado e fica temporariamente imune a esse efeito por 24 horas..</p> <p><strong>Successo</strong> O alvo não é afetado.</p> <p><strong>Falha</strong> O morto-vivo se torna um lacaio sob seu controle. A magia recebe uma duração de 1 minuto, mas é dispensada se você ou um aliado atacar o morto-vivo lacaio..</p> <p><strong>Falha Crítica</strong> Como falha, mas a duração é de 1 hora.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna</p> <hr> <p>Você prende a força interna que anima um morto-vivo e o faz curvar-se à sua vontade. Se a sua próxima ação for conjurar @Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Ferir} mirando um morto-vivo, você altera os efeitos da magia Ferir. Em vez dos efeitos normais de ferir, o alvo fica controlado por você se o nível dele for igual ou menor ao seu nível – 3. Ele pode tentar uma jogada de salvamento de Vontade para resistir a ser controlado por você. Se o alvo já estiver sob o controle de outra criatura, essa outra criatura também rola uma jogada de salvamento, e o morto-vivo usa o melhor resultado.</p> <p><strong>Successo Crítico</strong> O alvo não é afetado e fica temporariamente imune a esse efeito por 24 horas..</p> <p><strong>Successo</strong> O alvo não é afetado.</p> <p><strong>Falha</strong> O morto-vivo se torna um lacaio sob seu controle. A magia recebe uma duração de 1 minuto, mas é dispensada se você ou um aliado atacar o morto-vivo lacaio..</p> <p><strong>Falha Crítica</strong> Como falha, mas a duração é de 1 hora.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de ferimento"
+        }
+      ]
     },
     "Commander Dedication": {
       "prerequisites": [
@@ -3106,7 +3116,12 @@
     },
     "Defensive Recovery": {
       "name": "Recuperação Defensiva",
-      "description": "<p>Sua fé fornece proteção temporária além de cura. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} em um único alvo e o alvo recuperar Pontos de Vida do magia, ele também ganha um bônus de condição +2 em CA e testes de resistência por 1 rodada.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.jwxurN6JPQm9wXug]{Efeito: Recuperação Defensiva}</p>"
+      "description": "<p>Sua fé fornece proteção temporária além de cura. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} em um único alvo e o alvo recuperar Pontos de Vida do magia, ele também ganha um bônus de condição +2 em CA e testes de resistência por 1 rodada.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.jwxurN6JPQm9wXug]{Efeito: Recuperação Defensiva}</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Defensive Roll": {
       "name": "Rolamento Defensivo",
@@ -3189,7 +3204,12 @@
       "description": "<p><strong>Access</strong> Matanji ethnicity</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You successfully Strike a living creature that has the fiend trait with your tusks unarmed attack.</p>\n<hr />\n<p>Just the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury. You become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} until the end of your next turn and you can use the extra action to make a tusks Strike, Stride, or Step.</p>"
     },
     "Denier of Destruction": {
-      "description": "<p> <strong>Prerequisites</strong> healing font <strong>Requirements</strong> You have a @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal} spell prepared and you aren't @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to the source of the damage. <strong>Trigger</strong> Any ally within 30 feet that you can heal with your <em>heal</em> spell would take damage from an attack or effect from a source you can observe. </span></p> <hr> <p>You can manipulate the same energies that the <em>aeon orbs</em> use to sustain life. You cast <em>heal</em> on the triggering target. Instead of its normal effects, the <em>heal</em> spell reduces the triggering damage by an amount equal to the Hit Points a 1-action <em>heal</em> spell of that level would have recovered. As usual, if this reduces the damage to 0, it might also remove additional effects of the triggering attack, such as injury poisons.</p>"
+      "description": "<p> <strong>Prerequisites</strong> healing font <strong>Requirements</strong> You have a @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal} spell prepared and you aren't @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to the source of the damage. <strong>Trigger</strong> Any ally within 30 feet that you can heal with your <em>heal</em> spell would take damage from an attack or effect from a source you can observe. </span></p> <hr> <p>You can manipulate the same energies that the <em>aeon orbs</em> use to sustain life. You cast <em>heal</em> on the triggering target. Instead of its normal effects, the <em>heal</em> spell reduces the triggering damage by an amount equal to the Hit Points a 1-action <em>heal</em> spell of that level would have recovered. As usual, if this reduces the damage to 0, it might also remove additional effects of the triggering attack, such as injury poisons.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Deny Support": {
       "description": "<p><strong>Access</strong> Help either the Washboard Dogs or the Diobel Sweepers destroy their rival.</p>\n<hr />\n<p>When you succeed or critically succeed at a Deception check to @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} an opponent, that target can't flank with their allies until the beginning of your next turn.</p>"
@@ -4722,7 +4742,12 @@
     },
     "Fast Channel": {
       "name": "Canalização Rápida",
-      "description": "<p>O poder divino está sempre ao seu alcance, respondendo rapidamente ao seu chamado. Quando você conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} gastando 2 ações, você pode obter os efeitos da versão de 3 ações em vez da versão de 2 ações.</p>\n<p>Você pode fazer isso com <em>ferir</em> se tiver a fonte prejudicial ou <em>curar</em> se tiver a fonte de cura (ou ambos se tiver Fonte Versátil).</p>"
+      "description": "<p>O poder divino está sempre ao seu alcance, respondendo rapidamente ao seu chamado. Quando você conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} gastando 2 ações, você pode obter os efeitos da versão de 3 ações em vez da versão de 2 ações.</p>\n<p>Você pode fazer isso com <em>ferir</em> se tiver a fonte prejudicial ou <em>curar</em> se tiver a fonte de cura (ou ambos se tiver Fonte Versátil).</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Fast Recovery": {
       "name": "Recuperação Rápida",
@@ -5855,7 +5880,12 @@
     },
     "Harming Hands": {
       "name": "Mãos Agressoras",
-      "description": "<p>O poder mordaz de sua energia do vazio cresce. Quando você executa @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dano}, você faz a rolagem de d10s em vez de d8s.</p>"
+      "description": "<p>O poder mordaz de sua energia do vazio cresce. Quando você executa @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dano}, você faz a rolagem de d10s em vez de d8s.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de ferimento"
+        }
+      ]
     },
     "Harmless Doll": {
       "description": "<p>You look like nothing more than an ordinary toy, doll, or statuette, and you can fool others with your innocuous appearance. You gain the trained proficiency rank in Deception (or another skill if you're already trained in Deception), and you can Impersonate an inanimate toy or a mindless poppet. You can @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} without any cover or concealment from creatures that don't realize you're alive, so long as you're in a location where a toy of your shape wouldn't be out of place, like a carnival booth, city street, or toy shop (at the GM's discretion). If you succeed, onlookers still see you, but they mistake you for an inanimate toy. After being fooled once, they realize you're alive, and you can't Hide from them in that way again.</p>\n<hr />\n<p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em></p>"
@@ -5932,7 +5962,12 @@
     },
     "Healing Hands": {
       "name": "Mãos Curandeiras",
-      "description": "<p>Sua vitalidade é ainda mais vibrante e restauradora. Quando você executa @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Cura}, você faz a rolagem de d10s em vez de d8s.</p>"
+      "description": "<p>Sua vitalidade é ainda mais vibrante e restauradora. Quando conjurar @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar}, você joga d10s, em vez de d8s.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Healing Transformation": {
       "name": "Transformação Curativa",
@@ -6045,7 +6080,12 @@
     },
     "Heroic Recovery": {
       "name": "Recuperação Heroica",
-      "description": "<p>O poder restaurador de sua cura revigora o beneficiário. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} visando uma única criatura viva e o alvo recuperar Pontos de Vida do magia, o alvo também recebe três bônus até o final de seu próximo turno: um bônus de condição de +5 pés em sua Velocidade, um bônus de condição de +1 em rolagens de ataque e um bônus de condição de +1 em rolagens de dano. Além disso, se o alvo estiver @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Caído}, ele pode se Levantar imediatamente como uma ação livre que não aciona reações.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]{Efeito: Recuperação Heroica}</p>"
+      "description": "<p>O poder restaurador de sua cura revigora o beneficiário. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} visando uma única criatura viva e o alvo recuperar Pontos de Vida do magia, o alvo também recebe três bônus até o final de seu próximo turno: um bônus de condição de +5 pés em sua Velocidade, um bônus de condição de +1 em rolagens de ataque e um bônus de condição de +1 em rolagens de dano. Além disso, se o alvo estiver @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Caído}, ele pode se Levantar imediatamente como uma ação livre que não aciona reações.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]{Efeito: Recuperação Heroica}</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Hex Focus": {
       "name": "Foco de Hex",
@@ -6346,11 +6386,14 @@
     "Improved Command Undead": {
       "name": "Comandar Mortos-Vivos Aprimorado",
       "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna, Comandar Mortos-Vivos</p> <hr> <p>Criaturas mortas-vivas acham quase impossível resistir aos seus comandos. Quando usar Comandar Mortos-vivos, se o morto-vivo obtiver sucesso (mas não um sucesso crítico) no salvamento, ele se torna seu lacaio por 1 rodada. Se o morto-vivo falhar no salvamento, ele se torna seu lacaio por 10 minutos. Se ele falhar criticamente, se torna seu lacaio por 24 horas.</p>",
-      "prerequisites": {
-        "1": {
+      "prerequisites": [
+        {
+          "value": "fonte de ferimento"
+        },
+        {
           "value": "Comandar Mortos-Vivos"
         }
-      }
+      ]
     },
     "Improved Dueling Riposte": {
       "name": "Riposta de Duelo Aprimorada",
@@ -8833,7 +8876,7 @@
     },
     "Pet": {
       "name": "Mascote",
-      "description": "<p>Você tem um animal de estimação — um animal Minúsculo do tipo que você escolher, como um felino, pássaro ou roedor. Ele tem o traço lacaio, o que significa que ele ganha 2 ações durante o seu turno se você usar a ação Comandar um Animal para comandá-lo; isso substitui os efeitos usuais de @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Comandar um Animal}, e você não precisa tentar um teste de Natureza. Um animal de estimação não pode fazer Golpes.</p>\n<p><strong>Nível</strong> O nível do seu animal de estimação é igual ao seu.</p>\n<p><strong>Modificadores e CA</strong> Os modificadores de salvamento e CA do seu animal de estimação são iguais aos seus antes de aplicar bônus ou penalidades circunstanciais ou de condição. Ele usa 3 + seu nível como modificador para Percepção, Acrobatismo e Furtividade, e apenas seu nível como modificador para outros testes de perícia. Ele não tem nem usa seus próprios modificadores de atributo e nunca pode se beneficiar de bônus de item.</p>\n<p><strong>Pontos de Vida</strong> Seu animal de estimação tem 5 Pontos de Vida por nível.</p>\n<p><strong>Sentidos</strong> Seu animal de estimação tem visão na penumbra e pode ganhar sentidos adicionais por meio de perícias de animal de estimação.</p>\n<p><strong>Velocidade</strong> Seu animal de estimação tem uma Velocidade de 7,5 metros. Você pode optar por ter um animal de estimação aquático, que respira em água em vez de ar e tem o traço aquático, sem Velocidade terrestre e uma velocidade de natação de 7,5 metros.</p>\n<p><strong>perícias de Animal de Estimação</strong> Quando você adquirir seu animal de estimação, escolha duas das seguintes perícias. Se seu animal de estimação for um animal que naturalmente possui uma dessas perícias (por exemplo, uma coruja possui Velocidade de voo), você deve selecionar essa perícia. Seu animal de estimação não pode ser um animal que naturalmente possui mais perícias de animal de estimação do que o máximo. Em alguns casos, o Mestre pode adicionar algumas perícias de familiar às perícias de animal de estimação que você pode escolher.</p>\n<ul>\n<li><strong>Anfíbio</strong> Ele ganha o traço anfíbio, permitindo que respire tanto em ar quanto em água, e tem tanto uma Velocidade terrestre quanto uma velocidade de natação, cada uma igual à sua maior Velocidade terrestre ou de natação.</li>\n<li><strong>Escavador</strong> Ele ganha uma velocidade de escavação de 1,5 metros, permitindo cavar buracos Minúsculos.</li>\n<li><strong>Escalador</strong> Ele ganha uma velocidade de escalada de 7,5 metros.</li>\n<li><strong>Visão no Escuro</strong> Ele ganha visão no escuro.</li>\n<li><strong>Ecolocalização</strong> Seu animal de estimação pode usar a audição como um sentido preciso em um raio de 6 metros.</li>\n<li><strong>Movimento Veloz</strong> Aumente uma das Velocidades do animal de estimação de 7,5 metros para 12 metros.</li>\n<li><strong>Voador</strong> Ele ganha uma velocidade de voo de 7,5 metros.</li>\n<li><strong>Destreza Manual</strong> Ele pode usar até dois de seus membros como se fossem mãos para realizar ações de manuseio.</li>\n<li><strong>Faro</strong> Seu animal de estimação pode usar faro como um sentido impreciso em um raio de 9 metros.</li>\n<li><strong>Resistente</strong> O PV máximo do seu animal de estimação aumenta em 2 por nível.</li>\n</ul>\n<hr />\n<p><strong>Especial</strong> Você pode adquirir um novo animal de estimação ao retreinar este talento, liberando qualquer animal de estimação anterior que você possui. Se você posteriormente adquirir um familiar ou outro companheiro que use o talento de Animal de Estimação, você pode imediatamente retreinar este talento.</p>"
+      "description": "<p>Você tem um mascote — um animal Minúsculo de um tipo à sua escolha, como um gato, pássaro ou roedor. Ele tem o traço lacaio, o que significa que pode receber 2 ações no seu turno se você usar a ação Comandar Animal (isso substitui os efeitos normais de @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Comandar Animal}, e você não precisa fazer um teste de Natureza). Mascotes não podem fazer Golpes.</p>\n<p><strong>Nível</strong> O nível do seu mascote é igual ao seu.</p>\n<p><strong>Modificadores e CA</strong> Os modificadores de CA e salvamento do seu mascote são iguais aos seus antes de aplicar quaisquer bônus ou penalidades de circunstância ou estado. Ele usa 3 + o seu nível como modificador de Percepção, Acrobatismo e Furtividade, e apenas o seu nível como modificador de outros testes de perícia. O mascote não tem nem usa modificadores de atributo próprios e nunca pode se beneficiar de bônus de itens.</p>\n<p><strong>Pontos de Vida</strong> Seu mascote tem 5 PVs por nível.</p>\n<p><strong>Sentidos</strong> Seu mascote tem visão na penumbra e pode ganhar sentidos adicionais por meio de habilidades de mascote.</p>\n<p><strong>Velocidade</strong> Seu mascote tem Velocidade de 7,5 metros. Você pode optar por ter um mascote aquático, que respira na água em vez de no ar e tem o traço aquático, sem Velocidade terrestre e com Velocidade de natação de 7,5 metros.</p>\n<p><strong>Habilidades de mascote</strong> Ao adquirir seu mascote, escolha duas das habilidades a seguir. Se o seu mascote tiver uma dessas habilidades naturalmente (por exemplo, uma coruja teria Velocidade de voo), você precisa selecionar essa habilidade. Seu mascote não pode ser uma criatura que possua naturalmente mais habilidades de mascote do que o máximo permitido. Em alguns casos, o Mestre pode adicionar algumas habilidades de familiar descritas nas páginas 212 e 213 às habilidades de mascote disponíveis.</p>\n<ul>\n<li><strong>Anfíbio</strong> Ele ganha o traço anfíbio, permitindo que respire tanto em ar quanto em água, e tem tanto uma Velocidade terrestre quanto uma velocidade de natação, cada uma igual à sua maior Velocidade terrestre ou de natação.</li>\n<li><strong>Escavador</strong> Ele ganha uma velocidade de escavação de 1,5 metros, permitindo cavar buracos Minúsculos.</li>\n<li><strong>Escalador</strong> Ele ganha uma velocidade de escalada de 7,5 metros.</li>\n<li><strong>Visão no Escuro</strong> Ele ganha visão no escuro.</li>\n<li><strong>Ecolocalização</strong> Seu mascote pode usar a audição como um sentido preciso em um raio de 6 metros.</li>\n<li><strong>Movimento Veloz</strong> Aumente uma das Velocidades do mascote de 7,5 metros para 12 metros.</li>\n<li><strong>Voador</strong> Ele ganha uma velocidade de voo de 7,5 metros.</li>\n<li><strong>Destreza Manual</strong> Ele pode usar até dois de seus membros como se fossem mãos para realizar ações de manuseio.</li>\n<li><strong>Faro</strong> Seu mascote pode usar faro como um sentido impreciso em um raio de 9 metros.</li>\n<li><strong>Resistente</strong> O PV máximo do seu mascote aumenta em 2 por nível.</li>\n</ul>\n<hr />\n<p><strong>Especial</strong> Você pode adquirir um novo mascote ao retreinar este talento, liberando qualquer mascote anterior que você possui. Se você posteriormente adquirir um familiar ou outro companheiro que use o talento de Mascote, você pode imediatamente retreinar este talento.</p>"
     },
     "Phase Out": {
       "description": "<p>Your eidolon phases out of reality slightly, gaining resistance to all damage (except force and negative) equal to half your level. It's not incorporeal, but it can't use Strikes or actions that require a fully physical form, such as @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}.</p>\n<p>Your eidolon can return to its normal form with a single action, which has the concentrate trait.</p>"
@@ -9934,7 +9977,12 @@
     },
     "Restorative Channel": {
       "name": "Canal Restaurador",
-      "description": "<p>Você pode remover condições com Graça Divina. Você pode sacrificar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{cura} que preparou em seus slots extras de sua fonte de cura para lançar uma das seguintes magias: @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Purificar Aflito}, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Mente Clara}, @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Corpo São} ou @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Pé Seguro}. A magia é elevada ao mesmo nível da magia que você sacrificou.</p>"
+      "description": "<p>Você pode remover condições com Graça Divina. Você pode sacrificar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{cura} que preparou em seus slots extras de sua fonte de cura para lançar uma das seguintes magias: @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Purificar Aflito}, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Mente Clara}, @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Corpo São} ou @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Pé Seguro}. A magia é elevada ao mesmo nível da magia que você sacrificou.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Restorative Strike": {
       "name": "Golpe Restaurador",
@@ -10175,7 +10223,12 @@
     },
     "Sacred Ground": {
       "name": "Terreno Sagrado",
-      "description": "<p><strong>Frequência</strong> uma vez a cada 10 minutos</p>\n<hr />\n<p>Você ora continuamente por 1 minuto para chamar uma sombra sutil do reino da sua divindade sobre um @Template[burst|distance:30] centrado em você. Dura por 10 minutos, e uma criatura que permanecer na área por todo esse tempo recupera Pontos de Vida igual ao seu nível. Se você tiver uma fonte de cura, essa atividade terá os traços de cura e vitalidade e cura criaturas vivas. Se você tiver uma fonte prejudicial, essa atividade terá os traços de cura e vazio e cura criaturas mortas-vivas (ou outras criaturas com cura de vazio). Clérigos com Fonte Versátil podem escolher uma ou ambas. Em nenhum caso pode causar dano às criaturas.</p>"
+      "description": "<p><strong>Frequência</strong> uma vez a cada 10 minutos</p>\n<hr />\n<p>Você ora continuamente por 1 minuto para chamar uma sombra sutil do reino da sua divindade sobre um @Template[burst|distance:30] centrado em você. Dura por 10 minutos, e uma criatura que permanecer na área por todo esse tempo recupera Pontos de Vida igual ao seu nível. Se você tiver uma fonte de cura, essa atividade terá os traços de cura e vitalidade e cura criaturas vivas. Se você tiver uma fonte prejudicial, essa atividade terá os traços de cura e vazio e cura criaturas mortas-vivas (ou outras criaturas com cura de vazio). Clérigos com Fonte Versátil podem escolher uma ou ambas. Em nenhum caso pode causar dano às criaturas.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Sacred Spells": {
       "description": "<p>Add <em>@UUID[Compendium.pf2e.spells-srd.mAMEt4FFbdqoRnkN]{Chill Touch}</em>, <em>@UUID[Compendium.pf2e.spells-srd.YvXKGlHOt7mdW2jZ]{Death Ward}</em>, <em>@UUID[Compendium.pf2e.spells-srd.kcelf6IHl3L9VXXg]{Disrupt Undead}</em>, <em>@UUID[Compendium.pf2e.spells-srd.2iQKhCQBijhj5Rf3]{Disrupting Weapons}</em>, <em>@UUID[Compendium.pf2e.spells-srd.DZ9bzXYqMjAK9TzC]{Holy Cascade}</em>, <em>@UUID[Compendium.pf2e.spells-srd.9u6X9ykhzG11NK1n]{Magic Stone}</em>, and <em>@UUID[Compendium.pf2e.spells-srd.a3aQxCpoj1q1NQxC]{Sunburst}</em> to your spell list. These are all necromancy spells for you, even if they normally have a different spell school. You can either prepare these spells or add them to your repertoire just like the spells normally on your tradition's spell list. When you gain this feat, you can retrain existing spells to replace them with ones on this list.</p>\n<p>In addition, your knowledge of the conduits to the Positive Energy Plane allows you more flexibility with these spells. Choose one of these two benefits.</p>\n<ul>\n<li>If you're a prepared spellcaster, you can spend 10 minutes to replace one of the spells you've prepared with a spell of the same level from the list of sacred spells. You can do this while Refocusing.</li>\n<li>If you're a spontaneous spellcaster with the signature spells class feature, add two of the spells from the list of sacred spells to your repertoire. They are signature spells for you, in addition to your normal signature spells. When you gain the ability to cast a new level of spells, you can choose to switch the spells from this feat to any other spells from the list.</li>\n</ul>"
@@ -13093,7 +13146,12 @@
     },
     "Versatile Font": {
       "name": "Fonte Versátil",
-      "description": "<p>À medida que você explora os aspectos da sua divindade, você vai além das restrições de cura ou dano. Você pode preparar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} nas vagas de magia ganhas do font prejudicial ou font de cura.</p>"
+      "description": "<p>À medida que você explora os aspectos da sua divindade, você vai além das restrições de cura ou dano. Você pode preparar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} nas vagas de magia ganhas do font prejudicial ou font de cura.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Versatile Performance": {
       "name": "Performance Versátil",
