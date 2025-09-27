@@ -2417,7 +2417,7 @@
     },
     "Cleric Dedication": {
       "name": "Dedicação de Clérigo",
-      "description": "<p>Você conjura magias como um clérigo. Você ganha a atividade Conjurar uma Magia. Você pode preparar dois truques mágicos comuns por dia da lista de magias divinas ou quaisquer outros truques mágicos divinos aos quais você tenha acesso. Você é treinado nos modificadores de ataque mágico e CD da estatística de magia. Seu atributo-chave para as magias do arquétipo do clérigo é Sabedoria, e elas são magias divinas do clérigo. Escolha uma divindade como faria se fosse um clérigo. Você fica vinculado ao anátema dessa divindade e pode receber a santificação divina dessa divindade. Você fica treinado em Religião e na perícia associada à sua divindade; para cada uma dessas perícias em que você já estava treinado, você passa a ser treinando em uma perícia de sua escolha. Você não ganha nenhuma outra perícia com a sua escolha de divindade.</p>\n<hr />\n<p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter ganho outros dois talentos do arquétipo de @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ZJHhPFjLnizAaUM1]{Clérigo}.</p>",
+      "description": "<p>Você conjura magias como um clérigo. Você adquire a atividade Conjurar Magia. A cada dia, você pode preparar dois truques mágicos comuns da lista de magias divinas ou quaisquer outros truques mágicos divinos aos quais você tenha acesso. Você é treinado nas jogadas de ataque com magia e CD de magia. Seu atributo-chave de conjuração para magias do arquétipo de clérigo é Sabedoria, e elas são magias divinas de clérigo.</p>\n<p>Escolha uma divindade, como faria se fosse um clérigo. Você se torna vinculado ao anátema dessa divindade e pode receber a santificação divina dela. Você se torna treinado em Religião e na perícia associada à sua divindade. Se já for treinado em alguma dessas perícias, em vez disso, se torna treinado em outra perícia à sua escolha. Você não adquire quaisquer outras habilidades normalmente concedidas pela sua escolha de divindade.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ZJHhPFjLnizAaUM1]{Clérigo}.</p>",
       "prerequisites": [
         {
           "value": "Sabedoria +2"
@@ -3404,7 +3404,12 @@
     },
     "Disorienting Opening": {
       "name": "Abertura Desorientadora",
-      "description": "<p>Você usa as aberturas de seus inimigos para expor ainda maiores fraquezas. Quando você acerta uma criatura como parte de um Golpear Reativo, aquela criatura fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.</p>"
+      "description": "<p>Você usa as aberturas de seus inimigos para expor ainda maiores fraquezas. Quando você acerta uma criatura como parte de um Golpear Reativo, aquela criatura fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.</p>",
+      "prerequisites": [
+        {
+          "value": "Golpe Reativo"
+        }
+      ]
     },
     "Dispelling Slice": {
       "name": "Corte Dissipante",
@@ -6201,6 +6206,13 @@
     "Imbue Mindlessness": {
       "description": "<p>You grasp the mind of an undead creature and temporarily wipe it as empty as a zombie's brain. You can target any undead with your divine innate <em>@UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz]{Harm}</em> spell, not just mindless undead. When you target one non-mindless undead creature with this spell, you can transform its effects. Instead of harm's normal effects, the target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute. While it is stupefied, you can use your Corpse Tender feats on the target as though it were mindless.</p>\n<p><strong>Critical Failure</strong> As failure, except the target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 3} for 10 minutes.</p>"
     },
+    "Immediate Rebuke": {
+      "prerequisites": {
+        "1": {
+          "value": "Golpe Reativo"
+        }
+      }
+    },
     "Immortal Techniques": {
       "prerequisites": [
         {
@@ -6214,7 +6226,12 @@
     },
     "Impassable Wall Stance": {
       "name": "Postura da Muralha Intransponível",
-      "description": "<p> <strong>Pré-requisitos</strong> Ataque de Oportunidade </span></p> <hr> <p>Você se recusa a deixar os inimigos passarem sua guarda. Enquanto você estiver nessa posição, ao acertar criticamente com um Ataque de Oportunidade acionado por uma ação de movimento, você a interrompe.</p> (Tradução não oficial - Lost Omens: Character Guide)"
+      "description": "<p> <strong>Pré-requisitos</strong> Ataque de Oportunidade </span></p> <hr> <p>Você se recusa a deixar os inimigos passarem sua guarda. Enquanto você estiver nessa posição, ao acertar criticamente com um Ataque de Oportunidade acionado por uma ação de movimento, você a interrompe.</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "prerequisites": [
+        {
+          "value": "Golpe Reativo"
+        }
+      ]
     },
     "Impeccable Crafting": {
       "name": "Manufatura Impecável",
@@ -7331,6 +7348,9 @@
       "prerequisites": [
         {
           "value": "Estocada"
+        },
+        {
+          "value": "Golpe Reativo"
         }
       ]
     },
@@ -9568,9 +9588,13 @@
       "name": "Escudo Reativo",
       "description": "<p><strong>Acionamento</strong> Um inimigo atinge você com um Golpe corpo a corpo.</p>\n<hr />\n<p><strong>Requerimento</strong> Você está empunhando um escudo. Você pode posicionar seu escudo como se fosse tomar um golpe, evitando o ataque no último segundo. Você usa imediatamente a ação @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Levantar um Escudo} e ganha o bônus do seu escudo para a CA. O bônus circunstancial do escudo se aplica à sua CA quando você estiver determinando o resultado do ataque acionado.</p>"
     },
-    "Reactive Striker": {
+    "Reactive Strike": {
       "name": "Golpe Reativo",
-      "description": "<p>Você ganha a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike}.</p>",
+      "description": "<p><strong>Gatilho</strong> Uma criatura ao seu alcance usa uma ação de manuseio ou de movimento, faz um ataque à distância, ou sai de um quadrado durante uma ação de movimento que está usando.</p>\n<hr />\n<p>Você ataca um adversário que abriu a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se o seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Esse Golpe não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a esse Golpe.</p>"
+    },
+    "Reactive Striker": {
+      "name": "Golpeador Reativo",
+      "description": "<p>Você ganha a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe Reativo}.</p>",
       "prerequisites": [
         {
           "value": "Dedicação de Guerreiro"
@@ -13142,7 +13166,8 @@
       }
     },
     "Vicious Swing": {
-      "description": "<p>Você desferra um ataque particularmente poderoso que golpeia seu inimigo, mas o deixa um pouco instável. Faça um Golpear corpo a corpo. Isso conta como dois ataques ao calcular sua penalidade por ataques múltiplos. Se este Golpear acertar, você causa um dado extra de dano de arma. Se você for pelo menos nível 10, aumente isso para dois dados extras, e se você for pelo menos nível 18, aumente para três dados extras.</p>"
+      "name": "Golpe Feroz",
+      "description": "<p>Você desfere um ataque particularmente poderoso que castiga o inimigo, mas que deixa você levemente desequilibrado. Faça um Golpe corpo a corpo. Isso conta como dois ataques para calcular sua penalidade por ataques múltiplos. Se acertar, você causa um dado de dano adicional da arma. No 10º nível, isso aumenta para dois dados adicionais, e no 18º nível, para três dados adicionais.</p>"
     },
     "Vicious Vengeance": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.classfeatures\" data-id=\"EQ6DVIQHAUXUhY6Y\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Antipaladin [Chaotic Evil]</a> Cause</p> <hr> <p>While your vengeance is painful for both you and your foe, none can doubt that your enemies suffer more. You gain a circumstance bonus to the damage you deal from <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"r5Uth6yvCoE4tr9z\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Destructive Vengeance</a> equal to the number of damage dice from the reaction. This only applies to the damage the enemy takes, not the damage to yourself or the extra damage you gain after using the reaction.</p>"
