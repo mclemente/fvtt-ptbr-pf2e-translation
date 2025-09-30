@@ -2072,7 +2072,7 @@
     },
     "Cantrip Expansion": {
       "name": "Expansão de Truque Mágico",
-      "description": "<p><strong>Bardo, Oráculo, Feiticeiro</strong> O estudo amplia sua gama de magias simples.</p>\n<p><strong>Clérigo</strong> Você estuda uma gama mais ampla de magias simples.</p>\n<p><strong>Mago, Mago</strong> O estudo dedicado permite que você prepare uma gama mais ampla de magias simples para cada situação.</p>\n<p><strong>Psiônico</strong> Você expande o que sua mente pode realizar.</p>\n<p><strong>Bruxo</strong> Seu patrono reconhece sua necessidade de flexibilidade e versatilidade, e concede a você o poder de preparar uma gama mais ampla de magias simples.</p>\n<hr />\n<p><strong>Preparado</strong> Você pode preparar dois truques mágicos adicionais todos os dias.</p>\n<p><strong>Espontâneo</strong> Adicione dois truques mágicos adicionais de sua lista de magias ao seu repertório.</p>"
+      "description": "<p><strong>Bardo, Oráculo, Feiticeiro</strong> O estudo amplia sua gama de magias simples.</p>\n<p><strong>Bruxo</strong> Seu patrono reconhece sua necessidade de flexibilidade e versatilidade, e concede a você o poder de preparar uma gama mais ampla de magias simples.</p>\n<p><strong>Clérigo</strong> Você estuda uma gama mais ampla de magias simples.</p>\n<p><strong>Mago, Mago</strong> O estudo dedicado permite que você prepare uma gama mais ampla de magias simples para cada situação.</p>\n<p><strong>Psiônico</strong> Você expande o que sua mente pode realizar.</p>\n<hr />\n<p><strong>Preparado</strong> Você pode preparar dois truques mágicos adicionais todos os dias.</p>\n<p><strong>Espontâneo</strong> Adicione dois truques mágicos adicionais de sua lista de magias ao seu repertório.</p>"
     },
     "Captain Dedication": {
       "prerequisites": [
@@ -2159,7 +2159,12 @@
     },
     "Castigating Weapon": {
       "name": "Arma Castigante",
-      "description": "<p>A força da divindade que te castiga fortalece seu corpo para que possa derrubar o inimigo e seus aliados. Após causar dano espiritual devido à Castigação Divina, seus Golpes com arma ou desarmados ganham o traço sagrado ou profano e causam dano espiritual adicional até o final de seu turno. O dano espiritual é igual ao grau de ferir ou curar com o qual você causou dano espiritual e é somado a qualquer dano espiritual que a arma já cause (como de uma runa sagrada).</p>"
+      "description": "<p>A força da divindade que te castiga fortalece seu corpo para que possa derrubar o inimigo e seus aliados. Após causar dano espiritual devido à Castigação Divina, seus Golpes com arma ou desarmados ganham o traço sagrado ou profano e causam dano espiritual adicional até o final de seu turno. O dano espiritual é igual ao grau de ferir ou curar com o qual você causou dano espiritual e é somado a qualquer dano espiritual que a arma já cause (como de uma runa sagrada).</p>",
+      "prerequisites": [
+        {
+          "value": "Castigo Divino"
+        }
+      ]
     },
     "Cat Fall": {
       "name": "Queda do Gato",
@@ -2576,7 +2581,7 @@
     },
     "Communal Healing": {
       "name": "Cura Comunal",
-      "description": "<p>Você é um condutor excepcional para a vitalidade, e, ao canalizá-la através de você, pode desviar parte dela para se curar ou curar outra criatura. Ao lançar a @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{magia} de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{curar} para curar uma única criatura, escolha outra criatura viva disposta dentro da distância do seu <em>curar</em> para recuperar Pontos de Vida iguais ao nível da <em>curar</em> da magia.</p>"
+      "description": "<p>Você é um poderoso conduíte para a vitalidade e, ao canalizá-la através de si, é capaz de redirecionar parte dela para curar a si mesmo ou outra criatura. Quando conjurar a magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para curar uma única criatura, escolha outra criatura viva voluntária na distância da magia; ela recupera uma quantidade de PVs igual ao ranque da magia usado.</p>"
     },
     "Communal Sustain": {
       "prerequisites": [
@@ -3053,7 +3058,15 @@
     },
     "Deadly Simplicity": {
       "name": "Simplicidade Mortal",
-      "description": "<p>Quando estiver empunhando a arma favorita da sua divindade, aumente o tamanho do dado de dano dessa arma em um passo.</p>\n<p>Se a arma favorita da sua divindade for um ataque desarmado (como um soco, se você adora @UUID[Compendium.pf2e.deities.Item.qqqrbq4uCrelQvgH]{Irori}) e o dado de dano for menor que d6, aumente o tamanho do dado de dano para d6.</p>"
+      "description": "<p>Quando estiver empunhando a arma favorecida da sua divindade, aumente o dado de dano dela em um passo.</p>\n<p>Se a arma favorecida da sua divindade for um ataque desarmado (como um punho, se for devoto de @UUID[Compendium.pf2e.deities.Item.qqqrbq4uCrelQvgH]{Irori}) e o dado de dano dela for menor que d6, em vez disso, aumente o dado de dano para d6.</p>",
+      "prerequisites": [
+        {
+          "value": "divindade com uma arma favorecida simples ou ataque desarmado"
+        },
+        {
+          "value": "treinado na arma favorecida da sua divindade"
+        }
+      ]
     },
     "Deadly Strikes": {
       "description": "<p>You have honed your body to attack with lethal focus. Your unarmed attacks gain the deadly d10 trait, or you increase their deadly trait to d10 if the unarmed attack is already deadly with a smaller die size.&nbsp;</p>"
@@ -3541,7 +3554,13 @@
       ]
     },
     "Divine Castigation": {
-      "description": "<p>A graça de sua divindade não se estende aos seus inimigos jurados. Quando você conjura uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dano} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar}, você pode adicionar seu traço sagrado ou profano a ele. Se fizer isso, o magia causa dano a criaturas com o traço oposto, mesmo que normalmente não as danifique. O magia causa dano de espírito quando usado desta maneira. Por exemplo, se você for sagrado, poderia adicionar o traço sagrado a uma magia de <em>curar</em> e causar dano de espírito a um ínfero que tenha o traço profano.</p>"
+      "name": "Castigo Divino",
+      "description": "<p>A graça da sua divindade não se estende aos seus inimigos jurados. Quando conjurar uma magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} ou @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir}, você pode adicionar seu traço sagrado ou profano a ela. Se fizer isso, a magia causa dano a criaturas com o traço oposto, mesmo se normalmente não fosse fazer isso. A magia causa dano espiritual quando usada dessa forma. Por exemplo, se você for sagrado, poderia adicionar o traço sagrado a uma magia <em>curar</em> para causar dano espiritual a um ínfero com o traço profano.</p>",
+      "prerequisites": [
+        {
+          "value": "traço sagrado ou profano"
+        }
+      ]
     },
     "Divine Countermeasures": {
       "name": "Contramedidas Divinas",
@@ -5920,7 +5939,7 @@
     },
     "Harming Hands": {
       "name": "Mãos Agressoras",
-      "description": "<p>O poder mordaz de sua energia do vazio cresce. Quando você executa @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dano}, você faz a rolagem de d10s em vez de d8s.</p>",
+      "description": "<p>O poder mordaz da sua energia eversiva aumenta. Quando conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir}, você joga d10s, em vez de d8s.</p>",
       "prerequisites": [
         {
           "value": "fonte de ferimento"
@@ -8720,8 +8739,8 @@
       }
     },
     "Panic the Dead": {
-      "name": "Pânico dos Mortos",
-      "description": "<p>A vitalidade causa terror nos <em>mortos-vivos</em>. Quando você usa uma magia de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para causar <em>dano</em> aos mortos-vivos, qualquer morto-vivo que falhar no teste de resistência também fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}. Se falhar criticamente, a criatura também ganha a <em>condição</em> @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fugindo} até o início do seu próximo turno. Mortos-vivos <em>acéfalos</em> não são imunes a este efeito devido a ser <em>acéfalos</em>.</p>"
+      "name": "Amedrontar os Mortos",
+      "description": "<p>A vitalidade aterroriza os mortos-vivos. Quando você usar uma magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para causar dano a mortos-vivos, os que falharem no salvamento também ficam @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}. Se obtiver uma falha crítica, o morto-vivo também sofre a condição @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fugindo} até o início do seu próximo turno. Mortos-vivos acéfalos não são imunes a esse efeito por serem acéfalos.</p>"
     },
     "Paragon Battle Medicine": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]{Battle Medicine}, master in Medicine</p> <hr> <p>Kassi Aziril taught you her techniques that originated the modern use of Battle Medicine. When you successfully use Battle Medicine, you can also reduce the target’s @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}, @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}, or @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} condition by 1 (this has no effect if you are subject to an effect continually applying the clumsy condition, like enlarge). If you are legendary in Medicine, you can choose to reduce the target’s @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} or @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} condition by 1 instead, and if you have the @Compendium[pf2e.feats-srd.yTLGclKtWVFZLKIz]{Godless Healing} feat , you can choose to reduce the target’s @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} or @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} condition by 1 instead. If you have the @Compendium[pf2e.feats-srd.mEk2POFNU1Q0TQg2]{Mortal Healing} feat, you can reduce all available conditions by 1 for a target who hasn’t benefited from positive or healing magic in the last 24 hours, and if you roll a critical success before applying the effects of the feat, you reduce all available conditions by 2 for that target instead.</p>",
@@ -9235,12 +9254,13 @@
       "description": "<p>Você de alguma forma consegue ter exatamente o que precisa para a situação. Você ganha os talentos @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{Planejador Previsível} e @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{Consumível Previsível}. Ao usar o Planejador Previsível, você pode retirar o item da sua mochila (ou de um recipiente similar) como uma atividade de 2 ações, em vez de levar 1 minuto para fazer isso.</p>"
     },
     "Premonition of Avoidance": {
-      "name": "Premonição de Evasão",
-      "description": "<p><strong>Acionamento</strong> Você está prestes a rolar um teste de resistência contra um perigo.</p>\n<hr />\n<p>Sua divindade lhe concede um momento de presciência. Você ganha um bônus de +2 de circunstância para o teste de resistência de acionamento.</p>"
+      "name": "Premonição de Salvação",
+      "description": "<p><strong>Acionamento</strong> Você está prestes a fazer um salvamento contra um perigo.</p>\n<hr />\n<p>Sua divindade lhe concede um momento de clarividência. Você recebe +2 de bônus de circunstância no teste de salvamento acionador.</p>"
     },
     "Premonition of Clarity": {
       "name": "Premonição de Clareza",
-      "description": "<p><strong>frequência</strong> uma vez por hora</p>\n<p><strong>Acionamento</strong> Você fracassa em um teste de resistência contra um efeito mental.</p>\n<hr />\n<p>Sua divindade envia uma visão de fé para fortalecê-lo contra ataques mentais. Role novamente o teste de resistência de acionamento com um bônus circunstancial de +2. Você deve usar o segundo resultado, mesmo que seja pior.</p>"
+      "description": "<p><strong>frequência</strong> uma vez por hora</p>\n<p><strong>Acionamento</strong> Você fracassa em um teste de resistência contra um efeito mental.</p>\n<hr />\n<p>Sua divindade envia uma visão de fé para fortalecê-lo contra ataques mentais. Role novamente o teste de resistência de acionamento com um bônus circunstancial de +2. Você deve usar o segundo resultado, mesmo que seja pior.</p>",
+      "selfEffect": "Efeito: Premonição de Clareza"
     },
     "Preparation": {
       "name": "Preparações diárias",
@@ -9687,8 +9707,8 @@
       "description": "<p><strong>Frequência</strong> uma vez por hora</p>\n<p><strong>Acionamento</strong> Você cega ou ofusca uma criatura.</p>\n<hr />\n<p>Você passou um tempo considerável praticando a manipulação da luz, armando o reflexo da sua lâmina ou aumentando a luminosidade de exibições mágicas a alturas incomuns. Estenda a duração da condição @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cego} ou @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} que você dá ao alvo por 1 rodada.</p>"
     },
     "Reach Spell": {
-      "name": "Magia de Alcance",
-      "description": "<p>Você pode estender a distância das suas magias. Se a próxima ação que você usar for Conjurar uma Magia que tenha um alcance, aumente a distância dessa magia em 30 pés. Conforme é padrão para aumentar os alcances de magia, se a magia normalmente tiver um alcance de toque, você estende a distância para 30 pés.</p>"
+      "name": "Estender Magia",
+      "description": "<p>Você consegue estender a distância das suas magias. Se a sua próxima ação for Conjurar uma Magia que tem uma distância, aumente a distância dela em 9 metros. Como é padrão ao aumentar a distância de magias, se a magia normalmente tiver uma distância de toque, você aumenta a distância dela para 9 metros.</p>"
     },
     "Reactive Distraction": {
       "name": "Distração Reativa",
@@ -10332,7 +10352,12 @@
       "description": "<p>You've girded your soul against outside interference. You gain a +2 status bonus to saving throws against death effects, possession effects, and effects that attempt to manipulate or steal your soul. You can't be transformed into an undead by any means. While your spiral is glowing, your allies in the light of the spiral gain this benefit as well.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.tlft5vzk66iWCVRq]{Effect: Safeguard Soul}</p>"
     },
     "Sanctify Armament": {
-      "description": "<p>Você toca uma arma e a leva à conformidade com sua divindade. Por 1 rodada, essa arma ganha seu traço sagrado ou profano. Ela também causa 2d6 de dano de espírito adicional a criaturas do traço oposto. Por exemplo, se você for sagrado, a arma causaria 2d6 de dano de espírito adicional a criaturas profanas.</p>\n<p>Se você usar Santificar Armamento novamente, qualquer uso anterior dele expira.</p>"
+      "description": "<p>Você toca uma arma e a leva à conformidade com sua divindade. Por 1 rodada, essa arma ganha seu traço sagrado ou profano. Ela também causa 2d6 de dano de espírito adicional a criaturas do traço oposto. Por exemplo, se você for sagrado, a arma causaria 2d6 de dano de espírito adicional a criaturas profanas.</p>\n<p>Se você usar Santificar Armamento novamente, qualquer uso anterior dele expira.</p>",
+      "prerequisites": [
+        {
+          "value": "traço sagrado ou profano"
+        }
+      ]
     },
     "Sanctify Water": {
       "name": "Santificar Água"
@@ -10343,7 +10368,7 @@
     },
     "Sap Life": {
       "name": "Exaurir Vida",
-      "description": "<p>Você extrai a força vital de seus inimigos. Quando você lança uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ferir} e causa dano a pelo menos uma criatura viva, você recupera Pontos de Vida iguais ao nível da magia de <em>ferir</em>. Se você não for uma criatura viva, você não ganha nenhum benefício deste talento.</p>"
+      "description": "<p>Você drena a força vital dos seus inimigos. Quando conjurar a magia @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} e causar dano a pelo menos uma criatura viva, você recupera uma quantidade de PVs igual ao ranque usado. Se você não for uma criatura viva, não se beneficia deste talento.</p>"
     },
     "Sapping Symbol": {
       "name": "Símbolo de Porrete",
@@ -13687,7 +13712,7 @@
     },
     "Widen Spell": {
       "name": "Ampliar Magia",
-      "description": "<p>Você manipula a energia da sua magia, fazendo com que ela se espalhe e afete uma área mais ampla. Se a próxima ação que você usar for Conjurar uma Magia que tenha uma área de explosão, cone ou linha e não tenha duração, aumente a área dessa magia. Adicione 5 pés ao raio de uma explosão que normalmente tenha um raio de pelo menos 10 pés (uma explosão com um raio menor não é afetada). Adicione 5 pés ao comprimento de um cone ou linha que normalmente tenha 15 pés de comprimento ou menor, e adicione 10 pés ao comprimento de um cone ou linha maior.</p>"
+      "description": "<p>Você manipula a energia da sua magia, fazendo-a se espalhar para afetar uma área maior. Se a sua próxima ação for Conjurar uma Magia que tem uma área de explosão, cone ou linha e não tem uma duração, aumente a área dessa magia. Adicione 1,5 metro ao raio de uma explosão que normalmente teria um raio de 3 metros ou maior (explosões com raios menores não são afetadas). Adicione 1,5 metro ao comprimento de um cone ou linha que normalmente teria 4,5 metros ou menos, e adicione 3 metros a um cone ou linha maior que isso.</p>"
     },
     "Widen the Gap": {
       "name": "Alargar o Fosso",
