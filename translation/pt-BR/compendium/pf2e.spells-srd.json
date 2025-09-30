@@ -185,9 +185,9 @@
       "target": "1 objeto"
     },
     "Animate Rope": {
-      "name": "Animate Rope",
-      "description": "<p>You cause a length or section of @Compendium[pf2e.equipment-srd.fyYnQf1NAx9fWFaS]{Rope} or a rope-like object to animate and follow simple commands. You can give it two commands when you @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell}, and one command each time you @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}.</p>\n<hr />\n<ul>\n<li><strong>Bind</strong> (attack) The Rope attempts to partially bind a creature. Attempt a spell attack roll against the target's Reflex DC. If you succeed, the target takes a -10-foot circumstance penalty to its Speed (-20-foot on a critical success). This ends if the target @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} against your spell DC or breaks the Rope. (A standard adventuring Rope has Hardness 2, HP 8, and a Broken Threshold of 4.)</li>\n<li><strong>Coil</strong> The Rope forms a tidy, coiled stack.</li>\n<li><strong>Crawl</strong> The Rope inches along the ground like a snake, moving one of its ends 10 feet. The Rope must move along a surface, but that surface doesn't need to be horizontal.</li>\n<li><strong>Knot</strong> The Rope ties a sturdy knot in itself.</li>\n<li><strong>Loop</strong> The Rope forms a simple loop at one or both ends, or straightens itself back out.</li>\n<li><strong>Tie</strong> The Rope ties itself around a willing creature or an object that's unattended or attended by a willing creature.</li>\n<li><strong>Undo</strong> The Rope undoes one of its knots, ties, or bindings.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+2)</strong> The range increases by 50 feet, and you can animate 50 more feet of Rope.</p>",
-      "target": "up to 50 feet of rope or a nonliving rope-like object"
+      "name": "Animar Corda",
+      "description": "<p>Você faz a seção de @UUID[Compendium.pf2e.equipment-srd.Item.fyYnQf1NAx9fWFaS]{Corda} ou objeto similar a uma corda se animar e seguir comandos simples. Você pode emitir dois comandos quando @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Conjurar a Magia} e um comando a cada vez que @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Sustentar a Magia}.</p>\n<hr />\n<ul>\n<li><strong>Amarrar</strong> A corda se amarra ao redor de uma criatura ou objeto que esteja desapossado (ou apossado por uma criatura voluntária).</li>\n<li><strong>Desfazer</strong> A corda desfaz a ação de nó, amarrar ou prender.</li>\n<li><strong>Enrolar</strong> A corda forma uma pilha enrolada bem apertada.</li>\n<li><strong>Laço</strong> A corda forma um laço simples em uma ou ambas as pontas, ou se estica de volta.</li>\n<li><strong>Nó</strong> A corda se dá um nó firme.</li>\n<li><strong>Prender</strong> (ataque) A corda tenta parcialmente enlaçar uma criatura. Faça uma rolagem de ataque de magia contra a CD de Reflexos do alvo. Se você obtiver sucesso, o alvo sofre –3 metros de penalidade de circunstância na Velocidade dele (–6 metros de penalidade de circunstância em um sucesso crítico). Isto é encerado se o alvo @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} contra sua CD de magia ou romper a corda. (Uma corda de aventura padrão possui Dureza 2, 8 PV e LQ 4.) @UUID[Compendium.pf2e.spell-effects.Item.OwvrQKuMLEktNWzA]{Efeito de Magia: Animar Corda}</li>\n<li><strong>Rastejar</strong> A corda se move pelo chão como uma cobra, movendo uma de suas pontas por 3 metros. A corda deve se mover sobre uma superfície, mas essa superfície não precisa ser horizontal.</li>\n</ul>\n<hr />\n<p><strong>Elevada (+2)</strong> A distância aumenta em 15 metros e você pode animar mais 15 metros de corda.</p>",
+      "target": "até 15 metros de uma corda ou objeto não-vivo similar a uma corda"
     },
     "Animated Assault": {
       "name": "Animated Assault",
@@ -1060,12 +1060,16 @@
       "description": "<p>You recreate your form entirely out of cosmic energy, transforming into a Large battle form. You must have enough space to expand into, or the spell is lost. When you cast this spell, choose to take on the powers of the moon or the sun. You have hands in this battle form and can use manipulate actions. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of the form that you choose:</p>\n<ul>\n<li>AC = 21 + your level. Ignore your armor check's penalty and Speed reduction.</li>\n<li>20 temporary Hit Points.</li>\n<li>Darkvision.</li>\n<li> One or more attacks specific to the battle form you use. You're trained with them. Your attack modifier is +25, and you use the listed damage. The melee attacks are Strength based (for the purpose of the enfeebled condition, for example), and the ranged attacks are Dexterity based. If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +25, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the stellar body:</p>\n<ul>\n<li><strong>Moon</strong> Speed 30 feet, fly 50 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1  fist (agile, reach 10 feet), <strong>Damage</strong> 2d4+10 bludgeoning plus 1d6 fire;</li>\n<li><strong>Ranged</strong> <span class=\"pf2-icon\">1  moonbeam (range 90 feet), <strong>Damage</strong> 2d4+10 fire; this form's fire damage is silver for resistances, weaknesses, and the like;</li>\n<li> On a critical hit with either Strike, the target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.tfdDpf9xSWgQer5g]{Spell Effect: Cosmic Form (Moon)}</p>\n<ul>\n<li><strong>Sun</strong> Speed 30 feet, fly 50 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1  fist (agile, reach 10 feet), <strong>Damage</strong> 2d6+10 fire plus 1d6 persistent fire;</li>\n<li><strong>Ranged</strong> <span class=\"pf2-icon\">1  sunbeam (range 90 feet), <strong>Damage</strong> 1d6+10 fire plus 1d6 persistent fire;</li>\n<li> On a critical hit with either Strike, the target is @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.2Ss5VblfZNHg1HjN]{Spell Effect: Cosmic Form (Sun)}</p>"
     },
     "Counter Performance": {
-      "name": "Contra Performance",
-      "description": "<p><strong>Gatilho</strong>Você ou um aliado a até 18 metros rola uma jogada de salvamento contra um efeito auditivo ou visual.</p><hr /><p>Sua performance protege você e seus aliados. Role um teste de Performance de um tipo apropriado: uma performance auditiva se o acionamento for auditivo ou uma performance visual se o acionamento for visual. Você e aliados na área podem usar o melhor resultado entre seu teste de Performance e a jogada de salvamento.</p>"
+      "name": "Contraperformance",
+      "description": "<p><strong>Acionamento</strong> Você ou um aliado a até 18 metros faz um teste de salvamento contra um efeito auditivo ou visual.</p>\n<hr />\n<p>Sua performance protege você e seus aliados. Faça um teste de @Check[performance] de um tipo apropriado: uma performance auditiva se o acionamento for auditivo ou uma visual, se o acionamento for visual. Você e aliados que estiverem na área podem usar o melhor resultado entre seu teste de Performance e o de salvamento.</p>"
     },
     "Countless Eyes": {
       "name": "Countless Eyes",
       "target": "1 criatura"
+    },
+    "Courageous Anthem": {
+      "name": "Antífona da Coragem",
+      "description": "<p>Você inspira a si mesmo e a seus aliados com palavras ou melodias de encorajamento. Você e todos os seus aliados que estiverem na área recebem +1 de bônus de estado em testes de ataque, jogadas de dano e testes de salvamento contra efeitos de medo.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]{Efeito de Magia: Antífona da Coragem}</p>"
     },
     "Cozy Cabin": {
       "name": "Cozy Cabin",
@@ -1628,7 +1632,7 @@
     },
     "Electric Arc": {
       "name": "Arco Elétrico",
-      "description": "<p>Um arco de eletricidade salta de um alvo para outro. Você causa dano de eletricidade igual a 1d4 mais o modificador de seu atributo de conjuração.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+      "description": "<p>Um arco de relâmpago salta de um alvo para outro. Cada alvo sofre 2d4 de dano de eletricidade, com direito a um salvamento básico de Reflexos.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
       "target": "1 ou 2 criaturas"
     },
     "Electrified Crystal Ward": {
@@ -2136,6 +2140,8 @@
       "target": "1 ally and 1 enemy"
     },
     "Force Barrage": {
+      "name": "Saraivada de Força",
+      "description": "<p>Esta magia dispara um estilhaço de magia solidificada em direção a uma criatura que você pode ver. Ele acerta automaticamente e causa 1d4+1 de dano de força. Para cada ação adicional que usar ao Conjurar esta Magia, você pode disparar um estilhaço adicional em um alvo diferente, até um máximo de três estilhaços contra três alvos diferentes com 3 ações. Você escolhe o alvo de cada estilhaço individualmente. Se você disparar mais de um estilhaço no mesmo alvo, combine o dano antes de aplicar bônus ou penalidades de dano, fraquezas, resistências e assim por diante.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> Você dispara um fragmento adicional com cada ação que gastar.</p>",
       "target": "1 criatura"
     },
     "Force Bolt": {
@@ -2403,7 +2409,7 @@
     },
     "Guidance": {
       "name": "Orientação",
-      "description": "<p>Você pede por orientação divina, concedendo ao alvo +1 de bônus de estado a uma jogada de salvamento, rolagem de ataque, teste de Percepção ou teste de perícia realizado antes da duração acabar. O alvo escolhe em qual rolagem usar o bônus antes de rolar o dado. Se o alvo usar o bônus, a magia acaba. De qualquer forma, o alvo fica temporariamente imune por 1 hora.</p>\n<p>@Compendium[pf2e.spell-effects.3qHKBDF7lrHw8jFK]{Spell Effect: Guidance}</p>\n<p>@Compendium[pf2e.spell-effects.3LyOkV25p7wA181H]{Effect: Guidance Immunity}</p>",
+      "description": "<p>Você pede por orientação divina, concedendo ao alvo +1 de bônus de estado a uma jogada de salvamento, rolagem de ataque, teste de Percepção ou teste de perícia realizado antes da duração acabar. O alvo escolhe em qual rolagem usar o bônus antes de rolar o dado. Se o alvo usar o bônus, a magia acaba. De qualquer forma, o alvo fica temporariamente imune por 1 hora.</p>\n<p>@Compendium[pf2e.spell-effects.3qHKBDF7lrHw8jFK]{Efeito de Magia: Orientação}</p>\n<p>@Compendium[pf2e.spell-effects.3LyOkV25p7wA181H]{Efeito: Imunidade a Orientação}</p>",
       "target": "1 criatura"
     },
     "Guided Introspection": {
@@ -3014,7 +3020,7 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada",
-      "description": "<p>Você acrescenta um floreio à sua composição para prolongar os benefícios dela. Se sua próxima ação for conjurar um truque mágico de composição com duração de 1 rodada, faça um teste de Performance. A CD normalmente é uma CD padrão do mesmo nível que o alvo de maior nível afetado por sua composição, mas O mestre pode determinar uma CD diferente baseado nas circunstâncias. O efeito depende do resultado do seu teste.</p><p><hr /><strong>Successo Crítico</strong>  A composição dura 4 rodadas</p><p><strong>Successo</strong>  A composição dura 3 rodadas.</p><p><strong>Falha</strong>  composição dura 1 rodada, mas você não gasta o Ponto de Foco por conjurar esta magia.</p>"
+      "description": "<p>Você acrescenta um floreio à sua composição para prolongar os benefícios dela. Se a sua próxima ação for conjurar um Truque de composição com duração de 1 rodada, faça um teste de @Check[performance]. A CD normalmente é uma CD padrão do mesmo nível que o alvo de maior nível afetado por sua composição, mas o Mestre pode determinar uma CD a depender das circunstâncias. O efeito depende do resultado desse teste.</p>\n<hr />\n<p><strong>Successo crítico</strong> A composição dura 4 rodadas</p>\n<p><strong>Successo</strong> A composição dura 3 rodadas.</p>\n<p><strong>Falha</strong> A composição dura 1 rodada, mas você não gasta Ponto de Foco conjurando esta magia.</p>"
     },
     "Linnorm Sting": {
       "name": "Linnorm Sting",
@@ -3809,7 +3815,8 @@
     },
     "Prestidigitation": {
       "name": "Prestidigitação",
-      "target": "1 object (cook, lift, or tidy only)"
+      "description": "<p>Uma magia simples que atende aos seus desejos. Você pode realizar efeitos mágicos simples enquanto Sustentá-la. Sempre que Sustentar esta Magia, você pode escolher dentre quatro opções.</p>\n<ul>\n<li><strong>Cozinhar</strong> Esfriar, esquentar ou temperar meio quilo de matéria não viva.</li>\n<li><strong>Criar</strong> Cria um objeto temporário de Volume insignificante, feito de substância mágica solidificada. Ele parece imperfeito e artificial, e é extremamente frágil — não pode ser utilizado como uma arma, componente de magia, ferramenta ou locus.</li>\n<li><strong>Erguer</strong> Lentamente erguer um objeto desapossado de Volume leve ou menor a até 30 centímetros do chão.</li>\n<li><strong>Tingir</strong> Colorir, limpar ou sujar um objeto de Volume leve ou menor. Você pode afetar um objeto de Volume 1 com 10 rodadas de concentração, e um objeto maior com 1 minuto por Volume.</li>\n</ul>\n<p><em>Prestidigitação</em> não pode causar dano ou condições adversas. Qualquer mudança real em um objeto (além do que foi mencionado acima) persiste apenas enquanto você Sustentar esta Magia.</p>",
+      "target": "1 objeto (cozinhar, tingir ou erguer apenas)"
     },
     "Primal Call": {
       "name": "Chamado Primal",
@@ -4662,6 +4669,7 @@
     },
     "Soothe": {
       "name": "Abrandar",
+      "description": "<p>Você agracia a mente do alvo, incrementando as defesas mentais e curando os ferimentos dele. O alvo recupera 1d10+4 PVs no momento da conjuração e recebe +2 de bônus de estado em testes de salvamento contra efeitos mentais enquanto esta magia durar.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]{Efeito de Magia: Abrandar}</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A cura aumenta em 1d10+4.</p>",
       "target": "1 criatura voluntária"
     },
     "Soothing Ballad": {
@@ -5236,7 +5244,18 @@
     },
     "Telekinetic Projectile": {
       "name": "Projétil Telecinético",
-      "description": "<p>Você lança um objeto desapossado solto que esteja dentro da distância e possua Volume 1 ou menor no alvo. Faça um ataque de magia à distância contra o alvo. Se acertar, você causa dano contundente, cortante ou perfurante — conforme apropriado para o objeto arremessado — igual a 1d6 mais o modificador de seu atributo de conjuração. Nenhum traço específico ou propriedade mágica do item arremessado afeta o ataque ou o dano causado.</p><p><hr /><strong>Sucesso Crítico</strong>  Você causa o dobro do dano.</p><p><strong>Sucesso</strong>  Você causa o dano inteiro.</p><p><hr /><strong>Elevada (+1)</strong>  O dano aumenta em 1d6.</p>",
+      "description": "<p>Você arremessa contra o alvo um objeto solto e desapossado que esteja dentro da distância e tenha Volume 1 ou menor. Faça um teste de ataque com magia contra a CA do alvo. Se acertar, você causa 2d6 de contundente, cortante ou perfurante — conforme apropriado para o objeto. Nenhum traço ou propriedade mágica específica do item arremessado afeta o ataque ou o dano.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> Você causa o dobro do dano.</p>\n<p><strong>Sucesso</strong> Você causa o dano inteiro.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
+      "spellVariants": {
+        "2I469pfbYcmFvzOA": {
+          "name": "Projétil Telecinético (Contundente)"
+        },
+        "cUFX7ExSLeoa3vIF": {
+          "name": "Projétil Telecinético (Perfurante)"
+        },
+        "zFWsMjoeCnLxqJaV": {
+          "name": "Projétil Telecinético (Cortante)"
+        }
+      },
       "target": "1 criatura"
     },
     "Telekinetic Rend": {
