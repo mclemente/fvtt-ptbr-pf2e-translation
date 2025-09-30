@@ -229,12 +229,7 @@
     },
     "Adhyabhau": {
       "name": "Adhyabhau",
-      "description": "<p>Você descende dos raros vampiros psíquicos conhecidos como vetalaranas. Seus ancestrais sobreviviam da energia mental e emocional de criaturas vivas, que se\nmanifesta em você como uma poderosa resistência a esses efeitos.</p>\n<p>Você recebe +1 de bônus de circunstância em salvamentos de Vontade contra efeitos com o traço emoção, e quando rolar um sucesso em um salvamento contra um efeito desses, trate o resultado como um sucesso crítico</p>",
-      "rules": {
-        "1": {
-          "text": "<em>@Localize[PF2E.SpecificRule.Dhampir.Adhyabhau.SaveNote]</em>"
-        }
-      }
+      "description": "<p>Você descende dos raros vampiros psíquicos conhecidos como vetalaranas. Seus ancestrais sobreviviam da energia mental e emocional de criaturas vivas, que se\nmanifesta em você como uma poderosa resistência a esses efeitos.</p>\n<p>Você recebe +1 de bônus de circunstância em salvamentos de Vontade contra efeitos com o traço emoção, e quando rolar um sucesso em um salvamento contra um efeito desses, trate o resultado como um sucesso crítico</p>"
     },
     "Adopted Ancestry": {
       "name": "Ancestralidade Adotada",
@@ -4417,8 +4412,8 @@
       "description": "<p>You are so suspicious of everyone you meet that you keep mental notes on how to defeat them all-even your own allies.</p>\n<p>After interacting with a creature for at least 1 minute, you automatically @UUID[Compendium.pf2e.actionspf2e.xTK2zsWFyxSJvYbX]{Pursue a Lead} with that creature as the subject. You can have any number of such leads at any given time, and when you Pursue a Lead again, you don't give up any of these automatic subjects.</p>"
     },
     "Exacting Strike": {
-      "name": "Golpe Exato",
-      "description": "<p>Você executa um ataque de acompanhamento controlado, levando totalmente em conta seu ímpeto. Faça um Golpe. O Golpe ganha o seguinte efeito em caso de falha.</p>\n<p><strong>Falha</strong> Este ataque não conta para sua penalidade de múltiplos ataques.</p>"
+      "name": "Golpe de Exatidão",
+      "description": "<p>Você faz um ataque sequencial controlado, levando em conta o seu impulso. Faça um Golpe. Esse Golpe tem o efeito de falha a seguir:</p>\n<p><strong>Falha</strong> Este ataque não conta para a sua penalidade por ataques múltiplos.</p>"
     },
     "Execution": {
       "prerequisites": [
@@ -9718,7 +9713,7 @@
     },
     "Reactive Strike": {
       "name": "Golpe Reativo",
-      "description": "<p><strong>Gatilho</strong> Uma criatura ao seu alcance usa uma ação de manuseio ou de movimento, faz um ataque à distância, ou sai de um quadrado durante uma ação de movimento que está usando.</p>\n<hr />\n<p>Você ataca um adversário que abriu a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se o seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Esse Golpe não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a esse Golpe.</p>"
+      "description": "<p><strong>Acionamento</strong> Uma criatura ao seu alcance usa uma ação de manuseio ou de movimento, faz um ataque à distância, ou sai de um quadrado durante uma ação de movimento que está usando.</p>\n<hr />\n<p>Você ataca um adversário que abriu a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se o seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Esse Golpe não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a esse Golpe.</p>"
     },
     "Reactive Striker": {
       "name": "Golpeador Reativo",
@@ -11952,7 +11947,7 @@
     },
     "Sudden Charge": {
       "name": "Investida Súbita",
-      "description": "<p>Com uma corrida rápida, você avança até seu inimigo e golpeia. Andar duas vezes. Se você terminar seu movimento dentro do alcance corpo a corpo de pelo menos um inimigo, você pode fazer um @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ataque} corpo a corpo contra esse inimigo. Você pode usar @UUID[Compendium.pf2e.feats-srd.Item.qQt3CMrhLkUV1wCv]{Investida Repentina} enquanto Escavar, Escalar, Voar, ou Nadar em vez de Andar se você tiver o tipo de movimento correspondente.</p>"
+      "description": "<p>Com uma investida rápida, você avança até um inimigo e o ataca. Ande duas vezes. Se encerrar seu movimento com pelo menos um inimigo ao seu alcance, você pode fazer um Golpe corpo a corpo contra ele. Você pode usar @UUID[Compendium.pf2e.feats-srd.Item.qQt3CMrhLkUV1wCv]{Investida Súbita} ao Escalar, Escavar, Nadar ou Voar, em vez de Andar, se tiver o tipo de movimento correspondente.</p>"
     },
     "Sudden Leap": {
       "name": "Salto Súbito",
