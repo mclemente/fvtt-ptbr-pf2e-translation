@@ -1234,7 +1234,12 @@
     },
     "Bargain Hunter": {
       "name": "Pechinchador",
-      "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Ganhar Provento} usando Diplomacia, passando seus dias caçando por pechinchas e revendendo com lucro. Você também pode passar tempo especificamente farejando uma grande pechincha em um item; isso funciona como se você estivesse ganhando provento com Diplomacia, exceto que, em vez de ganhar dinheiro, você compra o item com desconto igual ao dinheiro que teria ganho, ganhando o item de graça se o seu provento igualar ou exceder seu custo. Por fim, se você selecionar Pechinchador durante a criação do personagem no 1º nível, você começa a jogar com mais 2 pp adicionais.</p>"
+      "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Ganhar Provento} usando Diplomacia, passando seus dias caçando por pechinchas e revendendo com lucro. Você também pode passar tempo especificamente farejando uma grande pechincha em um item; isso funciona como se você estivesse ganhando provento com Diplomacia, exceto que, em vez de ganhar dinheiro, você compra o item com desconto igual ao dinheiro que teria ganho, ganhando o item de graça se o seu provento igualar ou exceder seu custo. Por fim, se você selecionar Pechinchador durante a criação do personagem no 1º nível, você começa a jogar com mais 2 pp adicionais.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Bark and Tendril": {
       "name": "Casca e Tendril",
@@ -1835,7 +1840,13 @@
       }
     },
     "Bon Mot": {
-      "name": "Comentário Maldoso"
+      "name": "Comentário Maldoso",
+      "description": "<p>Você faz um comentário perspicaz sobre um adversário, o deixando distraído. Escolha um adversário a até 9 metros e role um teste de <span data-pf2-action=\"bonMot\" data-pf2-glyph=\"A\">Diplomacy</span> contra a CD de Vontade do alvo.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo fica distraído e sofre –3 de penalidade de estado na Percepção e em salvamentos de Vontade por 1 minuto.</p>\n<p>O alvo pode encerrar o efeito mais cedo com uma resposta ao seu Comentário Maldoso. Isso pode ser uma ação única que tem o traço concentração ou uma ação de perícia apropriada para formular a resposta. O Mestre determina quais ações de perícia são adequadas, mas elas devem ser de pelo menos 1 ação. Normalmente, a resposta precisa usar uma ação de perícia linguística baseada em Carisma.</p>\n<p><strong>Sucesso</strong> Como sucesso crítico, mas a penalidade é –2.</p>\n<p><strong>Falha crítica</strong> eu gracejo é horrível. Você sofre a mesma penalidade que o inimigo teria se você tivesse obtido sucesso. Isso termina após 1 minuto ou se você fizer outro Comentário Maldoso e obtiver sucesso.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{Efeito: Comentário Maldoso}</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Bond Conservation": {
       "name": "Conservação de Elo",
@@ -2804,6 +2815,10 @@
         }
       ]
     },
+    "Cringe": {
+      "name": "Acanhamento",
+      "description": "<p><strong>Acionamento</strong> Uma criatura que você percebe obtém um sucesso crítico em um Golpe contra você e causaria dano.</p>\n<hr />\n<p>Com uma postura lastimável, você faz seu adversário recuar de um ataque mortal. A criatura sofre uma penalidade de circunstância no dano do Golpe acionador igual ao seu nível + 2. A penalidade é aplicada após dobrar o dano do acerto crítico. O atacante fica imune ao seu Acanhamento por 24 horas.</p>"
+    },
     "Critical Debilitation": {
       "name": "Debilitação Crítica",
       "prerequisites": [
@@ -2949,7 +2964,12 @@
       "description": "<p>Você é leve como uma folha soprada pela brisa. Quando Saltar ou obtiver sucesso em um Salto em Altura ou Salto em Distância, aumente a distância saltada em 1,5 metros. Quando calcular o dano sofrido por queda, desconsidere qualquer distância que você cair enquanto passar adjacente a uma parede.</p>"
     },
     "Dandy Dedication": {
-      "name": "Dedicação de Dândi"
+      "name": "Dedicação de Dândi",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Daredevil's Gambit": {
       "name": "Estrategia Audaciosa",
@@ -4162,7 +4182,12 @@
       "description": "<p>Your heart soars, increasing your power for a moment. You gain a +2 status bonus to attack rolls and skill checks until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.dTymNXgTtnjqgYP9]{Effect: Emotional Surge}</p>"
     },
     "Empathetic Plea": {
-      "description": "<p><strong>Prerequisites </strong>trained in Diplomacy</p> <p><strong>Trigger</strong> You are attacked by a creature that you haven’t yet acted hostile toward. You must use this reaction before the creature rolls its attack.</p> <hr> <p>The way you cringe or use those puppy-dog eyes you’ve been practicing elicits an empathetic response in the attacker. Attempt a Diplomacy check against your attacker’s Will DC.</p> <p><strong>Critical Success</strong> The creature pulls its attack, wasting its  action, and can’t use hostile actions against you until the beginning of its next turn.</p> <p><strong>Success</strong> The creature takes a –2 circumstance penalty to damage on the triggering Strike and all its Strikes against you until the beginning of its next turn. The penalty is –4 if you’re an expert in Diplomacy, –6 if you’re a master, and –8 if you’re legendary.</p> <p><strong>Failure</strong> The creature’s attack is unaffected, and the creature is  temporarily immune to your Empathic Pleas for 24 hours.</p>"
+      "description": "<p><strong>Prerequisites </strong>trained in Diplomacy</p> <p><strong>Trigger</strong> You are attacked by a creature that you haven’t yet acted hostile toward. You must use this reaction before the creature rolls its attack.</p> <hr> <p>The way you cringe or use those puppy-dog eyes you’ve been practicing elicits an empathetic response in the attacker. Attempt a Diplomacy check against your attacker’s Will DC.</p> <p><strong>Critical Success</strong> The creature pulls its attack, wasting its  action, and can’t use hostile actions against you until the beginning of its next turn.</p> <p><strong>Success</strong> The creature takes a –2 circumstance penalty to damage on the triggering Strike and all its Strikes against you until the beginning of its next turn. The penalty is –4 if you’re an expert in Diplomacy, –6 if you’re a master, and –8 if you’re legendary.</p> <p><strong>Failure</strong> The creature’s attack is unaffected, and the creature is  temporarily immune to your Empathic Pleas for 24 hours.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Enchanting Shot": {
       "prerequisites": [
@@ -4173,7 +4198,12 @@
     },
     "Encouraging Words": {
       "name": "Palavras Encorajadoras",
-      "description": "<p> <strong>Pré-requisitos</strong> treinado em Diplomacia <strong>Requirementos</strong> O aliado alvo perdeu Pontos de Vigor na última rodada. </span></p> <hr> <p>Você dá a um aliado em um raio de 9 metros uma rápida conversa animada, ajudando-o a se recuperar. Tente um teste de Diplomacia. A CD é geralmente 15, embora O mestre possa ajustá-lo com base nas circunstâncias. Se você possui proficiência especialista em Diplomacia, pode tentar um teste CD 20 para aumentar os Pontos de Vigor recuperados em 5; se você tiver proficiência mestre, pode tentar um teste de CD 30 para aumentar os Pontos de Vigor em 15; se você tiver proficiência lendária, poderá tentar um teste CD 40 para aumentar em 25 os Pontos de Vigor. Não importa o resultado, o aliado fica temporariamente imune a Palavras Encorajadoras até que eles @Compendium[pf2e.actionspf2e.qc0VsZ0UesnurUUB]{Tomem um Ar} ou descansem pelo dia.   <strong>Sucesso Crítico</strong> O aliado recupera 2d8 Pontos de Vigor. <strong>Sucesso</strong> O aliado recupera 1d8 Pontos de Vigor. <strong>Falha Crítica</strong> O aliado recebe 1d8 de dano mental, mas isso pode reduzir apenas pontos de resistência, nunca pontos de vida.</p> (Tradução não oficial - Gamemastery Guide)"
+      "description": "<p> <strong>Pré-requisitos</strong> treinado em Diplomacia <strong>Requirementos</strong> O aliado alvo perdeu Pontos de Vigor na última rodada. </span></p> <hr> <p>Você dá a um aliado em um raio de 9 metros uma rápida conversa animada, ajudando-o a se recuperar. Tente um teste de Diplomacia. A CD é geralmente 15, embora O mestre possa ajustá-lo com base nas circunstâncias. Se você possui proficiência especialista em Diplomacia, pode tentar um teste CD 20 para aumentar os Pontos de Vigor recuperados em 5; se você tiver proficiência mestre, pode tentar um teste de CD 30 para aumentar os Pontos de Vigor em 15; se você tiver proficiência lendária, poderá tentar um teste CD 40 para aumentar em 25 os Pontos de Vigor. Não importa o resultado, o aliado fica temporariamente imune a Palavras Encorajadoras até que eles @Compendium[pf2e.actionspf2e.qc0VsZ0UesnurUUB]{Tomem um Ar} ou descansem pelo dia.   <strong>Sucesso Crítico</strong> O aliado recupera 2d8 Pontos de Vigor. <strong>Sucesso</strong> O aliado recupera 1d8 Pontos de Vigor. <strong>Falha Crítica</strong> O aliado recebe 1d8 de dano mental, mas isso pode reduzir apenas pontos de resistência, nunca pontos de vida.</p> (Tradução não oficial - Gamemastery Guide)",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Endurance of the Rooted Tree": {
       "description": "<section class=\"details\"> <p><strong>Prerequisites</strong> @Compendium[pf2e.spells-srd.qJZZdYBdNaWRJFER]{Wholeness of Body}</p> </section> <section class=\"content\"> <p>Just as the Vale of Aroden retains light and life despite inhospitable surroundings, you can sustain yourself regardless of your environment. You don’t need to eat, drink, or breathe. In addition, you can cast the wholeness of body ki spell almost effortlessly. You can cast it as a free action that triggers at the start of your turn.</p> </section>",
@@ -4310,7 +4340,12 @@
     },
     "Eternal Composition": {
       "name": "Composição Eterna",
-      "description": "<p>O mundo é um palco sobre o qual você sempre está atuando. Você está permanentemente @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}; você pode usar sua ação extra apenas para conjurar um truque de composição que requer 1 ação para ser conjurado. Enquanto estiver em modo de exploração, você pode declarar que está performando um truque de composição elegível enquanto usa qualquer tática de exploração. Mesmo antes do seu primeiro turno em um combate, aquele truque estará ativo como se você o tivesse conjurado em seu turno anterior.</p>"
+      "description": "<p>O mundo é um palco sobre o qual você sempre está atuando. Você está permanentemente @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}; você pode usar sua ação extra apenas para conjurar um truque de composição que requer 1 ação para ser conjurado. Enquanto estiver em modo de exploração, você pode declarar que está performando um truque de composição elegível enquanto usa qualquer tática de exploração. Mesmo antes do seu primeiro turno em um combate, aquele truque estará ativo como se você o tivesse conjurado em seu turno anterior.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Eternal Elixir": {
       "name": "Elixir Eterno",
@@ -5217,7 +5252,12 @@
     },
     "Fortissimo Composition": {
       "name": "Composição Fortissimo",
-      "description": "<p>Seus hinos se tornam mais altos e mais potentes, fortalecidos pelo poder de suas musas. Você aprende a magia de foco <UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{Composição Fortissimo}.</p>"
+      "description": "<p>Seus hinos se tornam mais altos e mais potentes, fortalecidos pelo poder de suas musas. Você aprende a magia de foco <UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{Composição Fortissimo}.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Fortuitous Shift": {
       "prerequisites": [
@@ -5718,7 +5758,12 @@
     },
     "Group Impression": {
       "name": "Impressionar Grupo",
-      "description": "<p>Quando você @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Impressionar}, você pode comparar o resultado do seu teste de Diplomacia com os DCs de Vontade de até 10 alvos com os quais você conversou, sem penalidade. O número de alvos aumenta para 20 se você for um especialista, 50 se você for um mestre, e 100 se você for lendário.</p>"
+      "description": "<p>Quando você @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Impressionar}, você pode comparar o resultado do seu teste de Diplomacia com os DCs de Vontade de até 10 alvos com os quais você conversou, sem penalidade. O número de alvos aumenta para 20 se você for um especialista, 50 se você for um mestre, e 100 se você for lendário.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Grown of Oak": {
       "name": "Cultivado de Carvalho",
@@ -5895,7 +5940,12 @@
     },
     "Harmonize": {
       "name": "Harmonizar",
-      "description": "<p>Você pode performar múltiplas composições simultaneamente, normalmente performando de várias maneiras ao mesmo tempo, usando técnicas vocais especiais para duplicar sua voz, ou criando magia oculta que replica sua canção ou fala. Se sua próxima ação for lançar uma composição, ela se torna uma composição harmonizada. Ao contrário de uma composição normal, uma composição harmonizada não termina se você lançar outra composição, e você pode lançar outra composição na mesma rodada em que lançar uma harmonizada. Lançar outra composição harmonizada termina qualquer composição harmonizada que você já tenha em efeito.</p>"
+      "description": "<p>Você pode performar múltiplas composições simultaneamente, normalmente performando de várias maneiras ao mesmo tempo, usando técnicas vocais especiais para duplicar sua voz, ou criando magia oculta que replica sua canção ou fala. Se sua próxima ação for lançar uma composição, ela se torna uma composição harmonizada. Ao contrário de uma composição normal, uma composição harmonizada não termina se você lançar outra composição, e você pode lançar outra composição na mesma rodada em que lançar uma harmonizada. Lançar outra composição harmonizada termina qualquer composição harmonizada que você já tenha em efeito.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Harrying Strike": {
       "name": "Golpe Irritante",
@@ -6143,14 +6193,24 @@
     },
     "Hobnobber": {
       "name": "Camarada",
-      "description": "<p>Você é qualificado em obter informações através de conversas. A atividade de exploração @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Obter Informação} leva metade do tempo normal (normalmente reduzindo o tempo para 1 hora). Se você for um mestre em Diplomacia e rolar uma falha crítica ao Obter Informação, você recebe uma falha em vez disso. Ainda assim, não há garantia de que um rumor que você aprenda com Obter Informação seja preciso.</p>"
+      "description": "<p>Você é qualificado em obter informações através de conversas. A atividade de exploração @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Obter Informação} leva metade do tempo normal (normalmente reduzindo o tempo para 1 hora). Se você for um mestre em Diplomacia e rolar uma falha crítica ao Obter Informação, você recebe uma falha em vez disso. Ainda assim, não há garantia de que um rumor que você aprenda com Obter Informação seja preciso.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Hold Mark": {
       "name": "Manter Marca",
       "description": "<p>Você urso cicatrizes ou tatuagens aprimoradas pela marca da capacidade de sua comunidade. Ao selecionar este feito, escolha uma das opções da tabela abaixo. Você é treinado na perícia listada e ganha um bônus de +1 condição nas jogadas de resistência contra magias da tradição listada. Você ganha uma Grande marca ou tatuagem na forma do emblema escolhido ou um conceito semelhante (por exemplo, o Sol Ardente pode ser uma tocha, sol, vulcão ou outro símbolo ígneo, enquanto a Mão Vazia pode ser um punho ou garra).</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Emblema da Marca Segurada</th>\n<th>perícia</th>\n<th>Tradição</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Sol Ardente</td>\n<td>Diplomacia</td>\n<td>Arcana</td>\n</tr>\n<tr>\n<td>Cabeça da Morte</td>\n<td>Sobrevivência</td>\n<td>Primal</td>\n</tr>\n<tr>\n<td>Cadáver Profanado</td>\n<td>Religião</td>\n<td>Divina</td>\n</tr>\n<tr>\n<td>Mão Vazia</td>\n<td>Intimidação</td>\n<td>Oculta</td>\n</tr>\n</tbody>\n</table>"
     },
     "Holistic Care": {
-      "description": "<p><strong>Prerequisites</strong> trained in Diplomacy, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"rfnEcjxIFqwlJwJT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Treat Condition</a></p> <hr> <p>You provide emotional and spiritual care. Add <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"TBSHQspnbcqxsmjL\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Frightened</a>, <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"e1XGnhKNSQIm5IXg\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Stupefied</a>, and <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"dfCMdR4wnpbYNTix\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Atordoado</a> to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can’t use Treat Condition to reduce it.</p>"
+      "description": "<p><strong>Prerequisites</strong> trained in Diplomacy, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"rfnEcjxIFqwlJwJT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Treat Condition</a></p> <hr> <p>You provide emotional and spiritual care. Add <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"TBSHQspnbcqxsmjL\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Frightened</a>, <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"e1XGnhKNSQIm5IXg\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Stupefied</a>, and <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"dfCMdR4wnpbYNTix\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Atordoado</a> to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can’t use Treat Condition to reduce it.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Homeward Bound": {
       "name": "Caminho para Casa",
@@ -6480,7 +6540,12 @@
     },
     "In Tune": {
       "name": "Em Sintonia",
-      "description": "<p>Você ajusta sua grande perícia em Performar para outro, concedendo a eles uma pequena medida de sua perícia como se qualquer pessoa pudesse fazê-lo. Se sua próxima ação for lançar uma magia de composição com uma área de emanação, sua área se espalha de um aliado disposto de sua escolha dentro de 60 pés em vez de você.</p>\n<p>Se você tiver @UUID[Compendium.pf2e.feats-srd.Item.ot0uyFtnC1Whz5bp]{Público Direcionado}, você pode fazer com que esse cone se origine do aliado em vez de você.</p>"
+      "description": "<p>Você ajusta sua grande perícia em Performar para outro, concedendo a eles uma pequena medida de sua perícia como se qualquer pessoa pudesse fazê-lo. Se sua próxima ação for lançar uma magia de composição com uma área de emanação, sua área se espalha de um aliado disposto de sua escolha dentro de 60 pés em vez de você.</p>\n<p>Se você tiver @UUID[Compendium.pf2e.feats-srd.Item.ot0uyFtnC1Whz5bp]{Público Direcionado}, você pode fazer com que esse cone se origine do aliado em vez de você.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Incorporeal Shot": {
       "prerequisites": [
@@ -6649,6 +6714,9 @@
       "prerequisites": [
         {
           "value": "Dedicação de Marechal"
+        },
+        {
+          "value": "treinado em Diplomacia"
         }
       ]
     },
@@ -7241,7 +7309,12 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada",
-      "description": "<p>Ao adicionar um floreio, você faz suas composições durarem mais. Você aprende a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]{Composição Prolongada}.</p>"
+      "description": "<p>Ao acrescentar um floreio, você faz suas composições durarem mais. Você adquire a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]Composição Prolongada}.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Linguist Dedication": {
       "name": "Dedicação de Linguista"
@@ -8332,7 +8405,12 @@
       "description": "<p>Você é astuto o suficiente para encontrar uma abertura no ataque de um oponente. Quando você usa sua reação @UUID[Compendium.pf2e.feats-srd.Item.dNH8OHEvx3vI9NBQ]{Esquiva Vistosa}, você pode fazer um Golpear corpo a corpo contra a criatura de acionamento. Este Golpear não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a este Golpear. Se você usar o talento @UUID[Compendium.pf2e.feats-srd.Item.F6ZAceuDpiM9bUiF]{Rolamento Vistoso}, você pode fazer este Golpear a qualquer momento durante sua rolagem.</p>"
     },
     "No Cause for Alarm": {
-      "description": "<p>Você tenta reduzir o pânico. Tente um @Check[diplomacy] teste, comparando ao DC de Vontade das criaturas em uma @Template[emanation|distance:10] ao seu redor que estão @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{assustado}. Cada uma delas fica temporariamente imune por 1 hora.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Reduza o valor de assustado da criatura em 2.</p>\n<p><strong>Sucesso</strong> Reduza o valor de assustado da criatura em 1.</p>"
+      "description": "<p>Você tenta reduzir o pânico. Tente um @Check[diplomacy] teste, comparando ao DC de Vontade das criaturas em uma @Template[emanation|distance:10] ao seu redor que estão @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{assustado}. Cada uma delas fica temporariamente imune por 1 hora.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Reduza o valor de assustado da criatura em 2.</p>\n<p><strong>Sucesso</strong> Reduza o valor de assustado da criatura em 1.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "No Escape": {
       "name": "Sem Escapatória"
@@ -8428,6 +8506,13 @@
     },
     "Offensive Subroutine": {
       "description": "<p>Nanites augment your attacks. You can choose to activate @UUID[Compendium.pf2e.feats-srd.JS24EjgLYcHB9E3T]{Nanite Surge} when you attempt an attack roll, instead of when you attempt a skill check. If you do, you gain a +1 status bonus to the triggering attack roll.</p>"
+    },
+    "One for All": {
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "One-Inch Punch": {
       "description": "<p><strong>Prerequisites </strong>expert strikes</p> <hr> <p>You put all your force into a single mighty, carefully controlled blow. Make an unarmed @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If you spend two actions and this Strike hits, you deal an extra die of weapon damage. You can instead spend 3 actions to perform an even more powerful attack, dealing a second additional die of weapon damage on a hit.</p> <p>If you’re at least 10th level, the number of additional dice you add from this feat doubles, for a total of 2 additional dice if you spend 2 actions or 4 additional dice if you spend 3 actions. If you’re at least 18th level, the number of additional dice you add from this feat triples, for a total of 3 additional dice if you spend 2 actions or 6 additional dice if you spend 3 actions.</p>"
@@ -9967,7 +10052,12 @@
     },
     "Resounding Finale": {
       "name": "Finale Retumbante",
-      "description": "<p><strong>Acionamento</strong> Você ou um aliado beneficiando-se de sua magia de composição sofreriam dano sonoro.</p>\n<hr />\n<p>Você traz sua performance a um fim súbito e dramático, abafando outros sons. Sua magia de composição termina imediatamente, e todos os aliados que estavam se beneficiando dos efeitos da magia ganham resistência sônica contra o dano acionador igual ao dobro do rank da magia de composição.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.ycalVFivloJ14yhA]{Efeito: Final Estrondoso}</p>"
+      "description": "<p><strong>Acionamento</strong> Você ou um aliado beneficiando-se de sua magia de composição sofreriam dano sonoro.</p>\n<hr />\n<p>Você traz sua performance a um fim súbito e dramático, abafando outros sons. Sua magia de composição termina imediatamente, e todos os aliados que estavam se beneficiando dos efeitos da magia ganham resistência sônica contra o dano acionador igual ao dobro do rank da magia de composição.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.ycalVFivloJ14yhA]{Efeito: Final Estrondoso}</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Resourceful Ritualist": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"kU4K9jj9qnktoAaQ\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Ritualist Dedication</a></p> <hr> <p>You can cast difficult rituals that might otherwise be just beyond your skill. You can attempt checks to cast a ritual that requires expert proficiency if you are trained, master proficiency if you are an expert, or legendary proficiency if you are a master.</p>"
@@ -13028,7 +13118,12 @@
     },
     "Uplifting Overture": {
       "name": "Abertura Inspiradora",
-      "description": "<p>Você aprende o @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{Introdução Inspiradora} truque mágico de composição, que auxilia as perícias de seus aliados com a natureza inspiradora de sua performance.</p>"
+      "description": "<p>Você aprende o @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{Introdução Inspiradora} truque mágico de composição, que auxilia as perícias de seus aliados com a natureza inspiradora de sua performance.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Uplifting Winds": {
       "name": "Sopro Inspirador",
