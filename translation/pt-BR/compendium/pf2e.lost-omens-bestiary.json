@@ -141,9 +141,6 @@
     },
     "Bibliodaemon": {
       "items": {
-        "weapon->Gavel": {
-          "description": "<p>Uma maça leve possui um cabo de madeira ou metal que termina em uma densa cabeça de metal. Usada quase como uma clava, ela desfere golpes contundentes pesados, mas com poder extra vindo das tachas ou espinhos da cabeça de metal.</p>"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -258,6 +255,7 @@
           "name": "Espinha"
         },
         "action->Reactive Strike": {
+          "name": "Golpe Reativo",
           "description": "<p><strong>Gatilho</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
         },
         "action->Swallow Whole": {
@@ -692,14 +690,6 @@
     },
     "Lamp Blighter": {
       "items": {
-        "weapon->Shortbow": {
-          "name": "Arco Curto",
-          "description": "<p><span class=\"fontstyle0\">Este arco menor é feito de um único pedaço de madeira e é usado por escaramuçadores e cavalaria. </p>"
-        },
-        "consumable->Arrows": {
-          "name": "Flechas",
-          "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -1003,7 +993,7 @@
           "requirements": "You have a deity."
         },
         "spell->Finger of Death": {
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
@@ -1053,6 +1043,13 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        }
+      }
+    },
+    "Torn Quartet": {
+      "items": {
+        "action->Reactive Strike": {
+          "name": "Golpe Reativo"
         }
       }
     },

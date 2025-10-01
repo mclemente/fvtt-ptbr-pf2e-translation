@@ -16,14 +16,10 @@
     "Accelerated Decomposition": {
       "target": "1 criatura"
     },
-    "Access Lore": {
-      "name": "Access Lore",
-      "description": "<p>You sift through the multiverse's divine knowledge, seeking out tidbits related to a particular subject. Choose one Lore skill. You temporarily gain the same proficiency rank in that Lore skill as your proficiency rank for your oracle spellcasting.</p>"
-    },
     "Achaekek's Clutch": {
       "name": "Achaekek's Clutch",
       "description": "<p>You mark the holy symbol of Achaekek in a visible location on the target's body.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is marked by Achaekek's symbol. For 1 minute, the first time per round that the target gains @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}, they immediately take that amount of slashing damage as the mantis claws grow off the symbol and rake them.</p>\n<p><strong>Failure</strong> As success, but the curse has an unlimited duration.</p>\n<p><strong>Critical Failure</strong> As failure, but the DC on the target's flat check to remove persistent bleed damage increases to 20 (15 with particularly effective assistance).</p>",
-      "target": "1 Criatura"
+      "target": "1 criatura"
     },
     "Acid Arrow": {
       "name": "Flecha Ácida",
@@ -83,7 +79,7 @@
     "Air Bubble": {
       "name": "Bolha de Ar",
       "description": "<p>Uma bolha de ar puro aparece ao redor da cabeça do alvo, permitindo-lhe respirar normalmente. O efeito se encerra assim que o alvo retornar a um ambiente onde é capaz de respirar normalmente.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Air Walk": {
       "name": "Caminhar no Ar",
@@ -108,25 +104,25 @@
       "target": "You and up to 10 willing living allies"
     },
     "All-Encompassing Hunger": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Allegro": {
       "name": "Allegro",
       "description": "<p>Você performa rapidamente, acelerando seu aliado. O aliado fica @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Acelerado} e pode usar a ação adicional para Andar, Dar um Passo ou Golpear.</p>",
-      "target": "1 ally"
+      "target": "1 aliado"
     },
     "Alter Reality": {
       "name": "Alterar a Realidade",
       "description": "<p>Você usa seu saber ocultista e o poder de sua mente para manipular o multiverso espiritual, resultando em qualquer um dos efeitos a seguir:</p><ul><li>Duplicar qualquer magia ocultista de 9º nível ou inferior.</li><li>Duplicar qualquer magia não-ocultista de 7º nível ou inferior.</li><li>Produzir qualquer efeito cujo poder seja equivalente ao de qualquer magia ocultista de 9º nível ou inferior ou equivalente ao poder de qualquer magia não-ocultista de 7º nível ou inferior.</li><li>Reverter determinados efeitos que mencionem a magia desejo.</li> </ul><p>A critério do mestre, você pode tentar produzir efeitos maiores, mas isto é perigoso e a magia pode ter um efeito somente parcial.</p> "
     },
     "Amity Cycle": {
-      "primarycheck": "Performance (expert)",
+      "primarycheck": "Performance (especialista)",
       "secondarycheck": "Crafting, Performance, Society"
     },
     "Anathematic Reprisal": {
       "name": "Represália Anatemática",
       "description": "<p><strong>Gatilho</strong> Uma criatura executa um ato anátema para sua divindade.</p><hr /><p>Você pune uma criatura que transgrida contra sua divindade, direcionando a angústia que você sente por ver um anátema de sua divindade sendo cometido. Você pode conjurar esta magia somente quando uma criatura cometer ativamente um ato único de anátema. Por exemplo, se criar mortos-vivos for anátema para sua divindade, você poderia usar represália anatemática em um necromante que acabou de criar mortos-vivos na sua frente, mas não em uma criatura morta-viva simplesmente por ela existir. Você causa 4d6 de dano mental ao alvo, mas um salvamento básico de Vontade pode reduzir este dano. Se falhar, ele também fica <a class=\"entity-link\" data-pack=\"pf2e.conditionitems\" data-id=\"e1XGnhKNSQIm5IXg\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Estupefato</a> 1 por 1 rodada. A criatura fica temporariamente imune por 1 minuto.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Ancestral Defense": {
       "name": "Ancestral Defense"
@@ -139,7 +135,7 @@
     },
     "Ancestral Touch": {
       "name": "Ancestral Touch",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Angel Form": {
       "name": "Angel Form"
@@ -186,12 +182,12 @@
       "name": "Animar Objeto",
       "primarycheck": "Arcana (expert)",
       "secondarycheck": "Manufatura",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Animate Rope": {
-      "name": "Animate Rope",
-      "description": "<p>You cause a length or section of @Compendium[pf2e.equipment-srd.fyYnQf1NAx9fWFaS]{Rope} or a rope-like object to animate and follow simple commands. You can give it two commands when you @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast the Spell}, and one command each time you @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain the Spell}.</p>\n<hr />\n<ul>\n<li><strong>Bind</strong> (attack) The Rope attempts to partially bind a creature. Attempt a spell attack roll against the target's Reflex DC. If you succeed, the target takes a -10-foot circumstance penalty to its Speed (-20-foot on a critical success). This ends if the target @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes} against your spell DC or breaks the Rope. (A standard adventuring Rope has Hardness 2, HP 8, and a Broken Threshold of 4.)</li>\n<li><strong>Coil</strong> The Rope forms a tidy, coiled stack.</li>\n<li><strong>Crawl</strong> The Rope inches along the ground like a snake, moving one of its ends 10 feet. The Rope must move along a surface, but that surface doesn't need to be horizontal.</li>\n<li><strong>Knot</strong> The Rope ties a sturdy knot in itself.</li>\n<li><strong>Loop</strong> The Rope forms a simple loop at one or both ends, or straightens itself back out.</li>\n<li><strong>Tie</strong> The Rope ties itself around a willing creature or an object that's unattended or attended by a willing creature.</li>\n<li><strong>Undo</strong> The Rope undoes one of its knots, ties, or bindings.</li>\n</ul>\n<hr />\n<p><strong>Heightened (+2)</strong> The range increases by 50 feet, and you can animate 50 more feet of Rope.</p>",
-      "target": "up to 50 feet of rope or a nonliving rope-like object"
+      "name": "Animar Corda",
+      "description": "<p>Você faz a seção de @UUID[Compendium.pf2e.equipment-srd.Item.fyYnQf1NAx9fWFaS]{Corda} ou objeto similar a uma corda se animar e seguir comandos simples. Você pode emitir dois comandos quando @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Conjurar a Magia} e um comando a cada vez que @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Sustentar a Magia}.</p>\n<hr />\n<ul>\n<li><strong>Amarrar</strong> A corda se amarra ao redor de uma criatura ou objeto que esteja desapossado (ou apossado por uma criatura voluntária).</li>\n<li><strong>Desfazer</strong> A corda desfaz a ação de nó, amarrar ou prender.</li>\n<li><strong>Enrolar</strong> A corda forma uma pilha enrolada bem apertada.</li>\n<li><strong>Laço</strong> A corda forma um laço simples em uma ou ambas as pontas, ou se estica de volta.</li>\n<li><strong>Nó</strong> A corda se dá um nó firme.</li>\n<li><strong>Prender</strong> (ataque) A corda tenta parcialmente enlaçar uma criatura. Faça uma rolagem de ataque de magia contra a CD de Reflexos do alvo. Se você obtiver sucesso, o alvo sofre –3 metros de penalidade de circunstância na Velocidade dele (–6 metros de penalidade de circunstância em um sucesso crítico). Isto é encerado se o alvo @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} contra sua CD de magia ou romper a corda. (Uma corda de aventura padrão possui Dureza 2, 8 PV e LQ 4.) @UUID[Compendium.pf2e.spell-effects.Item.OwvrQKuMLEktNWzA]{Efeito de Magia: Animar Corda}</li>\n<li><strong>Rastejar</strong> A corda se move pelo chão como uma cobra, movendo uma de suas pontas por 3 metros. A corda deve se mover sobre uma superfície, mas essa superfície não precisa ser horizontal.</li>\n</ul>\n<hr />\n<p><strong>Elevada (+2)</strong> A distância aumenta em 15 metros e você pode animar mais 15 metros de corda.</p>",
+      "target": "até 15 metros de uma corda ou objeto não-vivo similar a uma corda"
     },
     "Animated Assault": {
       "name": "Animated Assault",
@@ -500,7 +496,7 @@
     "Blind Eye": {
       "name": "Blind Eye",
       "description": "<p>You enchant a single object, preventing it from being used for magical observation. If you cast this spell on a non-magical item used to cast scrying spells, such as a spell component pouch or a spell focus, the item can't be used to cast the spell. If you cast <em>blind eye</em> on a magical item that can be activated to scry (such as a @Compendium[pf2e.equipment-srd.RM3SR1omNZfppZGl]{Crystal Ball} or @Compendium[pf2e.equipment-srd.ACa9QlFqdmW4s2Th]{Hag Eye}), the item can't be activated for scrying effects. Magical items that are twice blind eye's spell level or more aren't blocked this way.</p>",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Blinding Beauty": {
       "name": "Blinding Beauty",
@@ -636,7 +632,7 @@
     "Breath of Life": {
       "name": "Sopro de Vida",
       "description": "<p><strong>Acionamento </strong>Uma criatura viva na distância iria morrer.</p><hr /><p>Sua benção revive uma criatura no momento da morte dela. Você impede o alvo de <a class=\"entity-link\" data-pack=\"pf2e.conditionitems\" data-id=\"yZRUzMqrMmfLu0V1\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Morrer</a> e restaura uma quantidade de Pontos de Vida dele igual a 4d8 mais o modificador de seu atributo de conjuração. Você não pode usar sopro de vida se o efeito acionador for desintegrar ou um efeito de morte.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Briny Bolt": {
       "target": "1 criatura"
@@ -681,12 +677,12 @@
     "Call The Blood": {
       "name": "Call The Blood",
       "description": "<p>With a word and gesture, you cause streams of blood to erupt from the target's mouth, nostrils, ears, or other facial openings and come rushing into your mouth. You deal [[/r 8d4[negative]]] damage to the target.</p>\n<p>If the target takes damage, its blood flows into your mouth. If you're a living creature and don't have negative healing, you're @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}. If you're undead (or living but have negative healing), you can choose to either gain temporary Hit Points equal to half of the negative damage the target takes (after applying resistance and the like) and become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round, or forgo the temporary Hit Points and become quickened for 1 minute. You can use this extra action only to Step, Stride, or Strike. You lose any remaining temporary Hit Points after 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by [[/r 2d4[negative]]].</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Call of the Grave": {
       "name": "Chamado do Túmulo",
       "description": "<p>Você dispara um raio de energia nauseante. Faça uma rolagem de ataque de magia.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado} 2 e @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento} 1 enquanto estiver @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado}.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Enjoado} 1.</p><p><strong>Falha</strong>  O alvo não é afetado.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Call to Arms": {
       "name": "Call to Arms",
@@ -778,7 +774,7 @@
       "target": "1 creature that could find you attractive"
     },
     "Chastising Retort": {
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Chilling Darkness": {
       "name": "Escuridão Gélida",
@@ -790,7 +786,7 @@
     },
     "Chroma Leach": {
       "name": "Chroma Leach",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Chromatic Armor": {
       "name": "Chromatic Armor",
@@ -948,7 +944,7 @@
     "Community Repair": {
       "name": "Community Repair",
       "description": "<p>You lead your community in repairing a public work, such as a bridge, well, or mural, through the power of memory and art. The primary caster serves as an emcee or leader, while each secondary caster provides a heartfelt anecdote that somehow involves the public work; for instance, recounting a story of playing at a fountain each summer. The anecdotes don't need to be firsthand accounts-a community member might sing of how their grandparents fell in love crossing a bridge every day-but they must be directly connected in some way. The GM can offer a +1 circumstance bonus to the secondary caster whose anecdote seems most moving.</p>\n<p>If the public work was destroyed intentionally by one of the casters, the ritual automatically critically fails.</p>\n<hr />\n<p><strong>Critical Success</strong> The public work is restored to its prior construction, and it takes on further qualities, encouraged by the thoughts of the community. For the next week, while a caster is within 60 feet of the site of the ritual, they receive a +1 status bonus to Will saves against emotion effects and a +10-foot status bonus to their Speeds. @UUID[Compendium.pf2e.spell-effects.R3j6song8sYLY5vG]{Spell Effect: Community Repair (Critical Success)}</p>\n<p><strong>Success</strong> The public work is restored to its prior construction and function.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> The public work refuses to repair itself, and the memories of the community members are soured in response to the botched ritual. For the next week, while a caster is within 60 feet of the site of the ritual, they cannot receive any benefit from beneficial emotion effects, and they take a -10-foot status penalty to their Speeds as their movement slows to a morose crawl. @UUID[Compendium.pf2e.spell-effects.6qvLnIkWAoGvTIWy]{Spell Effect: Community Repair (Critical Failure)}</p>",
-      "primarycheck": "Performance (expert)",
+      "primarycheck": "Performance (especialista)",
       "requirements": "rare powdered pigments in at least three different colors, worth a total of 50 gp",
       "secondarycheck": "Crafting, Performance, Society",
       "target": "1 damaged or broken public work no larger than 3,000 cubic feet (the size of a Huge creature)"
@@ -966,7 +962,7 @@
       "name": "Concealment's Curtain",
       "description": "<p>At twilight for 5 days, you line the fruit in front of the mirror, chanting the name of the target, and envisioning its eyes in your mind. At exactly midnight on the last day, you drive the pins through the fruits, miming the action of methodically blinding the target to you and your companions. The target is immediately affected and can't visually detect any of the casters involved in the ritual-provided that the ritual was successful, the target is unaware of the effects. Since the ritual affects the target's ability to see the casters, rather than make the casters @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}, effects like true seeing are ineffective against concealment's curtain; instead, the target would need to remove the curse with effects like remove curse. To perform this ritual, you must have been within 5 feet of the target at least once, close enough to get a good look at its eyes. The target is temporarily immune to further castings of concealment's curtain for 1 year.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unable to visually detect the casters for the duration, and the target's detection spells don't detect the targets.</p>\n<p><strong>Success</strong> The target is unable to visually detect the casters for the duration, but it's detection spells function normally.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> The ritual backfires and all casters participating in it are @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for the next 24 hours.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You aren't satisfied with simply concealing yourself from the target. The cost of the ritual mirror increases to 1,000 gp, and a personal effect of the target is required. After completing the ritual, the target takes 6d6 mental damage and is blinded for 1 week, requiring both a remove curse and a restore senses to end the effect early. The target is aware that the ritual was cast on them; however, it doesn't have any additional information.</p>",
       "primarycheck": "Ocultismo",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Concordant Choir": {
       "name": "Concordant Choir",
@@ -1064,12 +1060,16 @@
       "description": "<p>You recreate your form entirely out of cosmic energy, transforming into a Large battle form. You must have enough space to expand into, or the spell is lost. When you cast this spell, choose to take on the powers of the moon or the sun. You have hands in this battle form and can use manipulate actions. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of the form that you choose:</p>\n<ul>\n<li>AC = 21 + your level. Ignore your armor check's penalty and Speed reduction.</li>\n<li>20 temporary Hit Points.</li>\n<li>Darkvision.</li>\n<li> One or more attacks specific to the battle form you use. You're trained with them. Your attack modifier is +25, and you use the listed damage. The melee attacks are Strength based (for the purpose of the enfeebled condition, for example), and the ranged attacks are Dexterity based. If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +25, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the stellar body:</p>\n<ul>\n<li><strong>Moon</strong> Speed 30 feet, fly 50 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1  fist (agile, reach 10 feet), <strong>Damage</strong> 2d4+10 bludgeoning plus 1d6 fire;</li>\n<li><strong>Ranged</strong> <span class=\"pf2-icon\">1  moonbeam (range 90 feet), <strong>Damage</strong> 2d4+10 fire; this form's fire damage is silver for resistances, weaknesses, and the like;</li>\n<li> On a critical hit with either Strike, the target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.tfdDpf9xSWgQer5g]{Spell Effect: Cosmic Form (Moon)}</p>\n<ul>\n<li><strong>Sun</strong> Speed 30 feet, fly 50 feet;\n<ul>\n<li><strong>Melee</strong> <span class=\"pf2-icon\">1  fist (agile, reach 10 feet), <strong>Damage</strong> 2d6+10 fire plus 1d6 persistent fire;</li>\n<li><strong>Ranged</strong> <span class=\"pf2-icon\">1  sunbeam (range 90 feet), <strong>Damage</strong> 1d6+10 fire plus 1d6 persistent fire;</li>\n<li> On a critical hit with either Strike, the target is @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.2Ss5VblfZNHg1HjN]{Spell Effect: Cosmic Form (Sun)}</p>"
     },
     "Counter Performance": {
-      "name": "Contra Performance",
-      "description": "<p><strong>Gatilho</strong>Você ou um aliado a até 18 metros rola uma jogada de salvamento contra um efeito auditivo ou visual.</p><hr /><p>Sua performance protege você e seus aliados. Role um teste de Performance de um tipo apropriado: uma performance auditiva se o acionamento for auditivo ou uma performance visual se o acionamento for visual. Você e aliados na área podem usar o melhor resultado entre seu teste de Performance e a jogada de salvamento.</p>"
+      "name": "Contraperformance",
+      "description": "<p><strong>Acionamento</strong> Você ou um aliado a até 18 metros faz um teste de salvamento contra um efeito auditivo ou visual.</p>\n<hr />\n<p>Sua performance protege você e seus aliados. Faça um teste de @Check[performance] de um tipo apropriado: uma performance auditiva se o acionamento for auditivo ou uma visual, se o acionamento for visual. Você e aliados que estiverem na área podem usar o melhor resultado entre seu teste de Performance e o de salvamento.</p>"
     },
     "Countless Eyes": {
       "name": "Countless Eyes",
       "target": "1 criatura"
+    },
+    "Courageous Anthem": {
+      "name": "Antífona da Coragem",
+      "description": "<p>Você inspira a si mesmo e a seus aliados com palavras ou melodias de encorajamento. Você e todos os seus aliados que estiverem na área recebem +1 de bônus de estado em testes de ataque, jogadas de dano e testes de salvamento contra efeitos de medo.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]{Efeito de Magia: Antífona da Coragem}</p>"
     },
     "Cozy Cabin": {
       "name": "Cozy Cabin",
@@ -1142,7 +1142,7 @@
     "Cup of Dust": {
       "name": "Taça da Poeira",
       "description": "<p> Você amaldiçoa o alvo com uma sede que nenhuma bebida pode saciar. Você pode dispensar a magia. O alvo deve tentar um salvamento de Fortitude.   <strong>Sucesso Crítico</strong> A criatura não é afetada e fica temporariamente imune por 1 hora. <strong>Sucesso</strong> A criatura esta @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{fatigada} por 1 rodada. <strong>Falha</strong> A criatura é imediatamente atingida pela sede, como se não tivesse bebido há dias. Ele fica @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{fatigada} e recebe 1d4 de dano a cada hora que não pode ser curado até que sacie sua sede. Nenhuma quantidade de bebida pode saciar a sede da criatura durante a duração da magia.  <strong>Falha Crítica</strong> Como falha, mas a criatura sofre 2d4 de dano a cada hora, o dobro do normal para a sede. </p><hr /><p><strong>Elevada (+3)</strong> A sede se torna mais insuportável, aumentando o dano a cada hora em 1d4 ou 2d4 em uma falha crítica.</p> (Tradução não oficial - Gods & Magic)",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Curse of Death": {
       "name": "Curse of Death",
@@ -1217,7 +1217,7 @@
     "Day's Weight": {
       "name": "Day's Weight",
       "description": "<p>You fast-forward time for a single creature, burdening it with the aches and pain of an entire day and making it temporarily tired and weak. The creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} and @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is fatigued and enfeebled 1 for the duration.</p>\n<p><strong>Critical Failure</strong> The target is fatigued and @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2} for the duration. The fatigued condition doesn't end when the spell's duration does (but can still be removed with a night's rest or by similar means).</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Daydreamer's Curse": {
       "name": "Daydreamer's Curse",
@@ -1340,7 +1340,7 @@
     "Devour Life": {
       "name": "Devour Life",
       "description": "<p>You attempt to utterly consume the target's life force. The target takes 60 negative damage with a basic Fortitude save. If this damage reduces the target to 0 Hit Points, it dies immediately. You regain Hit Points equal to half the negative damage the target takes (after applying resistance and the like). Any excess healing is gained as temporary Hit Points, which you lose after 1 minute.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Diabolic Edict": {
       "name": "Édito Diabólico",
@@ -1487,6 +1487,10 @@
       "name": "Divinity Leech",
       "target": "1 criatura"
     },
+    "Dizzying Colors": {
+      "name": "Cores Estonteantes",
+      "description": "<p>Você desencadeia várias cores rodopiantes que sobrecarregam os sentidos das criaturas com base em seus salvamentos de Vontade.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada.</p>\n<p><strong>Falha</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1}, @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cegada} por 1 rodada e ofuscada\npor 1 minuto.</p>\n<p><strong>Falha crítica</strong> A criatura fica atordoada por 1 rodada e cegada por 1 minuto.</p>"
+    },
     "Dominate": {
       "name": "Dominar",
       "description": "<p>Você assume o comando do alvo, forçando-o a obedecer às suas ordens. Se emitir uma ordem obviamente autodestrutiva, o alvo não age até você emitir uma nova ordem. O efeito depende do salvamento de Vontade dele.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{atordoado} 1 enquanto luta contra seus comandos.</p><p><strong>Falha</strong>  O alvo segue suas ordens, mas pode tentar um salvamento de Vontade ao final de cada um dos turnos dele. Em um sucesso, a magia é encerrada.</p><p><strong>Falha Crítica</strong>  Como falha, mas o alvo recebe um novo salvamento somente se você emitir uma nova ordem que seja contra a natureza dele, como matar os aliados que ele tiver.</p><p><hr /><strong>Elevada (10º)</strong>  A duração é ilimitada.</p>",
@@ -1519,14 +1523,14 @@
     },
     "Drain Life": {
       "name": "Drenar Vida",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Draw Ire": {
       "name": "Draw Ire",
       "target": "1 criatura"
     },
     "Draw Moisture": {
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Draw the Lightning": {
       "name": "Draw the Lightning",
@@ -1628,7 +1632,7 @@
     },
     "Electric Arc": {
       "name": "Arco Elétrico",
-      "description": "<p>Um arco de eletricidade salta de um alvo para outro. Você causa dano de eletricidade igual a 1d4 mais o modificador de seu atributo de conjuração.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+      "description": "<p>Um arco de relâmpago salta de um alvo para outro. Cada alvo sofre 2d4 de dano de eletricidade, com direito a um salvamento básico de Reflexos.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
       "target": "1 ou 2 criaturas"
     },
     "Electrified Crystal Ward": {
@@ -1679,7 +1683,7 @@
       "name": "Elemental Sentinel",
       "description": "<p>You place a tiny elemental wisp within a single object, usually a mirror, statue, or other mundane-looking item, to serve as an alarm. Shattering or otherwise destroying the object frees the wisp and ends the ritual's effect even if the object is magically restored.</p>\n<hr />\n<p><strong>Critical Success</strong> The elemental wisps inhabits the object and willingly serves you to the best of its ability. The wisp becomes aware of the target object's surroundings and can telepathically contact you with a range of 500 feet. It reports to you about intruders or other changes to the room in which it's located. You must tell the wisp what the criteria for the reports will be-for instance, when anyone not openly wearing a certain symbol enters the room or when an item is removed. The wisp has a +5 Perception modifier and observes the room using normal vision, normal hearing, and touch.</p>\n<p><strong>Success</strong> As critical success, but the range of the telepathy is 100 feet and the wisp's Perception modifier is +3.</p>\n<p><strong>Failure</strong> You're unable to harness the spirit. The ritual fails.</p>\n<p><strong>Critical Failure</strong> The elemental wisp is trapped in the object as with a success, but it refuses or is somehow unable to help you. The elemental might have extremely low Intelligence or simply be spiteful. Regardless, the object's reports are always misleading.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The range of the telepathic link increases, allowing the wisp to contact you anywhere on the same planet. Its Perception modifier increases to +10, or +12 on a critical success.</p>\n<p><strong>Heightened (6th)</strong> As 4th level, except the wisp can see invisibility, and its Perception modifier increases to +15, or +17 on a critical success.</p>",
       "primarycheck": "Arcana (expert) or Occultism (expert)",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Elemental Servitor": {
       "secondarycheck": "Diplomacia"
@@ -1755,6 +1759,8 @@
       "description": "<p>Extending a finger, you fire a beam of negative energy that weakens the life force of any creature it touches. Each living creature in the line must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes [[/r 2d8[persistent,negative]]] damage.</p>\n<p><strong>Failure</strong> The creature takes [[/r 4d8[persistent,negative]]] damage and becomes @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes [[/r 4d8[persistent,negative]]] damage and becomes @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The persistent negative damage increases by [[/r 1d8[persistent,negative]]] damage on a success, or by [[/r 2d8[persistent,negative]]] damage on a failure or critical failure.</p>"
     },
     "Enfeeble": {
+      "name": "Enfraquecer",
+      "description": "<p>Você enfraquece o alvo, dependendo do resultado do salvamento de Fortitude dele.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o início do seu próximo turno.</p>\n<p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 2} por 1 minuto.</p>\n<p><strong>Falha crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 3} por 1 minuto.</p>",
       "target": "1 criatura"
     },
     "Enhance Senses": {
@@ -1837,8 +1843,8 @@
       "description": "<p>You view death not as an ending but a beginning, and you delight in dancing on its edge. Each time you gain the dying condition and then regain consciousness while under the effect of euphoric renewal, you gain three benefits.</p>\n<ul>\n<li>You're @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} on your next turn. You can use the extra action only to Stand.</li>\n<li>You gain a +1 circumstance bonus to saves for 1 minute.</li>\n<li>You gain 8 temporary Hit Points that last for 1 minute.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.16QrxIYal7PJFL2W]{Spell Effect: Euphoric Renewal}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The number of temporary HP increases by 2.</p>"
     },
     "Evil Eye": {
-      "name": "Evil Eye",
-      "description": "<p>You fix your eye on the target, imposing a malevolent hex. The target becomes frightened based on the results of its Will save. This condition value can't be reduced below 1 while the spell is active and you can see the target. Regardless of the outcome, the target is then temporarily immune for 1 minute.</p>\n<hr />\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}.</p>",
+      "name": "Mau-olhado",
+      "description": "<p>O ressentimento do seu patrono se manifesta através de um olhar sinistro e invejoso. O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} se falhar em um salvamento de Vontade (ou enjoado 2, em caso de falha crítica). O valor dessa condição não pode ser reduzido para abaixo de 1 enquanto esta magia estiver ativa e você puder ver o alvo.</p>",
       "target": "1 criatura"
     },
     "Evolution Surge": {
@@ -1974,7 +1980,7 @@
       "target": "1 willing ally and 1 enemy"
     },
     "Fateful Condemnation": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Favorable Review": {
       "name": "Revisão Favorável",
@@ -2002,12 +2008,12 @@
     },
     "Fearful Feast": {
       "name": "Fearful Feast",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Feast of Ashes": {
       "name": "Festim de Cinzas",
       "description": "<p> Você amaldiçoa o alvo com fome que nenhum alimento pode saciar. Você pode Dispensar a magia. O alvo deve tentar um salvamento de Fortitude.   <strong>Sucesso Crítico</strong> A criatura não é afetada e fica temporariamente imune por 1 hora. <strong>Sucesso</strong> A criatura esta @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{fatigado} por 1 rodada. <strong>Falha</strong> A criatura é imediatamente atingida pela fome, como se não tivesse comido há dias. Ele fica @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{fatigado} e recebe 1d4 de dano por dia que não pode ser curado até que sacie sua fome. Nenhuma quantidade de comida pode saciar a fome da criatura durante a duração da magia. Após a duração da magia, a criatura sofre dano por <a style=''text-decoration:underline;''href=''https://2e.aonprd.com/Rules.aspx?ID=537''>inanição</a>.  <strong>Falha Crítica</strong> Como falha, mas a criatura sofre 2d4 de dano por dia, o dobro do normal para a fome. </p><hr /><p><strong>Elevada (+1)</strong> A fome se torna mais insuportável, aumentando o dano a cada dia em 1d4, ou 2d4 em uma falha crítica.</p> (Tradução não oficial - Gods & Magic)",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Feet to Fins": {
       "name": "Pés em Barbatanas",
@@ -2134,6 +2140,8 @@
       "target": "1 ally and 1 enemy"
     },
     "Force Barrage": {
+      "name": "Saraivada de Força",
+      "description": "<p>Esta magia dispara um estilhaço de magia solidificada em direção a uma criatura que você pode ver. Ele acerta automaticamente e causa 1d4+1 de dano de força. Para cada ação adicional que usar ao Conjurar esta Magia, você pode disparar um estilhaço adicional em um alvo diferente, até um máximo de três estilhaços contra três alvos diferentes com 3 ações. Você escolhe o alvo de cada estilhaço individualmente. Se você disparar mais de um estilhaço no mesmo alvo, combine o dano antes de aplicar bônus ou penalidades de dano, fraquezas, resistências e assim por diante.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> Você dispara um fragmento adicional com cada ação que gastar.</p>",
       "target": "1 criatura"
     },
     "Force Bolt": {
@@ -2209,8 +2217,7 @@
       "target": "1 criatura voluntária"
     },
     "Frigid Flurry": {
-      "name": "Frigid Flurry",
-      "description": "<p>You place a palm to your lips and exhale a cold breath, whipping up a gust of wind that freezes the air's ambient moisture into a flurry of jagged shards. The flurry deals 9d6 cold damage and 9d6 slashing damage to all foes, with a basic Reflex save, but the gust flows harmlessly around your allies. The wind then picks you up and carries you to the other end of the area; though your movement within the gust can still trigger reactions, the storm of ice crystals prevents you from being affected by any effects, except for those that would counteract the spell's magic or that the GM decides would affect snow.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The cold and slashing damage each increase by 1d6.</p>"
+      "name": "Frigid Flurry"
     },
     "Frog Tongue": {
       "target": "1 criatura"
@@ -2219,7 +2226,7 @@
       "target": "1 criatura"
     },
     "Frost's Touch": {
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Frostbite": {
       "name": "Geladura",
@@ -2402,7 +2409,7 @@
     },
     "Guidance": {
       "name": "Orientação",
-      "description": "<p>Você pede por orientação divina, concedendo ao alvo +1 de bônus de estado a uma jogada de salvamento, rolagem de ataque, teste de Percepção ou teste de perícia realizado antes da duração acabar. O alvo escolhe em qual rolagem usar o bônus antes de rolar o dado. Se o alvo usar o bônus, a magia acaba. De qualquer forma, o alvo fica temporariamente imune por 1 hora.</p>\n<p>@Compendium[pf2e.spell-effects.3qHKBDF7lrHw8jFK]{Spell Effect: Guidance}</p>\n<p>@Compendium[pf2e.spell-effects.3LyOkV25p7wA181H]{Effect: Guidance Immunity}</p>",
+      "description": "<p>Você pede por orientação divina, concedendo ao alvo +1 de bônus de estado a uma jogada de salvamento, rolagem de ataque, teste de Percepção ou teste de perícia realizado antes da duração acabar. O alvo escolhe em qual rolagem usar o bônus antes de rolar o dado. Se o alvo usar o bônus, a magia acaba. De qualquer forma, o alvo fica temporariamente imune por 1 hora.</p>\n<p>@Compendium[pf2e.spell-effects.3qHKBDF7lrHw8jFK]{Efeito de Magia: Orientação}</p>\n<p>@Compendium[pf2e.spell-effects.3LyOkV25p7wA181H]{Efeito: Imunidade a Orientação}</p>",
       "target": "1 criatura"
     },
     "Guided Introspection": {
@@ -2414,7 +2421,7 @@
     },
     "Gust of Wind": {
       "name": "Lufada de Vento",
-      "description": "<p>Um vento violento surge da palma de sua mão, soprando do ponto onde você está quando conjura a magia até o lado oposto da linha. O vento extingue qualquer fogo não-mágico, dispersa névoa e bruma, sopra objetos de Volume leve ou menor e empurra objetos maiores. Criaturas Grandes ou menores na área devem tentar um salvamento de Fortitude. Criaturas Grandes ou menores que se moverem para dentro da lufada devem tentar um salvamento assim que o fizerem.<p><p><strong>Sucesso Crítico <strong>A criatura não é afetada.<p><p><strong>Sucesso<strong> A criatura não pode mover-se contra o vento.<p><p><strong>Falha<strong> A criatura é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{prostrado}. Se estiver voando, ela sofre os efeitos de falha crítica.<p><p><strong>Falha Crítica<strong> A criatura é empurrada 9 metros na direção do vento, é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{prostrado} e sofre 2d6 de dano contundente.<p>"
+      "description": "<p>Um vendaval violento sai de sua palma, soprando do ponto de onde você estava quando Conjurou esta Magia até a extremidade oposta da linha. O vento extingue pequenas chamas mundanas, dispersa neblina e névoa, leva embora objetos de Volume leve ou menor e empurra objetos maiores. Todas as criaturas Grandes ou menores que estiverem na área precisam fazer um salvamento de Fortitude. Criaturas Grandes ou menores que se moverem para a área da lufada precisam fazer esse teste ao entrar.<p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura não pode se mover contra o vento.</p>\n<p><strong>Falha</strong> A criatura cai @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada}. Se estiver voando, sofre os efeitos de uma falha crítica.</p>\n<p><strong>Falha crítica</strong> A criatura é empurrada 9 metros na direção do vento, é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada} e sofre 2d6 de dano contundente.</p>"
     },
     "Hag's Fruit": {
       "name": "Hag's Fruit",
@@ -2452,7 +2459,7 @@
         },
         "z04svm1cvfcxtplb": {
           "name": "Ferir (contra Vivos)",
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         }
       },
       "target": "1 living creature or 1 willing undead creature"
@@ -2543,7 +2550,7 @@
       "name": "Erupção de Fogo Infernal"
     },
     "Helpful Reload": {
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Hero's Defiance": {
       "name": "Desafio do Herói"
@@ -2669,7 +2676,7 @@
     },
     "Illusory Disguise": {
       "name": "Disfarce Ilusório",
-      "description": "<p>Você cria uma ilusão que faz você parecer outra criatura do mesmo formato corporal e com altura e peso mais ou menos similares aos seus (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce normalmente é bom o suficiente para esconder sua identidade, mas não para personificar um indivíduo específico. A magia não muda sua voz, odor ou maneirismos. Você pode mudar a aparência de suas roupas e itens vestidos, como fazer sua armadura parecer um vestido. Itens segurados não são afetados, e qualquer item vestido que você remover retorna à aparência real dele.</p>\n<p>Conjurar disfarce ilusório cria um disfarce para o uso de Dissimulação para @Compendium[pf2e.action-macros.k5nW4jGyXD0Oq9LR]{Personificar}; ela ignora qualquer penalidade de circunstância sofrida por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que você adicione seu nível ao teste mesmo se for destreinado. Você pode Dispensar esta magia.</p>\n<hr />\n<p><strong>Elevada (2º)</strong>traço A magia também disfarça sua voz e cheiro, além de receber o traço auditivo.</p>\n<p><strong>Elevada (3º) </strong>Você pode parecer qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto um indivíduo para assumir a aparência dele. A magia também disfarça sua voz e odor, além de receber o traço auditivo</p>\n<p>@Compendium[pf2e.spell-effects.3Ktyd5F9lOPo4myk]{Spell Effect: Illusory Disguise}</p>",
+      "description": "<p>Você cria uma ilusão que faz com que o alvo pareça outra criatura com o mesmo formato corporal e com altura e peso semelhante ao seu (diferença de até 15 centímetros e 25 kg). O disfarce normalmente é bom o suficiente para esconder sua identidade, mas não para personificar um indivíduo específico. A magia muda sua aparência e voz, mas não seus maneirismos. Você pode alterar a aparência das suas roupas e itens equipados, como fazer com que sua armadura pareça um vestido. Itens segurados não são afetados e qualquer item equipado removido da criatura retorna à sua aparência verdadeira.</p>\n<p>Conjurar <em>disfarce ilusório</em> conta como criar um disfarce para os propósitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]Personificar}; ele ignora as penalidades de circunstância que o alvo pode ter por se disfarçar de uma criatura diferente dele, concedendo +4 de bônus de estado em testes de Dissimulação para impedir que outras pessoas vejam através do disfarce, permitindo que o alvo adicione seu nível ao teste, mesmo que seja destreinado. Você pode Dispensar esta magia.</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O alvo pode aparecer como qualquer criatura do mesmo tamanho, até mesmo um indivíduo específico. Você precisa ter visto um indivíduo para replicar a aparência dele e ouvido a voz para poder replicá-la.</p>\n<p><strong>Elevada (4º)</strong> Você pode visar até 10 criaturas voluntárias. Se esta magia for usada em mais de uma criatura, é possível escolher um disfarce diferente para cada alvo, mas nenhum poderá per- sonificar um indivíduo específico. Você pode Dispensar cada dis- farce individualmente ou todos de uma vez.</p>\n<p><strong>Elevada (7º)</strong> Como no 4º ranque, mas você pode escolher disfarces que personifiquem indivíduos específicos. Você precisa ter visto um indivíduo para replicar a aparência dele e ouvido a voz para poder replicá-la.</p>\n<p>@Compendium[pf2e.spell-effects.3Ktyd5F9lOPo4myk]{Efeito de Magia: Disfarce Ilusório}</p>",
       "target": "1 criatura voluntária"
     },
     "Illusory Object": {
@@ -2716,7 +2723,7 @@
     "Impending Doom": {
       "name": "Impending Doom",
       "description": "<p>You sift through myriad potential futures, seize upon one potential moment in which the target meets a particularly gruesome and fatal end, and then show it a vision of its impending demise. The intense mental vision grows more and more terrifying to the target as the doom grows closer, and it takes 3 rounds to reach its conclusion. The target must attempt a Will saving throw to determine the effects. At the end of the spell's duration, if the target was affected, the target witnesses its death and takes 6d6 mental damage.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is unaffected for 1 round. On the second round, it becomes @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}. Finally, on the third round, it becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}. At the end of the third round, it takes half damage.</p>\n<p><strong>Failure</strong> The creature is immediately flat-footed. On the second round, it becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}. Finally, on the third round, it also becomes @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}. At the end of the third round, the creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature is immediately flat-footed and @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3}. On the second round, it becomes stunned 1. Finally, on the third round, it also becomes @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado}. At the end of the third round, the creature takes double damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Implement of Destruction": {
       "name": "Implement of Destruction",
@@ -2731,7 +2738,7 @@
     "Imprint Message": {
       "name": "Gravar Mensagem",
       "description": "<p>Você projeta vibrações psíquicas no objeto alvo, gravando uma mensagem curta ou um tema emocional de sua escolha. A sensação gravada é revelada a qualquer criatura que conjurar ler objeto (veja abaixo) no alvo, e substitui quaisquer eventos emocionais em que o item estava presente. Se o objeto estiver na área de uma magia retrocognição, a mensagem gravada aparece como um evento maior na linha do tempo, mas não interfere com outras visões. Se o objeto for alvo de ler aura com um nível de magia mais elevado que gravar mensagem, o conjurador descobre que o objeto foi modificado. Quando você Conjurar esta Magia, quaisquer vibrações prévias gravadas em um objeto com conjurações anteriores de gravar mensagem desaparecem.&nbsp;</p>",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Imprisonment": {
       "name": "Aprisionamento",
@@ -2834,7 +2841,7 @@
     "Invisible Item": {
       "name": "Invisible Item",
       "description": "<p>You make the object @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to them instead if they succeed. If the item is used as part of a hostile action, the spell ends after that hostile action is completed. Making a weapon invisible typically doesn't give any advantage to the attack, except that an invisible thrown weapon or piece of ammunition can be used for an attack without necessarily giving information about the attacker's hiding place unless the weapon returns to the attacker.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The duration is until the next time you make your daily preparations.</p>\n<p><strong>Heightened (7th)</strong> The duration is unlimited.</p>",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Invoke Spirits": {
       "name": "Invoke Spirits",
@@ -2930,7 +2937,7 @@
     "Laughing Fit": {
       "name": "Crise de Risos",
       "description": "<p>O alvo é dominado por uma risada incontrolável. Ele precisa fazer um salvamento de Vontade.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo é afligido com uma risada incontrolável. Ele não pode usar reações.</p>\n<p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Desacelerado 1} e não pode usar reações.</p>\n<p><strong>Falha crítica</strong> O alvo cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} e não pode usar ações ou reações por 1 rodada. Depois disso ele sofre os efeitos da falha.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Lay on Hands": {
       "name": "Imposição de mãos",
@@ -2967,7 +2974,7 @@
     "Life Connection": {
       "name": "Life Connection",
       "description": "<p>When you cast this spell, you place a failsafe deep within the life force of the target. You can sense when the target takes damage, provided you're within 1 mile of one another. A creature can be part of no more than one life connection simultaneously. When the spell is complete, you gain the @UUID[Compendium.pf2e.actionspf2e.5V49l0K460CcvBOO]{Defend Life} reaction; once you use the reaction, the spell ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.j9l4LDnAwg9xzYsy]{Spell Effect: Life Connection}</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Life Link": {
       "name": "Life Link",
@@ -2993,7 +3000,7 @@
       "name": "Lift Nature's Caul"
     },
     "Light": {
-      "name": "Leve",
+      "name": "Luz",
       "description": "<p> O objeto brilha, emanando luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) como uma tocha. Se você conjurar esta magia em um segundo objeto, a magia luz no primeiro objeto é encerrada.</p>\n<p>@Compendium[pf2e.spell-effects.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Elevada (4°)</strong> O objeto emana luz brilhante em um raio de 18 metros (e luz fraca nos próximos 18 metros).</p>"
     },
     "Light of Revelation": {
@@ -3013,7 +3020,7 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada",
-      "description": "<p>Você acrescenta um floreio à sua composição para prolongar os benefícios dela. Se sua próxima ação for conjurar um truque mágico de composição com duração de 1 rodada, faça um teste de Performance. A CD normalmente é uma CD padrão do mesmo nível que o alvo de maior nível afetado por sua composição, mas O mestre pode determinar uma CD diferente baseado nas circunstâncias. O efeito depende do resultado do seu teste.</p><p><hr /><strong>Successo Crítico</strong>  A composição dura 4 rodadas</p><p><strong>Successo</strong>  A composição dura 3 rodadas.</p><p><strong>Falha</strong>  composição dura 1 rodada, mas você não gasta o Ponto de Foco por conjurar esta magia.</p>"
+      "description": "<p>Você acrescenta um floreio à sua composição para prolongar os benefícios dela. Se a sua próxima ação for conjurar um Truque de composição com duração de 1 rodada, faça um teste de @Check[performance]. A CD normalmente é uma CD padrão do mesmo nível que o alvo de maior nível afetado por sua composição, mas o Mestre pode determinar uma CD a depender das circunstâncias. O efeito depende do resultado desse teste.</p>\n<hr />\n<p><strong>Successo crítico</strong> A composição dura 4 rodadas</p>\n<p><strong>Successo</strong> A composição dura 3 rodadas.</p>\n<p><strong>Falha</strong> A composição dura 1 rodada, mas você não gasta Ponto de Foco conjurando esta magia.</p>"
     },
     "Linnorm Sting": {
       "name": "Linnorm Sting",
@@ -3055,7 +3062,7 @@
     "Lose the Path": {
       "name": "Lose the Path",
       "description": "<p><strong>Trigger</strong> A creature in range Strides</p>\n<hr />\n<p>You surround a moving creature with lifelike illusions, shifting their perception of the terrain to subtly lead them off course. The target must attempt a Will save. Regardless of the result, the creature is immune to lose the path for 1 hour.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature treats all squares as difficult terrain for its Stride.</p>\n<p><strong>Critical Failure</strong> As failure, except that you determine where the target moves during the Stride, though you can't move it into hazardous terrain or to a place it can't stand.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Lucky Break": {
       "name": "Golpe de Sorte",
@@ -3178,7 +3185,7 @@
     "Martyr's Intervention": {
       "name": "Martyr's Intervention",
       "description": "<p><strong>Trigger</strong> A creature within range would take damage that reduces it to 0 Hit Points</p>\n<p><strong>Requirements</strong> You don't have the wounded condition.</p>\n<hr />\n<p>You shield a creature in dire need with your own life force, taking the harm upon yourself to save their life. The target is reduced to 1 Hit Point instead of 0 Hit Points. All remaining damage that was prevented from harming the target creature is instead dealt to you. Both you and the target become @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded 1}; targets who are already wounded increased their wounded value by 1.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Mask of Terror": {
       "name": "Máscara de Terror",
@@ -3360,6 +3367,10 @@
     "Mycological Malady": {
       "target": "1 criatura"
     },
+    "Mystic Armor": {
+      "name": "Armadura Mística",
+      "description": "<p>Você se protege com uma energia mágica cintilante, recebendo +1 de bônus de item na CA e um modificador máximo de Destreza de +5. Enquanto estiver equipado com <em>armadura mística</em>, você usa sua proficiência sem armadura para calcular a CA.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.qkwb5DD3zmKwvbk0]{Efeito de Magia: Armadura Mística}</p>\n<hr />\n<p><strong>Elevada (4º)</strong> Você recebe +1 de bônus de item em testes de salvamento.</p>\n<p><strong>Elevada (6º)</strong> O bônus de item na CA aumenta para +2 e você recebe +1 de bônus de item em testes de salvamento.</p>\n<p><strong>Elevada (8º)</strong> O bônus de item na CA aumenta para +2 e você recebe +2 de bônus de item em testes de salvamento.</p>\n<p><strong>Elevada (10º)</strong> O bônus de item na CA aumenta para +3 e você recebe +3 de bônus de item em testes de salvamento.</p>"
+    },
     "Mystic Beacon": {
       "name": "Farol Místico",
       "description": "<p>A próxima magia de dano ou cura que o alvo conjurar antes do início de seu próximo turno causa dano ou recupera Pontos de Vida como se a magia fosse elevada 1 nível acima do nível real dela. Exceto por isso, a magia funciona com o nível real dela. Após o alvo conjurar a magia, farol místico é encerrada.</p>",
@@ -3401,7 +3412,7 @@
     "Necrotize": {
       "name": "Necrotize",
       "description": "<p>You necrotize part of a creature's body, harming it and debilitating it as its body putrefies, mimicking the natural process of decay. The target takes 12d6 negative damage and one of the following debilitations; roll [[/r 1d4]] to randomly determine which. The effects depend on its Fortitude save.</p>\n<ol>\n<li><strong>Bones</strong> The target's bones necrotize and become spongy and weak, giving it weakness 3 to bludgeoning damage.</li>\n<li><strong>Joints</strong> The target's joints necrotize, making its movements ungainly and clumsy. It becomes @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}.</li>\n<li><strong>Legs</strong> The target's legs necrotize, as well as any other limbs associated with forms of movement, making it harder for the creature to move. The target takes a -10-foot status penalty to its Speeds. @UUID[Compendium.pf2e.spell-effects.ndj0TpLxyzbyzcm4]{Spell Effect: Necrotize (Legs)}</li>\n<li><strong>Muscles</strong> The target's muscles necrotize, rotting away. The target becomes @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}.</li>\n</ol>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and the debilitation lasts until the end of your next turn.</p>\n<p><strong>Failure</strong> The target takes full damage and the debilitation lasts for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, and you can pick a second debilitation to apply, in addition to the one you rolled randomly. Both debilitations last for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Needle Darts": {
       "target": "1 criatura"
@@ -3433,7 +3444,6 @@
       "name": "Noxious Vapors"
     },
     "Nudge Fate": {
-      "name": "Nudge Fate",
       "description": "<p>You read slightly into the future and give fate a tiny push to achieve the result you desire.</p>\n<p> Once during the duration, when the target fails an attack roll, skill check, or saving throw and a +1 status bonus would turn a critical failure into a failure, or failure into a success, you grant the target a +1 status bonus to the check retroactively, changing the outcome appropriately. The spell then ends, and the target is temporarily immune for 1 minute.</p>\n<p>If you cast nudge fate while a previous casting of this hex is still in effect, the previous effect ends.</p>",
       "target": "1 criatura"
     },
@@ -3465,7 +3475,7 @@
     "Object Reading": {
       "name": "Ler Objeto",
       "description": "<p> Você coloca a mão em um objeto para descobrir uma informação sobre um evento emocional que ocorreu envolvendo o objeto dentro da última semana, conforme determinado pelo mestre. Se conjurar <em>ler objeto</em> no mesmo item novamente, você pode se concentrar em um único evento e obter informações adicionais sobre ele ou receber uma informação sobre outro evento emocional no intervalo de tempo aplicável.&nbsp; </p><hr /><p><strong>Elevada (2º)</strong> Você pode descobrir algo sobre um evento que ocorreu dentro do último mês. <strong>Elevada (4º)</strong> Você pode descobrir algo sobre um evento que ocorreu dentro do último ano. <strong>Elevada (6º)</strong> Você pode descobrir algo sobre um evento que ocorreu dentro da última década. <strong>Elevada (8º)</strong> Você pode descobrir algo sobre um evento que ocorreu dentro do último século. <strong>Elevada (9º)</strong> Você pode descobrir algo sobre um evento que ocorreu dentro de toda a história do objeto.</p>",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Oblivious Expulsion": {
       "name": "Oblivious Expulsion",
@@ -3481,7 +3491,7 @@
     "Ode to Ouroboros": {
       "name": "Ode to Ouroboros",
       "description": "<p><strong>Trigger</strong> A creature's @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} condition would reach the value at which they would die.</p>\n<hr />\n<p>Your ode temporarily staves off death. The target's dying condition remains 1 below the value at which it dies. This doesn't help prevent death from effects that kill the target without increasing its dying condition, such as <em>@UUID[Compendium.pf2e.spells-srd.r7ihOgKv19eJQnik]{Disintegrate}</em> and death effects.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Omnidirectional Scan": {
       "name": "Omnidirectional Scan",
@@ -3500,7 +3510,6 @@
       "description": "<p>You call upon the authority of cosmic forces of order, overwhelming creatures with remorse and agony for acting outside of their station and purpose.</p>\n<p>Enemies in the area take 4d6 mental damage and must attempt a Will save. A creature that has lost abilities as a result of performing acts anathema to its deity or beliefs (such as a champion who violated their tenets and hasn't atoned) uses the outcome one degree of success worse than the result of its saving throw.</p>\n<p>At the GM's discretion, a creature currently filling its appointed station and purpose (such as a farmer working in a field or a criminal in the act of committing a crime) uses the outcome one degree of success better than the result of its saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and must @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} as its first action on its next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, must @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} as its first action on its next turn, and can't @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Stand} during its next turn.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
     },
     "Organsight": {
-      "name": "Organsight",
       "description": "<p>You see the target as though it's dissected and arrayed before you. For the duration, you gain a +2 circumstance bonus on Medicine checks against the target that depend on its organs, but a -2 circumstance penalty on Medicine checks depending on seeing its skin.</p>\n<p>When you Cast the Spell, attempt a special Recall Knowledge check using Medicine to spot and discern a vital organ. If you have a Lore skill appropriate to the creature, you can use that skill instead of Medicine. If you succeed, the next time you deal piercing or slashing damage to the target with a Strike or spell, you deal 4d6 additional precision damage. Once on each of your subsequent turns, you can use a single action to attempt the special Recall Knowledge check again. The extra damage isn't cumulative, so making the check more than once before a Strike or spell has no extra benefit.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Uj9VFXoVMH0mTTdt]{Spell Effect: Organsight}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The precision damage increases by [[/r 1d6]]{1d6}.</p>",
       "target": "1 living or undead creature that has organs"
     },
@@ -3519,12 +3528,12 @@
       "description": "<p> A tristeza flui de você para as criaturas próximas, apagando qualquer outro pensamento que eles tenham. A primeira vez que uma criatura começa sua vez na área ou entra na área, deve fazer um teste de Vontade. Se mais tarde sair e entrar novamente na área, utilizará o mesmo efeito de antes.  <strong>Sucesso Crítico</strong> A criatura não é afetada <strong>Sucesso</strong> A criatura recebe uma penalidade de status -1 nas checagens de pericia e de Percepção enquanto permanecer na área. <strong>Falha</strong> Enquanto a criatura estiver na área, qualquer efeito emocional reage, qualquer efeito emocional de nível mais baixo que o normal <em>tristeza trasnbordante</em> são suprimidos e, sempre que a criatura tenta usar uma ação emocional ou lançar uma magia emocional, ela deve ter sucesso em um teste simples de CD 11 ou a ação ou a magia é interrompida. <strong>Falha Crítica</strong> Como falha, mas a criatura não pode usar ações emocionais ou magias.&nbsp; </p><hr /><p><strong>Elevada (+2)</strong> Ao lançar magia, você pode aumentar a área em 1,5 metros.&nbsp;</p> (Tradução não oficial - Gods and Magic)"
     },
     "Overselling Flourish": {
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Overstuff": {
       "name": "Empanturrar",
       "description": "<p>Enormes quantidades de comida e bebida enchem o alvo. Ele recebe uma refeição completamente nutritiva e deve tentar um salvamento de Fortitude.</p><p>Um alvo  @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} por esta magia sofre –3 metros de penalidade de estado na Velocidade dele até que não esteja mais @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}.</p> <hr /><p> <strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} 1, mas se gastar uma ação para encerrar a condição, ele obtém sucesso automaticamente.</p><p><strong>Failure</strong> O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} 1.</p> <p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened} 2.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Overwhelming Memory": {
       "target": "1 criatura"
@@ -3554,7 +3563,7 @@
     "Painful Vibrations": {
       "name": "Painful Vibrations",
       "description": "<p>You send powerful sound waves through an opponent's body, vibrating its bones and internal organs painfully. The creature takes 8d6 sonic damage and must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage, is @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}, and is @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}, and is deafened for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Painted Scout": {
       "name": "Painted Scout",
@@ -3668,11 +3677,11 @@
     "Phantasmal Killer": {
       "name": "Assassino Fantasmagórico",
       "description": "<p>Você cria uma imagem fantasmagórica da criatura mais temida pelo alvo. Somente o alvo da magia pode ver o assassino, embora você consiga visualizar o formato vago da ilusão enquanto ela se move para atacar. O efeito do assassino é baseado no resultado do salvamento de Vontade do alvo.</p><hr /> <p><strong>Successo Crítico</strong> O alvo não é afetado.</p> <p><strong>Successo</strong>  O alvo sofre 4d6 de dano mental e fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} 1.</p> <p><strong>Falha</strong>  O alvo sofre 8d6 de dano mental e fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} 2.</p><p><strong>Falha Crítica</strong> O alvo fica com tanto medo que pode morrer. Ele deve tentar um salvamento de Fortitude; se falhar, ele morre. Em um salvamento de Fortitude bem-sucedido, o alvo sofre 12d6 de dano mental, fica @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing} até o final do próximo turno dele e fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} 4. Este efeito possui o traço de incapacitação.</p><p><hr /><strong>Heightened (+1)</strong>  The damage increases by 2d6 on a failure and by 3d6 on a critical failure.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Phantasmal Treasure": {
       "name": "Phantasmal Treasure",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Phantom Crowd": {
       "name": "Phantom Crowd",
@@ -3680,6 +3689,7 @@
     },
     "Phantom Pain": {
       "name": "Dor Fantasma",
+      "description": "<p>Uma dor ilusória assola o alvo, causando 2d4 de dano mental e @Damage[(@item.level)d4[persistent,mental]], com direito a um salvamento de Vontade.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo sofre o dano inicial completo, mas nenhum dano persistente, e esta magia se encerra imediatamente.</p>\n<p><strong>Falha</strong> O alvo sofre o dano inicial e o dano persistente total, ficando @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1}. Se ele se recuperar de estar enjoado, o dano persistente se encerra e esta magia também.</p>\n<p><strong>Falha crítica</strong> Como na falha, mas o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 2}.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 2d4 e o dano persistente em 1d4.</p>",
       "target": "1 criatura"
     },
     "Phantom Prison": {
@@ -3708,7 +3718,7 @@
     "Physical Boost": {
       "name": "Vantagem Física",
       "description": "<p>Você aprimora temporariamente a condição física do alvo. O alvo recebe +2 de bônus de estado no próximo teste de Acrobatismo, teste de Atletismo, salvamento de Fortitude ou salvamento de Reflexos que ele realizar.</p>\n<p>@Compendium[pf2e.spell-effects.XT3AyRfx4xeXfAjP]{Spell Effect: Physical Boost}</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Pied Piping": {
       "name": "Pied Piping",
@@ -3760,7 +3770,7 @@
       "description": "<p>Using the blood, you compose a portrait of the target in perfect health. Once the portrait is complete, you recite your grievances against the target and enact on the portrait the punishments you wish to see them face, choosing from the clumsy, enfeebled, drained, or stupefied condition.</p>\n<p>The target must attempt a Will saving throw. You're only able to perform this ritual if you know the target's name and are able to see their face clearly in your mind's eye, and the secondary caster who performs the Crafting check must be able to paint or draw the target from memory. The target suffers the effects over the course of 1d6 hours, during which time the portrait transforms to reveal a caricature of the punishment you chose-muscles atrophied into nothing for enfeebled, pallid and sickly for drained, and so on. The target is immediately aware that they're under the effects of a magical ailment. If the duration expires or the target removes the curse with a remove curse or similar effect, their portrait slowly returns back to its original form. Destroying the portrait also ends the effect immediately.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is either @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4}, @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 4}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, or @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 4}, depending on the punishment you chose. On a successful Will save, the condition value is 2, and the target is unaffected on a critical success.</p>\n<p><strong>Success</strong> The target is either @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, or @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2}, depending on the punishment you chose. On a successful Will save, the condition value is 1, and the target is unaffected on a critical success.</p>\n<p><strong>Failure</strong> The portrait doesn't change, and the ritual has no effect on the target.</p>\n<p><strong>Critical Failure</strong> The portrait turns into a sickening mimicry of your form and the forms of the secondary casters, and the blood of your target extracts itself from the canvas, dripping down and drying immediately to prevent you from reattempting the ritual. Over the course of the next 1d6 hours, you and the secondary casters experience the curse you had intended to place upon the target with the effects of a critical success.</p>",
       "primarycheck": "Occultism or Religion (master)",
       "secondarycheck": "Crafting, Occultism or Religion (whichever isn't used for the primary check)",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Portrait of the Artist": {
       "name": "Portrait of the Artist",
@@ -3773,7 +3783,7 @@
     },
     "Possession": {
       "name": "Possessão",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Power Word Blind": {
       "name": "Palavra de Poder: Cegar",
@@ -3796,7 +3806,7 @@
     },
     "Practice Makes Perfect": {
       "name": "A Prática Leva à Perfeição",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Precious Metals": {
       "name": "Metais Preciosos",
@@ -3805,7 +3815,8 @@
     },
     "Prestidigitation": {
       "name": "Prestidigitação",
-      "target": "1 object (cook, lift, or tidy only)"
+      "description": "<p>Uma magia simples que atende aos seus desejos. Você pode realizar efeitos mágicos simples enquanto Sustentá-la. Sempre que Sustentar esta Magia, você pode escolher dentre quatro opções.</p>\n<ul>\n<li><strong>Cozinhar</strong> Esfriar, esquentar ou temperar meio quilo de matéria não viva.</li>\n<li><strong>Criar</strong> Cria um objeto temporário de Volume insignificante, feito de substância mágica solidificada. Ele parece imperfeito e artificial, e é extremamente frágil — não pode ser utilizado como uma arma, componente de magia, ferramenta ou locus.</li>\n<li><strong>Erguer</strong> Lentamente erguer um objeto desapossado de Volume leve ou menor a até 30 centímetros do chão.</li>\n<li><strong>Tingir</strong> Colorir, limpar ou sujar um objeto de Volume leve ou menor. Você pode afetar um objeto de Volume 1 com 10 rodadas de concentração, e um objeto maior com 1 minuto por Volume.</li>\n</ul>\n<p><em>Prestidigitação</em> não pode causar dano ou condições adversas. Qualquer mudança real em um objeto (além do que foi mencionado acima) persiste apenas enquanto você Sustentar esta Magia.</p>",
+      "target": "1 objeto (cozinhar, tingir ou erguer apenas)"
     },
     "Primal Call": {
       "name": "Chamado Primal",
@@ -3865,7 +3876,7 @@
       "target": "1 criatura"
     },
     "Propulsive Breeze": {
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Protect Companion": {
       "name": "Protect Companion",
@@ -4028,7 +4039,7 @@
     "Read Aura": {
       "name": "Ler Aura",
       "description": "<p>Você focaliza o objeto alvo, abrindo sua mente para perceber auras mágicas. Quando a conjuração é completada, você sabe se esse item é mágico e, se for, qual a escola de magia dele (página 297 e 298).</p><p>Se o objeto for ilusório, você o detecta somente se o nível do efeito for menor que o nível de sua magia ler aura.</p><hr /><p><strong>Elevada (3º)</strong>&nbsp;Você pode afetar até 10 objetos. <strong>Elevada (6º)</strong>&nbsp;Você pode afetar qualquer quantidade de objetos.</p>",
-      "target": "1 object"
+      "target": "1 objeto"
     },
     "Read Fate": {
       "name": "Ler Destino",
@@ -4054,7 +4065,7 @@
       "description": "<p>Você salva criaturas das garras da morte. Você pode gastar de 1 a 3 ações Conjurando esta Magia, afetando uma quantidade de criaturas igual à quantidade de ações gastas. Cada alvo recupera 3d6 Pontos de Vida. Se o alvo tinha a condição @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{morrendo}, voltar de @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{morrendo} devido a esta cura não aumenta a condição @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{ferido} dele.</p><hr /><p><strong>Elevada (+1)</strong> Aumente a cura em 1d6.</p>",
       "spellVariants": {
         "vh52k2mfn7q0wuhc": {
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         }
       },
       "target": "1 living creature per action spent to cast this spell"
@@ -4085,7 +4096,7 @@
       "description": "<p> Você cresce um conjunto de escamas brilhantes coloridas ou cota de escamas que armazenam energia antes de liberá-la em uma explosão final. Ao lançar essa magia, escolha ácido, frio, fogo, eletricidade ou dano de veneno. Você ganha resistência 5 contra esse tipo de dano. A cor das escamas depende do tipo de dano que você escolheu e geralmente é a cor de um tipo de dragão ou outra criatura associada a esse tipo de dano, como vermelho ou dourado para dano de fogo.   As escamas armazenam energia à medida que o protegem. Acompanhe quanto dano as escamas impediram. Como uma atividade de duas ações que tem os traços <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Traits.aspx?ID=32\">concentração</a> e <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Traits.aspx?ID=104\">manipulação</a>, você pode explodir suas escamas para fora em um raio de 6 metros ao seu redor, causando 1d6 de dano do tipo escolhido a todas as criaturas da área a cada 10 danos que as escamas impediram, com um máximo de 10d6 de dano (após evitar 100 danos). Depois de fazer isso, a magia termina. </p><hr /><p><strong>Elevada (+2)</strong> A resistência aumenta em 5 e o dano máximo da explosão da balança aumenta em 5d6.&nbsp;</p> (Tradução não oficial - Gods and Magic)"
     },
     "Regale the Lost Ones": {
-      "primarycheck": "Performance (expert)"
+      "primarycheck": "Performance (especialista)"
     },
     "Regenerate": {
       "name": "Regeneração",
@@ -4169,7 +4180,7 @@
     "Retributive Pain": {
       "name": "Dor Retributiva",
       "description": "<p><strong>Gatilho</strong> Uma criatura na distância causa dano a você.</p><hr /><p>Você vingativamente reflete sua dor sobre seu atormentador. O alvo sofre dano mental igual à metade do dano que ele causou em você quando acionou esta magia.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Retrocognition": {
       "name": "Retrocognição",
@@ -4187,7 +4198,7 @@
     "Return the Favor": {
       "name": "Return the Favor",
       "description": "<p><strong>Trigger</strong> An ally uses a reaction to grant you a beneficial effect during a combat encounter.</p>\n<p>You're unable to leave any debts unpaid. When an ally supports you in a fight, you offer assistance in turn for the favor. The triggering ally gains 12 temporary Hit Points for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The temporary Hit Points increase by 4.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.cSoL5aMy3PCzM4Yv]{Spell Effect: Return the Favor}</p>",
-      "target": "1 ally"
+      "target": "1 aliado"
     },
     "Reverse Gravity": {
       "name": "Inverter a Gravidade"
@@ -4214,7 +4225,7 @@
     "Rip the Spirit": {
       "name": "Rip the Spirit",
       "description": "<p>You supernaturally rip the spirit from a living creature's body, dooming the target to pain and death. The target takes 5d6 negative damage, depending on its basic Fortitude save, and is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} if it fails its save. The spell's effect is based on how many actions you spend when Casting the Spell.</p>\n<p><span class=\"pf2-icon\">1  <strong>(somatic)</strong> The spell targets one living creature in range.</p>\n<p><span class=\"pf2-icon\">2  <strong>(somatic, verbal)</strong> The spell targets one living creature in range and the damage is [[/r 10d6[negative]]] damage instead of 5d6.</p>\n<p><span class=\"pf2-icon\">3  <strong>(material, somatic, verbal)</strong> The spell targets all living creatures in a 30-foot emanation.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of damage increases by 1d6, or by [[/r 2d6]] for the 2-action version.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Rising Surf": {
       "name": "Rising Surf",
@@ -4305,8 +4316,8 @@
       "name": "Scatter Scree"
     },
     "Schadenfreude": {
-      "name": "Schadenfreude",
-      "target": "the triggering foe"
+      "description": "<p><strong>Gatilho</strong> Você falha criticamente em um salvamento contra o efeito de um adversário.</p>\n<hr />\n<p>Você distrai seu inimigo com o prazer que ele sente ao ver sua falha catastrófica. Ele precisa fazer um salvamento de Vontade.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura fica distraída pelo próprio divertimento e sofre –1 de penalidade de estado em testes de Percepção e de Vontade por 1 rodada. @UUID[Compendium.pf2e.spell-effects.Item.TjGHxli0edXI6rAg]{Efeito de Magia: Schadenfreude (Successo)}</p>\n<p><strong>Falha</strong> A criatura é dominada pelo próprio divertimento e fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefata 1} por 1 rodada.</p>\n<p><strong>Falha crítica</strong> A criatura se perde no próprio divertimento e fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefata 2} por 1 rodada e @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1}.</p>",
+      "target": "o adversário acionador"
     },
     "Scholarly Recollection": {
       "name": "Recordação Acadêmica",
@@ -4325,7 +4336,7 @@
       "description": "<p> Você explode a área com areia que arrasta o solo e entra nos olhos das criaturas. Durante a duração da magia, qualquer terreno difícil baseado em planta menor que uma árvore fica solto, permitindo que cada metro quadrado de um metro e meio seja limpo com uma única ação de Interagir. além do que, além do mais, <em>esfregar na areia</em> tenta neutralizar <a style=\"text-decoration: underline;\" href=\"https://2e.aonprd.com/Spells.aspx?ID=103\"><em>emanharar</em></a> e outros efeitos que criam ou manipulam terrenos baseados em plantas em sua área. A neutralização bem-sucedida de um efeito remove apenas a parte de sua área que se sobrepõe à área de <em>esfregar com areia</em>. Após uma dessas tentativas, o efeito é temporariamente imune a neutralização de <em>esfregar com areia</em> por 24 horas. Cada criatura na área quando você conjura esta magia ou que termina seu turno na área deve fazer um teste de salvamento de Reflexo.  </p><p> <strong>Sucesso</strong> A criatura não é afetada. <strong>Falha</strong> A criatura fica @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{ofuscada} por 1 minuto ou até que ele use uma ação de Interagir para tirar a areia dos olhos. <strong>Falha Crítica</strong> Como fracasso, mas a criatura também é @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{cega} para sua próxima ação. </p><hr /><p><strong>Elevada (3º)</strong> Uma vez por rodada quando você <a href=\"https://2e.aonprd.com/Actions.aspx?ID=73\">Sustentar a magia</a>, você pode mover o centro da explosão para um local dentro do alcance. <strong>Elevada (6º)</strong> Como a versão de 3º nível, exceto o alcance de 36 metros e a área é uma explosão de 6 metros.</p> (Tradução não oficial - Extinction Curse)"
     },
     "Scramble Body": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Scrounger's Glee": {
       "target": "1 criatura"
@@ -4350,7 +4361,7 @@
     },
     "Seal Fate": {
       "name": "Seal Fate",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Seashell of Stolen Sound": {
       "name": "Seashell of Stolen Sound",
@@ -4396,7 +4407,7 @@
     "Shadow Double": {
       "primarycheck": "Arcana or Occultism (master, the check has the secret trait)",
       "secondarycheck": "Arcana, Nature, Occultism, Religion, or Society (whichever is required to Recall Knowledge about the creature being duplicated); Crafting; Deception",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Shadow Illusion": {
       "name": "Shadow Illusion",
@@ -4497,7 +4508,7 @@
       "target": "1 criatura"
     },
     "Sheltering Wings": {
-      "target": "1 ally"
+      "target": "1 aliado"
     },
     "Shepherd of Souls": {
       "name": "Shepherd of Souls",
@@ -4506,7 +4517,7 @@
     },
     "Shield": {
       "name": "Escudo Místico",
-      "description": "<p>Você ergue um escudo de força mágica. Isto conta como usar a ação Erguer um Escudo, concedendo-lhe +1 de bônus de circunstância na CA até o início de seu próximo turno, mas ele não requer uma mão para ser usado.</p><p>Enquanto esta magia estiver em efeito, você pode usar a reação Bloqueio com Escudo usando seu escudo mágico. O escudo possui Dureza 5. Após usar Bloqueio com Escudo, a magia é encerrada e você não pode conjurá-la novamente por 10 minutos. Ao contrário de um Bloqueio com Escudo normal, você pode usar a reação desta magia contra a magia mísseis mágicos.</p><p>Elevar a magia aumenta a Dureza do escudo.</p>\n<p>@Compendium[pf2e.spell-effects.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O escudo tem Dureza 10.</p><p><strong>Elevada (5º)</strong> O escudo tem Dureza 15.</p><p><strong>Elevada (7º)</strong> O escudo tem Dureza 20.</p><p><strong>Elevada (9º)</strong> O escudo tem Dureza 25.</p>"
+      "description": "<p>Você ergue um escudo de força mágica. Isso conta como usar a ação Erguer Escudo, concedendo-lhe +1 de bônus de circunstância na CA até o início de seu próximo turno, mas ele não requer nenhuma mão para ser usado.</p>\n<p>Enquanto esta magia estiver em vigor, você pode usar a reação @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Bloqueio com Escudo} usando seu escudo mágico. O escudo tem Dureza 5. Você pode usar a reação desta magia para reduzir o dano de qualquer magia ou efeito mágico, até mesmo os que não causam dano físico. Após usar Bloqueio com Escudo, esta magia se encerra e você não pode conjurá-la novamente por 10 minutos.</p>\n<p>@Compendium[pf2e.spell-effects.Jemq5UknGdMO7b73]{Efeito de Magia: Escudo Místico}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Efeito: Imunidade a Escudo Místico}</p>\n<hr />\n<p><strong>Elevada (+2)</strong> A Dureza do escudo aumenta em 5.</p>"
     },
     "Shielded Arm": {
       "target": "1 criatura voluntária"
@@ -4597,7 +4608,8 @@
       "target": "1 ou 2 criaturas"
     },
     "Sleep": {
-      "name": "Sono"
+      "name": "Sono",
+      "description": "<p>Todas as criaturas que estiverem na área ficam sonolentas e podem cair no sono. Quem ficar @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} devido a esta magia não cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} nem solta o que estiver segurando. Esta magia não impede criaturas de acordarem devido a um teste bem-sucedido de Percepção, limitando a utilidade dela em combate.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura sofre –1 de penalidade de estado em testes de Percepção por 1 rodada.</p>\n<p><strong>Falha</strong> A criatura cai inconsciente. Se ela ainda estiver inconsciente após 1 minuto, acordará automaticamente.</p>\n<p><strong>Falha crítica</strong> A criatura cai inconsciente. Se ela ainda estiver inconsciente após 1 hora, acordará automaticamente.</p>\n<hr />\n<p><strong>Elevada (4º)</strong> As criaturas ficam inconscientes por 1 rodada em caso de falha e 1 minuto em caso de falha crítica. Elas caem prostradas e soltam o que estiverem segurando, além de não poderem fazer testes de Percepção para acordar. Quando esta magia se encerrar, a criatura seguirá dormindo, em vez de acordar automaticamente.</p>"
     },
     "Slime Spit": {
       "target": "1 criatura"
@@ -4657,6 +4669,7 @@
     },
     "Soothe": {
       "name": "Abrandar",
+      "description": "<p>Você agracia a mente do alvo, incrementando as defesas mentais e curando os ferimentos dele. O alvo recupera 1d10+4 PVs no momento da conjuração e recebe +2 de bônus de estado em testes de salvamento contra efeitos mentais enquanto esta magia durar.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]{Efeito de Magia: Abrandar}</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A cura aumenta em 1d10+4.</p>",
       "target": "1 criatura voluntária"
     },
     "Soothing Ballad": {
@@ -4680,12 +4693,12 @@
     "Soothing Words": {
       "name": "Palavras Tranquilizantes",
       "description": "<p>Você tenta acalmar o alvo proferindo palavras tranquilizantes em um tom calmo e constante. O alvo recebe +1 de bônus de estado em jogadas de salvamento de Vontade. Este bônus aumenta para +2 contra efeitos de emoção.</p>\n<p>@Compendium[pf2e.spell-effects.an4yZ6dyIDOFa1wa]{Spell Effect: Soothing Words}</p>\n<p>Além disso, quando Conjurar esta Magia, você pode tentar neutralizar um efeito de emoção no alvo.</p>\n<hr />\n<p><strong>Elevada (5º)</strong> O bônus em salvamentos aumenta para +2, ou para +3 contra efeitos de emoção.</p>",
-      "target": "1 ally"
+      "target": "1 aliado"
     },
     "Soul Siphon": {
       "name": "Soul Siphon",
       "description": "<p>You siphon off a portion of the target's soul to bolster your own vitality. The target must attempt a Fortitude save or take 1d4 negative damage. You gain temporary Hit Points equal to the total amount of HP the target loses, including the HP lost from becoming @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained}.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Soulshelter Vessel": {
       "name": "Soulshelter Vessel",
@@ -4794,7 +4807,7 @@
       "description": "<p> Um guardião Médio feito de força mágica aparece e ataca adversários que você designar na distância. O guardião espiritual é translúcido e parece estar segurando a arma favorita de sua divindade.  </p><p> Quando você Conjurar a Magia, o guardião espiritual aparece em um espaço desocupado próximo a um adversário escolhido na distância desta magia e desfere um Golpe contra ele. Cada vez que Sustentar a Magia, você pode mover o guardião espiritual para um espaço desocupado próximo a um alvo na distância da magia (se necessário) e desferir um Golpe com ele. O guardião sofre e contribui para sua penalidade por ataques múltiplos. Alternativamente, quando Sustentar a Magia, você pode fazer o guardião se mover adjacente a um aliado e protegê-lo. Se fizer isso, cada vez que o aliado sofreria dano, o guardião sofre os primeiros 10 pontos de dano em vez de seu aliado. Ele continua a fazê-lo até você mover o guardião para atacar um inimigo ou defender um aliado diferente, ou até o guardião ser destruído (ele possui 50 pontos de Vida e não pode recuperar Pontos de Vida por quaisquer meios). O guardião normalmente não pode sofrer dano exceto ao proteger um aliado, embora <em>desintregar</em> automaticamente o destrua se acertar a CA 25 do guardião espiritual.  </p><p> Os Golpes do guardião são ataques de magia corpo a corpo. Independentemente da aparência da arma do guardião, ele causa dano de força igual a 2d8 mais o modificador de seu atributo de conjuração, mas você pode causar dano do tipo normalmente causado pela arma que ele porta em vez de dano de força (ou qualquer tipo de dano disponível para uma arma versátil). Nenhum outro traço ou estatística da arma se aplica, e mesmo um ataque com uma arma à distância ataca somente criaturas adjacentes. Apesar de realizar um ataque de magia, a arma do guardião espiritual é considerada uma arma para os propósitos de acionamentos, resistências e outras regras similares.  </p><p> O guardião ocupa um espaço e aliados podem considerá-lo quando flanquearem, mas ele não possui quaisquer outras características que uma criatura normalmente teria além de Pontos de Vida, e outras criaturas podem mover-se através do espaço dele sem impedimento. O guardião não pode realizar qualquer ataque além do Golpe dele, e talentos ou magias que afetem armas ou reforcem aliados não se aplicam a ele. </p><hr /><p><strong>Elevada (+2)</strong> O dano do guardião aumenta em 1d8 e os Pontos de Vida dele aumentam em 20.</p>"
     },
     "Spiritual Renewal": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Spiritual Weapon": {
       "name": "Arma Espiritual",
@@ -4805,7 +4818,7 @@
     },
     "Split Shadow": {
       "primarycheck": "Arcana or Occultism (master, the check has the secret trait)",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Split the Tongue": {
       "name": "Split the Tongue",
@@ -5207,6 +5220,16 @@
       "description": "<p>You grasp a piece of the landscape-such as a tree, carriage, or piece of masonry-and lob it in your foe's direction. Your missile crashes down in either a 10-foot burst (for most missiles) or a 30-foot line (for something long and tall, like a tree or a ship's mast), dealing 14d6 bludgeoning damage and turning its area into difficult terrain as it breaks into rubble. All creatures in the area must attempt a Reflex save. If the area is a line, it doesn't have to start from your square but can instead start anywhere in range, as long as the entire area remains within range.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is knocked prone, and is @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
     },
     "Telekinetic Hand": {
+      "name": "Mão Telecinética",
+      "description": "<p>Você cria uma mão mágica flutuante, invisível ou fantasmagórica, que agarra o objeto alvo e o levita lentamente até 6 metros em qualquer direção. Ao Sustentar esta Magia, você pode mover o objeto em mais 6 metros. Se o objeto estiver no ar quando esta magia se encerrar, ele cairá.</p>\n<hr />\n<p><strong>Elevada (3º)</strong> Você pode visar um objeto desapossado com Volume 1 ou menos.</p>\n<p><strong>Elevada (5º)</strong> A distância aumenta para 18 metros e você pode visar um objeto desapossado com Volume 1 ou menos.</p>\n<p><strong>Elevada (7º)</strong> A distância aumenta para 18 metros e você pode visar um objeto desapossado com Volume 2 ou menos.</p>",
+      "heightening": {
+        "3": {
+          "target": "1 objeto desapossado de Volume 1 ou menos"
+        },
+        "7": {
+          "target": "1 objeto desapossado de Volume 2 ou menos"
+        }
+      },
       "target": "1 unattended object of light Bulk or less"
     },
     "Telekinetic Haul": {
@@ -5221,7 +5244,18 @@
     },
     "Telekinetic Projectile": {
       "name": "Projétil Telecinético",
-      "description": "<p>Você lança um objeto desapossado solto que esteja dentro da distância e possua Volume 1 ou menor no alvo. Faça um ataque de magia à distância contra o alvo. Se acertar, você causa dano contundente, cortante ou perfurante — conforme apropriado para o objeto arremessado — igual a 1d6 mais o modificador de seu atributo de conjuração. Nenhum traço específico ou propriedade mágica do item arremessado afeta o ataque ou o dano causado.</p><p><hr /><strong>Sucesso Crítico</strong>  Você causa o dobro do dano.</p><p><strong>Sucesso</strong>  Você causa o dano inteiro.</p><p><hr /><strong>Elevada (+1)</strong>  O dano aumenta em 1d6.</p>",
+      "description": "<p>Você arremessa contra o alvo um objeto solto e desapossado que esteja dentro da distância e tenha Volume 1 ou menor. Faça um teste de ataque com magia contra a CA do alvo. Se acertar, você causa 2d6 de contundente, cortante ou perfurante — conforme apropriado para o objeto. Nenhum traço ou propriedade mágica específica do item arremessado afeta o ataque ou o dano.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> Você causa o dobro do dano.</p>\n<p><strong>Sucesso</strong> Você causa o dano inteiro.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
+      "spellVariants": {
+        "2I469pfbYcmFvzOA": {
+          "name": "Projétil Telecinético (Contundente)"
+        },
+        "cUFX7ExSLeoa3vIF": {
+          "name": "Projétil Telecinético (Perfurante)"
+        },
+        "zFWsMjoeCnLxqJaV": {
+          "name": "Projétil Telecinético (Cortante)"
+        }
+      },
       "target": "1 criatura"
     },
     "Telekinetic Rend": {
@@ -5297,7 +5331,7 @@
     "Tempt Fate": {
       "name": "Tentar a Sorte",
       "description": "<p><strong>Gatilho</strong> Você ou um aliado na distância tenta uma jogada de salvamento.</p>\n <hr />\n<p>Você distorce as forças do destino para tornar um momento calmo ou desastroso, sem meio termo.</p>\n<p> O alvo recebe +1 de bônus de estado na jogada de salvamento acionadora. Se o resultado da jogada de salvamento for um sucesso, trate-o como um sucesso crítico. Se for uma falha, trate-o como uma falha crítica, e essa falha crítica não pode ser reduzida por habilidades que normalmente reduzem falhas críticas, como evasão aprimorada. Se a habilidade acionadora não tiver possibilidade de sucesso crítico ou falha crítica, tentar a sorte falha, mas você não gasta o Ponto de Foco por Conjurar esta Magia.</p>\n<p>@Compendium[pf2e.spell-effects.AJkRUIdYLnt4QOOg]{Spell Effect: Tempt Fate}</p>\n<hr />\n<p><strong>Elevada (8º)</strong> O bônus na jogada de salvamento é +2.</p>",
-      "target": "the triggering creature"
+      "target": "a criatura acionadora"
     },
     "Tentacular Limbs": {
       "name": "Membros Tentaculares",
@@ -5411,17 +5445,17 @@
       "target": "1 foe, and either yourself or 1 ally"
     },
     "Torturous Trauma": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Touch of Obedience": {
       "name": "Toque de Obediência",
       "description": "<p>Seu toque imperioso erode a força de vontade do alvo, tornando-o mais fácil de controlar. O alvo tenta um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 até o final de seu turno atual.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 até o final de seu próximo turno.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 minuto.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Touch of Undeath": {
       "name": "Toque da Não-Morte",
       "description": "<p>Você ataca a força vital do alvo com não-morte, causando 1d6 de dano negativo. O alvo deve tentar um salvamento de Fortitude.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo sofre metade do dano.</p><p><strong>Falha</strong>  O alvo sofre o dano inteiro e efeitos positivos o curam somente metade do normal por 1 rodada.</p><p><strong>Falha Crítica</strong>  O alvo sofre o dobro do dano e efeitos positivos o curam somente metade do normal por 1 minuto.</p><p><hr /><strong>Elevada (+1)</strong>  O dano aumenta em 1d6.</p>",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Touch of the Moon": {
       "name": "Toque da Lua",
@@ -5486,7 +5520,7 @@
       "target": "1 criatura"
     },
     "Ulcerous Canker": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Umbral Extraction": {
       "name": "Umbral Extraction",
@@ -5532,7 +5566,7 @@
     },
     "Undertaker": {
       "name": "Undertaker",
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Unexpected Transposition": {
       "name": "Unexpected Transposition",
@@ -5625,14 +5659,14 @@
     },
     "Uplifting Overture": {
       "name": "Abertura Inspiradora",
-      "target": "1 ally"
+      "target": "1 aliado"
     },
     "Vampiric Exsanguination": {
       "name": "Exsanguinação Vampírica",
       "description": "<p>Você drena o sangue e força vital de outras criaturas através de seus braços estendidos. Você causa 12d6 de dano negativo a criaturas vivas na área. Você recebe Pontos de Vida temporários igual à metade do dano que uma única criatura sofrer desta magia; calcule estes Pontos de Vida temporários utilizando a criatura que sofreu a maior quantidade de dano. Você perde quaisquer Pontos de Vida temporários após 1 minuto.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
     },
     "Vampiric Feast": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Vampiric Maiden": {
       "name": "Vampiric Maiden",
@@ -5706,7 +5740,7 @@
       "target": "1 criatura"
     },
     "Vision of Death": {
-      "target": "1 living creature"
+      "target": "1 criatura viva"
     },
     "Vision of Weakness": {
       "name": "Vision of Weakness",
@@ -5725,8 +5759,15 @@
       "primarycheck": "Occultism or Religion (legendary)",
       "secondarycheck": "Fortitude, Society, Will"
     },
+    "Vitality Lash": {
+      "name": "Açoite de Vitalidade",
+      "description": "<p>Você destrói a essência corrompida do alvo com a energia da Forja da Criação. O alvo sofre 2d6 de dano vital, com direito a um salvamento básico de Fortitude. Se a criatura obtiver uma falha crítica, ela também fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecida 1} até o início do seu próximo turno.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
+      "target": "1 criatura morta-viva ou que tem cura eversiva"
+    },
     "Void Warp": {
-      "target": "1 living creature"
+      "name": "Distorção do Vazio",
+      "description": "<p>Você invoca o Vazio para prejudicar a força vital. O alvo sofre 2d4 de dano eversivo, com direito a um salvamento básico de Fortitude. Em caso de falha crítica, ele também fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]Enfraquecido 1} até o início do seu próximo turno</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+      "target": "1 criatura viva"
     },
     "Volcanic Eruption": {
       "name": "Erupção Vulcânica",

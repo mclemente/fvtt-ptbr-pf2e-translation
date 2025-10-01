@@ -233,7 +233,8 @@
       "name": "Adiar"
     },
     "Demoralize": {
-      "name": "Desmoralizar"
+      "name": "Desmoralizar",
+      "description": "<p>Com um grito repentino, uma provocação na hora certa ou um insulto contundente, você abala a determinação do inimigo. Escolha uma criatura a até 9 metros da qual você está ciente e faça um teste de [[/act demoralize]]{Intimidação} contra a CD de Vontade dela. Se o alvo não puder compreender o idioma que você está falando, ou se não estiver falando idioma algum, você sofre –4 de penalidade de circunstância no teste. Independente do resultado, o alvo fica temporariamente imune às suas tentativas de Desmoralizá-lo por 10 minutos.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 2}.</p>\n<p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}.</p>"
     },
     "Destructive Vengeance": {
       "name": "Vingança Destrutiva"
@@ -677,7 +678,8 @@
       "name": "Ferocidade Desenfreada"
     },
     "Reactive Strike": {
-      "description": "<p><strong>Gatilho</strong> Uma criatura em seu alcance usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p>Você ataca um adversário que baixa a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Este Golpe não conta para sua penalidade por ataques múltiplos e sua penalidade por ataques múltiplos não se aplica a ele.</p>"
+      "name": "Golpe Reativo",
+      "description": "<p><strong>Gatilho</strong> Uma criatura ao seu alcance usa uma ação de manuseio ou de movimento, faz um ataque à distância, ou sai de um quadrado durante uma ação de movimento que está usando.</p>\n<hr />\n<p>Você ataca um adversário que abriu a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se o seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Esse Golpe não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a esse Golpe.</p>"
     },
     "Ready": {
       "name": "Preparar",
@@ -814,7 +816,8 @@
       "name": "Compartilhar Sentidos"
     },
     "Shove": {
-      "name": "Empurrar"
+      "name": "Empurrar",
+      "description": "<p><strong>Requerimentos</strong> Você tem pelo menos uma mão livre. Seu alvo não pode ser mais de um tamanho maior que você.</p>\n<hr />\n<p>Você empurra uma criatura para longe de você. Faça um teste de [[/act shove]]{Atletismo} contra a CD de Fortitude do alvo.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> Você empurra o alvo até 3 metros para longe de você. Você pode Andar atrás dele, mas precisa se mover a mesma distância e na mesma direção que ele.</p>\n<p><strong>Sucesso</strong> Você empurra o alvo 1,5 metro para longe de você. Você pode Andar atrás dele, mas precisa se mover a mesma distância e na mesma direção que ele.</p>\n<p><strong>Falha crítica</strong> Você perde o equilíbrio e cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}.</p>"
     },
     "Siegebreaker": {
       "name": "Siegebreaker (Guns & Gears)"
@@ -953,7 +956,8 @@
       "name": "Tratar Ferimentos"
     },
     "Trip": {
-      "name": "Derrubar"
+      "name": "Derrubar",
+      "description": "<p><strong>Requerimentos</strong> Você tem pelo menos uma mão livre. O alvo precisa ser no máximo um tamanho maior que você.</p>\n<hr />\n<p>Você tenta derrubar o alvo ao chão. Faça um teste de [[/act trip]]{Atletismo} contra a CD de Reflexos do alvo.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} e sofre 1d6 de dano contundente.</p>\n<p><strong>Sucesso</strong> O alvo cai prostrado.</p>\n<p><strong>Falha crítica</strong> Você perde o equilíbrio e cai prostrado.</p>"
     },
     "Tumble Through": {
       "name": "Atravessar Acrobaticamente"
