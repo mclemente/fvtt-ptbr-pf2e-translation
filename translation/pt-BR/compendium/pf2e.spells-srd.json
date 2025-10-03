@@ -666,7 +666,7 @@
     },
     "Cackle": {
       "name": "Cacarejo",
-      "description": "<p>With a quick burst of laughter, you prolong a magical effect you created. You @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell} as a free action.</p>"
+      "description": "<p>Com um rápido rompante de gargalhadas, você prolonga um efeito mágico que criou. Você Sustenta uma magia.</p>"
     },
     "Call Spirit": {
       "name": "Chamar Espírito",
@@ -3001,7 +3001,7 @@
     },
     "Light": {
       "name": "Luz",
-      "description": "<p> O objeto brilha, emanando luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) como uma tocha. Se você conjurar esta magia em um segundo objeto, a magia luz no primeiro objeto é encerrada.</p>\n<p>@Compendium[pf2e.spell-effects.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Elevada (4°)</strong> O objeto emana luz brilhante em um raio de 18 metros (e luz fraca nos próximos 18 metros).</p>"
+      "description": "<p> O objeto brilha, emanando luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) como uma tocha. Se você conjurar esta magia em um segundo objeto, a magia luz no primeiro objeto é encerrada.</p>\n<p>@Compendium[pf2e.spell-effects.cVVZXNbV0nElVOPZ]{Efeito de Magia: Luz}</p>\n<hr />\n<p><strong>Elevada (4°)</strong> O objeto emana luz brilhante em um raio de 18 metros (e luz fraca nos próximos 18 metros).</p>"
     },
     "Light of Revelation": {
       "name": "Luz da Revelação",
@@ -3603,6 +3603,10 @@
     "Path of Least Resistance": {
       "name": "Path of Least Resistance",
       "description": "<p>You trace several possible routes, quickly resetting the timeline until you find the safest one. Choose three spaces you could reach with two Stride actions. Each must be at least 20 feet from the other two. You Stride twice to one of the spaces, determined randomly by the GM from among the paths you chose. If some of the paths contain a hidden danger, such as a trap that you would trigger by walking into the trap's affected area, the GM doesn't consider this path when randomly determining which one you take, but if all options have a hidden danger, the GM randomly chooses between all three paths. This movement doesn't trigger reactions.</p>"
+    },
+    "Patron's Puppet": {
+      "name": "Fantoche do Patrono",
+      "description": "<p><strong>Acionamento</strong> Seu turno começou.</p>\n<hr />\n<p>A seu pedido não proferido, seu patrono assume temporariamente o controle do seu familiar. Você Comanda seu familiar, permitindo que ele faça as ações normais dele neste turno. O Comando não tem os traços auditivo e concentração; seu patrono move o agente dele diretamente.</p>"
     },
     "Peaceful Rest": {
       "target": "1 corpse"
@@ -4278,7 +4282,8 @@
     },
     "Runic Weapon": {
       "name": "Arma Rúnica",
-      "description": "<p>A arma brilha com magia enquanto runas temporárias surgem nela. O alvo torna-se uma arma <em>+1 impactante</em>, recebendo +1 de bônus de item nos testes de ataque e aumentando a quantidade de dados de dano para dois.</p>\n<hr />\n<p><strong>Elevada (6°)</strong> A arma é <em>+2 impactante maior</em>.</p>\n<p><strong>Elevada (9°)</strong> A arma é <em>+3 impactante superior</em>.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GnWkI3T3LYRlm3X8]{Efeito de Magia: Arma Rúnica}</p>"
+      "description": "<p>A arma brilha com magia enquanto runas temporárias surgem nela. O alvo torna-se uma arma <em>+1 impactante</em>, recebendo +1 de bônus de item nos testes de ataque e aumentando a quantidade de dados de dano para dois.</p>\n<hr />\n<p><strong>Elevada (6°)</strong> A arma é <em>+2 impactante maior</em>.</p>\n<p><strong>Elevada (9°)</strong> A arma é <em>+3 impactante superior</em>.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.GnWkI3T3LYRlm3X8]{Efeito de Magia: Arma Rúnica}</p>",
+      "target": "1 arma desapossada ou empunhada por uma criatura voluntária"
     },
     "Rusting Grasp": {
       "name": "Rusting Grasp",
@@ -5766,7 +5771,7 @@
     },
     "Void Warp": {
       "name": "Distorção do Vazio",
-      "description": "<p>Você invoca o Vazio para prejudicar a força vital. O alvo sofre 2d4 de dano eversivo, com direito a um salvamento básico de Fortitude. Em caso de falha crítica, ele também fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]Enfraquecido 1} até o início do seu próximo turno</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+      "description": "<p>Você invoca o Vazio para prejudicar a força vital. O alvo sofre 2d4 de dano eversivo, com direito a um salvamento básico de Fortitude. Em caso de falha crítica, ele também fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 1} até o início do seu próximo turno</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
       "target": "1 criatura viva"
     },
     "Volcanic Eruption": {
