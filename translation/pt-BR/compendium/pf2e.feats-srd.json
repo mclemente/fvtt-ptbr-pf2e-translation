@@ -1561,7 +1561,7 @@
     },
     "Battle Prayer": {
       "name": "Prece de Batalha",
-      "description": "<p> <strong>Pré-requisitos</strong> mestre em Religião, você segue uma divindade </span></p> <hr> <p>Chamando a sua divindade, você recita as escrituras para prejudicar um inimigo. Quando você selecionar esse talento, escolha <a href=\"https://2e.aonprd.com/Traits.aspx?ID=25\">caos</a>, <a href=\"https://2e.aonprd.com/Traits.aspx?ID=64\">maligno</a>, <a href=\"https://2e.aonprd.com/Traits.aspx?ID=83\">bondoso</a>, ou <a href=\"https://2e.aonprd.com/Traits.aspx?ID=99\">leal</a>. Sua escolha deve corresponder a um dos componentes de alinhamento de sua divindade. Esta ação tem o traço correspondente ao alinhamento escolhido.  Faça um teste de <a href=\"https://2e.aonprd.com/Skills.aspx?ID=13\">Religião</a> contra a CD de vontade de um inimigo a 9 metros. O inimigo fica temporariamente imune às Preces de Batalha da sua divindade por 1 dia.  <strong>Sucesso Crítico</strong> Você causa 2d6 de dano do tipo de alinhamento escolhido ou 6d6 de dano se tiver proficiência lendária em Religião. <strong>Sucesso</strong> Você causa 1d6 de dano do tipo de alinhamento escolhido ou 3d6 se tiver proficiência lendária em Religião. <strong>Falha</strong> Não tem efeito. <strong>Falha Crítica</strong> A reação da vontade de seu inimigo contra sua prece impede que você use a Prece de Batalha novamente por 10 minutos.</p> (Tradução não oficial - Gods and Magic)"
+      "description": "<p>Chamando sua divindade, você recita escrituras para ferir um adversário. Quando selecionar este talento, escolha bem, caos, mal ou ordem. Sua escolha deve condizer com um dos componentes de tendência de sua divindade. Esta ação possui o traço correspondente à tendência escolhida.</p>\n<p>Faça um teste de @Check[religion|defense:will] contra a CD de Vontade de um adversário a até 9 metros. O adversário então fica temporariamente imune a Orações de Batalha de sua divindade por 1 dia.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> Você causa @Damage[2d6] de dano do tipo de tendência escolhida, ou @Damage[6d6] de dano se possuir proficiência lendária em Religião.</p>\n<p><strong>Sucesso</strong> Você causa @Damage[1d6] de dano do tipo de tendência escolhida, ou @Damage[3d6] de dano se possuir proficiência lendária em Religião.</p>\n<p><strong>Falha</strong> O alvo não é afetado.</p>\n<p><strong>Falha crítica</strong> A reação da vontade de seu adversário contra sua oração lhe impede de usar Oração de Batalha novamente por 10 minutos.</p>"
     },
     "Battlefield Arcana": {
       "prerequisites": [
@@ -8158,12 +8158,20 @@
     },
     "Mortal Healing": {
       "name": "Cura Mortal",
-      "description": "<p> <strong>Pré-requisitos</strong> Cura Ateísta, você segue as Leis da Mortalidade </span></p> <hr> <p>Você concede uma cura maior quando os deuses não interferem. Quando você obtém sucesso em @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Tratar Ferimentos} para uma criatura que não recuperou pontos de vida através de magia divina nas últimas 24 horas, obtém um sucesso crítico no seu teste e restaura a quantidade correspondente de pontos de vida.</p> (Tradução não oficial - Lost Omens: Gods and Magic)",
+      "description": "<p>Você concede uma cura maior quando os deuses não interferem. Quando rolar um sucesso para @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Tratar Ferimentos} de uma criatura que não tenha recuperado Pontos de Vida por magia divina nas últimas 24 horas, trate o resultado como um sucesso crítico e restaure a quantidade correspondente de Pontos de Vida.</p>",
       "prerequisites": [
         {
           "value": "Cura Ateísta"
+        },
+        {
+          "value": "Você segue as Leis da Mortalidade"
         }
-      ]
+      ],
+      "rules": {
+        "0": {
+          "text": "Quando rolar um sucesso para @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Tratar Ferimentos} de uma criatura que não tenha recuperado Pontos de Vida por magia divina nas últimas 24 horas, trate o resultado como um sucesso crítico e restaure a quantidade correspondente de Pontos de Vida."
+        }
+      }
     },
     "Mortification": {
       "name": "Mortificação",
@@ -12223,7 +12231,12 @@
     },
     "Syncretism": {
       "name": "Sincretismo",
-      "description": "<p> <strong>Pré-requisitos</strong> você segue uma divindade </span></p> <hr> <p>Você chegou a ver a sobreposição entre os ensinamentos de duas divindades. Escolha uma segunda divindade. Você deve atender aos requisitos de alinhamento e está sujeito aos editos e anátemas. Se você é um clérigo enclausurado, selecione um dos domínios dessa divindade, obtendo os benefícios do talento <a href=\"https://2e.aonprd.com/Feats.aspx?ID=1172\">Iniciado no Domínio Expandido</a> com esse domínio. Se você é um capelão da guerra, ganha a arma favorita dessa divindade como segunda arma favorita, e ela ganha os benefícios de talentos e perícias que afetam a arma favorita de sua divindade, como @Compendium[pf2e.feats-srd.DfLkIIg2reyYW3a8]{Simplicidade Mortal}. Se você tem uma doutrina diferente de clérigo enclausurado ou capelão de guerra, aplique a opção que for mais apropriada para sua doutrina ou, a critério do mestre, adicione um benefício da segunda divindade mais intimamente ligada à sua doutrina.</p> (Tradução não oficial - Gods and Magic)"
+      "description": "<p>Você passou a ver a sobreposição entre os ensinamentos de duas divindades. Escolha uma segunda divindade. Você deve atender aos requerimentos de tendência dela e também está sujeito aos seus éditos e anátema. Se for um capelão da guerra, você recebe a arma favorecida dessa divindade como uma segunda arma favorecida, e ela recebe os benefícios de talentos e habilidades que você possua que afetem a arma favorecida de sua divindade, como @UUID[Compendium.pf2e.feats-srd.Item.DfLkIIg2reyYW3a8]{Simplicidade Mortal}. Se for um sacerdote enclausurado, selecione um dos domínios dessa divindade, recebendo os benefícios do talento Iniciado no Domínio Expandido com esse domínio. Se possuir uma doutrina diferente de capelão da guerra ou sacerdote enclausurado, selecione uma das opções acima que for mais apropriada para sua doutrina ou, a critério do Mestre, crie um benefício da segunda divindade mais diretamente relacionado à sua doutrina.</p>",
+      "prerequisites": [
+        {
+          "value": "você segue uma divindade"
+        }
+      ]
     },
     "Synergistic Spell": {
       "name": "Magia Sinérgica",
