@@ -1,6 +1,12 @@
 {
   "label": "Efeitos de Magias",
   "entries": {
+    "Aura: Bless": {
+      "name": "Aura: Benção",
+      "badges": [
+        "4,5m"
+      ]
+    },
     "Aura: Protective Wards": {
       "badges": {
         "3": "6 metros"
@@ -9,6 +15,15 @@
     "Effect: Guidance Immunity": {
       "name": "Efeito: Imunidade à Orientação",
       "description": "<p>Concedido quando alguém usa <em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{Orientação}</em> em você, tornando você imune ao efeito do feitiço durante sua duração.</p>"
+    },
+    "Effect: Shield Immunity": {
+      "name": "Efeito: Imunidade a Escudo Místico",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Escudo Místico}</p>\n<p>Após usar Bloqueio com Escudo, a magia se encerra e você não pode conjurá-la novamente por 10 minutos.</p>"
+    },
+    "Spell Effect: Benediction": {
+      "badges": [
+        "4,5m"
+      ]
     },
     "Spell Effect: Enlarge (Heightened 4th)": {
       "rules": {
@@ -29,6 +44,10 @@
     },
     "Spell Effect: Fortify Summoning": {
       "name": "Efeito de Magia: Fortificar Convocação"
+    },
+    "Spell Effect: Guidance": {
+      "name": "Efeito de Magia: Orientação",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Orientação}</p>\n<p>Você recebe +1 de bônus de estado a uma jogada de salvamento, rolagem de ataque, teste de Percepção ou teste de perícia que você realizar. Você escolhe em qual rolagem usar o bônus antes de rolar o dado.</p>"
     },
     "Spell Effect: Ill Omen": {
       "name": "Efeito de Magia: Mau Presságio",
@@ -69,6 +88,10 @@
         }
       }
     },
+    "Spell Effect: Light": {
+      "name": "Efeito de Magia: Luz",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Luz}</p>\n<p>Você anexa um orbe de luz a uma criatura voluntária, fazendo-o flutuar próximo à criatura conforme ela se move.</p>"
+    },
     "Spell Effect: Protection": {
       "rules": {
         "0": {
@@ -90,6 +113,10 @@
           "label": "Imposição de mãos"
         }
       }
+    },
+    "Spell Effect: Runic Weapon": {
+      "name": "Efeito de Magia: Arma Rúnica",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Arma Rúnica}</p>\n<p>A arma alvo torna-se uma arma <em>+1 impactante</em>, recebendo +1 de bônus de item nos testes de ataque e aumentando a quantidade de dados de dano para dois.</p>\n<hr />\n<p><strong>Elevada (6°)</strong> A arma é <em>+2 impactante maior</em>.</p>\n<p><strong>Elevada (9°)</strong> A arma é <em>+3 impactante superior</em>.</p>"
     },
     "Spell Effect: Shield": {
       "name": "Efeito de Magia: Escudo Místico",
