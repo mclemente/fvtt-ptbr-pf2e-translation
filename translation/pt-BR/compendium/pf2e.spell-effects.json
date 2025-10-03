@@ -1,6 +1,22 @@
 {
   "label": "Efeitos de Magias",
   "entries": {
+    "Aura: Bless": {
+      "name": "Aura: Benção",
+      "badges": [
+        "4,5m",
+        "7,5m",
+        "10,5m",
+        "13,5m",
+        "16,5m",
+        "19,5m",
+        "22,5m",
+        "25,5",
+        "28,5m",
+        "31,5m"
+      ],
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Benção}</p>\n<p>Você e seus aliados na área recebem +1 de bônus de estado em rolagens de ataque. Uma vez por rodada nos turnos subsequentes, você pode Sustentar esta magia para aumentar o raio da emanação em 3 metros.</p>"
+    },
     "Aura: Protective Wards": {
       "badges": {
         "3": "6 metros"
@@ -9,6 +25,28 @@
     "Effect: Guidance Immunity": {
       "name": "Efeito: Imunidade à Orientação",
       "description": "<p>Concedido quando alguém usa <em>@Compendium[pf2e.spells-srd.izcxFQFwf3woCnFs]{Orientação}</em> em você, tornando você imune ao efeito do feitiço durante sua duração.</p>"
+    },
+    "Effect: Shield Immunity": {
+      "name": "Efeito: Imunidade a Escudo Místico",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Escudo Místico}</p>\n<p>Após usar Bloqueio com Escudo, a magia se encerra e você não pode conjurá-la novamente por 10 minutos.</p>"
+    },
+    "Spell Effect: Benediction": {
+      "badges": [
+        "4,5m",
+        "7,5m",
+        "10,5m",
+        "13,5m",
+        "16,5m",
+        "19,5m",
+        "22,5m",
+        "25,5",
+        "28,5m",
+        "31,5m"
+      ]
+    },
+    "Spell Effect: Courageous Anthem": {
+      "name": "Efeito de Magia: Antífona da Coragem",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{Antífona da Coragem}</p>\n<p>Você recebe +1 de bônus de estado em testes de ataque, jogadas de dano e testes de salvamento contra efeitos de medo.</p>"
     },
     "Spell Effect: Enlarge (Heightened 4th)": {
       "rules": {
@@ -29,6 +67,14 @@
     },
     "Spell Effect: Fortify Summoning": {
       "name": "Efeito de Magia: Fortificar Convocação"
+    },
+    "Spell Effect: Guidance": {
+      "name": "Efeito de Magia: Orientação",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Orientação}</p>\n<p>Você recebe +1 de bônus de estado a uma jogada de salvamento, rolagem de ataque, teste de Percepção ou teste de perícia que você realizar. Você escolhe em qual rolagem usar o bônus antes de rolar o dado.</p>"
+    },
+    "Spell Effect: Ill Omen": {
+      "name": "Efeito de Magia: Mau Presságio",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.6ZIKB0151LUR19Rw]{Mau Presságio}</p>\n<p>Quando você fizer um teste de ataque ou de perícia, você precisa jogar duas vezes e usar o pior resultado na primeira vez em uma Falha ou pela duração em uma Falha Crítica.</p>"
     },
     "Spell Effect: Inspire Heroics (Courage, +2)": {
       "rules": {
@@ -65,6 +111,14 @@
         }
       }
     },
+    "Spell Effect: Light": {
+      "name": "Efeito de Magia: Luz",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Luz}</p>\n<p>Você anexa um orbe de luz a uma criatura voluntária, fazendo-o flutuar próximo à criatura conforme ela se move.</p>"
+    },
+    "Spell Effect: Mystic Armor": {
+      "name": "Efeito de Magia: Armadura Mística",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Armadura Mística}</p>\n<p>Você recebe um bônus de item na CA e um modificador máximo de Destreza de +5. No 4º ranque ou maior, você recebe um bônus de item nos salvamentos.</p>"
+    },
     "Spell Effect: Protection": {
       "rules": {
         "0": {
@@ -73,9 +127,10 @@
       }
     },
     "Spell Effect: Qi Form": {
-      "badges": {
-        "1": "30 pés"
-      }
+      "badges": [
+        "1,5m",
+        "30 pés"
+      ]
     },
     "Spell Effect: Regenerate": {
       "description": "<p>Granted by @Compendium[pf2e.spells-srd.2Vkd1IxylPceUAAF]{Regenerate}.</p>"
@@ -87,9 +142,17 @@
         }
       }
     },
+    "Spell Effect: Runic Weapon": {
+      "name": "Efeito de Magia: Arma Rúnica",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Arma Rúnica}</p>\n<p>A arma alvo torna-se uma arma <em>+1 impactante</em>, recebendo +1 de bônus de item nos testes de ataque e aumentando a quantidade de dados de dano para dois.</p>\n<hr />\n<p><strong>Elevada (6°)</strong> A arma é <em>+2 impactante maior</em>.</p>\n<p><strong>Elevada (9°)</strong> A arma é <em>+3 impactante superior</em>.</p>"
+    },
     "Spell Effect: Shield": {
       "name": "Efeito de Magia: Escudo Místico",
       "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Escudo Místico}</p>\n<p>Você recebe +1 de bônus de circunstância na CA até o início de seu próximo turno. Enquanto esta magia estiver em efeito, você pode usar a reação Bloqueio com Escudo usando seu escudo mágico. Após usar Bloqueio com Escudo, a magia é encerrada.</p>"
+    },
+    "Spell Effect: Soothe": {
+      "name": "Efeito de Magia: Abrandar",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Abrandar}</p>\n<p>Você recebe +2 de bônus de estado em testes de salvamento contra efeitos mentais.</p>"
     },
     "Spell Effect: Touch of the Moon": {
       "badges": {
