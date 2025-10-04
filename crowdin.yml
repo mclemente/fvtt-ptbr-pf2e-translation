@@ -1,16 +1,20 @@
 files:
-  - source: /translation/en/dictionary.json
+  - source: translation/en/dictionary.json
     translation: /translation/%locale%/dictionary.json
     update_option: update_as_unapproved
-  - source: /translation/en/action-en.json
-    translation: /translation/%locale%/action-%locale%.json
-  - source: /translation/en/en.json
+  - source: translation/en/en.json
     translation: /translation/%locale%/%locale%.json
-  - source: /translation/en/kingmaker-en.json
-    translation: /translation/%locale%/kingmaker-%locale%.json
-  - source: /translation/en/re-en.json
+    update_option: update_as_unapproved
+  - source: translation/en/re-en.json
     translation: /translation/%locale%/re-%locale%.json
-  - source: /translation/en/compendium/*.json
+    update_option: update_as_unapproved
+  - source: translation/en/action-en.json
+    translation: /translation/%locale%/action-%locale%.json
+    update_option: update_as_unapproved
+  - source: translation/en/kingmaker-en.json
+    translation: /translation/%locale%/kingmaker-%locale%.json
+    update_option: update_as_unapproved
+  - source: translation/en/compendium/*.json
     ignore:
       - equipment.json
       - feats.json
@@ -18,27 +22,27 @@ files:
       - actions.json
       - macros.json
       - conditions.json
-      - mwangi-expanse-bestiary.json
+      - fall-of-plaguestone.json
     translation: /translation/%locale%/compendium/pf2e.%file_name%.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/feats.json
+  - source: translation/en/compendium/feats.json
     translation: /translation/%locale%/compendium/pf2e.%file_name%-srd.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/equipment.json
+  - source: translation/en/compendium/equipment.json
     translation: /translation/%locale%/compendium/pf2e.%file_name%-srd.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/spells.json
+  - source: translation/en/compendium/spells.json
     translation: /translation/%locale%/compendium/pf2e.%file_name%-srd.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/actions.json
+  - source: translation/en/compendium/actions.json
     translation: /translation/%locale%/compendium/pf2e.%file_name%pf2e.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/macros.json
+  - source: translation/en/compendium/macros.json
     translation: /translation/%locale%/compendium/pf2e.pf2e-%file_name%.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/conditions.json
+  - source: translation/en/compendium/conditions.json
     translation: /translation/%locale%/compendium/pf2e.conditionitems.json
     update_option: update_as_unapproved
-  - source: /translation/en/compendium/mwangi-expanse-bestiary.json
-    translation: /translation/%locale%/compendium/pf2e.lost-omens-mwangi-expanse-bestiary.json
+  - source: translation/en/compendium/fall-of-plaguestone.json
+    translation: /translation/%locale%/compendium/pf2e.fall-of-plaguestone-bestiary.json
     update_option: update_as_unapproved
