@@ -173,5 +173,20 @@
       "name": "Ferido",
       "description": "<p>Você foi seriamente ferido durante um combate. A qualquer momento em que perder a condição @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Morrendo} morrendo, você fica ferido 1 se já não possuir a condição ferido. Se já possuir a condição ferido, o valor dela aumenta em 1. Se sofrer a condição morrendo enquanto estiver ferido, aumente o valor dela pelo seu valor de ferido.</p>\n<p>A condição ferido se encerra somente se alguém restaurar seus Pontos de Vida usando @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{Tratar Ferimentos} ou se você for restaurado a seus Pontos de Vida totais e descansar por 10 minutos.</p>"
     }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
   }
 }
