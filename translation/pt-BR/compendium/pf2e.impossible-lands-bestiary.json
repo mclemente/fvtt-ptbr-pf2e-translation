@@ -1,1 +1,176 @@
-{"entries":{"Benthic Reaver":{"items":{"strike-melee->Jaws":{"name":"Mandíbulas"},"strike-melee->Tail":{"name":"Cauda"}}},"Cursed King":{"items":{"strike-melee->Jaws":{"name":"Mandíbulas"},"strike-melee->Fist":{"name":"Punho"}}},"Fleshforged Conformer":{"items":{"spell->Blood Vendetta":{"requirements":"You can bleed"},"lore->Fleshwarp Lore":{"name":"Saber de Mutacarne"}}},"Fleshforged Dreadnought":{"items":{"strike-melee->Claw":{"name":"Garra"}}},"Gunpowder Ooze":{"items":{"strike-melee->Pseudopod":{"name":"Pseudópode"},"strike-ranged->Blast":{"name":"Explosão"},"action->Motion Sense":{"name":"Sentido de movimento"}}},"Kashrishi Evaluator":{"items":{"spell->Soothe":{"target":"1 willing living creature"},"strike-melee->Dagger":{"name":"Adaga"},"strike-ranged->Dagger":{"name":"Adaga"}}},"Mutant Gnoll Hulk":{"items":{"strike-melee->Battle Axe":{"name":"Machado de Batalha"},"strike-ranged->Composite Longbow":{"name":"Arco Longo Composto"},"action->Pack Attack":{"name":"Pack Attack"}}},"Quantium Golem (Acid)":{"items":{"strike-melee->Bastard Sword":{"name":"Espada Bastarda"}}},"Quantium Golem (Electricity)":{"items":{"strike-melee->Bastard Sword":{"name":"Espada Bastarda"}}},"Ratajin Mastermind":{"items":{"strike-melee->Rapier":{"name":"Rapieira"},"strike-ranged->Shortbow":{"name":"Arco Curto"}}},"Spellscar Fext":{"items":{"strike-melee->Fist":{"name":"Punho"}}},"Stone Sister":{"items":{"strike-melee->Scimitar":{"name":"Cimitarra"},"strike-melee->Fist":{"name":"Punho"}}},"Ugvashi":{"items":{"strike-melee->Body":{"name":"Corpo"},"strike-melee->Claw":{"name":"Garra"}}}}}
+{
+  "entries": {
+    "Benthic Reaver": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        }
+      }
+    },
+    "Cursed King": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Fleshforged Conformer": {
+      "items": {
+        "lore->Fleshwarp Lore": {
+          "name": "Saber de Mutacarne"
+        }
+      }
+    },
+    "Fleshforged Dreadnought": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Gunpowder Ooze": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        },
+        "strike-ranged->Blast": {
+          "name": "Explosão"
+        },
+        "action->Motion Sense": {
+          "name": "Sentido de movimento"
+        }
+      }
+    },
+    "Kashrishi Evaluator": {
+      "items": {
+        "spell->Soothe": {
+          "target": "1 criatura viva voluntária"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Mutant Gnoll Hulk": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-ranged->Composite Longbow": {
+          "name": "Arco Longo Composto"
+        },
+        "action->Pack Attack": {
+          "name": "Pack Attack"
+        }
+      }
+    },
+    "Quantium Golem (Acid)": {
+      "items": {
+        "strike-melee->Bastard Sword": {
+          "name": "Espada Bastarda"
+        }
+      }
+    },
+    "Quantium Golem (Electricity)": {
+      "items": {
+        "strike-melee->Bastard Sword": {
+          "name": "Espada Bastarda"
+        }
+      }
+    },
+    "Ratajin Mastermind": {
+      "items": {
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    },
+    "Spellscar Fext": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Stone Sister": {
+      "items": {
+        "strike-melee->Scimitar": {
+          "name": "Cimitarra"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Ugvashi": {
+      "items": {
+        "strike-melee->Body": {
+          "name": "Corpo"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
+  }
+}

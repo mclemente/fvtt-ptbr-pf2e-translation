@@ -1,1 +1,138 @@
-{"entries":{"Cocoon of Lucid Potential":{"items":{"spell->Soothe":{"target":"1 willing living creature"}}},"Exhaling Portal":{"items":{"action->Gust":{"name":"Lufada"}}},"False Floor":{"items":{"action->Drop":{"name":"Largar"}}},"K. H. W.'s Echo":{"items":{"strike-melee->Rope Dart":{"name":"Dardo de Corda"},"strike-ranged->Rope Dart":{"name":"Dardo de Corda"}}},"Mother Mitera":{"items":{"spell->Dancing Lights":{"name":"Luzes Dançantes","description":"<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"},"strike-melee->Dagger":{"name":"Adaga"},"strike-ranged->Dagger":{"name":"Adaga"}}},"Reflection":{"name":"Reflexão"},"Shrinking Hall":{"items":{"action->Shrink":{"name":"Encolher"}}},"Shrouded Assailant":{"hpDetails":"espírito"},"Thalassophobic Pool":{"items":{"action->Downpour":{"name":"Aguaceiro"}}},"The Morrowkin":{"items":{"strike-melee->Claw":{"name":"Garra"}}},"The Weaver in Dreams":{"items":{"strike-melee->Claw":{"name":"Garra"}}},"Verdure's Moonflower":{"items":{"strike-melee->Bite":{"name":"Mordida"}}}}}
+{
+  "entries": {
+    "Cocoon of Lucid Potential": {
+      "items": {
+        "spell->Soothe": {
+          "target": "1 criatura viva voluntária"
+        }
+      }
+    },
+    "Exhaling Portal": {
+      "items": {
+        "action->Gust": {
+          "name": "Lufada"
+        }
+      }
+    },
+    "False Floor": {
+      "items": {
+        "action->Drop": {
+          "name": "Largar"
+        }
+      }
+    },
+    "K. H. W.'s Echo": {
+      "items": {
+        "strike-melee->Rope Dart": {
+          "name": "Dardo de Corda"
+        },
+        "strike-ranged->Rope Dart": {
+          "name": "Dardo de Corda"
+        }
+      }
+    },
+    "Mother Mitera": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        }
+      }
+    },
+    "Reflection": {
+      "name": "Reflexão"
+    },
+    "Shrinking Hall": {
+      "items": {
+        "action->Shrink": {
+          "name": "Encolher"
+        }
+      }
+    },
+    "Shrouded Assailant": {
+      "hpDetails": "espírito"
+    },
+    "Thalassophobic Pool": {
+      "items": {
+        "action->Downpour": {
+          "name": "Aguaceiro"
+        }
+      }
+    },
+    "The Morrowkin": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "The Weaver in Dreams": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Verdure's Moonflower": {
+      "items": {
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        },
+        "strike-melee->Root": {
+          "name": "Raiz"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
+  }
+}

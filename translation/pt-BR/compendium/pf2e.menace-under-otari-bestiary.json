@@ -562,7 +562,7 @@
           "name": "Constrição"
         },
         "action->Grab": {
-          "name": "Agarrar"
+          "name": "Atracar"
         }
       }
     },
@@ -669,9 +669,6 @@
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
-        },
-        "action->Final Spite": {
-          "name": "Final Spite"
         }
       }
     },
@@ -740,6 +737,64 @@
           "name": "Lentidão"
         }
       }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "senses": "system.perception.details",
+    "skillSpecialAthletics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.athletics.special"
+    },
+    "skillSpecialCrafting": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.crafting.special"
+    },
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "skillSpecialSurvival": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.survival.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }

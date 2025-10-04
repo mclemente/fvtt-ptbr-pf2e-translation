@@ -24,6 +24,9 @@
       "name": "Clérigo",
       "description": "<p><em>As divindades exercem sua vontade sobre o mundo de infinitas formas, e você é um de seus servos mortais mais resolutos. Abençoado com magia divina, você vive segundo os ideais de sua fé, se adorna com os símbolos de sua igreja e treina diligentemente para empunhar a arma favorita de sua divindade. Suas magias podem proteger e curar seus aliados ou punir os adversários e inimigos de sua fé, conforme a vontade de sua divindade. Você tem uma vida de devoção, pregando os ensinamentos de sua fé através das palavras e do exemplo.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.N4ABcd6CcCbqmw3x]{Clérigo}</em></p>"
     },
+    "Commander": {
+      "name": "Comandante"
+    },
     "Druid": {
       "name": "Druida",
       "description": "<p><em>impossível resistir ao poder da natureza. Ela pode arruinar a mais resistente das fortalezas em minutos, reduzir até mesmo as obras mais bem feitas a detritos, queimá-las em cinzas, enterrá-las sob uma avalanche de neve ou submergi-las sob as ondas. Ela pode fornecer magnanimidade e esplendor de tirar o fôlego àqueles que a respeitam — e uma morte agonizante àqueles que a tratam levianamente. Você é um dos que ouvem o chamado da natureza. Você reverencia a majestade de seu poder e se entrega a seu serviço.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.8ElntNAGahQka70r]{Druida}</p>"
@@ -34,6 +37,9 @@
     "Fighter": {
       "name": "Guerreiro",
       "description": "<p><em>Lutando por honra, ganância, lealdade ou simplesmente pela emoção da batalha, você é um mestre incontestável de armas e técnicas de combate. Você combate usando combinações inteligentes de movimentos de abertura, golpes de finalização e contra-ataques sempre que seus adversários agem imprudentemente e baixam a guarda. Seja um cavaleiro, mercenário, atirador ou mestre da lâmina, você aprimorou suas habilidades marciais como uma forma de arte e desfere ataques críticos e devastadores em seus inimigos.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.HZbrRRVzW7w17L2W]{Guerreiro}</em></p>"
+    },
+    "Guardian": {
+      "name": "Guardião"
     },
     "Gunslinger": {
       "name": "Pistoleiro",
@@ -60,7 +66,8 @@
       "description": "<p><em>A força de seu punho flui de sua mente e espírito. Você busca a perfeição — aprimorar seu corpo para torná-lo um instrumento sem defeitos e sua mente em um bastião ordenado de sabedoria. Você é um combatente fervoroso reconhecido por suas habilidades em artes marciais e posturas de combate que lhe concedem técnicas de luta únicas. Embora o desafio de dominar vários estilos de combate o leve a grandes feitos, você também aprecia meditar sobre questões filosóficas e descobrir novas formas de obter paz e iluminação.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.hGKd722Kn4ZxIOJs]{Monge}</em></p>"
     },
     "Oracle": {
-      "name": "Oráculo"
+      "name": "Oráculo",
+      "description": "<p><em>Seu conduíte do poder divino ignora os canais tradicionais de oração e servidão — em vez disso você colhe verdades divinas que se estendem além de qualquer divindade única. Você compreende os grandes mistérios do universo incorporados em conceitos amplos que transcendem o bem e o mal, o caos e a ordem, seja porque você percebe as similaridades entre várias divindades ou porque envolve o poder deles inteiramente.</em></p>\n<p><em>Você explora um destes mistérios e retira dele o seu poder de conjurar magias milagrosas, mas esse poder possui um preço: uma maldição que fica mais forte à medida que usa desta fonte de poder. Suas habilidades são uma faca de dois gumes, e você pode considerar como instrumento do divino ou perceber como uma maldição dos deuses.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.bqaqOx3naiwTozBX]{Oráculo}</em></p>"
     },
     "Psychic": {
       "name": "Psychic",
@@ -97,6 +104,21 @@
     "Wizard": {
       "name": "Mago",
       "description": "<p><em>Você é um eterno estudante dos segredos arcanos do universo, utilizando sua maestria mística para conjurar magias poderosas e devastadoras. Você trata a magia como uma ciência, cruzando referências de textos mais recentes da prática mágica moderna com tomos esotéricos antigos para descobrir e compreender o funcionamento interno da magia. Porém, o campo da teoria mágica é vasto, e não há como você estudá-lo por completo. Você se especializa em uma das oito escolas de magia, aprofundando-se nas nuances desse tipo específico de magia ou assume uma abordagem mais ampla enfatizando os laços em comum que unem todas as magias.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.wDukeO3euLEGn6FA]{Mago}</em></p>"
+    }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
     }
   }
 }

@@ -1,1 +1,160 @@
-{"entries":{"Akashti":{"items":{"strike-melee->Claw":{"name":"Garra"}}},"Ijda":{"items":{"spell->Touch of Idiocy":{"target":"1 living creature"}}},"Kagekuma":{"items":{"strike-melee->Kusarigama":{"name":"Kusarigama"},"strike-melee->Bite":{"name":"Mordida"}}},"Meokdan":{"items":{"strike-melee->Bite":{"name":"Mordida"},"action->Manifest Bone Club":{"name":"Manifestar Porrete de Osso"}}},"Shisagishin":{"items":{"strike-melee->Claw":{"name":"Garra"}}}}}
+{
+  "entries": {
+    "Akashti": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Algriever": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-ranged->Web": {
+          "name": "Teia"
+        }
+      }
+    },
+    "Bakeneko": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Flammable": {
+          "name": "Inflamável"
+        }
+      }
+    },
+    "Ijda": {
+      "items": {
+        "spell->Touch of Idiocy": {
+          "target": "1 criatura viva"
+        }
+      }
+    },
+    "Kagekuma": {
+      "items": {
+        "strike-melee->Kusarigama": {
+          "name": "Kusarigama"
+        },
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        }
+      }
+    },
+    "Meokdan": {
+      "items": {
+        "strike-melee->Bite": {
+          "name": "Mordida"
+        },
+        "action->Manifest Bone Club": {
+          "name": "Manifestar Porrete de Osso"
+        }
+      }
+    },
+    "Noppera-bo Grunt": {
+      "items": {
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Noppera-bo Occultist": {
+      "items": {
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        }
+      }
+    },
+    "Noppera-bo Trickster": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Shortbow": {
+          "name": "Arco Curto"
+        }
+      }
+    },
+    "Shinigami": {
+      "items": {
+        "spell->Finger of Death": {
+          "target": "1 criatura viva"
+        },
+        "spell->Plane Shift": {
+          "target": "1 willing creature, or up to 8 willing creatures joining hands"
+        },
+        "strike-melee->Naginata": {
+          "name": "Naginata"
+        }
+      }
+    },
+    "Shisagishin": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Silsyche": {
+      "items": {
+        "strike-melee->Touch": {
+          "name": "Toque"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialAcrobatics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.acrobatics.special"
+    },
+    "skillSpecialDeception": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.deception.special"
+    },
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
+  }
+}

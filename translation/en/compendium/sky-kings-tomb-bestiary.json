@@ -34,7 +34,7 @@
         },
         "action->Grasping Foliage": {
           "name": "Grasping Foliage",
-          "description": "<p><strong>Trigger</strong> The assassin vine detects a creature within 20 feet via @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Tremorsense}</p>\n<hr />\n<p><strong>Effect</strong> The assassin vine causes vegetation within a @Template[emanation|distance:20] to writhe for 1 round, turning this area into difficult terrain. When a creature starts its turn in this area, it must attempt a @Check[reflex|dc:20] save. On a failure, it takes a -10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure it is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round. A creature can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to remove these effects.</p>\n<p>Assassin vines are immune to Grasping Foliage.</p>"
+          "description": "<p><strong>Trigger</strong> The assassin vine detects a creature within 20 feet via @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Tremorsense}</p>\n<hr />\n<p><strong>Effect</strong> The assassin vine causes vegetation within a @Template[emanation|distance:20] to writhe for 1 round, turning this area into difficult terrain. When a creature starts its turn in this area, it must attempt a @Check[reflex|dc:20] save. On a failure, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area, and on a critical failure it is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round. A creature can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to remove these effects.</p>\n<p>Assassin vines are immune to Grasping Foliage.</p>"
         },
         "action->Constrict": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV]\n<p>@Damage[(1d8+4)[bludgeoning]], @Check[fortitude|dc:20|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
@@ -143,6 +143,21 @@
         }
       }
     },
+    "Ancestor Statue": {
+      "name": "Ancestor Statue",
+      "acDetails": "(17 when broken); construct armor",
+      "blurb": "Elite animated statue",
+      "publicNotes": "<p>Animated statues are often used to guard crypts, small shrines, or areas in government buildings where they can be positioned amid normal statues to hide their true nature until an intruder arouses their ire. Adventurers' suspicions regarding statues suddenly animating and attacking has led many less scrupulous adventurers to automatically attack any statues they encounter, ruining harmless, ancient relics.</p>\n<hr />\n<p>Granted a semblance of life through the use of rituals or other strange magic, animated objects take many forms and serve a variety of uses. A few examples of typical animated objects are listed below. Many of these creatures serve as guardians, surprising unsuspecting adventurers when they suddenly attack. Others serve as idle distractions for the exceptionally rich, simple servants created to handle odd jobs, and the like.</p>",
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Fist"
+        },
+        "action->Construct Armor (Hardness 6)": {
+          "name": "Construct Armor (Hardness 6)",
+          "description": "<p>Like normal objects, an animated statue has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness.</p>\n<p>Once an elite animated statue is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 17.</p>"
+        }
+      }
+    },
     "Ancestral Echo": {
       "name": "Ancestral Echo",
       "hpDetails": "void healing, rejuvenation",
@@ -175,21 +190,6 @@
         "action->Howl of Agony": {
           "name": "Howl of Agony",
           "description": "<p><strong>Trigger</strong> At least two living creatures step on the staircase</p>\n<hr />\n<p><strong>Effect</strong> Dozens of mouths open on the stairs and eastern wall doors of the chamber and howl in anger and misery. Creatures in the area are @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 2 rounds and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} unless they succeed at a @Check[fortitude|dc:27] save. Creatures who critically fail are deafened for 1 minute and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}. The haunt then rolls initiative.</p>"
-        }
-      }
-    },
-    "Ansestor Statue": {
-      "name": "Ansestor Statue",
-      "acDetails": "(17 when broken); construct armor",
-      "blurb": "Elite animated statue",
-      "publicNotes": "<p>Animated statues are often used to guard crypts, small shrines, or areas in government buildings where they can be positioned amid normal statues to hide their true nature until an intruder arouses their ire. Adventurers' suspicions regarding statues suddenly animating and attacking has led many less scrupulous adventurers to automatically attack any statues they encounter, ruining harmless, ancient relics.</p>\n<hr />\n<p>Granted a semblance of life through the use of rituals or other strange magic, animated objects take many forms and serve a variety of uses. A few examples of typical animated objects are listed below. Many of these creatures serve as guardians, surprising unsuspecting adventurers when they suddenly attack. Others serve as idle distractions for the exceptionally rich, simple servants created to handle odd jobs, and the like.</p>",
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Fist"
-        },
-        "action->Construct Armor (Hardness 6)": {
-          "name": "Construct Armor (Hardness 6)",
-          "description": "<p>Like normal objects, an animated statue has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness.</p>\n<p>Once an elite animated statue is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 17.</p>"
         }
       }
     },
@@ -731,6 +731,10 @@
         }
       },
       "items": {
+        "equipment->Snare Kit": {
+          "name": "Snare Kit",
+          "description": "<p>This kit contains tools and materials for creating snares. A snare kit allows you to Craft snares using the Crafting skill.</p>"
+        },
         "strike-melee->Shortsword": {
           "name": "Shortsword"
         },
@@ -798,7 +802,7 @@
         },
         "action->Explosion": {
           "name": "Explosion",
-          "description": "<p>When the elemental inferno dies, it explodes, dealing @Damage[7d6[fire]] damage to each creature in a @Template[emanation|distance:10|traits:fire,damaging-effect] (@Check[reflex|dc:30|basic] save).</p>"
+          "description": "<p>When the elemental inferno dies, it explodes, dealing @Damage[7d6[fire]|options:area-damage] damage to each creature in a @Template[emanation|distance:10|traits:fire,damaging-effect] (@Check[reflex|dc:30|basic|options:area-effect] save).</p>"
         },
         "action->Intense Heat": {
           "name": "Intense Heat",
@@ -810,7 +814,7 @@
         },
         "action->Inferno Leap": {
           "name": "Inferno Leap",
-          "description": "<p>The elemental inferno jumps horizontally and vertically with a maximum height and distance each equal to its Speed. Its intense heat is suppressed until the end of the jump. At any point during the jump, flames explode from the elemental in a @Template[emanation|distance:20], dealing @Damage[12d6[fire]] damage to each creature within the area (@Check[reflex|dc:30|basic] save).</p>\n<p>The elemental inferno can't Inferno Leap again for [[/gmr 1d4 #Recharge Inferno Leap]]{1d4 rounds}.</p>"
+          "description": "<p>The elemental inferno jumps horizontally and vertically with a maximum height and distance each equal to its Speed. Its intense heat is suppressed until the end of the jump. At any point during the jump, flames explode from the elemental in a @Template[emanation|distance:20], dealing @Damage[12d6[fire]|options:area-damage] damage to each creature within the area (@Check[reflex|dc:30|basic|options:area-effect] save).</p>\n<p>The elemental inferno can't Inferno Leap again for [[/gmr 1d4 #Recharge Inferno Leap]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -1267,7 +1271,7 @@
         },
         "action->General Melee": {
           "name": "General Melee",
-          "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:28|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+6)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[bludgeoning]] damage</p>"
+          "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:28|basic|options:area-effect] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+6)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[bludgeoning]|options:area-damage] damage</p>"
         },
         "action->Raise Shields": {
           "name": "Raise Shields",
@@ -1308,7 +1312,7 @@
         },
         "action->Hammerfall": {
           "name": "Hammerfall",
-          "description": "<p>The forgepriest tosses their hammer up to 30 feet. Where the hammer lands, molten metal erupts from the ground in a @Template[burst|distance:10]{10 foot radius} dealing @Damage[6d8[fire]] damage to creatures in the area (@Check[reflex|dc:21|basic] save). Creatures who critically fail also take @Damage[1d8[persistent,fire]] damage. The forgepriest can't use Hammerfall again for [[/gmr 1d4 #Recharge Hammerfall]]{1d4 rounds}.</p>"
+          "description": "<p>The forgepriest tosses their hammer up to 30 feet. Where the hammer lands, molten metal erupts from the ground in a @Template[burst|distance:10]{10 foot radius} dealing @Damage[6d8[fire]|options:area-damage] damage to creatures in the area (@Check[reflex|dc:21|basic|options:area-effect] save). Creatures who critically fail also take @Damage[1d8[persistent,fire]] damage. The forgepriest can't use Hammerfall again for [[/gmr 1d4 #Recharge Hammerfall]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -1483,12 +1487,7 @@
         },
         "action->Mark for Death": {
           "name": "Mark for Death",
-          "description": "<p>The executioner marks a single creature they can see for death. The first time each round the executioner Strikes that creature, the Strike deals 1d12 additional precision damage.</p>\n<p>The creature remains marked for death until the executioner is knocked out, marks a different creature for death, or the encounter ends.</p>",
-          "rules": {
-            "0": {
-              "label": "First attack on marked target this round"
-            }
-          }
+          "description": "<p>The executioner marks a single creature they can see for death. The first time each round the executioner Strikes that creature, the Strike deals 1d12 additional precision damage.</p>\n<p>The creature remains marked for death until the executioner is knocked out, marks a different creature for death, or the encounter ends.</p>"
         }
       }
     },
@@ -1505,7 +1504,7 @@
         },
         "weapon->Tanglefoot Bag (Moderate)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\nTanglefoot Bag (Moderate)",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a -15-foot status penalty to its Speeds for 1 minute. You gain a +1 item bonus to attack rolls, and the Escape DC is 19.</p>\n<p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.</p>\n<p>The target can end any effects by Escaping or spending a total of 3 actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.evBPzM1VsuYcoenn]\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Strike</p>\n<hr />\n<p>A tanglefoot bag is filled with sticky substances. When you hit a creature with a tanglefoot bag, that creature takes a –15-foot status penalty to its Speeds for 1 minute. You gain a +1 item bonus to attack rolls, and the Escape DC is 19 ([[/act escape dc=19]]).</p>\n<p>On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Tanglefoot bags are not effective when used on a creature that is in water.</p>\n<p>The target can end any effects by Escaping or spending a total of 3 actions to carefully remove the sticky substances. These Interact actions don't have to be consecutive, and other creatures can provide the actions as well.</p>"
         },
         "consumable->Healing Potion (Minor)": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao]\n<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion, you regain @Damage[1d8[healing]] Hit Points.</p>"
@@ -1586,14 +1585,14 @@
         },
         "action->Spore Burst": {
           "name": "Spore Burst",
-          "description": "<p>When a hyphae tyrant dies, a burst of primal energy explodes from its body in a @Template[emanation|distance:30], restoring 3d8 to each fungus creature and dealing @Damage[3d8[void]] damage (@Check[fortitude|dc:20]{basic Fortitude} save) to each non-fungus creature in the area. This area is filled with fungus, becoming difficult terrain.</p>"
+          "description": "<p>When a hyphae tyrant dies, a burst of primal energy explodes from its body in a @Template[emanation|distance:30], restoring 3d8 to each fungus creature and dealing @Damage[3d8[void]|options:area-damage] damage (@Check[fortitude|dc:20|basic|options:area-effect] save) to each non-fungus creature in the area. This area is filled with fungus, becoming difficult terrain.</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The hyphae tyrant transforms into a Small fungus. This ability otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Spore Cloud": {
           "name": "Spore Cloud",
-          "description": "<p>A hyphae tyrant unleashes a cloud of spores in a @Template[emanation|distance:20]. Each non-fungi creature in this area must succeed at a @Check[fortitude|dc:20] save or take @Damage[2[persistent,poison]] damage. A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (or 10 feet on a critical failure).</p>"
+          "description": "<p>A hyphae tyrant unleashes a cloud of spores in a @Template[emanation|distance:20]. Each non-fungi creature in this area must succeed at a @Check[fortitude|dc:20|options:area-effect,damaging-effect] save or take @Damage[2[persistent,poison]|options:area-damage] damage. A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (or 10 feet on a critical failure).</p>"
         },
         "action->Spores": {
           "name": "Spores",
@@ -2414,7 +2413,7 @@
         },
         "action->Shambling Onslaught": {
           "name": "Shambling Onslaught",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The shamblers lash out at any enemies in their squares or within @Template[emanation|distance:5]{5 feet} (@Check[reflex|dc:18|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+5)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+9)[bludgeoning]] damage</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The shamblers lash out at any enemies in their squares or within @Template[emanation|distance:5]{5 feet} (@Check[reflex|dc:18|basic|options:area-effect] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+5)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+9)[bludgeoning]|options:area-damage] damage</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -2460,14 +2459,14 @@
         },
         "action->Spore Burst": {
           "name": "Spore Burst",
-          "description": "<p>When a hyphae tyrant dies, a burst of primal energy explodes from its body in a @Template[emanation|distance:30], restoring 3d8 to each fungus creature and dealing @Damage[3d8[void]] damage (@Check[fortitude|dc:20]{basic Fortitude} save) to each non-fungus creature in the area. This area is filled with fungus, becoming difficult terrain.</p>"
+          "description": "<p>When a hyphae tyrant dies, a burst of primal energy explodes from its body in a @Template[emanation|distance:30], restoring 3d8 to each fungus creature and dealing @Damage[3d8[void]|options:area-damage] damage (@Check[fortitude|dc:20|basic|options:area-effect] save) to each non-fungus creature in the area. This area is filled with fungus, becoming difficult terrain.</p>"
         },
         "action->Change Shape": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The hyphae tyrant transforms into a Small fungus. This ability otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "action->Spore Cloud": {
           "name": "Spore Cloud",
-          "description": "<p>A hyphae tyrant unleashes a cloud of spores in a @Template[emanation|distance:20]. Each non-fungi creature in this area must succeed at a @Check[fortitude|dc:20] save or take @Damage[2[persistent,poison]] damage. A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (or 10 feet on a critical failure).</p>"
+          "description": "<p>A hyphae tyrant unleashes a cloud of spores in a @Template[emanation|distance:20]. Each non-fungi creature in this area must succeed at a @Check[fortitude|dc:20|options:area-effect,damaging-effect] save or take @Damage[2[persistent,poison]|options:area-damage] damage. A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (or 10 feet on a critical failure).</p>"
         },
         "action->Spores": {
           "name": "Spores",
@@ -3290,7 +3289,7 @@
         },
         "action->Sharpened Advance": {
           "name": "Sharpened Advance",
-          "description": "<p>The troop fires a ranged attack in the form of a @Template[burst|distance:5] within 50 feet that deals @Damage[3d6[piercing]] damage (@Check[reflex|dc:18|basic] save), then the troop either Steps or Strides up to 15 feet toward the area they attacked.</p>"
+          "description": "<p>The troop fires a ranged attack in the form of a @Template[burst|distance:5] within 50 feet that deals @Damage[3d6[piercing]|options:area-damage] damage (@Check[reflex|dc:18|basic|options:area-effect] save), then the troop either Steps or Strides up to 15 feet toward the area they attacked.</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -3311,7 +3310,7 @@
         },
         "action->Adhesive": {
           "name": "Adhesive",
-          "description": "<p>The mimic is coated in an adhesive slime. Any creature that hits the mimic, is hit by the mimic, or otherwise touches the mimic must succeed at a @Check[reflex|dc:23] save or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} (Escape DC 23). A weapon that hits the mimic is stuck to the mimic and can be removed with a successful @Check[athletics|dc:23] check (made as a single action).</p>\n<p>A mimic can have any number of objects or creatures stuck to it at a time. The mimic can release a stuck creature or object by using a single action, and the adhesive dissolves 1 minute after the mimic dies, releasing all stuck objects and creatures.</p>"
+          "description": "<p>The mimic is coated in an adhesive slime. Any creature that hits the mimic, is hit by the mimic, or otherwise touches the mimic must succeed at a @Check[reflex|dc:23] save or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} ([[/act escape dc=23]]). A weapon that hits the mimic is stuck to the mimic and can be removed with a successful @Check[athletics|dc:23] check (made as a single action).</p>\n<p>A mimic can have any number of objects or creatures stuck to it at a time. The mimic can release a stuck creature or object by using a single action, and the adhesive dissolves 1 minute after the mimic dies, releasing all stuck objects and creatures.</p>"
         },
         "action->Object Lesson": {
           "name": "Object Lesson",

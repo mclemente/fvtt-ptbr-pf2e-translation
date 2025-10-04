@@ -5,12 +5,12 @@
         "consumable->Scroll of Blindness (Level 3)": {
           "consumableSpellName": "Cegueira",
           "consumableSpellDescription": "<p>Você cega o alvo. O efeito é determinado pelo salvamento de Fortitude do alvo. Após o efeito, o alvo fica temporariamente imune por 1 minuto.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o início do próximo turno dele.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica permanentemente @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego}.</p>",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "consumable->Scroll of Crisis of Faith (Level 3)": {
           "consumableSpellName": "Crise de Fé",
           "consumableSpellDescription": "<p>Você agride a fé do alvo, impondo dúvida e turbulência mental à criatura, causando 6d6 de dano mental a ela, ou 6d8 de dano mental se ela puder conjurar magias divinas. Os efeitos são determinados pelo salvamento de Vontade dela.</p><p>Para muitas divindades, conjurar esta magia em um seguidor de sua própria divindade sem motivo significativo é um anátema.</p><hr /><p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p><p><strong>Sucesso</strong> O alvo sofre metade do dano.</p><p><strong>Falha</strong> O alvo sofre o dano inteiro; se o alvo puder conjurar magias divinas, ele fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 rodada.</p><p><strong>Falha Crítica</strong> O alvo sofre o dobro do dano, fica @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{estupefato} 1 por 1 rodada e não pode conjurar magias divinas por 1 rodada.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6 (ou em 2d8 se o alvo for um conjurador divino).</p>",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "consumable->Scroll of Flame Strike (Level 5)": {
           "consumableSpellName": "Chuva de Fogo",
@@ -21,6 +21,7 @@
         },
         "consumable->Scroll of Heal (Rank 5)": {
           "consumableSpellName": "Curar",
+          "consumableSpellDescription": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>",
           "consumableSpellTarget": "1 willing living creature or 1 undead"
         },
         "strike-melee->Staff": {
@@ -113,7 +114,7 @@
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
-          "target": "1 creature"
+          "target": "1 criatura"
         },
         "strike-melee->Staff": {
           "name": "Cajado"
@@ -152,7 +153,7 @@
     "Strigoi Progenitor": {
       "items": {
         "spell->Finger of Death": {
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         },
         "spell->Planar Binding": {
           "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
@@ -160,7 +161,7 @@
         "spell->Remove Curse": {
           "name": "Remover Maldição",
           "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
-          "target": "1 creature"
+          "target": "1 criatura"
         },
         "spell->Undetectable Alignment": {
           "name": "Tendência Indetectável",
@@ -197,6 +198,50 @@
           "name": "Arco Curto"
         }
       }
+    }
+  },
+  "mapping": {
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }

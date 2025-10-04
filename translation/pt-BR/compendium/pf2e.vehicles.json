@@ -1,1 +1,59 @@
-{"label":"Veículos","entries":{"Bunta":{"items":{"action->Destruction":{"name":"Destruição"}}},"Velocipede":{"items":{"action->Portable":{"name":"Portátil"}}}}}
+{
+  "label": "Veículos",
+  "entries": {
+    "Bunta": {
+      "items": {
+        "action->Destruction": {
+          "name": "Destruição"
+        }
+      }
+    },
+    "Flying Submersible": {
+      "items": {
+        "action->Amphibious": {
+          "name": "Anfíbio"
+        }
+      }
+    },
+    "Velocipede": {
+      "items": {
+        "action->Portable": {
+          "name": "Portátil"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "crew": "system.details.crew",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "pilotingCheck": "system.details.pilotingCheck",
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.details.speed",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
+  }
+}

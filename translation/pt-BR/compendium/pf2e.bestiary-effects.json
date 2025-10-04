@@ -134,6 +134,9 @@
     "Effect: Form a Phalanx": {
       "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
     },
+    "Effect: Frill Defense": {
+      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
+    },
     "Effect: Harmonizing Aura (Allies)": {
       "name": "Efeito: Aura Harmonizante (Aliados)",
       "description": "<p>A criatura recebe +2 de bônus de estado nas jogadas de dano sônico e +1 de bônus de estado na CA e em todos os salvamentos contra sônico e efeitos auditivos</p>"
@@ -169,6 +172,9 @@
       "name": "Efeito: Lanterna de Esperança",
       "description": "<p>A criatura recebe +1 de bônus de estado nas jogadasde dano e nos salvamentos contra <em>@Compendium[pf2e.spells-srd.GaRQlC9Yw1BGKHfN]{Desespero Esmagador}</em>.</p>"
     },
+    "Effect: Living Shields": {
+      "description": "<p>A criatura recebe +2 de bônus de circusntância na CA.</p>"
+    },
     "Effect: Lost Red Cap": {
       "name": "Effect: Red Cap"
     },
@@ -203,6 +209,22 @@
     },
     "Effect: Viscous Trap": {
       "description": "<p>Granted by the Splintered Ground ability of the @Compendium[pf2e.pathfinder-bestiary.myEeYWWAgnkLwtIb]{Skulltaker}</p>\n<p>The affected creature takes a -15-foot circumstance penalty to all Speeds for 10 minutes.</p>"
+    }
+  },
+  "mapping": {
+    "badges": "system.badge.labels",
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
     }
   }
 }

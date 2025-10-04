@@ -18,11 +18,9 @@
       },
       "ExsanguinatingAmmunition": {
         "Greater": {
-          "Text": "Por 1 minuto após você causar dano a uma criatura com uma munição hemorrágica ativa, a criatura recebe fraqueza 3 a dano de sangramento persistente. Além disso, o CD de qualquer teste simples feito para acabar com o dano de sangramento persistente aumenta de 15 para 17 (de 10 para 12 quando receber assistência particulamente eficaz) @UUID[Compendium.pf2e.equipment-effects.Item.5lZWAvm0oGxvF4bm]{Efeito: Munição hemorrágica (Maior)}",
           "Title": "Munição Hemorrágica (Maior)"
         },
         "Major": {
-          "Text": "Por 1 minuto após você causar dano a uma criatura com uma munição hemorrágica ativa, a criatura recebe fraqueza 5 a dano de sangramento persistente. Além disso, o CD de qualquer teste simples feito para acabar com o dano de sangramento persistente aumenta de 15 para 17 (de 10 para 12 quando receber assistência particulamente eficaz) @UUID[Compendium.pf2e.equipment-effects.Item.mrwg2XftLtSLj197]{Efeito: Munição hemorrágica (Superior)}",
           "Title": "Munição Hemorrágica (Superior)"
         },
         "Normal": {
@@ -52,19 +50,15 @@
       "OozeAmmunition": {
         "CriticalHitText": "Em um acerto crítico, o alvo é @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada além dos outros efeitos.",
         "Greater": {
-          "Text": "A criatura leva uma penalidade de -10 pés nas suas Velocidades e @Damage[3d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 29) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Maior)}",
           "Title": "Munição de Gosma (Maior)"
         },
         "Lesser": {
-          "Text": "A criatura leva uma penalidade de -5 pés nas suas Velocidades e @Damage[1d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 16) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Menor)}",
           "Title": "Munição de Gosma (Menor)"
         },
         "Major": {
-          "Text": "A criatura leva uma penalidade de -15 pés nas suas Velocidades e @Damage[4d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 38) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Superior)}",
           "Title": "Munição de Gosma (Superior)"
         },
         "Moderate": {
-          "Text": "A criatura leva uma penalidade de -10 pés nas suas Velocidades e @Damage[2d4[persistent,acid]] de dano até que os efeitos acabem. O alvo pode terminar os efeitos ao @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} (CD 20) da espuma pegajosa. Outras criaturas podem fornecer as ações, embora isso cause metade do dano de ácido persistente da munição à criatura assistente. Uma criatura que termina o efeito ainda recebe o dano persistente neste turno. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{Efeito: Munição de Gosma (Moderado)}",
           "Title": "Munição de Gosma (Moderada)"
         }
       },
@@ -167,7 +161,9 @@
         "Wing": "Asa"
       },
       "CosmicForm": {
+        "Moon": "Lua",
         "MoonNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada.",
+        "Sun": "Sol",
         "SunNote": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} por 1 rodada."
       },
       "DaemonForm": {
@@ -176,18 +172,45 @@
         }
       },
       "DemonForm": {
+        "ChoiceSet": {
+          "Abrikandilu": "Abrikandilu",
+          "Brimorak": "Brimorak"
+        },
         "Note": {
           "AbrikandiluCritical": "Em um acerto crítico, o alvo está @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} por 1 minuto."
-        }
+        },
+        "Prompt": "Escolha um demônio."
+      },
+      "DevilForm": {
+        "ChoiceSet": {
+          "Coarti": "Coarti",
+          "Levaloch": "Levaloch",
+          "Vordine": "Vordine"
+        },
+        "Prompt": "Escolha um diabo."
       },
       "ElementEmbodied": {
         "AirPushNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} 10 pés",
         "WaterPushPullNote": "Mais @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ou Puxar 10 pés"
       },
+      "FeyForm": {
+        "ChoiceSet": {
+          "Dryad": "Dríade",
+          "Naiad": "Náiade",
+          "Redcap": "Barrete Vermelho",
+          "Unicorn": "Unicórnio"
+        },
+        "Prompt": "Selecione uma fada."
+      },
       "InsectForm": {
         "SpiderWebNote": "Um ataque de teia bem-sucedido envolve o alvo por 1 rodada, mas não causa dano"
       },
       "MonstrosityForm": {
+        "ChoiceSet": {
+          "CaveWorm": "Verme das Cavernas",
+          "Phoenix": "Fênix",
+          "SeaSerpent": "Serpente do Mar"
+        },
         "ShroudOfFlame": "Manto de Chamas"
       },
       "NatureIncarnate": {
@@ -203,6 +226,11 @@
         "Shove": "Você pode gastar uma ação imediatamente após um acerto para empurrar o alvo por uma distância de 5 pés com os efeitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar}"
       },
       "OozeForm": {
+        "ChoiceSet": {
+          "BlackPudding": "Pudim Negro",
+          "GrayOoze": "Limo Cinza",
+          "OchreJelly": "Geleia Ocre"
+        },
         "GelatinousCubeNote": "Uma criatura atingida por uma das faces da sua forma gelatinosa cuboide deve ser bem sucedida em um teste de salvamento contra a sua CD de feitiço @Check[fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] ou ficará @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1} (ou @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralisada} por 1 rodada em uma falha crítica); esta rolagem de salvamento possui o traço Incapacitação."
       },
       "WormForm": {
@@ -465,11 +493,11 @@
       },
       "RedpitchBomb": {
         "Greater": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
-          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]] e @Damage[(3[splash])[fire]]{3 de dano de respingo de fogo}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 2} até o começo do seu próximo turno.",
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 de dano de respingo de fogo}."
         },
         "Lesser": {
-          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
+          "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]] e @Damage[(1[splash])[fire]]{1 de dano de respingo de fogo}. Em um acerto crítico, o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} até o começo do seu próximo turno.",
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[1d4[persistent,fire]] e @Damage[(1[splash])[fire]]{1 fire splash damage}."
         },
         "Major": {
@@ -516,7 +544,7 @@
       "TallowBomb": {
         "Greater": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*3d4)[persistent,fire]], @Damage[(3[splash])[fire]]{3 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
-          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 fire splash damage}."
+          "success": "<strong>Efeito</strong> A bomba também causa @Damage[3d4[persistent,fire]] e @Damage[(3[splash])[fire]]{3 de dano de respingo de fogo}."
         },
         "Lesser": {
           "criticalSuccess": "<strong>Efeito</strong> A bomba também causa @Damage[(2*1d4)[persistent,fire]], @Damage[(1[splash])[fire]]{1 fire splash damage}, e o alvo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em em combustão. A criatura não pode reduzir seu valor de enjoado para abaixo de 1 enquanto o dano persistente de fogo persistir.",
@@ -531,24 +559,6 @@
           "success": "<strong>Efeito</strong> A bomba também causa @Damage[2d4[persistent,fire]] e @Damage[(2[splash])[fire]]{2 fire splash damage}."
         },
         "criticalSuccess": "Em um acerto crítico, uma criatura viva que recebe dano persistente de fogo de uma bomba de sebo fica @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoado 1} com o odor de gordura em combustão e não pode reduzir o seu valor de enjoado para abaixo de 1 enquanto o dano persistente do fogo persistir."
-      },
-      "TanglefootBag": {
-        "Greater": {
-          "criticalSuccess": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-4,5 m/-15 pés de Penalidade de Velocidade} por 1 minuto. Em um acerto Crítico, @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada.",
-          "success": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-4,5 m/-15 pés de Penalidade de Velocidade} por 1 minuto."
-        },
-        "Lesser": {
-          "criticalSuccess": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-3 m/-10 pés de Penalidade de Velocidade} por 1 minuto. Em um acerto Crítico, @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada.",
-          "success": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-3 m/-10 pés de Penalidade de Velocidade} por 1 minuto."
-        },
-        "Major": {
-          "criticalSuccess": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-6 m/-20 pés de Penalidade de Velocidade} por 1 minuto. Em um acerto Crítico, @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada.",
-          "success": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-6 m/-20 pés de Penalidade de Velocidade} por 1 minuto."
-        },
-        "Moderate": {
-          "criticalSuccess": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-4,5 m/-15 pés de Penalidade de Velocidade} por 1 minuto. Em um acerto Crítico, @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} por 1 rodada.",
-          "success": "Em um acerto, @UUID[Compendium.pf2e.equipment-effects.csA4UAD2tQq7RjT8]{-4,5 m/-15 pés de Penalidade de Velocidade} por 1 minuto."
-        }
       },
       "Thunderstone": {
         "Greater": {
@@ -640,7 +650,7 @@
       "Diabolic": "Dragão Diabólico",
       "Divine": "Dragão Divino",
       "Empyreal": "Dragão Empíreo",
-      "Fortune": "Dragão da Sorte",
+      "Fortune": "Dragão da Fortuna",
       "Gold": "Dragão Dourado",
       "Green": "Dragão Verde",
       "Horned": "Dragão Cornífero",
@@ -706,6 +716,7 @@
         "AttacksWaterCreatures": "ataques de criaturas aquáticas",
         "BludgeoningPiercingSlashing": "dano contundente, perfurante e cortante",
         "BludgeoningPiercingSlashingFromFrightenedStrikes": "dano de Golpe contundente, perfurante e cortante de criaturas assustadas",
+        "Bronze": "bronze",
         "CalistriasBane": "Ruína da Calistria",
         "ColdIronBludgeoning": "contundente de ferro frio",
         "CrystalHazards": "perigos de cristal",
@@ -731,6 +742,7 @@
         "PhysicalRangedAttacks": "ataques físicos à distância",
         "PhysicalWeaponsOnly": "físico (somente armas)",
         "RangedWeaponAttacks": "ataques à distância com armas",
+        "SpellsFromAllTraditions": "magias de todas as tradições",
         "Spirits": "espíritos",
         "UnholyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante profano",
         "VoidZonKuthonFollowers": "vazio de seguidores de Zon-Kuthon"
@@ -760,6 +772,7 @@
           "DefensiveResistance": "Ressonância Defensiva",
           "Illumination": "Iluminação",
           "IlluminationColor": "Ressonância de Iluminação",
+          "Sensory": "Sensorial",
           "Subterfuge": "Subterfúgio"
         }
       },
@@ -789,7 +802,7 @@
       "BarghestFeed": "Quantas vezes o Barghest se alimentou?",
       "BladeMagus": {
         "ArcaneCascade": {
-          "Note": "Enquanto nesta postura, os ataques corpo a corpo do Magus da Lâmina causam @Damage[(4[splash])[fire]]{4 splash force} em inimigos adjacentes a seu alvo."
+          "Note": "Enquanto nesta postura, os ataques corporais do magus da Lâmina causam @Damage[(4[splash])[force]]{4 de dano de respingo de energia} em inimigos adjacentes a seu alvo."
         }
       },
       "BrainCollector": {
@@ -833,6 +846,7 @@
           "Cassisian": "Cassisiano",
           "CaveWorm": "Verme das Cavernas",
           "Cobra": "Serpente",
+          "Coyote": "Coiote",
           "Dog": "Cachorro",
           "Dove": "Pombo",
           "Dragon": "Dragão",
@@ -917,6 +931,7 @@
           "RajaKrodha": "Raja-Krodha",
           "Raktavarna": "Raktavarna",
           "Rat": "Rato",
+          "Raven": "Corvo",
           "Scorpion": "Escorpião",
           "SeaSerpent": "Serpente do Mar",
           "Shark": "Tubarão",
@@ -931,7 +946,7 @@
           "Vampire": "Vampiro",
           "Vidileth": "Vidileth",
           "Vilderavn": "Vilderavn",
-          "Voidworm": "Verne Nulo",
+          "Voidworm": "Verme do Vazio",
           "Wasp": "Vespa",
           "WingedHumanoid": "Humanóide Alado",
           "Wolf": "Lobo",
@@ -974,7 +989,7 @@
         "CriticalHit": "Armadura Personalizada Quebrada por um Acerto Crítico"
       },
       "CyclopsBully": {
-        "TerrorizingSwing": "Se a criatura está @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada} e recebe dano, isso causa um dano adicional de 2d10 e ela é derrubada @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}."
+        "TerrorizingSwing": "Se a criatura está @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada} e recebe dano, isso causa um dano adicional de 2d10 e ela é fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrada}."
       },
       "DeadFaine": {
         "TargetFeintOrTraitorousBetrayal": "Alvo desprevenido devido à Finta ou Traição Traiçoeira"
@@ -993,7 +1008,7 @@
         "BittersweetDreamsSuccessFailure": "Sucesso ou falha"
       },
       "DuskwalkerHuntPrey": {
-        "AC": "Presa Designada ataca ao Crepuscular",
+        "AC": "Presa Designada ataca o Crepuscular",
         "Checks": "Crepuscular rola teste contra a sua Presa Designada"
       },
       "Elemental": {
@@ -1012,12 +1027,12 @@
       },
       "FiveColorOrchidMantis": {
         "ColorShift": {
-          "Black": "Preto - Água",
-          "Green": "Verde - Madeira",
+          "Black": "Preto — Água",
+          "Green": "Verde — Madeira",
           "None": "Nenhuma Cor Selecionada",
-          "Red": "Vermelho - Fogo",
-          "White": "Branco - Metal",
-          "Yellow": "Amarelo - Terra"
+          "Red": "Vermelho — Fogo",
+          "White": "Branco — Metal",
+          "Yellow": "Amarelo — Terra"
         }
       },
       "GangUp": {
@@ -1040,18 +1055,12 @@
         }
       },
       "GrimReaper": {
-        "InfuseWeapon": "Se o Ceifador atingir uma criatura com uma fraqueza a qualquer tipo específico de dano, o dano da foice conta como esse tipo de dano, para além do dano cortante."
-      },
-      "Hadrinnex": {
-        "RapidEvolution": {
-          "EnergyGland": "Evolução Rápida - Glândula Energética",
-          "Husk": "Evolução Rápida - Carapaça"
-        }
+        "InfuseWeapon": "Se o Ceifador Golpeia uma criatura com uma fraqueza a qualquer tipo específico de dano, o dano da foice conta como esse tipo de dano, além de cortante."
       },
       "HehShanBao": {
         "UrbanLegend": {
-          "DisbelieveResistance": "A Resistência Física é Desacreditada.",
-          "DisbelieveSlashing": "O Dano Cortante é Desacreditado."
+          "DisbelieveResistance": "Resistência Física é Desacreditada.",
+          "DisbelieveSlashing": "Dano Cortante é Desacreditado."
         }
       },
       "HellboundAttorney": {
@@ -1087,17 +1096,14 @@
       },
       "Ivarsa": {
         "ArcaneCascade": {
-          "Note": "Enquanto nesta postura, os ataques corpo a corpo de Ivarsa causam @Damage[(4[splash])[fire]]{4 splash fire} em inimigos adjacentes a seu alvo."
+          "Note": "Enquanto nesta postura, os ataques corpo a corpo de Ivarsa causam @Damage[(4[splash])[fire]]{4 de dano de fogo de respingo} em inimigos adjacentes a seu alvo."
         }
       },
       "KallasDevil": {
         "DisguisedAsChild": "Disfarçado como uma Criança",
         "LyingAboutLoathsomeStench": "Mentir sobre Fedor Repugnante"
       },
-      "KrampusPunishTheNaughty": "O Krampus rola um teste contra um alvo Travesso",
-      "LegionArchon": {
-        "FlameOfJustice": "Chama da Justiça - Acerto Crítico"
-      },
+      "KrampusPunishTheNaughty": "Krampus rola um teste contra um alvo Travesso",
       "LemureSubservience": {
         "Defend": "Defender",
         "Fetch": "Pegar",
@@ -1121,7 +1127,7 @@
         "Survival": "Para Evitar se Perder"
       },
       "Necrohulk": {
-        "AlchemicalCartridgeRuptured": "Cartucho Alquímico Rebentado"
+        "AlchemicalCartridgeRuptured": "Cartucho Alquímico Arrebentado"
       },
       "Nindoru": {
         "Meokdan": {
@@ -1147,34 +1153,60 @@
         }
       },
       "PaleStranger": {
-        "TargetMurderedPaleStranger": "O Alvo Assassinou o Forasteiro Esquálido (Pale Stranger)",
-        "TargetNeverKilled": "O Alvo Nunca Assassinou"
+        "TargetMurderedPaleStranger": "Alvo Assassinou o Forasteiro Esquálido",
+        "TargetNeverKilled": "Alvo Nunca Assassinou"
       },
       "PlanarScion": {
         "Duskwalker": {
           "HuntPrey": {
-            "AC": "Presa Designada ataca ao Crepuscular",
+            "AC": "Presa Designada ataca o Crepuscular",
             "Checks": "Crepuscular rola teste contra a sua Presa Designada"
           },
           "Immunity": "efeitos que transformariam seu corpo ou alma em mortos-vivos",
-          "SpiritHunter": "O alvo é indicado pelo Caçador de Espíritos"
+          "SpiritHunter": "Alvo é indicado pelo Caçador de Espíritos"
         }
       },
       "PoltergeistTelekineticStorm": {
-        "MultiAttackLabel": "Tempestade Telecinética - Múltiplos Alvos",
         "MultipleTargets": "Alvos Múltiplos",
         "SingleAttackEffect": "O ataque causa @Damage[1d12[untyped]] de dano em uma falha.",
-        "SingleAttackLabel": "Tempestade Telecinética - Alvo Único",
         "SingleTarget": "Alvo Único"
       },
       "PunishingStrike": {
         "Note": "O ataque imprudente faz com que o usuário fique @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do próximo turno. Ao realizar um acerto, é possível adicionar o traço @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Empurrar} ao ataque"
+      },
+      "Puppet": {
+        "Fiend": {
+          "Label": "Ínfero"
+        },
+        "Poisoner": {
+          "Label": "Veneficista",
+          "StrikeLabel": "Siringa Pequena"
+        },
+        "Smart": {
+          "Label": "Inteligente"
+        },
+        "Strong": {
+          "Label": "Forte",
+          "Shield": "Escudo Pequeno",
+          "StrikeLabel": "Espada Pequena"
+        },
+        "Swift": {
+          "StrikeLabel": "Adaga Pequena"
+        },
+        "Undead": {
+          "Label": "Morto-Vivo"
+        }
       },
       "RaptorGuardWight": {
         "TerrorMaster": "A Guarda de Raptor está usando seu elmo de crânio de dinossauro."
       },
       "RebornDevotee": {
         "RebornDevoteeFocusedAssault": "Número de Perseguidos"
+      },
+      "QuantiumGolem": {
+        "Type": {
+          "Emerald": "Esmeralda"
+        }
       },
       "RuneGiant": {
         "InvokeRune": {
@@ -1202,9 +1234,6 @@
         "BrokenShell": "Carapaça Quebrada",
         "CriticalHit": "Carapaça Quebrada por um Acerto Crítico"
       },
-      "Shieldmarshal": {
-        "LawbringerSpeedLabel": "Legislador - Movendo-se para o alvo"
-      },
       "ShockerLizard": {
         "ShockingBurst": {
           "Four": "Quatro Lagartos",
@@ -1216,9 +1245,8 @@
       "Silene": {
         "LumberjacksBane": "Alvo está empunhando um machado"
       },
-      "SkyDragon": {
-        "DivineLightningGood": "Raio Divino - Dano de Bondade",
-        "DivineLightningPositive": "Raio Divino - Dano de Vitalidade"
+      "SkinShifter": {
+        "AnimalForm": "Forma de Animal"
       },
       "SovereignDragon": {
         "InspireEnvoyDragonAdult": "Dragão Soberano Adulto",
@@ -1276,10 +1304,19 @@
           "UnholyAlly": "Aliado Profano"
         }
       },
+      "Vrock": {
+        "DanceOfRuin": {
+          "Four": "Quatro Vrocks",
+          "One": "Um Vrock",
+          "Round": "Dança da Ruína — Rodadas",
+          "Three": "Três Vrocks",
+          "Two": "Dois Vrocks"
+        }
+      },
       "Warsworn": {
         "AnimatedWeapon": {
-          "DamageType": "Arma Animada - Tipo de Dano",
-          "DieSize": "Arma Animada - Tamanho do Dado"
+          "DamageType": "Arma Animada — Tipo de Dano",
+          "DieSize": "Arma Animada — Tamanho do Dado"
         }
       },
       "YetiNightmareGuardianRage": "Fúria do Guardião dos Pesadelos",
@@ -1892,7 +1929,10 @@
       "Woodworking": "Carpintaria"
     },
     "SpecificLore": {
-      "Herbalism": "Saber de Herbalismo"
+      "Architecture": "Saber de Arquitetura",
+      "Demon": "Saber de Demônios",
+      "Herbalism": "Saber de Herbalismo",
+      "Warfare": "Saber de Guerra"
     },
     "SpecificRule": {
       "Acrobat": {
@@ -1960,9 +2000,6 @@
         "ResearchField": {
           "Bomber": {
             "FieldBenefit": "Ao atirar uma bomba alquímica com o traço respingo, você pode optar por causar dano de respingo apenas em seu alvo principal em vez da área habitual de respingo.",
-            "FieldVials": {
-              "RollOptionLabel": "Dano das Ampolas Versáteis"
-            },
             "GreaterFieldDiscovery": "Você pode aumentar a área de respingo de suas bombas para causar dano a criaturas a até 10 pés do alvo principal, ou 15 pés se possuir Respingo Expandido."
           },
           "Chirurgeon": {
@@ -1984,11 +2021,6 @@
           }
         }
       },
-      "AldoriDuelist": {
-        "DuelistsEdge": {
-          "Note": "Você pode imediatamente usar a ação Interagir para sacar sua Espada de Duelo Aldori."
-        }
-      },
       "AlkenstarAgent": {
         "LooseCannon": {
           "Note": {
@@ -1996,6 +2028,10 @@
             "Failure": "A arma de fogo falha, mas não causa os outros efeitos de falha crítica."
           }
         }
+      },
+      "AllowedDrops": {
+        "OneHandedWeapon": "arma de uma mão",
+        "ShieldOneBulk": "escudo de Volume 1 ou menos"
       },
       "Anadi": {
         "SpiderOrHybridForm": "Em forma de Aranha ou Híbrida"
@@ -2014,8 +2050,12 @@
         "Canine": "Canídeo",
         "Cat": "Felino",
         "Centipede": "Centopéia",
+        "Crab": "Caranguejo",
+        "Crocodile": "Crocodilo",
         "Deer": "Veado",
         "Frog": "Sapo",
+        "Orca": "Orca",
+        "Seal": "Foca",
         "Shark": "Tubarão",
         "Snake": "Serpente",
         "Toad": "Rã",
@@ -2063,10 +2103,14 @@
           "Brontosaurus": "Brontossauro",
           "Bull": "Touro",
           "Cat": "Felino",
+          "Crab": "Caranguejo",
+          "Crocodile": "Crocodilo",
           "Deer": "Veado",
           "Frog": "Sapo",
+          "Orca": "Orca",
           "Prompt": "Escolha um animal.",
           "Scorpion": "Escorpião",
+          "Seal": "Foca",
           "Shark": "Tubarão",
           "Snake": "Serpente",
           "Spider": "Aranha",
@@ -2481,9 +2525,6 @@
         "ChosenOfLamashtu": {
           "Prompt": "Selecione uma herança goblin."
         },
-        "CityScavenger": {
-          "EarnIncome": "Catador da Cidade - Ganhar Proventos"
-        },
         "ExtraSquishy": {
           "Note": "Quando rolar um sucesso em Espremer-se, trate o resultado como um sucesso crítico."
         },
@@ -2540,9 +2581,7 @@
       "HuntPrey": {
         "FirstHitDamage": "Primeiro acerto à Presa Caçada",
         "FirstHitSwitch": "Acertando Presa Caçada pela primeira vez na rodada",
-        "SeekHuntedPrey": "Para Buscar presa caçada",
-        "TargetHuntedPrey": "Alvo é sua Presa Caçada",
-        "TrackHuntedPrey": "Para Rastrear presa caçada"
+        "TargetHuntedPrey": "Alvo é sua Presa Caçada"
       },
       "InCombat": {
         "ToggleLabel": "Em Combate"
@@ -2770,8 +2809,11 @@
               "Title": "Guarda"
             },
             "Push": {
-              "Title": "Impelir"
+              "Title": "Empurrar"
             }
+          },
+          "Guidance": {
+            "Heightened": "O bônus da magia aumenta para +2."
           }
         },
         "PsiCantripLabels": {
@@ -2798,7 +2840,19 @@
         },
         "HuntersEdge": {
           "FirstAttack": "Primeiro ataque à presa caçada na rodada",
+          "Flurry": {
+            "Label": "Excelência de Caçador: Rajada"
+          },
+          "Outwit": {
+            "Label": "Excelência de Caçador: Despiste"
+          },
+          "Precision": {
+            "Label": "Precisão"
+          },
           "Prompt": "Selecione uma excelência de caçador."
+        },
+        "MasterfulHunter": {
+          "Label": "Caçador Magistral"
         }
       },
       "Rogue": {
@@ -2989,6 +3043,14 @@
       "SpellmastersResilience": {
         "Prompt": "Selecione uma tradição mágica para ganhar resistência."
       },
+      "Spellshape": {
+        "CodexofDestructionAndRenewal": {
+          "RollOptionLabel": {
+            "Damage": "Dano",
+            "Healing": "Cura"
+          }
+        }
+      },
       "StarlitSentinel": {
         "Constellation": {
           "Archer": "Arqueiro"
@@ -3061,6 +3123,9 @@
           },
           "Mirror": {
             "Label": "Espelho"
+          },
+          "Shield": {
+            "Label": "Escudo"
           },
           "Wand": {
             "Label": "Varinha"
@@ -3141,7 +3206,10 @@
               "Title": "Familiar da Noite Perseguidora"
             }
           },
-          "Prompt": "Selecione um patrono."
+          "Prompt": "Selecione um patrono.",
+          "Theme": {
+            "TheResentment": "O Ressentimento"
+          }
         },
         "WildWitchsArmaments": {
           "LivingHair": {

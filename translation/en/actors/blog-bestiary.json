@@ -203,6 +203,8 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.UCH4myuFnokGv0vF]\n+1 Sling"
         },
         "equipment->Snare Kit (Specialist)": {
+          "name": "Snare Kit (Specialist)",
+          "description": "<p>This kit contains tools and materials for creating snares. A snare kit allows you to Craft snares using the Crafting skill. A specialist snare kit gives you a +1 item bonus to the check.</p>",
           "rules": {
             "0": {
               "label": "Snare Kit (Craft snares)"
@@ -211,11 +213,11 @@
         },
         "consumable->Biting Snare": [
           {
-            "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.9EZb1hmSKOGrU4Cf]\n<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a @Check[reflex|dc:18].</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>",
+            "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.9EZb1hmSKOGrU4Cf]\n<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a @Check[reflex|dc:18].</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a –10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>",
             "id": "4el41cxVehrBegnC"
           },
           {
-            "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.9EZb1hmSKOGrU4Cf]\n<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a @Check[reflex|dc:18].</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a -10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>",
+            "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.9EZb1hmSKOGrU4Cf]\n<p>The snare's jaws shut on the leg of a creature that steps on it. The snare deals 5d6 piercing damage to the first creature that enters its square; that creature must attempt a @Check[reflex|dc:18].</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and takes a –10-foot status penalty to its Speed until it recovers at least 1 Hit Point.</p>",
             "id": "DQK1Qtg8FGKgE9VA"
           }
         ],
@@ -311,7 +313,7 @@
         },
         "action->Versatile Performance": {
           "name": "Versatile Performance",
-          "description": "<p>Edolpho can use Performance instead of Diplomacy to Make an Impression and instead of Intimidation to Demoralize. He can also use an acting Performance instead of Deception to Impersonate.</p>"
+          "description": "<p>Edolpho can use Performance instead of Diplomacy to [[/act make-an-impression statistic=performance]] and instead of Intimidation to [[/act demoralize statistic=performance]]. He can also use an acting Performance instead of Deception to [[/act impersonate statistic=performance]].</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Edolpho deals an extra 1d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
@@ -387,11 +389,11 @@
         },
         "action->Breath Weapon": {
           "name": "Breath Weapon",
-          "description": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a @Template[line|distance:100] that deals @Damage[16d6[fire]|options:area-damage] damage (@Check[reflex|dc:41|basic] save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an @Template[cone|distance:80] of sleep gas. Each creature within the cone must succeed at a @Check[fortitude|dc:41] save or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} for [[/gmr 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li>\n</ul>"
+          "description": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a @Template[line|distance:100] that deals @Damage[16d6[fire]|options:area-damage] damage (@Check[reflex|dc:41|basic|options:area-effect] save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an @Template[cone|distance:80] of sleep gas. Each creature within the cone must succeed at a @Check[fortitude|dc:41|options:area-effect,inflicts:unconscious] save or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} for [[/gmr 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li>\n</ul>"
         },
         "action->Desert Wind": {
           "name": "Desert Wind",
-          "description": "<p><strong>Frequency</strong> three times per day.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls upon the desert wind. This has the same effect as @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:39]) but in a @Template[cone|distance:60]. A creature that fails its save is also blinded until the end of its next turn (or for 1 minute on a critical failure).</p>"
+          "description": "<p><strong>Frequency</strong> three times per day.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls upon the desert wind. This has the same effect as @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:39|options:area-effect,inflicts:blinded]) but in a @Template[cone|distance:60]. A creature that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn (or for 1 minute on a critical failure).</p>"
         },
         "action->Draconic Frenzy": {
           "name": "Draconic Frenzy",
@@ -908,7 +910,7 @@
         },
         "action->Kobold Breath": {
           "name": "Kobold Breath",
-          "description": "<p>Urok breathes a poisonous mist that deals @Damage[5d4[poison]|options:area-damage] damage in a @Template[cone|distance:15] (@Check[fortitude|dc:25|basic] save).</p>\n<p>He can't use Kobold Breath again for [[/gmr 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Urok breathes a poisonous mist that deals @Damage[5d4[poison]|options:area-damage] damage in a @Template[cone|distance:15] (@Check[fortitude|dc:25|basic|options:area-effect] save).</p>\n<p>He can't use Kobold Breath again for [[/gmr 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
         },
         "action->Mastermind": {
           "name": "Mastermind",

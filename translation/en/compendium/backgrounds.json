@@ -54,6 +54,13 @@
         "Rope Lore"
       ]
     },
+    "Aeronaut": {
+      "name": "Aeronaut",
+      "description": "<p>You have mastered the techniques for piloting all manner of airships—balloons, dirigibles, winged vehicles, or something altogether more fantastical. You have developed expertise in using these vehicles for transport, exploration, and battle. You live for the majestic view these vehicles provide high above the fray and can harness the winds that fill the skies.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Athletics skill and the Piloting Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} skill feat with Piloting Lore.</p>",
+      "trainedLore": [
+        "Piloting Lore"
+      ]
+    },
     "Aiudara Seeker": {
       "name": "Aiudara Seeker",
       "description": "<p><strong>[Legacy - Age of Ashes]</strong></p>\n<p>The aiudara of Alseta's Ring have become more well known, and you are interested in learning more about them.</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Arcana skill and the Portal Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.IlOQuCQIhjJpig3S]{Quick Identification} skill feat.</p>",
@@ -141,6 +148,10 @@
       "trainedLore": [
         "Guild"
       ]
+    },
+    "Arcane Revolutionary": {
+      "name": "Arcane Revolutionary",
+      "description": "<p>You have fought against oppressive leaders and governments, harnessing ancient magical energies to help liberate your community from much larger, better-resourced armies. Using magical methods to harass and sabotage your oppressors, you've learned to take advantage of their blind spots and use their own resources against them.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Arcana skill and the Lore skill related to the settlement you liberated. You gain the @UUID[Compendium.pf2e.feats-srd.Item.IlOQuCQIhjJpig3S]{Quick Identification} skill feat.</p>"
     },
     "Archaeologist": {
       "name": "Archaeologist",
@@ -286,9 +297,30 @@
         "Legal Lore"
       ]
     },
+    "Battle Mechanic": {
+      "name": "Battle Mechanic",
+      "description": "<p>All vehicles eventually break down, from both wear and tear and through contact with the enemy, and someone needs to fix them. You have experience repairing air, land, and sea vehicles of all types, and you are knowledgeable about how they function and what specialized tools they require.</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Crafting skill and the Vehicle Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{Quick Repair} skill feat.</p>",
+      "trainedLore": [
+        "Vehicle Lore"
+      ]
+    },
+    "Battlefield Scrounger": {
+      "name": "Battlefield Scrounger",
+      "description": "<p>You've spent years rummaging through the corpses of armies and their equipment as soon as battles were won, seeking items from the dead that you can craft into something of value. While you've left that life behind, you've learned about warfare as well as how to create useful items from scavenged goods.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Crafting skill and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.3HChkcD1IRqv4DbA]{Improvise Tool} skill feat.</p>",
+      "trainedLore": [
+        "Warfare Lore"
+      ]
+    },
     "Beast Blessed": {
       "name": "Beast Blessed",
       "description": "<p>You once freed a magical beast from captivity and, whether it was intentional or a byproduct of another action, the grateful creature bestowed a blessing of freedom upon you. Your blessing manifests physically, perhaps as elongated canines, fingernails that grow to a sharp point, excess body hair, or some other feature. This physical manifestation is cosmetic and provides no benefit.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You are trained in the Survival skill. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.CCMemaB1RoVa0aOu]{Bestial Clarity} reaction.</p>"
+    },
+    "Beast Seeker": {
+      "name": "Beast Seeker",
+      "description": "<p>From jagged reefs to trackless forests to volcanoes dusted by snow even at this low latitude, Iblydos is home to fearsome creatures willing to eat civilians and snap ships in half. There might be no greater place to test one's monster-hunting credentials than this archipelago, much as countless hero-gods have done over the millennia. Perhaps you traveled here to learn how to slay leviathans and better defend your homeland from some bestial threat. You might instead value the esoteric properties of the slain creatures, knowing the alchemical potential of a hydra's eye or a medusa's venom. Whatever your motivation, you have honed tactics to trip and even tackle massive monsters.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p>\n<p>You're trained in either the Athletics or Thievery skill, as well as the Legendary Beast Lore skill. If you choose Athletics, you gain the @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{Titan Wrestler} skill feat. If you choose Thievery, you gain the @UUID[Compendium.pf2e.feats-srd.Item.5eNKs6738aykAhK2]{Dirty Trick} skill feat.</p>",
+      "trainedLore": [
+        "Legendary Beast Lore"
+      ]
     },
     "Bekyar Restorer": {
       "name": "Bekyar Restorer",
@@ -464,6 +496,10 @@
         "Island Lore"
       ]
     },
+    "Child of the Polis": {
+      "name": "Child of the Polis",
+      "description": "<p>You're a longtime Kardaji Bay resident. Rather than explore distant lands, you've strengthened your connection to Iblydos, learning its little-known secrets and making friends in every port. You know the cadence and body language needed to set strangers at ease and communicate belonging, making it easy to track down deals and leads. Who needs wealth and glory when they can revel in Iblydos's eclectic culture? That said, if anything threatens the isles, you'll be ready to rally your neighbors and fight back.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in either the Diplomacy or Society skill, as well as the Lore skill associated with one Iblydan city-state (Pol-Bailax or Pol-Dhuraxilis is recommended). If you choose Diplomacy, you gain the @UUID[Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om]{Bargain Hunter} skill feat. If you choose Society, you gain the @UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]{Streetwise} skill feat.</p>"
+    },
     "Child of the Puddles": {
       "name": "Child of the Puddles",
       "description": "<p><strong>Prerequisite</strong> Region - Absalom and Starstone Isle</p>\n<hr />\n<p>You grew up in the soggy, squalid quarter of Absalom known as the Puddles. You're at home in tightly packed urban environments.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Acrobatics skill, and the Absalom Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{Steady Balance} skill feat.</p>",
@@ -541,6 +577,17 @@
         "Cryptography"
       ]
     },
+    "Combat Carpenter": {
+      "name": "Combat Carpenter",
+      "description": "<p>You have spent countless hours selecting lumber, drafting designs, and constructing all manner of wooden buildings, shields, weapons, and tools. You can readily identify the weak spots in wooden fortifications and determine the best ways to bolster or attack them.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Crafting skill and the Engineering Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty Crafting} skill feat.</p>",
+      "trainedLore": [
+        "Engineering Lore"
+      ]
+    },
+    "Combat Chaplain": {
+      "name": "Combat Chaplain",
+      "description": "<p>As a member of the clergy, you have been responsible for tending to the spiritual and moral well-being of soldiers and their families. While you may have been a follower of a specific deity, you acted as an ambassador of the church overall, providing religious support in a religiously pluralistic and diverse setting. You provided counsel and took on the role of critical friend, mediator, and reconciler for those under your charge. You may have been called to lead worship, perform weddings, and conduct funerals in both nearby villages as well as remote locales.</p>\n<p>Choose two attribute boosts. One must be to <strong>Wisdom</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Religion skill and the Lore skill associated with the deity you worship. You gain the @UUID[Compendium.pf2e.feats-srd.Item.MjQyTcV8Jiv1Jtln]{Recognize Spell} skill feat.</p>"
+    },
     "Company Agent": {
       "name": "Company Agent",
       "description": "<p>When the Bountiful Venture Company first invested in the colony of Talmandor's Bounty, the backers expected to see a return on their investment. Nearly a decade later, the Company has yet to realize any profits, and so they've sent you to Ancorato to see what might be done to remedy the situation. Your employers place much of the blame on the colony's governor, Ramona Avandth, whose stubborn refusal to accelerate the investors' repayment schedule has kept the Company from the money it's rightfully due. While several of the Company's representatives—including your direct superior, Verner Tracewell—have already landed on the island, you're to serve in a more unofficial capacity, scouring the colony for mismanagement in hopes Ramona will be unseated from her position and replaced by someone more amenable to the Company's interests.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Deception skill and the Accounting Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx]{Charming Liar} skill feat.</p>",
@@ -555,6 +602,13 @@
     "Concordance Scout": {
       "name": "Concordance Scout",
       "description": "<p>You were hired by the Concordance of Elements to seek out rumors of planar breaches or other evidence of planar imbalances. After reporting back to the Concordance, they'd send agents more well equipped to deal with the situation. Still, this job has led you into more trouble than your employers suspect, and you've learned how to get your information quickly and get out relatively unscathed.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Diplomacy skill and one of the following lore skills: Plane of Air Lore, Plane of Earth Lore, Plane of Fire Lore, Plane of Metal Lore, Plane of Water Lore, or Plane of Wood Lore. You gain the @UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{Hobnobber} skill feat.</p>"
+    },
+    "Conscript": {
+      "name": "Conscript",
+      "description": "<p>Like many others in your settlement, you readily performed your duty and served in the army once you came of age. Much to the chagrin of the grizzled lifers that sought to train it out of you, you managed to retain a modicum of your naivete even as you faced the gruesome horrors of war. You've learned just enough strategy and tactics to make you dangerous.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Society skill and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{Dubious Knowledge} skill feat.</p>",
+      "trainedLore": [
+        "Warfare Lore"
+      ]
     },
     "Conservator": {
       "name": "Conservator",
@@ -753,7 +807,7 @@
     },
     "Dreams of Vengeance": {
       "name": "Dreams of Vengeance",
-      "description": "<p>You've known strife your whole life, whether on the battlefield, in the arena, or simply living your day-to-day life. When you're not thinking about your next brawl, you're turning over memories of traitorous rivals and troublesome betrayers who've wronged you in the past. The sight of your enemies broken and maimed, then, greatly appealed to you when you glimpsed through a mysterious glowing archway during the Missing Moment. But when you stepped through the gate, you found yourself back where you started, with no indications of your exacted revenge anywhere in sight. You nearly burned down the countryside in frustrated rage, only realizing afterward the magnitude of the fiery new power you wielded. Fiery rays of energy you could shoot from your eyes—these, no doubt, would come in handy.</p>\n<p>Your deviant abilities are of the dragon classification. You gain the @UUID[Compendium.pf2e.feats-srd.Item.TtAvM02UvfNaXeXd]{Blasting Beams} deviant feat with the fire type. As a quirk, your pupils are shaped like curved arches. When you use a deviant ability, the centers of your pupils shine with light, like the glowing gateways of the Missing Moment.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Athletics skill and the Gladiator Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{Titan Wrestler} skill feat.</p>",
+      "description": "<p>You've known strife your whole life, whether on the battlefield, in the arena, or simply living your day-to-day life. When you're not thinking about your next brawl, you're turning over memories of traitorous rivals and troublesome betrayers who've wronged you in the past. The sight of your enemies broken and maimed, then, greatly appealed to you when you glimpsed it through a mysterious glowing archway during the Missing Moment. But when you stepped through the gate, you found yourself back where you started, with no indications of your exacted revenge anywhere in sight. You were nearly consumed by frustrated rage, realizing only afterward the magnitude of the new power you wielded. Fiery rays of energy you can shoot from your eyes or the ability to swat away your foes with the flick of your wrist—these, no doubt, would come in handy.</p>\n<p>Your deviant abilities are of either the dragon or the troll classification. If you choose dragon, you gain the @UUID[Compendium.pf2e.feats-srd.Item.TtAvM02UvfNaXeXd]{Blasting Beams} deviant feat with the fire type. If you choose troll, you gain the @UUID[Compendium.pf2e.feats-srd.Item.QN7y2CQeiJ2iPioM]{Titan Swing} deviant feat. As a quirk, your pupils are shaped like curved arches. When you use a deviant ability, the centers of your pupils shine with light, like the glowing gateways of the Missing Moment.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Athletics skill and the Gladiator Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{Titan Wrestler} skill feat.</p>",
       "trainedLore": [
         "Gladiator Lore"
       ]
@@ -1114,6 +1168,13 @@
         "Underworld Lore"
       ]
     },
+    "Glory Hound": {
+      "name": "Glory Hound",
+      "description": "<p>Eventually, even the greatest hero-god must die. Yet many live eternally through song, poetry, shrines, and art. Even though Iblydos isn't producing new hero-gods, its people know how to appreciate and commemorate a real hero. You hope to seize that same immortality through exceptional deeds and a little luck. If everything goes to plan, you'll retire rich and famous, looking good all the while. If the fates turn against you, at the very least you know tales of your exploits will dazzle audiences for ages.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in either the Intimidation or Performance skill, as well as the Games Lore skill. If you choose Intimidation, you gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat. If you choose Performance, you gain the @UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{Impressive Performance} skill feat.</p>",
+      "trainedLore": [
+        "Games Lore"
+      ]
+    },
     "Goblinblood Orphan": {
       "name": "Goblinblood Orphan",
       "description": "<p><strong>Prerequisite</strong> Region - Old Cheliax</p>\n<hr />\n<p>Your family, whether goblin, hobgoblin, or human, died in the Goblinblood Wars. Though you were marked by these losses, you managed to survive through your own resilience and resourcefulness.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Survival skill and the Goblin Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} skill feat with Survival.</p>",
@@ -1406,6 +1467,13 @@
         "Kalistrade Lore"
       ]
     },
+    "Kartaji Epicurean": {
+      "name": "Kartaji Epicurean",
+      "description": "<p>Each city-state hides enough secrets to occupy an adventurer for a lifetime. Even so, many seek the varied experiences and sites at each of Iblydos's eminent cities. You have toured much of Kardaji Bay and the Iblydan archipelago, be that as a trader, an envoy, or a tourist. Along the way, you've incorporated local idioms, idiosyncrasies, and ingredients into your cosmopolitan lifestyle. You've most recently reached Bailax, ready for new adventures.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in either the Crafting or Society skill and the Cooking Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} skill feat.</p>",
+      "trainedLore": [
+        "Cooking Lore"
+      ]
+    },
     "Keys to Destiny": {
       "name": "Keys to Destiny",
       "description": "<p>From as far back as you can remember, it seems you were always meant to enter a specific industry or profession, be it artistry, engineering, farming, herbalism, labor, merchantry, scribing, theater, or warfare. Perhaps your parents belonged to this profession and encouraged you to follow in their footsteps, or maybe a personal hero of yours inspired you to take up their calling in honor of their accomplishments. Whatever the reason, the skills associated with that profession came naturally to you, but as time wore on and you grew older, you began to realize that this profession, while interesting to you, isn't what you want to do with your life. The lure of glory and adventure beckons. You can always go back to the studio, farm, or stage once you retire, after all!</p>\n<p>This background is associated with the suit of Keys.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong>, and one is a free attribute boost. You gain the @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} skill feat and are trained in one of the following Lore skills associated with a profession, as befits your history: Art Lore, Engineering Lore, Farming Lore, Herbalism Lore, Labor Lore, Mercantile Lore, Scribing Lore, Theater Lore, or Warfare Lore. You also gain the @UUID[Compendium.pf2e.actionspf2e.Item.RxIPBjodIRm7Pd6W]{Lucky Break} free action.</p>"
@@ -1501,7 +1569,7 @@
     },
     "Lost Loved One": {
       "name": "Lost Loved One",
-      "description": "<p>You see your life as naturally divided into two chapters: in one, the love-limned, halcyon days of yesteryear, in the other, the day you lost the person most important to you, plus every aching moment thereafter. When you saw a vision of your lost loved one in a glowing portal on the night of the Missing Moment, you knew it was too good to be true. But you couldn't help yourself, either, so you walked through the door, one grasping hand outstretched in anticipation. You don't know what happened on the other side of the arch, but your hand seems to. Like a ghostly fragment of your missing loved one, you can summon an ethereal hand to reach out from your body. Though it's a pale imitation of the warmth you once felt in your dearly departed's presence, you do find this new hand somehow comforting, in a way.</p>\n<p>Your deviant abilities are of the wraith classification. You gain the @UUID[Compendium.pf2e.feats-srd.Item.C3ukUk4Js10o5IBA]{Ghostly Grasp} deviant feat. As a quirk, whenever you use a deviant ability, a low, rattling moan emanates from some unseen maw in your vicinity.</p>\n<p>Choose two attribute boosts. One must be to <strong>Wisdom</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Society skill and the Genealogy Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]{Multilingual} skill feat.</p>",
+      "description": "<p>You see your life as naturally divided into two chapters: in one, the love-limned, halcyon days of yesteryear; in the other, the day you lost the person most important to you, plus every aching moment thereafter. When you saw a vision of your lost loved one in a glowing portal on the night of the Missing Moment, you knew it was too good to be true. But you couldn't help yourself, either, so you walked through the door, one grasping hand outstretched in anticipation. You don't know what happened on the other side of the arch, but your hand seems to. Like a ghostly fragment of your missing loved one, you can summon an ethereal hand to reach out from your body. Though it's a pale imitation of the warmth you once felt in your dearly departed's presence, you do find this new hand somehow comforting, in a way.</p>\n<p>Your deviant abilities are of either the leech or the wraith classification. If you choose leech, you gain the @UUID[Compendium.pf2e.feats-srd.Item.fFVqsMseN4zA9R24]{Draining Touch} deviant feat. If you choose wraith, you gain the @UUID[Compendium.pf2e.feats-srd.Item.C3ukUk4Js10o5IBA]{Ghostly Grasp} deviant feat. As a quirk, whenever you use a deviant ability, a low, rattling moan emanates from some unseen maw in your vicinity.</p>\n<p>Choose two attribute boosts. One must be to <strong>Wisdom</strong> or <strong>Charisma</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Society skill and the Genealogy Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]{Multilingual} skill feat.</p>",
       "trainedLore": [
         "Genealogy Lore"
       ]
@@ -1586,6 +1654,13 @@
     "Martial Disciple": {
       "name": "Martial Disciple",
       "description": "<p>You dedicated yourself to intense training and rigorous study to become a great warrior. The school you attended might have been a traditionalist monastery, an elite military academy, or the local branch of a prestigious mercenary organization.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p>\n<p>You're trained in your choice of the Acrobatics or Athletics skill. You gain a skill feat: @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{Cat Fall} if you chose Acrobatics or @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{Quick Jump} if you chose Athletics. You're also trained in the Warfare Lore skill.</p>",
+      "trainedLore": [
+        "Warfare Lore"
+      ]
+    },
+    "Martial Musician": {
+      "name": "Martial Musician",
+      "description": "<p>Before you were old enough to join the actual fighting forces, you found your way onto the battlefield playing bagpipes, bugles, or drums. With these instruments of war, you helped direct troops in speed and direction, providing a pulsing cadence to push troops forward and keep them motivated.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Performance skill and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{Impressive Performance} skill feat.</p>",
       "trainedLore": [
         "Warfare Lore"
       ]
@@ -1782,6 +1857,13 @@
         "Academia Lore"
       ]
     },
+    "Obari Wanderer": {
+      "name": "Obari Wanderer",
+      "description": "<p>For millennia, the Obari Crossing has been the lifeblood of Iblydos's economy. You're no stranger to these waters, having traveled the route before and learned to feel the currents' pulse. Did you begin your career far to the west in the Impossible Lands before sailing in search of fortune? Perhaps your first voyage involved a hold full of Vudran spices, textiles, and artwork bound for Absalom's markets or beyond. You might have even grown up in Iblydos, learning to ply the Obari Ocean and guide incoming merchants past treacherous reefs. Whatever the case, you're at home at sea—a priceless boon in this scattered archipelago.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in either the Acrobatics or Survival skill, as well as the Sailing Lore skill. If you choose Acrobatics, you gain the @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{Cat Fall} skill feat. If you choose Survival, you gain the @UUID[Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3]{Terrain Expertise} skill feat (aquatic or forest terrain is recommended).</p>",
+      "trainedLore": [
+        "Sailing Lore"
+      ]
+    },
     "Occult Librarian": {
       "name": "Occult Librarian",
       "description": "<p>Hours spent reading numerous compendiums dedicated to various occult topics honed your knowledge of these more obscure magical arts. You might have taken to adventuring to finance your acquisition of rare tomes, to explore occult mysteries that can't be found in the pages of a book, or perhaps to put your skills to the test.</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Occultism skill and the Academia Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI]{Schooled in Secrets} skill feat.</p>",
@@ -1944,6 +2026,13 @@
         "Labor"
       ]
     },
+    "Plague Doctor": {
+      "name": "Plague Doctor",
+      "description": "<p>Plagues often spring from mass deaths and the vermin that multiply after such tragedies. Cities under siege can grow ill without proper nutrition and clean water. Your expertise with medicine allows you to help those afflicted by disease, and your view of the world is likely colored by seeing so much misfortune.</p>\n<p>Choose two attribute boosts. One must be in <strong>Constitution</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Medicine skill and the Herbalism Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.sMCpihnBEpx18GBD]{Inoculation} skill feat.</p>",
+      "trainedLore": [
+        "Herbalism Lore"
+      ]
+    },
     "Planar Migrant": {
       "name": "Planar Migrant",
       "description": "<p>Your birthplace was on one of the elemental planes, but you traveled to the Universe for some reason. Maybe you left on good terms, or maybe you were driven out and hope to one day return. Maybe you were even exiled, and any mention of it brings pain and resentment. In any case, nowhere has quite felt like home since, and you've roamed the land, carrying your life's possessions on your back wherever you go. You adventure possibly in search of a place to belong or a way to return to your plane of origin and settle unfinished business.</p>\n<p>Choose two attribute boosts. One must be <strong>Dexterity</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Athletics skill and one of the following lore skills: Plane of Air Lore, Plane of Earth Lore, Plane of Fire Lore, Plane of Metal Lore, Plane of Water Lore, or Plane of Wood Lore. You gain the @UUID[Compendium.pf2e.feats-srd.Item.C0Tcelg3BAPhML6J]{Hefty Hauler} and @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{Prescient Planner} skill feats.</p>"
@@ -2042,6 +2131,13 @@
         "Funeral"
       ]
     },
+    "Quartermaster": {
+      "name": "Quartermaster",
+      "description": "<p>An army marches on its stomach, and you have been on the forefront of ensuring your troops were properly fed and supplied. Through your logistical expertise, you understand that it can be vital to keep a tight fist around necessary supplies. And when soldiers ask for items without the proper clearance, you know how to turn them away with a withering look.</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Intimidation skill and the Legal Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat.</p>",
+      "trainedLore": [
+        "Legal Lore"
+      ]
+    },
     "Quick": {
       "name": "Quick",
       "description": "<p><strong>Prerequisite</strong> Region - Impossible Lands</p>\n<hr />\n<p>Staying alive among the scheming, ravenous undead of Geb required a deep knowledge of their motivations, capabilities, and weaknesses. More often than not, it also required the ability to weave alibis and life-preserving half-truths capable of swaying a stilled heart.</p>\n<p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Deception skill and the Undead Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx]{Charming Liar} skill feat.</p>",
@@ -2116,6 +2212,13 @@
     "Remittance Agent": {
       "name": "Remittance Agent",
       "description": "<p>When money, goods, or merchandise need to be moved over great distances, remittance agents are better and more trustworthy than your local mercenary. You know the ins and outs of trading routes and the protocols that come with them. While some might consider you a standard adventurer or mercenary, you know you can get the job done better and safer than anyone else.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in Society, and either Labor Lore or Mercenary Lore. You gain the Experienced Professional skill feat.</p>"
+    },
+    "Report Runner": {
+      "name": "Report Runner",
+      "description": "<p>During times of war, armies might venture far from the seats of government that send them out or get separated from their commanders by the terrain. Thanks to your riding skill and affinity with the animals that serve as mounts, you were tasked with carrying reports of an ongoing war from one place to another. Speed was of utmost importance, and sometimes you would need to spend days in the saddle.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Nature skill and the Stabling Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.gArdEleFCvUHtdGk]{Express Rider} skill feat.</p>",
+      "trainedLore": [
+        "Stabling Lore"
+      ]
     },
     "Reputation Seeker": {
       "name": "Reputation Seeker",
@@ -2379,7 +2482,7 @@
     },
     "Sense of Belonging": {
       "name": "Sense of Belonging",
-      "description": "<p>Home is all you've ever wanted. But home, whatever that means to you, has always been a step out of reach. On the night of the Missing Moment, you saw loving figures with outstretched arms, beckoning you toward a warm hearth just inside a glowing archway. On the other side of the portal, though, you found only missing memories and lost time, your feet back at the very spot where you started. Perhaps your heart was broken that night, or perhaps you met your mission to find a suitable community with renewed zeal. Either way, you haven't felt quite \"whole\" since your gatewalker experience. Your new ability to momentarily disappear onto another plane of existence only reinforces this feeling of emptiness.</p>\n<p>Your deviant abilities are of the wraith classification. You gain the @UUID[Compendium.pf2e.feats-srd.Item.jPWF8Xe0UqVvbeyv]{Eerie Flicker} deviant feat. As a quirk, whenever you use a deviant ability, plants around you spontaneously bloom and then wilt, as if rapidly aging.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Survival skill and the Scouting Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.8qebBeOJsyRIchcu]{Forager} skill feat.</p>",
+      "description": "<p>Home is all you've ever wanted. But home, whatever that means to you, has always been a step out of reach. On the night of the Missing Moment, you saw loving figures with outstretched arms, beckoning you toward a warm hearth just inside a glowing archway. On the other side of the portal, though, you found only missing memories and lost time, your feet back at the very spot where you started. Perhaps your heart was broken that night, or perhaps you met your mission to find a suitable community with renewed zeal. Either way, you haven't felt quite whole since your gatewalker experience. Your new ability to momentarily disappear onto another plane of existence only reinforces this feeling of emptiness.</p>\n<p>Your deviant abilities are of either the flicker or the wraith classification. If you choose flicker, you gain the @UUID[Compendium.pf2e.feats-srd.Item.SC5oZbyvLO5CQwhl]{Sonic Dash} deviant feat. If you choose wraith, you gain the @UUID[Compendium.pf2e.feats-srd.Item.jPWF8Xe0UqVvbeyv]{Eerie Flicker} deviant feat. As a quirk, whenever you use a deviant ability, plants around you spontaneously bloom and then wilt, as if rapidly aging.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Intelligence</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Survival skill and the Scouting Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.8qebBeOJsyRIchcu]{Forager} skill feat.</p>",
       "trainedLore": [
         "Scouting Lore"
       ]
@@ -2638,6 +2741,13 @@
         "Cooking Lore"
       ]
     },
+    "Student of Apotheosis": {
+      "name": "Student of Apotheosis",
+      "description": "<p>From subjects of worship to forces of nature that literally reshaped the region, hero-gods are central to Iblydan identity. While every child learns at least a little about their city-state's divinities from the past and present, you have devoured these legends. Do you long to have witnessed their miracles firsthand? Have you studied this topic as an academic, archivist, or priest? Perhaps you just love a good story. Whatever the case, these legends speak to you on an ineffable level. Are the fates hinting at some secret destiny: perhaps you're becoming a hero-god of old?</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in either the Occultism or Religion skill, as well as the Hero-God Lore skill. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.T8ZnkumXGAbqsOqt]{My Legend Must Be Told} action. Replace this with the @UUID[Compendium.pf2e.actionspf2e.Item.wdLdqMu0S90Kc7gj]{Mythic Echo} action when you gain a mythic calling.</p>",
+      "trainedLore": [
+        "Hero-God Lore"
+      ]
+    },
     "Student of Archery": {
       "name": "Student of Archery",
       "description": "<p>Elves are known to be talented and gifted archers. Whether you grew up in elven society or sought one out for training, you've studied the secrets of ranged combat with some of the best teachers elves have to offer. While traditionally these secrets are focused on the practice of archery, you may have instead focused your studies in a different way to maximize and enhance your skills with any number of diverse ranged weapons, from simple ones like slings or javelins to less common weapons like pistols or rifles—or any ranged weapon in between. You didn't stop at learning these secrets for yourself, though—you've spent time traveling the world to bring this lore to other worthy students across the Inner Sea region and beyond. A big part of your lectures and lessons involves stories of famous archers from the past, and one of your favorites is the legendary elven archer Jelarial, who (with her magical bow Wintershot) helped lead a group of elves north into the Crown of the World to escape the coming devastation of Earthfall eons ago. During your travels, you've often had to resort to stealth when traveling through dangerous areas, a skill that also greatly aids your ability to find a hiding spot to lie in wait when hunting prey for food or sniping foes from afar—these tactics too have influenced how you teach your students. Now, though, you've come to Kyonin, be it a return home after your travels or to offer your skills to new students.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Stealth skill and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{Terrain Stalker} skill feat and have focused your abilities on a specific type of ranged weapon. Choose a ranged weapon (subject to GM approval). For the purposes of proficiency, if your choice is a martial weapon, you treat it as a simple weapon; if it's an advanced weapon, you treat it as a martial weapon. With this weapon, you ignore the penalty for making ranged attacks within your second range increment, and at 5th level, whenever you get a critical hit with this weapon, you get its critical specialization effect.</p>",
@@ -2799,7 +2909,7 @@
     },
     "Total Power": {
       "name": "Total Power",
-      "description": "<p>Whether you desire simple security after a life of uncertainty or you're actually just a control freak, power over your own fate is the thing you've always wanted. On the night of the Missing Moment, you glimpsed such power amid the light of a glowing archway, and you stepped through, eager to claim control over your destiny. What happened next, you don't remember—you came to at the same place you'd started, though clearly a lot of time had passed. Ever since that night, your body has felt heavier than before. You soon discovered that you could will your very bones into extending from your flesh like thorns from a rose's stem. Though you didn't choose the title gatewalker for yourself, you're sure you can use your strange new power to exercise control over your life.</p>\n<p>Your deviant abilities are of the troll classification. You gain the @UUID[Compendium.pf2e.feats-srd.Item.cy9jqlHz75GTjg7l]{Bone Spikes} deviant feat. As a quirk, whenever you use a deviant ability, the very fibers of your muscles flex and expand to impossible proportions. Your actual strength remains the same during these times, but few can deny your fearsome appearance.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Intimidation skill and the Legal Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat.</p>",
+      "description": "<p>Whether you desire simple security after a life of uncertainty or you're actually just a control freak, power over your own fate is the thing you've always wanted. On the night of the Missing Moment, you glimpsed such power amid the light of a glowing archway, and you stepped through, eager to claim control over your destiny. What happened next, you don't remember—you came to at the same place you'd started, though clearly a lot of time had passed. Since that night, you've discovered that you can will your body into manifesting an eerie, destructive ability. Though you didn't choose the title gatewalker for yourself, you're sure you can use your strange new power to exercise control over your life.</p>\n<p>Your deviant abilities are of either the dragon or the troll classification. If you choose dragon, you gain the @UUID[Compendium.pf2e.feats-srd.Item.TtAvM02UvfNaXeXd]{Blasting Beams} deviant feat with the electricity type. If you choose troll, you gain the @UUID[Compendium.pf2e.feats-srd.Item.cy9jqlHz75GTjg7l]{Bone Spikes} deviant feat. As a quirk, whenever you use a deviant ability, the fibers of your muscles flex and expand to impossible proportions, as if your mortal frame struggles to contain the impossible power within it. Your actual strength remains the same during these times, but few can deny your fearsome appearance.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Wisdom</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Intimidation skill and the Legal Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat.</p>",
       "trainedLore": [
         "Legal Lore"
       ]
@@ -2960,6 +3070,13 @@
         "Games Lore"
       ]
     },
+    "Veteran": {
+      "name": "Veteran",
+      "description": "<p>You have seen more battles than you can remember and have managed to make it through them mostly intact. Nothing surprises you anymore, except maybe when things actually go as planned. You are always pleasantly surprised when you manage to survive another day.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Athletics skill and the Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.Lc4dJZivRwU3QEmT]{Armor Assist} skill feat.</p>",
+      "trainedLore": [
+        "Warfare Lore"
+      ]
+    },
     "Vidrian Reformer": {
       "name": "Vidrian Reformer",
       "description": "<p><strong>Prerequisite</strong> Region - Mwangi Expanse</p>\n<hr />\n<p>You know that the only way your homeland of Vidrian can remain free from outside conquerors is by forging a strong and unified government. As such, you seek to bind your fellow citizens together through careful diplomacy and force of personality-or, if necessary, subterfuge and intrigue.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Diplomacy skill and the Politics Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{Hobnobber} skill feat.</p>",
@@ -2980,7 +3097,7 @@
     },
     "Wanderlust": {
       "name": "Wanderlust",
-      "description": "<p>You've traveled the world for years in search of excitement and adventure. On the night of the Missing Moment, all the many exciting occasions you've experienced paled in comparison to the vision of fantastic lands and incredible people you saw on the other side of the glowing gate. You stepped through in the hopes of finally reaching the thrilling highs you so desperately seek, but as soon as you'd gone there you were again, standing in front of a lightless gateway with a months-long gap in your memories. Frustrated at having come so close to achieving your dreams, you swung at a nearby tree, smashing it to splinters with surprising strength you never knew you had. This strange new brawn wasn't what you asked for—but it might help you pursue the excitement you crave.</p>\n<p>Your deviant abilities are of the troll classification. You gain the @UUID[Compendium.pf2e.feats-srd.Item.QN7y2CQeiJ2iPioM]{Titan Swing} deviant feat. As a quirk, whenever you use a deviant ability, your feet elongate and your leg bones crack as your lower limbs transform into those of a rabbit, wolf, or other spry, long-heeled animal.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Nature skill and the Stabling Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.gArdEleFCvUHtdGk]{Express Rider} skill feat.</p>",
+      "description": "<p>You've traveled the world for years in search of excitement and adventure. On the night of the Missing Moment, all the many exciting occasions you've experienced paled in comparison to the vision of fantastic lands and incredible people you saw on the other side of the glowing gate. You stepped through in the hopes of finally reaching the thrilling highs you so desperately seek, but as soon as you'd gone there you were again, standing in front of a lightless gateway with a months-long gap in your memories. Since then, your body has developed unusual abilities, which to this day you still struggle to control. These strange new abilities weren't what you asked for—but they might help you pursue the excitement you crave.</p>\n<p>Your deviant abilities are of either the flicker or the troll classification. If you choose flicker, you gain the @UUID[Compendium.pf2e.feats-srd.Item.xCi23uEFef9jhtlM]{Overclock Senses} deviant feat. If you choose troll, you gain the @UUID[Compendium.pf2e.feats-srd.Item.QN7y2CQeiJ2iPioM]{Titan Swing} deviant feat. As a quirk, whenever you use a deviant ability, your affected body part transforms to become more animalistic. Your eyes might change shape and color, for example, or your feet might elongate and your leg bones crack as your lower limbs transform into those of a rabbit, wolf, or other spry, long-heeled animal.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Nature skill and the Stabling Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.gArdEleFCvUHtdGk]{Express Rider} skill feat.</p>",
       "trainedLore": [
         "Stabling Lore"
       ]
@@ -2990,6 +3107,13 @@
       "description": "<p>You saw something you shouldn't have, plain and simple. The shame is that you don't even know what it is, exactly, that you saw.</p>\n<p>After moving to Alkenstar, you swiftly fell in love with the City of Smog, but you found it difficult to get a foothold in the fast-paced metropolis. Luckily, a chance invitation promised good work for someone with your unique social talents. You went to an inconspicuous chamber in a humble tower somewhere in the Capital District. There, you met some clearly powerful, clearly corrupt members of the Alkenstar elite. Among the faces you recognized were the notorious mogul Ambrost Mugland and the steely-eyed shieldmarshal Anjelique Loveless. Before you were asked to leave, you made quite an impression-but not a good one.</p>\n<p>Not only did you not make the cut for whatever kinds of jobs were on offer that day, but you soon discovered that you couldn't get a room at any inn in the city, and there were wanted posters with your name on them plastered all over town. Friends and families turned their backs on you, afraid to get involved. Clearly, someone at that meeting-Mugland, maybe, or perhaps Loveless- believed you were a liability, and they had you excised from Alkenstar society. All you want is to be able to walk the streets without fearing for your life, and there's only one way to make that happen: find the villains responsible for your predicament and get them to undo the curse now attached to your name.</p>\n<p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Society skill and the Alkenstar Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.yUuU9xyotrpwpTyC]{Read Lips} skill feat.</p>",
       "trainedLore": [
         "Alkenstar Lore"
+      ]
+    },
+    "War Orphan": {
+      "name": "War Orphan",
+      "description": "<p>The horrors of war have left you orphaned and alone, forcing you to fend for yourself until you were taught the ways of the world by a group of similarly affected youths. They were like a new family to you, but you had to live outside the law in order to survive. Those days are behind you now, but there are certain tricks you'll never forget.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Thievery skill and the Underworld Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.5eNKs6738aykAhK2]{Dirty Trick} skill feat.</p>",
+      "trainedLore": [
+        "Underworld Lore"
       ]
     },
     "Ward": {
@@ -3061,7 +3185,7 @@
     },
     "Wish for Riches": {
       "name": "Wish for Riches",
-      "description": "<p>On the night of the Missing Moment, you saw visions of fabulous riches in the gate before you. Honestly, how someone could see anything but piles of jewels and gold is utterly baffling to you. Having pined for material wealth for as long as you could remember, you practically sprang into the portal in hopes of securing your fortune. The next moment, however, you were standing right where you'd just been, though indeterminate time had passed. The night's cold hardly bothered you; in fact, you soon discovered that you could absorb the very chill in the air, in the process changing the appearance of everything around you into a sheen of finest silver. You're no richer than before you walked through the gate, unfortunately, but perhaps you could use this new power somehow to pursue your avarice anew.</p>\n<p>Your deviant abilities are of the dragon classification. You gain the @UUID[Compendium.pf2e.feats-srd.Item.9Jbl71C5C6MnOqxV]{Consume Energy} deviant feat with the cold type. As a quirk, your deviant abilities manifest in a silver hue, and when you use a deviant ability you absorb the color silver from your surroundings. The absorbed color returns to your surroundings within an hour.</p>\n<p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Thievery skill and the Games Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.hVZbnsDuXihggylt]{Subtle Theft} skill feat.</p>",
+      "description": "<p>On the night of the Missing Moment, you saw visions of fabulous riches in the gate before you. Honestly, how someone could see anything but piles of jewels and gold is utterly baffling to you. Having pined for material wealth for as long as you could remember, you practically sprang into the portal in hopes of securing your fortune. The next moment, however, you were standing right where you'd just been, though indeterminate time had passed. You're no richer than before you walked through the gate, unfortunately, but perhaps you could use the new power you've manifested since returning to pursue your dreams of avarice anew.</p>\n<p>Your deviant abilities are of either the dragon or leech classification. If you choose dragon, you gain the @UUID[Compendium.pf2e.feats-srd.Item.9Jbl71C5C6MnOqxV]{Consume Energy} deviant feat with the cold type. If you choose leech, you gain the @UUID[Compendium.pf2e.feats-srd.Item.v4N0tTGjKGMwjqUG]{Borrowed Ability} deviant feat. As a quirk, your deviant abilities manifest in a silver hue, and when you use a deviant ability you absorb the color silver from your surroundings. The absorbed color returns to your surroundings within an hour.</p>\n<p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Dexterity</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Thievery skill and the Games Lore skill. You gain the Subtle Theft skill feat.</p>",
       "trainedLore": [
         "Games Lore"
       ]
@@ -3146,6 +3270,7 @@
     "Abomination Vaults": "Abomination Vaults",
     "Age of Ashes": "Age of Ashes",
     "Agents of Edgewatch": "Agents of Edgewatch",
+    "Myth-Speaker": "Myth-Speaker",
     "Blood Lords": "Blood Lords",
     "Curtain Call": "Curtain Call",
     "Extinction Curse": "Extinction Curse",

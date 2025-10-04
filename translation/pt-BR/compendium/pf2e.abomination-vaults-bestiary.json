@@ -54,7 +54,7 @@
           "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
         },
         "spell->Touch of Idiocy": {
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         },
         "action->Magic Sense": {
           "name": "Sentido Mágico"
@@ -364,7 +364,7 @@
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
-          "target": "1 creature"
+          "target": "1 criatura"
         },
         "strike-melee->Fist": {
           "name": "Punho"
@@ -398,6 +398,9 @@
         "spell->Alarm": {
           "requirements": "3 gp silver bell focus"
         },
+        "consumable->Wand of Continuation (Mountain Resilience)": {
+          "consumableSpellTarget": "1 criatura"
+        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -430,7 +433,7 @@
     "Gulzash": {
       "items": {
         "strike-melee->Battle Lute": {
-          "name": "Battle Lute"
+          "name": "Alaúde de Batalha"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -465,7 +468,7 @@
           "consumableSpellTarget": "1 corpse"
         },
         "consumable->Wand of Force Barrage (Rank 1)": {
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -495,16 +498,7 @@
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
-          "target": "1 creature"
-        },
-        "strike-melee->Katar": {
-          "name": "Katar"
-        },
-        "strike-melee->Claw": {
-          "name": "Garra"
-        },
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
+          "target": "1 criatura"
         }
       }
     },
@@ -537,14 +531,14 @@
           "target": "si mesmo"
         },
         "spell->Protection": {
-          "target": "1 creature"
+          "target": "1 criatura"
         }
       }
     },
     "Lady's Whisper": {
       "items": {
         "spell->Touch of Idiocy": {
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         },
         "strike-melee->Claw": {
           "name": "Garra"
@@ -614,14 +608,8 @@
     },
     "Mulventok": {
       "items": {
-        "strike-melee->Tamchal Chakram": {
-          "name": "Tamchal Chakram"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
-        },
-        "strike-ranged->Tamchal Chakram": {
-          "name": "Tamchal Chakram"
         }
       }
     },
@@ -701,7 +689,7 @@
         },
         "consumable->Wand of Illusory Creature (Level 2)": {
           "consumableSpellName": "Criatura Ilusória",
-          "consumableSpellDescription": "<p>Você cria uma imagem ilusória de uma criatura Grande ou menor. Ela gera os sons e cheiros apropriados, assim como parece crível ao tato. Se você e a imagem em algum momento ficarem maisdistantes que 150 metros, a magia acaba.<p><p>A imagem não pode falar, mas você pode usar suas ações para falar através da criatura, com a magia disfarçando sua voz apropriadamente. Você pode precisar fazer um teste de Dissimulação ou Percepção para imitar a criatura, conforme determinado pelo MJ. Isto é especialmente provável se você estiver tentando imitar uma pessoa específica e interagir com alguém que a pessoa conhece.<p><p>Em combate, a ilusão pode usar 2 ações por turno, que ela usa quando você Sustenta a Magia. Ela usa sua rolagem de ataque de magia para rolagens de ataque e sua CD de magia para a CA dela. Os modificadores de jogada de salvamento dela são iguais à sua CD de magia – 10. Ela é substancial o suficiente para flanquear outras criaturas. Se a imagem for atingida por um ataque ou falhar em um salvamento, a magia é encerrada.<p><p>A ilusão pode causar dano ao fazer o alvo acreditar que os ataques dela são reais, mas não pode de alguma outra forma afetar o mundo físico. Se a criatura ilusória atingir um Golpe, o alvo sofre dano mental igual a 1d4 mais o modificador de seu atributo de conjuração. Este é um efeito mental. Os Golpes da ilusão são não-letais. Se o dano não corresponder à imagem do monstro — por exemplo, se um dragão ilusório Grande causar somente 5 de dano — o MJ pode permitir o alvo fazer um teste de Percepção para desacreditar a magia como uma ação livre. Quaisquer resistências e fraquezas relevantes se aplicam se o alvo pensar que elas o fazem, conforme julgado pelo MJ. Por exemplo, se a ilusão empunhar um martelo de guerra e atacar uma criatura resistente a dano contundente, a criatura sofreria menos dano mental. Entretanto, dano ilusório não desativa regeneração ou aciona outros efeitos que requeiram certo tipo de dano. O MJ deve acompanhar o dano ilusório causado pela ilusão.<p><p>Qualquer criatura que tocar a imagem ou usar a ação Buscar para examiná-la pode tentar desacreditar sua ilusão. Quando uma criatura desacreditar a ilusão, ela recupera metade do dano que tenha sofrido dela (se houver) e não sofre qualquer dano adicional da criatura.<p><p><strong>Elevada (+1) <strong> O dano dos Golpes da imagem aumenta em 1d4, e o tamanho máximo de criatura que você pode criar aumenta em um (até o máximo de Imenso).<p>"
+          "consumableSpellDescription": "<p>Você cria uma imagem ilusória de uma criatura Grande ou menor. Ela gera os sons e cheiros apropriados, assim como parece crível ao tato. Se você e a imagem em algum momento ficarem maisdistantes que 150 metros, a magia acaba.<p><p>A imagem não pode falar, mas você pode usar suas ações para falar através da criatura, com a magia disfarçando sua voz apropriadamente. Você pode precisar fazer um teste de Dissimulação ou Percepção para imitar a criatura, conforme determinado pelo mestre. Isto é especialmente provável se você estiver tentando imitar uma pessoa específica e interagir com alguém que a pessoa conhece.<p><p>Em combate, a ilusão pode usar 2 ações por turno, que ela usa quando você Sustenta a Magia. Ela usa sua rolagem de ataque de magia para rolagens de ataque e sua CD de magia para a CA dela. Os modificadores de jogada de salvamento dela são iguais à sua CD de magia – 10. Ela é substancial o suficiente para flanquear outras criaturas. Se a imagem for atingida por um ataque ou falhar em um salvamento, a magia é encerrada.<p><p>A ilusão pode causar dano ao fazer o alvo acreditar que os ataques dela são reais, mas não pode de alguma outra forma afetar o mundo físico. Se a criatura ilusória atingir um Golpe, o alvo sofre dano mental igual a 1d4 mais o modificador de seu atributo de conjuração. Este é um efeito mental. Os Golpes da ilusão são não-letais. Se o dano não corresponder à imagem do monstro — por exemplo, se um dragão ilusório Grande causar somente 5 de dano — O mestre pode permitir o alvo fazer um teste de Percepção para desacreditar a magia como uma ação livre. Quaisquer resistências e fraquezas relevantes se aplicam se o alvo pensar que elas o fazem, conforme julgado pelo mestre. Por exemplo, se a ilusão empunhar um martelo de guerra e atacar uma criatura resistente a dano contundente, a criatura sofreria menos dano mental. Entretanto, dano ilusório não desativa regeneração ou aciona outros efeitos que requeiram certo tipo de dano. O mestre deve acompanhar o dano ilusório causado pela ilusão.<p><p>Qualquer criatura que tocar a imagem ou usar a ação Buscar para examiná-la pode tentar desacreditar sua ilusão. Quando uma criatura desacreditar a ilusão, ela recupera metade do dano que tenha sofrido dela (se houver) e não sofre qualquer dano adicional da criatura.<p><p><strong>Elevada (+1) <strong> O dano dos Golpes da imagem aumenta em 1d4, e o tamanho máximo de criatura que você pode criar aumenta em um (até o máximo de Imenso).<p>"
         },
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -719,7 +707,7 @@
         "consumable->Wand of Magic Missile (Level 3)": {
           "consumableSpellName": "Mísseis Mágicos",
           "consumableSpellDescription": "<p>Você lança um míssil de força em direção a uma criatura em sua visão. Ele acerta automaticamente e causa 1d4+1 de dano de força. Para cada ação adicional que você usar para Conjurar esta Magia, aumente a quantidade de mísseis disparados em um, até um máximo de três mísseis para 3 ações. Você escolhe o alvo para cada míssil individualmente. Se você disparar mais de um míssil no mesmo alvo, combine o dano antes de aplicar bônus ou penalidades ao dano, resistências, fraquezas e assim por diante.</p><hr /><p><strong>Elevada (+2)</strong> Você dispara um míssil adicional com cada ação que gastar.</p>",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
@@ -829,7 +817,7 @@
         "consumable->Wand of Status (Level 2)": {
           "consumableSpellName": "Condição",
           "consumableSpellDescription": "<p>Enquanto você e o alvo estiverem no mesmo plano de existência e ambos estiverem vivos, você permanece ciente do estado atual dele. Você sabe a direção e distância do alvo em relação a você, assim como quaisquer condições que o estiverem afetando.</p><hr /><p><strong>Elevada (4º)</strong> A distância da magia aumenta para 9 metros e você pode afetar até 10 criaturas.</p>",
-          "consumableSpellTarget": "1 willing living creature"
+          "consumableSpellTarget": "1 criatura viva voluntária"
         },
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -875,9 +863,6 @@
     },
     "Siora Fallowglade": {
       "items": {
-        "action->Mark for Death": {
-          "name": "Mark for Death"
-        },
         "action->Steal Shadow": {
           "name": "Steal Shadow"
         }
@@ -913,7 +898,7 @@
     "Urdefhan Blood Mage": {
       "items": {
         "spell->Touch of Idiocy": {
-          "target": "1 living creature"
+          "target": "1 criatura viva"
         },
         "spell->Chill Touch": {
           "target": "1 living or undead creature"
@@ -946,9 +931,6 @@
       "items": {
         "spell->Feather Fall (At Will) (Self Only)": {
           "target": "si mesmo"
-        },
-        "strike-melee->Shauth Lash": {
-          "name": "Shauth Lash"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1032,7 +1014,6 @@
           "label": "Escalada"
         }
       },
-      "tokenName": "Morlock",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1062,7 +1043,7 @@
         "spell->Remove Disease": {
           "name": "Remover Doença",
           "description": "<p>Cura mágica purga uma doença do corpo de uma criatura. Você tenta neutralizar uma doença que esteja afligindo o alvo.<p>",
-          "target": "1 creature"
+          "target": "1 criatura"
         },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
@@ -1108,14 +1089,14 @@
       }
     }
   },
-	"mapping": {
+  "mapping": {
     "acDetails": "system.attributes.ac.details",
     "blurb": "system.details.blurb",
     "description": {
       "converter": "translateActorDescription",
-      "path": "system.details.description"
+      "path": "translateActorDescription"
     },
-    "disable": "system.details.disable",
+    "disable": "translateActorDescription",
     "hpDetails": "system.attributes.hp.details",
     "items": {
       "converter": "translateActorItems",

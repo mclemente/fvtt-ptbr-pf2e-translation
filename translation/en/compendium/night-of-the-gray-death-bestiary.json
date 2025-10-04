@@ -535,7 +535,7 @@
         },
         "action->Entangling Train": {
           "name": "Entangling Train",
-          "description": "<p><strong>Trigger</strong> A creature moves adjacent to the pakalchi</p>\n<hr />\n<p><strong>Effect</strong> Writhing, pitch-black vines wrap around the creature. The creature takes @Damage[1d6[slashing]] damage and takes a -15-foot circumstance penalty to its Speeds until the end of its next turn.</p>"
+          "description": "<p><strong>Trigger</strong> A creature moves adjacent to the pakalchi</p>\n<hr />\n<p><strong>Effect</strong> Writhing, pitch-black vines wrap around the creature. The creature takes @Damage[1d6[slashing]] damage and takes a –15-foot circumstance penalty to its Speeds until the end of its next turn.</p>"
         },
         "action->Betrayal Toxin": {
           "name": "Betrayal Toxin",
@@ -566,7 +566,7 @@
         },
         "action->Strike as One": {
           "name": "Strike as One",
-          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:30|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[(2d8+2)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]] damage.</p>"
+          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:30|basic|options:area-effect] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[(2d8+2)[bludgeoning]|options:area-damage] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]|options:area-damage] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]|options:area-damage] damage.</p>"
         },
         "action->Troop Movement": {
           "name": "Troop Movement",
@@ -719,7 +719,7 @@
         },
         "action->Entombing Echoes": {
           "name": "Entombing Echoes",
-          "description": "<p>A creature struck by the tumblak's fist or impacted by Claustrophobic Nightmares must succeed on a @Check[will|dc:44] save or feel itself confined on all sides. The creature is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until it Escapes (DC 44).</p>"
+          "description": "<p>A creature struck by the tumblak's fist or impacted by Claustrophobic Nightmares must succeed on a @Check[will|dc:44] save or feel itself confined on all sides. The creature is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until it [[/act escape dc=44]]{Escapes}.</p>"
         },
         "action->Skip Between": {
           "name": "Skip Between",

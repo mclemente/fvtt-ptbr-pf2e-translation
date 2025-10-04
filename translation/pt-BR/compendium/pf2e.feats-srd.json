@@ -1,8 +1,9 @@
 {
-  "label": "Equipamentos",
+  "label": "Talentos",
   "entries": {
     "A Home in Every Port": {
-      "description": "<p><strong>Prerequisites</strong> Charisma 16</p> <hr> <p>You have a reputation in towns and villages you’ve visited, and residents are always willing to open their doors to you.</p> <p>When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost.</p> <p>After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</p>",
+      "name": "Um Lar em Cada Porto",
+      "description": "<p>Você tem uma reputação nas cidades e vilarejos que visitou, e os residentes sempre estão dispostos a abrir suas portas para você.</p>\n<p>Quando estiver em uma cidade ou vilarejo, durante o recesso, você pode gastar 8 horas para localizar um residente disposto a fornecer alojamento para você e até seis aliados por até 24 horas sem custo. O padrão de vida na hospedagem adquirida é confortável e refeições completas são fornecidas sem custo.</p>\n<p>Após 24 horas, você deve pagar os preços padrão ou usar novamente este talento para encontrar um novo residente disposto a hospedá-lo.</p>",
       "prerequisites": [
         {
           "value": "Carisma +3"
@@ -228,12 +229,7 @@
     },
     "Adhyabhau": {
       "name": "Adhyabhau",
-      "description": "<p>Você descende dos raros vampiros psíquicos conhecidos como vetalaranas. Seus ancestrais sobreviviam da energia mental e emocional de criaturas vivas, que se\nmanifesta em você como uma poderosa resistência a esses efeitos.</p>\n<p>Você recebe +1 de bônus de circunstância em salvamentos de Vontade contra efeitos com o traço emoção, e quando rolar um sucesso em um salvamento contra um efeito desses, trate o resultado como um sucesso crítico</p>",
-      "rules": {
-        "1": {
-          "text": "<em>@Localize[PF2E.SpecificRule.Dhampir.Adhyabhau.SaveNote]</em>"
-        }
-      }
+      "description": "<p>Você descende dos raros vampiros psíquicos conhecidos como vetalaranas. Seus ancestrais sobreviviam da energia mental e emocional de criaturas vivas, que se\nmanifesta em você como uma poderosa resistência a esses efeitos.</p>\n<p>Você recebe +1 de bônus de circunstância em salvamentos de Vontade contra efeitos com o traço emoção, e quando rolar um sucesso em um salvamento contra um efeito desses, trate o resultado como um sucesso crítico</p>"
     },
     "Adopted Ancestry": {
       "name": "Ancestralidade Adotada",
@@ -568,6 +564,20 @@
         }
       ]
     },
+    "Aldori Swordlord": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
+    "Aldori's Retort": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
     "Alkenstar Agent Dedication": {
       "description": "<p><strong>Access</strong> You have been initiated by the grand duchess of Alkenstar or one of her agents.</p>\n<hr />\n<p>You put on the persona of a rough and tumble outlaw, but your real goals are to report threats to Alkenstar back to the grand duchess. You become an expert in Deception and trained in your choice of Underworld Lore or Legal Lore; if you were already trained, you become an expert instead. You gain the @UUID[Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.ttkG4geKXTao5pku]{Alkenstar Agent} archetype.</p>"
     },
@@ -801,6 +811,13 @@
     "Aquatic Eyes": {
       "description": "<p>As your connection to water grows, you can see more easily in places with less light, such as the depths of the ocean. You gain @UUID[Compendium.pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision.</p>\n<hr />\n<p><strong>Special</strong> If your ancestry has neither low-light vision nor darkvision, you can take this ancestry feat a second time to gain darkvision. You can't retrain out of this feat.</p>"
     },
+    "Arcana of Iron": {
+      "prerequisites": {
+        "1": {
+          "value": "Golpeia Bespells"
+        }
+      }
+    },
     "Arcane Breadth": {
       "name": "Amplitude Arcana",
       "description": "<p>Seus estudos minuciosos permitem que você lance mais magias arcana por dia. Aumente os espaços de magia que você ganha dos talentos de arquétipo de mago em 1 para cada nível de magia que não seja seus dois mais altos espaços de magia de mago.</p>",
@@ -906,7 +923,7 @@
     },
     "Ardent Armiger": {
       "name": "Armígero Ardente",
-      "description": "<p> <strong>Arquétipo</strong> Armígero dos Cavaleiro Infernais <strong>Pré-Requisitos</strong> Dedicação de Cavaleiros Infernais Armígero </span></p> <hr> <p>Você foi treinado para resistir às manipulações de ínferos, e sua disciplina de Cavaleiro Infernal o torna difícil de influenciar. Você recebe +1 de bônus de circunstância em salvamentos contra efeitos mentais que especificamente melhoram sua atitude e em sua CD de Vontade contra alguém o Coagindo, Desmoralizando, Impressionando ou Pedindo algo.  Se um efeito mental fosse o compelir a agir de maneira que viole os princípios de sua ordem dos Cavaleiros Infernais (conforme determinado pelo MJ), você pode tentar se liberar do efeito como uma reação acionada ao receber a ordem que causa a violação, e você recebe um novo salvamento de Vontade contra o efeito. Você pode tentar este novo salvamento somente uma vez por efeito, mesmo que seja compelido a violar os princípios de sua ordem várias vezes.</p>",
+      "description": "<p> <strong>Arquétipo</strong> Armígero dos Cavaleiro Infernais <strong>Pré-Requisitos</strong> Dedicação de Cavaleiros Infernais Armígero </span></p> <hr> <p>Você foi treinado para resistir às manipulações de ínferos, e sua disciplina de Cavaleiro Infernal o torna difícil de influenciar. Você recebe +1 de bônus de circunstância em salvamentos contra efeitos mentais que especificamente melhoram sua atitude e em sua CD de Vontade contra alguém o Coagindo, Desmoralizando, Impressionando ou Pedindo algo.  Se um efeito mental fosse o compelir a agir de maneira que viole os princípios de sua ordem dos Cavaleiros Infernais (conforme determinado pelo mestre), você pode tentar se liberar do efeito como uma reação acionada ao receber a ordem que causa a violação, e você recebe um novo salvamento de Vontade contra o efeito. Você pode tentar este novo salvamento somente uma vez por efeito, mesmo que seja compelido a violar os princípios de sua ordem várias vezes.</p>",
       "prerequisites": [
         {
           "value": "Dedicação de Cavaleiro Infernal Armígero"
@@ -1212,7 +1229,12 @@
     },
     "Bargain Hunter": {
       "name": "Pechinchador",
-      "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Ganhar Provento} usando Diplomacia, passando seus dias caçando por pechinchas e revendendo com lucro. Você também pode passar tempo especificamente farejando uma grande pechincha em um item; isso funciona como se você estivesse ganhando provento com Diplomacia, exceto que, em vez de ganhar dinheiro, você compra o item com desconto igual ao dinheiro que teria ganho, ganhando o item de graça se o seu provento igualar ou exceder seu custo. Por fim, se você selecionar Pechinchador durante a criação do personagem no 1º nível, você começa a jogar com mais 2 pp adicionais.</p>"
+      "description": "<p>Você pode @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Ganhar Provento} usando Diplomacia, passando seus dias caçando por pechinchas e revendendo com lucro. Você também pode passar tempo especificamente farejando uma grande pechincha em um item; isso funciona como se você estivesse ganhando provento com Diplomacia, exceto que, em vez de ganhar dinheiro, você compra o item com desconto igual ao dinheiro que teria ganho, ganhando o item de graça se o seu provento igualar ou exceder seu custo. Por fim, se você selecionar Pechinchador durante a criação do personagem no 1º nível, você começa a jogar com mais 2 pp adicionais.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Bark and Tendril": {
       "name": "Casca e Tendril",
@@ -1524,7 +1546,7 @@
     },
     "Battle Assessment": {
       "name": "Avaliação de Batalha",
-      "description": "<p>Através de uma cuidadosa observação durante a batalha, você identifica as forças e fraquezas de um inimigo. O MJ rola um teste secreto de Percepção contra a CD de Dissimulação ou Furtividade (o que for maior) de um inimigo à sua escolha que esteja engajado em combate e não está ocultado, escondido ou indetectado por você. O MJ pode aplicar uma penalidade pela distância entre você e o inimigo. Após isso, o inimigo fica temporariamente imune à sua Avaliação de Batalha por 1 dia. </p> <p><strong>Successo Crítico</strong> O MJ escolhe e revela para você duas informações sobre o inimigo: a maior fraqueza, o salvamento que possui o menor modificador, uma imunidade ou a maior resistência que ele possuir. Se houver um empate entre estatísticas, o MJ deve selecionar uma delas aleatoriamente.</p> <p><strong>Successo</strong> O MJ escolhe uma informação da lista acima para lhe revelar sobre o inimigo.</p> <p><strong>Falha Crítica</strong> O MJ lhe transmite uma informação falsa (ele deve inventar a informação)..</p>"
+      "description": "<p>Através de uma cuidadosa observação durante a batalha, você identifica as forças e fraquezas de um inimigo. O mestre rola um teste secreto de Percepção contra a CD de Dissimulação ou Furtividade (o que for maior) de um inimigo à sua escolha que esteja engajado em combate e não está ocultado, escondido ou indetectado por você. O mestre pode aplicar uma penalidade pela distância entre você e o inimigo. Após isso, o inimigo fica temporariamente imune à sua Avaliação de Batalha por 1 dia. </p> <p><strong>Successo Crítico</strong> O mestre escolhe e revela para você duas informações sobre o inimigo: a maior fraqueza, o salvamento que possui o menor modificador, uma imunidade ou a maior resistência que ele possuir. Se houver um empate entre estatísticas, O mestre deve selecionar uma delas aleatoriamente.</p> <p><strong>Successo</strong> O mestre escolhe uma informação da lista acima para lhe revelar sobre o inimigo.</p> <p><strong>Falha Crítica</strong> O mestre lhe transmite uma informação falsa (ele deve inventar a informação)..</p>"
     },
     "Battle Cry": {
       "name": "Brado de Batalha",
@@ -1540,6 +1562,13 @@
     "Battle Prayer": {
       "name": "Prece de Batalha",
       "description": "<p> <strong>Pré-requisitos</strong> mestre em Religião, você segue uma divindade </span></p> <hr> <p>Chamando a sua divindade, você recita as escrituras para prejudicar um inimigo. Quando você selecionar esse talento, escolha <a href=\"https://2e.aonprd.com/Traits.aspx?ID=25\">caos</a>, <a href=\"https://2e.aonprd.com/Traits.aspx?ID=64\">maligno</a>, <a href=\"https://2e.aonprd.com/Traits.aspx?ID=83\">bondoso</a>, ou <a href=\"https://2e.aonprd.com/Traits.aspx?ID=99\">leal</a>. Sua escolha deve corresponder a um dos componentes de alinhamento de sua divindade. Esta ação tem o traço correspondente ao alinhamento escolhido.  Faça um teste de <a href=\"https://2e.aonprd.com/Skills.aspx?ID=13\">Religião</a> contra a CD de vontade de um inimigo a 9 metros. O inimigo fica temporariamente imune às Preces de Batalha da sua divindade por 1 dia.  <strong>Sucesso Crítico</strong> Você causa 2d6 de dano do tipo de alinhamento escolhido ou 6d6 de dano se tiver proficiência lendária em Religião. <strong>Sucesso</strong> Você causa 1d6 de dano do tipo de alinhamento escolhido ou 3d6 se tiver proficiência lendária em Religião. <strong>Falha</strong> Não tem efeito. <strong>Falha Crítica</strong> A reação da vontade de seu inimigo contra sua prece impede que você use a Prece de Batalha novamente por 10 minutos.</p> (Tradução não oficial - Gods and Magic)"
+    },
+    "Battlefield Arcana": {
+      "prerequisites": [
+        {
+          "value": "Conjuração Consistente"
+        }
+      ]
     },
     "Battleforger": {
       "name": "Forjador de Batalha",
@@ -1806,7 +1835,13 @@
       }
     },
     "Bon Mot": {
-      "name": "Comentário Maldoso"
+      "name": "Comentário Maldoso",
+      "description": "<p>Você faz um comentário perspicaz sobre um adversário, o deixando distraído. Escolha um adversário a até 9 metros e role um teste de <span data-pf2-action=\"bonMot\" data-pf2-glyph=\"A\">Diplomacia</span> contra a CD de Vontade do alvo.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo fica distraído e sofre –3 de penalidade de estado na Percepção e em salvamentos de Vontade por 1 minuto.</p>\n<p>O alvo pode encerrar o efeito mais cedo com uma resposta ao seu Comentário Maldoso. Isso pode ser uma ação única que tem o traço concentração ou uma ação de perícia apropriada para formular a resposta. O Mestre determina quais ações de perícia são adequadas, mas elas devem ser de pelo menos 1 ação. Normalmente, a resposta precisa usar uma ação de perícia linguística baseada em Carisma.</p>\n<p><strong>Sucesso</strong> Como sucesso crítico, mas a penalidade é –2.</p>\n<p><strong>Falha crítica</strong> eu gracejo é horrível. Você sofre a mesma penalidade que o inimigo teria se você tivesse obtido sucesso. Isso termina após 1 minuto ou se você fizer outro Comentário Maldoso e obtiver sucesso.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{Efeito: Comentário Maldoso}</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Bond Conservation": {
       "name": "Conservação de Elo",
@@ -1975,8 +2010,8 @@
       "description": "<p>You gain the @UUID[Compendium.pf2e.classfeatures.j1JE61quDxdge4mg]{Sneak Attack} class feature. You don't increase the number of dice as you gain levels.</p>"
     },
     "Cackle": {
-      "name": "Risada",
-      "description": "<p>O poder de seu patrono lhe enche de confiança, permitindo que você sustente um trabalho mágico mesmo quando uma explosão rápida de riso escapa de seus lábios. Você aprende o hex @UUID[Compendium.pf2e.spells-srd.Item.YVK3JUkPVzHIeGXQ]{Gargalhada}.</p>"
+      "name": "Cacarejo",
+      "description": "<p>O poder do seu patrono lhe enche de confiança, permitindo que você sustente um efeito mágico com a mesma velocidade que uma risada irrompe de seus lábios. Você recebe o sortilégio @UUID[Compendium.pf2e.spells-srd.Item.YVK3JUkPVzHIeGXQ]{Cacarejo}.</p>"
     },
     "Cadence Call": {
       "prerequisites": [
@@ -2037,7 +2072,14 @@
     },
     "Cantrip Expansion": {
       "name": "Expansão de Truque Mágico",
-      "description": "<p><strong>Bardo, Oráculo, Feiticeiro</strong> O estudo amplia sua gama de magias simples.</p>\n<p><strong>Clérigo</strong> Você estuda uma gama mais ampla de magias simples.</p>\n<p><strong>Mago, Mago</strong> O estudo dedicado permite que você prepare uma gama mais ampla de magias simples para cada situação.</p>\n<p><strong>Psiônico</strong> Você expande o que sua mente pode realizar.</p>\n<p><strong>Bruxo</strong> Seu patrono reconhece sua necessidade de flexibilidade e versatilidade, e concede a você o poder de preparar uma gama mais ampla de magias simples.</p>\n<hr />\n<p><strong>Preparado</strong> Você pode preparar dois truques mágicos adicionais todos os dias.</p>\n<p><strong>Espontâneo</strong> Adicione dois truques mágicos adicionais de sua lista de magias ao seu repertório.</p>"
+      "description": "<p><strong>Bardo, Oráculo, Feiticeiro</strong> O estudo amplia sua gama de magias simples.</p>\n<p><strong>Bruxo</strong> Seu patrono reconhece sua necessidade de flexibilidade e versatilidade, e concede a você o poder de preparar uma gama mais ampla de magias simples.</p>\n<p><strong>Clérigo</strong> Você estuda uma gama mais ampla de magias simples.</p>\n<p><strong>Mago, Mago</strong> O estudo dedicado permite que você prepare uma gama mais ampla de magias simples para cada situação.</p>\n<p><strong>Psiônico</strong> Você expande o que sua mente pode realizar.</p>\n<hr />\n<p><strong>Preparado</strong> Você pode preparar dois truques mágicos adicionais todos os dias.</p>\n<p><strong>Espontâneo</strong> Adicione dois truques mágicos adicionais de sua lista de magias ao seu repertório.</p>"
+    },
+    "Captain Dedication": {
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
     },
     "Captivating Curiosity": {
       "description": "<p>You can snare the attentions of onlookers with your unique appearance. You can cast <em>@UUID[Compendium.pf2e.spells-srd.IihxWhRfpsBgQ5jS]{Enthrall}</em> as a 3rd-level occult innate spell once per day.</p>"
@@ -2108,11 +2150,21 @@
     },
     "Cast Down": {
       "name": "Jogar ao Chão",
-      "description": "<p>A pura força da sua fé pode fazer um inimigo desabar. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} para causar dano a uma criatura, o alvo é arremessado ao @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Chão} se sofrer qualquer dano do magia. Se o alvo falhar criticamente em seu teste contra o magia, ele também sofre uma penalidade de -10 pés em sua Velocidade por 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Ve1CRFI8ikL6dqcL]{Efeito: Jogar ao Chão}</p>"
+      "description": "<p>A pura força da sua fé pode fazer um inimigo desabar. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} para causar dano a uma criatura, o alvo é arremessado ao @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Chão} se sofrer qualquer dano do magia. Se o alvo falhar criticamente em seu teste contra o magia, ele também sofre uma penalidade de -10 pés em sua Velocidade por 1 minuto.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Ve1CRFI8ikL6dqcL]{Efeito: Jogar ao Chão}</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Castigating Weapon": {
       "name": "Arma Castigante",
-      "description": "<p>A força da divindade que te castiga fortalece seu corpo para que possa derrubar o inimigo e seus aliados. Após causar dano espiritual devido à Castigação Divina, seus Golpes com arma ou desarmados ganham o traço sagrado ou profano e causam dano espiritual adicional até o final de seu turno. O dano espiritual é igual ao grau de ferir ou curar com o qual você causou dano espiritual e é somado a qualquer dano espiritual que a arma já cause (como de uma runa sagrada).</p>"
+      "description": "<p>A força da divindade que te castiga fortalece seu corpo para que possa derrubar o inimigo e seus aliados. Após causar dano espiritual devido à Castigação Divina, seus Golpes com arma ou desarmados ganham o traço sagrado ou profano e causam dano espiritual adicional até o final de seu turno. O dano espiritual é igual ao grau de ferir ou curar com o qual você causou dano espiritual e é somado a qualquer dano espiritual que a arma já cause (como de uma runa sagrada).</p>",
+      "prerequisites": [
+        {
+          "value": "Castigo Divino"
+        }
+      ]
     },
     "Cat Fall": {
       "name": "Queda do Gato",
@@ -2285,7 +2337,8 @@
       "description": "<p>You've learned to channel your curse through weapons you wield instead of solely through your flesh. The benefits of @UUID[Compendium.pf2e.feats-srd.5Pj6pQ7N1qXCQLal]{Accursed Touch} apply to any melee weapon you wield instead of only your fist Strikes.</p>"
     },
     "Channel Smite": {
-      "name": "Canalizar Punição"
+      "name": "Canalizar Punição",
+      "description": "<p><strong>Custo</strong> Gastar uma magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} ou @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir}.</p>\n<hr />\n<p>Você canaliza as energias da vida e da morte através de um ataque corpo a corpo e as direciona para seu inimigo. Faça um Golpe corpo a corpo. Se acertar, você conjura a versão de 1 ação da magia gasta para causar dano ao alvo, além do dano normal do seu Golpe. O alvo automaticamente obtém uma falha no teste de salvamento contra a magia (ou uma falha crítica, se seu Golpe for um acerto crítico). A magia não tem o traço manuseio quando é conjurada dessa forma.</p>\n<p>A magia é gasta sem nenhum efeito se seu Golpe falhar ou atingir uma criatura que não sofre dano desse tipo de energia (como atingir uma criatura morta-viva com a magia <em>ferir</em>).</p>"
     },
     "Channeling Block": {
       "name": "Bloqueio de Canalização",
@@ -2348,7 +2401,6 @@
       "description": "<p>Você sabe que os maiores tesouros muitas vezes parecem lixo. Você recebe um bônus de circunstância de +1 em testes para Subsistir e pode usar Sociedade ou Sobrevivência quando você @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsistir} em um assentamento.</p>\n<p>Quando você Subsiste em uma cidade, você também recolhe lixo valioso que os bobos dos longshanks arremessaram fora. Você pode @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Gerar Renda} usando Sociedade ou Sobrevivência ao mesmo tempo em que você Subsiste, sem gastar dias adicionais de folga. Você também recebe um bônus de circunstância de +1 neste teste.</p>\n<hr />\n<p><strong>Especial:</strong> Se você tiver a herança Goblin Bucho-de-Ferro, aumente os bônus para +2.</p>"
     },
     "Clan Pistol": {
-      "name": "Clan Pistol",
       "description": "<p><strong>Access</strong> You are from Dongun Hold or Alkenstar.</p>\n<hr />\n<p>Raised in the ancient halls of Dongun Hold or the surrounding region, you display your lineage with a clan pistol, rather than a clan dagger. You get one clan pistol of your clan for free, as it was given to you at birth. This replaces your clan dagger. Selling this pistol is a terrible taboo and earns you the disdain of other dwarves. You are trained with the clan pistol. In addition, when your clan pistol is visible, you gain a +1 circumstance bonus on checks to @UUID[Compendium.pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Gather Information} or @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} when interacting with citizens of Alkenstar, Dongun Hold, or their allies.</p>"
     },
     "Clan Protector": {
@@ -2381,7 +2433,7 @@
     },
     "Cleric Dedication": {
       "name": "Dedicação de Clérigo",
-      "description": "<p>Você conjura magias como um clérigo. Você ganha a atividade Conjurar uma Magia. Você pode preparar dois truques mágicos comuns por dia da lista de magias divinas ou quaisquer outros truques mágicos divinos aos quais você tenha acesso. Você é treinado nos modificadores de ataque mágico e CD da estatística de magia. Seu atributo-chave para as magias do arquétipo do clérigo é Sabedoria, e elas são magias divinas do clérigo. Escolha uma divindade como faria se fosse um clérigo. Você fica vinculado ao anátema dessa divindade e pode receber a santificação divina dessa divindade. Você fica treinado em Religião e na perícia associada à sua divindade; para cada uma dessas perícias em que você já estava treinado, você passa a ser treinando em uma perícia de sua escolha. Você não ganha nenhuma outra perícia com a sua escolha de divindade.</p>\n<hr />\n<p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter ganho outros dois talentos do arquétipo de @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ZJHhPFjLnizAaUM1]{Clérigo}.</p>",
+      "description": "<p>Você conjura magias como um clérigo. Você adquire a atividade Conjurar Magia. A cada dia, você pode preparar dois truques mágicos comuns da lista de magias divinas ou quaisquer outros truques mágicos divinos aos quais você tenha acesso. Você é treinado nas jogadas de ataque com magia e CD de magia. Seu atributo-chave de conjuração para magias do arquétipo de clérigo é Sabedoria, e elas são magias divinas de clérigo.</p>\n<p>Escolha uma divindade, como faria se fosse um clérigo. Você se torna vinculado ao anátema dessa divindade e pode receber a santificação divina dela. Você se torna treinado em Religião e na perícia associada à sua divindade. Se já for treinado em alguma dessas perícias, em vez disso, se torna treinado em outra perícia à sua escolha. Você não adquire quaisquer outras habilidades normalmente concedidas pela sua escolha de divindade.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ZJHhPFjLnizAaUM1]{Clérigo}.</p>",
       "prerequisites": [
         {
           "value": "Sabedoria +2"
@@ -2509,7 +2561,19 @@
     },
     "Command Undead": {
       "name": "Comandar Mortos-Vivos",
-      "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna</p> <hr> <p>Você prende a força interna que anima um morto-vivo e o faz curvar-se à sua vontade. Se a sua próxima ação for conjurar @Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Ferir} mirando um morto-vivo, você altera os efeitos da magia Ferir. Em vez dos efeitos normais de ferir, o alvo fica controlado por você se o nível dele for igual ou menor ao seu nível – 3. Ele pode tentar uma jogada de salvamento de Vontade para resistir a ser controlado por você. Se o alvo já estiver sob o controle de outra criatura, essa outra criatura também rola uma jogada de salvamento, e o morto-vivo usa o melhor resultado.</p> <p><strong>Successo Crítico</strong> O alvo não é afetado e fica temporariamente imune a esse efeito por 24 horas..</p> <p><strong>Successo</strong> O alvo não é afetado.</p> <p><strong>Falha</strong> O morto-vivo se torna um lacaio sob seu controle. A magia recebe uma duração de 1 minuto, mas é dispensada se você ou um aliado atacar o morto-vivo lacaio..</p> <p><strong>Falha Crítica</strong> Como falha, mas a duração é de 1 hora.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna</p> <hr> <p>Você prende a força interna que anima um morto-vivo e o faz curvar-se à sua vontade. Se a sua próxima ação for conjurar @Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Ferir} mirando um morto-vivo, você altera os efeitos da magia Ferir. Em vez dos efeitos normais de ferir, o alvo fica controlado por você se o nível dele for igual ou menor ao seu nível – 3. Ele pode tentar uma jogada de salvamento de Vontade para resistir a ser controlado por você. Se o alvo já estiver sob o controle de outra criatura, essa outra criatura também rola uma jogada de salvamento, e o morto-vivo usa o melhor resultado.</p> <p><strong>Successo Crítico</strong> O alvo não é afetado e fica temporariamente imune a esse efeito por 24 horas..</p> <p><strong>Successo</strong> O alvo não é afetado.</p> <p><strong>Falha</strong> O morto-vivo se torna um lacaio sob seu controle. A magia recebe uma duração de 1 minuto, mas é dispensada se você ou um aliado atacar o morto-vivo lacaio..</p> <p><strong>Falha Crítica</strong> Como falha, mas a duração é de 1 hora.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de ferimento"
+        }
+      ]
+    },
+    "Commander Dedication": {
+      "prerequisites": [
+        {
+          "value": "Inteligência +2"
+        }
+      ]
     },
     "Communal Crafting": {
       "name": "Manufatura Comunal",
@@ -2517,7 +2581,7 @@
     },
     "Communal Healing": {
       "name": "Cura Comunal",
-      "description": "<p>Você é um condutor excepcional para a vitalidade, e, ao canalizá-la através de você, pode desviar parte dela para se curar ou curar outra criatura. Ao lançar a @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{magia} de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{curar} para curar uma única criatura, escolha outra criatura viva disposta dentro da distância do seu <em>curar</em> para recuperar Pontos de Vida iguais ao nível da <em>curar</em> da magia.</p>"
+      "description": "<p>Você é um poderoso conduíte para a vitalidade e, ao canalizá-la através de si, é capaz de redirecionar parte dela para curar a si mesmo ou outra criatura. Quando conjurar a magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para curar uma única criatura, escolha outra criatura viva voluntária na distância da magia; ela recupera uma quantidade de PVs igual ao ranque da magia usado.</p>"
     },
     "Communal Sustain": {
       "prerequisites": [
@@ -2751,6 +2815,10 @@
         }
       ]
     },
+    "Cringe": {
+      "name": "Acanhamento",
+      "description": "<p><strong>Acionamento</strong> Uma criatura que você percebe obtém um sucesso crítico em um Golpe contra você e causaria dano.</p>\n<hr />\n<p>Com uma postura lastimável, você faz seu adversário recuar de um ataque mortal. A criatura sofre uma penalidade de circunstância no dano do Golpe acionador igual ao seu nível + 2. A penalidade é aplicada após dobrar o dano do acerto crítico. O atacante fica imune ao seu Acanhamento por 24 horas.</p>"
+    },
     "Critical Debilitation": {
       "name": "Debilitação Crítica",
       "prerequisites": [
@@ -2774,6 +2842,13 @@
     "Crossbow Ace": {
       "name": "Ás com Besta",
       "description": "<p><strong>Requerimentos</strong> Você está empunhando uma besta com recarga 1 ou superior.</p>\n<hr />\n<p>Sua profunda compreensão da besta permite que você recarregue eficientemente enquanto se movimenta para fora da linha de fogo de retorno. Ou você @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Criar uma Distração} ou @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Tomar Cobertura}, então Interagir para recarregar. Normalmente, você deve atender aos requerimentos para Tomar Cobertura; você deve estar @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}, se beneficiando de cobertura, ou perto de uma característica que permita que você Tome Cobertura.</p>"
+    },
+    "Crossbow Infiltrator Dedication": {
+      "prerequisites": [
+        {
+          "value": "treinado em Furtividade"
+        }
+      ]
     },
     "Crossbow Terror": {
       "prerequisites": [
@@ -2848,6 +2923,13 @@
     "Current Spell": {
       "name": "Magia Atual"
     },
+    "Cushion Landing": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
     "Cut From the Air": {
       "description": "<p><strong>Acionamento</strong> Você é o alvo de um Ataque à Distância físico.</p>\n<p><strong>Requerimentos</strong> Você está ciente do ataque, não está @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} contra ele, e tem uma mão livre ou está empunhando uma arma corpo a corpo.</p>\n<hr />\n<p>Você pode arrombar ataques à distância. Você ganha um bônus de circunstância de +4 na CA contra o ataque desencadeante. Se o ataque errar, você arremessou ou cortou ele do ar.</p>"
     },
@@ -2882,7 +2964,12 @@
       "description": "<p>Você é leve como uma folha soprada pela brisa. Quando Saltar ou obtiver sucesso em um Salto em Altura ou Salto em Distância, aumente a distância saltada em 1,5 metros. Quando calcular o dano sofrido por queda, desconsidere qualquer distância que você cair enquanto passar adjacente a uma parede.</p>"
     },
     "Dandy Dedication": {
-      "name": "Dedicação de Dândi"
+      "name": "Dedicação de Dândi",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Daredevil's Gambit": {
       "name": "Estrategia Audaciosa",
@@ -2917,6 +3004,13 @@
       "prerequisites": [
         {
           "value": "Vidente Sombrio"
+        }
+      ]
+    },
+    "Dashing Pickup": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
         }
       ]
     },
@@ -2964,7 +3058,15 @@
     },
     "Deadly Simplicity": {
       "name": "Simplicidade Mortal",
-      "description": "<p>Quando estiver empunhando a arma favorita da sua divindade, aumente o tamanho do dado de dano dessa arma em um passo.</p>\n<p>Se a arma favorita da sua divindade for um ataque desarmado (como um soco, se você adora @UUID[Compendium.pf2e.deities.Item.qqqrbq4uCrelQvgH]{Irori}) e o dado de dano for menor que d6, aumente o tamanho do dado de dano para d6.</p>"
+      "description": "<p>Quando estiver empunhando a arma favorecida da sua divindade, aumente o dado de dano dela em um passo.</p>\n<p>Se a arma favorecida da sua divindade for um ataque desarmado (como um punho, se for devoto de @UUID[Compendium.pf2e.deities.Item.qqqrbq4uCrelQvgH]{Irori}) e o dado de dano dela for menor que d6, em vez disso, aumente o dado de dano para d6.</p>",
+      "prerequisites": [
+        {
+          "value": "divindade com uma arma favorecida simples ou ataque desarmado"
+        },
+        {
+          "value": "treinado na arma favorecida da sua divindade"
+        }
+      ]
     },
     "Deadly Strikes": {
       "description": "<p>You have honed your body to attack with lethal focus. Your unarmed attacks gain the deadly d10 trait, or you increase their deadly trait to d10 if the unarmed attack is already deadly with a smaller die size.&nbsp;</p>"
@@ -3042,7 +3144,12 @@
     },
     "Defensive Recovery": {
       "name": "Recuperação Defensiva",
-      "description": "<p>Sua fé fornece proteção temporária além de cura. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} em um único alvo e o alvo recuperar Pontos de Vida do magia, ele também ganha um bônus de condição +2 em CA e testes de resistência por 1 rodada.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.jwxurN6JPQm9wXug]{Efeito: Recuperação Defensiva}</p>"
+      "description": "<p>Sua fé fornece proteção temporária além de cura. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} em um único alvo e o alvo recuperar Pontos de Vida do magia, ele também ganha um bônus de condição +2 em CA e testes de resistência por 1 rodada.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.jwxurN6JPQm9wXug]{Efeito: Recuperação Defensiva}</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Defensive Roll": {
       "name": "Rolamento Defensivo",
@@ -3125,7 +3232,12 @@
       "description": "<p><strong>Access</strong> Matanji ethnicity</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You successfully Strike a living creature that has the fiend trait with your tusks unarmed attack.</p>\n<hr />\n<p>Just the taste of fiendish blood is enough to send blood rushing through your veins in a supernatural fury. You become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} until the end of your next turn and you can use the extra action to make a tusks Strike, Stride, or Step.</p>"
     },
     "Denier of Destruction": {
-      "description": "<p> <strong>Prerequisites</strong> healing font <strong>Requirements</strong> You have a @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal} spell prepared and you aren't @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to the source of the damage. <strong>Trigger</strong> Any ally within 30 feet that you can heal with your <em>heal</em> spell would take damage from an attack or effect from a source you can observe. </span></p> <hr> <p>You can manipulate the same energies that the <em>aeon orbs</em> use to sustain life. You cast <em>heal</em> on the triggering target. Instead of its normal effects, the <em>heal</em> spell reduces the triggering damage by an amount equal to the Hit Points a 1-action <em>heal</em> spell of that level would have recovered. As usual, if this reduces the damage to 0, it might also remove additional effects of the triggering attack, such as injury poisons.</p>"
+      "description": "<p> <strong>Prerequisites</strong> healing font <strong>Requirements</strong> You have a @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Heal} spell prepared and you aren't @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to the source of the damage. <strong>Trigger</strong> Any ally within 30 feet that you can heal with your <em>heal</em> spell would take damage from an attack or effect from a source you can observe. </span></p> <hr> <p>You can manipulate the same energies that the <em>aeon orbs</em> use to sustain life. You cast <em>heal</em> on the triggering target. Instead of its normal effects, the <em>heal</em> spell reduces the triggering damage by an amount equal to the Hit Points a 1-action <em>heal</em> spell of that level would have recovered. As usual, if this reduces the damage to 0, it might also remove additional effects of the triggering attack, such as injury poisons.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Deny Support": {
       "description": "<p><strong>Access</strong> Help either the Washboard Dogs or the Diobel Sweepers destroy their rival.</p>\n<hr />\n<p>When you succeed or critically succeed at a Deception check to @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} an opponent, that target can't flank with their allies until the beginning of your next turn.</p>"
@@ -3136,6 +3248,13 @@
     "Desperate Finisher": {
       "name": "Finalização Desesperada",
       "description": "<p><strong>Acionamento</strong> Você completa a última ação em seu turno e seu turno ainda não terminou.</p>\n<hr />\n<p>You throw everything you have into one last, reckless press. Use a single action that you know with the press trait. You forgo the ability to use reactions until the start of your next turn. This press uses your multiple attack penalty, as normal.</p>"
+    },
+    "Desperate Resuscitation": {
+      "prerequisites": [
+        {
+          "value": "mestre em Medicina"
+        }
+      ]
     },
     "Destructive Block": {
       "prerequisites": [
@@ -3155,6 +3274,13 @@
       "prerequisites": [
         {
           "value": "Buscador do Saber"
+        }
+      ]
+    },
+    "Devastating Duelist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
         }
       ]
     },
@@ -3235,7 +3361,7 @@
     },
     "Different Worlds": {
       "name": "Mundos Diferentes",
-      "description": "<p><strong>Pré-requisitos</strong> habilidade de selecionar talentos de ancestralidade de várias ancestralidades</p> <hr> <p>Suas experiências diversas em sociedades diferentes evoluíram tornando-se vidas completamente separadas. Crie uma segunda identidade para si mesmo, com um nome, história e biografia diferentes. Esta identidade deve corresponder a uma das ancestralidades cujos talentos de ancestralidade você pode selecionar. Você recebe grau de proficiência treinado na perícia Saber da segunda biografia escolhida (mas não recebe quaisquer outros benefícios da biografia) e +4 de bônus de circunstância em testes de Dissimulação quando fizer afirmações que seriam verdadeiras para sua segunda identidade ou quando estiver se disfarçando como sua segunda identidade.</p> <p><strong>Especial</strong> À critério do MJ, este talento pode ser usado contra não-humanoides se eles mantém contato regular com humanoides ou se você consegue se disfarçar como um membro da ancestralidade da criatura-alvo.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> habilidade de selecionar talentos de ancestralidade de várias ancestralidades</p> <hr> <p>Suas experiências diversas em sociedades diferentes evoluíram tornando-se vidas completamente separadas. Crie uma segunda identidade para si mesmo, com um nome, história e biografia diferentes. Esta identidade deve corresponder a uma das ancestralidades cujos talentos de ancestralidade você pode selecionar. Você recebe grau de proficiência treinado na perícia Saber da segunda biografia escolhida (mas não recebe quaisquer outros benefícios da biografia) e +4 de bônus de circunstância em testes de Dissimulação quando fizer afirmações que seriam verdadeiras para sua segunda identidade ou quando estiver se disfarçando como sua segunda identidade.</p> <p><strong>Especial</strong> À critério do mestre, este talento pode ser usado contra não-humanoides se eles mantém contato regular com humanoides ou se você consegue se disfarçar como um membro da ancestralidade da criatura-alvo.</p>"
     },
     "Dig Quickly": {
       "name": "Cavar Rapidamente",
@@ -3326,7 +3452,12 @@
     },
     "Disorienting Opening": {
       "name": "Abertura Desorientadora",
-      "description": "<p>Você usa as aberturas de seus inimigos para expor ainda maiores fraquezas. Quando você acerta uma criatura como parte de um Golpear Reativo, aquela criatura fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.</p>"
+      "description": "<p>Você usa as aberturas de seus inimigos para expor ainda maiores fraquezas. Quando você acerta uma criatura como parte de um Golpear Reativo, aquela criatura fica @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o início do seu próximo turno.</p>",
+      "prerequisites": [
+        {
+          "value": "Golpe Reativo"
+        }
+      ]
     },
     "Dispelling Slice": {
       "name": "Corte Dissipante",
@@ -3423,7 +3554,13 @@
       ]
     },
     "Divine Castigation": {
-      "description": "<p>A graça de sua divindade não se estende aos seus inimigos jurados. Quando você conjura uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dano} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar}, você pode adicionar seu traço sagrado ou profano a ele. Se fizer isso, o magia causa dano a criaturas com o traço oposto, mesmo que normalmente não as danifique. O magia causa dano de espírito quando usado desta maneira. Por exemplo, se você for sagrado, poderia adicionar o traço sagrado a uma magia de <em>curar</em> e causar dano de espírito a um ínfero que tenha o traço profano.</p>"
+      "name": "Castigo Divino",
+      "description": "<p>A graça da sua divindade não se estende aos seus inimigos jurados. Quando conjurar uma magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} ou @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir}, você pode adicionar seu traço sagrado ou profano a ela. Se fizer isso, a magia causa dano a criaturas com o traço oposto, mesmo se normalmente não fosse fazer isso. A magia causa dano espiritual quando usada dessa forma. Por exemplo, se você for sagrado, poderia adicionar o traço sagrado a uma magia <em>curar</em> para causar dano espiritual a um ínfero com o traço profano.</p>",
+      "prerequisites": [
+        {
+          "value": "traço sagrado ou profano"
+        }
+      ]
     },
     "Divine Countermeasures": {
       "name": "Contramedidas Divinas",
@@ -3509,7 +3646,7 @@
     },
     "Domain Initiate": {
       "name": "Iniciado no Domínio",
-      "description": "<p>Sua divindade concede uma magia especial relacionado aos seus poderes. Selecione um domínio—um assunto de particular interesse para você dentro de sua religião—da lista de sua divindade. Você ganha uma magia de domínio inicial para esse domínio, uma magia único do domínio e não disponível para outros clérigos.</p>\n<p>magias de domínio são um tipo de magia de foco. Custa 1 Ponto de Foco para lançar uma magia de foco, e você começa com um reservatório de foco de 1 Ponto de Foco. Você recarrega seu reservatório de foco durante suas preparações diárias, e pode recuperar 1 Ponto de Foco ao passar 10 minutos usando a atividade Reforçar para rezar para sua divindade ou prestar serviço às suas causas.</p>\n<p>Os magias de foco são automaticamente aumentados para a metade do seu nível arredondado para cima, assim como truques mágicos. magias de foco não requerem espaços de magia e não podem ser lançados usando espaços de magia. Seu reservatório de foco pode ter um Ponto de Foco para cada magia de foco que você tiver, até 3 pontos.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, selecionando um domínio diferente a cada vez e ganhando o magia de domínio dele.</p>"
+      "description": "<p>Sua divindade lhe concede uma magia especial relacionada aos poderes dela. Selecione um domínio — um assunto de interesse particular da sua religião da lista da sua divindade. Você recebe a magia de domínio inicial do domínio escolhido, uma magia única a esse domínio que não está disponível para outros clérigos.</p>\n<p>Magias de domínio são um tipo de magia de foco. Conjurar uma magia de foco custa 1 Ponto de Foco, e você começa com uma reserva de foco com 1 Ponto de Foco. Você reabastece sua reserva de foco durante suas preparações diárias e pode recuperar 1 Ponto de Foco ao gastar 10 minutos usando a atividade Refocar para orar à sua divindade ou prestar serviços à causa.</p>\n<p>Magias de foco são automaticamente elevadas à metade do seu nível (arredondado para cima), assim como os truques mágicos. Magias de foco não exigem espaços de magia e não podem ser conjuradas usando espaços de magia. Sua reserva de foco pode conter 1 Ponto de Foco para cada magia de foco que você conhecer, até um máximo de 3 pontos.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, sempre escolhendo um domínio diferente recebendo sua respectiva magia de domínio.</p>"
     },
     "Dominating Gaze": {
       "description": "<p>You stare into your target's eyes and enthrall them, shattering their free will. Once per day, you can cast 7th-level <em>@UUID[Compendium.pf2e.spells-srd.OsOhx3TGIZ7AhD0P]{Dominate}</em> as a divine innate spell, using your class DC or spell DC, whichever is higher. It gains the visual trait. At 18th level, the dominate is heightened to 8th level; at 20th level, it's heightened to 9th level. A creature that succeeds at its save is temporarily immune to your domination for 24 hours, though in most cases, you can't Cast the Spell again within 24 hours. If you are destroyed, all your dominate spells from Dominating Gaze immediately end.</p>"
@@ -3675,9 +3812,6 @@
         }
       ]
     },
-    "Drow Shootist Dedication": {
-      "description": "<p>Every chance you get, you practice with the hand crossbow to increase your draw speed and accuracy. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the hand crossbow. If you're at least an expert in a hand crossbow you're using, you gain access to its critical specialization effect. You also gain the @UUID[Compendium.pf2e.adventure-specific-actions.Bh1Qnh8JP4CMysRK]{Shootist's Draw} action.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.JzUDumJ3Dlyame4z]{Drow Shootist} archetype.</p>"
-    },
     "Druid Dedication": {
       "name": "Dedicação de Druida",
       "description": "<p>Você conjura magias como um druida. Você ganha a atividade Conjurar uma Magia. Você pode preparar dois truques mágicos comuns a cada dia da lista de magias primais ou quaisquer outros truques mágicos primais que você aprenda ou descubra. Você é treinado nos modificadores de ataque mágico e CD da estatística de magia. Seu atributo-chave para as magias do arquétipo de druida é Sabedoria, e elas são magias de druida primais. Você aprende o idioma Wildsong e está sujeito ao anátema do druida. Escolha uma ordem druídica. Você se torna membro dessa ordem e também está sujeito ao anátema específico dela, permitindo que você adquira os talentos da ordem. Você se torna treinado em Natureza e na perícia associada à sua ordem; para cada uma dessas perícias em que você já estava treinado, você se torna treinando em uma perícia de sua escolha. Você não ganha outras perícias da sua escolha de ordem.</p>\n<hr />\n<p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter ganho outros dois talentos do arquétipo de @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.gbBf6x89m4SEFpsL]{Druida}.</p>",
@@ -3712,6 +3846,13 @@
     "Dubious Knowledge": {
       "name": "Conhecimento Duvidoso"
     },
+    "Dueling Acumen": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
     "Dueling Dance (Fighter)": {
       "name": "Dança de Duelo (Guerreiro)",
       "description": "<p><strong>Requerimentos</strong> Você está empunhando uma única arma corpo a corpo de uma mão e não segura mais nada em suas mãos.</p>\n<hr />\n<p>Usando uma mão livre como pivô e equilíbrio, você ataca e se defende com sua arma. Enquanto estiver nessa postura, você constantemente tem os benefícios de @UUID[Compendium.pf2e.feats-srd.Item.n7nQQR940OvFbw7T]{Esgrima Defensiva}.</p>"
@@ -3729,6 +3870,13 @@
     "Duelist's Edge": {
       "name": "Excelência do Duelista",
       "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Duelista Aldori <strong>Gatilho</strong> Você rola iniciativa e pode observar pelo menos um oponente. </span></p> <hr> <p>Você aprimora seu tempo de reação através de duelos e aprende a sacar sua arma intuitivamente quando começa uma luta. Você recebe +2 de bônus de circunstância na rolagem de iniciativa acionadora e pode imediatamente Interagir para sacar sua @Compendium[pf2e.equipment-srd.iSceAVMkVv1uKK7t]{Espada de Duelo Aldori}. </p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
+    },
+    "Duelist's Form": {
       "prerequisites": [
         {
           "value": "Dedicação do Duelista Aldori"
@@ -3828,7 +3976,7 @@
     },
     "Educated Assessment": {
       "name": "Avaliação Educada",
-      "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Agente Pathfinder </span></p> <hr> <p>Você tenta @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recordar conhecimento (Saber)} sobre uma criatura e o MJ usa o mesmo resultado de teste secreto contra a CD de Dissimulação ou Furtividade da criatura, fornecendo as informações de uma @Compendium[pf2e.feats-srd.B6jXVgfPuPWWLx2K]{Avaliação de Batalha}. Você pode obter um grau diferente de sucesso no teste de Recordar Conhecimento do que o obtido na Avaliação de Batalha. Se você possui o talento de @Compendium[pf2e.feats-srd.B6jXVgfPuPWWLx2K]{Avaliação de Batalha}, obtém os efeitos da Avaliação Educada sempre que Recordar Conhecimento (como com o talento de @Compendium[pf2e.feats-srd.H3I2X0f7v4EzwxuN]{Conhecimento Automático}).</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Agente Pathfinder </span></p> <hr> <p>Você tenta @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recordar conhecimento (Saber)} sobre uma criatura e O mestre usa o mesmo resultado de teste secreto contra a CD de Dissimulação ou Furtividade da criatura, fornecendo as informações de uma @Compendium[pf2e.feats-srd.B6jXVgfPuPWWLx2K]{Avaliação de Batalha}. Você pode obter um grau diferente de sucesso no teste de Recordar Conhecimento do que o obtido na Avaliação de Batalha. Se você possui o talento de @Compendium[pf2e.feats-srd.B6jXVgfPuPWWLx2K]{Avaliação de Batalha}, obtém os efeitos da Avaliação Educada sempre que Recordar Conhecimento (como com o talento de @Compendium[pf2e.feats-srd.H3I2X0f7v4EzwxuN]{Conhecimento Automático}).</p> (Tradução não oficial - Lost Omens: Character Guide)",
       "prerequisites": [
         {
           "value": "Dedicação de Agente Pathfinder"
@@ -3990,7 +4138,7 @@
     },
     "Emblazon Divinity": {
       "name": "Ornar Divindade",
-      "description": "<p><strong>Pré-requisitos</strong> @Compendium[pf2e.feats-srd.7RFjTTzznsdPcaYB]{Ornar Armamento}</p> <hr> <p>Suas gravuras sagradas impregnam objetos com poder. Você leva apenas 1 minuto para usar um emblema usando @Compendium[pf2e.feats-srd.7RFjTTzznsdPcaYB]{Ornar Armamento}, e você pode ter até quatro símbolos por vez. Cada item ainda pode ter apenas um símbolo estampado e, se você exceder o limite de quatro, o símbolo mais antigo desaparece. Esses símbolos podem beneficiar até mesmo aqueles que não seguem a divindade, desde que não sejam diretamente opostos (conforme determinado pelo MJ).</p> <p>Você pode selecionar um benefício diferente para cada símbolo estampado, escolhido dentre os que você possui de @Compendium[pf2e.feats-srd.7RFjTTzznsdPcaYB]{Ornar Armamento} ou em outros feitos, como @Compendium[pf2e.feats-srd.rKZE8BA9IQHSSWoW]{Ornar Energia} ou @Compendium[pf2e.feats-srd.xAFdoKl7aOP9rVkl]{Ornar Antimagia}.</p> (Tradução não oficial - Age of Ashes livro 6)",
+      "description": "<p><strong>Pré-requisitos</strong> @Compendium[pf2e.feats-srd.7RFjTTzznsdPcaYB]{Ornar Armamento}</p> <hr> <p>Suas gravuras sagradas impregnam objetos com poder. Você leva apenas 1 minuto para usar um emblema usando @Compendium[pf2e.feats-srd.7RFjTTzznsdPcaYB]{Ornar Armamento}, e você pode ter até quatro símbolos por vez. Cada item ainda pode ter apenas um símbolo estampado e, se você exceder o limite de quatro, o símbolo mais antigo desaparece. Esses símbolos podem beneficiar até mesmo aqueles que não seguem a divindade, desde que não sejam diretamente opostos (conforme determinado pelo mestre).</p> <p>Você pode selecionar um benefício diferente para cada símbolo estampado, escolhido dentre os que você possui de @Compendium[pf2e.feats-srd.7RFjTTzznsdPcaYB]{Ornar Armamento} ou em outros feitos, como @Compendium[pf2e.feats-srd.rKZE8BA9IQHSSWoW]{Ornar Energia} ou @Compendium[pf2e.feats-srd.xAFdoKl7aOP9rVkl]{Ornar Antimagia}.</p> (Tradução não oficial - Age of Ashes livro 6)",
       "prerequisites": [
         {
           "value": "Ornar Armamento"
@@ -4048,7 +4196,12 @@
       "description": "<p>Your heart soars, increasing your power for a moment. You gain a +2 status bonus to attack rolls and skill checks until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.dTymNXgTtnjqgYP9]{Effect: Emotional Surge}</p>"
     },
     "Empathetic Plea": {
-      "description": "<p><strong>Prerequisites </strong>trained in Diplomacy</p> <p><strong>Trigger</strong> You are attacked by a creature that you haven’t yet acted hostile toward. You must use this reaction before the creature rolls its attack.</p> <hr> <p>The way you cringe or use those puppy-dog eyes you’ve been practicing elicits an empathetic response in the attacker. Attempt a Diplomacy check against your attacker’s Will DC.</p> <p><strong>Critical Success</strong> The creature pulls its attack, wasting its  action, and can’t use hostile actions against you until the beginning of its next turn.</p> <p><strong>Success</strong> The creature takes a –2 circumstance penalty to damage on the triggering Strike and all its Strikes against you until the beginning of its next turn. The penalty is –4 if you’re an expert in Diplomacy, –6 if you’re a master, and –8 if you’re legendary.</p> <p><strong>Failure</strong> The creature’s attack is unaffected, and the creature is  temporarily immune to your Empathic Pleas for 24 hours.</p>"
+      "description": "<p><strong>Prerequisites </strong>trained in Diplomacy</p> <p><strong>Trigger</strong> You are attacked by a creature that you haven’t yet acted hostile toward. You must use this reaction before the creature rolls its attack.</p> <hr> <p>The way you cringe or use those puppy-dog eyes you’ve been practicing elicits an empathetic response in the attacker. Attempt a Diplomacy check against your attacker’s Will DC.</p> <p><strong>Critical Success</strong> The creature pulls its attack, wasting its  action, and can’t use hostile actions against you until the beginning of its next turn.</p> <p><strong>Success</strong> The creature takes a –2 circumstance penalty to damage on the triggering Strike and all its Strikes against you until the beginning of its next turn. The penalty is –4 if you’re an expert in Diplomacy, –6 if you’re a master, and –8 if you’re legendary.</p> <p><strong>Failure</strong> The creature’s attack is unaffected, and the creature is  temporarily immune to your Empathic Pleas for 24 hours.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Enchanting Shot": {
       "prerequisites": [
@@ -4059,7 +4212,12 @@
     },
     "Encouraging Words": {
       "name": "Palavras Encorajadoras",
-      "description": "<p> <strong>Pré-requisitos</strong> treinado em Diplomacia <strong>Requirementos</strong> O aliado alvo perdeu Pontos de Vigor na última rodada. </span></p> <hr> <p>Você dá a um aliado em um raio de 9 metros uma rápida conversa animada, ajudando-o a se recuperar. Tente um teste de Diplomacia. A CD é geralmente 15, embora o MJ possa ajustá-lo com base nas circunstâncias. Se você possui proficiência especialista em Diplomacia, pode tentar um teste CD 20 para aumentar os Pontos de Vigor recuperados em 5; se você tiver proficiência mestre, pode tentar um teste de CD 30 para aumentar os Pontos de Vigor em 15; se você tiver proficiência lendária, poderá tentar um teste CD 40 para aumentar em 25 os Pontos de Vigor. Não importa o resultado, o aliado fica temporariamente imune a Palavras Encorajadoras até que eles @Compendium[pf2e.actionspf2e.qc0VsZ0UesnurUUB]{Tomem um Ar} ou descansem pelo dia.   <strong>Sucesso Crítico</strong> O aliado recupera 2d8 Pontos de Vigor. <strong>Sucesso</strong> O aliado recupera 1d8 Pontos de Vigor. <strong>Falha Crítica</strong> O aliado recebe 1d8 de dano mental, mas isso pode reduzir apenas pontos de resistência, nunca pontos de vida.</p> (Tradução não oficial - Gamemastery Guide)"
+      "description": "<p> <strong>Pré-requisitos</strong> treinado em Diplomacia <strong>Requirementos</strong> O aliado alvo perdeu Pontos de Vigor na última rodada. </span></p> <hr> <p>Você dá a um aliado em um raio de 9 metros uma rápida conversa animada, ajudando-o a se recuperar. Tente um teste de Diplomacia. A CD é geralmente 15, embora O mestre possa ajustá-lo com base nas circunstâncias. Se você possui proficiência especialista em Diplomacia, pode tentar um teste CD 20 para aumentar os Pontos de Vigor recuperados em 5; se você tiver proficiência mestre, pode tentar um teste de CD 30 para aumentar os Pontos de Vigor em 15; se você tiver proficiência lendária, poderá tentar um teste CD 40 para aumentar em 25 os Pontos de Vigor. Não importa o resultado, o aliado fica temporariamente imune a Palavras Encorajadoras até que eles @Compendium[pf2e.actionspf2e.qc0VsZ0UesnurUUB]{Tomem um Ar} ou descansem pelo dia.   <strong>Sucesso Crítico</strong> O aliado recupera 2d8 Pontos de Vigor. <strong>Sucesso</strong> O aliado recupera 1d8 Pontos de Vigor. <strong>Falha Crítica</strong> O aliado recebe 1d8 de dano mental, mas isso pode reduzir apenas pontos de resistência, nunca pontos de vida.</p> (Tradução não oficial - Gamemastery Guide)",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Endurance of the Rooted Tree": {
       "description": "<section class=\"details\"> <p><strong>Prerequisites</strong> @Compendium[pf2e.spells-srd.qJZZdYBdNaWRJFER]{Wholeness of Body}</p> </section> <section class=\"content\"> <p>Just as the Vale of Aroden retains light and life despite inhospitable surroundings, you can sustain yourself regardless of your environment. You don’t need to eat, drink, or breathe. In addition, you can cast the wholeness of body ki spell almost effortlessly. You can cast it as a free action that triggers at the start of your turn.</p> </section>",
@@ -4148,7 +4306,7 @@
     },
     "Entourage": {
       "name": "Comitiva",
-      "description": "<p> <strong>Pré-requisitos</strong> mestre em Diplomacia, @Compendium[pf2e.feats-srd.4RjDxgvNXNl5GG9d]{Camarada} </span></p> <hr> <p>Você tem um pequeno grupo de admiradores que tendem a segui-lo enquanto estiver em assentamentos civilizados. Seus admiradores são úteis para você, permitindo que você faça @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Pedidos} simples deles, como comprar equipamentos básicos com seus fundos ou encontrar um quarto em uma pousada. Esses admiradores não viajam com você para lugares que são obviamente perigosos, incluindo a maioria dos locais de aventura, mas esperam por você no assentamento mais próximo. Seus admiradores nunca usam ações no modo de encontro além de recuar e o abandonam se você intencionalmente lhes causar dano ou a critério do MJ. Quando você @Compendium[pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Obter Informação}, você pode usar seus admiradores para ajudá-lo, concedendo um bônus de circunstância +1 ao seu teste de Diplomacia e reduzindo o tempo que demora ainda mais (normalmente para 30 minutos, em vez de 1 hora apenas com o talento Camarada). Se você tem o talento @Compendium[pf2e.feats-srd.sLEawQueTV1wGn0B]{Semear Rumores}, você pode pedir a seus admiradores que o ajude, com os mesmos benefícios que Obter Informação.</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "description": "<p> <strong>Pré-requisitos</strong> mestre em Diplomacia, @Compendium[pf2e.feats-srd.4RjDxgvNXNl5GG9d]{Camarada} </span></p> <hr> <p>Você tem um pequeno grupo de admiradores que tendem a segui-lo enquanto estiver em assentamentos civilizados. Seus admiradores são úteis para você, permitindo que você faça @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Pedidos} simples deles, como comprar equipamentos básicos com seus fundos ou encontrar um quarto em uma pousada. Esses admiradores não viajam com você para lugares que são obviamente perigosos, incluindo a maioria dos locais de aventura, mas esperam por você no assentamento mais próximo. Seus admiradores nunca usam ações no modo de encontro além de recuar e o abandonam se você intencionalmente lhes causar dano ou a critério do mestre. Quando você @Compendium[pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Obter Informação}, você pode usar seus admiradores para ajudá-lo, concedendo um bônus de circunstância +1 ao seu teste de Diplomacia e reduzindo o tempo que demora ainda mais (normalmente para 30 minutos, em vez de 1 hora apenas com o talento Camarada). Se você tem o talento @Compendium[pf2e.feats-srd.sLEawQueTV1wGn0B]{Semear Rumores}, você pode pedir a seus admiradores que o ajude, com os mesmos benefícios que Obter Informação.</p> (Tradução não oficial - Lost Omens: Character Guide)",
       "prerequisites": {
         "1": {
           "value": "Camarada"
@@ -4196,7 +4354,12 @@
     },
     "Eternal Composition": {
       "name": "Composição Eterna",
-      "description": "<p>O mundo é um palco sobre o qual você sempre está atuando. Você está permanentemente @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}; você pode usar sua ação extra apenas para conjurar um truque de composição que requer 1 ação para ser conjurado. Enquanto estiver em modo de exploração, você pode declarar que está performando um truque de composição elegível enquanto usa qualquer tática de exploração. Mesmo antes do seu primeiro turno em um combate, aquele truque estará ativo como se você o tivesse conjurado em seu turno anterior.</p>"
+      "description": "<p>O mundo é um palco sobre o qual você sempre está atuando. Você está permanentemente @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado}; você pode usar sua ação extra apenas para conjurar um truque de composição que requer 1 ação para ser conjurado. Enquanto estiver em modo de exploração, você pode declarar que está performando um truque de composição elegível enquanto usa qualquer tática de exploração. Mesmo antes do seu primeiro turno em um combate, aquele truque estará ativo como se você o tivesse conjurado em seu turno anterior.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Eternal Elixir": {
       "name": "Elixir Eterno",
@@ -4268,8 +4431,8 @@
       "description": "<p>You are so suspicious of everyone you meet that you keep mental notes on how to defeat them all-even your own allies.</p>\n<p>After interacting with a creature for at least 1 minute, you automatically @UUID[Compendium.pf2e.actionspf2e.xTK2zsWFyxSJvYbX]{Pursue a Lead} with that creature as the subject. You can have any number of such leads at any given time, and when you Pursue a Lead again, you don't give up any of these automatic subjects.</p>"
     },
     "Exacting Strike": {
-      "name": "Golpe Exato",
-      "description": "<p>Você executa um ataque de acompanhamento controlado, levando totalmente em conta seu ímpeto. Faça um Golpe. O Golpe ganha o seguinte efeito em caso de falha.</p>\n<p><strong>Falha</strong> Este ataque não conta para sua penalidade de múltiplos ataques.</p>"
+      "name": "Golpe de Exatidão",
+      "description": "<p>Você faz um ataque sequencial controlado, levando em conta o seu impulso. Faça um Golpe. Esse Golpe tem o efeito de falha a seguir:</p>\n<p><strong>Falha</strong> Este ataque não conta para a sua penalidade por ataques múltiplos.</p>"
     },
     "Execution": {
       "prerequisites": [
@@ -4628,7 +4791,12 @@
     },
     "Fast Channel": {
       "name": "Canalização Rápida",
-      "description": "<p>O poder divino está sempre ao seu alcance, respondendo rapidamente ao seu chamado. Quando você conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} gastando 2 ações, você pode obter os efeitos da versão de 3 ações em vez da versão de 2 ações.</p>\n<p>Você pode fazer isso com <em>ferir</em> se tiver a fonte prejudicial ou <em>curar</em> se tiver a fonte de cura (ou ambos se tiver Fonte Versátil).</p>"
+      "description": "<p>O poder divino está sempre ao seu alcance, respondendo rapidamente ao seu chamado. Quando você conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} gastando 2 ações, você pode obter os efeitos da versão de 3 ações em vez da versão de 2 ações.</p>\n<p>Você pode fazer isso com <em>ferir</em> se tiver a fonte prejudicial ou <em>curar</em> se tiver a fonte de cura (ou ambos se tiver Fonte Versátil).</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Fast Recovery": {
       "name": "Recuperação Rápida",
@@ -4762,6 +4930,13 @@
     "Fey's Trickery": {
       "description": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>You connect with the fey trickster within yourself to create whimsical illusory duplicates that distract your foes. This has the effects of <em>@UUID[Compendium.pf2e.spells-srd.j8vIoIEWElvpwkcI]{Mirror Image}</em>.</p>"
     },
+    "Field Propagandist Dedication": {
+      "prerequisites": [
+        {
+          "value": "Carisma +2"
+        }
+      ]
+    },
     "Fiendish Form": {
       "prerequisites": [
         {
@@ -4818,7 +4993,7 @@
     },
     "Firebrand Braggart Dedication": {
       "name": "Dedicação de Atiçador Fanfarrão",
-      "description": "<div><strong>Arquétipo </strong>@Compendium[pf2e.archetypes.YBvXmJ5e9MThdws0]{Atiçador Fanfarrão}</div> <div> <strong>Pré-requisitos</strong> Carisma 14, membro da segunda marca dos Atiçadores </span></div> <hr> <p>Seu treinamento nos Atiçadores ensinou que alcançar algo é mais satisfatório se você se gabar primeiro. Você declara que se vangloria de uma ação de perícia específica, como Equilibrar, Desmoralizar ou Recordar Conhecimento. Na primeira vez em que você tentar esta ação no próximo minuto, em um contexto que o MJ considere desafiador e significativo, você deve rolar duas vezes e usar o resultado mais baixo. Se você for bem-sucedido nesse teste, você ganha um bônus de circunstância +1 nos testes para tentar a mesma ação por 10 minutos. Se você falhar neste teste ou não tentar a ação dentro de 1 minuto, será aplicada uma penalidade de circunstância -1 nas verificações para tentar a mesma ação por 1 hora.</p> <p>Se a ação escolhida pode ser usada com várias perícias, como Identificar Magia ou Recordar Conhecimento, você deve especificar qual perícia está usando para essa ação específica, como o Arcanismo para Identificar Magia, e seu bônus ou penalidade após gabar-se se aplica apenas para testes usando essa perícia para essa ação. Depois de gabar-se sobre uma ação específica, não será possível gabar-se sobre a mesma ação até a próxima vez que você fizer as preparações diárias, independentemente de ter sucesso ou falha na verificação.</p> <p>Normalmente, uma tarefa desafiadora é aquela com pelo menos uma CD padrão para o seu nível, embora a dificuldade possa ser maior dependendo da situação. Um contexto significativo é aquele em que o sucesso ou o fracasso da ação é relevante para a consecução de seus objetivos, em vez de gabar pelo oque que você fez simplesmente para ganhar um bônus mais tarde.</p> <p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ganhar dois outros talentos do arquétipo do Atiçador Fanfarrão</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "description": "<div><strong>Arquétipo </strong>@Compendium[pf2e.archetypes.YBvXmJ5e9MThdws0]{Atiçador Fanfarrão}</div> <div> <strong>Pré-requisitos</strong> Carisma 14, membro da segunda marca dos Atiçadores </span></div> <hr> <p>Seu treinamento nos Atiçadores ensinou que alcançar algo é mais satisfatório se você se gabar primeiro. Você declara que se vangloria de uma ação de perícia específica, como Equilibrar, Desmoralizar ou Recordar Conhecimento. Na primeira vez em que você tentar esta ação no próximo minuto, em um contexto que O mestre considere desafiador e significativo, você deve rolar duas vezes e usar o resultado mais baixo. Se você for bem-sucedido nesse teste, você ganha um bônus de circunstância +1 nos testes para tentar a mesma ação por 10 minutos. Se você falhar neste teste ou não tentar a ação dentro de 1 minuto, será aplicada uma penalidade de circunstância -1 nas verificações para tentar a mesma ação por 1 hora.</p> <p>Se a ação escolhida pode ser usada com várias perícias, como Identificar Magia ou Recordar Conhecimento, você deve especificar qual perícia está usando para essa ação específica, como o Arcanismo para Identificar Magia, e seu bônus ou penalidade após gabar-se se aplica apenas para testes usando essa perícia para essa ação. Depois de gabar-se sobre uma ação específica, não será possível gabar-se sobre a mesma ação até a próxima vez que você fizer as preparações diárias, independentemente de ter sucesso ou falha na verificação.</p> <p>Normalmente, uma tarefa desafiadora é aquela com pelo menos uma CD padrão para o seu nível, embora a dificuldade possa ser maior dependendo da situação. Um contexto significativo é aquele em que o sucesso ou o fracasso da ação é relevante para a consecução de seus objetivos, em vez de gabar pelo oque que você fez simplesmente para ganhar um bônus mais tarde.</p> <p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ganhar dois outros talentos do arquétipo do Atiçador Fanfarrão</p> (Tradução não oficial - Lost Omens: Character Guide)",
       "prerequisites": {
         "1": {
           "value": "Carisma +2"
@@ -4958,7 +5133,7 @@
     },
     "Font of Knowledge": {
       "name": "Fonte de Conhecimento",
-      "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Mestre do Escrito  </span></p> <hr> <p>A experiência ou o estudo focado garantiram o domínio de vários tópicos. Quando você sabe de algo, conhece-o detalhadamente. Quando você obtém sucesso em um teste para @Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Recordar Conhecimento}, você obtém informações ou contexto adicionais. Quando você obtém sucesso crítico em um teste de Recordar Conhecimento, a critério do MJ, pode obter ainda mais informações ou contexto adicionais do que o normal.</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Mestre do Escrito  </span></p> <hr> <p>A experiência ou o estudo focado garantiram o domínio de vários tópicos. Quando você sabe de algo, conhece-o detalhadamente. Quando você obtém sucesso em um teste para @Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Recordar Conhecimento}, você obtém informações ou contexto adicionais. Quando você obtém sucesso crítico em um teste de Recordar Conhecimento, a critério do mestre, pode obter ainda mais informações ou contexto adicionais do que o normal.</p> (Tradução não oficial - Lost Omens: Character Guide)",
       "prerequisites": [
         {
           "value": "Dedicação do Mestre do Escrito"
@@ -5091,7 +5266,12 @@
     },
     "Fortissimo Composition": {
       "name": "Composição Fortissimo",
-      "description": "<p>Seus hinos se tornam mais altos e mais potentes, fortalecidos pelo poder de suas musas. Você aprende a magia de foco <UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{Composição Fortissimo}.</p>"
+      "description": "<p>Seus hinos se tornam mais altos e mais potentes, fortalecidos pelo poder de suas musas. Você aprende a magia de foco <UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{Composição Fortissimo}.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Fortuitous Shift": {
       "prerequisites": [
@@ -5592,7 +5772,12 @@
     },
     "Group Impression": {
       "name": "Impressionar Grupo",
-      "description": "<p>Quando você @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Impressionar}, você pode comparar o resultado do seu teste de Diplomacia com os DCs de Vontade de até 10 alvos com os quais você conversou, sem penalidade. O número de alvos aumenta para 20 se você for um especialista, 50 se você for um mestre, e 100 se você for lendário.</p>"
+      "description": "<p>Quando você @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Impressionar}, você pode comparar o resultado do seu teste de Diplomacia com os DCs de Vontade de até 10 alvos com os quais você conversou, sem penalidade. O número de alvos aumenta para 20 se você for um especialista, 50 se você for um mestre, e 100 se você for lendário.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Grown of Oak": {
       "name": "Cultivado de Carvalho",
@@ -5615,6 +5800,16 @@
     "Guarded Movement": {
       "name": "Movimento Cauteloso",
       "description": "<p>Você mantém sua guarda alta, mesmo enquanto se move. Você recebe +4 de bônus de circunstância na CA contra reações acionadas pelo seu movimento.</p>"
+    },
+    "Guardian Dedication": {
+      "prerequisites": [
+        {
+          "value": "Força +2"
+        },
+        {
+          "value": "Constituição +2"
+        }
+      ]
     },
     "Guardian Ghosts": {
       "description": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You would take damage from a Strike while one of your undead companions is adjacent to you.</p>\n<hr />\n<p>You magically divert some of the harm from an incoming attack away from yourself, forcing your undead companion to take it in your stead. Reduce the damage you take from the triggering Strike by 2 + your level. Your adjacent undead companion loses a number of Hit Points equal to the amount of damage reduced. If you have more than one adjacent undead companion, you choose which one loses Hit Points. You can't divert the damage to a temporary fragment from @UUID[Compendium.pf2e.feats-srd.VS28L98uFhr3j1HC]{Their Master's Call}.</p>"
@@ -5744,7 +5939,12 @@
     },
     "Harming Hands": {
       "name": "Mãos Agressoras",
-      "description": "<p>O poder mordaz de sua energia do vazio cresce. Quando você executa @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Dano}, você faz a rolagem de d10s em vez de d8s.</p>"
+      "description": "<p>O poder mordaz da sua energia eversiva aumenta. Quando conjurar @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir}, você joga d10s, em vez de d8s.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de ferimento"
+        }
+      ]
     },
     "Harmless Doll": {
       "description": "<p>You look like nothing more than an ordinary toy, doll, or statuette, and you can fool others with your innocuous appearance. You gain the trained proficiency rank in Deception (or another skill if you're already trained in Deception), and you can Impersonate an inanimate toy or a mindless poppet. You can @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} without any cover or concealment from creatures that don't realize you're alive, so long as you're in a location where a toy of your shape wouldn't be out of place, like a carnival booth, city street, or toy shop (at the GM's discretion). If you succeed, onlookers still see you, but they mistake you for an inanimate toy. After being fooled once, they realize you're alive, and you can't Hide from them in that way again.</p>\n<hr />\n<p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em></p>"
@@ -5754,7 +5954,12 @@
     },
     "Harmonize": {
       "name": "Harmonizar",
-      "description": "<p>Você pode performar múltiplas composições simultaneamente, normalmente performando de várias maneiras ao mesmo tempo, usando técnicas vocais especiais para duplicar sua voz, ou criando magia oculta que replica sua canção ou fala. Se sua próxima ação for lançar uma composição, ela se torna uma composição harmonizada. Ao contrário de uma composição normal, uma composição harmonizada não termina se você lançar outra composição, e você pode lançar outra composição na mesma rodada em que lançar uma harmonizada. Lançar outra composição harmonizada termina qualquer composição harmonizada que você já tenha em efeito.</p>"
+      "description": "<p>Você pode performar múltiplas composições simultaneamente, normalmente performando de várias maneiras ao mesmo tempo, usando técnicas vocais especiais para duplicar sua voz, ou criando magia oculta que replica sua canção ou fala. Se sua próxima ação for lançar uma composição, ela se torna uma composição harmonizada. Ao contrário de uma composição normal, uma composição harmonizada não termina se você lançar outra composição, e você pode lançar outra composição na mesma rodada em que lançar uma harmonizada. Lançar outra composição harmonizada termina qualquer composição harmonizada que você já tenha em efeito.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Harrying Strike": {
       "name": "Golpe Irritante",
@@ -5821,7 +6026,12 @@
     },
     "Healing Hands": {
       "name": "Mãos Curandeiras",
-      "description": "<p>Sua vitalidade é ainda mais vibrante e restauradora. Quando você executa @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Cura}, você faz a rolagem de d10s em vez de d8s.</p>"
+      "description": "<p>Sua vitalidade é ainda mais vibrante e restauradora. Quando conjurar @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar}, você joga d10s, em vez de d8s.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Healing Transformation": {
       "name": "Transformação Curativa",
@@ -5934,7 +6144,12 @@
     },
     "Heroic Recovery": {
       "name": "Recuperação Heroica",
-      "description": "<p>O poder restaurador de sua cura revigora o beneficiário. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} visando uma única criatura viva e o alvo recuperar Pontos de Vida do magia, o alvo também recebe três bônus até o final de seu próximo turno: um bônus de condição de +5 pés em sua Velocidade, um bônus de condição de +1 em rolagens de ataque e um bônus de condição de +1 em rolagens de dano. Além disso, se o alvo estiver @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Caído}, ele pode se Levantar imediatamente como uma ação livre que não aciona reações.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]{Efeito: Recuperação Heroica}</p>"
+      "description": "<p>O poder restaurador de sua cura revigora o beneficiário. Se a próxima ação que você usar for lançar @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} visando uma única criatura viva e o alvo recuperar Pontos de Vida do magia, o alvo também recebe três bônus até o final de seu próximo turno: um bônus de condição de +5 pés em sua Velocidade, um bônus de condição de +1 em rolagens de ataque e um bônus de condição de +1 em rolagens de dano. Além disso, se o alvo estiver @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Caído}, ele pode se Levantar imediatamente como uma ação livre que não aciona reações.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]{Efeito: Recuperação Heroica}</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Hex Focus": {
       "name": "Foco de Hex",
@@ -5992,14 +6207,24 @@
     },
     "Hobnobber": {
       "name": "Camarada",
-      "description": "<p>Você é qualificado em obter informações através de conversas. A atividade de exploração @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Obter Informação} leva metade do tempo normal (normalmente reduzindo o tempo para 1 hora). Se você for um mestre em Diplomacia e rolar uma falha crítica ao Obter Informação, você recebe uma falha em vez disso. Ainda assim, não há garantia de que um rumor que você aprenda com Obter Informação seja preciso.</p>"
+      "description": "<p>Você é qualificado em obter informações através de conversas. A atividade de exploração @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Obter Informação} leva metade do tempo normal (normalmente reduzindo o tempo para 1 hora). Se você for um mestre em Diplomacia e rolar uma falha crítica ao Obter Informação, você recebe uma falha em vez disso. Ainda assim, não há garantia de que um rumor que você aprenda com Obter Informação seja preciso.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Hold Mark": {
       "name": "Manter Marca",
       "description": "<p>Você urso cicatrizes ou tatuagens aprimoradas pela marca da capacidade de sua comunidade. Ao selecionar este feito, escolha uma das opções da tabela abaixo. Você é treinado na perícia listada e ganha um bônus de +1 condição nas jogadas de resistência contra magias da tradição listada. Você ganha uma Grande marca ou tatuagem na forma do emblema escolhido ou um conceito semelhante (por exemplo, o Sol Ardente pode ser uma tocha, sol, vulcão ou outro símbolo ígneo, enquanto a Mão Vazia pode ser um punho ou garra).</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Emblema da Marca Segurada</th>\n<th>perícia</th>\n<th>Tradição</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Sol Ardente</td>\n<td>Diplomacia</td>\n<td>Arcana</td>\n</tr>\n<tr>\n<td>Cabeça da Morte</td>\n<td>Sobrevivência</td>\n<td>Primal</td>\n</tr>\n<tr>\n<td>Cadáver Profanado</td>\n<td>Religião</td>\n<td>Divina</td>\n</tr>\n<tr>\n<td>Mão Vazia</td>\n<td>Intimidação</td>\n<td>Oculta</td>\n</tr>\n</tbody>\n</table>"
     },
     "Holistic Care": {
-      "description": "<p><strong>Prerequisites</strong> trained in Diplomacy, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"rfnEcjxIFqwlJwJT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Treat Condition</a></p> <hr> <p>You provide emotional and spiritual care. Add <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"TBSHQspnbcqxsmjL\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Frightened</a>, <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"e1XGnhKNSQIm5IXg\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Stupefied</a>, and <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"dfCMdR4wnpbYNTix\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Atordoado</a> to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can’t use Treat Condition to reduce it.</p>"
+      "description": "<p><strong>Prerequisites</strong> trained in Diplomacy, <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"rfnEcjxIFqwlJwJT\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Treat Condition</a></p> <hr> <p>You provide emotional and spiritual care. Add <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"TBSHQspnbcqxsmjL\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Frightened</a>, <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"e1XGnhKNSQIm5IXg\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Stupefied</a>, and <a class=\"entity-link\" data-pack=\"pf2e.conditionspf2e\" data-id=\"dfCMdR4wnpbYNTix\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Atordoado</a> to the list of conditions you can reduce with Treat Condition. If the stunned condition has a duration instead of a value, you can’t use Treat Condition to reduce it.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "Homeward Bound": {
       "name": "Caminho para Casa",
@@ -6095,6 +6320,13 @@
     "Imbue Mindlessness": {
       "description": "<p>You grasp the mind of an undead creature and temporarily wipe it as empty as a zombie's brain. You can target any undead with your divine innate <em>@UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz]{Harm}</em> spell, not just mindless undead. When you target one non-mindless undead creature with this spell, you can transform its effects. Instead of harm's normal effects, the target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute. While it is stupefied, you can use your Corpse Tender feats on the target as though it were mindless.</p>\n<p><strong>Critical Failure</strong> As failure, except the target is @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 3} for 10 minutes.</p>"
     },
+    "Immediate Rebuke": {
+      "prerequisites": {
+        "1": {
+          "value": "Golpe Reativo"
+        }
+      }
+    },
     "Immortal Techniques": {
       "prerequisites": [
         {
@@ -6108,7 +6340,12 @@
     },
     "Impassable Wall Stance": {
       "name": "Postura da Muralha Intransponível",
-      "description": "<p> <strong>Pré-requisitos</strong> Ataque de Oportunidade </span></p> <hr> <p>Você se recusa a deixar os inimigos passarem sua guarda. Enquanto você estiver nessa posição, ao acertar criticamente com um Ataque de Oportunidade acionado por uma ação de movimento, você a interrompe.</p> (Tradução não oficial - Lost Omens: Character Guide)"
+      "description": "<p> <strong>Pré-requisitos</strong> Ataque de Oportunidade </span></p> <hr> <p>Você se recusa a deixar os inimigos passarem sua guarda. Enquanto você estiver nessa posição, ao acertar criticamente com um Ataque de Oportunidade acionado por uma ação de movimento, você a interrompe.</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "prerequisites": [
+        {
+          "value": "Golpe Reativo"
+        }
+      ]
     },
     "Impeccable Crafting": {
       "name": "Manufatura Impecável",
@@ -6223,11 +6460,14 @@
     "Improved Command Undead": {
       "name": "Comandar Mortos-Vivos Aprimorado",
       "description": "<p><strong>Pré-requisitos</strong> fonte de ferimento, tendência maligna, Comandar Mortos-Vivos</p> <hr> <p>Criaturas mortas-vivas acham quase impossível resistir aos seus comandos. Quando usar Comandar Mortos-vivos, se o morto-vivo obtiver sucesso (mas não um sucesso crítico) no salvamento, ele se torna seu lacaio por 1 rodada. Se o morto-vivo falhar no salvamento, ele se torna seu lacaio por 10 minutos. Se ele falhar criticamente, se torna seu lacaio por 24 horas.</p>",
-      "prerequisites": {
-        "1": {
+      "prerequisites": [
+        {
+          "value": "fonte de ferimento"
+        },
+        {
           "value": "Comandar Mortos-Vivos"
         }
-      }
+      ]
     },
     "Improved Dueling Riposte": {
       "name": "Riposta de Duelo Aprimorada",
@@ -6314,7 +6554,12 @@
     },
     "In Tune": {
       "name": "Em Sintonia",
-      "description": "<p>Você ajusta sua grande perícia em Performar para outro, concedendo a eles uma pequena medida de sua perícia como se qualquer pessoa pudesse fazê-lo. Se sua próxima ação for lançar uma magia de composição com uma área de emanação, sua área se espalha de um aliado disposto de sua escolha dentro de 60 pés em vez de você.</p>\n<p>Se você tiver @UUID[Compendium.pf2e.feats-srd.Item.ot0uyFtnC1Whz5bp]{Público Direcionado}, você pode fazer com que esse cone se origine do aliado em vez de você.</p>"
+      "description": "<p>Você ajusta sua grande perícia em Performar para outro, concedendo a eles uma pequena medida de sua perícia como se qualquer pessoa pudesse fazê-lo. Se sua próxima ação for lançar uma magia de composição com uma área de emanação, sua área se espalha de um aliado disposto de sua escolha dentro de 60 pés em vez de você.</p>\n<p>Se você tiver @UUID[Compendium.pf2e.feats-srd.Item.ot0uyFtnC1Whz5bp]{Público Direcionado}, você pode fazer com que esse cone se origine do aliado em vez de você.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Incorporeal Shot": {
       "prerequisites": [
@@ -6483,6 +6728,9 @@
       "prerequisites": [
         {
           "value": "Dedicação de Marechal"
+        },
+        {
+          "value": "treinado em Diplomacia"
         }
       ]
     },
@@ -6588,7 +6836,7 @@
     },
     "Inventor": {
       "name": "Inventor",
-      "description": "<p>Você é um gênio em Manufaturar, facilmente capaz de determinar como as coisas são feitas e criar novas invenções. Você pode gastar tempo de inatividade para inventar uma fórmula comum que você não conhece. Isto funciona exatamente como a atividade de Manufatura: você gasta metade do preço da fórmula antecipadamente, tenta um teste de Manufatura, e em caso de sucesso, ou termina a fórmula pagando a diferença ou trabalha por mais tempo para diminuir o preço. A diferença é que você gasta o tempo adicional em pesquisa, design, e desenvolvimento, em vez de criar um item. Uma vez completa, você adiciona a nova fórmula que inventou ao seu livro de fórmulas.</p>\n<p>O MJ pode permitir que você invente fórmulas incomuns ou raras, tipicamente com um aumento de CD. Você precisa da façanha de Manufatura Alquímica para inventar fórmulas alquímicas e da façanha de Manufatura Mágica para inventar fórmulas mágicas.</p>"
+      "description": "<p>Você é um gênio em Manufaturar, facilmente capaz de determinar como as coisas são feitas e criar novas invenções. Você pode gastar tempo de inatividade para inventar uma fórmula comum que você não conhece. Isto funciona exatamente como a atividade de Manufatura: você gasta metade do preço da fórmula antecipadamente, tenta um teste de Manufatura, e em caso de sucesso, ou termina a fórmula pagando a diferença ou trabalha por mais tempo para diminuir o preço. A diferença é que você gasta o tempo adicional em pesquisa, design, e desenvolvimento, em vez de criar um item. Uma vez completa, você adiciona a nova fórmula que inventou ao seu livro de fórmulas.</p>\n<p>O mestre pode permitir que você invente fórmulas incomuns ou raras, tipicamente com um aumento de CD. Você precisa da façanha de Manufatura Alquímica para inventar fórmulas alquímicas e da façanha de Manufatura Mágica para inventar fórmulas mágicas.</p>"
     },
     "Inventor Dedication": {
       "name": "Dedicação de Inventor"
@@ -6662,6 +6910,9 @@
           "value": "Postura do Sangue de Ferro"
         }
       ]
+    },
+    "Ironclad Fortitude": {
+      "description": "<p><strong>Pré-requisitos</strong> especialista em salvamentos de Fortitude, Dedicação de Bárbaro</p> <hr> <p>Sua graduação de proficiência em salvamentos de Fortitude aumenta para mestre.</p>"
     },
     "Irrepressible (Halfling)": {
       "name": "Irreprimível (Halfling)",
@@ -7072,7 +7323,12 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada",
-      "description": "<p>Ao adicionar um floreio, você faz suas composições durarem mais. Você aprende a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]{Composição Prolongada}.</p>"
+      "description": "<p>Ao acrescentar um floreio, você faz suas composições durarem mais. Você adquire a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]Composição Prolongada}.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Linguist Dedication": {
       "name": "Dedicação de Linguista"
@@ -7222,6 +7478,9 @@
       "prerequisites": [
         {
           "value": "Estocada"
+        },
+        {
+          "value": "Golpe Reativo"
         }
       ]
     },
@@ -7231,6 +7490,13 @@
     "Magaambyan Attendant Dedication": {
       "name": "Dedicação de Assistente Magaambyano",
       "description": "<div><strong>Arquétipo </strong>@Compendium[pf2e.archetypes.yvb2pY3Qb7Jl35hk]{Assistente Magaambyano}</div> <div> <strong>Pré-requisitos</strong> treinado em Arcanismo ou Natureza, membro da Magaambya de classificação de atendente </span></div> <hr> <p>Você dedica grande parte do seu estudo à magia halcyon. Você ganha a perícia de conjurar um único truque mágico arcana ou primal de sua escolha (como é normal para truques mágicos, ele é aumentado para um nível de magia igual à metade do seu nível, arredondado para cima). Se você ainda não era, você se torna treinado na CD de magia e nas rolagens de ataque de magia dessa tradição, com Inteligência como sua perícia de conjuração se você escolher arcana ou Sabedoria como sua perícia de conjuração, se você escolher primal.</p> <p>Independentemente de você escolher um truque mágico arcano ou primal, você também é treinado em Arcanismo ou Natureza, ou especialista em uma dessas perícias nas qual você já for treinado.</p> <p>Quando você conseguir esse talento, escolha se associar aos Cascade Bearers, Emerald Boughs, Rain-Scribes, Tempest-Sun Mages ou Uzunjati. Isso concede talentos adicionais disponíveis apenas para esse ramo.</p> <div><strong>Especial</strong> Você não pode selecionar outro talento de dedicação que não seja da @Compendium[pf2e.feats-srd.7fU6e3HIT4NvwLYa]{Dedicação de Orador Halcyon} até que você tenha ganho dois outros talentos de Assistente Magaambyano ou do arquétipo de @Compendium[pf2e.archetypes.Qsmzm6w1ZNpHX7GD]{Orador Halcyon}.</div> (Tradução não oficial - Lost Omens: Character Guide)"
+    },
+    "Mage's Field Dressing": {
+      "prerequisites": {
+        "1": {
+          "value": "Medicina de Batalha"
+        }
+      }
     },
     "Magic Ammunition": {
       "prerequisites": [
@@ -7895,8 +8161,16 @@
       "prerequisites": [
         {
           "value": "Cura Ateísta"
+        },
+        {
+          "value": "Você segue as Leis da Mortalidade"
         }
-      ]
+      ],
+      "rules": {
+        "0": {
+          "text": "Quando rolar um sucesso para @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Tratar Ferimentos} de uma criatura que não tenha recuperado Pontos de Vida por magia divina nas últimas 24 horas, trate o resultado como um sucesso crítico e restaure a quantidade correspondente de Pontos de Vida."
+        }
+      }
     },
     "Mortification": {
       "name": "Mortificação",
@@ -7935,6 +8209,13 @@
       "description": "<p>Sua robustez permite você resistir a mais punição que a maioria. Aumente seus Pontos de Vida máximos pelo seu nível. Quando você tiver a condição @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Morrendo 1}, a DC dos seus testes de recuperação é igual a 9 + seu valor morrendo (ao invés de 10 + seu valor morrendo).</p>\n<p>Se você também tiver o talento @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{Robustez}, os Pontos de Vida ganhos a partir dele e deste talento são cumulativos, e a DC dos seus testes de recuperação é igual a 6 + seu valor morrendo.</p>"
     },
     "Mounted Shield": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
+    },
+    "Mounting Leap": {
       "prerequisites": [
         {
           "value": "Dedicação de Cavaleiro"
@@ -8146,7 +8427,12 @@
       "description": "<p>Você é astuto o suficiente para encontrar uma abertura no ataque de um oponente. Quando você usa sua reação @UUID[Compendium.pf2e.feats-srd.Item.dNH8OHEvx3vI9NBQ]{Esquiva Vistosa}, você pode fazer um Golpear corpo a corpo contra a criatura de acionamento. Este Golpear não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a este Golpear. Se você usar o talento @UUID[Compendium.pf2e.feats-srd.Item.F6ZAceuDpiM9bUiF]{Rolamento Vistoso}, você pode fazer este Golpear a qualquer momento durante sua rolagem.</p>"
     },
     "No Cause for Alarm": {
-      "description": "<p>Você tenta reduzir o pânico. Tente um @Check[diplomacy] teste, comparando ao DC de Vontade das criaturas em uma @Template[emanation|distance:10] ao seu redor que estão @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{assustado}. Cada uma delas fica temporariamente imune por 1 hora.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Reduza o valor de assustado da criatura em 2.</p>\n<p><strong>Sucesso</strong> Reduza o valor de assustado da criatura em 1.</p>"
+      "description": "<p>Você tenta reduzir o pânico. Tente um @Check[diplomacy] teste, comparando ao DC de Vontade das criaturas em uma @Template[emanation|distance:10] ao seu redor que estão @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{assustado}. Cada uma delas fica temporariamente imune por 1 hora.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Reduza o valor de assustado da criatura em 2.</p>\n<p><strong>Sucesso</strong> Reduza o valor de assustado da criatura em 1.</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
     },
     "No Escape": {
       "name": "Sem Escapatória"
@@ -8205,6 +8491,13 @@
         }
       ]
     },
+    "Observational Analysis": {
+      "prerequisites": [
+        {
+          "value": "Avaliação de Combate"
+        }
+      ]
+    },
     "Occult Breadth": {
       "name": "Amplitude Ocultista",
       "description": "<p>Seu repertório se expande e você pode lançar mais magias ocultistas por dia. Aumente o número de magias em seu repertório e o número de espaços de magia que você ganha dos talentos de arquétipo de bardo em 1 para cada nível de magia que não seja seus dois mais altos espaços de magia.</p>",
@@ -8236,8 +8529,22 @@
     "Offensive Subroutine": {
       "description": "<p>Nanites augment your attacks. You can choose to activate @UUID[Compendium.pf2e.feats-srd.JS24EjgLYcHB9E3T]{Nanite Surge} when you attempt an attack roll, instead of when you attempt a skill check. If you do, you gain a +1 status bonus to the triggering attack roll.</p>"
     },
+    "One for All": {
+      "prerequisites": [
+        {
+          "value": "treinado em Diplomacia"
+        }
+      ]
+    },
     "One-Inch Punch": {
       "description": "<p><strong>Prerequisites </strong>expert strikes</p> <hr> <p>You put all your force into a single mighty, carefully controlled blow. Make an unarmed @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike}. If you spend two actions and this Strike hits, you deal an extra die of weapon damage. You can instead spend 3 actions to perform an even more powerful attack, dealing a second additional die of weapon damage on a hit.</p> <p>If you’re at least 10th level, the number of additional dice you add from this feat doubles, for a total of 2 additional dice if you spend 2 actions or 4 additional dice if you spend 3 actions. If you’re at least 18th level, the number of additional dice you add from this feat triples, for a total of 3 additional dice if you spend 2 actions or 6 additional dice if you spend 3 actions.</p>"
+    },
+    "One-On-One": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
     },
     "Ongoing Investigation": {
       "description": "<p>You’re always investigating what’s around you, even as you perform other activities. You can move at full Speed while using the <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"EwgTZBWsc8qKaViP\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Investigate</a> exploration activity, and you can use another exploration activity while Investigating.</p>"
@@ -8440,8 +8747,8 @@
       }
     },
     "Panic the Dead": {
-      "name": "Pânico dos Mortos",
-      "description": "<p>A vitalidade causa terror nos <em>mortos-vivos</em>. Quando você usa uma magia de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para causar <em>dano</em> aos mortos-vivos, qualquer morto-vivo que falhar no teste de resistência também fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}. Se falhar criticamente, a criatura também ganha a <em>condição</em> @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fugindo} até o início do seu próximo turno. Mortos-vivos <em>acéfalos</em> não são imunes a este efeito devido a ser <em>acéfalos</em>.</p>"
+      "name": "Amedrontar os Mortos",
+      "description": "<p>A vitalidade aterroriza os mortos-vivos. Quando você usar uma magia @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Curar} para causar dano a mortos-vivos, os que falharem no salvamento também ficam @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}. Se obtiver uma falha crítica, o morto-vivo também sofre a condição @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fugindo} até o início do seu próximo turno. Mortos-vivos acéfalos não são imunes a esse efeito por serem acéfalos.</p>"
     },
     "Paragon Battle Medicine": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]{Battle Medicine}, master in Medicine</p> <hr> <p>Kassi Aziril taught you her techniques that originated the modern use of Battle Medicine. When you successfully use Battle Medicine, you can also reduce the target’s @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}, @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}, or @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy} condition by 1 (this has no effect if you are subject to an effect continually applying the clumsy condition, like enlarge). If you are legendary in Medicine, you can choose to reduce the target’s @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} or @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} condition by 1 instead, and if you have the @Compendium[pf2e.feats-srd.yTLGclKtWVFZLKIz]{Godless Healing} feat , you can choose to reduce the target’s @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} or @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained} condition by 1 instead. If you have the @Compendium[pf2e.feats-srd.mEk2POFNU1Q0TQg2]{Mortal Healing} feat, you can reduce all available conditions by 1 for a target who hasn’t benefited from positive or healing magic in the last 24 hours, and if you roll a critical success before applying the effects of the feat, you reduce all available conditions by 2 for that target instead.</p>",
@@ -8675,8 +8982,8 @@
       "description": "<p><strong>Requerimentos</strong> Você é transformado em uma planta por uma magia de polimorfia.</p> <hr> <p>Sua forma vegetal brota centenas de espinhos e seu sangue causa alucinações leves em criaturas expostas a ele. Cada vez que uma criatura toca em você, bate em você com um ataque desarmado ou com uma arma corpo a corpo enquanto está adjacente a você, essa criatura recebe 1d6 de dano perfurante. Aumente o dano para 2d6 se a magia polimorfia for do 8º nível ou superior, ou para 3d6 se for o 10º nível.</p> <p>Quando uma criatura adjacente o danifica com dano perfurante ou cortante, ela deve ter sucesso em um teste de Fortitude contra o CD da sua classe ou ficar estupefata 1 (ou estupefata 2 em uma falha crítica) até o final do seu próximo turno.</p> <p>Esses benefícios duram até que você não seja mais polimorfizado em uma planta.</p> (Tradução não oficial - Age of Ashes livro 5)"
     },
     "Pet": {
-      "name": "Animal de Estimação",
-      "description": "<p>Você tem um animal de estimação — um animal Minúsculo do tipo que você escolher, como um felino, pássaro ou roedor. Ele tem o traço lacaio, o que significa que ele ganha 2 ações durante o seu turno se você usar a ação Comandar um Animal para comandá-lo; isso substitui os efeitos usuais de @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Comandar um Animal}, e você não precisa tentar um teste de Natureza. Um animal de estimação não pode fazer Golpes.</p>\n<p><strong>Nível</strong> O nível do seu animal de estimação é igual ao seu.</p>\n<p><strong>Modificadores e CA</strong> Os modificadores de salvamento e CA do seu animal de estimação são iguais aos seus antes de aplicar bônus ou penalidades circunstanciais ou de condição. Ele usa 3 + seu nível como modificador para Percepção, Acrobatismo e Furtividade, e apenas seu nível como modificador para outros testes de perícia. Ele não tem nem usa seus próprios modificadores de atributo e nunca pode se beneficiar de bônus de item.</p>\n<p><strong>Pontos de Vida</strong> Seu animal de estimação tem 5 Pontos de Vida por nível.</p>\n<p><strong>Sentidos</strong> Seu animal de estimação tem visão na penumbra e pode ganhar sentidos adicionais por meio de perícias de animal de estimação.</p>\n<p><strong>Velocidade</strong> Seu animal de estimação tem uma Velocidade de 7,5 metros. Você pode optar por ter um animal de estimação aquático, que respira em água em vez de ar e tem o traço aquático, sem Velocidade terrestre e uma velocidade de natação de 7,5 metros.</p>\n<p><strong>perícias de Animal de Estimação</strong> Quando você adquirir seu animal de estimação, escolha duas das seguintes perícias. Se seu animal de estimação for um animal que naturalmente possui uma dessas perícias (por exemplo, uma coruja possui Velocidade de voo), você deve selecionar essa perícia. Seu animal de estimação não pode ser um animal que naturalmente possui mais perícias de animal de estimação do que o máximo. Em alguns casos, o Mestre pode adicionar algumas perícias de familiar às perícias de animal de estimação que você pode escolher.</p>\n<ul>\n<li><strong>Anfíbio</strong> Ele ganha o traço anfíbio, permitindo que respire tanto em ar quanto em água, e tem tanto uma Velocidade terrestre quanto uma velocidade de natação, cada uma igual à sua maior Velocidade terrestre ou de natação.</li>\n<li><strong>Escavador</strong> Ele ganha uma velocidade de escavação de 1,5 metros, permitindo cavar buracos Minúsculos.</li>\n<li><strong>Escalador</strong> Ele ganha uma velocidade de escalada de 7,5 metros.</li>\n<li><strong>Visão no Escuro</strong> Ele ganha visão no escuro.</li>\n<li><strong>Ecolocalização</strong> Seu animal de estimação pode usar a audição como um sentido preciso em um raio de 6 metros.</li>\n<li><strong>Movimento Veloz</strong> Aumente uma das Velocidades do animal de estimação de 7,5 metros para 12 metros.</li>\n<li><strong>Voador</strong> Ele ganha uma velocidade de voo de 7,5 metros.</li>\n<li><strong>Destreza Manual</strong> Ele pode usar até dois de seus membros como se fossem mãos para realizar ações de manuseio.</li>\n<li><strong>Faro</strong> Seu animal de estimação pode usar faro como um sentido impreciso em um raio de 9 metros.</li>\n<li><strong>Resistente</strong> O PV máximo do seu animal de estimação aumenta em 2 por nível.</li>\n</ul>\n<hr />\n<p><strong>Especial</strong> Você pode adquirir um novo animal de estimação ao retreinar este talento, liberando qualquer animal de estimação anterior que você possui. Se você posteriormente adquirir um familiar ou outro companheiro que use o talento de Animal de Estimação, você pode imediatamente retreinar este talento.</p>"
+      "name": "Mascote",
+      "description": "<p>Você tem um mascote — um animal Minúsculo de um tipo à sua escolha, como um gato, pássaro ou roedor. Ele tem o traço lacaio, o que significa que pode receber 2 ações no seu turno se você usar a ação Comandar Animal (isso substitui os efeitos normais de @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Comandar Animal}, e você não precisa fazer um teste de Natureza). Mascotes não podem fazer Golpes.</p>\n<p><strong>Nível</strong> O nível do seu mascote é igual ao seu.</p>\n<p><strong>Modificadores e CA</strong> Os modificadores de CA e salvamento do seu mascote são iguais aos seus antes de aplicar quaisquer bônus ou penalidades de circunstância ou estado. Ele usa 3 + o seu nível como modificador de Percepção, Acrobatismo e Furtividade, e apenas o seu nível como modificador de outros testes de perícia. O mascote não tem nem usa modificadores de atributo próprios e nunca pode se beneficiar de bônus de itens.</p>\n<p><strong>Pontos de Vida</strong> Seu mascote tem 5 PVs por nível.</p>\n<p><strong>Sentidos</strong> Seu mascote tem visão na penumbra e pode ganhar sentidos adicionais por meio de habilidades de mascote.</p>\n<p><strong>Velocidade</strong> Seu mascote tem Velocidade de 7,5 metros. Você pode optar por ter um mascote aquático, que respira na água em vez de no ar e tem o traço aquático, sem Velocidade terrestre e com Velocidade de natação de 7,5 metros.</p>\n<p><strong>Habilidades de mascote</strong> Ao adquirir seu mascote, escolha duas das habilidades a seguir. Se o seu mascote tiver uma dessas habilidades naturalmente (por exemplo, uma coruja teria Velocidade de voo), você precisa selecionar essa habilidade. Seu mascote não pode ser uma criatura que possua naturalmente mais habilidades de mascote do que o máximo permitido. Em alguns casos, o Mestre pode adicionar algumas habilidades de familiar descritas nas páginas 212 e 213 às habilidades de mascote disponíveis.</p>\n<ul>\n<li><strong>Anfíbio</strong> Ele ganha o traço anfíbio, permitindo que respire tanto em ar quanto em água, e tem tanto uma Velocidade terrestre quanto uma velocidade de natação, cada uma igual à sua maior Velocidade terrestre ou de natação.</li>\n<li><strong>Escavador</strong> Ele ganha uma velocidade de escavação de 1,5 metros, permitindo cavar buracos Minúsculos.</li>\n<li><strong>Escalador</strong> Ele ganha uma velocidade de escalada de 7,5 metros.</li>\n<li><strong>Visão no Escuro</strong> Ele ganha visão no escuro.</li>\n<li><strong>Ecolocalização</strong> Seu mascote pode usar a audição como um sentido preciso em um raio de 6 metros.</li>\n<li><strong>Movimento Veloz</strong> Aumente uma das Velocidades do mascote de 7,5 metros para 12 metros.</li>\n<li><strong>Voador</strong> Ele ganha uma velocidade de voo de 7,5 metros.</li>\n<li><strong>Destreza Manual</strong> Ele pode usar até dois de seus membros como se fossem mãos para realizar ações de manuseio.</li>\n<li><strong>Faro</strong> Seu mascote pode usar faro como um sentido impreciso em um raio de 9 metros.</li>\n<li><strong>Resistente</strong> O PV máximo do seu mascote aumenta em 2 por nível.</li>\n</ul>\n<hr />\n<p><strong>Especial</strong> Você pode adquirir um novo mascote ao retreinar este talento, liberando qualquer mascote anterior que você possui. Se você posteriormente adquirir um familiar ou outro companheiro que use o talento de Mascote, você pode imediatamente retreinar este talento.</p>"
     },
     "Phase Out": {
       "description": "<p>Your eidolon phases out of reality slightly, gaining resistance to all damage (except force and negative) equal to half your level. It's not incorporeal, but it can't use Strikes or actions that require a fully physical form, such as @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip}.</p>\n<p>Your eidolon can return to its normal form with a single action, which has the concentrate trait.</p>"
@@ -8955,12 +9262,13 @@
       "description": "<p>Você de alguma forma consegue ter exatamente o que precisa para a situação. Você ganha os talentos @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{Planejador Previsível} e @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{Consumível Previsível}. Ao usar o Planejador Previsível, você pode retirar o item da sua mochila (ou de um recipiente similar) como uma atividade de 2 ações, em vez de levar 1 minuto para fazer isso.</p>"
     },
     "Premonition of Avoidance": {
-      "name": "Premonição de Evasão",
-      "description": "<p><strong>Acionamento</strong> Você está prestes a rolar um teste de resistência contra um perigo.</p>\n<hr />\n<p>Sua divindade lhe concede um momento de presciência. Você ganha um bônus de +2 de circunstância para o teste de resistência de acionamento.</p>"
+      "name": "Premonição de Salvação",
+      "description": "<p><strong>Acionamento</strong> Você está prestes a fazer um salvamento contra um perigo.</p>\n<hr />\n<p>Sua divindade lhe concede um momento de clarividência. Você recebe +2 de bônus de circunstância no teste de salvamento acionador.</p>"
     },
     "Premonition of Clarity": {
       "name": "Premonição de Clareza",
-      "description": "<p><strong>frequência</strong> uma vez por hora</p>\n<p><strong>Acionamento</strong> Você fracassa em um teste de resistência contra um efeito mental.</p>\n<hr />\n<p>Sua divindade envia uma visão de fé para fortalecê-lo contra ataques mentais. Role novamente o teste de resistência de acionamento com um bônus circunstancial de +2. Você deve usar o segundo resultado, mesmo que seja pior.</p>"
+      "description": "<p><strong>frequência</strong> uma vez por hora</p>\n<p><strong>Acionamento</strong> Você fracassa em um teste de resistência contra um efeito mental.</p>\n<hr />\n<p>Sua divindade envia uma visão de fé para fortalecê-lo contra ataques mentais. Role novamente o teste de resistência de acionamento com um bônus circunstancial de +2. Você deve usar o segundo resultado, mesmo que seja pior.</p>",
+      "selfEffect": "Efeito: Premonição de Clareza"
     },
     "Preparation": {
       "name": "Preparações diárias",
@@ -9407,8 +9715,8 @@
       "description": "<p><strong>Frequência</strong> uma vez por hora</p>\n<p><strong>Acionamento</strong> Você cega ou ofusca uma criatura.</p>\n<hr />\n<p>Você passou um tempo considerável praticando a manipulação da luz, armando o reflexo da sua lâmina ou aumentando a luminosidade de exibições mágicas a alturas incomuns. Estenda a duração da condição @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Cego} ou @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscado} que você dá ao alvo por 1 rodada.</p>"
     },
     "Reach Spell": {
-      "name": "Magia de Alcance",
-      "description": "<p>Você pode estender a distância das suas magias. Se a próxima ação que você usar for Conjurar uma Magia que tenha um alcance, aumente a distância dessa magia em 30 pés. Conforme é padrão para aumentar os alcances de magia, se a magia normalmente tiver um alcance de toque, você estende a distância para 30 pés.</p>"
+      "name": "Estender Magia",
+      "description": "<p>Você consegue estender a distância das suas magias. Se a sua próxima ação for Conjurar uma Magia que tem uma distância, aumente a distância dela em 9 metros. Como é padrão ao aumentar a distância de magias, se a magia normalmente tiver uma distância de toque, você aumenta a distância dela para 9 metros.</p>"
     },
     "Reactive Distraction": {
       "name": "Distração Reativa",
@@ -9431,9 +9739,13 @@
       "name": "Escudo Reativo",
       "description": "<p><strong>Acionamento</strong> Um inimigo atinge você com um Golpe corpo a corpo.</p>\n<hr />\n<p><strong>Requerimento</strong> Você está empunhando um escudo. Você pode posicionar seu escudo como se fosse tomar um golpe, evitando o ataque no último segundo. Você usa imediatamente a ação @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Levantar um Escudo} e ganha o bônus do seu escudo para a CA. O bônus circunstancial do escudo se aplica à sua CA quando você estiver determinando o resultado do ataque acionado.</p>"
     },
-    "Reactive Striker": {
+    "Reactive Strike": {
       "name": "Golpe Reativo",
-      "description": "<p>Você ganha a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike}.</p>",
+      "description": "<p><strong>Acionamento</strong> Uma criatura ao seu alcance usa uma ação de manuseio ou de movimento, faz um ataque à distância, ou sai de um quadrado durante uma ação de movimento que está usando.</p>\n<hr />\n<p>Você ataca um adversário que abriu a guarda. Faça um Golpe corpo a corpo contra a criatura acionadora. Se o seu ataque for um acerto crítico e o acionamento for uma ação de manuseio, você interrompe essa ação. Esse Golpe não conta para sua penalidade por ataques múltiplos, e sua penalidade por ataques múltiplos não se aplica a esse Golpe.</p>"
+    },
+    "Reactive Striker": {
+      "name": "Golpeador Reativo",
+      "description": "<p>Você ganha a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe Reativo}.</p>",
       "prerequisites": [
         {
           "value": "Dedicação de Guerreiro"
@@ -9473,6 +9785,13 @@
       "prerequisites": [
         {
           "value": "Dedicação do Cavaleiro Recuperador"
+        }
+      ]
+    },
+    "Rearing Display": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
         }
       ]
     },
@@ -9688,6 +10007,13 @@
       "name": "Replicate",
       "description": "<p>You've learned to reshape your malleable form. You can cast <em>@UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{Illusory Disguise}</em> once per day as an innate occult spell. This is a transmutation and morph effect, as your body physically transforms, rather than an illusion effect.</p>"
     },
+    "Repositioning Block": {
+      "prerequisites": [
+        {
+          "value": "Bloqueio com Escudo"
+        }
+      ]
+    },
     "Reprepare Spell": {
       "name": "Repreparar Magia",
       "description": "<p>Você descobriu como reutilizar alguns dos seus espaços de magia várias vezes. Você pode gastar 10 minutos para preparar uma magia que já tenha executado hoje, recuperando o acesso a esse espaço de magia. A magia deve ser de 4º nível ou inferior e não pode ter uma duração. Você pode preparar uma magia novamente dessa forma, mesmo que já tenha preparado essa magia novamente no mesmo dia.</p>\n<p>Se você tiver a tese arcana @UUID[Compendium.pf2e.classfeatures.Item.QzWXMCSGNfvvpYgF]{Substituição de Magia}, você pode, em vez disso, preparar uma magia diferente em um espaço gasto, desde que a nova magia não tenha uma duração. Você pode usar substituição de magia nesse espaço novamente, mas permanece restrito a preparar apenas magias sem uma duração nesse espaço até a próxima vez em que você fizer suas preparações diárias.</p>"
@@ -9697,7 +10023,7 @@
     },
     "Reptile Speaker": {
       "name": "Falar com Répteis",
-      "description": "<p> Você interpreta o som de répteis com uma lingua. Você pode fazer perguntas, obter respostas, e usar a perícia <a href=\"https://2e.aonprd.com/Skills.aspx?ID=6\">Diplomacia</a> com animais que sejam répteis (O MJ determina que animais contam como répteis).</span></p>"
+      "description": "<p> Você interpreta o som de répteis com uma lingua. Você pode fazer perguntas, obter respostas, e usar a perícia <a href=\"https://2e.aonprd.com/Skills.aspx?ID=6\">Diplomacia</a> com animais que sejam répteis (O mestre determina que animais contam como répteis).</span></p>"
     },
     "Repulse the Wicked": {
       "description": "<p><strong>Trigger</strong> An undead within your reach critically fails an attack roll targeting you.</p>\n<hr />\n<p>You use your foe's failure as an opening to push them away. You attempt to @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} the undead.</p>",
@@ -9749,7 +10075,12 @@
     },
     "Resounding Finale": {
       "name": "Finale Retumbante",
-      "description": "<p><strong>Acionamento</strong> Você ou um aliado beneficiando-se de sua magia de composição sofreriam dano sonoro.</p>\n<hr />\n<p>Você traz sua performance a um fim súbito e dramático, abafando outros sons. Sua magia de composição termina imediatamente, e todos os aliados que estavam se beneficiando dos efeitos da magia ganham resistência sônica contra o dano acionador igual ao dobro do rank da magia de composição.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.ycalVFivloJ14yhA]{Efeito: Final Estrondoso}</p>"
+      "description": "<p><strong>Acionamento</strong> Você ou um aliado beneficiando-se de sua magia de composição sofreriam dano sonoro.</p>\n<hr />\n<p>Você traz sua performance a um fim súbito e dramático, abafando outros sons. Sua magia de composição termina imediatamente, e todos os aliados que estavam se beneficiando dos efeitos da magia ganham resistência sônica contra o dano acionador igual ao dobro do rank da magia de composição.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.ycalVFivloJ14yhA]{Efeito: Final Estrondoso}</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Resourceful Ritualist": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"kU4K9jj9qnktoAaQ\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Ritualist Dedication</a></p> <hr> <p>You can cast difficult rituals that might otherwise be just beyond your skill. You can attempt checks to cast a ritual that requires expert proficiency if you are trained, master proficiency if you are an expert, or legendary proficiency if you are a master.</p>"
@@ -9759,7 +10090,12 @@
     },
     "Restorative Channel": {
       "name": "Canal Restaurador",
-      "description": "<p>Você pode remover condições com Graça Divina. Você pode sacrificar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{cura} que preparou em seus slots extras de sua fonte de cura para lançar uma das seguintes magias: @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Purificar Aflito}, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Mente Clara}, @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Corpo São} ou @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Pé Seguro}. A magia é elevada ao mesmo nível da magia que você sacrificou.</p>"
+      "description": "<p>Você pode remover condições com Graça Divina. Você pode sacrificar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{cura} que preparou em seus slots extras de sua fonte de cura para lançar uma das seguintes magias: @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Purificar Aflito}, @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Mente Clara}, @UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{Corpo São} ou @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Pé Seguro}. A magia é elevada ao mesmo nível da magia que você sacrificou.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura"
+        }
+      ]
     },
     "Restorative Strike": {
       "name": "Golpe Restaurador",
@@ -9962,7 +10298,6 @@
       "description": "<div><strong>Arquétipo </strong>@Compendium[pf2e.archetypes.RyjrUkqSIg52Mjl8]{Marcado pelas Runas}</div> <div> <strong>Pré-requisitos</strong> treinado em Arcanismo;; <strong>Accesso</strong> Você é das Terras das Sagas. </span></div> <hr> <p>Seja pelo sangue (se você for varisiano, shoanti ou novotassiloniano) ou por exposição à magia rúnica, você se tornou um marcado pelas runas, com runas visíveis e brilhantes em seu corpo na forma de tatuagens ou cicatrizes. Você pode ter possuído estas marcas antes de ganhar o arquétipo, mas só se torna verdadeiramente marcado pelas runas quando escolhe estudar e se arriscar no poder das runas. Você se torna especialista em Arcanismo e também se torna treinado em Saber da Tassilônia, ou especialista em Saber da Tassilônia se já for treinado nessa perícia..</p> <p>Escolha um truque mágico da lista de magias arcanas. Uma das runas em seu corpo corresponde ao truque mágico escolhido, e você pode conjurar o truque mágico escolhido como uma magia arcana inata.</p> <p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter recebido dois outros talentos do arquétipo de marcado pelas runas.</p>"
     },
     "Runic Impression": {
-      "name": "Runic Impression",
       "description": "<p>You can temporarily replicate the effects of a property rune for your weapon or unarmed attacks. You learn the <em>@UUID[Compendium.pf2e.spells-srd.oOaEfsdVpgTXRhrY]{Runic Impression}</em> conflux spell.</p>\n<p>Increase the number of Focus Points in your focus pool by 1.</p>"
     },
     "Running Kick": {
@@ -10001,7 +10336,12 @@
     },
     "Sacred Ground": {
       "name": "Terreno Sagrado",
-      "description": "<p><strong>Frequência</strong> uma vez a cada 10 minutos</p>\n<hr />\n<p>Você ora continuamente por 1 minuto para chamar uma sombra sutil do reino da sua divindade sobre um @Template[burst|distance:30] centrado em você. Dura por 10 minutos, e uma criatura que permanecer na área por todo esse tempo recupera Pontos de Vida igual ao seu nível. Se você tiver uma fonte de cura, essa atividade terá os traços de cura e vitalidade e cura criaturas vivas. Se você tiver uma fonte prejudicial, essa atividade terá os traços de cura e vazio e cura criaturas mortas-vivas (ou outras criaturas com cura de vazio). Clérigos com Fonte Versátil podem escolher uma ou ambas. Em nenhum caso pode causar dano às criaturas.</p>"
+      "description": "<p><strong>Frequência</strong> uma vez a cada 10 minutos</p>\n<hr />\n<p>Você ora continuamente por 1 minuto para chamar uma sombra sutil do reino da sua divindade sobre um @Template[burst|distance:30] centrado em você. Dura por 10 minutos, e uma criatura que permanecer na área por todo esse tempo recupera Pontos de Vida igual ao seu nível. Se você tiver uma fonte de cura, essa atividade terá os traços de cura e vitalidade e cura criaturas vivas. Se você tiver uma fonte prejudicial, essa atividade terá os traços de cura e vazio e cura criaturas mortas-vivas (ou outras criaturas com cura de vazio). Clérigos com Fonte Versátil podem escolher uma ou ambas. Em nenhum caso pode causar dano às criaturas.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Sacred Spells": {
       "description": "<p>Add <em>@UUID[Compendium.pf2e.spells-srd.mAMEt4FFbdqoRnkN]{Chill Touch}</em>, <em>@UUID[Compendium.pf2e.spells-srd.YvXKGlHOt7mdW2jZ]{Death Ward}</em>, <em>@UUID[Compendium.pf2e.spells-srd.kcelf6IHl3L9VXXg]{Disrupt Undead}</em>, <em>@UUID[Compendium.pf2e.spells-srd.2iQKhCQBijhj5Rf3]{Disrupting Weapons}</em>, <em>@UUID[Compendium.pf2e.spells-srd.DZ9bzXYqMjAK9TzC]{Holy Cascade}</em>, <em>@UUID[Compendium.pf2e.spells-srd.9u6X9ykhzG11NK1n]{Magic Stone}</em>, and <em>@UUID[Compendium.pf2e.spells-srd.a3aQxCpoj1q1NQxC]{Sunburst}</em> to your spell list. These are all necromancy spells for you, even if they normally have a different spell school. You can either prepare these spells or add them to your repertoire just like the spells normally on your tradition's spell list. When you gain this feat, you can retrain existing spells to replace them with ones on this list.</p>\n<p>In addition, your knowledge of the conduits to the Positive Energy Plane allows you more flexibility with these spells. Choose one of these two benefits.</p>\n<ul>\n<li>If you're a prepared spellcaster, you can spend 10 minutes to replace one of the spells you've prepared with a spell of the same level from the list of sacred spells. You can do this while Refocusing.</li>\n<li>If you're a spontaneous spellcaster with the signature spells class feature, add two of the spells from the list of sacred spells to your repertoire. They are signature spells for you, in addition to your normal signature spells. When you gain the ability to cast a new level of spells, you can choose to switch the spells from this feat to any other spells from the list.</li>\n</ul>"
@@ -10020,7 +10360,12 @@
       "description": "<p>You've girded your soul against outside interference. You gain a +2 status bonus to saving throws against death effects, possession effects, and effects that attempt to manipulate or steal your soul. You can't be transformed into an undead by any means. While your spiral is glowing, your allies in the light of the spiral gain this benefit as well.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.tlft5vzk66iWCVRq]{Effect: Safeguard Soul}</p>"
     },
     "Sanctify Armament": {
-      "description": "<p>Você toca uma arma e a leva à conformidade com sua divindade. Por 1 rodada, essa arma ganha seu traço sagrado ou profano. Ela também causa 2d6 de dano de espírito adicional a criaturas do traço oposto. Por exemplo, se você for sagrado, a arma causaria 2d6 de dano de espírito adicional a criaturas profanas.</p>\n<p>Se você usar Santificar Armamento novamente, qualquer uso anterior dele expira.</p>"
+      "description": "<p>Você toca uma arma e a leva à conformidade com sua divindade. Por 1 rodada, essa arma ganha seu traço sagrado ou profano. Ela também causa 2d6 de dano de espírito adicional a criaturas do traço oposto. Por exemplo, se você for sagrado, a arma causaria 2d6 de dano de espírito adicional a criaturas profanas.</p>\n<p>Se você usar Santificar Armamento novamente, qualquer uso anterior dele expira.</p>",
+      "prerequisites": [
+        {
+          "value": "traço sagrado ou profano"
+        }
+      ]
     },
     "Sanctify Water": {
       "name": "Santificar Água"
@@ -10031,7 +10376,7 @@
     },
     "Sap Life": {
       "name": "Exaurir Vida",
-      "description": "<p>Você extrai a força vital de seus inimigos. Quando você lança uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{ferir} e causa dano a pelo menos uma criatura viva, você recupera Pontos de Vida iguais ao nível da magia de <em>ferir</em>. Se você não for uma criatura viva, você não ganha nenhum benefício deste talento.</p>"
+      "description": "<p>Você drena a força vital dos seus inimigos. Quando conjurar a magia @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Ferir} e causar dano a pelo menos uma criatura viva, você recupera uma quantidade de PVs igual ao ranque usado. Se você não for uma criatura viva, não se beneficia deste talento.</p>"
     },
     "Sapping Symbol": {
       "name": "Símbolo de Porrete",
@@ -10499,13 +10844,6 @@
     },
     "Shield Paragon": {
       "name": "Escudeiro Exemplar"
-    },
-    "Shield Salvation": {
-      "prerequisites": [
-        {
-          "value": "Dedicação de Bastião"
-        }
-      ]
     },
     "Shield Wall": {
       "description": "<p><strong>Trigger</strong> Your shield is raised and an adjacent ally Raises a Shield.</p>\n<hr />\n<p>You use your shield in tandem with an ally's, forming a barricade. Both you and the triggering creature have @UUID[Compendium.pf2e.other-effects.I9lfZUiCwMiGogVi]{Standard Cover} as long as you remain adjacent to each other and you both have your shields raised; when this is no longer the case, the effect ends. You and your ally can't use this cover to @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide}, as it's obvious you're standing there holding your shields, but you and your ally can use it to @UUID[Compendium.pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Take Cover}. Normally, if you and your ally don't move, Shield Wall lasts until the beginning of your next turn, when your shield is no longer raised.</p>"
@@ -11083,7 +11421,7 @@
     },
     "Specialty Crafting": {
       "name": "Especialidade de Manufatura",
-      "description": "<p>Seu treinamento foi focado em Manufaturar um tipo particular de item. Selecione uma das especialidades listadas abaixo; você ganha um bônus de circunstância de +1 em testes de Manufatura para Manufaturar itens daquele tipo. Se você for mestre em Manufatura, esse bônus aumenta para +2. Se não estiver claro se a especialidade se aplica, o MJ decide. Algumas especialidades podem se aplicar apenas parcialmente. Por exemplo, se você estivesse fazendo uma maça-estrela e tivesse especialidade em carpintaria, o MJ poderia conceder metade do seu bônus porque o item requer tanto ferraria quanto carpintaria.</p>\n<table class=\"pf2e\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>Especialidade</th>\n<th>Itens Aplicáveis</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alquimia*</td>\n<td>Itens alquímicos como elixires</td>\n</tr>\n<tr>\n<td>Artes</td>\n<td>Artes finas, incluindo joias</td>\n</tr>\n<tr>\n<td>Ferraria</td>\n<td>Produtos metálicos duráveis, incluindo armaduras de metal</td>\n</tr>\n<tr>\n<td>Livraria</td>\n<td>Livros e papel</td>\n</tr>\n<tr>\n<td>Vidraçaria</td>\n<td>Vidro, incluindo vidraria e janelas</td>\n</tr>\n<tr>\n<td>Curtume</td>\n<td>Produtos de couro, incluindo armaduras de couro</td>\n</tr>\n<tr>\n<td>Olaria</td>\n<td>Produtos cerâmicos</td>\n</tr>\n<tr>\n<td>Carpintaria naval</td>\n<td>Navios e barcos</td>\n</tr>\n<tr>\n<td>Alvenaria</td>\n<td>Produtos de pedra e estruturas</td>\n</tr>\n<tr>\n<td>Alfaiataria</td>\n<td>Roupas</td>\n</tr>\n<tr>\n<td>Tecelagem</td>\n<td>Têxteis, cestas e tapetes</td>\n</tr>\n<tr>\n<td>Carpintaria</td>\n<td>Produtos de madeira e estruturas</td>\n</tr>\n</tbody>\n</table>\n<p>* Você deve ter o <em><a title=\"Manufatura Alquímica\" href=\"compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K\">talento de perícia Manufatura Alquímica</a></em> para Manufaturar itens alquímicos.</p>"
+      "description": "<p>Seu treinamento foi focado em Manufaturar um tipo particular de item. Selecione uma das especialidades listadas abaixo; você ganha um bônus de circunstância de +1 em testes de Manufatura para Manufaturar itens daquele tipo. Se você for mestre em Manufatura, esse bônus aumenta para +2. Se não estiver claro se a especialidade se aplica, O mestre decide. Algumas especialidades podem se aplicar apenas parcialmente. Por exemplo, se você estivesse fazendo uma maça-estrela e tivesse especialidade em carpintaria, O mestre poderia conceder metade do seu bônus porque o item requer tanto ferraria quanto carpintaria.</p>\n<table class=\"pf2e\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>Especialidade</th>\n<th>Itens Aplicáveis</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alquimia*</td>\n<td>Itens alquímicos como elixires</td>\n</tr>\n<tr>\n<td>Artes</td>\n<td>Artes finas, incluindo joias</td>\n</tr>\n<tr>\n<td>Ferraria</td>\n<td>Produtos metálicos duráveis, incluindo armaduras de metal</td>\n</tr>\n<tr>\n<td>Livraria</td>\n<td>Livros e papel</td>\n</tr>\n<tr>\n<td>Vidraçaria</td>\n<td>Vidro, incluindo vidraria e janelas</td>\n</tr>\n<tr>\n<td>Curtume</td>\n<td>Produtos de couro, incluindo armaduras de couro</td>\n</tr>\n<tr>\n<td>Olaria</td>\n<td>Produtos cerâmicos</td>\n</tr>\n<tr>\n<td>Carpintaria naval</td>\n<td>Navios e barcos</td>\n</tr>\n<tr>\n<td>Alvenaria</td>\n<td>Produtos de pedra e estruturas</td>\n</tr>\n<tr>\n<td>Alfaiataria</td>\n<td>Roupas</td>\n</tr>\n<tr>\n<td>Tecelagem</td>\n<td>Têxteis, cestas e tapetes</td>\n</tr>\n<tr>\n<td>Carpintaria</td>\n<td>Produtos de madeira e estruturas</td>\n</tr>\n</tbody>\n</table>\n<p>* Você deve ter o <em><a title=\"Manufatura Alquímica\" href=\"compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K\">talento de perícia Manufatura Alquímica</a></em> para Manufaturar itens alquímicos.</p>"
     },
     "Speech of the Mammoth Lords": {
       "description": "<p>You've learned the ancient tongue spoken by the creatures of the far north. You can ask questions of, receive answers from, use the Diplomacy skill with, and @UUID[Compendium.pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Coerce} megafauna. In most cases, megafauna of the Realm of the Mammoth Lords will hear you out.</p>"
@@ -11642,7 +11980,7 @@
     },
     "Sudden Charge": {
       "name": "Investida Súbita",
-      "description": "<p>Com uma corrida rápida, você avança até seu inimigo e golpeia. Andar duas vezes. Se você terminar seu movimento dentro do alcance corpo a corpo de pelo menos um inimigo, você pode fazer um @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ataque} corpo a corpo contra esse inimigo. Você pode usar @UUID[Compendium.pf2e.feats-srd.Item.qQt3CMrhLkUV1wCv]{Investida Repentina} enquanto Escavar, Escalar, Voar, ou Nadar em vez de Andar se você tiver o tipo de movimento correspondente.</p>"
+      "description": "<p>Com uma investida rápida, você avança até um inimigo e o ataca. Ande duas vezes. Se encerrar seu movimento com pelo menos um inimigo ao seu alcance, você pode fazer um Golpe corpo a corpo contra ele. Você pode usar @UUID[Compendium.pf2e.feats-srd.Item.qQt3CMrhLkUV1wCv]{Investida Súbita} ao Escalar, Escavar, Nadar ou Voar, em vez de Andar, se tiver o tipo de movimento correspondente.</p>"
     },
     "Sudden Leap": {
       "name": "Salto Súbito",
@@ -11852,8 +12190,8 @@
       }
     },
     "Swipe": {
-      "name": "Arrebatar",
-      "description": "<p>Você faz um golpe amplo e arqueado. Faça um único Golpe corpo a corpo e compare o resultado da rolagem de ataque com as CA de até dois inimigos, cada um dos quais deve estar dentro do seu alcance corpo a corpo e adjacente ao outro. Role o dano apenas uma vez e aplique-o a cada criatura que você acertar. Um Arrebatar conta como dois ataques para sua penalidade por ataques múltiplos.</p>\n<p>Se você estiver usando uma arma com o traço de amplitude, seu modificador se aplica a todos os seus ataques de Arrebatar.</p>"
+      "name": "Varredura",
+      "description": "<p>Você desfere um golpe amplo em forma de arco. Faça um Golpe corpo a corpo e compare o resultado do teste de ataque com a CA de até dois inimigos, que devem estar ao seu alcance e adjacentes um ao outro. Jogue o dano apenas uma vez e aplique-o a cada criatura atingida. Uma Varredura conta como dois ataques para sua penalidade por ataques múltiplos.</p>\n<p>Se estiver usando uma arma com o traço amplitude, o modificador desse traço se aplica a todos os seus ataques de Varredura.</p>"
     },
     "Swipe Souvenir": {
       "name": "Arrebatar Souvenir",
@@ -11861,6 +12199,13 @@
     },
     "Sword and Pistol": {
       "description": "<p>You're comfortable wielding a firearm or crossbow in one hand and a melee weapon in the other, combining melee attacks with shots from the firearm. When you make a successful ranged Strike against an enemy within your reach with your one-handed firearm or one-handed crossbow, that enemy is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against your next melee attack with a one-handed melee weapon.</p>\n<p>When you make a successful melee Strike against an enemy with your one-handed melee weapon, the next ranged Strike you make against that enemy with a one-handed firearm or one-handed crossbow doesn't trigger reactions that would trigger on a ranged attack but not a melee attack, such as Attack of Opportunity. Either of these benefits is lost if not used by the end of your next turn.</p>"
+    },
+    "Swordlord Exile": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
+        }
+      ]
     },
     "Swordmaster Dedication": {
       "name": "Dedicação de Mestre da Espada",
@@ -11885,7 +12230,12 @@
     },
     "Syncretism": {
       "name": "Sincretismo",
-      "description": "<p> <strong>Pré-requisitos</strong> você segue uma divindade </span></p> <hr> <p>Você chegou a ver a sobreposição entre os ensinamentos de duas divindades. Escolha uma segunda divindade. Você deve atender aos requisitos de alinhamento e está sujeito aos editos e anátemas. Se você é um clérigo enclausurado, selecione um dos domínios dessa divindade, obtendo os benefícios do talento <a href=\"https://2e.aonprd.com/Feats.aspx?ID=1172\">Iniciado no Domínio Expandido</a> com esse domínio. Se você é um capelão da guerra, ganha a arma favorita dessa divindade como segunda arma favorita, e ela ganha os benefícios de talentos e perícias que afetam a arma favorita de sua divindade, como @Compendium[pf2e.feats-srd.DfLkIIg2reyYW3a8]{Simplicidade Mortal}. Se você tem uma doutrina diferente de clérigo enclausurado ou capelão de guerra, aplique a opção que for mais apropriada para sua doutrina ou, a critério do mestre, adicione um benefício da segunda divindade mais intimamente ligada à sua doutrina.</p> (Tradução não oficial - Gods and Magic)"
+      "description": "<p> <strong>Pré-requisitos</strong> você segue uma divindade </span></p> <hr> <p>Você chegou a ver a sobreposição entre os ensinamentos de duas divindades. Escolha uma segunda divindade. Você deve atender aos requisitos de alinhamento e está sujeito aos editos e anátemas. Se você é um clérigo enclausurado, selecione um dos domínios dessa divindade, obtendo os benefícios do talento <a href=\"https://2e.aonprd.com/Feats.aspx?ID=1172\">Iniciado no Domínio Expandido</a> com esse domínio. Se você é um capelão da guerra, ganha a arma favorita dessa divindade como segunda arma favorita, e ela ganha os benefícios de talentos e perícias que afetam a arma favorita de sua divindade, como @Compendium[pf2e.feats-srd.DfLkIIg2reyYW3a8]{Simplicidade Mortal}. Se você tem uma doutrina diferente de clérigo enclausurado ou capelão de guerra, aplique a opção que for mais apropriada para sua doutrina ou, a critério do mestre, adicione um benefício da segunda divindade mais intimamente ligada à sua doutrina.</p> (Tradução não oficial - Gods and Magic)",
+      "prerequisites": [
+        {
+          "value": "você segue uma divindade"
+        }
+      ]
     },
     "Synergistic Spell": {
       "name": "Magia Sinérgica",
@@ -12010,6 +12360,13 @@
       "prerequisites": [
         {
           "value": "Redirecionamento da Tempestade do Sol"
+        }
+      ]
+    },
+    "Tempo Duelist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação do Duelista Aldori"
         }
       ]
     },
@@ -12794,7 +13151,12 @@
     },
     "Uplifting Overture": {
       "name": "Abertura Inspiradora",
-      "description": "<p>Você aprende o @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{Introdução Inspiradora} truque mágico de composição, que auxilia as perícias de seus aliados com a natureza inspiradora de sua performance.</p>"
+      "description": "<p>Você aprende o @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{Introdução Inspiradora} truque mágico de composição, que auxilia as perícias de seus aliados com a natureza inspiradora de sua performance.</p>",
+      "prerequisites": [
+        {
+          "value": "musa maestro"
+        }
+      ]
     },
     "Uplifting Winds": {
       "name": "Sopro Inspirador",
@@ -12811,7 +13173,7 @@
     },
     "Uzunjati Storytelling": {
       "name": "Narração Uzunjati",
-      "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Assistente Magaambyano, Afiliação em Uzunjati, mestre em uma perícia de Recordar Conhecimento </span></p> <hr> <p>Você conta uma história rápida ou começa a contar uma história mais longa. Isso é mais útil quando você deseja provar sua credibilidade acadêmica ou impressionar alguém rapidamente. Faça um teste com uma perícia que possa ser usada para Recordar Conhecimento em que você possui proficiência especialista, usando a entrada de resultado da ação Performar. Assim como a performance, a narração de histórias raramente tem efeito por si só, mas pode influenciar os CDs dos testes subsequentes de Diplomacia contra os observadores - ou até mudar suas atitudes - se o MJ achar conveniente. Esta ação não é uma Performance e não pode ser usada no lugar de qualquer coisa que exija que você Performe.</p> (Tradução não oficial - Lost Omens: Character Guide)",
+      "description": "<p> <strong>Pré-requisitos</strong> Dedicação de Assistente Magaambyano, Afiliação em Uzunjati, mestre em uma perícia de Recordar Conhecimento </span></p> <hr> <p>Você conta uma história rápida ou começa a contar uma história mais longa. Isso é mais útil quando você deseja provar sua credibilidade acadêmica ou impressionar alguém rapidamente. Faça um teste com uma perícia que possa ser usada para Recordar Conhecimento em que você possui proficiência especialista, usando a entrada de resultado da ação Performar. Assim como a performance, a narração de histórias raramente tem efeito por si só, mas pode influenciar os CDs dos testes subsequentes de Diplomacia contra os observadores - ou até mudar suas atitudes - se O mestre achar conveniente. Esta ação não é uma Performance e não pode ser usada no lugar de qualquer coisa que exija que você Performe.</p> (Tradução não oficial - Lost Omens: Character Guide)",
       "prerequisites": [
         {
           "value": "Dedicação de Assistente Magaambyano"
@@ -12834,6 +13196,13 @@
           "value": "Esgueirador de Terreno"
         }
       }
+    },
+    "Vaulting Gallop": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro"
+        }
+      ]
     },
     "Vehicle Mechanic Dedication": {
       "prerequisites": [
@@ -12905,7 +13274,12 @@
     },
     "Versatile Font": {
       "name": "Fonte Versátil",
-      "description": "<p>À medida que você explora os aspectos da sua divindade, você vai além das restrições de cura ou dano. Você pode preparar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} nas vagas de magia ganhas do font prejudicial ou font de cura.</p>"
+      "description": "<p>À medida que você explora os aspectos da sua divindade, você vai além das restrições de cura ou dano. Você pode preparar uma magia de @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} ou @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} nas vagas de magia ganhas do font prejudicial ou font de cura.</p>",
+      "prerequisites": [
+        {
+          "value": "fonte de cura ou fonte de ferimento"
+        }
+      ]
     },
     "Versatile Performance": {
       "name": "Performance Versátil",
@@ -12978,7 +13352,8 @@
       }
     },
     "Vicious Swing": {
-      "description": "<p>Você desferra um ataque particularmente poderoso que golpeia seu inimigo, mas o deixa um pouco instável. Faça um Golpear corpo a corpo. Isso conta como dois ataques ao calcular sua penalidade por ataques múltiplos. Se este Golpear acertar, você causa um dado extra de dano de arma. Se você for pelo menos nível 10, aumente isso para dois dados extras, e se você for pelo menos nível 18, aumente para três dados extras.</p>"
+      "name": "Golpe Feroz",
+      "description": "<p>Você desfere um ataque particularmente poderoso que castiga o inimigo, mas que deixa você levemente desequilibrado. Faça um Golpe corpo a corpo. Isso conta como dois ataques para calcular sua penalidade por ataques múltiplos. Se acertar, você causa um dado de dano adicional da arma. No 10º nível, isso aumenta para dois dados adicionais, e no 18º nível, para três dados adicionais.</p>"
     },
     "Vicious Vengeance": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.classfeatures\" data-id=\"EQ6DVIQHAUXUhY6Y\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Antipaladin [Chaotic Evil]</a> Cause</p> <hr> <p>While your vengeance is painful for both you and your foe, none can doubt that your enemies suffer more. You gain a circumstance bonus to the damage you deal from <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"r5Uth6yvCoE4tr9z\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Destructive Vengeance</a> equal to the number of damage dice from the reaction. This only applies to the damage the enemy takes, not the damage to yourself or the extra damage you gain after using the reaction.</p>"
@@ -13350,7 +13725,7 @@
     },
     "Widen Spell": {
       "name": "Ampliar Magia",
-      "description": "<p>Você manipula a energia da sua magia, fazendo com que ela se espalhe e afete uma área mais ampla. Se a próxima ação que você usar for Conjurar uma Magia que tenha uma área de explosão, cone ou linha e não tenha duração, aumente a área dessa magia. Adicione 5 pés ao raio de uma explosão que normalmente tenha um raio de pelo menos 10 pés (uma explosão com um raio menor não é afetada). Adicione 5 pés ao comprimento de um cone ou linha que normalmente tenha 15 pés de comprimento ou menor, e adicione 10 pés ao comprimento de um cone ou linha maior.</p>"
+      "description": "<p>Você manipula a energia da sua magia, fazendo-a se espalhar para afetar uma área maior. Se a sua próxima ação for Conjurar uma Magia que tem uma área de explosão, cone ou linha e não tem uma duração, aumente a área dessa magia. Adicione 1,5 metro ao raio de uma explosão que normalmente teria um raio de 3 metros ou maior (explosões com raios menores não são afetadas). Adicione 1,5 metro ao comprimento de um cone ou linha que normalmente teria 4,5 metros ou menos, e adicione 3 metros a um cone ou linha maior que isso.</p>"
     },
     "Widen the Gap": {
       "name": "Alargar o Fosso",
@@ -13546,122 +13921,153 @@
       "description": "<p>Despite your death and subsequent reanimation as a rotting corpse, you retain most of your mind and identity. Yet, it's always there: the hunger for the flesh and organs of the living. You gain the undead and zombie traits, and the basic undead benefits. Unlike a typical zombie, you're not mindless. Reduce all your Speeds by 5 feet. Your fist loses the nonlethal trait.</p>\n<p>Because of its progressing state of decay, your body requires continual maintenance to remain at its best. Each day after your rest period, your body is @UUID[Compendium.pf2e.feat-effects.94MzLpLykQIWKcA1]{Deteriorated} due to natural decay. Additionally, some zombie abilities allow you to push for a greater effect in exchange for a chance of deteriorating your body.</p>\n<p>While your body is deteriorated, you're @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. You can spend 10 minutes checking and repairing your joints and other weak parts of your body to recover from deterioration. You can perform these repairs as part of your daily preparations. Because it's a natural result of your body's functions, you can't remove the slowed condition from deterioration through any other means.</p>\n<p>You crave the flesh of the living. You gain a jaws unarmed attack that deals 1d8 piercing damage. Your jaws are in the brawling group and have the unarmed trait. You can use your jaws Strike only against a creature that's @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} by you.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.G38usCLuTDmFYw7V]{Zombie} archetype.</p>"
     }
   },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "prerequisites": "system.prerequisites.value",
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "selfEffect": "system.selfEffect.name",
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  },
   "folders": {
     "Suli": "Suli",
     "Aftermath": "Arremate",
+    "Commander": "Comandante",
     "Deviant": "Divergente",
+    "Guardian": "Guardião",
+    "Level 10": "Nível 10",
+    "Level 12": "Nível 12",
+    "Level 14": "Nível 14",
+    "Level 15": "Nível 15",
+    "Level 16": "Nível 16",
+    "Level 18": "Nível 18",
+    "Level 2": "Nível 2",
+    "Level 20": "Nível 20",
+    "Level 4": "Nível 4",
+    "Level 6": "Nível 6",
+    "Level 8": "Nível 8",
     "Reincarnated": "Reencarnado",
     "Variant Rules": "Regras Variantes",
     "Wayang": "Wayang",
     "Aiuvarin": "Aiuvarin",
     "Archetype": "Arquétipo",
+    "Level 1": "Nível 1",
+    "Versatile Heritages": "Heranças Versáteis",
     "Wizard": "Mago",
     "Anadi": "Anadi",
     "Ardande": "Ardande",
+    "Level 5": "Nível 5",
     "Monk": "Monge",
-    "Poisoner": "Veneficista",
     "Ancestry": "Ancestralidade",
     "Android": "Androide",
     "Dromaar": "Dromaar",
-    "Geomancer": "Geomante",
+    "Level 9": "Nível 9",
     "Thaumaturge": "Taumaturgo",
+    "Level 13": "Nível 13",
     "Changeling": "Cambiante",
-    "Hellknight": "Cavaleiro Infernal",
     "Kineticist": "Cineticista",
     "Kobold": "Kobold",
-    "Beastkin": "Beastkin",
+    "Level 17": "Nível 17",
     "Reflection": "Reflexão",
     "Nephilim": "Nefilim",
     "Dhampir": "Dampiro",
     "Human": "Humano",
+    "Poisoner": "Veneficista",
     "Summoner": "Convocador",
     "Barbarian": "Bárbaro",
-    "Dragonblood": "Draconato",
+    "Dragonblood": "Sangue Dracônico",
+    "Geomancer": "Geomante",
     "Lizardfolk": "Povo-Lagarto",
     "Undine": "Undine",
-    "Druid": "Druida",
     "Duskwalker": "Crepusculante",
     "Gunslinger": "Pistoleiro",
     "Kitsune": "Kitsune",
     "Talos": "Talos",
-    "Captivator": "Cativante",
     "Grippli": "Grippli",
-    "Naari": "Naari",
+    "Hellknight": "Cavaleiro Infernal",
     "Ranger": "Patrulheiro",
-    "Sylph": "Sylph",
-    "Cavalier": "Cavaleiro",
     "Class": "Classe",
     "Gnome": "Gnomo",
     "Inventor": "Inventor",
     "Oread": "Oread",
-    "Game Hunter": "Caçador dos Jogos",
     "Ratfolk": "Povo-Rato",
     "Swashbuckler": "Espadachim",
     "Nagaji": "Nagaji",
     "Psychic": "Psychic",
-    "Trapsmith": "Armadilheiro",
     "Investigator": "Investigador",
     "Merfolk": "Povo-Sereia",
     "Sorcerer": "Feiticeiro",
     "Surki": "Surki",
+    "Druid": "Druida",
     "Rogue": "Ladino",
     "Skeleton": "Esqueleto",
+    "Captivator": "Cativante",
     "Exemplar": "Exemplar",
     "Sprite": "Sprite",
+    "Cavalier": "Cavaleiro",
     "Cleric": "Clérigo",
     "Shisk": "Shisk",
-    "Samsaran": "Samsaran",
-    "Shadowdancer": "Dançarino das Sombras",
+    "Game Hunter": "Caçador dos Jogos",
     "Witch": "Bruxo",
     "Vishkanya": "Vishkanya",
     "Vanara": "Vanara",
-    "Ghost Hunter": "Caçador de Fantasmas",
     "Tengu": "Tengu",
+    "Trapsmith": "Armadilheiro",
     "Champion": "Campeão",
-    "Pactbound Initiate": "Iniciado sob Pacto",
     "Tanuki": "Tanuki",
     "Bard": "Bardo",
     "Strix": "Estrige",
     "Fighter": "Guerreiro",
     "Shoony": "Shoony",
     "Alchemist": "Alquimista",
-    "Linguist": "Linguista",
     "General": "Geral",
     "Orc": "Orc",
     "Mythic": "Mítico",
     "Oracle": "Oráculo",
     "Poppet": "Poppet",
-    "Runescarred": "Marcado pelas Runas",
+    "Shadowdancer": "Dançarino das Sombras",
     "Animist": "Animista",
+    "Ghost Hunter": "Caçador de Fantasmas",
     "Minotaur": "Minotauro",
     "Skill": "Perícia",
-    "Student of Perfection": "Estudante da Perfeição",
     "Leshy": "Leshy",
     "Magus": "Magus",
+    "Pactbound Initiate": "Iniciado sob Pacto",
     "Kashrishi": "Kashrishi",
     "Halfling": "Halfling",
-    "Staff Acrobat": "Acrobata com Bastão",
     "Hobgoblin": "Hobgoblin",
+    "Linguist": "Linguista",
     "Goblin": "Goblin",
-    "Spellshot": "Magiarma",
-    "Ghoran": "Ghoran",
+    "Runescarred": "Marcado pelas Runas",
     "Dwarf": "Anão",
-    "Ghost": "Fantasma",
+    "Student of Perfection": "Estudante da Perfeição",
     "Catfolk": "Povo-Felino",
     "Fetchling": "Sombriano",
     "Centaur": "Centauro",
+    "Staff Acrobat": "Acrobata com Bastão",
     "Awakened Animal": "Animal Despertado",
-    "Dual-Weapon Warrior": "Combatente de Duas Armas",
     "Goloma": "Goloma",
-    "Beast Gunner": "Pistoleiro Bestial",
     "Gnoll": "Kholo",
+    "Spellshot": "Magiarma",
     "Fleshwarp": "Mutacarne",
-    "Trick Driver": "Piloto de Fuga",
     "Elf": "Elfo",
+    "Ghost": "Fantasma",
     "Conrasu": "Conrasu",
     "Azarketi": "Azarketi",
     "Athamaru": "Athamaru",
     "Automaton": "Autômato",
+    "Dual-Weapon Warrior": "Combatente de Duas Armas",
+    "Beast Gunner": "Pistoleiro Bestial",
+    "Trick Driver": "Piloto de Fuga",
     "Crystal Keeper": "Guardião do Cristal",
     "Mummy": "Múmia",
     "Bastion": "Bastião",

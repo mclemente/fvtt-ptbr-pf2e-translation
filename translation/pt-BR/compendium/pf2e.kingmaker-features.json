@@ -1,1 +1,56 @@
-{"label":"Características do Kingmaker","entries":{"Advance":{"name":"Avançar"},"Battle":{"name":"Mistério de Batalha"},"Concealed":{"name":"Ocultado"},"Darkvision":{"name":"Visão no Escuro"},"Destroyed":{"name":"Destruído"},"Feint":{"name":"Fintar"},"Guard":{"name":"Guarda"},"Low-Light Vision":{"name":"Visão na Penumbra"},"Rally":{"name":"Mobilizar"},"Skill Training":{"name":"Treinamento em Perícia"}},"folders":{"Effects":"Efeitos","Kingdom Activities":"Atividades de Reino"}}
+{
+  "label": "Características do Kingmaker",
+  "entries": {
+    "Advance": {
+      "name": "Avançar"
+    },
+    "Battle": {
+      "name": "Mistério de Batalha"
+    },
+    "Concealed": {
+      "name": "Ocultado"
+    },
+    "Darkvision": {
+      "name": "Visão no Escuro"
+    },
+    "Destroyed": {
+      "name": "Destruído"
+    },
+    "Feint": {
+      "name": "Fintar"
+    },
+    "Guard": {
+      "name": "Guarda"
+    },
+    "Low-Light Vision": {
+      "name": "Visão na Penumbra"
+    },
+    "Rally": {
+      "name": "Mobilizar"
+    },
+    "Skill Training": {
+      "name": "Treinamento em Perícia"
+    }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "prerequisites": "system.prerequisites.value",
+    "requirements": "system.requirements",
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  },
+  "folders": {
+    "Effects": "Efeitos",
+    "Kingdom Activities": "Atividades de Reino"
+  }
+}

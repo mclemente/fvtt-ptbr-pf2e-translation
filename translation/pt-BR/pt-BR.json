@@ -141,8 +141,8 @@
       "Attacks": "Ataques",
       "Character": {
         "ABCPicker": {
-          "SearchPlaceholder": "Search {items}",
-          "Title": "Seleção {type}",
+          "SearchPlaceholder": "Procurar {items}",
+          "Title": "Seleção de {type}",
           "Tooltip": {
             "ConfirmSelection": "Confirmar seleção",
             "ViewSheet": "Abrir ficha"
@@ -210,7 +210,7 @@
         },
         "Crafting": {
           "Action": {
-            "Hint": "Select an item to craft using {resource} ({value}/{max})",
+            "Hint": "Selecione um item para manufaturar usando {resource} ({value}/{max})",
             "HintResourceless": "Escolha um item para Manufaturar"
           },
           "BatchQuantity": "x{quantity}",
@@ -273,7 +273,7 @@
             "HeavyShort": "Pesada",
             "Light": "Armadura Leve",
             "LightBarding": "Armadura de Animal Leve",
-            "LightShort": "Luz",
+            "LightShort": "Leve",
             "Medium": "Armadura Média",
             "MediumShort": "Média",
             "Title": "Defesas",
@@ -312,17 +312,12 @@
           "DetailsPlaceholder": "Ressalvas, outras especificidades incomuns",
           "Plural": "Idiomas",
           "adlet": "Adlet",
-          "akitonian": "Akitonian",
           "aklo": "Aklo",
           "alghollthu": "Alghollthu",
           "amurrun": "Amurrun",
           "anadi": "Anadi",
           "ancient-osiriani": "Osiriano Antigo",
-          "androffan": "Androffan",
-          "anugobu": "Anugobu",
           "arboreal": "Arbóreo",
-          "arcadian": "Arcadian",
-          "azlanti": "Azlanti",
           "boggard": "Boggard",
           "calda": "Calda",
           "caligni": "Caligni",
@@ -333,76 +328,43 @@
           "destrachan": "Destrachan",
           "diabolic": "Diabólico",
           "draconic": "Dracônico",
-          "drooni": "Drooni",
           "dwarven": "Enânico",
-          "dziriak": "D'ziriak",
-          "ekujae": "Ekujae shape-script",
           "elder-thing": "Coisa Anciã",
           "elven": "Élfico",
           "empyrean": "Empíreo",
           "erutaki": "Erutaki",
           "fey": "Fada",
-          "formian": "Formian",
-          "garundi": "Garundi",
-          "girtablilu": "Girtablilu",
           "gnomish": "Gnômico",
           "goblin": "Goblin",
           "goloma": "Goloma",
-          "grioth": "Grioth",
           "grippli": "Grippli",
           "halfling": "Halfling",
           "hallit": "Hallita",
-          "hwan": "Hwan",
-          "iblydan": "Iblydan",
-          "ikeshti": "Ikeshti",
-          "immolis": "Immolis",
           "iruxi": "Iruxi",
           "jistkan": "Jistkan",
           "jotun": "Jotun",
           "jyoti": "Jyoti",
-          "kaava": "Kaava",
           "kashrishi": "Kashrishi",
           "kelish": "Kelishiano",
           "kholo": "Kholo",
-          "kibwani": "Kibwani",
           "kitsune": "Kitsune",
-          "kovintal": "Kovintal",
-          "lashunta": "Lashunta",
-          "lirgeni": "Lirgeni",
-          "mahwek": "Mahwek",
-          "migo": "Mi-Go",
           "minaten": "Minaten",
-          "minkaian": "Minkaian",
-          "muan": "Muan",
-          "munavri": "Munavri",
           "mwangi": "Mwangi",
-          "mzunu": "Mzunu",
           "nagaji": "Nagaji",
           "necril": "Necril",
-          "ocotan": "Ocotan",
-          "okaiyan": "Okaiyan",
+          "old-keleshite": "Keleshita Antigo",
           "orcish": "Órquico",
           "orvian": "Orviano",
           "osiriani": "Osiriano",
           "petran": "Petrano",
           "protean": "Proteano",
           "pyric": "Pírico",
-          "rasu": "Rasu",
-          "ratajin": "Ratajin",
-          "razatlani": "Razatlani",
           "requian": "Requiano",
           "russian": "Russo",
           "sakvroth": "Sakvroth",
-          "samsaran": "Samsaran",
-          "sasquatch": "Sasquatch",
-          "senzar": "Senzar",
           "shadowtongue": "Língua das Sombras",
-          "shae": "Shae",
           "shisk": "Shisk",
-          "shoanti": "Shoanti",
-          "shobhad": "Shobhad",
           "shoony": "Shoony",
-          "shory": "Shory",
           "skald": "Escaldo",
           "sphinx": "Esfinge",
           "strix": "Estrige",
@@ -411,7 +373,6 @@
           "taldane": "Taldano",
           "talican": "Talicano",
           "tanuki": "Tanuki",
-          "tekritanin": "Tekritanin",
           "tengu": "Tengu",
           "thalassic": "Talássico",
           "thassilonian": "Tassilônico",
@@ -419,14 +380,9 @@
           "utopian": "Utopiano",
           "vanara": "Vanara",
           "varisian": "Varisiano",
-          "varki": "Varki",
           "vishkanyan": "Vishkanya",
-          "vudrani": "Vudrani",
           "wildsong": "Canção Selvagem",
-          "wyrwood": "Wyrwood",
-          "xanmba": "Xanmba",
           "wayang": "Wayang",
-          "yithian": "Yithian",
           "ysoki": "Ysoki"
         },
         "Sense": {
@@ -561,17 +517,18 @@
         "Type": "Tipo"
       },
       "Speed": {
-        "BaseLabel": "Velocidade {type} Base",
+        "BaseLabel": "Velocidade de {type} de {value} pés",
+        "BaseWithSource": "Velocidade de {type} de {value} pés ({source})",
         "Plural": "Velocidades",
         "Label": "Velocidade",
         "LabelFeet": "Velocidade (pés)",
         "Type": {
-          "Burrow": "Escavar",
-          "Climb": "Escalar",
-          "Fly": "Voar",
+          "Burrow": "Escavação",
+          "Climb": "Escalada",
+          "Fly": "Voo",
           "Label": "Velocidade de {type}",
           "Land": "Terreste",
-          "Swim": "Nadar"
+          "Swim": "Natação"
         }
       },
       "NPC": {
@@ -597,11 +554,11 @@
         "Identification": {
           "Skills": {
             "Label": "{skills}: CD {dc} ({adjustment})",
-            "Tooltip": "\"A perícia utilizada para identificar uma criatura normalmente depende dos traços que ela possui, conforme mostrado na Tabela 10–7 (mas você tem uma grande margem para decidir qual perícia se aplica).\" – Livro Básico pág. 506"
+            "Tooltip": "\"A perícia usada para identificar uma criatura geralmente depende do traço da criatura, como mostrado na tabela de Perícia de Identificação de Criatura, mas você tem liberdade na escolha da perícia aplicada.\" — Pathfinder GM Core pg. 54-55"
           },
           "Lore": {
             "Label": "Saber Aplicável: CD {dc1} ({adjustment1}) ou CD {dc2} ({adjustment2})",
-            "Tooltip": "\"Utilizar o Saber aplicável normalmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" – Livro Básico pág. 506"
+            "Tooltip": "\"Usar o Saber aplicável geralmente tem uma CD fácil ou muito fácil (antes de ajustar pela raridade).\" — Pathfinder GM Core pg. 54"
           }
         },
         "LevelN": "Criatura {level}",
@@ -836,14 +793,14 @@
     "ArmorTypeMedium": "Armadura Média",
     "ArmorTypeUnarmored": "Sem Armadura",
     "AttackEffectConstrict": "Constrição",
-    "AttackEffectGrab": "Agarrar",
+    "AttackEffectGrab": "Atracar",
     "AttackEffectGreaterConstrict": "Constrição Aprimorada",
     "AttackEffectImprovedGrab": "Atracar Aprimorado",
     "AttackEffectImprovedKnockdown": "Tombar Aprimorado",
     "AttackEffectImprovedPush": "Impelir Aprimorado",
-    "AttackEffectKnockdown": "Descer",
+    "AttackEffectKnockdown": "Tombar",
     "AttackEffectPush": "Impelir",
-    "AttackEffectTrip": "Derrubar",
+    "AttackEffectTrip": "Tombar",
     "AttackLabel": "Ataque",
     "AttitudeLabel": "Atitude",
     "Attitudes": {
@@ -900,6 +857,7 @@
       "dropped": "Largado",
       "held1": "Segurado 1M",
       "held2": "Segurado 2M",
+      "implanted": "Implantado",
       "stowed": "Armazenado",
       "worn": "Vestido",
       "worn-in-slot": "Vestido (no Espaço)"
@@ -924,7 +882,7 @@
     "CharacterTraitsHeader": "Traços e Outros Detalhes",
     "ChatRollDetails": {
       "ContextualOptions": {
-        "postRoll": "Postar Opções de Rolagem"
+        "postRoll": "Opções Pós-rolagem"
       },
       "DiceAndModifiers": "Dados e modificadores",
       "DiceRollOptionsHint": "Opções de dados e de modificadores de rolagem serão usados para predicar elementos de regra de DamageAlteration.",
@@ -1042,10 +1000,13 @@
         "SourcesLabel": "Fontes",
         "Title": "Configurações do Navegador de Compêndios"
       },
-      "TabAction": "Ações",
+      "TabAbilities": "Ações & Habilidades",
       "TabBestiary": "Bestiários",
       "TabCampaign": "Campanha",
-      "TabFeat": "Talentos/Caraterísticas",
+      "TabEquipment": "Equipamento",
+      "TabFeat": "Talentos & Caraterísticas",
+      "TabHazard": "Perigos",
+      "TabSpell": "Magias",
       "TakeLabel": "Pegar Item",
       "Title": "Navegador de Compêndios",
       "TraitsComponent": {
@@ -1058,7 +1019,7 @@
       "Foundry": "Foundry",
       "FoundryOld": "0.7 ou mais velho",
       "Invalid": "Inválido",
-      "LockedTooltip": "Não é possível migrar – o compêndio está bloqueado",
+      "LockedTooltip": "Não é possível migrar — o compêndio está bloqueado",
       "MigrateCompendium": "Migrar Compêndio",
       "Schema": "Esquema",
       "Size": "Tamanho",
@@ -1076,7 +1037,7 @@
       "RemovableLabel": "Removível",
       "ValueLabel": "Valor"
     },
-    "ConditionTypeBlinded": "Cego",
+    "ConditionTypeBlinded": "Cegado",
     "ConditionTypeBroken": "Quebrado",
     "ConditionTypeClumsy": "Desajeitado",
     "ConditionTypeConcealed": "Ocultado",
@@ -1114,7 +1075,7 @@
     "ConditionTypeQuickened": "Acelerado",
     "ConditionTypeRestrained": "Restringido",
     "ConditionTypeSickened": "Enjoado",
-    "ConditionTypeSlowed": "Lento",
+    "ConditionTypeSlowed": "Desacelerado",
     "ConditionTypeStunned": "Atordoado",
     "ConditionTypeStupefied": "Estupefato",
     "ConditionTypeUnconscious": "Inconsciente",
@@ -1211,12 +1172,11 @@
         },
         "CompositeLabel": {
           "Simple": "{type} {value}",
-          "DoubleVs": "{type} {value} (double resistance vs. {doubleVs})",
-          "Exceptions": "{type} {value} (except {exceptions})",
-          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; double resistance vs. {doubleVs})"
+          "DoubleVs": "{type} {value} (resistência dobrada vs. {doubleVs})",
+          "Exceptions": "{type} {value} (exceto {exceptions})",
+          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; resistência dobrada vs. {doubleVs})"
         },
         "Type": {
-          "abysium": "abysium",
           "adamantine": "adamante",
           "alchemical": "alquímico",
           "all-damage": "todo o dano",
@@ -1226,7 +1186,7 @@
           "auditory": "auditivo",
           "axe-vulnerability": "vulnerabilidade a Machado",
           "axes": "machados",
-          "blinded": "cego",
+          "blinded": "cegado",
           "broken": "quebrado",
           "clumsy": "desajeitado",
           "cold-iron": "ferro frio",
@@ -1242,7 +1202,6 @@
           "detection": "detecção",
           "disease": "doença",
           "divine": "divino",
-          "djezet": "djezet",
           "doomed": "condenado",
           "drained": "drenado",
           "duskwood": "madeira crepuscular",
@@ -1253,7 +1212,7 @@
           "fatigued": "fatigado",
           "fear-effects": "efeitos de Medo",
           "fleeing": "fugindo",
-          "fortune-effects": "efeitos da sorte",
+          "fortune-effects": "efeitos de fortúnio",
           "frightened": "assustado",
           "ghost-touch": "toque Fantasma",
           "glass": "vidro",
@@ -1264,7 +1223,6 @@
           "illusion": "ilusão",
           "immobilized": "imobilizado",
           "inhaled": "inalado",
-          "inubrix": "inubrix",
           "light": "luz",
           "magic": "magia",
           "magical": "mágico",
@@ -1274,7 +1232,6 @@
           "non-magical": "não-mágico",
           "nonlethal": "não-letal",
           "nonlethal-attacks": "ataques não-Letais",
-          "noqual": "noqual",
           "object-immunities": "imunidades de Objeto",
           "occult": "ocultismo",
           "off-guard": "desprevenido",
@@ -1299,7 +1256,7 @@
           "sickened": "enjoado",
           "silver": "prata",
           "sleep": "sono",
-          "slowed": "lento",
+          "slowed": "desacelerado",
           "spell-deflection": "deflexão de Magia",
           "spells": "Magias",
           "splash-damage": "dano de respingo",
@@ -1307,6 +1264,7 @@
           "stupefied": "estupefato",
           "swarm-attacks": "ataques de enxame",
           "swarm-mind": "mente de enxame",
+          "time": "tempo",
           "trip": "derrubar",
           "unarmed-attacks": "ataques desarmados",
           "unconscious": "inconsciente",
@@ -1365,7 +1323,7 @@
         "earth": "terra",
         "electricity": "eletricidade",
         "fire": "fogo",
-        "force": "força",
+        "force": "energia",
         "mental": "mental",
         "metal": "metal",
         "persistent": "{damageType} persistente",
@@ -1619,7 +1577,8 @@
       "pointLabel": "Pontos"
     },
     "Foot": {
-      "Label": "pé",
+      "Abbreviation": "pés",
+      "Label": "pés",
       "Plural": "pés",
       "Preformatted": {
         "5": "5 pés",
@@ -1753,7 +1712,10 @@
         "Envision": "visualizar",
         "EnvisionSheetLabel": "Visualizar",
         "Interact": "Interagir",
-        "Label": "Ativação"
+        "Label": "Ativação",
+        "Warning": {
+          "ItemDoesNotExist": "Item a ser ativado não existe"
+        }
       },
       "Affliction": {
         "AddStage": "Adicionar etapa",
@@ -1772,6 +1734,17 @@
       },
       "Ancestry": {
         "DropFeatures": "Solte as características de ancestralidade aqui.",
+        "FIELDS": {
+          "hands": {
+            "label": "Mãos"
+          },
+          "reach": {
+            "label": "Alcance"
+          },
+          "speed": {
+            "label": "Velocidade"
+          }
+        },
         "Plural": "Ancestralidades",
         "Vision": {
           "Label": "Visão",
@@ -1809,7 +1782,6 @@
           "padded-armor": "Armadura Acolchoada",
           "power-suit": "Traje Poderoso",
           "quilted-armor": "Armadura Acolchoada",
-          "sankeit": "Sankeit",
           "scale-mail": "Cota de Escamas",
           "scroll-robes": "Robes de Pergaminho",
           "splint-mail": "Cota de Talas",
@@ -1821,6 +1793,7 @@
           "heavy-barding": "Armadura de Animal Pesada",
           "light-barding": "Armadura de Animal Leve"
         },
+        "GradeOption": "{grade} (+{bonus}; resiliente +{resilient}",
         "Rune": {
           "Resilient": {
             "Label": "Runa Resiliente"
@@ -2476,7 +2449,7 @@
           "HeldOrStowed": "Volume (segurado/armazenado)",
           "Label": "Volume",
           "Light": {
-            "Label": "Luz",
+            "Label": "Leve",
             "ShortLabel": "L"
           },
           "Negligible": {
@@ -2485,6 +2458,11 @@
           },
           "NLight": "{light}L",
           "WithLight": "{bulk}, {light}L"
+        },
+        "ChangeEquipmentSystem": {
+          "Title": "Alterar Sistema",
+          "ToPathfinder": "Remover o traço {removedTrait} alterará este {type} do Starfinder para o Pathfinder. Seu grau será perdido. Você tem certeza? Alternativamente, você pode trocá-lo para {otherTrait}.",
+          "ToStarfinder": "Adicionar o traço {newTrait} alterará este {type} do Pathfinder para o Starfinder. Todas as runas serão perdidas. Você tem certeza?"
         },
         "Destroyed": "Destruído",
         "FromSpell": {
@@ -2501,6 +2479,8 @@
           "Material": "{base} de {material}",
           "OneProperty": "{base} {property1}",
           "OnePropertyMaterial": "{base} de {material} {property1}",
+          "Grade": "{base} {grade}",
+          "GradeMaterial": "{base} {grade} {material}",
           "Potency": "{base} +{potency}",
           "PotencyFourProperties": "{base} +{potency} {property1} {property2} {property3} {property4}",
           "PotencyFourPropertiesMaterial": "{base} de {material} +{potency} {property1} {property2} {property3} {property4}",
@@ -2527,6 +2507,14 @@
           "ThreePropertiesMaterial": "{base} de {material} {property1} {property2} {property3}",
           "TwoProperties": "{base} {property1} {property2}",
           "TwoPropertiesMaterial": "{base} de {material} {property1} {property2}"
+        },
+        "Grade": {
+          "commercial": "Comercial",
+          "tactical": "Tático",
+          "advanced": "Avançado",
+          "superior": "Superior",
+          "elite": "Elite",
+          "paragon": "Paradigma"
         },
         "LevelLabel": "Item {level}",
         "OtherTag": {
@@ -2649,10 +2637,13 @@
       "Spell": {
         "Area": "{shape} de {size} {unit}",
         "BaseValue": "Base: {value}",
-        "Cast": "Conjuração",
+        "Cast": {
+          "Noun": "Conjuração",
+          "Verb": "Conjurar"
+        },
         "Cost": "Custo",
         "Counteract": {
-          "Hint": "Se você estiver neutralizando uma aflição, a CD estará no bloco de estatísticas da aflição. Se for uma magia, use a CD do conjurador. O MJ também pode calcular uma CD com base no nível do efeito-alvo.",
+          "Hint": "Se você estiver neutralizando uma aflição, a CD estará no bloco de estatísticas da aflição. Se for uma magia, use a CD do conjurador. O mestre também pode calcular uma CD com base no nível do efeito-alvo.",
           "Label": "Neutralização",
           "criticalFailure": "Você falha em neutralizar o alvo.",
           "criticalSuccess": "Neutralize o alvo se o nível de neutralização dele for {rank} ou menos.",
@@ -2669,7 +2660,8 @@
         "LineSplit": ";",
         "MeasuredTemplate": {
           "Clear": "Limpar gabaritos colocados",
-          "Place": "Colocar {area}"
+          "Place": "Colocar {area}",
+          "PlacementTooltip": "<strong>Clique</strong> para travar a posição no mapa e habilitar a rotação. Clique novamente para posicionar.<br><strong>Clique direito</strong> para destravar ou cancelar.<br>Segure <strong>Shift</strong> para posicionar diretamente sem a rotação.<br>Segure <strong>Ctrl</strong> para desabilitar o encaixe automático da grade ao rotacionar."
         },
         "Plural": "Magias",
         "Rank": {
@@ -2705,7 +2697,8 @@
       "Weapon": {
         "FIELDS": {
           "expend": {
-            "label": "Investir"
+            "hint": "Isso indica quanta munição é consumida com cada Golpe à distância que você faz com a arma. Outras habilidades podem citar o uso de Gasto como a quantidade de munição necessária para concluir a ação.",
+            "label": "Gasto"
           }
         },
         "CanBeAmmo": {
@@ -2716,7 +2709,7 @@
           "axe": "Escolha uma criatura adjacente ao alvo inicial e dentro do alcance. Se a CA dele for menor que o resultado da rolagem de ataque do acerto crítico, você causa dano a essa criatura igual ao resultado do dado de dano rolado da arma (incluindo dados extras por sua runa de potência, se houver). Esta quantia não é dobrada, e nenhum bônus ou outros dados adicionais se aplicam a este dano.",
           "bomb": "Aumenta o raio do dano de respingo da bomba (se houver) para 10 pés",
           "bow": "Se o alvo de um acerto crítico estiver adjacente a uma superfície, ele fica preso nessa superfície pelo projétil. O alvo fica @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Imobilizado} e deve gastar uma ação de Interagir para fazer um teste de @Check[athletics|dc:10|name:Soltar O Projétil|showDC:all]{Atletismo} para soltar o projétil; ele não pode sair de seu espaço até que obtenha sucesso. A criatura não fica presa se for incorpórea, líquida (como um elemental da água ou alguns limos) ou se de alguma forma puder escapar sem esforço",
-          "brawling": "O alvo deve obter sucesso em uma jogada de @Check[fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Pugilato|showDC:all] contra sua CD de classe ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} até o final do seu próximo turno.",
+          "brawling": "O alvo deve obter sucesso em uma jogada de @Check[fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Pugilato|showDC:all] contra sua CD de classe ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Desacelerado 1} até o final do seu próximo turno.",
           "club": "Você empurra o alvo para longe de você até 10 pés (você escolhe a distância). Esse é um movimento forçado.",
           "firearm": "O alvo deve obter sucesso em uma jogada de @Check[fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Arma de Fogo|showDC:all] ou fica @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado 1}.",
           "flail": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado}, a não ser que ele obtenha sucesso em uma jogada de @Check[reflex|dc:resolve(@actor.attributes.classDC.value)|name:Especialização de Crítico de Mangual]{Reflexos} contra a sua CD de classe.",
@@ -2734,8 +2727,9 @@
           "Second": "2° Ataque Enérgico",
           "Third": "3°+ Ataque Enérgico"
         },
-        "FromABP": "Progressão automática de bônus ajustou essa arma {property} para {value}.",
+        "FromABP": "Progressão automática de bônus ajustou o {property} dessa arma para {value}.",
         "FromMaterialAndRunes": "De material e runas: {value}",
+        "GradeOption": "{grade} (+{tracking}; {dice} dados de dano)",
         "HandsLabel": "Mãos",
         "MandatoryMelee": "Esta arma possui um traço que apenas pode ser utilizado com armas corpo a corpo.",
         "MaterialAndRunes": {
@@ -2790,6 +2784,23 @@
     "ItemNotSupportedOnActor": "Item não suportado no ator",
     "ItemRemoveRuleElement": "Remover Elemento de Regra",
     "ItemTitle": "Item",
+    "ItemTransferDialog": {
+      "Button": {
+        "gift": "Dar",
+        "move": "Transferir",
+        "purchase": "Comprar"
+      },
+      "Prompt": {
+        "gift": "Dar este item para {actor}?",
+        "move": "Transferir este item para {actor}?",
+        "purchase": "{actor} deseja comprar este item?"
+      },
+      "Title": {
+        "gift": "Dar {item}",
+        "move": "Transferir {item}",
+        "purchase": "Comprar {item}"
+      }
+    },
     "ItemsLabel": "Itens",
     "Keybinding": {
       "CycleTokenStack": {
@@ -2804,6 +2815,10 @@
         "Hint": "Coloca uma parada enquanto usa a medição de arraste.",
         "Label": "Criar Parada (Medição de Arraste)"
       },
+      "OpenCompendiumBrowser": {
+        "Hint": "Abre ou fecha o Navegador de Compêndios.",
+        "Label": "Alternar Navegador de Compêndios"
+      },
       "TogglePartySheet": {
         "Hint": "Abre ou fecha a ficha do grupo ativo ou, se for um jogador, grupo designado.",
         "Label": "Alternar Ficha do Grupo"
@@ -2813,6 +2828,9 @@
     "KitWorldItem": "Este item não foi encontrado em um compêndio e não funcionará em outros mundos",
     "LackCastConsumableCapability": "{actor} não tem a proficiêcia para usar {spell} e não tem o talento Enganar Item Mágico.",
     "LanguagesAdditional": "Idiomas Adicionais",
+    "LegalNotice": {
+      "Title": "Aviso Legal"
+    },
     "Level1": "Nível 1",
     "Level10": "Nível 10",
     "Level11": "Nível 11",
@@ -2840,11 +2858,7 @@
     "Level9": "Nível 9",
     "LevelLabel": "Nível",
     "LevelN": "Nível {level}",
-    "LevelRange": "Nível{minLevel} - {level}",
-    "LicenseViewer": {
-      "Label": "Aviso Legal",
-      "LandingPageText": "Use as abas acima para ler as informações legais"
-    },
+    "LevelRange": "Níveis {minLevel} — {level}",
     "ListPartsAnd": {
       "end": "{first}, e {second}",
       "middle": "{first}, {second}",
@@ -2938,7 +2952,7 @@
           "AquaticAmbush": "<p><strong>Exigências</strong> O monstro está escondido em água e uma criatura que não a detectou está no alcance listado em pés</p>\n<hr />\n<p><strong>Efeito</strong> O monstro move até o máximo de sua velocidade de nado + 10 pés na direção da criatura acionadora, viajando na água e na terra. Uma vez que a criatura está em alcance, o monstro faz um Golpe contra ela. A criatura é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra este Golpe</p>",
           "AtWillSpells": "<p> O monstro pode conjurar suas magias à vontade qualquer número de vezes sem usar um slot de magia.</p>",
           "AttackOfOpportunity": "<p><strong>Gatilho</strong> Uma criatura no alcance do monstro usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe corpo a corpo contra a criatura acionada. Se o ataque dele for um acerto crítico e o acionamento for uma ação de manuseio, o monstro interrompe essa ação. Este Golpe não conta para a penalidade por ataques múltiplos do monstro, e a penalidade por ataques múltiplos do monstro não se aplica a ele.</p>",
-          "Aura": "<p>A aura do monstro automaticamente afeta tudo na emanação especificada ao redor do monstro. O monstro não precisa gastar ações na aura; ao invés disso, o efeito da aura é aplicado em tempos específicos, como quando uma criatura termina seu turno na aura ou quando entra na aura.</p>\n<p>Se uma aura não faz nada mas dá dano, sua descrição lista somente seu raio, dano, e rolagens de salvamento. Tais auras dão este dano à criatura quando ela entra na aura ou começa seu turno dentro dela. A criatura pode sofrer o dano da aura somente uma vez por turno.</p>\n<p> O MJ pode determinar que uma aura de monstro não afeta seus próprios aliados. Por exemplo, uma criatura pode ser imune à presença aterradora de um monstro se eles estiverem andando juntos há um bom tempo.</p>",
+          "Aura": "<p>A aura do monstro automaticamente afeta tudo na emanação especificada ao redor do monstro. O monstro não precisa gastar ações na aura; ao invés disso, o efeito da aura é aplicado em tempos específicos, como quando uma criatura termina seu turno na aura ou quando entra na aura.</p>\n<p>Se uma aura não faz nada mas dá dano, sua descrição lista somente seu raio, dano, e rolagens de salvamento. Tais auras dão este dano à criatura quando ela entra na aura ou começa seu turno dentro dela. A criatura pode sofrer o dano da aura somente uma vez por turno.</p>\n<p> O mestre pode determinar que uma aura de monstro não afeta seus próprios aliados. Por exemplo, uma criatura pode ser imune à presença aterradora de um monstro se eles estiverem andando juntos há um bom tempo.</p>",
           "Buck": "<hr />\n<p>A maioria dos monstros que servem como montarias podem tentar derrubar cavalgantes indesejados ou irritantes, mas a maior parte das montarias não vão usar essa reação contra uma criatura confiada a não ser que a montaria esteja assustada ou maltratada.</p>\n<p><strong>Gatilho</strong> A criatura @UUID[Compendium.pf2e.actionspf2e.PM5jvValFkbFH3TV]{Monta} ou usa a ação @UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Comandar um Animal} enquanto cavalga o monstro.</p>\n<hr />\n<p><strong>Efeito</strong> A criatura acionadora deve passar uma jogada de salvamento de Reflexos contra a CD listada ou cair da criatura e aterrisar @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrado}. Se o salvamento foi uma falha crítica, a criatura acionadora também recebe [[/roll 1d6[bludgeoning]]]{1d6 dano contundente}</p>",
           "CatchRock": "<p><strong>Exigências</strong> O monstro deve ter uma mão livre, mas pode @UUID[Compendium.pf2e.actionspf2e.wQYmDStjdjn0I26t]{Soltar} qualquer coisa que esteja segurando como parte da reação.</p>\n<p><strong>Gatilho</strong> O monstro é alvejado com um Golpe de pedra arremessável ou uma pedra cairia sobre o monstro</p>\n<hr />\n<p><strong>Efeito</strong> O monstro ganha bônus de circunstância +4 para sua CA contra o ataque acionante, ou para qualquer defesa contra as pedras. Se o ataque erra ou o monstro tem sucesso em se defender, o monstro pega a pedra, não toma dano, e passa a segurá-la.</p>",
           "ChangeShape": "<p> O monstro muda de forma indefinidamente. Ele pode usar essa ação novamente para retornar a sua forma natural ou adotar uma nova forma. Se não for listado o contrário, um monstro não pode usar Trocar Forma para parecer um indivíduo específico. Usar Trocar Forma conta como criar um disfarce para o uso de Dissimulação em @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonar}. A transformação do monstro automaticamente derrota CDs de Percepção para determinar se uma criatura é membro de uma ancestralidade ou tipo de criatura na qual se transformou, e ganha um bônus de +4 no seu CD de Dissimulação para prevenir outras criaturas de verem através de seu disfarce. Habilidades de Trocar Forma especificam quais formas o monstro pode adotar. O monstro não ganha nenhuma habilidade especial de sua nova formato, somente sua forma física. Por exemplo, em cada forma, ela troca sua Velocidade e Golpes normais, e pode potencialmente mudar seus sentidos ou tamanho. Quaisquer mudanças são listadas no seu bloco de estatísticas</p>",
@@ -2972,11 +2986,11 @@
           "Regeneration": "<p>Este monstro recupera o número listado de Pontos de Vida a cada rodada no início de seu turno. Sua condição @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Morrendo} nunca aumenta além de 3 enquanto sua regeneração estiver ativa. No entanto, se ele sofrer dano de um tipo listado em Regeneração, sua regeneração desativa até o final do seu próximo turno. Desative a regeneração antes de aplicar qualquer dano de um tipo listado, já que esse dano pode matar o monstro levando ele para Morrendo 4.</p>",
           "Rend": "<p>Uma seção Despedaçar lista um Golpe possuído pelo monstro. </p>\n<p><strong>Exigências</strong> O monstro acerta o mesmo inimigo com dois Golpes consecutivos do tipo listado na mesma rodada.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente causa o dano desse Golpe contra o inimigo.</p>",
           "RetributiveStrike": "<p><strong>Gatilho</strong> Um inimigo causa dano a um aliado do monstro, e ambos estão a até 15 pés do monstro. </p>\n<hr />\n<p><strong>Efeito</strong> O aliado recebe resistência igual a 2 + o nível do monstro a todo dano contra o dano acionador. Se o adversário estiver no alcance do monstro, o monstro faz um Golpe corpo a corpo contra ele.</p>",
-          "Scent": "<p>Faro envolve sentir criaturas ou objetos por cheiro, e geralmente é um sentido vago. O alcance é listado na habilidade, e ele só funciona se a criatura ou objeto que está sendo detectado emitir um aroma (por exemplo, criaturas incorpóreas geralmente não exaltam um aroma).</p>\n<p>Se uma criatura emite um aroma pesado ou está a favor do vento, o MJ pode duplicar ou mesmo triplicar o alcance de habilidades farejadoras usadas para detectar essa criatura, e o MJ pode reduzir o alcance se uma criatura estiver contra o vento.</p>",
+          "Scent": "<p>Faro envolve sentir criaturas ou objetos por cheiro, e geralmente é um sentido vago. O alcance é listado na habilidade, e ele só funciona se a criatura ou objeto que está sendo detectado emitir um aroma (por exemplo, criaturas incorpóreas geralmente não exaltam um aroma).</p>\n<p>Se uma criatura emite um aroma pesado ou está a favor do vento, O mestre pode duplicar ou mesmo triplicar o alcance de habilidades farejadoras usadas para detectar essa criatura, e O mestre pode reduzir o alcance se uma criatura estiver contra o vento.</p>",
           "ShieldBlock": "<p><strong>Gatilho</strong> O monstro está com o seu escudo erguido e sofre dano de um ataque físico.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro protege-se atrás do escudo para aparar o golpe. O escudo previne que o monstro sofra uma quantidade de dano igual a Dureza do escudo. O monstro e o escudo cada um sofrem o dano restante, possivelmente quebrando ou destruindo o escudo.</p>",
           "SneakAttack": "<p>Quando o monstro Golpear com uma arma corpo-a-corpo ágil ou de acuidade, uma arma à distância, ou um ataque desarmado ágil, ou de acuidade para Golpear uma criatura que tenha a condição @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida}, ele também causa o dano de precisão listado. Para um ataque à distância com uma arma de arremesso, essa arma também deve ser ágil ou de acuidade.</p>",
           "Stench": "<p>Uma criatura que entra na aura ou inicia seu turno na área deve ter sucesso em um teste de Fortitude ou se tornar @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Enjoada 1} (mais @UUID[Compendium.pf2e.conditionitems .Item.xYTAsEpcJE1Ccni3]{Lenta 1} enquanto estiver enjoada em uma falha crítica). Uma criatura que obtiver sucesso no salvamento ou se recuperar do enjôo fica temporariamente imune a todas as auras fedorentas por 1 minuto.</p>",
-          "SwallowWhole": "<p> O monstro tenta engolir uma criatura do tamanho listado ou menor que agarrou em sua mandíbula ou boca. Se uma criatura engolida tiver o tamanho máximo listado, o monstro não pode usar o Engolir Inteiro novamente. Se a criatura é menor do que o máximo, o monstro geralmente pode engolir mais criaturas; o MJ determina o máximo. O monstro tenta um teste de Atleticismo contra a CD de Reflexos da criatura capturada. Se ela for bem-sucedida, ela engole a criatura. A boca ou a mandíbula do monstro já não agarram uma criatura que engoliu, então o monstro está livre para usá-los para atacar ou pegar mais uma vez. O monstro não pode atacar criaturas que ele engoliu.</p>\\n<p>Uma criatura ingerida é @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada}, é @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1}, e tem que segurar a respiração ou começar a sufocar. A criatura engolida recebe a quantidade de dano listada quando engolido pela primeira vez e no final de todos os turnos enquanto está engolida. Se a vítima @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapa} a condição de Agarrado desta habilidade, ela sai pela boca do monstro. Isto liberta qualquer outra criatura agarrada à boca ou às mandíbulas do monstro. Uma criatura engolida pode atacar o monstro que o engoliu, mas apenas com ataques desarmados ou com armas de volume leve, ou menos. A criatura engolida é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida} contra o ataque. Se o monstro sofrer dano perfurante ou cortante igual, ou superior ao valor de Ruptura listado em um único ataque, ou magia, a criatura engolida liberta-se pelo corte. Uma criatura que se liberta de qualquer maneira pode imediatamente respirar e sair do espaço do monstro.</p>\\n<p>Se o monstro morrer, uma criatura engolida pode ser liberada por criaturas adjacentes ao cadáver se elas gastarem um total combinado de 3 ações abrindo o monstro com uma arma ou ataque desarmado que causa dano perfurante ou cortante.</p>",
+          "SwallowWhole": "<p> O monstro tenta engolir uma criatura do tamanho listado ou menor que agarrou em sua mandíbula ou boca. Se uma criatura engolida tiver o tamanho máximo listado, o monstro não pode usar o Engolir Inteiro novamente. Se a criatura é menor do que o máximo, o monstro geralmente pode engolir mais criaturas; O mestre determina o máximo. O monstro tenta um teste de Atleticismo contra a CD de Reflexos da criatura capturada. Se ela for bem-sucedida, ela engole a criatura. A boca ou a mandíbula do monstro já não agarram uma criatura que engoliu, então o monstro está livre para usá-los para atacar ou pegar mais uma vez. O monstro não pode atacar criaturas que ele engoliu.</p>\\n<p>Uma criatura ingerida é @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrada}, é @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1}, e tem que segurar a respiração ou começar a sufocar. A criatura engolida recebe a quantidade de dano listada quando engolido pela primeira vez e no final de todos os turnos enquanto está engolida. Se a vítima @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapa} a condição de Agarrado desta habilidade, ela sai pela boca do monstro. Isto liberta qualquer outra criatura agarrada à boca ou às mandíbulas do monstro. Uma criatura engolida pode atacar o monstro que o engoliu, mas apenas com ataques desarmados ou com armas de volume leve, ou menos. A criatura engolida é @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenida} contra o ataque. Se o monstro sofrer dano perfurante ou cortante igual, ou superior ao valor de Ruptura listado em um único ataque, ou magia, a criatura engolida liberta-se pelo corte. Uma criatura que se liberta de qualquer maneira pode imediatamente respirar e sair do espaço do monstro.</p>\\n<p>Se o monstro morrer, uma criatura engolida pode ser liberada por criaturas adjacentes ao cadáver se elas gastarem um total combinado de 3 ações abrindo o monstro com uma arma ou ataque desarmado que causa dano perfurante ou cortante.</p>",
           "SwarmMind": "<p>Este monstro não possui uma única mente (normalmente porque ele é um enxame de criaturas menores) e é imune a efeitos mentais que miram somente uma quantidade específica de criaturas. Ele ainda é sujeito a efeitos mentais que afetam todas as criaturas em uma área.</p>",
           "Telepathy": "<p>Um monstro com telepatia é capaz de se comunicar mentalmente com quaisquer criaturas dentro do raio listado, desde que possuam um idioma em comum. Isto não concede qualquer acesso especial aos pensamentos delas e não permite comunicar mais informações que uma conversa falada.</p>",
           "Thoughtsense": "<p>Sentido de Pensamentos permite o monstro sentir a essência mental de todas as criaturas à distância listada.</p>",
@@ -3137,7 +3151,6 @@
     "PerceptionHeader": "Percepção",
     "PerceptionLabel": "Percepção",
     "PotencyRuneLabel": "Runa de Potência",
-    "PreciousMaterialAbysium": "Abysium",
     "PreciousMaterialAbysiumDescription": "Um metal azul-esverdeado com uma luminescência verde estranha, abysium irradia poder que é adversário à vida. Exposição descuidada ao material pode levar a danos de longo-termo para o sistema imunológico; portanto, minerar abysium é um perigo, grandes quantias do metal numa área pode levar criaturas próximas a adoecer. Uma criatura carregando um objeto de abysium é enjoado 1 por um objeto padrão de Volume leve, enjoado 2 por um objeto padrão de Volume 1 ou maior, ou um objeto de alto-padrão de Volume Leve, ou enjoado 3 por um objeto de alto-padrão de voluma 1 ou maior. Isso e todos os outros efeitos adoecedores do abysium são efeitos venenosos. Artesãos podem usar 1 pedaço de abysium para criar até 6 doses de pó de abysium venenoso. Ferreiros inescrupulosos usam as propriedades tóxicas do metal para criar armas nocivas e substancias mortais. Todos objetos manufaturados de abysium brilham em luz fraca num raio de 10 pés",
     "PreciousMaterialAdamantine": "Adamante",
     "PreciousMaterialAdamantineDescription": "Minerado de rochas que caíram dos céus, adamante é um dos metais mais duros conhecidos. Ele possui uma aparência preta e brilhante e é prezado por sua resistência extraordinária e habilidade de manter uma lâmina incrivelmente afiada.",
@@ -3145,7 +3158,6 @@
     "PreciousMaterialColdIronDescription": "Armas feitas de ferro frio são mortais contra demônios e fadas. Ferro frio se parece com o ferro normal, mas é minerado de veios particularmente puros e moldado com pouco ou nenhum calor. Este processo é extremamente difícil, especialmente para itens de ferro frio de qualidade alta.",
     "PreciousMaterialDawnsilver": "Prata do Alvorada",
     "PreciousMaterialDawnsilverDescription": "Prata da alvorada é renomado por sua leveza, durabilidade e eficiência contra uma ampla variedade de criaturas, incluindo diabos e licantropos. Ele possui o mesmo brilho que a prata, mas em um tom mais claro. Armas e armaduras de prata da alvorada são tratadas como se fossem de prata para o propósito de causar dano a criaturas com fraqueza a prata. Um item de metal feito de prata da alvorada é mais leve do que um feito de aço ou ferro; o Volume do item é reduzido em 1 (ou para Volume leve se o Volume normal dele for 1; e sem gerar efeito em itens que normalmente possuem Volume leve). O Preço de um item feito deste material é baseado no Volume normal do item, não em seu Volume reduzido por ser feito de prata da alvorada. Entretanto, reduza o Volume antes de fazer quaisquer ajustes de Volume pelo tamanho do item.",
-    "PreciousMaterialDjezet": "Djezet",
     "PreciousMaterialDjezetDescription": "Esse metal vermelho-ferrugem é líquido em temperatura ambiente, tornando-o um desafio a todos, senão os mais habilidosos metalúrgicos para o artesanato e conquistando o nome “Ferrápido” em alguns lugares. Djezet é também extremamente reativo a magia, mesmo em seu estado sólido, em liga com outros metais. Ele brilha quando alvejado por magia, e objetos feitos de ligas de djezet brilham com estrias escarlates, que leva alguns ferreiros a o apelidarem de “ferro tigrado”. Quando alvejado por magias, objetos manufaturados de ligas de djezet exibem essas marcas brilhantes que duram por 1 rodada ou pela duração da magia, o que for maior. Uma massa djezet contém metal suficiente para refiná-lo em até duas doses.",
     "PreciousMaterialDragonhide": "Couro de Dragão",
     "PreciousMaterialDragonhideDescription": "O couro e as escamas de um dragão podem ser usados para Manufaturar qualquer item feito normalmente de couro ou peles. Couro de dragão varia em cor de azul a ouro brilhante, dependendo de a qual dragão pertencia. Devido à resiliência das escamas, ele também pode ser usado para Manufaturar armaduras normalmente feitas de placas de metal (como armadura completa, meia armadura ou placa peitoral), permitindo que estas armaduras sejam feitas sem metal. Objetos de couro de dragão são imunes a um tipo de dano, dependendo do tipo de dragão.",
@@ -3157,13 +3169,11 @@
     "PreciousMaterialGrisantianPelt": "Pele Grisantina",
     "PreciousMaterialGrisantianPeltDescription": "Essa pele de animal supernaturalmente dura é dourada e brilha na luz do sol. Ela pode ser usada para fazer qualquer item geralmente feito de tecido, couro ou pele. Esse material é imune ao fogo, e sua Dureza é dobrada contra danos Cortantes ou Perfurantes. Até 4 Volumes de pele grisantiana deve ser colhida de uma única criatura (isso geralmente é mais do que o suficiente para 4 trajes de armadura de qualidade padrão ou 2 trajes de armadura de qualidade alta).",
     "PreciousMaterialHighGrade": "Qualidade Alta",
-    "PreciousMaterialInubrix": "Inubrix",
     "PreciousMaterialInubrixDescription": "Esse pálido e maleável metal de estrutura molecular incomum permite que ele parcialmente atravesse metal e aço sem os tocarem. Enquanto essa propriedade é útil para criação de armas que atravessam armaduras de metal, inubrix dificilmente é mais firme que chumbo. Mesmo em liga, esse metal-do-céu é tão frágil que dificulta usá-lo para manufatura de escudos confiáveis e é menos que ideal para manufatura de armadura.",
     "PreciousMaterialLabel": "Material Precioso",
     "PreciousMaterialLowGrade": "Qualidade Baixa",
     "PreciousMaterialKeepStone": "Pedraguarda",
     "PreciousMaterialKeepStoneDescription": "O feito mais importante de Highhelm em milênios de avanços da metalúrgica e da engenharia é a belíssima liga nomeada pedraguarda. Apesar de seu nome, nenhuma pedra foi usada na produção de pedraguarda. Por meio de um procedimento altamente sigiloso que funde adamantina ao chumbo, os maiores artesãos de Highhelm foram capazes de desenvolver um material cuja aparência lembra mais mármore do que metal. A pedraguarda por si só é levemente mais fraca que adamantina, porém possui a habilidade incrível de interromper magia. Qualquer feitiço ou efeito magico alvejando pedraguarda bruta deverá obter sucesso em um teste simples CD 5, ou o efeito será interrompido.",
-    "PreciousMaterialNoqual": "Noqual",
     "PreciousMaterialNoqualDescription": "Leve e forte, noqual também demonstra uma poderosa resistência a magia. Um efeito colateral dessa resistência é que fazer armas mágicas de noqual requer tratamentos alquímicos caros e complexos. Kevoth-Kul, o Soberano Escuro de Numeria, desenvolveu uma liga de noqual e ferro frio conhecido como aço soberano para mitigar tais propriedades. A aparência cristalina do metal pode sugerir fragilidade, mas o material verde-pálido pode ser trabalhado similarmente ao ferro. Objetos feitos de noqual tem bônus de circunstância de +4 em salvamentos contra magia que o item faça e garante o bônus para o salvamento ao dono especificamente para proteger o item da magia (tal qual a magia de Aperto Enferrujante).",
     "PreciousMaterialOrichalcum": "Oricalco",
     "PreciousMaterialOrichalcumDescription": "O mais raro e valioso dos metais celestes, oricalco é procurado por suas incríveis propriedades mágicas relacionadas ao tempo. Este metal cúpreo e embotado não é tão fisicamente resistente quanto adamante, mas suas propriedades de dobra temporal o protegem, concedendo maior Dureza e Pontos de Vida. Se um item de oricalco sofrer dano mas não for destruído, ele se repara completamente 24 horas depois.",
@@ -3182,12 +3192,13 @@
     "PreciousMaterialSovereignSteel": "Aço Soberano",
     "PreciousMaterialSovereignSteelDescription": "Criado pelo Soberano Negro Kevoth-Kul, esta liga única de ferro frio e metal-do-céu noqual podem fornecer proteção contra ataques mágicos. O processo de forja-fria de ambos os materiais é bastante complicado e preciso. Personagens em busca de armas e armadura de aço soberano terão quase que viajar até Starfall para adquirir equipamento feito a partir dessa liga rara. Embora alguns acreditem que é possível criar escudos de aço soberano também, em um de seus surtos, Kevoth-Kul gritou que não tinha qualquer utilidade para eles e proibiu a todos de tentar tal coisa. Até agora, os seus ferreiros têm tido demasiado medo de confirmar se isso tratou de uma anedota. Todos os itens de aço soberano (incluindo armas e armaduras abaixo) têm um bônus de +4 em salvamentos contra a magia que o item faça, e concedem seu bônus para salvamentos que o dono faça especificamente para proteger o item da magia (como contra a magia Toque Enferrujante).",
     "PreciousMaterialStandardGrade": "Qualidade Padrão",
-    "PreciousMaterialWarpglass": "Warpglass",
     "PreciousMaterialWarpglassDescription": "Essa bizarra substancia é formada pela bruta e caótica quintessência do Maelstrom. Ela pode ser moldada em armas e itens, mas é muito instável para fazer escudos ou armaduras úteis. Vidro-Torcido é um material vítreo opalescente com força surpreendente. Quando manuseado, muda sua aparência-mas não suas propriedades-para parecer estrias de outros metais ou tipos de pedras.",
-    "PreparationTypeInnate": "Inata",
+    "PreparationTypeInnate": "Inatas",
     "PreparationTypeItems": "Somente Itens",
-    "PreparationTypePrepared": "Preparada",
-    "PreparationTypeSpontaneous": "Espontânea",
+    "PreparationTypeFocus": "de Foco",
+    "PreparationTypePrepared": "Preparadas",
+    "PreparationTypeRitual": "Ritual",
+    "PreparationTypeSpontaneous": "Espontâneas",
     "Prerequisite1": "Pré-requisito 1",
     "Prerequisite2": "Pré-requisito 2",
     "Prerequisite3": "Pré-requisito 3",
@@ -3248,6 +3259,10 @@
       "success": "Reduz seu valor de Morrendo em 1."
     },
     "Region": {
+      "DifficultTerrain": {
+        "DifficultTerrain": "Terreno Difícil",
+        "GreaterDifficultTerrain": "Terreno Difícil Maior"
+      },
       "Environment": {
         "Mode": {
           "Add": {
@@ -3302,13 +3317,15 @@
       "KeepHigher": "Rerrolar e manter o maior resultado",
       "KeepNew": "Rerrolar e manter o novo resultado",
       "KeepLower": "Rerrolar e manter o menor resultado",
-      "MessageHeroPoint": "Rerrolar usando um Ponto de Heroísmo",
+      "MessageHeroPoints": "Rerrolar usando um Ponto de Heroísmo",
       "MessageKeep": {
         "higher": "Rerrolou e manteve o maior resultado",
         "new": "Rerrolar e manter o novo resultado",
         "lower": "Rerrolou e manteve o menor resultado"
       },
-      "WarnNoHeroPoint": "{name} não possui Pontos de Heroísmo"
+      "MessageMythicPoints": "Rerrolou usando um Ponto Mítico",
+      "MythicPoint": "Rerrolar usando um Ponto Mítico",
+      "WarnNoResource": "{name} não tem {resource}"
     },
     "ResistancesLabel": "Resistências",
     "RestoreSpellTitle": "Restaurar Magia",
@@ -3342,8 +3359,8 @@
         "ShowDefault": "Mostrar sempre",
         "ShowDefaultHint": "Se ativado, esta caixa de diálogo sempre será exibida, a não ser que você segurar Shift. Se desativado, você pode abrir esta caixa de diálogo segurando Shift."
       },
-      "Fortune": "Fortuna",
-      "FortuneTitle": "{title} Fortuna",
+      "Fortune": "Fortúnio",
+      "FortuneTitle": "{title} Fortúnio",
       "KeepHigher": "Manter Mais Alto",
       "KeepLower": "Manter Mais Baixo",
       "Misfortune": "Infortúnio",
@@ -3388,8 +3405,16 @@
           "Name": "PdMs são saqueáveis"
         },
         "Name": "Automação",
+        "ReachEnforcement": {
+          "corpses": "Cadáveres",
+          "doors": "Portas",
+          "Hint": "Seguir a regra de alcance quando jogadores tentarem interagir com certos objetos no mapa.",
+          "loot": "Espólio",
+          "merchants": "Comerciantes",
+          "Name": "Seguir Regra de Alcance"
+        },
         "RemoveExpiredEffects": {
-          "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que o MJ esteja logado).",
+          "Hint": "Os efeitos expirados são removidos automaticamente dos atores (exige que O mestre esteja logado).",
           "Name": "Remover os efeitos expirados"
         },
         "RulesBasedVision": {
@@ -3441,12 +3466,12 @@
         "Hint": "Setar o ícone sobreposto usado para marcar atores mortos.",
         "Name": "Ícone de Morte"
       },
-      "DragMeasurement": {
-        "Always": "Sempre",
-        "Encounters": "Durante Encontros",
-        "Hint": "Mede a distância viajada enquanto arrasta um token sem a necessidade de segurar nenhum outro botão. Paradas podem ser colocadas ao pressionar \"{key}\" e removidas pelo clique-direito.",
-        "Name": "Medição de Arraste",
-        "Never": "Nunca"
+      "DistanceDisplay": {
+        "Hint": "Exibe a distância entre o token controlado e o token cujo mouse esteja por cima.",
+        "Name": "Exibir Distância de Token",
+        "always": "Sempre",
+        "encounters": "Durante Encontros",
+        "never": "Nunca"
       },
       "EnabledDisabled": {
         "Enabled": "Habilitado",
@@ -3470,6 +3495,10 @@
           "Message": "Deletar elemento Caseiro <strong>{element}</strong>?",
           "Title": "Deletar Elemento Caseiro?"
         },
+        "ClassTraits": {
+          "Hint": "Traços que se referem a classes individuais",
+          "Name": "Traços de Classe"
+        },
         "CreatureTraits": {
           "Hint": "Traços que poder ser aplicados a qualquer criatura em alguns tipos de itens (ex: Dragão, Gnomo)",
           "Name": "Traços da Criatura"
@@ -3490,7 +3519,7 @@
           "Name": "Traços de Talentos"
         },
         "Hint": "Adiciona traços, idiomas e outros elementos customizáveis de um mundo caseiro.",
-        "Instructions": "Estas configurações permitem ao MJ adicionar traços, idiomas e outros elementos a um mundo caseiro. Para adicionar estes elementos, simplesmente digite os termos desejados nos campos apropriados, separados por vírgulas ou tab de tabulação. Eles então aparecerão nos campos apropriados nas fichas de atores e itens. Para atualizar um termo, clique nele para fazer as alterações desejadas.",
+        "Instructions": "Estas configurações permitem aO mestre adicionar traços, idiomas e outros elementos a um mundo caseiro. Para adicionar estes elementos, simplesmente digite os termos desejados nos campos apropriados, separados por vírgulas ou tab de tabulação. Eles então aparecerão nos campos apropriados nas fichas de atores e itens. Para atualizar um termo, clique nele para fazer as alterações desejadas.",
         "Label": "Gerenciar Material Caseiro",
         "Languages": {
           "CommonLanguage": {
@@ -3570,11 +3599,11 @@
           "Name": "Mostrar detalhamentos de rolagens"
         },
         "SecretCondition": {
-          "Hint": "Apenas o MJ verá mensagens de atualização elembres de condição que são gerados por tokens não possuídos por um jogador.",
+          "Hint": "Apenas O mestre verá mensagens de atualização elembres de condição que são gerados por tokens não possuídos por um jogador.",
           "Name": "Ocultar mensagens de atualização de condição"
         },
         "SecretDamage": {
-          "Hint": "Apenas o MJ pode ver as mensagens de dano/cura que são geradas por mensagens de dano do chat para tokens não possuídos por um jogador.",
+          "Hint": "Apenas O mestre pode ver as mensagens de dano/cura que são geradas por mensagens de dano do chat para tokens não possuídos por um jogador.",
           "Name": "Ocultar mensagem de dano sofrido"
         },
         "PartyVision": {
@@ -3633,11 +3662,11 @@
         },
         "AutomaticBonus": {
           "Choices": {
-            "ABPFundamentalPotency": "Considerar progressão de bônus como runas fundamentais",
-            "ABPRulesAsWritten": "Usar regras variantes conforme escritas",
-            "noABP": "Usar regras padrão"
+            "ABPFundamentalPotency": "Usar regra e permitir Runas de Propriedade",
+            "ABPRulesAsWritten": "Usar regra e desabilitar Runas de Propriedade",
+            "noABP": "Desabilitada"
           },
-          "Hint": "Recarregamento Requerido: Suporte para as regras variantes de Progressão Automática de Bônus, exceto para perícias/apogeu de atributos.",
+          "Hint": "Suporte para a regra de Progressão Automática de Bônus. Potência de Perícias precisa ser gerenciada manualmente.",
           "Name": "Progressão Automática de Bônus"
         },
         "FreeArchetype": {
@@ -3756,7 +3785,9 @@
         "Unlimited": "Ilimitado"
       },
       "SyncDarkness": {
-        "Label": "Sincronizar Escuridão com o Tempo"
+        "Label": "Sincronizar Escuridão com o Tempo",
+        "ManagedBy": "Sincronizado com <wt>tempo do mundo</wt>.",
+        "Hint": "Quando a hora do dia muda nesta cena, ajuste automaticamente o nível de escuridão para combinar (mais escuro durante a noite, mais claro durante o dia)."
       }
     },
     "ScoreTitle": "Valor",
@@ -3806,7 +3837,7 @@
     "SpellArea": "Área: {areaSize} {areaUnit} {areaType}",
     "SpellAttackLabel": "Ataque de Magia",
     "SpellAttackWithTradition": "Ataque Mágico {tradition}",
-    "SpellCastingFormat": "Magias {traditionSpells} {preparationType}",
+    "SpellCastingFormat": "Magias {preparationType} {traditionSpells}",
     "SpellCollectionAdd": "Adicionar à Coleção de Magias",
     "SpellCollectionRemove": "Remover da Coleção de Magias",
     "SpellFlexibleAvailable": "Flexível: {value} / {max}",
@@ -3924,7 +3955,13 @@
     "Token": {
       "ActorLinkForced": "Atores {type} não podem ser desconectados.",
       "Appearance": "Aparência",
+      "Distance": "Distância: {distance} {unit}",
       "Flanking": "Flanqueando",
+      "Mystified": {
+        "TheCreature": "A criatura",
+        "TheObject": "O objeto"
+      },
+      "OutOfReach": "{token} está fora do alcance.",
       "SecretDisposition": {
         "Label": "Disposição Secreta",
         "Hint": "Ative a disposição \"secreta\", que exibe uma borda roxa para os proprietários e nenhuma borda ou mudança de cursor para todos os outros."
@@ -3941,6 +3978,60 @@
     "TotalCoinage": "Moedas Totais",
     "TotalTreasure": "Tesouro Total",
     "TotalWealth": "Riqueza Total",
+    "TradeDialog": {
+      "Aborted": "{user} finalizou a troca: nenhum item foi trocado.",
+      "Acceptance": {
+        "Accepted": "{user} aceitou sua oferta.",
+        "Accept": "Aceitar Oferta",
+        "NotAccepted": "{user} não aceitou a sua oferta.",
+        "Rescind": "Rescindir Aceitação"
+      },
+      "Error": {
+        "Engaged": "{user} está envolvido em uma troca no momento.",
+        "LoggedOut": "Finalizando troca: {user} não está mais logado.",
+        "NotTrading": "Finalizando troca: {user} não está mais trocando.",
+        "OutOfReach": "{self} e {trader} não está dentro do alcance um do outro.",
+        "SelectToken": "Selecione exatamente um token associado com um PJ ou PDM para representar você em uma troca.",
+        "Timeout": "Finalizando troca: não houve resposta do {user} após {timeout} segundos",
+        "Unavailable": "Finalizando troca: {user} se tornou indisponível."
+      },
+      "Gift": {
+        "Accepted": "{trader} recebeu seu item.",
+        "Declined": "{trader} recusou seu item.",
+        "Prompt": {
+          "Content": "{trader} ({user}) quer dar {quantity}x {item} para {self}.",
+          "Title": "Receber Itens?"
+        },
+        "Received": "{self} recebeu o item de {trader}."
+      },
+      "ImgAlt": {
+        "Actor": "Retrato de {actor}, representando {user}",
+        "Item": "Ícone de {item}"
+      },
+      "Quantity": {
+        "Decrement": "Diminuir Quantidade do Item",
+        "Increment": "Aumentar Quantidade do Item",
+        "Label": "Quantidade de {item}"
+      },
+      "Receiving": "Recebendo: {list}",
+      "Request": {
+        "Declined": "{trader} ({user}) recusou seu pedido de troca.",
+        "Requesting": "Pedindo para trocar com {trader} ...",
+        "Prompt": {
+          "Content": "{trader} ({user}) quer trocar com {self}.",
+          "Title": "Trocar com {trader}?"
+        },
+        "MenuLabel": "Pedir Troca",
+        "Timeout": "Não house resposta de {user} para seu pedido de troca após 30 segundos."
+      },
+      "Sending": "Enviando: {list}",
+      "Success": {
+        "Finished": "{Self} terminou de trocar com {trader}.",
+        "NoItems": "A troca foi concluída, mas nenhum item foi trocado."
+      },
+      "Title": "Trocando com {trader}",
+      "You": "Você"
+    },
     "TrainedSkillsLabel": "Perícias Treinadas",
     "TraitAberration": "Aberração",
     "TraitAcid": "Ácido",
@@ -3983,26 +4074,23 @@
     "TraitAffixedToMetalWeapon": "Afixado a uma arma de metal",
     "TraitAffixedToObjectOrStructure": "Afixado num Objeto ou Estrutura",
     "TraitAffixedToStructureObjectOrCreature": "Afixado numa Estrutura, Objeto, ou Criatura",
-    "TraitAffixedToThrownWeapon": "Afixado a Arma Arremessável",
+    "TraitAffixedToThrownWeapon": "Afixado a Arma de Arremesso",
     "TraitAffixedToUnarmoredItem": "Afixado a Item de Defesa sem Armadura",
     "TraitAffixedToWeapon": "Fixado em uma Arma",
     "TraitAftermath": "Arremate",
-    "TraitAgathion": "Agathion",
     "TraitAgile": "Ágil",
     "TraitAir": "Ar",
     "TraitAiuvarin": "Aiuvarin",
     "TraitAlchemical": "Alquímico",
     "TraitAlchemist": "Alquimista",
-    "TraitAmp": "Amp",
     "TraitAmphibious": "Anfíbio",
     "TraitAnadi": "Anadi",
+    "TraitAnalog": "Analógico",
     "TraitAndroid": "Androide",
     "TraitAngel": "Anjo",
     "TraitAnimal": "Animal",
     "TraitAnimist": "Animista",
-    "TraitAnugobu": "Anugobu",
     "TraitApex": "Apogeu",
-    "TraitAphorite": "Aphorite",
     "TraitApparition": "Aparição",
     "TraitAppliedToANoninjectionMeleePiercingWeapon": "Aplicado a uma arma corpo-a-corpo de não-injeção que dá dano perfurante",
     "TraitAppliedToAWindPoweredVehicle": "Aplicado a um veículo motorizado pelo vento",
@@ -4031,7 +4119,7 @@
     "TraitAsura": "Asura",
     "TraitAthamaru": "Athamaru",
     "TraitAttached": "Anexado",
-    "TraitAttachedToAThrownWeapon": "Anexado à Arma Arremessável",
+    "TraitAttachedToAThrownWeapon": "Anexado à Arma de Arremesso",
     "TraitAttachedToCrossbowOrFirearm": "Anexado em uma besta ou arma de fogo",
     "TraitAttachedToCrossbowOrFirearmFiringMechanism": "Anexado em uma besta ou arma de fogo (mecanismo de tiro)",
     "TraitAttachedToCrossbowOrFirearmScope": "Anexado em uma besta ou arma de fogo (mira)",
@@ -4054,7 +4142,6 @@
     "TraitBard": "Bardo",
     "TraitBarding": "Armadura de Animal",
     "TraitBeast": "Besta",
-    "TraitBeastkin": "Beastkin",
     "TraitBleed": "Sangramento",
     "TraitBludgeoning": "Contundente",
     "TraitBlight": "Esmorecimento",
@@ -4084,16 +4171,14 @@
     "TraitCertainKill": "Abate Certo",
     "TraitChampion": "Campeão",
     "TraitChangeling": "Cambiante",
-    "TraitCharauKa": "Charau-ka",
     "TraitCircus": "Circo",
     "TraitCleric": "Clérigo",
     "TraitClimbing": "Escalada",
-    "TraitClockwork": "Clockwork",
     "TraitCobbled": "Improvisado",
     "TraitCoagulant": "Coagulante",
-    "TraitCoda": "Coda",
     "TraitCold": "Frio",
     "TraitColdiron": "Ferro Frio",
+    "TraitCommander": "Comandante",
     "TraitCombination": "Combinação",
     "TraitComfort": "Confortável",
     "TraitCommon": "Comum",
@@ -4112,14 +4197,12 @@
     "TraitContact": "Contato",
     "TraitContingency": "Contingência",
     "TraitContract": "Contrato",
-    "TraitCouatl": "Coatl",
     "TraitCriticalFusion": "Fusão Crítica",
     "TraitCurse": "Maldição",
     "TraitCursebound": "Ominoso",
     "TraitCursed": "Amaldiçoado",
     "TraitDaemon": "Daemon",
     "TraitDarkness": "Escuridão",
-    "TraitDarvakka": "Darvakka",
     "TraitDeadly": "Mortal",
     "TraitDeadly2D10": "Mortal 2d10",
     "TraitDeadly2D12": "Mortal 2d12",
@@ -4176,10 +4259,8 @@
     "TraitDescriptionArtifact": "Itens com este traço são artefatos. Estes itens mágicos não podem ser fabricados por meios normais, e eles não podem ser danificados por meios normais. Artefatos são sempre raros ou únicos.",
     "TraitDescriptionAstral": "As criaturas astrais são nativas do Plano Astral. Elas podem sobreviver aos efeitos ambientais básicos do Plano Astral.",
     "TraitDescriptionAthamaru": "Os Athamarus são humanoides aquáticos com aspecto de peixe.",
-    "TraitDescriptionAttached": "Uma arma anexada deve ser combinada com outro equipamento para ser usada. Este traço lista a qual tipo de item a arma deve ser anexada. Você deve estar empunhando ou usando o item ao qual a arma está anexada para poder atacar com ela. Por exemplo, espinhos de escudo são anexados a um escudo, permitindo que você ataque com os espinhos em vez de com uma pancada com escudo, mas apenas se estiver empunhando o escudo. Uma arma anexada normalmente é aparafusada ou construída junto do item ao qual é anexada — e normalmente um item pode ter apenas uma arma anexada a ele. Uma arma anexada pode ser afixada em um item com 10 minutos de trabalho e um teste bem-sucedido de @Check[crafting|dc:10]{Manutafura}; isto inclui o tempo necessário para remover a arma do item anterior, se necessário. Se um item for destruído, sua arma anexada normalmente pode ser recuperada.",
     "TraitDescriptionAttack": "Uma habilidade com esse traço envolve um ataque. Para cada ataque que você fizer após o primeiro em seu turno, você sofre uma penalidade de ataques múltiplos.",
-    "TraitDescriptionAuditory": "Ações e efeitos auditivos se baseiam em som. Uma ação com o traço auditivo pode ser executada com sucesso somente se a criatura usando a ação puder falar ou de outra forma produzir os sons requeridos. Uma magia ou efeito com o traço auditivo surte efeito somente se o alvo puder ouvi-los. Isto se aplica somente às partes do efeito baseadas em som, conforme determinado pelo MJ. Isto é diferente de um efeito sônico, que ainda afeta alvos incapazes de ouvi-lo (como alvos surdos) desde que o efeito emita um som.",
-    "TraitDescriptionAura": "Uma aura é uma emanação que exala continuamente de você, afetando criaturas dentro de um determinado raio. Aura também pode se referir à assinatura mágica de um item ou de uma criatura com uma tendência forte.",
+    "TraitDescriptionAuditory": "Ações e efeitos auditivos se baseiam em som. Uma ação com o traço auditivo pode ser executada com sucesso somente se a criatura usando a ação puder falar ou de outra forma produzir os sons requeridos. Uma magia ou efeito com o traço auditivo surte efeito somente se o alvo puder ouvi-los. Isto se aplica somente às partes do efeito baseadas em som, conforme determinado pelo mestre. Isto é diferente de um efeito sônico, que ainda afeta alvos incapazes de ouvi-lo (como alvos surdos) desde que o efeito emita um som.",
     "TraitDescriptionAutomaton": "Uma criatura com este traço é membro da ancestralidade automata.",
     "TraitDescriptionAwakenedAnimal": "Os animais despertados já foram criaturas normais antes de ganharem sapiência.",
     "TraitDescriptionAzarketi": "Humanoides anfíbios que vivem entre os mares da região do Mar Interior, dizem ser descendentes do povo de Azlant. Às vezes conhecidos como Homens-guelra ou Baixos Azlanti. Azarketi são uma ramificação de humanos adaptados para viver em comunidades aquáticas. Eles têm guelras, dedos palmados e pequenas nadadeiras e podem sobreviver dentro ou fora da água.",
@@ -4245,7 +4326,6 @@
     "TraitDescriptionDarvakka": "Criaturas mortos-vivos entrópicos, distorcidos pelo Plano das Sombras e Plano da Energia Negativa.",
     "TraitDescriptionDeadly": "Em um acerto crítico, a arma adiciona um dado de dano de arma do tamanho listado. Role este dado depois de dobrar o dano da arma. Este dado extra aumenta para dois dados se a arma possuir uma runa impactante maior e para três dados se a arma possuir uma runa impactante superior. Por exemplo, uma rapieira com uma runa impactante maior causa 2d8 extras de dano perfurante em um acerto crítico. Uma habilidade que alterar o tamanho do dado de dano normal da arma não altera o tamanho do dado mortal dela.",
     "TraitDescriptionDeath": "Um efeito com o traço morte lhe mata imediatamente se reduzi-lo a 0 PV. Alguns efeitos de morte podem deixá-lo mais perto da morte ou matá-lo imediatamente mesmo sem reduzi-lo a 0 PV.",
-    "TraitDescriptionDedication": "Você deve selecionar um talento com este traço para aplicar um arquétipo ao seu personagem.",
     "TraitDescriptionDeflecting": "Este escudo é projetado para bloquear ou desviar certas categorias de ataques, ou armas. Aumente a dureza deste escudo contra os tipos listados de ataque em 2.",
     "TraitDescriptionDemon": "Uma família de demônios, os demônios originam-se ou traçam suas origens das Fendas Exteriores. A maioria é irremediavelmente profana e possui visão no escuro e fraquezas contra ferro frio e sagrado.",
     "TraitDescriptionDero": "Esta família de humanoides são descendentes de criaturas feéricas que caíram na escuridão e confusão após serem abandonadas nas Terras Sombrias. Eles são imunes à confusão e vulneráveis à luz do sol.",
@@ -4275,7 +4355,7 @@
     "TraitDescriptionElixir": "Elixires são líquidos alquímicos que são usados ao serem bebidos.",
     "TraitDescriptionEmotion": "Este efeito altera as emoções de uma criatura. Efeitos com este traço sempre possuem também o traço mental. Criaturas com treinamento especial ou que possuem inteligência artificial ou mecânica são imunes a efeitos de emoção.",
     "TraitDescriptionEntrench": "Você pode se posicionar na armadura ou reposicionar suas peças articuladas para melhor proteger-lhe de certos ataques. Se você é treinado nessa armadura, enquanto a usa, pode gastar uma única ação para ganhar bônus de circunstância +1 para CA contra certos tipos de ataques até o fim do seu próximo turno. O traço Entrincheirar lista os tipos de ataque para qual este bônus se aplica, tipicamente Entrincheirar Corpo-a-Corpo ou Entrincheirar Alcance.",
-    "TraitDescriptionEnvironment": "Um perigo com este traço é algo perigoso que faz parte do mundo natural, como areia movediça ou bolor nocivo.",
+    "TraitDescriptionEnvironmental": "Um perigo com este traço é algo perigoso que faz parte do mundo natural, como areia movediça ou bolor nocivo.",
     "TraitDescriptionEsoterica": "O traço esotérica está presente em muitos talentos taumaturgos e características de classe que incorporam vários talismãs, badulaques sobrenaturais e outros objetos que carregue com você. Habilidades com este traço requerem que você esteja na possessão de sua esotérica para usá-las. Normalmente, é assumido que você sempre esteja com sua esotérica, mas em algumas raras circunstâncias, você pode não te-las em mãos ou ter seu equipamento removido de você.",
     "TraitDescriptionEthereal": "Criaturas etéreas são nativas do Plano Etéreo. Elas podem sobreviver aos efeitos ambientais básicos do Plano Etéreo.",
     "TraitDescriptionEvolution": "Talentos com este traço afetam seu eidolon em vez de você, normalmente concedendo a ele capacidades físicas adicionais.",
@@ -4347,7 +4427,7 @@
     "TraitDescriptionIllusion": "Efeitos e itens mágicos com este traço são associados à escola de magia de ilusão, e normalmente envolvem estímulos sensoriais falsos.",
     "TraitDescriptionImpulse": "As ações primárias mágicas que cineticistas usam são chamados de impulsos. Você só pode usar um impulso se sua aura cinética estiver ativa e canalizando esse elemento, e somente se você tiver uma mão livre para moldar o fluxo elemental. O traço impulso significa que a ação tem o traço concentração, a não ser que outra habilidade altere isso. Se um impulso permitir que você escolha um elemento, você pode escolher qualquer elemento que você está canalizando e o impulso recebe o traço daquele elemento.",
     "TraitDescriptionIncapacitation": "Uma habilidade com este traço pode tirar um personagem da luta ou até mesmo matá-lo, e é mais difícil de se usar contra um personagem mais poderoso. Se uma magia tiver o traço incapacitação, qualquer criatura que tenha nível maior do que o dobro do nível da magia trata o resultado do teste dele para impedir que seja incapacitada pela magia como um grau de sucesso melhor, ou o resultado de qualquer teste feito pelo conjurador para incapacitá-la como um grau de sucesso pior. Se qualquer outro efeito tiver o traço incapacitação, uma criatura de nível superior ao da criatura, item ou perigo gerando o efeito recebe os mesmos benefícios.",
-    "TraitDescriptionIncarnate": "Uma magia com o traço encarnado é similar em tema a magias que convocam criaturas, mas não conjura um lacaio com o traço Convocado. Ao invés disso, quando convocado, a criatura encarnada toma sua ação de Chegada quando você termina de Conjurar a Magia. No final do seu próximo turno, a criatura encarnada pode Dar um Passo, Andar, ou usar ação para outro tipo de movimento (tal qual Escalada ou Escavar), e então toma sua ação de Partida. A magia então termina. Os nomes de ações especificas de Chegada e Partida são listadas em itálico após a palavra “Chegar” ou “Partir”, respectivamente, junto com qualquer traços. Uma criatura convocada por uma magia encarnada age conforme seus interesses, direciona seus efeitos para longe de você e seus aliados conforme o possível, e pode ouvir seus pedidos, mas toma suas próprias decisões no fim das contas. Se a magia indica que o encarnado toma uma decisão, o MJ determina o que o encarnado faria. Ele pode se tornar mais propenso a fazer precisamente como você deseja ao longo de múltiplas convocações. O encarnado não é uma criatura completa. Não pode tomar outras ações, nem ser alvejado ou ferido por Golpes, magias, ou outros efeitos exceto caso possam alvejar ou terminar um efeito mágico. (tal qual dissipar magia). Tem um tamanho pelos propósitos de determinar seu posicionamento para efeitos, mas não bloqueia movimento. Se aplicável, os efeitos do encarnado usam o seu CD de magias e seu ataque mágico.",
+    "TraitDescriptionIncarnate": "Uma magia com o traço encarnado é similar em tema a magias que convocam criaturas, mas não conjura um lacaio com o traço Convocado. Ao invés disso, quando convocado, a criatura encarnada toma sua ação de Chegada quando você termina de Conjurar a Magia. No final do seu próximo turno, a criatura encarnada pode Dar um Passo, Andar, ou usar ação para outro tipo de movimento (tal qual Escalada ou Escavar), e então toma sua ação de Partida. A magia então termina. Os nomes de ações especificas de Chegada e Partida são listadas em itálico após a palavra “Chegar” ou “Partir”, respectivamente, junto com qualquer traços. Uma criatura convocada por uma magia encarnada age conforme seus interesses, direciona seus efeitos para longe de você e seus aliados conforme o possível, e pode ouvir seus pedidos, mas toma suas próprias decisões no fim das contas. Se a magia indica que o encarnado toma uma decisão, O mestre determina o que o encarnado faria. Ele pode se tornar mais propenso a fazer precisamente como você deseja ao longo de múltiplas convocações. O encarnado não é uma criatura completa. Não pode tomar outras ações, nem ser alvejado ou ferido por Golpes, magias, ou outros efeitos exceto caso possam alvejar ou terminar um efeito mágico. (tal qual dissipar magia). Tem um tamanho pelos propósitos de determinar seu posicionamento para efeitos, mas não bloqueia movimento. Se aplicável, os efeitos do encarnado usam o seu CD de magias e seu ataque mágico.",
     "TraitDescriptionIncorporeal": "Uma criatura ou objeto incorpóreo não possui forma física. Ela pode passar por objetos sólidos, incluindo paredes. Quando dentro de um objeto, uma criatura incorpórea não pode perceber, atacar ou interagir com nada fora do objeto, e se começar o seu turno dentro de um objeto, fica lento 1 até o final de seu turno. Uma criatura corpórea e outra incorpórea podem passar um pelo outro, mas não podem terminar seu movimento no espaço do outro. Uma criatura incorpórea não pode fazer testes baseados em Força contra objetos ou criaturas físicas—apenas incorpóreas—ao menos que o objeto em questão tenha a propriedade toque fantasma. Da mesma forma, uma criatura corpórea não pode fazer testes baseados em Força contra objetos ou criaturas incorpóreas. Criaturas incorpóreas geralmente são imunes a efeitos ou condições que exigem um corpo, como doença, veneno e dano de precisão. Elas normalmente tem resistência contra todo o dano (exceto dano de força, dano espiritual, dano de Golpes com uma runa de propriedade toque fantasma), sendo dobrada contra dano não-mágico.",
     "TraitDescriptionInfused": "Você criou um item alquímico com o traço infundido usando seus reagentes infundidos, e ele funciona por um tempo limitado antes de ficar inerte. Quaisquer efeitos não-permanentes de seus itens alquímicos infundidos, com a exceção de aflições como venenos de ação lenta, se encerram quando você fizer suas preparações diárias novamente.",
     "TraitDescriptionInfusion": "Ações com o traço de infusão modificam seus impulsos de cineticista. Você deve usar uma ação de infusão diretamente antes da ação de impulso que deseja alterar. Se você usar qualquer ação (incluindo ações e reações livres) que não seja uma ação de impulso diretamente depois, você desperdiça os benefícios da ação de infusão. Qualquer efeito adicional adicionado por uma ação de infusão faz parte do efeito do impulso, não da própria ação de infusão.",
@@ -4388,14 +4468,14 @@
     "TraitDescriptionMindshift": "Uma ação com este traço pode sempre ser alteradas para usar a força bruta da sua mente. Quando você toma essa ação, você pode escolher trocar qualquer dano que ela dá para dano mental, dando-lhe o traço mental, e trocando qualquer salvamento para um de Vontade. A ação perde qualquer traço que combine com os tipos de dano que não dê mais.",
     "TraitDescriptionMinion": "Lacaios são criaturas que diretamente servem outra. Uma criatura com este traço pode usar somente 2 ações por turno, não pode usar reações e não podem atuar quando não for o turno do seu personagem. Seu lacaio age no turno do seu personagem, uma vez por turno, quando você gastar uma ação para emitir comandos. Para um companheiro animal, você Comanda um Animal; para um lacaio que seja um efeito de item mágico ou magia, como um lacaio convocado, você Sustenta uma Magia ou Sustenta uma Ativação; e se não for especificado de outra forma, você emite um comando verbal, sendo uma ação única com os traços auditivo e concentração. Se não receberem comandos, por padrão seus lacaios não usam nenhuma ação a não ser para se defenderem ou escaparem de perigos óbvios. Se forem deixados sem atenção por pelo menos 1 minuto, lacaios acéfalos não agem, animais seguem seus instintos e lacaios inteligentes agem como quiserem. Um lacaio não pode controlar outras criaturas.",
     "TraitDescriptionMinotaur": "Minotauros são humanoides bovinos com chifres e um domínio sobre labirintos e quebra-cabeças.",
-    "TraitDescriptionMisfortune": "Um efeito de infortúnio altera prejudicialmente como você rola seus dados. Você nunca pode ter mais de um efeito de infortúnio alterando uma mesma rolagem. Se múltiplos efeitos de infortúnio fossem se aplicar, o MJ deve escolher qual é pior e aplicá-lo. Se um efeito de fortuna e um efeito de infortúnio se aplicarem à mesma rolagem, as duas se cancelam e você rola normalmente.",
+    "TraitDescriptionMisfortune": "Um efeito de infortúnio altera prejudicialmente como você rola seus dados. Você nunca pode ter mais de um efeito de infortúnio alterando uma mesma rolagem. Se múltiplos efeitos de infortúnio fossem se aplicar, O mestre deve escolher qual é pior e aplicá-lo. Se um efeito de fortuna e um efeito de infortúnio se aplicarem à mesma rolagem, as duas se cancelam e você rola normalmente.",
     "TraitDescriptionMissive": "A missiva é um pedaço de estação mágica que deve ser criada e composta para que possa ser ativada. Todos os mísseis têm os traços míssel e consumível. Os mísseis são muitas vezes construídos de papel, pergaminho ou veludo, mas qualquer outro fino, material portátil que pode armazenar ou incorporar sobre ele pode ser transformado em mísseis. Depois de ser elaborado, a carta é uma folha em branco até que uma mensagem seja composta, completando sua mágica.",
     "TraitDescriptionModification": "Um talento com este traço altera a construção de sua inovação. Se você tem a característica de classe Reconfigurar, você pode retreinar tais talentos mais facilmente.",
     "TraitDescriptionModular": "A arma tem múltiplas configurações das quais você pode alternar usando uma ação de Interação. Tipicamente, trocar entre as configurações de uma arma Modular permite que ela dê diferentes tipos de dano (listados no traço, como \"modular B, P, ou S\"), embora é possível que a descrição da arma liste configurações mais complexas.",
     "TraitDescriptionMonitor": "Criaturas que se originam ou têm uma forte conexão com Axis, o Cemitério das Almas ou o Maelstrom são chamadas de monitores. Monitores podem sobreviver aos efeitos ambientais básicos dos planos na Esfera Exterior.",
     "TraitDescriptionMonk": "Esse traço indica habilidades da classe monge ou armas que são primariamente utilizadas por monges.",
     "TraitDescriptionMonkWeapon": "Muitos monges aprendem a usar estar armas.",
-    "TraitDescriptionMorph": "Efeitos que alteram levemente a forma de uma criatura possuem o traço morfia. Quaisquer Golpes especificamente concedidos por um efeito de morfia são mágicos. Você pode ser afetado por múltiplos efeitos de morfia ao mesmo tempo, mas se morfar a mesma parte do corpo mais de uma vez, o segundo efeito de morfia tenta neutralizar o primeiro (da mesma maneira que dois efeitos de polimorfia, descrito no traço). Seus efeitos de morfia tendem a acabar se você estiver polimorfado e o efeito de polimorfia invalidar ou sobrepuser seu efeito de morfia. O MJ determina quais efeitos de morfia podem ser utilizados juntos e quais não.",
+    "TraitDescriptionMorph": "Efeitos que alteram levemente a forma de uma criatura possuem o traço morfia. Quaisquer Golpes especificamente concedidos por um efeito de morfia são mágicos. Você pode ser afetado por múltiplos efeitos de morfia ao mesmo tempo, mas se morfar a mesma parte do corpo mais de uma vez, o segundo efeito de morfia tenta neutralizar o primeiro (da mesma maneira que dois efeitos de polimorfia, descrito no traço). Seus efeitos de morfia tendem a acabar se você estiver polimorfado e o efeito de polimorfia invalidar ou sobrepuser seu efeito de morfia. O mestre determina quais efeitos de morfia podem ser utilizados juntos e quais não.",
     "TraitDescriptionMounted": "Armas de cerco montadas ocupam um certo tamanho e espaço, e tipicamente têm estatísticas para permitir que sejam atacadas. Eles são usados para guerra em grande escala.",
     "TraitDescriptionMove": "Uma ação com este traço envolve mover-se de um espaço para outro.",
     "TraitDescriptionMulticlass": "Arquétipos com o traço multiclasse representam diversificar seu treinamento aprofundando-se nas especialidades de outra classe. Você não pode selecionar um talento de dedicação de arquétipo de multiclasse se for membro da classe de mesmo nome.",
@@ -4413,7 +4493,7 @@
     "TraitDescriptionOath": "Juramentos adicionam novos princípios ao seu código. Normalmente, você só pode ter um talento com esse traço.",
     "TraitDescriptionOccult": "Esta magia vem da tradição oculta, invocando mistérios bizarros e efêmeros. Qualquer coisa com este traço é mágica. Uma criatura com este traço é principalmente constituída ou tem uma forte conexão com a magia oculta.",
     "TraitDescriptionOil": "Óleos são géis, pastas, pomadas ou unguentos mágicos que normalmente são aplicados a um objeto e consumidos no processo.",
-    "TraitDescriptionOlfactory": "Um efeito olfativo apenas pode afetar criaturas que possam farejá-lo. Isso se aplica apenas para as partes olfativas do efeito, conforme determinado pelo MJ.",
+    "TraitDescriptionOlfactory": "Um efeito olfativo apenas pode afetar criaturas que possam farejá-lo. Isso se aplica apenas para as partes olfativas do efeito, conforme determinado pelo mestre.",
     "TraitDescriptionOni": "Oni são uma família de gigantes brutais e metamorfos que outrora foram kami.",
     "TraitDescriptionOoze": "Limos são criaturas com anatomias simples. Elas tendem a ter modificadores baixos de atributos mentais e imunidade a efeitos mentais e dano de precisão.",
     "TraitDescriptionOracle": "Esse traço indica habilidades da classe oráculo.",
@@ -4434,11 +4514,11 @@
     "TraitDescriptionPhantom": "Um fantasma é uma alma que se desviou do Rio das Almas no Plano Etéreo antes de ser julgada. Eles geralmente retêm memórias de sua vida antes da morte, mas não são mortos-vivos.",
     "TraitDescriptionPlant": "Criaturas vegetais tem o traço Planta. Eles são distintos de plantas convencionais. Efeitos mágicos com este traço manipulam ou conjuram plantas, ou matéria vegetal de alguma forma. Aqueles que manipulam plantas não tem efeito em uma área sem elas.",
     "TraitDescriptionPoison": "Um efeito com este traço transmite um veneno ou causa dano de veneno. Um item com este traço é venenoso e pode causar uma aflição.",
-    "TraitDescriptionPolymorph": "Estes efeitos transformam o alvo em uma nova forma. Um alvo não pode estar sob o efeito de mais de um efeito de polimorfia por vez. Se ficar sob o efeito de um segundo efeito de polimorfia, o segundo efeito de polimorfia tenta neutralizar o primeiro. Se for bem-sucedido, ele surte efeito; se falhar, a magia não surte efeito no alvo. Quaisquer Golpes especificamente concedidos por um efeito de polimorfia são mágicos. Exceto se especificado o contrário, magias de polimorfia não permitem que o alvo assuma a aparência de um indivíduo específico, somente uma criatura genérica de um tipo ou ancestralidade em geral. Você pode assumir uma forma de batalha com uma magia de polimorfia, e suas estatísticas especiais pode ser ajustadas somente por bônus de circunstância, bônus de estado e penalidades. Exceto se especificado o contrário, a forma de batalha impede que você conjure magias, fale e use a maioria das ações de manuseio que requerem mãos. (Se houver dúvidas se você pode usar uma ação, a decisão cabe ao MJ.) Seus equipamentos são absorvidos pelo seu corpo; as habilidades constantes de seus equipamentos ainda funcionam, mas você não pode ativar quaisquer itens.",
+    "TraitDescriptionPolymorph": "Estes efeitos transformam o alvo em uma nova forma. Um alvo não pode estar sob o efeito de mais de um efeito de polimorfia por vez. Se ficar sob o efeito de um segundo efeito de polimorfia, o segundo efeito de polimorfia tenta neutralizar o primeiro. Se for bem-sucedido, ele surte efeito; se falhar, a magia não surte efeito no alvo. Quaisquer Golpes especificamente concedidos por um efeito de polimorfia são mágicos. Exceto se especificado o contrário, magias de polimorfia não permitem que o alvo assuma a aparência de um indivíduo específico, somente uma criatura genérica de um tipo ou ancestralidade em geral. Você pode assumir uma forma de batalha com uma magia de polimorfia, e suas estatísticas especiais pode ser ajustadas somente por bônus de circunstância, bônus de estado e penalidades. Exceto se especificado o contrário, a forma de batalha impede que você conjure magias, fale e use a maioria das ações de manuseio que requerem mãos. (Se houver dúvidas se você pode usar uma ação, a decisão cabe ao mestre.) Seus equipamentos são absorvidos pelo seu corpo; as habilidades constantes de seus equipamentos ainda funcionam, mas você não pode ativar quaisquer itens.",
     "TraitDescriptionPonderous": "A armadura tem partes móveis ou outras complicações que alongam o tempo inicial de reação do portador. Ao usar a armadura, você recebe uma penalidade -1 para testes de iniciativa. Se você não cumprir a pontuação de Força requerida pela armadura, essa penalidade aumenta para ser igual à penalidade de teste da armadura, se este for pior.",
     "TraitDescriptionPoppet": "Uma criatura com este traço é membro da ancestralidade Poppet.",
     "TraitDescriptionPortable": "Armas de cerco portáteis, tais quais aríetes, podem ser mais facilmente carregados e tem um papel tanto bélico quanto em conflitos menores e exploração.",
-    "TraitDescriptionPossession": "Efeitos com este traço permitem uma criatura projetar a mente e espírito dela em um alvo. Uma criatura imune a efeitos mentais não pode usar um efeito de possessão. Enquanto possuir um alvo, o corpo verdadeiro do possuidor fica inconsciente (e não pode ser despertado normalmente), a menos que o efeito de possessão permita a criatura entrar fisicamente no alvo. Sempre que o alvo sofrer dano, o possuidor sofre metade dessa quantidade de dano como dano mental. Um possuidor perde os benefícios de quaisquer magias ou habilidades ativas que estiverem afetando o corpo físico dele, mas recebe os benefícios das magias e habilidades ativas do alvo que estiverem afetando seu corpo. Um possuidor pode usar quaisquer das habilidades do alvo que sejam puramente físicas, mas não pode usar quaisquer de suas próprias habilidades exceto por magias e habilidades puramente mentais. O MJ decide se uma habilidade é puramente física ou puramente mental. Um possuidor utiliza o modificador de ataque, CA, salvamento de Fortitude, salvamento de Reflexos, Percepção e perícias físicas do alvo, enquanto utiliza seu próprio salvamento de Vontade, perícias mentais, ataque de magia e CD de magia; benefícios de itens investidos se aplicam quando relevantes (os itens investidos do possuidor se aplicam quando ele utilizar seus próprios valores, e os itens investidos do alvo se aplicam quando forem utilizados os valores do alvo). Um possuidor não recebe qualquer benefício por conjurar magias que normalmente afetam somente o conjurador, já que ele não está em seu próprio corpo. O possuidor deve usar suas próprias ações para fazer a criatura possuída agir. Se um possuidor chegar a 0 Pontos de Vida através de qualquer combinação de dano ao corpo verdadeiro dele e ao dano mental sofrido durante a possessão, ele é nocauteado normalmente e a possessão é imediatamente encerrada. Se o alvo alcançar 0 Pontos de Vida primeiro, o possuidor pode ficar inconsciente com o corpo e continuar a possessão ou encerrar o efeito como uma ação livre e retornar para seu próprio corpo. Se o alvo morrer, a possessão é encerrada imediatamente e o possuidor fica atordoado por 1 minuto.",
+    "TraitDescriptionPossession": "Efeitos com este traço permitem uma criatura projetar a mente e espírito dela em um alvo. Uma criatura imune a efeitos mentais não pode usar um efeito de possessão. Enquanto possuir um alvo, o corpo verdadeiro do possuidor fica inconsciente (e não pode ser despertado normalmente), a menos que o efeito de possessão permita a criatura entrar fisicamente no alvo. Sempre que o alvo sofrer dano, o possuidor sofre metade dessa quantidade de dano como dano mental. Um possuidor perde os benefícios de quaisquer magias ou habilidades ativas que estiverem afetando o corpo físico dele, mas recebe os benefícios das magias e habilidades ativas do alvo que estiverem afetando seu corpo. Um possuidor pode usar quaisquer das habilidades do alvo que sejam puramente físicas, mas não pode usar quaisquer de suas próprias habilidades exceto por magias e habilidades puramente mentais. O mestre decide se uma habilidade é puramente física ou puramente mental. Um possuidor utiliza o modificador de ataque, CA, salvamento de Fortitude, salvamento de Reflexos, Percepção e perícias físicas do alvo, enquanto utiliza seu próprio salvamento de Vontade, perícias mentais, ataque de magia e CD de magia; benefícios de itens investidos se aplicam quando relevantes (os itens investidos do possuidor se aplicam quando ele utilizar seus próprios valores, e os itens investidos do alvo se aplicam quando forem utilizados os valores do alvo). Um possuidor não recebe qualquer benefício por conjurar magias que normalmente afetam somente o conjurador, já que ele não está em seu próprio corpo. O possuidor deve usar suas próprias ações para fazer a criatura possuída agir. Se um possuidor chegar a 0 Pontos de Vida através de qualquer combinação de dano ao corpo verdadeiro dele e ao dano mental sofrido durante a possessão, ele é nocauteado normalmente e a possessão é imediatamente encerrada. Se o alvo alcançar 0 Pontos de Vida primeiro, o possuidor pode ficar inconsciente com o corpo e continuar a possessão ou encerrar o efeito como uma ação livre e retornar para seu próprio corpo. Se o alvo morrer, a possessão é encerrada imediatamente e o possuidor fica atordoado por 1 minuto.",
     "TraitDescriptionPotion": "Um poção é um líquido mágico ativado quando bebido.",
     "TraitDescriptionPrecious": "Materiais valiosos com propriedades especiais possuem o traço precioso. Eles podem ser substituídos por materiais base quando você Manufaturar itens.",
     "TraitDescriptionPrediction": "Efeitos com este traço terminam o que é provável de acontecer no futuro próximo. A maioria das predições são adivinhações.",
@@ -4457,7 +4537,7 @@
     "TraitDescriptionRange": "Esses ataques mencionarão um alcance finito ou um incremento de alcance, funcionando com as regras normais de incremento de alcance.",
     "TraitDescriptionRangedTrip": "Essa arma pode ser utilizada para Derrubar com a perícia de Atletismo a uma distância até seu primeiro incremento de alcance. O teste de perícia tem uma penalidade de circunstância de -2. Você pode adicionar o bônus de acerto da arma, se houver, como um bônus no teste. Assim como quando se utiliza uma arma corpo-a-corpo para derrubar, uma arma com essa propriedade não causa nenhum dano ao Derrubar. Esse traço geralmente só aparece em armas de arremesso.",
     "TraitDescriptionRanger": "Esse traço indica habilidades da classe patrulheiro.",
-    "TraitDescriptionRare": "Esta raridade indica que um elemento de regra é muito difícil de encontrar no mundo de jogo. Uma habilidade, item ou magia rara é disponível para jogadores somente se o MJ decidir inclui-lo no jogo, normalmente através de descoberta durante o jogo. Criaturas com este traço são raras, normalmente elas não podem ser convocadas. A CD dos testes de Recordar Conhecimento relacionada a essas criaturas é aumentada em 5.",
+    "TraitDescriptionRare": "Esta raridade indica que um elemento de regra é muito difícil de encontrar no mundo de jogo. Uma habilidade, item ou magia rara é disponível para jogadores somente se O mestre decidir inclui-lo no jogo, normalmente através de descoberta durante o jogo. Criaturas com este traço são raras, normalmente elas não podem ser convocadas. A CD dos testes de Recordar Conhecimento relacionada a essas criaturas é aumentada em 5.",
     "TraitDescriptionRatfolk": "Uma criatura com este traço é membro da ancestralidade povo-rato. Povo-ratos são humanoides que se assemelham a ratos.",
     "TraitDescriptionRazing": "Armas espessas são particularmente boas para objetos e estruturas e veículos danificados. Sempre que você causar dano a um objeto (incluindo escudos e objetos animados), estrutura ou veículo com uma arma arrecadada, o objeto pega uma quantidade adicional de dano igual a dobrar o número de danos causados pela arma.",
     "TraitDescriptionReach": "Ataques naturais com este traço podem ser usados para atacar criaturas até a distância listada ao invés de apenas criaturas adjacentes. Armas com este traço são longas e pode ser usada para atacar criaturas a até 10 pés em vez de apenas criaturas adjacentes. Para criaturas que já possuem alcance com o membro ou membros que empunham a arma, a arma aumenta o alcance delas em 5 pés",
@@ -4466,7 +4546,7 @@
     "TraitDescriptionReincarnated": "Este talento de ancestralidade está disponível para qualquer personagem que tenha reencarnado pelo menos uma vez, seja como parte de sua história de biografia ou por causa de uma reencarnação que ocorreu durante o jogo.",
     "TraitDescriptionReflection": "Uma criatura com este traço tem a herança versátil Reflexo. Reflexos são seres copias de pessoas vivas, seja por clonagem, duplicação planar, ou outro mecanismo. Uma habilidade com este traço pode ser usada e selecionada somente por Reflexos.",
     "TraitDescriptionRelic": "Um item com o traço relíquia cresce em poder com seu portador.",
-    "TraitDescriptionReload": "Embora todas as armas precisem de algum tempo para ficarem prontas, muitas armas à distância também precisam ser carregadas e recarregadas. Esta seção indica quantas ações de Interagir levam para recarregar essas armas. Isto pode ser 0 se sacar uma munição e disparar a arma forem parte da mesma ação. Se um item precisar de 2 ou mais ações para recarregar, o MJ determina se elas devem ser feitas juntas como uma atividade ou se você pode gastar algumas destas ações durante um turno e o resto durante seu próximo turno.",
+    "TraitDescriptionReload": "Embora todas as armas precisem de algum tempo para ficarem prontas, muitas armas à distância também precisam ser carregadas e recarregadas. Esta seção indica quantas ações de Interagir levam para recarregar essas armas. Isto pode ser 0 se sacar uma munição e disparar a arma forem parte da mesma ação. Se um item precisar de 2 ou mais ações para recarregar, O mestre determina se elas devem ser feitas juntas como uma atividade ou se você pode gastar algumas destas ações durante um turno e o resto durante seu próximo turno.",
     "TraitDescriptionRepeating": "A repeating weapon is typically a type of crossbow that has a shorter reload time. These weapons can’t be loaded with individual bolts like other crossbows; instead, they require a magazine of specialized ammunition to be loaded into a special slot. Once that magazine is in place, the ammunition is automatically loaded each time the weapon is cocked to fire, reducing its reload to the value in its reload entry (typically 0). When the ammunition runs out, a new magazine must be loaded, which requires a free hand and 3 Interact actions (to remove the old magazine, retrieve the new magazine, and slot the new magazine in place). These actions don’t need to be consecutive.",
     "TraitDescriptionResonant": "Essa arma pode canalizar dano de energia. Você ganha a ação livre Conduzir Energia enquanto empunha uma arma ressonante.",
     "TraitDescriptionRevelation": "Efeitos com este traço veem coisas como elas realmente são.",
@@ -4476,11 +4556,10 @@
     "TraitDescriptionScatter": "Essa arma atira um aglomerado de pelotas em um amplo spray. Dispersar sempre tem uma área listada com ela, indicando o raio do spray. No acerto, o alvo primário dos ataques com armas Dispersar tomam o dano listado, e o alvo e todas outras criaturas em volta dele no raio listado tomam 1 ponto de dano em área por dado de dano da arma.",
     "TraitDescriptionScroll": "Um pergaminho contém uma única magia que você pode conjurar sem usar um espaço de magia.",
     "TraitDescriptionScrying": "Um efeito de vidência lhe permite ver, ouvir ou de alguma forma obter informações sensoriais à distância utilizando um sensor ou aparato em vez de seus próprios olhos e orelhas.",
-    "TraitDescriptionSecret": "O MJ faz essa rolagem em segredo.",
+    "TraitDescriptionSecret": "O mestre faz essa rolagem em segredo.",
     "TraitDescriptionSedacthy": "Humanoides que habitam o oceano e se comunicam com a vida marinha, geralmente possuem visão no escuro e sentido das ondas.",
     "TraitDescriptionSerpentfolk": "Povo-serpente é uma família de humanoides serpentinos.",
     "TraitDescriptionShadow": "Esta magia envolve sombras ou a energia do Plano das Sombras.",
-    "TraitDescriptionShieldThrow": "Um escudo com este traço foi projetado para ser jogado como um ataque à distância.",
     "TraitDescriptionShisk": "Humanoides reservados e secretos, cobertos de plumas ossudas e que residem no subsolo.",
     "TraitDescriptionShoony": "Uma criatura com este traço é membro da ancestralidade shoony.",
     "TraitDescriptionShove": "Você pode usar esta arma para Empurrar com a perícia Atletismo mesmo se não tiver uma mão livre. Isto utiliza o alcance da arma (se for diferente do seu) e adiciona o bônus de item dela que é aplicado a rolagens de ataque (se houver) como um bônus de item aplicado ao seu teste de Atletismo. Se obtiver uma falha crítica no teste para Empurrar enquanto usar essa arma, você pode escolher soltá-la para sofrer os efeitos de uma falha em vez dos efeitos de uma falha crítica.",
@@ -4508,7 +4587,7 @@
     "TraitDescriptionSuli": "Sulis são herdeiros planares descendentes de jann.",
     "TraitDescriptionSurki": "Surkis são uma ancestralidade subterrânea insetoide que absorve magia ambiente e evolui adaptações únicas.",
     "TraitDescriptionSummon": "Magias com o traço convocação podem conjurar criaturas, tipicamente aquelas com um traço específico. Tais criaturas podem ser encontradas no Monster Core e livros similares. A menos que seja notado, a criatura deve ser comum, ela recebe o traço convocado e deve aparecer em um espaço desocupado no alcance grande o suficiente para contê-la. O maior nível da criatura que a magia pode convocar depende do círculo da magia, como listado abaixo. A magia ainda pode convocar uma criatura de nível inferior se assim quiser. Estas regras se aplicam apenas à magias que têm o traço convocação; outras magias que chamam ou conjuram itens ou seres mas que não têm o traço, como convocar instrumento, funcionam como explicado na magia.",
-    "TraitDescriptionSummoned": "Uma criatura chamada por meio de uma magia ou efeito adquire o traço convocado. Uma criatura convocada não pode convocar outra criatura, criar coisas de valor ou conjurar magias que requerem um custo. Ela possui o traço lacaio. Se tentar Conjurar uma Magia de nível igual ou maior do que a magia que a convocou, a magia falha e a convocação termina. Fora isso, a criatura convocada usa as habilidades padrão para uma criatura do tipo dela. Ela geralmente ataca seus inimigos com o melhor das habilidades à disposição dela. Se puder se comunicar com a criatura, você pode tentar comandá-la, mas o MJ determina até que ponto ela segue seus comandos. Imediatamente após você terminar de Conjurar a Magia, a criatura convocada usa suas 2 ações daquele turno. Uma cria ou outra criatura gerada pela criatura convocada retorna para o seu estado inalterado (geralmente um cadáver no caso de uma Cria) a partir do momento que a criatura convocada desaparecer. Caso este estado seja incerto, o MJ fica com a decisão. Criaturas convocadas podem ser banidas por diversas magias e efeitos. Elas são banidas automaticamente se reduzidas a 0 Pontos de Vida ou se a magia que as convocou se encerrar.",
+    "TraitDescriptionSummoned": "Uma criatura chamada por meio de uma magia ou efeito adquire o traço convocado. Uma criatura convocada não pode convocar outra criatura, criar coisas de valor ou conjurar magias que requerem um custo. Ela possui o traço lacaio. Se tentar Conjurar uma Magia de nível igual ou maior do que a magia que a convocou, a magia falha e a convocação termina. Fora isso, a criatura convocada usa as habilidades padrão para uma criatura do tipo dela. Ela geralmente ataca seus inimigos com o melhor das habilidades à disposição dela. Se puder se comunicar com a criatura, você pode tentar comandá-la, mas O mestre determina até que ponto ela segue seus comandos. Imediatamente após você terminar de Conjurar a Magia, a criatura convocada usa suas 2 ações daquele turno. Uma cria ou outra criatura gerada pela criatura convocada retorna para o seu estado inalterado (geralmente um cadáver no caso de uma Cria) a partir do momento que a criatura convocada desaparecer. Caso este estado seja incerto, O mestre fica com a decisão. Criaturas convocadas podem ser banidas por diversas magias e efeitos. Elas são banidas automaticamente se reduzidas a 0 Pontos de Vida ou se a magia que as convocou se encerrar.",
     "TraitDescriptionSummoner": "Isso indica habilidades da classe Invocador.",
     "TraitDescriptionSwashbuckler": "Esse traço indica habilidades da classe Espadachim.",
     "TraitDescriptionSwarm": "Um enxame é uma massa ou nuvem de criaturas que funciona como um único monstro. A entrada de tamanho indica o tamanho da massa inteira, embora para a maioria dos enxames as criaturas individuais que compõem essa massa sejam Minúsculas. Um enxame pode ocupar o mesmo espaço que outras criaturas e deve fazê-lo para usar sua ação de dano. Um enxame geralmente tem fraqueza a efeitos que causam dano em uma área (como magias de área e armas de respingo). Enxames são imunes às condições de agarrado, prostrado e restringido.",
@@ -4521,7 +4600,6 @@
     "TraitDescriptionTattoo": "Uma tatuagem é um tipo de item que é cortada ou desenhada na pele de uma criatura, normalmente formando imagens ou símbolos.",
     "TraitDescriptionTea": "<p>Chá mágico é um tipo de poção. Ele é ativado quando você bebe, que o usa. O chá mágico tem os traços poção e chá. Quando você fabrica uma dose de chá mágico, os materiais que você fornece têm a forma de folhas de chá excepcionais e caras. O processo de criação de chá mágico inclui infundir as folhas com reagentes mágicos, purificando a água e macerando o chá na água, resultando no que, essencialmente, é uma poção particularmente saborosa. Você pode ativar o chá mágico com uma ação de Interagir conforme a bebe ou faz outra criatura bebê-la, como se fosse uma poção. Você também pode ativar o chá mágico com uma atividade de 10 minutos que requer o uso de chá esterlino (as ferramentas destes artesãos podem ser compartilhadas por até quatro pessoas que realizam esta atividade simultaneamente) para preparar o chá e consumi-lo ou apresentar a alguém durante uma breve cerimônia de chá, após a qual os efeitos do chá mágico começam; ativar o chá mágico desta forma aumenta seu efeito, conforme detalhado em cada registro de Cerimônia de Chá.</p><p>Uma vez que você beber uma dose de chá mágica, você estará temporariamente imune a esse tipo específico de chá mágico por 24 horas.</p>",
     "TraitDescriptionTearing": "Esta arma tem bordas com dentes curvados que deixam feridas abertas. Quando você acerta uma criatura com essa arma, ela causa 1 dano persistente de sangramentp adicional. Isso aumenta para 2 dano de sangramento persistente se a arma tiver uma runa de golpe maior.",
-    "TraitDescriptionTech": "Itens com este traço estão associados à tecnologia de Numeria.",
     "TraitDescriptionTelepathy": "Uma criatura com telepatia é capaz de se comunicar mentalmente com criaturas. Isto não concede qualquer acesso especial aos pensamentos delas e não permite comunicar mais informações que fala convencional.",
     "TraitDescriptionTeleportation": "Efeitos de teleportação permitem você se mover instantaneamente de um local para outro. Teleportação normalmente não aciona reações baseadas em movimento.",
     "TraitDescriptionTengu": "Uma criatura com este traço é membro da ancestralidade tengu. Tengus são humanoides que se assemelham a corvos. Uma habilidade com este traço pode ser usada apenas pelo tengus. Um item com esta característica é criado e usado pelo tengus.",
@@ -4536,7 +4614,7 @@
     "TraitDescriptionTwin": "Estas armas são usadas em pares, complementando uma à outra. Quando atacar com uma arma gêmea, você adiciona um bônus de circunstância à rolagem de dano igual à quantidade de dados de dano da arma se já tiver atacado com uma arma diferente desse mesmo tipo neste turno. As armas devem ser do mesmo tipo para se beneficiarem deste traço, mas não precisam possuir as mesmas runas.",
     "TraitDescriptionTwoHand": "Esta arma pode ser empunhada com duas mãos. Fazer isto muda o dado de dano da arma para o valor indicado. Esta mudança se aplica a todos os dados de dano da arma, assim como os dados de runas impactantes.",
     "TraitDescriptionUnarmed": "Um ataque desarmado utiliza seu corpo em vez de uma arma manufaturada. Um ataque desarmado não é uma arma — embora seja categorizado com armas em grupos de armas e possa ter traços de armas. Como é parte de seu corpo, um ataque desarmado não pode sofrer Desarmar. Ele também não ocupa uma mão, embora um punho ou outro apêndice similar siga as mesmas regras que uma arma de mão livre.",
-    "TraitDescriptionUncommon": "Algo de raridade incomum requer treinamento especial ou pertence a uma cultura ou parte do mundo em particular. Algumas escolhas de personagem dão acesso a opções incomuns e o MJ pode escolher conceder acesso para qualquer um. Menos é conhecido a cerca de criaturas incomuns do que de criaturas comuns. Geralmente elas não podem ser convocadas. A CD dos testes de Recordar Conhecimento relacionada a essas criaturas é aumentado em 2.",
+    "TraitDescriptionUncommon": "Algo de raridade incomum requer treinamento especial ou pertence a uma cultura ou parte do mundo em particular. Algumas escolhas de personagem dão acesso a opções incomuns e O mestre pode escolher conceder acesso para qualquer um. Menos é conhecido a cerca de criaturas incomuns do que de criaturas comuns. Geralmente elas não podem ser convocadas. A CD dos testes de Recordar Conhecimento relacionada a essas criaturas é aumentado em 2.",
     "TraitDescriptionUndead": "Uma vez vivas, essas criaturas foram infundidas após a morte com energia do vazio e magia profana que corrompe a alma. Quando reduzido a 0 Pontos de Vida, uma criatura morta-viva é destruída. Criaturas mortas-vivas são danificadas pela energia de vitalidade, curadas pela energia do vazio, e não se beneficiam de efeitos de cura de vitalidade.",
     "TraitDescriptionUndine": "Um tipo de povo-gênio descendente de um ser do Pano da Água.",
     "TraitDescriptionUnholy": "Os efeitos com o traço profano estão ligados a poderosas forças mágicas de crueldade e pecado. Frequentemente, eles têm efeitos mais fortes em criaturas sagradas. Criaturas com este traço são fortemente devotadas a causas profanas e muitas vezes têm fraqueza para sagrado. Se uma criatura com fraqueza para profano usar um item ou efeito profano, ela sofre dano por sua fraqueza.",
@@ -4549,7 +4627,7 @@
     "TraitDescriptionVersatile": "Uma arma versátil pode ser usada para causar um tipo diferente de dano do listado na seção de Dano. Este traço indica o tipo de dano alternativo. Por exemplo, uma arma perfurante que é versátil Ct pode ser usada para causar dano perfurante ou cortante. Você escolhe o tipo de dano a cada ataque que fizer.",
     "TraitDescriptionVirulent": "Aflições com o traço virulento são mais difíceis de remover. Você deve obter sucesso em dois salvamentos consecutivos para reduzir em 1 passo o estágio de uma aflição virulenta. Um sucesso crítico reduz o estágio de uma aflição virulenta somente em 1 passo, em vez de reduzi-lo em 2 passos.",
     "TraitDescriptionVishkanya": "Uma ancestralidade com características serpentinosas e veneno poderoso.",
-    "TraitDescriptionVisual": "Um efeito visual pode afetar somente criaturas capazes de vê-lo. Isto se aplica somente a partes visíveis do efeitos, conforme determinado pelo MJ.",
+    "TraitDescriptionVisual": "Um efeito visual pode afetar somente criaturas capazes de vê-lo. Isto se aplica somente a partes visíveis do efeitos, conforme determinado pelo mestre.",
     "TraitDescriptionVitality": "Efeitos com este traço curam criaturas vivas com energia da Forja da Criação, causam dano de energia vital a mortos-vivos ou manipulam energia vital.",
     "TraitDescriptionVoid": "Efeitos com este traço curam criaturas mortas-vivas com energia do vazio, causam dano de vazio a criaturas vivas ou manipulam energia do vazio.",
     "TraitDescriptionVolley": "Esta arma à distância é menos efetivo a curta distância. Seus ataques contra alvos dentro da distância listada sofrem -2 de penalidade.",
@@ -4577,7 +4655,7 @@
     "TraitDoubleBarrel": "Barril Duplo",
     "TraitDowntime": "Recesso",
     "TraitDragon": "Dragão",
-    "TraitDragonblood": "Draconato",
+    "TraitDragonblood": "Sangue Dracônico",
     "TraitDream": "Sonho",
     "TraitDromaar": "Dromaar",
     "TraitDrow": "Drow",
@@ -4620,7 +4698,7 @@
     "TraitEtchedOntoMedHeavyArmor": "Entalhado em Armadura Média ou Pesada",
     "TraitEtchedOntoMediumHeavyMetalArmor": "Gravado em Armadura de metal Média ou Pesada",
     "TraitEtchedOntoMetalArmor": "Entalhado em Armadura de Metal",
-    "TraitEthereal": "Etérea",
+    "TraitEthereal": "Etéreo",
     "TraitEvolution": "Evolução",
     "TraitExpandable": "Expansível",
     "TraitExemplar": "Exemplar",
@@ -4652,7 +4730,6 @@
     "TraitFoldaway": "Dobrável",
     "TraitForce": "Força",
     "TraitForceful": "Enérgica",
-    "TraitFormian": "Formian",
     "TraitFortune": "Fortuna",
     "TraitFreeHand": "Mão Livre",
     "TraitFulu": "Fulu",
@@ -4661,11 +4738,8 @@
     "TraitGanzi": "Ganzi",
     "TraitGeneral": "Geral",
     "TraitGenie": "Gênio",
-    "TraitGeniekin": "Geniekin",
-    "TraitGhoran": "Ghoran",
     "TraitGhost": "Fantasma",
     "TraitGhoul": "Carniçal",
-    "TraitGhul": "Ghul",
     "TraitGiant": "Gigante",
     "TraitGnoll": "Kholo",
     "TraitGnome": "Gnomo",
@@ -4677,14 +4751,13 @@
     "TraitGraveknight": "Cavaleiro do Túmulo",
     "TraitGremlin": "Gremlin",
     "TraitGrimoire": "Grimório",
-    "TraitGrioth": "Grioth",
     "TraitGrippli": "Grippli",
+    "TraitGuardian": "Guardião",
     "TraitGunslinger": "Pistoleiro",
     "TraitHag": "Estriga",
     "TraitHalcyon": "Idílico",
     "TraitHalfling": "Halfling",
     "TraitHampering": "Dificultoso",
-    "TraitHantu": "Hantu",
     "TraitHarnessed": "Arreado",
     "TraitHarrowCourt": "Corte do Tormento",
     "TraitHaunt": "Assombração",
@@ -4697,14 +4770,12 @@
     "TraitHerald": "Arauto",
     "TraitHeritage": "Herança",
     "TraitHex": "Sortilégio",
-    "TraitHindering": "Hindering",
     "TraitHobgoblin": "Hobgoblin",
     "TraitHoly": "Sagrado",
     "TraitHryngar": "Hryngar",
     "TraitHuman": "Humano",
     "TraitHumanoid": "Humanoide",
     "TraitIfrit": "Ifrit",
-    "TraitIkeshti": "Ikeshti",
     "TraitIkon": "Ikone",
     "TraitIllusion": "Ilusão",
     "TraitImplanted": "Implantado",
@@ -4742,18 +4813,15 @@
     "TraitKingdom": "Reino",
     "TraitKitsune": "Kitsune",
     "TraitKobold": "Kobold",
-    "TraitKovintus": "Kovintus",
     "TraitLaminar": "Laminada",
     "TraitLaunching": "Lançamento",
     "TraitLeshy": "Leshy",
-    "TraitLight": "Leve",
-    "TraitLilu": "Lilu",
+    "TraitLight": "Luz",
     "TraitLineage": "Linhagem",
     "TraitLinguistic": "Linguístico",
     "TraitLitany": "Litania",
     "TraitLizardfolk": "Povo-Lagarto",
     "TraitLocathah": "Athamaru",
-    "TraitLozenge": "Lozenge",
     "TraitMagic": "Magia",
     "TraitMagical": "Mágico",
     "TraitMagus": "Magus",
@@ -4763,7 +4831,6 @@
     "TraitMerfolk": "Povo-Sereia",
     "TraitMetal": "Metal",
     "TraitMindless": "Acéfalo",
-    "TraitMindshift": "Mindshift",
     "TraitMinion": "Lacaio",
     "TraitMinotaur": "Minotauro",
     "TraitMisfortune": "Infortúnio",
@@ -4773,21 +4840,16 @@
     "TraitModular": "Modular Cn, Pf, ou Ct",
     "TraitMonitor": "Monitor",
     "TraitMonk": "Monge",
-    "TraitMorlock": "Morlock",
     "TraitMorph": "Morfia",
-    "TraitMortic": "Mortic",
     "TraitMounted": "Montado",
     "TraitMove": "Movimento",
     "TraitMulticlass": "Multiclasse",
     "TraitMummy": "Múmia",
-    "TraitMunavri": "Munavri",
     "TraitMutagen": "Mutagênico",
     "TraitMutant": "Mutante",
     "TraitMythic": "Mítico",
-    "TraitNaari": "Naari",
     "TraitNagaji": "Nagaji",
     "TraitNephilim": "Nefilim",
-    "TraitNindoru": "Nindoru",
     "TraitNoisy": "Barulhenta",
     "TraitNonlethal": "Não-letal",
     "TraitNymph": "Ninfa",
@@ -4802,8 +4864,6 @@
     "TraitOread": "Oread",
     "TraitOther": "Outro",
     "TraitOverflow": "Transbordamento",
-    "TraitPaaridar": "Paaridar",
-    "TraitPalinthanos": "Palinthanos",
     "TraitParry": "Aparar",
     "TraitPersonaFlirt": "Persona: Paquerador(a)",
     "TraitPersonaGuardian": "Persona: Guardião(ã)",
@@ -4815,7 +4875,6 @@
     "TraitPersonaWildcard": "Persona: Coringa",
     "TraitPervasiveMagic": "Magia Pervasiva",
     "TraitPetitioner": "Peticionário",
-    "TraitPhantom": "Phantom",
     "TraitPhysical": "Físico",
     "TraitPiercing": "Perfurante",
     "TraitPlant": "Planta",
@@ -4917,7 +4976,6 @@
     "TraitRangedTrip": "Derrubar à Distância",
     "TraitRanger": "Patrulheiro",
     "TraitRare": "Raro",
-    "TraitRatajin": "Ratajin",
     "TraitRatfolk": "Povo-Rato",
     "TraitRazing": "Rasgando",
     "TraitReach": "Alcance",
@@ -4945,12 +5003,12 @@
     "TraitReload1Min": "Recarga 1 min",
     "TraitReload2": "Recarga 2",
     "TraitRepeating": "Repetição",
+    "TraitResilient1": "Resiliente +1",
+    "TraitResilient2": "Resiliente +2",
+    "TraitResilient3": "Resiliente +3",
     "TraitResonant": "Ressonante",
     "TraitRevelation": "Revelação",
     "TraitRogue": "Ladino",
-    "TraitSaggorak": "Saggorak",
-    "TraitSahkil": "Sahkil",
-    "TraitSamsaran": "Samsaran",
     "TraitSanctified": "Santificado",
     "TraitScatter": "Dispersar",
     "TraitScatter10": "Dispersar 10",
@@ -4961,23 +5019,16 @@
     "TraitScrying": "Vidência",
     "TraitSeaDevil": "Diabo do mar",
     "TraitSecret": "Secreto",
-    "TraitSedacthy": "Sedacthy",
     "TraitSerpentfolk": "Povo-Serpente",
-    "TraitSeugathi": "Seugathi",
     "TraitSewnIntoClothing": "Costurado em Roupas",
-    "TraitShabti": "Shabti",
     "TraitShadow": "Sombras",
     "TraitShieldThrow20": "Arremesso de Escudo 6 m",
     "TraitShieldThrow30": "Arremesso de Escudo 9 m",
     "TraitShisk": "Shisk",
-    "TraitShobhad": "Shobhad",
     "TraitShoony": "Shoony",
     "TraitShove": "Empurrar",
-    "TraitSiktempora": "Siktempora",
     "TraitSkeleton": "Esqueleto",
-    "TraitSkelm": "Skelm",
     "TraitSkill": "Perícia",
-    "TraitSkulk": "Skulk",
     "TraitSlashing": "Cortante",
     "TraitSleep": "Sono",
     "TraitSnare": "Arapuca",
@@ -4986,7 +5037,6 @@
     "TraitSorcerer": "Feiticeiro",
     "TraitSoulbound": "Alma Presa",
     "TraitSpellDeflection": "Deflexão de Magia",
-    "TraitSpellgun": "Spellgun",
     "TraitSpellheart": "Coração de Magia",
     "TraitSpellshape": "Moldamagia",
     "TraitSpellshot": "Magiarma",
@@ -5000,7 +5050,6 @@
     "TraitStamina": "Estamina",
     "TraitStance": "Postura",
     "TraitSteam": "Vapor",
-    "TraitStheno": "Stheno",
     "TraitStrix": "Estrige",
     "TraitStructure": "Estrutura",
     "TraitSubjectiveGravity": "Gravidade Subjetiva",
@@ -5013,12 +5062,10 @@
     "TraitSwarm": "Enxame",
     "TraitSwashbuckler": "Espadachim",
     "TraitSweep": "Amplitude",
-    "TraitSylph": "Sylph",
+    "TraitTactic": "Tática",
     "TraitTalisman": "Talismã",
     "TraitTalos": "Talos",
     "TraitTandem": "Sintonia",
-    "TraitTane": "Tane",
-    "TraitTanggal": "Tanggal",
     "TraitTanuki": "Tanuki",
     "TraitTattoo": "Tatuagem",
     "TraitTattooedOnTheBody": "Tatuado no Corpo",
@@ -5030,15 +5077,15 @@
     "TraitTengu": "Tengu",
     "TraitTethered": "Amarrada",
     "TraitThaumaturge": "Taumaturgo",
-    "TraitThrown": "Arremessável",
+    "TraitThrown": "Arremesso",
     "TraitThrown10": "Arremesso 10 pés",
     "TraitThrown100": "Arremesso 100 pés",
     "TraitThrown15": "Arremesso 15 pés",
     "TraitThrown20": "Arremesso 20 pés",
-    "TraitThrown200": "Arremessável 200 pés",
+    "TraitThrown200": "Arremesso 200 pés",
     "TraitThrown30": "Arremesso 30 pés",
     "TraitThrown40": "Arremesso 40 pés",
-    "TraitThrown50": "Arremesso 50 pés.",
+    "TraitThrown50": "Arremesso 50 pés",
     "TraitThrown60": "Arremesso 60 pés",
     "TraitThrown80": "Arremesso 80 pés",
     "TraitTime": "Tempo",
@@ -5066,7 +5113,6 @@
     "TraitUnique": "Único",
     "TraitUnstable": "Instável",
     "TraitUntyped": "Sem Tipo",
-    "TraitUrdefhan": "Urdefhan",
     "TraitVampire": "Vampiro",
     "TraitVanara": "Vanara",
     "TraitVehicular": "Veicular",
@@ -5149,7 +5195,6 @@
     "TraitWornUnderArmor": "Usado sob Armadura Leve ou Roupas",
     "TraitWraith": "Aparição",
     "TraitWraithvine": "Videira Espectral",
-    "TraitWyrwood": "Wyrwood",
     "TraitXulgath": "Xulgath",
     "TraitZombie": "Zumbi",
     "Traits": "Traços",
@@ -5222,8 +5267,6 @@
       "SourceId": "ID de Origem"
     },
     "UnitedPaizoWorkers": {
-      "PFSNote": "Nota para jogadores da Sociedade Pathfinder: Em apoio ao UPW, A mercadoria comprada na loja da união contará na região PFS online para os <span class=\"hover\" title=\"When you use a Hero Point to reroll a check, add a +1 cirumstance bonus to the reroll\">Vestimentos</a> promocionais.",
-      "ReleaseIntro": "Redmond, WA (14 de outubro, 2021) — Hoje, os colaboradores da Paizo, Inc - publicadores dos jogos de interpretação de Pathfinder e de Starfinder - estão anunciando a sua formação da união do United Paizo Workers union (UPW), com os Communication Workers of America's CODE-CWA. Esta união é a primeira do seu gênero na indústria de jogos de interpretação.",
       "Title": "Anúncio: United Paizo Workers"
     },
     "UnprepareItemTitle": "Despreparar Item",
@@ -5236,58 +5279,48 @@
       }
     },
     "ValueLabel": "Valor",
+    "Wall": {
+      "Door": {
+        "OutOfReach": "A porta está fora de alcance."
+      }
+    },
     "WeaknessesLabel": "Fraquezas",
     "Weapon": {
       "Base": {
         "adze": "Enxó",
-        "air-repeater": "Air Repeater",
         "aklys": "Aklys",
         "alchemical-bomb": "Bomba Alquímica",
         "alchemical-crossbow": "Besta Alquímica",
         "aldori-dueling-sword": "Espada de Duelo Aldori",
         "arbalest": "Arbaleste",
         "arquebus": "Arcabuz",
-        "asp-coil": "Asp Coil",
-        "atlatl": "Atlatl",
-        "axe-musket": "Axe Musket",
         "barricade-buster": "Destruidor de Barricada",
         "bastard-sword": "Espada Bastarda",
         "battle-axe": "Machado de Batalha",
-        "battle-lute": "Battle Lute",
+        "battle-lute": "Alaúde de Batalha",
         "battle-saddle": "Sela de Batalha",
         "bec-de-corbin": "Bec de Corbin",
-        "big-boom-gun": "Big Boom Gun",
-        "black-powder-knuckle-dusters": "Black Powder Knuckle Dusters",
         "bladed-diabolo": "Diabolo Lâminado",
-        "bladed-gauntlet": "Bladed Gauntlet",
         "bladed-hoop": "Bambolê Laminado",
         "bladed-scarf": "Cachecol Laminado",
         "blowgun": "Zarabatana",
         "blowgun-darts": "Dardos de Zarabatana",
-        "blunderbuss": "Blunderbuss",
         "bo-staff": "Bo",
-        "boarding-axe": "Boarding Axe",
-        "boarding-pike": "Boarding Pike",
         "bola": "Boleadeira",
         "boomerang": "Bumerangue",
         "bow-staff": "Cajado Arco",
         "breaching-pike": "Pique Destruidor",
         "broadspear": "Lançalarga",
-        "butchering-axe": "Butchering Axe",
         "butterfly-sword": "Espada Borboleta",
         "buugeng": "Buugeng",
-        "cane-pistol": "Cane Pistol",
         "capturing-spetum": "Espeto Capturador",
         "chain-sword": "Espada-Corrente",
         "chakram": "Chakram",
         "chakri": "Chakri",
         "clan-dagger": "Adaga de Clã",
-        "clan-pistol": "Clan Pistol",
         "claw": "Garra",
         "claw-blade": "Lâmina de Garras",
         "club": "Clava",
-        "coat-pistol": "Coat Pistol",
-        "combat-grapnel": "Combat Grapnel",
         "combat-lure": "Isca de Combate",
         "composite-longbow": "Arco Longo Composto",
         "composite-shortbow": "Arco Curto Composto",
@@ -5295,108 +5328,69 @@
         "crescent-cross": "Cruz Crescente",
         "crossbow": "Besta Leve",
         "dagger": "Adaga",
-        "dagger-pistol": "Dagger Pistol",
         "daikyu": "Daikyu",
         "dancers-spear": "Lança do Dançarino",
-        "dandpatta": "Dandpatta",
         "dart": "Dardo",
         "dogslicer": "Cortacão",
-        "donchak": "Donchak",
         "double-barreled-musket": "Mosquete de Barril-Duplo",
-        "double-barreled-pistol": "Double-Barreled Pistol",
-        "dragon-mouth-pistol": "Dragon Mouth Pistol",
-        "dueling-pistol": "Dueling Pistol",
-        "dueling-spear": "Dueling Spear",
         "dwarven-dorn-dergar": "Dorn-Dergar Enânico",
-        "dwarven-scattergun": "Dwarven Scattergun",
         "dwarven-war-axe": "Machado de Guerra Enânico",
         "earthbreaker": "Quebra-terra",
-        "elven-branched-spear": "Elven Branched Spear",
         "elven-curve-blade": "Lâmina Curva Élfica",
-        "explosive-dogslicer": "Explosive Dogslicer",
-        "exquisite-sword-cane": "Exquisite Sword Cane",
-        "exquisite-sword-cane-sheath": "Exquisite Sword Cane Sheath",
         "falcata": "Falcata",
         "falchion": "Bracamante",
         "fangs": "Presas",
         "fangwire": "Fangwire",
         "fauchard": "Foucinho",
-        "feng-huo-lun": "Feng Huo Lun",
         "fighting-fan": "Leque de Combate",
-        "fighting-stick": "Fighting Stick",
         "filchers-fork": "Forcado do Furtador",
-        "fire-lance": "Fire Lance",
         "fire-poi": "Poi de Fogo",
         "fist": "Punho",
         "flail": "Mangual",
-        "flingflenser": "Flingflenser",
-        "flintlock-musket": "Flintlock Musket",
-        "flintlock-pistol": "Flintlock Pistol",
         "flying-talon": "Garra Voadora",
-        "flyssa": "Flyssa",
-        "forked-bipod": "Forked Bipod",
         "frying-pan": "Frigideira",
-        "gada": "Gada",
-        "gaff": "Gaff",
-        "gakgung": "Gakgung",
         "gauntlet": "Manopla",
         "gauntlet-bow": "Arco de Manopla",
-        "gill-hook": "Gill Hook",
+        "gladius": "Gládio",
         "glaive": "Glaive",
-        "gnome-amalgam-musket": "Gnome Amalgam Musket",
         "gnome-flickmace": "Maça-Chicote Gnômica",
         "gnome-hooked-hammer": "Martelo com Gancho Gnômico",
         "greataxe": "Machado Longo",
         "greatclub": "Clava Pesada",
         "greatpick": "Picareta Pesada",
         "greatsword": "Montante",
-        "griffon-cane": "Griffon Cane",
         "guisarme": "Bisarma",
-        "gun-sword": "Gun Sword",
         "halberd": "Alabarda",
         "halfling-sling-staff": "Cajado-Funda Halfling",
-        "hammer-gun": "Hammer Gun",
         "hand-adze": "Enxó de Mão",
-        "hand-cannon": "Hand Cannon",
         "hand-crossbow": "Besta de Mão",
-        "harmona-gun": "Harmona Gun",
         "harpoon": "Arpão",
         "hatchet": "Machadinha",
         "heavy-crossbow": "Besta Pesada",
-        "hongali-hornbow": "Hongali Hornbow",
         "hook-sword": "Espada Gancho",
         "horsechopper": "Fatia-Cavalo",
-        "injection-spear": "Injection Spear",
         "javelin": "Azagaia",
         "jaws": "Mandíbulas",
-        "jezail": "Jezail",
         "jiu-huan-dao": "Jin Huan Dao",
         "juggling-club": "Bastão de Malabares",
-        "kalis": "Kalis",
         "kama": "Kama",
         "karambit": "Karambit",
         "katana": "Katana",
         "katar": "Katar",
-        "khakkhara": "Khakkhara",
         "khopesh": "Khopesh",
-        "knuckle-duster": "Knuckle Duster",
         "kris": "Cris",
         "kukri": "Kukri",
         "kusarigama": "Kusarigama",
         "lance": "Lança de Cavalaria",
         "lancer": "Lanceira",
-        "leiomano": "Leiomano",
         "light-hammer": "Martelo Leve",
         "light-mace": "Maça Leve",
         "light-pick": "Picareta Leve",
-        "lion-scythe": "Lion Scythe",
-        "long-air-repeater": "Long Air Repeater",
         "long-hammer": "Martelo Longo",
         "longbow": "Arco Longo",
         "longspear": "Lança Longa",
         "longsword": "Espada Longa",
         "mace": "Maça",
-        "mace-multipistol": "Mace Multipistol",
         "machete": "Machete",
         "main-gauche": "Adaga de Aparar",
         "mambele": "Mambele",
@@ -5404,28 +5398,20 @@
         "meteor-hammer": "Martelo Meteoro",
         "mikazuki": "Mikazuki",
         "mithral-tree": "Mithral Tree",
-        "monkeys-fist": "Monkey's Fist",
         "morningstar": "Maça-estrela",
         "nails": "Unhas",
         "naginata": "Naginata",
-        "nightstick": "Nightstick",
         "nodachi": "Nodachi",
         "nunchaku": "Nunchaku",
         "ogre-hook": "Gancho Ogro",
         "orc-knuckle-dagger": "Adaga de Soco Órquica",
         "orc-necksplitter": "Quebra-Pescoço Órquico",
-        "panabas": "Panabas",
-        "pepperbox": "Pepperbox",
         "phalanx-piercer": "Fura-Falange",
         "pick": "Picareta",
-        "piercing-wind": "Piercing Wind",
-        "piranha-kiss": "Piranha Kiss",
         "poi": "Balangandã",
         "polytool": "Poliferramenta",
-        "probing-cane": "Probing Cane",
         "ranseur": "Ranseur",
         "rapier": "Rapieira",
-        "rapier-pistol": "Rapier Pistol",
         "reinforced-wheels": "Rodas Reforçadas",
         "reinforced-stock": "Coronha Reforçada",
         "repeating-crossbow": "Besta Repetidora",
@@ -5436,28 +5422,22 @@
         "rotary-bow": "Arco Rotativo",
         "rungu": "Rungu",
         "sai": "Sai",
-        "sansetsukon": "Sansetsukon",
         "sap": "Porrete",
         "sawtooth-saber": "Sabre Serrilhado",
         "scimitar": "Cimitarra",
-        "scizore": "Scizore",
         "scorpion-whip": "Chicote Escorpião",
         "scourge": "Flagelo",
         "scythe": "Segadeira",
-        "shauth-lash": "Shauth Lash",
         "shears": "Tesoura de Jardinagem",
         "shield-bash": "Pancada com Escudo",
         "shield-boss": "Bossa de Escudo",
         "shield-bow": "Escudo-Arco",
         "shield-pistol": "Escudo-Pistola",
         "shield-spikes": "Cravos de Escudo",
-        "shobhad-longrifle": "Shobhad Longrifle",
         "shortbow": "Arco Curto",
         "shortsword": "Espada Curta",
         "shuriken": "Shuriken",
         "sickle": "Foice",
-        "sickle-saber": "Sickle-saber",
-        "slide-pistol": "Slide Pistol",
         "sling": "Funda",
         "sling-bullets": "Balas de funda",
         "spear": "Lança",
@@ -5465,38 +5445,27 @@
         "spiked-gauntlet": "Manopla com Cravos",
         "spiral-rapier": "Rapieira Espiral",
         "spirit-thresher": "Debulhadora de Espíritos",
-        "spoon-gun": "Spoon Gun",
         "spraysling": "Pulverização",
         "staff": "Cajado",
         "starknife": "Faca-Estrela",
-        "stiletto-pen": "Stiletto Pen",
-        "sukgung": "Sukgung",
-        "sun-sling": "Sun Sling",
-        "switchscythe": "Switchscythe",
         "sword-cane": "Bengala-Espada",
-        "talwar": "Talwar",
-        "tamchal-chakram": "Tamchal Chakram",
         "taw-launcher": "Taw Launcher",
         "tekko-kagi": "Tekko-kagi",
         "temple-sword": "Espada de Templo",
         "tengu-gale-blade": "Lâmina Grimpa Tengu",
         "tetsubo": "Tetsubo",
         "thorn-whip": "Chicote de Espinhos",
-        "three-peaked-tree": "Three Peaked Tree",
         "three-section-naginata": "Naginata de Três Seções",
         "throwing-knife": "Faca de Arremesso",
         "thunder-sling": "Thunder Sling",
-        "thundermace": "Thundermace",
-        "tonfa": "Tonfa",
-        "tri-bladed-katar": "Tri-bladed Katar",
         "tricky-pick": "Tricky Pick",
         "trident": "Tridente",
         "triggerbrand": "Disparador",
         "urumi": "Urumi",
-        "visap": "Visap",
         "wakizashi": "Wakizashi",
         "war-flail": "Mangual de Guerra",
-        "war-lance": "War Lance",
+        "war-javelin": "Azagaia de Guerra",
+        "war-lance": "Lança de Guerra",
         "war-razor": "Navalha de Guerra",
         "warhammer": "Martelo de Guerra",
         "wheel-blades": "Lâminas de Roda",
@@ -5508,8 +5477,7 @@
         "wish-knife": "Wish Knife",
         "wooden-taws": "Wooden Taws",
         "wrecker": "Quebrador",
-        "wrist-launcher": "Lançador de pulso",
-        "zulfikar": "Zulfikar"
+        "wrist-launcher": "Lançador de pulso"
       }
     },
     "WeaponAbilityLabel": "Atributo da Arma",
@@ -5767,10 +5735,7 @@
         }
       },
       "greaterRooting": {
-        "Name": "Enraizadora Maior",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"28\">Escapar CD 28</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Maior"
       },
       "greaterShock": {
         "Name": "Chocante Maior",
@@ -5844,10 +5809,7 @@
         "Name": "Protege-Parente"
       },
       "majorRooting": {
-        "Name": "Enraizadora Superior",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">Escapar CD 34</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Superior"
       },
       "merciful": {
         "Name": "Piedosa"
@@ -5873,10 +5835,7 @@
         "Note": "<strong>Runa Retornante</strong> Quando você faz um Golpe de arremesso com esta arma, ele voa de volta para sua mão depois que o ataque estiver completo. Se suas mãos estiverem ocupadas quando a arma retornar, ela cai no chão em seu espaço."
       },
       "rooting": {
-        "Name": "Enraizadora",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">Escapar CD 23</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora"
       },
       "serrating": {
         "Name": "Serrada"
@@ -5907,10 +5866,7 @@
         }
       },
       "trueRooting": {
-        "Name": "Enraizadora Verdadeira",
-        "Note": {
-          "criticalSuccess": "Quando você atinge um alvo com acerto crítico contra com esta arma, raízes crescem do alvo. Ele fica @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{imobilizado} por 1 rodada (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"41\">Escapar CD 41</span>) and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} enquanto a imobilização durar."
-        }
+        "Name": "Enraizadora Verdadeira"
       },
       "underwater": {
         "Name": "Subaquática"
@@ -5937,7 +5893,7 @@
         "Name": "Sanguinária"
       }
     },
-    "WeaponRange10": "10 pés",
+    "WeaponRange10": "3m",
     "WeaponRange100": "100 pés",
     "WeaponRange120": "120 pés",
     "WeaponRange140": "140 pés",
@@ -6032,7 +5988,7 @@
     },
     "condition": {
       "blinded": {
-        "name": "Cego",
+        "name": "Cegado",
         "rules": "<p>Você não pode enxergar. Todo terreno normal é terreno difícil para você. Você é incapaz de detectar qualquer coisa utilizando a visão. Você automaticamente falha criticamente em testes de Percepção que requerem que você seja capaz de enxergar, e se visão for seu único seu sentido preciso, você sofre -4 de penalidade de estado em testes de Percepção. Você fica imune a efeitos visuais. Cego sobrepõe ofuscado.</p>",
         "summary": "Você é incapaz de enxergar."
       },
@@ -6048,19 +6004,23 @@
       },
       "concealed": {
         "name": "Ocultado",
-        "rules": "<p>Enquanto estiver ocultado para uma criatura, como em uma névoa espessa, você é difícil de ser visto por essa criatura. Você ainda pode ser Observado, mas é um alvo mais difícil. Uma criatura para a qual você esteja ocultado deve obter sucesso em um teste simples @Check[flat|dc:5]{Teste Simples} quando mirá-lo com um ataque, magia ou outro efeito.</p>\n<p>Efeitos de área não são sujeitos a este teste simples. Se o teste falhar, o ataque, magia ou efeito não o afeta.</p>",
+        "rules": "<p>Enquanto você estiver ocultado para uma criatura, como em uma névoa densa, você se torna difícil de enxergar para essa criatura. Você ainda pode estar observado enquanto estiver ocultado, embora seja mais difícil atingi-lo. Criaturas contra as quais você esteja ocultado devem ser bem-sucedidas em um @Check[flat|dc:5|name:Ocultado|showDC:all] ao visá-lo com um ataque, magia ou outro efeito.</p>\n<p>Se falharem, você não é afetado. Efeitos de área não exigem esse teste simples.</p>",
         "summary": "Névoa ou obscurecimento similar o torna difícil de ser visto e mirado."
       },
       "confused": {
         "name": "Confuso",
-        "note": "Sempre que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|showDC:all|dc:11] para se recuperar da confusão e encerrar esta condição.",
-        "rules": "<p>Você não tem certeza sobre as coisas, e ataca selvagemente. Você está desprevenido, não trata ninguém como aliado (embora seus aliados ainda possam tratá-lo como um aliado deles) e não pode Adiar, Preparar ou usar reações.<p></p>Você usa todas suas ações para Golpear ou conjurar truques mágicos ofensivos, embora o MJ possa fazer você usar outras ações para facilitar o ataque, como sacar uma arma, mover-se para que um alvo esteja ao alcance e assim por diante. Seus alvos são determinados aleatoriamente pelo MJ. Se não tiver outros alvos viáveis, você acerta a si mesmo, acertando-se automaticamente, mas sem causar um acerto crítico. Se for impossível atacar ou conjurar magias, você balbucia incoerentemente, desperdiçando suas ações.</p>\n<p>Cada vez que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|dc:11]{Teste Simples} para recuperar-se de sua confusão e encerrar a condição.</p>",
+        "note": "Sempre que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|dc:11|name:Confuso|showDC:all] para se recuperar da confusão e encerrar esta condição.",
+        "rules": "<p>Seu raciocínio está prejudicado, e você ataca descontroladamente. Você fica desprevenido, não trata ninguém como aliado (embora eles ainda possam tratá-lo como aliado deles) e não pode Adiar, Preparar ou usar reações.</p>\n<p>Você deve usar todas as suas ações para Golpear ou conjurar truques ofensivos, embora o Mestre possa permitir que use outras ações necessárias para atacar, como sacar uma arma, mover-se até o alvo e assim por diante. Seus alvos são determinados aleatoriamente pelo Mestre. Se não houver outros alvos viáveis, você visa a si mesmo, acertando automaticamente, mas sem obter um acerto crítico. Se não puder atacar ou conjurar magias, você fica balbuciando sem coerência, desperdiçando suas ações.</p>\n<p>Sempre que sofrer dano de um ataque ou magia, você pode fazer um @Check[flat|dc:11|name:Confuso|showDC:all] para se recuperar da confusão e encerrar esta condição.</p>",
         "summary": "Você ataca indiscriminadamente."
       },
       "controlled": {
         "name": "Controlado",
         "rules": "<p>Alguém está tomando suas decisões por você, normalmente porque você está sendo comandado ou dominado magicamente. O controlador dita como você age e pode fazê-lo usar qualquer uma de suas ações, incluindo ataques, reações ou até mesmo Adiar. O controlador normalmente não precisa gastar as ações dele quando lhe controlar.</p>",
         "summary": "Outra criatura determina suas ações."
+      },
+      "cursebound": {
+        "name": "Ominoso",
+        "rules": "<p>Sua maldição oracular se intensifica enquanto você recebe punição divina por ter se aprofundado demais nos poderes do seu mistério. Ominoso é uma condição que afeta apenas criaturas com uma maldição oracular, e ominoso sempre inclui um valor. Sua maldição oracular impõe efeitos negativos únicos dependendo do valor da sua condição ominosa. Você só pode remover a condição ominosa se Refocar.</p>"
       },
       "dazzled": {
         "name": "Ofuscado",
@@ -6069,8 +6029,8 @@
       },
       "deafened": {
         "name": "Surdo",
-        "note": "Se usar uma ação com o traço auditivo, você deve ser bem-sucedido em um @Check[flat|dc:5|showDC:all] ou a ação é perdida.",
-        "rules": "<p>Você não pode ouvir. Você automaticamente falha criticamente em testes de Percepção que requeiram que você seja capaz de ouvir. Você sofre -2 de penalidade de circunstância em testes de Percepção para iniciativa e testes que envolvam som e também utilizem de outros sentidos. Se realizar uma ação com o traço auditivo, você deve obter sucesso em um @Check[flat|dc:5]{Teste Simples} ou a ação é perdida; faça o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados. Você fica imune a efeitos auditivos.</p>",
+        "note": "Se usar uma ação com o traço auditivo, você deve ser bem-sucedido em um @Check[flat|dc:5|name:Ensurdecido|showDC:all] ou a ação é perdida.",
+        "rules": "<p>Você não consegue ouvir. Você obtém falha crítica automaticamente em testes de Percepção que exijam audição. Você sofre –2 de penalidade de estado em testes de Percepção para iniciativa e testes que envolvam som, mas que também dependam de outros sentidos. Se usar uma ação com o traço auditivo, você deve ser bem-sucedido em um @Check[flat|dc:5|name:Confuso|showDC:all] ou a ação é perdida — faça o teste depois de gastar a ação, mas antes de qualquer efeito ser aplicado. Você fica imune a efeitos auditivos.</p>",
         "summary": "Você é incapaz de ouvir."
       },
       "doomed": {
@@ -6100,7 +6060,7 @@
       },
       "fascinated": {
         "name": "Fascinado",
-        "rules": "<p>Você é compelido a focar sua atenção em algo, distraindo-se de qualquer outra coisa ao seu redor. Você sofre -2 de penalidade de estado em testes de Percepção e perícias e não pode usar ações com o traço concentração a menos que elas ou suas consequências pretendidas sejam relacionadas ao alvo de seu fascínio (conforme determinado pelo MJ). Por exemplo, você pode ser capaz de Buscar e Recordar Conhecimento sobre o assunto de seu fascínio, mas provavelmente não poderá conjurar uma magia mirando uma criatura diferente. Esta condição é encerrada se uma criatura usar ações hostis contra você ou qualquer de seus aliados.</p>",
+        "rules": "<p>Você é compelido a focar sua atenção em algo, distraindo-se de qualquer outra coisa ao seu redor. Você sofre -2 de penalidade de estado em testes de Percepção e perícias e não pode usar ações com o traço concentração a menos que elas ou suas consequências pretendidas sejam relacionadas ao alvo de seu fascínio (conforme determinado pelo mestre). Por exemplo, você pode ser capaz de Buscar e Recordar Conhecimento sobre o assunto de seu fascínio, mas provavelmente não poderá conjurar uma magia mirando uma criatura diferente. Esta condição é encerrada se uma criatura usar ações hostis contra você ou qualquer de seus aliados.</p>",
         "summary": "Você está compelido a focar sua atenção em algo."
       },
       "fatigued": {
@@ -6120,7 +6080,7 @@
       },
       "friendly": {
         "name": "Amistoso",
-        "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja amistosa a um personagem gosta desse personagem. O personagem pode tentar fazer um Pedido para uma criatura amistosa, e a criatura amistosa possivelmente concordará com um pedido simples e seguro que não seja muito custoso para realizar. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo MJ.</p>",
+        "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja amistosa a um personagem gosta desse personagem. O personagem pode tentar fazer um Pedido para uma criatura amistosa, e a criatura amistosa possivelmente concordará com um pedido simples e seguro que não seja muito custoso para realizar. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo mestre.</p>",
         "summary": "Um PdM com esta condição possui uma boa atitude em relação a você."
       },
       "frightened": {
@@ -6130,8 +6090,8 @@
       },
       "grabbed": {
         "name": "Agarrado",
-        "note": "Se usar uma ação com o traço manuseio, você deve ser bem-sucedido em um @Check[flat|dc:5|showDC:all] ou a ação é perdida.",
-        "rules": "<p>Você é mantido no lugar por outra criatura, impondo-lhe as condições desprevenido e imobilizado. Se tentar uma ação de manuseio enquanto estiver agarrado, você deve obter sucesso em um teste simples @Check[flat|dc:5]{Teste Simples} ou ela é perdida; role o teste após gastar a ação, mas antes de quaisquer efeitos serem aplicados.</p>",
+        "note": "Se usar uma ação com o traço manuseio, você deve ser bem-sucedido em um @Check[flat|dc:5|name:Agarrado|showDC:all] ou a ação é perdida.",
+        "rules": "<p>Você está preso por outra criatura, o que lhe impõe as condições desprevenido e imobilizado. Se usar uma ação com o traço manuseio, você deve ser bem-sucedido em um @Check[flat|dc:5|name:Agarrado|showDC:all] ou a ação é perdida — faça o teste depois de gastar a ação, mas antes de qualquer efeito ser aplicado.</p>",
         "summary": "Uma criatura, objeto ou magia o segura no lugar."
       },
       "group": {
@@ -6142,12 +6102,12 @@
       },
       "helpful": {
         "name": "Prestativo",
-        "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja prestativa a um personagem deseja ativamente ajudar esse personagem. Ela aceitará Pedidos razoáveis desse personagem, desde que esses Pedidos não sejam cumpridos ao custo dos objetivos ou qualidade de vida da criatura prestativa. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo MJ.</p>",
+        "rules": "<p>Esta condição reflete a disposição de uma criatura em relação a um personagem em particular, e afeita somente criaturas que não sejam personagens jogadores. Uma criatura que seja prestativa a um personagem deseja ativamente ajudar esse personagem. Ela aceitará Pedidos razoáveis desse personagem, desde que esses Pedidos não sejam cumpridos ao custo dos objetivos ou qualidade de vida da criatura prestativa. Se o personagem ou um de seus aliados usar ações hostis contra a criatura, ela recebe uma condição de atitude pior dependendo da severidade da ação hostil, conforme determinado pelo mestre.</p>",
         "summary": "Um PdM com esta condição quer lhe ajudar."
       },
       "hidden": {
         "name": "Escondido",
-        "rules": "<p>Enquanto estiver escondido para uma criatura, essa criatura sabe o espaço em que você está, mas é incapaz de determinar a sua localização precisa. Você normalmente fica escondido ao utilizar Furtividade para se Esconder. Quando Buscar uma criatura utilizando somente sentidos imprecisos, ela continua escondida em vez de observada. Uma criatura para a qual você estiver escondido fica Desprevenida para você e deve obter sucesso em um teste simples @Check[flat|dc:11]{Teste Simples} quando mirá-lo com um ataque, magia ou outro efeito, ou falha em afetá-lo. Efeitos de área não são sujeitos a este teste simples.</p><p>Uma criatura pode ser capaz de usar a ação Buscar para tentar observá-lo.</p>",
+        "rules": "<p>Se você estiver escondido de uma criatura, ela sabe o espaço em que você está, mas não consegue determinar sua posição com exatidão. Esta condição normalmente é obtida ao usar Furtividade para Esconder-se. Se você Buscar uma criatura usando somente sentidos imprecisos, ela fica escondida, em vez de observada. Criaturas contra as quais você estiver escondido ficam desprevenidas contra você e precisam ser bem-sucedidas em um @Check[flat|dc:11|name:Escondido|showDC:all] para tê-lo como alvo em um ataque, magia ou outro efeito. Efeitos de área não exigem esse teste simples.</p>\n<p>É possível usar a ação Buscar para tentar observá-lo.</p>",
         "summary": "Uma criatura da qual você está escondido(a) sabe sua localização mas não pode te ver."
       },
       "hostile": {
@@ -6177,7 +6137,7 @@
       },
       "paralyzed": {
         "name": "Paralisado",
-        "rules": "<p>Seu corpo está congelado no lugar. Você sofre a condição desprevenido e não pode agir exceto para Recordar Conhecimento e usar ações que requeiram somente o uso de sua mente (conforme determinado pelo MJ). Seus sentidos ainda funcionam, mas somente nas áreas que puder perceber sem mover seu corpo, portanto, você não pode Buscar enquanto estiver paralisado.</p>",
+        "rules": "<p>Seu corpo está congelado no lugar. Você sofre a condição desprevenido e não pode agir exceto para Recordar Conhecimento e usar ações que requeiram somente o uso de sua mente (conforme determinado pelo mestre). Seus sentidos ainda funcionam, mas somente nas áreas que puder perceber sem mover seu corpo, portanto, você não pode Buscar enquanto estiver paralisado.</p>",
         "summary": "Seu corpo está paralisado no local."
       },
       "persistent-damage": {
@@ -6213,8 +6173,8 @@
         "summary": "Você está sentindo dor no estômago."
       },
       "slowed": {
-        "name": "Lento",
-        "rules": "<p>Você possui menos ações. Lento sempre inclui um valor. Quando recuperar suas ações no início de seu turno, reduza a quantidade de ações recuperadas pelo seu valor de lento. Como o efeito de lento ocorre no início de seu turno, você não perde ações imediatamente se ficar lento durante seu turno.</p>",
+        "name": "Desacelerado",
+        "rules": "<p>Você possui menos ações. Desacelerado sempre inclui um valor. Quando recuperar suas ações no início de seu turno, reduza a quantidade de ações recuperadas pelo seu valor de desacelerado. Como o efeito de desacelerado ocorre no início de seu turno, você não perde ações imediatamente se ficar desacelerado durante seu turno.</p>",
         "summary": "Você perde ações a cada turno."
       },
       "stunned": {
@@ -6224,18 +6184,18 @@
       },
       "stupefied": {
         "name": "Estupefato",
-        "note": "A qualquer momento que você tentar @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} enquanto estupefato, a magia é interrompida, a menos que você obtenha sucesso em um @Check[flat|showDC:all|dc:resolve(5+@actor.conditions.stupefied.value)].",
+        "note": "Sempre que você tentar @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Conjurar uma Magia} enquanto estiver estupefato, a magia será interrompida, a menos que você seja bem-sucedido em um @Check[flat|dc:resolve(5+@actor.conditions.stupefied.value)|name:Stupefied|showDC:all].",
         "rules": "<p>Seus pensamentos e instintos ficam nublados. Estupefato sempre inclui um valor. Você sofre uma penalidade de estado igual ao valor desta condição em testes e CDs baseadas em Inteligência, Sabedoria e Carisma, incluindo jogadas de salvamento de Vontade, rolagens de ataque de magia, CDs de magia e testes de perícias que utilizem estes atributos. A qualquer momento em que você tentar Conjurar uma Magia enquanto estiver estupefato, a magia é interrompida a menos que você obtenha sucesso em um teste simples com CD igual a 5 + seu valor de estupefato.</p>",
         "summary": "Você não pode acessar suas faculdades mentais completas e tem problema em conjurar magias."
       },
       "unconscious": {
         "name": "Inconsciente",
-        "rules": "<p>Você está dormindo ou foi nocauteado. Você não pode agir. Você sofre -4 de penalidade de estado na CA, Percepção e salvamentos de Reflexos, além de possuir as condições cego e desprevenido. Quando sofrer esta condição, você cai prostrado e larga itens que estiver segurando ou empunhando, exceto se o efeito especificar o contrário ou se o MJ determinar que você está em uma posição em que não o faria.</p>\n<p>Se estiver inconsciente por estar morrendo, você não pode despertar enquanto tiver 0 Pontos de Vida. Se for restaurado a 1 Ponto de Vida ou mais através de cura, você perde as condições morrendo e inconsciente e pode agir normalmente em seu próximo turno.</p>\n<p>Se estiver inconsciente e tiver mais de 1 Ponto de Vida (geralmente porque está dormindo ou inconsciente devido a um efeito), você acorda de uma das maneiras a seguir. Todas elas o fazem perder a condição inconsciente..</p><ul><li>Você sofre dano, desde que esse dano não o reduza a 0 Pontos de Vida. (Se o dano o reduzir a 0 Pontos de Vida, você permanece inconsciente e sofre a condição morrendo normalmente).</li><li>Você recebe cura, desde que não seja cura natural por descansar.</li><li>Alguém o cutuca ou balança usando uma ação de Interagir para você despertar.</li><li>Barulho alto é feito perto de você — embora isto não seja automático. No início de seu turno, você automaticamente faz um teste de Percepção contra a CD do barulho (ou a menor CD se houver mais de um barulho), despertando se obtiver sucesso. Esta CD geralmente é 5 para uma batalha, mas se houver criaturas perto de você tentando permanecer quietas, este teste de Percepção utiliza a CD de Furtividade delas. Alguns efeitos mágicos o fazem dormir tão profundamente que não permitem este teste de Percepção.</li><li>Se estiver simplesmente dormindo, o MJ decide se você acorda porque teve uma noite de descanso ou se algo interrompeu esse descanso.</ul>",
+        "rules": "<p>Você está dormindo ou foi nocauteado. Você não pode agir. Você sofre -4 de penalidade de estado na CA, Percepção e salvamentos de Reflexos, além de possuir as condições cego e desprevenido. Quando sofrer esta condição, você cai prostrado e larga itens que estiver segurando ou empunhando, exceto se o efeito especificar o contrário ou se O mestre determinar que você está em uma posição em que não o faria.</p>\n<p>Se estiver inconsciente por estar morrendo, você não pode despertar enquanto tiver 0 Pontos de Vida. Se for restaurado a 1 Ponto de Vida ou mais através de cura, você perde as condições morrendo e inconsciente e pode agir normalmente em seu próximo turno.</p>\n<p>Se estiver inconsciente e tiver mais de 1 Ponto de Vida (geralmente porque está dormindo ou inconsciente devido a um efeito), você acorda de uma das maneiras a seguir. Todas elas o fazem perder a condição inconsciente..</p><ul><li>Você sofre dano, desde que esse dano não o reduza a 0 Pontos de Vida. (Se o dano o reduzir a 0 Pontos de Vida, você permanece inconsciente e sofre a condição morrendo normalmente).</li><li>Você recebe cura, desde que não seja cura natural por descansar.</li><li>Alguém o cutuca ou balança usando uma ação de Interagir para você despertar.</li><li>Barulho alto é feito perto de você — embora isto não seja automático. No início de seu turno, você automaticamente faz um teste de Percepção contra a CD do barulho (ou a menor CD se houver mais de um barulho), despertando se obtiver sucesso. Esta CD geralmente é 5 para uma batalha, mas se houver criaturas perto de você tentando permanecer quietas, este teste de Percepção utiliza a CD de Furtividade delas. Alguns efeitos mágicos o fazem dormir tão profundamente que não permitem este teste de Percepção.</li><li>Se estiver simplesmente dormindo, O mestre decide se você acorda porque teve uma noite de descanso ou se algo interrompeu esse descanso.</ul>",
         "summary": "Você está dormindo ou nocauteado."
       },
       "undetected": {
         "name": "Indetectado",
-        "rules": "<p>Quando estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem ideia do espaço que você ocupa e não pode mirá-lo — embora você ainda possa ser afetado por habilidades que mirem uma área. Quando estiver indetectado por uma criatura, essa criatura fica Desprevenida para você.</p><p>Uma criatura para a qual você está indetectado pode tentar descobrir onde você está para tentar mirá-lo. Ela deve escolher um quadrado e fazer um ataque. Isto funciona como mirar uma criatura escondida (requerendo um @Check[flat|dc:11]{Teste Simples}), mas o teste simples e rolagem de ataque são feitos em segredo pelo MJ — que não revela se o ataque errou por falhar no teste simples, por falhar na rolagem de ataque ou por escolher o quadrado errado.</p><p>Uma criatura pode usar a ação Buscar para tentar encontrá-lo.</p>",
+        "rules": "<p>Se você estiver indetectado por uma criatura, essa criatura não pode vê-lo, não tem noção do espaço que você está ocupando e não pode visá-lo, embora você ainda possa ser afetado por habilidades de área. Criaturas contra a qual você estiver indetectado ficam desprevenidas contra você.</p>\n<p>Essas criaturas podem tentar adivinhar em qual quadrado você está para tentar visá-lo. Elas devem escolher um quadrado e fazer um ataque. Isso funciona como visar uma criatura escondida (exigindo um @Check[flat|dc:11|name:Undetected|traits:secret|showDC:all]), mas o teste simples e o de ataque são jogados em segredo pelo mestre, que não revela se o ataque errou devido a uma falha no teste simples, no teste de ataque ou se você escolheu o quadrado errado.</p>\n<p>Essas criaturas podem tentar encontrá-lo usando a ação Buscar.</p>",
         "summary": "Uma criatura para a qual você está indetectado não sabe onde você está."
       },
       "unfriendly": {
@@ -6306,10 +6266,8 @@
       "DepositMessage": "{depositor} deposita {quantity} × {item} do {container}.",
       "DepositSubtitle": "Depositar item",
       "EditLootLabel": "Configurar Espólio?",
-      "GMSupervisionError": "Um MJ precisa estar online para poder interagir com {loot}.",
-      "Give": "Dar",
+      "GMSupervisionError": "Um mestre precisa estar online para poder interagir com {loot}.",
       "GiveMessage": "{giver} deposita {quantity} × {item} em {recipient}.",
-      "GiveSubtitle": "Dar item",
       "HiddenWhenEmpty": {
         "Hint": "Esconder o token deste ator quando seu inventário estiver vazio",
         "Label": "Esconder quando vazio"
@@ -6325,16 +6283,13 @@
       "LootNamePlaceholder": "Espólio",
       "LootSubtitle": "Saquear item",
       "MerchantDescription": "Permite que os jogadores comprem itens diretamente da ficha.",
-      "MerchantLabel": "Mercador",
+      "MerchantLabel": "Comerciante",
       "MoveLoot": "Mover itens",
-      "MoveLootMessage": "Quantos itens você deseja mover?",
       "MoveLootPopupTitle": "Quantidade do item",
       "PartyStash": "o estoque do grupo",
-      "PermissionError": "Um MJ deve estar online para saquear ou guardar um item.",
+      "PermissionError": "Um mestre deve estar online para saquear ou guardar um item.",
       "PlantMessage": "{planter} deposita {quantity} × {item} do(a) {corpse}.",
       "PlantSubtitle": "Depositar Item",
-      "Purchase": "Comprar",
-      "PurchaseLootPrompt": "Gostaria de comprar esse item para {comprador}?",
       "PurchasePrice": "Preço de compra",
       "Quantity": "Quantidade",
       "SellMessage": "{seller} vende {quantity} × {item} para {buyer}.",
@@ -6387,6 +6342,27 @@
   "SIDEBAR": {
     "TabCombat": "Rastreador de Encontro"
   },
+  "TOKEN": {
+    "MOVEMENT": {
+      "ACTIONS": {
+        "drive": {
+          "label": "Conduzir"
+        },
+        "jump": {
+          "label": "Saltar"
+        },
+        "travel": {
+          "label": "Viagem"
+        },
+        "walk": {
+          "label": "Andar"
+        },
+        "blink": {
+          "label": "Teleporte"
+        }
+      }
+    }
+  },
   "TYPES": {
     "Actor": {
       "army": "Exército",
@@ -6424,6 +6400,9 @@
       "spellcastingEntry": "Registro de Conjuração",
       "treasure": "Tesouro",
       "weapon": "Arma"
+    },
+    "RegionBehavior": {
+      "modifyMovementCost": "Terreno Difícil"
     }
   }
 }

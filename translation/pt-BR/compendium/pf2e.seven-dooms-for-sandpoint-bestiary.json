@@ -4,10 +4,11 @@
       "items": {
         "consumable->Scroll of Heal (Rank 1)": {
           "consumableSpellName": "Curar",
+          "consumableSpellDescription": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>",
           "consumableSpellTarget": "1 willing living creature or 1 undead"
         },
         "consumable->Scroll of Cleanse Affliction (Rank 2)": {
-          "consumableSpellTarget": "1 willing creature"
+          "consumableSpellTarget": "1 criatura voluntária"
         },
         "strike-melee->Starknife": {
           "name": "Faca-Estrela"
@@ -71,7 +72,7 @@
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
-          "target": "1 creature"
+          "target": "1 criatura"
         },
         "strike-melee->Machete": {
           "name": "Machete"
@@ -206,7 +207,7 @@
         "consumable->Wand of Fear (Rank 1)": {
           "consumableSpellName": "Medo",
           "consumableSpellDescription": "<p>Você planta medo no alvo e ele deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 2.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 3 e @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada.</p><p><hr /><strong>Elevada (3º)</strong>  Você pode afetar até cinco criaturas.</p>",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -267,7 +268,7 @@
         "consumable->Wand of Blindness (Rank 3)": {
           "consumableSpellName": "Cegueira",
           "consumableSpellDescription": "<p>Você cega o alvo. O efeito é determinado pelo salvamento de Fortitude do alvo. Após o efeito, o alvo fica temporariamente imune por 1 minuto.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o início do próximo turno dele.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica permanentemente @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego}.</p>",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "strike-melee->Warhammer": {
           "name": "Martelo de Guerra"
@@ -359,7 +360,7 @@
         "consumable->Wand of Telekinetic Maneuver (Rank 2)": {
           "consumableSpellName": "Manobra Telecinética",
           "consumableSpellDescription": "<p>Com uma rajada de poder telecinético, você move um adversário ou algo que ele carrega. Você pode tentar Derrubar, Desarmar ou Empurrar o alvo usando uma rolagem de ataque de magia em vez de um teste de Atletismo.</p>",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -520,7 +521,7 @@
           "secondarycheck": "Diplomacy or Society"
         },
         "consumable->Wand of Vampiric Feast (Rank 3)": {
-          "consumableSpellTarget": "1 living creature"
+          "consumableSpellTarget": "1 criatura viva"
         },
         "strike-melee->Fangs": {
           "name": "Presas"
@@ -588,6 +589,67 @@
           "name": "Garra"
         }
       }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialAthletics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.athletics.special"
+    },
+    "skillSpecialCrafting": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.crafting.special"
+    },
+    "skillSpecialDeception": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.deception.special"
+    },
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }

@@ -65,7 +65,7 @@
         },
         "consumable->Wand of Restoration (Level 2)": {
           "consumableSpellName": "Restauração",
-          "consumableSpellTarget": "1 creature"
+          "consumableSpellTarget": "1 criatura"
         },
         "strike-melee->Pick": {
           "name": "Picareta"
@@ -143,9 +143,6 @@
     },
     "Theiltemar": {
       "items": {
-        "spell->Blood Vendetta": {
-          "requirements": "You can bleed"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         }
@@ -207,6 +204,54 @@
           "name": "Aklys"
         }
       }
+    }
+  },
+  "mapping": {
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialAcrobatics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.acrobatics.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }

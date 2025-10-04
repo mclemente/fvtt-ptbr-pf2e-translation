@@ -1,6 +1,12 @@
 {
   "label": "Efeitos de Talentos",
   "entries": {
+    "Effect: All-Consuming Hunger": {
+      "badges": {
+        "1": "Moderado",
+        "2": "Severo"
+      }
+    },
     "Effect: Anadi Venom": {
       "name": "Efeito: Veneno de Anadi"
     },
@@ -9,6 +15,10 @@
         "Marcial",
         "Habilidoso"
       ]
+    },
+    "Effect: Bon Mot": {
+      "name": "Efeito: Comentário Maldoso",
+      "description": "<p>Concedido por @UUID[Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf]{Comentário Maldoso}</p>\n<p>Você recebe uma penalidade de estado na Percepção e salvamentos de Vontade.</p>"
     },
     "Effect: Curse of Ancestral Meddling": {
       "badges": [
@@ -90,6 +100,12 @@
         "Extremo"
       ]
     },
+    "Effect: Desynchronized Motions": {
+      "badges": {
+        "1": "Moderado",
+        "2": "Severo"
+      }
+    },
     "Effect: Encroaching Presence": {
       "badges": {
         "1": "Moderado",
@@ -142,6 +158,9 @@
         "Cortante"
       ]
     },
+    "Effect: Premonition of Clarity": {
+      "name": "Efeito: Premonição de Clareza"
+    },
     "Effect: Strained Metabolism": {
       "badges": {
         "1": "Moderado",
@@ -166,9 +185,27 @@
       "name": "Postura: Cascata Arcana"
     },
     "Stance: Divine Presence": {
-      "badges": {
-        "1": "10 pés"
-      }
+      "badges": [
+        "1,5m",
+        "3m",
+        "4,5m"
+      ]
+    }
+  },
+  "mapping": {
+    "badges": "system.badge.labels",
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
     }
   }
 }
