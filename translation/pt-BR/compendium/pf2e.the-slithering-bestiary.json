@@ -154,5 +154,14 @@
         }
       }
     }
+  },
+  "mapping": {
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription"
+    }
   }
 }
