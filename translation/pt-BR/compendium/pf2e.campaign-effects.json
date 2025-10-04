@@ -14,6 +14,23 @@
       "name": "Malevolência"
     }
   },
+  "mapping": {
+    "badges": "system.badge.labels",
+    "description": "system.description.value",
+    "gmNote": "system.description.gm",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  },
   "folders": {
     "Malevolence": "Malevolência",
     "Pathfinder Player Core": "Pathfinder Livro do Jogador",
