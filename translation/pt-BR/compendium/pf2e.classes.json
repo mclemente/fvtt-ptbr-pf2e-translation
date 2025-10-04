@@ -105,5 +105,20 @@
       "name": "Mago",
       "description": "<p><em>Você é um eterno estudante dos segredos arcanos do universo, utilizando sua maestria mística para conjurar magias poderosas e devastadoras. Você trata a magia como uma ciência, cruzando referências de textos mais recentes da prática mágica moderna com tomos esotéricos antigos para descobrir e compreender o funcionamento interno da magia. Porém, o campo da teoria mágica é vasto, e não há como você estudá-lo por completo. Você se especializa em uma das oito escolas de magia, aprofundando-se nas nuances desse tipo específico de magia ou assume uma abordagem mais ampla enfatizando os laços em comum que unem todas as magias.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.wDukeO3euLEGn6FA]{Mago}</em></p>"
     }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
   }
 }
