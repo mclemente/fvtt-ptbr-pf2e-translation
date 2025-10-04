@@ -180,7 +180,7 @@
     },
     "Animate Object": {
       "name": "Animar Objeto",
-      "primarycheck": "Arcana (expert)",
+      "primarycheck": "Arcanismo (especialista)",
       "secondarycheck": "Manufatura",
       "target": "1 objeto"
     },
@@ -541,7 +541,6 @@
     "Blood Vendetta": {
       "name": "Blood Vendetta",
       "description": "<p><strong>Requirements</strong> You can bleed.</p>\n<p><strong>Trigger</strong> A creature deals piercing, slashing, or persistent bleed damage to you.</p>\n<hr />\n<p>You curse the target, punishing it for having the audacity to spill your blood. The target takes @Localize[PF2E.PersistentDamage.Bleed2d6.success] and must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half the persistent bleed damage.</p>\n<p><strong>Failure</strong> The target takes the full persistent bleed damage. Until the bleeding stops, the target has weakness 1 to piercing and slashing damage. @UUID[Compendium.pf2e.spell-effects.buXx8Azr4BYWPtFg]{Spell Effect: Blood Vendetta (Failure)}</p>\n<p><strong>Critical Failure</strong> As failure, but the target takes double the persistent bleed damage.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The persistent bleed damage increases by @Localize[PF2E.PersistentDamage.Bleed2d6.success].</p>",
-      "requirements": "You can bleed",
       "target": "The triggering creature"
     },
     "Blood Ward": {
@@ -1064,7 +1063,6 @@
       "description": "<p><strong>Acionamento</strong> Você ou um aliado a até 18 metros faz um teste de salvamento contra um efeito auditivo ou visual.</p>\n<hr />\n<p>Sua performance protege você e seus aliados. Faça um teste de @Check[performance] de um tipo apropriado: uma performance auditiva se o acionamento for auditivo ou uma visual, se o acionamento for visual. Você e aliados que estiverem na área podem usar o melhor resultado entre seu teste de Performance e o de salvamento.</p>"
     },
     "Countless Eyes": {
-      "name": "Countless Eyes",
       "target": "1 criatura"
     },
     "Courageous Anthem": {
@@ -1345,7 +1343,7 @@
     "Diabolic Edict": {
       "name": "Édito Diabólico",
       "description": "<p>Você profere um édito diabólico exigindo que o alvo execute uma tarefa em particular e oferecendo recompensas por completá-la. Ele recebe +1 de bônus de estado em rolagens de ataque e testes de perícia relacionados à realização da tarefa. Se recusar-se a realizar a tarefa proclamada por você, em vez disso ele sofre –1 de penalidade de estado em todas as suas rolagens de ataque e testes de perícia.</p>\n<p>@Compendium[pf2e.spell-effects.1kelGCsoXyGRqMd9]{Spell Effect: Diabolic Edict}</p>",
-      "target": "1 willing living creature"
+      "target": "1 criatura viva voluntária"
     },
     "Diabolic Pact": {
       "primarycheck": "Religion (expert; you must be a devil)"
@@ -1481,7 +1479,7 @@
     "Diviner's Sight": {
       "name": "Visão do Adivinho",
       "description": "<p>Você vislumbra o futuro do alvo. Role um d20; quando o alvo tentar uma jogada de salvamento ou teste de perícia (que não sejam secretos), ele pode usar o número que você rolou em vez de fazer uma rolagem, encerrando a magia. Alternativamente, você pode revelar o resultado da rolagem de um teste secreto do alvo que tenha sido realizado durante a duração da magia (encerrando esta magia). Conjurar esta magia novamente encerra qualquer visão do adivinho ativa que você tiver conjurado, assim como qualquer visão do adivinho ativa no alvo.</p>",
-      "target": "1 willing living creature"
+      "target": "1 criatura viva voluntária"
     },
     "Divinity Leech": {
       "name": "Divinity Leech",
@@ -2433,7 +2431,7 @@
       "target": "one willing creature of lower level than you"
     },
     "Halcyon Mists": {
-      "target": "1 willing living creature"
+      "target": "1 criatura viva voluntária"
     },
     "Hallowed Ground": {
       "name": "Hallowed Ground",
@@ -2509,7 +2507,7 @@
     "Healer's Blessing": {
       "name": "Benção do Curandeiro",
       "description": "<p>Suas palavras abençoam uma criatura com uma conexão aprimorada à energia positiva. Quando o alvo recuperar Pontos de Vida de uma magia de cura, ele recupera 1 Ponto de Vida adicional. O alvo recupera Pontos de Vida adicionais por benção do curandeiro somente na primeira vez em que recuperar Pontos de Vida de uma determinada magia de cura, portanto, uma magia que curar a criatura repetidamente ao longo da duração restauraria Pontos de Vida adicionais somente uma vez.</p><hr /><p><strong>Elevada (+1)</strong>A cura adicional aumenta em 2 Pontos de Vida.</p>",
-      "target": "1 willing living creature"
+      "target": "1 criatura viva voluntária"
     },
     "Healing Plaster": {
       "name": "Healing Plaster",
@@ -4105,7 +4103,7 @@
     "Regenerate": {
       "name": "Regeneração",
       "description": "<p>Uma infusão de energia positiva concede cura contínua a uma criatura. O alvo ganha temporariamente regeneração 15, que restaura 15 Pontos de Vida ao alvo no início de cada um dos turnos dele. Enquanto tiver regeneração, o alvo não pode morrer por dano sofrido e seu valor de @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{morrendo} nunca pode exceder 3, embora, se o valor de @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{ferido} dele se tornar 4 ou superior, ele permaneça @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{inconsciente} até seus ferimentos serem tratados. Se o alvo sofrer dano de ácido ou de fogo, a regeneração dele é desativada até o final do próximo turno dele. Cada vez que a criatura recuperar Pontos de Vida por regeneração, ela também regenera um órgão danificado ou arruinado (se houver). Durante a duração da magia, a criatura também pode reanexar partes do corpo decepadas ao gastar uma ação de Interação para segurar a parte do corpo à área da qual ela foi separada..</p>\n<p>@Compendium[pf2e.spell-effects.dXq7z633ve4E0nlX]{Spell Effect: Regenerate}</p>\n<hr />\n<p><strong>Elevada (9º)</strong> A regeneração aumenta para 20.</p>",
-      "target": "1 willing living creature"
+      "target": "1 criatura viva voluntária"
     },
     "Reincarnate": {
       "name": "Reincarnate",
@@ -4853,14 +4851,14 @@
     "Statuette": {
       "name": "Estatueta",
       "description": "<p> Esse ritual é uma variante da magia de item encolhível que permite a transformação de itens significativamente maiores. Você transforma o objeto em uma pequena estatueta que é de volume leve. O ritual não encolhe nenhuma criatura dentro ou em cima do item quando ele é transformado. O item permanece em forma de estatueta até a duração do ritual expirar ou até que uma criatura o coloque em uma superfície estável e use uma atividade de 10 minutos para Interagir com o item para aumentá-lo. Quando restaurado ao seu tamanho normal, o objeto simplesmente afasta outras criaturas e objetos ou os contém inofensivamente, como um item mágico com a característica da estrutura.  </p><p> Sua teste de Arcanismo determina quanto tempo o objeto permanece na forma de estatueta.  </p><p> <strong>Sucesso Crítico</strong> O objeto permanece uma estatueta por 1 semana. <strong>Sucesso</strong> O objeto permanece uma estatueta por 1 dia. <strong>Falha</strong> Você falha ao reduzir o objeto.  <strong>Falha crítica</strong> Você não consegue encolher o objeto, e o item de nível mais alto que você carrega de volume leve ou maior diminui para uma estatueta minúscula e inutilizável, com volume negligivel por 1 semana. </p> (Tradução não oficial - Extinction Curse)",
-      "primarycheck": "Arcana (expert)",
+      "primarycheck": "Arcanismo (especialista)",
       "secondarycheck": "Crafting, Occultism",
       "target": "1 freestanding, non-magical object no larger than 3,000 cubic feet (the size of a Huge creature)"
     },
     "Status": {
       "name": "Condição",
       "description": "<p>Enquanto você e o alvo estiverem no mesmo plano de existência e ambos estiverem vivos, você permanece ciente do estado atual dele. Você sabe a direção e distância do alvo em relação a você, assim como quaisquer condições que o estiverem afetando.</p><hr /><p><strong>Elevada (4º)</strong> A distância da magia aumenta para 9 metros e você pode afetar até 10 criaturas.</p>",
-      "target": "1 willing living creature"
+      "target": "1 criatura viva voluntária"
     },
     "Steal Shadow": {
       "name": "Steal Shadow",
@@ -5283,8 +5281,7 @@
     },
     "Teleport": {
       "name": "Teleporte",
-      "description": "<p>Você e os alvos são instantaneamente transportados para qualquer local na distância, desde que seja capaz de determinar a aparência desse local (ou outras características marcantes) e a posição dele relativa à sua posição inicial. Conhecimento incorreto sobre a aparência do local normalmente faz a magia falhar, mas em vez disso ela pode teleportar os alvos para um local indesejado ou resultar em algum outro incidente determinado pelo mestre. Teleporte não é preciso em grandes distâncias. Os alvos aparecem a uma distância do destino pretendido igual a mais ou menos 1 por cento da distância total deslocada, em uma direção determinada pelo mestre. Para trajetos curtos, esta falta de precisão é irrelevante, mas para longas distâncias pode chegar a até 1,5 quilômetros.</p><hr /><p><strong>Elevada (7º)</strong> Você e os outros alvos podem viajar para qualquer local a até 1.500 quilômetros.</p><p><strong>Elevada (8º)</strong> Você e os outros alvos podem viajar para qualquer local no mesmo planeta. Se viajar mais de 1.500 quilômetros, você chega a somente 15 quilômetros de distância do destino pretendido.</p><p><strong>Elevada (9º)</strong> Você e os outros alvos podem viajar para qualquer local em outro planeta no mesmo sistema solar. Pressupondo que você tenha conhecimento preciso sobre a posição e aparência do local, você chega ao novo planeta a 150 quilômetros de distância do destino pretendido.</p><p><strong>Elevada (10º)</strong> Como a versão de 9º nível, mas você e os outros alvos podem viajar para qualquer planeta na mesma galáxia.</p>",
-      "target": "you and up to 4 targets touched, either willing creatures or objects roughly the size of a creature."
+      "description": "<p>Você e os alvos são instantaneamente transportados para qualquer local na distância, desde que seja capaz de determinar a aparência desse local (ou outras características marcantes) e a posição dele relativa à sua posição inicial. Conhecimento incorreto sobre a aparência do local normalmente faz a magia falhar, mas em vez disso ela pode teleportar os alvos para um local indesejado ou resultar em algum outro incidente determinado pelo mestre. Teleporte não é preciso em grandes distâncias. Os alvos aparecem a uma distância do destino pretendido igual a mais ou menos 1 por cento da distância total deslocada, em uma direção determinada pelo mestre. Para trajetos curtos, esta falta de precisão é irrelevante, mas para longas distâncias pode chegar a até 1,5 quilômetros.</p><hr /><p><strong>Elevada (7º)</strong> Você e os outros alvos podem viajar para qualquer local a até 1.500 quilômetros.</p><p><strong>Elevada (8º)</strong> Você e os outros alvos podem viajar para qualquer local no mesmo planeta. Se viajar mais de 1.500 quilômetros, você chega a somente 15 quilômetros de distância do destino pretendido.</p><p><strong>Elevada (9º)</strong> Você e os outros alvos podem viajar para qualquer local em outro planeta no mesmo sistema solar. Pressupondo que você tenha conhecimento preciso sobre a posição e aparência do local, você chega ao novo planeta a 150 quilômetros de distância do destino pretendido.</p><p><strong>Elevada (10º)</strong> Como a versão de 9º nível, mas você e os outros alvos podem viajar para qualquer planeta na mesma galáxia.</p>"
     },
     "Teleportation Circle": {
       "name": "Teleportation Circle",
@@ -5570,7 +5567,6 @@
       "target": "1 criatura"
     },
     "Undertaker": {
-      "name": "Undertaker",
       "target": "1 criatura viva"
     },
     "Unexpected Transposition": {
@@ -5650,7 +5646,6 @@
       "description": "<p> Você envia correntes de ki protetor à superfície de seu corpo que lhe resguarda de ferimentos, pelo menos até seus inimigos as dissiparem. Você recebe 15 Pontos de Vida temporários, que duram por até 3 rodadas. </p><hr /><p><strong>Elevada (+1)</strong> Os Pontos de Vida temporários aumentam em 5.</p>"
     },
     "Unusual Anatomy": {
-      "name": "Unusual Anatomy",
       "description": "<p> Você transforma sua carne e órgãos em um amálgama bizarro de pele reluzente, escamas grossas, tufos de pelo e protuberâncias tumorosas. Isto possui três efeitos: </p>\n<ul>\n<li>Você adquire resistência 10 a dano de precisão e resistência 10 a dano extra de acertos críticos. Se a resistência for maior que o dano extra sofrido, ela reduz o dano extra para 0, mas não reduz o dano inteiro do ataque.</li>\n<li>Você adquire visão no escuro.</li>\n<li>Ácidos escorrem de sua pele. Qualquer criatura que o acertar com um ataque desarmado ou com um ataque usando uma arma corpo a corpo que não seja de alcance sofre 2d6 de dano de ácido.</li>\n</ul>\n<hr />\n<p><strong>Elevada (+2)</strong> A resistência aumenta em 5 pontos e o dano de ácido aumenta em 1d6.</p>\n<p>@Compendium[pf2e.spell-effects.LMzFBnOEPzDGzHg4]{Spell Effect: Unusual Anatomy}</p>"
     },
     "Updraft": {
