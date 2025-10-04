@@ -89,5 +89,13 @@
         }
       }
     }
+  },
+  "mapping": {
+    "description": {
+      "converter": "translateActorDescription"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription"
+    }
   }
 }
