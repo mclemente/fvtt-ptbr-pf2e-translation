@@ -2401,7 +2401,6 @@
       "description": "<p>Você sabe que os maiores tesouros muitas vezes parecem lixo. Você recebe um bônus de circunstância de +1 em testes para Subsistir e pode usar Sociedade ou Sobrevivência quando você @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsistir} em um assentamento.</p>\n<p>Quando você Subsiste em uma cidade, você também recolhe lixo valioso que os bobos dos longshanks arremessaram fora. Você pode @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Gerar Renda} usando Sociedade ou Sobrevivência ao mesmo tempo em que você Subsiste, sem gastar dias adicionais de folga. Você também recebe um bônus de circunstância de +1 neste teste.</p>\n<hr />\n<p><strong>Especial:</strong> Se você tiver a herança Goblin Bucho-de-Ferro, aumente os bônus para +2.</p>"
     },
     "Clan Pistol": {
-      "name": "Clan Pistol",
       "description": "<p><strong>Access</strong> You are from Dongun Hold or Alkenstar.</p>\n<hr />\n<p>Raised in the ancient halls of Dongun Hold or the surrounding region, you display your lineage with a clan pistol, rather than a clan dagger. You get one clan pistol of your clan for free, as it was given to you at birth. This replaces your clan dagger. Selling this pistol is a terrible taboo and earns you the disdain of other dwarves. You are trained with the clan pistol. In addition, when your clan pistol is visible, you gain a +1 circumstance bonus on checks to @UUID[Compendium.pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Gather Information} or @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Make an Impression} when interacting with citizens of Alkenstar, Dongun Hold, or their allies.</p>"
     },
     "Clan Protector": {
@@ -8162,8 +8161,16 @@
       "prerequisites": [
         {
           "value": "Cura Ateísta"
+        },
+        {
+          "value": "Você segue as Leis da Mortalidade"
         }
-      ]
+      ],
+      "rules": {
+        "0": {
+          "text": "Quando rolar um sucesso para @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Tratar Ferimentos} de uma criatura que não tenha recuperado Pontos de Vida por magia divina nas últimas 24 horas, trate o resultado como um sucesso crítico e restaure a quantidade correspondente de Pontos de Vida."
+        }
+      }
     },
     "Mortification": {
       "name": "Mortificação",
@@ -12223,7 +12230,12 @@
     },
     "Syncretism": {
       "name": "Sincretismo",
-      "description": "<p> <strong>Pré-requisitos</strong> você segue uma divindade </span></p> <hr> <p>Você chegou a ver a sobreposição entre os ensinamentos de duas divindades. Escolha uma segunda divindade. Você deve atender aos requisitos de alinhamento e está sujeito aos editos e anátemas. Se você é um clérigo enclausurado, selecione um dos domínios dessa divindade, obtendo os benefícios do talento <a href=\"https://2e.aonprd.com/Feats.aspx?ID=1172\">Iniciado no Domínio Expandido</a> com esse domínio. Se você é um capelão da guerra, ganha a arma favorita dessa divindade como segunda arma favorita, e ela ganha os benefícios de talentos e perícias que afetam a arma favorita de sua divindade, como @Compendium[pf2e.feats-srd.DfLkIIg2reyYW3a8]{Simplicidade Mortal}. Se você tem uma doutrina diferente de clérigo enclausurado ou capelão de guerra, aplique a opção que for mais apropriada para sua doutrina ou, a critério do mestre, adicione um benefício da segunda divindade mais intimamente ligada à sua doutrina.</p> (Tradução não oficial - Gods and Magic)"
+      "description": "<p> <strong>Pré-requisitos</strong> você segue uma divindade </span></p> <hr> <p>Você chegou a ver a sobreposição entre os ensinamentos de duas divindades. Escolha uma segunda divindade. Você deve atender aos requisitos de alinhamento e está sujeito aos editos e anátemas. Se você é um clérigo enclausurado, selecione um dos domínios dessa divindade, obtendo os benefícios do talento <a href=\"https://2e.aonprd.com/Feats.aspx?ID=1172\">Iniciado no Domínio Expandido</a> com esse domínio. Se você é um capelão da guerra, ganha a arma favorita dessa divindade como segunda arma favorita, e ela ganha os benefícios de talentos e perícias que afetam a arma favorita de sua divindade, como @Compendium[pf2e.feats-srd.DfLkIIg2reyYW3a8]{Simplicidade Mortal}. Se você tem uma doutrina diferente de clérigo enclausurado ou capelão de guerra, aplique a opção que for mais apropriada para sua doutrina ou, a critério do mestre, adicione um benefício da segunda divindade mais intimamente ligada à sua doutrina.</p> (Tradução não oficial - Gods and Magic)",
+      "prerequisites": [
+        {
+          "value": "você segue uma divindade"
+        }
+      ]
     },
     "Synergistic Spell": {
       "name": "Magia Sinérgica",
@@ -13949,6 +13961,7 @@
     "Aiuvarin": "Aiuvarin",
     "Archetype": "Arquétipo",
     "Level 1": "Nível 1",
+    "Versatile Heritages": "Heranças Versáteis",
     "Wizard": "Mago",
     "Anadi": "Anadi",
     "Ardande": "Ardande",
@@ -13964,7 +13977,6 @@
     "Kineticist": "Cineticista",
     "Kobold": "Kobold",
     "Level 17": "Nível 17",
-    "Beastkin": "Beastkin",
     "Reflection": "Reflexão",
     "Nephilim": "Nefilim",
     "Dhampir": "Dampiro",
@@ -13982,9 +13994,7 @@
     "Talos": "Talos",
     "Grippli": "Grippli",
     "Hellknight": "Cavaleiro Infernal",
-    "Naari": "Naari",
     "Ranger": "Patrulheiro",
-    "Sylph": "Sylph",
     "Class": "Classe",
     "Gnome": "Gnomo",
     "Inventor": "Inventor",
@@ -14007,7 +14017,6 @@
     "Cleric": "Clérigo",
     "Shisk": "Shisk",
     "Game Hunter": "Caçador dos Jogos",
-    "Samsaran": "Samsaran",
     "Witch": "Bruxo",
     "Vishkanya": "Vishkanya",
     "Vanara": "Vanara",
@@ -14038,7 +14047,6 @@
     "Hobgoblin": "Hobgoblin",
     "Linguist": "Linguista",
     "Goblin": "Goblin",
-    "Ghoran": "Ghoran",
     "Runescarred": "Marcado pelas Runas",
     "Dwarf": "Anão",
     "Student of Perfection": "Estudante da Perfeição",

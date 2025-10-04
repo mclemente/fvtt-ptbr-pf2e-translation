@@ -608,14 +608,8 @@
     },
     "Mulventok": {
       "items": {
-        "strike-melee->Tamchal Chakram": {
-          "name": "Tamchal Chakram"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
-        },
-        "strike-ranged->Tamchal Chakram": {
-          "name": "Tamchal Chakram"
         }
       }
     },
@@ -823,7 +817,7 @@
         "consumable->Wand of Status (Level 2)": {
           "consumableSpellName": "Condição",
           "consumableSpellDescription": "<p>Enquanto você e o alvo estiverem no mesmo plano de existência e ambos estiverem vivos, você permanece ciente do estado atual dele. Você sabe a direção e distância do alvo em relação a você, assim como quaisquer condições que o estiverem afetando.</p><hr /><p><strong>Elevada (4º)</strong> A distância da magia aumenta para 9 metros e você pode afetar até 10 criaturas.</p>",
-          "consumableSpellTarget": "1 willing living creature"
+          "consumableSpellTarget": "1 criatura viva voluntária"
         },
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -869,9 +863,6 @@
     },
     "Siora Fallowglade": {
       "items": {
-        "action->Mark for Death": {
-          "name": "Mark for Death"
-        },
         "action->Steal Shadow": {
           "name": "Steal Shadow"
         }
@@ -940,9 +931,6 @@
       "items": {
         "spell->Feather Fall (At Will) (Self Only)": {
           "target": "si mesmo"
-        },
-        "strike-melee->Shauth Lash": {
-          "name": "Shauth Lash"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1026,7 +1014,6 @@
           "label": "Escalada"
         }
       },
-      "tokenName": "Morlock",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1100,6 +1087,80 @@
           "name": "Saber de Navegação"
         }
       }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "privateNotes": "system.details.privateNotes",
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialAcrobatics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.acrobatics.special"
+    },
+    "skillSpecialAthletics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.athletics.special"
+    },
+    "skillSpecialCrafting": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.crafting.special"
+    },
+    "skillSpecialDiplomacy": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.diplomacy.special"
+    },
+    "skillSpecialOccultism": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.occultism.special"
+    },
+    "skillSpecialStealth": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.stealth.special"
+    },
+    "skillSpecialSurvival": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.survival.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }

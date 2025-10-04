@@ -28,9 +28,6 @@
       "name": "Orc dos Ermos",
       "description": "<p>Você vem de terras ermas causticadas pelo sol, onde pernas longas e a habilidade de tolerar os elementos lhe ajudaram a sobreviver. Você pode @Compendium[pf2e.actionspf2e.JuqmIAnkL9hVGai8]{Trotar} o dobro do tempo antes de precisar parar de fazê-lo, e trata efeitos ambientais de calor como se fossem um passo menos extremo (calor incrível se torna extremo, calor extremo se torna severo e assim por diante).</p>"
     },
-    "Beastkin": {
-      "name": "Beastkin"
-    },
     "Cactus Leshy": {
       "name": "Leshy de Cacto"
     },
@@ -166,9 +163,6 @@
     "Mountainkeeper Tengu": {
       "name": "Tengu Guardião da Montanha"
     },
-    "Naari": {
-      "name": "Naari"
-    },
     "Nephilim": {
       "name": "Nefilim"
     },
@@ -265,9 +259,6 @@
     "Suli": {
       "name": "Suli"
     },
-    "Sylph": {
-      "name": "Sylph"
-    },
     "Tailed Goblin": {
       "name": "Goblin Rabado"
     },
@@ -344,11 +335,25 @@
       "description": "<p>Você é adaptado à vida nas florestas ou nas selvas e sabe escalar árvores e usar a folhagem em seu favor. Quando @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Escalar} árvores, vinhas e outras folhagens, você se move à metade de sua Velocidade em um sucesso e à sua Velocidade total em um sucesso crítico (e se move à sua Velocidade total em um sucesso se possuir @Compendium[pf2e.feats-srd.P04Hw8E6WAWARKHP]{Escalada Rápida}). Isto não o afeta se você estiver usando uma Velocidade de escalada.</p>\n<p>Você sempre pode usar a ação @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Obter Cobertura} enquanto estiver em terreno de floresta, mesmo que não esteja próximo a um obstáculo que ofereceria cobertura.</p>"
     }
   },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  },
   "folders": {
     "Athamaru": "Athamaru",
     "Awakened Animal": "Animal Despertado",
     "Centaur": "Centauro",
-    "Ghoran": "Ghoran",
     "Gnome": "Gnomo",
     "Goblin": "Goblin",
     "Goloma": "Goloma",
@@ -367,7 +372,6 @@
     "Orc": "Orc",
     "Poppet": "Poppet",
     "Ratfolk": "Povo-Rato",
-    "Samsaran": "Samsaran",
     "Shisk": "Shisk",
     "Shoony": "Shoony",
     "Skeleton": "Esqueleto",
@@ -378,6 +382,7 @@
     "Tengu": "Tengu",
     "Tripkee": "Grippli",
     "Vanara": "Vanara",
+    "Versatile Heritages": "Heranças Versáteis",
     "Vishkanya": "Vishkanya",
     "Wayang": "Wayang",
     "Anadi": "Anadi",

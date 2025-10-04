@@ -232,7 +232,6 @@
       }
     },
     "Ghul": {
-      "name": "Ghul",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -298,8 +297,7 @@
           "requirements": "3 gp silver bell focus"
         },
         "consumable->Scroll of Teleport (Level 6)": {
-          "consumableSpellName": "Teleporte",
-          "consumableSpellTarget": "you and up to 4 targets touched, either willing creatures or objects roughly the size of a creature."
+          "consumableSpellName": "Teleporte"
         },
         "consumable->Wand of Dispel Magic (Level 6)": {
           "consumableSpellName": "Dissipar Magia",
@@ -491,9 +489,6 @@
       "items": {
         "strike-melee->Fist": {
           "name": "Punho"
-        },
-        "strike-ranged->Flintlock Pistol": {
-          "name": "Flintlock Pistol"
         }
       }
     },
@@ -537,9 +532,6 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
-        },
-        "action->Final Spite": {
-          "name": "Final Spite"
         },
         "action->Drain Life": {
           "name": "Drenar Vida"
@@ -788,9 +780,6 @@
         "strike-melee->Claw": {
           "name": "Garra"
         },
-        "action->Final Spite": {
-          "name": "Final Spite"
-        },
         "action->Drain Life": {
           "name": "Drenar Vida"
         },
@@ -876,6 +865,67 @@
           "name": "Lentidão"
         }
       }
+    }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription",
+      "path": "translateActorDescription"
+    },
+    "disable": "translateActorDescription",
+    "hpDetails": "system.attributes.hp.details",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "languages": "system.details.languages.details",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription",
+      "path": "system.details.publicNotes"
+    },
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
+    "senses": "system.perception.details",
+    "skillSpecialAcrobatics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.acrobatics.special"
+    },
+    "skillSpecialAthletics": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.athletics.special"
+    },
+    "skillSpecialIntimidation": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.intimidation.special"
+    },
+    "skillSpecialSurvival": {
+      "converter": "translateSkillSpecial",
+      "path": "system.skills.survival.special"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.details.publication.title"
+    },
+    "speed": "system.attributes.speed.details",
+    "stealth": "system.attributes.stealth.details",
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }

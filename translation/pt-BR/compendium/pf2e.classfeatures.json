@@ -1272,5 +1272,21 @@
       "name": "Especialidade em Armas de Mago",
       "description": "<p>Através de uma combinação de magia e treinamento, você aprendeu a empunhar armas típicas de mago mais eficientemente. Suas graduações de proficiência em adaga, besta leve, besta pesada, cajado, clava e ataques desarmados aumentam para especialista.</p>"
     }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "prerequisites": "system.prerequisites.value",
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
   }
 }

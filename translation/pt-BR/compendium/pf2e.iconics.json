@@ -155,9 +155,6 @@
         },
         "consumable->Scroll of Pet Cache (Rank 1)": {
           "consumableSpellName": "Pet Cache"
-        },
-        "spell->Blood Vendetta": {
-          "requirements": "You can bleed"
         }
       }
     },
@@ -168,9 +165,6 @@
         },
         "spell->Pet Cache": {
           "target": "1 willing creature that is your animal companion or familiar"
-        },
-        "spell->Blood Vendetta": {
-          "requirements": "You can bleed"
         },
         "consumable->Scroll of Invisibility (Rank 2)": {
           "consumableSpellName": "Invisibilidade",
@@ -1461,6 +1455,31 @@
           "name": "Punho"
         }
       }
+    }
+  },
+  "mapping": {
+    "ethnicity": "system.details.ethnicity.value",
+    "familiarType": "system.details.creature.value",
+    "gender": "system.details.gender.value",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
     }
   }
 }
