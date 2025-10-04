@@ -44,5 +44,22 @@
     "Study": {
       "name": "Study (Pathfinder #169: Kindled Magic)"
     }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "gmNote": "system.description.gm",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "selfEffect": "system.selfEffect.name",
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
   }
 }
