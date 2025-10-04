@@ -32,6 +32,23 @@
       "name": "Treinamento em Perícia"
     }
   },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "prerequisites": "system.prerequisites.value",
+    "requirements": "system.requirements",
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
+  },
   "folders": {
     "Effects": "Efeitos",
     "Kingdom Activities": "Atividades de Reino"
