@@ -1456,5 +1456,30 @@
         }
       }
     }
+  },
+  "mapping": {
+    "ethnicity": "system.details.ethnicity.value",
+    "familiarType": "system.details.creature.value",
+    "gender": "system.details.gender.value",
+    "items": {
+      "converter": "translateActorItems",
+      "path": "items"
+    },
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "portrait": {
+      "converter": "updateActorImage",
+      "path": "img"
+    },
+    "tokenImage": {
+      "converter": "updateTokenImage",
+      "path": "prototypeToken.texture.src"
+    },
+    "tokenName": {
+      "converter": "translateTokenName",
+      "path": "prototypeToken.name"
+    }
   }
 }
