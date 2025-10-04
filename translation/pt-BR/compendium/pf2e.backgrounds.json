@@ -2231,6 +2231,22 @@
       ]
     }
   },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "rules": {
+      "converter": "translateRules",
+      "path": "system.rules"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    },
+    "trainedLore": "system.trainedSkills.lore"
+  },
   "folders": {
     "Adventure Paths": "Trilhas de Aventura",
     "Kingmaker": "Kingmaker"
