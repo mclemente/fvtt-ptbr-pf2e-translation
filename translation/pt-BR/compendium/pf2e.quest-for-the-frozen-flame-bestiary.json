@@ -1,5 +1,12 @@
 {
   "entries": {
+    "Abyss-warped Trees": {
+      "items": {
+        "strike-melee->Branch": {
+          "name": "Galho"
+        }
+      }
+    },
     "Arboreal Tar Tree": {
       "items": {
         "strike-ranged->Rock": {
@@ -13,10 +20,197 @@
         }
       }
     },
+    "Ardissa Prendergant": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "consumable->Scroll of Fireball (Level 3)": {
+          "consumableSpellName": "Bola de Fogo",
+          "consumableSpellDescription": "<p>Uma explosão estrondosa de fogo aparece no ponto que você designa, causando 6d6 de dano de fogo.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 2d6.</p>"
+        },
+        "consumable->Scroll of Magic Missile (Level 1)": {
+          "consumableSpellName": "Mísseis Mágicos",
+          "consumableSpellDescription": "<p>Você lança um míssil de força em direção a uma criatura em sua visão. Ele acerta automaticamente e causa 1d4+1 de dano de força. Para cada ação adicional que você usar para Conjurar esta Magia, aumente a quantidade de mísseis disparados em um, até um máximo de três mísseis para 3 ações. Você escolhe o alvo para cada míssil individualmente. Se você disparar mais de um míssil no mesmo alvo, combine o dano antes de aplicar bônus ou penalidades ao dano, resistências, fraquezas e assim por diante.</p><hr /><p><strong>Elevada (+2)</strong> Você dispara um míssil adicional com cada ação que gastar.</p>",
+          "consumableSpellTarget": "1 criatura"
+        },
+        "strike-melee->Rapier": {
+          "name": "Rapieira"
+        },
+        "strike-ranged->Heavy Crossbow": {
+          "name": "Besta Pesada"
+        },
+        "action->Drain Bonded Item": {
+          "name": "Drenar Item Ligado"
+        }
+      }
+    },
+    "Ashen Swale": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "consumable->Wand of Heal (Level 3)": {
+          "consumableSpellName": "Curar",
+          "consumableSpellTarget": "1 willing living creature or 1 undead"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "action->Manifest Eidolon": {
+          "name": "Manifestar Eidolon"
+        }
+      }
+    },
+    "Azi": {
+      "items": {
+        "spell->Chill Touch": {
+          "target": "1 living or undead creature"
+        },
+        "weapon->Staff of Necromancy": {
+          "name": "Cajado de Necromancia"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "action->Reach Spell": {
+          "name": "Magia de Alcance"
+        }
+      }
+    },
+    "Bargott": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
     "Beaver": {
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        }
+      }
+    },
+    "Bone Warrior": {
+      "items": {
+        "strike-melee->Bastard Sword": {
+          "name": "Espada Bastarda"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Azagaia"
+        },
+        "action->Sudden Charge": {
+          "name": "Investida Súbita"
+        }
+      }
+    },
+    "Burnbearer": {
+      "items": {
+        "strike-melee->Club": {
+          "name": "Clava"
+        },
+        "strike-melee->Torch": {
+          "name": "Tocha"
+        },
+        "strike-ranged->Club": {
+          "name": "Clava"
+        }
+      }
+    },
+    "Burning Mammoth Commando": {
+      "items": {
+        "strike-melee->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        },
+        "action->Hunt Prey": {
+          "name": "Caçar Presa"
+        }
+      }
+    },
+    "Burning Mammoth Hunter": {
+      "items": {
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Sling": {
+          "name": "Funda"
+        }
+      }
+    },
+    "Burning Mammoth Longshield": {
+      "items": {
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-melee->Shield Boss": {
+          "name": "Bossa de Escudo"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        }
+      }
+    },
+    "Burning Mammoth Reaver": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-ranged->Javelin": {
+          "name": "Azagaia"
+        }
+      }
+    },
+    "Cairn Wight (G4)": {
+      "items": {
+        "strike-melee->Club": {
+          "name": "Clava"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Club": {
+          "name": "Clava"
+        },
+        "action->Final Spite": {
+          "name": "Final Spite"
+        },
+        "action->Drain Life": {
+          "name": "Drenar Vida"
+        }
+      }
+    },
+    "Calcifda": {
+      "items": {
+        "spell->Undetectable Alignment": {
+          "name": "Tendência Indetectável",
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
+          "target": "1 creature or object"
+        },
+        "treasure->Opal": {
+          "name": "Opala"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Steady Spellcasting": {
+          "name": "Conjuração Consistente"
         }
       }
     },
@@ -27,7 +221,83 @@
         }
       }
     },
+    "Corrupted Elder Tree": {
+      "items": {
+        "strike-melee->Branch": {
+          "name": "Galho"
+        },
+        "strike-melee->Root": {
+          "name": "Raiz"
+        },
+        "strike-ranged->Rock": {
+          "name": "Rocha"
+        },
+        "action->Axe Vulnerability": {
+          "name": "Vulnerabilidade a Machado"
+        }
+      }
+    },
+    "Desiak": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Elk": {
+      "items": {
+        "strike-melee->Antlers": {
+          "name": "Chifres"
+        },
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Everburning Mammoth": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Drink Blood": {
+          "name": "Drink Blood (Book of the Dead)"
+        }
+      }
+    },
+    "Fiendish Arboreal": {
+      "items": {
+        "strike-melee->Shield Bash": {
+          "name": "Pancada com Escudo"
+        },
+        "action->Axe Vulnerability": {
+          "name": "Vulnerabilidade a Machado"
+        }
+      }
+    },
+    "Footsteps Of Legends": {
+      "reset": "1 hora"
+    },
+    "Gathganara": {
+      "items": {
+        "strike-melee->Aqueous Fist": {
+          "name": "Punho Aquoso"
+        },
+        "action->Wild Empathy": {
+          "name": "Empatia Selvagem"
+        }
+      }
+    },
     "Giant Tapir": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Giant Tapir (Snared)": {
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -44,6 +314,57 @@
         }
       }
     },
+    "Graylok Ambusher": {
+      "items": {
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "action->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        },
+        "action->Opportune Backstab": {
+          "name": "Apunhalada Oportuna"
+        },
+        "action->Brutal Beating": {
+          "name": "Surra Brutal"
+        },
+        "action->Dread Striker": {
+          "name": "Golpeador Pavoroso"
+        },
+        "action->Light Step": {
+          "name": "Passo Leve"
+        }
+      }
+    },
+    "Graylok Artillerist": {
+      "items": {
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        }
+      }
+    },
+    "Graylok Gatebreaker": {
+      "items": {
+        "strike-melee->Battle Axe": {
+          "name": "Machado de Batalha"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "action->Shield Block": {
+          "name": "Bloqueio com Escudo"
+        },
+        "action->Shielded Stride": {
+          "name": "Deslocamento com Escudo"
+        }
+      }
+    },
     "Groplit": {
       "items": {
         "strike-melee->Jaws": {
@@ -51,6 +372,105 @@
         },
         "strike-melee->Tongue": {
           "name": "Língua"
+        }
+      }
+    },
+    "Hegremon": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        },
+        "action->Hunt Prey": {
+          "name": "Caçar Presa"
+        },
+        "action->Nature's Edge": {
+          "name": "Préstimo da Natureza"
+        },
+        "action->Penetrating Shot": {
+          "name": "Tiro Penetrante"
+        }
+      }
+    },
+    "Hobji": {
+      "items": {
+        "equipment->Snare Kit (Specialist)": {
+          "name": "Kit de Arapucas (Especialista)",
+          "description": "<p><span class=\"fontstyle0\">Este kit contém ferramentas e materiais para criar arapucas. Um kit de arapucas permite que você Manufature arapucas usando a perícia Manufatura. Um kit de arapucas de especialista concede +1 de bônus de item no teste.  </p>"
+        },
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Warhammer": {
+          "name": "Martelo de Guerra"
+        },
+        "action->Surprise Attack": {
+          "name": "Ataque Surpresa"
+        }
+      }
+    },
+    "Idovik": {
+      "items": {
+        "strike-melee->Tusk": {
+          "name": "Presa"
+        },
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        },
+        "action->Spirit Link": {
+          "name": "Vínculo Espiritual"
+        }
+      }
+    },
+    "Ivarsa": {
+      "items": {
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Thunderous Strike": {
+          "requirements": "You're wielding a melee weapon in two hands"
+        },
+        "strike-melee->Greataxe": {
+          "name": "Machado Longo"
+        },
+        "action->Attack of Opportunity": {
+          "name": "Ataque de Oportunidade"
+        },
+        "lore->Warfare Lore": {
+          "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Jesseri The Hailstorm": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "weapon->Staff of Divination": {
+          "name": "Cajado da Adivinhação"
+        },
+        "strike-melee->Staff": {
+          "name": "Cajado"
+        },
+        "action->Signature Spells": {
+          "name": "Magias Emblemáticas (Nível 3)"
+        }
+      }
+    },
+    "Kadlaka": {
+      "items": {
+        "strike-melee->Beak": {
+          "name": "Bico"
+        },
+        "strike-melee->Longspear": {
+          "name": "Lança Longa"
         }
       }
     },
@@ -67,6 +487,40 @@
         }
       }
     },
+    "Loblobi": {
+      "items": {
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "strike-melee->Beak": {
+          "name": "Bico"
+        }
+      }
+    },
+    "Lomok": {
+      "items": {
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "action->Aura of Courage": {
+          "name": "Aura de Coragem"
+        },
+        "action->Retributive Strike": {
+          "name": "Golpe Retributivo"
+        },
+        "action->Shield Block": {
+          "name": "Bloqueio com Escudo",
+          "description": "<p><strong>Acionamento</strong> Enquanto estiver com seu escudo erguido, você sofreria dano de um ataque físico.</p> <p>Você posiciona seu escudo na frente de um golpe para bloqueálo. Seu escudo o impede de sofrer uma quantidade de dano igual à dureza do escudo. Tanto você quanto o escudo sofrem o dano remanescente (ambos sofrem o mesmo dano), o que pode quebrar ou até mesmo destruir o escudo.</p>"
+        }
+      }
+    },
     "Long-horned Bison": {
       "items": {
         "strike-melee->Hoof": {
@@ -74,6 +528,93 @@
         },
         "strike-melee->Horn": {
           "name": "Chifre"
+        }
+      }
+    },
+    "Long-horned Bison Beheaded": {
+      "items": {
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        }
+      }
+    },
+    "Megaloceros": {
+      "items": {
+        "strike-melee->Antlers": {
+          "name": "Chifres"
+        },
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        }
+      }
+    },
+    "Metuak": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-ranged->Hatchet": {
+          "name": "Machadinha"
+        },
+        "action->Attack of Opportunity": {
+          "name": "Ataque de Oportunidade"
+        },
+        "action->Terrifying Howl": {
+          "name": "Brado Aterrorizante"
+        }
+      }
+    },
+    "Necrohusk": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Leg": {
+          "name": "Perna"
+        }
+      }
+    },
+    "Oil Explosion": {
+      "items": {
+        "action->Explode": {
+          "name": "Explode (Guns & Gears)"
+        }
+      }
+    },
+    "Pakano": {
+      "items": {
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Spear": {
+          "name": "Lança"
+        },
+        "action->Hunt Prey": {
+          "name": "Caçar Presa"
+        }
+      }
+    },
+    "Pakano (Level 12)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
+    "Pouncing Tiger Haunt": {
+      "items": {
+        "action->Tiger Slash": {
+          "name": "Corte do Tigre"
+        }
+      }
+    },
+    "Rhino Warriors": {
+      "items": {
+        "strike-melee->Pick": {
+          "name": "Picareta"
+        },
+        "action->Str": {
+          "name": "For"
         }
       }
     },
@@ -94,6 +635,50 @@
         }
       }
     },
+    "Skeletal Woolly Rhinoceros": {
+      "items": {
+        "strike-melee->Horn": {
+          "name": "Chifre"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        }
+      }
+    },
+    "Spectral Archers": {
+      "items": {
+        "action->Routine": {
+          "name": "Rotina"
+        }
+      }
+    },
+    "Summer Hora": {
+      "items": {
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        }
+      }
+    },
+    "Summer Hora Queen": {
+      "items": {
+        "spell->Restore Senses": {
+          "target": "1 criatura"
+        },
+        "spell->Alarm": {
+          "requirements": "3 gp silver bell focus"
+        },
+        "spell->Dancing Lights": {
+          "name": "Luzes Dançantes",
+          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
+        },
+        "spell->Light": {
+          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        }
+      }
+    },
     "Tar Ooze": {
       "items": {
         "strike-melee->Pseudopod": {
@@ -101,6 +686,184 @@
         },
         "action->Motion Sense": {
           "name": "Sentido de movimento"
+        }
+      }
+    },
+    "Tar Zombie Mammoth": {
+      "items": {
+        "strike-melee->Tusk": {
+          "name": "Presa"
+        },
+        "strike-melee->Trunk": {
+          "name": "Tronco"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "action->Flammable": {
+          "name": "Inflamável"
+        }
+      }
+    },
+    "Tar Zombie Predator": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "action->Flammable": {
+          "name": "Inflamável"
+        }
+      }
+    },
+    "Tar Zombie Snatcher": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "action->Flammable": {
+          "name": "Inflamável"
+        }
+      }
+    },
+    "Throttled Blindheim": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Turkek": {
+      "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
+        "consumable->Wand of Widening (Darkness Level 2)": {
+          "consumableSpellName": "Escuridão",
+          "consumableSpellDescription": "<p>Você cria um manto de escuridão que impede qualquer de entrar ou emanar dentro da área. Nenhuma luz entra na área e quaisquer fontes de iluminação não-mágica, como uma tocha ou lanterna, não emanam luz enquanto estiverem na área, mesmo se seu raio de iluminação se estenderia além da escuridão. Isto também suprime qualquer luz mágica de nível de magia igual ou inferior ao de sua escuridão. A luz não pode atravessar a escuridão, portanto, criaturas na área não conseguem ver o lado de fora. Do lado de fora, a área parece um globo de pura escuridão.</p><hr /><p><strong>Elevada (4º)</strong> Mesmo criaturas com visão no escuro (mas não com visão no escuro maior) mal podem ver através da escuridão. Elas tratam alvos vistos na escuridão como @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{ocultado}.</p>"
+        },
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        }
+      }
+    },
+    "Varilyn \"Vare\" Eridge": {
+      "items": {
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Besta Leve"
+        },
+        "action->Snare Crafting": {
+          "name": "Manufatura de Arapuca"
+        }
+      }
+    },
+    "Venexus": {
+      "items": {
+        "spell->Produce Flame": {
+          "name": "Produzir Chama",
+          "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
+          "target": "1 criatura"
+        },
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Draconic Frenzy": {
+          "name": "Frenesi Dracônico"
+        }
+      }
+    },
+    "Venexus's Chosen": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Change Shape": {
+          "name": "Trocar Forma"
+        },
+        "action->Flurry of Blows": {
+          "name": "Rajada de Golpes"
+        }
+      }
+    },
+    "Venexus's Wyrmling": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "strike-melee->Tail": {
+          "name": "Cauda"
+        },
+        "action->Draconic Frenzy": {
+          "name": "Frenesi Dracônico"
+        }
+      }
+    },
+    "Weykoward": {
+      "items": {
+        "strike-melee->Fist": {
+          "name": "Punho"
+        }
+      }
+    },
+    "Yana No-trail": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Evasion": {
+          "name": "Evasão (Nível 7)"
+        },
+        "action->Change Shape": {
+          "name": "Trocar Forma"
+        }
+      }
+    },
+    "Zombie Mammoth": {
+      "items": {
+        "strike-melee->Tusk": {
+          "name": "Presa"
+        },
+        "strike-melee->Trunk": {
+          "name": "Tronco"
+        },
+        "strike-melee->Foot": {
+          "name": "Pé"
+        },
+        "action->Slow": {
+          "name": "Lentidão"
+        },
+        "action->Grabbing Trunk": {
+          "name": "Grabbing Trunk (Pathfinder #177)"
+        }
+      }
+    },
+    "Zombie Megaloceros": {
+      "items": {
+        "strike-melee->Antlers": {
+          "name": "Chifres"
+        },
+        "strike-melee->Hoof": {
+          "name": "Casco"
+        },
+        "action->Slow": {
+          "name": "Lentidão"
         }
       }
     }
