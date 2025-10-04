@@ -1160,5 +1160,15 @@
         }
       }
     }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
+    "description": {
+      "converter": "translateActorDescription"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription"
+    }
   }
 }
