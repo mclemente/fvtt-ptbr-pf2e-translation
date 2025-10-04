@@ -236,5 +236,12 @@
         }
       }
     }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
+    "publicNotes": {
+      "converter": "translateActorDescription"
+    }
   }
 }
