@@ -559,5 +559,11 @@
         }
       }
     }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "publicNotes": {
+      "converter": "translateActorDescription"
+    }
   }
 }
