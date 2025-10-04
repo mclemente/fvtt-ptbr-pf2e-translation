@@ -9,5 +9,16 @@
       "name": "Homem Verde",
       "description": "<h2>Benefícios de devoto</h2><p><strong>Atributo divino</strong> Constituição, Sabedoria</p><p><strong>Magias de clérigo</strong> 1. @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE], 2. @UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA], 6. @UUID[Compendium.pf2e.spells-srd.Item.JbAcSLu62TU1OgNF]</p><p><strong>Fonte divina</strong> curar</p><p><strong>Santificação divina</strong> nenhuma</p><p><strong>Perícia divina</strong> Natureza</p><p><strong>Domínios</strong> @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.A7vErdGAweYsFcW8], @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.wBhgIgt47v9uspp3], @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.MOVMHZU1SfkhNN1K], @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.Dx47K8wpx8KZUa9S]</p><p><strong>Domínios alternativos</strong> @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.ydbCjJ9PPmRzZhDN], @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.uGQKjk2w4whzomky], @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.EQfZepZX6rxxBRqG], @UUID[Compendium.pf2e.journals.JournalEntry.EEZvDB1Z7ezwaxIr.JournalEntryPage.FXOdRGOSdQJNprPx]</p><p><strong>Arma favorecida</strong> @UUID[Compendium.pf2e.equipment-srd.Item.c58wczIzH2gzeXQL]</p>"
     }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "name": {
+      "converter": "translateDualLanguage",
+      "path": "name"
+    },
+    "source": {
+      "converter": "translateSource",
+      "path": "system.publication.title"
+    }
   }
 }
