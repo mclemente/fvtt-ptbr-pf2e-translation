@@ -124,5 +124,14 @@
         }
       }
     }
+  },
+  "mapping": {
+    "acDetails": "system.attributes.ac.details",
+    "description": {
+      "converter": "translateActorDescription"
+    },
+    "publicNotes": {
+      "converter": "translateActorDescription"
+    }
   }
 }
