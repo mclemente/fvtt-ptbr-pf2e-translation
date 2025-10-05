@@ -518,6 +518,13 @@
     },
     "Popcorn": {
       "items": {
+        "heritage->Vine Leshy": {
+          "rules": {
+            "0": {
+              "text": "Se jogar um sucesso em uma Escalada, trate como um sucesso crítico."
+            }
+          }
+        },
         "lore->Cooking Lore": {
           "name": "Saber de Culinária"
         }
@@ -525,6 +532,13 @@
     },
     "Popcorn (Level 4)": {
       "items": {
+        "heritage->Vine Leshy": {
+          "rules": {
+            "0": {
+              "text": "Se jogar um sucesso em uma Escalada, trate como um sucesso crítico."
+            }
+          }
+        },
         "lore->Cooking Lore": {
           "name": "Saber de Culinária"
         }
@@ -734,6 +748,16 @@
       "items": {
         "lore->Labor Lore": {
           "name": "Saber de Trabalho"
+        },
+        "heritage->Cavern Kobold": {
+          "rules": {
+            "0": {
+              "text": "Ao Escalar elementos naturais de pedra, você se move a metade da sua Velocidade com um sucesso e a Velocidade completa com um sucesso crítico."
+            },
+            "1": {
+              "text": "Se jogar um sucesso em um teste de Acrobatismo para Espremer-se, trate como um sucesso crítico."
+            }
+          }
         }
       }
     },
@@ -819,6 +843,10 @@
         "consumable->Vanishing Coin": {
           "name": "Moeda Sumidoura",
           "description": "<p><span>Esta moeda de cobre fica pendurada em uma tira de couro que passa por um furo em seu centro. Até ser ativada, a moeda fica invisível por alguns segundos em intervalos aleatórios. Quando ativar a moeda, ela conjura @Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{invisibilidade} de 2º nível em você, durando até o final do seu próximo turno.  </p> <p><span><strong>Ativação</strong><span class=\"pf2-icon\">F</span>  Visualizar; <strong>Gatilho</strong> Você faz um teste de Furtividade, mas ainda não efetuou a rolagem; <strong>Exigências</strong> Você é mestre em Furtividade. </p>"
+        },
+        "feat->Scamper": {
+          "name": "Desembestar",
+          "description": "<p><strong>Requerimentos</strong> Você está adjacente a pelo menos um inimigo.</p>\n<hr />\n<p>Você Anda até a sua Velocidade, com +1,5 metro de bônus de estado na sua Velocidade, e recebe +2 de bônus de circunstância na CA contra reações acionadas por este movimento. Você precisa encerrar esse movimento em um espaço que não esteja adjacente a nenhum inimigo.</p>"
         },
         "feat->Gang Up": {
           "name": "Bandear",
