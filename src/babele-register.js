@@ -95,9 +95,7 @@ Hooks.once("babele.init", () => {
             type: Boolean,
             default: false,
             config: true,
-            onChange: foundry.utils.debounce(() => {
-                window.location.reload();
-            }, 100),
+            requiresReload: true,
         });
 
         game.babele.register({
