@@ -21,8 +21,7 @@
         },
         "consumable->Scroll of Heal (Rank 5)": {
           "consumableSpellName": "Curar",
-          "consumableSpellDescription": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
+          "consumableSpellDescription": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>"
         },
         "strike-melee->Staff": {
           "name": "Cajado"
@@ -34,12 +33,6 @@
     },
     "Acolyte of Pharasma": {
       "items": {
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-ranged->Dagger": [
           {
             "name": "Adaga"
@@ -52,15 +45,6 @@
     },
     "Aliriel": {
       "items": {
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
-        },
-        "spell->Shadow Walk": {
-          "target": "you and up to 9 willing creatures touched"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -155,9 +139,6 @@
         "spell->Finger of Death": {
           "target": "1 criatura viva"
         },
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
-        },
         "spell->Remove Curse": {
           "name": "Remover Maldição",
           "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
@@ -165,8 +146,7 @@
         },
         "spell->Undetectable Alignment": {
           "name": "Tendência Indetectável",
-          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
-          "target": "1 creature or object"
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>"
         },
         "strike-melee->Claw": {
           "name": "Garra"
