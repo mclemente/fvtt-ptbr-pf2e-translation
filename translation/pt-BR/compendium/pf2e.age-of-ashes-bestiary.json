@@ -5,9 +5,6 @@
       "items": {
         "strike-melee->Warhammer": {
           "name": "Martelo de Guerra"
-        },
-        "action->Soul Siphon": {
-          "name": "Soul Siphon"
         }
       }
     },
@@ -53,12 +50,6 @@
     },
     "Barushak Il-Varashma": {
       "items": {
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Morningstar": {
           "name": "Maça-estrela"
         },
@@ -182,9 +173,6 @@
       "items": {
         "spell->Wish": {
           "name": "Desejo"
-        },
-        "spell->Resilient Sphere": {
-          "target": "1 Large or smaller creature"
         }
       }
     },
@@ -248,8 +236,7 @@
     "Crucidaemon": {
       "items": {
         "spell->Glyph of Warding": {
-          "name": "Glifo de Guarda",
-          "target": "1 container or a 10-foot-by-10-foot area"
+          "name": "Glifo de Guarda"
         },
         "action->+1 Status to All Saves vs. Magic": {
           "name": " +1 de estado em todos os salvamentos contra magia"
@@ -385,9 +372,6 @@
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
         },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
         "strike-ranged->Longbow": {
           "name": "Arco Longo"
         },
@@ -403,12 +387,6 @@
       "items": {
         "spellcastingEntry->Focus Spells": {
           "name": "Magias de Foco"
-        },
-        "spell->Freedom": {
-          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
-        },
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
         },
         "strike-melee->Staff": {
           "name": "Cajado"
@@ -581,18 +559,6 @@
         "spellcastingEntry->Focus Spells": {
           "name": "Magias de Foco"
         },
-        "spell->Imprisonment": {
-          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
-        },
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Invisibility Sphere": {
-          "target": "you and any number of creatures in range"
-        },
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -601,19 +567,6 @@
         },
         "action->Overwhelming Energy": {
           "name": "Energia Avassaladora"
-        }
-      }
-    },
-    "Ilssrah Embermead": {
-      "items": {
-        "spell->Commanding Lash": {
-          "requirements": "Your most recent action dealt damage to a target."
-        },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
-        "spell->Purify Food and Drink": {
-          "target": "1 cubic foot of contaminated food or water"
         }
       }
     },
@@ -666,9 +619,6 @@
     },
     "Jaggaki": {
       "items": {
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         },
@@ -686,15 +636,11 @@
     "Jahsi": {
       "items": {
         "spell->Litany against Wrath": {
-          "name": "Litania contra a Ira",
-          "target": "1 evil creature"
+          "name": "Litania contra a Ira"
         },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
         },
         "strike-ranged->Longbow": {
           "name": "Arco Longo"
@@ -737,9 +683,6 @@
     },
     "King Harral": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
         "action->Steady Spellcasting": {
           "name": "Conjuração Consistente"
         }
@@ -752,8 +695,7 @@
         },
         "consumable->Scroll of Discern Location (Level 8)": {
           "consumableSpellName": "Discernir Localização",
-          "consumableSpellDescription": "<p>Você descobre o nome da localização e plano exatos do alvo (incluindo o prédio, comunidade e país) e em qual plano de existência ele está. Você pode mirar uma criatura somente se a tiver visto pessoalmente, se possuir um dos pertences significativos dela ou uma parte de seu corpo. Para um objeto, você deve tê-lo tocado ou ter um fragmento dele. Discernir localização automaticamente supera proteções contra adivinhação ou detecção de nível inferior ao desta magia, mesmo que normalmente tivessem uma chance de bloqueá-la.</p>",
-          "consumableSpellTarget": "1 creature or object"
+          "consumableSpellDescription": "<p>Você descobre o nome da localização e plano exatos do alvo (incluindo o prédio, comunidade e país) e em qual plano de existência ele está. Você pode mirar uma criatura somente se a tiver visto pessoalmente, se possuir um dos pertences significativos dela ou uma parte de seu corpo. Para um objeto, você deve tê-lo tocado ou ter um fragmento dele. Discernir localização automaticamente supera proteções contra adivinhação ou detecção de nível inferior ao desta magia, mesmo que normalmente tivessem uma chance de bloqueá-la.</p>"
         },
         "strike-ranged->Composite Longbow": {
           "name": "Arco Longo Composto"
@@ -858,9 +800,6 @@
         "spell->Wish": {
           "name": "Desejo"
         },
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -940,9 +879,6 @@
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
         },
         "strike-melee->Verdant Staff": {
           "name": "Cajado Verdejante"
@@ -1027,15 +963,6 @@
     },
     "Rinnarv Bontimar": {
       "items": {
-        "spell->Weapon of Judgment": {
-          "requirements": "You have a deity."
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "spell->Protection": {
           "target": "1 criatura"
         },
@@ -1111,9 +1038,6 @@
     },
     "Scarlet Triad Mage": {
       "items": {
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
-        },
         "consumable->Wand of Crushing Despair (Level 5)": {
           "consumableSpellName": " Desespero Esmagador"
         },
@@ -1174,9 +1098,6 @@
         },
         "action->Rock Dwarf": {
           "name": "Anão das Rochas"
-        },
-        "action->Pack Attack": {
-          "name": "Pack Attack"
         }
       }
     },
@@ -1214,13 +1135,6 @@
       "items": {
         "strike-melee->Fist": {
           "name": "Punho"
-        }
-      }
-    },
-    "Talamira": {
-      "items": {
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
         }
       }
     },
@@ -1305,9 +1219,6 @@
     },
     "Vazgorlu": {
       "items": {
-        "spell->Plane Shift (To and From the Vazgorlu's Demiplane Only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Fangs": {
           "name": "Presas"
         },
@@ -1345,12 +1256,6 @@
     },
     "Voz Lirayne": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "consumable->Scroll of Sleep (Level 1)": {
           "consumableSpellName": "Sono"
         },
@@ -1396,9 +1301,6 @@
     },
     "Weathered Wail": {
       "items": {
-        "spell->Wind Walk": {
-          "target": "you and up to five creatures touched"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -1412,9 +1314,6 @@
     },
     "Xevalorg": {
       "items": {
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
