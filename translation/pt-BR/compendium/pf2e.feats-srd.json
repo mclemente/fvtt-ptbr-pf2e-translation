@@ -835,6 +835,13 @@
     "Aquatic Eyes": {
       "description": "<p>As your connection to water grows, you can see more easily in places with less light, such as the depths of the ocean. You gain @UUID[Compendium.pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or you gain @UUID[Compendium.pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision} if your ancestry already has low-light vision.</p>\n<hr />\n<p><strong>Special</strong> If your ancestry has neither low-light vision nor darkvision, you can take this ancestry feat a second time to gain darkvision. You can't retrain out of this feat.</p>"
     },
+    "Arcana of Iron": {
+      "prerequisites": {
+        "1": {
+          "value": "Golpeia Bespells"
+        }
+      }
+    },
     "Arcane Breadth": {
       "name": "Amplitude Arcana",
       "description": "<p>Seus estudos minuciosos permitem que você lance mais magias arcana por dia. Aumente os espaços de magia que você ganha dos talentos de arquétipo de mago em 1 para cada nível de magia que não seja seus dois mais altos espaços de magia de mago.</p>",
@@ -1731,6 +1738,7 @@
       ]
     },
     "Bespell Strikes": {
+      "name": "Golpeia Bespells",
       "description": "<p><strong>Frequência</strong> uma vez por rodada</p>\n<p><strong>Requisitos</strong> Sua ação mais recente foi lançar uma magia que não seja truque.</p><hr /><p><strong>Oráculo</strong> Você suga energia de magia em uma arma que está empunhando ou em um dos seus ataques desarmados, como um soco. Até o final da sua vez, a arma ou ataque desarmado causa um dano extra de 1d6 de força e ganha o traço divino, se ainda não o possuir. Se o magia causar um tipo diferente de dano, o Ataque causa esse tipo de dano em vez disso (ou um tipo da sua escolha se o magia pudesse causar vários tipos de dano).</p>\n<p><strong>Feiticeiro</strong> Você suga energia de magia em uma arma que está empunhando ou em um dos seus ataques desarmados, como um soco. Até o final da sua vez, a arma ou ataque desarmado causa um dano extra de 1d6 de força e ganha o traço da linhagem da tradição mágica se ainda não o possuir. Se o magia causar um tipo diferente de dano, o Ataque causa esse tipo de dano em vez disso (ou um tipo da sua escolha se o magia pudesse causar vários tipos de dano).</p>\n<p><strong>Mago</strong> <span style=\"font-family:Roboto, sans-serif\">Você suga energia de magia em uma arma que está empunhando, ou em um dos seus ataques desarmados, como um soco. Até o final da sua vez, a arma ou ataque desarmado causa um dano extra de 1d6 de força e ganha o traço arcano, se ainda não o possuir. Se o magia causou um tipo diferente de dano, o Ataque causa esse tipo de dano em vez disso (ou um tipo da sua escolha se o magia pudesse causar vários tipos de dano).</span></p>"
     },
     "Bestial Brutality": {
@@ -7758,7 +7766,7 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada",
-      "description": "<p>Ao acrescentar um floreio, você faz suas composições durarem mais. Você adquire a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]{Composição Prolongada}.</p>",
+      "description": "<p>Ao acrescentar um floreio, você faz suas composições durarem mais. Você adquire a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]Composição Prolongada}.</p>",
       "prerequisites": [
         {
           "value": "musa maestro"
@@ -14758,7 +14766,9 @@
       "converter": "translateDualLanguage",
       "path": "name"
     },
-    "prerequisites": "system.prerequisites.value",
+    "prerequisites": {
+      "path": "system.prerequisites.value"
+    },
     "rules": {
       "converter": "translateRules",
       "path": "system.rules"
