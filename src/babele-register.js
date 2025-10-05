@@ -67,7 +67,7 @@ function patchSpellRange() {
         "pathfinder-2e-pt-br",
         "CONFIG.PF2E.Item.documentClasses.spell.prototype.isMelee",
         function (wrapped) {
-            return game.pf2e.system.sluggify(this.system.range.value) === "berührung" || wrapped();
+            return game.pf2e.system.sluggify(this.system.range.value) === "toque" || wrapped();
         },
         "MIXED"
     );
@@ -79,7 +79,7 @@ function patchSpellRange() {
             const res = wrapped();
             if (res) return res;
             const slug = game.pf2e.system.sluggify(this.system.range.value);
-            const rangeFeet = Math.floor(Math.abs(Number(/^(\d+)-(fuß|ft|feet)(?!\w)/.exec(slug)?.at(1))));
+            const rangeFeet = Math.floor(Math.abs(Number(/^(\d+)-(pés|ft|feet)(?!\w)/.exec(slug)?.at(1))));
             return Number.isInteger(rangeFeet) ? { increment: null, max: rangeFeet } : null;
         },
         "MIXED"
@@ -149,6 +149,9 @@ Hooks.once("babele.init", () => {
                     translation,
                     game["pathfinder-2e-pt-br"].getMapping("heightening", true)
                 );
+            },
+            translatePrerequisites: (data, translation) => {
+                return game["pathfinder-2e-pt-br"].translatePrerequisites(data, translation);
             },
             translateRange: (data) => {
                 return game["pathfinder-2e-pt-br"].translateValue("range", data);
