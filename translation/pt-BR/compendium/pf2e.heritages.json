@@ -33,11 +33,28 @@
     },
     "Caveclimber Kobold": {
       "name": "Kobold Escalagruta",
-      "description": "<p>Você vive em um lar verticalmente orientado e você é um rotineiro escalador. Você ganha o talento de perícia @Compendium[pf2e.feats-srd.09PurtIanNUPfNRq]{Escalador de Combate}, mesmo que você não atenda os pré-requisitos. Você pode usar seus pés com garras e cauda para Escalar, deixando suas mãos livre. Adicionalmente, se você tiver sucesso em um teste de Atletismo para Escalar, ao invés disso, você obtém um Sucesso Crítico.</p>"
+      "description": "<p>Você vive em um lar verticalmente orientado e você é um rotineiro escalador. Você ganha o talento de perícia @Compendium[pf2e.feats-srd.09PurtIanNUPfNRq]{Escalador de Combate}, mesmo que você não atenda os pré-requisitos. Você pode usar seus pés com garras e cauda para Escalar, deixando suas mãos livre. Adicionalmente, se você tiver sucesso em um teste de Atletismo para Escalar, ao invés disso, você obtém um Sucesso Crítico.</p>",
+      "rules": {
+        "2": {
+          "text": "Se jogar um sucesso em uma Escalada, trate como um sucesso crítico."
+        }
+      }
     },
     "Cavern Elf": {
       "name": "Elfo das Cavernas",
       "description": "<p>Você nasceu ou passou muitos anos em túneis subterrâneos ou cavernas onde a luz é escassa. Você adquire @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Visão no Escuro}.</p>"
+    },
+    "Cavernstalker Kobold": {
+      "name": "Kobold Espreita-cavernas",
+      "description": "<p>Você nasceu em uma toca com túneis estreitos, o lar de alguma entidade de energia primal da terra, o que fez você ter agilidade e flexibilidade. Ao @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Escalar} paredes rochosas, estalactites e outros elementos naturais de pedra, você se move a metade da sua Velocidade com um sucesso e a Velocidade completa com um sucesso crítico (sua Velocidade completa com um sucesso, se tiver @UUID[Compendium.pf2e.feats-srd.Item.P04Hw8E6WAWARKHP]{Escalada Rápida}). Esta habilidade não o afeta se estiver usando uma Velocidade de escalada. Se jogar um sucesso em um teste de Acrobatismo para @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Espremer-se}, trate como um sucesso crítico.</p>",
+      "rules": {
+        "0": {
+          "text": "Ao Escalar elementos naturais de pedra, você se move a metade da sua Velocidade com um sucesso e a Velocidade completa com um sucesso crítico."
+        },
+        "1": {
+          "text": "Se jogar um sucesso em um teste de Acrobatismo para Espremer-se, trate como um sucesso crítico."
+        }
+      }
     },
     "Chameleon Gnome": {
       "name": "Gnomo Camaleão",
@@ -81,7 +98,8 @@
       "name": "Sangue Dracônico"
     },
     "Dragonscaled Kobold": {
-      "name": "Kobold de Escamas de Dragão"
+      "name": "Kobold de Escamas de Dragão",
+      "description": "<p>Graças à associação de sua toca com um dragão, suas escamas são mais resistentes do que as de outros kobolds. Sua ancestralidade concede 10 Pontos de Vida, em vez de 6. Você recebe +1 de bônus de circunstância em salvamentos contra sopro de dragão, efeitos com o traço sono e efeitos que o deixariam @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{{Paralisado}.</p>"
     },
     "Dromaar": {
       "name": "Dromaar"
@@ -92,6 +110,10 @@
     "Elemental Heart Dwarf": {
       "name": "Anão de Coração Elemental",
       "description": "<p>Seja através de uma conexão à forja de @Compendium[pf2e.deities.sZrdzh0ANQnZGXJb]{Torag}, aos azeres do Plano do Fogo ou a outra fonte, você pode expelir uma explosão e energia. Mbe’ke e taralu da Vastidão Mwangi acreditam que esta herança é um presente de dragões ou espíritos elementais. Escolha um dos tipos de energia a seguir: ácido, eletricidade, fogo ou frio. Uma vez escolhido, não pode ser alterado. Você recebe a atividade @Compendium[pf2e.actionspf2e.7qjfYsLNTr17Aftf]{Emanação de Energia}.</p>"
+    },
+    "Elementheart Kobold": {
+      "name": "Kobold Elementivo",
+      "description": "<p>Em seu ovo, você formou um vínculo com uma criatura fortemente associada a um dos Planos Elementais, como um elemental ou gênio. Escolha água, ar, fogo, madeira, metal ou terra como seu benfeitor elemental. Você recebe uma quantidade de resistência igual a metade do seu nível (mínimo 1) ao tipo de dano associado ao seu benfeitor elemental: ácido para água, frio para ar, fogo para fogo, veneno para madeira, sônico para metal ou eletricidade para terra.</p>"
     },
     "Elfbane Hobgoblin": {
       "name": "Hobgoblin Ruína de Elfo"
@@ -229,6 +251,10 @@
       "name": "Rato de Neve",
       "description": "<p>Você possui um pelo grosso que o protege do frio. Você adquire resistência a frio igual à metade de seu nível (mínimo 1). Você trata efeitos ambientais de frio como se fossem um nível menos extremo (frio incrível se torna extremo, frio extremo se torna severo e assim por diante).</p>"
     },
+    "Spellhorn Kobold": {
+      "name": "Kobold Magicórnio",
+      "description": "<p>Como nasceu nas proximidades de uma poderosa fonte de magia, um traço dela flui em suas veias. Escolha um truque mágico comum da lista de magias arcanas. Você pode Conjurar esse truque mágico à vontade como uma magia arcana inata. Truques mágicos são elevados a um ranque de magia igual a metade do seu nível, arredondado para cima. Você é treinado nas estatísticas modificador de ataque de magia e CD de magia, e o seu atributo de conjuração é Carisma.</p>"
+    },
     "Spellkeeper Shisk": {
       "description": "<p> Seu conhecimento mágico permite que você conjure magias simples. Escolha ocultista ou primal. Você recebe um truque da lista dessa tradição mágica. Você pode conjurar essa magia como uma magia inata à vontade como uma magia da sua tradição escolhida. Um truque é elevado ao nível de magia igual à metade do seu nível arredondado para baixo.</p>"
     },
@@ -240,7 +266,8 @@
       "description": "<p>Seu sangue corre forte e vigorosamente, permitindo que você seja capaz de ignorar toxinas. Você adquire resistência a veneno igual à metade de seu nível (mínimo 1) e cada jogada de salvamento bem-sucedida contra uma aflição de veneno reduz o estágio dele em 2 passos (ou reduz em 1 passo para um veneno virulento). Cada sucesso crítico contra um veneno em progresso reduz o estágio dele em 3, ou em 2 no caso de um veneno virulento.</p>"
     },
     "Strongjaw Kobold": {
-      "name": "Kobold de Mandíbula Forte"
+      "name": "Kobold de Mandíbula Forte",
+      "description": "<p>Sua toca é conhecida por suas mandíbulas poderosas e dentes afiados, seja para se proteger de predadores naturais ou por reverência a uma criatura imponente. Você tem um ataque desarmado de mandíbulas que causa 1d6 de dano perfurante. Suas mandíbulas estão no grupo pugilato e têm os traços acuidade e desarmado.</p>"
     },
     "Suli": {
       "name": "Suli"
@@ -256,6 +283,10 @@
     },
     "Treedweller Goblin": {
       "name": "Goblin Morador de Árvore"
+    },
+    "Tunnelflood Kobold": {
+      "name": "Kobold Inunda-túnel",
+      "description": "<p>Você cresceu em uma toca cheia de passagens subaquáticas, naturais ou escavadas, e foi influenciado por uma entidade aquática poderosa ou ser de água primal. Você tem uma Velocidade de natação de 4,5 metros.</p>"
     },
     "Twilight Halfling": {
       "name": "Halfling do Crepúsculo",
@@ -276,7 +307,8 @@
       "name": "Povo-lagarto Invisível"
     },
     "Venomtail Kobold": {
-      "name": "Kobold de Cauda Venenosa"
+      "name": "Kobold de Cauda Venenosa",
+      "description": "<p>Uma criatura peçonhenta vivia perto da sua toca, e você nasceu com um esporão vestigial em sua cauda que secreta veneno mortal. Você adquire a ação @UUID[Compendium.pf2e.actionspf2e.Item.ev8OHpBO3xq3Zt08]{Toxina de Cauda}.</p>"
     },
     "Versatile Human": {
       "description": "<p>A versatilidade e ambição da humanidade alimentaram sua ascensão como a ancestralidade mais comum na maioria das nações do mundo. Selecione um talento geral para o qual você atenda aos pré-requisitos (assim como seu talento de ancestralidade, você pode selecionar este talento geral em qualquer momento durante a criação de personagem).</p>"
