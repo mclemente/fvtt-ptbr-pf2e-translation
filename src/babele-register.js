@@ -90,8 +90,8 @@ Hooks.once("babele.init", () => {
     if (game.babele) {
         game.settings.register("pathfinder-2e-pt-br", "dual-language-names", {
             name: "Nomes em Português e Inglês",
-            hint: "Além do nome em português, o nome em inglês também é usado. Nomes em português e inglês.",
-            scope: "world",
+            hint: "Além do nome em português, o nome em inglês também é usado.",
+            scope: "user",
             type: Boolean,
             default: false,
             config: true,
