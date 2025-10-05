@@ -48,15 +48,8 @@
     },
     "Ashen Swale": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "consumable->Wand of Heal (Level 3)": {
-          "consumableSpellName": "Curar",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
+          "consumableSpellName": "Curar"
         },
         "strike-ranged->Spear": {
           "name": "Lança"
@@ -68,9 +61,6 @@
     },
     "Azi": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "weapon->Staff of Necromancy": {
           "name": "Cajado de Necromancia"
         },
@@ -188,9 +178,6 @@
         "strike-ranged->Club": {
           "name": "Clava"
         },
-        "action->Final Spite": {
-          "name": "Final Spite"
-        },
         "action->Drain Life": {
           "name": "Drenar Vida"
         }
@@ -200,8 +187,7 @@
       "items": {
         "spell->Undetectable Alignment": {
           "name": "Tendência Indetectável",
-          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
-          "target": "1 creature or object"
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>"
         },
         "treasure->Opal": {
           "name": "Opala"
@@ -434,9 +420,6 @@
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
           "target": "1 criatura"
         },
-        "spell->Thunderous Strike": {
-          "requirements": "You're wielding a melee weapon in two hands"
-        },
         "strike-melee->Greataxe": {
           "name": "Machado Longo"
         },
@@ -450,9 +433,6 @@
     },
     "Jesseri The Hailstorm": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "weapon->Staff of Divination": {
           "name": "Cajado da Adivinhação"
         },
@@ -500,9 +480,6 @@
     },
     "Lomok": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
@@ -652,30 +629,14 @@
         }
       }
     },
-    "Summer Hora": {
-      "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        }
-      }
-    },
     "Summer Hora Queen": {
       "items": {
         "spell->Restore Senses": {
           "target": "1 criatura"
         },
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         }
       }
     },
@@ -737,9 +698,6 @@
     },
     "Turkek": {
       "items": {
-        "spell->Blood Vendetta": {
-          "requirements": "You can bleed"
-        },
         "consumable->Wand of Widening (Darkness Level 2)": {
           "consumableSpellName": "Escuridão",
           "consumableSpellDescription": "<p>Você cria um manto de escuridão que impede qualquer de entrar ou emanar dentro da área. Nenhuma luz entra na área e quaisquer fontes de iluminação não-mágica, como uma tocha ou lanterna, não emanam luz enquanto estiverem na área, mesmo se seu raio de iluminação se estenderia além da escuridão. Isto também suprime qualquer luz mágica de nível de magia igual ou inferior ao de sua escuridão. A luz não pode atravessar a escuridão, portanto, criaturas na área não conseguem ver o lado de fora. Do lado de fora, a área parece um globo de pura escuridão.</p><hr /><p><strong>Elevada (4º)</strong> Mesmo criaturas com visão no escuro (mas não com visão no escuro maior) mal podem ver através da escuridão. Elas tratam alvos vistos na escuridão como @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{ocultado}.</p>"
