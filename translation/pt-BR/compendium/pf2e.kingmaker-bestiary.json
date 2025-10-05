@@ -2,9 +2,6 @@
   "entries": {
     "Aecora Silverfire": {
       "items": {
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
         "strike-melee->Hoof": {
           "name": "Casco"
         },
@@ -180,33 +177,13 @@
     },
     "Avatar of the Lantern King": {
       "items": {
-        "spell->Fantastic Facade": {
-          "secondarycheck": "Society or Survival; Deception; Stealth"
-        },
-        "spell->Create Demiplane": {
-          "primarycheck": "Arcana, Nature, Occultism, or Religion (legendary)",
-          "secondarycheck": "Arcana, Nature, Occultism,  Religion (whichever three aren't used for the primary check)"
-        },
-        "spell->Freedom": {
-          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
-        },
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "spell->Commune with Nature": {
           "name": "Comunhão com a Natureza",
-          "primarycheck": "Nature (master)",
           "secondarycheck": "Natureza"
-        },
-        "spell->Geas": {
-          "target": "1 creature of a level no greater than double the geas ritual's level"
         },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
@@ -276,9 +253,6 @@
     },
     "Bloom Cultist": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "strike-melee->Kukri": {
           "name": "Kukri"
         }
@@ -363,9 +337,6 @@
     },
     "Castruccio Irovetti": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "spell->Soothe": {
           "target": "1 criatura viva voluntária"
         },
@@ -395,9 +366,6 @@
     },
     "Cephal Lorentus": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -496,12 +464,6 @@
       "items": {
         "spell->Finger of Death": {
           "target": "1 criatura viva"
-        },
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         }
       }
     },
@@ -574,12 +536,6 @@
     },
     "Elga Verniex": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         },
@@ -590,13 +546,9 @@
     },
     "Engelidis": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "spell->Misdirection": {
           "name": "Desorientar",
-          "description": "<p>Você remolda a aura mágica de uma criatura ou objeto para que pareça similar à aura de outra. Você designa um alvo como o alvo primário e o outro como o alvo secundário. Efeitos que detectariam auras no alvo primário em vez disso detectam os mesmos tipos de aura do alvo secundário. Uma criatura lendo a aura pode tentar desacreditar a ilusão. Você pode Dispensar esta magia a até 1,5 quilômetros de distância.</p>",
-          "target": "2 creatures or objects"
+          "description": "<p>Você remolda a aura mágica de uma criatura ou objeto para que pareça similar à aura de outra. Você designa um alvo como o alvo primário e o outro como o alvo secundário. Efeitos que detectariam auras no alvo primário em vez disso detectam os mesmos tipos de aura do alvo secundário. Uma criatura lendo a aura pode tentar desacreditar a ilusão. Você pode Dispensar esta magia a até 1,5 quilômetros de distância.</p>"
         },
         "strike-melee->Fangs": {
           "name": "Presas"
@@ -625,9 +577,6 @@
     },
     "Eobald": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
         },
@@ -652,9 +601,6 @@
     },
     "False Priestess": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
@@ -677,9 +623,6 @@
     },
     "Fetch Behemoth": {
       "items": {
-        "spell->Plane Shift (to or from the First World only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
         },
@@ -690,9 +633,6 @@
     },
     "Fetch Stalker": {
       "items": {
-        "spell->Plane Shift (to or from the First World only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
@@ -711,9 +651,6 @@
       "items": {
         "spell->Touch of Idiocy": {
           "target": "1 criatura viva"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
         },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
@@ -819,9 +756,6 @@
     },
     "Grigori": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "strike-melee->Rapier": {
           "name": "Rapieira"
         },
@@ -979,12 +913,6 @@
     },
     "Ilora Nuski": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
@@ -1012,9 +940,6 @@
         "spell->Finger of Death": {
           "target": "1 criatura viva"
         },
-        "spell->Resilient Sphere": {
-          "target": "1 Large or smaller creature"
-        },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
@@ -1037,9 +962,6 @@
       "items": {
         "spellcastingEntry->Staff of Fire (Major)": {
           "name": "Cajado do Fogo (Superior)"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
         "spell->Produce Flame": [
           {
@@ -1098,9 +1020,6 @@
         "spell->Finger of Death": {
           "target": "1 criatura viva"
         },
-        "spell->Plane Shift (to or from the First World only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
@@ -1110,9 +1029,6 @@
     },
     "Jaggedbriar Hag": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         }
@@ -1149,12 +1065,8 @@
     },
     "Jin Durwhimmer": {
       "items": {
-        "spell->Awaken Animal": {
-          "target": "1 animal up to the level on Table 7-1"
-        },
         "spell->Commune with Nature": {
           "name": "Comunhão com a Natureza",
-          "primarycheck": "Nature (master)",
           "secondarycheck": "Natureza"
         }
       }
@@ -1323,9 +1235,6 @@
     },
     "Leng Envoy": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Kukri": {
           "name": "Kukri"
         },
@@ -1394,9 +1303,6 @@
         },
         "spell->Soothe": {
           "target": "1 criatura viva voluntária"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         }
       }
     },
@@ -1410,9 +1316,6 @@
         },
         "spell->Soothe": {
           "target": "1 criatura viva voluntária"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
         "consumable->Wand of Invisibility (Level 2)": {
           "consumableSpellName": "Invisibilidade",
@@ -1477,18 +1380,8 @@
     },
     "Malgorzata Niska": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "consumable->Wand of Heal (Level 1)": {
-          "consumableSpellName": "Curar",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
+          "consumableSpellName": "Curar"
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
@@ -1510,9 +1403,6 @@
     },
     "Melianse": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
@@ -1540,9 +1430,6 @@
     },
     "Ngara": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "strike-melee->Fangs": {
           "name": "Presas"
         }
@@ -1563,12 +1450,6 @@
     },
     "Nilak": {
       "items": {
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Club": {
           "name": "Clava"
         },
@@ -1591,12 +1472,6 @@
     },
     "Niodrhast": {
       "items": {
-        "spell->Geas": {
-          "target": "1 creature of a level no greater than double the geas ritual's level"
-        },
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         }
@@ -1640,9 +1515,6 @@
     },
     "Nugrah": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Club": {
           "name": "Clava"
         }
@@ -1669,9 +1541,6 @@
       "items": {
         "strike-melee->Hammer": {
           "name": "Martelo"
-        },
-        "strike-melee->Radiant Beam": {
-          "name": "Radiant Beam"
         }
       }
     },
@@ -1681,32 +1550,9 @@
           "name": "Desejo",
           "description": "<p>Você profere um desejo, fazendo sua maior vontade virar verdade. Uma conjuração de desejo pode resultar em qualquer um dos efeitos a seguir: • Duplicar qualquer magia arcana de 9º nível ou inferior. • Duplicar qualquer magia não-arcana de 7º nível ou inferior. • Produzir qualquer efeito cujo poder seja equivalente ao de qualquer magia arcana de 9º nível ou inferior ou equivalente ao poder de qualquer magia não-arcana de 7º nível ou inferior. • Reverter determinados efeitos que mencionem a magia desejo. A critério do mestre, você pode tentar produzir efeitos maiores, mas isto é perigoso e a magia pode ter um efeito somente parcial.</p>"
         },
-        "spell->Create Demiplane": {
-          "primarycheck": "Arcana, Nature, Occultism, or Religion (legendary)",
-          "secondarycheck": "Arcana, Nature, Occultism,  Religion (whichever three aren't used for the primary check)"
-        },
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
-        "spell->Awaken Animal": {
-          "target": "1 animal up to the level on Table 7-1"
-        },
         "spell->Commune with Nature": {
           "name": "Comunhão com a Natureza",
-          "primarycheck": "Nature (master)",
           "secondarycheck": "Natureza"
-        },
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
-        },
-        "spell->Geas": {
-          "target": "1 creature of a level no greater than double the geas ritual's level"
-        },
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
         },
         "spell->Restore Senses (At Will)": {
           "target": "1 criatura"
@@ -1716,9 +1562,6 @@
         },
         "action->Wild Empathy": {
           "name": "Empatia Selvagem"
-        },
-        "action->Blinding Beauty": {
-          "name": "Blinding Beauty"
         },
         "action->Evasion": {
           "name": "Evasão (Nível 7)"
@@ -1788,9 +1631,6 @@
       "items": {
         "spell->Finger of Death": {
           "target": "1 criatura viva"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
         },
         "action->Quickened Casting": {
           "name": "Conjuração Acelerada"
@@ -1892,9 +1732,6 @@
     },
     "Risen Fetch": {
       "items": {
-        "spell->Plane Shift (to or from the First World only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "action->Steady Spellcasting": {
           "name": "Conjuração Consistente"
         }
@@ -1911,11 +1748,7 @@
       "items": {
         "spell->Undetectable Alignment": {
           "name": "Tendência Indetectável",
-          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
-          "target": "1 creature or object"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>"
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
@@ -1927,9 +1760,6 @@
     },
     "Sepoko": {
       "items": {
-        "spell->Commanding Lash": {
-          "requirements": "Your most recent action dealt damage to a target."
-        },
         "strike-melee->Mace": {
           "name": "Maça"
         },
@@ -2027,9 +1857,6 @@
     },
     "Tartuccio": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "consumable->Wand of Magic Missile (Level 1)": {
           "consumableSpellName": "Mísseis Mágicos",
           "consumableSpellDescription": "<p>Você lança um míssil de força em direção a uma criatura em sua visão. Ele acerta automaticamente e causa 1d4+1 de dano de força. Para cada ação adicional que você usar para Conjurar esta Magia, aumente a quantidade de mísseis disparados em um, até um máximo de três mísseis para 3 ações. Você escolhe o alvo para cada míssil individualmente. Se você disparar mais de um míssil no mesmo alvo, combine o dano antes de aplicar bônus ou penalidades ao dano, resistências, fraquezas e assim por diante.</p><hr /><p><strong>Elevada (+2)</strong> Você dispara um míssil adicional com cada ação que gastar.</p>",
@@ -2091,12 +1918,6 @@
         "spell->Finger of Death": {
           "target": "1 criatura viva"
         },
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "weapon->Staff of Necromancy (Major)": {
           "name": "Cajado da Necromancia (Superior)"
         },
@@ -2144,20 +1965,11 @@
     },
     "The Knurly Witch": {
       "items": {
-        "spell->Word of Recall": {
-          "target": "Up to seven willing creatures of 14th level or lower"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
         "action->Resolve": {
           "name": "Determinação (Nível 7)"
-        },
-        "action->Word of Recall": {
-          "name": "Word of Recall"
         }
       }
     },
@@ -2204,8 +2016,7 @@
       "items": {
         "spell->Veil": {
           "name": "Véu",
-          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>",
-          "target": "up to 10 creatures"
+          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>"
         },
         "weapon->Staff of Transmutation (Major)": {
           "name": "Cajado da Transmutação (Superior)"
@@ -2277,9 +2088,6 @@
         "spell->Delay Consequence": {
           "target": "a criatura acionadora"
         },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -2350,9 +2158,6 @@
         },
         "spell->Protection": {
           "target": "1 criatura"
-        },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
         }
       }
     },
@@ -2364,12 +2169,8 @@
         "spell->Protection": {
           "target": "1 criatura"
         },
-        "spell->Disrupt Undead": {
-          "target": "1 undead creature"
-        },
         "consumable->Wand of Heal (Level 3)": {
-          "consumableSpellName": "Curar",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
+          "consumableSpellName": "Curar"
         },
         "spell->Neutralize Poison": {
           "target": "1 criatura"
@@ -2383,9 +2184,6 @@
           "name": "Remover Maldição",
           "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
           "target": "1 criatura"
-        },
-        "spell->Rebuke Death": {
-          "target": "1 living creature per action spent to cast this spell"
         }
       }
     },
@@ -2500,15 +2298,6 @@
     },
     "Vordakai": {
       "items": {
-        "spell->Imprisonment (Cannot Currently Cast)": {
-          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
-        },
-        "spell->Planar Binding": {
-          "secondarycheck": "Crafting; Diplomacy or Intimidation; Arcana or Occultism (whichever isn't used for the primary check)"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "action->Steady Spellcasting": {
           "name": "Conjuração Consistente"
         },
@@ -2519,9 +2308,6 @@
     },
     "Werendegar": {
       "items": {
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -2549,9 +2335,6 @@
         "spell->Finger of Death": {
           "target": "1 criatura viva"
         },
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
         "strike-melee->Horns": {
           "name": "Chifres"
         }
@@ -2573,14 +2356,8 @@
     },
     "Wild Hunt Monarch": {
       "items": {
-        "spell->Wind Walk": {
-          "target": "you and up to five creatures touched"
-        },
         "spell->Finger of Death": {
           "target": "1 criatura viva"
-        },
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
         },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
@@ -2597,12 +2374,6 @@
     },
     "Wild Hunt Scout": {
       "items": {
-        "spell->Wind Walk": {
-          "target": "you and up to five creatures touched"
-        },
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "action->Befuddle": {
           "name": "Confundir"
         },
@@ -2630,12 +2401,6 @@
     },
     "Zorek": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Spear": {
           "name": "Lança"
         },
