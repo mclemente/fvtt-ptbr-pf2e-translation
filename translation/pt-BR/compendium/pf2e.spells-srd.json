@@ -4324,44 +4324,19 @@
     }
   },
   "mapping": {
-    "cost": "system.cost.value",
     "description": "system.description.value",
-    "duration": {
-      "converter": "translateDuration",
-      "path": "system.duration.value"
-    },
     "gmNote": "system.description.gm",
-    "heightening": {
-      "converter": "translateHeightening",
-      "path": "system.heightening.levels"
-    },
     "name": {
       "converter": "translateDualLanguage",
       "path": "name"
     },
-    "primarycheck": "system.ritual.primary.check",
-    "range": {
-      "converter": "translateRange",
-      "path": "system.range.value"
-    },
-    "requirements": "system.requirements",
     "rules": {
       "converter": "translateRules",
       "path": "system.rules"
     },
-    "secondarycheck": "system.ritual.secondary.checks",
     "source": {
       "converter": "translateSource",
       "path": "system.publication.title"
-    },
-    "spellVariants": {
-      "converter": "translateSpellVariant",
-      "path": "system.overlays"
-    },
-    "target": "system.target.value",
-    "time": {
-      "converter": "translateTime",
-      "path": "system.time.value"
     }
   },
   "folders": {
