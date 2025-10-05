@@ -150,6 +150,9 @@ Hooks.once("babele.init", () => {
                     game["pathfinder-2e-pt-br"].getMapping("heightening", true)
                 );
             },
+            translatePrerequisites: (data, translation) => {
+                return game["pathfinder-2e-pt-br"].translatePrerequisites(data, translation);
+            },
             translateRange: (data) => {
                 return game["pathfinder-2e-pt-br"].translateValue("range", data);
             },
