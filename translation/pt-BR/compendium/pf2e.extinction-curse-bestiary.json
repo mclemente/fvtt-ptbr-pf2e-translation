@@ -15,12 +15,8 @@
     },
     "Ararda": {
       "items": {
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
-        },
         "spell->Veil (Self Only)": {
-          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>",
-          "target": "up to 10 creatures"
+          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>"
         },
         "strike-melee->Maul": {
           "name": "Malho"
@@ -224,9 +220,6 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
-        },
-        "action->Pack Attack": {
-          "name": "Pack Attack"
         }
       }
     },
@@ -344,12 +337,6 @@
     },
     "Urdefhan Dominator": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Rhoka Sword": {
           "name": "Espada Roca"
         },
@@ -467,16 +454,6 @@
     },
     "Xulgath Deepmouth": {
       "items": {
-        "spell->Commune": {
-          "primarycheck": "Occultism (master) or Religion (master)",
-          "secondarycheck": "Occultism or Religion (whichever is used for the primary check)"
-        },
-        "spell->Commanding Lash": {
-          "requirements": "Your most recent action dealt damage to a target."
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "spell->Protection": {
           "target": "1 criatura"
         },
@@ -530,9 +507,6 @@
     },
     "Xulgath Thoughtmaw": {
       "items": {
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "strike-melee->Spear": {
           "name": "Lança"
         },
