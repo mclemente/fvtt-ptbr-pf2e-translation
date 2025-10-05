@@ -3769,11 +3769,17 @@
     },
     "Drain Soul Cage": {
       "description": "<p>You make your soul cage into your bonded item, allowing you to harness its abundant magical energy. Once per day, when you use @UUID[Compendium.pf2e.actionspf2e.v82XtjAVN4ffgVVR]{Drain Bonded Item}, you can choose any spell in your spellbook that you can cast, even if you haven't prepared or cast it that day. Your soul cage doesn't need to be on your person for you to use Drain Bonded Item. If your soul cage is broken or destroyed, you can't use Drain Soul Cage. Even if you can Drain Bonded Item more than once per day, for instance if you are a universalist wizard, you can still only choose a spell you haven't prepared and cast once per day.</p>",
-      "prerequisites": {
-        "1": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lich"
+        },
+        {
           "value": "Drenar Item Ligado"
+        },
+        {
+          "value": "grimório"
         }
-      }
+      ]
     },
     "Dread Marshal Stance": {
       "prerequisites": [
@@ -7282,7 +7288,7 @@
     },
     "Lingering Composition": {
       "name": "Composição Prolongada",
-      "description": "<p>Ao acrescentar um floreio, você faz suas composições durarem mais. Você adquire a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]Composição Prolongada}.</p>",
+      "description": "<p>Ao acrescentar um floreio, você faz suas composições durarem mais. Você adquire a magia de foco @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]{Composição Prolongada}.</p>",
       "prerequisites": [
         {
           "value": "musa maestro"
