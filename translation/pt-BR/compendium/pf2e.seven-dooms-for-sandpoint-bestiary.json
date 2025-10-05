@@ -4,8 +4,7 @@
       "items": {
         "consumable->Scroll of Heal (Rank 1)": {
           "consumableSpellName": "Curar",
-          "consumableSpellDescription": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>",
-          "consumableSpellTarget": "1 willing living creature or 1 undead"
+          "consumableSpellDescription": "<p>Você canaliza a energia vital para curar os vivos ou ferir os mortos-vivos. Se o alvo for uma criatura viva voluntária, você recupera 1d8 Pontos de Vida dela. Se o alvo for um morto-vivo, você causa 1d8 de dano vital, com direito a um teste básico de Fortitude. A quantidade de ações que você gastar ao Conjurar esta Magia determina seus alvos, distância, área e outros parâmetros.</p>\n<p><span class=\"action-glyph\">1</span> Esta magia tem distância de toque.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentração)</strong> Esta magia tem 9 metros de distância. Se você estiver curando uma criatura viva, aumente os Pontos de Vida restaurados em 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentração)</strong> Você dispersa energia vital em uma emanação de 9 metros. Isso tem como alvo todas as criaturas vivas e mortas-vivas que estiverem na área.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> A quantidade de cura ou dano aumenta em 1d8, e a cura extra para a versão de 2 ações aumenta em 8.</p>"
         },
         "consumable->Scroll of Cleanse Affliction (Rank 2)": {
           "consumableSpellTarget": "1 criatura voluntária"
@@ -280,9 +279,6 @@
     },
     "Isphinn": {
       "items": {
-        "spell->Plane Shift (to Astral Plane, Elemental Planes, or Material Plane Only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "spell->Veil (Self Only)": {
           "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>",
           "target": "si mesmo"
@@ -299,8 +295,7 @@
       "items": {
         "spell->Undetectable Alignment": {
           "name": "Tendência Indetectável",
-          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>",
-          "target": "1 creature or object"
+          "description": "<p>Você envolve uma criatura em defesas que escondem a tendência dela. O alvo parece ser neutro para todos os efeitos que detectariam a tendência dele.</p>"
         },
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
@@ -383,8 +378,7 @@
     "Pthuminin": {
       "items": {
         "spell->Undetectable Alignment": {
-          "name": "Tendência Indetectável",
-          "target": "1 creature or object"
+          "name": "Tendência Indetectável"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -516,10 +510,6 @@
     },
     "Vizmivool": {
       "items": {
-        "spell->Heroes' Feast": {
-          "primarycheck": "Nature, Religion, or Occultism (expert)",
-          "secondarycheck": "Diplomacy or Society"
-        },
         "consumable->Wand of Vampiric Feast (Rank 3)": {
           "consumableSpellTarget": "1 criatura viva"
         },
