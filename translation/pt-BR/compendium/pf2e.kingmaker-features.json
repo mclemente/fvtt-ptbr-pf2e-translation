@@ -38,8 +38,10 @@
       "converter": "translateDualLanguage",
       "path": "name"
     },
-    "prerequisites": "system.prerequisites.value",
-    "requirements": "system.requirements",
+    "prerequisites": {
+      "converter": "translatePrerequisites",
+      "path": "system.prerequisites.value"
+    },
     "rules": {
       "converter": "translateRules",
       "path": "system.rules"

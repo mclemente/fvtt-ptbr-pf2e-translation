@@ -25,8 +25,7 @@
       "items": {
         "spell->Misdirection": {
           "name": "Desorientar",
-          "description": "<p>Você remolda a aura mágica de uma criatura ou objeto para que pareça similar à aura de outra. Você designa um alvo como o alvo primário e o outro como o alvo secundário. Efeitos que detectariam auras no alvo primário em vez disso detectam os mesmos tipos de aura do alvo secundário. Uma criatura lendo a aura pode tentar desacreditar a ilusão. Você pode Dispensar esta magia a até 1,5 quilômetros de distância.</p>",
-          "target": "2 creatures or objects"
+          "description": "<p>Você remolda a aura mágica de uma criatura ou objeto para que pareça similar à aura de outra. Você designa um alvo como o alvo primário e o outro como o alvo secundário. Efeitos que detectariam auras no alvo primário em vez disso detectam os mesmos tipos de aura do alvo secundário. Uma criatura lendo a aura pode tentar desacreditar a ilusão. Você pode Dispensar esta magia a até 1,5 quilômetros de distância.</p>"
         },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -158,14 +157,8 @@
     },
     "Worm Prophet": {
       "items": {
-        "spell->Commanding Lash": {
-          "requirements": "Your most recent action dealt damage to a target."
-        },
         "spell->Neutralize Poison": {
           "target": "1 criatura"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
         "strike-melee->Dagger": {
           "name": "Adaga"

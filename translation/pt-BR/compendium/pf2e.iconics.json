@@ -137,35 +137,16 @@
         }
       }
     },
-    "Feiya (Level 1)": {
-      "items": {
-        "spell->Pet Cache": {
-          "target": "1 willing creature that is your animal companion or familiar"
-        }
-      }
-    },
     "Feiya (Level 3)": {
       "items": {
-        "spell->Pet Cache": {
-          "target": "1 willing creature that is your animal companion or familiar"
-        },
         "consumable->Scroll of Invisibility (Rank 2)": {
           "consumableSpellName": "Invisibilidade",
           "consumableSpellTarget": "1 criatura"
-        },
-        "consumable->Scroll of Pet Cache (Rank 1)": {
-          "consumableSpellName": "Pet Cache"
         }
       }
     },
     "Feiya (Level 5)": {
       "items": {
-        "consumable->Scroll of Pet Cache (Rank 1)": {
-          "consumableSpellName": "Pet Cache"
-        },
-        "spell->Pet Cache": {
-          "target": "1 willing creature that is your animal companion or familiar"
-        },
         "consumable->Scroll of Invisibility (Rank 2)": {
           "consumableSpellName": "Invisibilidade",
           "consumableSpellTarget": "1 criatura"
@@ -581,7 +562,6 @@
           "name": "Saber de Culinária"
         },
         "feat->Vision of Weakness": {
-          "name": "Vision of Weakness",
           "description": "<p>You can call upon divine insights to single out your foes’ weak points. You learn the <a class=\"entity-link\" data-pack=\"pf2e.spells-srd\" data-id=\"NhNKzq1DvFxkvTEc\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vision of Weakness</a> revelation spell. Increase the number of Focus Points in your focus pool by 1.</p>"
         },
         "consumable->Scroll of Cleanse Affliction (Rank 2)": {
@@ -607,9 +587,6 @@
         "feat->Signature Spells": {
           "name": "Magias Emblemáticas (Nível 3)",
           "description": "<p>Sua experiência permite que você conjure algumas magias de forma mais flexível.</p>\n<p>Para cada nível de magia que tiver acesso, escolha uma magia desse nível como uma magia emblemática. Você não precisa aprender as versões elevadas de magias emblemáticas separadamente; em vez disso, você pode elevar estas magias livremente. Se tiver aprendido uma magia emblemática em um nível maior que o nível mínimo dessa magia, você também pode conjurar todas suas versões de níveis inferiores sem precisar aprendê-las separadamente. Se trocar uma magia emblemática, você pode escolher outra magia que conheça do mesmo nível para substituí-la como nova magia emblemática.</p>\n<p>Você também pode retreinar especificamente para tornar outra magia do mesmo nível como emblemática sem trocar quaisquer magias conhecidas; isto leva o mesmo tempo que retreinar uma magia normalmente.</p>"
-        },
-        "spell->Charged Javelin": {
-          "target": "1 or more creatures"
         }
       }
     },
@@ -653,8 +630,7 @@
           "consumableSpellTarget": "1 criatura"
         },
         "consumable->Wand of Mending (Rank 1)": {
-          "consumableSpellName": "Emendar",
-          "consumableSpellTarget": "non-magical object of light Bulk or less"
+          "consumableSpellName": "Emendar"
         },
         "consumable->Scroll of Clear Mind (Rank 2)": {
           "consumableSpellTarget": "1 criatura voluntária"
@@ -668,9 +644,6 @@
         },
         "lore->Forest Lore": {
           "name": "Saber de Florestas"
-        },
-        "spell->Heal Animal": {
-          "target": "1 willing living animal creature"
         }
       }
     },

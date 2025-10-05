@@ -213,7 +213,7 @@ export const convertJournals = (journalObject) => {
 							hasTranslation = false;
 							result += "<h2>Talento sem Tradução</h2>";
 							result +=
-								"<p><em>Os seguintes talentos ainda não apareceram em uma publicação alemã</em></p><hr>";
+								"<p><em>Os seguintes talentos ainda não apareceram em uma publicação brasileira</em></p><hr>";
 						}
 						result += `<${feat.translated ? "h2" : "h3"}>@UUID[Compendium.pf2e.feats-srd.Item.${
 							feat._id
