@@ -87,9 +87,6 @@
     },
     "Deathless Acolyte Of Urgathoa": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Scythe": {
           "name": "Segadeira"
         }
@@ -97,9 +94,6 @@
     },
     "Deathless Hierophant Of Urgathoa": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Scythe": {
           "name": "Segadeira"
         }
@@ -148,9 +142,6 @@
     },
     "Faithless Ecclesiarch": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Staff": {
           "name": "Cajado"
         }
@@ -259,9 +250,6 @@
     },
     "Harlo Krant": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Scythe": {
           "name": "Segadeira"
         },
@@ -285,24 +273,16 @@
     },
     "Horde Lich": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
         "spell->Veil": {
           "name": "Véu",
-          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>",
-          "target": "up to 10 creatures"
-        },
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
+          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>"
         },
         "consumable->Scroll of Teleport (Level 6)": {
           "consumableSpellName": "Teleporte"
         },
         "consumable->Wand of Dispel Magic (Level 6)": {
           "consumableSpellName": "Dissipar Magia",
-          "consumableSpellDescription": "<p> Você desfaz a magia que está por trás de um efeito. Faça um teste de <a href=\"https://2e.aonprd.com/Rules.aspx?ID=371\">neutralização</a> contra o alvo (página 459). Se obtiver sucesso contra um efeito de magia, você o neutraliza. Se obtiver sucesso contra um item mágico, o item se torna um item mundano do tipo dele por 10 minutos. Isso não altera as propriedades não-mágicas do item. Se o alvo for um artefato ou item similar, você falha automaticamente. </p>",
-          "consumableSpellTarget": "1 spell effect or unattended magic item"
+          "consumableSpellDescription": "<p> Você desfaz a magia que está por trás de um efeito. Faça um teste de <a href=\"https://2e.aonprd.com/Rules.aspx?ID=371\">neutralização</a> contra o alvo (página 459). Se obtiver sucesso contra um efeito de magia, você o neutraliza. Se obtiver sucesso contra um item mágico, o item se torna um item mundano do tipo dele por 10 minutos. Isso não altera as propriedades não-mágicas do item. Se o alvo for um artefato ou item similar, você falha automaticamente. </p>"
         },
         "action->Steady Spellcasting": {
           "name": "Conjuração Consistente"
@@ -435,12 +415,6 @@
     },
     "Mummy Prophet Of Set": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Spear": {
           "name": "Lança"
         },
@@ -454,9 +428,6 @@
     },
     "Nasurgeth": {
       "items": {
-        "spell->Plane Shift (to the Universe, Void, or Netherworld only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -501,9 +472,6 @@
     },
     "Priest Of Kabriri": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Flail": {
           "name": "Mangual"
         },
@@ -554,9 +522,6 @@
     },
     "Runecarved Lich": {
       "items": {
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "consumable->Wand of Wall of Force (Level 6)": {
           "consumableSpellName": "Muralha de Força"
         },
@@ -603,9 +568,6 @@
       "items": {
         "spell->Finger of Death": {
           "target": "1 criatura viva"
-        },
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
         },
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
@@ -676,9 +638,6 @@
     },
     "Sykever": {
       "items": {
-        "spell->Plane Shift (to the Universe, Void, or Netherworld only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Horn": {
           "name": "Chifre"
         },
@@ -709,9 +668,6 @@
     },
     "Urveth": {
       "items": {
-        "spell->Plane Shift (to the Universe, Void, or Netherworld only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -728,9 +684,6 @@
     },
     "Vanyver": {
       "items": {
-        "spell->Plane Shift (to the Universe, Void, or Netherworld only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Talon": {
           "name": "Unha"
         },
@@ -816,9 +769,6 @@
     },
     "Zombie Lord": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "strike-melee->Scythe": {
           "name": "Segadeira"
         },
