@@ -76,7 +76,8 @@
           "name": "Fortitude mágica (Nível 5)"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "name": "Elixir da Vida (Moderado)"
+          "name": "Elixir da Vida (Moderado)",
+          "description": "<p><strong>Ativação</strong> <span class=\"action-glyph\">A</span> (manuseio)</p>\n<hr />\n<p>Os elixires de vida aceleram os processos naturais de cura e o sistema imunológico de criaturas vivas. Ao beber deste elixir, você recupera @Damage[(5d6+12)[healing]] Pontos de Vida e recebe +2 de bônus de item em salvamentos contra doenças e venenos por 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efeito: Elixir de Vida}</p>"
         },
         "consumable->Firestarter Pellets": {
           "description": "<p><strong>Activate</strong> Cast a Spell (add 1 action)</p>\n<hr />\n<p>These compacted pellets of bat guano, sulfur, and magical accelerants have long been a staple for spellcasters on the battlefield. Adding a firestarter pellet to a fireball spell produces clinging flames that deal [[/r 1d6[persistent,fire]]] damage to all who fail the saving throw against the effect ([[/r 2d6[persistent,fire]]] damage on a critical failure).</p>"
@@ -427,7 +428,8 @@
           "description": "<p><span>Estas botas de cores brilhantes e sola macia o motivam a tentar façanhas arriscadas e o concedem a agilidade necessária para realizá-las com sucesso. As botas concedem +2 de bônus de item em testes de Acrobatismo e +1 de bônus de circunstância para Atravessar Acrobaticamente o espaço de um inimigo.  </p> <p><span>As botas podem se prender em superfícies sólidas e o ajudam a evitar uma queda, permitindo que use a reação Segurar numa Beirada mesmo que suas mãos não estejam livres. Você trata quedas como se fossem 3 metros mais curtas ou, se possuir o talento @Compendium[pf2e.feats-srd.LQw0yIMDUJJkq1nD]{Queda de Gato}Gato, trata sua graduação de proficiência em Acrobatismo como se fosse um grau melhor para determinar os benefícios deste talento. Se possuir Queda do Gato e já for lendário em Acrobatismo, você pode escolher a velocidade de sua queda, de 18 metros por rodada até sua velocidade normal de queda. </p>"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "name": "Elixir da Vida (Moderado)"
+          "name": "Elixir da Vida (Moderado)",
+          "description": "<p><strong>Ativação</strong> <span class=\"action-glyph\">A</span> (manuseio)</p>\n<hr />\n<p>Os elixires de vida aceleram os processos naturais de cura e o sistema imunológico de criaturas vivas. Ao beber deste elixir, você recupera @Damage[(5d6+12)[healing]] Pontos de Vida e recebe +2 de bônus de item em salvamentos contra doenças e venenos por 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efeito: Elixir de Vida}</p>"
         },
         "weapon->Greatpick": {
           "name": "Picareta Pesada",
@@ -438,8 +440,7 @@
           "description": "<p><span class=\"fontstyle0\">Este tipo de armadura é uma cota de malha reforçada com placas de metal flexível interligadas, tipicamente localizadas no torso, braços e pernas. Um conjunto desta armadura vem com uma subcamada de @Compendium[pf2e.equipment-srd.zBYEU9E7034ENCmh]{Armadura Acolchoada}  e um par de @Compendium[pf2e.equipment-srd.zBYEU9E7034ENCmh]{Armadura Acolchoada}.  </p>"
         },
         "equipment->Demon Mask (Greater)": {
-          "name": "Máscara Demoníaca (Maior)",
-          "description": "<p><span>Esta máscara aterrorizante é manufaturada com a aparência de um demônio ao rugir e concede +2 de bônus de item em testes de Intimidação.  </p> <p><span><strong>Ativação</strong> <span class=\"pf2-icon\">D</span> Actions\"> Interagir; <strong>Frequência</strong> uma vez por dia; <strong>Efeito</strong> A máscara conjura @Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{Medo} de 3º Nível com CD 29. </p>"
+          "name": "Máscara Demoníaca (Maior)"
         }
       }
     },
@@ -661,7 +662,8 @@
           "name": "Mistura do Bravo (Moderada)"
         },
         "consumable->Elixir of Life (Moderate)": {
-          "name": "Elixir da Vida (Moderado)"
+          "name": "Elixir da Vida (Moderado)",
+          "description": "<p><strong>Ativação</strong> <span class=\"action-glyph\">A</span> (manuseio)</p>\n<hr />\n<p>Os elixires de vida aceleram os processos naturais de cura e o sistema imunológico de criaturas vivas. Ao beber deste elixir, você recupera @Damage[(5d6+12)[healing]] Pontos de Vida e recebe +2 de bônus de item em salvamentos contra doenças e venenos por 10 minutos.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Efeito: Elixir de Vida}</p>"
         },
         "consumable->Explosive Ammunition": {
           "name": "Munição Explosiva"
@@ -673,9 +675,6 @@
         "consumable->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
-        },
-        "consumable->Spellstrike Ammunition (Type IV) (Divine Wrath)": {
-          "description": "<p><span>Padrões místicos criam uma reserva mágica dentro desta munição. Você ativa uma <em>munição de golpe de magia</em> ao Conjurar uma Magia nela. A magia deve ser capaz de afetar uma criatura diferente do conjurador e a munição deve ser capaz de portá-la. Uma criatura atingida por uma <em>munição de golpe de magia</em> é afetada pela magia. Se a criatura não for um alvo válido para a magia, ela é perdida.  </p> <p><span>A munição afeta apenas o alvo que atinge, mesmo se a magia normalmente afetaria mais de um alvo. Se a magia requerer uma rolagem de ataque de magia, use o resultado do seu ataque à distância com a munição para determinar o grau de sucesso da magia. Se a magia requerer uma jogada de salvamento, o alvo tenta o salvamento contra sua CD de magia.  </p> <p><span> O nível máximo de magia que a munição pode portar determina seu nível de item e Preço.  </p> <p><span><strong>Ativação</strong> <span class=\"pf2-icon\">D</span> Actions\"> Conjurar uma Magia </p> <p><span><strong>Nível Máximo de Magia</strong> 4º </p>"
         },
         "weapon->Wheel Blades": {
           "name": "Lâminas de Roda"
@@ -732,8 +731,7 @@
           "name": "Saber Acadêmico"
         },
         "feat->Tail Whip": {
-          "name": "Chicotada com Cauda",
-          "description": "<p> Por nascimento ou por meio de treinamento, sua cauda é forte o suficiente para ser uma poderosa arma branca. Você recebe um ataque desarmado de cauda que causa 1d6 de dano contundente e possui o traço de amplitude.</span></p> (Tradução não oficial - Lost Omens: Character Guide)"
+          "name": "Chicotada com Cauda"
         },
         "feat->Vision Of Weakness": {
           "description": "<p>You can call upon divine insights to single out your foes’ weak points. You learn the <a class=\"entity-link\" data-pack=\"pf2e.spells-srd\" data-id=\"NhNKzq1DvFxkvTEc\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Vision of Weakness</a> revelation spell. Increase the number of Focus Points in your focus pool by 1.</p>"
@@ -829,20 +827,17 @@
           "description": "<p><span class=\"fontstyle0\">A lâmina desta faca de 30 centímetros se curva para dentro e não possui guarda com cruzeta no punho.  </p>"
         },
         "consumable->Oil of Repulsion": {
-          "name": "Óleo de Repulsão",
-          "description": "<p><span>Este óleo contém limalhas de ferro magneticamente carregadas que se repelem para os lados opostos do frasco. Por 1 minuto após você aplicar este óleo à sua armadura, qualquer criatura que o acertar com um Golpe corpo a corpo deve tentar um salvamento de Fortitude CD 28 com os efeitos a seguir.  </p> <p><span><strong>Ativação</strong> <span class=\"pf2-icon\">A</span> Interagir  </p> <p><span><strong>Successo</strong> A criatura não é afetada. <strong>Falha</strong> A criatura é empurrada a até 3 metros de distância de você (O mestre determina a direção). <strong>Falha Crítica</strong> Como falha, e a criatura também é derrubada. </p>"
+          "name": "Óleo de Repulsão"
         },
         "consumable->Spider Root": {
-          "name": "Raiz de Aranha",
-          "description": "<p><span>Uma pasta feita ao se esmagar as raízes finas e filiformes de uma trepadeira específica, raiz de aranha deixa a vítima desajeitada.  </p> <p><span><strong>Salvamento</strong> Fortitude CD 28; <strong>Latência</strong> 1 minuto; <strong>Duração Máxima </strong>6 minutos; <strong>Estágio 1 </strong>8d6 de dano de veneno e desajeitado 1 (1 minuto); <strong>Estágio 2</strong> 9d6 de dano de veneno e desajeitado 2 (1 minuto); <strong>Estágio 3</strong> 10d6 de dano de veneno e desajeitado 3 (1 minuto).  </p> <p><span><strong>Ativação</strong> <span class=\"pf2-icon\">A</span> Interagir </p>"
+          "name": "Raiz de Aranha"
         },
         "armor->Studded Leather Armor": {
           "name": "Couro Batido",
           "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
         },
         "consumable->Vanishing Coin": {
-          "name": "Moeda Sumidoura",
-          "description": "<p><span>Esta moeda de cobre fica pendurada em uma tira de couro que passa por um furo em seu centro. Até ser ativada, a moeda fica invisível por alguns segundos em intervalos aleatórios. Quando ativar a moeda, ela conjura @Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{invisibilidade} de 2º nível em você, durando até o final do seu próximo turno.  </p> <p><span><strong>Ativação</strong><span class=\"pf2-icon\">F</span>  Visualizar; <strong>Gatilho</strong> Você faz um teste de Furtividade, mas ainda não efetuou a rolagem; <strong>Exigências</strong> Você é mestre em Furtividade. </p>"
+          "name": "Moeda Sumidoura"
         },
         "feat->Scamper": {
           "name": "Desembestar",
