@@ -2668,8 +2668,8 @@
       ]
     },
     "Clever Counterspell": {
-      "name": "Trespassar Contramágica",
-      "description": "<p>Você aplica criativamente seus magias preparados para @UUID[Compendium.pf2e.feats-srd.Item.EpBG4CFMNSZQx7vI]{Contramágica} uma variedade muito maior de magias de seus oponentes. Em vez de poder contrariar o magia de um inimigo com Contramágica apenas se tiver o mesmo magia preparado, você pode usar Contramágica desde que tenha o magia que o adversário está lançando em seu grimório. Quando você usar Contramágica dessa forma, ainda precisará gastar uma magia preparado; o magia preparado que você gastar deve compartilhar um traço com o magia desencadeador, exceto concentrar, manipular, ou seu traço de tradição. O Mestre pode permitir que você use uma magia que tenha um traço oposto ou que de alguma forma logicamente contrariaria o magia desencadeador (como usar uma magia de frio ou água para contrariar @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Fireball} ou usar @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Mente Clara} para contrariar uma magia de medo).</p>",
+      "name": "Contrmágica Sagaz",
+      "description": "<p>Você utiliza suas magias preparadas com criatividade para neutralizar uma variedade ainda maior de magias de inimigos. Quando usar @UUID[Compendium.pf2e.feats-srd.Item.EpBG4CFMNSZQx7vI]{Contramágica}, em vez de só poder neutralizar uma magia de um inimigo se estiver com a mesma magia preparada, você também pode fazê-lo se a magia conjurada constar no seu grimório. Quando usar Contramágica dessa forma, você ainda precisa gastar uma magia preparada, que deve ter ao menos um traço em comum com a magia acionadora, além de concentração, manuseio ou o traço da tradição. O Mestre também pode permitir que você use uma magia com um traço oposto ou que de alguma outra forma faça sentido em neutralizar a magia acionadora (como usar uma magia de frio ou de água para neutralizar uma @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{Bola de Fogo}, ou @UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{Clarear Mente} para neutralizar uma magia de medo).</p>",
       "prerequisites": [
         {
           "value": "Contramágica"
@@ -2899,7 +2899,12 @@
       "description": "<p><strong>Requirements</strong> Your eidolon has a creature @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p>\n<p>Your eidolon constricts the creature, dealing [[/r (@actor.level+@actor.abilities.str.mod)[bludgeoning]]]{bludgeoning damage} equal to your eidolon's level plus its Strength modifier, with a basic Fortitude save against your spell DC.</p>"
     },
     "Consume Spell": {
-      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.deoHKUzpzT7iwWhL]{Counterspell}</p> <hr /> <p>When you successfully Counterspell a spell of the tradition that matches your bloodline, you consume it, replenishing yourself with its energy.</p> <p>When you do, you are nourished as if you had eaten a meal and regain Hit Points equal to twice the level of the counteracted spell.</p>"
+      "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.deoHKUzpzT7iwWhL]{Counterspell}</p> <hr /> <p>When you successfully Counterspell a spell of the tradition that matches your bloodline, you consume it, replenishing yourself with its energy.</p> <p>When you do, you are nourished as if you had eaten a meal and regain Hit Points equal to twice the level of the counteracted spell.</p>",
+      "prerequisites": [
+        {
+          "value": "Contramágica"
+        }
+      ]
     },
     "Contagious Rage": {
       "name": "Fúria Contagiante",
@@ -10947,7 +10952,12 @@
     },
     "Reflect Spell": {
       "name": "Refletir Magia",
-      "description": "<p>Quando você usa com sucesso @UUID[Compendium.pf2e.feats-srd.Item.EpBG4CFMNSZQx7vI]{Counterspell} para neutralizar uma magia que afeta criaturas alvos ou uma área, você pode voltar o efeito dessa magia contra seu lançador. Quando refletida, a magia afeta somente o lançador original, mesmo que seja uma magia de área ou que normalmente afetaria mais de uma criatura. O lançador original pode tentar uma resistência e usar outras defesas contra a magia refletida normalmente.</p>"
+      "description": "<p>Quando você usa com sucesso @UUID[Compendium.pf2e.feats-srd.Item.EpBG4CFMNSZQx7vI]{Counterspell} para neutralizar uma magia que afeta criaturas alvos ou uma área, você pode voltar o efeito dessa magia contra seu lançador. Quando refletida, a magia afeta somente o lançador original, mesmo que seja uma magia de área ou que normalmente afetaria mais de uma criatura. O lançador original pode tentar uma resistência e usar outras defesas contra a magia refletida normalmente.</p>",
+      "prerequisites": [
+        {
+          "value": "Contramágica"
+        }
+      ]
     },
     "Reflecting Riposte": {
       "description": "<section class=\"details\"> <p><strong>Prerequisites</strong> Dueling Riposte, Mirror Shield, or Twin Riposte</p> <p><strong>Trigger</strong> An opponent casts a spell and you critically succeed at a saving throw against it.</p> <p><strong>Requirements</strong> You have a shield raised or are benefiting from Dueling Parry or Twin Parry.</p> <hr></section> <section class=\"content\"> <p>You attempt to counteract the triggering spell using powerful magical techniques <a class=\"btn-inform2\" tabindex=\"0\" title=\"\" role=\"button\" data-trigger=\"focus\" data-toggle=\"popover\" data-boundary=\"window\" data-placement=\"auto\" data-html=\"true\" data-content=\"<p>Anything in plain view is <em>observed</em> by you. If a creature takes measures to avoid detection, such as by using Stealth to Hide, it can become hidden or undetected instead of <em>observed</em>. If you have another precise sense instead of or in addition to sight, you might be able to observe a creature or object using that sense instead. You can observe a creature only with precise senses. When Seeking a creature using only imprecise senses, it remains hidden, rather than <em>observed</em>.</p>\" data-original-title=\"<strong>condition: observed</strong>\">observed</a> in the Kortos Mounts. Use your attack roll modifier with your shield or parrying weapon for your counteract check. If you counteract the spell, it is reflected upon the caster. If the spell targeted individual creatures, it targets the caster only. If the spell targeted an area centered on a point, the new area is centered on the caster. If the spell was a cone or line, the cone or line emanates from you toward the caster. If the spell has a save DC, it uses your class DC, and if it requires a spell attack roll, use the same attack roll modifier as the counteract check.</p> </section>"
@@ -11562,6 +11572,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Arqueólogo"
+        }
+      ]
+    },
+    "School Spell Redirection": {
+      "prerequisites": [
+        {
+          "value": "Contramágica"
         }
       ]
     },
@@ -12206,6 +12223,13 @@
           "value": "Dedicação de Guarda dos Cristais"
         }
       ]
+    },
+    "Sin Counterspell": {
+      "prerequisites": {
+        "1": {
+          "value": "Contramágica"
+        }
+      }
     },
     "Sing to the Steel": {
       "description": "<p>You strike magical tones that can turn the tide of combat. You and your allies within 30 feet gain the effects of one of the following runes until the end of your next turn: @Compendium[pf2e.equipment-srd.Wm0X7Pfd1bfocPSv]{Corrosive}, @Compendium[pf2e.equipment-srd.LwQb7ryTC8FlOXgX]{Disrupting}, @Compendium[pf2e.equipment-srd.XszNvxnymWYRaoTp]{Flaming}, @Compendium[pf2e.equipment-srd.M5M1WJ5KzbYfRGsY]{Frost}, @Compendium[pf2e.equipment-srd.JQdwHECogcTzdd8R]{Ghost Touch}, @Compendium[pf2e.equipment-srd.NVst7e69agGG9Qwd]{Shock}, or @Compendium[pf2e.equipment-srd.dTxbaa7HSiJbIuNN]{Thundering}. The effects apply to a single weapon the creature is holding or one of the creature's unarmed attacks. You choose the rune and the effect applies to all creatures. You can use an action, which has the concentrate trait, to extend the duration of the rune for 1 additional round up to a maximum of 1 minute. If this would give a weapon or unarmed attack more property runes than its normal maximum, an existing property rune (as the creature chooses) is suppressed until the spell ends.</p>"
