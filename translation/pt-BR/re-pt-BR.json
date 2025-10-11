@@ -1620,8 +1620,12 @@
           "mode": {
             "choices": {
               "add": "Adicionar",
+              "downgrade": "Piorar",
+              "multiply": "Multiplicar",
               "override": "Sobrepor",
-              "remove": "Remover"
+              "remove": "Remover",
+              "subtract": "Subtrair",
+              "upgrade": "Melhorar"
             },
             "label": "Modo"
           },
@@ -1630,6 +1634,9 @@
           },
           "selector": {
             "label": "Seletor"
+          },
+          "selectors": {
+            "label": "Seletores"
           },
           "slug": {
             "label": "Slug"
@@ -1658,6 +1665,9 @@
               "failure": "Falha",
               "success": "Sucesso"
             }
+          },
+          "selector": {
+            "label": "Seletores"
           },
           "title": {
             "label": "Título"
