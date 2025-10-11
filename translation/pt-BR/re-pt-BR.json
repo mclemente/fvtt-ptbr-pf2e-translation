@@ -1608,6 +1608,63 @@
         "success": "[[/r 4d6[persistent,poison]]]{2*4d6 de dano de persistente de veneno}"
       }
     },
+    "RULES": {
+      "Common": {
+        "FIELDS": {
+          "key": {
+            "label": "Chave"
+          },
+          "label": {
+            "label": "Rótulo"
+          },
+          "mode": {
+            "choices": {
+              "add": "Adicionar",
+              "override": "Sobrepor",
+              "remove": "Remover"
+            },
+            "label": "Modo"
+          },
+          "predicate": {
+            "label": "Predicado"
+          },
+          "selector": {
+            "label": "Seletor"
+          },
+          "slug": {
+            "label": "Slug"
+          },
+          "value": {
+            "label": "Valor"
+          }
+        }
+      },
+      "DamageAlteration": {
+        "FIELDS": {
+          "property": {
+            "choices": {
+              "damage-type": "Tipo de Dano",
+              "dice-number": "Número de Dados"
+            }
+          }
+        }
+      },
+      "Note": {
+        "FIELDS": {
+          "outcome": {
+            "choices": {
+              "criticalFailure": "Falha Crítica",
+              "criticalSuccess": "Sucesso Crítico",
+              "failure": "Falha",
+              "success": "Sucesso"
+            }
+          },
+          "title": {
+            "label": "Título"
+          }
+        }
+      }
+    },
     "RuleEditor": {
       "Aura": {
         "Appearance": {
@@ -1674,7 +1731,6 @@
       },
       "General": {
         "Add": "Adicionar",
-        "Brackets": "Faixas",
         "CriticalBehavior": {
           "false": "1x Dano em Crítico",
           "null": "2x Dano em Crítico",
@@ -1684,7 +1740,6 @@
         "Label": "Rótulo",
         "Opacity": "Opacidade",
         "Predicate": "Predicado",
-        "Primitive": "Primitivo",
         "PriorityHint": "A prioridade determina a ordem em que os elementos de regra são executados dentro da mesma fase. Os elementos de regra com valores de prioridade mais baixos são executados primeiro.",
         "Range": "Intervalo",
         "Remove": "Remover",
@@ -1736,7 +1791,6 @@
       "Sense": "Sentidos",
       "SpecialStatistic": "Estatística Especial",
       "Strike": "Golpear",
-      "Striking": "Impactante",
       "SubstituteRoll": "Substituir Rolagem",
       "TempHP": "Pontos de Vida Temporários",
       "TempHPShortLabel": "Temp",
@@ -1746,8 +1800,7 @@
       "TokenMark": "Marca de Token",
       "TokenName": "Nome de Token",
       "Unrecognized": "Elemento de Regra não Reconhecido",
-      "Weakness": "Fraqueza",
-      "WeaponPotency": "Potência de Arma"
+      "Weakness": "Fraqueza"
     },
     "SkillVariant": {
       "AboutCaves": "Sobre Cavernas",
