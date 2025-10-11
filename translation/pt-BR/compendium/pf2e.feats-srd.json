@@ -2656,7 +2656,8 @@
       ]
     },
     "Cleave": {
-      "name": "Trespassar"
+      "name": "Trespassar",
+      "description": "<p><strong>Acionamento</strong> Seus Golpes corpo a corpo reduzem um inimigo a 0 Pontos de Vida e outro inimigo está adjacente a esta criatura.</p>\n<hr />\n<p>Seu ataque atravessa um inimigo em direção a outro. Faça um Golpe corpo a corpo contra o segundo inimigo.</p>"
     },
     "Cleric Dedication": {
       "name": "Dedicação de Clérigo",
@@ -6247,6 +6248,7 @@
     },
     "Great Cleave": {
       "name": "Trespassar Maior",
+      "description": "<p>Sua fúria faz sua arma passar por vários adversários. Ao @UUID[Compendium.pf2e.feats-srd.Item.GE96a0UGPYM74qjI]Trespassar}, se seu Golpe também reduzir o alvo a 0 PV, você pode continuar realizando Golpes corpo a corpo até realizar um Golpe que não reduza uma criatura a 0 PV, ou até não ter mais criaturas adjacentes à última criatura que você atacou durante o Trespassar, o que ocorrer primeiro.</p>",
       "prerequisites": [
         {
           "value": "Trespassar"
@@ -13527,8 +13529,8 @@
       ]
     },
     "Swipe": {
-      "name": "Varredura",
-      "description": "<p>Você desfere um golpe amplo em forma de arco. Faça um Golpe corpo a corpo e compare o resultado do teste de ataque com a CA de até dois inimigos, que devem estar ao seu alcance e adjacentes um ao outro. Jogue o dano apenas uma vez e aplique-o a cada criatura atingida. Uma Varredura conta como dois ataques para sua penalidade por ataques múltiplos.</p>\n<p>Se estiver usando uma arma com o traço amplitude, o modificador desse traço se aplica a todos os seus ataques de Varredura.</p>"
+      "name": "Arrebatar",
+      "description": "<p>Você desfere um golpe amplo em forma de arco. Faça um Golpe corpo a corpo e compare o resultado do teste de ataque com a CA de até dois inimigos, que devem estar ao seu alcance e adjacentes um ao outro. Jogue o dano apenas uma vez e aplique-o a cada criatura atingida. Arrebatar conta como dois ataques para sua penalidade por ataques múltiplos.</p>\n<p>Se estiver usando uma arma com o traço amplitude, o modificador desse traço se aplica a todos os seus ataques de Arrebatar.</p>"
     },
     "Swipe Souvenir": {
       "name": "Arrebatar Souvenir",
@@ -15398,9 +15400,6 @@
     },
     "Work Yourself Up": {
       "description": "<p><strong>Requirements</strong> You have a reaction available and aren't prevented from using @UUID[Compendium.pf2e.actionspf2e.2424g94rpoiN1IPh]{Catharsis}.</p>\n<hr />\n<p>You concentrate on your mental state, tapping into that raw emotional energy. Take your Catharsis reaction, causing the catharsis activation and entering your emotional fervor as normal. The fervor lasts only until the end of your turn. At the end of your emotional fervor, you experience the effects of your emotional fallout, as normal.</p>"
-    },
-    "Wortwitch": {
-      "description": "<p>You have a particular affinity for leafy plants.</p> <p>Your patron grants you a leshy familiar. If you already had a familiar, this leshy replaces your previous familiar, as if your previous familiar had been slain.</p> <p>In addition, you gain the ability to see through leaves, vines, and other foliage. You don’t take circumstance penalties to ranged spell attacks or Perception checks caused by foliage, and your targeted attacks don’t require a flat check to succeed against a target @Compendium[pf2e.conditionspf2e.DmAIPqOBomZ7H95W]{Concealed} only by such vegetation.</p>"
     },
     "Wounded Rage": {
       "name": "Fúria Ferida",
