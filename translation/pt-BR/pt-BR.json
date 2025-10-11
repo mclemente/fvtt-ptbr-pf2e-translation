@@ -114,6 +114,7 @@
     "ActionsActionsHeader": "Ações",
     "ActionsFreeActionsHeader": "Ações Livres",
     "ActionsReactionsHeader": "Reações",
+    "ActionWithDC": "{label} (CD {dc}",
     "Actor": {
       "ApplyDamage": {
         "AtFullHealth": "<actor>{actor}</actor> já está com vida cheia.",
@@ -532,6 +533,7 @@
       },
       "NPC": {
         "BonusLabel": {
+          "modifier": "Modificador de Ataque",
           "save": "CD de Salvamento"
         },
         "Configure": {
@@ -3676,10 +3678,15 @@
         "Name": "Regras Variantes",
         "Proficiency": {
           "Hint": "Jogue com a variante de proficiência sem nível do Guia do Mestre.",
+          "Legend": "Proficiência Sem Nível",
           "ModifiersHint": "Defina o valor do modificador para cada graduação de proficiência.",
           "Name": "Proficiência Sem Nível",
           "Rank": {
-            "Legendary": "L"
+            "Expert": "E",
+            "Legendary": "L",
+            "Master": "M",
+            "Trained": "T",
+            "Untrained": "D"
           }
         },
         "Stamina": {
@@ -3857,6 +3864,11 @@
     "SpellUnlimitedLabel": "Ilimitado",
     "SpellUsesLabel": "Usos",
     "SpellcastingItemCreator": {
+      "CantripDeck5": "Baralho de truque mágico (conjunto com 5 cartas)",
+      "ItemType": "Tipo de item",
+      "Label": "Criar um item a partir de {name}",
+      "NoValidRanks": "Sem Ranques Válidos",
+      "Title": "Criando Item de Conjuração",
       "ViewItem": "Ver item"
     },
     "SpellcastingSettings": {
