@@ -114,6 +114,7 @@
     "ActionsActionsHeader": "Ações",
     "ActionsFreeActionsHeader": "Ações Livres",
     "ActionsReactionsHeader": "Reações",
+    "ActionWithDC": "{label} (CD {dc}",
     "Actor": {
       "ApplyDamage": {
         "AtFullHealth": "<actor>{actor}</actor> já está com vida cheia.",
@@ -531,6 +532,10 @@
         }
       },
       "NPC": {
+        "BonusLabel": {
+          "modifier": "Modificador de Ataque",
+          "save": "CD de Salvamento"
+        },
         "Configure": {
           "Lootable": {
             "DefaultLootable": "Padrão Global (Saqueável)",
@@ -862,17 +867,6 @@
       "worn-in-slot": "Vestido (no Espaço)"
     },
     "CastLabel": "Conjuração",
-    "CastingItemCreateDialog": {
-      "10thLevelWand": "Varinhas de 10º nível não existem",
-      "cantripDeck5": "Baralho de truque mágico (conjunto com 5 cartas)",
-      "itemTypeLabel": "Tipo do item: ",
-      "label": "Criar um item de conjuração a partir de uma magia escolhida",
-      "scroll": "Pergaminho",
-      "spellLevelLabel": "Nível Elevado: ",
-      "submit": "Criar Item",
-      "title": "Criar um item de conjuração",
-      "wand": "Varinha"
-    },
     "Category": "Categoria",
     "CharacterDetails": "Detalhes do Personagem",
     "CharacterLevelLabel": "Nível",
@@ -3074,7 +3068,6 @@
     "NPCNotesTitle": "Escreva quaisquer notas para este PdM aqui.",
     "NPCWeaponAddDamage": "Adicionar Parte de Dano",
     "NPCWeaponAttackEffect": "Efeitos de Ataque Adicionais",
-    "NPCWeaponAttackLabel": "Modificador de Ataque",
     "NPCWeaponDamageLabel": "Fórmula de Dano",
     "Nationality": "Nacionalidade",
     "NewLabel": "Novo",
@@ -3210,7 +3203,6 @@
     "ProficiencyLevel2": "Especialista",
     "ProficiencyLevel3": "Mestre",
     "ProficiencyLevel4": "Lendário",
-    "ProficiencyRankLabel": "Prof",
     "ProgressBar": {
       "LoadingComplete": "Carregamento concluído",
       "LoadingPack": "Carregando {pack}"
@@ -3686,8 +3678,16 @@
         "Name": "Regras Variantes",
         "Proficiency": {
           "Hint": "Jogue com a variante de proficiência sem nível do Guia do Mestre.",
+          "Legend": "Proficiência Sem Nível",
           "ModifiersHint": "Defina o valor do modificador para cada graduação de proficiência.",
-          "Name": "Proficiência Sem Nível"
+          "Name": "Habilitada",
+          "Rank": {
+            "Expert": "E",
+            "Legendary": "L",
+            "Master": "M",
+            "Trained": "T",
+            "Untrained": "D"
+          }
         },
         "Stamina": {
           "Hint": "Jogue com a variante de estamina do Guia de Mestre pág 190",
@@ -3863,6 +3863,14 @@
     "SpellTraditionsLabel": "Tradições",
     "SpellUnlimitedLabel": "Ilimitado",
     "SpellUsesLabel": "Usos",
+    "SpellcastingItemCreator": {
+      "CantripDeck5": "Baralho de truque mágico (conjunto com 5 cartas)",
+      "ItemType": "Tipo de item",
+      "Label": "Criar um item a partir de {name}",
+      "NoValidRanks": "Sem Ranques Válidos",
+      "Title": "Criando Item de Conjuração",
+      "ViewItem": "Ver item"
+    },
     "SpellcastingSettings": {
       "AutoHeightenDefault": "Padrão (Usar Nível do Ator)",
       "AutoHeightenLabel": "Auto-Elevar Círculo",
@@ -4111,6 +4119,7 @@
     "TraitArchetype": "Arquétipo",
     "TraitArchon": "Arconte",
     "TraitArdande": "Ardande",
+    "TraitArea": "Área",
     "TraitAreaDamage": "Dano em Área",
     "TraitArtifact": "Artefato",
     "TraitAstral": "Astral",
