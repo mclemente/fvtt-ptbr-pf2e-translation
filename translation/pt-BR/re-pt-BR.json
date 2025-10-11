@@ -1643,6 +1643,9 @@
           },
           "value": {
             "label": "Valor"
+          },
+          "relabel": {
+            "label": "Renomear"
           }
         }
       },
@@ -1651,8 +1654,11 @@
           "property": {
             "choices": {
               "damage-type": "Tipo de Dano",
-              "dice-number": "Número de Dados"
-            }
+              "dice-faces": "Faces de Dados",
+              "dice-number": "Número de Dados",
+              "tags": "Tags"
+            },
+            "label": "Propriedade"
           }
         }
       },
@@ -1664,13 +1670,33 @@
               "criticalSuccess": "Sucesso Crítico",
               "failure": "Falha",
               "success": "Sucesso"
-            }
+            },
+            "label": "Resultados"
           },
           "selector": {
             "label": "Seletores"
           },
+          "text": {
+            "label": "Texto"
+          },
           "title": {
             "label": "Título"
+          },
+          "visibility": {
+            "choices": {
+              "gm": "Apenas Mestre",
+              "owner": "Dono do Item"
+            },
+            "hint": "Quem deve ver esta nota quando postada no chat: não escolher ninguém faz com que seja visível a todos os usuários.",
+            "label": "Visibilidade"
+          }
+        }
+      },
+      "TokenMark": {
+        "FIELDS": {
+          "uuid": {
+            "hint": "A UUID do token marcado: automaticamente preenchido ao marcar.",
+            "label": "UUID de Token"
           }
         }
       }
@@ -2353,6 +2379,11 @@
         "Prompt": "Selecione uma arma de clã."
       },
       "Cleric": {
+        "BattleHarbinger": {
+          "BattleFont": {
+            "Label": "Fonte de Batalha"
+          }
+        },
         "DivineFont": {
           "Harmful": "Ferimento",
           "Healing": "Cura",
@@ -2967,6 +2998,18 @@
         },
         "TrainSkill": {
           "Prompt": "Selecione uma perícia para se tornar treinado."
+        }
+      },
+      "Runelord": {
+        "School": {
+          "Envy": "Inveja",
+          "Gluttony": "Gula",
+          "Greed": "Ganância",
+          "Lust": "Luxúria",
+          "Pride": "Orgulho",
+          "Prompt": "Selecione uma escola tassiloniana",
+          "Sloth": "Preguiça",
+          "Wrath": "Ira"
         }
       },
       "SaveCriticalFailureToFailure": {
