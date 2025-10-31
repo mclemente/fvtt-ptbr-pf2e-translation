@@ -453,7 +453,7 @@ class Translator {
         else {
             translation.forEach((t, index) => {
                 data[index] = t;
-            })
+            });
         }
         return data;
     }
