@@ -15443,10 +15443,7 @@
       "converter": "translateDualLanguage",
       "path": "name"
     },
-    "prerequisites": {
-      "converter": "translatePrerequisites",
-      "path": "system.prerequisites.value"
-    },
+    "prerequisites": "system.prerequisites.value",
     "rules": {
       "converter": "translateRules",
       "path": "system.rules"
