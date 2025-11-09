@@ -43,7 +43,7 @@
     },
     "Barcumbuk": {
       "items": {
-        "strike-ranged->Rope": {
+        "strike-melee->Rope": {
           "name": "Corda"
         }
       }
@@ -92,7 +92,7 @@
         "strike-ranged->Trident": {
           "name": "Tridente"
         },
-        "strike-ranged->Blowgun": {
+        "strike-melee->Blowgun": {
           "name": "Zarabatana"
         }
       }
@@ -112,7 +112,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-ranged->Shortbow": {
+        "strike-melee->Shortbow": {
           "name": "Arco Curto"
         },
         "action->Bravery": {
@@ -276,7 +276,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "action->Skirmish Strike": {
@@ -293,7 +293,7 @@
         "strike-melee->Rapier": {
           "name": "Rapieira"
         },
-        "strike-ranged->Repeating Hand Crossbow": {
+        "strike-melee->Repeating Hand Crossbow": {
           "name": "Besta de mão Repetidora"
         },
         "action->Distracting Shot": {
@@ -310,7 +310,7 @@
         "strike-melee->Elven Curve Blade": {
           "name": "Lâmina Curva Élfica"
         },
-        "strike-ranged->Hand Crossbow": {
+        "strike-melee->Hand Crossbow": {
           "name": "Besta de Mão"
         }
       }
@@ -475,7 +475,7 @@
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
-        "strike-ranged->Heavy Crossbow": {
+        "strike-melee->Heavy Crossbow": {
           "name": "Besta Pesada"
         }
       }
@@ -514,14 +514,16 @@
         }
       },
       "items": {
-        "strike-melee->Club": {
-          "name": "Clava"
-        },
+        "strike-melee->Club": [
+          {
+            "name": "Clava"
+          },
+          {
+            "name": "Clava"
+          }
+        ],
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
-        },
-        "strike-ranged->Club": {
-          "name": "Clava"
         }
       }
     },
@@ -570,7 +572,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         }
       }
@@ -580,7 +582,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-ranged->Shuriken": {
+        "strike-melee->Shuriken": {
           "name": "Shuriken"
         },
         "action->Flurry of Blows": {
@@ -609,7 +611,7 @@
         "strike-melee->Kukri": {
           "name": "Kukri"
         },
-        "strike-ranged->Hand Crossbow": {
+        "strike-melee->Hand Crossbow": {
           "name": "Besta de Mão"
         }
       }
@@ -623,7 +625,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "action->Skirmish Strike": {
@@ -669,7 +671,7 @@
         "strike-melee->Kukri": {
           "name": "Kukri"
         },
-        "strike-ranged->Repeating Hand Crossbow": {
+        "strike-melee->Repeating Hand Crossbow": {
           "name": "Besta de mão Repetidora"
         },
         "action->Deny Advantage": {
@@ -720,7 +722,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Hand Crossbow": {
+        "strike-melee->Hand Crossbow": {
           "name": "Besta de Mão"
         }
       }
@@ -782,17 +784,17 @@
     },
     "Shanrigol Behemoth": {
       "items": {
-        "strike-ranged->Bone Shard": {
+        "strike-melee->Bone Shard": {
           "name": "Lasca de Osso"
         },
-        "strike-ranged->Web": {
+        "strike-melee->Web": {
           "name": "Teia"
         }
       }
     },
     "Shanrigol Heap": {
       "items": {
-        "strike-ranged->Bone Shard": {
+        "strike-melee->Bone Shard": {
           "name": "Lasca de Osso"
         }
       }
@@ -813,7 +815,7 @@
     },
     "Summoning Chamber Erinys": {
       "items": {
-        "strike-ranged->Rope": {
+        "strike-melee->Rope": {
           "name": "Corda"
         }
       }
