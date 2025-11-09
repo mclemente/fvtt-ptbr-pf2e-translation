@@ -22,7 +22,7 @@
         "strike-melee->Morningstar": {
           "name": "Maça-estrela"
         },
-        "strike-ranged->Crossbow": {
+        "strike-melee->Crossbow": {
           "name": "Besta Leve"
         }
       }
@@ -32,7 +32,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "action->No Escape": {
@@ -68,7 +68,7 @@
         "strike-melee->Aldori Dueling Sword": {
           "name": "Espada de Duelo Aldori"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "action->Forager": {
@@ -87,7 +87,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         },
         "action->Twin Feint": {
@@ -246,7 +246,7 @@
         "strike-ranged->Dagger": {
           "name": "Adaga"
         },
-        "strike-ranged->Hand Crossbow": {
+        "strike-melee->Hand Crossbow": {
           "name": "Besta de Mão"
         }
       }
@@ -282,7 +282,7 @@
         "strike-melee->Claw": {
           "name": "Garra"
         },
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         }
       }
@@ -302,7 +302,7 @@
         "strike-melee->Whip": {
           "name": "Chicote"
         },
-        "strike-ranged->Blowgun": {
+        "strike-melee->Blowgun": {
           "name": "Zarabatana"
         }
       }
@@ -320,7 +320,7 @@
             "name": "Tridente"
           }
         ],
-        "strike-ranged->Blowgun": {
+        "strike-melee->Blowgun": {
           "name": "Zarabatana"
         },
         "action->Nature's Edge": {
@@ -412,7 +412,7 @@
         "strike-melee->Greataxe": {
           "name": "Machado Longo"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         }
       }
@@ -499,7 +499,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "action->Intimidating Strike": {
@@ -626,7 +626,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         }
       }
@@ -676,7 +676,7 @@
     },
     "Gaetane": {
       "items": {
-        "strike-ranged->Oathbow": {
+        "strike-melee->Oathbow": {
           "name": "Arco do Juramento"
         },
         "action->Deadly Aim": {
@@ -717,7 +717,7 @@
         "strike-melee->Greatsword": {
           "name": "Montante"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "lore->Warfare Lore": {
@@ -759,7 +759,7 @@
         "strike-melee->Rapier": {
           "name": "Rapieira"
         },
-        "strike-ranged->Shortbow": {
+        "strike-melee->Shortbow": {
           "name": "Arco Curto"
         }
       }
@@ -797,7 +797,7 @@
         "strike-melee->Hatchet": {
           "name": "Machadinha"
         },
-        "strike-ranged->Crossbow": {
+        "strike-melee->Crossbow": {
           "name": "Besta Leve"
         },
         "action->Skirmish Strike": {
@@ -813,7 +813,7 @@
         "strike-ranged->Dagger": {
           "name": "Adaga"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         }
       }
@@ -839,7 +839,7 @@
         "strike-melee->Sickle": {
           "name": "Foice"
         },
-        "strike-ranged->Blowgun": {
+        "strike-melee->Blowgun": {
           "name": "Zarabatana"
         },
         "action->Trackless Step": {
@@ -849,7 +849,7 @@
     },
     "Hill Giant Butcher": {
       "items": {
-        "consumable->Rock": {
+        "ammo->Rock": {
           "name": "Rocha"
         },
         "strike-melee->Battle Axe": {
@@ -863,7 +863,7 @@
             "name": "Machadinha"
           }
         ],
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         }
       }
@@ -1117,13 +1117,13 @@
     },
     "Kargstaad": {
       "items": {
-        "consumable->Rock": {
+        "ammo->Rock": {
           "name": "Rocha"
         },
         "strike-melee->Hatchet": {
           "name": "Machadinha"
         },
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         },
         "action->Juggernaut": {
@@ -1136,7 +1136,7 @@
     },
     "Kargstaad's Giant": {
       "items": {
-        "consumable->Rock": {
+        "ammo->Rock": {
           "name": "Rocha"
         },
         "strike-melee->Greataxe": {
@@ -1145,7 +1145,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         }
       }
@@ -1202,13 +1202,13 @@
     },
     "Kob Moleg": {
       "items": {
-        "consumable->Rock": {
+        "ammo->Rock": {
           "name": "Rocha"
         },
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         },
         "lore->Warfare Lore": {
@@ -1456,7 +1456,7 @@
         "strike-ranged->Club": {
           "name": "Clava"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         },
         "action->Form Control": {
@@ -1508,7 +1508,7 @@
         "strike-melee->Maul": {
           "name": "Malho"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         }
       }
@@ -1645,7 +1645,7 @@
         "strike-melee->Greatsword": {
           "name": "Montante"
         },
-        "strike-ranged->Shortbow": {
+        "strike-melee->Shortbow": {
           "name": "Arco Curto"
         },
         "action->Sudden Charge": {
@@ -1678,7 +1678,7 @@
         "strike-melee->Tail": {
           "name": "Cauda"
         },
-        "strike-ranged->Quill": {
+        "strike-melee->Quill": {
           "name": "Espinho"
         },
         "action->Pain": {
@@ -1780,7 +1780,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         }
       }
@@ -1800,7 +1800,7 @@
         "strike-melee->Greatsword": {
           "name": "Montante"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         }
       }
@@ -1824,7 +1824,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         }
       }
@@ -1949,7 +1949,7 @@
         "strike-melee->Horns": {
           "name": "Chifres"
         },
-        "strike-ranged->Composite Shortbow": {
+        "strike-melee->Composite Shortbow": {
           "name": "Arco Curto Composto"
         },
         "action->Juggernaut": {
@@ -2001,7 +2001,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-ranged->Composite Longbow": {
+        "strike-melee->Composite Longbow": {
           "name": "Arco Longo Composto"
         },
         "action->Dread Striker": {
@@ -2043,7 +2043,7 @@
         "strike-ranged->Dagger": {
           "name": "Adaga"
         },
-        "strike-ranged->Shortbow": {
+        "strike-melee->Shortbow": {
           "name": "Arco Curto"
         }
       }
@@ -2127,7 +2127,7 @@
     },
     "Tiger Lord Hill Giant (TL2)": {
       "items": {
-        "consumable->Rock": {
+        "ammo->Rock": {
           "name": "Rocha"
         },
         "strike-melee->Greatclub": {
@@ -2136,7 +2136,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-ranged->Rock": {
+        "strike-melee->Rock": {
           "name": "Rocha"
         },
         "action->Knockback": {
