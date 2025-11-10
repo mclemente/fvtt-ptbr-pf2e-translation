@@ -14,7 +14,7 @@
         "strike-melee->Fangs": {
           "name": "Fangs"
         },
-        "strike-melee->Javelin": {
+        "strike-ranged->Javelin": {
           "name": "Javelin"
         },
         "action->Telepathy 100 feet": {
@@ -90,7 +90,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 90 feet": {
@@ -160,7 +160,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 90 feet": {
@@ -218,7 +218,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 120 feet": {
@@ -292,7 +292,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 120 feet": {
@@ -354,7 +354,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 60 feet": {
@@ -424,7 +424,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 60 feet": {
@@ -522,16 +522,12 @@
         "spell->Translocate (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]\nTranslocate (At Will)"
         },
-        "strike-melee->Flame of Justice": [
-          {
-            "name": "Flame of Justice",
-            "id": "1RThW68qrsUA5hLy"
-          },
-          {
-            "name": "Flame of Justice",
-            "id": "V2yYPZTHL77LPrCc"
-          }
-        ],
+        "strike-melee->Flame of Justice": {
+          "name": "Flame of Justice"
+        },
+        "strike-ranged->Flame of Justice": {
+          "name": "Flame of Justice"
+        },
         "action->Archon's Protection": {
           "name": "Archon's Protection",
           "description": "<p><strong>Trigger</strong> An enemy damages the archon's ally and both are within 15 feet of the archon</p>\n<hr />\n<p><strong>Effect</strong> The ally gains resistance 10 to all damage against the triggering damage and the archon can make a Strike against the enemy.</p>"
@@ -726,7 +722,7 @@
         "strike-melee->Mandibles": {
           "name": "Mandibles"
         },
-        "strike-melee->Acid Spit": {
+        "strike-ranged->Acid Spit": {
           "name": "Acid Spit"
         },
         "action->Tremorsense (Imprecise) 30 feet": {
@@ -749,7 +745,7 @@
         "strike-melee->Mandibles": {
           "name": "Mandibles"
         },
-        "strike-melee->Acid Spit": {
+        "strike-ranged->Acid Spit": {
           "name": "Acid Spit"
         },
         "action->Tremorsense (Imprecise) 90 feet": {
@@ -876,7 +872,7 @@
         "strike-melee->Root": {
           "name": "Root"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Awaken Tree": {
@@ -990,7 +986,7 @@
         "strike-melee->Longspear": {
           "name": "Longspear"
         },
-        "strike-melee->Crossbow": {
+        "strike-ranged->Crossbow": {
           "name": "Crossbow"
         },
         "action->Cooperative Hunting": {
@@ -1162,7 +1158,7 @@
         "strike-ranged->Trident": {
           "name": "Trident"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
         },
         "action->Hydration": {
@@ -1298,7 +1294,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Quill": {
+        "strike-ranged->Quill": {
           "name": "Quill"
         },
         "action->Planar Acclimation": {
@@ -1496,7 +1492,7 @@
         "strike-melee->Tongue": {
           "name": "Tongue"
         },
-        "strike-melee->Sling": {
+        "strike-ranged->Sling": {
           "name": "Sling"
         },
         "action->Swamp Passage": {
@@ -1592,7 +1588,7 @@
         "strike-melee->Tentacle": {
           "name": "Tentacle"
         },
-        "strike-melee->Larval Spit": {
+        "strike-ranged->Larval Spit": {
           "name": "Larval Spit"
         },
         "action->Revolting Aura": {
@@ -2110,7 +2106,7 @@
         "strike-melee->Body": {
           "name": "Body"
         },
-        "strike-melee->Regurgitate": {
+        "strike-ranged->Regurgitate": {
           "name": "Regurgitate"
         },
         "action->Tremorsense (Imprecise) 100 feet": {
@@ -2162,7 +2158,7 @@
         "strike-melee->Hoof": {
           "name": "Hoof"
         },
-        "strike-melee->Sling": {
+        "strike-ranged->Sling": {
           "name": "Sling"
         },
         "action->Load Sachet": {
@@ -2307,7 +2303,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Piercing Hymn": {
+        "strike-ranged->Piercing Hymn": {
           "name": "Piercing Hymn"
         },
         "action->Harmonizing Aura": {
@@ -2510,10 +2506,10 @@
         "strike-melee->Fangs": {
           "name": "Fangs"
         },
-        "strike-melee->Hand Crossbow (Spider Venom)": {
+        "strike-ranged->Hand Crossbow (Spider Venom)": {
           "name": "Hand Crossbow (Spider Venom)"
         },
-        "strike-melee->Hand Crossbow (Serpentfolk Venom)": {
+        "strike-ranged->Hand Crossbow (Serpentfolk Venom)": {
           "name": "Hand Crossbow (Serpentfolk Venom)"
         },
         "action->+4 Status to Will Saves vs. Mental": {
@@ -2600,7 +2596,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Mental Blast": {
+        "strike-ranged->Mental Blast": {
           "name": "Mental Blast"
         },
         "action->Telepathy 100 feet": {
@@ -2678,7 +2674,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Mental Blast": {
+        "strike-ranged->Mental Blast": {
           "name": "Mental Blast"
         },
         "action->Telepathy 100 feet": {
@@ -2747,7 +2743,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Mental Blast": {
+        "strike-ranged->Mental Blast": {
           "name": "Mental Blast"
         },
         "action->Telepathy 100 feet": {
@@ -2828,7 +2824,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Mental Blast": {
+        "strike-ranged->Mental Blast": {
           "name": "Mental Blast"
         },
         "action->Telepathy 100 feet": {
@@ -2894,7 +2890,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Mental Blast": {
+        "strike-ranged->Mental Blast": {
           "name": "Mental Blast"
         },
         "action->Telepathy 100 feet": {
@@ -2972,7 +2968,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Mental Blast": {
+        "strike-ranged->Mental Blast": {
           "name": "Mental Blast"
         },
         "action->Telepathy 100 feet": {
@@ -3178,7 +3174,7 @@
         "strike-melee->Greataxe": {
           "name": "Greataxe"
         },
-        "strike-melee->Heavy Crossbow": {
+        "strike-ranged->Heavy Crossbow": {
           "name": "Heavy Crossbow"
         },
         "action->Flash of Insight": {
@@ -3359,7 +3355,7 @@
         "strike-ranged->Club": {
           "name": "Club"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
         },
         "action->Vulnerable to Sunlight": {
@@ -3394,7 +3390,7 @@
         "strike-melee->Spiked Chain": {
           "name": "Spiked Chain"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
         },
         "action->Ill Glow": {
@@ -3466,7 +3462,7 @@
         "strike-melee->Vine": {
           "name": "Vine"
         },
-        "strike-melee->Acid Glob": {
+        "strike-ranged->Acid Glob": {
           "name": "Acid Glob"
         },
         "action->Regeneration 15 (Deactivated by Fire)": {
@@ -3986,7 +3982,7 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "strike-melee->Euphoric Spark": {
+        "strike-ranged->Euphoric Spark": {
           "name": "Euphoric Spark"
         },
         "action->Telepathy (Touch)": {
@@ -4073,7 +4069,7 @@
         "strike-melee->Branch": {
           "name": "Branch"
         },
-        "strike-melee->Leaves": {
+        "strike-ranged->Leaves": {
           "name": "Leaves"
         },
         "action->Nature Empathy": {
@@ -4156,7 +4152,7 @@
         "strike-ranged->Hatchet": {
           "name": "Hatchet"
         },
-        "strike-melee->Composite Longbow": {
+        "strike-ranged->Composite Longbow": {
           "name": "Composite Longbow"
         },
         "action->+1 Status to All Saves vs. Death Effects": {
@@ -4360,7 +4356,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 90 feet": {
@@ -4399,7 +4395,7 @@
         "strike-melee->Gust": {
           "name": "Gust"
         },
-        "strike-melee->Lightning Lash": {
+        "strike-ranged->Lightning Lash": {
           "name": "Lightning Lash"
         },
         "action->Disperse": {
@@ -4432,7 +4428,7 @@
         "strike-melee->Tendril": {
           "name": "Tendril"
         },
-        "strike-melee->Fire Mote": {
+        "strike-ranged->Fire Mote": {
           "name": "Fire Mote"
         },
         "action->Smoke Vision": {
@@ -4519,7 +4515,7 @@
         "strike-ranged->Dagger": {
           "name": "Dagger"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Double Shot": {
@@ -5056,7 +5052,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Flame": {
+        "strike-ranged->Flame": {
           "name": "Flame"
         },
         "action->Flaming Stroke": {
@@ -5099,7 +5095,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Fire Mote": {
+        "strike-ranged->Fire Mote": {
           "name": "Fire Mote"
         },
         "action->Smoke Vision": {
@@ -5578,7 +5574,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Icicle": {
+        "strike-ranged->Icicle": {
           "name": "Icicle"
         },
         "action->Reactive Strike": {
@@ -5612,7 +5608,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Spore Pod": {
+        "strike-ranged->Spore Pod": {
           "name": "Spore Pod"
         },
         "action->Verdant Burst": {
@@ -5843,7 +5839,7 @@
         "strike-melee->Stone Fist": {
           "name": "Stone Fist"
         },
-        "strike-melee->Flaming Coal": {
+        "strike-ranged->Flaming Coal": {
           "name": "Flaming Coal"
         },
         "action->Construct Armor (Hardness 10)": {
@@ -6294,7 +6290,7 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
         },
         "action->Hungersense (Imprecise) 30 feet": {
@@ -6351,7 +6347,7 @@
         "strike-melee->Slam": {
           "name": "Slam"
         },
-        "strike-melee->Tongue of Flame": {
+        "strike-ranged->Tongue of Flame": {
           "name": "Tongue of Flame"
         },
         "action->All-Knowing Eyes": {
@@ -6449,7 +6445,7 @@
         "strike-melee->Horsechopper": {
           "name": "Horsechopper"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Goblin Scuttle": {
@@ -6512,7 +6508,7 @@
         "strike-melee->Dogslicer": {
           "name": "Dogslicer"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Goblin Scuttle": {
@@ -6532,7 +6528,7 @@
         "strike-melee->Dogslicer": {
           "name": "Dogslicer"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Goblin Scuttle": {
@@ -6583,7 +6579,7 @@
         "strike-melee->Fangs": {
           "name": "Fangs"
         },
-        "strike-melee->Web": {
+        "strike-ranged->Web": {
           "name": "Web"
         },
         "action->Web Sense": {
@@ -6729,7 +6725,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Seed": {
+        "strike-ranged->Seed": {
           "name": "Seed"
         },
         "action->Keepsake": {
@@ -6760,7 +6756,7 @@
         "strike-melee->Frost Fist": {
           "name": "Frost Fist"
         },
-        "strike-melee->Frost Composite Longbow": {
+        "strike-ranged->Frost Composite Longbow": {
           "name": "Frost Composite Longbow"
         },
         "action->Rejuvenation": {
@@ -6803,7 +6799,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Flash of Brutality": {
@@ -7170,7 +7166,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Digestive Spew": {
+        "strike-ranged->Digestive Spew": {
           "name": "Digestive Spew"
         },
         "action->Disgusting Demise": {
@@ -7317,7 +7313,7 @@
         "strike-melee->Frying Pan": {
           "name": "Frying Pan"
         },
-        "strike-melee->Halfling Sling Staff": {
+        "strike-ranged->Halfling Sling Staff": {
           "name": "Halfling Sling Staff"
         },
         "action->Keen Eyes": {
@@ -7473,7 +7469,7 @@
         "strike-melee->Shortsword": {
           "name": "Shortsword"
         },
-        "strike-melee->Crossbow": {
+        "strike-ranged->Crossbow": {
           "name": "Crossbow"
         },
         "action->Formation": {
@@ -7501,7 +7497,7 @@
         "strike-melee->Glaive": {
           "name": "Glaive"
         },
-        "strike-melee->Composite Shortbow": {
+        "strike-ranged->Composite Shortbow": {
           "name": "Composite Shortbow"
         },
         "action->General's Cry": {
@@ -7526,7 +7522,7 @@
         "strike-melee->Longsword": {
           "name": "Longsword"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Formation": {
@@ -7945,7 +7941,7 @@
         "strike-melee->Warhammer": {
           "name": "Warhammer"
         },
-        "strike-melee->Alchemical Grenade": {
+        "strike-ranged->Alchemical Grenade": {
           "name": "Alchemical Grenade",
           "description": "<p>Acid, Cold, or Fire Damage</p>"
         },
@@ -7983,7 +7979,7 @@
         "strike-melee->Light Mace": {
           "name": "Light Mace"
         },
-        "strike-melee->Crossbow": {
+        "strike-ranged->Crossbow": {
           "name": "Crossbow",
           "description": "<p>No damage if using Bola Bolt.</p>"
         },
@@ -8034,7 +8030,7 @@
         "strike-melee->Fangs": {
           "name": "Fangs"
         },
-        "strike-melee->Web": {
+        "strike-ranged->Web": {
           "name": "Web"
         },
         "action->Web Sense": {
@@ -8365,7 +8361,7 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "strike-melee->Thunderbolt": {
+        "strike-ranged->Thunderbolt": {
           "name": "Thunderbolt",
           "description": "<p>(plus @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round)</p>"
         },
@@ -8421,7 +8417,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Crashing Wind": {
+        "strike-ranged->Crashing Wind": {
           "name": "Crashing Wind"
         },
         "action->Cloud of Visions": {
@@ -8552,7 +8548,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Composite Shortbow": {
+        "strike-ranged->Composite Shortbow": {
           "name": "Composite Shortbow"
         },
         "action->Commanding Presence": {
@@ -8787,7 +8783,7 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Pack Attack": {
@@ -8810,7 +8806,7 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "strike-melee->Composite Shortbow": {
+        "strike-ranged->Composite Shortbow": {
           "name": "Composite Shortbow"
         },
         "action->Bark Orders": {
@@ -8861,7 +8857,7 @@
         "strike-melee->Shortsword": {
           "name": "Shortsword"
         },
-        "strike-melee->Crossbow": {
+        "strike-ranged->Crossbow": {
           "name": "Crossbow"
         },
         "action->+1 Circumstance to All Defenses vs. Traps": {
@@ -8891,7 +8887,7 @@
         "strike-ranged->Spear": {
           "name": "Spear"
         },
-        "strike-melee->Sling": {
+        "strike-ranged->Sling": {
           "name": "Sling"
         },
         "action->Scamper": {
@@ -9087,7 +9083,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Leachate": {
+        "strike-ranged->Leachate": {
           "name": "Leachate"
         },
         "action->Hide in Filth": {
@@ -9116,7 +9112,7 @@
         "strike-melee->Greatsword": {
           "name": "Greatsword"
         },
-        "strike-melee->Crossbow": {
+        "strike-ranged->Crossbow": {
           "name": "Crossbow"
         },
         "action->Responsive Recovery": {
@@ -9144,7 +9140,7 @@
         "strike-melee->Longspear": {
           "name": "Longspear"
         },
-        "strike-melee->Seedpod": {
+        "strike-ranged->Seedpod": {
           "name": "Seedpod"
         },
         "action->Verdant Burst": {
@@ -9256,7 +9252,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Composite Longbow": {
+        "strike-ranged->Composite Longbow": {
           "name": "Composite Longbow"
         },
         "action->Telepathy 100 feet": {
@@ -9467,7 +9463,7 @@
         "strike-melee->Tendril": {
           "name": "Tendril"
         },
-        "strike-melee->Fire Mote": {
+        "strike-ranged->Fire Mote": {
           "name": "Fire Mote"
         },
         "action->Smoke Vision": {
@@ -9525,7 +9521,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Blowgun": {
+        "strike-ranged->Blowgun": {
           "name": "Blowgun",
           "description": "<p>Poison can be used only once</p>"
         },
@@ -9617,7 +9613,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Starlight Ray": {
+        "strike-ranged->Starlight Ray": {
           "name": "Starlight Ray"
         },
         "action->Starlight Blast": {
@@ -9725,7 +9721,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Spike": {
+        "strike-ranged->Spike": {
           "name": "Spike"
         },
         "action->Spike Volley": {
@@ -9770,7 +9766,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Spit": {
+        "strike-ranged->Spit": {
           "name": "Spit"
         },
         "action->Drowning Hook": {
@@ -9794,7 +9790,7 @@
         "strike-melee->Snake Fangs": {
           "name": "Snake Fangs"
         },
-        "strike-melee->Composite Shortbow": {
+        "strike-ranged->Composite Shortbow": {
           "name": "Composite Shortbow"
         },
         "action->Biting Snakes": {
@@ -10550,7 +10546,7 @@
         "strike-melee->Aqueous Fist": {
           "name": "Aqueous Fist"
         },
-        "strike-melee->Water Orb": {
+        "strike-ranged->Water Orb": {
           "name": "Water Orb"
         },
         "action->Animal Empathy": {
@@ -10585,7 +10581,7 @@
         "strike-melee->Aqueous Fist": {
           "name": "Aqueous Fist"
         },
-        "strike-melee->Water Orb": {
+        "strike-ranged->Water Orb": {
           "name": "Water Orb"
         },
         "action->Animal Empathy": {
@@ -10934,7 +10930,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Offal": {
+        "strike-ranged->Offal": {
           "name": "Offal"
         },
         "action->Refuse Pile": {
@@ -11393,7 +11389,7 @@
         "strike-melee->Sludge Tendril": {
           "name": "Sludge Tendril"
         },
-        "strike-melee->Slime Ball": {
+        "strike-ranged->Slime Ball": {
           "name": "Slime Ball"
         },
         "action->Telepathy 100 feet": {
@@ -11636,7 +11632,7 @@
         "strike-melee->Phantom Sword": {
           "name": "Phantom Sword"
         },
-        "strike-melee->Phantom Bow": {
+        "strike-ranged->Phantom Bow": {
           "name": "Phantom Bow"
         },
         "action->Walk the Ethereal Line": {
@@ -11741,7 +11737,7 @@
         "strike-melee->Talon": {
           "name": "Talon"
         },
-        "strike-melee->Flame Jet": {
+        "strike-ranged->Flame Jet": {
           "name": "Flame Jet"
         },
         "action->Regeneration 20 (Deactivated by Cold or Unholy)": {
@@ -11827,7 +11823,7 @@
         "strike-melee->Shortsword": {
           "name": "Shortsword"
         },
-        "strike-melee->Longbow": {
+        "strike-ranged->Longbow": {
           "name": "Longbow"
         },
         "action->Sprinkle Pixie Dust": {
@@ -11937,7 +11933,7 @@
         "spell->Telekinetic Maneuver (At Will)": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25]\nTelekinetic Maneuver (At Will)"
         },
-        "strike-melee->Telekinetic Object": {
+        "strike-ranged->Telekinetic Object": {
           "name": "Telekinetic Object",
           "description": "<p>Damage type depends on object thrown</p>"
         },
@@ -12044,7 +12040,7 @@
         "strike-melee->Shortsword": {
           "name": "Shortsword"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->-2 Penalty on Perception to Hear things": {
@@ -12077,7 +12073,7 @@
         "strike-ranged->Hatchet": {
           "name": "Hatchet"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Defensive Quills": {
@@ -12172,7 +12168,7 @@
         "strike-melee->Horn": {
           "name": "Horn"
         },
-        "strike-melee->Composite Longbow": {
+        "strike-ranged->Composite Longbow": {
           "name": "Composite Longbow"
         },
         "action->Archon's Protection": {
@@ -12501,11 +12497,11 @@
         "strike-melee->Fangs": {
           "name": "Fangs"
         },
-        "strike-melee->Alchemical Grenade": {
+        "strike-ranged->Alchemical Grenade": {
           "name": "Alchemical Grenade",
           "description": "<p>Acid, Cold, or Fire Damage</p>"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
         },
         "action->Alchemical Grenades": {
@@ -12988,7 +12984,7 @@
         "strike-ranged->Dagger": {
           "name": "Dagger"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Sylvan Wine": {
@@ -13083,7 +13079,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Water Spout": {
+        "strike-ranged->Water Spout": {
           "name": "Water Spout"
         },
         "action->Undetectable": {
@@ -13462,7 +13458,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Fire Ray": {
+        "strike-ranged->Fire Ray": {
           "name": "Fire Ray",
           "description": "<p>@Damage[2d10[vitality]] damage if the target is undead</p>"
         },
@@ -13596,7 +13592,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         }
       }
@@ -13691,7 +13687,7 @@
         "strike-melee->Tusks": {
           "name": "Tusks"
         },
-        "strike-melee->Slime Squirt": {
+        "strike-ranged->Slime Squirt": {
           "name": "Slime Squirt"
         },
         "action->+2 Status to Fortitude Saves vs. Grapple, Reposition, or Shove": {
@@ -13806,7 +13802,7 @@
         "strike-melee->Jaws": {
           "name": "Jaws"
         },
-        "strike-melee->Ice Dart": {
+        "strike-ranged->Ice Dart": {
           "name": "Ice Dart"
         },
         "action->Snow Vision": {
@@ -14140,7 +14136,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Splinter": {
+        "strike-ranged->Splinter": {
           "name": "Splinter"
         },
         "action->Bramble Jump": {
@@ -14159,7 +14155,7 @@
         "strike-melee->Rapier": {
           "name": "Rapier"
         },
-        "strike-melee->Luminous Spark": {
+        "strike-ranged->Luminous Spark": {
           "name": "Luminous Spark"
         },
         "action->Luminous Fire": {
@@ -14194,7 +14190,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Statuary Aura": {
@@ -14226,7 +14222,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Swat Projectile": {
@@ -14251,7 +14247,7 @@
         "strike-melee->Fist": {
           "name": "Fist"
         },
-        "strike-melee->Rock": {
+        "strike-ranged->Rock": {
           "name": "Rock"
         },
         "action->Tremorsense (Imprecise) 80 feet": {
@@ -14525,7 +14521,7 @@
         "strike-melee->Wakizashi": {
           "name": "Wakizashi"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Eat Fortune": {
@@ -14556,7 +14552,7 @@
           "name": "Tentacle",
           "description": "<p>Either Improved Grab or Improved Push</p>"
         },
-        "strike-melee->Spores": {
+        "strike-ranged->Spores": {
           "name": "Spores"
         },
         "action->Tremorsense (Imprecise) 120 feet": {
@@ -14936,7 +14932,7 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-melee->Splinter": {
+        "strike-ranged->Splinter": {
           "name": "Splinter"
         },
         "action->Bramble Jump": {
@@ -15038,7 +15034,7 @@
         "strike-melee->Pick": {
           "name": "Pick"
         },
-        "strike-melee->Sling": {
+        "strike-ranged->Sling": {
           "name": "Sling"
         }
       }
@@ -15058,7 +15054,7 @@
         "strike-melee->Light Pick": {
           "name": "Light Pick"
         },
-        "strike-melee->Sling": {
+        "strike-ranged->Sling": {
           "name": "Sling"
         },
         "action->Hidden Movement": {
@@ -15078,7 +15074,7 @@
         "strike-melee->Spear": {
           "name": "Spear"
         },
-        "strike-melee->Heavy Crossbow": {
+        "strike-ranged->Heavy Crossbow": {
           "name": "Heavy Crossbow"
         }
       }
@@ -15401,7 +15397,7 @@
         "strike-melee->Stinger": {
           "name": "Stinger"
         },
-        "strike-melee->Spit": {
+        "strike-ranged->Spit": {
           "name": "Spit"
         },
         "action->Chaotic Spawning": {
@@ -15453,7 +15449,7 @@
         "strike-melee->Tail": {
           "name": "Tail"
         },
-        "strike-melee->Spit": {
+        "strike-ranged->Spit": {
           "name": "Spit"
         },
         "action->Coils of Knowledge": {
@@ -15835,7 +15831,7 @@
         "strike-melee->Animated Weapon": {
           "name": "Animated Weapon"
         },
-        "strike-melee->Scrap Ball": {
+        "strike-ranged->Scrap Ball": {
           "name": "Scrap Ball"
         },
         "action->+1 Status to All Saves vs. Vitality": {
@@ -15963,7 +15959,7 @@
         "strike-melee->Shortsword": {
           "name": "Shortsword"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Hand Crossbow"
         },
         "action->Rat Empathy": {
@@ -16037,7 +16033,7 @@
         "strike-melee->Battle Axe": {
           "name": "Battle Axe"
         },
-        "strike-melee->Composite Shortbow": {
+        "strike-ranged->Composite Shortbow": {
           "name": "Composite Shortbow"
         },
         "action->Wolf Empathy": {
@@ -16561,7 +16557,7 @@
         "strike-melee->Claws": {
           "name": "Claws"
         },
-        "strike-melee->Spit": {
+        "strike-ranged->Spit": {
           "name": "Spit"
         },
         "action->Preserve Prey": {
@@ -16607,7 +16603,7 @@
         "spellcastingEntry->Divine Innate Spells": {
           "name": "Divine Innate Spells"
         },
-        "strike-melee->Eye Ray": {
+        "strike-ranged->Eye Ray": {
           "name": "Eye Ray"
         },
         "action->Archon's Protection": {
@@ -16646,7 +16642,7 @@
         "strike-melee->Hunk Of Meat": {
           "name": "Hunk Of Meat"
         },
-        "strike-melee->Corpse": {
+        "strike-ranged->Corpse": {
           "name": "Corpse"
         },
         "action->Slow": {
@@ -16705,7 +16701,7 @@
         "strike-melee->Dagger": {
           "name": "Dagger"
         },
-        "strike-melee->Shortbow": {
+        "strike-ranged->Shortbow": {
           "name": "Shortbow"
         },
         "action->Telepathy 100 feet": {
