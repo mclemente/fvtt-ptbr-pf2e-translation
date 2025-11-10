@@ -12,7 +12,7 @@
         "strike-ranged->Dagger": {
           "name": "Adaga"
         },
-        "strike-melee->Coat Pistol": {
+        "strike-ranged->Coat Pistol": {
           "name": "Coat Pistol"
         }
       }
@@ -35,21 +35,23 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-melee->Composite Shortbow": {
+        "strike-ranged->Composite Shortbow": {
           "name": "Arco Curto Composto"
         }
       }
     },
     "Ambrost Mugland": {
       "items": {
-        "strike-ranged->Cane Pistol": {
-          "name": "Cane Pistol"
-        },
-        "strike-melee->Dueling Pistol": {
+        "strike-ranged->Cane Pistol": [
+          {
+            "name": "Cane Pistol"
+          },
+          {
+            "name": "Cane Pistol"
+          }
+        ],
+        "strike-ranged->Dueling Pistol": {
           "name": "Dueling Pistol"
-        },
-        "strike-melee->Cane Pistol": {
-          "name": "Cane Pistol"
         },
         "action->Deny Advantage": {
           "name": "Negar vantagem (Nível 3)"
@@ -77,7 +79,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-melee->Jezail": {
+        "strike-ranged->Jezail": {
           "name": "Jezail"
         },
         "action->Reloading Strike": {
@@ -109,7 +111,7 @@
         "strike-melee->Whip": {
           "name": "Chicote"
         },
-        "strike-melee->Bola": {
+        "strike-ranged->Bola": {
           "name": "Boleadeira"
         }
       }
@@ -170,23 +172,21 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-melee->Repeating Hand Crossbow": {
+        "strike-ranged->Repeating Hand Crossbow": {
           "name": "Besta de mão Repetidora"
         }
       }
     },
     "Clockwork Gunner": {
       "items": {
-        "strike-melee->Mace Multipistol": [
-          {
-            "name": "Mace Multipistol"
-          },
-          {
-            "name": "Mace Multipistol"
-          }
-        ],
-        "strike-melee->Dragon Mouth Pistol": {
+        "strike-melee->Mace Multipistol": {
+          "name": "Mace Multipistol"
+        },
+        "strike-ranged->Dragon Mouth Pistol": {
           "name": "Dragon Mouth Pistol"
+        },
+        "strike-ranged->Mace Multipistol": {
+          "name": "Mace Multipistol"
         }
       }
     },
@@ -256,7 +256,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-melee->Repeating Crossbow": {
+        "strike-ranged->Repeating Crossbow": {
           "name": "Besta Repetidora"
         }
       }
@@ -266,7 +266,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-melee->Clan Pistol": {
+        "strike-ranged->Clan Pistol": {
           "name": "Clan Pistol"
         },
         "action->Reloading Strike": {
@@ -279,7 +279,7 @@
         "strike-melee->Longsword": {
           "name": "Espada Longa"
         },
-        "strike-melee->Jezail": {
+        "strike-ranged->Jezail": {
           "name": "Jezail"
         },
         "action->Reloading Strike": {
@@ -303,14 +303,12 @@
         "consumable->Wand of Heal (Level 1)": {
           "consumableSpellName": "Curar"
         },
-        "strike-melee->Spine": [
-          {
-            "name": "Espinha"
-          },
-          {
-            "name": "Espinha"
-          }
-        ]
+        "strike-melee->Spine": {
+          "name": "Espinha"
+        },
+        "strike-ranged->Spine": {
+          "name": "Espinha"
+        }
       }
     },
     "Disgorged Zombie": {
@@ -328,7 +326,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-melee->Flintlock Musket": {
+        "strike-ranged->Flintlock Musket": {
           "name": "Flintlock Musket"
         },
         "action->Deny Advantage": {
@@ -360,7 +358,7 @@
     },
     "Gilded Gunner Assassin": {
       "items": {
-        "strike-melee->Dueling Pistol": {
+        "strike-ranged->Dueling Pistol": {
           "name": "Dueling Pistol"
         }
       }
@@ -373,7 +371,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-melee->Flintlock Pistol": {
+        "strike-ranged->Flintlock Pistol": {
           "name": "Flintlock Pistol"
         }
       }
@@ -383,7 +381,7 @@
         "strike-ranged->Dagger": {
           "name": "Adaga"
         },
-        "strike-melee->Dueling Pistol": {
+        "strike-ranged->Dueling Pistol": {
           "name": "Dueling Pistol"
         }
       }
@@ -450,7 +448,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-melee->Flintlock Musket": {
+        "strike-ranged->Flintlock Musket": {
           "name": "Flintlock Musket"
         }
       }
@@ -460,7 +458,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-melee->Flintlock Pistol": {
+        "strike-ranged->Flintlock Pistol": {
           "name": "Flintlock Pistol"
         },
         "action->Deny Advantage": {
@@ -517,7 +515,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-melee->Flintlock Pistol": {
+        "strike-ranged->Flintlock Pistol": {
           "name": "Flintlock Pistol"
         }
       }
@@ -551,7 +549,7 @@
         "strike-ranged->Club": {
           "name": "Clava"
         },
-        "strike-melee->Dwarven Scattergun": {
+        "strike-ranged->Dwarven Scattergun": {
           "name": "Dwarven Scattergun"
         }
       }
@@ -628,7 +626,7 @@
         "strike-melee->Claw": {
           "name": "Garra"
         },
-        "strike-melee->Slide Pistol": {
+        "strike-ranged->Slide Pistol": {
           "name": "Slide Pistol"
         },
         "action->Explode": {
@@ -654,7 +652,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-melee->Flintlock Pistol": {
+        "strike-ranged->Flintlock Pistol": {
           "name": "Flintlock Pistol"
         }
       }
@@ -677,14 +675,14 @@
         "strike-melee->Pseudopod": {
           "name": "Pseudópode"
         },
-        "strike-melee->Blast": {
+        "strike-ranged->Blast": {
           "name": "Explosão"
         }
       }
     },
     "Repeater Crossbow Trap": {
       "items": {
-        "strike-melee->Heavy Crossbow": {
+        "strike-ranged->Heavy Crossbow": {
           "name": "Besta Pesada"
         }
       }
@@ -711,7 +709,7 @@
     },
     "Sabora Sharkosa": {
       "items": {
-        "strike-melee->Dueling Pistol": {
+        "strike-ranged->Dueling Pistol": {
           "name": "Dueling Pistol"
         }
       }
@@ -784,7 +782,7 @@
         "strike-melee->Sap": {
           "name": "Porrete"
         },
-        "strike-melee->Bola": {
+        "strike-ranged->Bola": {
           "name": "Boleadeira"
         }
       }
@@ -814,7 +812,7 @@
         "strike-melee->Fist": {
           "name": "Punho"
         },
-        "strike-melee->Dwarven Scattergun": {
+        "strike-ranged->Dwarven Scattergun": {
           "name": "Dwarven Scattergun"
         },
         "lore->Alcohol Lore": {
@@ -847,7 +845,7 @@
         "strike-melee->Greataxe": {
           "name": "Machado Longo"
         },
-        "strike-melee->Dueling Pistol": {
+        "strike-ranged->Dueling Pistol": {
           "name": "Dueling Pistol"
         },
         "action->Pistolero's Retort": {
@@ -863,7 +861,7 @@
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
-        "strike-melee->Hand Crossbow": {
+        "strike-ranged->Hand Crossbow": {
           "name": "Besta de Mão"
         },
         "action->Versatile Performance": {
