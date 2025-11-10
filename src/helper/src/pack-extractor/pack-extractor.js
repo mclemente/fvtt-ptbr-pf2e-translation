@@ -1,5 +1,5 @@
 import { resolvePath, resolveValue } from "path-value";
-import { convertArray, deletePropertyRecursively, sortObject, mergeNestedObjects } from "../util/utilities.js";
+import { convertArray, deletePropertyRecursively, mergeNestedObjects, sortObject } from "../util/utilities.js";
 
 /**
  * Extract pack data from a list of pack groups
@@ -641,6 +641,7 @@ function checkLocalizationRelevance(data) {
  */
 function checkStrikeType(strike) {
     let strikeType = "strike-melee";
+    if (strike.system.range) strikeType = "strike-ranged";
     strike.system.traits.value.forEach((trait) => {
         if (trait.startsWith("range-") || trait.startsWith("thrown-")) {
             strikeType = "strike-ranged";
