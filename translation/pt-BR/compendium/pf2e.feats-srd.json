@@ -1702,9 +1702,6 @@
         }
       ]
     },
-    "Battle Planner": {
-      "description": "<p><strong>Prerequisites </strong>expert in Warfare Lore</p> <hr> <p>You are constantly drawing up plans and battle scenarios, assembling strategies and gathered intelligence for later use. When you scout an enemy’s position or receive a detailed report from an ally who scouted the enemy’s position, if you have a clear indication of the number, position, and identities of your potential foes, you can spend 1 minute to come up with a battle plan that takes such potential factors into account and reduces the role luck plays in the equation.</p> <p>Roll a Warfare Lore check. As long as the information was accurate and remains accurate when you roll initiative against those enemies, you can use the Warfare Lore result you previously rolled for your initiative roll; if you do, this is a fortune effect.</p>"
-    },
     "Battle Prayer": {
       "name": "Prece de Batalha",
       "prerequisites": [
@@ -1783,31 +1780,25 @@
     "Bellflower Dedication": {
       "name": "Dedicação da Campânula",
       "description": "<div><strong>Arquétipo</strong> @Compendium[pf2e.archetypes.gw4J1pXYED71TPWx]{Lavrador da Campânula}</div> <div><strong>Pré-Requisitos</strong> Carisma 14, especialista em Furtividade e Sobrevivência, membro da Rede da Campânula.</div> <hr> <p>Você se dedica a libertar escravos e escoltá-los para a liberdade. Você recebe +1,5 metros de bônus de estado em sua Velocidade. Escolha até outras seis pessoas para serem sua “colheita”. Membros da sua colheita podem usar seu valor de Velocidade para viagem por terra se esse for maior do que o deles. Membros de sua colheita que estejam a mais de 18 metros de você perdem todos os benefícios deste talento (e dos outros talentos do lavrador da Campânula), mas os recuperam imediatamente ao retornar para esta distância. Você pode adicionar ou remover um membro de sua colheita conversando por 10 minutos com ele.</p> <p><strong>Especial</strong> Você não pode selecionar outro talento de dedicação até ter recebido dois outros talentos do arquétipo lavrador da Campânula.</p>",
-      "prerequisites": [
-        {
+      "prerequisites": {
+        "0": {
           "value": "especialista em Furtividade"
         },
-        {
+        "1": {
           "value": "especialista em Sobrevivência"
         },
-        {
-          "value": "member of the Bellflower Network"
-        },
-        {
+        "3": {
           "value": "Carisma +2"
         }
-      ]
+      }
     },
     "Beneath Notice": {
       "description": "<p>You are skilled at hiding from your foes and targets among the common populace. You gain the @UUID[Compendium.pf2e.feats-srd.e4KB4pSkx2lDBNw3]{Quick Disguise} and @UUID[Compendium.pf2e.feats-srd.RiuZT3H4QZIIEQXJ]{Slippery Secrets} skill feats.</p>\n<p>In addition, while in a crowd, you can @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} a nondescript member of the crowd as a three action activity (one action if you are legendary in Deception)</p>",
-      "prerequisites": [
-        {
-          "value": "Golden League Xun Dedication"
-        },
-        {
+      "prerequisites": {
+        "1": {
           "value": "especialista em Dissimulação"
         }
-      ]
+      }
     },
     "Bespell Strikes": {
       "name": "Golpeia Bespells",
@@ -2124,20 +2115,11 @@
     },
     "Bright Lion Dedication": {
       "description": "<p><strong>Archetype</strong> @Compendium[pf2e.archetypes.bDP7kO6bnQh6no0C]{Bright Lion}</p> <p><strong>Prerequisites</strong> member of the Bright Lions, not a worshipper of @Compendium[pf2e.deities.g1AVEGi8QibhS007]{Walkena}, trained in Stealth;</p> <p><strong>Access</strong> @Compendium[pf2e.backgrounds.skqghxn3svID1dyU]{Bright Lion} background</p> <hr> <p>You become trained in your choice of Deception or Diplomacy and in Mzali Lore; if you were already trained, you become an expert instead. You incorporate enough worship of Walkena in your daily life to avoid suspicion. You typically don’t need to @Compendium[pf2e.actionspf2e.ewwCglB7XOPLUz72]{Lie} or @Compendium[pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} to pass yourself off as a worshipper of Walkena. Against careful inspection, you gain a +4 circumstance bonus to Deception checks specifically to pass yourself off as a version of yourself faithful to Walkena.</p> <hr> <p><strong>Special</strong> You can’t select another dedication feat until you have gained two other feats from the Bright Lion archetype.</p>",
-      "prerequisites": [
-        {
-          "value": "member of the Bright Lions"
-        },
-        {
-          "value": "not a worshipper of Walkena"
-        },
-        {
+      "prerequisites": {
+        "2": {
           "value": "treinado em Furtividade"
-        },
-        {
-          "value": "Bright Lion Background"
         }
-      ]
+      }
     },
     "Brightness Seeker": {
       "name": "Buscador do Brilho"
@@ -6145,7 +6127,6 @@
       "name": "Corpo Dourado"
     },
     "Golden League Xun Dedication": {
-      "name": "Golden League Xun Dedication",
       "description": "<p>You are a xun for the Golden League, aiding the organization. You gain expert proficiency in two of the following skills (or in two other skills of your choice in which you're trained, if you were already an expert in the listed skills): Athletics, Deception, Intimidation, or Stealth. In addition, if you use Underworld Lore to Earn Income or Recall Knowledge, when you get a success, you get a critical success instead.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.4ZPZqbe0Ai8ZIfcp]{Golden League Xun} archetype.</p>"
     },
     "Golem Grafter Dedication": {
@@ -8763,13 +8744,6 @@
       "name": "Magia Melodiosa",
       "description": "<p>Você discretamente tece seu conjuramento em uma performance. Se a próxima ação que você usar for Conjurar uma Magia, a magia ganha o traço sutil, escondendo as runas brilhantes, faíscas de magia e outras manifestações que geralmente revelariam seu conjuramento. O traço esconde apenas as ações e manifestações do conjuramento da magia, não seus efeitos, então um observador ainda pode ver um raio saindo de você ou vê-lo desaparecer no ar.</p>\n<p>Como parte do uso de Magia Melodiosa, você pode escolher @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Criar uma Distração}, @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Intimidar}, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Atuar} ou @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Solicitar}. Se o fizer, a magia que você conjurar deve ter o traço auditivo, emoção, sônico ou visual para ganhar o traço sutil.</p>"
     },
-    "Menacing Prowess": {
-      "prerequisites": [
-        {
-          "value": "Golden League Xun Dedication"
-        }
-      ]
-    },
     "Mental Balm": {
       "description": "<p>Your spells release soothing mental waves. Use this amp in place of a psi cantrip's normal amp entry. You can use this amp only on a psi cantrip that targets or affects you or one or more of your allies and doesn't target or affect any enemies.</p>\n<hr />\n<p><strong>Amp</strong> You or one ally within 30 feet gains a +2 status bonus to Will saves against emotion effects for 1 minute. You can also have the amped psi cantrip attempt to counteract one effect imposing the @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} condition on yourself or the chosen ally, or an effect imposing the @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} condition that has a duration of 1 hour or less. If you successfully counteract the effect, you remove only the frightened and stupefied conditions, not any other part of the effect.</p>"
     },
@@ -11351,13 +11325,6 @@
     "Root to Life": {
       "description": "<p>Marigold, spider lily, pennyroyal-many primal traditions connect flowers and plants with the boundary between life and death, and you can leverage this association to keep an ally on this side of the line. You place a small plant or similar symbol on an adjacent @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} creature, immediately stabilizing them; the creature is no longer dying and is instead @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} at 0 Hit Points.</p>\n<p>If you spend 2 actions instead of 1, you empower the act further by uttering a quick folk blessing to chase away ongoing pain, adding the auditory trait to the action. When you do so, attempt flat checks to remove each source of persistent damage affecting the target; due to the particularly effective assistance, the DC is 10 instead of the usual 15.</p>"
     },
-    "Rope Mastery": {
-      "prerequisites": [
-        {
-          "value": "Golden League Xun Dedication"
-        }
-      ]
-    },
     "Rope Runner": {
       "prerequisites": [
         {
@@ -12205,14 +12172,11 @@
       ]
     },
     "Silent Sting": {
-      "prerequisites": [
-        {
-          "value": "Golden League Xun Dedication"
-        },
-        {
+      "prerequisites": {
+        "1": {
           "value": "especialista em Furtividade"
         }
-      ]
+      }
     },
     "Silver's Refrain": {
       "name": "Refrão da Prata",

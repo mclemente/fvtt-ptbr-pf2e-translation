@@ -5,9 +5,6 @@
         "spell->Finger of Death": {
           "target": "1 criatura viva"
         },
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -16,9 +13,6 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
-        },
-        "action->Soul Siphon": {
-          "name": "Soul Siphon"
         }
       }
     },
@@ -63,9 +57,6 @@
         },
         "strike-ranged->Alchemist's Fire (Moderate)": {
           "name": "Fogo Alquímico (Moderado)"
-        },
-        "strike-ranged->Tanglefoot Bag (Moderate)": {
-          "name": "Bolsa Emaranhapé (Moderada)"
         },
         "action->Expanded Splash": {
           "name": "Respingo Expandido"
@@ -122,9 +113,6 @@
     },
     "Antaro Boldblade": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Rapier": {
           "name": "Rapieira"
         }
@@ -148,14 +136,8 @@
     },
     "Avsheros the Betrayer": {
       "items": {
-        "spell->Weapon of Judgment": {
-          "requirements": "You have a deity."
-        },
         "spell->Invisibility (At Will) (Self Only)": {
           "target": "si mesmo"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         }
       }
     },
@@ -209,7 +191,7 @@
           "name": "Cota de Malha",
           "description": "<p><span class=\"fontstyle0\">Uma cota de malha consiste de várias peças de armadura compostas de pequenos anéis de metal unidos formando uma malha protetora. Tipicamente ela inclui uma camisão de malha, calças, um par de proteção para os braços e uma coifa, coletivamente protegendo a maior parte do corpo.  </p>"
         },
-        "consumable->Arrows": {
+        "ammo->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
         },
@@ -243,7 +225,7 @@
           "name": "Cota de Malha",
           "description": "<p><span class=\"fontstyle0\">Uma cota de malha consiste de várias peças de armadura compostas de pequenos anéis de metal unidos formando uma malha protetora. Tipicamente ela inclui uma camisão de malha, calças, um par de proteção para os braços e uma coifa, coletivamente protegendo a maior parte do corpo.  </p>"
         },
-        "consumable->Arrows": {
+        "ammo->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
         },
@@ -269,12 +251,6 @@
     },
     "Blackfingers Acolyte": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -325,9 +301,6 @@
     },
     "Blune Bandersworth": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "consumable->Scroll of Monstrosity Form (Rank 8)": {
           "consumableSpellName": "Forma de Monstruosidade",
           "consumableSpellDescription": "<p>Você se transforma no aspecto de um monstro lendário, assumindo a forma de batalha de um animal Enorme. Você deve ter espaço suficiente para se expandir ou a magia é perdida. Quando conjurar esta magia, escolha fênix, serpente marinha ou vorme púrpura. Enquanto estiver nesta forma, você adquire o traço besta (para fênix) ou animal (para serpente marinha ou vorme púrpura). Você pode Dispensar esta magia.</p><p>Você recebe as estatísticas e habilidades a seguir independentemente de qual forma de batalha escolher:</p><ul><li>CA = 20 + seu nível. Ignore a penalidade em testes e redução de Velocidade de sua armadura.</li><li>20 Pontos de Vida temporários.</li><li>Visão no escuro.</li><li>Um ou mais ataques desarmados corpo a corpo específicos para a forma de batalha escolhida, que são os únicos ataques que pode usar. Você é treinado com eles. Seu modificador de ataque é +28 e você causa o dano listado. Estes ataques são baseados em Força (para o propósito da condição @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled}, por exemplo). Se seu modificador de ataque para ataques desarmados for maior, você pode utilizá-lo em vez do modificador concedido pela magia.</li><li>+30 de modificador de Atletismo, exceto se o seu próprio modificador for maior.</li> </ul><p>Você também recebe habilidades específicas baseadas na forma escolhida:</p><ul><li><strong>Fênix</strong>Velocidade 9 metros, Velocidade de voo 27 metros; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> bico (alcance 4,5 metros), <strong>Dano</strong> 2d6+12 mais 2d4 de fogo e 2d4 persistente de fogo; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> unha (ágil, alcance de 4,5 metros), <strong>Dano</strong>2d8+12 cortante;<strong>Manto de Chamas</strong> (aura, evocação, fogo, primal) 6 metros. Você adquire uma aura de fogo que se estende a partir de você. Uma criatura que entrar ou encerrar o turno dela dentro da aura sofre 2d6 de dano de fogo. Uma criatura pode sofrer este dano somente uma vez por turno. Você pode usar uma ação única que possui o traço concentração para ativar ou desativar esta aura.</li><li><strong>Serpente Marinha</strong>Velocidade 6 metros, Velocidade de natação 27 metros; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> mandíbulas (alcance 4,5 metros), <strong>Dano</strong> 2d12+20 perfurante; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\"> cauda (alcance 7,5 metros), <strong>Dano</strong> 2d8+20 contundente;  <strong>Rasgar com Espinhos</strong> <img class=\"actiondark\"style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/TwoActions.png\"alt=\"Two Actions\">   (movimento) Você estende seus espinhos e Anda ou Nada. Cada criatura que estiver adjacente a você a qualquer momento durante o seu movimento sofre 4d8+10 de dano cortante (salvamento básico de Reflexos contra sua CD de magia).</li><li><strong>Vorme Púrpura</strong> Velocidade 12 metros, Velocidade de escavação 9 metros, Velocidade de natação 6 metros;<strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\">mandíbulas (alcance 3 metros), <strong>Dano</strong> 2d12+20 perfurante; <strong>Corpo a Corpo</strong> <img class=\"actiondark\" style=\"height: 15px; padding: 0px 2px 0px 2px;\" src=\"https://2e.aonprd.com/Images/Actions/OneAction.png\" alt=\"Single Action\">ferrão (ágil, alcance de 3metros), <strong>Dano</strong> 2d8+15 perfurante mais 2d6 persistente de veneno; <strong>Corpo a Corpo</strong><span class=\"pf2-icon\">a</span>lt=\"Single Action\">  corpo (alcance de 3 metros),<strong>Dando</strong>2d8+20 contundente;<strong>Inexorável</strong>Você automaticamente se recupera das condições @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado}, @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed}, and @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} ao final de cada um dos seus turnos. Você também fica imune a ser @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized] ignora terreno difícil e terreno difícil maior.</li> </ul><hr /><p><strong>Heightened (9th)</strong> Você recebe CA = 22 + seu nível, 25 PV temporários, +31 de modificador de ataque, aumenta o dano em um dado de dano e recebe +33 de Atletismo em vez dos valores iniciais.</p>"
@@ -368,7 +341,7 @@
         "armor->+2 Resilient Hellknight Plate": {
           "description": "<p><span>Poucas armaduras na região do Mar Interior são tão memoráveis quanto a icônica Armadura dos Cavaleiros Infernais. Enquanto cada ordem tem seus floreios, a Armadura dos Cavaleiros Infernais é instantaneamente reconhecida por qualquer um que conheça os Cavaleiros Infernais. Cavaleiros Infernais punem severamente não-membros de uma ordem que puserem suas mãos em uma Armadura de Cavaleiros Infernais, e os ganhos costumam não compensar os riscos, já que para um não-Cavaleiros Infernais a armadura é funcionalmente similar à uma  @Compendium[pf2e.equipment-srd.Gq1cZWSKOtJhKd2p]{Armadura Completa}. </p>"
         },
-        "consumable->Bolts": {
+        "ammo->Bolts": {
           "name": "Virotes",
           "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
         },
@@ -523,9 +496,6 @@
         "spell->Neutralize Poison": {
           "target": "1 criatura"
         },
-        "spell->Purify Food and Drink": {
-          "target": "1 cubic foot of contaminated food or water"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -590,9 +560,6 @@
     },
     "Eunice": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-ranged->Dagger": {
           "name": "Adaga"
         },
@@ -722,7 +689,7 @@
         "armor->+2 Resilient Studded Leather Armor": {
           "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
         },
-        "consumable->Bolts": {
+        "ammo->Bolts": {
           "name": "Virotes",
           "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
         },
@@ -751,9 +718,6 @@
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
           "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
@@ -786,14 +750,8 @@
     },
     "Grabble Forden": {
       "items": {
-        "spell->Resilient Sphere": {
-          "target": "1 Large or smaller creature"
-        },
         "spell->Swarming Wasp Stings": {
           "target": "1 criatura"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
@@ -811,9 +769,6 @@
     },
     "Graem": {
       "items": {
-        "spell->Plane Shift (Coven)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         }
@@ -869,7 +824,7 @@
           "name": "Kit de Disfarce (Elite)",
           "description": "<p><span class=\"fontstyle0\">Esta pequena caixa de madeira contém cosméticos, pelos faciais falsos, cola cosmética e algumas perucas simples. Normalmente é necessário um kit de disfarce para Personificar alguém utilizando a perícia Dissimulação. Um kit de disfarce de elite concede +1 de bônus de item nos testes relevantes. Se tiver realizado um grande número de disfarces, você pode reabastecer seu suprimento com cosméticos de reposição apropriados para seu tipo de kit de disfarce.  </p>"
         },
-        "consumable->Bolts": {
+        "ammo->Bolts": {
           "name": "Virotes",
           "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
         },
@@ -883,9 +838,6 @@
     },
     "Grinlowe": {
       "items": {
-        "spell->Plane Shift (Coven)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         }
@@ -913,9 +865,6 @@
     },
     "Hegessik": {
       "items": {
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -931,20 +880,11 @@
       "items": {
         "spellcastingEntry->Focus Spells": {
           "name": "Magias de Foco"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
         }
       }
     },
     "Hestriviniaas": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
         "spell->Teleport (At Will) (Self Only)": {
           "target": "si mesmo"
         },
@@ -961,12 +901,6 @@
     },
     "Hundun Chaos Mage": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Plane Shift (At Will)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
         },
@@ -977,15 +911,6 @@
     },
     "Il'setsya Wyrmtouched": {
       "items": {
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-ranged->Dagger": {
           "name": "Adaga"
         }
@@ -1026,9 +951,6 @@
     },
     "Izfiitar": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -1047,12 +969,6 @@
         },
         "spell->Neutralize Poison": {
           "target": "1 criatura"
-        },
-        "spell->Spiritual Weapon": {
-          "requirements": "You have a deity."
-        },
-        "spell->Purify Food and Drink": {
-          "target": "1 cubic foot of contaminated food or water"
         },
         "weapon->+1 Spell Storing Dagger (contains crisis of faith)": {
           "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
@@ -1073,12 +989,6 @@
     },
     "Kapral": {
       "items": {
-        "spell->Invisibility Sphere": {
-          "target": "you and any number of creatures in range"
-        },
-        "spell->Alarm": {
-          "requirements": "3 gp silver bell focus"
-        },
         "weapon->+2 Striking Staff": {
           "description": "<p> Esta longa peça de madeira pode auxiliar no caminhar e desferir golpes poderosos.</p>"
         },
@@ -1247,11 +1157,7 @@
       "items": {
         "spell->Veil": {
           "name": "Véu",
-          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>",
-          "target": "up to 10 creatures"
-        },
-        "spell->Geas": {
-          "target": "1 creature of a level no greater than double the geas ritual's level"
+          "description": "<p>Você disfarça os alvos como outras criaturas do mesmo formato corporal e com altura e peso mais ou menos similares (até um máximo de 15 centímetros e 25 quilos de diferença). O disfarce pode ocultar as identidades dos alvos ou fazer com que pareçam ser de outras ancestralidades, mas não é preciso o suficiente para personificar um indivíduo específico. A magia não muda a voz, odor ou maneirismos do alvo. Você pode escolher o disfarce para cada alvo; por exemplo, um alvo pode parecer um anão e outro parecer um elfo. Conjurar véu é considerado como criar um disfarce para o uso de Dissimulação para Personificar. Ela permite ao alvo ignorar qualquer penalidade de circunstância sofrido por disfarçar-se como uma criatura diferente, concedendo +4 de bônus de estado em testes de Dissimulação para impedir os outros de perceberem seu disfarce e permite que ele adicione o nível dele ao teste mesmo se for destreinado. Você pode Dispensar qualquer um (ou todos) destes disfarces.</p><hr /><p><strong>Elevada (5º)</strong> A magia também disfarça a voz e odor dos alvos, além de receber o traço auditivo.</p><p><strong>Elevada (7º)</strong> Os alvos podem se parecer com qualquer criatura do mesmo tamanho, mesmo que seja um indivíduo específico. Você deve ter visto previamente um indivíduo para reproduzir a aparência dele. A magia também disfarça a voz e odor dos alvos, recebendo o traço auditivo.</p>"
         },
         "strike-melee->Katana": {
           "name": "Katana"
@@ -1310,9 +1216,6 @@
     },
     "Mother Venom": {
       "items": {
-        "spell->Flesh to Stone": {
-          "target": "1 creature made of flesh"
-        },
         "strike-melee->Fangs": {
           "name": "Presas"
         },
@@ -1330,9 +1233,6 @@
     },
     "Myrna Rath": {
       "items": {
-        "spell->Plane Shift (Coven)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "equipment->Cloak of the Bat (Greater)": {
           "name": "Manto do Morcego (Maior)"
         },
@@ -1355,9 +1255,6 @@
     },
     "Myrucarx": {
       "items": {
-        "spell->Plane Shift (To Material or Shadow)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         }
@@ -1506,9 +1403,6 @@
         "spellcastingEntry->Focus Spells": {
           "name": "Magias de Foco"
         },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "weapon->+1 Striking Composite Shortbow": {
           "description": "<p><span class=\"fontstyle0\">Este arco curto é feito de chifre, madeira e tendões laminados juntos para aumentar o poder da puxada de sua corda e a força do projétil. Seu tamanho compacto e força o torna o preferido entre arqueiros montados. Qualquer habilidade especificamente restrita a arcos curtos também pode ser aplicada a arcos curtos compostos, exceto se especificado o contrário.  </p>"
         },
@@ -1518,7 +1412,7 @@
         "equipment->Religious Symbol (norgorber)": {
           "description": "<p><span class=\"fontstyle0\">Esta peça de madeira é ornamentada com uma imagem representando uma divindade. Alguns conjuradores divinos, como clérigos, podem usar um símbolo religioso de sua divindade como foco divino para usar certas habilidades e conjurar algumas magias. Um símbolo religioso deve ser empunhado em uma mão para ser usado.  </p>"
         },
-        "consumable->Arrows": {
+        "ammo->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
         },
@@ -1583,9 +1477,6 @@
     },
     "Rhevanna": {
       "items": {
-        "spell->Plane Shift (At Will) (Self Only)": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Spiked Chain": {
           "name": "Corrente com Cravos"
         },
@@ -1619,9 +1510,6 @@
     },
     "Scathka": {
       "items": {
-        "spell->Shadow Walk": {
-          "target": "you and up to 9 willing creatures touched"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -1636,11 +1524,7 @@
           "target": "1 criatura viva"
         },
         "spell->Undetectable Alignment": {
-          "name": "Tendência Indetectável",
-          "target": "1 creature or object"
-        },
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
+          "name": "Tendência Indetectável"
         },
         "weapon->+2 Striking Dagger": {
           "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
@@ -1794,7 +1678,7 @@
           "name": "Cota de Malha",
           "description": "<p><span class=\"fontstyle0\">Uma cota de malha consiste de várias peças de armadura compostas de pequenos anéis de metal unidos formando uma malha protetora. Tipicamente ela inclui uma camisão de malha, calças, um par de proteção para os braços e uma coifa, coletivamente protegendo a maior parte do corpo.  </p>"
         },
-        "consumable->Arrows": {
+        "ammo->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
         },
@@ -1845,7 +1729,7 @@
           "name": "Camisão de Malha",
           "description": "<p><span class=\"fontstyle0\">Às vezes chamada de hauberk, esta é uma camisa longa construída dos mesmos anéis de metal que a cota de malha. Entretanto, ela é muito mais leve do que uma cota de malha e protege apenas o torso, braços e coxas de seu usuário.  </p>"
         },
-        "consumable->Bolts": {
+        "ammo->Bolts": {
           "name": "Virotes",
           "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
         },
@@ -1859,9 +1743,6 @@
     },
     "Svartalfar Killer": {
       "items": {
-        "spell->Chill Touch": {
-          "target": "1 living or undead creature"
-        },
         "spell->Produce Flame": {
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
@@ -1934,17 +1815,8 @@
     },
     "The Rabbit Prince": {
       "items": {
-        "spell->Imprisonment": {
-          "primarycheck": "Arcana (legendary) or Occultism (legendary)"
-        },
-        "spell->Inveigle": {
-          "target": "1 creature of a level no greater than double the inveigle ritual's level"
-        },
         "action->Halfling Luck": {
           "name": "Sorte de Halfling"
-        },
-        "lore->Harrow Lore": {
-          "name": "Harrow Lore"
         }
       }
     },
@@ -1966,15 +1838,6 @@
     },
     "Tiderunner Aquamancer": {
       "items": {
-        "spell->Disintegrate": {
-          "target": "1 creature or unattended object"
-        },
-        "spell->Hydraulic Push": {
-          "target": "1 creature or object"
-        },
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-ranged->Spear": [
           {
             "name": "Lança"
@@ -2017,9 +1880,6 @@
     },
     "Ulressia The Blessed": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "strike-melee->Warhammer": {
           "name": "Martelo de Guerra"
         },
@@ -2044,9 +1904,6 @@
     },
     "Veksciralenix": {
       "items": {
-        "spell->Plane Shift": {
-          "target": "1 willing creature, or up to 8 willing creatures joining hands"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -2066,9 +1923,6 @@
     },
     "Venom Mage": {
       "items": {
-        "spell->Light": {
-          "target": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
-        },
         "weapon->Dagger": {
           "name": "Adaga",
           "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
@@ -2168,11 +2022,7 @@
     "Zealborn": {
       "items": {
         "spell->Veil": {
-          "name": "Véu",
-          "target": "up to 10 creatures"
-        },
-        "spell->Geas (Ritual)": {
-          "target": "1 creature of a level no greater than double the geas ritual's level"
+          "name": "Véu"
         },
         "weapon->+1 Striking Morningstar": {
           "description": "<p> Esta arma consiste de um cabo de madeira conectado por uma corrente, corda ou faixa de couro a uma bola ou cilindro com espinhos.</p>"
@@ -2184,7 +2034,7 @@
         "armor->Breastplate": {
           "name": "Placa Peitoral"
         },
-        "consumable->Sling Bullets": {
+        "ammo->Sling Bullets": {
           "name": "Balas de funda",
           "description": "<p><span>Estas pequenas bolas de metal, tipicamente de ferro ou chumbo, são projetadas para serem usadas como munição de fundas. </p>"
         },

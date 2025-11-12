@@ -2889,9 +2889,6 @@
     "Maestro's Instrument (Moderate)": {
       "name": "Instrumento do Maestro (Moderado)"
     },
-    "Magazine with 5 Bolts": {
-      "description": "<p>Magazine with 5 bolts for use with the @Compendium[pf2e.equipment-srd.zcrIuILnp6oh4dr9]{Repeating Hand Crossbow}.</p>"
-    },
     "Magazine with 6 Pellets": {
       "description": "<p>Firearms require ammunition consisting of a projectile and black powder. A round of ammo can vary in its composition but is typically either a prepackaged paper cartridge, including wadding, bullet, and black powder, or loose shot packed in manually. Some weapons, like hand cannons and blunderbusses, can fire other materials, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the @UUID[Compendium.pf2e.feats-srd.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat to make them. Firearm rounds are a valid option for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items.</p>"
     },
@@ -4698,9 +4695,6 @@
       "name": "Manopla com Cravos",
       "description": "<p>Fornecendo a mesma função defensiva que uma manopla comum, esta versão possui um agrupamento de cravos partindo dos nós dos dedos para causar dano perfurante com um soco.</p>"
     },
-    "Spikes": {
-      "name": "Espinhos"
-    },
     "Spined Shield": {
       "name": "Escudo Espinhado",
       "description": "<p>Cinco espinhos irregulares saltam da superfície deste escudo de aço (Dureza 6, 24 PV, LQ 12). Os espinhos são cravos de escudo +1 impactante. Quando você usar a reação Bloqueio com Escudo com este escudo, os espinhos sofrem o dano antes do escudo em si. Quando o escudo for danificado (depois de aplicar a Dureza), um dos espinhos se solta a cada 6 pontos de dano sofridos, reduzindo o dano em 6. O escudo sofre qualquer dano remanescente. Quando não houverem espinhos sobrando, o escudo sofre dano normalmente.</p> <p>Quando todos os espinhos forem removidos, você perde a habilidade de atacar com eles até que se regenerem no dia seguinte.</p> <p><strong>Ativação</strong> <span class=\"pf2-icon\">A</span> Interagir; <strong>Efeito</strong> Você dispara um dos espinhos em um alvo. Um espinho disparado utiliza as estatísticas dos cravos, mas é uma arma marcial à distância com incremento de distância de 36 metros</p>"
@@ -5679,10 +5673,12 @@
       "consumableSpellTarget": "1 creature or unattended object"
     },
     "Wand of the Spider (2nd-Rank Spell)": {
-      "consumableSpellName": "Teia"
+      "consumableSpellName": "Teia",
+      "consumableSpellDescription": "<p>Você cria uma teia pegajosa na área que atrapalha o movimento de criaturas. Quadrados com a teia se tornam terreno difícil. Sempre que uma criatura na teia começar a usar uma ação de movimento ou entrar na teia durante uma ação de movimento que está realizando, ela deve fazer um teste de @Check[athletics] ou salvamento de Reflexos contra a sua CD de magia para evitar sofrer uma penalidade de circunstância nas Velocidades ou ficar @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Imobilizada}. Uma criatura que sair da teia deixa de sofrer a penalidade na Velocidade por causa da teia. As teias podem ser removidas de cada quadrado com um único ataque ou efeito que cause pelo menos 5 de dano cortante ou 1 de dano de fogo. Um quadrado tem CA 5 e falha automaticamente nos salvamentos.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada e não precisa fazer outros testes de Atletismo contra a teia neste turno. Se tiver usado um teste de Atletismo, ela consegue eliminar as teias de todos os quadrados que deixar durante o movimento.</p>\n<p><strong>Sucesso</strong> A criatura não é afetada durante a ação dela. Se tiver usado um teste de Atletismo, ela consegue eliminar as teias de todos os quadrados que deixar durante o movimento.</p>\n<p><strong>Falha</strong> A criatura sofre –3 metros de penalidade de circunstância nas Velocidades dela até o início do próximo turno dela.</p>\n<p><strong>Falha crítica</strong> A criatura fica imobilizada até o início do próximo turno dela, e depois sofre –3 metros de penalidade de circunstância nas Velocidades por 1 rodada. Ela pode tentar @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} para remover a condição imobilizado.</p>\n<hr />\n<p><strong>Elevada (4º)</strong> A área da magia aumenta para uma @Template[burst|distance:20], e a distância aumenta para 18 metros.</p>"
     },
     "Wand of the Spider (4th-Rank Spell)": {
-      "consumableSpellName": "Teia"
+      "consumableSpellName": "Teia",
+      "consumableSpellDescription": "<p>Você cria uma teia pegajosa na área que atrapalha o movimento de criaturas. Quadrados com a teia se tornam terreno difícil. Sempre que uma criatura na teia começar a usar uma ação de movimento ou entrar na teia durante uma ação de movimento que está realizando, ela deve fazer um teste de @Check[athletics] ou salvamento de Reflexos contra a sua CD de magia para evitar sofrer uma penalidade de circunstância nas Velocidades ou ficar @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Imobilizada}. Uma criatura que sair da teia deixa de sofrer a penalidade na Velocidade por causa da teia. As teias podem ser removidas de cada quadrado com um único ataque ou efeito que cause pelo menos 5 de dano cortante ou 1 de dano de fogo. Um quadrado tem CA 5 e falha automaticamente nos salvamentos.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada e não precisa fazer outros testes de Atletismo contra a teia neste turno. Se tiver usado um teste de Atletismo, ela consegue eliminar as teias de todos os quadrados que deixar durante o movimento.</p>\n<p><strong>Sucesso</strong> A criatura não é afetada durante a ação dela. Se tiver usado um teste de Atletismo, ela consegue eliminar as teias de todos os quadrados que deixar durante o movimento.</p>\n<p><strong>Falha</strong> A criatura sofre –3 metros de penalidade de circunstância nas Velocidades dela até o início do próximo turno dela.</p>\n<p><strong>Falha crítica</strong> A criatura fica imobilizada até o início do próximo turno dela, e depois sofre –3 metros de penalidade de circunstância nas Velocidades por 1 rodada. Ela pode tentar @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapar} para remover a condição imobilizado.</p>\n<hr />\n<p><strong>Elevada (4º)</strong> A área da magia aumenta para uma @Template[burst|distance:20], e a distância aumenta para 18 metros.</p>"
     },
     "War Flail": {
       "name": "Mangual de Guerra",
@@ -5824,9 +5820,6 @@
     },
     "Wooden Shield": {
       "name": "Escudo de madeira"
-    },
-    "Wooden Taws": {
-      "name": "Wooden Taws"
     },
     "Wounding": {
       "name": "Sanguinária",

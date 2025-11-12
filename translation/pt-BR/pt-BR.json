@@ -230,6 +230,8 @@
           "Search": "Pesquisar Fórmulas"
         },
         "CreateFeat": "Criar Talento",
+        "EmptyLabel": "Vazio",
+        "EmptyMultipleLabel": "{value} Vazio",
         "FeatSlot": {
           "AncestryHeader": "Talentos de Ancestralidade",
           "AncestryFeaturesHeader": "Características de Ancestralidade",
@@ -1128,7 +1130,8 @@
       "cp": "pc",
       "gp": "po",
       "pp": "pl",
-      "sp": "pp"
+      "sp": "pp",
+      "credits": "créditos"
     },
     "CurrencyCP": "Cobre",
     "CurrencyGP": "Ouro",
@@ -1698,6 +1701,7 @@
       },
       "Activation": {
         "Add": "Adicionar Ativação",
+        "Activate": "Ativar",
         "Cast": "Conjurar uma Magia",
         "Command": "comandar",
         "CommandSheetLabel": "Comando",
@@ -1724,6 +1728,28 @@
         "SaveLabel": "CD de Salvamento",
         "Stage": "Estágio {stage}",
         "StageLabel": "Estágio"
+      },
+      "Ammo": {
+        "FIELDS": {
+          "baseItem": {
+            "label": "Tipo de Munição"
+          },
+          "craftableAs": {
+            "label": "Manufaturável como"
+          }
+        },
+        "Base": {
+          "arrows": "Flechas",
+          "blowgun-darts": "Dardos de Zarabatana",
+          "bolts": "Virotes",
+          "rounds": "Rodadas",
+          "sling-bullets": "Balas de funda",
+          "spray-pellets": "Pelotas de Spray"
+        },
+        "Groups": {
+          "General": "Geral",
+          "Weapons": "Armas"
+        }
       },
       "Ancestry": {
         "DropFeatures": "Solte as características de ancestralidade aqui.",
@@ -1918,6 +1944,10 @@
           "wand": "Varinha"
         },
         "Plural": "Consumíveis",
+        "Spell": {
+          "Empty": "Vazio",
+          "Label": "Magia Embutida"
+        },
         "Uses": {
           "AutoDestroy": "Destruir ao usar",
           "Label": "Usos",
@@ -2411,11 +2441,21 @@
         "Label": "Efeitos de Dano de Materiais"
       },
       "NameLabel": "Nome",
+      "NPCAttack": {
+        "Tags": {
+          "RangeIncrementN": "Incremento de Alcance {n} Pés"
+        }
+      },
       "OtherTags": {
         "Label": "Outras Tags",
         "Hint": "Tags adicionais além dos traços para ajudar a classificar um item"
       },
       "Physical": {
+        "FIELDS": {
+          "grade": {
+            "label": "Grau"
+          }
+        },
         "Attach": {
           "CraftingCheck": "Teste de Manufatura",
           "Detach": {
@@ -2578,6 +2618,7 @@
       "Rules": {
         "Apply": "Aplicar",
         "Close": "Fechar",
+        "CopyToClipboard": "Copiar para Área de Transferência",
         "Edit": "Editar JSON",
         "Hint": {
           "Slug": "Um identificador estável e legível para humanos: se definido, será mantido mesmo que o item seja renomeado.",
@@ -2687,11 +2728,32 @@
           "WrongSpellType": "Não é possível adicionar {spellType} a esta entrada de conjuração."
         }
       },
+      "Treasure": {
+        "FIELDS": {
+          "category": {
+            "label": "Categoria",
+            "choices": {
+              "art-object": "Objeto de Arte",
+              "coin": "Moeda",
+              "gem": "Gema",
+              "material": "Material"
+            }
+          }
+        }
+      },
       "Weapon": {
         "FIELDS": {
           "expend": {
             "hint": "Isso indica quanta munição é consumida com cada Golpe à distância que você faz com a arma. Outras habilidades podem citar o uso de Gasto como a quantidade de munição necessária para concluir a ação.",
             "label": "Gasto"
+          },
+          "ammo": {
+            "baseType": {
+              "label": "Tipo de Munição"
+            },
+            "capacity": {
+              "label": "Capacidade"
+            }
           }
         },
         "CanBeAmmo": {
@@ -2741,6 +2803,9 @@
         "Reload": {
           "LabelN": "Recarga {value}",
           "OneMinute": "1 minuto"
+        },
+        "Reloader": {
+          "Reload1": "Recarga"
         },
         "Rune": {
           "Potency": "Potência de Arma",
@@ -3878,17 +3943,9 @@
     },
     "SpellcastingTypeLabel": "Tipo de Conjuração",
     "SpellsActionHeader": "Ação",
-    "StackGroupArrows": "Flechas",
-    "StackGroupBlowgunDarts": "Dardos de Zarabatana",
-    "StackGroupBolts": "Virotes",
     "StackGroupCoins": "Moedas",
     "StackGroupGems": "Gemas",
     "StackGroupLabel": "Acumula Com",
-    "StackGroupRounds10": "Rodadas (10)",
-    "StackGroupRounds5": "Rodadas (5)",
-    "StackGroupSlingBullets": "Balas de funda",
-    "StackGroupSprayPellets": "Pelotas de Spray",
-    "StackGroupWoodenTaws": "Wooden Taws",
     "StaminaPointsHeader": "Pontos de Estamina",
     "StaminaPointsShortLabel": "Estamina",
     "StatusBonusShortLabel": "Condição",
@@ -4857,6 +4914,7 @@
     "TraitMythic": "Mítico",
     "TraitNagaji": "Nagaji",
     "TraitNephilim": "Nefilim",
+    "TraitNightmare": "Pesadelo",
     "TraitNoisy": "Barulhenta",
     "TraitNonlethal": "Não-letal",
     "TraitNymph": "Ninfa",
@@ -4907,79 +4965,6 @@
     "TraitRage": "Fúria",
     "TraitRakshasa": "Rakshasa",
     "TraitRange": "Distância",
-    "TraitRange10": "Distância 10 pés",
-    "TraitRange100": "Distância 100 pés",
-    "TraitRange110": "Distância 110 pés",
-    "TraitRange120": "Distância 120 pés",
-    "TraitRange130": "Distância 39 m",
-    "TraitRange140": "Distância 140 pés",
-    "TraitRange15": "Distância 15 pés",
-    "TraitRange150": "Distância 150 pés",
-    "TraitRange160": "Distância 160 pés",
-    "TraitRange170": "Distância 170 pés",
-    "TraitRange180": "Distância 180 pés",
-    "TraitRange190": "Distância 190 pés",
-    "TraitRange20": "Distância 20 pés",
-    "TraitRange200": "Distância 200 pés",
-    "TraitRange210": "Distância 63 m",
-    "TraitRange220": "Distância 220 pés",
-    "TraitRange230": "Distância 230 pés",
-    "TraitRange240": "Distância 240 pés",
-    "TraitRange25": "Distância 25 pés",
-    "TraitRange250": "Distância 250 pés",
-    "TraitRange260": "Distância 260 pés",
-    "TraitRange270": "Distância 270 pés",
-    "TraitRange280": "Distância 280 pés",
-    "TraitRange290": "Distância 290 pés",
-    "TraitRange30": "Distância 30 pés",
-    "TraitRange300": "Distância 300 pés",
-    "TraitRange310": "Distância 310 pés",
-    "TraitRange320": "Distância 320 pés",
-    "TraitRange40": "Distância 40 pés",
-    "TraitRange5": "Distância 5 pés",
-    "TraitRange50": "Distância 50 pés",
-    "TraitRange500": "Distância 500 pés",
-    "TraitRange60": "Distância 60 pés",
-    "TraitRange70": "Distância 70 pés",
-    "TraitRange80": "Distância 80 pés",
-    "TraitRange90": "Distância 90 pés",
-    "TraitRangeIncrement10": "Incremento de Alcance 10 pés",
-    "TraitRangeIncrement100": "Incremento de Alcance 100 pés",
-    "TraitRangeIncrement110": "Incremento de Alcance 310 pés",
-    "TraitRangeIncrement120": "Incremento de Alcance 120 pés",
-    "TraitRangeIncrement130": "Incremento de Alcance 130 pés",
-    "TraitRangeIncrement140": "Incremento de Alcance 140 pés",
-    "TraitRangeIncrement15": "Incremento de Alcance 15 pés",
-    "TraitRangeIncrement150": "Incremento de Alcance 150 pés",
-    "TraitRangeIncrement160": "Incremento de Alcance 160 pés",
-    "TraitRangeIncrement170": "Incremento de Alcance 170 pés",
-    "TraitRangeIncrement180": "Incremento de Alcance 180 pés",
-    "TraitRangeIncrement190": "Incremento de Alcance 190 pés",
-    "TraitRangeIncrement20": "Incremento de Alcance 20 pés",
-    "TraitRangeIncrement200": "Incremento de Alcance 200 pés",
-    "TraitRangeIncrement210": "Incremento de Alcance 210 pés",
-    "TraitRangeIncrement220": "Incremento de Alcance 220 pés",
-    "TraitRangeIncrement230": "Incremento de Alcance 230 pés",
-    "TraitRangeIncrement240": "Incremento de Alcance 240 pés",
-    "TraitRangeIncrement25": "Incremento de Alcance 25 pés",
-    "TraitRangeIncrement250": "Incremento de Alcance 250 pés",
-    "TraitRangeIncrement260": "Incremento de Alcance 260 pés",
-    "TraitRangeIncrement270": "Incremento de Alcance 270 pés",
-    "TraitRangeIncrement280": "Incremento de Alcance 280 pés",
-    "TraitRangeIncrement290": "Incremento de Alcance 290 pés",
-    "TraitRangeIncrement30": "Incremento de Alcance 30 pés",
-    "TraitRangeIncrement35": "Incremento de alcance 35 pés",
-    "TraitRangeIncrement300": "Incremento de Alcance 300 pés",
-    "TraitRangeIncrement310": "Incremento de Alcance 310 pés",
-    "TraitRangeIncrement320": "Incremento de Alcance 320 pés",
-    "TraitRangeIncrement40": "Incremento de Alcance 40 pés",
-    "TraitRangeIncrement5": "Incremento de Alcance 5 pés",
-    "TraitRangeIncrement50": "Incremento de Alcance 50 pés",
-    "TraitRangeIncrement60": "Incremento de Alcance 60 pés",
-    "TraitRangeIncrement70": "Incremento de Alcance 70 pés",
-    "TraitRangeIncrement75": "Incremento de Alcance 75 m",
-    "TraitRangeIncrement80": "Incremento de Alcance 80 pés",
-    "TraitRangeIncrement90": "Incremento de Alcance 90 pés",
     "TraitRangedTrip": "Derrubar à Distância",
     "TraitRanger": "Patrulheiro",
     "TraitRare": "Raro",
@@ -5366,6 +5351,7 @@
         "greatclub": "Clava Pesada",
         "greatpick": "Picareta Pesada",
         "greatsword": "Montante",
+        "grenade": "Granada",
         "guisarme": "Bisarma",
         "halberd": "Alabarda",
         "halfling-sling-staff": "Cajado-Funda Halfling",
@@ -5482,7 +5468,6 @@
         "whip-staff": "Bastão Chicote",
         "wish-blade": "Wish Blade",
         "wish-knife": "Wish Knife",
-        "wooden-taws": "Wooden Taws",
         "wrecker": "Quebrador",
         "wrist-launcher": "Lançador de pulso"
       }
@@ -5537,8 +5522,7 @@
       "astral": {
         "Name": "Astral",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
-          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
         }
       },
       "authorized": {
@@ -5619,7 +5603,7 @@
       "flaming": {
         "Name": "Flamejante",
         "Note": {
-          "criticalSuccess": "Num acerto crítico, você dá [[/r 1d10[persistent,fire]]] adicional."
+          "criticalSuccess": "Num acerto crítico, você causa 1d10 de dano de fogo persistente adicional."
         }
       },
       "flickering": {
@@ -5663,8 +5647,7 @@
       "greaterAstral": {
         "Name": "Astral Maior",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
-          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
         }
       },
       "greaterBloodbane": {
@@ -5714,7 +5697,7 @@
       "greaterFlaming": {
         "Name": "Flamejante Maior",
         "Note": {
-          "criticalSuccess": "Dano de fogo causado por esta arma (incluindo o dano de fogo persistente) ignora a resistência ao fogo do alvo. Quando você teve sucesso crítico em um golpe com essa arma, você lida com um adicional de [[/r 2d10[persistente,fire]]].",
+          "criticalSuccess": "Num acerto crítico, você causa 2d10 de dano de fogo persistente adicional. Dano de fogo causado por esta arma (incluindo o dano de fogo persistente) ignora a resistência ao fogo do alvo.",
           "success": "Dano de fogo causado por esta arma ignora a resistência ao fogo do alvo."
         }
       },
@@ -6385,6 +6368,7 @@
     "Item": {
       "action": "Habilidade",
       "affliction": "Aflição",
+      "ammo": "Munição",
       "ancestry": "Ancestralidade",
       "armor": "Armadura",
       "background": "Biografia",
