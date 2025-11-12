@@ -230,6 +230,8 @@
           "Search": "Pesquisar Fórmulas"
         },
         "CreateFeat": "Criar Talento",
+        "EmptyLabel": "Vazio",
+        "EmptyMultipleLabel": "{value} Vazio",
         "FeatSlot": {
           "AncestryHeader": "Talentos de Ancestralidade",
           "AncestryFeaturesHeader": "Características de Ancestralidade",
@@ -1128,7 +1130,8 @@
       "cp": "pc",
       "gp": "po",
       "pp": "pl",
-      "sp": "pp"
+      "sp": "pp",
+      "credits": "créditos"
     },
     "CurrencyCP": "Cobre",
     "CurrencyGP": "Ouro",
@@ -1698,6 +1701,7 @@
       },
       "Activation": {
         "Add": "Adicionar Ativação",
+        "Activate": "Ativar",
         "Cast": "Conjurar uma Magia",
         "Command": "comandar",
         "CommandSheetLabel": "Comando",
@@ -1726,14 +1730,21 @@
         "StageLabel": "Estágio"
       },
       "Ammo": {
+        "FIELDS": {
+          "baseItem": {
+            "label": "Tipo de Munição"
+          },
+          "craftableAs": {
+            "label": "Manufaturável como"
+          }
+        },
         "Base": {
           "arrows": "Flechas",
           "blowgun-darts": "Dardos de Zarabatana",
           "bolts": "Virotes",
           "rounds": "Rodadas",
           "sling-bullets": "Balas de funda",
-          "spray-pellets": "Pelotas de Spray",
-          "wooden-taws": "Wooden Taws"
+          "spray-pellets": "Pelotas de Spray"
         },
         "Groups": {
           "General": "Geral",
@@ -1933,6 +1944,10 @@
           "wand": "Varinha"
         },
         "Plural": "Consumíveis",
+        "Spell": {
+          "Empty": "Vazio",
+          "Label": "Magia Embutida"
+        },
         "Uses": {
           "AutoDestroy": "Destruir ao usar",
           "Label": "Usos",
@@ -2426,11 +2441,21 @@
         "Label": "Efeitos de Dano de Materiais"
       },
       "NameLabel": "Nome",
+      "NPCAttack": {
+        "Tags": {
+          "RangeIncrementN": "Incremento de Alcance {n} Pés"
+        }
+      },
       "OtherTags": {
         "Label": "Outras Tags",
         "Hint": "Tags adicionais além dos traços para ajudar a classificar um item"
       },
       "Physical": {
+        "FIELDS": {
+          "grade": {
+            "label": "Grau"
+          }
+        },
         "Attach": {
           "CraftingCheck": "Teste de Manufatura",
           "Detach": {
@@ -2593,6 +2618,7 @@
       "Rules": {
         "Apply": "Aplicar",
         "Close": "Fechar",
+        "CopyToClipboard": "Copiar para Área de Transferência",
         "Edit": "Editar JSON",
         "Hint": {
           "Slug": "Um identificador estável e legível para humanos: se definido, será mantido mesmo que o item seja renomeado.",
@@ -2707,7 +2733,9 @@
           "category": {
             "label": "Categoria",
             "choices": {
+              "art-object": "Objeto de Arte",
               "coin": "Moeda",
+              "gem": "Gema",
               "material": "Material"
             }
           }
@@ -2720,6 +2748,9 @@
             "label": "Gasto"
           },
           "ammo": {
+            "baseType": {
+              "label": "Tipo de Munição"
+            },
             "capacity": {
               "label": "Capacidade"
             }
@@ -4774,7 +4805,6 @@
     "TraitGhost": "Fantasma",
     "TraitGhoul": "Carniçal",
     "TraitGiant": "Gigante",
-    "TraitGirtablilu": "Girtablilu",
     "TraitGnoll": "Kholo",
     "TraitGnome": "Gnomo",
     "TraitGoblin": "Goblin",
@@ -5321,6 +5351,7 @@
         "greatclub": "Clava Pesada",
         "greatpick": "Picareta Pesada",
         "greatsword": "Montante",
+        "grenade": "Granada",
         "guisarme": "Bisarma",
         "halberd": "Alabarda",
         "halfling-sling-staff": "Cajado-Funda Halfling",
@@ -5437,7 +5468,6 @@
         "whip-staff": "Bastão Chicote",
         "wish-blade": "Wish Blade",
         "wish-knife": "Wish Knife",
-        "wooden-taws": "Wooden Taws",
         "wrecker": "Quebrador",
         "wrist-launcher": "Lançador de pulso"
       }
@@ -5492,8 +5522,7 @@
       "astral": {
         "Name": "Astral",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
-          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
         }
       },
       "authorized": {
@@ -5574,7 +5603,7 @@
       "flaming": {
         "Name": "Flamejante",
         "Note": {
-          "criticalSuccess": "Num acerto crítico, você dá [[/r 1d10[persistent,fire]]] adicional."
+          "criticalSuccess": "Num acerto crítico, você causa 1d10 de dano de fogo persistente adicional."
         }
       },
       "flickering": {
@@ -5618,8 +5647,7 @@
       "greaterAstral": {
         "Name": "Astral Maior",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
-          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
         }
       },
       "greaterBloodbane": {
@@ -5669,7 +5697,7 @@
       "greaterFlaming": {
         "Name": "Flamejante Maior",
         "Note": {
-          "criticalSuccess": "Dano de fogo causado por esta arma (incluindo o dano de fogo persistente) ignora a resistência ao fogo do alvo. Quando você teve sucesso crítico em um golpe com essa arma, você lida com um adicional de [[/r 2d10[persistente,fire]]].",
+          "criticalSuccess": "Num acerto crítico, você causa 2d10 de dano de fogo persistente adicional. Dano de fogo causado por esta arma (incluindo o dano de fogo persistente) ignora a resistência ao fogo do alvo.",
           "success": "Dano de fogo causado por esta arma ignora a resistência ao fogo do alvo."
         }
       },
