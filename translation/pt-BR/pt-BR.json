@@ -385,6 +385,7 @@
           "vishkanyan": "Vishkanya",
           "wildsong": "Canção Selvagem",
           "wayang": "Wayang",
+          "yaksha": "Yaksha",
           "ysoki": "Ysoki"
         },
         "Sense": {
@@ -400,6 +401,7 @@
           "Plural": "Sentidos",
           "RangeLabel": "Distância",
           "Type": {
+            "Bloodsense": "Senso de Sangue",
             "Darkvision": "Visão no Escuro",
             "Echolocation": "Ecolocalização",
             "GreaterDarkvision": "Visão no Escuro Maior",
@@ -1234,6 +1236,7 @@
           "olfactory": "olfativo",
           "orichalcum": "oricalco",
           "paralyzed": "paralisado",
+          "peachwood": "madeira de Pessegueiro",
           "persistent-damage": "dano persistente",
           "petrified": "petrificado",
           "physical": "físico",
@@ -1521,6 +1524,7 @@
       "CantImportTooHighVersion": "Não foi possível importar {sourceName}: sua versão do esquema ({sourceSchemaVersion}) é maior do que esse mundo ({worldSchemaVersion}).",
       "CantMoveItemDestination": "Você não está autorizado a mover itens para este personagem.",
       "CantMoveItemSource": "Você não está autorizado a mover itens deste personagem.",
+      "CantPurchaseContainerWithItems": "Você não pode comprar contêineres com itens neles.",
       "ItemNotFoundByUUID": "Item com UUID \"{uuid}\" não encontrado.",
       "MinimumProfLevelSetByFeatures": "A proficiência escolhida está abaixo da proficiência definida pelas suas características.",
       "NoCreatureTokenSelected": "Selecione ao menos um token associado a uma criatura.",
@@ -1740,15 +1744,67 @@
         },
         "Base": {
           "arrows": "Flechas",
+          "battery": "Bateria",
           "blowgun-darts": "Dardos de Zarabatana",
           "bolts": "Virotes",
+          "chem-tank": "Tanque Químico",
+          "cutlery": "Prataria",
+          "magazine": "Cartucho",
+          "magazine-with-6-pellets": "Cartucho com 6 Balas",
+          "magazine-with-8-pellets": "Cartucho com 8 Balas",
+          "projectile-ammo": "Munição de Projétil",
+          "repeating-crossbow-magazine": "Cartucho de Besta Repetidora",
+          "repeating-hand-crossbow-magazine": "Cartucho de Besta Repetidora de Mão",
+          "repeating-heavy-crossbow-magazine": "Cartucho de Besta Repetidora Pesada",
+          "rounds-alicorn-trigger": "Balas (Gatilho de Alicôrnio)",
+          "rounds-arquebus": "Balas (Arquebus)",
+          "rounds-axe-musket": "Balas (Mosquete-Machado)",
+          "rounds-black-powder-knuckle-dusters": "Balas (Soqueira de Pólvora Negra)",
+          "rounds-blunderbuss": "Balas (Bacamarte)",
+          "rounds-breath-blaster": "Balas (Explosão de Sopro)",
+          "rounds-cane-pistol": "Balas (Pistola-Bengala)",
+          "rounds-clan-pistol": "Balas (Pistola de Clã)",
+          "rounds-coat-pistol": "Balas (Pistola de casaco",
+          "rounds-dagger-pistol": "Balas (Pistola-Adaga)",
+          "rounds-double-barreled-musket": "Balas (Mosquete de dois canos)",
+          "rounds-double-barreled-pistol": "Balas (Pistola de dois canos)",
+          "rounds-dragon-mouth-pistol": "Balas (Pistola Boca-de-dragão)",
+          "rounds-drake-rifle": "Balas (Rifle de Draco)",
+          "rounds-dueling-pistol": "Balas (Pistola de duelo)",
+          "rounds-dwarven-scattergun": "Balas (Espingarda Anã)",
+          "rounds-fire-lance": "Balas (Lança de Fogo)",
+          "rounds-flintlock-musket": "Balas (Mosquete de Pederneira)",
+          "rounds-flintlock-pistol": "Balas (Pistola de Pederneira)",
+          "rounds-gun-sword": "Balas (Arma Espada)",
+          "rounds-hammer-gun": "Balas (Arma Martelo)",
+          "rounds-hand-cannon": "Balas (Canhão de Mão)",
+          "rounds-harmona-gun": "Balas (Pistola Uivante)",
+          "rounds-jezail": "Balas (Jezail)",
+          "rounds-pepperbox": "Balas (Pimenteira)",
+          "rounds-petrification-cannon": "Balas (Canhão de Petrificação)",
+          "rounds-piercing-wind": "Balas (Vento Perfurante)",
+          "rounds-rapier-pistol": "Balas (Pistola rapieira)",
+          "rounds-shield-pistol": "Balas (Pistola escudo)",
+          "rounds-shobhad-longrifle": "Balas (Rilfe Longo de Shobhad)",
+          "rounds-spider-gun": "Balas (Arma-Aranha)",
+          "rounds-spike-launcher": "Balas (Lança-Espinhos)",
+          "rounds-tentacle-cannon": "Balas (Canhão de Tentáculo)",
+          "rounds-triggerbrand": "Balas (Marca de Gatilho)",
           "rounds": "Rodadas",
           "sling-bullets": "Balas de funda",
           "spray-pellets": "Pelotas de Spray"
         },
+        "IsSpecialAmmo": {
+          "label": "É Munição Especial",
+          "hint": "Munição especial, como munição mágica e alquímica, pode ser criada como um tipo específico de munição"
+        },
         "Groups": {
           "General": "Geral",
-          "Weapons": "Armas"
+          "Weapons": "Armas",
+          "WeaponSpecific": "Arma Específica"
+        },
+        "SpecialAmmoPicker": {
+          "Prompt": "Selecione um tipo de munição para este item"
         }
       },
       "Ancestry": {
@@ -1790,6 +1846,7 @@
           "hellknight-half-plate": "Meia armadura do Cavaleiro Infernal",
           "hellknight-plate": "Peitoral dos Cavaleiros Infernais",
           "hide-armor": "Gibão de Peles",
+          "kilted-breastplate": "Peitoral Plissado",
           "lamellar-breastplate": "Placa peitoral de Lamellar",
           "lattice-armor": "Armadura de Lattice",
           "leaf-weave": "Tecelagem de folhas",
@@ -1801,6 +1858,8 @@
           "padded-armor": "Armadura Acolchoada",
           "power-suit": "Traje Poderoso",
           "quilted-armor": "Armadura Acolchoada",
+          "rattan-armor": "Armadura de Rattan",
+          "sankeit": "Sankeit",
           "scale-mail": "Cota de Escamas",
           "scroll-robes": "Robes de Pergaminho",
           "splint-mail": "Cota de Talas",
@@ -2442,6 +2501,16 @@
       },
       "NameLabel": "Nome",
       "NPCAttack": {
+        "FIELDS": {
+          "range": {
+            "increment": {
+              "label": "Incremento de Alcance"
+            },
+            "max": {
+              "label": "Alcance Máximo"
+            }
+          }
+        },
         "Tags": {
           "RangeIncrementN": "Incremento de Alcance {n} Pés"
         }
@@ -2547,6 +2616,7 @@
           "advanced": "Avançado",
           "superior": "Superior",
           "elite": "Elite",
+          "ultimate": "Supremo",
           "paragon": "Paradigma"
         },
         "LevelLabel": "Item {level}",
@@ -2756,6 +2826,7 @@
             }
           }
         },
+        "AnyBasicAmmo": "Qualquer munição básica",
         "CanBeAmmo": {
           "Label": "Utilizável como Munição",
           "Hint": "Indica que esta arma pode ser carregada em outra arma como munição."
@@ -2805,7 +2876,9 @@
           "OneMinute": "1 minuto"
         },
         "Reloader": {
-          "Reload1": "Recarga"
+          "EmptyMessage": "Sem munição compatível no inventário",
+          "Reload1": "Recarga",
+          "ReloadAll": "Recarregar tudo"
         },
         "Rune": {
           "Potency": "Potência de Arma",
@@ -2822,6 +2895,7 @@
         "ThrownUsage": {
           "Label": "Uso de Arremesso"
         },
+        "Tracking": "Rastreamento",
         "Twin": {
           "SecondPlus": "Gêmea 2°+ Ataque"
         }
@@ -4107,7 +4181,9 @@
     "TraitAdjustment": "Ajuste",
     "TraitAeon": "Éon",
     "TraitAesir": "Aesir",
+    "TraitAffixedOrHeldInOneHand": "Afixada ou carregada em 1 Mão",
     "TraitAffixedToAMetalWeapon": "Afixado a uma arma de metal",
+    "TraitAffixedToAOneHandedFirearmOrHandCrossbow": "Afixado em uma arma de fogo ou besta de uma mão",
     "TraitAffixedToARangedWeapon": "Afixado em uma Arma à Distância",
     "TraitAffixedToAShield": "Afixado á um Escudo",
     "TraitAffixedToAShieldOrWeapon": "Afixado a um escudo ou arma",
@@ -4135,10 +4211,12 @@
     "TraitAffixedToMeleeWeapon": "Afixado a uma arma corpo a corpo",
     "TraitAffixedToMetalArmorOrAWeapon": "Afixada a uma Armadura de Metal ou uma Arma",
     "TraitAffixedToMetalWeapon": "Afixado a uma arma de metal",
+    "TraitAffixedToNMArmorOrAWeapon": "Afixada a uma Armadura ou Arma de Não-metal",
     "TraitAffixedToObjectOrStructure": "Afixado num Objeto ou Estrutura",
     "TraitAffixedToStructureObjectOrCreature": "Afixado numa Estrutura, Objeto, ou Criatura",
     "TraitAffixedToThrownWeapon": "Afixado a Arma de Arremesso",
     "TraitAffixedToUnarmoredItem": "Afixado a Item de Defesa sem Armadura",
+    "TraitAffixedToWall": "Afixada à Parede",
     "TraitAffixedToWeapon": "Fixado em uma Arma",
     "TraitAftermath": "Arremate",
     "TraitAgile": "Ágil",
@@ -4196,6 +4274,7 @@
     "TraitAttack": "Ataque",
     "TraitAuditory": "Auditivo",
     "TraitAura": "Aura",
+    "TraitAutomatic": "Automática",
     "TraitAutomaton": "Autômato",
     "TraitAwakenedAnimal": "Animal Despertado",
     "TraitAzarketi": "Azarketi",
@@ -4214,6 +4293,7 @@
     "TraitBonded": "Vinculada",
     "TraitBottledBreath": "Sopro Engarrafado",
     "TraitBrace": "Esteio",
+    "TraitBrandish": "Brandir",
     "TraitBravado": "Bravata",
     "TraitBrutal": "Brutal",
     "TraitBugbear": "Bugbear",
@@ -4623,7 +4703,10 @@
     "TraitDescriptionSecret": "O mestre faz essa rolagem em segredo.",
     "TraitDescriptionSedacthy": "Humanoides que habitam o oceano e se comunicam com a vida marinha, geralmente possuem visão no escuro e sentido das ondas.",
     "TraitDescriptionSerpentfolk": "Povo-serpente é uma família de humanoides serpentinos.",
+    "TraitDescriptionShabti": "O shabti é um humanoide construído originalmente para enfrentar julgamentos por pecados de uma criatura viva após a morte.",
+    "TraitDescriptionShade": "Sombras são almas mortais que foram julgadas e depois transformadas em criaturas nativas de outros planos. Os peticionários podem sobreviver aos efeitos ambientais básicos do seu plano doméstico.",
     "TraitDescriptionShadow": "Esta magia envolve sombras ou a energia do Plano das Sombras.",
+    "TraitDescriptionShieldThrow": "Um escudo com esta característica é projetado para ser jogado como um ataque de longo alcance. Quando jogado, o escudo é uma arma de longo alcance de arremesso marcial. Seus dados e tipos de dano são os mesmos que seu ataque de batida de escudo, mas se o escudo inclui uma arma anexada ou uma arma integrada, você pode optar por atacar com ela quando você arremessar o escudo. Você adiciona o modificador de Força ao dano como típico de uma arma arremessada. A característica também inclui o incremento de alcance.",
     "TraitDescriptionShisk": "Humanoides reservados e secretos, cobertos de plumas ossudas e que residem no subsolo.",
     "TraitDescriptionShoony": "Uma criatura com este traço é membro da ancestralidade shoony.",
     "TraitDescriptionShove": "Você pode usar esta arma para Empurrar com a perícia Atletismo mesmo se não tiver uma mão livre. Isto utiliza o alcance da arma (se for diferente do seu) e adiciona o bônus de item dela que é aplicado a rolagens de ataque (se houver) como um bônus de item aplicado ao seu teste de Atletismo. Se obtiver uma falha crítica no teste para Empurrar enquanto usar essa arma, você pode escolher soltá-la para sofrer os efeitos de uma falha em vez dos efeitos de uma falha crítica.",
@@ -4698,6 +4781,7 @@
     "TraitDescriptionWand": "Uma varinha contém uma única magia que você pode conjurar uma vez por dia.",
     "TraitDescriptionWater": "Efeitos com o traço água conjuram ou manipulam água. Efeitos que manipulam água não possuem efeito em uma área sem água. Criaturas com este traço consistem principalmente de água ou possuem uma conexão com água mágica.",
     "TraitDescriptionWerecreature": "Essas criaturas metamórficas podem alternar entre formas animal, humanoide e híbrida.",
+    "TraitDescriptionWhetstone": "Uma pedra de amolar é um item consumível magicamente aprimorado, projetado para aumentar a eficácia de uma arma",
     "TraitDescriptionWight": "Um wight é uma criatura morta-viva que drena vida e vigia um local de sepultamento.",
     "TraitDescriptionWildHunt": "Criaturas com o traço da caça selvagem nunca estão abaixo do nível 14. Possuem visão no escuro maior, visão verde, aclimação planar, olhar selvagem, cooperação instintiva, fraqueza a ferro frio, a habilidade de falar com plantas e animais, e seu próprio elo específico de caça selvagem.",
     "TraitDescriptionWitch": "Esse traço indica habilidades da classe bruxo.",
@@ -4829,6 +4913,7 @@
     "TraitHefty2": "Robusto 2",
     "TraitHeldOneHand": "Segurado em 1 mão",
     "TraitHeldOneHandFreeStanding": "Segurado em 1 mão ou independente",
+    "HeldInOneHandHungOnACordOrAttachedToClothing": "Segurado em 1 mão, pendurado em uma medalha, ou anexado a roupas",
     "TraitHeldOneTwoHands": "Segurado em 1 ou 2 mãos",
     "TraitHeldTwoHands": "Segurado em 2 mãos",
     "TraitHerald": "Arauto",
@@ -4843,6 +4928,13 @@
     "TraitIkon": "Ikone",
     "TraitIllusion": "Ilusão",
     "TraitImplanted": "Implantado",
+    "TraitInstalledInArmor": "Instalado em uma armadura",
+    "TraitInstalledInArmorWithTheEnergyShieldingUpgrade": "Instalado em uma armadura com a melhoria de proteção de energia",
+    "TraitInstalledInArmorWithTheExposedTrait": "Instalado em armadura com o traço exposto",
+    "TraitInstalledInAWeapon": "Instalado em uma arma",
+    "TraitInstalledInAWeaponSight": "Instalado em uma arma (mira)",
+    "TraitInstalledInTwoHandedWeapon": "Instalado em uma arma de duas mãos",
+    "TraitInstalledOnAWeaponWithoutASilencer": "Instalado em uma arma sem um silenciador",
     "TraitImpulse": "Impulso",
     "TraitIncapacitation": "Incapacitação",
     "TraitIncarnate": "Encarnação",
@@ -5083,6 +5175,9 @@
     "TraitTime": "Tempo",
     "TraitTitan": "Titã",
     "TraitTouched": "Tocado",
+    "TraitTracking1": "Rastreamento +1",
+    "TraitTracking2": "Rastreamento +2",
+    "TraitTracking3": "Rastreamento +3",
     "TraitTraining": "Treinamento",
     "TraitTranscendence": "Transcendência",
     "TraitTrap": "Armadilha",
@@ -5143,6 +5238,7 @@
     "TraitWayang": "Wayang",
     "TraitWeapons": "Armas",
     "TraitWerecreature": "Teriantropo",
+    "TraitWhetstone": "Pedra de Amolar",
     "TraitWight": "Inumano",
     "TraitWildHunt": "Caçada Selvagem",
     "TraitWitch": "Bruxo",
@@ -5188,6 +5284,8 @@
     "TraitWraith": "Aparição",
     "TraitWraithvine": "Videira Espectral",
     "TraitXulgath": "Xulgath",
+    "TraitYaksha": "Yaksha",
+    "TraitYaoguai": "Yaoguai",
     "TraitZombie": "Zumbi",
     "Traits": "Traços",
     "TraitsLabel": "Traços",
@@ -5286,6 +5384,9 @@
         "aldori-dueling-sword": "Espada de Duelo Aldori",
         "arbalest": "Arbaleste",
         "arquebus": "Arcabuz",
+        "atlatl": "Atlatl",
+        "backpack-ballista": "Balista de Mochila",
+        "backpack-catapult": "Catapulta de Mochila",
         "barricade-buster": "Destruidor de Barricada",
         "bastard-sword": "Espada Bastarda",
         "battle-axe": "Machado de Batalha",
@@ -5313,6 +5414,7 @@
         "claw": "Garra",
         "claw-blade": "Lâmina de Garras",
         "club": "Clava",
+        "combat-fishing-pole": "Vara de Pesca de Combate",
         "combat-lure": "Isca de Combate",
         "composite-longbow": "Arco Longo Composto",
         "composite-shortbow": "Arco Curto Composto",
@@ -5322,8 +5424,10 @@
         "dagger": "Adaga",
         "daikyu": "Daikyu",
         "dancers-spear": "Lança do Dançarino",
+        "dandpatta": "Dandpatta",
         "dart": "Dardo",
         "dogslicer": "Cortacão",
+        "donchak": "Donchak",
         "double-barreled-musket": "Mosquete de Barril-Duplo",
         "dwarven-dorn-dergar": "Dorn-Dergar Enânico",
         "dwarven-war-axe": "Machado de Guerra Enânico",
@@ -5334,13 +5438,18 @@
         "fangs": "Presas",
         "fangwire": "Fangwire",
         "fauchard": "Foucinho",
+        "feng-huo-lun": "Feng Huo Lun",
         "fighting-fan": "Leque de Combate",
+        "fighting-oar": "Remo de Combate",
         "filchers-fork": "Forcado do Furtador",
         "fire-poi": "Poi de Fogo",
         "fist": "Punho",
         "flail": "Mangual",
         "flying-talon": "Garra Voadora",
+        "flyssa": "Flyssa",
         "frying-pan": "Frigideira",
+        "gada": "Gada",
+        "gakgung": "Gakgung",
         "gauntlet": "Manopla",
         "gauntlet-bow": "Arco de Manopla",
         "gladius": "Gládio",
@@ -5366,10 +5475,13 @@
         "jaws": "Mandíbulas",
         "jiu-huan-dao": "Jin Huan Dao",
         "juggling-club": "Bastão de Malabares",
+        "kalis": "Kalis",
         "kama": "Kama",
         "karambit": "Karambit",
         "katana": "Katana",
         "katar": "Katar",
+        "kestros": "Kestros",
+        "khakkhara": "Khakkhara",
         "khopesh": "Khopesh",
         "kris": "Cris",
         "kukri": "Kukri",
@@ -5379,15 +5491,18 @@
         "light-hammer": "Martelo Leve",
         "light-mace": "Maça Leve",
         "light-pick": "Picareta Leve",
+        "liuyedao": "Liuyedao",
         "long-hammer": "Martelo Longo",
         "longbow": "Arco Longo",
         "longspear": "Lança Longa",
         "longsword": "Espada Longa",
         "mace": "Maça",
         "machete": "Machete",
+        "macuahuitl": "Macuahuitl",
         "main-gauche": "Adaga de Aparar",
         "mambele": "Mambele",
         "maul": "Malho",
+        "maul-spade": "Maul-Spade",
         "meteor-hammer": "Martelo Meteoro",
         "mikazuki": "Mikazuki",
         "mithral-tree": "Mithral Tree",
@@ -5399,6 +5514,9 @@
         "ogre-hook": "Gancho Ogro",
         "orc-knuckle-dagger": "Adaga de Soco Órquica",
         "orc-necksplitter": "Quebra-Pescoço Órquico",
+        "orc-skewermaul": "Maça-Impaladora Orc",
+        "palstave": "Palstave",
+        "panabas": "Panabas",
         "phalanx-piercer": "Fura-Falange",
         "pick": "Picareta",
         "poi": "Balangandã",
@@ -5415,9 +5533,11 @@
         "rotary-bow": "Arco Rotativo",
         "rungu": "Rungu",
         "sai": "Sai",
+        "sansetsukon": "Sansetsukon",
         "sap": "Porrete",
         "sawtooth-saber": "Sabre Serrilhado",
         "scimitar": "Cimitarra",
+        "scizore": "Scizore",
         "scorpion-whip": "Chicote Escorpião",
         "scourge": "Flagelo",
         "scythe": "Segadeira",
@@ -5429,6 +5549,7 @@
         "shield-spikes": "Cravos de Escudo",
         "shortbow": "Arco Curto",
         "shortsword": "Espada Curta",
+        "shuan-ji": "Shuan Ji",
         "shuriken": "Shuriken",
         "sickle": "Foice",
         "sling": "Funda",
@@ -5441,7 +5562,9 @@
         "spraysling": "Pulverização",
         "staff": "Cajado",
         "starknife": "Faca-Estrela",
+        "sukgung": "Sukgung",
         "sword-cane": "Bengala-Espada",
+        "talwar": "Talwar",
         "taw-launcher": "Taw Launcher",
         "tekko-kagi": "Tekko-kagi",
         "temple-sword": "Espada de Templo",
@@ -5455,8 +5578,10 @@
         "trident": "Tridente",
         "triggerbrand": "Disparador",
         "urumi": "Urumi",
+        "visap": "Visap",
         "wakizashi": "Wakizashi",
         "war-flail": "Mangual de Guerra",
+        "war-gavel": "Martelo de Guerra",
         "war-javelin": "Azagaia de Guerra",
         "war-lance": "Lança de Guerra",
         "war-razor": "Navalha de Guerra",
@@ -5469,7 +5594,9 @@
         "wish-blade": "Wish Blade",
         "wish-knife": "Wish Knife",
         "wrecker": "Quebrador",
-        "wrist-launcher": "Lançador de pulso"
+        "wrist-launcher": "Lançador de pulso",
+        "zhuazhi-bang": "Golpe de Zhuazhi",
+        "zulfikar": "Zulfikar"
       }
     },
     "WeaponAbilityLabel": "Atributo da Arma",
@@ -5522,7 +5649,8 @@
       "astral": {
         "Name": "Astral",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:26] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
+          "Note": "A arma pode ferir criaturas sem forma física. Uma arma astral é particularmente eficaz contra criaturas incorpóreas, que quase sempre apresentam uma vulnerabilidade específica a armas astrais. Criaturas incorpóreas podem tocar, segurar e empunhar armas astrais (diferentemente da maioria dos objetos físicos)."
         }
       },
       "authorized": {
@@ -5539,6 +5667,9 @@
         "Note": {
           "criticalSuccess": "Quando você acerta criticamente um alvo que está recebendo @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dano de Sangramento Persistente}, seu alvo se torna @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drenado 1}."
         }
+      },
+      "bolkasBlessing": {
+        "Name": "Benção de Bolka"
       },
       "brilliant": {
         "Name": "Brilhante",
@@ -5647,11 +5778,15 @@
       "greaterAstral": {
         "Name": "Astral Maior",
         "Note": {
-          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}."
+          "criticalSuccess": "Em um acerto crítico contra uma criatura que está possuindo outra criatura, a criatura possessora deve obter sucesso em @Check[will|dc:36] ou ser expulsa e incapaz de possuir uma criatura por [[/br 1d4 #rounds]]{1d4 rodadas}.",
+          "Note": "Esta runa tem os mesmos efeitos que uma runa @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} . Se usado para atacar uma criatura que está possuindo outra criatura, essa arma não causa dano à criatura possuída."
         }
       },
       "greaterBloodbane": {
         "Name": "Perdição Sanguinária Maior"
+      },
+      "greaterBolkasBlessing": {
+        "Name": "Benção de Bolka Maior"
       },
       "greaterBrilliant": {
         "Name": "Brilhante Maior",
@@ -5724,6 +5859,9 @@
           "criticalSuccess": "Em um acerto crítico, você pode escolher forçar o alvo para ter sucesso em um salvamento de @Check[fortitude|dc:37|name:Greater Impactful Rune] ou ser empurrado a 10 pés de distância de você."
         }
       },
+      "greaterKolssOath": {
+        "Name": "Juramento de Kols's Maior"
+      },
       "greaterRooting": {
         "Name": "Enraizadora Maior"
       },
@@ -5740,6 +5878,9 @@
           "criticalSuccess": "Dano sônico causado por esta arma ignora a resistência sônica do alvo. Num acerto crítico, o alvo deve ser bem-sucedido em um salvamento@Check[fortitude|dc:34|name:Greater Thundering Rune] ou se tornar @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdo} permanentemente.",
           "success": "Dano Sônico causado por esta arma ignora a resistência sônica do alvo."
         }
+      },
+      "greaterTruddsStrength": {
+        "Name": "Força de Trudd's Maior"
       },
       "grievous": {
         "Name": "Agravante",
@@ -5797,6 +5938,9 @@
       },
       "kinWarding": {
         "Name": "Protege-Parente"
+      },
+      "kolssOath": {
+        "Name": "Juramento de Kols's"
       },
       "majorRooting": {
         "Name": "Enraizadora Superior"
