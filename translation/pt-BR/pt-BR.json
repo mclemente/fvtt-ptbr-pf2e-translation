@@ -1135,10 +1135,12 @@
       "sp": "pp",
       "credits": "créditos"
     },
-    "CurrencyCP": "Cobre",
-    "CurrencyGP": "Ouro",
-    "CurrencyPP": "Platina",
-    "CurrencySP": "Prata",
+    "Currency": {
+      "cp": "Cobre",
+      "gp": "Ouro",
+      "pp": "Platina",
+      "sp": "Prata"
+    },
     "CurrentHitPointsShortLabel": "PV atual",
     "CurrentStaminaPointsShortLabel": "PE Atual",
     "DCAdjustmentEasy": "fácil",
@@ -2920,7 +2922,8 @@
       "Button": {
         "gift": "Dar",
         "move": "Transferir",
-        "purchase": "Comprar"
+        "purchase": "Comprar",
+        "credits": "Transferir"
       },
       "Prompt": {
         "gift": "Dar este item para {actor}?",
@@ -3113,7 +3116,7 @@
           "Poison": "<p>Quando uma criatura é exposta ao veneno de um monstro, ela tenta um salvamento de Fortitude para evitar ser envenenada. O nível do veneno é igual ao nível do monstro que o inflige. O veneno segue as regras para aflições.</p>",
           "PowerAttack": "<p><strong>Frequência</strong> uma vez por rodada</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe. Isto conta como dois ataques para calcular a penalidade de ataques múltiplos do monstro. Caso este Golpe acerte, o monstro causa um dado adicional do dano da arma.</p>",
           "Pull": "<p><strong>Requisitos</strong> A última ação do monstro foi um sucesso com um Golpe que lista Puxar em sua entrada de dano.</p><hr /><p><strong>Efeito</strong> O monstro tenta para @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposicionar} a criatura, movendo-a para mais perto do monstro. Esta tentativa não se aplica nem conta para a penalidade de ataque múltiplo do monstro. Se Puxar listar uma distância, altere a distância que a criatura é puxada em caso de sucesso para essa distância.</p>",
-          "Push": "<p><strong>Exigências</strong> A última ação do monstro foi um sucesso com um Golpe que lista Impelir em sua seção de dano.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente empurra o alvo para longe dele. Exceto se especificado o contrário na descrição da habilidade, a criatura é empurrada 5 pés Se o ataque for um sucesso crítico, a distância é dobrada</p>",
+          "Push": "<p><strong>Requerimentos</strong> A última ação do monstro foi um sucesso com um Golpe que lista Impelir em sua seção de dano.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente empurra o alvo para longe dele. Exceto se especificado o contrário na descrição da habilidade, a criatura é empurrada 5 pés Se o ataque for um sucesso crítico, a distância é dobrada</p>",
           "ReactiveStrike": "<p><strong>Gatilho</strong> Uma criatura no alcance do monstro usa uma ação de manuseio ou de movimento, desfere um ataque à distância ou sai de um quadrado usando uma ação de movimento.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro desfere um Golpe corpo a corpo contra a criatura acionada. Se o ataque dele for um acerto crítico e o acionamento for uma ação de manuseio, o monstro interrompe essa ação. Este Golpe não conta para a penalidade por ataques múltiplos do monstro, e a penalidade por ataques múltiplos do monstro não se aplica a ele.</p>",
           "Regeneration": "<p>Este monstro recupera o número listado de Pontos de Vida a cada rodada no início de seu turno. Sua condição @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Morrendo} nunca aumenta além de 3 enquanto sua regeneração estiver ativa. No entanto, se ele sofrer dano de um tipo listado em Regeneração, sua regeneração desativa até o final do seu próximo turno. Desative a regeneração antes de aplicar qualquer dano de um tipo listado, já que esse dano pode matar o monstro levando ele para Morrendo 4.</p>",
           "Rend": "<p>Uma seção Despedaçar lista um Golpe possuído pelo monstro. </p>\n<p><strong>Exigências</strong> O monstro acerta o mesmo inimigo com dois Golpes consecutivos do tipo listado na mesma rodada.</p>\n<hr />\n<p><strong>Efeito</strong> O monstro automaticamente causa o dano desse Golpe contra o inimigo.</p>",
@@ -4017,7 +4020,6 @@
     },
     "SpellcastingTypeLabel": "Tipo de Conjuração",
     "SpellsActionHeader": "Ação",
-    "StackGroupCoins": "Moedas",
     "StackGroupGems": "Gemas",
     "StackGroupLabel": "Acumula Com",
     "StaminaPointsHeader": "Pontos de Estamina",
@@ -4113,8 +4115,8 @@
       }
     },
     "TotalCoinage": "Moedas Totais",
-    "TotalTreasure": "Tesouro Total",
     "TotalWealth": "Riqueza Total",
+    "TotalTreasure": "Tesouro Total",
     "TradeDialog": {
       "Aborted": "{user} finalizou a troca: nenhum item foi trocado.",
       "Acceptance": {
