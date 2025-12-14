@@ -2,6 +2,7 @@
   "label": "Bestiário: Habilidades de Família",
   "mapping": {
     "description": "system.description.value",
+    "gmNote": "system.description.gm",
     "name": {
       "converter": "translateDualLanguage",
       "path": "name"
@@ -10,12 +11,21 @@
       "converter": "translateRules",
       "path": "system.rules"
     },
+    "selfEffect": "system.selfEffect.name",
     "source": {
       "converter": "translateSource",
       "path": "system.publication.title"
     }
   },
   "folders": {
+    "Adamantine Dragon": "Dragão de Adamante",
+    "Conspirator Dragon": "Dragão Conspirador",
+    "Diabolic Dragon": "Dragão Diabólico",
+    "Empyreal Dragon": "Dragão Empíreo",
+    "Fortune Dragon": "Dragão da Fortuna",
+    "Horned Dragon": "Dragão Cornífero",
+    "Mirage Dragon": "Dragão das Miragens",
+    "Omen Dragon": "Dragão Agourento",
     "Halfling": "Halfling",
     "Bulwark": "Baluarte",
     "Sporeborn": "Natiesporo",
