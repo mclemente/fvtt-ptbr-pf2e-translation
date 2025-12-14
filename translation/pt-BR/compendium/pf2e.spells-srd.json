@@ -515,6 +515,9 @@
     "Champion's Sacrifice": {
       "name": "Sacrifício do Campeão"
     },
+    "Channel Arrogance": {
+      "target": "1 criatura"
+    },
     "Charged Javelin": {
       "name": "Azagaia Carregada",
       "target": "1 criatura"
@@ -1021,6 +1024,9 @@
     "Divine Decree": {
       "name": "Decreto Divino",
       "description": "<p>Você profere uma litania potente de sua fé, um decreto que fere aqueles que se opõem aos seus ideais. Escolha uma tendência que sua divindade possua (bem, caos, mal ou ordem). Você não pode conjurar esta magia se não tiver uma divindade ou se sua divindade for neutra verdadeira. Esta magia recebe o traço da tendência escolhida. Você causa 7d10 de dano a criaturas na área; cada criatura deve tentar um salvamento de Fortitude. Criaturas de tendência condizente com a escolhida não são afetadas pela magia. Aqueles que não possuam a mesma tendência nem possuam uma tendência oposta tratam o resultado de suas jogadas de salvamento como um grau melhor e não sofrem efeitos além do dano.</p><hr /><p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p><p><strong>Sucesso</strong> A criatura sofre metade do dano.</p><p><strong>Falha</strong> A criatura sofre o dano inteiro e fica @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{enfraquecido} 2 por 1 minuto.</p><p><strong>Falha Crítica</strong> A criatura sofre o dobro do dano e fica @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{enfraquecido} 2 por 1 minuto. Se estiver em seu plano natal quando proferir o decreto, uma criatura alvo que falhar criticamente é banida com o mesmo efeito de falha do salvamento de banimento. Uma criatura de 10º nível ou inferior deve tentar um salvamento de Vontade. Em uma falha, ela fica @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{paralisado} por 1 minuto; em uma falha crítica, ela morre.</p><p><strong>Elevada (+1)</strong> O dano aumenta em 1d10 e o nível de criaturas que devem tentar um segundo salvamento em uma falha crítica aumenta em 2.</p>"
+    },
+    "Divine Dragon's Watch": {
+      "target": "1 criatura"
     },
     "Divine Inspiration": {
       "name": "Inspiração Divina",
@@ -2484,6 +2490,9 @@
     },
     "Oneiric Mire": {
       "description": "<p>You shroud an area in illusory dreamstuff, making the ground look and feel like a deep mire or quicksand. Ground in the area is difficult terrain.</p>\n<p>Each creature in the area when the spell is cast, or that enters the area, must attempt a Will save. On a failure, it believes it's being pulled down by the earth, taking a -10-foot circumstance penalty to its Speeds. On a critical failure, it's also @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}. In addition to the normal actions to Escape, at the end of an affected creature's turn, it can attempt a Will save, removing the effects on a success. On a critical success at any Will save made against oneiric mire, the creature fully disbelieves the illusion and no longer needs to make Will saves to risk a Speed penalty or being immobilized, though the area is still difficult terrain.</p>"
+    },
+    "Orb of Twisting Fate": {
+      "target": "1 criatura"
     },
     "Ordained Purpose": {
       "description": "<p>You call upon the authority of cosmic forces of order, overwhelming creatures with remorse and agony for acting outside of their station and purpose.</p>\n<p>Enemies in the area take 4d6 mental damage and must attempt a Will save. A creature that has lost abilities as a result of performing acts anathema to its deity or beliefs (such as a champion who violated their tenets and hasn't atoned) uses the outcome one degree of success worse than the result of its saving throw.</p>\n<p>At the GM's discretion, a creature currently filling its appointed station and purpose (such as a farmer working in a field or a criminal in the act of committing a crime) uses the outcome one degree of success better than the result of its saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and must @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} as its first action on its next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, must @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Drop Prone} as its first action on its next turn, and can't @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{Stand} during its next turn.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
