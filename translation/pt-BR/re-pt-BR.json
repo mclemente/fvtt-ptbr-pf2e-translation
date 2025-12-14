@@ -8,11 +8,11 @@
       },
       "ExplosiveAmmunition": {
         "Greater": {
-          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[reflex|dc:30|basic|name:Munição Explosiva]{Reflexos Básico}.",
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 10d6[fire]]]{10d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:30|basic|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva (Maior)"
         },
         "Normal": {
-          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[reflex|dc:25|basic|name:Munição Explosiva]{Reflexos Básico}.",
+          "Text": "O projétil explode em uma @Template[type:burst|distance:10]{Explosão de 10 pés}, causando [[/r 6d6[fire]]]{6d6 de dano de fogo} a cada criatura na área (incluindo o alvo). Cada criatura deve tentar um salvamento básico de @Check[type:reflex|dc:25|basic|name:Munição Explosiva]{Reflexos Básico}.",
           "Title": "Munição Explosiva"
         }
       },
