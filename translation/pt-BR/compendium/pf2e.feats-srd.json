@@ -426,6 +426,13 @@
         }
       ]
     },
+    "Advanced Poisoncraft": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Veneficista"
+        }
+      ]
+    },
     "Advanced School Spell": {
       "name": "Magia de Escola Avançada",
       "description": "<p>Você ganha acesso ao ensino avançado de sua instituição arcana, aprendendo uma nova Magia de Escola Avançada poderosa. Você ganha a magia de escola avançada para sua escola arcana.</p>"
@@ -3945,12 +3952,7 @@
       "description": "<p><strong>Pré-requisitos</strong> linhagem que concede magias divinas.</p> <hr> <p> O poder divino fornecido por sua linhagem flui através de você. Você recebe um espaço de magia de seu maior nível de magia, que pode usar somente para conjurar curar ou ferir (à sua escolha). Você pode conjurar qualquer uma destas magias usando esse espaço de magia, mesmo que ela não esteja em seu repertório de magia..</p>"
     },
     "Divine Grace": {
-      "name": "Graça Divina",
-      "rules": {
-        "0": {
-          "label": "Graça Divina"
-        }
-      }
+      "name": "Graça Divina"
     },
     "Divine Guidance": {
       "name": "Orientação Divina",
@@ -4061,6 +4063,13 @@
     "Dracomancer": {
       "description": "<p>Your inborn arcane power manifests as your exemplar’s most time-honored spells.</p> <p>Choose one 1st-level spell and one 2nd-level spell from those listed for a dragon spellcaster of your draconic exemplar’s type, as presented on pages 104–126 of the Bestiary (such as @Compendium[pf2e.spells-srd.4WAib3GichxLjp5p]{Alarm}, @Compendium[pf2e.spells-srd.3JG1t3T4mWn6vTke]{Blur}, @Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Invisibility}, and @Compendium[pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{True Strike}&nbsp;for a black dragon exemplar).</p> <p>You can cast each of these spells once per day as arcane innate spells. You gain the trained proficiency rank in arcane spell attack rolls and spell DCs, and your key spellcasting ability is Charisma.</p>"
     },
+    "Draconic Acolyte Dedication": {
+      "prerequisites": [
+        {
+          "value": "treinado em Arcanismo, Natureza, Ocultismo ou Religião"
+        }
+      ]
+    },
     "Draconic Arrogance": {
       "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.classfeatures.VDot7CDcXElxmkkz]{Dragon Instinct}</p> <hr> <p>Few can sway you from your goals while the fury of combat fills you. While raging, you gain a +2 status bonus to saving throws against emotion effects.</p>"
     },
@@ -4132,10 +4141,6 @@
           "value": "Asas da Fúria de Dragão"
         }
       ]
-    },
-    "Dragon's Breath": {
-      "name": "Sopro de Dragão",
-      "description": "<p>You can put more effort into your Kobold Breath to channel greater draconic power, though it takes more out of you. When you use Kobold Breath, you can increase the damage dice to d8s and increase the area to @Template[type:line|distance:60]{60 feet} for a line breath weapon or @Template[type:cone|distance:30]{30 feet} for a cone. If you do, you can't use Kobold Breath again for 1 hour.</p>\n<p>[[/r (ceil(@actor.level/2))d8]]{Leveled damage}</p>"
     },
     "Dragon's Rage Breath": {
       "name": "Sopro da Fúria de Dragão"
@@ -5519,6 +5524,13 @@
     "First World Magic": {
       "name": "Magia do Primeiro Mundo",
       "description": "<p>Sua conexão com o Primeiro Mundo concede a você um truque mágico inato primal, assim como os das fadas. Escolha um truque mágico da lista de magias primal. Você pode conjurar este magia como um truque mágico inato primal à vontade. Um truque mágico é elevado a um nível de magia igual a metade do seu nível arredondado para cima.</p>"
+    },
+    "Flair Rider Stance": {
+      "prerequisites": {
+        "1": {
+          "value": "treinado em Acrobatismo"
+        }
+      }
     },
     "Flamboyant Athlete": {
       "description": "<p><strong>Prerequisites </strong>expert in Athletics</p> <hr> <p>Your <a class=\"entity-link\" data-pack=\"pf2e.classfeatures\" data-id=\"LzYi0OuOoypNb6jd\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Panache</a> allows you to perform incredible feats: <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"pprgrYQ1QnIDGZiy\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Climbing</a>, <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"c8TGiZ48ygoSPofx\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Swimming</a>, and <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"d5I6018Mci2SWokk\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Leaping</a> far beyond your normal capacity. While you have panache, you gain the following benefits.</p> <ul> <li>You gain climb and swim Speeds equal to half your land Speed.</li> <li>The DCs of your <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"2HJ4yuEFY1Cast4h\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> High Jumps</a> and <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"JUvAvruz7yRQXfz2\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Long Jumps</a> decrease by 10. This doesn’t combine with other abilities that reduce those DCs.</li> <li>The distance you can move with a vertical <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"d5I6018Mci2SWokk\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Leap</a>increases to 5 feet. Your distance for a horizontal Leap increases to 15 feet if your Speed is at least 15 feet, or to 20 feet if your Speed is at least 30 feet.</li> </ul>"
@@ -10167,7 +10179,12 @@
       "description": "<p>Você cresceu cavalgando os pôneis peludos e os cães de montaria do seu clã. Você se torna treinado em Natureza. Se você automaticamente se tornaria treinado em Natureza (devido ao seu histórico ou classe, por exemplo), você em vez disso se torna treinando em uma perícia de sua escolha. Você também recebe um bônus circunstancial de +1 para @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Comandar um Animal} se o alvo for uma montaria tradicional de halflings, como um pônei ou cão de montaria.</p>"
     },
     "Prayer Attack": {
-      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.UuPZ7drPBnSmI8Eo]{Red Mantis Assassin Dedication}</p> <p><strong>Requirements</strong> You are wielding a @Compendium[pf2e.equipment-srd.wkzxLpSe7LN6c5Ld]{Sawtooth Saber} in each hand.</p> <hr> <p>You’ve mastered the signature assassination style of the Red Mantis. Attempt to @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} an enemy within 30 feet. If your Feint is successful, when you use Prayer Attack on subsequent turns you automatically make the target flat-footed against your melee attacks for that turn without rolling a check to Feint, so as long as you remain visible to the target and the target remains within 30 feet of you. If you use your Prayer Attack against a different target, you must attempt to Feint the target normally.</p> <p>When you use Prayer Attack, your next successful Strike with a sawtooth saber that turn deals 2d6 persistent bleed damage to the target.</p>"
+      "description": "<p><strong>Prerequisites</strong> @Compendium[pf2e.feats-srd.UuPZ7drPBnSmI8Eo]{Red Mantis Assassin Dedication}</p> <p><strong>Requirements</strong> You are wielding a @Compendium[pf2e.equipment-srd.wkzxLpSe7LN6c5Ld]{Sawtooth Saber} in each hand.</p> <hr> <p>You’ve mastered the signature assassination style of the Red Mantis. Attempt to @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} an enemy within 30 feet. If your Feint is successful, when you use Prayer Attack on subsequent turns you automatically make the target flat-footed against your melee attacks for that turn without rolling a check to Feint, so as long as you remain visible to the target and the target remains within 30 feet of you. If you use your Prayer Attack against a different target, you must attempt to Feint the target normally.</p> <p>When you use Prayer Attack, your next successful Strike with a sawtooth saber that turn deals 2d6 persistent bleed damage to the target.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Assassino do Louva-a-Deus Vermelho"
+        }
+      ]
     },
     "Prayer-Touched Weapon": {
       "description": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your most recent action was to cast a non-cantrip divine spell.</p>\n<hr />\n<p>You coat a weapon you're wielding in prayers and the divine power given to you by your deity. Until the end of your turn, the weapon deals an extra [[/r 1d6[positive]]] damage. As usual for positive damage, this damage harms only undead and creatures with negative healing.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.cA6ps8RKE0gysEWr]{Effect: Prayer-Touched Weapon}</p>"
@@ -12258,10 +12275,6 @@
     "Skill Training": {
       "name": "Treinamento em Perícia",
       "description": "<p>Você se torna treinado na perícia de sua escolha.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, escolhendo uma nova perícia para se tornar treinado a cada vez.</p>"
-    },
-    "Skillful Tail (Nephilim)": {
-      "name": "Cauda Hábil (Nephilim)",
-      "description": "<p>Você sempre teve uma cauda, mas com prática, aprendeu a usá-la para mais do que sinalizar seu humor. Você pode Performar ações simples de Interagir com sua cauda, como a abertura de uma porta destrancada. Sua cauda não pode Performar ações que exigem dedos ou destreza manual significativa, incluindo qualquer ação que requeira um teste para ser realizada, e você não pode usá-la para segurar itens.</p>"
     },
     "Skim Scroll": {
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"uxHWqFbYD0ZvkeF8\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Scroll Trickster Dedication</a></p> <hr> <p>You can activate the magic of a scroll with a cursory read as you draw it from your belt. You <a class=\"entity-link\" data-pack=\"pf2e.actionspf2e\" data-id=\"pvQ5rY2zrtPI614F\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Interact</a> to draw forth a scroll, then use <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"uR62fVC9FyQAMCO1\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Trick Magic Item</a> on the scroll.</p>"
