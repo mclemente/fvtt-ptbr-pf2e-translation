@@ -1127,7 +1127,12 @@
     },
     "Assurance": {
       "name": "Certeza",
-      "description": "<p>Mesmo nas piores circunstâncias, você pode performar tarefas básicas. Escolha uma períca na qual você é proficiente. Você pode abrir mão de rolar um teste de perícia para essa perícia e, em vez disso, receber um resultado de 10 + seu bônus de proficiência (não aplique nenhum outro bônus, penalidades ou modificadores).</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes. Cada vez, escolha uma perícia diferente e obtenha os benefícios para essa perícia..</p>"
+      "description": "<p>Mesmo nas piores circunstâncias, você pode performar tarefas básicas. Escolha uma períca na qual você é proficiente. Você pode abrir mão de rolar um teste de perícia para essa perícia e, em vez disso, receber um resultado de 10 + seu bônus de proficiência (não aplique nenhum outro bônus, penalidades ou modificadores).</p>\n<hr />\n<p><strong>Especial</strong> Você pode escolher este talento várias vezes. Cada vez, escolha uma perícia diferente e obtenha os benefícios para essa perícia..</p>",
+      "prerequisites": [
+        {
+          "value": "treinado em pelo menos uma perícia"
+        }
+      ]
     },
     "Assured Identification": {
       "description": "<p><strong>Prerequisites </strong>expert in Arcana, Nature, Occultism, or Religion</p> <hr /> <p>You rarely misidentify an item. When using Arcana, Nature,&nbsp;Occultism, or Religion checks to Identify Magic, if you roll a&nbsp;critical failure, you get a failure instead. If you would misidentify&nbsp;a cursed item because you roll a success but not a critical success&nbsp;(Gamemastery Guide 90), you simply can&rsquo;t identify it instead.&nbsp;</p>"
@@ -1236,7 +1241,12 @@
     },
     "Automatic Knowledge": {
       "name": "Conhecimento Automático",
-      "description": "<p>Você conhece fatos básicos de cabeça. Escolha uma períca na qual você é um especialista que tenha a ação Recordar Conhecimento e para a qual você tenha o talento Certeza. Você pode usar a ação Recordar Conhecimento com essa períca como uma ação livre uma vez por rodada. Se fizer isso, você deve usar Certeza no teste de perícia.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, escolhendo uma períca diferente cada vez. Você pode usar Conhecimento Automático com as perícias que escolheu, mas ainda pode usar Conhecimento Automático apenas uma vez por rodada.</p>"
+      "description": "<p>Você conhece fatos básicos de cabeça. Escolha uma períca na qual você é um especialista que tenha a ação Recordar Conhecimento e para a qual você tenha o talento Certeza. Você pode usar a ação Recordar Conhecimento com essa períca como uma ação livre uma vez por rodada. Se fizer isso, você deve usar Certeza no teste de perícia.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento várias vezes, escolhendo uma períca diferente cada vez. Você pode usar Conhecimento Automático com as perícias que escolheu, mas ainda pode usar Conhecimento Automático apenas uma vez por rodada.</p>",
+      "prerequisites": {
+        "1": {
+          "value": "Certeza nessa perícia"
+        }
+      }
     },
     "Automatic Writing": {
       "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>When confronted with the unknown, you can receive knowledge beyond your own experience via written messages delivered by your hand. You spend 10 minutes seated while holding a writing utensil, using it to make small circular motions as you open your mind to the forces around you. You receive information as your hand writes on its own, guided by spirits. At the end of these 10 minutes, Recall Knowledge with any Lore skill in which you are not trained, using your Occultism modifier instead of your modifier with that skill. The strain of this spirit channeling leaves you @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for the next 10 minutes.</p>"
