@@ -1462,6 +1462,17 @@
       "name": "Corpo Ardente",
       "description": "<p>Você se torna chama viva, adquirindo imunidade a fogo, resistência 10 a dano de precisão e fraqueza 5 a frio e água. Qualquer criatura que o tocar ou lhe causar dano com um ataque desarmado ou com uma arma corpo a corpo (que não seja de alcance) sofre 3d6 de dano de fogo. Seus ataques desarmados causam 1d4 de dano de fogo adicional e suas magias de fogo causam um dado de dano de fogo adicional (da mesma categoria de dado usado pela magia). Você pode conjurar produzir chama como uma magia inata; a conjuração é reduzida de 2 para 1 ação. Em forma de fogo, você possui uma Velocidade de voo de 12 metros e não precisa respirar.</p>\n<p>@Compendium[pf2e.spell-effects.uIMaMzd6pcKmMNPJ]{Spell Effect: Fiery Body}</p>\n<hr />\n<p><strong>Elevada (9º)</strong> Criaturas que o tocarem sofrem 4d6 de dano de fogo em vez de 3d6, seus ataques desarmados causam 2d4 de dano de fogo adicional e você possui uma Velocidade de voo de 18 metros.</p>\n<p>@Compendium[pf2e.spell-effects.U2eD42cGwdvQMdN0]{Spell Effect: Fiery Body (9th Level)}</p>"
     },
+    "Final Sacrifice": {
+      "description": "<p>Você canaliza energias disruptivas pelo vínculo entre você e seu\nlacaio, fazendo-o explodir violentamente. O alvo morre imediatamente e a explosão causa 6d6 de dano de fogo a criaturas a até\n6 metros dele, com direito a um salvamento básico de Reflexos.\nSe o alvo tiver o traço água ou frio, a magia causa dano de frio\ne tem o traço frio em vez de fogo. Se tentar conjurar esta magia\nem uma criatura que você controlou temporariamente, como um\nmorto-vivo comandado por compelir morto-vivo, a magia falha automaticamente e o efeito de controle se rompe</p>\n<hr />\n<p><strong>Elevada(+1)</strong> O dano aumenta em 2d6..</p>",
+      "spellVariants": {
+        "CXLBoUCDAyNLYJLa": {
+          "name": "Sacrifício Final (Frio)"
+        },
+        "rxA3woadtvHLq4xZ": {
+          "name": "Sacrifício Final (Fogo)"
+        }
+      }
+    },
     "Fire Ray": {
       "name": "Raio de Fogo",
       "description": "<p>Uma faixa de fogo dispara pelo ar. Faça uma rolagem de ataque de magia. O raio causa 2d6 de dano de fogo.</p><p><strong>Sucesso Crítico</strong> O raio causa o dobro de dano e 1d4 de dano persistente de fogo..</p><p><strong>Successo</strong> O raio causa o dano inteiro.</p><hr /><p><strong>Heightened (+1)</strong> O dano inicial do raio aumenta em 2d6 e o dano persistente de fogo em um sucesso crítico aumenta em 1d4.</p>",
@@ -1899,6 +1910,8 @@
       "description": "<p>A brilliant and clamorous display of sparks and colorful fireworks explode around your enemies, dealing 1d8 fire damage and 1d8 sonic damage to creatures within a 10-foot burst. All creatures in the area must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The creature takes full damage and is dazzled for 3 rounds.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, takes [[/r 1d4[persistent,fire]]] damage, and is dazzled for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The initial fire damage increases by 1d8, the sonic damage increases by 1d8, and the persistent fire damage a creature takes on a critical failure increases by 1d4.</p>"
     },
     "Ignition": {
+      "name": "Ignição",
+      "description": "<p>Você estala os dedos e aponta para um alvo, que começa a arder.\nFaça um teste de ataque com magia contra a CA do alvo, causando\n2d4 de dano de fogo se acertar. Se o alvo estiver ao seu alcance,\nvocê pode escolher fazer um ataque com magia corpo a corpo com\na chama, em vez de um à distância, o que aumenta todos os dados\nde dano da magia para d6</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p>\n<p><strong>Sucesso</strong> O alvo sofre o dano inteiro.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano inicial aumenta em 1d4 e o dano persistente de fogo do acerto crítico aumenta em 1d4..</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Dano Persistente escalável de Fogo}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Dano Persistente escalável de Fogo (Melee)}</p>",
       "target": "1 criatura"
     },
     "Ill Omen": {
