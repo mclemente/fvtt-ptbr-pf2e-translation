@@ -626,8 +626,25 @@
     "Alkenstar Agent Dedication": {
       "description": "<p><strong>Access</strong> You have been initiated by the grand duchess of Alkenstar or one of her agents.</p>\n<hr />\n<p>You put on the persona of a rough and tumble outlaw, but your real goals are to report threats to Alkenstar back to the grand duchess. You become an expert in Deception and trained in your choice of Underworld Lore or Legal Lore; if you were already trained, you become an expert instead. You gain the @UUID[Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.ttkG4geKXTao5pku]{Alkenstar Agent} archetype.</p>"
     },
+    "All Shall End in Flames": {
+      "name": "Tudo Terminará em Chamas",
+      "description": "<p>Fogo branco-incandescente consome tudo em uma esfera cataclísmica de morte. O fogo preenche, à sua escolha, uma @Template[burst|distance:30] a até 500 pés ou uma @Template[emanation|distance:30]. Isso causa @Damage[13d6[fire]|options:area-damage] de dano com um teste de resistência @Check[reflex|against:kineticist|basic|options:area-effect] contra sua CD de classe. Qualquer criatura reduzida a 0 PV por esse fogo morre, reduzida a uma pilha de cinzas.</p>\n<p>Se você morrer por causa deste impulso, retorna à vida no início do seu próximo turno no mesmo espaço. Quando retorna, você tem Pontos de Vida iguais ao dobro do seu nível.</p>\n<hr />\n<p><strong>Nível (20º)</strong> O dano é @Damage[15d6[fire]].</p>"
+    },
+    "All This Has Happened Before": {
+      "name": "Tudo Isso Já Aconteceu Antes",
+      "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<p><strong>Gatilho</strong> Você está prestes a rolar iniciativa.</p>\n<hr />\n<p>Você instantaneamente se lembra de uma memória de uma de suas incontáveis vidas passadas, aumentando sua consciência do ambiente e acelerando sua resposta. Você recebe um bônus circunstancial de +4 na jogada desencadeadora. Você fica @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Acelerado} por 1 rodada e pode usar sua ação extra apenas para Recordar Conhecimento ou dar um Passo.</p>"
+    },
+    "All This Will Happen Again": {
+      "name": "Tudo Isso Acontecerá Novamente",
+      "description": "<p><strong>Gatilho</strong> Você falha ou falha criticamente em um teste de resistência de Vontade contra um efeito de emoção.</p>\n<hr />\n<p>Mesmo diante de tribulação avassaladora, você encontra consolo na noção de que esse sentimento é passageiro; todas as coisas são apenas parte de um ciclo sem fim. Role novamente o teste de resistência desencadeador com um bônus de estado de +1. Você deve usar o segundo resultado, mesmo que seja pior.</p>"
+    },
     "All in My Head": {
+      "name": "Tudo Está na Minha Cabeça",
       "description": "<p><strong>Acionamento</strong> Você sofreria dano de um Ataque ou magia que não tenha o traço de morte ou de outro modo cause morte instantânea (como @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Desintegrar}).</p>\n<hr />\n<p>Usando suas conexões ocultas e incríveis poderes de persuasão, convence a si mesmo de que o dano do acionamento é um produto da sua imaginação. O dano muda de seu tipo de dano usual para dano mental, e o efeito prejudicial ganha o traço não-letal. Você não pode usar esta reação se for imune a efeitos mentais ou dano mental.</p>"
+    },
+    "All in Your Head": {
+      "name": "Tudo Está na Sua Cabeça",
+      "description": "<p><strong>Gatilho</strong> Você está prestes a tentar um teste de resistência de Fortitude ou Reflexos.</p>\n<hr />\n<p>Chamas castigando seu corpo, veneno correndo por suas veias—você se recusa a acreditar que existam, e nada pode afetá-lo se você não acreditar nisso. Você tenta um teste de resistência de Vontade contra o efeito desencadeador, em vez de um teste de Reflexos ou Fortitude. Você não recebe os benefícios de @UUID[Compendium.pf2e.classfeatures.Item.Hw6Ji7Fgx0XkVkac]{Fortress of Will} nem de @UUID[Compendium.pf2e.classfeatures.Item.Kf9lSN6pVS2Hy4KI]{Walls of Will} neste teste.</p>"
     },
     "All of the Animal": {
       "description": "<p>You know how to make the best and most efficient use of a hunted animal's carcass. Choose a Large or larger corpse of an animal that died within the past day. While using Survival to @UUID[Compendium.pf2e.actionspf2e.49y9Ec4bDii8pcD3]{Subsist} near the carcass, you always receive enough food for yourself and one additional Medium creature, using up the meat from the carcass to do so. Since you're using all of the animal, others can't use the carcass's meat for any other purpose, including their own use of All of the Animal.</p>",
@@ -741,6 +758,13 @@
     },
     "Ancillary Motes": {
       "description": "<p>You can use @UUID[Compendium.pf2e.feats-srd.Ewk7h9aQpKvy1RJo]{Crystalline Dust} one more time per day.</p>\n<hr />\n<p><strong>Special</strong> You can take this feat more than once, gaining one more use of Crystalline Dust per day each time.</p>"
+    },
+    "And Will Do So Once More": {
+      "prerequisites": [
+        {
+          "value": "Tudo Isso Acontecerá Novamente"
+        }
+      ]
     },
     "Angel of Death": {
       "prerequisites": [
