@@ -1516,6 +1516,7 @@
       ]
     },
     "Ancestral Mage": {
+      "name": "Mago Ancestral",
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.avCmIwmwJH7d7gri]{Ancestral Blood Magic}</p> <hr> <p>The magic of your ancestry and bloodline are one and the same. Add any innate spells you have from a heritage or an ancestry feat to your spell repertoire, meaning you can cast them using your spell slots.</p>",
       "prerequisites": [
         {
@@ -1523,41 +1524,81 @@
         }
       ]
     },
+    "Ancestral Mind": {
+      "name": "Mente Ancestral",
+      "description": "<p>Ao desvendar memórias e conexões passadas de seus progenitores e enterradas em seu inconsciente, você aprende a converter sua magia inata em poder psíquico. Você pode conjurar quaisquer magias inatas que conheça de um talento de ancestralidade ou herança usando sua conjuração psíquica e formas mentais. Ao fazer isso, a tradição da magia se torna occult, se ainda não o for, e você pode usar seu modificador de atributo de conjuração psíquica em vez de Carisma para determinar seu modificador de ataque com magia e CD de magia.</p>"
+    },
     "Ancestral Paragon": {
       "name": "Exemplar Ancestral",
       "description": "<p>Seja por instinto, estudo ou magia, você sente uma conexão mais profunda com sua ancestralidade. Você ganha um talento de ancestralidade de 1º nível.</p>"
     },
     "Ancestral Suspicion": {
       "name": "Suspeita Ancestral",
-      "description": "<p>Elfos longevos já viram civilizações surgir e cair, frequentemente pelas mãos de forças externas. Como resultado, eles desenvolveram desconfiança de outros que possam buscar influenciá-los ou controlá-los. Você foi treinado para resistir a tal manipulação, ganhando um bônus de circunstância de +2 em testes de resistência contra efeitos que poderiam te @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlar}, como @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominar}, e em testes de Percepção para @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sentir Motivação} ao tentar determinar se uma criatura está sob a influência desse efeito. Quando você rolar um sucesso em um teste de resistência contra tal efeito, você obtém um sucesso crítico ao invés disso.</p>"
+      "description": "<p>Elfos longevos já viram civilizações surgir e cair, frequentemente pelas mãos de forças externas. Como resultado, eles desenvolveram desconfiança de outros que possam buscar influenciá-los ou controlá-los. Você foi treinado para resistir a tal manipulação, ganhando um bônus de circunstância de +2 em testes de resistência contra efeitos que poderiam te @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlar}, como @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominar}, e em testes de Percepção para @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sentir Motivação} ao tentar determinar se uma criatura está sob a influência desse efeito. Quando você rolar um sucesso em um teste de resistência contra tal efeito, você obtém um sucesso crítico ao invés disso.</p>",
+      "rules": {
+        "2": {
+          "text": "Quando você obtém sucesso em um teste de resistência contra um efeito que o deixaria controlado, obtém um sucesso crítico em vez disso."
+        }
+      }
     },
     "Ancestral Weaponry": {
+      "name": "Armas Ancestrais",
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.YW4FdWgzTwRFneFF]{Monastic Weaponry}, a feat granting access to all weapons with an ancestry trait (such as elf or orc)</p> <hr> <p>You blend monastic techniques with the ancestral fighting styles of your people. Choose an ancestry for which you have access to all weapons with that trait. For you, melee weapons with that ancestry trait and either the agile or finesse trait gain the monk trait.</p>",
       "prerequisites": [
         {
           "value": "Arsenal Monástico"
+        },
+        {
+          "value": "um talento que conceda acesso a todas as armas com um traço de ancestralidade (como elf ou orc)"
         }
       ]
     },
+    "Anchoring Arrow": {
+      "name": "Flecha Ancoradora",
+      "description": "<p><strong>Frequência</strong> uma vez por hora</p>\n<hr />\n<p>Você pode impedir que inimigos demoníacos fujam de sua ira por meio de teletransporte. Faça um Golpe com arco contra um demônio. Além dos efeitos normais do Golpe, o alvo deve tentar um teste de resistência @Check[will|against:class] contra sua CD de classe.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> O alvo evita qualquer efeito adicional.</p>\n<p><strong>Sucesso</strong> O alvo sofre uma penalidade circunstancial de –5 em todos os seus Deslocamentos por 1 rodada, conforme espirais arcanas de magia interferem em sua mobilidade.</p>\n<p><strong>Fracasso</strong> Como sucesso, mas a penalidade é de –5 pés por 1 minuto. Enquanto o alvo estiver afetado por isso, Flecha Ancoradora tenta neutralizar qualquer efeito de teletransporte que moveria o alvo, ou qualquer efeito que transportaria o alvo para um plano diferente. A flecha tem graduação de neutralização de 7º e um modificador de [[/gmr 1d20+20 @Counteract]]{+20} na rolagem.</p>\n<p><strong>Fracasso Crítico</strong> Como fracasso, exceto que a penalidade é de –10 pés e a duração é de 10 minutos.</p>"
+    },
     "Anchoring Aura": {
       "name": "Aura de Ancoragem",
-      "description": "<p><strong>Pré-requisitos</strong> Juramento de Ruína dos Ínferos</p> <hr> <p>Sua aura impede a teleportação de ínferos. Sua aura tenta neutralizar magias de teleportação conjuradas por ínferos a até 4,5 metros, utilizando o nível de magia e CD de suas magias de devoção.</p>"
+      "description": "<p><strong>Pré-requisitos</strong> Juramento de Ruína dos Ínferos</p> <hr> <p>Sua aura impede a teleportação de ínferos. Sua aura tenta neutralizar magias de teleportação conjuradas por ínferos a até 4,5 metros, utilizando o nível de magia e CD de suas magias de devoção.</p>",
+      "prerequisites": [
+        {
+          "value": "Juramento de Ruína dos Corruptores"
+        }
+      ]
     },
     "Anchoring Roots": {
       "name": "Raízes de Ancoragem",
       "description": "<p>Pequenas raízes brotam dos seus pés, te estabilizando enquanto você se move. Você ganha o talento de perícia Equilíbrio Estável, mesmo que você não esteja treinado em Acrobatismo, e você pode usar a ação Âncora.</p>"
     },
-    "Ancillary Motes": {
-      "description": "<p>You can use @UUID[Compendium.pf2e.feats-srd.Ewk7h9aQpKvy1RJo]{Crystalline Dust} one more time per day.</p>\n<hr />\n<p><strong>Special</strong> You can take this feat more than once, gaining one more use of Crystalline Dust per day each time.</p>"
+    "Ancient Memories": {
+      "name": "Memórias Antigas",
+      "description": "<p>Nos longos anos desde os dias de Ghorus, você já fez praticamente de tudo em algum momento. Durante suas preparações diárias, pode explorar as memórias de suas vidas passadas para se tornar treinado em uma perícia à sua escolha. Essa proficiência dura até você se preparar novamente. Como essa proficiência é temporária, você não pode usá-la como pré-requisito para um aumento de perícia ou uma opção permanente de personagem, como um talento.</p>"
     },
-    "And Will Do So Once More": {
+    "Ancillary Motes": {
+      "name": "Motes Auxiliares",
+      "description": "<p>You can use @UUID[Compendium.pf2e.feats-srd.Ewk7h9aQpKvy1RJo]{Crystalline Dust} one more time per day.</p>\n<hr />\n<p><strong>Special</strong> You can take this feat more than once, gaining one more use of Crystalline Dust per day each time.</p>",
       "prerequisites": [
         {
-          "value": "Tudo Isso Acontecerá Novamente"
+          "value": "Névoa Extraplanar"
         }
       ]
     },
+    "And Will Do So Once More": {
+      "name": "E Assim Fará Mais Uma Vez",
+      "description": "<p>Você aprendeu a deixar a maioria das preocupações de lado e seguir em frente. O gatilho de @UUID[Compendium.pf2e.feats-srd.Item.Un8aEKnVULYAzP5L]{All This Will Happen Again} passa a ser, em vez disso, \"Você falha ou falha criticamente em um teste de resistência de Fortitude, Reflexos ou Vontade.\" Você ainda só pode usar All This Will Happen Again uma vez por dia.</p>",
+      "prerequisites": [
+        {
+          "value": "All This Will Happen Again"
+        }
+      ]
+    },
+    "Android Lore": {
+      "name": "Conhecimento Android",
+      "description": "<p>Você tem grande interesse nas origens do seu povo.</p>\n<p>Você recebe o grau de proficiência treinado em Ofício e Ladinagem. Se receberia treinamento automático em uma dessas perícias (por seu antecedente ou classe, por exemplo), em vez disso se torna treinado em uma perícia à sua escolha.</p>\n<p>Você também se torna treinado em Conhecimento Android.</p>"
+    },
     "Angel of Death": {
+      "name": "Anjo da Morte",
+      "description": "<p>Todos os seus Golpes contra uma criatura que você tenha @UUID[Compendium.pf2e.actionspf2e.Item.orjJjLdm4XNAcFi8]{Marked for Death} possuem o traço death, fazendo com que a marca seja morta instantaneamente quando reduzida a 0 Pontos de Vida.</p>\n<p>Além disso, se a criatura for morta dessa forma, tentativas de se comunicar com ela, trazê-la de volta à vida, transformá-la em morto-vivo ou perturbar seu pós-vida de qualquer outra forma falham, a menos que a graduação de neutralização do efeito seja maior do que metade do seu nível, arredondada para cima, ou o efeito se origine de um artefato ou de uma divindade. Use o nível que você tinha quando matou a criatura, mesmo que seu nível seja maior quando a tentativa for feita.</p>",
       "prerequisites": [
         {
           "value": "Dedicação de Assassino"
@@ -1565,6 +1606,7 @@
       ]
     },
     "Angel of Vindication": {
+      "name": "Anjo da Vindicação",
       "description": "<p><strong>Requirements</strong> Your mark is an undead creature.</p>\n<hr />\n<p>To aid with your mission of destroying undead, you've specialized in techniques to destroy them, much as other assassins learn to kill the living. When you Strike a @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} undead foe with a weapon that has the backstabber weapon trait, you deal 3 extra precision damage instead of 1. If the weapon is a +3 weapon, you deal 6 extra precision damage instead of 2. If you have the Angel of Death feat, your attacks also instantly destroy undead at 0 Hit Points, and attempts for the undead to rejuvenate-such as via a lich's soul cage or a ghost's rejuvenation ability-fail unless the effect's counteract level is higher than half your level when you killed the creature (rounded up), or originates from an artifact or deity. Finally, if you have the Assassinate feat and an undead mark critically fails its save against your Assassinate, it is destroyed.</p>",
       "prerequisites": [
         {
@@ -1580,9 +1622,23 @@
       "name": "Cúmplice Animal",
       "description": "<p>Você constrói uma relação com um animal, que se torna magicamente ligado a você. Você ganha um familiar. O tipo de animal é com você, mas a maioria dos gnomos escolhe animais com Velocidade de escavação.</p>"
     },
+    "Animal Actor": {
+      "name": "Ator Animal",
+      "description": "<p>Você participou de uma apresentação de The Leaping Lion, uma peça focada em Cyricas, o aventureiro amante dos animais que viajou com seu amigo símio Mardu e permanece um herói favorito entre a juventude taldana. Você se torna treinado em Natureza e em uma perícia de Conhecimento relacionada a um tipo específico de animal comumente usado no show business (como Conhecimento Canino, Conhecimento Ursino ou Conhecimento de Primatas); se já fosse treinado em qualquer uma delas, em vez disso se torna especialista nessa perícia. Você recebe um bônus circunstancial de +2 em todos os testes para Comandar um Animal e @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recordar Conhecimento} sobre criaturas com o traço animal. Você pode usar o Conhecimento animal escolhido para Comandar um Animal desse tipo.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
+    },
     "Animal Companion": {
       "name": "Companheiro Animal",
-      "description": "<p>Você ganha os serviços de um companheiro animal jovem que viaja com você em suas aventuras e obedece a quaisquer comandos simples que você der da melhor forma possível.</p>"
+      "description": "<p>Você ganha os serviços de um companheiro animal jovem que viaja com você em suas aventuras e obedece a quaisquer comandos simples que você der da melhor forma possível.</p>",
+      "prerequisites": [
+        {
+          "value": "ordem animal"
+        }
+      ]
     },
     "Animal Companion (Ranger)": {
       "name": "Companheiro Animal (Patrulheiro)",
@@ -1600,25 +1656,82 @@
       "name": "Empatia Animal (Patrulheiro)",
       "description": "<p>Você possui uma conexão com as criaturas do mundo natural que permite que você se comunique com elas em um nível rudimentar. Você pode usar Diplomacia para @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Impressionar} os animais e fazer pedidos muito simples a eles. Na maioria dos casos, os animais selvagens lhe darão tempo para apresentar seu caso.</p>"
     },
+    "Animal Fleetness": {
+      "name": "Agilidade Animal",
+      "description": "<p>Você é perito em usar os meios naturais de locomoção de sua forma animal. Enquanto estiver em forma animal, os Deslocamentos concedidos por essa forma aumentam em 10 pés.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Animal Magic": {
+      "name": "Magia Animal",
       "description": "<p>Your shapeshifting grants you a magical connection to the animal world. You can cast <em>@UUID[Compendium.pf2e.spells-srd.yhz9fF69uwRhnHix]{Animal Messenger}</em>, <em>@UUID[Compendium.pf2e.spells-srd.b515AZlB0sridKSq]{Calm Emotions}</em> (animals only), and <em>@UUID[Compendium.pf2e.spells-srd.BBvV7qoXGdw09q1C]{Speak with Animals}</em> as 2nd-level primal innate spells once per day each. These spells use your class DC or spell DC, whichever is higher.</p>"
     },
     "Animal Rage": {
       "name": "Fúria Animal",
-      "description": "<p><strong>Pré-Requisitos</strong> instinto animal</p> <hr> <p>Você se transforma em seu animal. Você recebe os benefícios da magia forma de animal de 3º nível, mas utiliza suas próprias estatísticas, Pontos de Vida temporários e ataques desarmados em vez dos concedidos por forma de animal. Você também retém as perícias constantes de seus equipamentos. Se seu animal for um sapo, o alcance de sua língua aumenta para 4,5 metros. </p> <p>Dispensar a transformação recebe o traço fúria.</p>"
+      "description": "<p><strong>Pré-Requisitos</strong> instinto animal</p> <hr> <p>Você se transforma em seu animal. Você recebe os benefícios da magia forma de animal de 3º nível, mas utiliza suas próprias estatísticas, Pontos de Vida temporários e ataques desarmados em vez dos concedidos por forma de animal. Você também retém as perícias constantes de seus equipamentos. Se seu animal for um sapo, o alcance de sua língua aumenta para 4,5 metros. </p> <p>Dispensar a transformação recebe o traço fúria.</p>",
+      "prerequisites": [
+        {
+          "value": "instinto animal"
+        }
+      ]
     },
     "Animal Senses": {
+      "name": "Sentidos Animais",
       "description": "<p>You gain one of the following senses available to your inherent animal: @UUID[Compendium.pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision}, @UUID[Compendium.pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}, or scent (imprecise) 30 feet. You must have low-light vision before you can gain darkvision with this feat. If your inherent animal doesn't typically have a specific type of sense, you can't gain that sense with this feat.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times, choosing a different sense each time.</p>"
+    },
+    "Animal Shape": {
+      "name": "Forma Animal",
+      "description": "<p>Você tem controle total sobre sua forma e pode se transformar em seu animal inerente. Você pode usar @UUID[Compendium.pf2e.actionspf2e.Item.34E7k2YRcsOU5uyl]{Change Shape} para assumir uma forma animal.</p>\n<p>Ao receber este talento, escolha entre @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{Aerial Form}, @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form}, @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{Dinosaur Form} ou @UUID[Compendium.pf2e.spells-srd.Item.XI6Lzd2B5pernkPd]{Insect Form}; depois de escolher uma forma, você não pode alterá-la.</p>\n<p>Enquanto estiver em forma animal, recebe os efeitos de uma conjuração de 5º círculo da magia de forma escolhida, exceto que sempre se transforma em um animal correspondente ao seu animal inerente e pode usar a CA da sua forma humanoide se ela for maior do que a concedida pela forma animal.</p>\n<p>Se seu animal inerente não estiver entre os animais listados na forma, você usa por padrão as estatísticas e habilidades da forma de batalha de pássaro, forma de batalha de gato, forma de batalha de deinonychus ou forma de batalha de formiga para <em>aerial form</em>, <em>animal form</em>, <em>dinosaur form</em> ou <em>insect form</em>, respectivamente (a critério do Mestre, você pode usar por padrão outra forma que seja mais próxima do seu animal inerente).</p>\n<p>Você pode permanecer em forma animal indefinidamente e pode usar Mudar de Forma para retornar à sua forma humanoide ou híbrida a qualquer momento.</p>\n<p>Se possuir o talento @UUID[Compendium.pf2e.feats-srd.Item.F6C25qZ9UNYPw7pj]{Critter Shape}, pode escolher receber os efeitos de @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form} de 4º círculo, pode permanecer em forma diminuta indefinidamente e pode retornar à sua forma diminuta a qualquer momento depois de sair dela, assim como pode com Forma Animal.</p>"
     },
     "Animal Skin": {
       "name": "Pele Animal",
+      "description": "<p>Sua proficiência em defesa sem armadura aumenta para especialista. Quando você está em Fúria e sem armadura, sua pele se transforma em um couro espesso. Você recebe um bônus de item de +2 na CA (+3 se possuir a característica de classe @UUID[Compendium.pf2e.classfeatures.Item.TuL0UfqH14MtqYVh]{Greater Juggernaut}). A espessura do seu couro impõe um limite de modificador de Destreza na sua CA de +3. Esse bônus de item na CA é cumulativo com runas @UUID[Compendium.pf2e.equipment-srd.Item.Ro3g2JpJXrKXVyEr]{Armor Potency} em roupas de explorador, @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Mystic Armor} e @UUID[Compendium.pf2e.equipment-srd.Item.02q8s6sSicMkhs1l]{Bands of Force}.</p>",
       "prerequisites": [
         {
           "value": "Instinto Animal"
         }
       ]
     },
+    "Animal Soul Siblings": {
+      "name": "Irmãos de Alma Animal",
+      "description": "<p>Seus olhos se abriram para a essência espiritual que permeia o mundo. Você recebe @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]{Speak with Animals} como magia inata primal que pode conjurar uma vez por dia. Você recebe um bônus circunstancial de +1 em testes de Diplomacia para @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Gather Information} com animais.</p>"
+    },
+    "Animal Speaker": {
+      "name": "Falante dos Animais",
+      "description": "<p>Você consegue falar com todos os animais, não apenas com um subconjunto específico. Você recebe um bônus circunstancial de +1 para Causar Impressão em animais (o que normalmente usa a perícia Diplomacia).</p>",
+      "prerequisites": [
+        {
+          "value": "habilidade de se comunicar com algum tipo de animais (como morcegos ou artrópodes)"
+        }
+      ]
+    },
+    "Animal Strength": {
+      "name": "Força Animal",
+      "description": "<p>Você acessa a força primal do seu traço animal. Quando recebe um ataque de garra ou mandíbulas de animal feature, você pode escolher uma arma que esteja carregando e aplicar todas as runas dessa arma (se forem aplicáveis) àquele ataque desarmado. Isso substitui quaisquer runas que os ataques desarmados normalmente teriam de outras fontes, como envoltórios de golpes poderosos. Além disso, quando obtém um acerto crítico com um ataque de garra ou mandíbulas de animal feature, você causa @Damage[1d6[persistent,bleed]] de dano.</p>",
+      "prerequisites": [
+        {
+          "value": "magia de guardião animal feature"
+        }
+      ]
+    },
+    "Animal Summoner": {
+      "name": "Invocador de Animais",
+      "description": "<p>A conexão entre você e a magia primal se aprofunda. Você pode conjurar @UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{Summon Animal} como magia inata primal uma vez por dia, intensificada a metade do seu nível arredondado para cima.</p>",
+      "prerequisites": [
+        {
+          "value": "Magia Desperta"
+        }
+      ]
+    },
+    "Animal Swiftness": {
+      "name": "Rapidez Animal",
+      "description": "<p>Você se move como um animal. Seu Deslocamento aumenta em 5 pés. Além disso, recebe um dos seguintes Deslocamentos disponíveis ao seu animal inerente: climb, fly ou swim. Você recebe esse Deslocamento apenas enquanto estiver em sua forma híbrida. O novo movimento é tão rápido quanto seu Deslocamento padrão; por exemplo, se tiver Deslocamento de 30 pés, pode receber Deslocamento de escalada de 30 pés. Se seu animal inerente normalmente não tiver um tipo específico de Deslocamento, você não pode recebê-lo com este talento. Se seu animal inerente normalmente não tiver Deslocamento de escalada, voo ou natação, seu Deslocamento aumenta em 10 pés em vez disso.</p>"
+    },
     "Animal Trainer Dedication": {
+      "name": "Dedicação de Treinador de Animais",
       "description": "<p>You gain the services of a young animal companion that travels with you and obeys simple commands as best as it can. This trained animal is trained in Performance instead of the skill listed for its type.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.bL5cccuvnP5h7Bnn]{Animal Trainer} archetype.</p>",
       "prerequisites": [
         {
@@ -1627,34 +1740,91 @@
       ]
     },
     "Animalistic Brutality": {
+      "name": "Brutalidade Animalística",
+      "description": "<p>Você aprofunda a conexão com seus instintos animais. Seu ataque desarmado de bestial rage recebe um dos seguintes traços até você deixar de estar em Fúria: backswing, forceful, parry, razing ou sweep. Você não pode usar esta habilidade novamente até a próxima vez que @UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{Entrar em Fúria}. Você pode escolher um traço diferente a cada vez que usar Brutalidade Animalística.</p>",
       "prerequisites": [
         {
           "value": "Instinto Animal"
         }
-      ]
+      ],
+      "selfEffect": "Efeito: Brutalidade Animalística"
+    },
+    "Animalistic Resistance": {
+      "name": "Resistência Animalística",
+      "description": "<p>Suas conexões animalísticas ajudam você a resistir a aflições naturais. Você recebe um bônus circunstancial de +2 em testes de resistência contra doenças e venenos.</p>"
     },
     "Animate Net": {
+      "name": "Animar Rede",
       "description": "<p>When you cast animate rope, you can modify its target to be 1 net. If you do, replace the spell's standard effects with the following: You cause a net to animate and throw itself at a Medium or smaller creature within 20 feet of the net. Attempt a spell attack roll against the target's Reflex DC. On a success, the target is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} and takes a -10-foot circumstance penalty to its Speeds until it Escapes; on a critical success, it's also @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} until it Escapes. The Escape DC is equal to your spell DC as long as the spell lasts. Once the spell ends, the Escape DC returns to the normal DC for a net (usually 16), and a creature adjacent to the target can Interact to remove the net.</p>",
       "prerequisites": [
         {
           "value": "Dedicação de Trapaceiro Arcano"
+        },
+        {
+          "value": "habilidade de conjurar animate rope"
         }
-      ]
+      ],
+      "rules": {
+        "1": {
+          "value": {
+            "1": {
+              "text": "@UUID[Compendium.pf2e.feat-effects.Item.eaKB3rIkJyfsow5H]{Effect: Animate Net}"
+            }
+          }
+        }
+      }
     },
     "Animist Dedication": {
+      "name": "Dedicação de Animista",
+      "description": "<p>Você formou um vínculo com uma aparição e pode conjurar magias divinas. Escolha uma única aparição dentre aquelas disponíveis ao animista. Você se torna vinculado a essa aparição e pode sintonizar-se com ela a cada dia durante suas preparações diárias para tornar-se treinado em suas perícias de aparição. Se for de 8º nível, você é especialista nas perícias de aparição dela enquanto sintonizado; se for de 16º nível, é mestre nelas enquanto sintonizado. Você pode gastar 1 dia de folga encerrando seu relacionamento com essa aparição e vinculando-se a uma nova.</p>\n<p>Você recebe a atividade Conjurar uma Magia. Pode preparar dois truques comuns por dia da lista de magias divinas ou quaisquer outros truques divinos aos quais tenha acesso, incluindo o truque listado nas magias de aparição da sua aparição. Você é treinado nas estatísticas de modificador de ataque com magia e CD de magia. Seu atributo-chave de conjuração para magias do arquétipo animista é Sabedoria, e elas são magias divinas de animista.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ZNz2aC4wQ7KC6Ixe]{Animist}</p>",
       "prerequisites": [
         {
           "value": "Sabedoria +2"
         }
       ]
     },
+    "Animist's Power": {
+      "name": "Poder do Animista",
+      "description": "<p>Você recebe um talento de animista. Para o propósito de cumprir seus pré-requisitos, seu nível de animista é igual à metade do seu nível de personagem. Você não pode usar este talento para receber talentos de animista com o traço wandering.</p>\n<hr />\n<p><strong>Especial</strong> Você pode selecionar este talento mais de uma vez. Cada vez que o selecionar, recebe outro talento de animista.</p>",
+      "prerequisites": [
+        {
+          "value": "Despertar Espiritual"
+        }
+      ]
+    },
     "Ankle Bite": {
       "name": "Morder Tornozelos",
-      "description": "<p> <strong>Pré-requisitos</strong> Afiador de Presas ou Herança de Goblin Dentes-de-Navalha <strong>Gatilho</strong> Um inimigo te impõe a condição @Compendium[pf2e.conditionspf2e.kWc1fhmv9LBiTuei]{Agarrado} ou @Compendium[pf2e.conditionspf2e.VcDeM8A5oI6VqhbM]{Restringido} usando uma parte de seu corpo. </span></p> <hr> <p> Sempre que alguém te agarra, você o morde de volta. As vezes isso os faz soltá-lo, e as vezes isso só os deixa mais irritados. De qualquer forma, é satisfatório e saboroso. Faça um ataque de mandíbulas contra o inimigo acionador. Em caso de Acerto Crítico, você não está mais agarrado. Este ataque não toma a penalidade de ataque múltiplo e seu ataque múltiplo não se aplica a este ataque.</p>"
+      "description": "<p> <strong>Pré-requisitos</strong> Afiador de Presas ou Herança de Goblin Dentes-de-Navalha <strong>Gatilho</strong> Um inimigo te impõe a condição @Compendium[pf2e.conditionspf2e.kWc1fhmv9LBiTuei]{Agarrado} ou @Compendium[pf2e.conditionspf2e.VcDeM8A5oI6VqhbM]{Restringido} usando uma parte de seu corpo. </span></p> <hr> <p> Sempre que alguém te agarra, você o morde de volta. As vezes isso os faz soltá-lo, e as vezes isso só os deixa mais irritados. De qualquer forma, é satisfatório e saboroso. Faça um ataque de mandíbulas contra o inimigo acionador. Em caso de Acerto Crítico, você não está mais agarrado. Este ataque não toma a penalidade de ataque múltiplo e seu ataque múltiplo não se aplica a este ataque.</p>",
+      "prerequisites": [
+        {
+          "value": "Afiador de Presas ou herança goblin de dentes de navalha"
+        }
+      ]
+    },
+    "Ankle Biter": {
+      "name": "Mordedor de Tornozelos",
+      "description": "<p>Você luta tão bem no chão quanto em pé. Enquanto estiver @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Caído}, está sempre @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Abrigado} contra ataques à distância, ignora a penalidade de estado nas suas jogadas de ataque por estar caído e recebe um bônus circunstancial de +1 em testes de Atletismo para @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Derrubar}.</p>\n<p>Você pode escolher mover até metade do seu Deslocamento quando @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Rasteja}. Em vez disso, pode mover até seu Deslocamento total ao Rastejar, mas se o fizer deve obter sucesso em um @Check[flat|dc:6], ou seu corpo se deteriora.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
+    },
+    "Annihilating Swing": {
+      "name": "Golpe Aniquilador",
+      "description": "<p>Você abraçou o poder destrutivo bruto. Você faz um Golpe corpo a corpo que ignora quaisquer resistências que o alvo possua. Se alvejar um objeto sólido desacompanhado ou uma superfície com seu Golpe, pode destruí-lo automaticamente sem jogada de ataque. Se alvejar qualquer objeto ou superfície com Dureza 20 ou menor que não seja um item mágico nem efeito de uma magia, você o destrói.</p>\n<p>Se o objeto ou superfície alvo for um item mágico ou o efeito de uma magia, você tenta neutralizá-lo usando seu bônus de ataque com o Golpe para o teste de neutralização. Sua graduação de neutralização é 10ª. Em um teste de neutralização bem-sucedido, você destrói o objeto ou superfície, a menos que tenha Dureza maior que 20, seja um artefato ou seja similarmente difícil de destruir.</p>\n<p>Você destrói até um cubo de 5 pés de um objeto ou superfície maior que Médio.</p>"
     },
     "Annotate Composition": {
       "name": "Anotar Composição",
       "description": "<p>Ao colocar a composição no papel, você pode criar uma fonte de palavras inspiradoras ou canção que outros podem ler e entender. Você gasta 10 minutos e 1 Ponto de Foco para transpor uma magia de composição em um pergaminho especial que você ou outra criatura pode ativar posteriormente. Esta magia de composição deve requerer uma ação única para ser lançada. Se a magia de composição escolhida exigir um teste de Performance como parte do lançamento, o Mestre rola este teste como um teste secreto quando você anota sua pontuação.</p>\n<p>Se você tiver @UUID[Compendium.pf2e.spells-srd.Item.kF0rs9mCPvJGfAZE]{Composição Fortíssima} ou @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]{Composição Prolongada}, você também pode usar uma dessas magias para modificar a composição anotada, desde que a composição anotada possa se beneficiar da modificação. O Mestre rola o teste secreto de Performance. Caso faça isso, você gasta um Ponto de Foco adicional, mesmo se o teste secreto falhar.</p>\n<p>Qualquer criatura que consiga ler o idioma que você usou ao anotar sua composição pode Ativar o Item gastando uma ação única, que possui o traço de concentração. Isso produz os efeitos da composição como se a criatura ativadora tivesse Conjurado a Magia.</p>\n<p>Uma composição criada desta forma perde seu poder da próxima vez que você fizer seus preparativos diários. Enquanto a composição estiver em sua posse, você pode torná-la inerte usando uma ação única que possui o traço de concentração. Você não pode recuperar os Pontos de Foco que gastou para criar a composição anotada até que ela seja ativada ou perca sua magia.</p>"
+    },
+    "Anoint Ally": {
+      "name": "Ungir Aliado",
+      "description": "<p>Você forja uma conexão mística com um aliado usando seu corpo como foco, permitindo que ele se beneficie de sua magia.</p>\n<p>Você coloca uma runa de sangue em um aliado adjacente que dura 1 minuto. Quando receberia um efeito de magia sanguínea, pode abri mão dele para concedê-lo ao seu aliado.</p>\n<p>Você só pode ungir um aliado de cada vez; se colocar outra runa, sua designação anterior termina.</p>"
+    },
+    "Antagonize": {
+      "name": "Antagonizar",
+      "description": "<p>Suas provocações e ameaças despertam a ira de seus inimigos. Quando você @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Desmoraliza} uma criatura com sucesso, a condição @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Amedrontado} dela não pode diminuir para menos de 1 no fim do turno dela até que ela realize uma ação hostil contra você ou não consiga mais observá-lo ou percebê-lo por pelo menos 1 rodada.</p>"
     },
     "Anthemic Performance": {
       "name": "Performance Antológica",
@@ -1667,7 +1837,12 @@
     },
     "Anthropomorphic Shape": {
       "name": "Forma Antropomórfica",
-      "description": "<p>O lugar suposto dos humanoides à parte dos animais é uma tolice—assumir suas formas requer apenas um pouco mais de prática. Você adiciona as formas listadas em @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Forma de Humanoide} à sua lista de @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{Forma Selvagem}.</p>"
+      "description": "<p>O lugar suposto dos humanoides à parte dos animais é uma tolice—assumir suas formas requer apenas um pouco mais de prática. Você adiciona as formas listadas em @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Forma de Humanoide} à sua lista de @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{Forma Selvagem}.</p>",
+      "prerequisites": [
+        {
+          "value": "Untamed Form"
+        }
+      ]
     },
     "Anticipate Ambush": {
       "name": "Antecipar Emboscada",
@@ -1678,20 +1853,83 @@
         }
       ]
     },
+    "Antler Rush": {
+      "name": "Investida de Galhadas",
+      "description": "<p><strong>Requisitos</strong> Você está em sua forma de alce ou forma híbrida.</p>\n<hr />\n<p>Avance duas vezes. Se terminar seu movimento ao alcance das suas galhadas de um inimigo, pode @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Desarmar}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Empurrar} ou Golpear com suas galhadas.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        },
+        {
+          "value": "weremoose"
+        }
+      ]
+    },
     "Apex Companion": {
       "name": "Companheiro em Ápice",
+      "description": "<p>Você pode invocar a essência de cada animal individual de uma determinada espécie para transformar temporariamente seu animal em um exemplar máximo de sua espécie. Você aprende a magia de ordem @UUID[Compendium.pf2e.spells-srd.Item.qqQYrXaRJXr7uc4i]{Apex Companion}. Aumente em 1 o número de Pontos de Foco em sua reserva de foco.</p>",
       "prerequisites": [
         {
           "value": "Companheiro Animal"
         }
       ]
     },
+    "Aphet Flash": {
+      "name": "Clarão de Aphet",
+      "description": "<p><strong>Requisitos</strong> Seu enxame está fora do seu corpo.</p>\n<hr />\n<p>Seu enxame pode emitir um clarão intenso, muito parecido com besouros aphet, um gênero de besouros luminosos outrora usado por mineradores osirianos como fonte de luz. Cada criatura em seu espaço deve obter sucesso em um teste de resistência @Check[fortitude|against:class-spell] contra sua CD de classe ou CD de magia, o que for maior, ou ficará @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ofuscada} por 1 rodada (2 rodadas em caso de fracasso crítico). O enxame então brilha como uma tocha até retornar ao seu corpo.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
+    },
+    "Apocalypse Rider Dedication": {
+      "name": "Dedicação de Cavaleiro do Apocalipse",
+      "description": "<p>Na hora mais sombria da noite, uma montaria temível e terrível chega como presente de um poderoso patrono daemon. Você recebe uma montaria apocalíptica, que é leal e segue seus comandos enquanto você trabalhar para espalhar morte e destruição. Sua montaria apocalíptica pode ser qualquer companheiro animal maduro com a habilidade especial de montaria, embora esteja obviamente tocada por forças daemoníacas. Escolha se sua montaria apocalíptica é um companheiro animal ágil ou selvagem. Durante um encontro, mesmo que você não use a ação Comandar um Animal, sua montaria apocalíptica ainda pode usar 1 ação em seu turno para Avançar ou Golpear.</p>\n<p>Você também recebe o anátema \"Você renuncia a quaisquer planos de enganar a morte ou construir algo que dure além da sua própria morte.\" Se quebrar esse anátema, perde acesso às habilidades concedidas por este arquétipo até expiar ou se redimir.</p>\n<hr />\n<p><strong>Especial</strong> Se já tiver um companheiro animal com a habilidade especial de montaria, ele se torna sua montaria apocalíptica à medida que energias daemoníacas infundem sua forma. Nesse caso, um dos ataques desarmados do seu companheiro aumenta um tamanho de dado.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.cSNtXyfkQ7g1KbL3]{Apocalypse Rider}</p>"
+    },
+    "Apocalyptic Visions": {
+      "name": "Visões Apocalípticas",
+      "description": "<p><strong>Frequência</strong> uma vez por dia</p>\n<hr />\n<p>Seu lorde das runas pode não ter vivido o suficiente para precisar se esconder diante de Earthfall, mas os ecos apocalípticos desse evento ainda assim alcançaram sua alma até o Ossuário. Você aprendeu a suportar os pensamentos invasivos desse evento que pôs fim a um império, mas agora pode projetar esse desespero na mente dos outros. Gaste um Ponto Mítico e escolha até 10 criaturas a até 60 pés que você possa perceber. Você força imagens de Earthfall em suas mentes, obrigando-as a suportar uma visão do fim do mundo e de tudo que lhes é caro. As criaturas devem tentar um teste de resistência @Check[will|against:class-spell] contra sua CD de classe ou CD de magia, usando proficiência mítica, o que for maior.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura fica tão distraída com as visões que fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lenta 1} por 1 rodada.</p>\n<p><strong>Fracasso</strong> A criatura fica lenta 1 e @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Atordoada Mentalmente 1} por 1 minuto.</p>\n<p><strong>Fracasso Crítico</strong> A criatura fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Lenta 2} e @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Atordoada Mentalmente 2} por 1 minuto. Além disso, sofre os efeitos da magia nightmare na próxima vez em que descansar. Se a criatura falhar ou falhar criticamente contra esse efeito, ele se repete toda vez que a criatura tentar dormir até que obtenha sucesso em seu teste de resistência ou 6 dias se passem. Você não precisa conhecer o nome da criatura nem permanecer no mesmo planeta para que ela experimente esses pesadelos.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
+    },
     "Apparition Cloud": {
+      "name": "Nuvem de Aparição",
+      "description": "<p><strong>Gatilho</strong> Você é alvo de um ataque.</p>\n<p><strong>Requisitos</strong> Seu familiar está adjacente a você ou em seu espaço.</p>\n<hr />\n<p>Com um mero pensamento, você descorporeia seu familiar em mil fragmentos de magia espiritual, protegendo tanto ele quanto você de dano físico, ao mesmo tempo em que dificulta a movimentação dos inimigos perto de você. Você fica @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Oculto} para o ataque desencadeador. Até o início do seu próximo turno, seu familiar não pode ser alvejado e seus inimigos tratam todos os espaços adjacentes a você como terreno difícil.</p>",
       "prerequisites": [
         {
           "value": "Familiar Espírito"
         }
       ]
+    },
+    "Apparition Magic": {
+      "name": "Magia de Aparição",
+      "description": "<p>Você pode conjurar mais magias divinas por dia. Você recebe 1 espaço de magia adicional proveniente de talentos de arquétipo de animista para cada círculo de magia que não seja um dos seus dois maiores espaços de magia de animista. Esses espaços adicionais só podem ser usados para preparar magias das magias de aparição de sua aparição.</p>",
+      "prerequisites": [
+        {
+          "value": "Conjuração Básica de Animista"
+        }
+      ]
+    },
+    "Apparition Sense": {
+      "name": "Sentido de Aparição",
+      "description": "<p>Você pode ver e interagir com coisas que outros não conseguem. Você possui visão de aparição, um sentido impreciso que permite detectar a presença de espíritos, assombrações e mortos-vivos @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisíveis} ou @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondidos} a até 30 pés de você.</p>\n<p>Você pode permitir que um espírito ou morto-vivo incapaz de falar de outra forma fale por seu intermédio, desde que esteja em contato direto com ele. Como uma atividade de 10 minutos, você pode agir como elo entre almas desencarnadas e seus corpos mortais. Desde que permaneça em contato tanto com um espírito quanto com um corpo vivo que lhe pertenceu em vida durante todo esse tempo, o espírito pode usar você para retornar a esse corpo; isso não permite trazer os mortos de volta à vida, mas pode auxiliar a restaurar uma alma desencarnada a um corpo ainda vivo. Se o corpo estiver ocupado por outro espírito ou alma, essa entidade deve obter sucesso em um teste de resistência de Vontade contra sua CD de magia ou será expulsa do corpo quando seu dono original retornar.</p>"
+    },
+    "Apparition Stabilization": {
+      "name": "Estabilização de Aparição",
+      "description": "<p>Sua aparição sintonizada garante que, mesmo que você fosse distraído ou interrompido, sua magia não seja desperdiçada. Se uma reação interromperia sua ação de conjuração, tente um @Check[flat|showDC:all|dc:15]. Se obtiver sucesso, sua ação não é interrompida. Quando você recebe a terceira característica de classe de aparição, essa CD é reduzida para 13, e quando recebe a quarta característica de classe de aparição, é reduzida para 10.</p>"
+    },
+    "Apparition's Enhancement": {
+      "name": "Aprimoramento da Aparição",
+      "description": "<p><strong>Frequência</strong> uma vez por turno</p>\n<p><strong>Requisitos</strong> Sua ação mais recente foi conjurar uma magia que não seja um truque.</p>\n<hr />\n<p>Poder espiritual reveste sua arma ou ataque desarmado. Até o fim do seu turno, uma arma empunhada ou ataque desarmado seu causa 1d6 adicional de dano spirit e recebe o traço divine, se já não o tiver.</p>",
+      "selfEffect": "Efeito: Aprimoramento da Aparição"
+    },
+    "Apparition's Quickening": {
+      "name": "Aceleração da Aparição",
+      "description": "<p><strong>Frequência</strong> uma vez por rodada</p>\n<p><strong>Requisitos</strong> Você está sintonizado com pelo menos 2 aparições.</p>\n<hr />\n<p>Se sua próxima ação for conjurar um truque ou uma magia com pelo menos 2 círculos abaixo do maior espaço de magia que você possui, pode extrair poder de uma de suas aparições sintonizadas para reduzir em 1 o número de ações necessárias para conjurá-la (mínimo de 1 ação). A aparição escolhida é dispersada até que você possa se sintonizar novamente com ela em suas próximas preparações diárias, mas você não pode dispersar uma aparição dessa forma se deixaria de estar sintonizado com qualquer aparição depois disso.</p>\n<hr />\n<p><strong>Especial</strong> Isso só pode ser usado em um truque ou magia da classe correspondente àquela pela qual você recebeu este talento.</p>"
     },
     "Apparition's Reflection": {
       "name": "Reflexo da Aparição",
@@ -2197,6 +2435,13 @@
     "Automaton Armament": {
       "description": "<p>You've been provided a body part designed for combat. You gain either a claw or pincer unarmed attack. The claw deals [[/r 1d4[slashing]]] damage, is in the brawling group, and has the agile, finesse, and unarmed traits. The pincer deals [[/r 1d6[piercing]]] damage, is in the brawling group, and has the grapple and unarmed traits. Your body can be reconfigured; you can select this feat at any level, and you can retrain into or out of this feat or change the type of attack you gain.</p>\n<p><strong>Enhancement</strong> Your attacking part is reinforced. Increase the damage die of the unarmed attack you gain from this feat by one step (from 1d4 to 1d6, or from 1d6 to 1d8).</p>"
     },
+    "Autonomous Arms": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
+    },
     "Avalanche Strike": {
       "prerequisites": [
         {
@@ -2218,6 +2463,12 @@
     },
     "Avenge in Glory": {
       "name": "Vingança na Glória"
+    },
+    "Avenging Runelord Dedication": {
+      "name": "Dedicação de Lorde das Runas Vingador"
+    },
+    "Awakened Magic": {
+      "name": "Magia Desperta"
     },
     "Awakened Stride": {
       "prerequisites": [
@@ -2355,6 +2606,14 @@
       "prerequisites": [
         {
           "value": "treinado em Atletismo"
+        }
+      ]
+    },
+    "Basic Animist Spellcasting": {
+      "name": "Conjuração Básica de Animista",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Animista"
         }
       ]
     },
@@ -2719,8 +2978,20 @@
         }
       ]
     },
+    "Bear Hug (Werecreature)": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Beast Speaker": {
-      "name": "Orador da Besta"
+      "name": "Orador da Besta",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Treinador de Animais"
+        }
+      ]
     },
     "Beast Trainer": {
       "name": "Treinador de Bestas",
@@ -2728,6 +2999,13 @@
     },
     "Beastbrood": {
       "description": "<p> One of your ancestors was a rakshasa, the corrupt and aristocratic reincarnated souls that call Golarion home. You have some dim echo of your ancestor's memories—enough to play the role of noble as needed, no matter your origins. You're trained in Society. If you're already trained in Society (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the @UUID[Compendium.pf2e.feats-srd.JtjnFsOToBLnSRO9]{Courtly Graces} skill feat.</p>\n<hr />\n<p><em>Note: If you are already trained in the skill provided by this feat, you need to manually select an alternative skill.</em></p>"
+    },
+    "Beastkin Resilience": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "Beastmaster Bond": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.wdmUH6hdat7jpEWt]{Beastmaster Dedication}</p> <hr> <p>You can communicate telepathically with your animal companions within 100 feet. If you’re legendary in Nature, you can communicate telepathically with your animal companions anywhere on the planet.</p>",
@@ -2778,6 +3056,13 @@
     },
     "Behold My Creation!": {
       "name": "Contemple Minha Criação!"
+    },
+    "Behold, a Pale Horse": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
     },
     "Bellflower Dedication": {
       "name": "Dedicação da Campânula",
@@ -2881,6 +3166,13 @@
       "prerequisites": [
         {
           "value": "Postura da Chuva de Brasas"
+        }
+      ]
+    },
+    "Bleak Humorist": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
         }
       ]
     },
@@ -3230,6 +3522,13 @@
     "Butterfly's Sting": {
       "description": "<p>You gain the @UUID[Compendium.pf2e.classfeatures.j1JE61quDxdge4mg]{Sneak Attack} class feature. You don't increase the number of dice as you gain levels.</p>"
     },
+    "Buzzing Death Cicadas": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
+    },
     "Cackle": {
       "name": "Cacarejo",
       "description": "<p>O poder do seu patrono lhe enche de confiança, permitindo que você sustente um efeito mágico com a mesma velocidade que uma risada irrompe de seus lábios. Você recebe o sortilégio @UUID[Compendium.pf2e.spells-srd.Item.YVK3JUkPVzHIeGXQ]{Cacarejo}.</p>"
@@ -3354,6 +3653,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Agente Pathfinder"
+        }
+      ]
+    },
+    "Carried with the Swarm": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
         }
       ]
     },
@@ -3734,6 +4040,13 @@
     "Claws of the Dragon": {
       "description": "<p><strong>Prerequisites </strong>@Compendium[pf2e.feats-srd.oo34CloLefFRi72w]{Dragon Disciple Dedication}</p> <hr> <p>Your fingernails grow into razor-sharp claws, and scales speckle your fingers, hands, and wrists. Your claws are agile, finesse unarmed attacks that deal [[/r 1d6 #slashing]] slashing damage and are in the brawling weapon group.</p>"
     },
+    "Clean Take": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
+    },
     "Cleansing Spell": {
       "prerequisites": [
         {
@@ -4056,6 +4369,13 @@
         }
       ]
     },
+    "Contagious Spell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
     "Continual Recovery": {
       "name": "Recuperação Contínua",
       "description": "<p>Você monitora fervorosamente o progresso de um paciente para administrar o tratamento mais rápido. Quando você @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Tratar Ferimentos}, seu paciente se torna imune por apenas 10 minutos em vez de 1 hora. Isso se aplica apenas às suas atividades de Tratar Ferimentos, não a qualquer outra que o paciente receba.</p>"
@@ -4107,6 +4427,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Capitão"
+        }
+      ]
+    },
+    "Cornered Animal": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
         }
       ]
     },
@@ -4223,6 +4550,13 @@
     "Craft Philosopher's Stone": {
       "name": "Criar Pedra Filosofal",
       "description": "<p>Sua longa pesquisa deu resultado, culminando na lendária pedra filosofal. Você aprende a fórmula para a @Compendium[pf2e.equipment-srd.Fv97oB3iEIFAyzTu]{Pedra Filosofal} e pode acrescentá-la ao seu livro de fórmulas.</p>"
+    },
+    "Craft Runewell": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
     },
     "Crafter's Appraisal": {
       "description": "<p>Your knowledge of items' construction allows you to discern their magical effects as well. You can use Crafting instead of a skill associated with a magic tradition to @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Identify Magic} on magic items, though not on any other sorts of magic.</p>",
@@ -4581,6 +4915,13 @@
     "Deadly Strikes": {
       "description": "<p>You have honed your body to attack with lethal focus. Your unarmed attacks gain the deadly d10 trait, or you increase their deadly trait to d10 if the unarmed attack is already deadly with a smaller die size.&nbsp;</p>"
     },
+    "Death Roll": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Death Warden": {
       "prerequisites": [
         {
@@ -4606,6 +4947,13 @@
     },
     "Death's Drums": {
       "description": "<p>Your life has been spent challenging death itself, and proximity to that implacable foe only makes your heart beat harder.</p>\n<p>When you are taking persistent damage or your @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Wounded} value is 1 or greater, you gain a +2 circumstance bonus to Fortitude saving throws.</p>"
+    },
+    "Deathless Servant": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
     },
     "Deathly Secrets": {
       "description": "<p>No means of creating or ruling the undead is beyond your grasp, even those of magical traditions not your own. You learn either the <em>@UUID[Compendium.pf2e.spells-srd.DLFupJuCfzyLCQcO]{Eyes of the Dead}</em> or <em>@UUID[Compendium.pf2e.spells-srd.Cd6Crl4wpQaMSYrF]{Subjugate Undead}</em> focus spell. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus by meditating over the earthly remains of a dead sentient creature. Focus spells granted by the reanimator archetype are from the same tradition as those used to meet the archetype's prerequisite.</p>\n<p><strong>Special</strong> You can select this feat more than once. Each time, you learn a different spell and your focus pool increases by 1 Focus Point.</p>"
@@ -4942,6 +5290,13 @@
     "Dire Form": {
       "description": "<p>Your hybrid shape is a hulking beast. While in your hybrid shape, you gain the effects of <em>@UUID[Compendium.pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em>.</p>"
     },
+    "Dire Growth": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Directed Audience": {
       "name": "Público Direcionado",
       "description": "<p>Você pode moldar a área de suas magias de composição. Sempre que lançar uma magia de composição cuja área é uma emanação, você pode alterar a área da magia para um cone 10 pés maior, até um máximo de duas vezes a área original. Por exemplo, você poderia modificar uma magia de composição que afeta uma @Template[emanação|distância:30] para afetar um @Template[cone|distância:40], mas uma @Template[emanação|distância:5] só poderia se tornar um @Template[cone|distância:10].</p>"
@@ -5101,6 +5456,13 @@
         },
         {
           "value": "Golpe de Magia"
+        }
+      ]
+    },
+    "Distracting Bites": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
         }
       ]
     },
@@ -5611,7 +5973,12 @@
       ]
     },
     "Echolocation": {
-      "name": "Ecolocalização"
+      "name": "Ecolocalização",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "Eclectic Obsession": {
       "name": "Obsessão Eclética",
@@ -5968,6 +6335,13 @@
         }
       ]
     },
+    "Endless Memories": {
+      "prerequisites": [
+        {
+          "value": "Memórias Antigas"
+        }
+      ]
+    },
     "Endurance of the Rooted Tree": {
       "description": "<section class=\"details\"> <p><strong>Prerequisites</strong> @Compendium[pf2e.spells-srd.qJZZdYBdNaWRJFER]{Wholeness of Body}</p> </section> <section class=\"content\"> <p>Just as the Vale of Aroden retains light and life despite inhospitable surroundings, you can sustain yourself regardless of your environment. You don’t need to eat, drink, or breathe. In addition, you can cast the wholeness of body ki spell almost effortlessly. You can cast it as a free action that triggers at the start of your turn.</p> </section>",
       "prerequisites": [
@@ -6261,10 +6635,22 @@
       "description": "<p><strong>Prerequisites </strong><a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"7qBuzHY8kEG8SdEP\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Cat’s Luck</a></p> <hr> <p>You are luckier even than most catfolk. You can trigger Cat’s Luck when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws. You still can use Cat’s Luck only once per day.</p>"
     },
     "Expanded Runelord Magic": {
-      "name": "Magia Expandida de Lorde das Runas"
+      "name": "Magia Expandida de Lorde das Runas",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
     },
     "Expanded Splash": {
       "name": "Respingo Expandido"
+    },
+    "Expanded Swarm": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
     },
     "Expansive Spellstrike": {
       "prerequisites": [
@@ -6316,11 +6702,14 @@
       ]
     },
     "Expert Animist Spellcasting": {
-      "prerequisites": {
-        "1": {
+      "prerequisites": [
+        {
+          "value": "Conjuração Básica de Animista"
+        },
+        {
           "value": "mestre em Religião"
         }
-      }
+      ]
     },
     "Expert Backstabber": {
       "prerequisites": [
@@ -6722,9 +7111,23 @@
         }
       ]
     },
+    "Fearful Symmetry": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Fearsome Brute": {
       "name": "Bruto Temível",
       "description": "<p>O medo torna seus inimigos fracos e mais vulneráveis aos seus ataques. Você ganha um bônus de circunstância nas rolagens de dano para Golpes contra criaturas assustadas. O bônus é igual ao dobro do valor de assustado do alvo.</p>\n<p>Se você for um mestre em Intimidação, aumente o bônus para o triplo do valor de assustado do alvo.</p>"
+    },
+    "Feast": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
     },
     "Feast Planner": {
       "prerequisites": [
@@ -6747,6 +7150,13 @@
         }
       ]
     },
+    "Feeding Frenzy": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Felicitous Riposte": {
       "description": "<p>You take advantage of your foe’s openings with uncanny odds.</p> <p>When you make an @Compendium[pf2e.classfeatures.Jtn7IugykXDlIoZq]{Opportune Riposte}, roll twice on the attack roll and take the better result.</p>"
     },
@@ -6764,6 +7174,41 @@
     "Felling Strike": {
       "name": "Golpe de Derrubada",
       "description": "<p>Seu ataque pode derrubar um inimigo no ar. Realize um Golpear. Se acertar e causar dano em um alvo voando, o alvo cai até 120 pés. A queda é gradual o suficiente para que, se o alvo atingir o solo, ele não sofrerá dano da queda.</p>\n<p>Se o ataque for um acerto crítico, o alvo não poderá Voar, @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Saltar}, levitar ou deixar o solo de outra forma até o final do seu próximo turno.</p>"
+    },
+    "Feral Lunge": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
+    "Feral Mending": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
+    "Feral Scramble": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
+    "Feral Senses": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
+    "Feral Toss": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "Ferocious Beasts": {
       "name": "Bestas Ferozes",
@@ -6787,6 +7232,13 @@
     "Ferocious Shape": {
       "name": "Aspecto de Dinossauro",
       "description": "<p>Você dominou a forma de dinossauros. Adicione as formas listadas em @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{forma de dinossauro} à sua lista de forma indomável. Sempre que você usar @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{forma indomável} para assumir uma forma que lhe concede um modificador específico de Atletismo, você ganha um bônus de +1 de condição em seus testes de Atletismo.</p>"
+    },
+    "Festering Wounds": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
     },
     "Fey Ascension": {
       "prerequisites": [
@@ -7133,6 +7585,13 @@
     },
     "Force Fang": {
       "description": "<p>You can turn your attack into an unerring blur of force. You learn the <em>@UUID[Compendium.pf2e.spells-srd.9mPEoOPN0AMuixIv]{Force Fang}</em> conflux spell.</p>\n<p>Increase the number of Focus Points in your focus pool by 1.</p>"
+    },
+    "Force of Nature": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "Forced Entry": {
       "name": "Entrada Forçada",
@@ -8183,6 +8642,13 @@
     "Heat Wave": {
       "description": "<p><strong>Trigger</strong> An effect would deal fire damage to you, even if you resist all the damage.</p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>You harness the oncoming flames and twist them into a screen of heat and smoke, granting you @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{concealment} until the beginning of your next turn.</p>"
     },
+    "Heaven's Step Offense": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
+    },
     "Heaven's Thunder": {
       "description": "<p> <strong>Prerequisites</strong> <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"Ze9vb0wlRmWWqnXC\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Jalmeri Heavenseeker Dedication</a> </span></p> <hr> <p>With a loud shout, you unleash your ki in a crackling shroud of thunder and lightning that engulfs your body. Until the end of your next turn, your unarmed attacks and weapons you wield that have the monk trait deal additional electricity damage equal to one-half your level and additional sonic damage equal to one-half your level.  If you also know the <a class=\"entity-link\" data-pack=\"pf2e.spells-srd\" data-id=\"oo7YcRC2gcez81PV\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Ki Blast</a> ki spell, you can choose to deal either electricity or sonic damage with the spell instead of force while this effect is active (<em>ki blast</em> loses the force trait and gains the electricity or sonic trait instead). Any creature who successfully Grapples you or is successfully Grappled by you also takes this damage immediately after the Grapple check is resolved.&nbsp;</p>"
     },
@@ -8369,6 +8835,13 @@
         }
       ]
     },
+    "History of Violence": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
     "Histrionic Injury": {
       "description": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> A creature you can see damages you with a melee Strike.</p>\n<hr />\n<p>You respond with a startled look, dramatic pratfall, or theatrical arm-flailing that stymies your attacker. The attacker must succeed at a Will saving throw against your class DC or spell DC, whichever is higher, or become @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round (@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure).</p>"
     },
@@ -8549,6 +9022,13 @@
           "value": "Golpe Reativo"
         }
       }
+    },
+    "Immortal Ruin": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
     },
     "Immortal Techniques": {
       "prerequisites": [
@@ -9030,7 +9510,12 @@
       "description": "<p>Sua compreensão da vida se expande, permitindo que você imite uma variedade maior de criaturas. Adicione os formatos em @UUID[Compendium.pf2e.spells-srd.Item.XI6Lzd2B5pernkPd]{Forma de Inseto} à sua lista de @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{Forma Selvagem}. Sempre que você usar <em>forma selvagem</em> para se polimorfar nos formatos de inseto não voadores listados em forma de peste, a duração é de 24 horas em vez de 10 minutos.</p>"
     },
     "Insistent Command": {
-      "name": "Comando Insistente"
+      "name": "Comando Insistente",
+      "prerequisites": {
+        "1": {
+          "value": "Dedicação de Treinador de Animais"
+        }
+      }
     },
     "Inspirational Focus": {
       "name": "Foco Inspirador",
@@ -9330,6 +9815,13 @@
         }
       ]
     },
+    "Jousting Mount": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
     "Judgement of the Monolith": {
       "name": "Julgamento do Monólito",
       "description": "<p><strong>Pré-requisitos</strong> Ritual de Pedra Ka</p> <hr> <p>Você pode usar os juramentos vinculados em sua pedra ka para extorquir a verdade dos vivos e dos mortos. Você pode ativar sua pedra ka para mirar uma única criatura viva, fazendo essa criatura experimentar os efeitos de estar em uma zona da verdade. Você também pode ativá-la com uma ativação (visualizar) de 10 minutos para conjurar cadáver falante.</p>",
@@ -9415,6 +9907,7 @@
       ]
     },
     "Kitharodian Actor Dedication": {
+      "name": "Dedicação de Ator Kitharodiano",
       "prerequisites": [
         {
           "value": "treinado em Performance"
@@ -10504,7 +10997,12 @@
       "description": "<p>You've raised your megafauna companion to be a more powerful force on the battlefield than most of its kind. The companion you gained through the Mammoth Lord Dedication feat becomes a mature animal companion, granting it additional capabilities. During an encounter, even if you don't use the @UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Command an Animal} action, your megafauna animal companion can still use 1 action on your turn to Stride or Strike.</p>"
     },
     "Mature Trained Companion": {
-      "description": "<p>Your animal companion grows up, becoming a mature animal companion. Increase its proficiency rank in Performance to expert instead of one of the three skill increases for mature. It gains the @UUID[Compendium.pf2e.adventure-specific-actions.jwo5CvftA5puYp7i]{Mesmerizing Performance} advanced maneuver, rather than the normal advanced maneuver for its type.</p>"
+      "description": "<p>Your animal companion grows up, becoming a mature animal companion. Increase its proficiency rank in Performance to expert instead of one of the three skill increases for mature. It gains the @UUID[Compendium.pf2e.adventure-specific-actions.jwo5CvftA5puYp7i]{Mesmerizing Performance} advanced maneuver, rather than the normal advanced maneuver for its type.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Treinador de Animais"
+        }
+      ]
     },
     "Mauler Dedication": {
       "name": "Dedicação de Malhador",
@@ -10550,6 +11048,13 @@
     "Melodious Spell": {
       "name": "Magia Melodiosa",
       "description": "<p>Você discretamente tece seu conjuramento em uma performance. Se a próxima ação que você usar for Conjurar uma Magia, a magia ganha o traço sutil, escondendo as runas brilhantes, faíscas de magia e outras manifestações que geralmente revelariam seu conjuramento. O traço esconde apenas as ações e manifestações do conjuramento da magia, não seus efeitos, então um observador ainda pode ver um raio saindo de você ou vê-lo desaparecer no ar.</p>\n<p>Como parte do uso de Magia Melodiosa, você pode escolher @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Criar uma Distração}, @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Intimidar}, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Atuar} ou @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Solicitar}. Se o fizer, a magia que você conjurar deve ter o traço auditivo, emoção, sônico ou visual para ganhar o traço sutil.</p>"
+    },
+    "Memory of Nothing": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
     },
     "Mental Balm": {
       "description": "<p>Your spells release soothing mental waves. Use this amp in place of a psi cantrip's normal amp entry. You can use this amp only on a psi cantrip that targets or affects you or one or more of your allies and doesn't target or affect any enemies.</p>\n<hr />\n<p><strong>Amp</strong> You or one ally within 30 feet gains a +2 status bonus to Will saves against emotion effects for 1 minute. You can also have the amped psi cantrip attempt to counteract one effect imposing the @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} condition on yourself or the chosen ally, or an effect imposing the @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} condition that has a duration of 1 hour or less. If you successfully counteract the effect, you remove only the frightened and stupefied conditions, not any other part of the effect.</p>"
@@ -10687,6 +11192,13 @@
       "name": "Postura de Tiro Móvel",
       "description": "<p>Seus tiros se tornam ágeis e mortais. Enquanto você estiver nesta postura, seus Golpes à distância não acionam Golpe Reativo ou outras reações que são acionadas por um ataque à distância.</p>\n<hr />\n<p><strong>Especial</strong> Se você tiver @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe Reativo}, você pode usá-lo com uma arma à distância carregada que você estiver empunhando. A criatura acionadora deve estar a 5 pés de você para que você possa fazer isso.</p>"
     },
+    "Mobile Swarm": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
+    },
     "Mobility": {
       "name": "Mobilidade",
       "description": "<p>Você se move sem <i>Deixar uma Brecha</i>. Quando você anda e se move metade da sua <i>Velocidade</i> ou menos, esse movimento não <i>aciona</i> reações. Você pode usar <i>Mobilidade</i> ao <i>Escalar</i>, <i>Voar</i> ou <i>Nadar</i> em vez de caminhar, se você tiver o <i>tipo</i> de movimento correspondente.</p>"
@@ -10764,6 +11276,13 @@
     "Monstrous Peacemaker": {
       "name": "Pacificador Monstruoso",
       "description": "<p>Sua natureza dual de humano e orc lhe deu uma perspectiva única, permitindo-lhe fazer a ponte entre os humanos e as muitas criaturas inteligentes no mundo que os humanos consideram monstros. Você recebe um bônus circunstancial de +1 em testes de Diplomacia contra criaturas inteligentes não humanoides e contra humanoides que são marginalizados na sociedade humana (a critério do GM, mas normalmente incluindo pelo menos gigantes, goblins, kobolds e orcs). Você também recebe esse bônus em testes de Percepção para @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sentir as Motivações} dessas criaturas.</p>"
+    },
+    "Monumental Maestro": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
     },
     "Moon May": {
       "description": "<p>Your mother was a moon hag, a handmaiden of Groetus, and you have a single scarlet eye and a sliver of her supernal foresight. You can cast <em>@UUID[Compendium.pf2e.spells-srd.izcxFQFwf3woCnFs]{Guidance}</em> as an occult innate cantrip. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
@@ -11096,6 +11615,13 @@
     "Night Magic": {
       "description": "<p>You can tap into the magic that runs through your blood. You gain @Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form} (wolf only, using the statistics for a canine) and @Compendium[pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{Obscuring Mist} as 2nd-level divine innate spells. You can cast each of these spells once per day.</p>"
     },
+    "Night Terror": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
     "Nightvision Adaptation": {
       "description": "<p>The nanites in your ocular processors have adapted to darkness, enhancing your ability to see in the dark. You gain @UUID[Compendium.pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision}.</p>"
     },
@@ -11199,7 +11725,12 @@
       ]
     },
     "Numb": {
-      "description": "<p>As your body continues to rot and putrefy, your senses deaden and your undead powers grow. You gain the @UUID[Compendium.pf2e.ancestryfeatures.YGk41WV42aTM7CQV]{Advanced Undead Benefits} as well as a +1 circumstance bonus on saving throws against emotion and pain effects. While your body is @UUID[Compendium.pf2e.feat-effects.94MzLpLykQIWKcA1]{Deteriorated}, your numbness amplifies in two ways: the circumstance bonus from this feat increases to +2, and if you roll a success on a saving throw against an emotion or pain effect, you get a critical success instead.</p>"
+      "description": "<p>As your body continues to rot and putrefy, your senses deaden and your undead powers grow. You gain the @UUID[Compendium.pf2e.ancestryfeatures.YGk41WV42aTM7CQV]{Advanced Undead Benefits} as well as a +1 circumstance bonus on saving throws against emotion and pain effects. While your body is @UUID[Compendium.pf2e.feat-effects.94MzLpLykQIWKcA1]{Deteriorated}, your numbness amplifies in two ways: the circumstance bonus from this feat increases to +2, and if you roll a success on a saving throw against an emotion or pain effect, you get a critical success instead.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
     },
     "Numb to Death": {
       "name": "Insensível à Morte",
@@ -11273,6 +11804,13 @@
     "Ode to Ouroboros": {
       "description": "<p>Você aprende a magia de composição @UUID[Compendium.pf2e.spells-srd.Item.DgCS456mXKw97vNy]{Ode to Ouroboros}, que permite poupar temporariamente seus aliados da morte.</p>"
     },
+    "Of Lions and Wyrms": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
+    },
     "Offensive Analysis": {
       "description": "<p>You can enhance your senses and mental state to consider every aspect of an attack. You can cast <em>@UUID[Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{True Strike}</em> as a divine innate spell once per day.</p>"
     },
@@ -11283,6 +11821,13 @@
       "prerequisites": [
         {
           "value": "pelo menos 100 anos de idade"
+        }
+      ]
+    },
+    "One Among the Masses": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
         }
       ]
     },
@@ -11458,6 +12003,13 @@
       "name": "Magia de Outro Mundo",
       "description": "<p>Seu Élfico magia se manifesta como uma simples magia arcana, mesmo que você não tenha treinamento formal em magia. Escolha um truque mágico da lista de magias arcana. Você pode conjurar este truque mágico como um truque mágico inato arcana à vontade. Um truque mágico é elevado a um nível de magia igual a metade do seu nível arredondado para cima.</p>"
     },
+    "Out of Hand": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
+    },
     "Overdrive Ally": {
       "prerequisites": [
         {
@@ -11504,6 +12056,13 @@
       "prerequisites": [
         {
           "value": "Golpe de Magia"
+        }
+      ]
+    },
+    "Pack Attack": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
         }
       ]
     },
@@ -11946,6 +12505,13 @@
         }
       ]
     },
+    "Plague Rat": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Planar Survival": {
       "name": "Sobrevivência Planar",
       "description": "<p>Você pode Subsistir usando Sobrevivência em diferentes planos, mesmo aqueles sem recursos ou fenômenos naturais que você normalmente precisaria. Por exemplo, você pode forragear por comida sem penalidade, mesmo que o plano não tenha comida que normalmente poderia sustentá-lo. Um sucesso no seu teste para Subsistir também previne o dano causado pelo plano a você e qualquer outra pessoa que você Presta Suporte com Subsistir. Isso se aplica apenas ao dano causado pelas condições gerais do plano, não aos menores perigos.</p>"
@@ -11966,6 +12532,13 @@
     "Plant Shape": {
       "name": "Aspecto de Planta",
       "description": "<p>Você pode assumir a forma de uma criatura planta. Se você não tiver forma indomável, você pode lançar @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{forma de planta} uma vez por dia, elevada ao mesmo nível que seu espaço de magia de druida de maior nível.</p>\n<p>Se você tiver @UUID[Compendium.pf2e.feats-srd.Item.VaIHQzOE5ibmbtqU]{Forma Indomável}, adicione as formas listadas em @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{forma de planta} à sua lista de @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{forma indomável}, e sempre que estiver polimorfo para outra forma usando forma indomável, você ganha resistência 5 a veneno.</p>"
+    },
+    "Plant Soul Siblings": {
+      "prerequisites": [
+        {
+          "value": "Irmãos de Alma Animal"
+        }
+      ]
     },
     "Play Dead": {
       "description": "<p>You lie @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} and pretend to be an ordinary skeleton. As long as you don't move or take any actions requiring anything other than your mind, you appear dead. To see through your ruse, another creature must succeed at a check against your Deception DC, either by Seeking or Recalling Knowledge (typically using Religion or an appropriate Lore skill). This ability doesn't work against creatures that already know you're an animate undead unless you have changed your appearance.</p>"
@@ -12059,6 +12632,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Herbalista"
+        }
+      ]
+    },
+    "Pouncing Transformation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
         }
       ]
     },
@@ -12404,6 +12984,20 @@
     "Pushing Attack": {
       "description": "<p>Your eidolon has an attack that pushes away enemies. Choose one of the eidolon's unarmed attacks with the shove trait. It gains the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Push} action for that attack.</p>"
     },
+    "Putrefaction": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
+    "Pyre Ant Sting": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
+    },
     "Qi Center": {
       "prerequisites": [
         {
@@ -12733,6 +13327,13 @@
         }
       ]
     },
+    "Rapid Hybridization": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Rapid Mantel": {
       "name": "Segurar-se Rapidamente",
       "description": "<p>Você se puxa facilmente para bordas. Quando você @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Segurar numa Beirada}, você pode se puxar para essa superfície e ficar de pé. Você pode usar Atletismo em vez de um teste de Reflexos para Segurar numa Beirada. Se você Escalar ou @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Saltar} para dentro de 5 pés abaixo do topo de uma beirada, você pode se puxar para a superfície e ficar de pé como parte dessa ação.</p>",
@@ -12764,7 +13365,12 @@
       "description": "<p> <strong>Pré-requisitos</strong> treinado em Saber de Zevgavizeb </span></p> <hr> <p>Seu estudo da  <a href=\"https://2e.aonprd.com/Deities.aspx?ID=82\">Fera de Glutãosombrio</a> lhe ensinou como ter sucesso nas mais árduas circunstancias ao invés de sucumbir à fraqueza. Enquanto seus Pontos de Vida atuais forem menos que o seus Pontos de Vida máximos, você ganha um bonus de circunstancia +1 para testes de <a href=\"https://2e.aonprd.com/Skills.aspx?ID=16\">Sobrevivência</a> e <a href=\"https://2e.aonprd.com/Skills.aspx?ID=15\">Furtividade</a>. Se os seus Pontos de Vida atuais forem um quarto do valor máximo, o bônus circunstancial é +2.;</p>"
     },
     "Ravenous Charge": {
-      "description": "<p>Hungry for the flesh of the living, you hurl yourself into the fray, teeth gnashing. You Stride. If you end your movement within melee reach of a living creature, you can make an Athletics check to @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} that creature. If you succeed, you then make a jaws Strike against that creature.</p>"
+      "description": "<p>Hungry for the flesh of the living, you hurl yourself into the fray, teeth gnashing. You Stride. If you end your movement within melee reach of a living creature, you can make an Athletics check to @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} that creature. If you succeed, you then make a jaws Strike against that creature.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
     },
     "Razmiran Priest Dedication": {
       "prerequisites": [
@@ -13042,6 +13648,13 @@
     "Relentless Stalker": {
       "name": "Perseguidor Incansável",
       "description": "<p><strong>Gatilho</strong> Uma criatura adjacente que você esteja caçando tenta se mover para longe usando uma ação que possui o traço movimento.</p> <hr> <p>Sua presa caçada não pode escapar de sua perseguição incansável. Ande até sua Velocidade junto da criatura acionadora, permanecendo adjacente ao oponente por todo o movimento dela até que ela pare de se mover ou que você fique sem movimento. Você pode ignorar terreno difícil durante este movimento, a menos que o terreno difícil seja causado por um efeito mágico.</p>"
+    },
+    "Reliable Magic": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
     },
     "Reloading Trick": {
       "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> You're holding an unloaded hand crossbow.</p>\n<hr />\n<p>You can fire off a single shot even when unprepared. You Interact to reload your hand crossbow and Strike with it.</p>\n<p><strong>Special</strong> If you have the @UUID[Compendium.pf2e.feats-srd.HvPvyeXM2iMK4OYf]{Repeating Hand Crossbow Training} feat, you can use this feat with a @Compendium[pf2e.equipment-srd.zcrIuILnp6oh4dr9]{Repeating Hand Crossbow} to load either a @Compendium[pf2e.equipment-srd.AITVZmakiu3RgfKo]{Bolt} or a @Compendium[pf2e.equipment-srd.xk9bw9ccupAIx7xT]{Repeating Hand Crossbow Magazine}, but the speed means you can fire only one bolt, then the magazine jams. You must spend a 3-action Interact activity to remove the jammed magazine and clear it before it can be used again.</p>"
@@ -13466,6 +14079,20 @@
     "Runtsage": {
       "description": "<p>Unlike most of your kind, who dismiss goblins as embarrassments or expendable annoyances, you have studied the methodology behind their irresponsible and incomprehensible actions. You gain the @UUID[Compendium.pf2e.feats-srd.ihN8gkHSdPG9Trte]{Adopted Ancestry} general feat and must select goblin as the feat's chosen ancestry. You also gain one 1st-level goblin ancestry feat.</p>"
     },
+    "Rushing Boar": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
+    "Ruthless Orator": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
+    },
     "Saber Teeth": {
       "description": "<p>You have long fangs, natural or augmented. You gain a jaws unarmed attack that deals [[/r 1d6[piercing]]] damage. Your jaws are in the brawling group and have the unarmed trait.</p>"
     },
@@ -13620,6 +14247,13 @@
       "prerequisites": [
         {
           "value": "Dedicação da Campânula"
+        }
+      ]
+    },
+    "Scarred Hide": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
         }
       ]
     },
@@ -13798,7 +14432,12 @@
       ]
     },
     "Seize": {
-      "description": "<p><strong>Requirements</strong> Your last action was a successful fist Strike against a creature no more than one size larger than you.</p>\n<hr />\n<p>You seize your foe and pull it close. The foe you hit is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} as if you succeeded at an Athletics check to @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} the foe.</p>"
+      "description": "<p><strong>Requirements</strong> Your last action was a successful fist Strike against a creature no more than one size larger than you.</p>\n<hr />\n<p>You seize your foe and pull it close. The foe you hit is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} as if you succeeded at an Athletics check to @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} the foe.</p>",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
     },
     "Selective Energy": {
       "name": "Energia Seletiva",
@@ -14003,6 +14642,13 @@
         }
       ]
     },
+    "Shamble": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
+        }
+      ]
+    },
     "Shameless Request": {
       "name": "Pedido Desavergonhado",
       "description": "<p>Você pode minimizar as consequências ou a ousadia de seus pedidos usando pura audácia e cativar. Quando você Pedir algo, você reduz qualquer aumento de DC por fazer um pedido ultrajante em 2, e se você realizar uma rolagem de falha crítica em seu Pedido, você recebe uma falha em vez disso. Embora isso signifique que você nunca pode fazer com que seu alvo reduza sua atitude em relação a você ao fazer um Pedido, eles eventualmente se cansam dos pedidos, mesmo que ainda tenham uma atitude positiva em relação a você.</p>",
@@ -14105,6 +14751,13 @@
       "prerequisites": [
         {
           "value": "Sinergia Dualista"
+        }
+      ]
+    },
+    "Shared Tide": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
         }
       ]
     },
@@ -14228,6 +14881,13 @@
       "prerequisites": [
         {
           "value": "Dedicação de Celestial Ascendido"
+        }
+      ]
+    },
+    "Shining Runes": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
         }
       ]
     },
@@ -14815,6 +15475,13 @@
         }
       ]
     },
+    "Soul Vessel Mount": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
     "Soul Warden Dedication": {
       "prerequisites": [
         {
@@ -15052,6 +15719,13 @@
         }
       ]
     },
+    "Spirit Walk": {
+      "prerequisites": [
+        {
+          "value": "Sentido de Aparição"
+        }
+      ]
+    },
     "Spirit of the Beast": {
       "prerequisites": [
         {
@@ -15064,6 +15738,14 @@
     },
     "Spirits' Interference": {
       "name": "Interferência dos Espíritos"
+    },
+    "Spiritual Awakening": {
+      "name": "Despertar Espiritual",
+      "prerequisites": [
+        {
+          "value": "Dedicação de Animista"
+        }
+      ]
     },
     "Spiritual Disruption": {
       "description": "<p>You channel disruptive power that severs a foe's spiritual connection to their heretical magic. Make a melee Strike. If the attack hits, any time the target attempts to cast a divine or occult spell, the spell is disrupted unless they succeed at a @Check[type:flat|dc:5] (@Check[type:flat|dc:7] on a critical hit); if the target is also @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied}, it must attempt the harder of the two flat checks (but not both). This effect lasts for 1 minute.</p>",
@@ -15096,6 +15778,13 @@
     },
     "Spore Cloud": {
       "description": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>You unleash a cloud of pollen or similar spores. All creatures in a @Template[type:emanation|distance:10] around you must attempt a @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] save using your class DC or spell DC (whichever is higher) with the following results. Plants and fungi are immune to this effect.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled and can see only 10 feet away for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p>"
+    },
+    "Sportlebore Choke": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
     },
     "Spot Translate": {
       "prerequisites": [
@@ -15249,6 +15938,13 @@
     },
     "Steadying Stone": {
       "description": "<p>The earth has taught you how to remain unyielding and firm. If you roll a success on an Acrobatics check made to @UUID[Compendium.pf2e.actionspf2e.M76ycLAqHoAgbcej]{Balance} on uneven ground composed of earth or rock, you get a critical success instead.</p>\n<p>As long as you remain on the ground, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you. This bonus also applies to saving throws against spells or effects that would attempt to knock you prone. If you're a rock dwarf, this bonus increases to +3.</p>"
+    },
+    "Steal Death": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
     },
     "Steal Essence": {
       "description": "<section class=\"details\"> <p><strong>Prerequisites</strong> legendary in Thievery or master in Arcana, Nature, Occult, or Religion</p> <p><strong>Requirements</strong> A magic item is within your reach.</p> </section> <section class=\"content\"> <p>Being in the presence of the aeon orbs as they deteriorated has taught you how to siphon energy, and you do so with the required magic item. The DC to steal the properties of a magic item is equal to the DC for the item’s level or the normal DC to Steal the item, whichever is higher. The targeted item then becomes temporarily immune for 24 hours. If the object was on a creature, that creature is also temporarily immune (which prevents you from attempting to Steal the Essence of another object on it).</p> <p>If you successfully steal the properties of an item, it loses its magical properties for 24 hours and you can move those properties to a non-magical object of the same general kind (such as moving a hat’s properties to another piece of headgear or moving a weapon’s properties to another weapon) for the same length of time. If the moved properties are counteracted, they return immediately to the original item. You automatically fail to Steal the Essence of an artifact, cursed item, or similar item.</p> </section>"
@@ -15545,6 +16241,13 @@
         }
       ]
     },
+    "Stunt Performer Stance": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
+    },
     "Sturdy Bindings": {
       "prerequisites": [
         {
@@ -15566,6 +16269,13 @@
         },
         {
           "value": "Dedicação de Vigilante"
+        }
+      ]
+    },
+    "Subjugation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
         }
       ]
     },
@@ -15766,6 +16476,7 @@
       ]
     },
     "Swarmkeeper Dedication": {
+      "name": "Dedicação de Guardião de Enxame",
       "prerequisites": [
         {
           "value": "treinado em Natureza"
@@ -15867,6 +16578,13 @@
     },
     "Swordmaster Dedication": {
       "name": "Dedicação de Mestre da Espada"
+    },
+    "Sympathetic Portrayal": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Ator Kitharodiano"
+        }
+      ]
     },
     "Sympathetic Strike": {
       "name": "Golpear Simpático",
@@ -16147,6 +16865,13 @@
     "Terrifying Resistance": {
       "description": "<p><strong>Prerequisites </strong>expert in Intimidation</p> <hr> <p>The spells of those you have @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} are less effective on you. If you succeed in Demoralizing a creature, for the next 24 hours you gain a +1 circumstance bonus to saving throws against that creature’s spells.</p>"
     },
+    "Terrifying Transformation": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "That Was a Close One, Huh?": {
       "prerequisites": {
         "1": {
@@ -16218,6 +16943,13 @@
     },
     "Theoretical Acumen": {
       "name": "Perspicácia Teórica"
+    },
+    "This Too Shall Pass": {
+      "prerequisites": [
+        {
+          "value": "E Assim Fará Mais Uma Vez"
+        }
+      ]
     },
     "Thorned Seedpod": {
       "name": "Vagem Espinhosa",
@@ -16349,6 +17081,13 @@
         }
       ]
     },
+    "To War!": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
+    },
     "To the Ends of the Earth": {
       "name": "Até os Confins da Terra",
       "description": "<p>Sua perícia de rastrear sua presa superou a explicação, permitindo que você trace os movimentos da sua presa e preveja sua localização com facilidade. Quando você usa @UUID[Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm]{caçar presa} em uma criatura dentro de 100 pés, você pode seguir os movimentos dessa criatura, permitindo que você saiba a localização exata da criatura, não importa quão longe ela esteja, desde que ela permaneça sendo sua presa. Você deve ser lendário em Natureza para rastrear a localização da sua presa através de teletransporte ou viagem planar. Este talento ganha os traços de detecção e primal se você for lendário em Natureza.</p>"
@@ -16417,6 +17156,13 @@
     },
     "Touch Focus": {
       "description": "<p><strong>Trigger</strong> You begin to Cast a Spell that requires a spell attack roll.</p>\n<hr />\n<p>You can redirect a spell's power through you to deliver it within striking distance. If your next action is to Cast a Spell with 1 or more targets and a range farther than touch, you change the range to touch. You gain a +2 circumstance bonus to the attack. This only allows you to touch a single target with the spell, even if the spell originally affected more than 1 target. As long as your spell attack is successful, the target is knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} in addition to the spell's normal effects.</p>"
+    },
+    "Touch of Lunacy": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "Tough Tumbler": {
       "name": "Tranqueta Robusto",
@@ -16835,6 +17581,13 @@
     "Underwater Volcano": {
       "description": "<p>You can cast <em>@UUID[Compendium.pf2e.spells-srd.O7ZEqWjwdKyo2CUv]{Volcanic Eruption}</em> as a 7th-level primal innate spell once per day, except that you can only evoke the volcano on the floor of a body of water, and the effects that normally happen to flying creatures happen to swimming creatures instead.</p>"
     },
+    "Undying Beast": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
+    },
     "Undying Ferocity": {
       "name": "Ferocidade Imortal",
       "description": "<p>Você resiste às garras da morte com vigor sobrenatural, desafiando a morte a reivindicá-lo enquanto promete que qualquer tentativa certamente falhará. Quando você usa @UUID[Compendium.pf2e.feats-srd.Item.PlhPpdwIV0rIAJ8K]{Ferocidade Orc}, você ganha Pontos de Vida temporários iguais ao seu nível.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Px4E3Hyx2pmvSWAA]{Effect: Ferocidade Imortal}</p>",
@@ -16887,6 +17640,13 @@
       "prerequisites": [
         {
           "value": "Longevidade Ancestral"
+        }
+      ]
+    },
+    "Unkillable": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Zumbi"
         }
       ]
     },
@@ -17074,6 +17834,13 @@
     },
     "Veil May": {
       "description": "<p>Born of a blood hag, a fiery blood drinker hidden behind a false skin, you have one blood-red eye and the ability to slough off your appearance in an instant.</p>\n<p>You gain the @UUID[Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux]{Lie To Me} skill feat, and you can shed a disguise quickly by peeling off the outer layer of your skin.</p>\n<p>Changing from a disguise used to @UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} back to your true appearance is a 3-action activity for you; if you're an expert in Deception, it's a 2-action activity, and if you're legendary in Deception, it takes only a single action. This doesn't allow you to don or remove armor or other equipment any faster, but your physical appearance otherwise returns to its normal state.</p>"
+    },
+    "Veil of Bugs": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
     },
     "Vellumis Excision": {
       "prerequisites": [
@@ -17303,6 +18070,13 @@
         }
       }
     },
+    "Vindictive Thoughts": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
+    },
     "Virga May": {
       "description": "<p>Born of a storm hag, you have one crystal-blue or rain-gray eye. You share your mother's power over wind and storm. You can cast <em>@UUID[Compendium.pf2e.spells-srd.kBhaPuzLUSwS6vVf]{Electric Arc}</em> as an occult innate cantrip. As normal, a cantrip is heightened to a spell level equal to half your level rounded up.</p>"
     },
@@ -17326,6 +18100,13 @@
       "prerequisites": [
         {
           "value": "treinado em Performance"
+        }
+      ]
+    },
+    "Virulent Strike": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
         }
       ]
     },
@@ -17569,6 +18350,13 @@
         }
       ]
     },
+    "Weaver's Web": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Guardião de Enxame"
+        }
+      ]
+    },
     "Web Walker": {
       "description": "<p>You have plenty of practice navigating webs. You gain a +2 circumstance bonus to saves and AC against the <em>@UUID[Compendium.pf2e.spells-srd.9s5tqqXNzcoKamWx]{Web}</em> spell, natural webbing, and effects that entrap you in webbing, as well as a +1 circumstance bonus against other effects that snare and entangle you, like the <em>@UUID[Compendium.pf2e.spells-srd.J6vNvrUT3b1hx2iA]{Entangle}</em> spell. Whenever you roll a success on a saving throw against an effect involving a web, you get a critical success instead.</p>"
     },
@@ -17590,6 +18378,9 @@
     },
     "Wellspring Mage Dedication": {
       "description": "<p>There's no longer a limit on how many temporary spell slots you can gain per day from wellspring magic.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you gain two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.zj9z2BwVX6TLHdx3]{Wellspring Mage} archetype.</p>"
+    },
+    "Werecreature Dedication": {
+      "name": "Dedicação de Licantropo"
     },
     "Westyr's Wayfinder Repository": {
       "prerequisites": [
@@ -17739,6 +18530,13 @@
     "Willing Death": {
       "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An ally within 30 feet takes damage that would otherwise reduce them to 0 Hit Points and give them the @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} condition.</p>\n<hr />\n<p> Once, you died because you valued someone else's life above your own; just as then, you protect an ally by suffering in their stead. Reduce the damage the triggering ally would take by 1 + your level. You redirect this damage to yourself, but your immunities, weaknesses, resistances, and so on don't apply. You aren't subject to any conditions or other effects from whatever damaged your ally (such as poison from a venomous bite)—your ally is still subject to those effects even if you redirect all of the triggering damage to yourself. If the redirected damage prevents the ally from being reduced to 0 Hit Points, they remain conscious and don't gain the dying condition.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat only at 1st level, and you can't retrain into or out of this feat.</p>"
     },
+    "Willing Runes": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
+    },
     "Wind Caller": {
       "name": "Invocador de Ventos",
       "description": "<p>Você ordena ao sopro para auxiliar você, carregando-o pelo ar e permitindo sua passagem através dos ventos contrários mais fortes. Você ganha a magia de ordem @UUID[Compendium.pf2e.spells-srd.Item.gSFg9zKwgcNZLMEs]{Stormwind Flight}.</p>"
@@ -17772,6 +18570,13 @@
     },
     "Wings of the Dragon": {
       "description": "<p><strong>Prerequisites</strong> <a class=\"entity-link\" data-pack=\"pf2e.feats-srd\" data-id=\"oo34CloLefFRi72w\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Dragon Disciple Dedication</a></p> <hr> <p>You can manifest draconic wings to soar through the air at great speed. You gain the <a class=\"entity-link\" data-pack=\"pf2e.spells-srd\" data-id=\"HWJODX2zPg5cg34F\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Dragon Wings</a> sorcerer bloodline spell and a focus pool of 1 Focus Point. If you already have a focus pool, increase your number of Focus Points by 1.</p>"
+    },
+    "Wings of the Moon": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "Wish Alchemy": {
       "description": "<p>You have learned Artokus Kirran’s most hidden secrets, granting you the ability to create alchemy infused with the power of wishes. Once per day when you use <a class=\"entity-link\" data-pack=\"pf2e.classfeatures\" data-id=\"Pe0zmIqyTBc2Td0I\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Advanced Alchemy</a> during your daily preparations, you can spend a batch of infused reagents to create a wish vial containing a single common arcane spell of your choice of 8th level or lower. The spell must have a casting time of no more than 3 actions, no Cost, and must be able to target you. Only you can Activate the wish vial, which takes the same number of Interact actions as the spell’s casting time and grants you the effects of the spell.</p>"
@@ -17820,6 +18625,13 @@
     "Witch's Hut": {
       "name": "Cabana da Bruxa",
       "description": "<p>Sua casa é uma estrutura animada que obedece aos seus comandos. Ao realizar um rito que leva 1 dia, você cria um objeto animado a partir de uma cabana, casa pequena, carroça coberta, tenda ou construção similar de até tamanho Enorme.</p>\n<p>A cabana usa sua CA, modificadores de jogada de salvamento e modificador de Percepção, e tem 150 PV e Dureza 10. Ela tem a perícia de armadura de constructo, o que significa que, uma vez reduzida a menos da metade dos seus Pontos de Vida, ou imediatamente após ser danificada por um acerto crítico, sua CA é reduzida em 4 até que seja reparada.</p>\n<p>A cabana não pode atacar ou tentar testes de perícia. Você pode dar um comando à cabana como uma ação única, que tem os traços auditivo e concentração; após 1 rodada se reconfigurando, a cabana então segue esse comando até que você dê um comando diferente.</p>\n<ul>\n<li><strong>Guarda</strong> A cabana vigia por intrusos dentro de 120 pés usando seu modificador de Percepção e grita se avistar alguém.</li>\n<li><strong>Esconder</strong> A cabana parece ser um objeto normal e mundano do seu tipo. Este é um efeito de ilusão de 10º círculo.</li>\n<li><strong>Saltar</strong> A cabana gira ou salta no ar, então executa a magia de 10º círculo @UUID[Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9]{Teleporte}, transportando a si mesma e todas as criaturas dentro dela.</li>\n<li><strong>Trancar</strong> Com um estrondo, cada entrada da cabana se sela com uma magia de trancar. Você pode dar este comando novamente para destrancar suas entradas.</li>\n<li><strong>Mover</strong> A cabana ganha Velocidade de 60 pés, crescendo pernas de pássaro gigante ou de osso, se necessário, e segue um comando de movimento extremamente básico que você lhe der, como \"siga-me\" ou \"mova-se naquela direção\". Embora seja perfeitamente adequada para viagens terrestres, os movimentos amplos da cabana e o atraso de 1 rodada no tempo de resposta são imprecisos demais para direcioná-la previsivelmente em um encontro de combate ou outra situação onde segundos e locais precisos importam.</li>\n</ul>\n<p>Você só pode ter uma única cabana de bruxa por vez. Se você animar uma nova cabana, sua cabana anterior reverte imediatamente à sua forma original e mundana. Se você morrer, a cabana continuará seguindo a última ordem que você deu indefinidamente.</p>"
+    },
+    "Wither Away": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Cavaleiro do Apocalipse"
+        }
+      ]
     },
     "Withstand Death": {
       "prerequisites": [
@@ -17888,11 +18700,25 @@
         }
       ]
     },
+    "Writhing Runelord Weapon": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Lorde das Runas Vingador"
+        }
+      ]
+    },
     "Wronged Monk's Wrath": {
       "description": "<p>You gain the <em>@UUID[Compendium.pf2e.spells-srd.8TBgEzjZxPaOJOm1]{Wronged Monk's Wrath}</em> ki spell. Increase the number of Focus Points in your focus pool by 1.</p>"
     },
     "Yamaraj's Grandeur": {
       "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You have been granted a sliver of the power of the yamaraj, the magistrates of the dead who agreed to allow duskwalkers to exist at all. You exhale a blast of icy wind and ravenous insects. This is a @Template[type:cone|distance:30] that deals [[/r 14d6[slashing]]] damage and [[/r 4d6[persistent,slashing]]] damage (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic] save using your class or spell DC, whichever is higher). On a critical failure, targets also become @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
+    },
+    "You Don't Smell Right": {
+      "prerequisites": [
+        {
+          "value": "Dedicação de Licantropo"
+        }
+      ]
     },
     "You're Next": {
       "name": "Você é o Próximo",
@@ -17910,6 +18736,7 @@
       "name": "Dedicação da Guarda Zéfiro"
     },
     "Zombie Dedication": {
+      "name": "Dedicação de Zumbi",
       "description": "<p>Despite your death and subsequent reanimation as a rotting corpse, you retain most of your mind and identity. Yet, it's always there: the hunger for the flesh and organs of the living. You gain the undead and zombie traits, and the basic undead benefits. Unlike a typical zombie, you're not mindless. Reduce all your Speeds by 5 feet. Your fist loses the nonlethal trait.</p>\n<p>Because of its progressing state of decay, your body requires continual maintenance to remain at its best. Each day after your rest period, your body is @UUID[Compendium.pf2e.feat-effects.94MzLpLykQIWKcA1]{Deteriorated} due to natural decay. Additionally, some zombie abilities allow you to push for a greater effect in exchange for a chance of deteriorating your body.</p>\n<p>While your body is deteriorated, you're @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. You can spend 10 minutes checking and repairing your joints and other weak parts of your body to recover from deterioration. You can perform these repairs as part of your daily preparations. Because it's a natural result of your body's functions, you can't remove the slowed condition from deterioration through any other means.</p>\n<p>You crave the flesh of the living. You gain a jaws unarmed attack that deals 1d8 piercing damage. Your jaws are in the brawling group and have the unarmed trait. You can use your jaws Strike only against a creature that's @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} by you.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.G38usCLuTDmFYw7V]{Zombie} archetype.</p>"
     },
     "Zombie Horde": {
