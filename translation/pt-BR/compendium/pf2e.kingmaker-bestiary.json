@@ -291,6 +291,9 @@
       "items": {
         "strike-melee->Fist": {
           "name": "Punho"
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         }
       }
     },
@@ -325,6 +328,9 @@
         },
         "action->Nature's Edge": {
           "name": "Préstimo da Natureza"
+        },
+        "action->Terrifying Croak": {
+          "name": "Coaxar aterrorizante"
         }
       }
     },
@@ -407,6 +413,20 @@
         }
       }
     },
+    "Collapsing Bridge": {
+      "items": {
+        "action->Collapse": {
+          "name": "Desmoronar"
+        }
+      }
+    },
+    "Collapsing Floor": {
+      "items": {
+        "action->Collapse": {
+          "name": "Desmoronar"
+        }
+      }
+    },
     "Corax": {
       "items": {
         "strike-melee->Greataxe": {
@@ -457,6 +477,9 @@
         },
         "strike-melee->Fist": {
           "name": "Punho"
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         }
       }
     },
@@ -504,6 +527,13 @@
         },
         "action->Intimidating Strike": {
           "name": "Golpe Intimidante"
+        }
+      }
+    },
+    "Dropping Web Trap": {
+      "items": {
+        "action->Collapse": {
+          "name": "Desmoronar"
         }
       }
     },
@@ -709,6 +739,9 @@
         },
         "action->Intimidating Prowess": {
           "name": "Intrepidez Intimidante"
+        },
+        "action->Statue": {
+          "name": "Estátua"
         }
       }
     },
@@ -920,6 +953,9 @@
         },
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
+        },
+        "action->Twin Riposte": {
+          "name": "Riposta Gêmea"
         },
         "action->Nature's Edge": {
           "name": "Préstimo da Natureza"
@@ -1500,6 +1536,16 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            },
+            "1": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -1677,6 +1723,9 @@
         "strike-ranged->Quill": {
           "name": "Espinho"
         },
+        "action->Quick Recovery": {
+          "name": "Recuperação Rápida"
+        },
         "action->Pain": {
           "name": "Dor"
         }
@@ -1712,6 +1761,13 @@
         },
         "action->Thrash": {
           "name": "Arrebentar"
+        }
+      }
+    },
+    "Rickety Bridge": {
+      "items": {
+        "action->Collapse": {
+          "name": "Desmoronar"
         }
       }
     },
@@ -1761,6 +1817,9 @@
         },
         "strike-melee->Tongue": {
           "name": "Língua"
+        },
+        "action->Terrifying Croak": {
+          "name": "Coaxar aterrorizante"
         }
       }
     },
@@ -1768,6 +1827,12 @@
       "items": {
         "strike-melee->Vine": {
           "name": "Vinha"
+        },
+        "action->Shamble": {
+          "name": "Tremeluzir"
+        },
+        "action->Vine Lash": {
+          "name": "Açoite de vinha"
         }
       }
     },
@@ -1896,6 +1961,9 @@
         },
         "strike-melee->Beak": {
           "name": "Bico"
+        },
+        "action->Gnaw": {
+          "name": "Roer"
         }
       }
     },
@@ -2214,6 +2282,18 @@
         }
       }
     },
+    "Tusker Riders": {
+      "items": {
+        "campaignFeature->Trampling Charge": [
+          {
+            "name": "Investida Atropeladora"
+          },
+          {
+            "name": "Investida Atropeladora"
+          }
+        ]
+      }
+    },
     "Valerie (Level 1)": {
       "items": {
         "lore->Warfare Lore": {
@@ -2225,6 +2305,13 @@
       "items": {
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
+        }
+      }
+    },
+    "Vicious Army Ant Swarm": {
+      "items": {
+        "action->Cling": {
+          "name": "Agarrar-se"
         }
       }
     },
@@ -2395,6 +2482,9 @@
         },
         "strike-melee->Talon": {
           "name": "Unha"
+        },
+        "action->Gnaw": {
+          "name": "Roer"
         }
       }
     },

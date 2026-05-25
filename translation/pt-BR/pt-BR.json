@@ -1128,6 +1128,7 @@
     "CriticalDamageLabel": "Crítico",
     "CriticalFumbleCardButtonTitle": "Sacar uma Carta de Erro Crítico",
     "CriticalHitCardButtonTitle": "Sacar uma Carta de Acerto Crítico",
+    "CurrencyLabel": "Moeda",
     "CurrencyAbbreviations": {
       "cp": "pc",
       "gp": "po",
@@ -1137,6 +1138,7 @@
     },
     "Currency": {
       "cp": "Cobre",
+      "credits": "Créditos",
       "gp": "Ouro",
       "pp": "Platina",
       "sp": "Prata"
@@ -1741,7 +1743,8 @@
             "label": "Tipo de Munição"
           },
           "craftableAs": {
-            "label": "Manufaturável como"
+            "label": "Manufaturável como",
+            "hint": "Os tipos de munição que este item pode produzir. Se estiver vazio, qualquer munição que não seja um carregador pode ser usada na criação."
           }
         },
         "Base": {
@@ -2419,6 +2422,11 @@
         "ShowTokenIcon": "Mostrar ícone no token?",
         "Unidentified": "Não identificado?"
       },
+      "Equipment": {
+        "Category": {
+          "upgrade": "Melhorar"
+        }
+      },
       "FIELDS": {
         "category": {
           "label": "Categoria"
@@ -2514,6 +2522,7 @@
           }
         },
         "Tags": {
+          "RangeN": "Alcance {n} Pés",
           "RangeIncrementN": "Incremento de Alcance {n} Pés"
         }
       },
@@ -2933,7 +2942,8 @@
       "Title": {
         "gift": "Dar {item}",
         "move": "Transferir {item}",
-        "purchase": "Comprar {item}"
+        "purchase": "Comprar {item}",
+        "credits": "Transferir Créditos"
       }
     },
     "ItemsLabel": "Itens",
@@ -4115,6 +4125,7 @@
       }
     },
     "TotalCoinage": "Moedas Totais",
+    "TotalCurrency": "Total de Moedas",
     "TotalWealth": "Riqueza Total",
     "TotalTreasure": "Tesouro Total",
     "TradeDialog": {
