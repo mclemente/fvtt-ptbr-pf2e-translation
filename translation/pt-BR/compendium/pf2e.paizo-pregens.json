@@ -33,6 +33,17 @@
         }
       }
     },
+    "Brave Wanderer": {
+      "items": {
+        "feat->Unmistakable Lore": {
+          "rules": {
+            "0": {
+              "text": "Quando usa Recordar Conhecimento com qualquer subcategoria de Conhecimento em que seja treinado, se rolar um fracassó crítico, obtém um fracassó em vez disso. Se for mestre em uma subcategoria de Conhecimento, em um sucessó crítico você recebe ainda mais informações ou contexto do que o normal."
+            }
+          }
+        }
+      }
+    },
     "Cutie Killstuff": {
       "items": {
         "lore->Warfare Lore": {
@@ -58,6 +69,13 @@
       "items": {
         "lore->Curse Lore": {
           "name": "Saber de Maldições"
+        },
+        "feat->Ancestral Suspicion": {
+          "rules": {
+            "2": {
+              "text": "Quando você obtém sucesso em um teste de resistência contra um efeito que faria você ficar controlado, obtém um sucesso crítico em vez disso."
+            }
+          }
         },
         "feat->Dangerous Sorcery": {
           "name": "Feitiçaria Perigosa",
@@ -253,6 +271,13 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -283,6 +308,31 @@
       "items": {
         "lore->Insect Lore": {
           "name": "Saber de Insetos"
+        }
+      }
+    },
+    "Oraka": {
+      "items": {
+        "feat->Athletic Might": {
+          "rules": {
+            "1": {
+              "text": "Sempre que você obtém sucesso em um teste de Athletics para Escalar ou Nadar, obtém um sucesso crítico em vez disso."
+            }
+          }
+        },
+        "feat->Lie Detector": {
+          "rules": {
+            "1": {
+              "label": "Detector de Mentiras (contra um mentiroso conhecido)"
+            }
+          }
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -339,11 +389,25 @@
       "items": {
         "lore->Forest Lore": {
           "name": "Saber de Florestas"
+        },
+        "feat->Undaunted": {
+          "rules": {
+            "1": {
+              "text": "Quando você rola um sucesso em um teste de resistência contra um efeito emotion, recebe um sucesso crítico em vez disso."
+            }
+          }
         }
       }
     },
     "Reaching Rings (Level 4)": {
       "items": {
+        "feat->Undaunted": {
+          "rules": {
+            "1": {
+              "text": "Quando você rola um sucesso em um teste de resistência contra um efeito emotion, recebe um sucesso crítico em vez disso."
+            }
+          }
+        },
         "lore->Forest Lore": {
           "name": "Saber de Florestas"
         }
@@ -366,6 +430,17 @@
       "items": {
         "lore->Farming Lore": {
           "name": "Saber de Agricultura"
+        },
+        "feat->Heroic Recovery": {
+          "rules": {
+            "1": {
+              "value": {
+                "1": {
+                  "text": "@UUID[Compendium.pf2e.feat-effects.Item.7ogytOgDmh4h2g5d]{Efeito: Recuperação Heroica}"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -407,6 +482,13 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -511,6 +593,17 @@
         },
         "consumable->Scroll of Obscuring Mist (Level 2)": {
           "consumableSpellName": "Bruma Obscurecente"
+        }
+      }
+    },
+    "Zerryd": {
+      "items": {
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     }

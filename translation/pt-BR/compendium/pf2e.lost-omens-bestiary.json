@@ -14,6 +14,9 @@
         "strike-ranged->Rock": {
           "name": "Rocha"
         },
+        "action->Adamantine Body": {
+          "name": "Corpo Adamantino"
+        },
         "action->Draconic Frenzy": {
           "name": "Frenesi Dracônico"
         }
@@ -32,6 +35,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Adamantine Body": {
+          "name": "Corpo Adamantino"
         }
       }
     },
@@ -55,6 +61,12 @@
         },
         "action->Blizzard Evasion": {
           "name": "Blizzard Evasion (Monster of Myth)"
+        },
+        "action->Frostbite Runes": {
+          "name": "Runas de Congelamento"
+        },
+        "action->Curse of the Saumen Kar": {
+          "name": "Maldição do Saumen Kar"
         }
       }
     },
@@ -711,6 +723,7 @@
           "target": "1 criatura"
         },
         "spell->Ignition": {
+          "description": "<p>Você estala os dedos e aponta para um alvo, que começa a arder.\nFaça um teste de ataque com magia contra a CA do alvo, causando\n2d4 de dano de fogo se acertar. Se o alvo estiver ao seu alcance,\nvocê pode escolher fazer um ataque com magia corpo a corpo com\na chama, em vez de um à distância, o que aumenta todos os dados\nde dano da magia para d6</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p>\n<p><strong>Sucesso</strong> O alvo sofre o dano inteiro.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano inicial aumenta em 1d4 e o dano persistente de fogo do acerto crítico aumenta em 1d4..</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>",
           "target": "1 criatura"
         },
         "spell->Message": {
@@ -1236,6 +1249,7 @@
       }
     },
     "Delight Archdragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1255,6 +1269,7 @@
       }
     },
     "Delight Archdragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1271,6 +1286,7 @@
       }
     },
     "Delight Dragon (Adult)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1290,6 +1306,7 @@
       }
     },
     "Delight Dragon (Adult, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1306,6 +1323,7 @@
       }
     },
     "Delight Dragon (Ancient)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1325,6 +1343,7 @@
       }
     },
     "Delight Dragon (Ancient, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1344,6 +1363,7 @@
       }
     },
     "Delight Dragon (Young)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1363,6 +1383,7 @@
       }
     },
     "Delight Dragon (Young, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1621,6 +1642,7 @@
       }
     },
     "Empyreal Archdragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -1640,6 +1662,7 @@
       }
     },
     "Empyreal Archdragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claws": {
           "name": "Garras"
@@ -2055,6 +2078,9 @@
         },
         "strike-melee->Tentacle": {
           "name": "Tentáculo"
+        },
+        "action->Seize": {
+          "name": "Agarrar"
         }
       }
     },
@@ -2065,6 +2091,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Vicious Rend": {
+          "name": "Rasgão cruel"
         }
       }
     },
@@ -2079,6 +2108,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Vicious Rend": {
+          "name": "Rasgão cruel"
         }
       }
     },
@@ -2185,6 +2217,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Forgotten Presence": {
+          "name": "Presença Esquecida"
         }
       }
     },
@@ -2222,6 +2257,9 @@
         },
         "strike-melee->Beak": {
           "name": "Bico"
+        },
+        "action->Gnaw": {
+          "name": "Roer"
         }
       }
     },
@@ -2828,6 +2866,9 @@
         },
         "strike-ranged->Composite Longbow": {
           "name": "Arco Longo Composto"
+        },
+        "action->Pack Attack": {
+          "name": "Ataque de matilha"
         }
       }
     },
@@ -3014,6 +3055,7 @@
       }
     },
     "Pearl Dragonet": {
+      "senses": "visão no escuro",
       "items": {
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -3035,6 +3077,9 @@
           "name": "Unha"
         }
       }
+    },
+    "Pest Drake Swarm": {
+      "senses": "visão no escuro"
     },
     "Phase Archdragon": {
       "items": {
@@ -3467,6 +3512,9 @@
         "strike-melee->Tail": {
           "name": "Cauda"
         },
+        "action->Siphon Life": {
+          "name": "Sifonar vida"
+        },
         "action->Draconic Frenzy": {
           "name": "Frenesi Dracônico"
         },
@@ -3528,6 +3576,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Siphon Life": {
+          "name": "Sifonar vida"
         },
         "lore->Necromancy Lore": {
           "name": "Saber de Necromancia"
@@ -3741,6 +3792,7 @@
           "target": "1 container and its contents, totaling 10 Bulk or less"
         },
         "spell->Truespeech": {
+          "name": "Fala verdadeira",
           "description": "<p> O alvo pode compreender todas as palavras independentemente do idioma e falar os idiomas de outras criaturas. Para lidar com um grupo misto de criaturas, a cada vez que falar, o alvo escolhe uma criatura e fala em um idioma que ela compreenda (mesmo que ele não saiba sequer qual idioma a criatura compreende).</p><hr /><p><strong>Elevada (7º)</strong> A duração é de 8 horas.</p>",
           "target": "1 criatura"
         },
@@ -3790,6 +3842,7 @@
           "description": "<p>Um vendaval violento sai de sua palma, soprando do ponto de onde você estava quando Conjurou esta Magia até a extremidade oposta da linha. O vento extingue pequenas chamas mundanas, dispersa neblina e névoa, leva embora objetos de Volume leve ou menor e empurra objetos maiores. Todas as criaturas Grandes ou menores que estiverem na área precisam fazer um salvamento de Fortitude. Criaturas Grandes ou menores que se moverem para a área da lufada precisam fazer esse teste ao entrar.<p>\n<hr />\n<p><strong>Sucesso crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura não pode se mover contra o vento.</p>\n<p><strong>Falha</strong> A criatura cai @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada}. Se estiver voando, sofre os efeitos de uma falha crítica.</p>\n<p><strong>Falha crítica</strong> A criatura é empurrada 9 metros na direção do vento, é derrubada @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prostrada} e sofre 2d6 de dano contundente.</p>"
         },
         "spell->Ignition": {
+          "description": "<p>Você estala os dedos e aponta para um alvo, que começa a arder.\nFaça um teste de ataque com magia contra a CA do alvo, causando\n2d4 de dano de fogo se acertar. Se o alvo estiver ao seu alcance,\nvocê pode escolher fazer um ataque com magia corpo a corpo com\na chama, em vez de um à distância, o que aumenta todos os dados\nde dano da magia para d6</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p>\n<p><strong>Sucesso</strong> O alvo sofre o dano inteiro.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano inicial aumenta em 1d4 e o dano persistente de fogo do acerto crítico aumenta em 1d4..</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>",
           "target": "1 criatura"
         },
         "spell->Message": {
@@ -3821,6 +3874,7 @@
       }
     },
     "Sage Archdragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -3840,6 +3894,7 @@
       }
     },
     "Sage Archdragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -3891,6 +3946,7 @@
       }
     },
     "Sage Dragon (Ancient)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -3910,6 +3966,7 @@
       }
     },
     "Sage Dragon (Ancient, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -3967,10 +4024,14 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        },
+        "action->Pack Attack": {
+          "name": "Ataque de matilha"
         }
       }
     },
     "Sea Archragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -3984,6 +4045,7 @@
       }
     },
     "Sea Archragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4087,10 +4149,20 @@
         }
       }
     },
+    "Shui Gui": {
+      "items": {
+        "action->Ghostly Grasp": {
+          "name": "Agarre Fantasmagórico"
+        }
+      }
+    },
     "Sié Goluo": {
       "items": {
         "strike-melee->Horn": {
           "name": "Chifre"
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         }
       }
     },
@@ -4229,6 +4301,7 @@
       }
     },
     "Sovereign Archdragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4242,6 +4315,7 @@
       }
     },
     "Sovereign Archdragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4255,6 +4329,7 @@
       }
     },
     "Sovereign Dragon (Adult)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4268,6 +4343,7 @@
       }
     },
     "Sovereign Dragon (Adult, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4281,6 +4357,7 @@
       }
     },
     "Sovereign Dragon (Ancient)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4294,6 +4371,7 @@
       }
     },
     "Sovereign Dragon (Ancient, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -4345,6 +4423,9 @@
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
           "target": "1 criatura"
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         }
       }
     },
@@ -4362,6 +4443,9 @@
         },
         "strike-melee->Fist": {
           "name": "Punho"
+        },
+        "action->Statue": {
+          "name": "Estátua"
         }
       }
     },
@@ -4595,6 +4679,9 @@
       "items": {
         "strike-melee->Pincer": {
           "name": "Pinça"
+        },
+        "action->Feeding Frenzy": {
+          "name": "Frenesi Alimentar"
         }
       }
     },
@@ -4609,6 +4696,7 @@
       }
     },
     "Tidepool Dragonet": {
+      "senses": "visão no escuro",
       "items": {
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -5008,6 +5096,7 @@
       }
     },
     "Vizier Archdragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -5027,6 +5116,7 @@
       }
     },
     "Vizier Archdragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -5043,6 +5133,7 @@
       }
     },
     "Vizier Dragon (Adult)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -5062,6 +5153,7 @@
       }
     },
     "Vizier Dragon (Adult, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -5078,6 +5170,7 @@
       }
     },
     "Vizier Dragon (Ancient)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -5097,6 +5190,7 @@
       }
     },
     "Vizier Dragon (Ancient, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -5155,6 +5249,9 @@
         "strike-melee->Tail": {
           "name": "Cauda"
         },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
+        },
         "action->Draconic Frenzy": {
           "name": "Frenesi Dracônico"
         }
@@ -5167,6 +5264,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         }
       }
     },
@@ -5177,6 +5277,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesi Dracônico"
@@ -5190,6 +5293,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         }
       }
     },
@@ -5200,6 +5306,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesi Dracônico"
@@ -5213,6 +5322,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         }
       }
     },
@@ -5223,6 +5335,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         },
         "action->Draconic Frenzy": {
           "name": "Frenesi Dracônico"
@@ -5236,6 +5351,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Cutting Rebuke": {
+          "name": "Repreensão Ferina"
         }
       }
     },
@@ -5246,6 +5364,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Sweeping Tail": {
+          "name": "Cauda Varredora"
         }
       }
     },
@@ -5657,6 +5778,7 @@
       }
     },
     "Wish Archdragon": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -5673,6 +5795,7 @@
       }
     },
     "Wish Archdragon (Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -5686,6 +5809,7 @@
       }
     },
     "Wish Dragon (Adult)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -5702,6 +5826,7 @@
       }
     },
     "Wish Dragon (Adult, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -5715,6 +5840,7 @@
       }
     },
     "Wish Dragon (Ancient)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -5731,6 +5857,7 @@
       }
     },
     "Wish Dragon (Ancient, Spellcaster)": {
+      "languages": "Fala verdadeira",
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
@@ -5806,6 +5933,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Slither": {
+          "name": "Arrastar"
         }
       }
     }

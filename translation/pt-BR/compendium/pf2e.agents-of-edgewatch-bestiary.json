@@ -207,6 +207,9 @@
         "action->No Escape": {
           "name": "Sem Escapatória"
         },
+        "action->Clobber": {
+          "name": "Pancada"
+        },
         "action->Shatter Defenses": {
           "name": "Estilhaçar Defesas"
         },
@@ -240,6 +243,9 @@
         },
         "action->No Escape": {
           "name": "Sem Escapatória"
+        },
+        "action->Clobber": {
+          "name": "Pancada"
         },
         "action->Shatter Defenses": {
           "name": "Estilhaçar Defesas"
@@ -625,8 +631,14 @@
     },
     "Flying Guillotine": {
       "items": {
+        "action->Flying Blade": {
+          "name": "Lâmina Voadora"
+        },
         "action->Speed": {
           "name": "Velocidade"
+        },
+        "strike-melee->Guillotine Blade": {
+          "name": "Lâmina Guilhotina"
         }
       }
     },
@@ -652,7 +664,10 @@
           {
             "name": "Lança"
           }
-        ]
+        ],
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
+        }
       }
     },
     "Gage Carlyle": {
@@ -776,6 +791,9 @@
     },
     "Graveknight Of Kharnas": {
       "items": {
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
+        },
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
         }
@@ -791,6 +809,9 @@
         },
         "strike-ranged->Crossbow": {
           "name": "Besta Leve"
+        },
+        "action->Cheek Pouches": {
+          "name": "Bolsas da Bochecha"
         },
         "action->Swarming": {
           "name": "Enxameante"
@@ -833,6 +854,9 @@
         },
         "strike-ranged->Crossbow": {
           "name": "Besta Leve"
+        },
+        "action->Dueling Parry": {
+          "name": "Aparar em Duelo"
         }
       }
     },
@@ -928,6 +952,9 @@
         "strike-melee->Claw": {
           "name": "Garra"
         },
+        "action->Collapse": {
+          "name": "Desmoronar"
+        },
         "action->Wall Run": {
           "name": "Correr na Parede"
         },
@@ -959,6 +986,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Storm of Claws": {
+          "name": "Tempestade de Garras"
         }
       }
     },
@@ -1018,6 +1048,9 @@
         },
         "strike-ranged->Crossbow": {
           "name": "Besta Leve"
+        },
+        "action->Cheek Pouches": {
+          "name": "Bolsas da Bochecha"
         },
         "action->Swarming": {
           "name": "Enxameante"
@@ -1145,6 +1178,9 @@
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
+        "action->Riptide": {
+          "name": "Correnteza"
+        },
         "action->Swallow Whole": {
           "name": "Engolir Inteiro"
         },
@@ -1164,6 +1200,9 @@
         },
         "strike-ranged->Dart": {
           "name": "Dardo"
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         },
         "action->Trickster's Ace": {
           "name": "Ás do Trapaceiro"
@@ -1467,6 +1506,9 @@
     },
     "Reginald Vancaskerkin": {
       "items": {
+        "action->Slither": {
+          "name": "Arrastar"
+        },
         "lore->Absalom Lore": {
           "name": "Saber de Absalom"
         },
@@ -1482,6 +1524,13 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        }
+      }
+    },
+    "Rigged Cubby": {
+      "items": {
+        "action->Collapse": {
+          "name": "Desmoronar"
         }
       }
     },
@@ -1573,6 +1622,9 @@
         "strike-ranged->Javelin": {
           "name": "Azagaia"
         },
+        "action->Coordinated Distraction": {
+          "name": "Distração Coordenada"
+        },
         "action->Terrain Advantage": {
           "name": "Vantagem de Terreno"
         }
@@ -1595,6 +1647,12 @@
         },
         "action->Flurry of Blows": {
           "name": "Rajada de Golpes"
+        },
+        "action->Heaven's Thunder": {
+          "name": "Trovão Celestial"
+        },
+        "action->Sky and Heaven Stance": {
+          "name": "Postura do Céu e dos Céus"
         }
       }
     },
@@ -1606,6 +1664,9 @@
               "label": "Quebrado"
             }
           }
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         }
       }
     },
@@ -2016,6 +2077,9 @@
         },
         "action->Consume Flesh": {
           "name": "Consume Flesh (Book of the Dead)"
+        },
+        "action->Swift Leap": {
+          "name": "Salto rápido"
         }
       }
     },
@@ -2043,6 +2107,9 @@
         },
         "strike-ranged->Sling": {
           "name": "Funda"
+        },
+        "action->Rejuvenation": {
+          "name": "Rejuvenescimento"
         }
       }
     },

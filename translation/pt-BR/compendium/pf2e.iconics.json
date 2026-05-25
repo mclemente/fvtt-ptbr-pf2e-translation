@@ -49,6 +49,9 @@
         },
         "class->Animal Companion": {
           "name": "Companheiro Animal"
+        },
+        "feat->Mature Animal Companion": {
+          "name": "Companheiro Animal Maduro"
         }
       }
     },
@@ -88,6 +91,13 @@
         },
         "lore->Sailing Lore": {
           "name": "Saber de Navegação"
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -353,6 +363,16 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Forlorn": {
+          "rules": {
+            "0": {
+              "label": "Contra efeitos de emotion"
+            },
+            "1": {
+              "text": "Se você rolar um sucesso em um teste de resistência contra um efeito de emotion, obtém um sucesso crítico em vez disso."
+            }
+          }
         }
       }
     },
@@ -360,6 +380,23 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Forlorn": {
+          "rules": {
+            "0": {
+              "label": "Contra efeitos de emotion"
+            },
+            "1": {
+              "text": "Se você rolar um sucesso em um teste de resistência contra um efeito de emotion, obtém um sucesso crítico em vez disso."
+            }
+          }
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -367,6 +404,23 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Forlorn": {
+          "rules": {
+            "0": {
+              "label": "Contra efeitos de emotion"
+            },
+            "1": {
+              "text": "Se você rolar um sucesso em um teste de resistência contra um efeito de emotion, obtém um sucesso crítico em vez disso."
+            }
+          }
+        },
+        "feat->Wary Disarmament": {
+          "rules": {
+            "0": {
+              "label": "Desarme Cauteloso (vs. armadilhas)"
+            }
+          }
         }
       }
     },
@@ -428,6 +482,22 @@
     },
     "Samo (Level 1)": {
       "items": {
+        "feat->Musetouched": {
+          "rules": {
+            "0": {
+              "label": "Tocado pela Musa (para Escapar)"
+            },
+            "2": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            },
+            "4": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            },
+            "6": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            }
+          }
+        },
         "lore->Scribing Lore": {
           "name": "Saber Escrita"
         },
@@ -441,6 +511,22 @@
     },
     "Samo (Level 3)": {
       "items": {
+        "feat->Musetouched": {
+          "rules": {
+            "0": {
+              "label": "Tocado pela Musa (para Escapar)"
+            },
+            "2": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            },
+            "4": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            },
+            "6": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            }
+          }
+        },
         "lore->Scribing Lore": {
           "name": "Saber Escrita"
         },
@@ -461,6 +547,22 @@
     },
     "Samo (Level 5)": {
       "items": {
+        "feat->Musetouched": {
+          "rules": {
+            "0": {
+              "label": "Tocado pela Musa (para Escapar)"
+            },
+            "2": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            },
+            "4": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            },
+            "6": {
+              "text": "Quando rola uma falha crítica em um teste para Escapar, obtém uma falha em vez disso, e quando rola um sucesso, obtém um sucesso crítico em vez disso."
+            }
+          }
+        },
         "lore->Scribing Lore": {
           "name": "Saber Escrita"
         },
