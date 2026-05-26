@@ -21,7 +21,8 @@
       "name": "Afixar um Talismã"
     },
     "Aid": {
-      "name": "Auxiliar"
+      "name": "Auxiliar",
+      "description": "<p>Você tenta auxiliar seu aliado em uma tarefa. Para usar essa reação, primeiro você deve se preparar para ajudar, geralmente usando uma ação durante o seu turno. Você deve explicar ao Mestre exatamente como você está tentando ajudar, e ele determinará se você pode ou não.</p><p> Quando você Auxiliar como reação, tente um teste de perícia ou uma rolagem de ataque decidica pelo Mestre. A dificuldade padrão é 15, mas o Mestre pode ajudar a diiculdade para tarefas mais fáceis ou dificeis. O Mestre pode adicionar quaisquer características relevantes à sua ação preparatória ou à sua reação de Ajuda, dependendo da situação, ou até mesmo permitir que você faça testes de Ajuda além de testes de perícia e rolagens de ataque.</p><p><strong>Sucesso Crítico</strong> Você concede ao seu aliado um bônus de circunstância de +2 no alvo. Se você for um mestre com o teste que tentou, o bônus será de +3, e se você for lendário, será de +4.</p><p><strong>Sucesso</strong> Você concede ao seu aliado um bônus de circunstância de +1 no teste alvo.</p><p><strong>Falha Crítica</strong> Seu aliado sofre -1 de penalidade de circunstância no teste alvo.</p>"
     },
     "Anadi Venom": {
       "name": "Veneno de Anadi",
@@ -39,7 +40,8 @@
       "description": "<p><strong>Efeito</strong> Você estala seus dedos. A armadura retorna vestida para seu corpo.</p>"
     },
     "Arrest a Fall": {
-      "name": "Atenuar uma queda"
+      "name": "Atenuar uma queda",
+      "description": "<p><strong>Gatilho</strong> Você cai.</p><p><strong>Exigências</strong> Você possui uma Velocidade de voo.</p><hr><p>Você faz um teste de Acrobatismo para refrear sua queda. Geralmente a CD é 15, mas pode ser maior devido à turbulência do ar ou outros circunstâncias.</p><p><strong>Sucesso</strong> Você cai gentilmente, sem sofrer dano da queda.</p>"
     },
     "Assume a Role": {
       "name": "Assumir uma Função"
@@ -53,7 +55,8 @@
       "selfEffect": "Efeito: Desviar o Olhar"
     },
     "Avoid Notice": {
-      "name": "Evitar Ser Percebido"
+      "name": "Evitar Ser Percebido",
+      "description": "<p>Você faz um teste de Furtividade para evitar ser percebido enquanto se move à metade de sua velocidade de viagem. Se tiver o talento Esgueirar-se Rapidamente, você pode se mover à sua Velocidade total em vez de reduzi-la pela metade, mas continua sem poder usar outra atividade de exploração enquanto o fizer. Se possuir o talento Esgueirador Lendário, você pode mover-se à Velocidade total e usar uma segunda atividade de exploração. Se estiver Evitando Ser Percebido no início de um encontro, você normalmente rola um teste de Furtividade em vez de um teste de Percepção para determinar sua iniciativa e para estabelecer se os inimigos o percebem (baseado em suas CDs de Percepção, como o normal para Esgueirar, independentemente do resultado de seus testes de iniciativa).</p>"
     },
     "Balance": {
       "name": "Equilibrar"
@@ -77,9 +80,6 @@
     "Blizzard Evasion": {
       "name": "Blizzard Evasion (Monster of Myth)"
     },
-    "Blood Feast": {
-      "name": "Festa do Sangue"
-    },
     "Board": {
       "name": "Embarcar",
       "description": "<p><strong>Exigências</strong> Você está adjacente a um ponto de entrada do veículo no qual está tentando embarcar.</p>\n<p>Você embarca em um veículo através de uma abertura, porta, portal ou escotilha; se já estiver a bordo, você pode usar esta ação para desembarcar em um espaço vazio adjacente ao ponto de entrada do veículo. Usar esta ação enquanto o veículo estiver em movimento é desafiador, exigindo um teste bem-sucedido de Acrobatismo ou Atletismo contra a CD do veículo.</p>"
@@ -89,9 +89,6 @@
     },
     "Borrow an Arcane Spell": {
       "name": "Emprestar um Magia Arcana"
-    },
-    "Breath Weapon (Riding Drake)": {
-      "name": "Sopro (Dragonete de Montaria)"
     },
     "Bribe Contact": {
       "name": "Subornar Contato"
@@ -103,7 +100,8 @@
       "name": "Pressão Opressora"
     },
     "Burrow": {
-      "name": "Escavar"
+      "name": "Escavar",
+      "description": "<p><strong>Exigências</strong> Você possui Velocidade de escavação.</p><hr><p>Você cava seu caminho pelo cascalho, areia ou matéria solta similar até sua Velocidade de escavação. Você não pode escavar através de rocha ou outras substâncias mais densas que cascalho a menos que tenha uma habilidade que o permita fazê-lo.</p>"
     },
     "Calculate Threats": {
       "name": "Calculate Threats (Dark Archive)"
@@ -195,7 +193,8 @@
       "name": "Cram (Pathfinder #169)"
     },
     "Crawl": {
-      "name": "Rastejar"
+      "name": "Rastejar",
+      "description": "<p>Você se move 5 pés arrastando-se e continua prostrado.</p>"
     },
     "Create Forgery": {
       "name": "Criar Falsificação"
@@ -224,7 +223,8 @@
       "description": "<p><strong>Trigger</strong> O alvo sofre dano</p>\n<p><strong>Exigências</strong> Você está a até 1,5 quilômetros do alvo</p>\n<hr />\n<p><strong>Efeito</strong> Após calcular a quantidade de dano que o alvo sofreria (aplicando fraquezas, resistências e similares), você perde a mesma quantidade de Pontos de Vida, e o alvo não sofre qualquer dano. Você não pode reduzir a quantidade de Pontos de Vida que você perde dessa maneira. Entretanto, o alvo ainda sofre quaisquer efeitos que seriam transmitidos junto com o dano, como o veneno de um Golpe de presas de uma víbora.</p>"
     },
     "Delay": {
-      "name": "Adiar"
+      "name": "Adiar",
+      "description": "<p>Você espera pelo momento certo de agir. O resto de seu turno ainda não acontece. Em vez disso, você é removido da ordem de iniciativa. Você pode retornar à ordem de iniciativa como uma ação livre acionada pelo final do turno de qualquer outra criatura. Isto muda sua iniciativa permanentemente para a nova posição. Você não pode usar reações até retornar à ordem de iniciativa. Se Adiar por uma rodada inteira sem retornar à ordem de iniciativa, as ações de seu turno Adiado são perdidas, sua iniciativa não muda e seu próximo turno ocorre em sua posição original na ordem de iniciativa.</p><p>Quando adiar, qualquer dano persistente ou outros efeitos negativos que ocorreriam no início ou final de seu turno ocorrem imediatamente quando você usar a ação Adiar. Quaisquer efeitos benéficos que se encerrariam a qualquer momento durante seu turno também são encerrados. O mestre pode determinar que outros efeitos também se encerram quando você Adia. Essencialmente, você não pode Adiar para evitar consequências negativas que aconteceriam em seu turno ou para estender efeitos benéficos que seriam encerrados em seu turno.</p>"
     },
     "Demoralize": {
       "name": "Desmoralizar",
@@ -286,7 +286,8 @@
       "name": "Conduzir"
     },
     "Drop Prone": {
-      "name": "Prostrar"
+      "name": "Prostrar",
+      "description": "<p>Você fica prostrado.</p>"
     },
     "Dueling Counter": {
       "name": "Contramágica de Duelo",
@@ -364,7 +365,8 @@
       "description": "<p>Faça dois Golpes desarmados. Se ambos atingirem a mesma criatura, some seus danos para o propósito de resistências e fraquezas. Aplique sua penalidade por ataques múltiplos normalmente a esses Golpes. Como esta ação possui o traço Floreio, você pode usar Rajada de Golpes somente uma vez por turno.</p>"
     },
     "Fly": {
-      "name": "Voar"
+      "name": "Voar",
+      "description": "<p><strong>Pré-requisitos</strong> Você possui uma Velocidade de voo.</p>\n<hr />\n<p>Você se desloca pelo ar até sua Velocidade de voo. Mover-se para cima (ou diagonalmente) utiliza as regras de movimento em terreno difícil. Você pode mover-se 10 pés (3 m) para baixo para cada 5 pés (1,5 m) de movimento que gastar. Se Voar até o chão, você não sofre dano de queda. Você pode usar uma ação para Voar 0 pés e pairar no mesmo lugar. Se estiver no ar ao final de seu turno e não tiver usado uma ação de Voar nesta rodada, você cai.</p>"
     },
     "Follow the Expert": {
       "name": "Seguir o Especialista"
@@ -441,10 +443,12 @@
       "description": "<p>Você se esforça para mover-se ao dobro de sua velocidade de viagem. Você pode Trotar somente por uma quantidade de minutos igual ao seu modificador de Constituição × 10 (mínimo 10 minutos). Se estiver em um grupo que está Trotando, utilize o menor modificador de Constituição entre todos os membros para determinar por quanto tempo o grupo pode Trotar em conjunto.</p>"
     },
     "Identify Alchemy": {
-      "name": "Identificar Alquimia"
+      "name": "Identificar Alquimia",
+      "description": "<p><strong>Pré-requisitos</strong> Você possui Ferramentas de Alquimista.</p><hr><p>Você pode identificar a natureza de um item alquímico com 10 minutos de testes utilizando suas ferramentas de alquimista. Se sua tentativa for interrompida, você deve começar novamente.</p><p><strong>Sucesso</strong> Você identifica o item e os meios para ativá-lo.</p><p><strong>Falha</strong> Você falha em identificar o item, mas pode tentar novamente.</p><p><strong>Falha Crítica</strong> Você identifica erroneamente o item como sendo outro item da escolha do mestre.<p>"
     },
     "Identify Magic": {
-      "name": "Identificar Magia"
+      "name": "Identificar Magia",
+      "description": "<p>Ao descobrir que um item, local ou efeito contínuo é mágico, você pode gastar 10 minutos para tentar identificar os detalhes da magia. Se sua tentativa for interrompida, você deve começar de novo. O mestre define o DC para o teste. Objetos mágicos amaldiçoados ou esotéricos geralmente têm CDs mais altos, ou podem até ser impossíveis de identificar usando apenas essa atividade. Aumentar uma magia não aumenta o CD para identificá-la.</p><p><strong>Sucesso Crítico</strong> Você descobre todos os atributos da magia, incluindo seu nome (para um efeito), o que ela faz, e quaisquer meios de ativá-la (para um item ou local) e se ela é amaldiçoada.</p>\n<p><strong>Sucesso</strong> Para um item ou local, você tem uma sensação do que ele faz e descobre quaisquer meios de ativá-lo. Para um efeito contínuo (como um feitiço com duração), você descobre o nome do efeito e o que ele faz. Você não pode tentar novamente na esperança de obter um sucesso crítico.</p>\n<p><strong>Falha</strong> Você falha em identificar a magia e não pode tentar novamente por 1 dia.</p>\n<p><strong>Falha Crítica</strong> Você identifica a magia incorretamente como alguma outra coisa à escolha do mestre.</p>"
     },
     "Impersonate": {
       "name": "Personificar"
@@ -458,9 +462,6 @@
     },
     "Inspired Stratagem": {
       "name": "Estratégia Inspirada"
-    },
-    "Instinctive Obfuscation": {
-      "name": "Ofuscação Instintiva"
     },
     "Interact": {
       "name": "Interagir",
@@ -560,7 +561,8 @@
       "name": "Mist Blending (Ancestry Guide)"
     },
     "Mount": {
-      "name": "Montar"
+      "name": "Montar",
+      "description": "<p><strong>Exigências</strong> Você está adjacente a uma criatura que é pelo menos um tamanho maior do que você e que está disposta a ser sua montaria.</p><hr><p>Você se move até a criatura e a cavalga. Se você já estiver montado, pode usar esta ação para desmontar, movendo-se para fora da montaria e ficando em um espaço adjacente a ela.</p>"
     },
     "Mutagenic Flashback": {
       "name": "Retroatividade Mutagência",
@@ -645,7 +647,8 @@
       "selfEffect": "Efeito: Fúria"
     },
     "Raise a Shield": {
-      "name": "Erguer um Escudo"
+      "name": "Erguer um Escudo",
+      "description": "<p>Você posiciona seu escudo para se proteger. Quando tiver Erguido um Escudo, você recebe o bônus de circunstância dele na CA. Seu escudo permanece erguido até o início de seu próximo turno.</p>"
     },
     "Rally": {
       "name": "Mobilizar"
@@ -665,7 +668,8 @@
       "name": "Recall Ammunition (Guns & Gears)"
     },
     "Recall Knowledge": {
-      "name": "Recordar Conhecimento"
+      "name": "Recordar Conhecimento",
+      "description": "<p>Você faz um teste de perícia para tentar se lembrar de alguma informação sobre um assunto relacionado à perícia. Sugira qual perícia você gostaria de usar e faça uma pergunta ao mestre. Ele\ndetermina a CD. Você pode precisar colaborar com o mestre para deixar a pergunta mais específica ou escolher a perícia, e caso não goste das opções, você pode decidir não Recordar Conhecimento antes de se comprometer com a ação.</p><p><strong>Sucesso Crítico</strong> Você se recorda da informação corretamente. O mestre responde à sua pergunta com sinceridade e compartilha informações ou contexto adicionais, ou responde a uma segunda pergunta.</p><p><strong>Sucesso</strong> Você se recorda da informação corretamente. O mestre responde à sua pergunta com sinceridade.</p><p><strong>Falha Crítica</strong> Você se recorda da informação incorretamente. O mestre responde à sua pergunta com uma mentira (ou decide não conceder informação, como em uma falha).</p>"
     },
     "Recall the Teachings": {
       "name": "Recall the Teachings (Dark Archives)"
@@ -684,7 +688,8 @@
       "name": "Refocar"
     },
     "Release": {
-      "name": "Soltar"
+      "name": "Soltar",
+      "description": "<p><p>Você solta algo que está segurando na mão ou mãos. Isso pode ser soltar um item, remover uma mão da arma enquanto continua segurando-a com a outra, largar uma corda presa a um candelabro ou outra ação parecida. Ao contrário da maioria das ações de manuseio, Largar não aciona reações que podem ser acionadas por ações com o traço manuseio (como Golpe Reativo).</p><p>Se quiser preparar-se para Largar algo fora de seu turno, você pode usar a atividade @Uuid[Compendium. pf2e. actionspf2e. dLgAMt3TbkmLkUqE]{Preparar.}</p>"
     },
     "Reloading Strike": {
       "name": "Reloading Strike (Guns & Gears)"
@@ -799,7 +804,8 @@
       "name": "Smoke Blending (Ancestry Guide)"
     },
     "Sneak": {
-      "name": "Esgueirar"
+      "name": "Esgueirar",
+      "description": "<p>Você tenta se mover para outro local ao mesmo tempo que fica ou permanece indetectado. Ande até metade da sua Velocidade (você pode usar Esgueirar-se ao Escalar, Escavar, Nadar ou Voar, em vez de Andar, se tiver o tipo de movimento correspondente, mas move-se até metade da Velocidade utilizada).</p><p>Ao fim do seu movimento, o mestre faz um teste secreto de Furtividade por você e compara o resultado com a CD de Percepção de cada criatura contra a qual você estava escondido ou indetectado no início do movimento. Se você tiver cobertura ou cobertura maior contra a criatura ao longo do movimento, recebe o +2 de bônus de circunstância da cobertura (ou +4, se tiver cobertura maior) nesse teste de Furtividade. Por estar se movendo, melhorias no grau de cobertura (de padrão para maior) não aumentam o bônus fornecido. Você não pode fazer esse teste contra uma criatura se, ao fim do seu movimento, não estiver ocultado ou tiver cobertura, ou cobertura maior contra ela. Nesse caso, você automaticamente se torna observado por ela.</p><p><strong>Sucesso</strong> Você fica indetectado contra a criatura durante o seu movimento e permanece indetectado contra ela após mover-se.</p><p>Você se torna observado assim que fizer qualquer coisa além de Esconder-se, Esgueirar-se ou Dar um Passo. Se você tentar Golpear uma criatura, ela permanece desprevenida contra esse ataque, e você passa a estar observado logo em seguida. Se você fizer qualquer outra coisa, fica observado logo antes de agir, a menos que o mestre determine o contrário. O mestre pode permitir que você faça alguma outra ação particularmente discreta sem ser notado, possivelmente exigindo outro teste de Furtividade. Se falar ou fizer algum barulho deliberadamente alto, você fica escondido, em vez de indetectado.</p><p>Se uma criatura usar Buscar e como resultado torná-lo escondido contra ela, você precisa Esgueirar-se caso queira ficar indetectado contra ela novamente.</p><p><strong>Falha</strong> Um som revelador ou outro sinal denuncia sua posição, embora você ainda não seja visto. Você fica escondido contra a criatura ao longo do seu movimento e permanece assim.</p><p><strong>Falha Crítica</strong> Você é visto! Você fica observado pela criatura ao longo do seu movimento e permanece assim. Se você estiver invisível e escondido contra a criatura, você fica escondido ao longo do movimento, em vez de observado, e permanece assim.</p>"
     },
     "Soaring Flight": {
       "name": "Vôo Altaneiro"
@@ -823,7 +829,8 @@
       "name": "Espremer"
     },
     "Stand": {
-      "name": "Levantar"
+      "name": "Levantar",
+      "description": "<p>Você fica de pé se estava prostrado.</p>"
     },
     "Steal": {
       "name": "Furtar"
@@ -836,7 +843,8 @@
       "name": "Stellar Misfortune (Travel Guide)"
     },
     "Step": {
-      "name": "Dar Um Passo"
+      "name": "Dar Um Passo",
+      "description": "<p>Você se move 5 pés com cuidado. Diferente da maioria dos tipos de movimento, Dar um Passo não aciona reações que possam ser acionadas por ações de movimento ou por sair ou entrar em um quadrado, como Golpe Reativo.</p><p>Você não pode Dar um Passo para um quadrado de terreno\ndifícil nem utilizando uma Velocidade que não seja a sua\nVelocidade terrestre.</p>"
     },
     "Stop": {
       "name": "Parar",
@@ -847,7 +855,8 @@
       "description": "<p>Você se move até sua Velocidade.</p>"
     },
     "Strike": {
-      "name": "Golpear"
+      "name": "Golpear",
+      "description": "<p>Você ataca com uma arma que está empunhando ou faz um ataque desarmado, visando uma criatura ao seu alcance corporal (para um ataque corporal) ou dentro da distância (para um ataque à distância). Faça um teste de ataque usando o modificador de ataque da arma ou ataque desarmado que está usando e compare o resultado com a CA do alvo para determinar o efeito.</p><p><strong>Sucesso Crítico</strong> Você faz a jogada de dano correspondente à sua arma ou ataque desarmado e causa o dobro do dano.</p><p><strong>Sucesso</strong> Você faz a jogada de dano correspondente à sua arma ou ataque desarmado e causa dano.</p>"
     },
     "Study": {
       "name": "Study (Pathfinder #169: Kindled Magic)"
@@ -856,7 +865,8 @@
       "name": "Subsistir"
     },
     "Sustain": {
-      "name": "Sustentar"
+      "name": "Sustentar",
+      "description": "<p>Escolha um dos seus efeitos de duração sustentada ou que liste um benefício especial quando você o Sustenta. A maioria desses efeitos é concedida por magias ou ativações de itens mágicos. Se o efeito tiver duração sustentada, ela é estendida até o fim do seu próximo turno (Sustentar mais de uma vez no mesmo turno não estende a duração para turnos subsequentes). Se uma habilidade puder ser sustentada, mas não indicar por quanto tempo, ela pode ser sustentada por até 10 minutos.</p><p>Alguns efeitos podem listar benefícios adicionais que ocorrem se você Sustentá-los, e isso pode aparecer até mesmo em efeitos que não têm duração sustentada. Se o efeito tiver um benefício especial e duração sustentada, a sua ação Sustentar estende a duração dele e concede o benefício especial.</p><p>Se sua ação Sustentar for interrompida, a habilidade é encerrada.</p>"
     },
     "Swim": {
       "name": "Nadar"
@@ -928,7 +938,8 @@
       "description": "<p><strong>Requerimentos</strong> Você tem pelo menos uma mão livre. O alvo precisa ser no máximo um tamanho maior que você.</p>\n<hr />\n<p>Você tenta derrubar o alvo ao chão. Faça um teste de [[/act trip]]{Atletismo} contra a CD de Reflexos do alvo.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} e sofre 1d6 de dano contundente.</p>\n<p><strong>Sucesso</strong> O alvo cai prostrado.</p>\n<p><strong>Falha crítica</strong> Você perde o equilíbrio e cai prostrado.</p>"
     },
     "Tumble Through": {
-      "name": "Atravessar Acrobaticamente"
+      "name": "Atravessar Acrobaticamente",
+      "description": "<p>Você Anda até sua Velocidade. Durante este movimento, você pode tentar mover-se através do espaço de um inimigo. Faça um teste de Acrobatismo contra a CD de Reflexos do inimigo assim que tentar entrar no espaço dele. Você pode Atravessar Acrobaticamente utilizando Escalar, Nadar, Voar, ou outra ação em vez de Andar no ambiente apropriado.</p><p><strong>Sucesso</strong> Você se move através do espaço do inimigo, tratando os quadrados no espaço dele como terreno difícil (cada 5 pés custam 15 pés de movimento). Se não possuir Velocidade suficiente para mover-se por todo o espaço dele, você obtém o mesmo efeito que em uma falha.<br><strong>Falha</strong> Seu movimento é encerrado e você aciona reações como se tivesse se movido para fora do quadrado em que iniciou seu movimento.</p>"
     },
     "Visions of Sin": {
       "name": "Visões do Pecado"
@@ -973,7 +984,103 @@
     }
   },
   "folders": {
-    "Basic Actions": "Ações Básicas",
-    "Skill Actions": "Ações de Perícia"
+    "Alchemist": "Alquimista",
+    "Assassin": "Assassino",
+    "Athamaru": "Athamaru",
+    "Automaton": "Autômato",
+    "Beast Gunner": "Pistoleiro Bestial",
+    "Celebrity": "Celebridade",
+    "Centaur": "Centauro",
+    "Champion": "Campeão",
+    "Commander": "Comandante",
+    "Conrasu": "Conrasu",
+    "Dandy": "Dândi",
+    "Demolitionist": "Demolidor",
+    "Downtime": "Recesso",
+    "Druid": "Druida",
+    "Dwarf": "Anão",
+    "Elf": "Elfo",
+    "Equipment": "Equipamento",
+    "Exemplar": "Exemplar",
+    "Familiar": "Familiar",
+    "Ghoran": "Ghoran",
+    "Ghost": "Fantasma",
+    "Guardian": "Guardião",
+    "Gunslinger": "Pistoleiro",
+    "Halfling": "Halfling",
+    "Hellknight": "Cavaleiro Infernal",
+    "Hobgoblin": "Hobgoblin",
+    "Influence": "Influenciar",
+    "Inventor": "Inventor",
+    "Investigator": "Investigador",
+    "Kineticist": "Cineticista",
+    "Kitsune": "Kitsune",
+    "Kobold": "Kobold",
+    "Leshy": "Leshy",
+    "Lizardfolk": "Povo-Lagarto",
+    "Magaambyan Attendant": "Discente Magaambyano",
+    "Magus": "Magus",
+    "Merfolk": "Povo-Sereia",
+    "Minotaur": "Minotauro",
+    "Monk": "Monge",
+    "Mythic": "Mítico",
+    "Oracle": "Oráculo",
+    "Orc": "Orc",
+    "Poisoner": "Veneficista",
+    "Psychic": "Psychic",
+    "Ranger": "Patrulheiro",
+    "Red Mantis Assassin": "Assassino do Louva-a-deus Vermelho",
+    "Reflection": "Reflexão",
+    "Rogue": "Ladino",
+    "Samsaran": "Samsaran",
+    "Shisk": "Shisk",
+    "Skeleton": "Esqueleto",
+    "Stamina": "Estamina",
+    "Summoner": "Convocador",
+    "Surki": "Surki",
+    "Swashbuckler": "Espadachim",
+    "Sylph": "Sylph",
+    "Talos": "Talos",
+    "Tanuki": "Tanuki",
+    "Tengu": "Tengu",
+    "Thaumaturge": "Taumaturgo",
+    "Tripkee": "Grippli",
+    "Undead Slayer": "Matador de Mortos-Vivos",
+    "Undine": "Undine",
+    "Vishkanya": "Vishkanya",
+    "Wayang": "Wayang",
+    "Witch": "Bruxo",
+    "Wizard": "Mago",
+    "Zombie": "Zumbi",
+    "Barbarian": "Bárbaro",
+    "Faultspawn": "Faultspawn",
+    "Nagaji": "Nagaji",
+    "Spells": "Magias",
+    "Anadi": "Anadi",
+    "Ardande": "Ardande",
+    "Campaign": "Campanha",
+    "Skill": "Perícia",
+    "Background": "Biografia",
+    "Exploration": "Exploração",
+    "Archetype": "Arquétipo",
+    "Basic": "Básico",
+    "Class": "Classe",
+    "Pirate": "Pirata",
+    "Ancestry": "Ancestralidade",
+    "Aftermath": "Arremate",
+    "Heritage": "Herança",
+    "Pactbound Initiate": "Iniciado sob Pacto",
+    "Bloodrager": "Bloodrager",
+    "Acrobat": "Acrobata",
+    "Ghoul": "Carniçal",
+    "Spellshot": "Magiarma",
+    "Soulforger": "Forjador de Alma",
+    "Scrounger": "Escarafunchador",
+    "Eldritch Archer": "Arqueiro Místico",
+    "Cathartic Mage": "Magista Catártico",
+    "Exorcist": "Exorcista",
+    "Beastmaster": "Mestre das Feras",
+    "Vampire": "Vampiro",
+    "Bullet Dancer": "Dançarino das Balas"
   }
 }
