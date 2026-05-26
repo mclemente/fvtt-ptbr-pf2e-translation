@@ -103,7 +103,8 @@
       "description": "<p>Quando beber um dos seus frascos de campo, você também adquire resistência a dano físico pela mesma duração. A resistência é igual a metade do seu nível.</p>"
     },
     "Advanced Vials (Toxicologist)": {
-      "name": "Frascos Versáteis (Toxicologista)"
+      "name": "Frascos Versáteis (Toxicologista)",
+      "description": "<p>Quando você causar dano a uma criatura utilizando um frasco versátil usado como veneno de ferimento, ela sofre uma quantidade de dano persistente de veneno igual ao dano colateral do frasco, além do dano inicial.</p>"
     },
     "Aerodynamic Construction": {
       "name": "Compleição Aerodinâmica",
@@ -113,21 +114,33 @@
       "name": "Mente Ágil",
       "description": "<p>Você faz jogos mentais e emprega truques cognitivos para se livrar de efeitos que afetem sua mente. Sua graduação de proficiência em salvamentos de Vontade aumenta para mestre. Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico.</p>"
     },
+    "Air Gate": {
+      "name": "Portal do Ar",
+      "description": "<table class=\"pf2-table remaster\">\n<thead>\n<tr>\n<th style=\"text-align:left\">Junção do Portal do Ar</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\"><strong>Explosão Crítica</strong> Empurre o alvo até 10 pés.</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><strong>Resistência Elemental</strong> ar, eletricidade</td>\n</tr>\n<tr></tr>\n<tr>\n<td style=\"text-align:left\"><strong>Junção de Impulso</strong> Antes ou depois dos outros efeitos do impulso, você pode Passear até metade de sua Velocidade ou Dar um Passo. Se você tiver uma Velocidade de voo, pode Voar até metade de sua velocidade de voo em vez disso.</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><strong>Junção de Aura</strong> Você e qualquer aliado que inicie seu turno na aura recebem um bônus de status de +3 metros à Velocidade terrestre até o fim daquele turno, e à Velocidade de voo, se aplicável.</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><strong>Junção de Perícia</strong> Furtividade, @UUID[Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt]{Contrabandista Experiente}</td>\n</tr>\n</tbody>\n</table>"
+    },
     "Alchemical Alacrity": {
       "name": "Entusiasmo Alquímico",
       "description": "<p>Seu conforto em produzir itens é tão grande que você consegue criar três itens ao mesmo tempo. Quando usar a ação @Compendium[pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{Alquimia Rápida}, em vez de gastar um lote de reagentes infundidos para criar um único item, você \npode gastar até três lotes de reagentes infundidos para criar até três itens alquímicos (conforme descrito na ação). Estes itens não precisam ser iguais.</p>"
     },
     "Alchemical Expertise": {
-      "name": "Especialidade Alquímica"
+      "name": "Especialidade Alquímica",
+      "description": "<p>A prática constante aumentou a eficácia de suas misturas. Sua graduação de proficiência na CD de classe de alquimista aumenta para especialista. Além disso, ao reunir reagentes no modo de exploração, você pode recuperar três frascos, em vez de dois.</p>"
     },
     "Alchemical Mastery": {
-      "name": "Maestria Alquímica"
+      "name": "Maestria Alquímica",
+      "description": "<p>Suas misturas são bastante eficazes. Sua graduação de proficiência na CD de classe de alquimista aumenta para mestre.</p>"
     },
     "Alchemical Sciences Methodology": {
-      "name": "Metodologia de Ciências Alquímicas"
+      "name": "Metodologia de Ciências Alquímicas",
+      "description": "<p>Sua metodologia enfatiza a análise química e alquímica, coletando informações de partículas e fluidos incomuns encontrados na cena do crime. Você possui conhecimento alquímico suficiente para preparar alguns extratos para ajudá-lo em seus casos.</p>\n<p>Você é treinado em Manufatura e adquire o talento de perícia @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Manufatura Alquímica}. Você começa com um livro de fórmulas padrão, que contém as fórmulas de dois itens alquímicos comuns de 1º nível à sua escolha (eles devem ser elixires ou ferramentas), além das fórmulas adquiridas com Manufatura Alquímica. Cada vez que adquirir um nível, você aprende a fórmula de um elixir alquímico ou ferramenta alquímica de qualquer nível de item que você possa criar.</p>\n<p>Durante as suas preparações diárias, você pode criar uma quantidade de frascos versáteis igual ao seu modificador de Inteligência. Frascos versáteis são descritos na classe alquimista.</p>\n<p>Você adquire a ação @UUID[Compendium.pf2e.actionspf2e.Item.QHFMeJGzFWj2QczA]{Tintura Rápida}, que pode ser usada para transforar um destes frascos em um elixir ou ferramenta alquímica que você conheça a fórmula. Se tiver a habilidade de criar frascos versáteis a partir de mais de uma fonte (como o arquétipo de multiclasse de alquimista), você pode usar qualquer um de seus frascos versáteis para qualquer habilidade que precise deles.</p>"
     },
     "Alchemical Weapon Expertise": {
-      "name": "Especialidade em Armas Alquímicas"
+      "name": "Especialidade em Armas Alquímicas",
+      "description": "<p>Você treinou para utilizar com mais eficiência as armas que cria em seu laboratório. Sua graduação de proficiência com armas simples, bombas alquímicas e ataques desarmados aumenta para especialista.</p>"
+    },
+    "Alchemical Weapon Mastery": {
+      "name": "Maestria em Armas Alquímicas",
+      "description": "<p>Você dominou completamente as suas armas. Sua graduação de proficiência em armas simples, bombas alquímicas e ataques desarmados aumenta para mestre.</p>"
     },
     "Alchemist Armor Expertise (Level 13)": {
       "name": "Especialidade em Armadura de Alquimista (Nível 13)",
@@ -138,14 +151,24 @@
       "description": "<p>Sua competência com armaduras leves e médias se aprimora, aumentando sua habilidade de esquivar-se de golpes. Suas graduações de proficiência em armaduras leves, médias e defesa sem armadura aumentam para mestre.</p>"
     },
     "Alchemy": {
-      "name": "Alquimia"
+      "name": "Alquimia",
+      "description": "<p>Você entende as reações entre todos os tipos de reagentes e consegue criar itens alquímicos para atender às suas necessidades. Isso pode ser feito usando reagentes comuns e a atividade Manufaturar, ou com substâncias especialmente preparadas que permitem fabricar itens temporários rapidamente e sem custo. Com o tempo, você consegue criar cada vez mais itens alquímicos sem custo, e, conforme cada um vai ficando mais forte, seu poder aumenta drasticamente, deixando para trás aqueles que não entendem sua ciência peculiar.</p>\n<p>Você adquire o talento @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Manufatura Alquímica}, e pode identificar automaticamente itens alquímicos para os quais possui a fórmula.</p>"
     },
     "Alertness": {
       "name": "Prontidão (Nível 3)",
       "description": "<p>A experiência lhe tornou incrivelmente alerta às ameaças ao seu redor, e você reage mais rapidamente ao perigo. Sua graduação de proficiência em Percepção aumenta para especialista.</p>"
     },
+    "All-Consuming Hunger": {
+      "name": "Fome Consumidora",
+      "description": "<p>O vazio dentro de você é uma fome que pressiona sua mente para preenchê-lo, fazendo com que você se fixe poderosamente em uma fonte potencial de energia próxima.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.AdUcSxWFj7IVcVma]{Efeito: Fome Consumidora}</p>\n<p><strong>Consequência Leve</strong> Você vislumbra o pulsar de energia — o calor de um corpo, o cintilar de sinapses, a luz de uma alma — em uma dança bela e cativante. Você fica @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinado} com uma criatura que você acabou de afetar com sua habilidade desviante; se múltiplas criaturas se qualificarem, o Mestre escolhe. Essa fascinação dura 1 minuto ou até o alvo usar uma ação hostil contra você ou seus aliados, como de costume.</p>\n<p><strong>Consequência Moderada</strong> Sua fascinação pelo alvo faz com que você esqueça seus aliados. Como a consequência leve, mas você não trata ninguém como seu aliado (embora eles ainda possam tratá-lo como o deles), o que significa que a fascinação termina apenas se seu alvo usar uma ação hostil contra você.</p>\n<p><strong>Consequência Grave</strong> Sua mente é tomada pelo desejo único e consumidor de se alimentar do alvo. Você fica @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuso}, exceto que seu alvo é sempre a criatura afetada por sua habilidade desviante, contanto que você possa percebê-la.</p>"
+    },
+    "Aloof Firmament": {
+      "name": "Firmamento Distante",
+      "description": "<p>Você é um filósofo da espada que codifica seu estudo do qinggong segundo princípios arcanos e marciais. Sua lâmina ensina moralidade e imortalidade, e você ilustra suas lições com o rigor de um acadêmico. Por meio de seu treinamento, você aprendeu a se mover com graça e criar oportunidades para golpear inimigos.</p>\n<p>Você obtém o talento geral @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{Queda do Gato}, embora se beneficie dele apenas enquanto não estiver usando um escudo e estiver vestindo armadura leve ou nenhuma armadura.</p>\n<p>Enquanto estiver na postura de @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{Cascata Arcana}, seus passos ficam ainda mais leves, concedendo a você os benefícios do talento geral @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{Salto Rápido}. Quando você Voa, @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Salta}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{Salta em Altura} ou @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Salta em Distância} enquanto estiver nessa postura, seu movimento não aciona reações. Se você realizar uma dessas ações, o próximo Golpe que fizer antes do fim do seu turno com uma arma de uma mão do grupo de espadas causa dano maior proveniente da Cascata Arcana. Aumente o dano extra para 4; aumente para 6 se você tiver especialização em armas, ou para 8 se tiver especialização maior em armas. Sua outra mão deve estar completamente livre; o dano extra não se aplica se você tiver uma arma de mão livre ou outro item nessa mão, mesmo que normalmente pudesse usar a mão para outras coisas.</p>\n<p><strong>Magia de Confluxo</strong> @UUID[Compendium.pf2e.spells-srd.Item.2C0ftvzTwYgzb3Qt]{O Céu Ri das Ondas}</p>"
+    },
     "Amulet": {
-      "name": "Amuleto"
+      "name": "Amuleto",
+      "description": "<p>Amuletos são itens carregados para trazer boa sorte e proteção. Seu amuleto pode ser um diagrama mágico, um símbolo religioso, uma parte do corpo preservada como a pata de um coelho, ou uma moeda da sorte. Implementos do tipo amuleto são associados ao naipe de escudos do harrow e aos signos astrológicos da ponte e do ogro.</p>\n<h3><strong>Benefício Iniciante</strong></h3>\n<p>Os aspectos protetores do seu amuleto podem proteger você e seus aliados de dano. Você obtém a reação @UUID[Compendium.pf2e.actionspf2e.Item.Or6RLXeoZkN8CLdi]{Contenção do Amuleto}.</p>\n<h3><strong>Benefício Adepto</strong></h3>\n<p>Seu amuleto oferece proteção contínua. Quando você usa Contenção do Amuleto, você ou seu aliado escolhe um tipo de dano causado pelo ataque que acionou a habilidade e ganha resistência 5 contra aquele tipo de dano até o início do seu próximo turno. No 15º nível, essa resistência residual aumenta de 5 para 10.</p>\n<h3><strong>Intensificar Vulnerabilidade</strong></h3>\n<p>Seu amuleto repele as tentativas da criatura de causar dano a você. Você ganha um bônus de status +2 à CA e aos testes de resistência contra o alvo de sua Explorar Vulnerabilidade.</p>\n<h3><strong>Benefício Paragon</strong></h3>\n<p>Seu amuleto oferece santuário mesmo contra ataques de grande escala. Quando você usa Contenção do Amuleto, você tem como alvo a si mesmo e todos os aliados em um raio de 15 pés. Cada alvo obtém tanto a resistência inicial contra o dano que acionou a habilidade quanto a resistência residual do benefício adepto do seu amuleto; os aliados obtêm a resistência residual mesmo que não tivessem sofrido nenhum do dano inicial que acionou a habilidade.</p>\n<p>Se o ataque do inimigo causar múltiplos tipos de dano, cada alvo pode escolher separadamente o tipo de dano contra o qual obterá resistência residual.</p>"
     },
     "Anathema (Cleric)": {
       "name": "Anátema (Sacerdote)",
