@@ -62,6 +62,8 @@
       "target": "1 criatura"
     },
     "Advanced Scurvy": {
+      "name": "Escorbuto Avançado",
+      "description": "<p>Seu toque afflige o alvo com uma forma avançada de escorbuto, uma doença de marinheiros decorrente de nutrição inadequada. Os sintomas do escorbuto incluem fadiga, dores nas articulações, dentes soltos e hemorragia interna.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 1} por 1 minuto.</p>\n<p><strong>Falha</strong> O alvo é afligido com escorbuto avançado no estágio 1.</p>\n<p><strong>Falha Crítica</strong> O alvo é afligido com escorbuto avançado no estágio 2.</p>\n<p><strong>Escorbuto Avançado</strong> (doença)</p>\n<p><strong>Nível</strong> 4</p>\n<p>por 1 dia após comer fruta fresca, uma criatura ganha um bônus de circunstância +2 em seu próximo teste de salvamento contra esta aflição</p>\n<p><strong>Estágio 1</strong> enfraquecido 1 e o dano causado por efeitos de sangramento persistente aumenta em 1 (1 dia)</p>\n<p><strong>Estágio 2</strong> enfraquecido 1, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigado}, e o dano causado por efeitos de sangramento persistente aumenta em 1d4 (2 dias)</p>\n<p><strong>Estágio 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 2}, fatigado, e o dano causado por efeitos de sangramento persistente aumenta em 1d6 (4 dias)</p>",
       "target": "1 criatura"
     },
     "Aerial Form": {
@@ -74,6 +76,7 @@
     },
     "Agitate": {
       "name": "Agitar",
+      "description": "<p>Você coloca a mente e o corpo do alvo em estado de sobrecarga, forçando-o a ficar inquieto e hiperativo. Durante a duração, o alvo deve usar Passos, Voar ou Nadar pelo menos uma vez por turno ou sofrer 2d8 de dano mental ao final do seu turno. O Mestre pode decidir adicionar ações de movimento adicionais à lista para criaturas que possuam apenas uma forma de movimento mais incomum. A duração deste efeito depende do teste de Vontade do alvo.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A magia não tem efeito.</p>\n<p><strong>Sucesso</strong> A duração é de 1 rodada.</p>\n<p><strong>Falha</strong> A duração é de 2 rodadas.</p>\n<p><strong>Falha Crítica</strong> A duração é de 4 rodadas.</p>\n<hr />\n<p><strong>Elevado (+1)</strong> O dano aumenta em 2d8.</p>",
       "target": "1 criatura"
     },
     "Agonizing Despair": {
@@ -90,14 +93,22 @@
       "description": "<p> O alvo pode caminhar no ar como se fosse chão sólido. Ele pode subir e descer desta forma em um ângulo máximo de 45 graus.</p>",
       "target": "1 criatura"
     },
+    "Airlift": {
+      "name": "Transporte Aéreo",
+      "description": "<p>Uma rajada massiva de vento ergue e carrega brevemente você e tudo ao seu redor até um destino próximo. Você, cada criatura na área e cada item com 10 de Volume ou menos são erguidos por esta poderosa ventania. Você e todas as criaturas e objetos afetados Voam até 60 pés e pousam em uma superfície sólida, chegando na mesma posição relativa entre si. Se não houver espaço suficiente no destino para tudo que você está trazendo, a magia falha, embora o Mestre possa permitir que você reorganize levemente o grupo para acomodar a magia.</p>\n<p>Qualquer participante não voluntário pode tentar um teste de Reflexos para evitar ser carregado junto. O <em>transporte aéreo</em> não carrega itens que estejam fixos no lugar (como uma porta articulada ou uma pessoa acorrentada a uma parede).</p>\n<hr />\n<p><strong>Elevada (6º)</strong> A distância que você Voa aumenta para 120 pés, e o limite de Volume de um item que você pode transportar pelo ar aumenta para 20.</p>"
+    },
     "Alarm": {
       "name": "Alarme",
       "description": "<p>Você protege uma área com um alarme que o alerta quando criaturas entrarem nela sem sua permissão. Quando conjurar alarme, selecione uma senha. Sempre que uma criatura corpórea Pequena ou maior entrar na área da magia sem falar a senha, alarme envia um alerta mental (quando a magia adquire o traço mental) ou emite um alarme audível com o som e volume de um sino de mão (quando a magia adquire o traço auditivo) à sua escolha. Ambas as opções lhe acordam automaticamente, e o sino permite todas as criaturas na área fazerem um teste de Percepção CD 15 para acordar. Uma criatura ciente do alarme deve obter sucesso em um teste de Furtividade contra a CD da magia ou ela aciona a magia quando mover-se para dentro da área.</p><hr /><p><strong>Elevada (3º)</strong> Você pode especificar critérios para quais criaturas fazem o alarme soar — por exemplo, orcs ou pessoas mascaradas.</p>"
     },
     "Albatross Curse": {
+      "name": "Maldição do Albatroz",
+      "description": "<p>Você cria um albatroz espectral, ave guia dos marinheiros, para pairar ao redor do alvo. Você e aliados em um raio de 30 pés do alvo ganham um bônus de circunstância +1 em ataques contra o alvo. A criatura alvo pode gastar uma ação para Golpear o albatroz, o que é bem-sucedido automaticamente e o mata. O alvo deve então tentar um teste de Vontade contra a CD da sua magia.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.b8BZHeuz5jH8E2SG]{Efeito de Magia: Maldição do Albatroz}</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> A culpa de abater uma ave de boa fortuna pesa na mente do alvo. O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 1} por 1 rodada.</p>\n<p><strong>Falha</strong> O albatroz fica pendurado por um cordão no pescoço do alvo (ou equivalente mais próximo) por 1 minuto, amaldiçoando-o por sua transgressão. Durante esse tempo, o alvo deve rolar duas vezes e usar o pior resultado em seu próximo teste de Vontade, após o qual o albatroz desaparece.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Y8OGpgAEgISpTwYd]{Efeito de Magia: Maldição do Albatroz (Falha)}</p>\n<p><strong>Falha Crítica</strong> Como falha, mas a duração é 1 hora.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.jSvpjSGnIVBAuFDu]{Efeito de Magia: Maldição do Albatroz (Falha Crítica)}</p>",
       "target": "1 criatura"
     },
     "All-Encompassing Hunger": {
+      "name": "Fome Abrangente",
+      "description": "<p>Você se estende para devorar uma vida, independentemente de precisar dela para se sustentar. O alvo sofre 1d6 de dano do vazio, com um teste básico de Fortitude. Se a criatura for reduzida a 0 Pontos de Vida, ela morre e você ganha Pontos de Vida temporários iguais ao dano causado. Esses Pontos de Vida temporários duram 1 minuto.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
       "target": "1 criatura viva"
     },
     "Allegro": {
@@ -105,26 +116,73 @@
       "description": "<p>Você performa rapidamente, acelerando seu aliado. O aliado fica @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Acelerado} e pode usar a ação adicional para Andar, Dar um Passo ou Golpear.</p>",
       "target": "1 aliado"
     },
+    "Allfood": {
+      "name": "Alimento Universal",
+      "description": "<p>Você transforma um objeto em uma substância comestível que qualquer criatura viva pode mastigar, engolir e digerir com segurança. Este alimento universal sempre tem um sabor neutro e consistência levemente gelatinosa, independentemente de sua natureza original. 1 volume de alimento universal fornece sustento suficiente para alimentar uma criatura Média por um dia.</p>\n<p>Após 1 dia, se ninguém tiver comido o alimento universal, ele reverte para sua forma original. A maioria das criaturas Pequenas come um quarto do que uma criatura Média come, e a maioria das criaturas Minúsculas come um décimo-sexto, enquanto a maioria das criaturas Grandes come 10 vezes mais, criaturas Imensas precisam de 100 vezes mais, e assim por diante.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> Dobre o volume máximo (até um máximo de 256 volumes no 10º nível).</p>",
+      "heightening": {
+        "3": {
+          "target": "1 objeto sem dono e não mágico com 2 de Volume ou menos"
+        },
+        "4": {
+          "target": "1 objeto sem dono e não mágico com 4 de Volume ou menos"
+        },
+        "5": {
+          "target": "1 objeto sem dono e não mágico com 8 de Volume ou menos"
+        },
+        "6": {
+          "target": "1 objeto sem dono e não mágico com 16 de Volume ou menos"
+        },
+        "7": {
+          "target": "1 objeto sem dono e não mágico com 32 de Volume ou menos"
+        },
+        "8": {
+          "target": "1 objeto sem dono e não mágico com 64 de Volume ou menos"
+        },
+        "9": {
+          "target": "1 objeto sem dono e não mágico com 128 de Volume ou menos"
+        },
+        "10": {
+          "target": "1 objeto sem dono e não mágico com 256 de Volume ou menos"
+        }
+      },
+      "target": "1 objeto sem dono e não mágico com 1 de Volume ou menos"
+    },
     "Alter Reality": {
       "name": "Alterar a Realidade",
       "description": "<p>Você usa seu saber ocultista e o poder de sua mente para manipular o multiverso espiritual, resultando em qualquer um dos efeitos a seguir:</p><ul><li>Duplicar qualquer magia ocultista de 9º nível ou inferior.</li><li>Duplicar qualquer magia não-ocultista de 7º nível ou inferior.</li><li>Produzir qualquer efeito cujo poder seja equivalente ao de qualquer magia ocultista de 9º nível ou inferior ou equivalente ao poder de qualquer magia não-ocultista de 7º nível ou inferior.</li><li>Reverter determinados efeitos que mencionem a magia desejo.</li> </ul><p>A critério do mestre, você pode tentar produzir efeitos maiores, mas isto é perigoso e a magia pode ter um efeito somente parcial.</p> "
     },
     "Amity Cycle": {
-      "primarycheck": "Performance (especialista)"
+      "name": "Ciclo de Amizade",
+      "description": "<p>Você realiza um anbarit, que envolve recitação de poesia, canto, música e dança. O conjurador primário pode atuar como narrador durante toda a apresentação ou ser um dos performers principais. Os conjuradores secundários podem ser dançarinos, músicos ou oradores que participam do anbarit.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> Por 1 semana, todos os membros da audiência e do elenco ganham um bônus de status +2 em testes de Diplomacia para @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Impressionar} em outros cidadãos de Thuvia e 10 Pontos de Vida temporários, com suas mentes preenchidas por sentimentos de unidade e camaradagem com as pessoas de outras cidades de sua nação. Se viajarem para uma cidade thuviana diferente da sua e compartilharem parte do anbarit com outros enquanto estiverem sob os efeitos do ritual, os ouvintes ganham um bônus de status +1 em testes de Diplomacia para Impressionar em outros cidadãos thuvianos por 24 horas.</p>\n<p><strong>Sucesso</strong> Os membros da audiência são tomados por sentimentos de unidade e camaradagem com as pessoas de outras cidades de sua nação; eles ganham um bônus de status +1 em testes de Diplomacia para Impressionar em outros cidadãos de Thuvia por 24 horas.</p>\n<p><strong>Falha</strong> A audiência aprecia a apresentação, mas não obtém nenhum benefício.</p>\n<p><strong>Falha Crítica</strong> A audiência fica perturbada pela apresentação e não pode receber bônus de efeitos de emoção por uma semana.</p>",
+      "primarycheck": "Performance (especialista)",
+      "target": "audiência de até 200 pessoas"
     },
     "Anathematic Reprisal": {
       "name": "Represália Anatemática",
       "description": "<p><strong>Gatilho</strong> Uma criatura executa um ato anátema para sua divindade.</p><hr /><p>Você pune uma criatura que transgrida contra sua divindade, direcionando a angústia que você sente por ver um anátema de sua divindade sendo cometido. Você pode conjurar esta magia somente quando uma criatura cometer ativamente um ato único de anátema. Por exemplo, se criar mortos-vivos for anátema para sua divindade, você poderia usar represália anatemática em um necromante que acabou de criar mortos-vivos na sua frente, mas não em uma criatura morta-viva simplesmente por ela existir. Você causa 4d6 de dano mental ao alvo, mas um salvamento básico de Vontade pode reduzir este dano. Se falhar, ele também fica <a class=\"entity-link\" data-pack=\"pf2e.conditionitems\" data-id=\"e1XGnhKNSQIm5IXg\" draggable=\"true\"><i class=\"fas fa-book-open\"></i> Estupefato</a> 1 por 1 rodada. A criatura fica temporariamente imune por 1 minuto.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
       "target": "a criatura acionadora"
     },
+    "Ancestral Defense": {
+      "description": "<p><strong>Acionamento</strong> Você está prestes a fazer um salvamento de Vontade.</p>\n<hr />\n<p>Os seus ancestrais protegem você contra aqueles que tentam dobrar sua vontade. Você rola o salvamento duas vezes e usa o melhor resultado.</p>"
+    },
     "Ancestral Form": {
-      "name": "Forma Ancestral"
+      "name": "Forma Ancestral",
+      "description": "<p>Você assume a forma de seus espíritos ancestrais, tornando-se @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisível} e quase incorpóreo. Você adquire resistência 10 contra todo dano (exceto força, espiritual e de Golpes com a runa de propriedade @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Toque Fantasma}). Essa resistência é dobrada contra dano mundano ou Golpes que incluam dano de precisão.</p>\n<p>Você ganha uma Velocidade de voo igual à sua Velocidade terrestre. Quando estiver @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Voando}, subir não conta como terreno difícil para você. Você não pode atravessar objetos sólidos, mas pode flutuar através de pequenas frestas.</p>\n<p>Você não pode Conjurar Magias (mas pode @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Sustentá-las}), ativar itens ou usar ações com os traços ataque ou manuseio.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> A resistência aumenta em 5.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.l8HkOKfiUqd3BUwT]{Efeito de Magia: Forma Ancestral}</p>"
     },
     "Ancestral Memories": {
-      "name": "Memórias Ancestrais"
+      "name": "Memórias Ancestrais",
+      "description": "<p>As memórias de conjuradores há muito falecidos concedem o conhecimento a você, deixando suas magias mais impressionantes. Você recebe +1 de bônus de estado na próxima rolagem de ataque com magia que fizer antes do fim do seu turno ou um inimigo a até 60 pés sofre –1 de penalidade de estado no próximo salvamento que fizer contra uma magia que você conjurar antes do fim do seu turno.</p>\n<hr />\n<p><strong>Elevada (5º)</strong> O bônus de estado aumenta para +2 ou a penalidade aumenta para –2.</p>\n<p><strong>Elevada (8º)</strong> O bônus de estado aumenta para +3 ou a penalidade aumenta para –3.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.FlmR5n228jLHuLQG]{Efeito de Magia: Memórias Ancestrais}</p>"
     },
     "Ancestral Touch": {
+      "description": "<p>Você toca uma criatura, forçando-a a ver e sentir a presença dos ancestrais ao seu redor. O alvo sofre 2d4 de dano mental, com os efeitos de acordo com o salvamento de Vontade.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo sofre metade do dano.</p>\n<p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1} e sofre o dano completo.</p>\n<p><strong>Falha Crítica</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 2} e sofre o dobro do dano.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano mental aumenta em 1d4.</p>",
       "target": "1 criatura viva"
+    },
+    "Ancestral Winds": {
+      "name": "Ventos Ancestrais",
+      "description": "<p>Você invoca as mesmas energias que manifestam as tempestades ancestrais, convocando espíritos uivantes para aterrorizar seus inimigos. Criaturas vivas na área sofrem 5d6 de dano do vazio e 1d6 de dano mental e devem tentar um teste de Vontade. Criaturas não vivas são imunes aos efeitos desta magia.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura sofre metade do dano e fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada 1}.</p>\n<p><strong>Falha</strong> A criatura sofre o dano total e fica @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustada 2}.</p>\n<p><strong>Falha Crítica</strong> Como falha, mas a criatura sofre o dobro do dano e fica @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1}.</p>\n<p>A primeira vez a cada rodada que você Sustentar a magia, você pode mover a área até 30 pés dentro do alcance da magia. Criaturas vivas na nova área devem tentar testes de resistência com os mesmos efeitos descritos acima.</p>"
+    },
+    "Ancient Dust": {
+      "name": "Poeira Ancestral"
     },
     "Angelic Halo": {
       "name": "Auréola Angelical"
@@ -672,6 +730,7 @@
     "Concealment's Curtain": {
       "description": "<p>At twilight for 5 days, you line the fruit in front of the mirror, chanting the name of the target, and envisioning its eyes in your mind. At exactly midnight on the last day, you drive the pins through the fruits, miming the action of methodically blinding the target to you and your companions. The target is immediately affected and can't visually detect any of the casters involved in the ritual-provided that the ritual was successful, the target is unaware of the effects. Since the ritual affects the target's ability to see the casters, rather than make the casters @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Invisible}, effects like true seeing are ineffective against concealment's curtain; instead, the target would need to remove the curse with effects like remove curse. To perform this ritual, you must have been within 5 feet of the target at least once, close enough to get a good look at its eyes. The target is temporarily immune to further castings of concealment's curtain for 1 year.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unable to visually detect the casters for the duration, and the target's detection spells don't detect the targets.</p>\n<p><strong>Success</strong> The target is unable to visually detect the casters for the duration, but it's detection spells function normally.</p>\n<p><strong>Failure</strong> The ritual has no effect.</p>\n<p><strong>Critical Failure</strong> The ritual backfires and all casters participating in it are @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for the next 24 hours.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You aren't satisfied with simply concealing yourself from the target. The cost of the ritual mirror increases to 1,000 gp, and a personal effect of the target is required. After completing the ritual, the target takes 6d6 mental damage and is blinded for 1 week, requiring both a remove curse and a restore senses to end the effect early. The target is aware that the ritual was cast on them; however, it doesn't have any additional information.</p>",
       "primarycheck": "Ocultismo",
+      "secondarycheck": "Arcana, Deception, Stealth",
       "target": "1 criatura viva"
     },
     "Concordant Choir": {
@@ -3074,7 +3133,7 @@
     "Roaring Applause": {
       "description": "<p>Your flamboyant flourish invokes such powerful feelings in your audience that you incite cheers and applause. Targets of this spell must be able to see, hear, or otherwise understand you. The targets must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target becomes mildly distracted by your display and applauds while it isn't fully occupied. It can't use reactions.</p>\n<p><strong>Failure</strong> The target applauds you so vigorously that it can't use reactions and is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. The applause is so involved that it has the manipulate trait. This triggers reactions based on the manipulate trait at the start of the target's turn.</p>\n<p><strong>Critical Failure</strong> As failure, plus the target is so distracted by its vigorous applauding of you that it's @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Fascinated} with you.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>",
       "heightening": {
-        "4": {
+        "6": {
           "target": "10 criaturas"
         }
       },
@@ -4139,6 +4198,13 @@
     "Vampiric Maiden": {
       "target": "1 criatura"
     },
+    "Vanishing Tracks": {
+      "heightening": {
+        "4": {
+          "target": "up to 10 creatures"
+        }
+      }
+    },
     "Vapor Form": {
       "target": "1 criatura voluntária"
     },
@@ -4445,18 +4511,9 @@
     }
   },
   "folders": {
-    "10th Rank": "10º Ranque",
-    "1st Rank": "1º Ranque",
-    "2nd Rank": "2º Ranque",
-    "4th Rank": "4º Ranque",
-    "6th Rank": "6º Ranque",
-    "7th Rank": "7º Ranque",
-    "8th Rank": "8º Ranque",
-    "9th Rank": "9º Ranque",
     "Cantrip": "Truque",
+    "Spells": "Magias",
     "Focus": "Foco",
-    "Ritual": "Ritual",
-    "3rd Rank": "3º Ranque",
-    "5th Rank": "5º Ranque"
+    "Rituals": "Rituais"
   }
 }
