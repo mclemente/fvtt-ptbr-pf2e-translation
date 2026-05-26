@@ -1,9 +1,9 @@
 {
   "entries": {
-    "Cocoon of Lucid Potential": {
+    "Amalgamite": {
       "items": {
-        "spell->Soothe": {
-          "target": "1 criatura viva voluntária"
+        "action->Transpose": {
+          "name": "Transpor"
         }
       }
     },
@@ -31,12 +31,15 @@
         }
       }
     },
+    "Kuchisake-Onna": {
+      "items": {
+        "action->Rend": {
+          "name": "Despedaçar"
+        }
+      }
+    },
     "Mother Mitera": {
       "items": {
-        "spell->Dancing Lights": {
-          "name": "Luzes Dançantes",
-          "description": "<p>Você cria até quatro luzes flutuantes, sendo que duas delas não podem estar a mais de 3 metros entre si. Cada uma emana luz como uma tocha. Quando Sustentar a Magia, você pode mover qualquer quantidade de luzes até 18 metros. Cada luz deve permanecer a até 36 metros de você e a até 3 metros de todas as outras, ou se apaga.</p>"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -58,7 +61,17 @@
     "Shrouded Assailant": {
       "hpDetails": "espírito"
     },
-    "Thalassophobic Pool": {
+    "Spectral Fang Paleohemoth": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-ranged->Spectral Flame": {
+          "name": "Chama Espectral"
+        }
+      }
+    },
+    "Thalassophobia Pool": {
       "items": {
         "action->Downpour": {
           "name": "Aguaceiro"
@@ -134,5 +147,8 @@
       "converter": "translateTokenName",
       "path": "prototypeToken.name"
     }
+  },
+  "folders": {
+    "Hazards": "Perigos"
   }
 }
