@@ -50,6 +50,30 @@
       "name": "Benefício Adepto (Regalias)",
       "description": "<p>O poder de suas regalias aumenta, assim como as habilidades que elas concedem. O bônus de circunstância que você obtém em Dissimulação, Diplomacia e Intimidação aumenta para +2, desde que você tenha proficiência mestre em cada perícia. Quando outros usam Seguir o Especialista para seguir você, você concede a eles um bônus de circunstância de +2 se você for treinado, +3 se tiver proficiência especialista, ou +4 se tiver proficiência mestre ou lendário.</p>\n<p>A coragem que sua aura instila torna-se mais forte. O bônus de status +1 agora se aplica a todos os testes de salvamento contra efeitos mentais, em vez de apenas contra medo, e você e seus aliados na sua aura ganham um bônus de status +2 em rolagens de dano. No 11º nível, isso aumenta para um bônus de status +3 em rolagens de dano, e no 17º nível, aumenta para um bônus de status +4 em rolagens de dano.</p>"
     },
+    "Adept Benefit (Shield)": {
+      "description": "<p>Quando você tem seu escudo implementado erguido, você ganha um bônus de status em seus testes de salvamento contra magias e outros efeitos mágicos igual ao seu bônus de circunstância à CA proveniente do seu escudo. Além disso, o dano que você sofre como resultado de uma magia ou efeito mágico enquanto seu @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Erguer um Escudo} pode acionar sua reação de @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Bloqueio com Escudo}, mesmo que o dano não seja físico.</p>"
+    },
+    "Adept Benefit (Tome)": {
+      "name": "Benefício Adepto (Tomo)",
+      "description": "<p>Além dos benefícios iniciantes, seu tomo inscreve percepções sobre criaturas que você pode usar para abatê-las. Enquanto segura seu tomo, no início do seu turno a cada rodada, tente um teste para Recordar Conhecimento sobre uma criatura à sua escolha que você esteja observando. Se esse teste for bem-sucedido, você ganha um bônus de circunstância +1 em sua próxima rolagem de ataque contra aquela criatura antes do início do seu próximo turno.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.vm8Ir6qfvb3BaNUs]{Efeito: Benefício Adepto do Tomo}</p>\n<p>Quando você obtém proficiências temporárias em perícias durante suas preparações diárias, uma delas estará com proficiência especialista e a outra na proficiência mestre. No 9º nível, você tem proficiência mestre em ambas.</p>"
+    },
+    "Adept Benefit (Wand)": {
+      "name": "Benefício Adepto (Varinha)",
+      "description": "<p>Você ganha versatilidade e benefícios adicionais ao disparar sua varinha. O alcance de Arremessar Magia aumenta para 120 pés. Escolha um segundo tipo de dano da lista; sempre que você Arremessar Magia, pode selecionar entre qualquer um dos dois tipos de dano que escolheu. Arremessar Magia tem um efeito adicional se o alvo falhar em seu teste de salvamento e sofrer dano, dependendo do tipo.</p>\n<ul>\n<li><strong>Frio</strong>: O alvo fica resfriado, sofrendo uma penalidade de status de –10 pés em suas Velocidades por 1 rodada. @UUID[Compendium.pf2e.feat-effects.Item.MRPaYmohQ5FZkrZj]{Efeito: Arremessar Magia (Adepto Frio)}</li>\n<li><strong>Eletricidade</strong>: O alvo fica eletrizado, ficando @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Desprevenido} até o fim do seu próximo turno.</li>\n<li><strong>Fogo</strong>: O alvo pega fogo, sofrendo @Damage[1d10[persistent,fire]] (ou @Damage[2d10[persistent,fire]] em uma falha crítica). Se você tiver o benefício paragon de varinha, isso aumenta para @Damage[2d10[persistent,fire]] (ou @Damage[4d10[persistent,fire]] em uma falha crítica).</li>\n</ul>",
+      "rules": {
+        "2": {
+          "value": {
+            "2": {
+              "text": "@UUID[Compendium.pf2e.feat-effects.Item.MRPaYmohQ5FZkrZj]{Efeito: Arremessar Magia (Adepto Frio)}"
+            }
+          }
+        }
+      }
+    },
+    "Adept Benefit (Weapon)": {
+      "name": "Benefício Adepto (Arma)",
+      "description": "<p>Quando seu implemento avança contra seu inimigo, até mesmo uma quase-falha traz a arma perto o suficiente para causar dano. Quando você usa @UUID[Compendium.pf2e.actionspf2e.Item.dnaPJfA0CDLNrWcW]{Interrupção do Implemento} e falha (mas não falha criticamente) no Golpe, você causa 1 de dano do tipo normal da arma, possivelmente aplicando qualquer dano bônus devido à fraqueza do alvo.</p>"
+    },
     "Advanced Alchemy": {
       "name": "Alquimia Avançada"
     },
