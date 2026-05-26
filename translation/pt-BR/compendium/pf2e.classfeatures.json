@@ -35,7 +35,20 @@
       "description": "<p>Seu sino ressoa poderosamente, fazendo com que o efeito dure mais tempo. As condições de @UUID[Compendium.pf2e.actionspf2e.Item.ublVm5gmCIm3eRdQ]{Tocar Sino} duram 3 rodadas em vez de 1.</p>"
     },
     "Adept Benefit (Chalice)": {
-      "name": "Benefício Adepto (Cálice)"
+      "name": "Benefício Adepto (Cálice)",
+      "description": "<p>A essência vital derramada pelo sangue fortalece seu cálice. Se você ou um aliado a até 30 pés sofrer dano perfurante ou cortante de um acerto crítico de um inimigo ou sofrer dano persistente de sangramento, @UUID[Compendium.pf2e.actionspf2e.Item.D91jQs0wleU5ml4K]{Beber do Cálice} antes do final do seu próximo turno concede à criatura ferida uma restauração maior para compensar a vitalidade perdida. Ao beber, os Pontos de Vida temporários concedidos à criatura aumentam para 2 + seu modificador de Carisma + seu nível. Quando esvaziado, o cálice cura a criatura em 5 Pontos de Vida para cada nível que você possui.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Sq558879cgEc1lGC]{Efeito: Benefício Adepto do Cálice (Sí mesmo)}</p>"
+    },
+    "Adept Benefit (Lantern)": {
+      "name": "Benefício Adepto (Lanterna)",
+      "description": "<p>Além dos benefícios de iniciado, quando você segura sua lanterna, sua luz revela os @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisíveis} e os etéreos. A luz brilhante se estende por até 30 pés, com a luz fraca alcançando mais 30 pés. Enquanto você segura sua lanterna, criaturas invisíveis e etéreas dentro da luz brilhante tornam-se visíveis como distorções ondulantes, embora ainda estejam @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultados}. Isso não lhe concede nenhuma habilidade especial para afetar uma criatura no Plano Etéreo, mas garante que você esteja ciente da presença das criaturas.</p>"
+    },
+    "Adept Benefit (Mirror)": {
+      "name": "Benefício Adepto (Espelho)",
+      "description": "<p>Seu reflexo no espelho se despedaça em estilhaços cortantes quando danificado. Enquanto Reflexo do Espelho estiver em efeito, quando um inimigo adjacente a um de seus espaços causar dano a você, aquela versão sua explode em fragmentos de espelho. Isso encerra Reflexo do Espelho (estabelecendo a versão restante de você como a real) e causa dano cortante a todas as criaturas em um @Template[emanation|distance:5] ao redor de onde seu reflexo estava. O dano é igual a @Damage[(2 + floor(@actor.level / 2))[slashing]|options:area-damage]{2 + metade do seu nível} ou ao dano do ataque que acionou a habilidade, o que for menor. Você é imune a este dano.</p>"
+    },
+    "Adept Benefit (Regalia)": {
+      "name": "Benefício Adepto (Regalias)",
+      "description": "<p>O poder de suas regalias aumenta, assim como as habilidades que elas concedem. O bônus de circunstância que você obtém em Dissimulação, Diplomacia e Intimidação aumenta para +2, desde que você tenha proficiência mestre em cada perícia. Quando outros usam Seguir o Especialista para seguir você, você concede a eles um bônus de circunstância de +2 se você for treinado, +3 se tiver proficiência especialista, ou +4 se tiver proficiência mestre ou lendário.</p>\n<p>A coragem que sua aura instila torna-se mais forte. O bônus de status +1 agora se aplica a todos os testes de salvamento contra efeitos mentais, em vez de apenas contra medo, e você e seus aliados na sua aura ganham um bônus de status +2 em rolagens de dano. No 11º nível, isso aumenta para um bônus de status +3 em rolagens de dano, e no 17º nível, aumenta para um bônus de status +4 em rolagens de dano.</p>"
     },
     "Advanced Alchemy": {
       "name": "Alquimia Avançada"
