@@ -732,6 +732,7 @@
         "PersistentPoison": "veneno persistente",
         "PhysicalRangedAttacks": "ataques físicos à distância",
         "PhysicalWeaponsOnly": "físico (somente armas)",
+        "Radiation": "radiação",
         "RangedWeaponAttacks": "ataques à distância com armas",
         "SpellsFromAllTraditions": "magias de todas as tradições",
         "Spirits": "espíritos",
@@ -821,27 +822,63 @@
           "Unusable": "Esta habilidade não é utilizável na sua forma atual."
         },
         "Form": {
-          "Animal": "Animal",
-          "AnimalAerial": "Animal Aéreo",
-          "AnimalAquatic": "Animal Aquático",
-          "AnimalMedium": "Animal Médio",
-          "AnimalSmall": "Animal Pequeno",
-          "AnimalTiny": "Animal Minúsculo",
-          "Ape": "Macaco",
-          "Azuretzi": "Azuretzi",
+          "Ancestry": {
+            "Human": "Humano",
+            "Orc": "Orc"
+          },
+          "Angel": {
+            "Cassisian": "Cassisiano"
+          },
+          "Animal": {
+            "Aerial": "Animal Aéreo",
+            "Animal": "Animal",
+            "Aquatic": "Animal Aquático",
+            "Medium": "Animal Médio",
+            "Small": "Animal Pequeno",
+            "Specific": {
+              "Ape": "Macaco",
+              "Bat": "Morcego",
+              "BatGiant": "Morcego Gigante",
+              "Boar": "Javali",
+              "Cobra": "Serpente",
+              "Coyote": "Coiote",
+              "Dog": "Cachorro",
+              "Dove": "Pombo",
+              "Fish": "Peixe",
+              "Fox": "Raposa",
+              "Lizard": "Lagarto",
+              "Mantis": "Louva-a-deus",
+              "Moose": "Alce",
+              "Octopus": "Polvo",
+              "PorcupineGiant": "Porco-espinho gigante",
+              "RacoonDog": "Cachorro-Guaxinim",
+              "Rat": "Rato",
+              "Raven": "Corvo",
+              "Scorpion": "Escorpião",
+              "Shark": "Tubarão",
+              "Spider": "Aranha",
+              "Tiger": "Tigre",
+              "Wolf": "Lobo",
+              "WolfDire": "Lobo Atroz",
+              "Wasp": "Vespa",
+              "WormCave": "Verme das Cavernas"
+            },
+            "Tiny": "Animal Minúsculo"
+          },
+          "Azata": {
+            "Gancanagh": "Gancanagh"
+          },
           "Barghest": "Bargheste",
-          "Bat": "Morcego",
-          "BatGiant": "Morcego Gigante",
-          "Boar": "Javali",
-          "Cacodaemon": "Cacodaemon",
-          "Cassisian": "Cassisiano",
-          "CaveWorm": "Verme das Cavernas",
-          "Cobra": "Serpente",
-          "Coyote": "Coiote",
-          "Dog": "Cachorro",
-          "Dove": "Pombo",
-          "Dragon": "Dragão",
-          "DryadQueen": "Dríade Rainha",
+          "Daemon": {
+            "Cacodaemon": "Cacodaemon"
+          },
+          "Demon": {
+            "Succubus": "Súcubo"
+          },
+          "Devil": {
+            "Gylou": "Gylou",
+            "Imp": "Diabrete"
+          },
           "Elemental": {
             "Air": {
               "Elemental": "Elemental do Ar",
@@ -877,70 +914,65 @@
               "Small": "Elemental da Madeira Pequeno"
             }
           },
-          "Faydhaan": "Faydhaan",
-          "Fish": "Peixe",
-          "Fox": "Raposa",
-          "Fungus": "Fungo",
-          "Gancanagh": "Gancanagh",
+          "Genie": {
+            "Faydhaan": "Faydhaan",
+            "Ifrit": "Ifrit",
+            "Jaathoom": "Jaathoom",
+            "Jann": "Jann"
+          },
           "Ghost": "Fantasma",
           "Gimmerling": "Gimmerling",
           "Gosreg": "Gosreg",
-          "Gourd": "Cabaça",
-          "Gylou": "Gylou",
           "Hag": "Estriga",
-          "Human": "Humano",
-          "Humanoid": "Humanoide",
-          "HumanoidLarge": "Humanoide Grande",
-          "HumanoidMedium": "Humanoide Médio",
-          "HumanoidSmall": "Humanoide Pequeno",
+          "Humanoid": {
+            "Humanoid": "Humanoide",
+            "Large": "Humanoide Grande",
+            "Medium": "Humanoide Médio",
+            "Small": "Humanoide Pequeno",
+            "Winged": "Humanóide Alado"
+          },
           "Hybrid": "Híbrida",
-          "Ifrit": "Ifrit",
-          "Imp": "Diabrete",
-          "Jaathoom": "Jaathoom",
-          "Jann": "Jann",
-          "Keketar": "Keketar",
           "LamiaMatriarch": "Matriarca Lâmia",
-          "Leshy": "Leshy",
-          "LeshyMob": "Leshy Monstro",
-          "Lizard": "Lagarto",
-          "Mantis": "Louva-a-deus",
-          "Moose": "Alce",
-          "Morrigna": "Morrigna",
-          "Mushroom": "Cogumelo",
-          "NaiadQueen": "Náiade Rainha",
-          "Nymph": "Ninfa",
-          "ObjectTiny": "Objeto Inanimado Minúsculo",
-          "Octopus": "Polvo",
+          "Nymph": {
+            "DryadQueen": "Dríade Rainha",
+            "NaiadQueen": "Náiade Rainha",
+            "Nymph": "Ninfa"
+          },
+          "Object": {
+            "Tiny": "Objeto Inanimado Minúsculo"
+          },
           "Oni": "Oni",
-          "Orc": "Orc",
           "Owlbear": "Urso-Coruja",
-          "Plant": "Planta",
-          "PorcupineGiant": "Porco-espinho gigante",
+          "Plant": {
+            "Fungus": "Fungo",
+            "Gourd": "Cabaça",
+            "Leshy": "Leshy",
+            "LeshyMob": "Leshy Monstro",
+            "Mushroom": "Cogumelo",
+            "Plant": "Planta",
+            "SnappingFlytrap": "Dioneia Abocanhante"
+          },
+          "Protean": {
+            "Azuretzi": "Azuretzi",
+            "Keketar": "Keketar",
+            "Voidworm": "Verme do Vazio"
+          },
+          "Psychopomp": {
+            "Morrigna": "Morrigna"
+          },
           "Pukwudgie": "Pukwudgie",
-          "RacoonDog": "Cachorro-Guaxinim",
-          "RajaKrodha": "Raja-Krodha",
-          "Raktavarna": "Raktavarna",
-          "Rat": "Rato",
-          "Raven": "Corvo",
-          "Scorpion": "Escorpião",
+          "Rakshasa": {
+            "RajaKrodha": "Raja-Krodha",
+            "Raktavarna": "Raktavarna"
+          },
           "SeaSerpent": "Serpente do Mar",
-          "Shark": "Tubarão",
           "Skeleton": "Esqueleto",
-          "SnappingFlytrap": "Dioneia Abocanhante",
-          "Spider": "Aranha",
-          "Succubus": "Súcubo",
           "Tailless": "Sem cauda",
-          "Tiger": "Tigre",
           "Tree": "Árvore",
           "Unicorn": "Unicórnio",
           "Vampire": "Vampiro",
           "Vidileth": "Vidileth",
           "Vilderavn": "Vilderavn",
-          "Voidworm": "Verme do Vazio",
-          "Wasp": "Vespa",
-          "WingedHumanoid": "Humanóide Alado",
-          "Wolf": "Lobo",
-          "WolfDire": "Lobo Atroz",
           "Zombie": "Zumbi"
         },
         "Label": "Forma Atual"
@@ -1011,6 +1043,11 @@
       },
       "Falrok": {
         "LazuriteTerrainSwitch": "Em terrenos infundidos com lazurita"
+      },
+      "FangwoodSentinel": {
+        "ThusAlwaysToTyrants": {
+          "Enemy": "Inimigo"
+        }
       },
       "FatedDoom": {
         "RollOptionLabel": "Primeiro encontro do dia"
@@ -1142,6 +1179,13 @@
           "WeaponPerkPrompt": "Selecione um Traço Para a Arma"
         }
       },
+      "OrtMob": {
+        "Subservience": {
+          "Hustle": "Trotar",
+          "Kill": "Matar",
+          "Rally": "Mobilizar"
+        }
+      },
       "PaleStranger": {
         "TargetMurderedPaleStranger": "Alvo Assassinou o Forasteiro Esquálido",
         "TargetNeverKilled": "Alvo Nunca Assassinou"
@@ -1188,16 +1232,16 @@
           "Label": "Morto-Vivo"
         }
       },
+      "QuantiumGolem": {
+        "Type": {
+          "Emerald": "Esmeralda"
+        }
+      },
       "RaptorGuardWight": {
         "TerrorMaster": "A Guarda de Raptor está usando seu elmo de crânio de dinossauro."
       },
       "RebornDevotee": {
         "RebornDevoteeFocusedAssault": "Número de Perseguidos"
-      },
-      "QuantiumGolem": {
-        "Type": {
-          "Emerald": "Esmeralda"
-        }
       },
       "RuneGiant": {
         "InvokeRune": {
@@ -2415,6 +2459,9 @@
           "Yellow": "Amarelo"
         }
       },
+      "Copaxi": {
+        "AggressiveAntlersStrike": "Chifres"
+      },
       "Cover": {
         "Greater": "Maior",
         "Lesser": "Menor",
@@ -2462,23 +2509,17 @@
         }
       },
       "DragonDisciple": {
-        "DragonChoice": {
-          "Black": "Dragão Negro",
-          "Blue": "Dragão Azul",
-          "Brass": "Dragão de Latão",
-          "Bronze": "Dragão de Bronze",
-          "Copper": "Dragão de Cobre",
-          "Gold": "Dragão Dourado",
-          "Green": "Dragão Verde",
-          "Red": "Dragão Vermelho",
-          "Silver": "Dragão Prateado",
-          "White": "Dragão Branco"
-        },
         "Prompt": "Escolha um Dragão."
       },
       "Druid": {
         "DruidicOrder": {
           "Prompt": "Selecione uma ordem druídica."
+        }
+      },
+      "Dandy": {
+        "DoYouKnowWhoIAm": {
+          "City": "Cidade",
+          "Metropolis": "Metrópole"
         }
       },
       "Dwarf": {
@@ -2549,6 +2590,9 @@
         "BurnIt": {
           "Label": "Taca Fogo!"
         },
+        "Evangelize": {
+          "CriticalSuccess": "O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2} por 1 rodada."
+        },
         "FeyInfluence": {
           "Anteater": "Tamanduá",
           "CursedBluebird": "Azulão Amaldiçoado",
@@ -2557,6 +2601,11 @@
           "Gremlin": "Gremlin",
           "Monarch": "Monarca",
           "Unicorn": "Unicórnio"
+        },
+        "SkillMastery": {
+          "Special": {
+            "Title": "Especial"
+          }
         }
       },
       "Fetchling": {
@@ -2701,9 +2750,6 @@
         }
       },
       "Human": {
-        "SaocAstrology": {
-          "Prompt": "Selecione a penalidade ou bônus de circunstância que você obteve ao usar a ação Astrologia Saoc."
-        },
         "VikingShieldbearer": {
           "Prompt": "Selecione uma arma para se tornar treinado."
         }
@@ -2800,9 +2846,9 @@
         },
         "AdvancedMonasticWeaponry": "Armas Monásticas Avançadas",
         "AdvancedTenguWeapons": "Armas de Tengu Avançadas",
+        "HellknightBreastplate": "Placa peitoral do Cavaleiro Infernal",
         "MartialAzarketiWeapons": "Armas marciais de Azarketi",
         "MartialConrasuWeapons": "Armas maciais de Conrasu",
-        "MartialGnollWeapons": "Armas Marciais de Gnoll",
         "MartialGnomeWeapons": "Armas Marciais de Gnomo",
         "MartialGoblinWeapons": "Armas Marciais de Goblin",
         "SimpleMartialBows": "Arcos Simples & Marciais"
@@ -2823,6 +2869,11 @@
       "Monk": {
         "FiveGodsRam": {
           "RollOptionLabel": "Aríete dos Cinco Deuses"
+        }
+      },
+      "Moyishuu": {
+        "Soulfeel": {
+          "Sorrow": "Mágoa"
         }
       },
       "Multitalented": {
@@ -2983,6 +3034,11 @@
           "Label": "Caçador Magistral"
         }
       },
+      "Raxilite": {
+        "Inheritor": {
+          "Emissary": "Emissário"
+        }
+      },
       "RivethunInvoker": {
         "InvokeOffense": {
           "Label": "Invocar Ofensiva"
@@ -3121,6 +3177,7 @@
         "Artistry": "Arte",
         "Blacksmithing": "Ferraria",
         "Bookmaking": "Fabricação de Livro",
+        "Engineering": "Engenharia",
         "Glassmaking": "Fabricação de Vidro",
         "Leatherworking": "Couraria",
         "Pottery": "Cerâmica",
@@ -3293,6 +3350,11 @@
       "UntamedShift": {
         "Wings": "Asas"
       },
+      "Urog": {
+        "CrystalCarapace": {
+          "Shell": "Concha"
+        }
+      },
       "VirtuosicPerformer": {
         "Acting": "Atuação",
         "Comedy": "Comédia",
@@ -3401,7 +3463,8 @@
       "Plains": "Planícies",
       "Sky": "Céu",
       "Swamp": "Pântano",
-      "Underground": "Embaixo da terra"
+      "Underground": "Embaixo da terra",
+      "ZeroGravity": "Zero Gravity"
     },
     "UI": {
       "RuleElements": {
@@ -3435,6 +3498,64 @@
         "TokenMark": {
           "TargetToken": "Mire em um token passando o mouse sobre um deles e pressionando T. Pressione ESC para cancelar.",
           "Timeout": "Criação do efeito cancelada por falta de alvo."
+        }
+      }
+    }
+  },
+  "SF2E": {
+    "NPCAbility": {
+      "Atlapak": {
+        "AerialBuoyancy": {
+          "None": "Nenhuma",
+          "Normal": "Normal"
+        }
+      },
+      "WaywardWarp": {
+        "WarpField": {
+          "Earth": "Terra",
+          "Water": "Água"
+        }
+      }
+    },
+    "SpecificRule": {
+      "Barathu": {
+        "RuggedExplorer": {
+          "Shell": "Concha"
+        }
+      },
+      "Dragonkin": {
+        "Moodscales": {
+          "Note": "Se você rolar um sucesso em um teste de resistência contra um efeito de emotion, obtém um sucesso crítico em vez disso."
+        }
+      },
+      "Equipment": {
+        "SolarianCrystals": {
+          "WeaponPotency": {
+            "Label": "Potência de Arma"
+          }
+        },
+        "Upgrades": {
+          "Weapon": {
+            "FearProjector": {
+              "CriticalNoteCommercial": "Quando você acerta criticamente com esta arma, o alvo se torna @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustou 1}.",
+              "CriticalNoteTactical": "Quando você acerta criticamente com esta arma, o alvo se torna @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Assustou 2}."
+            },
+            "ShockModule": {
+              "CriticalNote": "Em um golpe crítico, Arcos de eletricidade saem para causar dano de eletricidade em até duas outras criaturas de sua escolha dentro de 10 pés do alvo."
+            }
+          }
+        }
+      },
+      "Hellknight": {
+        "Order": {
+          "Chain": "Malha"
+        }
+      },
+      "Mystic": {
+        "XenodruidBond": {
+          "Order": {
+            "Animal": "Ordem Animal"
+          }
         }
       }
     }
