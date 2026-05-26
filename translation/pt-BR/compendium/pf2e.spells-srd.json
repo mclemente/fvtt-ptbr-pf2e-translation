@@ -1,11 +1,17 @@
 {
   "label": "Magias",
   "entries": {
+    "500 Toads": {
+      "name": "500 Sapos",
+      "description": "<p>Você conjura centenas de sapos mágicos para preencher a área e fazê-los saltar por aí. A vasta quantidade de sapos saltitantes fornece peso e altura suficientes para que as criaturas acionem qualquer armadilha em potencial na área que possa ser acionada pelo peso, movimento ou posição de uma criatura Média. A área é terreno difícil, e a magia reconstrói quaisquer sapos destruídos por armadilhas para manter a área cheia de sapos durante a duração do feitiço.</p>"
+    },
     "Aberrant Form": {
-      "name": "Forma Aberrante"
+      "name": "Forma Aberrante",
+      "description": "<p>Reunindo o poder de entidades vis, você se transforma na forma de batalha de uma aberração Grande. Você deve ter espaço suficiente para se expandir ou a magia é perdida. Quando conjurar esta magia, escolha chuul, gogiteth, gug ou otyugh. Enquanto estiver nesta forma, você adquire o traço aberração. Você pode Dispensar esta magia.</p>\n<p>Você recebe as estatísticas e habilidades a seguir independentemente de qual forma de batalha escolher.</p>\n<ul>\n<li>CA = 18 + seu nível. Ignore a penalidade em testes e redução de Velocidade de sua armadura.</li>\n<li>13 Pontos de Vida temporários.</li>\n<li>Visão no escuro.</li>\n<li>Um ou mais ataques desarmados corpo a corpo específicos para a forma de batalha escolhida, que são os únicos ataques que pode usar. Você é treinado com eles. Seu modificador de ataque é +18 e você usa o dano listado. Estes ataques são baseados em Força (para o propósito da condição enfraquecido, por exemplo). Se seu modificador de ataque para ataques desarmados for maior, você pode utilizá-lo em vez do modificador concedido pela magia.</li>\n<li>+20 de modificador de Atletismo, exceto se o seu próprio modificador for maior.</li>\n</ul>\n<p>Você também recebe habilidades específicas baseadas na forma escolhida:</p>\n<ul>\n<li>\n<p><strong>Chuul</strong></p>\n<ul>\n<li>Velocidade 30 pés, natação 25 pés;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> garra (alcance 10 pés), <strong>Dano</strong> 2d8+8 contundente e você pode gastar uma ação após acertar para Atracar o alvo.</li>\n</ul>\n</li>\n<li>\n<p><strong>Gogiteth</strong></p>\n<ul>\n<li>Velocidade 40 pés, escalada 30 pés;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> mandíbulas, <strong>Dano</strong> 2d10+8 perfurante e você pode gastar uma ação após acertar para Atracar o alvo;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> perna (ágil, alcance 10 pés), <strong>Dano</strong> 2d6+8 perfurante.</li>\n</ul>\n</li>\n<li>\n<p><strong>Gug</strong></p>\n<ul>\n<li>Velocidade 40 pés, escalada 20 pés;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> mandíbulas (alcance 10 pés), <strong>Dano</strong> 2d12+8 perfurante;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> garra (ágil, alcance 10 pés), <strong>Dano</strong> 2d8+8 cortante;</li>\n<li>Suas juntas múltiplas lhe permitem caber em um espaço como se fosse uma criatura Média.</li>\n</ul>\n</li>\n<li>\n<p><strong>Otyugh</strong></p>\n<ul>\n<li> +2 de bônus de circunstância em salvamentos contra doença;</li>\n<li>Velocidade 20 pés;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> mandíbulas, <strong>Dano</strong> 3d6+8 perfurante;</li>\n<li><strong>Corpo a Corpo</strong> <span class=\"action-glyph\">1</span> tentáculo (ágil, alcance 10 pés), <strong>Dano</strong> 2d6+8 contundente.</li>\n</ul>\n</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.OH3sdHE6xWwOjq9v]{Efeito de Magia: Forma Aberrante}</p>\n<hr />\n<p><strong>Elevada (6º)</strong> Sua forma de batalha é Enorme, e o alcance de seus ataques aumenta em 1,5 metros. Você deve ter espaço suficiente para se expandir ou a magia é perdida. Você recebe CA = 21 + seu nível, 26 PV temporários, +22 de modificador de ataque, +13 de bônus de dano e +23 de Atletismo.</p>"
     },
     "Aberrant Whispers": {
       "name": "Sussurros Aberrantes",
+      "description": "<p>Você pronuncia frases em uma língua desconhecida, atacando as mentes daqueles ao seu redor. Cada alvo deve fazer um salvamento de Vontade. Independentemente do resultado do salvamento, cada alvo fica temporariamente imune por 1 minuto. Para cada ação adicional usada ao Conjurar esta Magia, aumente o raio da emanação em 5 pés.</p>\n<p><strong>Sucesso</strong> O alvo não é afetado.</p>\n<p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Estupefato 2}.</p>\n<p><strong>Critical Failure</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confuso}.</p>\n<hr />\n<p><strong>Elevada (+3)</strong> O raio inicial aumenta em 5 pés.</p>",
       "target": "cada adversário na área"
     },
     "Abyssal Plague": {
@@ -14,6 +20,8 @@
       "target": "1 criatura"
     },
     "Accelerated Decomposition": {
+      "name": "Decomposição Acelerada",
+      "description": "<p>Você acelera o processo natural de declínio e debilitação de uma criatura. À medida que seu corpo definha, o alvo sofre 9d6 de dano do vazio e deve fazer um teste de Fortitude.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo sofre metade do dano e fica à sua escolha entre @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drenado 1} ou @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfraquecido 1} por 1 rodada.</p>\n<p><strong>Falha</strong> O alvo sofre dano total e fica desajeitado 1, drenado 1 e enfraquecido 1 por 1 rodada.</p>\n<p><strong>Falha Crítica</strong> A criatura sofre dano dobrado e fica desajeitada 1, drenada 1 e enfraquecida 1 por 1 minuto.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano do vazio aumenta em 1d6.</p>",
       "target": "1 criatura"
     },
     "Achaekek's Clutch": {
@@ -27,10 +35,12 @@
     },
     "Acid Grip": {
       "name": "Aperto Ácido",
+      "description": "<p>Uma mão efêmera e com garras aperta o alvo, queimando-o com ácido mágico. O alvo sofre 2d8 de dano de ácido mais @Damage[floor(@item.level/2)d6[persistent,acid]], dependendo do salvamento de Reflexos. Quem estiver sofrendo do dano persistente de ácido desta magia sofre uma penalidade de –10 pés na Velocidade. @UUID[Compendium.pf2e.spell-effects.Item.6TGcfVyzzVHEo7ke]{Efeito de Magia: Aperto Ácido}</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura sofre metade do dano, nenhum dano persistente, e a garra a move até 5 pés em uma direção a sua escolha.</p>\n<p><strong>Falha</strong> A criatura sofre o dano inteiro e o dano persistente, e a garra move-a até 10 pés em uma direção da sua escolha.</p>\n<p><strong>Falha crítica</strong> A criatura sofre o dobro do dano e o dano persistente total, e a garra a move até 6 metros em uma direção a sua escolha.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> O dano inicial aumenta em 2d8 e o dano persistente de ácido aumenta em 1d6.</p>",
       "target": "1 criatura"
     },
     "Acid Splash": {
       "name": "Jorro Ácido",
+      "description": "<p>Você lança um globo de ácido que respinga em criaturas e objetos. Faça um ataque de magia. Se acertar, você causa 1d6 de dano de ácido mais 1 de dano de ácido de respingo. Em um sucesso crítico, o alvo também sofre @Damage[(ceil(@item.level/2))[persistent,acid]] de dano persistente de ácido.</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O dano inicial aumenta para 1d6 + o modificador de seu atributo de conjuração e o dano persistente aumenta para 2.</p>\n<p><strong>Elevada (5º)</strong> O dano inicial aumenta para 2d6 + o modificador de seu atributo de conjuração, o dano persistente aumenta para 3 e o dano de respingo aumenta para 2.</p>\n<p><strong>Elevada (7º)</strong> O dano inicial aumenta para 3d6 + o modificador de seu atributo de conjuração, o dano persistente aumenta para 4 e o dano de respingo aumenta para 3.</p>\n<p><strong>Elevada (9º)</strong> O dano inicial aumenta para 4d6 + o modificador de seu atributo de conjuração, o dano persistente aumenta para 5 e o dano de respingo aumenta para 4.</p>",
       "target": "1 criatura"
     },
     "Acid Storm": {
@@ -41,10 +51,12 @@
       "name": "Explosão Ácida"
     },
     "Adapt Self": {
-      "name": "Adaptar-se"
+      "name": "Adaptar-se",
+      "description": "<p>Você faz mudanças sutis em seu corpo para se adaptar à situação. Escolha uma das seguintes opções que se aplica a você.</p>\n<ul>\n<li>Se você estiver na água, você ganha uma Velocidade de Natação igual à metade da sua Velocidade. @UUID[Compendium.pf2e.spell-effects.Item.2SWUzp4JuNK5EX0J]{Efeito de Magia: Adaptar-se (Natação)}</li>\n<li>Se você estiver na água, você se torna capaz de respirar debaixo d'água.</li>\n<li>Se estiver muito escuro para você enxergar, você ganha visão no escuro. @UUID[Compendium.pf2e.spell-effects.Item.0gv9D5RlrF5cKA3I]{Efeito de Magia: Adaptar-se (Visão no Escuro)}</li>\n<li>Se você estiver em um ambiente de calor ou frio extremos, você estará protegido dos efeitos do calor ou frio extremos, e a magia dura 10 minutos.</li>\n</ul>"
     },
     "Adaptive Ablation": {
-      "name": "Ablação Adaptativa"
+      "name": "Ablação Adaptativa",
+      "description": "<p><strong>Acionamento</strong> Você sofre dano de ácido, frio, eletricidade, fogo ou sônico.</p>\n<hr />\n<p>Você se adapta às ondas místicas do dano energético, protegendo-se de danos adicionais. Você ganha resistência 5 ao tipo de energia que desencadeou o efeito; você ganha essa resistência depois de sofrer o dano desencadeador, portanto, ela se aplica apenas a danos futuros que você sofrer durante a duração.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.6GAztnHuQSwAp1k1]{Efeito de Magia: Ablação Adaptativa}</p>\n<hr />\n<p><strong>Elevada (+2)</strong> A resistência aumenta em 5.</p>"
     },
     "Admonishing Ray": {
       "target": "1 criatura"
