@@ -72,7 +72,7 @@
         },
         "action->Focused Assault": {
           "name": "Focused Assault",
-          "description": "<p>The hydra attacks a single target with its heads, overwhelming its foe with multiple attacks and leaving almost nowhere to dodge. The hydra Strikes with its fangs. On a successful attack, the hydra deals damage from its fangs Strike to the target, plus an additional [[/r 1d6]] damage for every head it has beyond the first. Even on a failed attack, the hydra deals the damage from one fangs Strike to the target creature, though it still misses completely on a critical failure. This counts toward the hydra's multiple attack penalty as a number of attacks equal to the number of heads the hydra has.</p>"
+          "description": "<p>The hydra attacks a single target with its heads, overwhelming its foe with multiple attacks and leaving almost nowhere to dodge. The hydra Strikes with its fangs. On a successful attack, the hydra deals damage from its fangs Strike to the target, plus an additional 1d6 damage for every head it has beyond the first. Even on a failed attack, the hydra deals the damage from one fangs Strike to the target creature, though it still misses completely on a critical failure. This counts toward the hydra's multiple attack penalty as a number of attacks equal to the number of heads the hydra has.</p>"
         },
         "action->Storm of Jaws": {
           "name": "Storm of Jaws",
@@ -169,7 +169,7 @@
         },
         "action->Poison Stock": {
           "name": "Poison Stock",
-          "description": "<p>When the cabinet hits a creature with its poison bottle Strike, roll [[/gmr 1d4]] to determine what kind of poison splashes onto the struck creature:</p>\n<ol>\n<li>nerve poison (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1})</li>\n<li>weakening poison (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1})</li>\n<li>noxious poison (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1})</li>\n<li>clouded mind poison (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}).</li>\n</ol>\n<p>The target must attempt a @Check[fortitude|dc:24|traits:poison] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unafected.</p>\n<p><strong>Success</strong> The creature takes @Damage[1d6[poison]].</p>\n<p><strong>Failure</strong> The creature takes @Damage[2d6[poison]] and is aficted with the rolled poison's associated condition until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[2d6[poison]] and is aficted with the rolled poison's associated condition for [[/gmr 1d4+1 #Rounds]] rounds.</p>"
+          "description": "<p>When the cabinet hits a creature with its poison bottle Strike, roll [[/gmr 1d4]] to determine what kind of poison splashes onto the struck creature:</p>\n<ol>\n<li>nerve poison (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1})</li>\n<li>weakening poison (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1})</li>\n<li>noxious poison (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1})</li>\n<li>clouded mind poison (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}).</li>\n</ol>\n<p>The target must attempt a @Check[fortitude|dc:24|traits:poison] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[1d6[poison]].</p>\n<p><strong>Failure</strong> The creature takes @Damage[2d6[poison]] and is afflicted with the rolled poison's associated condition until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[2d6[poison]] and is afflicted with the rolled poison's associated condition for [[/gmr 1d4+1 #Rounds]] rounds.</p>"
         }
       }
     },
@@ -433,9 +433,6 @@
       "blurb": "Female centaur",
       "publicNotes": "<p>Centaurs are legendary hunters and trackers who resemble heavily muscled humans with the bodies of powerful horses from the waist down. They are typically reclusive but haughty, quick to assume that their handsome physiques and long history of cultural traditions make them superior to any two-legged folk they encounter. While stories of bloody clashes between centaurs and humanoid settlers are well known, centaurs are neither intrinsically bloodthirsty nor recklessly aggressive. Rather, they are proud and stubborn and do not take kindly to outsiders who encroach on their ancestral grounds, some of which have been ruled by centaurs for thousands of years. Against despoilers of nature who fail to heed their warnings, centaurs do not hesitate to use their finely honed hunting skills to inflict deadly wounds.</p>\n<p>Centaurs train with weapons as well as their heavy hooves, and the thunder of centaurs charging across the plains is often mistaken for a stampede or even an earthquake. Despite their insular nature, some centaurs form close alliances with elves, fey, gnomes, and isolated human communities. Such allies are often surprised to learn the depths of centaurs' honor, pragmatism, and wilderness lore. Rarely, a centaur leaves its tribe to travel the wider world. Such lone centaur wanderers more easily integrate into humanoid societies, but other centaurs are quick to assume that some dishonor led to their exile and thus give such vagabonds a wide berth.</p>\n<p>Centaurs have incredible variation in their individual size and coloration. Their upper bodies are fairly similar within a tribe and even region, but their lower bodies-like those of horses-can vary widely from parent to child. Most centaurs are at least 7 feet tall and weigh more than 2,000 pounds.</p>\n<p>Centaurs live in groups of dozens of members, usually led by an old, powerful seer or battle-hardened warrior who has carried out many noble deeds and earned a lifetime of respect from their comrades. The revered leader guides the habits of their entire group; a wise seer might encourage the tribe to roam far from civilization to preserve the ways of its ancestors, while an aggressive warrior might foster skirmishes with nearby humanoid settlements and even rival centaur groups.</p>",
       "items": {
-        "equipment->Cloak of Gnawing Leaves": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.equipment-srd.Item.RxBVbQEd4DArkpKl]\n<p>This cloak appears to be woven from a thousand living leaves, hungry for flesh and eager to defend the cloak's wearer.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">r</span> envision</p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are damaged by a melee attack from an adjacent creature</p>\n<hr />\n<p><strong>Effect</strong> The leaves lash out at your attacker, rising up to reveal snapping jaws made of wicked thorns. The triggering creature must attempt a @Check[reflex|dc:17] saving throw.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[1d4[piercing]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[2d4[piercing]] and @Damage[1[bleed]].</p>"
-        },
         "equipment->Horse Skull Helmet": {
           "name": "Horse Skull Helmet"
         },
@@ -638,7 +635,7 @@
         },
         "action->Stench": {
           "name": "Stench",
-          "description": "<p>30 feet, @Check[fortitude|dc:19]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
+          "description": "<p>30 feet. @Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
         },
         "action->Constrict": {
           "name": "Constrict",
@@ -723,13 +720,13 @@
     },
     "Dream-Poisoned Door": {
       "name": "Dream-Poisoned Door",
-      "description": "<p>Eerie shapes manifest within the doorway as it's opened, conjuring a group of four @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Y9SDbANT1DWI1DKU]{Animate Dreams} into being.</p>",
+      "description": "<p>Eerie shapes manifest within the doorway as it's opened, conjuring a group of four @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.r3PNRpEir4BVjnCC]{Animate Dreams} into being.</p>",
       "disable": "<p>@Check[occultism|dc:30] (expert) to concentrate on the eldritch energies and diffuse them through meditation, @Check[thievery|dc:35] (master) to scratch warding runes along the door's hinges and block dreams from manifesting, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 30) to counteract the trap</p>",
       "stealth": "<p>(master)</p>",
       "items": {
         "action->Manifest Dream Guardians": {
           "name": "Manifest Dream Guardians",
-          "description": "<p><strong>Trigger</strong> The door is opened</p>\n<hr />\n<p><strong>Effect</strong> A group of four @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Y9SDbANT1DWI1DKU]{Animate Dreams} manifest in the area just beyond the door. These four animate dreams each appear as vaguely whale-shaped but human-sized masses of tendrils. They swim through the air and attack the intruders at once, fighting to the death and pursuing any who flee the temple.</p>"
+          "description": "<p><strong>Trigger</strong> The door is opened</p>\n<hr />\n<p><strong>Effect</strong> A group of four @UUID[Compendium.pf2e.gatewalkers-bestiary.Actor.l64HY5lbpITe0WHZ]{Animate Dreams} manifest in the area just beyond the door. These four animate dreams each appear as vaguely whale-shaped but human-sized masses of tendrils. They swim through the air and attack the intruders at once, fighting to the death and pursuing any who flee the temple.</p>"
         }
       }
     },
@@ -765,7 +762,7 @@
           "description": "<p>Dreamscrapers never sleep or dream themselves. They gain the benefits of an 8-hour rest after 1 hour of minimal activity.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:22]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:22|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Dream Step": {
           "name": "Dream Step",
@@ -1034,13 +1031,13 @@
           "name": "Cold Snap",
           "description": "<p><strong>Trigger</strong> A creature steps on the white bricks</p>\n<hr />\n<p><strong>Effect</strong> The trap makes a frost jet Strike against the triggering creature and rolls initiative.</p>"
         },
-        "strike-melee->Frost Jet": {
+        "strike-ranged->Frost Jet": {
           "name": "Frost Jet",
-          "description": "<p>No multiple attack penalty.</p>"
+          "description": "<p>No multiple attack penalty</p>"
         },
         "action->Frostbite": {
           "name": "Frostbite",
-          "description": "<p>A creature that takes persistent cold damage from the trap's frost jet Strike must attempt a @Check[fortitude|dc:18] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature isn't affected and is immune to this frostbite effect for 24 hours.</p>\n<p><strong>Success</strong> The creature isn't affected.</p>\n<p><strong>Failure</strong> The creature can't stop shivering and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>"
+          "description": "<p>A creature that takes persistent cold damage from the trap's frost jet Strike must attempt a @Check[fortitude|dc:18|options:inflicts:clumsy,inflicts:fatigued] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature isn't affected and is immune to this frostbite effect for 24 hours.</p>\n<p><strong>Success</strong> The creature isn't affected.</p>\n<p><strong>Failure</strong> The creature can't stop shivering and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>"
         }
       }
     },
@@ -1108,7 +1105,7 @@
         },
         "action->Barbed Filament": {
           "name": "Barbed Filament",
-          "description": "<p>A creature hit by the tree fisher's barbed filament is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}. The tree fisher can move while it has a creature grabbed with its filament, but automatically releases the Grab if the tree fisher moves beyond the filament's 60-foot length. A creature grabbed by the filament at the beginning of its turn takes @Damage[5[bleed]].</p>\n<p>The tree fisher can sever the filament and release any creature grabbed by it as a free action. The filament can be severed by a Strike that deals at least @Damage[10[slashing]] to it. This doesn't deal any damage to the tree fisher itself. The filament has AC 17, and its @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC is 19.</p>\n<p>The tree fisher has only one harpoon; if the filament is severed, the tree fisher loses this ability and its ranged attack for 1 week as it fashions a new harpoon.</p>"
+          "description": "<p>A creature hit by the tree fisher's barbed filament is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}. The tree fisher can move while it has a creature grabbed with its filament, but automatically releases the Grab if the tree fisher moves beyond the filament's 60-foot length. A creature grabbed by the filament at the beginning of its turn takes @Damage[5[bleed]].</p>\n<p>The tree fisher can sever the filament and release any creature grabbed by it as a free action. The filament can be severed by a Strike that deals at least 10 slashing damage to it. This doesn't deal any damage to the tree fisher itself. The filament has AC 17, and its [[/act escape dc=19]] DC is 19.</p>\n<p>The tree fisher has only one harpoon; if the filament is severed, the tree fisher loses this ability and its ranged attack for 1 week as it fashions a new harpoon.</p>"
         }
       }
     },
@@ -1149,17 +1146,15 @@
       "disable": "<p>@Check[religion|dc:25] (trained) to exorcise one of the wraiths or @Check[occultism|dc:25] (expert) to erase one of the wraith's astral sigils; three successful checks are required to disable the haunt</p>",
       "reset": "<p>The aiudara wraiths disperse after 1 minute, but the haunt resets after 24 hours.</p>",
       "routine": "<p>(3 actions; conjuration, divine, teleportation) With spectral claws, the aiudara wraiths hurl trespassers through time and space. Each of the three wraiths has 1 action which it can use to make a forceful hand Strike against a creature within 60 feet. The haunt loses 1 action for each successful check to disable the haunt.</p>\n<p>When the haunt rolls a critical hit to Strike a creature, the creature is instantly shunted to an empty space within 30 feet. The haunt chooses which space the creature is transported to.</p>",
+      "stealth": "<p>(expert)</p>",
       "items": {
         "action->Forceful Screech": {
           "name": "Forceful Screech",
-          "description": "<p><strong>Trigger</strong> A creature comes within 30 feet of the aiudara</p>\n<hr />\n<p><strong>Effect</strong> Three aiudara wraiths screech in unison and manifest to protect the arch. Each creature within 30 feet must attempt a @Check[will|dc:27] save. The haunt rolls initiative.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(2d8+9)[force]].</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(4d8+9)[force]] and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>"
+          "description": "<p><strong>Trigger</strong> A creature comes within 30 feet of the <em>aiudara</em></p>\n<hr />\n<p><strong>Effect</strong> Three aiudara wraiths screech in unison and manifest to protect the arch. Each creature within @Template[emanation|distance:30]{30 feet} must attempt a @Check[will|dc:27|options:area-effect,damaging-effect,inflicts:fatigued] save. The haunt rolls initiative.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(2d8+9)[force]] damage.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(4d8+9)[force]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>"
         },
         "strike-melee->Forceful Hand": {
-          "name": "Forceful Hand"
-        },
-        "action->No MAP": {
-          "name": "No MAP",
-          "description": "<p>No multiple attack penalty on forceful hand strikes.</p>"
+          "name": "Forceful Hand",
+          "description": "<p>No multiple attack penalty</p>"
         }
       }
     },
@@ -1265,7 +1260,7 @@
         },
         "action->Predict Weather": {
           "name": "Predict Weather",
-          "description": "<p><strong>Requirements</strong> Innumma is outdoors</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Innumma spends 10 minutes observing the environment, trying to predict the day's weather. He attempts a @Check[survival|dc:20] or @Check[Weather Lore|dc:20] check. This check is reduced to DC 15 in an arctic environment such as the Crown of the World (@Check[survival|dc:15] or @Check[Weather Lore|dc:15]).</p>\n<hr />\n<p><strong>Critical Success</strong> Innumma accurately predicts the day's weather. He learns if a weather event will occur in the region within the next 24 hours, and if so, what the event is and approximately when it will occur. He gains a +2 circumstance bonus to Survival checks made to prepare for this weather event.</p>\n<p><strong>Success</strong> As critical success, but Innumma gains only a +1 circumstance bonus to Survival checks made to prepare for any weather event that might occur.</p>\n<p><strong>Failure</strong> Innumma can't determine anything about the day's weather.</p>\n<p><strong>Critical Failure</strong> Innumma misinterprets the environment's indicators, predicting a weather event as if he had earned a critical success but which will not occur that day.</p>"
+          "description": "<p><strong>Requirements</strong> Innumma is outdoors</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Innumma spends 10 minutes observing the environment, trying to predict the day's weather. He attempts a @Check[survival|dc:20] or @Check[weather-lore|dc:20] check. This check is reduced to DC 15 in an arctic environment such as the Crown of the World (@Check[survival|dc:15] or @Check[weather-lore|dc:15]).</p>\n<hr />\n<p><strong>Critical Success</strong> Innumma accurately predicts the day's weather. He learns if a weather event will occur in the region within the next 24 hours, and if so, what the event is and approximately when it will occur. He gains a +2 circumstance bonus to Survival checks made to prepare for this weather event.</p>\n<p><strong>Success</strong> As critical success, but Innumma gains only a +1 circumstance bonus to Survival checks made to prepare for any weather event that might occur.</p>\n<p><strong>Failure</strong> Innumma can't determine anything about the day's weather.</p>\n<p><strong>Critical Failure</strong> Innumma misinterprets the environment's indicators, predicting a weather event as if he had earned a critical success but which will not occur that day.</p>"
         },
         "lore->Weather Lore": {
           "name": "Weather Lore"
@@ -1394,51 +1389,6 @@
         }
       }
     },
-    "Kithangian": {
-      "name": "Kithangian",
-      "languages": "speak with animals, telepathy 100 feet",
-      "publicNotes": "<p>The kithangian—a horrifying amalgam of horse and scorpion also known as a \"beast demon\"—is a foul fend born of the souls of mortals who abused and tormented animals in life. Kithangians tend to roam wild areas rife with animals to torture, though humanoid settlements with plenty of pets or livestock also make for tantalizing hunting grounds. Uncontested for too long, a kithangian's presence has a corrupting influence on the local fauna, which birth fiendish monstrosities until the demon is vanquished. If it realizes it's being tracked by vengeful druids or demon slayers, a kithangian assumes the shape of an unassuming animal so it can get the jump on its pursuers.</p>",
-      "saveDetails": "+1 status to all saves vs. magic",
-      "items": {
-        "spellcastingEntry->Divine Innate Spells": {
-          "name": "Divine Innate Spells"
-        },
-        "spell->Speak with Animals (Constant)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]\nSpeak with Animals (Constant)"
-        },
-        "spell->Command (At Will, Animals Only)": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]\nCommand (At Will, Animals Only)"
-        },
-        "strike-melee->Pincer": {
-          "name": "Pincer"
-        },
-        "strike-melee->Stinger": {
-          "name": "Stinger"
-        },
-        "action->Telepathy 100 feet": {
-          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy 100 feet"
-        },
-        "action->Animal Kindness Vulnerability": {
-          "name": "Animal Kindness Vulnerability",
-          "description": "<p>Kithangians find kindness to animals revolting. The first time each round that a kithangian sees someone heal or otherwise provide aid to a creature that has the animal trait, the kithangian takes @Damage[3d6[mental]].</p>"
-        },
-        "action->Animal Killer": {
-          "name": "Animal Killer",
-          "description": "<p>A kithangian's melee Strikes deal an additional 2d6 damage to animals.</p>"
-        },
-        "action->Change Shape": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97]\n<p>The kithangian can take on the appearance of any Medium or Large animal. This doesn't change its Speed or their attack and damage modif ers with its Strikes, but it might change the damage type its Strikes deal.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
-        },
-        "action->Kithangian Venom": {
-          "name": "Kithangian Venom",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:25]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] (2 rounds)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] and @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (2 rounds)</p>\n<p><strong>Stage 3</strong> @Damage[3d6[poison]] and @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (2 rounds)</p>"
-        },
-        "action->Rasping Tongues": {
-          "name": "Rasping Tongues",
-          "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements</strong> The kithangian has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in one or both pincers</p>\n<hr />\n<p><strong>Effect</strong> Barbed tongues slither out of the faces in the kithangian's pincers. The tongues burrow into grabbed creatures and inject their minds with haunting psychic screams. Each grabbed creature takes @Damage[2d8[piercing],2d8[mental]]{2d8 piercing and 2d8 mental}. A creature can try to resist the mental damage by attempting a @Check[will|dc:25|basic].</p>"
-        }
-      }
-    },
     "Kvernknurr": {
       "name": "Kvernknurr",
       "publicNotes": "<p>Kvernknurrs are lanky fey giants that dwell in cold-water rivers and lakes. A kvernknurr's blue flesh allows it to camoufage itself in its preferred environ, where it haunts local millers and farmers by sabotaging water wheels and farm equipment.</p>\n<p>A kvernknurr's most distinguishing feature is its oversized mouth and the two rows of axe-like teeth therein. To eat, a kvernknurr need only unhinge its lower jaw, revealing in the process a yawning portal nearly the size of a human doorway—convenient, considering its favorite food is humans and their ilk.</p>\n<p>A lake- or riverbed is the perfect place for a kvernknurr to sleep off a big meal. It's also a perilous circumstance for swallowed prey lucky enough to escape the kvernknurr's belly. \"Out of the belly, into the water,\" goes one lakeside village saying.</p>\n<p>Kverknurrs despise humanoid-made disturbances to the waters in which they live, even seemingly harmless ones like waterwheels. In their anger, kvernknurrs use their oversized jaws to clamp down on such machinery. When townsfolk come to investigate their jammed mill, the kvernknurr then springs out from hiding to attack, roaring terribly before snatching a victim to eat whole. Folks brave enough to attack a kvernknurr soon learn to fight up close; the wily monster is quick enough to snatch arrows and spears in its jaws midair before swallowing the weapons down.</p>",
@@ -1460,7 +1410,7 @@
         },
         "action->Frightening Bellow": {
           "name": "Frightening Bellow",
-          "description": "<p><strong>Requirements</strong> The kvernknurr doesn't have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p>\n<hr />\n<p><strong>Effect</strong> The kvernknurr lets out a deep-throated shout to scare away its foes. Each non-kvernknurr creature within 60 feet must attempt a @Check[will|dc:20] save, and then they are temporarily immune to that kvenknurr's Frightening Bellow for 24 hours.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unafected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is frightened 2 and is feeing as long as it remains frightened.</p>"
+          "description": "<p><strong>Requirements</strong> The kvernknurr doesn't have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p>\n<hr />\n<p><strong>Effect</strong> The kvernknurr lets out a deep-throated shout to scare away its foes. Each non-kvernknurr creature within 60 feet must attempt a @Check[will|dc:20|options:inflicts:frightened,inflicts:fleeing] save, and then they are temporarily immune to that kvenknurr's Frightening Bellow for 24 hours.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is frightened 2 and is @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} as long as it remains frightened.</p>"
         },
         "action->Swallow Whole": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]\n<p>Medium, @Damage[(1d6+5)[bludgeoning]], Rupture 15</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
@@ -1761,7 +1711,7 @@
         },
         "action->Nymph's Beauty": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kG4fDd16fYEFvmgy]\nNymph's Beauty",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kG4fDd16fYEFvmgy]\n<p>30 feet. On a failed save, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for this turn and whenever it begins its turn within 30 feet of the naiad queen for the next 24 hours, even if it can't see her on subsequent turns.</p>\n<hr />\n<p>Creatures that start their turn in the aura must succeed at a @Check[will|dc:23] save or suffer an effect described in the nymph queen's entry.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kG4fDd16fYEFvmgy]\n<p>30 feet. On a failed save, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for this turn and whenever it begins its turn within 30 feet of the naiad queen for the next 24 hours, even if it can't see her on subsequent turns.</p>\n<hr />\n<p>Creatures that start their turn in the aura must succeed at a @Check[will|dc:23|options:area-effect,inflicts:stunned] save or suffer an effect described in the nymph queen's entry.</p>"
         },
         "action->Change Shape": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.eXleBXdAemiEoHA8]\nChange Shape"
@@ -1841,14 +1791,11 @@
         },
         "action->Violent Deluge": {
           "name": "Violent Deluge",
-          "description": "<p><strong>Trigger</strong> The water tank is broken or destroyed</p>\n<hr />\n<p><strong>Effect</strong> A torrent of water bursts from the shattered tank, dealing @Damage[3d8[bludgeoning]|options:area-damage] to each creature within @Template[emanation|distance:15]{15 feet} (@Check[reflex|dc:22|basic|options:area-effect] save). The trap is then disabled.</p>"
+          "description": "<p><strong>Trigger</strong> The water tank is broken or destroyed</p>\n<hr />\n<p><strong>Effect</strong> A torrent of water bursts from the shattered tank, dealing @Damage[3d8[bludgeoning]|options:area-damage] damage to each creature within @Template[emanation|distance:15]{15 feet} (@Check[reflex|dc:22|basic|options:area-effect] save). The trap is then disabled.</p>"
         },
         "strike-melee->Water Jet": {
-          "name": "Water Jet"
-        },
-        "action->No MAP": {
-          "name": "No MAP",
-          "description": "<p>No multiple attack penalty applies to Water Jet strikes</p>"
+          "name": "Water Jet",
+          "description": "<p>No multiple attack penalty</p>"
         }
       }
     },
@@ -2030,7 +1977,7 @@
       "items": {
         "action->Swarming Bites": {
           "name": "Swarming Bites",
-          "description": "<p>Each enemy in the swarm's space takes @Damage[5d6[piercing]] (@Check[reflex|dc:23|basic]). A creature that fails the saving throw also takes @Damage[1d4[bleed]] and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} as long as it's taking bleed damage.</p>"
+          "description": "<p>Each enemy in the swarm's space takes @Damage[5d6[piercing]|options:area-damage] (@Check[reflex|dc:23|basic|options:area-effect,inflicts:clumsy]). A creature that fails the saving throw also takes @Damage[1d4[bleed]] and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} as long as it's taking bleed damage.</p>"
         }
       }
     },
@@ -2260,7 +2207,7 @@
         },
         "action->Chart a Course": {
           "name": "Chart a Course",
-          "description": "<p>Ulikuq spends 10 minutes to plot a course and attempts a @Check[Sailing Lore|dc:20] or @Check[survival|dc:20] check. This check is reduced to DC 15 in an arctic environment such as the Crown of the World (@Check[Sailing Lore|dc:15] or @Check[survival|dc:15]). On a success, the severity of environmental conditions during the journey is reduced by one step for 24 hours (two steps on a critical success). This changes moderate damage to minor damage, winds that create greater difficult terrain cause only difficult terrain, and so on.</p>"
+          "description": "<p>Ulikuq spends 10 minutes to plot a course and attempts a @Check[sailing-lore|dc:20] or @Check[survival|dc:20] check. This check is reduced to DC 15 in an arctic environment such as the Crown of the World (@Check[sailing-lore|dc:15] or @Check[survival|dc:15]). On a success, the severity of environmental conditions during the journey is reduced by one step for 24 hours (two steps on a critical success). This changes moderate damage to minor damage, winds that create greater difficult terrain cause only difficult terrain, and so on.</p>"
         },
         "lore->Astronomy Lore": {
           "name": "Astronomy Lore"

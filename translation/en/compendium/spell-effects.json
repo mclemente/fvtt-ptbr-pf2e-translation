@@ -5,22 +5,6 @@
       "name": "Aura: Angelic Halo",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.w3uGXDVEdbLFZVO0]{Angelic Halo}</p>\n<p>Allies in your halo's emanation who are healed by a <em>heal</em> spell gain a status bonus to Hit Points regained equal to double the <em>heal</em> spell's rank.</p>"
     },
-    "Aura: Bless": {
-      "name": "Aura: Bless",
-      "badges": [
-        "15 ft.",
-        "25 ft.",
-        "35 ft.",
-        "45 ft.",
-        "55 ft.",
-        "65 ft.",
-        "75 ft.",
-        "85 ft.",
-        "95 ft.",
-        "105 ft."
-      ],
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</p>\n<p>You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per round on subsequent turns, you can Sustain the spell to increase the emanation's radius by 10 feet.</p>"
-    },
     "Aura: Manifest Will": {
       "name": "Aura: Manifest Will",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IqBfoUaWDennHYoZ]{Manifest Will}</p>\n<p>You emanate a 10-ft aura. If you have the Multifaceted Will feat, you can choose any tradition. You and your allies gain a +1 status bonus to saves against spells with that tradition trait.</p>"
@@ -28,12 +12,12 @@
     "Aura: Protective Wards": {
       "name": "Aura: Protective Wards",
       "badges": [
-        "5 ft",
-        "10 ft",
-        "15 ft",
-        "20 ft",
-        "25 ft",
-        "30 ft"
+        "5 ft.",
+        "10 ft.",
+        "15 ft.",
+        "20 ft.",
+        "25 ft.",
+        "30 ft."
       ],
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.lY9fOk1qBDDhBT8s]{Protective Wards}</p>\n<p>You and any allies in the area gain a +1 status bonus to AC. Each time you Sustain the spell, the emanation's radius increases by 5 feet, to a maximum of 30 feet.</p>"
     },
@@ -73,13 +57,9 @@
       "name": "Spell Effect: Acid Grip",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.9h9YCncqah6VNsKf]{Acid Grip}</p>\n<p>While you are taking persistent damage from this spell, you take a –10-foot status bonus to your Speeds.</p>"
     },
-    "Spell Effect: Adapt Self (Darkvision)": {
-      "name": "Spell Effect: Adapt Self (Darkvision)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.GUnw9YXaW3YyaCAU]{Adapt Self}.</p>\n<p>You gain Darkvision.</p>"
-    },
-    "Spell Effect: Adapt Self (Swim)": {
-      "name": "Spell Effect: Adapt Self (Swim)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.GUnw9YXaW3YyaCAU]{Adapt Self}.</p>\n<p>You gain a Swim Speed equal to half your Speed.</p>"
+    "Spell Effect: Adapt Self": {
+      "name": "Spell Effect: Adapt Self",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.GUnw9YXaW3YyaCAU]{Adapt Self}</p>\n<p>You gain one of the following options:</p>\n<ul>\n<li>\n<p>A Swim Speed equal to half your Speed.</p>\n</li>\n<li>\n<p>Darkvision</p>\n</li>\n</ul>"
     },
     "Spell Effect: Adaptive Ablation": {
       "name": "Spell Effect: Adaptive Ablation",
@@ -231,12 +211,7 @@
     },
     "Spell Effect: Arcane Countermeasure": {
       "name": "Spell Effect: Arcane Countermeasure",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.h47yv6j6x1pUtzlr]{Arcane Countermeasure}</p>\n<p>You gain a +2 status bonus to any saving throws, skill checks, AC, or DC against the triggering spell.</p>",
-      "rules": {
-        "0": {
-          "label": "Arcane Countermeasure (vs. target spell)"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.h47yv6j6x1pUtzlr]{Arcane Countermeasure}</p>\n<p>You gain a +2 status bonus to any saving throws, skill checks, AC, or DC against the triggering spell.</p>"
     },
     "Spell Effect: Arcane Explosion": {
       "name": "Spell Effect: Arcane Explosion",
@@ -288,7 +263,7 @@
         "95 ft.",
         "105 ft."
       ],
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.HGSCofGACf1TVH55]{Benediction}</p>\n<p>You and your allies gain a +1 status bonus to AC while within the emanation.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.HGSCofGACf1TVH55]{Benediction}</p>\n<p>You and your allies gain a +1 status bonus to AC while within the emanation. Once per round on subsequent turns, you can Sustain the spell to increase the emanation's radius by 10 feet.</p>"
     },
     "Spell Effect: Beseech the Sphinx": {
       "name": "Spell Effect: Beseech the Sphinx",
@@ -312,7 +287,19 @@
     },
     "Spell Effect: Bless": {
       "name": "Spell Effect: Bless",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</p>\n<p>You gain a +1 status bonus to attack rolls.</p>"
+      "badges": [
+        "15 ft.",
+        "25 ft.",
+        "35 ft.",
+        "45 ft.",
+        "55 ft.",
+        "65 ft.",
+        "75 ft.",
+        "85 ft.",
+        "95 ft.",
+        "105 ft."
+      ],
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</p>\n<p>You and your allies gain a +1 status bonus to attack rolls while within the emanation. Once per round on subsequent turns, you can Sustain the spell to increase the emanation's radius by 10 feet.</p>"
     },
     "Spell Effect: Blessing of Defiance": {
       "name": "Spell Effect: Blessing of Defiance",
@@ -402,7 +389,7 @@
         "Vivid Insight",
         "Good Fortune"
       ],
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.mOUwbIN1SUp8FyPR]{Cinder Gaze}.</p>\n<ol>\n<li><strong>Terrible Danger</strong> You gain a +2 status bonus to your next initiative roll.</li>\n<li><strong>New Life</strong> The next time you take damage, just before taking the damage, you gain temporary Hit Points equal to 1 plus your spellcasting ability modifier.</li>\n<li><strong>Vivid Insight</strong> (fortune) The next time you attempt a check to Recall Knowledge, roll twice and take the higher result.</li>\n<li><strong>Good Fortune</strong> (fortune) The next time you attempt a saving throw, roll twice and take the better result.</li>\n</ol>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.mOUwbIN1SUp8FyPR]{Cinder Gaze}</p>\n<ol>\n<li><strong>Terrible Danger</strong> You gain a +2 status bonus to your next initiative roll.</li>\n<li><strong>New Life</strong> The next time you take damage, just before taking the damage, you gain temporary Hit Points.</li>\n<li><strong>Vivid Insight</strong> (fortune) The next time you attempt a check to Recall Knowledge, roll twice and take the higher result.</li>\n<li><strong>Good Fortune</strong> (fortune) The next time you attempt a saving throw, roll twice and take the better result.</li>\n</ol>"
     },
     "Spell Effect: Claws of the Otter": {
       "name": "Spell Effect: Claws of the Otter",
@@ -471,6 +458,10 @@
     "Spell Effect: Crown of Prophets": {
       "name": "Spell Effect: Crown of Prophets",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.h2DLv8TQV0Z83tQp]{Crown of Prophets}</p>\n<p>You gain a fangs unarmed attack that deals 1d6 piercing damage and has the agile, finesse, and versatile poison traits.</p>"
+    },
+    "Spell Effect: Crushing Ground": {
+      "name": "Spell Effect: Crushing Ground",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.AiWtiVmyasyL42J8]{Crushing Ground}</p>\n<p>You are off-guard. On a failed save, you also take a –10-foot circumstance penalty to Speed. On a critical failure, you are immobilized instead.</p>"
     },
     "Spell Effect: Curse of Recoil (Critical Failure)": {
       "name": "Spell Effect: Curse of Recoil (Critical Failure)",
@@ -612,6 +603,10 @@
       "name": "Spell Effect: Distracting Decoy",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.z8bHh8KVttslQIU9]{Distracting Decoy}</p>\n<p><strong>Failure</strong> The creature is off-guard until the start of your next turn.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature also takes a –2 circumstance penalty to attacks while it's off-guard.</p>"
     },
+    "Spell Effect: Divine Keystone (Critical Failure)": {
+      "name": "Spell Effect: Divine Keystone (Critical Failure)",
+      "description": "<p>All undead creatures in the ritual's area gain fast healing 3 and resistance 3 to holy.</p>"
+    },
     "Spell Effect: Divine Vessel": {
       "name": "Spell Effect: Divine Vessel",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.hiVL8qsnTJtpouw0]{Divine Vessel}</p>\n<p>You accept otherworldly energies into your body; while you are still recognizably yourself, you gain the features of one of your deity's servitors. Choose an alignment your deity has (chaotic, evil, good, or lawful). You can't cast this spell if you don't have a deity or your deity is true neutral. This spell gains the trait of the alignment you chose.</p>\n<p>If you were Medium or smaller, you become Large, as the effects of @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}. You must have space to expand into, or the spell is lost. You also gain the following benefits.</p>\n<ul>\n<li>40 temporary Hit Points.</li>\n<li>A fly Speed equal to your Speed.</li>\n<li>Weakness 10 to lawful.</li>\n<li>A +1 status bonus to saves against spells.</li>\n<li>Darkvision.</li>\n<li>Your unarmed attacks and weapons deal 1 additional spirit damage.</li>\n<li>You gain a bite unarmed attack that deals 2d10 piercing damage.</li>\n</ul>"
@@ -638,7 +633,7 @@
     },
     "Spell Effect: Dragon Form": {
       "name": "Spell Effect: Dragon Form",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{Dragon Form}</p>\n<p>You gain a Large dragon battle form. Choose one type of dragon. While in this form, you gain the dragon trait. You have hands in this battle form and can take manipulate actions. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>\n<p>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</p>\n</li>\n<li>\n<p>10 temporary Hit Points.</p>\n</li>\n<li>\n<p>Speed 40 feet, fly 100 feet. You gain any of the following Speeds the chosen dragon has, but with the listed amount: burrow 20 feet, climb 40 feet, swim 60 feet.</p>\n</li>\n<li>\n<p>Resistance 10 against the damage type of your Dragon Breath.</p>\n</li>\n<li>\n<p>Darkvision and imprecise scent 60 feet.</p>\n</li>\n<li>\n<p>The following unarmed melee attacks, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +22, and your damage bonus is +6. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. See below for more on these attacks.</p>\n<ul>\n<li>\n<p><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws, <strong>Damage</strong> 2d12 piercing plus 2d6 damage of the same damage type as your Dragon Breath;</p>\n</li>\n<li>\n<p><strong>Melee</strong> <span class=\"action-glyph\">1</span> claw (agile), <strong>Damage</strong> 3d10 slashing;</p>\n</li>\n<li>\n<p><strong>Melee</strong> <span class=\"action-glyph\">1</span> tail (reach 10 feet), <strong>Damage</strong> 3d10 bludgeoning.</p>\n</li>\n</ul>\n</li>\n<li>\n<p>Athletics modifier of +23, unless your own is higher.</p>\n</li>\n<li>\n<p><strong>Dragon Breath</strong> <span class=\"action-glyph\"><strong>2</strong></span> You exhale deadly magical energy in an area, dealing 10d6 damage to each creature in the area with a basic save against your spell DC. The shape, damage type, and save type match that of your chosen dragon's breath. If the chosen dragon's breath can deal more than one type of damage, choose one when you cast dragon form. The shape is a 30-foot cone or a 100-foot line. Once activated, Dragon Breath can't be used again for 1d4 rounds. Dragon Breath has the tradition trait matching the type of dragon and the damage trait matching the type of damage it deals, if applicable.</p>\n</li>\n<li>\n<p><strong>Tradition Resistance</strong> If the dragon's magical tradition matches that of your dragon form spell, you gain the listed ability. <strong>Arcane</strong> resistance 5 against magic; <strong>divine</strong> resistance 10 to spirit, vitality, and void; <strong>occult</strong> resistance 10 to mental; <strong>primal</strong> resistance 5 to physical damage.</p>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (8th)</strong> Your battle form is Huge, you gain a +20-foot status bonus to your fly Speed, and your attacks have 10-foot reach (or 15-foot reach if they previously had 10-foot reach). You instead gain AC = 21 + your level, 15 temporary HP, an attack modifier of +28, a damage bonus of +12, and Athletics +28. Your Dragon Breath deals an additional 4d6 damage.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{Dragon Form}</p>\n<p>You gain a Large dragon battle form. Choose one type of dragon. While in this form, you gain the dragon trait. You have hands in this battle form and can take manipulate actions. You can Dismiss the spell.</p>\n<p>You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>\n<p>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</p>\n</li>\n<li>\n<p>10 temporary Hit Points.</p>\n</li>\n<li>\n<p>Speed 40 feet, fly 100 feet. You gain any of the following Speeds the chosen dragon has, but with the listed amount: burrow 20 feet, climb 40 feet, swim 60 feet.</p>\n</li>\n<li>\n<p>Resistance 10 against the damage type of your Dragon Breath.</p>\n</li>\n<li>\n<p>Darkvision and imprecise scent 60 feet.</p>\n</li>\n<li>\n<p>The following unarmed melee attacks, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +22, and your damage bonus is +6. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. See below for more on these attacks.</p>\n<ul>\n<li>\n<p><strong>Melee</strong> <span class=\"action-glyph\">1</span> jaws, <strong>Damage</strong> 2d12 piercing plus 2d6 damage of the same damage type as your Dragon Breath;</p>\n</li>\n<li>\n<p><strong>Melee</strong> <span class=\"action-glyph\">1</span> claw (agile), <strong>Damage</strong> 3d10 slashing;</p>\n</li>\n<li>\n<p><strong>Melee</strong> <span class=\"action-glyph\">1</span> tail (reach 10 feet), <strong>Damage</strong> 3d10 bludgeoning.</p>\n</li>\n</ul>\n</li>\n<li>\n<p>Athletics modifier of +23, unless your own is higher.</p>\n</li>\n<li>\n<p><strong>Dragon Breath</strong> <span class=\"action-glyph\">2</span> You exhale deadly magical energy in an area, dealing 10d6 damage to each creature in the area with a basic save against your spell DC. The shape, damage type, and save type match that of your chosen dragon's breath. If the chosen dragon's breath can deal more than one type of damage, choose one when you cast dragon form. The shape is a 30-foot cone or a 100-foot line. Once activated, Dragon Breath can't be used again for 1d4 rounds. Dragon Breath has the tradition trait matching the type of dragon and the damage trait matching the type of damage it deals, if applicable.</p>\n</li>\n<li>\n<p><strong>Tradition Resistance</strong> If the dragon's magical tradition matches that of your dragon form spell, you gain the listed ability. <strong>Arcane</strong> resistance 5 against magic; <strong>divine</strong> resistance 10 to spirit, vitality, and void; <strong>occult</strong> resistance 10 to mental; <strong>primal</strong> resistance 5 to physical damage.</p>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (8th)</strong> Your battle form is Huge, you gain a +20-foot status bonus to your fly Speed, and your attacks have 10-foot reach (or 15-foot reach if they previously had 10-foot reach). You instead gain AC = 21 + your level, 15 temporary HP, an attack modifier of +28, a damage bonus of +12, and Athletics +28. Your Dragon Breath deals an additional 4d6 damage.</p>"
     },
     "Spell Effect: Dragon Wings": {
       "name": "Spell Effect: Dragon Wings",
@@ -756,18 +751,6 @@
       "name": "Spell Effect: Enlarge",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}</p>\n<p>You grow to size Large and are clumsy 1. Your reach increases by 5 feet (or by 10 feet if you started out Tiny), and you gain a +2 status bonus to melee damage.</p>\n<p><strong>Heightened (4th)</strong> You grow to size Huge. The status bonus to melee damage is +4 and your reach increases by 10 feet (or 15 feet if you started out Tiny).</p>\n<p><strong>Heightened (6th)</strong> Choose either the 2nd-rank or 4th-rank version of this spell.</p>"
     },
-    "Spell Effect: Enlarge (Heightened 4th)": {
-      "name": "Spell Effect: Enlarge (Heightened 4th)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge}</p>\n<p>Bolstered by magical power, the target grows to size Huge. Its equipment grows with it but returns to natural size if removed. The creature is clumsy 1. Its reach increases by 10 feet (or by 15 feet if it started out Tiny), and it gains a +4 status bonus to melee damage. The Spell has no effect on a Huge or larger creature.</p>",
-      "rules": {
-        "0": {
-          "label": "Enlarge"
-        },
-        "2": {
-          "label": "Enlarge"
-        }
-      }
-    },
     "Spell Effect: Enlarge Companion": {
       "name": "Spell Effect: Enlarge Companion",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.8rj45fKzCFcB0fxs]{Enlarge Companion}</p>\n<p>You grow to size Large. Your equipment grows with it but returns to natural size if removed. You are clumsy 1, your reach increases by 5 feet (or by 10 feet if it started out Tiny), and it gains a +2 status bonus to melee damage. This spell has no effect on a Large or larger creature.</p>\n<p><strong>Heightened (4th)</strong> You instead grow to size Huge. The status bonus to melee damage is +4 and the your reach increases by 10 feet (or 15 feet if your started out Tiny). The spell has no effect on a Huge or larger creature.</p>"
@@ -782,7 +765,7 @@
     },
     "Spell Effect: Entropic Wheel": {
       "name": "Spell Effect: Entropic Wheel",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.X4T5RlQBrdpmA35n]{Entropic Wheel}</p>\n<p>When you Cast a Spell that deals fire damage, the target also takes cold damage equal to the number of motes in the entropic wheel. When you Cast a Spell that deals cold damage, the target also takes fire damage equal to the number of motes in the entropic wheel.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.X4T5RlQBrdpmA35n]{Entropic Wheel}</p>\n<p>When you Cast a Spell that deals fire damage, the target also takes cold damage equal to the number of motes in the <em>entropic wheel</em>. When you Cast a Spell that deals cold damage, the target also takes fire damage equal to the number of motes in the <em>entropic wheel</em>. This applies only to the initial damage of the spell, not to any persistent damage or ongoing effects.</p>"
     },
     "Spell Effect: Entwined Roots": {
       "name": "Spell Effect: Entwined Roots",
@@ -790,12 +773,7 @@
     },
     "Spell Effect: Envenom Companion": {
       "name": "Spell Effect: Envenom Companion",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.gWmLT5SkA0qH2mNE]{Envenom Companion}</p>\n<p>The first time each round you hit a creature with an unarmed Strike that deals piercing or slashing damage, that Strike deals an additional 1d8 poison damage. A creature that is damaged by this poison must attempt a Fortitude save. On a failure, it's also clumsy 1 for 1 round.</p>\n<hr />\n<p><strong>Heightened (+3)</strong> The poison damage increases by 1d8 and the clumsy value imposed on a failed save increases by 1.</p>",
-      "rules": {
-        "2": {
-          "label": "First hit of the round"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.gWmLT5SkA0qH2mNE]{Envenom Companion}</p>\n<p>The first time each round you hit a creature with an unarmed Strike that deals piercing or slashing damage, that Strike deals an additional 1d8 poison damage. A creature that is damaged by this poison must attempt a Fortitude save. On a failure, it's also clumsy 1 for 1 round.</p>\n<hr />\n<p><strong>Heightened (+3)</strong> The poison damage increases by 1d8 and the clumsy value imposed on a failed save increases by 1.</p>"
     },
     "Spell Effect: Equal Footing (Failure or Critical Failure)": {
       "name": "Spell Effect: Equal Footing (Failure or Critical Failure)",
@@ -847,12 +825,7 @@
     },
     "Spell Effect: Fiery Body": {
       "name": "Spell Effect: Fiery Body",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]{Fiery Body}</p>\n<p>You gain fire immunity, resistance 10 to precision damage, weakness 5 to cold and to water, and a fly speed of 40 feet. Any creature that touches you or damages you with an unarmed attack or non-reach melee weapon takes 3d6 fire damage.</p>\n<p>Your unarmed attacks deal an additional 1d4 fire damage, and your fire spells deal one additional die of fire damage (of the same damage die the spell uses).</p>\n<hr />\n<p><strong>Heightened (9th)</strong> Creatures touching you take 4d6 fire damage instead of 3d6, your unarmed attacks deal 2d4 additional fire damage, and you have a fly Speed of 60 feet.</p>",
-      "rules": {
-        "3": {
-          "label": "Fiery Body"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]{Fiery Body}</p>\n<p>You gain fire immunity, resistance 10 to precision damage, weakness 5 to cold and to water, and a fly speed of 40 feet. Any creature that touches you or damages you with an unarmed attack or non-reach melee weapon takes 3d6 fire damage.</p>\n<p>Your unarmed attacks deal an additional 1d4 fire damage, and your fire spells deal one additional die of fire damage (of the same damage die the spell uses).</p>\n<hr />\n<p><strong>Heightened (9th)</strong> Creatures touching you take 4d6 fire damage instead of 3d6, your unarmed attacks deal 2d4 additional fire damage, and you have a fly Speed of 60 feet.</p>"
     },
     "Spell Effect: Figment": {
       "name": "Spell Effect: Figment",
@@ -878,6 +851,10 @@
       "name": "Spell Effect: Flame Wisp",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.3q9tBMWsWQKlXPPJ]{Flame Wisp}</p>\n<p>Each time you hit a creature with a Strike, you deal fire damage.</p>"
     },
+    "Spell Effect: Flaming Fusillade": {
+      "name": "Spell Effect: Flaming Fusillade",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.bynT1UKaDqr8dLNM]{Flaming Fusillade}</p>\n<p>When heightened to 9th rank, you gain a status bonus to damage dealt by <em>ignition</em> equal to <em>flaming fusillade</em>'s spell rank.</p>"
+    },
     "Spell Effect: Flashy Disappearance": {
       "name": "Spell Effect: Flashy Disappearance",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.YgbYvkLvnWJ4WfEA]{Flashy Disappearance}</p>\n<p>You become undetected to all creatures unless they can see invisible creatures. You Stride. At the end of your movement, if you have cover, greater cover, or concealment, attempt a Stealth check to Hide. You gain a +2 status bonus to this Stealth check. The invisibility then ends, and you either become observed or hidden to creatures as determined by your check to Hide, if you made one.</p>"
@@ -896,12 +873,7 @@
     },
     "Spell Effect: Font of Serenity": {
       "name": "Spell Effect: Font of Serenity",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.yY1H5zhO5dHmD8lz]{Font of Serenity}.</p>\n<p>Allies within the area gain a status bonus to saving throws against emotion effects.</p>",
-      "rules": {
-        "0": {
-          "label": "Font of Serenity (vs. emotion)"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.yY1H5zhO5dHmD8lz]{Font of Serenity}.</p>\n<p>You gain a status bonus to saving throws against emotion effects.</p>"
     },
     "Spell Effect: Forbidding Ward": {
       "name": "Spell Effect: Forbidding Ward",
@@ -938,6 +910,10 @@
     "Spell Effect: Frostbite": {
       "name": "Spell Effect: Frostbite",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj]{Frostbite}</p>\n<p>The target gains weakness to bludgeoning equal to the spell rank.</p>"
+    },
+    "Spell Effect: Frozen Fog": {
+      "name": "Spell Effect: Frozen Fog",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.nOVSmPZsCm1C1sI3]{Frozen Fog}</p>\n<p>You are clumsy 1 (clumsy 2 on a critical failure) and take a –10-foot status penalty to Speeds.</p>"
     },
     "Spell Effect: Funeral Flames": {
       "name": "Spell Effect: Funeral Flames",
@@ -1051,6 +1027,14 @@
       "name": "Spell Effect: Hippocampus Retreat",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.wSK0wtn8iHShYT9y]{Hippocampus Retreat}</p>\n<p>If you already have a swim Speed, you can Swim up to your Speed with a +10-foot circumstance bonus. You gain a +2 circumstance bonus to your AC against reactions triggered by this movement.</p>"
     },
+    "Spell Effect: Holy Host (Azata)": {
+      "name": "Spell Effect: Holy Host (Azata)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.BINaRykHRLGn4Qfm]{Holy Host}</p>\n<p>You gain a +2 status bonus to attack rolls and saving throws, as well as a +4 status bonus to damage rolls.</p>"
+    },
+    "Spell Effect: Holy Host (Garuda)": {
+      "name": "Spell Effect: Holy Host (Garuda)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.BINaRykHRLGn4Qfm]{Holy Host}</p>\n<p>You gain a +1 circumstance bonus to all skill checks and DCs.</p>"
+    },
     "Spell Effect: Honeyed Words": {
       "name": "Spell Effect: Honeyed Words",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.JyxTmqjYYn63V5LY]{Honeyed Words}</p>\n<p>You gain a +4 status bonus to Deception checks to Lie, and you add your level even if untrained.</p>"
@@ -1065,12 +1049,7 @@
     },
     "Spell Effect: Hyperfocus": {
       "name": "Spell Effect: Hyperfocus",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XhgMx9WC6NfXd9RP]{Hyperfocus}.</p>\n<p>The target gains a +1 status bonus to Perception checks attempted with any of its precise senses.</p>",
-      "rules": {
-        "0": {
-          "label": "Hyperfocus (Precise senses)"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XhgMx9WC6NfXd9RP]{Hyperfocus}.</p>\n<p>The target gains a +1 status bonus to Perception checks attempted with any of its precise senses.</p>"
     },
     "Spell Effect: Ibex's Harvests": {
       "name": "Spell Effect: Ibex's Harvests",
@@ -1150,7 +1129,7 @@
     },
     "Spell Effect: Insect Form (Mantis)": {
       "name": "Spell Effect: Insect Form (Mantis)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XI6Lzd2B5pernkPd]{Insect Form}</p>\n<p>You transform into a Medium animal battle form. While in this form, you gain the animal trait. You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>10 temporary Hit Points.</li>\n<li>Low-light vision.</li>\n<li>One or more attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +13, and your damage bonus is +2. These attacks are Strength based (for the purpose of the @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} condition). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +13, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the form you choose:</p>\n<ul>\n<li>\n<p><strong>Mantis</strong></p>\n<ul>\n<li>Speed 40 feet; imprecise scent 30 feet;</li>\n<li>Melee <span class=\"action-glyph\">1</span> foreleg, <strong>Damage</strong> 2d8 bludgeoning.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (4th)</strong> Your battle form is Large, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, attack modifier +16, damage bonus +6, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge, and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, attack modifier +18, damage bonus +2 and double damage dice (including persistent damage), and Athletics +20.</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.XI6Lzd2B5pernkPd]{Insect Form}</p>\n<p>You transform into a Medium animal battle form. While in this form, you gain the animal trait. You gain the following statistics and abilities regardless of which battle form you choose:</p>\n<ul>\n<li>AC = 18 + your level. Ignore your armor's check penalty and Speed reduction.</li>\n<li>10 temporary Hit Points.</li>\n<li>Low-light vision.</li>\n<li>One or more attacks specific to the battle form you choose, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +13, and your damage bonus is +2. These attacks are Strength based (for the purpose of the @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} condition). If your unarmed attack modifier is higher, you can use it instead.</li>\n<li>Athletics modifier of +13, unless your own is higher.</li>\n</ul>\n<p>You also gain specific abilities based on the form you choose:</p>\n<ul>\n<li>\n<p><strong>Mantis</strong></p>\n<ul>\n<li>Speed 40 feet; imprecise scent 30 feet;</li>\n<li>Melee <span class=\"action-glyph\">1</span> foreleg, <strong>Damage</strong> 2d8 piercing.</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><strong>Heightened (4th)</strong> Your battle form is Large, and your attacks have 10-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 15 temporary HP, attack modifier +16, damage bonus +6, and Athletics +16.</p>\n<p><strong>Heightened (5th)</strong> Your battle form is Huge, and your attacks have 15-foot reach. You must have enough space to expand into or the spell is lost. You instead gain 20 temporary HP, attack modifier +18, damage bonus +2 and double damage dice (including persistent damage), and Athletics +20.</p>"
     },
     "Spell Effect: Insect Form (Scorpion)": {
       "name": "Spell Effect: Insect Form (Scorpion)",
@@ -1222,14 +1201,9 @@
       "name": "Spell Effect: Iron Gut",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IhwREVWG0OzzrbWA]{Iron Gut}</p>\n<p>You gain a +4 circumstance bonus to your Stealth checks to Conceal the Object unless the searcher specifically searches your mouth and stomach.</p>"
     },
-    "Spell Effect: Iron Gut (3rd Level)": {
-      "name": "Spell Effect: Iron Gut (3rd Level)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IhwREVWG0OzzrbWA]{Iron Gut}</p>\n<p>You gain a +4 circumstance bonus to your Stealth checks to Conceal the Object unless the searcher specifically searches your mouth and stomach.</p>",
-      "rules": {
-        "0": {
-          "label": "Iron Gut"
-        }
-      }
+    "Spell Effect: Iron Gut (3rd Rank)": {
+      "name": "Spell Effect: Iron Gut (3rd Rank)",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IhwREVWG0OzzrbWA]{Iron Gut}</p>\n<p>You gain a +4 circumstance bonus to your Stealth checks to Conceal the Object unless the searcher specifically searches your mouth and stomach.</p>"
     },
     "Spell Effect: Juvenile Companion": {
       "name": "Spell Effect: Juvenile Companion",
@@ -1265,12 +1239,7 @@
     },
     "Spell Effect: Levitate": {
       "name": "Spell Effect: Levitate",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]{Levitate}.</p>\n<p>You take a -2 circumstance penalty to attack rolls while floating in the air. You can spend an Interact action to stabilize yourself and negate this penalty for the remainder of the turn.</p>",
-      "rules": {
-        "1": {
-          "label": "Stabilized this turn"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]{Levitate}.</p>\n<p>You take a -2 circumstance penalty to attack rolls while floating in the air. You can spend an Interact action to stabilize yourself and negate this penalty for the remainder of the turn.</p>"
     },
     "Spell Effect: Life Boost": {
       "name": "Spell Effect: Life Boost",
@@ -1346,7 +1315,7 @@
     },
     "Spell Effect: Manifest Will": {
       "name": "Spell Effect: Manifest Will",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IqBfoUaWDennHYoZ]{Manifest Will}</p>\n<p>You gain an effect depending on the spell's tradition, or the tradition selected with Multifaceted Will.</p>\n<ul>\n<li><strong>Arcane</strong> You gain weakness to spell damage equal to the spell's rank.</li>\n<li><strong>Divine</strong> You gain temporary Hit Points equal to twice the spell's rank.</li>\n<li><strong>Occult</strong> You gain lesser cover.</li>\n<li><strong>Primal</strong> You have a –10-foot status penalty to all its Speeds.</li>\n</ul>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.IqBfoUaWDennHYoZ]{Manifest Will}</p>\n<p>You gain an effect depending on the spell's tradition, or the tradition selected with Multifaceted Will.</p>\n<ul>\n<li><strong>Arcane</strong> You gain weakness to spell damage equal to the spell's rank.</li>\n<li><strong>Divine</strong> You gain temporary Hit Points equal to twice the spell's rank.</li>\n<li><strong>Occult</strong> You gain lesser cover.</li>\n<li><strong>Primal</strong> You have a –10-foot status penalty to all your Speeds.</li>\n</ul>"
     },
     "Spell Effect: Mantle of the Frozen Heart": {
       "name": "Spell Effect: Mantle of the Frozen Heart",
@@ -1379,12 +1348,7 @@
     },
     "Spell Effect: Mind Swap (Critical Success)": {
       "name": "Spell Effect: Mind Swap (Critical Success)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.RWwiFnjxoJXn7H6D]{Mind Swap}</p>\n<p>You gain a +4 circumstance bonus to Deception checks to Impersonate each other.</p>",
-      "rules": {
-        "1": {
-          "label": "Impersonate the Other Target of Mind Swap"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.RWwiFnjxoJXn7H6D]{Mind Swap}</p>\n<p>You gain a +4 circumstance bonus to Deception checks to Impersonate each other.</p>"
     },
     "Spell Effect: Mind of Menace": {
       "name": "Spell Effect: Mind of Menace",
@@ -1414,6 +1378,10 @@
       "name": "Spell Effect: Mountain Resilience",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt]{Mountain Resilience}</p>\n<p>You gain resistance to physical damage, except adamantine.</p>"
     },
+    "Spell Effect: Murmuration": {
+      "name": "Spell Effect: Murmuration",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.4EmLum6EdvXxbxCj]{Murmuration}</p>\n<p>You take a –2 status penalty to your attack roll or hostile skill check.</p>"
+    },
     "Spell Effect: Musical Accompaniment": {
       "name": "Spell Effect: Musical Accompaniment",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.mnhuvqTIELcpJOFX]{Musical Accompaniment}</p>\n<p>This music provides a +1 status bonus to Performance checks. You take a –4 penalty to Stealth checks while the music is playing.</p>"
@@ -1440,12 +1408,7 @@
     },
     "Spell Effect: Nudge the Odds": {
       "name": "Spell Effect: Nudge the Odds",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.QjdvYC1QkpMaemoX]{Nudge the Odds}</p>\n<p>You gain a status bonus to Games Lore checks to gamble, and if you roll a critical failure on such a check, you get a failure instead.</p>",
-      "rules": {
-        "1": {
-          "label": "Nudge Fate"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.QjdvYC1QkpMaemoX]{Nudge the Odds}</p>\n<p>You gain a status bonus to Games Lore checks to gamble, and if you roll a critical failure on such a check, you get a failure instead.</p>"
     },
     "Spell Effect: Nymph's Token": {
       "name": "Spell Effect: Nymph's Token",
@@ -1477,12 +1440,7 @@
     },
     "Spell Effect: Organsight": {
       "name": "Spell Effect: Organsight",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.bH9cH9aDByY91l1d]{Organsight}</p>\n<p>You gain a +2 circumstance bonus on Medicine checks against the target that depend on its organs, but a -2 circumstance penalty on Medicine checks depending on seeing its skin.</p>\n<p>If you succeed the Recall Knowledge check, the next time you deal piercing or slashing damage to the target with a Strike or spell, you deal additional precision damage.</p>",
-      "rules": {
-        "2": {
-          "label": "Organsight"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.bH9cH9aDByY91l1d]{Organsight}</p>\n<p>You gain a +2 circumstance bonus on Medicine checks against the target that depend on its organs, but a -2 circumstance penalty on Medicine checks depending on seeing its skin.</p>\n<p>If you succeed the Recall Knowledge check, the next time you deal piercing or slashing damage to the target with a Strike or spell, you deal additional precision damage.</p>"
     },
     "Spell Effect: Outcast's Curse (Failure)": {
       "name": "Spell Effect: Outcast's Curse (Failure)",
@@ -1570,12 +1528,7 @@
     },
     "Spell Effect: Prismatic Shield": {
       "name": "Spell Effect: Prismatic Shield",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.AlCFTjSBaCHuRHBv]{Prismatic Shield}</p>\n<p>You gain a +2 circumstance bonus to your AC against attacks with larger ranged weapons.</p>",
-      "rules": {
-        "0": {
-          "label": "Targeted by a Large Ranged Weapon"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.AlCFTjSBaCHuRHBv]{Prismatic Shield}</p>\n<p>You gain a +2 circumstance bonus to your AC against attacks with larger ranged weapons.</p>"
     },
     "Spell Effect: Protect Companion": {
       "name": "Spell Effect: Protect Companion",
@@ -1583,12 +1536,7 @@
     },
     "Spell Effect: Protection": {
       "name": "Spell Effect: Protection",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf]{Protection}.</p>\n<p>You gain a +1 status bonus to Armor Class and saving throws.</p>",
-      "rules": {
-        "0": {
-          "label": "Protection"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf]{Protection}.</p>\n<p>You gain a +1 status bonus to Armor Class and saving throws.</p>"
     },
     "Spell Effect: Protective Wards": {
       "name": "Spell Effect: Protective Wards",
@@ -1724,12 +1672,7 @@
     },
     "Spell Effect: Schadenfreude (Success)": {
       "name": "Spell Effect: Schadenfreude (Success)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.8E97SA9KAWCNdXfO]{Schadenfreude}</p>\n<p>You take a -1 status penalty on Perception checks and Will saves.</p>",
-      "rules": {
-        "0": {
-          "label": "Schadenfreude"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.8E97SA9KAWCNdXfO]{Schadenfreude}</p>\n<p>You take a -1 status penalty on Perception checks and Will saves.</p>"
     },
     "Spell Effect: Scintillating Safeguard": {
       "name": "Spell Effect: Scintillating Safeguard",
@@ -1824,6 +1767,10 @@
       "name": "Spell Effect: Soothing Words",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.YGRpHU5yxw73mls8]{Soothing Words}</p>\n<p>You gain a status bonus to Will saving throws. This bonus increases against emotion effects.</p>"
     },
+    "Spell Effect: Sparkleskin": {
+      "name": "Spell Effect: Sparkleskin",
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.KAWQ5x2j4tUJ91ry]{Sparkleskin}</p>\n<p>You gain a +2 status bonus on Deception checks to Create a Diversion and to Feint, and on Performance checks to Perform that have the visual trait.</p>\n<p>When you take damage, creatures in a 5-foot emanation must attempt a Fortitude save.</p>\n<p><strong>Failure</strong> The creature is dazzled for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature is dazzled for 3 rounds.</p>"
+    },
     "Spell Effect: Speaking Sky": {
       "name": "Spell Effect: Speaking Sky",
       "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.Zvg0FWzClGbzucFd]{Speaking Sky}</p>\n<p>You gain precise motion sense within 60 feet.</p>"
@@ -1846,22 +1793,7 @@
     },
     "Spell Effect: Spirit of the Beast": {
       "name": "Spell Effect: Spirit of the Beast",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.wgAsL86ji5hulh7x]{Spirit of the Beast}</p>\n<p>Select from one of the following aspects.</p>\n<ul>\n<li><strong>Aspect of Might:</strong> You gain a status bonus to Athletics checks, Intimidation checks to Demoralize, and Fortitude saves.</li>\n<li><strong>Aspect of Swiftness:</strong> You gain a status bonus to Acrobatics checks, Stealth checks to Hide or Sneak, and Reflex saves.</li>\n<li><strong>Aspect of Insight:</strong> You gain a status bonus to Perception checks to Seek, Survival checks to Sense Direction or Track, and Will saves.</li>\n</ul>",
-      "rules": {
-        "0": {
-          "choices": {
-            "0": {
-              "label": "Aspect of Might"
-            },
-            "1": {
-              "label": "Aspect of Swiftness"
-            },
-            "2": {
-              "label": "Aspect of Insight"
-            }
-          }
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.wgAsL86ji5hulh7x]{Spirit of the Beast}</p>\n<p>Select from one of the following aspects.</p>\n<ul>\n<li><strong>Aspect of Might:</strong> You gain a status bonus to Athletics checks, Intimidation checks to Demoralize, and Fortitude saves.</li>\n<li><strong>Aspect of Swiftness:</strong> You gain a status bonus to Acrobatics checks, Stealth checks to Hide or Sneak, and Reflex saves.</li>\n<li><strong>Aspect of Insight:</strong> You gain a status bonus to Perception checks to Seek, Survival checks to Sense Direction or Track, and Will saves.</li>\n</ul>"
     },
     "Spell Effect: Spiritual Renewal": {
       "name": "Spell Effect: Spiritual Renewal",
@@ -1985,15 +1917,7 @@
     },
     "Spell Effect: Thicket of Knives": {
       "name": "Spell Effect: Thicket of Knives",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.X56VdA98VedAfGTU]{Thicket of Knives}</p>\n<p>You gain a +2 status bonus to Deception checks. If you're untrained in Deception, you can use the Feint action anyway, and add your level as your proficiency bonus despite being untrained.</p>",
-      "rules": {
-        "0": {
-          "label": "thicket-of-knives-proficiency"
-        },
-        "1": {
-          "label": "thicket-of-knives-status"
-        }
-      }
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.X56VdA98VedAfGTU]{Thicket of Knives}</p>\n<p>You gain a +2 status bonus to Deception checks. If you're untrained in Deception, you can use the Feint action anyway, and add your level as your proficiency bonus despite being untrained.</p>"
     },
     "Spell Effect: Threefold Limb (Ice)": {
       "name": "Spell Effect: Threefold Limb (Ice)",
@@ -2115,7 +2039,7 @@
     },
     "Spell Effect: Variable Gravity (High Gravity)": {
       "name": "Spell Effect: Variable Gravity (High Gravity)",
-      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.DcmWrD0V5PWQQyDm]{Variable Gravity}</p>\n<p>You gain a +2 status bonus to your saving throws and DCs to resist forced movement and attempts to knock you prone</p>"
+      "description": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.DcmWrD0V5PWQQyDm]{Variable Gravity}</p>\n<p>You become encumbered. You gain a +2 status bonus to your saving throws and DCs to resist forced movement and attempts to knock you prone.</p>"
     },
     "Spell Effect: Veil of Dreams": {
       "name": "Spell Effect: Veil of Dreams",

@@ -46,7 +46,7 @@
         },
         "action->Consume Tattooed Flesh": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsume Tattooed Flesh",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requirements</strong> Aller is adjacent to a tattooed scrap of flesh or to the corpse of a creature that died within the last hour</p>\n<p>Aller devours a bite of flesh and regains @Damage[4d6[healing]] Hit Points. If the piece of flesh was tattooed, he is also @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1} and can use this extra action to make a jaws Strike.</p>\n<p>Aller then can't Consume Flesh for [[/gmr 1d4 #Recharge Consume Flesh]]{1d4 rounds}. He has one piece of tattooed flesh on his person.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requirements</strong> Aller is adjacent to a tattooed scrap of flesh or to the corpse of a creature that died within the last hour</p>\n<p>Aller devours a bite of flesh and regains @Damage[4d6[healing]] Hit Points. If the piece of flesh was tattooed, he is also @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and can use this extra action to make a jaws Strike.</p>\n<p>Aller then can't Consume Flesh for [[/gmr 1d4 #Recharge Consume Flesh]]{1d4 rounds}. He has one piece of tattooed flesh on his person.</p>"
         },
         "action->Ghoul Fever": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\nGhoul Fever",
@@ -54,7 +54,7 @@
         },
         "action->Paralysis": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by Aller's attack must succeed at a @Check[fortitude|dc:22] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by Aller's attack must succeed at a @Check[fortitude|dc:22|options:inflicts:paralyzed] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
         },
         "action->Swift Leap": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSwift Leap",
@@ -88,7 +88,7 @@
         },
         "action->Paralysis": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by Augrael's attack must succeed at a @Check[fortitude|dc:20] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by Augrael's attack must succeed at a @Check[fortitude|dc:20|options:inflicts:paralyzed] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
         },
         "action->Sneak Attack": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.AWvNPE4U0kEJSL1T]\n<p>Augrael deals an extra 1d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
@@ -644,7 +644,7 @@
         },
         "action->Paralysis": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by a Canker cultist's attack must succeed at a @Check[fortitude|dc:20] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by a Canker cultist's attack must succeed at a @Check[fortitude|dc:20|options:inflicts:paralyzed] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
         },
         "action->Swift Leap": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSwift Leap",
@@ -699,7 +699,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]\nFreedom of Movement"
         },
         "spell->Awaken Portal": {
-          "gmNote": "<p>The DC required to successfully awaken a portal varies based on the strength and distance between its end points. For the portals found in the Abomination Vaults Adventure Path, the DC varies according to the dungeon level on which it is located. Use the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.pBS3DUjlzVuFgapv]{DCs by Spell Rank section} of Table 10-5 to determine the DC for a portal, using the dungeon level in place of spell rank. Thus, activating the portal on the first level of the Abomination Vaults requires a successful DC 15 check, while activating the portal on the fourth level requires a successful DC 23 check.</p>\n<p>In the Abomination Vaults, the creature conjured depends on the dungeon level where the ritual was attempted, as listed below.</p>\n<ul>\n<li><strong>First Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.NQ6qRvpD9DIwVxt3]{Vampiric Mist}</li>\n<li><strong>Second Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.Nkz8Z5TrEqRePGlk]{Scalathrax}</li>\n<li><strong>Third Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Gibbering Mouther}</li>\n<li><strong>Fourth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db]{Will-o'-Wisp}</li>\n<li><strong>Fifth Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SY8pvLPqc2EgP9Xj]{Soul Eater}</li>\n<li><strong>Sixth Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.ceLvlSQsYNORH8oM]{Voidglutton}</li>\n<li><strong>Seventh Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.ZGEf08j9q4fIPDFd]{Dread Wraith}</li>\n<li><strong>Eighth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.LN7MXD38Zs2bDoW6]{Ghost Mage}</li>\n<li><strong>Ninth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.TwFcW5O5J1SdsYv3]{Gosreg}</li>\n<li><strong>Tenth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{Shining Child}</li>\n</ul>",
+          "gmNote": "<p>The DC required to successfully awaken a portal varies based on the strength and distance between its end points. For the portals found in the Abomination Vaults Adventure Path, the DC varies according to the dungeon level on which it is located. Use the @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.pBS3DUjlzVuFgapv]{DCs by Spell Rank section} of Table 10-5 to determine the DC for a portal, using the dungeon level in place of spell rank. Thus, activating the portal on the first level of the Abomination Vaults requires a successful DC 15 check, while activating the portal on the fourth level requires a successful DC 23 check.</p>\n<p>In the Abomination Vaults, the creature conjured depends on the dungeon level where the ritual was attempted, as listed below.</p>\n<ul>\n<li><strong>First Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.NQ6qRvpD9DIwVxt3]{Vampiric Mist}</li>\n<li><strong>Second Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.Nkz8Z5TrEqRePGlk]{Scalathrax}</li>\n<li><strong>Third Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{Gibbering Mouther}</li>\n<li><strong>Fourth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db]{Will-o'-Wisp}</li>\n<li><strong>Fifth Level</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SY8pvLPqc2EgP9Xj]{Soul Eater}</li>\n<li><strong>Sixth Level</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.ceLvlSQsYNORH8oM]{Voidglutton}</li>\n<li><strong>Seventh Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.ZQ7lS9TYOFv07m1a]{War Wraith}</li>\n<li><strong>Eighth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.LN7MXD38Zs2bDoW6]{Ghost Mage}</li>\n<li><strong>Ninth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.TwFcW5O5J1SdsYv3]{Gosreg}</li>\n<li><strong>Tenth Level</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{Shining Child}</li>\n</ul>",
           "secondarycaster": "up to 5"
         },
         "spell->Glyph of Warding": {
@@ -877,7 +877,7 @@
         },
         "action->Unnerving Gaze": {
           "name": "Unnerving Gaze",
-          "description": "<p>30 feet. When a creature ends its turn in the aura, it sees the face of a departed loved one in place of the evangelist's face. The creature must succeed at a @Check[will|dc:21] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure).</p>"
+          "description": "<p>30 feet. When a creature ends its turn in the aura, it sees the face of a departed loved one in place of the evangelist's face. The creature must succeed at a @Check[will|dc:21|options:area-effect,inflicts:frightened] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure).</p>"
         },
         "action->Animate Chains": {
           "name": "Animate Chains",
@@ -885,7 +885,7 @@
         },
         "action->Focus Gaze": {
           "name": "Focus Gaze",
-          "description": "<p>The evangelist stares at a creature they can see within 30 feet. The target must immediately attempt a @Check[will|dc:21] save against Unnerving gaze. In addition, if the creature was already @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, on a failed save, the evangelist is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from the creature for as long as the creature remains frightened.</p>\n<p>After attempting this save, the creature is then temporarily immune until the start of the evangelist's next turn.</p>"
+          "description": "<p>The evangelist stares at a creature they can see within 30 feet. The target must immediately attempt a @Check[will|dc:21|options:inflicts:frightened] save against unnerving gaze. In addition, if the creature was already @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, on a failed save, the evangelist is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from the creature for as long as the creature remains frightened.</p>\n<p>After attempting this save, the creature is then temporarily immune until the start of the evangelist's next turn.</p>"
         },
         "action->Impaling Chain": {
           "name": "Impaling Chain",
@@ -975,7 +975,7 @@
         },
         "action->Sarglagon Venom": {
           "name": "Sarglagon Venom",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:26]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong>@Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong>@Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round)</p>"
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:26|options:damaging-effect,inflicts:clumsy]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round)</p>"
         }
       }
     },
@@ -1041,7 +1041,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 60 feet"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>60 feet. @Check[will|dc:27]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>60 feet. @Check[will|dc:27|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Aquatic Ambush": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.HBrBrUzjfvj2gDXB]\n<p>50 feet</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
@@ -1120,7 +1120,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.VdSMQ6yRZ3YXNXHL]\nWavesense (Imprecise) 60 feet"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>60 feet. @Check[will|dc:27]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>60 feet. @Check[will|dc:27|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Aquatic Ambush": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.HBrBrUzjfvj2gDXB]\n<p>50 feet</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
@@ -1722,7 +1722,7 @@
         },
         "action->Powerful Stench": {
           "name": "Powerful Stench",
-          "description": "<p>20 feet. A creature that enters the aura must succeed at a @Check[fortitude|dc:26|options:inflicts:sickened] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}; on a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for as long as it is sickened.</p>\n<p>A creature that succeeds at its save is temporarily immune for 1 minute.</p>"
+          "description": "<p>20 feet. A creature that enters the aura must succeed at a @Check[fortitude|dc:26|options:area-effect,inflicts:sickened,inflicts:slowed] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}; on a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for as long as it is sickened.</p>\n<p>A creature that succeeds at its save is temporarily immune for 1 minute.</p>"
         },
         "action->Bouncing Crush": {
           "name": "Bouncing Crush",
@@ -1774,7 +1774,7 @@
         },
         "action->Swarming Bites": {
           "name": "Swarming Bites",
-          "description": "<p>Each enemy in the swarm's space takes @Damage[2d8[piercing],1d6[acid]]{2d8 piercing damage and 1d6 acid damage} (@Check[reflex|dc:22|basic] save). A creature that fails its save against Swarming Bites also takes @Damage[1d4[persistent,acid]].</p>"
+          "description": "<p>Each enemy in the swarm's space takes @Damage[2d8[piercing],1d6[acid]|options:area-damage]{2d8 piercing damage and 1d6 acid damage} (@Check[reflex|dc:22|basic|options:area-effect] save). A creature that fails its save against Swarming Bites also takes @Damage[1d4[persistent,acid]].</p>"
         }
       }
     },
@@ -1831,7 +1831,7 @@
         },
         "action->Stench": {
           "name": "Stench",
-          "description": "<p>30 feet. A creature that enters the area must attempt a @Check[fortitude|dc:20] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Effect: Xulgath Stench}</p>"
+          "description": "<p>30 feet. A creature that enters the area must attempt a @Check[fortitude|dc:20|options:area-effect,inflicts:sickened] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the creature also takes a –5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{Effect: Xulgath Stench}</p>"
         },
         "action->Stench Suppression": {
           "name": "Stench Suppression",
@@ -2521,7 +2521,7 @@
         },
         "action->Petrifying Gaze": {
           "name": "Petrifying Gaze",
-          "description": "<p>30 feet. When a creature ends its turn in the aura, it must attempt a @Check[fortitude|dc:25] save. If the creature fails, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute. The medusa can deactivate or activate this aura by using a single action, which has the concentrate trait.</p>"
+          "description": "<p>30 feet. When a creature ends its turn in the aura, it must attempt a @Check[fortitude|dc:25|options:area-effect,inflicts:slowed] save. If the creature fails, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute. The medusa can deactivate or activate this aura by using a single action, which has the concentrate trait.</p>"
         },
         "action->Serpent Venom": {
           "name": "Serpent Venom",
@@ -2615,7 +2615,7 @@
         },
         "action->Consume Masterpiece": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\nConsume Masterpiece",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requirements</strong> Nhakazarin is adjacent to the rotting statue of Belcorra in area <strong>C34</strong></p>\n<hr />\n<p><strong>Effect</strong> Nhakazarin devours a chunk of flesh from the statue and regains @Damage[3d6[healing]] Hit Points and is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1} for 1 round. She can use this extra action only to make a jaws Strike or Cast a Spell.</p>\n<p>She can feed from the statue only once each day.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23]\n<p><strong>Requirements</strong> Nhakazarin is adjacent to the rotting statue of Belcorra in area <strong>C34</strong></p>\n<hr />\n<p><strong>Effect</strong> Nhakazarin devours a chunk of flesh from the statue and regains @Damage[3d6[healing]] Hit Points and is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round. She can use this extra action only to make a jaws Strike or Cast a Spell.</p>\n<p>She can feed from the statue only once each day.</p>"
         },
         "action->Ghoul Fever": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.N7UV5CZXtcoxDxCF]\nGhoul Fever",
@@ -2623,7 +2623,7 @@
         },
         "action->Paralysis": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\nParalysis",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a @Check[fortitude|dc:22] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.FW4KAUHb7r8WkxUc]\n<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a @Check[fortitude|dc:22|options:inflicts:paralyzed] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
         },
         "action->Swift Leap": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9]\nSwift Leap",
@@ -2934,7 +2934,7 @@
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]\nTelepathy (with spectral thralls only)"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>30 feet. @Check[will|dc:22]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>30 feet. @Check[will|dc:22|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Pain Starvation": {
           "name": "Pain Starvation",
@@ -3041,7 +3041,7 @@
         },
         "action->Paralysis": {
           "name": "Paralysis",
-          "description": "<p>A creature hit by the puffball's tendril must succeed a @Check[fortitude|dc:28] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. The paralyzed creature can attempt a new save at the end of each of its turns.</p>"
+          "description": "<p>A creature hit by the puffball's tendril must succeed a @Check[fortitude|dc:28|options:inflicts:paralyzed] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. The paralyzed creature can attempt a new save at the end of each of its turns.</p>"
         },
         "action->Skull Rot": {
           "name": "Skull Rot",
@@ -3492,25 +3492,21 @@
       "name": "Shuffling Scythe Blades",
       "description": "<p>Six long blades, hidden in grooves in the walls and floor, zigzag through different parts of this hallway when any pressure plate in the hallway intersection is depressed; there are so many plates it's impossible to avoid them when moving through the room. The blades retreat into the floor and move through the hidden grooves before swinging out from the wall again in a different location.</p>",
       "disable": "<p>@Check[thievery|dc:26|name:Disable Each Blade] (expert) to disable each blade, or utter the magical passphrase (which only Chafkhem knows) to deactivate the trap for 10 minutes</p>",
-      "reset": "<p>The trap resets when no creatures remain in area <strong>B20</strong>. Damaged or destroyed blades aren't repaired when the trap resets.</p>",
+      "reset": "<p>The trap resets when no creatures remain in area <strong>E20</strong>. Damaged or destroyed blades aren't repaired when the trap resets.</p>",
       "routine": "<p>(7 actions) The trap spends 1 action for each of its blades; a blade makes a scythe Strike against each creature in its region. With its final action, the trap uses Scythe Shuffle. Reduce the number of actions the trap can take by 1 for each destroyed blade.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "action->Dicing Scythes": {
           "name": "Dicing Scythes",
-          "description": "<p><strong>Trigger</strong> A creature steps in the 15-footby-25-foot area where the branching hallways connect</p>\n<hr />\n<p><strong>Effect</strong> The trap uses Scythe Shuffle; each blade makes a scythe Strike against each creature in its region, then it uses Scythe Shuffle again. The trap then rolls for initiative.</p>"
+          "description": "<p><strong>Trigger</strong> A creature steps in the 15-foot-by-25-foot area where the branching hallways connect</p>\n<hr />\n<p><strong>Effect</strong> The trap uses Scythe Shuffle; each blade makes a scythe Strike against each creature in its region, then it uses Scythe Shuffle again. The trap then rolls for initiative.</p>"
         },
         "action->Scythe Shuffle": {
           "name": "Scythe Shuffle",
-          "description": "<p>The blades travel erratically throughout the hallway's branches, out of sight under the floors or behind the walls. For each blade, roll [[/gmr 1d4 #Direction Scythe Blade]]{1d4} to determine the region in which it next makes scythe Strikes. A creature can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} (@Check[perception|dc:22|traits:action:seek]) to learn clues about blades in the region they're currently occupying. On a success, the creature knows how many blades are currently in its region.</p>\n<p>1. Main intersection (the 15-foot-by-25-foot area where the hallways connect, as marked on area <strong>B20</strong>)</p>\n<p>2. North branch (from the main intersection to the secret door to area <strong>B14</strong>)</p>\n<p>3. Central hall (from the main intersection to the secret door to area <strong>B24</strong>)</p>\n<p>4. South branch (from the main intersection to the wall shared with area <strong>B25</strong>)</p>"
+          "description": "<p>The blades travel erratically throughout the hallway's branches, out of sight under the floors or behind the walls. For each blade, roll [[/gmr 1d4 #Direction Scythe Blade]]{1d4} to determine the region in which it next makes scythe Strikes. A creature can [[/act seek dc=22]] to learn clues about blades in the region they're currently occupying. On a success, the creature knows how many blades are currently in its region.</p>\n<p>1. Main intersection (the 15-foot-by-25-foot area where the hallways connect, as marked on area <strong>E20</strong>)</p>\n<p>2. North branch (from the main intersection to the secret door to area <strong>E14</strong>)</p>\n<p>3. Central hall (from the main intersection to the secret door to area <strong>E24</strong>)</p>\n<p>4. South branch (from the main intersection to the wall shared with area <strong>E25</strong>)</p>"
         },
         "strike-melee->Scythe": {
           "name": "Scythe",
-          "description": "<p>No MAP applies to strikes made by scythe attacks</p>"
-        },
-        "action->No MAP": {
-          "name": "No MAP",
-          "description": "<p>The Scythe Strikes do not apply a MAP.</p>"
+          "description": "<p>No multiple attack penalty</p>"
         }
       }
     },
@@ -4124,7 +4120,7 @@
         },
         "action->Feed on Fear": {
           "name": "Feed on Fear",
-          "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirement</strong> An enemy is affected by a fear effect or has the frightened or dying condition, and is within 25 feet of the voidglutton</p>\n<hr />\n<p><strong>Effect</strong> The voidglutton feeds on the creature's terror. It regains @Damage[3d4[healing]] Hit Points and its Glow reignites if it had been extinguished.</p>\n<p>It cannot use Consume Light again for [[/gmr 1d4 #Recharge Consume Light]]{1d4 rounds}, as it is too glutted on fear to suppress its Glow.</p>"
+          "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirement</strong> An enemy is affected by a fear effect or has the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} or @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} condition, and is within 25 feet of the voidglutton</p>\n<hr />\n<p><strong>Effect</strong> The voidglutton feeds on the creature's terror. It regains @Damage[3d4[healing]] Hit Points and its Glow reignites if it had been extinguished.</p>\n<p>It cannot use Consume Light again for [[/gmr 1d4 #Recharge Consume Light]]{1d4 rounds}, as it is too glutted on fear to suppress its Glow.</p>"
         },
         "action->Magic Immunity": {
           "name": "Magic Immunity",

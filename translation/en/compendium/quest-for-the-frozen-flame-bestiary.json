@@ -710,7 +710,7 @@
         },
         "action->Sunder Objects": {
           "name": "Sunder Objects",
-          "description": "<p>When an arboreal regent damages an item or structure, it deals an additional [[/r {2d10}]]{2d10 damage} to that item or structure.</p>"
+          "description": "<p>When an arboreal regent damages an item or structure, it deals an additional 2d10 damage to that item or structure.</p>"
         }
       }
     },
@@ -815,7 +815,7 @@
         },
         "action->Paralysis": {
           "name": "Paralysis",
-          "description": "<p>Any nonliving creature hit by the everburning mammoth's jaws Strike must succeed at a @Check[fortitude|dc:23] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+          "description": "<p>Any nonliving creature hit by the everburning mammoth's jaws Strike must succeed at a @Check[fortitude|dc:23|options:inflicts:paralyzed] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
         }
       }
     },
@@ -1394,7 +1394,7 @@
           "description": "<p>When Ivarsa uses a teleportation effect while she's riding a mount, the mount teleports with her.</p>"
         },
         "action->Spellstrike": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]\n<p>Ivarsa channels a spell into a punch or axe swing to deliver a magically charged attack. She casts @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition} or @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of Frost}. The effects of the spell don't occur immediately but are imbued into her attack instead. She makes a melee Strike with a weapon or unarmed attack, which gains the arcane trait. Her spell is coupled with the attack, using her attack roll to determine the effects of both the Strike and the spell. This counts as two attacks for her multiple attack penalty, but the penalty isn't applied until after she has completed the Spellstrike. After she uses Spellstrike, Ivarsa can't do so again until she recharges this ability as a single action, which has the concentrate trait. She also recharges her Spellstrike when she casts thunderous strike.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]\n<p>Ivarsa channels a spell into a punch or axe swing to deliver a magically charged attack. She casts @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition} or @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of Frost}. The effects of the spell don't occur immediately but are imbued into her attack instead. She makes a melee Strike with a weapon or unarmed attack, which gains the arcane trait. Her spell is coupled with the attack, using her attack roll to determine the effects of both the Strike and the spell. This counts as two attacks for her multiple attack penalty, but the penalty isn't applied until after she has completed the Spellstrike. After she uses Spellstrike, Ivarsa can't do so again until she recharges this ability as a single action, which has the concentrate trait. She also recharges her Spellstrike when she casts @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}.</p>"
         },
         "lore->Warfare Lore": {
           "name": "Warfare Lore"
@@ -1406,6 +1406,9 @@
       "items": {
         "spellcastingEntry->Primal Spontaneous Spells": {
           "name": "Primal Spontaneous Spells"
+        },
+        "spell->Reincarnate": {
+          "secondarycheck": "Occultism,  Religion"
         },
         "spell->Endure Elements": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX]\nEndure Elements"
@@ -1697,6 +1700,10 @@
     },
     "Metuak": {
       "name": "Metuak",
+      "blurb": "Male demon-possessed human hero",
+      "hpDetails": "(dual soul; 120 each for Metuak and Xeleria)",
+      "languages": "telepathy 100 feet",
+      "saveDetails": "+1 to all saves vs. magic",
       "items": {
         "spellcastingEntry->Divine Innate Spells": {
           "name": "Divine Innate Spells"
@@ -1704,8 +1711,11 @@
         "strike-melee->Claw": {
           "name": "Claw"
         },
-        "strike-ranged->Hatchet": {
+        "strike-melee->Hatchet": {
           "name": "Hatchet"
+        },
+        "action->+1 to All Saves vs. Magic": {
+          "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc]\n+1 to All Saves vs. Magic"
         },
         "action->Attack of Opportunity": {
           "name": "Attack of Opportunity",
@@ -1721,7 +1731,7 @@
         },
         "action->Dual Soul": {
           "name": "Dual Soul",
-          "description": "<p>A demon named Xeleria is bound to Metuak's soul. Though the two entities share one body and are a single creature for the purpose of both targeted and area effects, Metuak and Xeleria each have 120 Hit Points. Damage to each is tracked separately. Xeleria's HP is reduced by force, good, and vitality damage, and any damage from a cold iron weapon, a weapon with a <em>ghost touch</em> rune, and any damage originating from the <em>Primordial Flame</em>. All other damage reduces Metuak's HP.Metuak and Xeleria must both be reduced to 0 HP for Metuak to die and Xeleria to be destroyed. If, at the beginning of Metuak's turn, either Metuak or Xeleria has been reduced to 0 HP but the other hasn't, Metuak and Xeleria each regain 15 HP.</p>"
+          "description": "<p>A demon named Xeleria is bound to Metuak's soul. Though the two entities share one body and are a single creature for the purpose of both targeted and area effects, Metuak and Xeleria each have 120 Hit Points. Damage to each is tracked separately. Xeleria's HP is reduced by force, good, and vitality damage, and any damage from a cold iron weapon, a weapon with a <em>ghost touch</em> rune, and any damage originating from the <em>Primordial Flame</em>. All other damage reduces Metuak's HP.</p>\n<p>Metuak and Xeleria must both be reduced to 0 HP for Metuak to die and Xeleria to be destroyed. If, at the beginning of Metuak's turn, either Metuak or Xeleria has been reduced to 0 HP but the other hasn't, Metuak and Xeleria each regain @Damage[15[healing]] HP.</p>"
         },
         "action->Shadow Blend": {
           "name": "Shadow Blend",
@@ -1733,7 +1743,7 @@
         },
         "action->Terrifying Howl": {
           "name": "Terrifying Howl",
-          "description": "<p>Metuak unleashes a terrifying howl, attempting to Demoralize each creature within 30 feet. These creatures are then immune to Terrifying Howl for 1 minute.</p>"
+          "description": "<p>Metuak unleashes a terrifying howl, attempting to [[/act demoralize options=area-effect]] each creature within @Template[emanation|distance:30]{30 feet}. These creatures are then immune to Terrifying Howl for 1 minute.</p>"
         }
       }
     },
@@ -2093,7 +2103,7 @@
         },
         "action->Summer's Salvation": {
           "name": "Summer's Salvation",
-          "description": "<p><strong>Trigger</strong> The summer hora or an ally within 30 feet that the summer hora can see fails a Perception check or saving throw</p>\n<hr />\n<p><strong>Effect</strong> If it's the month of the summer solstice, the hora's or ally's check retroactively gains a +4 status bonus, which can change the outcome from a critical failure to a failure or a failure to a success. If it's the month before or after the summer solstice, the check gains a retroactive +2 status bonus instead. In the other months except during the three winter solstice months, the check gains a retroactive +1 status bonus instead. During the winter solstice months, this ability has no effect. The summer hora can't use Summer's Fortune again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Trigger</strong> The summer hora or an ally within 30 feet that the summer hora can see fails a Perception check or saving throw</p>\n<hr />\n<p><strong>Effect</strong> If it's the month of the summer solstice, the hora's or ally's check retroactively gains a +4 status bonus, which can change the outcome from a critical failure to a failure or a failure to a success. If it's the month before or after the summer solstice, the check gains a retroactive +2 status bonus instead. In the other months except during the three winter solstice months, the check gains a retroactive +1 status bonus instead. During the winter solstice months, this ability has no effect. The summer hora can't use Summer's Fortune again for [[/gmr 1d4 #Recharge Summer's Salvation]]{1d4 rounds}.</p>"
         },
         "lore->Astronomy Lore": {
           "name": "Astronomy Lore"
@@ -2180,7 +2190,7 @@
         },
         "action->Nymph's Beauty": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kG4fDd16fYEFvmgy]\nNymph's Beauty",
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kG4fDd16fYEFvmgy]\n<p>30 feet. Creatures that start their turn in the aura must succeed at a @Check[will|dc:30] save or suffer an effect described in the nymph queen's entry.</p>\n<hr />\n<p>On a failed save, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 minute.</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.kG4fDd16fYEFvmgy]\n<p>30 feet. Creatures that start their turn in the aura must succeed at a @Check[will|dc:30|options:area-effect,inflicts:dazzled,inflicts:off-guard] save or suffer an effect described in the nymph queen's entry.</p>\n<hr />\n<p>On a failed save, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 minute.</p>"
         },
         "action->Change Shape": {
           "name": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.eXleBXdAemiEoHA8]\nChange Shape"
@@ -2195,7 +2205,7 @@
         },
         "action->Summer's Salvation": {
           "name": "Summer's Salvation",
-          "description": "<p><strong>Trigger</strong> The summer hora or an ally within 30 feet that the summer hora can see fails a Perception check, saving throw, attack roll, or skill check.</p>\n<hr />\n<p><strong>Effect</strong> If it's the month of the summer solstice, the hora's or ally's check retroactively gains a +4 status bonus, which can change the outcome from a critical failure to a failure or a failure to a success. If it's the month before or after the summer solstice, the check gains a retroactive +2 status bonus instead. In the other months except during the three winter solstice months, the check gains a retroactive +1 status bonus instead. During the winter solstice months, this ability has no effect. The summer hora can't use Summer's Fortune again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p><strong>Trigger</strong> The summer hora or an ally within 30 feet that the summer hora can see fails a Perception check, saving throw, attack roll, or skill check.</p>\n<hr />\n<p><strong>Effect</strong> If it's the month of the summer solstice, the hora's or ally's check retroactively gains a +4 status bonus, which can change the outcome from a critical failure to a failure or a failure to a success. If it's the month before or after the summer solstice, the check gains a retroactive +2 status bonus instead. In the other months except during the three winter solstice months, the check gains a retroactive +1 status bonus instead. During the winter solstice months, this ability has no effect. The summer hora can't use Summer's Fortune again for [[/gmr 1d4 #Recharge Summer's Salvation]]{1d4 rounds}.</p>"
         },
         "lore->Astronomy Lore": {
           "name": "Astronomy Lore"
@@ -2258,7 +2268,7 @@
         },
         "action->Viscous Sludge": {
           "name": "Viscous Sludge",
-          "description": "<p>The tar ooze can have up to eight creatures grappled at the same time; doing so doesn't prevent it from making pseudopod Strikes. A tar ooze can climb on ceilings and other inverted surfaces, though such surfaces are difficult terrain.</p>"
+          "description": "<p>The tar ooze can have up to eight creatures grabbed at the same time; doing so doesn't prevent it from making pseudopod Strikes. A tar ooze can climb on ceilings and other inverted surfaces, though such surfaces are difficult terrain.</p>"
         },
         "action->Zombification": {
           "name": "Zombification",
@@ -2342,7 +2352,7 @@
         },
         "action->Tar-Splattered Charge": {
           "name": "Tar-Splattered Charge",
-          "description": "<p>The tar zombie predator lurches at its foe. It Strides twice and makes a claw Strike, or strides once and makes two claw Strikes. Both Strikes count toward its multiple attack penalty as normal. It can't make a Tar-Spattered Charge again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The tar zombie predator lurches at its foe. It Strides twice and makes a claw Strike, or strides once and makes two claw Strikes. Both Strikes count toward its multiple attack penalty as normal. It can't make a Tar-Spattered Charge again for [[/gmr 1d4 #Recharge Tar-Splattered Charge]]{1d4 rounds}.</p>"
         },
         "action->Vomit Tar": {
           "name": "Vomit Tar",
@@ -2527,7 +2537,7 @@
           "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to Venexus</p>\n<hr />\n<p><strong>Effect</strong> Venexus's blood splatters onto the triggering creature, dealing @Damage[2d6[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:25]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:25|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Mist Shroud": {
           "name": "Mist Shroud",
@@ -2535,7 +2545,7 @@
         },
         "action->Storm Vision": {
           "name": "Storm Vision",
-          "description": "<p>Inclement weather doesn't impair Venexus's vision; she ignores concealment from fog, mist, rain, and snowfall.</p>"
+          "description": "<p>Inclement weather doesn't impair Venexus's vision; she ignores @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} from fog, mist, rain, and snowfall.</p>"
         },
         "action->Breath Weapon": {
           "name": "Breath Weapon",
@@ -2617,11 +2627,11 @@
           "description": "<p><strong>Trigger</strong> An adjacent creature deals piercing or slashing damage to the wyrmling</p>\n<hr />\n<p><strong>Effect</strong> The wyrmling's blood splatters onto the triggering creature, dealing @Damage[1d4[cold]] damage. A creature that takes cold damage in this way is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>"
         },
         "action->Frightful Presence": {
-          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:19]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+          "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]\n<p>90 feet. @Check[will|dc:19|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "action->Snow Vision": {
           "name": "Snow Vision",
-          "description": "<p>Snow doesn't impair a white dragon's vision; the wyrmling ignores concealment from snowfall.</p>"
+          "description": "<p>Snow doesn't impair a white dragon's vision; the wyrmling ignores @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} from snowfall.</p>"
         },
         "action->Breath Weapon": {
           "name": "Breath Weapon",

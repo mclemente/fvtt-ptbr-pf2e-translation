@@ -612,7 +612,7 @@
         },
         "action->Release Light": {
           "name": "Release Light",
-          "description": "<p>The strider emits the light that continually refracts within them to cast @UUID[Compendium.pf2e.spells-srd.Item.Hb8GdAhP0zBCv3zU]{Chromatic Ray} as an innate primal spell heightened to 5th rank, with a +21 spell attack roll. The crystal strider can't Release Light again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The strider emits the light that continually refracts within them to cast @UUID[Compendium.pf2e.spells-srd.Item.Hb8GdAhP0zBCv3zU]{Chromatic Ray} as an innate primal spell heightened to 5th rank, with a +21 spell attack roll. The crystal strider can't Release Light again for [[/gmr 1d4 #Recharge Release Light]]{1d4 rounds}.</p>"
         },
         "action->Trample": {
           "description": "<Compendium> tag will get replaced with text from compendium entry @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]\n<p>Large or smaller, leg, @Check[reflex|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -920,7 +920,7 @@
         },
         "action->A Thousand Cuts": {
           "name": "A Thousand Cuts",
-          "description": "<p>A ferrous butterfly's knifelike wings cause terrible lacerations that continue to bleed. Any creature with persistent bleed damage from a ferrous butterfly's wing attack has weakness 2 to slashing damage until the bleeding is stopped.</p>"
+          "description": "<p>A ferrous butterfly's knifelike wings cause terrible lacerations that continue to bleed. Any creature with persistent bleed damage from a ferrous butterfly's wing attack has weakness 2 to slashing damage until the bleeding is stopped.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Eecbbol29eIP3zvf]{Effect: A Thousand Cuts}</p>"
         },
         "action->Swoop": {
           "name": "Swoop",
@@ -1059,7 +1059,7 @@
         },
         "action->Heat of Blazing Wings": {
           "name": "Heat of Blazing Wings",
-          "description": "<p>5 feet, @Damage[4d6[fire]] damage (@Check[reflex|dc:31|basic])</p>"
+          "description": "<p>5 feet. @Damage[4d6[fire]|options:area-damage] damage (@Check[reflex|dc:31|basic|options:area-effect])</p>"
         },
         "action->Burning Grasp": {
           "name": "Burning Grasp",
@@ -1510,7 +1510,7 @@
         },
         "action->Reverse Polarity": {
           "name": "Reverse Polarity",
-          "description": "<p>The living lodestone switches the polarity of its magnetic field from positive to negative, or vice versa. Each creature affected by the lodestone's aura falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} unless it succeeds at a @Check[reflex|dc:21] save.</p>\n<p>The lodestone can't Reverse Polarity again for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>"
+          "description": "<p>The living lodestone switches the polarity of its magnetic field from positive to negative, or vice versa. Each creature affected by the lodestone's aura falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} unless it succeeds at a @Check[reflex|dc:21] save.</p>\n<p>The lodestone can't Reverse Polarity again for [[/gmr 1d4 #Recharge Reverse Polarity]]{1d4 rounds}.</p>"
         }
       }
     },
@@ -1723,7 +1723,7 @@
         },
         "action->Heat of the Forge": {
           "name": "Heat of the Forge",
-          "description": "<p>10 feet. An munsahir's skin radiates heat like a forge's fire. A creature that starts its turn in the area must succeed at a @Check[fortitude|dc:19] save or become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} while it remains in the area. Creatures immune to environmental heat effects or with any fire resistance are immune.</p>"
+          "description": "<p>10 feet. An munsahir's skin radiates heat like a forge's fire. A creature that starts its turn in the area must succeed at a @Check[fortitude|dc:19|options:area-effect,inflicts:fatigued] save or become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} while it remains in the area. Creatures immune to environmental heat effects or with any fire resistance are immune.</p>"
         },
         "action->Self-Destruct": {
           "name": "Self-Destruct",
@@ -1757,7 +1757,7 @@
         },
         "action->Heat of the Forge": {
           "name": "Heat of the Forge",
-          "description": "<p>10 feet. An munsahir's skin radiates heat like a forge's fire. A creature that starts its turn in the area must succeed at a @Check[fortitude|dc:20] save or become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} while it remains in the area. Creatures immune to environmental heat effects or with any fire resistance are immune.</p>"
+          "description": "<p>10 feet. An munsahir's skin radiates heat like a forge's fire. A creature that starts its turn in the area must succeed at a @Check[fortitude|dc:20|options:area-effect,inflicts:fatigued] save or become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} while it remains in the area. Creatures immune to environmental heat effects or with any fire resistance are immune.</p>"
         },
         "action->Self-Destruct": {
           "name": "Self-Destruct",
