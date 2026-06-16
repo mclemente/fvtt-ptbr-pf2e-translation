@@ -66,7 +66,8 @@
           "description": "<p> Originalmente uma ferramenta agrícola usada para colher grãos, esta arma de uma mão possui um cabo curto de madeira que termina em uma lâmina curva, às vezes afiada nos dois lados</p>"
         },
         "armor->Chain Shirt": {
-          "name": "Camisão de Malha"
+          "name": "Camisão de Malha",
+          "description": "<p>Às vezes chamada de hauberk, esta é uma camisa longa construída com os mesmos anéis metálicos de uma cota de malha. Porém, ela é muito mais leve que uma cota de malha e protege apenas o torso, os braços superiores e as pernas superiores de seu usuário.</p>"
         },
         "strike-ranged->Dagger": {
           "name": "Adaga"
@@ -105,6 +106,9 @@
         },
         "action->Light Blindness": {
           "name": "Cegueira à Luz"
+        },
+        "action->Darkening Poison": {
+          "name": "Veneno Escurecedor"
         }
       }
     },
@@ -118,6 +122,9 @@
         },
         "action->Light Blindness": {
           "name": "Cegueira à Luz"
+        },
+        "action->Darkening Poison": {
+          "name": "Veneno Escurecedor"
         }
       }
     },
@@ -1024,7 +1031,12 @@
           "description": "<p>Derivada de uma ferramenta agrícola usada para ceifar grãos e cereais longos, esta arma possui um cabo comprido de madeira com empunhaduras protuberantes, encimado por uma lâmina curva ajustada em um ângulo reto.</p>"
         },
         "armor->Hide Armor": {
-          "name": "Gibão de Peles"
+          "name": "Gibão de Peles",
+          "description": "<p>Uma mistura de peles, couro resistente e às vezes couro fervido moldado, esta armadura fornece proteção devido às suas camadas de couro, embora seu volume torne o usuário mais lento e reduza a mobilidade.</p>"
+        },
+        "equipment->Primal Symbol": {
+          "name": "Símbolo Primal",
+          "description": "<p>Conjuradores primais, especialmente druidas, frequentemente usam adornos de materiais naturais para simbolizar sua conexão com a natureza, como anéis de plantas trançadas, talismãs feitos de partes de animais ou outros símbolos relacionados a uma ordem druídica ou filosofia da natureza.</p>"
         },
         "ammo->Sling Bullets": {
           "name": "Balas de funda",
@@ -1080,10 +1092,12 @@
           "description": "<p><span class=\"fontstyle0\">Esta besta grande é mais difícil de recarregar e mais substancial do que uma besta convencional, mas dá golpes mais potentes.  </p>"
         },
         "weapon->Spear": {
-          "name": "Lança"
+          "name": "Lança",
+          "description": "<p>Uma longa haste de madeira terminada em uma ponta metálica, uma lança pode ser usada com uma mão como arma corpo a corpo e pode ser arremessada.</p>"
         },
         "shield->Steel Shield": {
-          "name": "Escudo de aço"
+          "name": "Escudo de aço",
+          "description": "<p>Assim como escudos de madeira, escudos de aço existem em uma variedade de formatos e tamanhos. Embora sejam mais caros que escudos de madeira, são muito mais duráveis.</p><table class=\"pf2e remaster\"><thead><tr><th>Dureza</th><th>PV</th><th>LL</th></tr></thead><tbody><tr>\u000015<th>16\u0000<td>20</td>\u000019</th>20\u0000</tr></tbody></table>"
         },
         "armor->Studded Leather Armor": {
           "name": "Couro Batido",
@@ -1163,6 +1177,9 @@
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
+        },
+        "action->Final Spite": {
+          "name": "Despeito Final"
         }
       }
     },
