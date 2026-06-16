@@ -1857,6 +1857,9 @@
         },
         "strike-melee->Tusk": {
           "name": "Presa"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         }
       }
     },
@@ -1957,6 +1960,9 @@
         "action->Forest Passage": {
           "name": "Caminho da Floresta"
         },
+        "action->Trackless Journey": {
+          "name": "Jornada Sem Rastros"
+        },
         "lore->Forest Lore": {
           "name": "Saber de Florestas"
         }
@@ -1981,6 +1987,9 @@
         },
         "action->Forest Passage": {
           "name": "Caminho da Floresta"
+        },
+        "action->Trackless Journey": {
+          "name": "Jornada Sem Rastros"
         },
         "lore->Forest Lore": {
           "name": "Saber de Florestas"
@@ -2378,6 +2387,9 @@
         },
         "strike-melee->Foot": {
           "name": "Pé"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         }
       }
     },
@@ -2589,6 +2601,7 @@
       }
     },
     "Mosquito Witch": {
+      "name": "Bruxa Mosquito",
       "items": {
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
@@ -2603,6 +2616,7 @@
       }
     },
     "Mosquito Witch (The Hemoprophet)": {
+      "tokenName": "Bruxa Mosquito",
       "items": {
         "strike-melee->Bite": {
           "name": "Mordida"
@@ -2613,6 +2627,7 @@
       }
     },
     "Mosquito Witch (The Legion Leech)": {
+      "tokenName": "Bruxa Mosquito",
       "items": {
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
@@ -2627,6 +2642,7 @@
       }
     },
     "Mosquito Witch (The Swarm Seer)": {
+      "tokenName": "Bruxa Mosquito",
       "items": {
         "spell->Dancing Lights": {
           "name": "Luzes Dançantes",
@@ -4125,6 +4141,13 @@
         }
       }
     },
+    "Temteki": {
+      "items": {
+        "action->Interposing Earth": {
+          "name": "Terra Interposta"
+        }
+      }
+    },
     "The Bloodstorm": {
       "items": {
         "strike-melee->Pincer": {
@@ -5050,6 +5073,9 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         }
       }
     },
@@ -5329,6 +5355,7 @@
     "Time": "Tempo",
     "Sky": "Céu",
     "Oath": "Juramento",
-    "Forest": "Floresta"
+    "Forest": "Floresta",
+    "Mirage": "Miragem"
   }
 }
