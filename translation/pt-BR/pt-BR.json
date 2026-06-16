@@ -733,6 +733,7 @@
     "ArmorGroupSkeletal": "Esquelética",
     "ArmorGroupWood": "Madeira",
     "ArmorMajorResilientRune": "Resiliente Superior",
+    "ArmorMythicResilientRune": "Resiliente Mítica",
     "ArmorPotencyRune1": "Potência da Armadura (+1)",
     "ArmorPotencyRune2": "Potência da Armadura (+2)",
     "ArmorPotencyRune3": "Potência da Armadura (+3)",
@@ -790,6 +791,7 @@
     "ArmorPropertyRuneSizeChanging": "Mudança de Tamanho",
     "ArmorPropertyRuneSlick": "Escorregadia",
     "ArmorPropertyRuneSoaring": "Soaring",
+    "ArmorPropertyRuneSpellwatch": "Vigia-Magias",
     "ArmorPropertyRuneStanching": "Estancadora",
     "ArmorPropertyRuneSwallowSpike": "Espinhosa",
     "ArmorPropertyRuneTrueQuenching": "Extintora Verdadeira",
@@ -1750,7 +1752,10 @@
           }
         },
         "Base": {
+          "8-round-magazine": "Carregador de 8 Projéteis",
           "arrows": "Flechas",
+          "backpack-ballista-bolts": "Virotes de Balista de Mochila",
+          "backpack-catapult-stones": "Pedras de Catapulta de Mochila",
           "battery": "Bateria",
           "blowgun-darts": "Dardos de Zarabatana",
           "bolts": "Virotes",
@@ -1779,20 +1784,26 @@
           "rounds-drake-rifle": "Balas (Rifle de Draco)",
           "rounds-dueling-pistol": "Balas (Pistola de duelo)",
           "rounds-dwarven-scattergun": "Balas (Espingarda Anã)",
+          "rounds-explosive-dogslicer": "Projéteis (Fatiador de Cão Explosivo)",
           "rounds-fire-lance": "Balas (Lança de Fogo)",
+          "rounds-flingflenser": "Cartuchos (Esfolador-Arremessador)",
           "rounds-flintlock-musket": "Balas (Mosquete de Pederneira)",
           "rounds-flintlock-pistol": "Balas (Pistola de Pederneira)",
+          "rounds-gnome-amalgam-musket": "Munições (Mosquete Amálgama Gnomo)",
           "rounds-gun-sword": "Balas (Arma Espada)",
           "rounds-hammer-gun": "Balas (Arma Martelo)",
           "rounds-hand-cannon": "Balas (Canhão de Mão)",
           "rounds-harmona-gun": "Balas (Pistola Uivante)",
           "rounds-jezail": "Balas (Jezail)",
+          "rounds-mace-multipistol": "Munições (Multipistola Maça)",
+          "rounds-mithral-tree": "Projéteis (Árvore de Prata Prateada)",
           "rounds-pepperbox": "Balas (Pimenteira)",
           "rounds-petrification-cannon": "Balas (Canhão de Petrificação)",
           "rounds-piercing-wind": "Balas (Vento Perfurante)",
           "rounds-rapier-pistol": "Balas (Pistola rapieira)",
           "rounds-shield-pistol": "Balas (Pistola escudo)",
           "rounds-shobhad-longrifle": "Balas (Rilfe Longo de Shobhad)",
+          "rounds-slide-pistol": "Munições (Pistola Deslizante)",
           "rounds-spider-gun": "Balas (Arma-Aranha)",
           "rounds-spike-launcher": "Balas (Lança-Espinhos)",
           "rounds-tentacle-cannon": "Balas (Canhão de Tentáculo)",
@@ -1873,6 +1884,7 @@
           "splint-mail": "Cota de Talas",
           "studded-leather-armor": "Couro Batido",
           "subterfuge-suit": "Traje Evasivo",
+          "swarmsuit": "Traje Antienxame",
           "wooden-breastplate": "Peitoral de Madeira"
         },
         "Category": {
@@ -2724,6 +2736,7 @@
           "buckler": "Broquel",
           "casters-targe": "Targe do Conjurador",
           "dart-shield": "Escudo de Dardo",
+          "fiendsbane-shield": "Escudo Ruína dos Ínferos",
           "fortress-shield": "Escudo da Fortaleza",
           "gauntlet-buckler": "Manopla Broquel",
           "harnessed-shield": "Escudo Arreado",
@@ -2902,6 +2915,7 @@
           "Striking": {
             "Greater": "Impactante Maior",
             "Major": "Impactante Superior",
+            "Mythic": "Impactante Mítico",
             "Striking": "Impactante"
           }
         },
@@ -4987,6 +5001,7 @@
     "TraitInventor": "Inventor",
     "TraitInvested": "Investido",
     "TraitInvestigator": "Investigador",
+    "TraitJotunborn": "Jotunborn",
     "TraitJousting": "Justa",
     "TraitJoustingD10": "Justa d10",
     "TraitJoustingD4": "Justa d4",
@@ -5129,6 +5144,7 @@
     "TraitRevelation": "Revelação",
     "TraitRogue": "Ladino",
     "TraitSanctified": "Santificado",
+    "TraitSarangay": "Sarangay",
     "TraitScatter": "Dispersar",
     "TraitScatter10": "Dispersar 10",
     "TraitScatter15": "Dispersar 15",
@@ -5435,6 +5451,7 @@
         "bladed-diabolo": "Diabolo Lâminado",
         "bladed-hoop": "Bambolê Laminado",
         "bladed-scarf": "Cachecol Laminado",
+        "bladesweeper": "Varredora de Lâminas",
         "blowgun": "Zarabatana",
         "blowgun-darts": "Dardos de Zarabatana",
         "bo-staff": "Bo",
@@ -6046,6 +6063,9 @@
         "Note": {
           "criticalSuccess": "Em um acerto crítico, o alvo deve ser bem-sucedido em um teste de salvamento @Check[fortitude|dc:24|name:Thundering Rune] ou ficará @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Surdo} por 1 minuto (ou 1 hora em uma falha crítica)."
         }
+      },
+      "truddsStrength": {
+        "Name": "Força de Trudd"
       },
       "trueRooting": {
         "Name": "Enraizadora Verdadeira"
