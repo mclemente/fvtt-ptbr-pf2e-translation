@@ -207,6 +207,9 @@
     },
     "Armag Twice-Born": {
       "items": {
+        "strike-melee->Ovinrbaane": {
+          "name": "Ovinrbaane"
+        },
         "action->Second Wind": {
           "name": "Retomar o Fôlego"
         },
@@ -404,6 +407,9 @@
           "consumableSpellName": "Paralisar",
           "consumableSpellDescription": "<p>Você bloqueia os impulsos motores do alvo antes que eles possam sair da mente dele, ameaçando paralisá-lo. O alvo deve tentar um salvamento de Vontade.</p> <hr /><p><strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica  @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} 1.</p><p><strong>Falha</strong> O alvo fica @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 1 rodada.</p><p><strong>Falha</strong> O alvo fica  @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 4 rodadas. No início de cada um dos turnos dele, o alvo deve tentar um novo salvamento de Vontade para reduzir a duração em 1 rodada, ou encerrá-la inteiramente em um sucesso crítico.</p> <hr /><p><strong>Elevada (7º)</strong> Você pode afetar até 10 criaturas.</p>",
           "consumableSpellTarget": "1 criatura"
+        },
+        "strike-melee->Rod of Razors": {
+          "name": "Bastão de Navalhas"
         }
       }
     },
@@ -1952,6 +1958,9 @@
     },
     "Prank Workshop Mitflit": {
       "items": {
+        "consumable->Marbles": {
+          "name": "Bolinhas de Gude"
+        },
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         }
@@ -2303,6 +2312,9 @@
         "strike-melee->Bastard Sword": {
           "name": "Espada Bastarda"
         },
+        "action->Final Spite": {
+          "name": "Despeito Final"
+        },
         "action->Drain Life": {
           "name": "Drenar Vida"
         }
@@ -2333,7 +2345,8 @@
           "name": "Golpeador Pavoroso"
         },
         "action->Hunt Prey": {
-          "name": "Caçar Presa"
+          "name": "Caçar Presa",
+          "description": "<p>Você designa uma única criatura como sua presa e foca seus ataques contra essa criatura. Você deve ser capaz de ver ou ouvir a presa, ou deve estar rastreando a presa durante exploração.</p>\n<p>Você recebe +2 de bônus de circunstância em testes de Percepção quando @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Busca} sua presa e +2 de bônus de circunstância em testes de Sobrevivência quando @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Rastreia} sua presa. Você também ignora a penalidade por fazer ataques à distância dentro do segundo incremento de distância contra a presa que está caçando.</p>\n<p>Você pode ter apenas uma criatura designada como sua presa por vez. Se usar Caçar presa contra uma criatura quando já tiver uma criatura designada, a criatura anterior perde a designação e a nova presa ganha a designação. Sua designação dura até suas próximas preparações diárias.</p>"
         }
       }
     },
