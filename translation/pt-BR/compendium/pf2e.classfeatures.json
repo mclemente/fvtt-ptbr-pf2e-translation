@@ -1601,7 +1601,12 @@
     },
     "Intensify Vulnerability": {
       "name": "Intensificar Vulnerabilidade",
-      "description": "<p>Você aprendeu a usar seu implemento para atacar ainda mais sua presa. Você recebe o benefício intensificar vulnerabilidade de todos os seus implementos, bem como a ação @UUID[Compendium.pf2e.actionspf2e.Item.HAmGozJwLAal5v82]{Intensificar Vulnerabilidade}.</p>"
+      "description": "<p>Você aprendeu a usar seu implemento para atacar ainda mais sua presa. Você recebe o benefício intensificar vulnerabilidade de todos os seus implementos, bem como a ação @UUID[Compendium.pf2e.actionspf2e.Item.HAmGozJwLAal5v82]{Intensificar Vulnerabilidade}.</p>",
+      "prerequisites": [
+        {
+          "value": "Explorar Vulnerabilidade"
+        }
+      ]
     },
     "Interrogation Methodology": {
       "name": "Metodologia de Interrogação",
