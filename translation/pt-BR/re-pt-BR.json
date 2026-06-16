@@ -1190,6 +1190,9 @@
         "TargetMurderedPaleStranger": "Alvo Assassinou o Forasteiro Esquálido",
         "TargetNeverKilled": "Alvo Nunca Assassinou"
       },
+      "PhantasmalProtagonist": {
+        "AbilityLabel": "Protagonista Fantasmal"
+      },
       "PlanarScion": {
         "Duskwalker": {
           "HuntPrey": {
@@ -2125,7 +2128,7 @@
           "Label": "Elixir Revigorante Aprimorado"
         },
         "ResearchField": {
-          "AdvancedVials": "Frascos Versáteis",
+          "AdvancedVials": "Frascos Avançados",
           "Bomber": {
             "FieldBenefit": "Ao atirar uma bomba alquímica com o traço respingo, você pode optar por causar dano de respingo apenas em seu alvo principal em vez da área habitual de respingo.",
             "GreaterFieldDiscovery": "Você pode aumentar a área de respingo de suas bombas para causar dano a criaturas a até 10 pés do alvo principal, ou 15 pés se possuir Respingo Expandido."
@@ -2147,7 +2150,8 @@
               "Description": "Você pode aplicar o conteúdo de um frasco versátil a uma arma ou pedaço de munição como um veneno de ferimento. Adicione os danos iniciais da ampola versátil ao primeiro ataque bem-sucedido com essa arma ou munição. A substância se torna inerte no final do seu turno atual."
             }
           }
-        }
+        },
+        "VersatileVials": "Frascos Versáteis"
       },
       "AlkenstarAgent": {
         "LooseCannon": {
@@ -2452,6 +2456,11 @@
           "RollOptionLabel": "Empunhando o escudo como um símbolo religioso"
         }
       },
+      "Commander": {
+        "Banner": {
+          "Label": "Estandarte do Comandante"
+        }
+      },
       "ConcertFrog": {
         "Conduct": {
           "Blue": "Azul",
@@ -2570,8 +2579,72 @@
         "EnergizedSpark": {
           "Label": "Centelha Energizada"
         },
+        "Epithet": {
+          "BornOfTheBonesOfTheEarth": {
+            "Label": "Nascido dos Ossos da Terra"
+          }
+        },
         "EternityIncineratingBlaze": {
           "Label": "Chama Incineradora da Eternidade"
+        },
+        "Ikon": {
+          "BarrowsEdge": {
+            "Label": "Gume do Túmulo"
+          },
+          "EyeCatchingSpot": {
+            "Label": "Pinta Chamativa"
+          },
+          "FetchingBangles": {
+            "Label": "Braceletes Cativantes"
+          },
+          "GazeSharpAsSteel": {
+            "Label": "Olhar Afiado como Aço"
+          },
+          "GleamingBlade": {
+            "Label": "Lâmina Reluzente"
+          },
+          "HandsOfTheWildling": {
+            "Label": "Mãos do Silvestre"
+          },
+          "HornOfPlenty": {
+            "Label": "Chifre da Abundância"
+          },
+          "MirroredAegis": {
+            "Label": "Égide Espelhada"
+          },
+          "MortalHarvest": {
+            "Label": "Colheita Mortal"
+          },
+          "NobleBranch": {
+            "Label": "Ramo Nobre"
+          },
+          "PeltOfTheBeast": {
+            "Label": "Pele da Besta"
+          },
+          "ScarOfTheSurvivor": {
+            "Label": "Cicatriz do Sobrevivente"
+          },
+          "ShadowSheath": {
+            "Label": "Bainha Sombria"
+          },
+          "SkybearersBelt": {
+            "Label": "Cinto do Portador do Céu"
+          },
+          "Starshot": {
+            "Label": "Disparo Estelar"
+          },
+          "ThousandLeagueSandals": {
+            "Label": "Sandálias de Mil Léguas"
+          },
+          "TitansBreaker": {
+            "Label": "Quebra-Titãs"
+          },
+          "UnfailingBow": {
+            "Label": "Arco Infalível"
+          },
+          "VictorsWreath": {
+            "Label": "Coroa do Vencedor"
+          }
         },
         "InfiniteBladesCelestialArrow": {
           "Label": "Flecha Celestial de Lâminas Infinitas"
@@ -3194,6 +3267,9 @@
         "OwlEyes": "Olhos de Coruja",
         "Wings": "Asas"
       },
+      "SpellEffectBoneFlense": {
+        "Label": "Esfolar Ossos"
+      },
       "SpellEffectEvolutionSurge": {
         "Amphibious": "Velocidade de natação",
         "Climb": "Velocidade de escalada",
@@ -3320,11 +3396,17 @@
       },
       "Thaumaturge": {
         "Implement": {
+          "Adept": {
+            "Label": "Adepto de Implemento"
+          },
           "Amulet": {
             "Label": "Amuleto"
           },
           "Mirror": {
             "Label": "Espelho"
+          },
+          "Paragon": {
+            "Label": "Paragão de Implemento"
           },
           "Shield": {
             "Label": "Escudo"
@@ -3415,7 +3497,22 @@
           },
           "Prompt": "Selecione um patrono.",
           "Theme": {
-            "TheResentment": "O Ressentimento"
+            "BabaYaga": "Baba Yaga",
+            "ChoirPolitic": "Coro Político",
+            "Cobyslarni": "Cobyslarni",
+            "DevourerOfDecay": "Devorador da Decomposição",
+            "FaithsFlamekeeper": "Guardião da Chama da Fé",
+            "MosquitoWitch": "Bruxa Mosquito",
+            "ParadoxOfOpposites": "Paradoxo dos Opostos",
+            "RippleInTheDeep": "Ondulação nas Profundezas",
+            "SilenceInSnow": "Silêncio na Neve",
+            "SpinnerOfThreads": "Fiandeiro de Fios",
+            "StarlessShadow": "Sombra sem Estrelas",
+            "TheInscribedOne": "O Inscrito",
+            "TheResentment": "O Ressentimento",
+            "TheUnseenBroker": "O Corretor Invisível",
+            "WhisperOfWings": "Sussurro de Asas",
+            "WildingSteward": "Guardião Selvagem"
           }
         },
         "WildWitchsArmaments": {
