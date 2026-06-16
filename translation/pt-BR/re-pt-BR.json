@@ -32,6 +32,9 @@
         "Text": "O alvo deve obter sucesso em um salvamento de @Check[fortitude|dc:19] ou fica @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Lento 1} por 1 rodada pelo frio intenso (lento 1 para 1 minuto em uma falha crítica).",
         "Title": "Munição Congelante"
       },
+      "GlueBullet": {
+        "Title": "Bala de Cola"
+      },
       "MeteorShot": {
         "CriticalFailureText": "Numa falha critica, a arma tem uma falha de ignição.",
         "Greater": {
@@ -736,6 +739,7 @@
         "RangedWeaponAttacks": "ataques à distância com armas",
         "SpellsFromAllTraditions": "magias de todas as tradições",
         "Spirits": "espíritos",
+        "Treerazer": "Treerazer",
         "UnholyBludgeoningPiercingSlashing": "dano contundente, perfurante e cortante profano",
         "VoidZonKuthonFollowers": "vazio de seguidores de Zon-Kuthon"
       }
@@ -973,6 +977,7 @@
           "Vampire": "Vampiro",
           "Vidileth": "Vidileth",
           "Vilderavn": "Vilderavn",
+          "Yaoguai": "Yaoguai",
           "Zombie": "Zumbi"
         },
         "Label": "Forma Atual"
@@ -2565,6 +2570,12 @@
         },
         "FuryCocktail": {
           "DoubleLabel": "Dobro"
+        },
+        "RhinoShot": {
+          "Label": "Disparo de Rinoceronte"
+        },
+        "SashOfBooks": {
+          "Label": "Faixa dos Livros"
         }
       },
       "EternalLegend": {
@@ -2585,7 +2596,15 @@
           }
         },
         "EternityIncineratingBlaze": {
+          "BurnOutOfTime": {
+            "Label": "Queimar para Fora do Tempo"
+          },
           "Label": "Chama Incineradora da Eternidade"
+        },
+        "GiftOfTheImmortalHerb": {
+          "ShedOfTheMortalSkin": {
+            "Label": "Despir a Pele Mortal"
+          }
         },
         "Ikon": {
           "BarrowsEdge": {
@@ -2627,6 +2646,11 @@
           "ShadowSheath": {
             "Label": "Bainha Sombria"
           },
+          "SkinHardAsHorn": {
+            "CrashAgainstMe": {
+              "Label": "Quebre Contra Mim"
+            }
+          },
           "SkybearersBelt": {
             "Label": "Cinto do Portador do Céu"
           },
@@ -2647,6 +2671,9 @@
           }
         },
         "InfiniteBladesCelestialArrow": {
+          "HeavenRainsAnEnding": {
+            "Label": "O Céu Chove um Fim"
+          },
           "Label": "Flecha Celestial de Lâminas Infinitas"
         },
         "SevenColoredCosmicBridge": {
@@ -2746,6 +2773,13 @@
       "FollowTheExpert": {
         "Prompt": "Selecione a proficiência do especialista na perícia."
       },
+      "Formian": {
+        "Mageslayer": {
+          "Note": {
+            "Title": "Mata-Magos"
+          }
+        }
+      },
       "GameHunterDedication": {
         "TargetHuntedPrey": "Alvo é sua Presa Caçada (somente Animal, Besta ou Dragão)"
       },
@@ -2774,6 +2808,11 @@
         },
         "ExtraSquishy": {
           "Note": "Quando rolar um sucesso em Espremer-se, trate o resultado como um sucesso crítico."
+        },
+        "MutantGoblin": {
+          "Gills": {
+            "Label": "Guelras"
+          }
         },
         "RecklessAbandon": {
           "Note": "Se rolar uma falha ou falha crítica em uma jogada de salvamento contra um efeito nocivo, trate o resultado como um sucesso."
@@ -3645,7 +3684,8 @@
       },
       "Hellknight": {
         "Order": {
-          "Chain": "Malha"
+          "Chain": "Malha",
+          "Eclipse": "Eclipse"
         }
       },
       "Mystic": {
