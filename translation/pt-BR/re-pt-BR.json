@@ -145,6 +145,7 @@
         "Spine": "Espinha",
         "Spoke": "Dito",
         "Stinger": "Ferrão",
+        "SpiritTouch": "Toque Espiritual",
         "StoneBall": "Bola de Pedra",
         "StrikingSurface": "Superfície Impactante",
         "Sunbeam": "Raio de sol",
@@ -3517,6 +3518,9 @@
               "Description": "Seu familiar é frio ao toque, sua respiração sempre visível. Ao Conjurar ou Sustentar um sortilégio, você pode fazer com que gelo se forme em uma @Template[type:burst|distance:5]{Explosão de 5 pés} centrada em um quadrado do espaço do seu familiar. Esses quadrados são terreno difícil até o início do seu próximo turno.",
               "Title": "Familiar da Geada Congelante"
             },
+            "InsightfulObservation": {
+              "Title": "Familiar da Observação Perspicaz"
+            },
             "KeenSenses": {
               "Description": "Quando você Conjura ou Sustenta um sortilégio, seu familiar ganha à sua escolha um olfato impreciso, sentido de tremor ou sentido de ondas, com um alcance de 60 pés até o início do seu próximo turno, e pode imediatamente @UUID[Compendium.pf2e.actionspf2e. Item.sn2hIy1iIJX9Vpgj]{Apontar} como uma ação livre.",
               "Title": "Familiar dos Sentidos Aguçados"
@@ -3532,6 +3536,21 @@
             "StalkingNight": {
               "Description": "Seu familiar tem pelo ou penas escuros e a luz parece desaparecer nele. Quando você Conjura ou Sustenta um sortilégio e seu familiar está adjacente a um inimigo ao qual ele está @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Ocultado}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Escondido}, ou indetectado, o inimigo se torna @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Assustado 1}.",
               "Title": "Familiar da Noite Perseguidora"
+            },
+            "BolsteringAid": {
+              "Title": "Familiar do Auxílio Fortalecedor"
+            },
+            "EnticingNegotiation": {
+              "Title": "Familiar da Negociação Sedutora"
+            },
+            "ObscuringSnowfall": {
+              "Title": "Familiar da Nevasca Obscurecente"
+            },
+            "PairedPerplexity": {
+              "Title": "Familiar da Perplexidade Duplicada"
+            },
+            "SwarmsHeart": {
+              "Title": "Familiar do Coração do Enxame"
             }
           },
           "Prompt": "Selecione um patrono.",
