@@ -192,10 +192,20 @@
         }
       }
     },
+    "Corazal Aflame": {
+      "items": {
+        "action->Blaze": {
+          "name": "Ardência"
+        }
+      }
+    },
     "Cythnophorian": {
       "items": {
         "strike-melee->Tendril": {
           "name": "Gavinha"
+        },
+        "action->Creeping Death": {
+          "name": "Morte Rastejante"
         }
       }
     },
@@ -225,6 +235,9 @@
     },
     "Emorga All-Seer": {
       "items": {
+        "spell->Reincarnate": {
+          "secondarycheck": "Occultism,  Religion"
+        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -274,6 +287,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Trackless": {
+          "name": "Sem Rastros"
         },
         "action->Rip and Tear": {
           "name": "Dilacerar e Rasgar"
@@ -351,7 +367,12 @@
       }
     },
     "Leshy Mob": {
-      "name": "Leshy Monstro"
+      "name": "Leshy Monstro",
+      "items": {
+        "action->Verdant Burst": {
+          "name": "Explosão Verdejante"
+        }
+      }
     },
     "Luruvin": {
       "items": {
@@ -461,6 +482,9 @@
         },
         "strike-melee->Fist": {
           "name": "Punho"
+        },
+        "action->Verdant Burst": {
+          "name": "Explosão Verdejante"
         }
       }
     },
@@ -522,6 +546,13 @@
         }
       }
     },
+    "Silene": {
+      "items": {
+        "action->Lignify": {
+          "name": "Lignificar"
+        }
+      }
+    },
     "Spitting Sawfly": {
       "items": {
         "strike-melee->Mandibles": {
@@ -556,6 +587,13 @@
         },
         "strike-ranged->Longbow": {
           "name": "Arco Longo"
+        }
+      }
+    },
+    "The Bee-Man of Bellis": {
+      "items": {
+        "spell->Reincarnate": {
+          "secondarycheck": "Occultism,  Religion"
         }
       }
     },
@@ -596,6 +634,7 @@
     "Unaasi": {
       "items": {
         "consumable->Scroll of Sound Body (Rank 4)": {
+          "consumableSpellName": "Corpo São",
           "consumableSpellTarget": "1 criatura voluntária"
         },
         "consumable->Scroll of Soothe (Rank 6)": {
@@ -692,6 +731,7 @@
       }
     },
     "Zibik": {
+      "name": "Zibik",
       "items": {
         "strike-melee->Vine": {
           "name": "Vinha"

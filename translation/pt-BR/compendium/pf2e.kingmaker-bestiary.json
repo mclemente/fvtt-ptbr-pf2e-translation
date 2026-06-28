@@ -45,6 +45,9 @@
     },
     "Akuzhail": {
       "items": {
+        "strike-melee->Snake Fangs": {
+          "name": "Presas de Serpente"
+        },
         "strike-melee->Claw": {
           "name": "Garra"
         }
@@ -108,6 +111,17 @@
         },
         "backpack->Belt Pouch": {
           "name": "Algibeira"
+        },
+        "feat->Instinct": {
+          "name": "Instinto",
+          "description": "<p>Você canaliza sua fúria através de um instinto. Você decide o que seu instinto significa para você. Ele pode ser uma criatura ou símbolo amado por seu clã ou mesmo uma fonte ou filtro puramente interno de sua fúria — como uma crença, maldição, herança ou estado mental. Cada instinto concede uma habilidade de instinto e mais habilidades que você pode receber através de talentos com o traço instinto. Ele também determina a quais tipos de dano você resiste com sua resistência em fúria e em níveis superiores aumenta o dano adicional causado durante a @Compendium[pf2e.classfeatures.WZUCvxqbigXos1L9]{Fúria}.</p>\n<p>Cada instinto lista atos que são anátemas para ele. Sempre que realizar esses atos, você perde as habilidades do instinto e quaisquer talentos com o traço instinto até gastar 1 dia de recesso centrando-se novamente, embora mantenha suas outras habilidades de bárbaro.</p>\n<hr />\n<ul>\n<li>@Compendium[pf2e.classfeatures.0FtzFbUrN56KA67z]{Instinto Animal}</li>\n<li>@Compendium[pf2e.classfeatures.VDot7CDcXElxmkkz]{Instinto de Dragão}</li>\n<li>@Compendium[pf2e.classfeatures.k7M9jedvt31AJ5ZR]{Instinto do Furor}</li>\n<li>@Compendium[pf2e.classfeatures.JuKD6k7nDwfO0Ckv]{Instinto de Gigante}</li>\n<li>@Compendium[pf2e.classfeatures.TQqv9Q5mB4PW6LH9]{Instinto Espiritual}</li>\n<li>@Compendium[pf2e.classfeatures.SCYSjUbMmw8JD9P9]{Instinto de Superstição}</li>\n</ul>"
+        },
+        "feat->Rage": {
+          "name": "Fúria",
+          "description": "<p>Você recebe a ação @UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{Fúria}, que permite entrar em um frenesi.</p>"
+        },
+        "feat->Giant Instinct": {
+          "name": "Instinto de Gigante"
         }
       }
     },
@@ -118,6 +132,42 @@
         },
         "backpack->Belt Pouch": {
           "name": "Algibeira"
+        },
+        "feat->Instinct": {
+          "name": "Instinto",
+          "description": "<p>Você canaliza sua fúria através de um instinto. Você decide o que seu instinto significa para você. Ele pode ser uma criatura ou símbolo amado por seu clã ou mesmo uma fonte ou filtro puramente interno de sua fúria — como uma crença, maldição, herança ou estado mental. Cada instinto concede uma habilidade de instinto e mais habilidades que você pode receber através de talentos com o traço instinto. Ele também determina a quais tipos de dano você resiste com sua resistência em fúria e em níveis superiores aumenta o dano adicional causado durante a @Compendium[pf2e.classfeatures.WZUCvxqbigXos1L9]{Fúria}.</p>\n<p>Cada instinto lista atos que são anátemas para ele. Sempre que realizar esses atos, você perde as habilidades do instinto e quaisquer talentos com o traço instinto até gastar 1 dia de recesso centrando-se novamente, embora mantenha suas outras habilidades de bárbaro.</p>\n<hr />\n<ul>\n<li>@Compendium[pf2e.classfeatures.0FtzFbUrN56KA67z]{Instinto Animal}</li>\n<li>@Compendium[pf2e.classfeatures.VDot7CDcXElxmkkz]{Instinto de Dragão}</li>\n<li>@Compendium[pf2e.classfeatures.k7M9jedvt31AJ5ZR]{Instinto do Furor}</li>\n<li>@Compendium[pf2e.classfeatures.JuKD6k7nDwfO0Ckv]{Instinto de Gigante}</li>\n<li>@Compendium[pf2e.classfeatures.TQqv9Q5mB4PW6LH9]{Instinto Espiritual}</li>\n<li>@Compendium[pf2e.classfeatures.SCYSjUbMmw8JD9P9]{Instinto de Superstição}</li>\n</ul>"
+        },
+        "feat->Rage": {
+          "name": "Fúria",
+          "description": "<p>Você recebe a ação @UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{Fúria}, que permite entrar em um frenesi.</p>"
+        },
+        "feat->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        },
+        "feat->Brutality": {
+          "name": "Brutalidade",
+          "description": "<p>Seu furor torna suas armas letais. Suas graduações de proficiência em armas simples, armas marciais e ataques desarmados aumentam para especialista. Enquanto estiver em fúria, você obtém acesso aos efeitos de especialização de crítico em armas corpo a corpo e ataques desarmados.</p>"
+        },
+        "feat->Juggernaut": {
+          "name": "Irrefreável (Nível 7)",
+          "description": "<p>Seu corpo está acostumado a perigos físicos e tornou-se mais resistente a patógenos e doenças. Sua graduação de proficiência em salvamentos de Fortitude aumenta para mestre. Quando rolar um sucesso em um salvamento de Fortitude, trate o resultado como um sucesso crítico.</p>"
+        },
+        "feat->Weapon Specialization": {
+          "name": "Especialização em Armas"
+        },
+        "feat->Lightning Reflexes": {
+          "description": "<p>Seus reflexos são rápidos como um relâmpago. Sua graduação de proficiência em salvamentos de Reflexos aumenta para especialista.</p>"
+        },
+        "feat->Raging Resistance": {
+          "name": "Resistência em Fúria",
+          "description": "<p>A exposição repetida aos elementos naturais e sua pele endurecida lhe permitem evitar ferimentos. Enquanto estiver em fúria, você adquire resistência igual a 3 + seu modificador de Constituição aos tipos de dano indicados em seu instinto.<br /></p>\n<p>Veja instintos específicas para mais informações.</p>"
+        },
+        "feat->Mighty Rage": {
+          "name": "Fúria Poderosa",
+          "description": "<p>Sua fúria se intensifica e permite que você irrompa em uma explosão de movimentos rápidos. Sua graduação de proficiência em sua CD de classe de bárbaro aumenta para especialista.</p>\n<p>Você ganha a ação livre @Compendium[pf2e.actionspf2e.74iat04PtfG8gn2Q]{Fúria Poderosa}.</p>"
+        },
+        "feat->Giant Instinct": {
+          "name": "Instinto de Gigante"
         }
       }
     },
@@ -157,6 +207,9 @@
     },
     "Armag Twice-Born": {
       "items": {
+        "strike-melee->Ovinrbaane": {
+          "name": "Ovinrbaane"
+        },
         "action->Second Wind": {
           "name": "Retomar o Fôlego"
         },
@@ -354,6 +407,9 @@
           "consumableSpellName": "Paralisar",
           "consumableSpellDescription": "<p>Você bloqueia os impulsos motores do alvo antes que eles possam sair da mente dele, ameaçando paralisá-lo. O alvo deve tentar um salvamento de Vontade.</p> <hr /><p><strong>Successo Crítico</strong> O alvo não é afetado.</p><p><strong>Successo</strong> O alvo fica  @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Atordoado} 1.</p><p><strong>Falha</strong> O alvo fica @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 1 rodada.</p><p><strong>Falha</strong> O alvo fica  @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralisado} por 4 rodadas. No início de cada um dos turnos dele, o alvo deve tentar um novo salvamento de Vontade para reduzir a duração em 1 rodada, ou encerrá-la inteiramente em um sucesso crítico.</p> <hr /><p><strong>Elevada (7º)</strong> Você pode afetar até 10 criaturas.</p>",
           "consumableSpellTarget": "1 criatura"
+        },
+        "strike-melee->Rod of Razors": {
+          "name": "Bastão de Navalhas"
         }
       }
     },
@@ -544,6 +600,17 @@
         },
         "lore->Hunting Lore": {
           "name": "Saber de Caça"
+        },
+        "feat->Hunter's Edge": {
+          "name": "Excelência de Caçador"
+        },
+        "feat->Hunt Prey": {
+          "name": "Caçar Presa",
+          "description": "<p>Quando foca sua atenção em um único adversário, você se torna implacável em sua perseguição. Você ganha a ação Caçar Presa.</p>"
+        },
+        "feat->Precision": {
+          "name": "Precisão",
+          "description": "<p>Você treinou para mirar nos pontos fracos de sua presa. A primeira vez que atingir sua presa caçada em uma rodada, você também causa 1d8 de dano de precisão adicional (o dano de precisão aumenta o dano causado pelo ataque e utiliza o mesmo tipo de dano, mas é ineficaz contra criaturas que não possuam órgãos vitais ou pontos fracos). No 11º nível, o dano extra aumenta para 2d8 de dano de precisão e, no 19º nível, para 3d8 de dano de precisão.</p>"
         }
       }
     },
@@ -554,6 +621,25 @@
         },
         "lore->Hunting Lore": {
           "name": "Saber de Caça"
+        },
+        "feat->Hunter's Edge": {
+          "name": "Excelência de Caçador"
+        },
+        "feat->Hunt Prey": {
+          "name": "Caçar Presa",
+          "description": "<p>Quando foca sua atenção em um único adversário, você se torna implacável em sua perseguição. Você ganha a ação Caçar Presa.</p>"
+        },
+        "feat->Iron Will": {
+          "name": "Vontade de Ferro (Nível 3)",
+          "description": "<p>Seu árduo treinamento reforçou sua determinação. Sua graduação de proficiência em salvamentos de Vontade aumenta para especialista.</p>"
+        },
+        "feat->Ranger Weapon Expertise": {
+          "name": "Especialidade em Armas de Patrulheiro",
+          "description": "<p>Você se dedicou a compreender as complexidades de suas armas. Suas graduações de proficiência em armas simples, armas marciais e ataques desarmados aumentam para especialista. </p>\n<p>Você obtém acesso aos efeitos de especialização de críticos de todas as armas simples, armas marciais e ataques desarmados quando atacar sua presa caçada.</p>"
+        },
+        "feat->Precision": {
+          "name": "Precisão",
+          "description": "<p>Você treinou para mirar nos pontos fracos de sua presa. A primeira vez que atingir sua presa caçada em uma rodada, você também causa 1d8 de dano de precisão adicional (o dano de precisão aumenta o dano causado pelo ataque e utiliza o mesmo tipo de dano, mas é ineficaz contra criaturas que não possuam órgãos vitais ou pontos fracos). No 11º nível, o dano extra aumenta para 2d8 de dano de precisão e, no 19º nível, para 3d8 de dano de precisão.</p>"
         }
       }
     },
@@ -728,6 +814,9 @@
     },
     "Gedovius": {
       "items": {
+        "equipment->Key": {
+          "name": "Chave"
+        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -777,14 +866,12 @@
     },
     "Grabbles": {
       "items": {
-        "strike-ranged->Trident": [
-          {
-            "name": "Tridente"
-          },
-          {
-            "name": "Tridente"
-          }
-        ]
+        "strike-melee->Trident": {
+          "name": "Tridente"
+        },
+        "strike-ranged->Trident": {
+          "name": "Tridente"
+        }
       }
     },
     "Grigori": {
@@ -1120,6 +1207,33 @@
         },
         "backpack->Belt Pouch": {
           "name": "Algibeira"
+        },
+        "feat->Research Field": {
+          "name": "Campo de Pesquisa",
+          "description": "<p>Seus questionamentos sobre a natureza alquímica do universo o levaram a focar em um campo de pesquisa em particular. Você pode ter um diploma de uma instituição científica, corresponder com outros pesquisadores de seu campo ou trabalhar como um gênio solitário. Escolha um campo de pesquisa.</p>\n<p>Seu campo de pesquisa adiciona um número de fórmulas ao seu livro de fórmulas; estes são seus itens de assinatura. Quando usar um lote de reagentes infundidos para criar seus itens de assinatura usando alquimia avançada, você cria três itens ao invés de dois. A cada vez que ganhar um nível, você pode substituir um de seus itens de assinatura por outra fórmula no seu livro de fórmulas. Esse novo item de assinatura deve ser da lista de itens de assinatura possíveis de seu campo de pesquisa.</p>\n<hr />\n<ul>\n<li>@Compendium[pf2e.classfeatures.7JbiaZ8bxODM5mzS]{Bombardeiro}</li>\n<li>@Compendium[pf2e.classfeatures.eNZnx4LISDNftbx2]{Cirurgião}</li>\n<li>@Compendium[pf2e.classfeatures.tvdb1jkjl2bRZjSp]{Mutagenista}</li>\n<li>@Compendium[pf2e.classfeatures.P9quO9XZi3OWFe1k]{Toxicologista}</li>\n</ul>"
+        },
+        "feat->Alchemy": {
+          "name": "Alquimia",
+          "description": "<p>Você entende as reações entre todos os tipos de reagentes e pode criar itens alquímicos para atender às suas necessidades. Você pode fazer isso usando reagentes normais e a atividade Manufaturar, ou pode usar produtos químicos especialmente preparados que lhe permitem criar itens temporários rapidamente e sem custo. Com o tempo, você pode criar mais e mais itens alquímicos gratuitamente e, como cada um deles se torna cada vez mais poderoso, você avança drasticamente em poder, deixando para trás aqueles que não entendem sua estranha ciência. Você ganha o talento @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Manufatura Alquímica} e pode identificar automaticamente os itens alquímicos para os quais você possui a fórmula.</p>"
+        },
+        "feat->Formula Book": {
+          "name": "Livros de Fórmulas"
+        },
+        "feat->Bomber": {
+          "name": "Bombardeiro",
+          "description": "<p>Você se especializa em explosões e outras reações alquímicas violentas. Você começa com as fórmulas adicionais para duas bombas alquímicas de 1º nível em seu livro de fórmulas..</p>\n<p>Seu campo de pesquisa adiciona várias fórmulas ao seu livro de fórmulas; estes são seus itens infundidos. Ao usar um lote de @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Reagentes Infundidos} para criar seus itens infundidos usando @Compendium[pf2e.classfeatures.Pe0zmIqyTBc2Td0I]{Alquimia Avançada}, você cria três itens ao invez de dois. Cada vez que você ganha um nível, você pode trocar um de seus itens infundidos por outra fórmula em seu livro de fórmulas. Este novo itens infundidos deve estar na lista de possíveis itens infundidos do seu campo de pesquisa.</p>\n<p>Quando arremessar uma bomba alquímica com o traço respingo, você pode causar o dano de respingo apenas em seu alvo primário em vez da área de respingo usual.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.8QAFgy9U8PxEa7Dw]{Descoberta de Campo de Pesquisa}<span style=\"float: right;\">Nível 5</span></h2>\n<p>Quando usar alquimia avançada para criar bombas durante suas preparações diárias, você pode usar um lote de reagentes para criar três bombas quaisquer em vez de apenas duas bombas iguais.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.DFQDtT1Van4fFEHi]{Infusões Perpétuas}<span style=\"float: right;\">Nível 7</span></h2>\n<p>Você aprendeu a criar infusões alquímicas perpétuas que podem compor um suprimento quase infinito de alguns itens simples. Você adquire a habilidade de criar dois itens alquímicos de 1º nível usando @Compendium[pf2e.classfeatures.sPtl05wwTpqFI0lL]{Alquimia Rápida} sem gastar um lote de reagentes infundidos. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<p>Escolha duas das seguintes fórmulas: @Compendium[pf2e.equipment-srd.M1k5QQc1qQLxzyCK]{Frasco de Ácido (Menor)}, @Compendium[pf2e.equipment-srd.yd3kEK21YknZLlcT]{Fogo Alquímico (Menor)}, @Compendium[pf2e.equipment-srd.AFR01HVd7DcZvkpP]{Relâmpago Engarrafado (Menor)}, @Compendium[pf2e.equipment-srd.EpxmUtLpCkE8R6KJ]{Frasco Congelante (Menor)}, @Compendium[pf2e.equipment-srd.T6Appwwl6nUl56Xj]{Bolsa Emaranhapé (Menor)}, @Compendium[pf2e.equipment-srd.Xnqglykl3Cif8rN9]{Pedra-trovão (Menor)}.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.8rEVg03QJ71ic3PP]{Potência Perpétua}<span style=\"float: right;\">Nível 11</span></h2>\n<p>Você aprimora suas infusões perpétuas, conseguindo usar Alquimia Rápida para criar itens mais poderosos sem custo. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<p>As versões moderadas das bombas escolhidas em infusões perpétuas.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.RGs4uR3CAvgbtBAA]{Descoberta de Campo de Pesquisa Maior}<span style=\"float: right;\">Nível 13</span></h2>\n<p>Você desenvolve uma descoberta incrível que aumenta sua compreensão de seu campo de pesquisa.</p>\n<p>Você pode aumentar o respingo de suas bombas para causar dano a criaturas a até 3 metros (ou 4,5 metros se possuir @Compendium[pf2e.feats-srd.gyVcJfZTmBytLsXq]{Respingo Expandido}).</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.xO90iBD8XNGyaCkz]{Perfeição Perpétua}<span style=\"float: right;\">Nível 17</span></h2>\n<p>Você aperfeiçoou suas infusões perpétuas, permitindo-lhe usar Alquimia Rápida para criar itens ainda mais poderosos sem custo. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<p>As versões maiores das bombas escolhidas em infusões perpétuas.</p>"
+        },
+        "feat->Infused Reagents": {
+          "name": "Reagentes Infundidos",
+          "description": "<p>Você infunde reagentes com sua própria essência alquímica, permitindo-lhe criar itens alquímicos sem custo. Todos os dias, durante suas preparações diárias, você ganha uma quantidade de lotes de reagentes infundidos igual ao seu nível + seu modificador de Inteligência. Você pode usar estes reagentes para alquimia avançada ou Alquimia Rápida, descritos abaixo. Juntos, estes reagentes infundidos possuem um Volume leve.</p>\n<p>Quando fizer sua próxima preparação diária, os reagentes infundidos de suas preparações do dia anterior são instantaneamente destruídos, e efeitos nãonpermanentes dos itens infundidos das preparações do dia anterior são imediatamente encerrados. Embora reagentes infundidos sejam objetos físicos, eles não podem ser duplicados, preservados ou criados de qualquer outra forma que não seja suas preparações diárias. Quaisquer outros reagentes artificiais não possuem sua infusão pessoal e são inúteis para alquimia avançada ou Alquimia Rápida.</p>"
+        },
+        "feat->Advanced Alchemy": {
+          "name": "Alquimia Avançada",
+          "description": "<p>Após produzir novos reagentes infundidos durante suas\npreparações diárias, você pode gastar lotes desses @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Reagentes\nInfundidos} para criar itens alquímicos infundidos.</p>\n<p>Você não precisa realizar um teste de Manufatura para isto, e ainda pode ignorar a quantidade de dias normalmente requeridos para criar os itens e também quaisquer requerimentos de reagentes alquímicos.</p>\n<p>Seu nível de\nalquimia avançada é igual ao seu nível. Para cada lote de reagentes infundidos que gastar, escolha um item alquímico do seu nível de alquimia avançada ou inferior que conste em seu livro de fórmulas, e crie um lote de dois desse item.</p>\n<p>Estes itens possuem o traço infundido e mantêm sua potência por 24 horas ou até sua próxima preparação diária, o que ocorrer primeiro.</p>"
+        },
+        "feat->Quick Alchemy": {
+          "name": "Alquimia Rápida",
+          "description": "<p>Se precisar de um item alquímico específico repentinamente, você pode usar seus reagentes infundidos para criá-lo rapidamente com a ação @Compendium[pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{Alquimia Rápida}.</p>"
         }
       }
     },
@@ -1141,6 +1255,61 @@
           "name": "Produzir Chama",
           "description": "<p>Uma pequena bola de chamas aparece na palma de sua mão, e você ataca com ela em combate corpo a corpo ou à distância. Faça uma rolagem de ataque de magia contra a CA de seu alvo. Isto normalmente é um ataque à distância, mas você também pode desferir um ataque corpo a corpo contra uma criatura em seu alcance desarmado. Em um sucesso, você causa 1d4 de dano de fogo mais o modificador de seu atributo de conjuração. </p><p>Em um sucesso crítico, o alvo sofre o dobro do dano e 1d4 de dano persistente de fogo.</p><hr /><p><strong>Elevada (+1)</strong>&nbsp;IO dano aumenta em 1d4 e o @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dano persistente} em um acerto crítico em 1d4.</p>",
           "target": "1 criatura"
+        },
+        "feat->Research Field": {
+          "name": "Campo de Pesquisa",
+          "description": "<p>Seus questionamentos sobre a natureza alquímica do universo o levaram a focar em um campo de pesquisa em particular. Você pode ter um diploma de uma instituição científica, corresponder com outros pesquisadores de seu campo ou trabalhar como um gênio solitário. Escolha um campo de pesquisa.</p>\n<p>Seu campo de pesquisa adiciona um número de fórmulas ao seu livro de fórmulas; estes são seus itens de assinatura. Quando usar um lote de reagentes infundidos para criar seus itens de assinatura usando alquimia avançada, você cria três itens ao invés de dois. A cada vez que ganhar um nível, você pode substituir um de seus itens de assinatura por outra fórmula no seu livro de fórmulas. Esse novo item de assinatura deve ser da lista de itens de assinatura possíveis de seu campo de pesquisa.</p>\n<hr />\n<ul>\n<li>@Compendium[pf2e.classfeatures.7JbiaZ8bxODM5mzS]{Bombardeiro}</li>\n<li>@Compendium[pf2e.classfeatures.eNZnx4LISDNftbx2]{Cirurgião}</li>\n<li>@Compendium[pf2e.classfeatures.tvdb1jkjl2bRZjSp]{Mutagenista}</li>\n<li>@Compendium[pf2e.classfeatures.P9quO9XZi3OWFe1k]{Toxicologista}</li>\n</ul>"
+        },
+        "feat->Alchemy": {
+          "name": "Alquimia",
+          "description": "<p>Você entende as reações entre todos os tipos de reagentes e pode criar itens alquímicos para atender às suas necessidades. Você pode fazer isso usando reagentes normais e a atividade Manufaturar, ou pode usar produtos químicos especialmente preparados que lhe permitem criar itens temporários rapidamente e sem custo. Com o tempo, você pode criar mais e mais itens alquímicos gratuitamente e, como cada um deles se torna cada vez mais poderoso, você avança drasticamente em poder, deixando para trás aqueles que não entendem sua estranha ciência. Você ganha o talento @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Manufatura Alquímica} e pode identificar automaticamente os itens alquímicos para os quais você possui a fórmula.</p>"
+        },
+        "feat->Formula Book": {
+          "name": "Livros de Fórmulas"
+        },
+        "feat->Field Discovery": {
+          "name": "Descoberta de Campo",
+          "description": "<p>Você desenvolve uma descoberta especial dependendo de seu campo de pesquisa.</p>\n<p>@Compendium[pf2e.classfeatures.8QAFgy9U8PxEa7Dw]{Campo de Pesquisa (Bombardeiro)}</p>\n<p>@Compendium[pf2e.classfeatures.qC0Iz6SlG2i9gv6g]{Campo de Pesquisa (Cirurgião)}</p>\n<p>@Compendium[pf2e.classfeatures.V4Jt7eDnJBLv5bDj]{Campo de Pesquisa (Mutagenista)}</p>\n<p>@Compendium[pf2e.classfeatures.6zo2PJGYoig7nFpR]{Campo de Pesquisa (Toxicologista)}</p>"
+        },
+        "feat->Powerful Alchemy": {
+          "name": "Alquimia Poderosa",
+          "description": "<p>Itens alquímicos que você cria na hora são particularmente potentes. Quando usar @Compendium[pf2e.classfeatures.sPtl05wwTpqFI0lL]{Alquimia Rápida} para criar um item alquímico infundido que permite uma jogada de salvamento, você pode substituir a CD dele pela sua CD de classe.</p>"
+        },
+        "feat->Alchemical Weapon Expertise": {
+          "name": "Especialidade em Armas Alquímicas",
+          "description": "<p>Você treinou para usar mais efetivamente suas armas desenvolvidas em laboratório. Suas graduações de proficiência em armas simples, ataques desarmados e bombas alquímicas aumentam para especialista.</p>"
+        },
+        "feat->Iron Will": {
+          "name": "Vontade de Ferro (Nível 3)",
+          "description": "<p>Seu árduo treinamento reforçou sua determinação. Sua graduação de proficiência em salvamentos de Vontade aumenta para especialista.</p>"
+        },
+        "feat->Perpetual Infusions": {
+          "name": "Infusões Perpétuas",
+          "description": "<p>Você aprendeu a criar infusões alquímicas perpétuas que podem compor um suprimento quase infinito de alguns itens simples.</p>\n<p>@Compendium[pf2e.classfeatures.DFQDtT1Van4fFEHi]{Infusões Perpétuas (Bombardeiro)}</p>\n<p>@Compendium[pf2e.classfeatures.fzvIe6FwwCuIdnjX]{Infusões Perpétuas (Cirurgião)}</p>\n<p>@Compendium[pf2e.classfeatures.Dug1oaVYejLmYEFt]{Infusões Perpétuas (Mutagenista)}</p>\n<p>@Compendium[pf2e.classfeatures.LlZ5R50z9j8jysZL]{Infusões Perpétuas (Toxicologista)}</p>"
+        },
+        "feat->Bomber": {
+          "name": "Bombardeiro",
+          "description": "<p>Você se especializa em explosões e outras reações alquímicas violentas. Você começa com as fórmulas adicionais para duas bombas alquímicas de 1º nível em seu livro de fórmulas..</p>\n<p>Seu campo de pesquisa adiciona várias fórmulas ao seu livro de fórmulas; estes são seus itens infundidos. Ao usar um lote de @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Reagentes Infundidos} para criar seus itens infundidos usando @Compendium[pf2e.classfeatures.Pe0zmIqyTBc2Td0I]{Alquimia Avançada}, você cria três itens ao invez de dois. Cada vez que você ganha um nível, você pode trocar um de seus itens infundidos por outra fórmula em seu livro de fórmulas. Este novo itens infundidos deve estar na lista de possíveis itens infundidos do seu campo de pesquisa.</p>\n<p>Quando arremessar uma bomba alquímica com o traço respingo, você pode causar o dano de respingo apenas em seu alvo primário em vez da área de respingo usual.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.8QAFgy9U8PxEa7Dw]{Descoberta de Campo de Pesquisa}<span style=\"float: right;\">Nível 5</span></h2>\n<p>Quando usar alquimia avançada para criar bombas durante suas preparações diárias, você pode usar um lote de reagentes para criar três bombas quaisquer em vez de apenas duas bombas iguais.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.DFQDtT1Van4fFEHi]{Infusões Perpétuas}<span style=\"float: right;\">Nível 7</span></h2>\n<p>Você aprendeu a criar infusões alquímicas perpétuas que podem compor um suprimento quase infinito de alguns itens simples. Você adquire a habilidade de criar dois itens alquímicos de 1º nível usando @Compendium[pf2e.classfeatures.sPtl05wwTpqFI0lL]{Alquimia Rápida} sem gastar um lote de reagentes infundidos. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<p>Escolha duas das seguintes fórmulas: @Compendium[pf2e.equipment-srd.M1k5QQc1qQLxzyCK]{Frasco de Ácido (Menor)}, @Compendium[pf2e.equipment-srd.yd3kEK21YknZLlcT]{Fogo Alquímico (Menor)}, @Compendium[pf2e.equipment-srd.AFR01HVd7DcZvkpP]{Relâmpago Engarrafado (Menor)}, @Compendium[pf2e.equipment-srd.EpxmUtLpCkE8R6KJ]{Frasco Congelante (Menor)}, @Compendium[pf2e.equipment-srd.T6Appwwl6nUl56Xj]{Bolsa Emaranhapé (Menor)}, @Compendium[pf2e.equipment-srd.Xnqglykl3Cif8rN9]{Pedra-trovão (Menor)}.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.8rEVg03QJ71ic3PP]{Potência Perpétua}<span style=\"float: right;\">Nível 11</span></h2>\n<p>Você aprimora suas infusões perpétuas, conseguindo usar Alquimia Rápida para criar itens mais poderosos sem custo. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<p>As versões moderadas das bombas escolhidas em infusões perpétuas.</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.RGs4uR3CAvgbtBAA]{Descoberta de Campo de Pesquisa Maior}<span style=\"float: right;\">Nível 13</span></h2>\n<p>Você desenvolve uma descoberta incrível que aumenta sua compreensão de seu campo de pesquisa.</p>\n<p>Você pode aumentar o respingo de suas bombas para causar dano a criaturas a até 3 metros (ou 4,5 metros se possuir @Compendium[pf2e.feats-srd.gyVcJfZTmBytLsXq]{Respingo Expandido}).</p>\n<h2 class=\"title\">@Compendium[pf2e.classfeatures.xO90iBD8XNGyaCkz]{Perfeição Perpétua}<span style=\"float: right;\">Nível 17</span></h2>\n<p>Você aperfeiçoou suas infusões perpétuas, permitindo-lhe usar Alquimia Rápida para criar itens ainda mais poderosos sem custo. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<p>As versões maiores das bombas escolhidas em infusões perpétuas.</p>"
+        },
+        "feat->Infused Reagents": {
+          "name": "Reagentes Infundidos",
+          "description": "<p>Você infunde reagentes com sua própria essência alquímica, permitindo-lhe criar itens alquímicos sem custo. Todos os dias, durante suas preparações diárias, você ganha uma quantidade de lotes de reagentes infundidos igual ao seu nível + seu modificador de Inteligência. Você pode usar estes reagentes para alquimia avançada ou Alquimia Rápida, descritos abaixo. Juntos, estes reagentes infundidos possuem um Volume leve.</p>\n<p>Quando fizer sua próxima preparação diária, os reagentes infundidos de suas preparações do dia anterior são instantaneamente destruídos, e efeitos nãonpermanentes dos itens infundidos das preparações do dia anterior são imediatamente encerrados. Embora reagentes infundidos sejam objetos físicos, eles não podem ser duplicados, preservados ou criados de qualquer outra forma que não seja suas preparações diárias. Quaisquer outros reagentes artificiais não possuem sua infusão pessoal e são inúteis para alquimia avançada ou Alquimia Rápida.</p>"
+        },
+        "feat->Advanced Alchemy": {
+          "name": "Alquimia Avançada",
+          "description": "<p>Após produzir novos reagentes infundidos durante suas\npreparações diárias, você pode gastar lotes desses @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Reagentes\nInfundidos} para criar itens alquímicos infundidos.</p>\n<p>Você não precisa realizar um teste de Manufatura para isto, e ainda pode ignorar a quantidade de dias normalmente requeridos para criar os itens e também quaisquer requerimentos de reagentes alquímicos.</p>\n<p>Seu nível de\nalquimia avançada é igual ao seu nível. Para cada lote de reagentes infundidos que gastar, escolha um item alquímico do seu nível de alquimia avançada ou inferior que conste em seu livro de fórmulas, e crie um lote de dois desse item.</p>\n<p>Estes itens possuem o traço infundido e mantêm sua potência por 24 horas ou até sua próxima preparação diária, o que ocorrer primeiro.</p>"
+        },
+        "feat->Quick Alchemy": {
+          "name": "Alquimia Rápida",
+          "description": "<p>Se precisar de um item alquímico específico repentinamente, você pode usar seus reagentes infundidos para criá-lo rapidamente com a ação @Compendium[pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{Alquimia Rápida}.</p>"
+        },
+        "feat->Field Discovery (Bomber)": {
+          "name": "Descoberta de Campo de Pesquisa (Bombardeiro)",
+          "description": "<p>Quando usar @Compendium[pf2e.classfeatures.Pe0zmIqyTBc2Td0I]{Alquimia Avançada} para criar bombas durante suas preparações diárias, você pode usar um lote de @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Reagentes} para criar três bombas quaisquer em vez de apenas duas bombas iguais.</p>"
+        },
+        "feat->Perpetual Infusions (Bomber)": {
+          "name": "Infusões Perpétuas (Bombardeiro)",
+          "description": "<p>Você aprendeu a criar infusões alquímicas perpétuas que podem compor um suprimento quase infinito de alguns itens simples.</p>\n<p>Você adquire a habilidade de criar dois itens alquímicos de 1º nível usando @Compendium[pf2e.classfeatures.sPtl05wwTpqFI0lL]{Alquimia Rápida} sem gastar um lote de reagentes infundidos. Você deve selecionar itens apropriados ao seu campo de pesquisa e eles devem constar em seu livro de fórmulas.</p>\n<hr />\n<p>Escolha duas das seguintes fórmulas:</p>\n<ul>\n<li>@Compendium[pf2e.equipment-srd.T6Appwwl6nUl56Xj]{Bolsa Emaranhapé (Menor)},</li>\n<li>@Compendium[pf2e.equipment-srd.yd3kEK21YknZLlcT]{Fogo Alquímico (Menor)},</li>\n<li>@Compendium[pf2e.equipment-srd.EpxmUtLpCkE8R6KJ]{Frasco Congelante (Menor)},</li>\n<li>@Compendium[pf2e.equipment-srd.M1k5QQc1qQLxzyCK]{Frasco de Ácido (Menor)},</li>\n<li>@Compendium[pf2e.equipment-srd.Xnqglykl3Cif8rN9]{Pedra-trovão (Menor)} ou</li>\n<li>@Compendium[pf2e.equipment-srd.AFR01HVd7DcZvkpP]{Relâmpago Engarrafado (Menor)}.</li>\n</ul>"
         }
       }
     },
@@ -1339,6 +1508,24 @@
         },
         "spell->Soothe": {
           "target": "1 criatura viva voluntária"
+        },
+        "feat->Muses": {
+          "name": "Musas"
+        },
+        "feat->Composition Spells": {
+          "name": "Magias de Composição"
+        },
+        "feat->Occult Spellcasting": {
+          "name": "Conjuração Ocultista"
+        },
+        "feat->Spell Repertoire (Bard)": {
+          "name": "Repertório de Magias (Bardo)"
+        },
+        "feat->Enigma": {
+          "name": "Musa Enigma"
+        },
+        "feat->Keen Eyes": {
+          "name": "Olhos Aguçados"
         }
       }
     },
@@ -1356,6 +1543,33 @@
         "consumable->Wand of Invisibility (Level 2)": {
           "consumableSpellName": "Invisibilidade",
           "consumableSpellTarget": "1 criatura"
+        },
+        "feat->Muses": {
+          "name": "Musas"
+        },
+        "feat->Composition Spells": {
+          "name": "Magias de Composição"
+        },
+        "feat->Occult Spellcasting": {
+          "name": "Conjuração Ocultista"
+        },
+        "feat->Spell Repertoire (Bard)": {
+          "name": "Repertório de Magias (Bardo)"
+        },
+        "feat->Lightning Reflexes": {
+          "description": "<p>Seus reflexos são rápidos como um relâmpago. Sua graduação de proficiência em salvamentos de Reflexos aumenta para especialista.</p>"
+        },
+        "feat->Signature Spells": {
+          "name": "Magias Emblemáticas (Nível 3)"
+        },
+        "feat->Expert Spellcaster": {
+          "name": "Conjurador Especialista (7º nível)"
+        },
+        "feat->Enigma": {
+          "name": "Musa Enigma"
+        },
+        "feat->Keen Eyes": {
+          "name": "Olhos Aguçados"
         }
       }
     },
@@ -1383,6 +1597,9 @@
         },
         "strike-ranged->Javelin": {
           "name": "Azagaia"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         },
         "action->Sudden Charge": {
           "name": "Investida Súbita"
@@ -1529,6 +1746,19 @@
       "items": {
         "lore->Underworld Lore": {
           "name": "Saber de Submundo"
+        },
+        "feat->Rogue's Racket": {
+          "name": "Esquema de Ladino",
+          "description": "<p>Quando começou a trilhar o caminho do ladino, você desenvolveu seu próprio estilo para realizar suas atividades ilícitas. Seu tipo de esquema molda suas técnicas de ladino e sua maneira de abordar suas empreitadas ao mesmo tempo em que constrói sua reputação no submundo do crime como competente em um determinado tipo de trabalho. Um cliente com bolsos cheios pode até mesmo contratar uma equipe de ladinos para um roubo em particular — cada um especializado em uma esquema diferente, assim cobrindo todas as áreas. Escolha um esquema de ladino.</p>\n<p>Esquemas podem ser encontrados aqui:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.D8qtAo2w4jsqjBrM]{Esquema de Trapaceiro Místico},</li>\n<li>@Compendium[pf2e.classfeatures.RyOkmu0W9svavuAB]{Esquema de Mandante},</li>\n<li>@Compendium[pf2e.classfeatures.3KPZ7svIO6kmmEKH]{Esquema de Rufião},</li>\n<li>@Compendium[pf2e.classfeatures.ZvfxtUMtfIOLYHyg]{Esquema de Malandro}, and</li>\n<li>@Compendium[pf2e.classfeatures.wAh2riuFRzz0edPl]{Esquema de Ladrão}</li>\n</ul>"
+        },
+        "feat->Sneak Attack": {
+          "name": "Ataque Furtivo"
+        },
+        "feat->Surprise Attack": {
+          "name": "Ataque Surpresa"
+        },
+        "feat->Scoundrel": {
+          "name": "Esquema de Rufião"
         }
       }
     },
@@ -1546,6 +1776,25 @@
               "label": "Desarme Cauteloso (vs. armadilhas)"
             }
           }
+        },
+        "feat->Rogue's Racket": {
+          "name": "Esquema de Ladino",
+          "description": "<p>Quando começou a trilhar o caminho do ladino, você desenvolveu seu próprio estilo para realizar suas atividades ilícitas. Seu tipo de esquema molda suas técnicas de ladino e sua maneira de abordar suas empreitadas ao mesmo tempo em que constrói sua reputação no submundo do crime como competente em um determinado tipo de trabalho. Um cliente com bolsos cheios pode até mesmo contratar uma equipe de ladinos para um roubo em particular — cada um especializado em uma esquema diferente, assim cobrindo todas as áreas. Escolha um esquema de ladino.</p>\n<p>Esquemas podem ser encontrados aqui:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.D8qtAo2w4jsqjBrM]{Esquema de Trapaceiro Místico},</li>\n<li>@Compendium[pf2e.classfeatures.RyOkmu0W9svavuAB]{Esquema de Mandante},</li>\n<li>@Compendium[pf2e.classfeatures.3KPZ7svIO6kmmEKH]{Esquema de Rufião},</li>\n<li>@Compendium[pf2e.classfeatures.ZvfxtUMtfIOLYHyg]{Esquema de Malandro}, and</li>\n<li>@Compendium[pf2e.classfeatures.wAh2riuFRzz0edPl]{Esquema de Ladrão}</li>\n</ul>"
+        },
+        "feat->Sneak Attack": {
+          "name": "Ataque Furtivo"
+        },
+        "feat->Surprise Attack": {
+          "name": "Ataque Surpresa"
+        },
+        "feat->Deny Advantage": {
+          "name": "Negar vantagem (Nível 3)"
+        },
+        "feat->Weapon Tricks": {
+          "name": "Truques com Armas"
+        },
+        "feat->Scoundrel": {
+          "name": "Esquema de Rufião"
         }
       }
     },
@@ -1587,6 +1836,9 @@
       "items": {
         "strike-melee->Hammer": {
           "name": "Martelo"
+        },
+        "strike-melee->Radiant Beam": {
+          "name": "Raio Radiante"
         }
       }
     },
@@ -1620,6 +1872,9 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         }
       }
     },
@@ -1669,10 +1924,16 @@
         }
       }
     },
+    "Phantasmal Protagonist": {
+      "name": "Protagonista Fantasmal"
+    },
     "Phomandala": {
       "items": {
         "spell->Finger of Death": {
           "target": "1 criatura viva"
+        },
+        "strike-melee->Snake Fangs": {
+          "name": "Presas de Serpente"
         },
         "action->Quickened Casting": {
           "name": "Conjuração Acelerada"
@@ -1697,6 +1958,9 @@
     },
     "Prank Workshop Mitflit": {
       "items": {
+        "consumable->Marbles": {
+          "name": "Bolinhas de Gude"
+        },
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         }
@@ -1793,6 +2057,9 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         }
       }
     },
@@ -2029,6 +2296,9 @@
     },
     "The Knurly Witch": {
       "items": {
+        "spell->Word of Recall": {
+          "secondarycheck": "Arcana or Occultism  (whichever isn't used for the primary check), Society"
+        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -2041,6 +2311,9 @@
       "items": {
         "strike-melee->Bastard Sword": {
           "name": "Espada Bastarda"
+        },
+        "action->Final Spite": {
+          "name": "Despeito Final"
         },
         "action->Drain Life": {
           "name": "Drenar Vida"
@@ -2072,7 +2345,8 @@
           "name": "Golpeador Pavoroso"
         },
         "action->Hunt Prey": {
-          "name": "Caçar Presa"
+          "name": "Caçar Presa",
+          "description": "<p>Você designa uma única criatura como sua presa e foca seus ataques contra essa criatura. Você deve ser capaz de ver ou ouvir a presa, ou deve estar rastreando a presa durante exploração.</p>\n<p>Você recebe +2 de bônus de circunstância em testes de Percepção quando @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Busca} sua presa e +2 de bônus de circunstância em testes de Sobrevivência quando @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Rastreia} sua presa. Você também ignora a penalidade por fazer ataques à distância dentro do segundo incremento de distância contra a presa que está caçando.</p>\n<p>Você pode ter apenas uma criatura designada como sua presa por vez. Se usar Caçar presa contra uma criatura quando já tiver uma criatura designada, a criatura anterior perde a designação e a nova presa ganha a designação. Sua designação dura até suas próximas preparações diárias.</p>"
         }
       }
     },
@@ -2222,6 +2496,30 @@
         },
         "spell->Protection": {
           "target": "1 criatura"
+        },
+        "feat->Deity (Sarenrae)": {
+          "description": "<p>Como um clérigo, você é um servo mortal de uma divindade e a reverencia acima de todas as outras. Informações sobre divindades podem ser encontradas no compêndio de divindades, junto com suas tendências, áreas de atuação e os benefícios que você recebe por ser um clérigo dessa divindade. Sua tendência deve ser uma permitida por sua divindade, conforme listado na seção apropriada. Sua divindade lhe concede a graduação de proficiência treinado em uma perícia e na arma favorita dela. Se a arma favorecida for incomum, você também obtém acesso a essa arma.</p>\n<p>Sua divindade também adiciona magias à sua lista de magias. Você pode prepará-las da mesma forma que prepararia qualquer magia da lista de magias divinas, desde que possa preparar magias desse nível de magia como um clérigo. Algumas destas magias normalmente não pertencem à lista de magias divinas, mas são magias divinas quando você as prepara desta forma.</p>"
+        },
+        "feat->Doctrine": {
+          "name": "Doutrina"
+        },
+        "feat->Anathema (Cleric)": {
+          "name": "Anátema (Sacerdote)",
+          "description": "<p>Atos fundamentalmente opostos à tendência ou aos ideais de sua divindade são anátemas à sua fé. Cometer certos atos, aprender ou conjurar magias e usar itens que são anátemas à sua divindade lhe tiram das boas graças dela.<br /></p>\n<p>Conjurar magias malignas quase sempre é anátema para divindades bondosas, e conjurar magias bondosas é igualmente anátema para divindades malignas; similarmente, conjurar magias caóticas é anátema para divindades ordeiras, e conjurar magias ordeiras é anátema para divindades caóticas. Um clérigo neutro que adora uma divindade neutra não é limitado desta maneira, mas sua tendência pode mudar ao longo do tempo se ele frequentemente conjurar magias ou usar habilidades que possuam uma determinada tendência.<br /></p>\n<p>Similarmente, conjurar magias que sejam anátemas aos princípios ou objetivos de sua fé pode interferir em sua conexão com a divindade. Por exemplo, conjurar uma magia para criar mortos-vivos seria um anátema para @Compendium[pf2e.deities.QZD0u1jxwz0kj8uI]{Pharasma}, a deusa da morte. Em casos incertos ou duvidosos, você e seu mestre determinam quais atos são considerados anátemas.<br /></p>\n<p>Se realizar atos o suficiente que sejam anátemas à sua divindade ou se sua tendência mudar para uma que não seja permitida por ela, você perde as habilidades mágicas oriundas de sua conexão com a divindade. As características de classe que você perde são determinadas pelo mestre, mas provavelmente incluirão conjuração divina e fonte divina. Estas habilidades podem ser recuperadas apenas se você demonstrar seu arrependimento ao conduzir um ritual de @Compendium[pf2e.spells-srd.7Fd4lxozd11MQ55N]{expiação}.</p>"
+        },
+        "feat->Divine Font": {
+          "name": "Fonte Divina"
+        },
+        "feat->First Doctrine": {
+          "name": "Primeira Doutrina",
+          "description": "<p>Você ganha o primeiro benefício da sua doutrina:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.aiwxBj5MjnafCMyn]{Sacerdote Enclausurado}</li>\n<li>@Compendium[pf2e.classfeatures.xxkszluN9icAiTO4]{Capelão da Guerra}</li>\n</ul>"
+        },
+        "feat->Cloistered Cleric": {
+          "name": "Sacerdote Enclausurado"
+        },
+        "feat->First Doctrine (Cloistered Cleric)": {
+          "name": "Primeira Doutrina (Sacerdote Enclausurado)",
+          "description": "<p>Você recebe o talento de clérigo @Compendium[pf2e.feats-srd.hT4INKGtly4QY8KN]{Iniciado no Domínio}.</p>"
         }
       }
     },
@@ -2248,6 +2546,54 @@
           "name": "Remover Maldição",
           "description": "<p>Seu toque concede uma remissão a uma criatura amaldiçoada. Você tenta neutralizar uma maldição que esteja afligindo o alvo. Se a maldição originar-se de um item amaldiçoado ou outra fonte externa, um sucesso indica que a criatura alvo pode livrar-se do item amaldiçoado, mas não remover a maldição do item.</p>",
           "target": "1 criatura"
+        },
+        "feat->Deity (Sarenrae)": {
+          "description": "<p>Como um clérigo, você é um servo mortal de uma divindade e a reverencia acima de todas as outras. Informações sobre divindades podem ser encontradas no compêndio de divindades, junto com suas tendências, áreas de atuação e os benefícios que você recebe por ser um clérigo dessa divindade. Sua tendência deve ser uma permitida por sua divindade, conforme listado na seção apropriada. Sua divindade lhe concede a graduação de proficiência treinado em uma perícia e na arma favorita dela. Se a arma favorecida for incomum, você também obtém acesso a essa arma.</p>\n<p>Sua divindade também adiciona magias à sua lista de magias. Você pode prepará-las da mesma forma que prepararia qualquer magia da lista de magias divinas, desde que possa preparar magias desse nível de magia como um clérigo. Algumas destas magias normalmente não pertencem à lista de magias divinas, mas são magias divinas quando você as prepara desta forma.</p>"
+        },
+        "feat->Doctrine": {
+          "name": "Doutrina"
+        },
+        "feat->Anathema (Cleric)": {
+          "name": "Anátema (Sacerdote)",
+          "description": "<p>Atos fundamentalmente opostos à tendência ou aos ideais de sua divindade são anátemas à sua fé. Cometer certos atos, aprender ou conjurar magias e usar itens que são anátemas à sua divindade lhe tiram das boas graças dela.<br /></p>\n<p>Conjurar magias malignas quase sempre é anátema para divindades bondosas, e conjurar magias bondosas é igualmente anátema para divindades malignas; similarmente, conjurar magias caóticas é anátema para divindades ordeiras, e conjurar magias ordeiras é anátema para divindades caóticas. Um clérigo neutro que adora uma divindade neutra não é limitado desta maneira, mas sua tendência pode mudar ao longo do tempo se ele frequentemente conjurar magias ou usar habilidades que possuam uma determinada tendência.<br /></p>\n<p>Similarmente, conjurar magias que sejam anátemas aos princípios ou objetivos de sua fé pode interferir em sua conexão com a divindade. Por exemplo, conjurar uma magia para criar mortos-vivos seria um anátema para @Compendium[pf2e.deities.QZD0u1jxwz0kj8uI]{Pharasma}, a deusa da morte. Em casos incertos ou duvidosos, você e seu mestre determinam quais atos são considerados anátemas.<br /></p>\n<p>Se realizar atos o suficiente que sejam anátemas à sua divindade ou se sua tendência mudar para uma que não seja permitida por ela, você perde as habilidades mágicas oriundas de sua conexão com a divindade. As características de classe que você perde são determinadas pelo mestre, mas provavelmente incluirão conjuração divina e fonte divina. Estas habilidades podem ser recuperadas apenas se você demonstrar seu arrependimento ao conduzir um ritual de @Compendium[pf2e.spells-srd.7Fd4lxozd11MQ55N]{expiação}.</p>"
+        },
+        "feat->Divine Font": {
+          "name": "Fonte Divina"
+        },
+        "feat->First Doctrine": {
+          "name": "Primeira Doutrina",
+          "description": "<p>Você ganha o primeiro benefício da sua doutrina:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.aiwxBj5MjnafCMyn]{Sacerdote Enclausurado}</li>\n<li>@Compendium[pf2e.classfeatures.xxkszluN9icAiTO4]{Capelão da Guerra}</li>\n</ul>"
+        },
+        "feat->Second Doctrine": {
+          "name": "Segunda Doutrina",
+          "description": "<p>Você ganha o segundo benefício da sua doutrina:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.sa7BWfnyCswAvBVa]{Sacerdote Enclausurado}</li>\n<li>@Compendium[pf2e.classfeatures.D34mPo29r1J3DPaX]{Capelão da Guerra}</li>\n</ul>"
+        },
+        "feat->Alertness": {
+          "name": "Prontidão (Nível 3)",
+          "description": "<p>A experiência lhe tornou incrivelmente alerta às ameaças ao seu redor, e você reage mais rapidamente ao perigo. Sua graduação de proficiência em Percepção aumenta para especialista.</p>"
+        },
+        "feat->Third Doctrine": {
+          "name": "Terceira Doutrina",
+          "description": "<p>Você ganha o terceiro benefício da sua doutrina:</p>\n<ul>\n<li>@Compendium[pf2e.classfeatures.s8WEmc4GGZSHSC7q]{Sacerdote Enclausurado}</li>\n<li>@Compendium[pf2e.classfeatures.Zp81uTBItG1xlH4O]{Capelão da Guerra}</li>\n</ul>"
+        },
+        "feat->Resolve": {
+          "name": "Determinação (Nível 7)",
+          "description": "<p>Você reforçou sua mente com determinação. Sua graduação de proficiência em salvamentos de Vontade aumenta para mestre. Quando rolar um sucesso em um salvamento de Vontade, trate o resultado como um sucesso crítico.</p>"
+        },
+        "feat->Cloistered Cleric": {
+          "name": "Sacerdote Enclausurado"
+        },
+        "feat->First Doctrine (Cloistered Cleric)": {
+          "name": "Primeira Doutrina (Sacerdote Enclausurado)",
+          "description": "<p>Você recebe o talento de clérigo @Compendium[pf2e.feats-srd.hT4INKGtly4QY8KN]{Iniciado no Domínio}.</p>"
+        },
+        "feat->Second Doctrine (Cloistered Cleric)": {
+          "name": "Segunda Doutrina (Sacerdote Enclausurado)",
+          "description": "<p>Sua graduação de proficiência em salvamentos de Fortitude aumenta para especialista.</p>"
+        },
+        "feat->Third Doctrine (Cloistered Cleric)": {
+          "name": "Terceira Doutrina (Sacerdote Enclausurado)",
+          "description": "<p>Sua graduação de proficiência em salvamentos de Fortitude aumenta para especialista.</p>"
         }
       }
     },
@@ -2298,13 +2644,55 @@
       "items": {
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
-        }
+        },
+        "feat->Attack of Opportunity": {
+          "name": "Ataque de Oportunidade",
+          "description": "<p>Sempre atento a fraquezas, você consegue atacar bem rápido os inimigos que baixam a guarda. Você adquire a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe Reativo}.</p>"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          }
+        ]
       }
     },
     "Valerie (Level 9)": {
       "items": {
         "lore->Warfare Lore": {
           "name": "Saber de Guerra"
+        },
+        "feat->Attack of Opportunity": {
+          "name": "Ataque de Oportunidade",
+          "description": "<p>Sempre atento a fraquezas, você consegue atacar bem rápido os inimigos que baixam a guarda. Você adquire a reação @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Golpe Reativo}.</p>"
+        },
+        "feat->Shield Block": [
+          {
+            "name": "Bloqueio com Escudo",
+            "description": "<p>Você recebe o talento geral @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Bloqueio com Escudo}, uma reação para reduzir dano com um escudo.</p>"
+          }
+        ],
+        "feat->Bravery": {
+          "name": "Bravura",
+          "description": "<p>Tendo enfrentado o caos da batalha e adversários incontáveis, você aprendeu a permanecer forte frente ao medo e a sempre continuar lutando. Sua graduação de proficiência em salvamentos de Vontade aumenta para especialista. Quando rolar um sucesso em um salvamento de Vontade contra um efeito de medo, trate o resultado como um sucesso crítico. Além disso, sempre que você sofrer a condição assustado, reduza seu valor em 1.</p>"
+        },
+        "feat->Fighter Weapon Mastery (Sword)": {
+          "description": "<p>Horas gastas em treinamento com suas armas preferidas, aprendendo e desenvolvendo novas técnicas de combate, o tornaram particularmente efetivo com as armas de sua escolha. Escolha um grupo de armas. Sua graduação de proficiência aumenta para mestre com armas simples e marciais desse grupo, e para especialista com as armas avançadas desse grupo. Você obtém acesso aos efeitos de especialização de crítico de todas as armas com as quais possui proficiência de mestre.</p>"
+        },
+        "feat->Battlefield Surveyor": {
+          "name": "Intendente do Campo de Batalha",
+          "description": "<p>Seja avaliando um exército inimigo ou simplesmente ficando de guarda, você é excelente em observar seus adversários. Sua graduação de proficiência em Percepção aumenta para mestre. Além disso, você recebe +2 de bônus de circunstância em testes de Percepção para iniciativa, fazendo com que você reaja mais rápido durante o combate.</p>"
+        },
+        "feat->Weapon Specialization": {
+          "name": "Especialização em Armas"
+        },
+        "feat->Combat Flexibility": {
+          "name": "Flexibilidade de Combate",
+          "description": "<p>Devido à sua experiência em batalha, você consegue preparar diversas táticas para se adaptar a diferentes situações. Quando fizer suas preparações diárias, você recebe um talento de guerreiro de 8º nível ou inferior que ainda não possua. Você pode usar esse talento até a próxima vez que fizer suas preparações diárias. Você deve atender a todos os pré-requisitos desse talento.</p>"
+        },
+        "feat->Juggernaut": {
+          "name": "Irrefreável (Nível 7)",
+          "description": "<p>Seu corpo está acostumado a perigos físicos e tornou-se mais resistente a patógenos e doenças. Sua graduação de proficiência em salvamentos de Fortitude aumenta para mestre. Quando rolar um sucesso em um salvamento de Fortitude, trate o resultado como um sucesso crítico.</p>"
         }
       }
     },

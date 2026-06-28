@@ -13,6 +13,9 @@
         },
         "strike-melee->Tail": {
           "name": "Cauda"
+        },
+        "action->Soul Siphon": {
+          "name": "Sifão de Alma"
         }
       }
     },
@@ -35,11 +38,7 @@
     },
     "Alchemist Aspirant": {
       "items": {
-        "armor->+1 Studded Leather Armor": {
-          "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
-        },
         "equipment->Alchemist Goggles": {
-          "name": "Óculos de Alquimista",
           "description": "<p><span>Estes óculos de latão são gravados com padrões de chamas e possuem lentes grossas e pesadas. Enquanto vestidos, eles concedem +1 de bônus de item em testes de Manufatura para Manufaturar itens alquímicos e +1 de bônus de item em rolagens de ataque realizados com bombas alquímicas. Você também pode ignorar cobertura menor quando fizer Golpes com bombas alquímicas. </p>"
         },
         "equipment->Alchemist's Tools": {
@@ -78,20 +77,11 @@
     },
     "Amateur Chemist": {
       "items": {
-        "weapon->Light Mace": {
-          "name": "Maça Leve",
-          "description": "<p>Uma maça leve possui um cabo de madeira ou metal que termina em uma densa cabeça de metal. Usada quase como uma clava, ela desfere golpes contundentes pesados, mas com poder extra vindo das tachas ou espinhos da cabeça de metal.</p>"
-        },
-        "armor->Leather Armor": {
-          "name": "Armadura de Couro",
-          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
-        },
         "equipment->Alchemist's Tools": {
           "name": "Ferramentas de Alquimista",
           "description": "<p>Esta coleção móvel de frascos e químicos pode ser usada para tarefas alquímicas simples.</p>"
         },
         "equipment->Formula Book (Blank)": {
-          "name": "Livro de Fórmulas (em branco)",
           "description": "<p><span class=\"fontstyle0\">Um livro de fórmulas guarda as fórmulas necessárias para criar itens diversos além dos equipamentos comuns deste capítulo; alquimistas normalmente recebem um livro desses gratuitamente. Cada livro pode armazenar as fórmulas de até 100 itens diferentes. Fórmulas também podem aparecer em folhas de pergaminho, tabuletas e praticamente qualquer outro meio de escrita; não há necessidade de copiá-las em livros específicos, desde que tenha uma cópia delas à mão para consultar.  </p>"
         },
         "consumable->Infused Reagents": {
@@ -183,20 +173,15 @@
     },
     "Black Whale Guard": {
       "items": {
-        "weapon->Shortbow": {
-          "name": "Arco Curto",
-          "description": "<p><span class=\"fontstyle0\">Este arco menor é feito de um único pedaço de madeira e é usado por escaramuçadores e cavalaria. </p>"
-        },
-        "armor->Chain Mail": {
-          "name": "Cota de Malha",
-          "description": "<p><span class=\"fontstyle0\">Uma cota de malha consiste de várias peças de armadura compostas de pequenos anéis de metal unidos formando uma malha protetora. Tipicamente ela inclui uma camisão de malha, calças, um par de proteção para os braços e uma coifa, coletivamente protegendo a maior parte do corpo.  </p>"
-        },
         "ammo->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
         },
         "strike-ranged->Club": {
           "name": "Clava"
+        },
+        "strike-ranged->Nightmare Cudgel": {
+          "name": "Clava do Pesadelo"
         },
         "strike-melee->Fist": {
           "name": "Punho"
@@ -220,20 +205,15 @@
     },
     "Black Whale Guard (F3)": {
       "items": {
-        "weapon->Shortbow": {
-          "name": "Arco Curto",
-          "description": "<p><span class=\"fontstyle0\">Este arco menor é feito de um único pedaço de madeira e é usado por escaramuçadores e cavalaria. </p>"
-        },
-        "armor->Chain Mail": {
-          "name": "Cota de Malha",
-          "description": "<p><span class=\"fontstyle0\">Uma cota de malha consiste de várias peças de armadura compostas de pequenos anéis de metal unidos formando uma malha protetora. Tipicamente ela inclui uma camisão de malha, calças, um par de proteção para os braços e uma coifa, coletivamente protegendo a maior parte do corpo.  </p>"
-        },
         "ammo->Arrows": {
           "name": "Flechas",
           "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
         },
         "strike-ranged->Club": {
           "name": "Clava"
+        },
+        "strike-ranged->Nightmare Cudgel": {
+          "name": "Clava do Pesadelo"
         },
         "strike-melee->Fist": {
           "name": "Punho"
@@ -255,6 +235,13 @@
         }
       }
     },
+    "Blackfinger's Prayer": {
+      "items": {
+        "action->Blackfinger Blight": {
+          "name": "Praga Dedonegro"
+        }
+      }
+    },
     "Blackfingers Acolyte": {
       "items": {
         "strike-melee->Dagger": {
@@ -270,16 +257,6 @@
     },
     "Bloody Barber Goon": {
       "items": {
-        "weapon->+1 Striking Club": {
-          "description": "<p><span class=\"fontstyle0\">Este é uma peça de madeira resistente moldada ou adaptada para esbordoar um inimigo. Clavas podem ser peças intrincadamente esculpidas de artes marciais ou algo tão simples quanto um galho de árvore ou pedaço de madeira).  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "weapon->Dagger": {
-          "name": "Adaga",
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "armor->+1 Leather Armor": {
-          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
         },
@@ -338,9 +315,6 @@
     },
     "Calennia": {
       "items": {
-        "weapon->+1 Striking Heavy Crossbow": {
-          "description": "<p><span class=\"fontstyle0\">Esta besta grande é mais difícil de recarregar e mais substancial do que uma besta convencional, mas dá golpes mais potentes.  </p>"
-        },
         "weapon->+2 Greater Striking axiomatic Scourge": {
           "description": "<p><span>A scourge—also known as a cat-o’-nine-tails—is a set of several knotted cords made from cotton or leather and attached to a handle. While most scourges are more suitable for torture than combat, the weapons used by the Order of the Scourge have metal barbs woven in to pierce clothing and armor. The scourge is a martial melee weapon.&nbsp; </p>"
         },
@@ -404,9 +378,6 @@
     },
     "Child Of Venom": {
       "items": {
-        "weapon->+1 Striking Shortsword": {
-          "description": "<p>Estas lâminas existem em uma variedade de formas e estilos, mas normalmente possuem 60 centímetros de comprimento.</p>"
-        },
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
@@ -522,7 +493,7 @@
     },
     "Dart Barrage": {
       "items": {
-        "strike-melee->Dart": {
+        "strike-ranged->Dart": {
           "name": "Dardo"
         }
       }
@@ -695,15 +666,6 @@
     },
     "Garrote Master Assassin": {
       "items": {
-        "weapon->+2 Striking Crossbow": {
-          "description": "<p><span>Esta arma de disparo possui uma parte parecida com um arco montada em cima de uma estrutura chamada coronha. A coronha possui um mecanismo para travar a corda no lugar, prendendo-a a um mecanismo de gatilho que libera a tensão e lança o virote. </p>"
-        },
-        "weapon->+2 Striking Dagger": {
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "armor->+2 Resilient Studded Leather Armor": {
-          "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
-        },
         "ammo->Bolts": {
           "name": "Virotes",
           "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
@@ -765,6 +727,9 @@
     },
     "Grabble Forden": {
       "items": {
+        "spellcastingEntry->Poisoner's Staff (Major)": {
+          "name": "Cajado do Envenenador (Maior)"
+        },
         "spell->Swarming Wasp Stings": {
           "target": "1 criatura"
         },
@@ -833,16 +798,10 @@
     },
     "Grimwold": {
       "items": {
-        "weapon->Crossbow": {
-          "name": "Besta Leve",
-          "description": "<p><span>Esta arma de disparo possui uma parte parecida com um arco montada em cima de uma estrutura chamada coronha. A coronha possui um mecanismo para travar a corda no lugar, prendendo-a a um mecanismo de gatilho que libera a tensão e lança o virote. </p>"
-        },
         "armor->Chain Shirt": {
-          "name": "Camisão de Malha",
           "description": "<p><span class=\"fontstyle0\">Às vezes chamada de hauberk, esta é uma camisa longa construída dos mesmos anéis de metal que a cota de malha. Entretanto, ela é muito mais leve do que uma cota de malha e protege apenas o torso, braços e coxas de seu usuário.  </p>"
         },
         "equipment->Disguise Kit (Elite)": {
-          "name": "Kit de Disfarce (Elite)",
           "description": "<p><span class=\"fontstyle0\">Esta pequena caixa de madeira contém cosméticos, pelos faciais falsos, cola cosmética e algumas perucas simples. Normalmente é necessário um kit de disfarce para Personificar alguém utilizando a perícia Dissimulação. Um kit de disfarce de elite concede +1 de bônus de item nos testes relevantes. Se tiver realizado um grande número de disfarces, você pode reabastecer seu suprimento com cosméticos de reposição apropriados para seu tipo de kit de disfarce.  </p>"
         },
         "ammo->Bolts": {
@@ -937,6 +896,9 @@
       "items": {
         "strike-ranged->Dagger": {
           "name": "Adaga"
+        },
+        "action->Prehensile Tail": {
+          "name": "Cauda Preênsil"
         }
       }
     },
@@ -955,6 +917,9 @@
         "action->Collapse": {
           "name": "Desmoronar"
         },
+        "action->Flurry of Claws": {
+          "name": "Rajada de Garras"
+        },
         "action->Wall Run": {
           "name": "Correr na Parede"
         },
@@ -965,30 +930,11 @@
     },
     "Ixusoth": {
       "items": {
-        "equipment->Robe of Eyes": {
-          "name": "Robe dos Olhos"
-        },
         "strike-melee->Fist": {
           "name": "Punho"
         },
         "lore->Bardic Lore": {
           "name": "Saber Bárdico"
-        }
-      }
-    },
-    "Izfiitar": {
-      "items": {
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
-        },
-        "strike-melee->Claw": {
-          "name": "Garra"
-        },
-        "strike-melee->Tail": {
-          "name": "Cauda"
-        },
-        "action->Storm of Claws": {
-          "name": "Tempestade de Garras"
         }
       }
     },
@@ -999,9 +945,6 @@
         },
         "spell->Neutralize Poison": {
           "target": "1 criatura"
-        },
-        "weapon->+1 Spell Storing Dagger (contains crisis of faith)": {
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
         },
         "equipment->Religious Symbol (Norgorber)": {
           "description": "<p><span class=\"fontstyle0\">Esta peça de madeira é ornamentada com uma imagem representando uma divindade. Alguns conjuradores divinos, como clérigos, podem usar um símbolo religioso de sua divindade como foco divino para usar certas habilidades e conjurar algumas magias. Um símbolo religioso deve ser empunhado em uma mão para ser usado.  </p>"
@@ -1019,19 +962,12 @@
     },
     "Kapral": {
       "items": {
-        "weapon->+2 Striking Staff": {
-          "description": "<p> Esta longa peça de madeira pode auxiliar no caminhar e desferir golpes poderosos.</p>"
-        },
         "equipment->Bracers of Armor II": {
           "name": "Braçadeiras de Armadura II",
           "description": "<p><span>Estes protetores de braço de couro rígido concedem +2 de bônus de item na CA e jogadas de salvamento e +5 de modificador máximo de Destreza. Você pode afixar talismãs a uma  <em>braçadeira da armadura</em> como se elas fossem armaduras leves. </p>"
         },
         "equipment->Disguise Kit (Elite)": {
-          "name": "Kit de Disfarce (Elite)",
           "description": "<p><span class=\"fontstyle0\">Esta pequena caixa de madeira contém cosméticos, pelos faciais falsos, cola cosmética e algumas perucas simples. Normalmente é necessário um kit de disfarce para Personificar alguém utilizando a perícia Dissimulação. Um kit de disfarce de elite concede +1 de bônus de item nos testes relevantes. Se tiver realizado um grande número de disfarces, você pode reabastecer seu suprimento com cosméticos de reposição apropriados para seu tipo de kit de disfarce.  </p>"
-        },
-        "consumable->Healing Potion (Moderate)": {
-          "name": "Poção de Cura (Moderada)"
         },
         "strike-melee->Staff": {
           "name": "Cajado"
@@ -1272,12 +1208,6 @@
     },
     "Myrna Rath": {
       "items": {
-        "equipment->Cloak of the Bat (Greater)": {
-          "name": "Manto do Morcego (Maior)"
-        },
-        "equipment->Heartstone": {
-          "name": "Pedra-Coração"
-        },
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
         },
@@ -1315,22 +1245,8 @@
     },
     "Norgorberite Poisoner": {
       "items": {
-        "weapon->Dagger": {
-          "name": "Adaga",
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "weapon->+1 Striking Shortsword": {
-          "description": "<p>Estas lâminas existem em uma variedade de formas e estilos, mas normalmente possuem 60 centímetros de comprimento.</p>"
-        },
-        "armor->Leather Armor": {
-          "name": "Armadura de Couro",
-          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
-        },
         "equipment->Infused Reagents": {
           "name": "Reagentes Infundidos"
-        },
-        "consumable->Bloodseeker Beak": {
-          "name": "Bico de Caçador de Sangue"
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
@@ -1379,6 +1295,9 @@
         },
         "strike-ranged->Dagger": {
           "name": "Adaga"
+        },
+        "strike-ranged->Cane of the Maelstrom": {
+          "name": "Bengala do Turbilhão"
         },
         "action->Hidden Paragon": {
           "name": "Exemplar Escondido"
@@ -1442,12 +1361,6 @@
         "spellcastingEntry->Focus Spells": {
           "name": "Magias de Foco"
         },
-        "weapon->+1 Striking Composite Shortbow": {
-          "description": "<p><span class=\"fontstyle0\">Este arco curto é feito de chifre, madeira e tendões laminados juntos para aumentar o poder da puxada de sua corda e a força do projétil. Seu tamanho compacto e força o torna o preferido entre arqueiros montados. Qualquer habilidade especificamente restrita a arcos curtos também pode ser aplicada a arcos curtos compostos, exceto se especificado o contrário.  </p>"
-        },
-        "armor->+1 Leather Armor": {
-          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
-        },
         "equipment->Religious Symbol (norgorber)": {
           "description": "<p><span class=\"fontstyle0\">Esta peça de madeira é ornamentada com uma imagem representando uma divindade. Alguns conjuradores divinos, como clérigos, podem usar um símbolo religioso de sua divindade como foco divino para usar certas habilidades e conjurar algumas magias. Um símbolo religioso deve ser empunhado em uma mão para ser usado.  </p>"
         },
@@ -1501,6 +1414,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         }
       }
     },
@@ -1536,18 +1452,8 @@
     },
     "Sad Liza": {
       "items": {
-        "weapon->Dagger": {
-          "name": "Adaga",
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
         "weapon->+2 Greater Striking War Razor": {
           "description": "<p><span>Uma navalha de guerra é uma versão exagerada da ferramenta de barbeiro. É uma arma frágil, porém extremamente afiada que pode ser facilmente escondida em um bolso ou manga. </p>"
-        },
-        "armor->+2 Resilient Studded Leather Armor": {
-          "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
-        },
-        "equipment->Necklace of Fireballs VI": {
-          "name": "Colar de Bolas de Fogo VI"
         },
         "strike-melee->War Razor": {
           "name": "Navalha de Guerra"
@@ -1575,15 +1481,7 @@
         "spell->Undetectable Alignment": {
           "name": "Tendência Indetectável"
         },
-        "weapon->+2 Striking Dagger": {
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "shield->Sturdy Shield (Moderate)": {
-          "name": "Escudo Robusto (Moderado)",
-          "description": "<p><span>Com projeto superior e manufatura excelente, este escudo de aço possui mais Dureza do que suas contrapartes não-mágicas, tornando-o mais difícil de quebrar e destruir. </p> <p><span>Este escudo possui Dureza 13, 104 PV e LQ 52. </p>"
-        },
         "armor->Chain Shirt": {
-          "name": "Camisão de Malha",
           "description": "<p><span class=\"fontstyle0\">Às vezes chamada de hauberk, esta é uma camisa longa construída dos mesmos anéis de metal que a cota de malha. Entretanto, ela é muito mais leve do que uma cota de malha e protege apenas o torso, braços e coxas de seu usuário.  </p>"
         },
         "equipment->Cape of the Mountebank": {
@@ -1621,6 +1519,9 @@
         },
         "strike-ranged->Javelin": {
           "name": "Azagaia"
+        },
+        "action->Deep Breath": {
+          "name": "Respiração Profunda"
         },
         "action->Coordinated Distraction": {
           "name": "Distração Coordenada"
@@ -1723,21 +1624,8 @@
     },
     "Sleepless Sun Veteran": {
       "items": {
-        "weapon->Composite Shortbow": {
-          "name": "Arco Curto Composto",
-          "description": "<p><span class=\"fontstyle0\">Este arco curto é feito de chifre, madeira e tendões laminados juntos para aumentar o poder da puxada de sua corda e a força do projétil. Seu tamanho compacto e força o torna o preferido entre arqueiros montados. Qualquer habilidade especificamente restrita a arcos curtos também pode ser aplicada a arcos curtos compostos, exceto se especificado o contrário.  </p>"
-        },
-        "weapon->Sap": {
-          "name": "Porrete",
-          "description": "<p>Um porrete tem um invólucro macio ao redor de um núcleo denso, geralmente uma cobertura de couro ao redor de um bastão de chumbo. A cabeça dele é mais ampla do que a empunhadura para dispersar a força do golpe, pois o propósito da arma é desacordar sua vítima em vez de tirar seu sangue.</p>"
-        },
         "shield->Steel Shield": {
-          "name": "Escudo de aço",
           "description": "<p><span class=\"fontstyle0\"> Embora existam em vários tamanhos e formatos, a proteção oferecida por escudos de aço vem da resistência de seu material. Embora sejam mais caros que escudos de madeira, são muito mais duráveis. </p> <table style=\"height: 32px;\" border=\"1\"> <tbody> <tr style=\"height: 15px;\"> <td style=\"height: 15px; width: 115px;\">Dureza</td> <td style=\"height: 15px; width: 115px;\">PV</td> <td style=\"height: 15px; width: 116px;\">LQ</td> </tr> <tr style=\"height: 17px;\"> <td style=\"height: 17px; width: 115px;\">5</td> <td style=\"height: 17px; width: 115px;\">20</td> <td style=\"height: 17px; width: 116px;\">10</td> </tr> </tbody> </table>"
-        },
-        "armor->Chain Mail": {
-          "name": "Cota de Malha",
-          "description": "<p><span class=\"fontstyle0\">Uma cota de malha consiste de várias peças de armadura compostas de pequenos anéis de metal unidos formando uma malha protetora. Tipicamente ela inclui uma camisão de malha, calças, um par de proteção para os braços e uma coifa, coletivamente protegendo a maior parte do corpo.  </p>"
         },
         "ammo->Arrows": {
           "name": "Flechas",
@@ -1771,23 +1659,12 @@
         }
       }
     },
-    "Sordesdaemon": {
-      "items": {
-        "strike-melee->Fist": {
-          "name": "Punho"
-        }
-      }
-    },
     "Starwatch Commando": {
       "items": {
-        "weapon->+1 Striking Crossbow": {
-          "description": "<p><span>Esta arma de disparo possui uma parte parecida com um arco montada em cima de uma estrutura chamada coronha. A coronha possui um mecanismo para travar a corda no lugar, prendendo-a a um mecanismo de gatilho que libera a tensão e lança o virote. </p>"
-        },
         "weapon->Thunderstone (Greater)": {
           "name": "Pedra-Trovão (Maior)"
         },
         "armor->Chain Shirt": {
-          "name": "Camisão de Malha",
           "description": "<p><span class=\"fontstyle0\">Às vezes chamada de hauberk, esta é uma camisa longa construída dos mesmos anéis de metal que a cota de malha. Entretanto, ela é muito mais leve do que uma cota de malha e protege apenas o torso, braços e coxas de seu usuário.  </p>"
         },
         "ammo->Bolts": {
@@ -1863,6 +1740,9 @@
         "strike-melee->Tail": {
           "name": "Cauda"
         },
+        "strike-melee->Gearblade": {
+          "name": "Lâmina-Engrenagem"
+        },
         "action->Tail Whip": {
           "name": "Chicotada com Cauda"
         },
@@ -1875,7 +1755,11 @@
       }
     },
     "The Rabbit Prince": {
+      "name": "O Príncipe Coelho",
       "items": {
+        "strike-melee->Blade of the Rabbit Prince": {
+          "name": "Lâmina do Príncipe Coelho"
+        },
         "action->Halfling Luck": {
           "name": "Sorte de Halfling"
         }
@@ -1914,15 +1798,8 @@
     },
     "Twisted Jack": {
       "items": {
-        "weapon->Dagger": {
-          "name": "Adaga",
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
         "weapon->+2 Greater Striking War Razor": {
           "description": "<p><span>Uma navalha de guerra é uma versão exagerada da ferramenta de barbeiro. É uma arma frágil, porém extremamente afiada que pode ser facilmente escondida em um bolso ou manga. </p>"
-        },
-        "armor->+2 Resilient Studded Leather Armor": {
-          "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
         },
         "strike-melee->War Razor": {
           "name": "Navalha de Guerra"
@@ -1984,16 +1861,11 @@
     },
     "Venom Mage": {
       "items": {
-        "weapon->Dagger": {
-          "name": "Adaga",
-          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "armor->Studded Leather Armor": {
-          "name": "Couro Batido",
-          "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
-        },
         "strike-melee->Dagger": {
           "name": "Adaga"
+        },
+        "strike-melee->Poisoner's Staff": {
+          "name": "Cajado do Envenenador"
         },
         "strike-ranged->Dagger": {
           "name": "Adaga"
@@ -2046,7 +1918,6 @@
     "Wynsal Starborn": {
       "items": {
         "equipment->Ring of Sustenance": {
-          "name": "Anel do Sustento",
           "description": "<p>Este anel de madeira polida constantemente recupera seu corpo e sua mente. Você não precisa comer ou beber enquanto estiver usando-o e precisa de apenas 2 horas de sono por dia para receber os benefícios de 8 horas de sono. Um anel do sustento não funciona até que tenha sido usado e investido por uma semana. Removê-lo reinicia este intervalo.</p>"
         },
         "strike-melee->Longsword": {
@@ -2087,16 +1958,6 @@
       "items": {
         "spell->Veil": {
           "name": "Véu"
-        },
-        "weapon->+1 Striking Morningstar": {
-          "description": "<p> Esta arma consiste de um cabo de madeira conectado por uma corrente, corda ou faixa de couro a uma bola ou cilindro com espinhos.</p>"
-        },
-        "weapon->Sling": {
-          "name": "Funda",
-          "description": "<p><span class=\"fontstyle0\">Pouco mais que um recipiente de couro preso a uma par de tiras, a funda pode ser usada para arremessar pedras lisas ou balas de funda à distância.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
-        },
-        "armor->Breastplate": {
-          "name": "Placa Peitoral"
         },
         "ammo->Sling Bullets": {
           "name": "Balas de funda",

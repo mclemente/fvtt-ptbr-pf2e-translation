@@ -27,13 +27,6 @@
         }
       }
     },
-    "Ijda": {
-      "items": {
-        "spell->Touch of Idiocy": {
-          "target": "1 criatura viva"
-        }
-      }
-    },
     "Kagekuma": {
       "items": {
         "strike-melee->Kusarigama": {
@@ -90,18 +83,27 @@
     },
     "Shinigami": {
       "items": {
-        "spell->Finger of Death": {
-          "target": "1 criatura viva"
-        },
         "strike-melee->Naginata": {
           "name": "Naginata"
+        },
+        "action->Frightful Presence": {
+          "name": "Presença Aterradora"
+        },
+        "action->Spirit Touch": {
+          "name": "Toque Espiritual"
         }
       }
     },
     "Shisagishin": {
       "items": {
+        "spell->Blood Vendetta": {
+          "requirements": "You can bleed"
+        },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Reactive Strike": {
+          "name": "Golpe Reativo"
         }
       }
     },

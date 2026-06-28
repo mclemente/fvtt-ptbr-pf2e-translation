@@ -18,7 +18,7 @@
             "Label": "CD de Administrar Primeiros Socorros"
           },
           "Notes": {
-            "criticalFailure": "<strong>Falha Crítica</strong> O valor de morrendo da criatura aumenta em 1.",
+            "criticalFailure": "<strong>Falha Crítica</strong> O valor de morte da criatura aumenta em 1.",
             "success": "<strong>Sucesso</strong> A criatura perde a condição morrendo (mas permanece inconsciente)."
           },
           "Title": "Estabilizar"
@@ -305,12 +305,21 @@
         "Description": "<p>Você encerra um efeito que você pode Dispensar. Dispensar encerra o efeito inteiramente a menos que seja dito o contrário.</p>",
         "Title": "Dispensar"
       },
+      "Drive": {
+        "Description": "<p><strong>Requerimentos</strong> Você está pilotando um veículo.</p>\n<p>Você pilota seu veículo para se mover. Decida quantas ações pretende gastar antes de começar a Conduzir. Os efeitos dependem do número de ações gastas. Você não pode Conduzir através de espaços ocupados por criaturas, mesmo se elas forem aliadas.</p>\n<p><span class=\"action-glyph\">1</span> Tente um teste de pilotagem. Em um sucesso, o veículo se move até sua Velocidade e pode virar normalmente. Em uma falha, o veículo se move sua Velocidade em linha reta. Em uma falha crítica, o veículo se move sua Velocidade em linha reta e fica descontrolado</p>\n<p><span class=\"action-glyph\">2</span> (imprudente) O veículo se move até duas vezes sua Velocidade em linha reta na direção atual do veículo.</p>\n<p><span class=\"action-glyph\">3</span> (imprudente) Você sofre -5 de penalidade em seu teste de pilotagem para manter o controle do veículo. O veículo se move até três vezes sua Velocidade em linha reta na direção atual do veículo.</p>",
+        "Title": "Conduzir"
+      },
       "DropProne": {
         "Description": "<p>Você fica prostrado.</p>",
         "Title": "Prostrar"
       },
       "EarnIncome": {
         "Description": "<p>Você usa uma de suas perícias para ganhar dinheiro durante o recesso. O mestre atribui um nível de tarefa que representa o trabalho mais lucrativo disponível. Você pode procurar por tarefas de nível inferior, com O mestre determinando se você encontrará alguma. Às vezes, você pode tentar encontrar um trabalho melhor do que as ofertas iniciais, embora isso leve tempo e exija o uso da habilidade Diplomacia para Coletar Informações, fazer alguma pesquisa ou socializar.</p><p>Quando você aceita um trabalho, O mestre define secretamente o DC do seu teste de perícia. Após seu primeiro dia de trabalho, você rola para determinar seus ganhos. Você ganha uma quantia de renda com base no seu resultado, no nível da tarefa e no seu nível de proficiência (conforme listado na tabela Renda ganha).</p><p>Você pode continuar trabalhando na tarefa nos dias subsequentes sem precisar rolar novamente. Para cada dia gasto após o primeiro, você ganha a mesma quantia do primeiro dia, até a conclusão da tarefa. O mestre determina por quanto tempo você pode trabalhar na tarefa. A maioria das tarefas dura uma ou duas semanas, embora algumas possam levar meses ou até anos.</p><p><strong>Sucesso Crítico</strong> Você faz um trabalho excepcional. Ganhe a quantidade de moedas listada para o nível da tarefa + 1 e seu nível de proficiência.</p><p><strong>Sucesso</strong> Você faz um trabalho competente. Ganhe a quantidade de moeda listada para o nível da tarefa e seu nível de proficiência.</p><p><strong>Falha</strong> Você faz um trabalho de má qualidade e recebe o mínimo pelo seu tempo. Ganhe a quantidade de moedas listada na coluna de falha para o nível da tarefa. O mestre reduzirá provavelmente o tempo que você pode continuar na tarefa.</p><p><strong>Falha Crítica</strong> Você não ganha nada pelo seu trabalho sendo demitido imediatamente. Você não pode continuar a tarefa. Sua reputação é prejudicada, o que pode dificultar a obtenção de empregos gratificantes nessa comunidade no futuro.</p>",
+        "Result": {
+          "DaysSpent": {
+            "one": "+1 Dia"
+          }
+        },
         "Notes": {
           "criticalFailure": "<strong>Falha Crítica</strong> Você não ganha nada pelo seu trabalho sendo demitido imediatamente. Você não pode continuar a tarefa. Sua reputação é prejudicada, o que pode dificultar a obtenção de empregos gratificantes nessa comunidade no futuro.",
           "criticalSuccess": "<strong>Sucesso Crítico</strong> Você faz um trabalho excepcional. Ganhe a quantidade de dinheiro listada para o nível da tarefa + 1 e sua graduação de proficiência.",
@@ -324,6 +333,7 @@
           "Master": "administrar uma grande cervejaria, defender casos importantes na corte",
           "Legendary": "administrar uma franquia internacional de bebida, defender um caso nas cortes do Inferno"
         },
+        "Submit": "Rolar",
         "Title": "Ganhar Proventos"
       },
       "EncouragingWords": {
@@ -599,6 +609,12 @@
         "Description": "<p><strong>Exigências</strong> Você está adjacente a uma criatura que é pelo menos um tamanho maior do que você e que está disposta a ser sua montaria.</p><hr><p>Você se move até a criatura e a cavalga. Se você já estiver montado, pode usar esta ação para desmontar, movendo-se para fora da montaria e ficando em um espaço adjacente a ela.</p>",
         "Title": "Montar"
       },
+      "Navigate": {
+        "Notes": {
+          "criticalSuccess": "<strong>Sucesso Crítico</strong> Você obtém uma noção excelente de sua localização. Se estiver em um ambiente com direções cardinais, você as aponta com exatidão.",
+          "success": "<strong>Sucesso</strong> Você obtém orientação o suficiente para evitar ficar completamente perdido. Se estiver em um ambiente com direções cardinais, você tem uma noção dessas direções."
+        }
+      },
       "PalmAnObject": {
         "Description": "<p>Você pega um objeto desapossado pequeno e tenta não ser notado. Faça um único teste de Ladroagem contra as CDs de Percepção de todas as criaturas que estiverem observando você no momento. Normalmente só é possível Surrupiar Objetos de Volume insignificante, embora o mestre possa permitir objetos maiores dependendo da situação.</p><p><strong>Sucesso</strong> A criatura não nota você Surrupiando o Objeto.</p><p><strong>Falha</strong> A criatura nota você Surrupiando o Objeto.</p>",
         "Notes": {
@@ -771,6 +787,10 @@
         },
         "Title": "Pedir"
       },
+      "RunOver": {
+        "Description": "<p><strong>Exigências</strong> Você está pilotando um veículo.</p>\n<p>Você tenta passar por cima de criaturas com seu veículo, possivelmente também abalroando uma criatura ou objeto maior. Se mantiver o controle de seu veículo, ele se move até duas vezes a Velocidade dele em uma linha reta na direção para a qual o veículo estiver virado. Você tenta atropelar quaisquer criaturas que sejam dois tamanhos menores que o seu veículo e estejam em seu caminho, e também pode tentar abalroar uma criatura ou objeto alvo em seu caminho que seja no mínimo um tamanho menor que o veículo.</p>\n<p>Cada criatura em seu caminho, incluindo um alvo abalroado, sofre o dano de colisão do veículo (salvamento básico de Reflexos com a CD de colisão do veículo). Se o alvo abalroado for um veículo, o piloto dele pode fazer um teste de pilotagem no lugar de seu salvamento de Reflexos, com os mesmos resultados. Se o alvo de seu abalroamento sofrer dano, você e seu veículo sofrem o dano de colisão (sem salvamento) e seu movimento é encerrado.</p>",
+        "Title": "Atropelar"
+      },
       "Seek": {
         "Description": "<p>Você procura por sinais de criaturas ou objetos em uma área, possivelmente incluindo portas secretas ou perigos. Escolha uma área para examinar. O mestre determina a área que você pode analisar com uma ação @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Buscar} — quase sempre é 30 pés ou menos, em qualquer dimensão. O mestre pode impor uma penalidade se você estiver procurando algo longe de você ou ajustar a quantidade de ações necessárias para Buscar em uma área particularmente lotada de coisas.</p><p>O mestre fará um único teste secreto de Percepção por você e comparar o resultado com as CDs de Furtividade de quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} ou @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} na área, ou com a CD para detectar cada objeto na área (conforme determinado pelo mestre ou por alguém que esteja Ocultando o Objeto). Se você estiver usando um sentido impreciso ou se um efeito (como invisibilidade) impedir que o alvo seja observado, a criatura detectada pode permanecer escondida, em vez de tornar-se observada.</p><p><strong>Sucesso Crítico</strong> Quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} ou @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} contra as quais você tiver obtido sucesso crítico tornam-se @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observadas} por você. Você descobre a localização de objetos na área contra os quais obteve sucesso crítico.</p><p><strong>Sucesso</strong> Quaisquer criaturas @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Indetectadas} contra as quais você tiver obtido sucesso ficam @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondidas} contra você; se a criatura já estava @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Escondida}, ela torna-se @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observada} por você. Você descobre a localização de algum objeto ou recebe uma pista sobre o paradeiro dele, conforme determinado pelo mestre.</p>",
         "Notes": {
@@ -866,6 +886,10 @@
         "Description": "<p>Você se move 5 pés com cuidado. Diferente da maioria dos tipos de movimento, Dar um Passo não aciona reações que possam ser acionadas por ações de movimento ou por sair ou entrar em um quadrado, como Golpe Reativo.</p><p>Você não pode Dar um Passo para um quadrado de terreno\ndifícil nem utilizando uma Velocidade que não seja a sua\nVelocidade terrestre.</p>",
         "Title": "Dar Um Passo"
       },
+      "Stop": {
+        "Description": "<p><strong>Exigências</strong> Você está pilotando um veículo em movimento.</p>\n<p>Você faz o veículo parar.</p>",
+        "Title": "Parar"
+      },
       "Stride": {
         "Description": "<p>Você se move até sua Velocidade.</p>",
         "Title": "Andar"
@@ -921,6 +945,10 @@
           "Legendary": "redemoinho, cachoeira"
         },
         "Title": "Nadar"
+      },
+      "TakeControl": {
+        "Description": "<p><strong>Exigências</strong> ocê está a bordo de um veículo e adjacente aos controles dele.</p>\n<p>Você pega as rédeas, o volante ou algum outro mecanismo para controlar o veículo. Faça um teste de pilotagem; em um sucesso, você se torna o piloto do veículo ou recupera o controle se ele estivesse descontrolado. Alguns veículos possuem controles complicados que tornam esta ação uma atividade de várias ações.</p>",
+        "Title": "Assumir Controle"
       },
       "TakeCover": {
         "Description": "<p>Você se espreme contra uma parede ou se encolhe atrás de um obstáculo para tirar melhor proveito de uma cobertura. Se você normalmente fosse receber cobertura padrão, em vez disso recebe cobertura maior, que fornece +4 de bônus de circunstância na CA, salvamentos de Reflexos contra efeitos de área e testes de Furtividade para Esconder-se, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Esgueirar-se} e evitar detecção de outras formas. Caso contrário, recebe os benefícios de cobertura padrão (+2 bônus de circunstância). Esse benefício dura até que você saia do seu espaço atual, use uma ação de ataque, fique @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Inconsciente} ou encerre esse efeito com uma ação livre.</p>",
@@ -1035,6 +1063,7 @@
       "occultism": "Teste de Ocultismo",
       "perception": "Teste de Percepção",
       "performance": "Teste de Performance",
+      "piloting": "Teste de Pilotagem",
       "reflex": "Salvamento de Reflexos",
       "religion": "Teste de Religião",
       "society": "Teste de Sociedade",
@@ -1044,8 +1073,8 @@
       "thievery": "Teste de Ladroagem",
       "unarmed": "Rolagem de Ataque Desarmado",
       "will": "Salvamento de Vontade",
-      "x": "Teste de {type}",
-      "x-attack-roll": "Rolagem de Ataque {type}"
+      "x-attack-roll": "Rolagem de Ataque {type}",
+      "x": "Teste de {type}"
     },
     "ActionsSampleTasks": {
       "Title": "Exemplos de tarefas de {action}"

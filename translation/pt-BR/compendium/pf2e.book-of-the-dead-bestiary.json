@@ -1,13 +1,6 @@
 {
   "label": "Livro dos Mortos",
   "entries": {
-    "Beetle Carapace": {
-      "items": {
-        "strike-melee->Foot": {
-          "name": "Pé"
-        }
-      }
-    },
     "Bhuta": {
       "items": {
         "strike-melee->Fangs": {
@@ -72,6 +65,9 @@
         },
         "action->Plant": {
           "name": "Planta"
+        },
+        "action->Take Root": {
+          "name": "Criar Raízes"
         }
       }
     },
@@ -243,22 +239,6 @@
       "items": {
         "action->Ghostly Grasp": {
           "name": "Agarre Fantasmagórico"
-        }
-      }
-    },
-    "Graveknight Warmaster": {
-      "items": {
-        "strike-melee->War Flail": {
-          "name": "Mangual de Guerra"
-        },
-        "strike-melee->Fist": {
-          "name": "Punho"
-        },
-        "strike-ranged->Heavy Crossbow": {
-          "name": "Besta Pesada"
-        },
-        "lore->Warfare Lore": {
-          "name": "Saber de Guerra"
         }
       }
     },
@@ -456,19 +436,9 @@
         },
         "action->Channel Rot": {
           "name": "Canalizar podridão"
-        }
-      }
-    },
-    "Nasurgeth": {
-      "items": {
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
         },
-        "strike-melee->Tail": {
-          "name": "Cauda"
-        },
-        "lore->Shadow Plane Lore": {
-          "name": "Saber do Plano das Sombras"
+        "action->Sand Form": {
+          "name": "Forma de Areia"
         }
       }
     },
@@ -533,6 +503,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Final Spite": {
+          "name": "Despeito Final"
         },
         "action->Drain Life": {
           "name": "Drenar Vida"
@@ -652,16 +625,6 @@
         }
       }
     },
-    "Skeletal Titan": {
-      "items": {
-        "strike-melee->Claw": {
-          "name": "Garra"
-        },
-        "strike-melee->Foot": {
-          "name": "Pé"
-        }
-      }
-    },
     "Sluagh Reaper": {
       "items": {
         "strike-melee->Claw": {
@@ -669,65 +632,10 @@
         }
       }
     },
-    "Sykever": {
-      "items": {
-        "strike-melee->Horn": {
-          "name": "Chifre"
-        },
-        "lore->Shadow Plane Lore": {
-          "name": "Saber do Plano das Sombras"
-        },
-        "lore->Warfare Lore": {
-          "name": "Saber de Guerra"
-        }
-      }
-    },
     "Taunting Skull": {
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
-        }
-      }
-    },
-    "Unrisen": {
-      "items": {
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
-        },
-        "strike-melee->Claw": {
-          "name": "Garra"
-        }
-      }
-    },
-    "Urveth": {
-      "items": {
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
-        },
-        "strike-melee->Claw": {
-          "name": "Garra"
-        },
-        "strike-melee->Stinger": {
-          "name": "Ferrão"
-        },
-        "lore->Shadow Plane Lore": {
-          "name": "Saber do Plano das Sombras"
-        }
-      }
-    },
-    "Vanyver": {
-      "items": {
-        "strike-melee->Talon": {
-          "name": "Unha"
-        },
-        "strike-melee->Wing": {
-          "name": "Asa"
-        },
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
-        },
-        "lore->Shadow Plane Lore": {
-          "name": "Saber do Plano das Sombras"
         }
       }
     },
@@ -755,6 +663,13 @@
         }
       }
     },
+    "Waldgeist": {
+      "items": {
+        "action->Lignify": {
+          "name": "Lignificar"
+        }
+      }
+    },
     "Weight of Guilt": {
       "name": "Peso da Culpa"
     },
@@ -765,6 +680,9 @@
         },
         "strike-melee->Claw": {
           "name": "Garra"
+        },
+        "action->Final Spite": {
+          "name": "Despeito Final"
         },
         "action->Drain Life": {
           "name": "Drenar Vida"
@@ -790,13 +708,6 @@
         },
         "action->Slow": {
           "name": "Lentidão"
-        }
-      }
-    },
-    "Wolf Skeleton": {
-      "items": {
-        "strike-melee->Jaws": {
-          "name": "Mandíbulas"
         }
       }
     },

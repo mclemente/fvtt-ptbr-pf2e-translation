@@ -32,14 +32,57 @@
     },
     "Bugbear Prowler (BB)": {
       "items": {
-        "strike-melee->Longsword": {
-          "name": "Espada Longa"
+        "weapon->Javelin": {
+          "name": "Azagaia",
+          "description": "<p><span class=\"fontstyle0\">Esta lança fina é bem balanceada para arremesso, mas não é projetada para uso no combate corpo a corpo. <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Longsword": {
+          "name": "Espada Longa",
+          "description": "Espadas longas podem ser espadas de um ou dois gumes. Suas lâminas são pesadas e elas possuem de 0,9 a 1,2 metros de comprimento."
+        },
+        "armor->Leather Armor": {
+          "name": "Armadura de Couro",
+          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
         },
         "strike-melee->Fist": {
           "name": "Punho"
         },
         "strike-ranged->Javelin": {
           "name": "Azagaia"
+        },
+        "strike-melee->Longsword": {
+          "name": "Espada Longa"
+        }
+      }
+    },
+    "Bugbear Tormentor (BB)": {
+      "items": {
+        "weapon->Dagger": {
+          "name": "Adaga",
+          "description": "<p><span class=\"fontstyle0\">Esta pequena arma com lâmina é empunhada em uma mão e usada para apunhalar uma criatura em combate aproximado. Ela também pode ser arremessada.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Sickle": {
+          "name": "Foice",
+          "description": "<p> Originalmente uma ferramenta agrícola usada para colher grãos, esta arma de uma mão possui um cabo curto de madeira que termina em uma lâmina curva, às vezes afiada nos dois lados</p>"
+        },
+        "armor->Chain Shirt": {
+          "name": "Camisão de Malha",
+          "description": "<p>Às vezes chamada de hauberk, esta é uma camisa longa construída com os mesmos anéis metálicos de uma cota de malha. Porém, ela é muito mais leve que uma cota de malha e protege apenas o torso, os braços superiores e as pernas superiores de seu usuário.</p>"
+        },
+        "strike-ranged->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-melee->Dagger": {
+          "name": "Adaga"
+        },
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        },
+        "action->Sneak Attack": {
+          "name": "Ataque Furtivo"
+        },
+        "action->Twin Feint": {
+          "name": "Finta Dupla"
         }
       }
     },
@@ -63,6 +106,9 @@
         },
         "action->Light Blindness": {
           "name": "Cegueira à Luz"
+        },
+        "action->Darkening Poison": {
+          "name": "Veneno Escurecedor"
         }
       }
     },
@@ -76,6 +122,9 @@
         },
         "action->Light Blindness": {
           "name": "Cegueira à Luz"
+        },
+        "action->Darkening Poison": {
+          "name": "Veneno Escurecedor"
         }
       }
     },
@@ -90,6 +139,16 @@
       "items": {
         "strike-melee->Jaws": {
           "name": "Mandíbulas"
+        }
+      }
+    },
+    "Crawling Hand (BB)": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->Lifesense": {
+          "name": "Sentido Vital"
         }
       }
     },
@@ -149,6 +208,13 @@
       "items": {
         "strike-melee->Spine": {
           "name": "Espinha"
+        }
+      }
+    },
+    "Ferrous Butterfly (BB)": {
+      "items": {
+        "strike-melee->Wing": {
+          "name": "Asa"
         }
       }
     },
@@ -212,6 +278,13 @@
         }
       }
     },
+    "Giant Fly (BB)": {
+      "items": {
+        "strike-melee->Mandibles": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
     "Giant Rat (BB)": {
       "items": {
         "strike-melee->Jaws": {
@@ -238,6 +311,22 @@
     },
     "Goblin Commando (BB)": {
       "items": {
+        "weapon->Greatsword": {
+          "name": "Montante",
+          "description": "<p><span class=\"fontstyle0\"> Esta imensa espada de duas mãos é quase tão alta quanto seu usuário. A parte de baixo de sua lâmina frequentemente é cega para permitir que seja segurada para uso em combate próximo. .<br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Shortbow": {
+          "name": "Arco Curto",
+          "description": "<p><span class=\"fontstyle0\">Este arco menor é feito de um único pedaço de madeira e é usado por escaramuçadores e cavalaria. </p>"
+        },
+        "armor->Leather Armor": {
+          "name": "Armadura de Couro",
+          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
+        },
+        "ammo->Arrows": {
+          "name": "Flechas",
+          "description": "<p><span class=\"fontstyle0\">Estes projéteis são a munição para arcos. A haste de uma flecha é feita de madeira. Ela tem seu voo estabilizado por plumas em uma ponta e uma cabeça de metal na outra.  </p>"
+        },
         "strike-melee->Greatsword": {
           "name": "Montante"
         },
@@ -251,6 +340,26 @@
     },
     "Goblin Igniter (BB)": {
       "items": {
+        "spellcastingEntry->Spells": {
+          "name": "Magias"
+        },
+        "spell->Caustic Blast": {
+          "name": "Explosão Cáustica",
+          "description": "<p>Você arremessa uma grande massa de ácido que detona imediatamente, borrifando criaturas próximas. Criaturas na área sofrem 1d8 de dano de ácido com um salvamento básico de Reflexos; em uma falha crítica, a criatura também sofre @Damage[(1+floor((@item.rank -1)/2))[persistent,acid]] de dano.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> O dano inicial aumenta em 1d8, e o dano persistente em uma falha crítica aumenta em 1.</p>"
+        },
+        "spell->Electric Arc": {
+          "name": "Arco Elétrico",
+          "description": "<p>Um arco de relâmpago salta de um alvo para outro. Cada alvo sofre 2d4 de dano de eletricidade, com direito a um salvamento básico de Reflexos.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4.</p>",
+          "target": "1 ou 2 criaturas"
+        },
+        "spell->Light": {
+          "name": "Leve",
+          "description": "<p> O objeto brilha, emanando luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) como uma tocha. Se você conjurar esta magia em um segundo objeto, a magia luz no primeiro objeto é encerrada.</p>\n<p>@Compendium[pf2e.spell-effects.cVVZXNbV0nElVOPZ]{Efeito de Magia: Luz}</p>\n<hr />\n<p><strong>Elevada (4°)</strong> O objeto emana luz brilhante em um raio de 18 metros (e luz fraca nos próximos 18 metros).</p>"
+        },
+        "equipment->Torch": {
+          "name": "Tocha",
+          "description": "<p><span class=\"fontstyle0\">Uma tocha emana luz brilhante em um raio de 6 metros (e luz fraca por mais 6 metros). Ela pode ser usada como uma arma improvisada que causa 1d4 de dano contundente mais 1 de dano de fogo.  </p>"
+        },
         "strike-melee->Torch": {
           "name": "Tocha"
         },
@@ -292,6 +401,35 @@
         }
       }
     },
+    "Hobgoblin Archer (BB)": {
+      "items": {
+        "weapon->Crossbow": {
+          "name": "Besta Leve",
+          "description": "<p><span>Esta arma de disparo possui uma parte parecida com um arco montada em cima de uma estrutura chamada coronha. A coronha possui um mecanismo para travar a corda no lugar, prendendo-a a um mecanismo de gatilho que libera a tensão e lança o virote. </p>"
+        },
+        "weapon->Shortsword": {
+          "name": "Espada Curta",
+          "description": "<p>Estas lâminas existem em uma variedade de formas e estilos, mas normalmente possuem 60 centímetros de comprimento.</p>"
+        },
+        "armor->Scale Mail": {
+          "name": "Cota de Escamas",
+          "description": "<p><span class=\"fontstyle0\">Cotas de escamas consistem de muitas escamas de metal costuradas em um fundo de couro  reforçado, frequentemente na forma de uma longa camisa que protege o torso, braços e pernas.  </p>"
+        },
+        "ammo->Bolts": {
+          "name": "Virotes",
+          "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
+        },
+        "strike-melee->Shortsword": {
+          "name": "Espada Curta"
+        },
+        "strike-ranged->Crossbow": {
+          "name": "Besta Leve"
+        },
+        "action->Running Reload": {
+          "name": "Recarga em Movimento"
+        }
+      }
+    },
     "Hobgoblin Soldier (BB)": {
       "items": {
         "strike-melee->Longsword": {
@@ -299,6 +437,9 @@
         },
         "strike-ranged->Shortbow": {
           "name": "Arco Curto"
+        },
+        "action->Raise a Shield": {
+          "name": "Erguer um Escudo"
         }
       }
     },
@@ -323,10 +464,6 @@
     },
     "Kobold Boss Zolgran (BB)": {
       "items": {
-        "weapon->Staff": {
-          "name": "Cajado",
-          "description": "<p> Esta longa peça de madeira pode auxiliar no caminhar e desferir golpes poderosos.</p>"
-        },
         "strike-melee->Claw": {
           "name": "Garra"
         },
@@ -338,7 +475,7 @@
         }
       }
     },
-    "Kobold Dragon Mage (Black, BB)": {
+    "Kobold Mage (Black, BB)": {
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -354,7 +491,7 @@
         }
       }
     },
-    "Kobold Dragon Mage (Blue, BB)": {
+    "Kobold Mage (Blue, BB)": {
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -370,7 +507,7 @@
         }
       }
     },
-    "Kobold Dragon Mage (Green, BB)": {
+    "Kobold Mage (Green, BB)": {
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -386,7 +523,7 @@
         }
       }
     },
-    "Kobold Dragon Mage (Red, BB)": {
+    "Kobold Mage (Red, BB)": {
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -402,7 +539,7 @@
         }
       }
     },
-    "Kobold Dragon Mage (White, BB)": {
+    "Kobold Mage (White, BB)": {
       "items": {
         "strike-melee->Claw": {
           "name": "Garra"
@@ -433,17 +570,6 @@
     },
     "Kobold Trapmaster (BB)": {
       "items": {
-        "weapon->Shortsword": {
-          "name": "Espada Curta",
-          "description": "<p>Estas lâminas existem em uma variedade de formas e estilos, mas normalmente possuem 60 centímetros de comprimento.</p>"
-        },
-        "weapon->Spear": {
-          "name": "Lança"
-        },
-        "armor->Leather Armor": {
-          "name": "Armadura de Couro",
-          "description": "<p><span class=\"fontstyle0\">A grossura da pele da armadura dispersa a força do impacto, reduzindo dano contundente. Você ganha resistência a dano contundente igual a 1 + o valor da runa de potência dela para armaduras médias ou 2 + o valor da runa de potência dela para armaduras pesadas.  </p>"
-        },
         "strike-melee->Shortsword": {
           "name": "Espada Curta"
         },
@@ -478,6 +604,70 @@
         },
         "action->Maul": {
           "name": "Malho"
+        }
+      }
+    },
+    "Lukahn": {
+      "items": {
+        "spell->Laughing Fit": {
+          "name": "Crise de Risos",
+          "description": "<p>O alvo é dominado por uma risada incontrolável. Ele precisa fazer um salvamento de Vontade.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> O alvo não é afetado.</p>\n<p><strong>Sucesso</strong> O alvo é afligido com uma risada incontrolável. Ele não pode usar reações.</p>\n<p><strong>Falha</strong> O alvo fica @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Desacelerado 1} e não pode usar reações.</p>\n<p><strong>Falha crítica</strong> O alvo cai @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prostrado} e não pode usar ações ou reações por 1 rodada. Depois disso ele sofre os efeitos da falha.</p>",
+          "target": "1 criatura viva"
+        },
+        "spell->Noise Blast": {
+          "name": "Explosão de Ruído",
+          "description": "<p>Um ruído cacofônico explode para fora, causando 2d10 de dano sônico. Cada criatura deve tentar um salvamento de Fortitude.</p>\n<hr />\n<p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura sofre metade do dano.</p>\n<p><strong>Falha</strong> A criatura sofre dano completo e fica @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Surda} por 1 rodada.</p>\n<p><strong>Falha Crítica</strong> A criatura sofre o dobro do dano, fica surda por 1 minuto e fica @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Atordoada 1}.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d10.</p>"
+        },
+        "spell->Concordant Choir": {
+          "name": "Concordant Choir",
+          "description": "<p>Você libera uma consonância perigosa de som reverberante, concentrando-se em um único alvo ou se espalhando para ferir muitos inimigos. O número de ações que você gasta Conjurando esta Magia determina seus alvos, alcance, área e outros parâmetros.</p><hr /><p><span class=\"action-glyph\">1</span> A magia causa 1d4 de dano sônico a um único inimigo, com um salvamento básico de Fortitude.</p>\n<p><span class=\"action-glyph\">2</span> (manuseio) A magia causa 2d4 de dano sônico a todas as criaturas em uma @Template[burst|distance:10], com um salvamento básico de Fortitude.</p>\n<p><span class=\"action-glyph\">3</span> (manuseio) A magia causa 2d4 de dano sônico a todas as criaturas em uma @Template[emanation|distance:30], com um salvamento básico de Fortitude.</p><hr /><p><strong>Elevada (+1)</strong> O dano aumenta em 1d4 para a versão de 1 ação, ou 2d4 para as outras versões.</p>",
+          "target": "varia"
+        },
+        "spell->Detect Magic": {
+          "name": "Detectar Magia",
+          "description": "<p>Você emite um pulso que registra a presença de magia. Você não recebe informações além da presença ou ausência de magia. Você pode escolher ignorar magia da qual esteja plenamente ciente, como os itens mágicos e magias contínuas seus e de seus aliados. Você detecta magia de ilusão somente se o efeito dessa magia tiver círculo menor que o círculo de sua magia <em>detectar magia</em>. Porém, itens que possuem uma aura de ilusão, mas não são enganadores na aparência (como uma <em>poção de invisibilidade</em>), normalmente são detectados.</p><hr /><p><strong>Elevada (3º)</strong> Você descobre o círculo ou nível do efeito mágico mais poderoso que a magia detecta, conforme determinado pelo MJ.</p>\n<p><strong>Elevada (4º)</strong> Como 3º círculo, mas você também localiza a fonte da magia de maior círculo. Como em um sentido impreciso, você não descobre a localização exata, mas pode restringir a fonte a um cubo de 1,5 metro (5 pés) (ou ao mais próximo, se for maior que isso).</p>"
+        },
+        "spell->Fear": {
+          "name": "Medo",
+          "description": "<p>Você planta medo no alvo e ele deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 2.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 3 e @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada.</p><p><hr /><strong>Elevada (3º)</strong>  Você pode afetar até cinco criaturas.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Haunting Hymn": {
+          "name": "Haunting Hymn",
+          "description": "<p>You echo a jarring hymn that only creatures in the area can hear. The hymn deals sonic damage equal to your spellcasting ability modifier, with a basic Fortitude save. If a target critically fails the save, it's also @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+        },
+        "spell->Ill Omen": {
+          "name": "Mau Presságio",
+          "description": "<p>O alvo é atingido pelo infortúnio, ficando desequilibrado. Ele precisa fazer um salvamento de Vontade.</p>\n<p><strong>Sucesso</strong> O alvo não é afetado.</p>\n<p><strong>Falha</strong> Enquanto esta magia durar, na primeira vez que o alvo fizer um teste de ataque ou de perícia, ele precisa jogar duas vezes e usar o pior resultado.</p>\n<p><strong>Falha crítica</strong> Enquanto esta magia durar, sempre que o alvo fizer um teste de ataque ou de perícia, ele precisa jogar duas vezes e usar o pior resultado.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.AmsVO5Q6078mEvNt]{Efeito de Magia: Mau Presságio}</p>",
+          "target": "1 criatura"
+        },
+        "spell->Message": {
+          "name": "Mensagem",
+          "description": "<p>Você murmura palavras discretamente, mas em vez de saírem de sua boca, elas são transferidas diretamente aos ouvidos do alvo. Embora outros não possam ouvir suas palavras melhor do que um sussurro inaudível, o alvo pode ouvir suas palavras como se estivesse próximo de você. O alvo pode dar uma resposta breve como uma reação ou, se preferir, como uma ação livre no próximo turno dele, mas deve ser capaz de vê-lo e estar na distância desta magia para fazê-lo. Se ele responder, essa resposta é entregue diretamente em seus ouvidos, da mesma forma que a mensagem original.</p><p><strong>Elevada (3º)</strong> A distância da magia aumenta para 150 metros.<p>",
+          "target": "1 criatura"
+        },
+        "spell->Telekinetic Projectile": {
+          "name": "Projétil Telecinético",
+          "description": "<p>Você arremessa contra o alvo um objeto solto e desapossado que esteja dentro da distância e tenha Volume 1 ou menor. Faça um teste de ataque com magia contra a CA do alvo. Se acertar, você causa 2d6 de contundente, cortante ou perfurante — conforme apropriado para o objeto. Nenhum traço ou propriedade mágica específica do item arremessado afeta o ataque ou o dano.</p>\n<hr />\n<p><strong>Sucesso crítico</strong> Você causa o dobro do dano.</p>\n<p><strong>Sucesso</strong> Você causa o dano inteiro.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d6.</p>",
+          "target": "1 criatura"
+        },
+        "strike-ranged->Shadow Blast": {
+          "name": "Explosão de Sombras"
+        },
+        "action->Incorporeal": {
+          "name": "Incorpóreo"
+        }
+      }
+    },
+    "Magnetic Skink": {
+      "skillSpecialAthletics": {
+        "0": {
+          "label": "Para Escalar"
+        }
+      },
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
         }
       }
     },
@@ -594,6 +784,23 @@
         }
       }
     },
+    "Sea Hag (BB)": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->+1 Status to All Saves vs. Magic": {
+          "name": " +1 de estado em todos os salvamentos contra magia"
+        }
+      }
+    },
+    "Severed Head (BB)": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        }
+      }
+    },
     "Sewer Ooze (BB)": {
       "items": {
         "strike-melee->Pseudopod": {
@@ -606,6 +813,88 @@
       "items": {
         "action->Incorporeal": {
           "name": "Incorpóreo"
+        }
+      }
+    },
+    "Shadow Bat": {
+      "items": {
+        "strike-melee->Fangs": {
+          "name": "Presas"
+        },
+        "strike-melee->Wing": {
+          "name": "Asa"
+        },
+        "action->Echolocation": {
+          "name": "Ecolocalização"
+        }
+      }
+    },
+    "Shadow Gargoyle": {
+      "items": {
+        "strike-melee->Jaws": {
+          "name": "Mandíbulas"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Shadow Priest": {
+      "items": {
+        "strike-ranged->Shadow Blast": {
+          "name": "Explosão de Sombras"
+        },
+        "action->Incorporeal": {
+          "name": "Incorpóreo"
+        }
+      }
+    },
+    "Shadow Twigjack": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Shulzara": {
+      "items": {
+        "spell->Fear": {
+          "name": "Medo",
+          "description": "<p>Você planta medo no alvo e ele deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 2.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 3 e @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada.</p><p><hr /><strong>Elevada (3º)</strong>  Você pode afetar até cinco criaturas.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Frostbite": {
+          "name": "Geladura",
+          "description": "<p>Um orbe de frio cortante se aglutina ao redor do alvo, congelando o corpo dele. O alvo sofre 2d4 de dano eversivo, com direito a um salvamento básico de Fortitude. Com uma falha crítica, o alvo também adquire fraqueza contundente 1 até o início do seu próximo turno.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DdqWMj7cuf4S1bgr]{Efeito de Magia: Geladura}</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4 e a fraqueza da falha crítica em 1.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Hydraulic Push": {
+          "name": "Empurrão Hidráulico",
+          "description": "<p>Você invoca uma rajada poderosa de água pressurizada que machuca o alvo e o empurra para trás. Faça uma rolagem de ataque de magia à distância.<p><p><strong>Sucesso Crítico <strong> O alvo sofre 6d6 de dano contundente e é empurrado 3 metros para trás.<p><p><strong>Sucesso <strong> O alvo sofre 3d6 de dano contundente e é empurrado 1,5 metros para trás.<p><p><strong>Elevada (+1)<strong> O dano aumenta em 2d6.",
+          "target": "1 creature or unattended object"
+        },
+        "spell->Light": {
+          "name": "Leve",
+          "description": "<p> O objeto brilha, emanando luz brilhante em um raio de 6 metros (e luz fraca nos próximos 6 metros) como uma tocha. Se você conjurar esta magia em um segundo objeto, a magia luz no primeiro objeto é encerrada.</p>\n<p>@Compendium[pf2e.spell-effects.cVVZXNbV0nElVOPZ]{Efeito de Magia: Luz}</p>\n<hr />\n<p><strong>Elevada (4°)</strong> O objeto emana luz brilhante em um raio de 18 metros (e luz fraca nos próximos 18 metros).</p>"
+        },
+        "spell->Message": {
+          "name": "Mensagem",
+          "description": "<p>Você murmura palavras discretamente, mas em vez de saírem de sua boca, elas são transferidas diretamente aos ouvidos do alvo. Embora outros não possam ouvir suas palavras melhor do que um sussurro inaudível, o alvo pode ouvir suas palavras como se estivesse próximo de você. O alvo pode dar uma resposta breve como uma reação ou, se preferir, como uma ação livre no próximo turno dele, mas deve ser capaz de vê-lo e estar na distância desta magia para fazê-lo. Se ele responder, essa resposta é entregue diretamente em seus ouvidos, da mesma forma que a mensagem original.</p><p><strong>Elevada (3º)</strong> A distância da magia aumenta para 150 metros.<p>",
+          "target": "1 criatura"
+        },
+        "spell->Mud Pit": {
+          "name": "Mud Pit",
+          "description": "<p>Thick, clinging mud covers the ground, 1 foot deep. The mud is difficult terrain.</p>"
+        },
+        "spell->Shield": {
+          "name": "Escudo",
+          "description": "<p>Você ergue um escudo de força mágica. Isso conta como usar a ação Erguer Escudo, concedendo-lhe +1 de bônus de circunstância na CA até o início de seu próximo turno, mas ele não requer nenhuma mão para ser usado.</p>\n<p>Enquanto esta magia estiver em vigor, você pode usar a reação @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Bloqueio com Escudo} usando seu escudo mágico. O escudo tem Dureza 5. Você pode usar a reação desta magia para reduzir o dano de qualquer magia ou efeito mágico, até mesmo os que não causam dano físico. Após usar Bloqueio com Escudo, esta magia se encerra e você não pode conjurá-la novamente por 10 minutos.</p>\n<p>@Compendium[pf2e.spell-effects.Jemq5UknGdMO7b73]{Efeito de Magia: Escudo Místico}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Efeito: Imunidade a Escudo Místico}</p>\n<hr />\n<p><strong>Elevada (+2)</strong> A Dureza do escudo aumenta em 5.</p>"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
+        },
+        "action->+1 Status to All Saves vs. Magic": {
+          "name": " +1 de estado em todos os salvamentos contra magia"
         }
       }
     },
@@ -649,6 +938,189 @@
         }
       }
     },
+    "String Slime (BB)": {
+      "items": {
+        "strike-melee->Pseudopod": {
+          "name": "Pseudópode"
+        },
+        "action->Motion Sense": {
+          "name": "Sentido de movimento"
+        },
+        "action->Tag Team": {
+          "name": "Trabalho em Equipe"
+        }
+      }
+    },
+    "Twigjack (BB)": {
+      "items": {
+        "strike-melee->Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Umbral Gnome Rockwarden (BB)": {
+      "items": {
+        "spellcastingEntry->Spells": {
+          "name": "Magias"
+        },
+        "spell->Blindness": {
+          "name": "Cegueira",
+          "description": "<p>Você cega o alvo. O efeito é determinado pelo salvamento de Fortitude do alvo. Após o efeito, o alvo fica temporariamente imune por 1 minuto.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} até o início do próximo turno dele.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego} por 1 minuto.</p><p><strong>Falha Crítica</strong>  O alvo fica permanentemente @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Cego}.</p>",
+          "target": "1 criatura"
+        },
+        "spell->One with Stone": {
+          "name": "Um com a Pedra",
+          "description": "<p>Você pode se transformar em uma pedra ou se fundir com pedra. Enquanto transformado, você não pode se mover ou afetar qualquer coisa fora da pedra, mas pode conjurar magias desde que elas não exijam linha de efeito além da pedra. Você pode Dispensar esta magia.</p>\n<ul>\n<li><strong>Fundir-se à Pedra</strong> A duração da magia é 10 minutos. Ao conjurar a magia, você deve tocar uma pedra com volume suficiente para comportar você e suas posses ou a magia é interrompida. Enquanto fundido, você consegue ouvir, mas não ver, o que acontece fora da pedra. Se a pedra sofrer dano enquanto você estiver dentro dela, você é expelido da pedra e sofre 10d6 de dano. <em>Passagem mágica</em> expele você sem causar dano. A magia termina se você algum dia estiver fora da pedra.</li>\n<li><strong>Transformar-se em Pedra</strong> A duração da magia é 8 horas. Você se torna uma pedra Grande. Testes de Percepção não revelam sua verdadeira natureza, mas um teste bem-sucedido de Natureza ou Sobrevivência contra sua CD de magia revela que você parece ser uma pedra estranhamente nova na área. Enquanto estiver nesta forma, você pode observar tudo ao seu redor usando seus sentidos normais. Como pedra, sua CA é 23, e apenas bônus de estado, penalidades de estado, bônus de circunstância e penalidades de circunstância afetam você. Quaisquer sucessos e sucessos críticos que você rolar em salvamentos de Reflexos são falhas\n</li>\n</ul>"
+        },
+        "spell->Acid Grip": {
+          "name": "Aperto Ácido",
+          "description": "<p>Uma mão efêmera com garras agarra o alvo, queimando-o com ácido mágico. O alvo sofre 2d8 de dano de ácido mais @Damage[floor(@item.level/2)d6[persistent,acid]] de dano dependendo de seu salvamento de Reflexos. Uma criatura sofrendo dano persistente desta magia sofre -3 metros (10 pés) de penalidade de estado em suas Velocidades. @UUID[Compendium.pf2e.spell-effects.Item.6TGcfVyzzVHEo7ke]{Efeito de Magia: Garra Ácida}</p><hr /><p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura sofre metade do dano e nenhum dano persistente, e a garra a move até 1,5 metro (5 pés) em uma direção à sua escolha.</p>\n<p><strong>Falha</strong> A criatura sofre dano total e dano persistente, e a garra a move até 3 metros (10 pés) em uma direção à sua escolha.</p>\n<p><strong>Falha Crítica</strong> A criatura sofre dano dobrado e dano persistente total, e a garra a move até 6 metros (20 pés) em uma direção à sua escolha.</p><hr /><p><strong>Elevada (+2)</strong> O dano inicial aumenta em 2d8, e o dano persistente de ácido aumenta em 1d6.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Blazing Bolt": {
+          "name": "Raio Flamejante",
+          "description": "<p>Você dispara um raio de calor e chamas. Faça uma rolagem de ataque de magia contra uma única criatura. Em um acerto, o alvo sofre 2d6 de dano de fogo e, em um acerto crítico, o alvo sofre dano dobrado.</p>\n<p>Para cada ação adicional que você usar ao Conjurar a Magia, você pode disparar um raio adicional contra um alvo diferente, até o máximo de três raios mirando três alvos diferentes com 3 ações. Cada um desses ataques aumenta sua penalidade por ataques múltiplos, mas você não aumenta sua penalidade por ataques múltiplos até depois de fazer todas as rolagens de ataque de magia para <em>raio flamejante</em>. Se gastar 2 ou mais ações Conjurando a Magia, o dano aumenta para 4d6 de dano de fogo em um acerto, e ainda causa dano dobrado em um acerto crítico.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano a cada alvo aumenta em 1d6 para a versão de 1 ação, ou em 2d6 para as versões de 2 ações e 3 ações.</p>",
+          "target": "1 or more creatures"
+        },
+        "spell->Resist Energy": {
+          "name": "Resistir a Energia",
+          "target": "1 criatura"
+        },
+        "spell->Caustic Blast": {
+          "name": "Explosão Cáustica",
+          "description": "<p>Você arremessa uma grande massa de ácido que detona imediatamente, borrifando criaturas próximas. Criaturas na área sofrem 1d8 de dano de ácido com um salvamento básico de Reflexos; em uma falha crítica, a criatura também sofre @Damage[(1+floor((@item.rank -1)/2))[persistent,acid]] de dano.</p>\n<hr />\n<p><strong>Elevada (+2)</strong> O dano inicial aumenta em 1d8, e o dano persistente em uma falha crítica aumenta em 1.</p>"
+        },
+        "spell->Detect Magic": {
+          "name": "Detectar Magia",
+          "description": "<p>Você emite um pulso que registra a presença de magia. Você não recebe informações além da presença ou ausência de magia. Você pode escolher ignorar magia da qual esteja plenamente ciente, como os itens mágicos e magias contínuas seus e de seus aliados. Você detecta magia de ilusão somente se o efeito dessa magia tiver círculo menor que o círculo de sua magia <em>detectar magia</em>. Porém, itens que possuem uma aura de ilusão, mas não são enganadores na aparência (como uma <em>poção de invisibilidade</em>), normalmente são detectados.</p><hr /><p><strong>Elevada (3º)</strong> Você descobre o círculo ou nível do efeito mágico mais poderoso que a magia detecta, conforme determinado pelo MJ.</p>\n<p><strong>Elevada (4º)</strong> Como 3º círculo, mas você também localiza a fonte da magia de maior círculo. Como em um sentido impreciso, você não descobre a localização exata, mas pode restringir a fonte a um cubo de 1,5 metro (5 pés) (ou ao mais próximo, se for maior que isso).</p>"
+        },
+        "spell->Fear": {
+          "name": "Medo",
+          "description": "<p>Você planta medo no alvo e ele deve tentar um salvamento de Vontade.</p><p><hr /><strong>Sucesso Crítico</strong>  O alvo não é afetado.</p><p><strong>Sucesso</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 1.</p><p><strong>Falha</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 2.</p><p><strong>Falha Crítica</strong>  O alvo fica @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{assustado} 3 e @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{fugindo} por 1 rodada.</p><p><hr /><strong>Elevada (3º)</strong>  Você pode afetar até cinco criaturas.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Frostbite": {
+          "name": "Geladura",
+          "description": "<p>Um orbe de frio cortante se aglutina ao redor do alvo, congelando o corpo dele. O alvo sofre 2d4 de dano eversivo, com direito a um salvamento básico de Fortitude. Com uma falha crítica, o alvo também adquire fraqueza contundente 1 até o início do seu próximo turno.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DdqWMj7cuf4S1bgr]{Efeito de Magia: Geladura}</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d4 e a fraqueza da falha crítica em 1.</p>",
+          "target": "1 criatura"
+        },
+        "spell->Message": {
+          "name": "Mensagem",
+          "description": "<p>Você murmura palavras discretamente, mas em vez de saírem de sua boca, elas são transferidas diretamente aos ouvidos do alvo. Embora outros não possam ouvir suas palavras melhor do que um sussurro inaudível, o alvo pode ouvir suas palavras como se estivesse próximo de você. O alvo pode dar uma resposta breve como uma reação ou, se preferir, como uma ação livre no próximo turno dele, mas deve ser capaz de vê-lo e estar na distância desta magia para fazê-lo. Se ele responder, essa resposta é entregue diretamente em seus ouvidos, da mesma forma que a mensagem original.</p><p><strong>Elevada (3º)</strong> A distância da magia aumenta para 150 metros.<p>",
+          "target": "1 criatura"
+        },
+        "spell->Mud Pit": {
+          "name": "Mud Pit",
+          "description": "<p>Thick, clinging mud covers the ground, 1 foot deep. The mud is difficult terrain.</p>"
+        },
+        "spell->Shield": {
+          "name": "Escudo",
+          "description": "<p>Você ergue um escudo de força mágica. Isso conta como usar a ação Erguer Escudo, concedendo-lhe +1 de bônus de circunstância na CA até o início de seu próximo turno, mas ele não requer nenhuma mão para ser usado.</p>\n<p>Enquanto esta magia estiver em vigor, você pode usar a reação @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Bloqueio com Escudo} usando seu escudo mágico. O escudo tem Dureza 5. Você pode usar a reação desta magia para reduzir o dano de qualquer magia ou efeito mágico, até mesmo os que não causam dano físico. Após usar Bloqueio com Escudo, esta magia se encerra e você não pode conjurá-la novamente por 10 minutos.</p>\n<p>@Compendium[pf2e.spell-effects.Jemq5UknGdMO7b73]{Efeito de Magia: Escudo Místico}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Efeito: Imunidade a Escudo Místico}</p>\n<hr />\n<p><strong>Elevada (+2)</strong> A Dureza do escudo aumenta em 5.</p>"
+        },
+        "spell->Thunderstrike": {
+          "name": "Golpe Trovejante",
+          "description": "<p>Você invoca um filamento de relâmpago que estala com trovão, causando 1d12 de dano de eletricidade e 1d4 de dano sônico ao alvo com um salvamento básico de Reflexos. Um alvo vestindo armadura de metal ou feito de metal sofre -1 de penalidade de circunstância em seu salvamento e, se for danificado pela magia, fica @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Desajeitado 1} por 1 rodada.</p>\n<hr />\n<p><strong>Elevada (+1)</strong> O dano aumenta em 1d12 de eletricidade e 1d4 sônico.</p>",
+          "target": "1 criatura"
+        },
+        "weapon->Sling": {
+          "name": "Funda",
+          "description": "<p><span class=\"fontstyle0\">Pouco mais que um recipiente de couro preso a uma par de tiras, a funda pode ser usada para arremessar pedras lisas ou balas de funda à distância.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Scythe": {
+          "name": "Segadeira",
+          "description": "<p>Derivada de uma ferramenta agrícola usada para ceifar grãos e cereais longos, esta arma possui um cabo comprido de madeira com empunhaduras protuberantes, encimado por uma lâmina curva ajustada em um ângulo reto.</p>"
+        },
+        "armor->Hide Armor": {
+          "name": "Gibão de Peles",
+          "description": "<p>Uma mistura de peles, couro resistente e às vezes couro fervido moldado, esta armadura fornece proteção devido às suas camadas de couro, embora seu volume torne o usuário mais lento e reduza a mobilidade.</p>"
+        },
+        "equipment->Primal Symbol": {
+          "name": "Símbolo Primal",
+          "description": "<p>Conjuradores primais, especialmente druidas, frequentemente usam adornos de materiais naturais para simbolizar sua conexão com a natureza, como anéis de plantas trançadas, talismãs feitos de partes de animais ou outros símbolos relacionados a uma ordem druídica ou filosofia da natureza.</p>"
+        },
+        "ammo->Sling Bullets": {
+          "name": "Balas de funda",
+          "description": "<p><span>Estas pequenas bolas de metal, tipicamente de ferro ou chumbo, são projetadas para serem usadas como munição de fundas. </p>"
+        },
+        "strike-ranged->Sling": {
+          "name": "Funda"
+        },
+        "strike-melee->Scythe": {
+          "name": "Segadeira"
+        }
+      }
+    },
+    "Umbral Gnome Scout (BB)": {
+      "items": {
+        "spellcastingEntry->Spells": {
+          "name": "Magias"
+        },
+        "spell->Ill Omen": {
+          "name": "Mau Presságio",
+          "description": "<p>O alvo é atingido pelo infortúnio, ficando desequilibrado. Ele precisa fazer um salvamento de Vontade.</p>\n<p><strong>Sucesso</strong> O alvo não é afetado.</p>\n<p><strong>Falha</strong> Enquanto esta magia durar, na primeira vez que o alvo fizer um teste de ataque ou de perícia, ele precisa jogar duas vezes e usar o pior resultado.</p>\n<p><strong>Falha crítica</strong> Enquanto esta magia durar, sempre que o alvo fizer um teste de ataque ou de perícia, ele precisa jogar duas vezes e usar o pior resultado.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.AmsVO5Q6078mEvNt]{Efeito de Magia: Mau Presságio}</p>",
+          "target": "1 criatura"
+        },
+        "weapon->Sling": {
+          "name": "Funda",
+          "description": "<p><span class=\"fontstyle0\">Pouco mais que um recipiente de couro preso a uma par de tiras, a funda pode ser usada para arremessar pedras lisas ou balas de funda à distância.  <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"> </p>"
+        },
+        "weapon->Sickle": {
+          "name": "Foice",
+          "description": "<p> Originalmente uma ferramenta agrícola usada para colher grãos, esta arma de uma mão possui um cabo curto de madeira que termina em uma lâmina curva, às vezes afiada nos dois lados</p>"
+        },
+        "ammo->Sling Bullets": {
+          "name": "Balas de funda",
+          "description": "<p><span>Estas pequenas bolas de metal, tipicamente de ferro ou chumbo, são projetadas para serem usadas como munição de fundas. </p>"
+        },
+        "strike-ranged->Sling": {
+          "name": "Funda"
+        },
+        "strike-melee->Sickle": {
+          "name": "Foice"
+        }
+      }
+    },
+    "Umbral Gnome Warrior (BB)": {
+      "items": {
+        "spell->Illusory Disguise": {
+          "name": "Disfarce Ilusório",
+          "description": "<p>Você cria uma ilusão que faz com que o alvo pareça outra criatura com o mesmo formato corporal e com altura e peso semelhante ao seu (diferença de até 15 centímetros e 25 kg). O disfarce normalmente é bom o suficiente para esconder sua identidade, mas não para personificar um indivíduo específico. A magia muda sua aparência e voz, mas não seus maneirismos. Você pode alterar a aparência das suas roupas e itens equipados, como fazer com que sua armadura pareça um vestido. Itens segurados não são afetados e qualquer item equipado removido da criatura retorna à sua aparência verdadeira.</p>\n<p>Conjurar <em>disfarce ilusório</em> conta como criar um disfarce para os propósitos da ação @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]Personificar}; ele ignora as penalidades de circunstância que o alvo pode ter por se disfarçar de uma criatura diferente dele, concedendo +4 de bônus de estado em testes de Dissimulação para impedir que outras pessoas vejam através do disfarce, permitindo que o alvo adicione seu nível ao teste, mesmo que seja destreinado. Você pode Dispensar esta magia.</p>\n<hr />\n<p><strong>Elevada (3º)</strong> O alvo pode aparecer como qualquer criatura do mesmo tamanho, até mesmo um indivíduo específico. Você precisa ter visto um indivíduo para replicar a aparência dele e ouvido a voz para poder replicá-la.</p>\n<p><strong>Elevada (4º)</strong> Você pode visar até 10 criaturas voluntárias. Se esta magia for usada em mais de uma criatura, é possível escolher um disfarce diferente para cada alvo, mas nenhum poderá per- sonificar um indivíduo específico. Você pode Dispensar cada dis- farce individualmente ou todos de uma vez.</p>\n<p><strong>Elevada (7º)</strong> Como no 4º ranque, mas você pode escolher disfarces que personifiquem indivíduos específicos. Você precisa ter visto um indivíduo para replicar a aparência dele e ouvido a voz para poder replicá-la.</p>\n<p>@Compendium[pf2e.spell-effects.3Ktyd5F9lOPo4myk]{Efeito de Magia: Disfarce Ilusório}</p>",
+          "target": "1 criatura voluntária"
+        },
+        "weapon->Heavy Crossbow": {
+          "name": "Besta Pesada",
+          "description": "<p><span class=\"fontstyle0\">Esta besta grande é mais difícil de recarregar e mais substancial do que uma besta convencional, mas dá golpes mais potentes.  </p>"
+        },
+        "weapon->Spear": {
+          "name": "Lança",
+          "description": "<p>Uma longa haste de madeira terminada em uma ponta metálica, uma lança pode ser usada com uma mão como arma corpo a corpo e pode ser arremessada.</p>"
+        },
+        "shield->Steel Shield": {
+          "name": "Escudo de aço",
+          "description": "<p>Assim como escudos de madeira, escudos de aço existem em uma variedade de formatos e tamanhos. Embora sejam mais caros que escudos de madeira, são muito mais duráveis.</p><table class=\"pf2e remaster\"><thead><tr><th>Dureza</th><th>PV</th><th>LL</th></tr></thead><tbody><tr>\u000015<th>16\u0000<td>20</td>\u000019</th>20\u0000</tr></tbody></table>"
+        },
+        "armor->Studded Leather Armor": {
+          "name": "Couro Batido",
+          "description": "<p><span class=\"fontstyle0\">Esta armadura de couro é reforçada com tachas de metal e, às vezes, pequenas placas metálicas, fornecendo a maior parte da flexibilidade de uma armadura de couro, mas providenciando uma proteção mais robusta  </p>"
+        },
+        "ammo->Bolts": {
+          "name": "Virotes",
+          "description": "<p><span class=\"fontstyle0\">Mais curtos do que as flechas tradicionais, mas tendo construção similar, virotes são a munição usadas por bestas.  </p>"
+        },
+        "strike-melee->Spear": {
+          "name": "Lança"
+        },
+        "strike-ranged->Heavy Crossbow": {
+          "name": "Besta Pesada"
+        },
+        "action->Raise a Shield": {
+          "name": "Erguer um Escudo"
+        },
+        "action->Shield Block": {
+          "name": "Bloqueio com Escudo"
+        }
+      }
+    },
     "Viper (BB)": {
       "items": {
         "strike-melee->Fangs": {
@@ -666,6 +1138,21 @@
         },
         "action->Pack Attack": {
           "name": "Ataque de matilha"
+        }
+      }
+    },
+    "Water Scamp (BB)": {
+      "items": {
+        "spellcastingEntry->Spells": {
+          "name": "Magias"
+        },
+        "spell->Acid Grip": {
+          "name": "Aperto Ácido",
+          "description": "<p>Uma mão efêmera com garras agarra o alvo, queimando-o com ácido mágico. O alvo sofre 2d8 de dano de ácido mais @Damage[floor(@item.level/2)d6[persistent,acid]] de dano dependendo de seu salvamento de Reflexos. Uma criatura sofrendo dano persistente desta magia sofre -3 metros (10 pés) de penalidade de estado em suas Velocidades. @UUID[Compendium.pf2e.spell-effects.Item.6TGcfVyzzVHEo7ke]{Efeito de Magia: Garra Ácida}</p><hr /><p><strong>Sucesso Crítico</strong> A criatura não é afetada.</p>\n<p><strong>Sucesso</strong> A criatura sofre metade do dano e nenhum dano persistente, e a garra a move até 1,5 metro (5 pés) em uma direção à sua escolha.</p>\n<p><strong>Falha</strong> A criatura sofre dano total e dano persistente, e a garra a move até 3 metros (10 pés) em uma direção à sua escolha.</p>\n<p><strong>Falha Crítica</strong> A criatura sofre dano dobrado e dano persistente total, e a garra a move até 6 metros (20 pés) em uma direção à sua escolha.</p><hr /><p><strong>Elevada (+2)</strong> O dano inicial aumenta em 2d8, e o dano persistente de ácido aumenta em 1d6.</p>",
+          "target": "1 criatura"
+        },
+        "strike-melee->Claw": {
+          "name": "Garra"
         }
       }
     },
@@ -690,6 +1177,9 @@
         },
         "strike-melee->Dagger": {
           "name": "Adaga"
+        },
+        "action->Final Spite": {
+          "name": "Despeito Final"
         }
       }
     },
@@ -762,6 +1252,7 @@
   },
   "mapping": {
     "acDetails": "system.attributes.ac.details",
+    "blurb": "system.details.blurb",
     "description": {
       "converter": "translateActorDescription",
       "path": "translateActorDescription"
@@ -787,6 +1278,7 @@
     },
     "reset": "system.details.reset",
     "routine": "system.details.routine",
+    "saveDetails": "system.attributes.allSaves.value",
     "senses": "system.perception.details",
     "skillSpecialAthletics": {
       "converter": "translateSkillSpecial",
